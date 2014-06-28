@@ -5,11 +5,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-270"
-		"ypos"			"c25"
+		"xpos"			"c-288"
+		"ypos"			"c18"
 		"zpos"			"2"
-		"wide"			"250"
-		"tall"			"120"
+		"wide"			"200"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
@@ -27,7 +27,7 @@
 		"tall"			"51"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}		
 	"PlayerStatusHealthImageBG"
 	{
