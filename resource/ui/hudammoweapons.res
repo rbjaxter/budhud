@@ -2,7 +2,7 @@
 {
         "HudWeaponAmmoBG"
         {
-                "ControlName"   "CTFImagePanel"
+                "ControlName"   		"CTFImagePanel"
                 "fieldName"             "HudWeaponAmmoBG"
                 "xpos"                  "9999"
                 "ypos"                  "9999"
@@ -20,7 +20,7 @@
         }
         "HudWeaponLowAmmoImage"
         {
-                "ControlName"   "ImagePanel"
+                "ControlName"   		"ImagePanel"
                 "fieldName"             "HudWeaponLowAmmoImage"
                 "xpos"                  "9999"
                 "ypos"                  "9999"
@@ -38,9 +38,9 @@
         }
         "AmmoInClip"
         {
-                "ControlName"   "CExLabel"
+                "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoInClip"
-                "font"                  "DesignosaurRegular36"
+                "font"                  "DesignosaurRegular48"
                 "fgcolor"               "bud_white"
                 "xpos"                  "-18"
                 "ypos"                  "-11"
@@ -55,12 +55,12 @@
         }              
         "AmmoInClipShadow"
         {
-                "ControlName"   "CExLabel"
+                "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoInClipShadow"
-                "font"                  "DesignosaurRegular36"
+                "font"                  "DesignosaurRegular48"
                 "fgcolor"               "bud_black"
                 "xpos"                  "-16"
-                "ypos"                  "-9"
+                "ypos"                  "-10"
                 "zpos"                  "5"
                 "wide"                  "80"
                 "tall"                  "80"
@@ -72,9 +72,9 @@
         }                                              
         "AmmoInReserve"
         {
-                "ControlName"   "CExLabel"
+                "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoInReserve"
-                "font"                  "DesignosaurRegular20"
+                "font"                  "DesignosaurRegular24"
                 "fgcolor"               "bud_white"
                 "xpos"                  "67"
                 "ypos"                  "-10"
@@ -88,10 +88,10 @@
         }              
         "AmmoInReserveShadow"
         {
-                "ControlName"   "CExLabel"
+                "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoInReserveShadow"
-                "font"                  "DesignosaurRegular20"
-                "fgcolor"               "TransparentBlack"
+                "font"                  "DesignosaurRegular24"
+                "fgcolor"               "bud_black"
                 "xpos"                  "68"
                 "ypos"                  "-9"
                 "zpos"                  "7"
@@ -104,9 +104,9 @@
         }                                                                      
         "AmmoNoClip"
         {
-                "ControlName"   "CExLabel"
+                "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoNoClip"
-                "font"                  "DesignosaurRegular36"
+                "font"                  "DesignosaurRegular48"
                 "fgcolor"               "bud_white"
                 "xpos"                  "26"
                 "ypos"                  "-11"
@@ -121,9 +121,9 @@
         }      
         "AmmoNoClipShadow"
         {
-                "ControlName"   "CExLabel"
+                "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoNoClipShadow"
-                "font"                  "DesignosaurRegular36"
+                "font"                  "DesignosaurRegular48"
                 "fgcolor"               "TransparentBlack"
                 "xpos"                  "28"
                 "ypos"                  "-9"
