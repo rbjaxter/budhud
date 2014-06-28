@@ -77,7 +77,7 @@
                 "font"                  "DesignosaurRegular24"
                 "fgcolor"               "bud_white"
                 "xpos"                  "67"
-                "ypos"                  "-10"
+                "ypos"                  "-18"
                 "zpos"                  "7"
                 "wide"                  "60"
                 "tall"                  "80"
@@ -93,7 +93,7 @@
                 "font"                  "DesignosaurRegular24"
                 "fgcolor"               "bud_black"
                 "xpos"                  "68"
-                "ypos"                  "-9"
+                "ypos"                  "-17"
                 "zpos"                  "7"
                 "wide"                  "60"
                 "tall"                  "80"
@@ -124,7 +124,7 @@
                 "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoNoClipShadow"
                 "font"                  "DesignosaurRegular48"
-                "fgcolor"               "TransparentBlack"
+                "fgcolor"               "bud_black"
                 "xpos"                  "28"
                 "ypos"                  "-9"
                 "zpos"                  "5"
@@ -135,5 +135,5 @@
                 "textAlignment" "center"               
                 "labelText"             "%Ammo%"
                
-        }                                                                      
+        }
 }
