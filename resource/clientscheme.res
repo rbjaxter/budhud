@@ -20,8 +20,11 @@ Scheme
 	{
 	
 		// budhud
-		"bud_white"			"255 255 255 255"
-		"bud_black"			"0 0 0 255"
+		"bh_white"			"255 255 255 255"
+		"bh_black"			"0 0 0 255"
+		"bh_red"			"228  0  27 255" // hudanimations_tf.txt > HudHealthDyingPulse
+		"bh_lblue"			"0 153 255 255" // hudanimations_tf.txt > HudHealthBonusPulse
+		"bh_gray"			"150 150 150 255" // hudanimations_tf.txt > HudLowAmmoPulse
 		
 		// base colors
 		"Orange"			"178 82 22 255"
