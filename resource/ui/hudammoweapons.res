@@ -76,8 +76,8 @@
                 "fieldName"             "AmmoInReserve"
                 "font"                  "DesignosaurRegular24"
                 "fgcolor"               "bh_white"
-                "xpos"                  "120"
-                "ypos"                  "-10"
+                "xpos"                  "125"
+                "ypos"                  "-8"
                 "zpos"                  "7"
                 "wide"                  "200"
                 "tall"                  "100"
@@ -92,8 +92,8 @@
                 "fieldName"             "AmmoInReserveShadow"
                 "font"                  "DesignosaurRegular24"
                 "fgcolor"               "bh_black"
-                "xpos"                  "122"
-                "ypos"                  "-8"
+                "xpos"                  "127"
+                "ypos"                  "-6"
                 "zpos"                  "7"
                 "wide"                  "200"
                 "tall"                  "100"
@@ -136,4 +136,5 @@
                 "labelText"             "%Ammo%"
                
         }
+
 }
