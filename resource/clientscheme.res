@@ -2410,6 +2410,16 @@ Scheme
 		//
 		//////////////////// BUDHUD FONTS /////////////////////////
 		//
+		DesignosaurRegular6
+		{
+			"1"
+			{
+				"name"		"Designosaur"
+				"tall"		"6"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
 		DesignosaurRegular12
 		{
 			"1"

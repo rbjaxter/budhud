@@ -353,7 +353,7 @@
 				"scaleImage"	"1"
 				"teambg_1"		"../hud/color_panel_brown"
 				"teambg_2"		"../hud/color_panel_red"
-				"Teambg_3"		"../hud/color_panel_blu"
+				"teambg_3"		"../hud/color_panel_blu"
 		
 				"src_corner_height"		"40"
 				"src_corner_width"		"40"
