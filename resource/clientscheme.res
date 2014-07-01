@@ -2420,6 +2420,36 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		DesignosaurRegular8
+		{
+			"1"
+			{
+				"name"		"Designosaur"
+				"tall"		"8"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		DesignosaurRegular9
+		{
+			"1"
+			{
+				"name"		"Designosaur"
+				"tall"		"9"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		DesignosaurRegular10
+		{
+			"1"
+			{
+				"name"		"Designosaur"
+				"tall"		"10"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
 		DesignosaurRegular12
 		{
 			"1"
