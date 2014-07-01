@@ -5,14 +5,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"ypos"			"r92"	[$WIN32]
-		"xpos_minmode"	"r70"	[$WIN32]
-		"ypos_minmode"	"r74"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"c350"
+		"ypos"			"c188"
+		"wide"			"200"
+		"tall"			"150"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -21,14 +17,13 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"0"
+		"xpos"			"6969"
+		"ypos"			"6969"
 		"zpos"			"0"
 		"wide"			"76"
 		"tall"			"44"
-		"visible"		"1"
-		"visible_minmode"	"0"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
@@ -42,7 +37,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"25"
-		"ypos"					"27"
+		"ypos"					"30"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -55,7 +50,8 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"DesignosaurRegular12"
+		"fgcolor_override"		"bh_white"
 	}
 
 	"ItemEffectMeter"
@@ -97,6 +93,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
+		"font"					"DesignosaurRegular20"
+		"fgcolor_override"		"bh_white"
 	}
 }

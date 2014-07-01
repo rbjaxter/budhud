@@ -240,7 +240,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c0"
-		"ypos"		"c51"
+		"ypos"		"c49"
 		"wide"	 	"200"
 		"tall"	 	"100"
 		"priority"	"40"
