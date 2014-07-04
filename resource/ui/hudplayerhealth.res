@@ -359,5 +359,5 @@
 				"src_corner_width"		"40"
 				"draw_corner_width"		"0"
 				"draw_corner_height"	"0"
-	}		
+		}		
 }

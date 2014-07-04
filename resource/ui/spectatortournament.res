@@ -11,19 +11,19 @@
 		"enabled"			"1"
 				
 		"team1_player_base_offset_x"		"c"
-		"team1_player_base_y"				"145"
+		"team1_player_base_y"				"65"
 		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"23"
-		"team2_player_base_offset_x"		"25"
-		"team2_player_base_y"				"0"
-		"team2_player_delta_x"				"47"
-		"team2_player_delta_y"				"0"
+		"team1_player_delta_y"				"20"
+		"team2_player_base_offset_x"		"c"
+		"team2_player_base_y"				"255"
+		"team2_player_delta_x"				"0"
+		"team2_player_delta_y"				"20"
 		
 		"playerpanels_kv"
 		{
 			"visible"		"0"
 			"wide"			"150"
-			"tall"			"26"
+			"tall"			"20"
 			"zpos"			"1"
 			
 			"color_ready"	"0 255 0 220"
@@ -33,12 +33,12 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"playername"
-				"font"				"DesignosaurRegular12"
-				"xpos"				"69"
-				"ypos"				"6"
+				"font"				"DesignosaurRegular10"
+				"xpos"				"50"
+				"ypos"				"3"
 				"zpos"				"5"
 				"wide"				"75"
-				"tall"				"15"
+				"tall"				"16"
 				"autoResize"		"0"
 				"pinCorner"			"0"
 				"visible"			"1"
@@ -105,7 +105,7 @@
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
 				"xpos"				"22"
-				"ypos"				"-1"
+				"ypos"				"-4"
 				"zpos"				"3"
 				"wide"				"32"
 				"tall"				"32"
@@ -169,20 +169,20 @@
 			
 			"respawntime"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"respawntime"
-				"font"			"DefaultSmall"
-				"xpos"			"30"
-				"ypos"			"18"
-				"zpos"			"5"
-				"wide"			"23"
-				"tall"			"10"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%respawntime%"
-				"textAlignment"	"west"
-				//"fgcolor"		"235 226 202 255"
+				"ControlName"		"CExLabel"
+				"fieldName"			"respawntime"
+				"font"				"DesignosaurRegular12"
+				"xpos"				"1"
+				"ypos"				"3"
+				"zpos"				"6"
+				"wide"				"25"
+				"tall"				"16"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"labelText"			"%respawntime%"
+				"textAlignment"		"center"
+				"fgcolor_override"	"bh_white"
 				
 				if_mvm
 				{
@@ -194,8 +194,8 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"chargeamount"
-				"font"				"DesignosaurRegular16"
-				"xpos"				"44"
+				"font"				"DesignosaurRegular12"
+				"xpos"				"1"
 				"ypos"				"5"
 				"zpos"				"6"
 				"wide"				"25"
@@ -206,6 +206,23 @@
 				"labelText"			"%chargeamount%"
 				"textAlignment"		"north"
 				"fgcolor_override"	"bh_lorange"
+			}
+			"chargeamountshadow"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"			"chargeamountshadow"
+				"font"				"DesignosaurRegular12"
+				"xpos"				"2"
+				"ypos"				"6"
+				"zpos"				"6"
+				"wide"				"25"
+				"tall"				"15"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"labelText"			"%chargeamount%"
+				"textAlignment"		"north"
+				"fgcolor_override"	"bh_black"
 			}
 			
 			"specindex"
@@ -220,7 +237,7 @@
 				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
+				"visible"		"0"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
@@ -441,5 +458,5 @@
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 		}
-	}	
+	}
 }
