@@ -22,7 +22,7 @@ Scheme
 		// budhud
 		"bh_white"			"255 255 255 255"
 		"bh_black"			"0 0 0 255"
-		"bh_red"			"228  0  27 255" // hudanimations_tf.txt > HudHealthDyingPulse
+		"bh_red"			"228 0 27 255" // hudanimations_tf.txt > HudHealthDyingPulse
 		"bh_lblue"			"0 153 255 255" // hudanimations_tf.txt > HudHealthBonusPulse
 		"bh_gray"			"150 150 150 255" // hudanimations_tf.txt > HudLowAmmoPulse
 		"bh_lorange"		"243 157 48 255" // hudanimations_tf.txt > ChargeLabel ChargeMeter

@@ -22,7 +22,7 @@
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"150"
+			"wide"			"145"
 			"tall"			"20"
 			"zpos"			"1"
 			
@@ -34,7 +34,7 @@
 				"ControlName"		"CExLabel"
 				"fieldName"			"playername"
 				"font"				"DesignosaurRegular10"
-				"xpos"				"50"
+				"xpos"				"55"
 				"ypos"				"3"
 				"zpos"				"5"
 				"wide"				"75"
