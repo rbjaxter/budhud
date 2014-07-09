@@ -77,17 +77,17 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"3"
-		"labelText"				""	[$WIN32]
-		"textAlignment"			"center"
+		"labelText"				"&3"	[$WIN32]
+		"textAlignment"			"north-west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"paintborder"			"0"
 		"command"				"jointeam blue"
 		"team"					"3"		// team blue
 		"associated_model"		"bluedoor"
-		"hover"					"2.0"
-		"font"					"DesignosaurRegular36"
-		"fgcolor"				"255 255 255 255"
+		"hover"					".1"
+		"font"					"DesignosaurRegular12"
+		"fgcolor_override"		"bh_white"
 	}
 
 	"teambutton1"
@@ -96,7 +96,7 @@
 		"fieldName"				"teambutton1"
 		"xpos"					"c0"
 		"ypos"					"c-75"
-		"zpos"					"3"
+		"zpos"					"-10"
 		"wide"					"100"
 		"tall"					"100"
 		"autoResize"			"0"
@@ -104,8 +104,8 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"4"
-		"labelText"				""	[$WIN32]
-		"textAlignment"			"center"
+		"labelText"				"&4"	[$WIN32]
+		"textAlignment"			"north-east"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"paintborder"			"0"
@@ -113,8 +113,8 @@
 		"team"					"2"		// team red
 		"associated_model"		"reddoor"	
 		"hover"					"2.0"
-		"font"					"DesignosaurRegular36"
-		"fgcolor"				"255 255 255 255"
+		"font"					"DesignosaurRegular12"
+		"fgcolor_override"		"bh_white"
 	}
 
 	"teambutton2"
@@ -131,14 +131,14 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"1"
-		"labelText"				"Random"
+		"labelText"				"Random (&R)"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"paintborder"			"0"
 		"command"				"jointeam auto"
 		"associated_model"		"autodoor"
-		"font"					"DesignosaurRegular20"
+		"font"					"DesignosaurRegular16"
 		"fgcolor"				"bh_white"
 	}
 	
@@ -156,14 +156,14 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"2"
-		"labelText"				"Spectate"
+		"labelText"				"Spectate (&e)"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"paintborder"			"0"
 		"command"				"jointeam spectate"
 		"associated_model"		"spectate"	
-		"font"					"DesignosaurRegular20"
+		"font"					"DesignosaurRegular16"
 		"fgcolor"				"255 255 255 255"
 	}
 	
@@ -172,7 +172,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"c-100"
-		"ypos"			"c100"
+		"ypos"			"c92"
 		"zpos"			"6"
 		"wide"			"200"
 		"tall"			"20"
@@ -805,6 +805,49 @@
 		"fillcolor" 			"204 93 27 32"
 		"draw_corner_width"		"5"
 		"draw_corner_height"	"5"
+	}
+	"BGteammenuCancel"
+	{
+		"ControlName" 			"ImagePanel"
+		"fieldName" 			"BGteammenuAuto"
+		"xpos"					"c-50"
+		"ypos"					"c89"
+		"zpos"					"3"
+		"wide"					"100"
+		"tall"					"25"
+		"autoResize" 			"0"
+		"pinCorner"				"0"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"fillcolor" 			"0 0 0 64"
+		"draw_corner_width"		"5"
+		"draw_corner_height"	"5"
+	}
+	"CancelButton2" [$WIN32] 
+	{
+		"ControlName"				"CExButton"
+		"fieldName"					"CancelButton2"
+		"xpos"						"6969"
+		"ypos"						"6969"
+		"zpos"						"6"
+		"wide"						"255"
+		"tall"						"30"
+		"autoResize"				"0"
+		"pinCorner"					"2"
+		"visible"					"0"
+		"enabled"					"0"
+		"tabPosition"				"0"
+		"labelText"					"#TF_Cancel"
+		"textAlignment"				"center"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"paintbackground"			"0"
+		"command"					"cancelmenu"
+		"font"						"DesignosaurRegular16"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"bh_red"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"bh_red"
 	}
 }
 
