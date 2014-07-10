@@ -289,15 +289,15 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"ShadedBar"
-		"xpos"					"12"
-		"ypos"					"116"
+		"xpos"					"6969"
+		"ypos"					"6969"
 		"zpos"					"2"
 		"wide"					"268"
 		"tall"					"125"
 		"autoResize"			"0"
 		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"tabPosition"			"0"	
 		"fillcolor"				"0 0 0 200"
 		"PaintBackgroundType"	"0"
@@ -700,7 +700,7 @@
 	}
 	"KillStreakPlayer1Score"
 	{	
-		"ControlName"		"CExLabel"
+		"ControlName"			"CExLabel"
 		"fieldName"				"KillStreakPlayer1Score"
 		"xpos"					"240"
 		"ypos"					"213"

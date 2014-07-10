@@ -256,5 +256,4 @@
 		"draw_corner_width"		"5"
 		"draw_corner_height"	"5"
 	}
-
 }

@@ -8,8 +8,6 @@
 		"ypos"					"0"
 		"zpos"					"1"
 		"wide"					"110"
-		"wide_hidef"			"300"
-		"wide_lodef"			"300"
 		"tall"					"150"
 		"visible"				"0"
 		"enabled"				"1"
@@ -20,7 +18,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"DesignosaurRegular20"
 		
 		"TimePanelValue"
 		{

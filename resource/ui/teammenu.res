@@ -87,7 +87,7 @@
 		"associated_model"		"bluedoor"
 		"hover"					".1"
 		"font"					"DesignosaurRegular12"
-		"fgcolor_override"		"bh_white"
+		"fgcolor"				"bh_gray"
 	}
 
 	"teambutton1"
@@ -96,7 +96,7 @@
 		"fieldName"				"teambutton1"
 		"xpos"					"c0"
 		"ypos"					"c-75"
-		"zpos"					"-10"
+		"zpos"					"0"
 		"wide"					"100"
 		"tall"					"100"
 		"autoResize"			"0"
@@ -114,7 +114,7 @@
 		"associated_model"		"reddoor"	
 		"hover"					"2.0"
 		"font"					"DesignosaurRegular12"
-		"fgcolor_override"		"bh_white"
+		"fgcolor"				"bh_gray"
 	}
 
 	"teambutton2"
@@ -123,7 +123,7 @@
 		"fieldName"				"teambutton2"
 		"xpos"					"c0"
 		"ypos"					"c25"
-		"zpos"					"3"
+		"zpos"					"5"
 		"wide"					"100"
 		"tall"					"50"
 		"autoResize"			"0"
@@ -148,7 +148,7 @@
 		"fieldName"				"teambutton3"
 		"xpos"					"c-100"
 		"ypos"					"c25"
-		"zpos"					"3"
+		"zpos"					"5"
 		"wide"					"100"
 		"tall"					"50"
 		"autoResize"			"0"
@@ -156,7 +156,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"2"
-		"labelText"				"Spectate (&e)"
+		"labelText"				"Spectate (&E)"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -164,7 +164,7 @@
 		"command"				"jointeam spectate"
 		"associated_model"		"spectate"	
 		"font"					"DesignosaurRegular16"
-		"fgcolor"				"255 255 255 255"
+		"fgcolor"				"bh_white"
 	}
 	
 	"CancelButton" [$WIN32] 
@@ -778,7 +778,7 @@
 		"fieldName" 			"BGteammenuSpectator"
 		"xpos"					"c-100"
 		"ypos"					"c25"
-		"zpos"					"3"
+		"zpos"					"2"
 		"wide"					"100"
 		"tall"					"50"
 		"autoResize" 			"0"
@@ -795,7 +795,7 @@
 		"fieldName" 			"BGteammenuAuto"
 		"xpos"					"c0"
 		"ypos"					"c25"
-		"zpos"					"3"
+		"zpos"					"2"
 		"wide"					"100"
 		"tall"					"50"
 		"autoResize" 			"0"

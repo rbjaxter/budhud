@@ -27,6 +27,7 @@ Scheme
 		"bh_gray"			"150 150 150 255" // hudanimations_tf.txt > HudLowAmmoPulse
 		"bh_lorange"		"243 157 48 255" // hudanimations_tf.txt > ChargeLabel ChargeMeter
 		"bh_dorange"		"204 93 27 255" // hudanimations_tf.txt > ChargeLabel ChargeMeter
+		"bh_orange"			"240 134 49 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
