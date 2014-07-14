@@ -6,7 +6,6 @@
 		"fieldName"				"BlueTimer"
 		"xpos"					"0"
 		"ypos"					"0"
-		"ypos_minmode"			"-14"
 		"zpos"					"2"
 		"wide"					"100"
 		"tall"					"150"
@@ -17,8 +16,6 @@
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
 		
 		"TimePanelValue"
 		{
@@ -79,14 +76,13 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
-		"xpos"				"6969"
-		"ypos"				"6969"
-		"zpos"				"1"
-		"wide"				"20"
-		"tall"				"20"
-		"visible"			"1"
+		"xpos"				"18"
+		"ypos"				"23"
+		"zpos"				"10"
+		"wide"				"80"
+		"tall"				"1"
+		"visible"			"0"
 		"enabled"			"1"
-		"image"				"../hud/objectives_timepanel_active_bg"	
-		"scaleImage"		"1"	
+		"fillcolor"			"bh_orange"
 	}
 }
