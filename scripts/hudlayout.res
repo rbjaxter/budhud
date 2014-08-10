@@ -43,11 +43,9 @@
 		"wide"	"200"
 		"tall"	"160"
 		
-		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
+		"blue_active_xpos"			"25"
 	
-		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
+		"red_active_xpos"			"115"
 	}	
 
 	HudItemEffectMeter
@@ -181,7 +179,7 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
+		"xpos"					"363"	[$WIN32]
 		"ypos"					"r152"	[$WIN32]
 		"ypos_minmode"			"r134"	[$WIN32]
 		"xpos"					"r194"	[$X360]
