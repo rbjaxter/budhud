@@ -12,10 +12,10 @@
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
+		"paintborder"			"0"
 		
 		"model_xpos"		"10"
-		"model_center_y"	"1"
+		"model_center_y"	"2"
 		"model_wide"		"64"
 		"model_tall"		"48"
 		
@@ -49,17 +49,17 @@
 			"pinCorner" "0"
 			"visible" "1"
 			"enabled" "1"
-			"fillcolor" "0 0 0 100"
+			"fillcolor" "64 64 64 250"
 		}
 		"TitleBackground"
 		{
 			"ControlName" "ImagePanel"
 			"fieldName" "TitleBackground"
-			"xpos" "4"
-			"ypos" "4"
+			"xpos" "0"
+			"ypos" "0"
 			"zpos" "-99"
-			"wide" "232"
-			"tall" "14"
+			"wide" "240"
+			"tall" "16"
 			"autoResize" "0"
 			"pinCorner" "0"
 			"visible" "1"
@@ -72,10 +72,10 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"Cerbetica12"
-			"xpos"			"10"
-			"ypos"			"5"
-			"zpos"			"1"
+			"font"			"DesignosaurRegular10"
+			"xpos"			"5"
+			"ypos"			"2"
+			"zpos"			"5"
 			"wide"			"270"
 			"tall"			"12"
 			"autoResize"	"0"
@@ -86,6 +86,7 @@
 			"textAlignment"	"south-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"fgcolor_override"	"bh_orange"
 		}
 	}	
 }

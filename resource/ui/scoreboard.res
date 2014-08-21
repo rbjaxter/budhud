@@ -66,17 +66,17 @@
 	"MainBG"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"		"MainBG"
-		"xpos"			"0"
-		"ypos"			"60"
-		"zpos"			"-1"
-		"wide"			"600"
-		"tall"			"388"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"border"		"TFThinLineBorder"
+		"fieldName"			"MainBG"
+		"xpos"				"0"
+		"ypos"				"60"
+		"zpos"				"-1"
+		"wide"				"600"
+		"tall"				"388"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"border"			"TFThinLineBorder"
 		
 		if_mvm
 		{

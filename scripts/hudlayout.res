@@ -461,8 +461,8 @@
 		"fieldName" 			"HudDeathNotice"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"xpos"	 				"r640"	[$WIN32]
-		"ypos"	 				"12"	[$WIN32]
+		"xpos"	 				"r638"	[$WIN32]
+		"ypos"	 				"10"	[$WIN32]
 		"xpos"	 				"r672"	[$X360]
 		"ypos"	 				"35"	[$X360]
 		"wide"	 				"628"
@@ -470,17 +470,17 @@
 
 		"MaxDeathNotices" 		"6"
 		"IconScale"	 			"0.35"
-		"LineHeight"		 	"16"
-		"LineSpacing"			"-1"
-		"CornerRadius"	 	 	"0"
+		"LineHeight"		 	"13"
+		"LineSpacing"			"1"
+		"CornerRadius"	 	 	"3"
 		"RightJustify"	 	 	"1"	// If 1, draw notices from the right
 		
 		"TextFont"				"DesignosaurRegular12"
 		
 		"TeamBlue"				"HUDBlueTeamSolid"
 		"TeamRed"				"HUDRedTeamSolid"
-		"IconColor"				"bh_gray"
-		"LocalPlayerColor"		"HUDBlack"
+		"IconColor"				"bh_white"
+		"LocalPlayerColor"		"bh_black"
 
 		"BaseBackgroundColor"	"bh_black"		[$WIN32]
 		"LocalBackgroundColor"	"bh_white"	[$WIN32]
@@ -1234,8 +1234,8 @@
 		"fieldName"				"HudInspectPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"r270"
-		"ypos"					"300"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"10"
 		"wide"					"270"
 		"tall"					"180"

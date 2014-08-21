@@ -514,7 +514,7 @@
 		"labelText"		"#SelectClassLoadout"
 		"textAlignment"	"north"
 		"xpos"			"0"
-		"ypos"			"300"
+		"ypos"			"5000"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"30"
