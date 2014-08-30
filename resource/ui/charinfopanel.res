@@ -51,7 +51,7 @@
 		"fieldName"								"BackgroundFooter"
 		"xpos"									"0"
 		"ypos"									"420"
-		"zpos"									"1"
+		"zpos"									"0"
 		"wide"									"f0"
 		"tall"									"60"
 		"visible"								"1"
@@ -103,11 +103,12 @@
 		{
 			"textinsetx"						"40"
 			"font"								"HudFontMediumBold"
-			"selectedcolor"						"200 187 161 255"
-			"unselectedcolor"					"130 120 104 255"	
+			"textAlignment"						"center"
+			"selectedcolor"						"bh_white"
+			"unselectedcolor"					"bh_gray"	
 			"defaultBgColor_override"			"46 43 42 255"
 			"paintbackground"					"0"
-			"activeborder_override"				"OutlinedGreyBox"
+			"activeborder_override"				"OutlinedDullGreyBox"
 			"normalborder_override"				"OutlinedDullGreyBox"
 		}
 	}

@@ -49,7 +49,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"CerbeticaBold12"
+		"font"			"DesignosaurRegular16"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"10"
@@ -61,7 +61,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 128 255 255"
+		"fgcolor_override" "bh_orange"
 	}
 	"ClassLabel"
 	{

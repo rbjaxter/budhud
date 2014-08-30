@@ -87,8 +87,8 @@ Scheme
 		// training
 		"HudTrainingHint"			"212 160 23 255"
 		
-		"TanDark"				"117 107 94 255"
-		"TanLight"				"235 226 202 255"
+		"TanDark"				"150 150 150 255"
+		"TanLight"				"255 255 255 255"
 		"TanDarker"				"46 43 42 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
@@ -190,7 +190,7 @@ Scheme
 	{
 		// vgui_controls color specifications
 		ReplayBrowser.BgColor								"DarkBrown"
-		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"LightRed"
+		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"200 128 255 255"
 		ReplayBrowser.Button.ArmedBgColor					"TFOrange"
 		ReplayBrowser.Button.DepressedBgColor				"TFOrange"
 		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
@@ -199,36 +199,36 @@ Scheme
 		ReplayBrowser.Search.BgColor						"TanDark"
 		ReplayBrowser.Search.FgColor						"White"
 		
-		Replay.RenderDialog.BgColor							"LighterDarkBrown"
+		Replay.RenderDialog.BgColor							"30 30 30 200"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"TanDark"
-		Econ.Button.FgColor									"TanLight"
-		Econ.Button.ArmedBgColor							"TFOrange"
-		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"TFOrange"
-		Econ.Button.DepressedFgColor						"Black"
+		Econ.Button.BgColor									"25 25 25 200"
+		Econ.Button.FgColor									"bh_white"
+		Econ.Button.ArmedBgColor							"35 35 35 200"
+		Econ.Button.ArmedFgColor							"bh_white"
+		Econ.Button.DepressedBgColor						"25 25 25 200"
+		Econ.Button.DepressedFgColor						"bh_white"
 		
-		Econ.Button.PresetDefaultColorFg					"TanLight"
-		Econ.Button.PresetArmedColorFg						"TanLight"
-		Econ.Button.PresetDepressedColorFg					"TanLight"
+		Econ.Button.PresetDefaultColorFg					"bh_orange"
+		Econ.Button.PresetArmedColorFg						"bh_orange"
+		Econ.Button.PresetDepressedColorFg					"bh_orange"
 		
-		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
-		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		Econ.Button.PresetDefaultColorBg					"25 25 25 200"
+		Econ.Button.PresetArmedColorBg						"50 50 50 200"
+		Econ.Button.PresetDepressedColorBg					"25 25 25 200"
 		
-		Border.Bright					"Blank"		// the lit side of a control
-		Border.Dark						"Black"		// the dark/unlit side of a control
-		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
+		Border.Bright					"NoBorder"		// the lit side of a control
+		Border.Dark						"NoBorder"		// the dark/unlit side of a control
+		Border.Selection				"NoBorder"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
-		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
-		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.TextColor				"bh_white"
+		Button.BgColor					"25 25 25 200"
+		Button.ArmedTextColor			"bh_white"
+		Button.ArmedBgColor				"35 35 35 200"
+		Button.SelectedTextColor		"bh_white"
+		Button.SelectedBgColor			"25 25 25 200"
+		Button.DepressedTextColor		"bh_white"
+		Button.DepressedBgColor			"35 35 35 200"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -2406,11 +2406,8 @@ Scheme
 			}
 		}
 
-	
-
-		//
 		//////////////////// BUDHUD FONTS /////////////////////////
-		//
+
 		DesignosaurRegular6
 		{
 			"1"
@@ -2461,6 +2458,16 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		DesignosaurRegular14
+		{
+			"1"
+			{
+				"name"		"Designosaur"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
 		DesignosaurRegular16
 		{
 			"1"
@@ -2491,6 +2498,16 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		DesignosaurRegular32
+		{
+			"1"
+			{
+				"name"		"Designosaur"
+				"tall"		"36"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
 		DesignosaurRegular36
 		{
 			"1"
@@ -2509,6 +2526,385 @@ Scheme
 				"tall"		"48"
 				"weight"	"500"
 				"antialias"	"1"
+			}
+		}
+		
+		//////////////////// HUD CROSSHAIRS /////////////////////////
+		
+		"xHairCircle"
+		{
+			"1"
+			{
+				"name"		"Courier New"
+				"tall"		"72"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"xHairCircleOutline"
+		{
+			"1"
+			{
+				"name"		"Courier New"
+				"tall"		"72"
+				"weight"	"0"
+				"antialias"	"1"
+				"outline"	"1"
+			}
+		}
+
+		"Crosshairs8"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"8"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs10"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"10"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs12"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"12"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs14"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"14"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs16"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"16"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs18"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"18"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+
+		"CrosshairsOutline18"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"18"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		
+		"Crosshairs20"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"20"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs22"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"22"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs24"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"24"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"CrosshairsOutline24"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"24"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		
+		"Crosshairs26"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"26"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"CrosshairsOutline26"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"26"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		
+		"Crosshairs28"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"28"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs30"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"30"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs32"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"32"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+
+		"CrosshairsOutline32"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"32"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		
+		"Crosshairs34"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"34"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"CrosshairsOutline34"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"34"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		
+		"Crosshairs36"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"36"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs38"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"38"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs40"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"40"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Symbol16"
+		{
+			"1"
+			{
+			"name"			"Symbol"
+			"tall"			"16"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		
+		"Symbol24"
+		{
+			"1"
+			{
+			"name"			"Symbol"
+			"tall"			"24"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		
+		"SymbolOutline24"
+		{
+			"1"
+			{
+			"name"			"Symbol"
+			"tall"			"24"
+			"weight"		"0"
+			"antialias"		"1"
+			"outline"		"1"
+			}
+		}
+		
+		"Symbol32"
+		{
+			"1"
+			{
+			"name"			"Symbol"
+			"tall"			"32"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		
+		"Symbol40"
+		{
+			"1"
+			{
+			"name"			"Symbol"
+			"tall"			"40"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		"KonrWings16"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"16"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		"KonrWings24"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"24"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		"KonrWingsOutline24"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"24"
+			"weight"		"0"
+			"antialias"		"1"
+			"outline"		"1"
+			}
+		}
+		"KonrWings32"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"32"
+			"weight"		"0"
+			"antialias"		"1"
+			}
+		}
+		"KonrWings40"
+		{
+			"1"
+			{
+			"name"			"Garm3nFont"
+			"tall"			"40"
+			"weight"		"0"
+			"antialias"		"1"
 			}
 		}
 	}
@@ -3940,8 +4336,8 @@ Scheme
 			"image"					"alert_rect"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuButtonDefault
 		{
@@ -3951,8 +4347,8 @@ Scheme
 			"image"					"button_central"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuButtonArmed
 		{
@@ -3962,8 +4358,8 @@ Scheme
 			"image"					"button_central_hover"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuButtonDisabled
 		{
@@ -3973,8 +4369,8 @@ Scheme
 			"image"					"button_central_disabled"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuMiniButtonDefault
 		{
@@ -3984,8 +4380,8 @@ Scheme
 			"image"					"button_central_adv"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"1"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuMiniButtonArmed
 		{
@@ -3995,8 +4391,8 @@ Scheme
 			"image"					"button_central_adv_hover"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"1"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuBGBorder
 		{
@@ -4006,8 +4402,8 @@ Scheme
 			"image"					"button_holder_central"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuBGBorderAlpha
 		{
@@ -4017,8 +4413,8 @@ Scheme
 			"image"					"button_holder_central_alpha"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuBlogTabBG
 		{
@@ -4028,8 +4424,8 @@ Scheme
 			"image"					"blog_tabby"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuHighlightBorder
 		{
@@ -4039,8 +4435,8 @@ Scheme
 			"image"					"callout_bubble"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		TrainingResultsBG
@@ -4051,8 +4447,8 @@ Scheme
 			"image"					"button_holder_central"
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		StoreInnerShadowBorder
@@ -4063,8 +4459,8 @@ Scheme
 			"image"					"store/innershadow_border"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		StoreNewBorder
@@ -4075,8 +4471,8 @@ Scheme
 			"image"					"new_corner"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		StoreDiscountBorder
@@ -4087,8 +4483,8 @@ Scheme
 			"image"					"sale_corner"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		StorePreviewBorder
@@ -4099,8 +4495,8 @@ Scheme
 			"image"					"store/store_inspector_bg_small"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		StoreAddToCart
 		{
@@ -4110,8 +4506,8 @@ Scheme
 			"image"					"store/store_add_to_cart"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		StorePreviewTabSelected
 		{
@@ -4121,8 +4517,8 @@ Scheme
 			"image"					"store/store_tab_selected"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"12"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		StorePreviewTabUnselected
 		{
@@ -4132,8 +4528,8 @@ Scheme
 			"image"					"store/store_tab_unselected"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"16"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"12"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		StorePromotion
 		{
@@ -4143,8 +4539,8 @@ Scheme
 			"image"					"store/store_coupon_border"
 			"src_corner_height"		"16"				// pixels inside the image
 			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		ArmoryScrollbarBox
@@ -4155,8 +4551,8 @@ Scheme
 			"image"					"scroll_button_off"
 			"src_corner_height"		"16"				// pixels inside the image
 			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		ArmoryScrollbarWell
 		{
@@ -4166,8 +4562,8 @@ Scheme
 			"image"					"scroll_well"
 			"src_corner_height"		"16"				// pixels inside the image
 			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		QuickplayBorder
 		{
@@ -4257,8 +4653,8 @@ Scheme
 			"image"					"replay/fatlineborder_red"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		ReplayFatLineBorderOpaque
 		{
@@ -4268,8 +4664,8 @@ Scheme
 			"image"					"replay/fatlineborder"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		ReplayGrayDialogBorder
 		{
@@ -4313,8 +4709,8 @@ Scheme
 			//"image"					"../hud/color_panel_browner"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		ReplayDefaultBorder
 		{
@@ -4324,8 +4720,8 @@ Scheme
 			"image"					"replay/panel_scalable_default"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		ReplayHighlightBorder
 		{
@@ -4335,8 +4731,8 @@ Scheme
 			"image"					"replay/panel_scalable_highlight"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		ReplayBalloonBorder
 		{
@@ -4346,8 +4742,8 @@ Scheme
 			"image"					"replay/panel_scalable_balloon"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		ReplayBrowser.ScrollBar.SliderButton.Border
 		{
@@ -4421,6 +4817,21 @@ Scheme
 		{
 			"font"	"resource/fonts/designosaur-regular.ttf"
 			"name"	"Designosaur"
+		}
+		"8" // Fog's xHairs
+		{
+			"font" "resource/fonts/crosshairs.ttf"
+			"name" "Crosshairs"
+		}
+		"9" // Thin Cross
+		{
+			"font" "resource/fonts/Symbol.ttf"
+			"name" "Symbol"
+		}
+		"10" // Konr Wings
+		{
+			"font" "resource/fonts/Garm3nFont.ttf"
+			"name" "Garm3nFont"
 		}
 	}
 }
