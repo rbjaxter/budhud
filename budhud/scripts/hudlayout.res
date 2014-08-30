@@ -4,6 +4,7 @@
 	
 	/////////////////////////////////////////////////////////////////////////////
 	// whayay's Crosshair (thanks whayay!)
+	// His crosshairs can be found in the "_Misc Files" directory
 	/////////////////////////////////////////////////////////////////////////////
 
 	"Crosshair"
@@ -18,19 +19,19 @@
 		"tall"				"480"
         "enabled"			"0"
         
-        "visible"			"0"			    //"1" to enable
+        "visible"			"0"			    		//"1" to enable
         
-		"labeltext"			"f"             //Change this to use a different crosshair
-											//You can see the list of crosshairs in Crosshairs.png
+		"labeltext"			"f"             		//Change this to use a different crosshair
+													//You can see the list of crosshairs in "_Misc Files/whayay crosshairs.png"
         
-        "font"				"CrosshairOLsmall"    //Use "CrosshairOL" for a crosshair with an outline
-											//or "CrosshairAA" for a smooth crosshair w/o an outline 
+        "font"				"CrosshairOLsmall"   	//Use "CrosshairOL" for a crosshair with an outline
+													//or "CrosshairAA" for a smooth crosshair w/o an outline 
                                      
-											//You can add "Small" or "Big" at the end to change the size
-											//e.g. "CrosshairOLSmall"
+													//You can add "Small" or "Big" at the end to change the size
+													//e.g. "CrosshairOLSmall"
         
-        "fgcolor"			"bh_white"      //Color is changed via the clientscheme
-											//in the "/resource/" folder
+        "fgcolor"			"bh_white"      		//Color is changed via the clientscheme
+													//in the "/resource/" folder
 	}
 	
 	/////////////////////////////////////////////////////////////////////////////
@@ -60,7 +61,7 @@
 	}
 
 	/////////////////////////////////////////////////////////////////////////////
-	// The size of these crosshairs can be changed by modifying the number
+	// The size of the following crosshairs can be changed by modifying the number
 	// following "Crosshairs", across from "font"	
 	// Valid font sizes: even numbers between 8 and 40
 	//
