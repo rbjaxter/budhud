@@ -47,7 +47,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
 		"font"			"DesignosaurRegular24"
-		"fgcolor"		"bh_white"
+		"fgcolor"		"bh_orange"
 	}
 	
 	"MapInfoType"
@@ -115,7 +115,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
-		"xpos"			"69699"
+		"xpos"			"6969"
 		"ypos"			"6969"
 		"zpos"			"6"
 		"wide"			"120"
@@ -169,7 +169,7 @@
 		"selectedFgColor_override" 	"bh_gray"
 	}
 	
-	"MapInfoWatchIntro" [$WIN32]
+	"MapInfoWatchIntro"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
@@ -188,7 +188,7 @@
 		"brighttext"	"0"
 		"command"		"intro"
 		"default"		"1"
-		"font"			"DesignosaurRegular20"
+		"font"			"DesignosaurRegular14"
 		"paintbackground"	"0"
 
 		"fgcolor"					"bh_white"
@@ -202,6 +202,33 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack"
+		"xpos"			"6969"
+		"ypos"			"6969"
+		"zpos"			"6"
+		"wide"			"120"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"BACK (&Q)"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"back"
+		"font"			"DesignosaurRegular20"
+		"paintbackground"	"0"
+		
+		"fgcolor"					"bh_white"
+		"defaultFgColor_override" 	"bh_white"
+		"armedFgColor_override"		"bh_gray"
+		"depressedFgColor_override" "bh_gray"
+		"selectedFgColor_override" 	"bh_gray"
+	}
+	"MapInfoBack2" [$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoBack2"
 		"xpos"			"c-180"
 		"ypos"			"c96"
 		"zpos"			"6"
@@ -211,12 +238,12 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Back"
+		"labelText"		"BACK (&Q)"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"DesignosaurRegular20"
+		"font"			"DesignosaurRegular14"
 		"paintbackground"	"0"
 		
 		"fgcolor"					"bh_white"

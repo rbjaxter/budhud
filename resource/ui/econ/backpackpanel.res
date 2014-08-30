@@ -163,23 +163,22 @@
 	}	
 	"ShowBaseItemsCheckbox"
 	{
-		"ControlName"	"CheckButton"
-		"fieldName"		"ShowBaseItemsCheckbox"
-		"labelText"		"#ShowBaseItemsCheckBox"
-		"Font"			"HudFontSmallestBold"
-		"textAlignment"	"east"
-		"xpos"			"c-70"
-		"ypos"			"15"
-		"zpos"			"1"
-		"wide"			"200"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"fgcolor"		"bh_white"
+		"ControlName"			"CheckButton"
+		"fieldName"				"ShowBaseItemsCheckbox"
+		"labelText"				"#ShowBaseItemsCheckBox"
+		"Font"					"HudFontSmallestBold"
+		"textAlignment"			"east"
+		"xpos"					"c-70"
+		"ypos"					"15"
+		"zpos"					"1"
+		"wide"					"200"
+		"tall"					"20"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"dulltext"				"0"
+		"brighttext"			"0"
 	}
 	
 	"NameFilterLabel"
@@ -370,7 +369,7 @@
 		"depressedBgColor_override"	"25 25 25 255"
 		
 		"defaultFgColor_override"	"bh_white"
-		"armedFgColor_override" 	"bh_white"
+		"armedFgColor_override" 	"bh_gray"
 		"depressedFgColor_override" "bh_gray"
 		
 		"border_default"			"NoBorder"
@@ -393,7 +392,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "Base Color"
+		"fgcolor_override" "bh_white"
 	}
 	
 	"NextPageButton"
@@ -412,7 +411,6 @@
 		"tabPosition"	"0"
 		"labelText"		"&D"
 		"font"			"HudFontSmallBold"
-		"fgcolor"		"bh_white"
 		"border"		"NoBorder"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -426,7 +424,7 @@
 		"depressedBgColor_override"	"25 25 25 255"
 		
 		"defaultFgColor_override"	"bh_white"
-		"armedFgColor_override" 	"bh_white"
+		"armedFgColor_override" 	"bh_gray"
 		"depressedFgColor_override" "bh_gray"
 		
 		"border_default"			"NoBorder"

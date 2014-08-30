@@ -293,7 +293,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DesignosaurRegular16"
+		"font"			"DesignosaurRegular14"
 		"fgcolor"		"bh_white"
 		
 		"if_hybrid"
@@ -314,17 +314,21 @@
 			
 	"PlayingToBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-50"	[$WIN32]
-		"ypos"			"r50"	[$WIN32]
-		"zpos"			"3"
-		"wide"			"100"	[$WIN32]
-		"tall"			"20"	[$WIN32]
+		"xpos"			"c-69"	[$WIN32]
+		"ypos"			"r53"	[$WIN32]
+		"zpos"			"4"
+		"wide"			"140"	[$WIN32]
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 0"
-		"scaleImage"	"1"	
+		"labelText"		"#TF_PlayingTo"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"DesignosaurRegular14"
+		"fgcolor"		"bh_black"
 		
 		"if_hybrid"
 		{
@@ -340,7 +344,7 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
 		
 		"BlueFlag"
 	{

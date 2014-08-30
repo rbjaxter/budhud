@@ -2907,6 +2907,81 @@ Scheme
 			"antialias"		"1"
 			}
 		}
+		
+		//////////////////// HUD CROSSHAIRS (whayay) /////////////////////////
+
+        "CrosshairAASmall"
+        {
+            "1"
+            {
+                "name"        "Crosshair"
+                "tall"        "16"
+                "additive"    "0"
+                "antialias"     "1"
+                "weight"    "0"
+                "outline"    "0"
+            }
+        }
+        "CrosshairOLSmall"
+        {
+            "1"
+            {
+                "name"        "Crosshair"
+                "tall"        "16"
+                "additive"    "0"
+                "antialias"     "1"
+                "weight"    "0"
+                "outline"    "1"
+            }
+        }
+        "CrosshairAA"
+        {
+            "1"
+            {
+                "name"        "Crosshair"
+                "tall"        "20"
+                "additive"    "0"
+                "antialias"     "1"
+                "weight"    "0"
+                "outline"    "0"
+            }
+        }
+        "CrosshairOL"
+        {
+            "1"
+            {
+                "name"        "Crosshair"
+                "tall"        "20"
+                "additive"    "0"
+                "antialias"     "1"
+                "weight"    "0"
+                "outline"    "1"
+            }
+        }
+        "CrosshairAABig"
+        {
+            "1"
+            {
+                "name"        "Crosshair"
+                "tall"        "24"
+                "additive"    "0"
+                "antialias"     "1"
+                "weight"    "0"
+                "outline"    "0"
+            }
+        }
+        "CrosshairOLBig"
+        {
+            "1"
+            {
+                "name"        "Crosshair"
+                "tall"        "24"
+                "additive"    "0"
+                "antialias"     "1"
+                "weight"    "0"
+                "outline"    "1"
+            }
+        }
 	}
 	
 	//
@@ -4832,6 +4907,11 @@ Scheme
 		{
 			"font" "resource/fonts/Garm3nFont.ttf"
 			"name" "Garm3nFont"
+		}
+		"11" // yahud
+		{
+			"font"	"resource/fonts/Crosshair.ttf"
+			"name"	"Crosshair"
 		}
 	}
 }

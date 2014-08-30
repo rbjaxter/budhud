@@ -148,7 +148,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "15 255 255 255"
+			"fgcolor_override" "bh_orange"
 		}
 		"MapAuthors"
 		{
@@ -185,7 +185,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "137 191 60 255"
+			"fgcolor_override" "bh_orange"
 		}
 	}
 

@@ -2452,8 +2452,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TipText"
-		"font"			"Cerbetica12"
-		"font_hidef"	"Default"
+		"font"			"DesignosaurRegular12"
 		"labelText"		"%tiptext%"
 		"textAlignment"			"west"
 		"textAlignment_hidef"		"north-west"
@@ -2476,6 +2475,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
+		"fgcolor_override"			"bh_white"
 	}
 	"NextTipButton" [$WIN32]
 	{
