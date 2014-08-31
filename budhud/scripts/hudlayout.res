@@ -804,18 +804,12 @@
 		"fieldName" 	"CMainTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c0"
-		"ypos"		"c49"
-		"wide"	 	"200"
-		"tall"	 	"100"
-		"priority"	"40"
-		"priority_lodef"	"5"
-
-		if_vr
-		{
-			"ypos"		"370"
-			"x_offset"	"20"
-		}
+		"xpos"		"c-100"
+		"ypos"		"c25"
+		"zpos"		"1"
+		"wide"	 	"600"
+		"tall"	 	"45"
+		"priority"	"100"
 	}
 	
 	CSpectatorTargetID
@@ -823,12 +817,12 @@
 		"fieldName" 	"CSpectatorTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c0"
-		"ypos"		"c120"
-		"wide"	 	"100"
-		"tall"	 	"30"
+		"xpos"		"c-100"
+		"ypos"		"c25"
+		"zpos"		"1"
+		"wide"	 	"600"
+		"tall"	 	"45"
 		"priority"	"40"
-		"priority_lodef" "35"
 		
 		"x_offset" "20"
 		"y_offset" "20"
@@ -836,22 +830,16 @@
 	
 	CSecondaryTargetID
 	{
-		"fieldName" 	"CSecondaryTargetID"
+		"fieldName" "CSecondaryTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c0"
-		"ypos"		"c147"
-		"wide"	 	"200"
-		"tall"	 	"100"
-		"priority"	"35"
-
-		if_vr
-		{
-			"ypos"		"330"
-			"x_offset"	"20"
-		}
-
-	}
+		"xpos" 		"c-100"
+		"ypos" 		"c130"
+		"zpos"		"1"
+		"wide" 		"600"
+		"tall" 		"45"
+		"priority" 	"35"
+}
 	
 	BuildingStatus_Spy
 	{
