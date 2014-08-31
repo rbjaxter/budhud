@@ -778,7 +778,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c228"
+		"xpos"			"c355"
 		"ypos"			"28"
 		"zpos"			"10"
 		"wide"			"32"
@@ -826,7 +826,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"bh_white"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
@@ -880,8 +880,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c0"
-		"ypos"			"102"
+		"xpos"			"c140"
+		"ypos"			"60"
 		"zpos"			"10"
 		"wide"			"210"
 		"tall"			"80"
