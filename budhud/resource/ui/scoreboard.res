@@ -973,8 +973,8 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
-			"xpos"				"200"	[$WIN32]
-			"ypos"				"0"	[$WIN32]
+			"xpos"				"440"	[$WIN32]
+			"ypos"				"30"	[$WIN32]
 			"zpos"				"3"
 			"wide"				"100"
 			"tall"				"20"
@@ -1045,8 +1045,8 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"%captures%"
 			"textAlignment"		"west"
-			"xpos"				"305"	[$WIN32]
-			"ypos"				"0"	[$WIN32]
+			"xpos"				"545"[$WIN32]
+			"ypos"				"30"[$WIN32]
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
@@ -1370,8 +1370,8 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_Scoreboard_Damage"
 			"textAlignment"		"east"
-			"xpos"				"445"	[$WIN32]
-			"ypos"				"30"	[$WIN32]
+			"xpos"				"206"[$WIN32]
+			"ypos"				"0"[$WIN32]
 			"zpos"				"3"
 			"wide"				"95"
 			"tall"				"20"
@@ -1388,8 +1388,8 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"%damage%"
 			"textAlignment"		"west"		[$WIN32]
-			"xpos"				"545"	[$WIN32]
-			"ypos"				"30"	[$WIN32]
+			"xpos"				"305"	[$WIN32]
+			"ypos"				"0"	[$WIN32]
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"

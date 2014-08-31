@@ -96,10 +96,10 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"TargetDataLabel"
-		"font"				"ReplayVerySmall"
+		"font"				"DesignosaurRegular9"
 		"fgcolor_override"	"bh_white"
-		"xpos"				"50"
-		"ypos"				"20"
+		"xpos"				"-78"
+		"ypos"				"30"
 		"zpos"				"1"
 		"wide"				"280"
 		"tall"				"15"
@@ -108,7 +108,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%targetdata%"
-		"textAlignment"		"Left"
+		"textAlignment"		"Center"
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}

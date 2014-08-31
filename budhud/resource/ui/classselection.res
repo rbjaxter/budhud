@@ -683,16 +683,16 @@
 			"scaleImage"	"1"
 		}				
 	}	
-
+	
 	"CancelButton" [$WIN32] 
 	{
 		"ControlName"					"CExButton"
 		"fieldName"						"CancelButton"
-		"xpos"							"c-427"
-		"ypos"							"c231"
+		"xpos"							"r80"
+		"ypos"							"0"
 		"zpos"							"6"
-		"wide"							"f0"
-		"tall"							"10"
+		"wide"							"80"
+		"tall"							"80"
 		"autoResize"					"0"
 		"pinCorner"						"2"
 		"visible"						"1"
@@ -701,21 +701,46 @@
 		"labelText"						"CANCEL (&Q)"
 		"textAlignment"					"center"
 		"Command"						"vguicancel"
-		"font"							"DesignosaurRegular12"
+		"font"							"DesignosaurRegular10"
+		"paintbackground"				"0"
+		"armedfgcolor_override"			"bh_orange"
+		"defaultfgcolor_override"		"bh_white"
+	}
+	"CancelButton2" [$WIN32] 
+	{
+		"ControlName"					"CExButton"
+		"fieldName"						"CancelButton2"
+		"xpos"							"r80"
+		"ypos"							"0"
+		"zpos"							"6"
+		"wide"							"80"
+		"tall"							"80"
+		"autoResize"					"0"
+		"pinCorner"						"2"
+		"visible"						"1"
+		"enabled"						"1"
+		"tabPosition"					"0"
+		"labelText"						"CANCEL (&Q)"
+		"textAlignment"					"center"
+		"Command"						"vguicancel"
+		"font"							"DesignosaurRegular10"
 		"paintbackground"				"0"
 		"armedfgcolor_override"			"bh_orange"
 		"defaultfgcolor_override"		"bh_white"
 	}
 	
+	// This broke at different resolutions and I'm too tired right now
+	// to figure out why the c-value isn't working.
+	
 	"EditLoadoutButton" [$WIN32] 
 	{
 		"ControlName"					"CExButton"
 		"fieldName"						"EditLoadoutButton"
-		"xpos"							"c-429"
+		"xpos"							"0"
 		"ypos"							"0"
 		"zpos"							"6"
-		"wide"							"f0"
-		"tall"							"10"
+		"wide"							"80"
+		"tall"							"80"
 		"autoResize"					"0"
 		"pinCorner"						"2"
 		"visible"						"1"
@@ -724,7 +749,7 @@
 		"labelText"						"EDIT LOADOUT (&E)"
 		"textAlignment"					"center"
 		"Command"						"openloadout"
-		"font"							"DesignosaurRegular12"
+		"font"							"DesignosaurRegular10"
 		"paintbackground"				"0"
 		"armedfgcolor_override"			"bh_orange"
 		"defaultfgcolor_override"		"bh_white"
@@ -1135,7 +1160,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"center"
-		"font"			"DesignosaurRegular20"
+		"font"			"DesignosaurRegular12"
 		"fgcolor"		"bh_white"
 	}	
 	
@@ -1155,7 +1180,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"center"
-		"font"			"DesignosaurRegular20"
+		"font"			"DesignosaurRegular12"
 		"fgcolor"		"bh_white"
 	}		
 	
@@ -1175,7 +1200,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"center"
-		"font"			"DesignosaurRegular20"
+		"font"			"DesignosaurRegular12"
 		"fgcolor"		"bh_white"
 	}			
 	
@@ -1195,7 +1220,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"center"
-		"font"			"DesignosaurRegular20"
+		"font"			"DesignosaurRegular12"
 		"fgcolor"		"bh_white"
 	}				
 	
@@ -1215,7 +1240,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"center"
-		"font"			"DesignosaurRegular20"
+		"font"			"DesignosaurRegular12"
 		"fgcolor"		"bh_white"
 	}					
 	
@@ -1235,7 +1260,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"center"
-		"font"			"DesignosaurRegular20"
+		"font"			"DesignosaurRegular12"
 		"fgcolor"		"bh_white"
 	}						
 	
@@ -1255,7 +1280,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"center"
-		"font"			"DesignosaurRegular20"
+		"font"			"DesignosaurRegular12"
 		"fgcolor"		"bh_white"
 	}							
 	
@@ -1275,7 +1300,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"center"
-		"font"			"DesignosaurRegular20"
+		"font"			"DesignosaurRegular12"
 		"fgcolor"		"bh_white"
 	}						
 	
@@ -1295,7 +1320,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"center"
-		"font"			"DesignosaurRegular20"
+		"font"			"DesignosaurRegular12"
 		"fgcolor"		"bh_white"
 	}								
 	
@@ -1813,15 +1838,15 @@
 		"ControlName" 					"ImagePanel"
 		"fieldName" 					"BGclassselectionEditLoadout"
 		"xpos"							"0"
-		"ypos"							"c-240"
+		"ypos"							"0"
 		"zpos"							"6"
-		"wide"							"f0"
-		"tall"							"10"
+		"wide"							"80"
+		"tall"							"80"
 		"autoResize" 					"0"
 		"pinCorner"						"0"
 		"visible" 						"1"
 		"enabled" 						"1"
-		"fillcolor" 					"0 0 0 225"
+		"fillcolor" 					"150 150 150 10"
 		"draw_corner_width"				"5"
 		"draw_corner_height"			"5"
 	}
@@ -1829,17 +1854,77 @@
 	{
 		"ControlName" 					"ImagePanel"
 		"fieldName" 					"BGclassselectionCancel"
-		"xpos"							"c-427"
-		"ypos"							"c231"
+		"xpos"							"r80"
+		"ypos"							"0"
 		"zpos"							"6"
-		"wide"							"f0"
-		"tall"							"10"
+		"wide"							"80"
+		"tall"							"80"
 		"autoResize" 					"0"
 		"pinCorner"						"0"
 		"visible" 						"1"
 		"enabled" 						"1"
-		"fillcolor" 					"0 0 0 225"
+		"fillcolor" 					"150 150 150 10"
 		"draw_corner_width"				"5"
 		"draw_corner_height"			"5"
+	}
+	"EmptyBoxBottomLeft"
+	{
+		"ControlName"				"ImagePanel"
+		"fieldName"					"EmptyBoxBottomLeft"
+		"xpos"						"0"
+		"ypos"						"r40"
+		"zpos"						"0"
+		"wide"						"40"
+		"tall"						"40"
+		"visible"					"1"
+		"enabled"					"1"
+		"fillcolor"					"150 150 150 10"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+	}
+	"EmptyBoxBottomLeftHover"
+	{
+		"ControlName"				"CExButton"
+		"fieldName"					"EmptyBoxBottomLeftHover"
+		"xpos"						"0"
+		"ypos"						"r40"
+		"zpos"						"50"
+		"wide"						"40"
+		"tall"						"40"
+		"visible"					"1"
+		"enabled"					"1"
+		"labeltext"					""
+		"sound_depressed"			"ambient/cow1.wav"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
+	}
+	"EmptyBoxTopRight"
+	{
+		"ControlName"				"ImagePanel"
+		"fieldName"					"EmptyBoxTopRight"
+		"xpos"						"r40"
+		"ypos"						"r40"
+		"zpos"						"0"
+		"wide"						"40"
+		"tall"						"40"
+		"visible"					"1"
+		"enabled"					"1"
+		"fillcolor"					"150 150 150 10"
+	}
+	"EmptyBoxBottomRightHover"
+	{
+		"ControlName"				"CExButton"
+		"fieldName"					"EmptyBoxBottomRightHover"
+		"xpos"						"r40"
+		"ypos"						"r40"
+		"zpos"						"50"
+		"wide"						"40"
+		"tall"						"40"
+		"visible"					"1"
+		"enabled"					"1"
+		"labeltext"					""
+		"sound_depressed"			"ambient/cow3.wav"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 }
