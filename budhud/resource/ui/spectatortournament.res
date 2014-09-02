@@ -238,46 +238,9 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				"fgcolor"		"255 20 175 255"
+				"fgcolor"		"bh_orange"
 				
 			}
-			"respawntimeBG"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"respawntimeBG"
-				"font"			"DesignosaurRegular12"
-				"xpos"			"6"
-				"ypos"			"6"
-				"zpos"			"5"
-				"wide"			"23"
-				"tall"			"10"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%respawntime%"
-				"textAlignment"	"west"
-				"fgcolor"		"TransparentBlack"
-				
-			}
-			"healthcover"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"healthcover"
-				"font"			"Blocks48"
-				"xpos"			"22"
-				"ypos"			"1"
-				"zpos"			"5"
-				"wide"			"26"
-				"tall"			"20"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%respawntime%"
-				"textAlignment"	"west"
-				"fgcolor"		"15 15 15 255"
-				
-			}
-			
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"

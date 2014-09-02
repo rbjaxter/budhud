@@ -20,6 +20,14 @@
 		"class_width"		"15"	[$WIN32]
 		"score_width"		"25"
 		"ping_width"		"23"	[$WIN32]
+		/////////////////////////////
+		"name_width_minmode"		"87"
+		"status_width_minmode"		"15"
+		"nemesis_width_minmode"		"15"
+		"class_width_minmode"		"15"
+		"score_width_minmode"		"19"
+		"ping_width_minmode"		"16"
+		/////////////////////////////
 	}
 	"BlueScoreBG"
 	{
@@ -72,6 +80,13 @@
 		"zpos"				"-1"
 		"wide"				"600"
 		"tall"				"388"
+		/////////////////////////
+		"xpos_minmode"		"73"
+		"ypos_minmode"		"60"
+		"zpos_minmode"		"-1"
+		"wide_minmode"		"454"
+		"tall_minmode"		"125"
+		/////////////////////////
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -96,6 +111,12 @@
 		"ypos"				"19"
 		"wide"				"140"
 		"tall"				"34"
+		/////////////////////////
+		"xpos_minmode"		"83"
+		"ypos_minmode"		"19"
+		"wide_minmode"		"140"
+		"tall_minmode"		"34"
+		/////////////////////////
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -164,6 +185,12 @@
 		"ypos"				"36"
 		"wide"				"100"
 		"tall"				"29"
+		/////////////////////////
+		"xpos_minmode"		"83"
+		"ypos_minmode"		"36"
+		"wide_minmode"		"100"
+		"tall_minmode"		"29"
+		/////////////////////////
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -186,6 +213,12 @@
 		"ypos"				"19"
 		"wide"				"140"
 		"tall"				"34"
+		/////////////////////////
+		"xpos_minmode"		"377"
+		"ypos_minmode"		"19"
+		"wide_minmode"		"140"
+		"tall_minmode"		"34"
+		/////////////////////////
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -254,6 +287,12 @@
 		"ypos"				"36"
 		"wide"				"100"
 		"tall"				"29"
+		/////////////////////////
+		"xpos_minmode"		"414"
+		"ypos_minmode"		"36"
+		"wide_minmode"		"100"
+		"tall_minmode"		"29"
+		/////////////////////////
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -266,21 +305,29 @@
 	}							
 	"ServerLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"ServerLabel"
-		"font"				"DesignosaurRegular10"
-		"labelText"			"%server%"
-		"textAlignment"		"west"
-		"xpos"				"11"
-		"ypos"				"60"
-		"wide"				"300"
-		"tall"				"20"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"	[$WIN32]
-		"visible"			"0"	[$X360]
-		"enabled"			"1"
-		"fgcolor_override"	"bh_orange"
+		"ControlName"			"CExLabel"
+		"fieldName"				"ServerLabel"
+		"font"					"DesignosaurRegular10"
+		"labelText"				"%server%"
+		"textAlignment"			"west"
+		"xpos"					"11"
+		"ypos"					"60"
+		"wide"					"300"
+		"tall"					"20"
+		/////////////////////////////
+		"xpos_minmode"			"150"
+		"ypos_minmode"			"59"
+		"zpos_minmode"			"60"
+		"wide_minmode"			"300"
+		"tall_minmode"			"20"
+		"textAlignment_minmode"	"center"
+		/////////////////////////////
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"	[$WIN32]
+		"visible"				"0"	[$X360]
+		"enabled"				"1"
+		"fgcolor_override"		"bh_orange"
 		
 		if_mvm
 		{
@@ -300,6 +347,13 @@
 		"zpos"				"5"
 		"wide"				"300"
 		"tall"				"20"
+		/////////////////////////////
+		"xpos_minmode"			"197"
+		"ypos_minmode"			"385"
+		"zpos_minmode"			"5"
+		"wide_minmode"			"300"
+		"tall_minmode"			"20"
+		/////////////////////////////
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"	[$WIN32]
@@ -312,20 +366,27 @@
 	}							
 	"BluePlayerList"
 	{
-		"ControlName"	"SectionedListPanel"
-		"fieldName"		"BluePlayerList"
-		"xpos"			"5"
-		"ypos"			"72"
-		"zpos"			"20"
-		"wide"			"290"
-		"tall"			"280"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"autoresize"	"3"
-		"linespacing"	"17"
-		"fgcolor"		"blue"
+		"ControlName"			"SectionedListPanel"
+		"fieldName"				"BluePlayerList"
+		"xpos"					"5"
+		"ypos"					"72"
+		"zpos"					"20"
+		"wide"					"290"
+		"tall"					"280"
+		/////////////////////////////
+		"xpos_minmode"			"71"
+		"ypos_minmode"			"72"
+		"zpos_minmode"			"20"
+		"wide_minmode"			"230"
+		"tall_minmode"			"280"
+		/////////////////////////////
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"autoresize"			"3"
+		"linespacing"			"17"
+		"fgcolor"				"blue"
 		
 		if_mvm
 		{
@@ -334,20 +395,27 @@
 	}
 	"RedPlayerList"
 	{
-		"ControlName"	"SectionedListPanel"
-		"fieldName"		"RedPlayerList"
-		"xpos"			"305"
-		"ypos"			"72"
-		"zpos"			"20"
-		"wide"			"290"
-		"tall"			"280"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"autoresize"	"3"
-		"linespacing"	"17"
-		"textcolor"		"red"
+		"ControlName"			"SectionedListPanel"
+		"fieldName"				"RedPlayerList"
+		"xpos"					"305"
+		"ypos"					"72"
+		"zpos"					"20"
+		"wide"					"290"
+		"tall"					"280"
+		/////////////////////////////
+		"xpos_minmode"			"299"
+		"ypos_minmode"			"72"
+		"zpos_minmode"			"20"
+		"wide_minmode"			"230"
+		"tall_minmode"			"280"
+		/////////////////////////////
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"autoresize"			"3"
+		"linespacing"			"17"
+		"textcolor"				"red"
 		
  		if_mvm
  		{
@@ -363,6 +431,13 @@
 		"zpos"					"2"
 		"wide"					"2"
 		"tall"					"292"
+		/////////////////////////////
+		"xpos_minmode"			"299"
+		"ypos_minmode"			"84"
+		"zpos_minmode"			"2"
+		"wide_minmode"			"2"
+		"tall_minmode"			"101"
+		/////////////////////////////
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -432,6 +507,13 @@
 		"zpos"					"2"
 		"wide"					"88"
 		"tall"					"50"
+		/////////////////////////////
+		"xpos_minmode"			"100"
+		"ypos_minmode"			"400"
+		"zpos_minmode"			"2"
+		"wide_minmode"			"88"
+		"tall_minmode"			"50"
+		/////////////////////////////
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -454,6 +536,13 @@
 		"zpos"					"2"
 		"wide"					"310"
 		"tall"					"50"
+		/////////////////////////////
+		"xpos_minmode"			"188"
+		"ypos_minmode"			"400"
+		"zpos_minmode"			"2"
+		"wide_minmode"			"310"
+		"tall_minmode"			"50"
+		/////////////////////////////
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -512,21 +601,29 @@
 	}	
 	"MapName"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"mapname"
-		"font"				"DesignosaurRegular12"
-		"fgcolor"			"bh_orange"
-		"labelText"			"%mapname%"
-		"textAlignment"		"center"
-		"xpos"				"-24"
-		"ypos"				"368"
-		"zpos"				"3"
-		"wide"				"165"
-		"tall"				"20"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"ControlName"				"CExLabel"
+		"fieldName"					"mapname"
+		"font"						"DesignosaurRegular12"
+		"fgcolor"					"bh_orange"
+		"labelText"					"%mapname%"
+		"textAlignment"				"center"
+		"xpos"						"-24"
+		"ypos"						"368"
+		"zpos"						"3"
+		"wide"						"165"
+		"tall"						"20"
+		/////////////////////////////
+		"xpos_minmode"				"100"
+		"ypos_minmode"				"385"
+		"zpos_minmode"				"3"
+		"wide_minmode"				"165"
+		"tall_minmode"				"20"
+		"textAlignment_minmode"		"west"
+		/////////////////////////////
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
 	}						
 	"HorizontalLine"
 	{
@@ -793,6 +890,13 @@
 		"zpos"			"5"
 		"wide"			"700"
 		"tall"			"448"
+		/////////////////////////////
+		"xpos_minmode"		"-60"
+		"ypos_minmode"		"399"
+		"zpos_minmode"		"5"
+		"wide_minmode"		"700"
+		"tall_minmode"		"448"
+		/////////////////////////////
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -816,6 +920,13 @@
 			"zpos"				"3"
 			"wide"				"95"
 			"tall"				"20"
+			/////////////////////////////
+			"xpos_minmode"		"114"
+			"ypos_minmode"		"1"
+			"zpos_minmode"		"3"
+			"wide_minmode"		"95"
+			"tall_minmode"		"20"
+			/////////////////////////////
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
@@ -834,6 +945,13 @@
 			"zpos"				"3"
 			"wide"				"95"
 			"tall"				"20"
+			/////////////////////////////
+			"xpos_minmode"		"114"
+			"ypos_minmode"		"31"
+			"zpos_minmode"		"3"
+			"wide_minmode"		"95"
+			"tall_minmode"		"20"
+			/////////////////////////////
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
@@ -852,6 +970,13 @@
 			"zpos"				"3"
 			"wide"				"95"
 			"tall"				"20"
+			/////////////////////////////
+			"xpos_minmode"		"114"
+			"ypos_minmode"		"16"
+			"zpos_minmode"		"3"
+			"wide_minmode"		"95"
+			"tall_minmode"		"20"
+			/////////////////////////////
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
@@ -888,6 +1013,13 @@
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
+			/////////////////////////////
+			"xpos_minmode"		"202"
+			"ypos_minmode"		"2"
+			"zpos_minmode"		"3"
+			"wide_minmode"		"35"
+			"tall_minmode"		"20"
+			/////////////////////////////
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
@@ -906,6 +1038,13 @@
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
+			/////////////////////////////
+			"xpos_minmode"		"202"
+			"ypos_minmode"		"32"
+			"zpos_minmode"		"3"
+			"wide_minmode"		"35"
+			"tall_minmode"		"20"
+			/////////////////////////////
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
@@ -942,6 +1081,13 @@
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
+			/////////////////////////////
+			"xpos_minmode"		"202"
+			"ypos_minmode"		"17"
+			"zpos_minmode"		"3"
+			"wide_minmode"		"35"
+			"tall_minmode"		"20"
+			/////////////////////////////
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
@@ -1589,6 +1735,13 @@
 		"zpos"					"-5"
 		"wide"					"300"
 		"tall"					"30"
+		/////////////////////////
+		"xpos_minmode"			"73"
+		"ypos_minmode"			"25"
+		"zpos_minmode"			"-5"
+		"wide_minmode"			"227"
+		"tall_minmode"			"30"
+		/////////////////////////
 		"autoResize" 			"0"
 		"pinCorner"				"0"
 		"visible" 				"1"
@@ -1606,6 +1759,13 @@
 		"zpos"					"-5"
 		"wide"					"300"
 		"tall"					"30"
+		/////////////////////////
+		"xpos_minmode"			"300"
+		"ypos_minmode"			"25"
+		"zpos_minmode"			"-5"
+		"wide_minmode"			"227"
+		"tall_minmode"			"30"
+		/////////////////////////
 		"autoResize" 			"0"
 		"pinCorner"				"0"
 		"visible" 				"1"

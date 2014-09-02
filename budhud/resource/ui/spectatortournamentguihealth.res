@@ -22,8 +22,8 @@
 		"zpos"			"3"
 		"wide"			"16"
 		"tall"			"16"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
@@ -69,22 +69,6 @@
 		"labeltext"			"%health%"
 		"textAlignment"		"center"
 		"fgcolor_override"	"bh_white"
-		"font"				"DesignosaurRegular16"
-	}	
-	"PlayerStatusHealthValueShadow"
-	{
-		"ControlName"		"Label"
-		"fieldName"			"PlayerStatusHealthValueShadow"
-		"xpos"				"-16"
-		"ypos"				"0"
-		"zpos"				"5"
-		"wide"				"70"
-		"tall"				"30"
-		"visible"			"1"
-		"enabled"			"1"
-		"labeltext"			"%health%"
-		"textAlignment"		"center"
-		"fgcolor_override"	"bh_black"
 		"font"				"DesignosaurRegular16"
 	}		
 }
