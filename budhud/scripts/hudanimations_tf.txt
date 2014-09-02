@@ -1,71 +1,28 @@
-// sample animation script
-//
-//
-// commands:
-//	Animate <panel name> <variable> <target value> <interpolator> <start time> <duration>
-//		variables:
-//			FgColor
-//			BgColor
-//			Position
-//			Size
-//			Blur		(hud panels only)
-//			TextColor	(hud panels only)
-//			Ammo2Color	(hud panels only)
-//			Alpha		(hud weapon selection only)
-//			SelectionAlpha  (hud weapon selection only)
-//			TextScan	(hud weapon selection only)
-//
-//		interpolator:
-//			Linear
-//			Accel - starts moving slow, ends fast
-//			Deaccel - starts moving fast, ends slow
-//			Spline - simple ease in/out curve
-//			Pulse - < freq > over the duration, the value is pulsed (cosine) freq times ending at the dest value (assuming freq is integral)
-//			Flicker - < randomness factor 0.0 to 1.0 > over duration, each frame if random # is less than factor, use end value, otherwise use prev value
-//
-//	RunEvent <event name> <start time>
-//		starts another even running at the specified time
-//
-//	StopEvent <event name> <start time>
-//		stops another event that is current running at the specified time
-//
-//	StopAnimation <panel name> <variable> <start time>
-//		stops all animations refering to the specified variable in the specified panel
-//
-//	StopPanelAnimations <panel name> <start time>
-//		stops all active animations operating on the specified panel
-//
-//  SetFont <panel name> <fontparameter> <fontname from scheme> <set time> 
-//
-//	SetTexture <panel name> <textureidname> <texturefilename> <set time>
-//
-//  SetString <panel name> <string varname> <stringvalue> <set time>
+///////////////////////////////////////////////////////////////////////////
+// For crosshair damage flash:
+// Set the second line ("bh_white") to the default color of your crosshair
+// If your crosshair is white, the second line should be white.
+// "255 255 255 255"	= White
+// "255 255 0 255" 		= Yellow
+// "145 225 25 255"		= Green
+// and so forth.
+///////////////////////////////////////////////////////////////////////////
 
-//yacrosshair
-
+// whayay's Crosshair: Damage Flash
 event DamagedPlayer
 {
-    Animate Crosshair 	FgColor 	"bh_orange" 	Linear 0.0 0.00001
-	Animate Crosshair 	FgColor 	"bh_white" 	Linear 0.10 0.10001
+    Animate Crosshair 		FgColor 	"bh_orange" 	Linear 0.0 0.00001
+	Animate Crosshair 		FgColor 	"bh_white" 		Linear 0.10 0.10001
 }
 
-//===========================================
-
-//Fog's Crosshair
-
+//Fog's Crosshair: Damage Flash
 event DamagedPlayer
 {
 	Animate fogCrosshair 	FgColor 	"bh_orange" 	Linear 0.0 0.00001
-	Animate fogCrosshair 	FgColor 	"bh_white" 	Linear 0.10 0.10001
-	
-	// Set the second line ("bh_white") to whatever color you have changed
-	// your crosshair to be. So if your crosshair is green, the second line should
-	// also have that same value.
-	// "255 255 255 255"	= White
-	// "255 255 0 255" 	= Yellow
-	// "145 225 25 255"	= Green
-	// and so forth.
+	Animate fogCrosshair 	FgColor 	"bh_white" 		Linear 0.10 0.10001
 }
+
+///////////////////////////////////////////////////////////////////////////
 
 event LevelInit
 {

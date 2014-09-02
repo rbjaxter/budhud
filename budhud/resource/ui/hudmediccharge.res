@@ -11,8 +11,8 @@
 		"tall"			"100"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"0" // Set to 1 to enable
+		"enabled"		"0" // Set to 1 to enable
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
