@@ -23,7 +23,7 @@
 	}
 	"PlayPVEButton"
 	{
-		"label" 		"CO-OP" 
+		"label" 		"MANN VS MACHINE" 
 		"command" 		"playpve"
 		"subimage" 		"glyph_coop"
 		"OnlyAtMenu" 	"1"

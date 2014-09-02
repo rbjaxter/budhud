@@ -1799,32 +1799,15 @@
 		"draw_corner_width"		"5"
 		"draw_corner_height"	"5"
 	}
-	"BGclassselectionOuterUpper"
+	"BGclassselectionMainBG"
 	{
 		"ControlName" 			"ImagePanel"
 		"fieldName" 			"BGclassselectionOuterUpper"
-		"xpos"					"c-2000"
-		"ypos"					"c65"
-		"zpos"					"3"
-		"wide"					"9000"
-		"tall"					"300"
-		"autoResize" 			"0"
-		"pinCorner"				"0"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"fillcolor" 			"0 0 0 170"
-		"draw_corner_width"		"5"
-		"draw_corner_height"	"5"
-	}
-	"BGclassselectionOuterLower"
-	{
-		"ControlName" 			"ImagePanel"
-		"fieldName" 			"BGclassselectionOuterUpper"
-		"xpos"					"c-2000"
-		"ypos"					"c-365"
-		"zpos"					"3"
-		"wide"					"9000"
-		"tall"					"300"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"0"
+		"wide"					"f0"
+		"tall"					"f0"
 		"autoResize" 			"0"
 		"pinCorner"				"0"
 		"visible" 				"1"
@@ -1846,7 +1829,7 @@
 		"pinCorner"						"0"
 		"visible" 						"1"
 		"enabled" 						"1"
-		"fillcolor" 					"150 150 150 10"
+		"fillcolor" 					"150 150 150 25"
 		"draw_corner_width"				"5"
 		"draw_corner_height"			"5"
 	}
@@ -1863,7 +1846,7 @@
 		"pinCorner"						"0"
 		"visible" 						"1"
 		"enabled" 						"1"
-		"fillcolor" 					"150 150 150 10"
+		"fillcolor" 					"150 150 150 25"
 		"draw_corner_width"				"5"
 		"draw_corner_height"			"5"
 	}
@@ -1878,9 +1861,7 @@
 		"tall"						"40"
 		"visible"					"1"
 		"enabled"					"1"
-		"fillcolor"					"150 150 150 10"
-		"sound_depressed"			"UI/buttonclick.wav"
-		"sound_released"			"UI/buttonclickrelease.wav"
+		"fillcolor"					"150 150 150 50"
 	}
 	"EmptyBoxBottomLeftHover"
 	{
@@ -1898,10 +1879,10 @@
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
 	}
-	"EmptyBoxTopRight"
+	"EmptyBoxBottomRight"
 	{
 		"ControlName"				"ImagePanel"
-		"fieldName"					"EmptyBoxTopRight"
+		"fieldName"					"EmptyBoxBottomRight"
 		"xpos"						"r40"
 		"ypos"						"r40"
 		"zpos"						"0"
@@ -1909,7 +1890,7 @@
 		"tall"						"40"
 		"visible"					"1"
 		"enabled"					"1"
-		"fillcolor"					"150 150 150 10"
+		"fillcolor"					"150 150 150 50"
 	}
 	"EmptyBoxBottomRightHover"
 	{

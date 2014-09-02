@@ -45,7 +45,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"Cerbetica24"
+			"font"			"DesignosaurRegular24"
 			"labelText"		"%blueteamname%"
 			"textAlignment"	"west"
 			"xpos"			"4"
@@ -62,7 +62,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"Cerbetica48"
+			"font"			"DesignosaurRegular48"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"15"
@@ -79,7 +79,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"Cerbetica48"
+			"font"			"DesignosaurRegular48"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"17"
@@ -97,7 +97,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"Cerbetica24"
+			"font"			"DesignosaurRegular24"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"			"122"
@@ -114,7 +114,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"Cerbetica48"
+			"font"			"DesignosaurRegular48"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"105"
@@ -131,7 +131,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-			"font"			"Cerbetica48"
+			"font"			"DesignosaurRegular48"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"107"
@@ -187,7 +187,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"CerbeticaBold20"
+		"font"			"DesignosaurRegular20"
 		"xpos"			"10"
 		"ypos"			"54"
 		"zpos"			"1"
@@ -206,7 +206,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
-		"font"			"CerbeticaBold20"
+		"font"			"DesignosaurRegular20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"11"
 		"ypos"			"55"
@@ -226,7 +226,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabel"
-		"font"			"CerbeticaBold20"
+		"font"			"DesignosaurRegular20"
 		"xpos"			"10"
 		"ypos"			"59"
 		"zpos"			"1"
@@ -245,7 +245,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabelDropshadow"
-		"font"			"CerbeticaBold20"
+		"font"			"DesignosaurRegular20"
 		"fgcolor"		"black"
 		"xpos"			"10"
 		"ypos"			"60"
@@ -265,7 +265,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"Cerbetica12"
+		"font"			"DesignosaurRegular12"
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"1"
@@ -284,7 +284,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"Cerbetica9"
+		"font"			"DesignosaurRegular9"
 		"xpos"			"10"
 		"ypos"			"82"
 		"zpos"			"1"
@@ -320,7 +320,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TopPlayerLabel"
-		"font"			"Cerbetica9"
+		"font"			"DesignosaurRegular9"
 		"xpos"			"15"
 		"ypos"			"100"
 		"zpos"			"3"
@@ -339,7 +339,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"Cerbetica9"
+		"font"			"DesignosaurRegular9"
 		"xpos"			"45"
 		"ypos"			"100"
 		"zpos"			"3"
@@ -583,7 +583,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakLeaderLabel"
-		"font"			"Cerbetica9"
+		"font"			"DesignosaurRegular9"
 		"xpos"			"15"
 		"ypos"			"164"
 		"zpos"			"3"
@@ -603,7 +603,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakMaxCountLabel"
-		"font"			"Cerbetica9"
+		"font"			"DesignosaurRegular9"
 		"xpos"			"116"
 		"ypos"			"0"
 		"zpos"			"3"

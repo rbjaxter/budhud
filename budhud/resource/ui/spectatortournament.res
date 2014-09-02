@@ -3,127 +3,191 @@
 	"specgui"
 	{
 		"ControlName"		"Frame"
-		"fieldName"			"specgui"
-		"wide"				"f0"
-		"tall"				"480"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"enabled"			"1"
+		"fieldName"		"specgui"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"enabled"		"1"
 				
-		"team1_player_base_offset_x"		"c"
-		"team1_player_base_y"				"65"
+		"team1_player_base_offset_x"		"-367"
+		"team1_player_base_y"				"460"
 		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"20"
-		"team2_player_base_offset_x"		"c"
-		"team2_player_base_y"				"255"
+		"team1_player_delta_y"				"-16"
+		"team2_player_base_offset_x"		"207"
+		"team2_player_base_y"				"460"
 		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"20"
+		"team2_player_delta_y"				"-16"
 		
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"145"
-			"tall"			"20"
+			"wide"			"160"
+			"tall"			"18"
 			"zpos"			"1"
+		
+
 			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
-										  			
+			
+			"tabPosition"	"0"
+			
+			"PanelBackground"
+			{
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"PanelBackground"
+			"xpos" 			"0"
+			"ypos"			"0"
+			"zpos" 			"-1"
+			"wide" 			"160"
+			"tall" 			"18"
+			"autoResize" 	"0"
+			"pinCorner"		"0"
+			"visible" 		"1"
+			"enabled" 		"1"
+			"fillcolor" 	"15 15 15 25"
+			}
+			
+			"PanelLeft"
+			{
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"PanelLeft"
+			"xpos" 			"0"
+			"ypos"			"0"
+			"zpos" 			"-1"
+			"wide" 			"49"
+			"tall" 			"18"
+			"autoResize" 	"0"
+			"pinCorner"		"0"
+			"visible" 		"1"
+			"enabled" 		"1"
+			"fillcolor" 	"15 15 15 255"
+			}
+			
+			"PanelTop"
+			{
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"PanelTop"
+			"xpos" 			"0"
+			"ypos"			"0"
+			"zpos" 			"-1"
+			"wide" 			"160"
+			"tall" 			"3"
+			"autoResize" 	"0"
+			"pinCorner"		"0"
+			"visible" 		"1"
+			"enabled" 		"1"
+			"fillcolor" 	"15 15 15 255"
+			}
+			
+			"PanelBottom"
+			{
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"PanelBottom"
+			"xpos" 			"0"
+			"ypos"			"15"
+			"zpos" 			"-1"
+			"wide" 			"160"
+			"tall" 			"4"
+			"autoResize" 	"0"
+			"pinCorner"		"0"
+			"visible" 		"1"
+			"enabled" 		"1"
+			"fillcolor" 	"15 15 15 255"
+			}
+			
+			"PanelRight"
+			{
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"PanelRight"
+			"xpos" 			"157"
+			"ypos"			"0"
+			"zpos" 			"-1"
+			"wide" 			"4"
+			"tall" 			"16"
+			"autoResize" 	"0"
+			"pinCorner"		"0"
+			"visible" 		"1"
+			"enabled" 		"1"
+			"fillcolor" 	"15 15 15 255"
+			}
+		
 			"playername"
 			{
-				"ControlName"		"CExLabel"
-				"fieldName"			"playername"
-				"font"				"DesignosaurRegular10"
-				"xpos"				"55"
-				"ypos"				"3"
-				"zpos"				"5"
-				"wide"				"75"
-				"tall"				"16"
-				"autoResize"		"0"
-				"pinCorner"			"0"
-				"visible"			"1"
-				"labelText"			"%playername%"
-				"textAlignment"		"west"
-				"fgcolor_override"	"bh_white"
-					
-				if_mvm
-				{
-					"xpos"				"0"
-					"ypos"				"25"
-					"wide"				"55"
-					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
-				}
+				"ControlName"	"CExLabel"
+				"fieldName"		"playername"
+				"font"			"DesignosaurRegular14"
+				"xpos"			"50"
+				"ypos"			"0"
+				"zpos"			"5"
+				"wide"			"90"
+				"tall"			"16"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%playername%"
+				"textAlignment"	"west"
+				"fgcolor"		"235 226 202 255"
+			
 			}
 			
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			"2"
-				"ypos"			"2"
+				"xpos"			"0"
+				"ypos"			"1"
 				"zpos"			"2"
 				"wide"			"22"
 				"tall"			"22"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"../hud/class_scoutred"
+				"team1_image"			"../hud/class_scoutred"
 				"scaleImage"	"1"	
 				
-				if_mvm
-				{
-					"xpos"			"5"
-					"ypos"			"4"
-					"wide"			"20"
-					"tall"			"20"
-					"image"			"../vgui/hud_connecting"
-				}
 			}
 			
 			"classimagebg"
 			{
 				"ControlName"		"Panel"
 				"fieldName"		"classimagebg"
-				"xpos"			"5"
-				"ypos"			"4"
+				"xpos"			"9999"
+				"ypos"			"9999"
 				"zpos"			"2"
-				"wide"			"20"
-				"tall"			"20"
+				"wide"			"9999"
+				"tall"			"9999"
 				"visible"		"0"
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
 				
-				if_mvm
-				{
-					"visible"		"1"
-				}
 			}
 			
 			"HealthIcon"
-			{
-				"ControlName"		"EditablePanel"
-				"fieldName"			"HealthIcon"
-				"xpos"				"22"
-				"ypos"				"-4"
-				"zpos"				"3"
-				"wide"				"32"
-				"tall"				"32"
-				"visible"			"1"
-				"enabled"			"1"	
-				"HealthBonusPosAdj"	"10"
-				"HealthDeathWarning"		"0.49"
-				"TFFont"					"HudFontSmallest"
-				"HealthDeathWarningColor"	"HUDDeathWarning"
-				"TextColor"					"HudOffWhite"
-			}
+				{
+					"ControlName" "EditablePanel"
+					"fieldName" "HealthIcon"
+					"xpos" "18"
+					"ypos" "-6"
+					"zpos" "3"
+					"wide" "50"
+					"tall" "50"
+					"visible" "1"
+					"enabled" "1"
+					"HealthBonusPosAdj" "10"
+					"HealthDeathWarning" "0.49"
+					"TFFont" "HudFontSmallest"
+					"HealthDeathWarningColor" "HUDDeathWarning"
+					"TextColor" "HudOffWhite"
+				}
 			
 			"ReadyBG"
 			{
 				"ControlName"		"ScalableImagePanel"
 				"fieldName"		"ReadyBG"
-				"xpos"			"30"
-				"ypos"			"6"
+				"xpos"			"0"
+				"ypos"			"0"
 				"zpos"			"-1"
 				"wide"			"16"
 				"tall"			"16"
@@ -139,10 +203,6 @@
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
 				
-				if_mvm
-				{
-					"visible"		"1"
-				}	
 			}
 			
 			"ReadyImage"
@@ -161,68 +221,96 @@
 				"image"			"hud/checkmark"
 				"scaleImage"		"1"
 
-				if_mvm
-				{
-					"visible"		"1"
-				}
 			}
 			
 			"respawntime"
 			{
-				"ControlName"		"CExLabel"
-				"fieldName"			"respawntime"
-				"font"				"DesignosaurRegular12"
-				"xpos"				"1"
-				"ypos"				"3"
-				"zpos"				"6"
-				"wide"				"25"
-				"tall"				"16"
-				"autoResize"		"0"
-				"pinCorner"			"0"
-				"visible"			"1"
-				"labelText"			"%respawntime%"
-				"textAlignment"		"center"
-				"fgcolor_override"	"bh_white"
+				"ControlName"	"CExLabel"
+				"fieldName"		"respawntime"
+				"font"			"DesignosaurRegular12"
+				"xpos"			"5"
+				"ypos"			"5"
+				"zpos"			"5"
+				"wide"			"23"
+				"tall"			"10"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%respawntime%"
+				"textAlignment"	"west"
+				"fgcolor"		"255 20 175 255"
 				
-				if_mvm
-				{
-					"ypos"			"17"
-				}
+			}
+			"respawntimeBG"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"respawntimeBG"
+				"font"			"DesignosaurRegular12"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"5"
+				"wide"			"23"
+				"tall"			"10"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%respawntime%"
+				"textAlignment"	"west"
+				"fgcolor"		"TransparentBlack"
+				
+			}
+			"healthcover"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"healthcover"
+				"font"			"Blocks48"
+				"xpos"			"22"
+				"ypos"			"1"
+				"zpos"			"5"
+				"wide"			"26"
+				"tall"			"20"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%respawntime%"
+				"textAlignment"	"west"
+				"fgcolor"		"15 15 15 255"
+				
 			}
 			
 			"chargeamount"
 			{
-				"ControlName"		"CExLabel"
-				"fieldName"			"chargeamount"
-				"font"				"DesignosaurRegular12"
-				"xpos"				"1"
-				"ypos"				"5"
-				"zpos"				"6"
-				"wide"				"25"
-				"tall"				"15"
-				"autoResize"		"0"
-				"pinCorner"			"0"
-				"visible"			"1"
-				"labelText"			"%chargeamount%"
-				"textAlignment"		"north"
-				"fgcolor_override"	"bh_lorange"
+				"ControlName"	"CExLabel"
+				"fieldName"		"chargeamount"
+				"font"			"DesignosaurRegular12"
+				"xpos"			"130"
+				"ypos"			"2"
+				"zpos"			"6"
+				"wide"			"25"
+				"tall"			"13"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%chargeamount%"
+				"textAlignment"	"east"
+				"fgcolor"		"0 255 255 255"
 			}
-			"chargeamountshadow"
+			"chargeamountBG"
 			{
-				"ControlName"		"CExLabel"
-				"fieldName"			"chargeamountshadow"
-				"font"				"DesignosaurRegular12"
-				"xpos"				"2"
-				"ypos"				"6"
-				"zpos"				"6"
-				"wide"				"25"
-				"tall"				"15"
-				"autoResize"		"0"
-				"pinCorner"			"0"
-				"visible"			"1"
-				"labelText"			"%chargeamount%"
-				"textAlignment"		"north"
-				"fgcolor_override"	"bh_black"
+				"ControlName"	"CExLabel"
+				"fieldName"		"chargeamountBG"
+				"font"			"DesignosaurRegular12"
+				"xpos"			"131"
+				"ypos"			"3"
+				"zpos"			"6"
+				"wide"			"25"
+				"tall"			"13"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%chargeamount%"
+				"textAlignment"	"east"
+				"fgcolor"		"TransparentBlack"
 			}
 			
 			"specindex"
@@ -230,35 +318,21 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"specindex"
 				"font"			"DefaultVerySmall"
-				"xpos"			"4"
-				"ypos"			"2"
+				"xpos"			"9999"
+				"ypos"			"9999"
 				"zpos"			"5"
 				"wide"			"50"
 				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"0"
+				"visible"		"1"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
 			}
 			
-			if_mvm
-			{
-				"wide"		"55"
-				"tall"		"35"
-			}
 		}
 		
-		if_mvm
-		{
-			"xpos"					"c-250"
-			"ypos"					"6"
-			"wide"					"500"
-			"tall"					"180"
-	
-			"team1_player_delta_x"			"52"
-		}		
 	}
 
 	"topbar"
@@ -287,41 +361,39 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-150"
-		"ypos"			"32"
-		"wide"			"300"
-		"tall"			"18"
-		"autoResize"		"0"
+		"xpos"			"c-300"	[$WIN32]
+		"ypos"			"50"	[$WIN32]
+		"wide"			"600"	[$WIN32]
+		"tall"			"24"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"HudFontSmall"
+		"font"			"DesignosaurRegular24"
 		
 		if_mvm
 		{
-			"xpos"			"c-190"
-			"ypos"			"1"
-			"wide"			"380"
-			"textAlignment"		"center"
+		"ypos"			"68"	[$WIN32]
 		}
+		
 	}
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"c-190"
-		"ypos"			"16"
+		"ypos"			"360"
 		"wide"			"380"
-		"tall"			"14"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"HudFontSmall"
+		"font"			"DesignosaurRegular20"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	
@@ -385,32 +457,65 @@
 		"fieldName"		"TipLabel"
 		"visible"		"0"
 	}
-	"itempanel"
+		"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r270"
-		"ypos"			"300"
+		"xpos"			"r249"
+		"ypos"			"c0"
 		"zpos"			"1"
-		"wide"			"270"
-		"tall"			"180"
+		"wide"			"240"
+		"tall"			"900"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
 		
 		"model_xpos"		"10"
 		"model_center_y"	"1"
-		"model_wide"		"90"
-		"model_tall"		"55"
+		"model_wide"		"64"
+		"model_tall"		"48"
 		
 		"text_xpos"		"90"
-		"text_wide"		"170"
+		"text_ypos"		"25"
+		"text_wide"		"150"
 		"text_center"	"1"
 		
 		"max_text_height"	"90"
-		"padding_height"	"40"
+		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
+		
+			"ItemBackground"
+			{
+			"ControlName" "ImagePanel"
+			"fieldName" "ItemBackground"
+			"xpos" "0"
+			"ypos" "0"
+			"zpos" "-1"
+			"wide" "240"
+			"tall" "900"
+			"autoResize" "0"
+			"pinCorner" "0"
+			"visible" "1"
+			"enabled" "1"
+			"fillcolor" "0 0 0 100"
+			}
+			"TitleBackground"
+			{
+			"ControlName" "ImagePanel"
+			"fieldName" "TitleBackground"
+			"xpos" "4"
+			"ypos" "4"
+			"zpos" "-1"
+			"wide" "232"
+			"tall" "14"
+			"autoResize" "0"
+			"pinCorner" "0"
+			"visible" "1"
+			"enabled" "1"
+			"fillcolor" "0 0 0 100"
+			}
 		
 		"itemmodelpanel"
 		{
@@ -421,42 +526,22 @@
 		
 		"ItemLabel"
 		{	
-			"ControlName"	"Label"
+			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
+			"font"			"DesignosaurRegular12"
 			"xpos"			"10"
-			"ypos"			"3"
+			"ypos"			"5"
 			"zpos"			"1"
 			"wide"			"270"
-			"tall"			"9"
+			"tall"			"12"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
+			"textAlignment"	"south-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-		}
-		
-		"attriblabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"attriblabel"
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
-			"centerwrap"	"1"
 		}
 	}
 }
