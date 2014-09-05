@@ -1,5 +1,5 @@
 "Resource/UI/MainMenuOverride.res"
-{
+{	
 	MainMenuOverride
 	{
 		"fieldName"		"MainMenuOverride"
@@ -11,7 +11,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		
-//		"bgcolor_override"	"0 0 0 240"
+	//	"bgcolor_override"	"0 0 0 240"
 		
 		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"		"http://www.teamfortress.com/"
@@ -276,8 +276,8 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldname"							"CreateServerButton"
-		"xpos"								"c-352"
-		"ypos"								"409"
+		"xpos"								"150"
+		"ypos"								"408"
 		"zpos"								"12"
 		"wide"								"25"
 		"tall"								"25"
@@ -1246,7 +1246,7 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldname"							"ReplayBrowserButton"
-		"xpos"								"c-375"
+		"xpos"								"50"
 		"ypos"								"240"
 		"zpos"								"11"
 		"wide"								"350"
@@ -1312,7 +1312,7 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldname"							"GeneralStoreButton"
-		"xpos"								"c-375"
+		"xpos"								"50"
 		"ypos"								"200"
 		"zpos"								"11"
 		"wide"								"350"
@@ -1393,7 +1393,7 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldname"							"CharacterSetupButton"
-		"xpos"								"c-375"
+		"xpos"								"50"
 		"ypos"								"160"
 		"zpos"								"11"
 		"wide"								"350"
@@ -1643,11 +1643,81 @@
 		}
 	}
 
+///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
+	
+	"budhud"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldname"				"budhud"
+		"xpos"					"759"
+		"ypos"					"420"
+		"zpos"					"11"
+		"wide"					"100"
+		"tall"					"100"
+		"visible"				"1"
+		"PaintBackgroundType"	"0"
+		
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"100"
+			"tall"						"100"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"font"						"DesignosaurRegular16"
+			"textAlignment"				"center"
+			"labelText"					"budhud BETA"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+
+			"border_default"			""
+			"border_armed"				""
+			"paintbackground"			"0"
+			
+			"defaultFgColor_override" 	"bh_white"
+			"armedFgColor_override" 	"bh_orange"
+			"depressedFgColor_override" "bh_orange"
+			
+			"image_drawcolor"			"bh_gray"
+			"image_armedcolor"			"bh_white"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
+		}
+	}
+	
+///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
+	
 	"QuickplayButton"
 	{
 		"ControlName"						"EditablePanel"
 		"fieldname"							"QuickplayButton"
-		"xpos"								"c-375"
+		"xpos"								"50"
 		"ypos"								"80"
 		"zpos"								"11"
 		"wide"								"350"
@@ -1713,7 +1783,7 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldname"							"ResumeGameButton"
-		"xpos"								"c-375"
+		"xpos"								"50"
 		"ypos"								"40"
 		"zpos"								"11"
 		"wide"								"350"
@@ -1780,7 +1850,7 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldname"							"QuickplayChangeButton"
-		"xpos"								"c-375"
+		"xpos"								"50"
 		"ypos"								"80"
 		"zpos"								"11"
 		"wide"								"350"
@@ -1847,7 +1917,7 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldname"							"PlayPVEButton"
-		"xpos"								"c-375"
+		"xpos"								"50"
 		"ypos"								"120"
 		"zpos"								"11"
 		"wide"								"350"
@@ -1914,7 +1984,7 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldname"							"ServerBrowserButton"
-		"xpos"								"c-375"
+		"xpos"								"50"
 		"ypos"								"40"
 		"zpos"								"11"
 		"wide"								"350"
@@ -1981,7 +2051,7 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldname"							"ChangeServerButton"
-		"xpos"								"c-375"
+		"xpos"								"50"
 		"ypos"								"120"
 		"zpos"								"11"
 		"wide"								"350"
@@ -2048,7 +2118,7 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldname"							"CallVoteButton"
-		"xpos"								"c-254"
+		"xpos"								"150"
 		"ypos"								"409"
 		"zpos"								"12"
 		"wide"								"25"
@@ -2109,7 +2179,7 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldname"							"MutePlayersButton"
-		"xpos"								"c-234"
+		"xpos"								"170"
 		"ypos"								"409"
 		"zpos"								"12"
 		"wide"								"25"
@@ -2171,7 +2241,7 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldname"							"RequestCoachButton"
-		"xpos"								"c-214"
+		"xpos"								"190"
 		"ypos"								"409"
 		"zpos"								"12"
 		"wide"								"25"
@@ -2309,7 +2379,7 @@
 	{
 		"ControlName"						"CExImageButton"
 		"fieldName"							"AchievementsButton"
-		"xpos"								"c-334"
+		"xpos"								"70"
 		"ypos"								"407"
 		"zpos"								"3"
 		"wide"								"25"
@@ -2362,7 +2432,7 @@
 	{
 		"ControlName"						"CExImageButton"
 		"fieldName"							"CommentaryButton"
-		"xpos"								"c-314"
+		"xpos"								"90"
 		"ypos"								"407"
 		"zpos"								"4"
 		"wide"								"25"
@@ -2413,7 +2483,7 @@
 	{
 		"ControlName"						"CExImageButton"
 		"fieldName"							"CoachPlayersButton"
-		"xpos"								"c-294"
+		"xpos"								"110"
 		"ypos"								"407"
 		"zpos"								"5"
 		"wide"								"25"
@@ -2464,7 +2534,7 @@
 	{
 		"ControlName"						"CExImageButton"
 		"fieldName"							"ReportBugButton"
-		"xpos"								"c-274"
+		"xpos"								"130"
 		"ypos"								"406"
 		"zpos"								"1"
 		"wide"								"25"
@@ -2514,7 +2584,7 @@
 	{
 		"ControlName"						"CExImageButton"
 		"fieldName"							"TF2SettingsButton"
-		"xpos"								"c-375"
+		"xpos"								"50"
 		"ypos"								"320"
 		"zpos"								"1"
 		"wide"								"350"
@@ -2568,7 +2638,7 @@
 	{
 		"ControlName"						"CExImageButton"
 		"fieldName"							"SettingsButton"
-		"xpos"								"c-375"
+		"xpos"								"50"
 		"ypos"								"280"
 		"zpos"								"1"
 		"wide"								"350"
@@ -2623,7 +2693,7 @@
 	{
 		"ControlName"						"CExImageButton"
 		"fieldName"							"QuitButton"
-		"xpos"								"c-375"
+		"xpos"								"50"
 		"ypos"								"360"
 		"zpos"								"1"
 		"wide"								"350"
@@ -2672,12 +2742,12 @@
 			"image"							"glyph_quit"
 		}				
 	}			
-	
+
 	"DisconnectButton"
 	{
 		"ControlName"						"CExImageButton"
 		"fieldName"							"DisconnectButton"
-		"xpos"								"c-375"
+		"xpos"								"50"
 		"ypos"								"360"
 		"zpos"								"1"
 		"wide"								"350"

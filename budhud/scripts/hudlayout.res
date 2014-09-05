@@ -764,9 +764,9 @@
 	{	
 		"fieldName"					"CHealthAccountPanel"
 		"xpos"						"76"
-		"xpos_minmode"				"61"
+		"xpos_minmode"				"76"
 		"ypos"						"r152"
-		"ypos_minmode"				"r134"
+		"ypos_minmode"				"r152"
 		"wide"						"116"
 		"tall"  					"180"
 		"visible" 					"1"
@@ -1360,11 +1360,10 @@
 		"tall"						"200"
 		"visible"					"1"
 		"enabled"					"1"
-		"separator_width"			"9"	// distance between the icons (including their backgrounds)
-		"separator_height"			"7"
-		"height_offset"				"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"				"26"	[$X360]
-	}	
+		"separator_width"			"3"	// distance between the icons (including their backgrounds)
+		"separator_height"			"3"
+		"height_offset"				"3" // distance from the bottom of the panel
+	}
 	
 	HudCapturePanel	
 	{	
@@ -1551,13 +1550,10 @@
 		"fieldName" 				"HudMenuSpyDisguise"
 		"visible" 					"1"
 		"enabled" 					"1"
-		"xpos"						"c-235"
-		"ypos"						"c-52"
-		"ypos_hidef"				"c-42"
-		"ypos_lodef"				"c-42"
+		"xpos"						"r788"
+		"ypos"						"c-128"
 		"wide"						"470"
-		"tall"						"200"	[$WIN32]
-		"tall"						"180"	[$X360]
+		"tall"						"250"
 		"PaintBackgroundType"		"0"
 	}	
 	

@@ -1,0 +1,81 @@
+"Resource/UI/hudcurrencyaccount.res"
+{
+	"CurrencyBG"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"CurrencyBG"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"0"
+		"wide"					"100"
+		"tall"					"20"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"fillcolor"				"0 0 0 150"
+	}
+	
+	"CurrencyLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"CurrencyLabel"
+		"font"					"DesignosaurRegular14"
+		"fgcolor"				"bh_white"
+		"xpos"					"4"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"50"
+		"tall"					"20"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"west"	
+		"labelText"				"Currency"
+	}
+	
+	"Currency"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"Currency"
+		"font"					"DesignosaurRegular14"
+		"fgcolor"				"bh_green"
+		"xpos"					"45"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"50"
+		"tall"					"20"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"east"	
+		"labelText"				"%currency%"
+	}	
+	"WhiteBG"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"WhiteBG"
+		"xpos"					"6969"
+		"ypos"					"6969"
+		"zpos"					"1"
+		"wide"					"60"
+		"tall"					"18"
+		"visible"				"1"
+		"enabled"				"1"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"		"bh_white"
+	}	
+	
+	"GreenBG"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"WhiteBG"
+		"xpos"					"6969"
+		"ypos"					"6969"
+		"zpos"					"2"
+		"wide"					"58"
+		"tall"					"16"
+		"visible"				"1"
+		"enabled"				"1"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"		"bh_green"
+	}
+}

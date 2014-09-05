@@ -25,8 +25,8 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"6969"
+		"ypos"			"6969"
 		"zpos"			"0"
 		"wide"			"98"
 		"tall"			"105"
@@ -83,8 +83,8 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"6969"
+		"ypos"			"6969"
 		"zpos"			"0"
 		"wide"			"18"
 		"tall"			"18"

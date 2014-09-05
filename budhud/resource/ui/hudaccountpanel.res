@@ -2,13 +2,13 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"28"
-		"delta_item_start_y"	"90"
-		"delta_item_end_y"		"70"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_x"			"47"
+		"delta_item_start_y"	"45"
+		"delta_item_end_y"		"45"
+		"PositiveColor"			"bh_orange"
+		"NegativeColor"			"bh_red"
+		"delta_lifetime"		".8"
+		"delta_item_font"		"DesignosaurRegular20"
 	}
 	
 	"AccountBG"

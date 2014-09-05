@@ -1,13 +1,3 @@
-//
-// TRACKER SCHEME RESOURCE FILE
-//
-// sections:
-//		colors			- all the colors used by the scheme
-//		basesettings	- contains settings for app to use to draw controls
-//		fonts			- list of all the fonts used by app
-//		borders			- description of all the borders
-//
-//
 Scheme
 {
 	//Name - currently overriden in code
@@ -22,12 +12,13 @@ Scheme
 		// budhud
 		"bh_white"			"255 255 255 255"
 		"bh_black"			"0 0 0 255"
-		"bh_red"			"228 0 27 255"
 		"bh_lblue"			"0 153 255 255"
 		"bh_gray"			"150 150 150 255"
 		"bh_lorange"		"243 157 48 255"
 		"bh_dorange"		"204 93 27 255"
 		"bh_orange"			"240 134 49 255"
+		"bh_green"			"0 215 0 255"
+		"bh_red"			"215 0 0 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"

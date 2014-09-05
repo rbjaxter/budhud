@@ -337,8 +337,8 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"DesignosaurRegular12"
-			"xpos"			"9999"
-			"ypos"			"9999"
+			"xpos"			"6969"
+			"ypos"			"6969"
 			"zpos"			"1"
 			"wide"			"550"
 			"tall"			"15"
@@ -388,8 +388,8 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"NemesisSubPanel"
-			"xpos"			"9999"		// FIXME
-			"ypos"			"9999"
+			"xpos"			"6969"		// FIXME
+			"ypos"			"6969"
 			"zpos"			"4"
 			"wide"			"306"
 			"tall"			"38"

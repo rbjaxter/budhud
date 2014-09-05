@@ -35,8 +35,8 @@
 		"xpos"					"80"
 		"ypos"					"30"
 		"zpos"					"-1"
-		"wide"					"130"
-		"tall"	 				"31"
+		"wide"					"150"
+		"tall"	 				"25"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -58,9 +58,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"DisguiseNameLabel"
-		"font"				"HudFontMediumSmallSecondary"
-		"xpos"				"112"
-		"ypos"				"31"
+		"font"				"DesignosaurRegular12"
+		"xpos"				"117"
+		"ypos"				"26"
 		"zpos"				"1"
 		"wide"				"110"
 		"tall"				"24"
@@ -69,7 +69,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%disguisename%"
-		"textAlignment"		"North-West"
+		"textAlignment"		"east"
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
@@ -78,10 +78,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"WeaponNameLabel"
-		"font"				"HUDFontSmall"
-		"font_minmode"		"TFFontMedium"
-		"xpos"				"112"
-		"ypos"				"45"
+		"font"				"DesignosaurRegular12"
+		"xpos"				"117"
+		"ypos"				"37"
 		"zpos"				"1"
 		"wide"				"110"
 		"tall"				"24"
@@ -90,7 +89,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%weaponname%"
-		"textAlignment"		"North-West"
+		"textAlignment"		"east"
 		"dulltext"			"0"
 		"brighttext"		"0"
 	}
@@ -99,10 +98,10 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"SpectatorGUIHealth"
-		"xpos"						"80"
-		"ypos"						"29"
-		"wide"						"32"
-		"tall"						"32"
+		"xpos"						"70"
+		"ypos"						"18"
+		"wide"						"50"
+		"tall"						"50"
 		"visible"					"1"
 		"enabled"					"1"	
 		"HealthBonusPosAdj"			"10"
@@ -111,5 +110,4 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"					"bh_white"
 	}	
-	
 }

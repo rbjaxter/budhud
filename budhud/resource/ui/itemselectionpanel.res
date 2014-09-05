@@ -164,8 +164,8 @@
 	{
 		"ControlName"						"ImagePanel"
 		"fieldName"							"TopLine"
-		"xpos"								"9999"
-		"ypos"								"9999"
+		"xpos"								"6969"
+		"ypos"								"6969"
 		"zpos"								"2"
 		"wide"								"610"
 		"tall"								"10"
@@ -179,8 +179,8 @@
 	{
 		"ControlName"						"ImagePanel"
 		"fieldName"							"BottomLine"
-		"xpos"								"9999"
-		"ypos"								"9999"
+		"xpos"								"6969"
+		"ypos"								"6969"
 		"zpos"								"2"
 		"wide"								"610"
 		"tall"								"10"

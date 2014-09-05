@@ -342,7 +342,7 @@
 				"fieldName"		"TeamIndicator"
 				"xpos"			"70"
 				"ypos"			"68"
-				"zpos"			"-9999"
+				"zpos"			"-6969"
 				"wide"			"60"
 				"tall"			"6"
 				"autoresize"	"0"

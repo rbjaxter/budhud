@@ -19,9 +19,9 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"JoinBG"
-		"xpos"						"0"
-		"ypos"						"0"
-		"zpos"						"1"
+		"xpos"						"c-80"
+		"ypos"						"200"
+		"zpos"						"3"
 		"wide"						"80"
 		"tall"						"80"
 		"visible"					"1"
@@ -46,9 +46,9 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"SpecBG"
-		"xpos"						"r80"
-		"ypos"						"0"
-		"zpos"						"1"
+		"xpos"						"c0"
+		"ypos"						"200"
+		"zpos"						"3"
 		"wide"						"80"
 		"tall"						"80"
 		"visible"					"1"
@@ -168,9 +168,9 @@
 	{
 		"ControlName"				"CTFTeamButton"
 		"fieldName"					"teambutton2"
-		"xpos"						"0"
-		"ypos"						"0"
-		"zpos"						"1"
+		"xpos"						"c-80"
+		"ypos"						"200"
+		"zpos"						"3"
 		"wide"						"80"
 		"tall"						"80"
 		"autoResize"				"0"
@@ -196,9 +196,9 @@
 	{
 		"ControlName"				"CTFTeamButton"
 		"fieldName"					"teambutton3"
-		"xpos"						"r80"
-		"ypos"						"0"
-		"zpos"						"1"
+		"xpos"						"c0"
+		"ypos"						"200"
+		"zpos"						"20"
 		"wide"						"80"
 		"tall"						"80"
 		"autoResize"				"0"
@@ -251,8 +251,8 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"TeamMenuAuto"
-		"xpos"						"9999" [$WIN32] 
-		"ypos"						"9999"
+		"xpos"						"6969" [$WIN32] 
+		"ypos"						"6969"
 		"zpos"						"1"
 		"wide"						"102" [$WIN32] 
 		"wide"						"94" [$X360]
@@ -274,8 +274,8 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"TeamMenuSpectate"
-		"xpos"						"9999"
-		"ypos"						"9999"
+		"xpos"						"6969"
+		"ypos"						"6969"
 		"zpos"						"1"
 		"wide"						"44"
 		"wide_lodef"				"70"
@@ -330,8 +330,8 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"ShadedBar"
-		"xpos"						"9999"
-		"ypos"						"99999"
+		"xpos"						"6969"
+		"ypos"						"69699"
 		"zpos"						"5"
 		"wide"						"f0"
 		"tall"						"50"
@@ -350,8 +350,8 @@
 	{
 		"ControlName"				"CModelPanel"
 		"fieldName"					"autodoor"
-		"xpos"						"9999"
-		"ypos"						"9999"
+		"xpos"						"6969"
+		"ypos"						"6969"
 		"zpos"						"2"		
 		"wide"						"f0"
 		"tall"						"480"

@@ -1634,9 +1634,9 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"RecordsBG"
-			"xpos"			"9999"
+			"xpos"			"6969"
 			"xpos_hidef"			"c+95"
-			"ypos"			"9999"
+			"ypos"			"6969"
 			"ypos_hidef"			"115"
 			"wide"			"200"
 			"wide_hidef"			"225"

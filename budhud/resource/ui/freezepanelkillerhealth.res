@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"6969"
+		"ypos"			"6969"
 		"zpos"			"4"
 		"wide"			"18"
 		"tall"			"18"
@@ -17,8 +17,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"6969"
+		"ypos"			"6969"
 		"zpos"			"3"
 		"wide"			"22"
 		"tall"			"22"
@@ -31,8 +31,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BuildingStatusHealthImageBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"6969"
+		"ypos"			"6969"
 		"zpos"			"3"
 		"wide"			"28"
 		"tall"			"28"

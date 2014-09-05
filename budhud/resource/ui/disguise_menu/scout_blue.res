@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemName"
-		"font"			"CerbeticaBold14"
+		"font"			"DesignosaurRegular12"
 		"xpos"			"20"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -25,8 +25,8 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ClassIcon"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"6969"
+		"ypos"			"6969"
 		"zpos"			"1"
 		"wide"			"45"
 		"tall"			"90"
@@ -40,8 +40,8 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"6969"
+		"ypos"			"6969"
 		"zpos"			"0"
 		"wide"			"15"
 		"tall"			"15"
@@ -56,7 +56,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"CerbeticaBold14"
+		"font"			"DesignosaurRegular12"
 		"fgcolor"		"70 130 180 153"
 		"xpos"			"5"
 		"ypos"			"3"
@@ -77,7 +77,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"CerbeticaBold14"
+		"font"			"DesignosaurRegular12"
 		"fgcolor"		"70 130 180 153"
 		"xpos"			"5"
 		"ypos"			"3"

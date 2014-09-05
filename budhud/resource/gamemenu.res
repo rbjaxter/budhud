@@ -1,5 +1,24 @@
 "GameMenu" [$WIN32]
 {
+	"budhud"
+	{
+		"label" 		"budhud BETA" 
+		"subimage"		""
+		"OnlyAtMenu" 	"0"
+		"command" 		"engine con_enable 1;showconsole;clear;
+		echo ========================================================================;
+		echo BUDHUD, Version 0.9.0beta by Whisker Biscuit;
+		echo ========================================================================;
+		echo ========================================================================;
+		echo This is the BETA release of budhud, so there are likely still bugs;
+		echo If you find any issues, please let me know at my Github or steam!;
+		echo ========================================================================;
+		echo Report Issues: github.com/WhiskerBiscuit/budhud/issues;
+		echo HUD GROUP: steamcommunity.com/groups/budhud;
+		echo ========================================================================;
+		echo TF2 Charity Fundraiser Site: tipofthehats.org;
+		echo ========================================================================"
+	}
 	"ResumeGameButton"
 	{
 		"label"			"RESUME GAME"
