@@ -23,7 +23,7 @@ Customization
 To access the custom crosshairs, navigate to **\budhud\scripts\hudlayout.res**. I've included whayay's, fog's, Garm3n's & konr's crosshairs. If I'm missing crosshairs or you find any bugs with them, let me know.
 
 ##### Custom Crosshairs: whayay's crosshairs
-Whayay's crosshairs can be seen in \budhud\_Customization_\whayay's crosshairs.png. Note the letter underneath the crosshair you want to use. The, go to your hudlayout.res and find "labeltext" under the first section at the top. Change "f" to whatever letter is associated with the crosshair you would like to use.
+Whayay's crosshairs can be seen in \budhud\Customization\whayay's crosshairs.png. Note the letter underneath the crosshair you want to use. The, go to your hudlayout.res and find "labeltext" under the first section at the top. Change "f" to whatever letter is associated with the crosshair you would like to use.
 
 ##### Custom Crosshairs: Damage Flash
 To modify the damage color for fog's or whayay's crosshair, go to **\budhud\scripts\hudanimations_tf.txt** and read the information at the top of the file.
