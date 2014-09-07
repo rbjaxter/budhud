@@ -20,17 +20,18 @@
         
         "visible"			"0"			  			//"1" to enable
         
-		"labeltext"			"f"           			//Change this to use a different crosshair
-													//You can see the list of crosshairs in Crosshairs.png
+		"labeltext"			"f"           			// Change this to use a different crosshair.
+													// You can see the list of crosshairs in
+													// \budhud\_Customization_\whayay's crosshairs.png
         
-        "font"				"CrosshairOLsmall"	    //Use "CrosshairOL" for a crosshair with an outline
-													//or "CrosshairAA" for a smooth crosshair w/o an outline 
+        "font"				"CrosshairOLsmall"	    // Use "CrosshairOL" for a crosshair with an outline
+													// or "CrosshairAA" for a smooth crosshair w/o an outline 
                                      
-													//You can add "Small" or "Big" at the end to change the size
-													//e.g. "CrosshairOLSmall"
+													// You can add "Small" or "Big" at the end to change the size
+													// e.g. "CrosshairOLSmall"
         
-        "fgcolor"			"bh_white"      		//Color is changed via the clientscheme
-													//in the "/resource/" folder
+        "fgcolor"			"bh_white"      		// Color is changed via the clientscheme
+													// in the "/resource/" folder
 	}
 	
 	/////////////////////////////////////////////////////////////////////////////

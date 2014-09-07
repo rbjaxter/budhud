@@ -1,0 +1,3 @@
+To replace the current background with one of these, simply move the appropriate .vtf files (both background_upward_widescreen and background_upward) into \budhud\materials\console.
+
+If you aren't asked to replace files, double-check to make sure you're in the correct directory.
