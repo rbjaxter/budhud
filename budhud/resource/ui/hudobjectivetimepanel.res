@@ -187,22 +187,4 @@
 		"wrap"				"0"
 		"font"				"DesignosaurRegular12"
 	}	
-	"ServerTimeLimitLabelBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"ServerTimeLimitLabelBG"
-		"xpos"				"6969"
-		"xpos"				"6969"
-		"ypos"				"6969"
-		"ypos_hidef"		"-100"
-		"ypos_lodef"		"-100"
-		"zpos"				"1"
-		"wide"				"78"
-		"tall"				"20"
-		"tall_minmode"		"0"
-		"visible"			"0"
-		"enabled"			"1"
-		"image"				"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
-	}	
 }

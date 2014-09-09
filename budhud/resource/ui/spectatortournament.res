@@ -117,9 +117,9 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"DesignosaurRegular14"
+				"font"			"DesignosaurRegular12"
 				"xpos"			"50"
-				"ypos"			"0"
+				"ypos"			"1"
 				"zpos"			"5"
 				"wide"			"90"
 				"tall"			"16"
@@ -256,7 +256,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
-				"fgcolor"		"0 255 255 255"
+				"fgcolor"		"bh_orange"
 			}
 			"chargeamountBG"
 			{
@@ -273,7 +273,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
-				"fgcolor"		"TransparentBlack"
+				"fgcolor"		"bh_black"
 			}
 			
 			"specindex"

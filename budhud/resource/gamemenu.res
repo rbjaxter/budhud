@@ -9,7 +9,6 @@
 		echo ========================================================================;
 		echo BUDHUD, Version 0.9.0beta by Whisker Biscuit;
 		echo ========================================================================;
-		echo ========================================================================;
 		echo This is the BETA release of budhud, so there are likely still bugs;
 		echo If you find any issues, please let me know at my Github or steam!;
 		echo ========================================================================;

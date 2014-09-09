@@ -27,6 +27,7 @@
 		"class_width_minmode"		"15"
 		"score_width_minmode"		"19"
 		"ping_width_minmode"		"16"
+		"tall_minmode"				"185"
 		/////////////////////////////
 		
 		if_mvm
@@ -107,10 +108,10 @@
 		if_mvm
 		{
 			"xpos"			"0"
-			"ypos"			"60"
+			"ypos"			"65"
 			"zpos"			"-1"
 			"wide"			"600"
-			"tall"			"388"
+			"tall"			"383"
 		}
 	}							
 	"BlueTeamLabel"
@@ -179,8 +180,8 @@
 		"tall"				"55"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		
 		if_mvm
 		{
@@ -281,8 +282,8 @@
 		"tall"				"55"
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		
 		if_mvm
 		{
@@ -347,7 +348,7 @@
 		{
 			"textAlignment"		"center"
 			"xpos"				"150"
-			"ypos"				"57"
+			"ypos"				"60"
 			"wide"				"300"
 			"tall"				"20"
 		}
@@ -527,11 +528,12 @@
 		"wide"					"88"
 		"tall"					"50"
 		/////////////////////////////
-		"xpos_minmode"			"100"
-		"ypos_minmode"			"400"
+		"xpos_minmode"			"8"
+		"ypos_minmode"			"60"
 		"zpos_minmode"			"2"
-		"wide_minmode"			"88"
-		"tall_minmode"			"50"
+		"wide_minmode"			"60"
+		"tall_minmode"			"60"
+		"fillcolor_minmode"		"0 0 0 75"
 		/////////////////////////////
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -560,11 +562,46 @@
 		"wide"					"310"
 		"tall"					"50"
 		/////////////////////////////
-		"xpos_minmode"			"188"
-		"ypos_minmode"			"400"
+		"xpos_minmode"			"r322"
+		"ypos_minmode"			"60"
 		"zpos_minmode"			"2"
-		"wide_minmode"			"310"
-		"tall_minmode"			"50"
+		"wide_minmode"			"60"
+		"tall_minmode"			"34"
+		"fillcolor_minmode"		"0 0 0 75"
+		/////////////////////////////
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"	
+		"fillcolor"				"0 0 0 153"
+		"PaintBackgroundType"	"0"
+		
+		if_mvm
+		{
+			"xpos"				"274"
+			"ypos"				"385"
+			"zpos"				"2"
+			"wide"				"310"
+			"tall"				"50"
+		}
+	}
+	"ShadedBarRightMinmode"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"ShadedBarRightMinmode"
+		"xpos"					"6969"
+		"ypos"					"6969"
+		"zpos"					"2"
+		"wide"					"310"
+		"tall"					"50"
+		/////////////////////////////
+		"xpos_minmode"			"r322"
+		"ypos_minmode"			"100"
+		"zpos_minmode"			"2"
+		"wide_minmode"			"60"
+		"tall_minmode"			"34"
+		"fillcolor_minmode"		"0 0 0 75"
 		/////////////////////////////
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -764,7 +801,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"		"LocalPlayerData"
 			"xpos"			"75"
-			"ypos"			"0"
+			"ypos"			"5"
 			"wide"			"200"
 			"tall"			"53"
 			"autoResize"	"0"
@@ -929,10 +966,10 @@
 		"tall"					"448"
 		/////////////////////////////
 		"xpos_minmode"			"-60"
-		"ypos_minmode"			"399"
+		"ypos_minmode"			"-50"
 		"zpos_minmode"			"5"
-		"wide_minmode"			"700"
-		"tall_minmode"			"448"
+		"wide_minmode"			"1000"
+		"tall_minmode"			"600"
 		/////////////////////////////
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -962,7 +999,7 @@
 			"wide"				"95"
 			"tall"				"20"
 			/////////////////////////////
-			"xpos_minmode"		"114"
+			"xpos_minmode"		"-250"
 			"ypos_minmode"		"1"
 			"zpos_minmode"		"3"
 			"wide_minmode"		"95"
@@ -981,7 +1018,32 @@
 				"wide"			"95"
 				"tall"			"20"
 			}
-		}						
+		}
+		"KillsLabelMinmode"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"KillsLabelMinmode"
+			"font"				"DesignosaurRegular20"
+			"fgcolor"			"bh_white"
+			"labelText"			"K:"
+			"textAlignment"		"east"
+			"xpos"				"6969"
+			"ypos"				"6969"
+			"zpos"				"3"
+			"wide"				"95"
+			"tall"				"20"
+			/////////////////////////////
+			"xpos_minmode"		"-7"
+			"ypos_minmode"		"110"
+			"zpos_minmode"		"3"
+			"wide_minmode"		"95"
+			"tall_minmode"		"20"
+			/////////////////////////////
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+		}		
 		"DeathsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -996,8 +1058,8 @@
 			"wide"				"95"
 			"tall"				"20"
 			/////////////////////////////
-			"xpos_minmode"		"114"
-			"ypos_minmode"		"31"
+			"xpos_minmode"		"6969"
+			"ypos_minmode"		"6969"
 			"zpos_minmode"		"3"
 			"wide_minmode"		"95"
 			"tall_minmode"		"20"
@@ -1015,7 +1077,32 @@
 				"wide"			"95"
 				"tall"			"20"
 			}
-		}						
+		}	
+		"DeathsLabelMinmode"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"DeathsLabelMinmode"
+			"font"				"DesignosaurRegular20"
+			"fgcolor"			"bh_white"
+			"labelText"			"D:"
+			"textAlignment"		"east"
+			"xpos"				"6969"
+			"ypos"				"6969"
+			"zpos"				"3"
+			"wide"				"95"
+			"tall"				"20"
+			/////////////////////////////
+			"xpos_minmode"		"-7"
+			"ypos_minmode"		"150"
+			"zpos_minmode"		"3"
+			"wide_minmode"		"95"
+			"tall_minmode"		"20"
+			/////////////////////////////
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+		}		
 		"AssistsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1030,8 +1117,8 @@
 			"wide"				"95"
 			"tall"				"20"
 			/////////////////////////////
-			"xpos_minmode"		"114"
-			"ypos_minmode"		"16"
+			"xpos_minmode"		"6969"
+			"ypos_minmode"		"6969"
 			"zpos_minmode"		"3"
 			"wide_minmode"		"95"
 			"tall_minmode"		"20"
@@ -1049,6 +1136,31 @@
 				"wide"			"95"
 				"tall"			"20"
 			}
+		}
+		"AssistsLabelMinmode"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"AssistsLabelMinmode"
+			"font"				"DesignosaurRegular20"
+			"fgcolor"			"bh_white"
+			"labelText"			"A:"
+			"textAlignment"		"east"
+			"xpos"				"6969"
+			"ypos"				"6969"
+			"zpos"				"3"
+			"wide"				"95"
+			"tall"				"20"
+			/////////////////////////////
+			"xpos_minmode"		"-7"
+			"ypos_minmode"		"130"
+			"zpos_minmode"		"3"
+			"wide_minmode"		"95"
+			"tall_minmode"		"20"
+			/////////////////////////////
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
 		}
 		"DestructionLabel"
 		{
@@ -1082,10 +1194,11 @@
 			"wide"				"35"
 			"tall"				"20"
 			/////////////////////////////
-			"xpos_minmode"		"202"
-			"ypos_minmode"		"2"
+			"font_minmode"		"DesignosaurRegular20"
+			"xpos_minmode"		"61"
+			"ypos_minmode"		"110"
 			"zpos_minmode"		"3"
-			"wide_minmode"		"35"
+			"wide_minmode"		"95"
 			"tall_minmode"		"20"
 			/////////////////////////////
 			"autoResize"		"0"
@@ -1116,10 +1229,11 @@
 			"wide"				"35"
 			"tall"				"20"
 			/////////////////////////////
-			"xpos_minmode"		"202"
-			"ypos_minmode"		"32"
+			"font_minmode"		"DesignosaurRegular20"
+			"xpos_minmode"		"61"
+			"ypos_minmode"		"150"
 			"zpos_minmode"		"3"
-			"wide_minmode"		"35"
+			"wide_minmode"		"95"
 			"tall_minmode"		"20"
 			/////////////////////////////
 			"autoResize"		"0"
@@ -1168,10 +1282,11 @@
 			"wide"				"35"
 			"tall"				"20"
 			/////////////////////////////
-			"xpos_minmode"		"202"
-			"ypos_minmode"		"17"
+			"font_minmode"		"DesignosaurRegular20"
+			"xpos_minmode"		"61"
+			"ypos_minmode"		"130"
 			"zpos_minmode"		"3"
-			"wide_minmode"		"35"
+			"wide_minmode"		"95"
 			"tall_minmode"		"20"
 			/////////////////////////////
 			"autoResize"		"0"
@@ -1223,7 +1338,32 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-		}						
+		}	
+		"CapturesLabelMinmode"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"CapturesLabelMinmode"
+			"font"				"DesignosaurRegular10"
+			"fgcolor"			"bh_white"
+			"labelText"			"CAPS:"
+			"textAlignment"		"west"
+			"xpos"				"6969"
+			"ypos"				"6969"
+			"zpos"				"3"
+			"wide"				"95"
+			"tall"				"20"
+			/////////////////////////////
+			"xpos_minmode"		"597"
+			"ypos_minmode"		"117"
+			"zpos_minmode"		"3"
+			"wide_minmode"		"95"
+			"tall_minmode"		"20"
+			/////////////////////////////
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+		}			
 		"DefensesLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1259,7 +1399,32 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-		}						
+		}	
+		"DominationLabelMinmode"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"DominationLabelMinmode"
+			"font"				"DesignosaurRegular10"
+			"fgcolor"			"bh_white"
+			"labelText"			"DOMS:"
+			"textAlignment"		"west"
+			"xpos"				"6969"
+			"ypos"				"6969"
+			"zpos"				"3"
+			"wide"				"95"
+			"tall"				"20"
+			/////////////////////////////
+			"xpos_minmode"		"594"
+			"ypos_minmode"		"127"
+			"zpos_minmode"		"3"
+			"wide_minmode"		"95"
+			"tall_minmode"		"20"
+			/////////////////////////////
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+		}			
 		"RevengeLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1291,6 +1456,15 @@
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
+			/////////////////////////////
+			"textAlignment_minmode"		"center"
+			"fgcolor_minmode"			"bh_orange"
+			"xpos_minmode"				"588"
+			"ypos_minmode"				"117"
+			"zpos_minmode"				"3"
+			"wide_minmode"				"95"
+			"tall_minmode"				"20"
+			/////////////////////////////
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
@@ -1327,6 +1501,15 @@
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
+			/////////////////////////////
+			"textAlignment_minmode"		"center"
+			"fgcolor_minmode"			"bh_dorange"
+			"xpos_minmode"				"588"
+			"ypos_minmode"				"127"
+			"zpos_minmode"				"3"
+			"wide_minmode"				"95"
+			"tall_minmode"				"20"
+			/////////////////////////////
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
@@ -1367,7 +1550,32 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-		}						
+		}	
+		"HealingLabelMinmode"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"HealingLabelMinmode"
+			"font"				"DesignosaurRegular10"
+			"fgcolor"			"bh_white"
+			"labelText"			"HEALS:"
+			"textAlignment"		"west"
+			"xpos"				"6969"
+			"ypos"				"6969"
+			"zpos"				"3"
+			"wide"				"95"
+			"tall"				"20"
+			/////////////////////////////
+			"xpos_minmode"		"594"
+			"ypos_minmode"		"157"
+			"zpos_minmode"		"3"
+			"wide_minmode"		"95"
+			"tall_minmode"		"20"
+			/////////////////////////////
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+		}		
 		"InvulnLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1385,7 +1593,32 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-		}						
+		}	
+		"InvulnLabelMinmode"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"InvulnLabelMinmode"
+			"font"				"DesignosaurRegular10"
+			"fgcolor"			"bh_white"
+			"labelText"			"UBERS:"
+			"textAlignment"		"west"
+			"xpos"				"6969"
+			"ypos"				"6969"
+			"zpos"				"3"
+			"wide"				"95"
+			"tall"				"20"
+			/////////////////////////////
+			"xpos_minmode"		"594"
+			"ypos_minmode"		"167"
+			"zpos_minmode"		"3"
+			"wide_minmode"		"95"
+			"tall_minmode"		"20"
+			/////////////////////////////
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+		}				
 		"TeleportsLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -1421,7 +1654,32 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-		}						
+		}	
+		"HeadshotsLabelMinmode"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"HeadshotsLabelMinmode"
+			"font"				"DesignosaurRegular10"
+			"fgcolor"			"bh_white"
+			"labelText"			"HS:"
+			"textAlignment"		"west"
+			"xpos"				"6969"
+			"ypos"				"6969"
+			"zpos"				"3"
+			"wide"				"95"
+			"tall"				"20"
+			/////////////////////////////
+			"xpos_minmode"		"607"
+			"ypos_minmode"		"107"
+			"zpos_minmode"		"3"
+			"wide_minmode"		"95"
+			"tall_minmode"		"20"
+			/////////////////////////////
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+		}				
 		"Healing"
 		{
 			"ControlName"		"CExLabel"
@@ -1435,6 +1693,15 @@
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
+			/////////////////////////////
+			"textAlignment_minmode"		"center"
+			"fgcolor_minmode"			"bh_orange"
+			"xpos_minmode"				"588"
+			"ypos_minmode"				"157"
+			"zpos_minmode"				"3"
+			"wide_minmode"				"95"
+			"tall_minmode"				"20"
+			/////////////////////////////
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
@@ -1453,6 +1720,15 @@
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
+			/////////////////////////////
+			"textAlignment_minmode"		"center"
+			"fgcolor_minmode"			"bh_dorange"
+			"xpos_minmode"				"588"
+			"ypos_minmode"				"167"
+			"zpos_minmode"				"3"
+			"wide_minmode"				"95"
+			"tall_minmode"				"20"
+			/////////////////////////////
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
@@ -1489,6 +1765,15 @@
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
+			/////////////////////////////
+			"textAlignment_minmode"		"center"
+			"fgcolor_minmode"			"bh_lorange"
+			"xpos_minmode"				"588"
+			"ypos_minmode"				"107"
+			"zpos_minmode"				"3"
+			"wide_minmode"				"95"
+			"tall_minmode"				"20"
+			/////////////////////////////
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
@@ -1621,6 +1906,31 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
+		"DamageLabelMinmode"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"DamageLabelMinmode"
+			"font"				"DesignosaurRegular10"
+			"fgcolor"			"bh_white"
+			"labelText"			"DMG:"
+			"textAlignment"		"west"
+			"xpos"				"6969"
+			"ypos"				"6969"
+			"zpos"				"3"
+			"wide"				"95"
+			"tall"				"20"
+			/////////////////////////////
+			"xpos_minmode"		"599"
+			"ypos_minmode"		"147"
+			"zpos_minmode"		"3"
+			"wide_minmode"		"95"
+			"tall_minmode"		"20"
+			/////////////////////////////
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+		}
 		"Damage"
 		{
 			"ControlName"		"CExLabel"
@@ -1634,6 +1944,15 @@
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
+			/////////////////////////////
+			"textAlignment_minmode"		"center"
+			"fgcolor_minmode"			"bh_lorange"
+			"xpos_minmode"				"588"
+			"ypos_minmode"				"147"
+			"zpos_minmode"				"3"
+			"wide_minmode"				"95"
+			"tall_minmode"				"20"
+			/////////////////////////////
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"

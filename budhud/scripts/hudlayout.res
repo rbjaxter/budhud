@@ -16,22 +16,21 @@
 		"zpos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
-        "enabled"			"1"
+        "enabled"			"0"
         
         "visible"			"0"			  			//"1" to enable
         
-		"labeltext"			"f"           			// Change this to use a different crosshair.
-													// You can see the list of crosshairs in
-													// \budhud\_Customization_\whayay's crosshairs.png
+		"labeltext"			"f"           			//Change this to use a different crosshair
+													//You can see the list of crosshairs in Crosshairs.png
         
-        "font"				"CrosshairOLsmall"	    // Use "CrosshairOL" for a crosshair with an outline
-													// or "CrosshairAA" for a smooth crosshair w/o an outline 
+        "font"				"CrosshairOLsmall"	    //Use "CrosshairOL" for a crosshair with an outline
+													//or "CrosshairAA" for a smooth crosshair w/o an outline 
                                      
-													// You can add "Small" or "Big" at the end to change the size
-													// e.g. "CrosshairOLSmall"
+													//You can add "Small" or "Big" at the end to change the size
+													//e.g. "CrosshairOLSmall"
         
-        "fgcolor"			"bh_white"      		// Color is changed via the clientscheme
-													// in the "/resource/" folder
+        "fgcolor"			"bh_white"      		//Color is changed via the clientscheme
+													//in the "/resource/" folder
 	}
 	
 	/////////////////////////////////////////////////////////////////////////////
@@ -821,7 +820,7 @@
 		"visible" 					"0"
 		"enabled" 					"1"
 		"xpos"						"c-100"
-		"ypos"						"c25"
+		"ypos"						"c120" // c25
 		"zpos"						"1"
 		"wide"	 					"600"
 		"tall"	 					"45"
@@ -837,12 +836,12 @@
 		"visible" 					"0"
 		"enabled" 					"1"
 		"xpos" 						"c-100"
-		"ypos" 						"c145"
+		"ypos" 						"c53" // c145 normal ;; c39 below CMainTargetID
 		"zpos"						"1"
 		"wide" 						"600"
 		"tall" 						"45"
 		"priority" 					"35"
-}
+	}
 	
 	BuildingStatus_Spy
 	{
@@ -1361,8 +1360,8 @@
 		"tall"						"200"
 		"visible"					"1"
 		"enabled"					"1"
-		"separator_width"			"3"	// distance between the icons (including their backgrounds)
-		"separator_height"			"3"
+		"separator_width"			"10"	// distance between the icons (including their backgrounds)
+		"separator_height"			"5"
 		"height_offset"				"3" // distance from the bottom of the panel
 	}
 	
