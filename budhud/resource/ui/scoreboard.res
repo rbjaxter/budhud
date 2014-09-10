@@ -27,7 +27,7 @@
 		"class_width_minmode"		"15"
 		"score_width_minmode"		"19"
 		"ping_width_minmode"		"16"
-		"tall_minmode"				"185"
+		"tall_minmode"				"202"
 		/////////////////////////////
 		
 		if_mvm
@@ -483,6 +483,14 @@
 		"zpos"				"4"
 		"wide"				"424"
 		"tall"				"20"
+		/////////////////////////////
+		"xpos_minmode"		"75"
+		"ypos_minmode"		"180"
+		"zpos_minmode"		"100"
+		"wide_minmode"		"424"
+		"tall_minmode"		"20"
+		"textAlignment_minmode"		"west"
+		/////////////////////////////
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"

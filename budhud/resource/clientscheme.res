@@ -2466,6 +2466,30 @@ Scheme
 			}
 		}
 		
+		//////////////////// SPEC HUD BLOCKS ////////////////////////
+		
+		"Blocks24"
+		{
+			"1"
+			{
+				"name"		"Blocks"
+				"tall"		"24"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Blocks48"
+		{
+			"1"
+			{
+				"name"		"Blocks"
+				"tall"		"48"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		
 		//////////////////// HUD CROSSHAIRS /////////////////////////
 		
 		"xHairCircle"
@@ -4825,7 +4849,7 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"7"
+		"7" //budhud font
 		{
 			"font"	"resource/fonts/designosaur-regular.ttf"
 			"name"	"Designosaur"
@@ -4849,6 +4873,11 @@ Scheme
 		{
 			"font"	"resource/fonts/Crosshair.ttf"
 			"name"	"Crosshair"
+		}
+		"12" // Tournament HUD HP block
+		{
+			"font" "resource/fonts/Blocks.ttf"
+			"name" "Blocks"
 		}
 	}
 }

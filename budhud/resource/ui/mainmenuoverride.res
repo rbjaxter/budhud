@@ -1651,8 +1651,8 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldname"				"budhud"
-		"xpos"					"759"
-		"ypos"					"420"
+		"xpos"					"r100"
+		"ypos"					"422"
 		"zpos"					"11"
 		"wide"					"100"
 		"tall"					"100"
@@ -1673,8 +1673,74 @@
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"font"						"DesignosaurRegular16"
-			"textAlignment"				"center"
+			"textAlignment"				"east"
 			"labelText"					"budhud BETA"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+
+			"border_default"			""
+			"border_armed"				""
+			"paintbackground"			"0"
+			
+			"defaultFgColor_override" 	"bh_white"
+			"armedFgColor_override" 	"bh_orange"
+			"depressedFgColor_override" "bh_orange"
+			
+			"image_drawcolor"			"bh_gray"
+			"image_armedcolor"			"bh_white"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
+		}
+	}
+	
+///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
+
+	"ToggleScoreboard"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldname"				"ToggleScoreboard"
+		"xpos"					"0"
+		"ypos"					"422"
+		"zpos"					"11"
+		"wide"					"100"
+		"tall"					"100"
+		"visible"				"1"
+		"PaintBackgroundType"	"0"
+		
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"100"
+			"tall"						"100"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"font"						"DesignosaurRegular16"
+			"textAlignment"				"west"
+			"labelText"					"Scoreboard"
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"

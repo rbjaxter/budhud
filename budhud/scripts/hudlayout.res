@@ -800,7 +800,7 @@
 		"tall"						"200"
 		"TextFont"					"Default"	[$X360]
 	}				
-				
+
 	CMainTargetID				
 	{				
 		"fieldName" 				"CMainTargetID"
@@ -820,7 +820,7 @@
 		"visible" 					"0"
 		"enabled" 					"1"
 		"xpos"						"c-100"
-		"ypos"						"c120" // c25
+		"ypos"						"c120"
 		"zpos"						"1"
 		"wide"	 					"600"
 		"tall"	 					"45"
@@ -836,7 +836,7 @@
 		"visible" 					"0"
 		"enabled" 					"1"
 		"xpos" 						"c-100"
-		"ypos" 						"c53" // c145 normal ;; c39 below CMainTargetID
+		"ypos" 						"c127"
 		"zpos"						"1"
 		"wide" 						"600"
 		"tall" 						"45"

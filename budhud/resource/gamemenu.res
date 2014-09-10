@@ -5,6 +5,7 @@
 		"label" 		"budhud BETA" 
 		"subimage"		""
 		"OnlyAtMenu" 	"0"
+		"tooltip"		"Show information about the hud"
 		"command" 		"engine con_enable 1;showconsole;clear;
 		echo ========================================================================;
 		echo BUDHUD, Version 0.9.0beta by Whisker Biscuit;
@@ -17,6 +18,13 @@
 		echo ========================================================================;
 		echo TF2 Charity Fundraiser Site: tipofthehats.org;
 		echo ========================================================================"
+	}
+	"ToggleScoreboard"
+	{
+		"label" "Scoreboard"    
+		"command" "engine toggle cl_hud_minmode"
+		"OnlyInGame" 	"1"
+        "tooltip" "Toggles between the 6v6 and 12v12 scoreboard"
 	}
 	"ResumeGameButton"
 	{

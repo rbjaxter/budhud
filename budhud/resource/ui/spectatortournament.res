@@ -117,7 +117,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"DesignosaurRegular12"
+				"font"			"DesignosaurRegular10"
 				"xpos"			"50"
 				"ypos"			"1"
 				"zpos"			"5"
@@ -240,6 +240,23 @@
 				"textAlignment"	"west"
 				"fgcolor"		"bh_orange"
 				
+			}
+			"healthcover"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"healthcover"
+				"font"			"Blocks48"
+				"xpos"			"22"
+				"ypos"			"1"
+				"zpos"			"5"
+				"wide"			"26"
+				"tall"			"20"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%respawntime%"
+				"textAlignment"	"west"
+				"fgcolor"		"0 0 0 255"
 			}
 			"chargeamount"
 			{
