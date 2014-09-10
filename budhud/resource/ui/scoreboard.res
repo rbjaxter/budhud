@@ -570,7 +570,7 @@
 		"wide"					"310"
 		"tall"					"50"
 		/////////////////////////////
-		"xpos_minmode"			"r322"
+		"xpos_minmode"			"531"
 		"ypos_minmode"			"60"
 		"zpos_minmode"			"2"
 		"wide_minmode"			"60"
@@ -604,7 +604,7 @@
 		"wide"					"310"
 		"tall"					"50"
 		/////////////////////////////
-		"xpos_minmode"			"r322"
+		"xpos_minmode"			"531"
 		"ypos_minmode"			"100"
 		"zpos_minmode"			"2"
 		"wide_minmode"			"60"
