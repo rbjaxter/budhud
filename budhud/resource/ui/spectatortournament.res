@@ -256,7 +256,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				"fgcolor"		"0 0 0 255"
+				"fgcolor"		"15 15 15 255"
 			}
 			"chargeamount"
 			{
