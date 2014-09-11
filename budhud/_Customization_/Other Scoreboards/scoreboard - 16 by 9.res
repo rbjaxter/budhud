@@ -21,7 +21,7 @@
 		"score_width"				"25"
 		"ping_width"				"23"
 		/////////////////////////////
-		"name_width_minmode"		"75"
+		"name_width_minmode"		"87"
 		"status_width_minmode"		"15"
 		"nemesis_width_minmode"		"15"
 		"class_width_minmode"		"15"

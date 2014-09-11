@@ -3,7 +3,7 @@
 	"CHealthAccountPanel"
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"delta_item_x"			"83"
+		"delta_item_x"			"c0"
 		"delta_item_start_y"	"0"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"bh_orange"
