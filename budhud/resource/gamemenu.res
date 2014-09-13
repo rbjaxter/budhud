@@ -8,7 +8,7 @@
 		"tooltip"		"Show information about the hud"
 		"command" 		"engine con_enable 1;showconsole;clear;
 		echo ========================================================================;
-		echo BUDHUD, Version 0.9.3beta by Whisker Biscuit;
+		echo BUDHUD, Version 0.9.5beta by Whisker Biscuit;
 		echo ========================================================================;
 		echo This is the BETA release of budhud, so there are likely still bugs;
 		echo If you find any issues, please let me know @ Github or steam group!;
