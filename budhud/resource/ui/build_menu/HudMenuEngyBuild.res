@@ -31,7 +31,7 @@
 		"icon"					"ico_build"
 		"iconColor"				"255 255 255 255"
 	}		
-			
+
 	"BuildIconShadow"			
 	{		
 		"ControlName"			"CIconPanel"

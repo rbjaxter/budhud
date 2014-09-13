@@ -15,7 +15,7 @@ event DamagedPlayer
 	Animate Crosshair 		FgColor 	"bh_white" 		Linear 0.10 0.10001
 }
 
-//Fog's Crosshair: Damage Flash
+// Fog's Crosshair: Damage Flash
 event DamagedPlayer
 {
 	Animate fogCrosshair 	FgColor 	"bh_orange" 	Linear 0.0 0.00001

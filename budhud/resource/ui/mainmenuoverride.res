@@ -340,51 +340,43 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c390"
-		"ypos"			"1"
+		"xpos"			"212"
+		"ypos"			"410"
 		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"20"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-
-		"navUp"			"MOTD_Panel"				// pass through when naving up to this or the fully displayed MOTD
-		"navDown"		"Notifications_Panel"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"Notifications_Panel"		// when a sub element can't nav left it will pass through this
-		"navRight"		"MOTD_Panel"				// pass through when naving right to this or the fully displayed MOTD
-		"navToRelay"	"MOTD_ShowButtonPanel_SB"	// when naving to this it auto navs to this child instead
 		
 		"MOTD_ShowButtonPanel_SB"
 		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"MOTD_ShowButtonPanel_SB"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"32"
-			"tall"			"32"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		""
-			"font"			"HudFontSmallestBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-
-			"Command"		"motd_show"
-			"navActivate"	"<QuickplayButton"		// after selecting this, nav to this sibling
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"ControlName"					"CExImageButton"
+			"fieldName"						"MOTD_ShowButtonPanel_SB"
+			"xpos"							"0"
+			"ypos"							"0"
+			"zpos"							"1"
+			"wide"							"32"
+			"tall"							"32"
+			"autoResize"					"0"
+			"pinCorner"						"3"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"labelText"						""
+			"font"							"HudFontSmallestBold"
+			"textAlignment"					"center"
+			"dulltext"						"0"
+			"brighttext"					"0"
+			"default"						"1"
+			"Command"						"motd_show"
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+			"paintbackground"				"0"
+			
+			"image_drawcolor"				"255 255 255 255"
+			"image_armedcolor"				"240 134 49 255"
 
 			"SubImage"
 			{
@@ -393,8 +385,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
+				"wide"			"20"
+				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"button_MOTD"
@@ -407,19 +399,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"c100"
-		"ypos"			"28"
+		"xpos"			"c0"
+		"ypos"			"63"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"360"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
-
-		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"MOTD_ShowButtonPanel"	// when a sub element can't nav left it will pass through this
-		"navToRelay"	"MOTD_URLButton"		// when naving to this it auto navs to this child instead
+		"paintbackground"		"1"
+		"border"				"NoBorder"
+		"bgcolor_override"		"25 25 25 255"
 		
 		"MOTD_HeaderContainer"
 		{
@@ -435,7 +424,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"MOTD_HeaderLabel"
-				"font"			"HudFontSmallBold"
+				"font"			"DesignosaurRegular24"
 				"textAlignment"	"center"
 				"labelText"		"%motdheader%"
 				"xpos"			"0"
@@ -446,9 +435,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"PaintBackgroundType" "2"
-				"fgcolor_override"	"235 226 202 255"
-				"bgcolor_override"	"141 178 61 255"
+				"fgcolor_override"	"TanLight"
 			}
 		}
 		
@@ -466,16 +453,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"X"
+			"font"			"DesignosaurRegular16"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-
-			"navDown"			"MOTD_URLButton"
-			"navActivate"		"<QuickplayButton"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"motd_hide"
@@ -484,34 +467,20 @@
 			
 			//"defaultFgColor_override" "235 226 202 255"
 			//"armedFgColor_override" "46 43 42 255"
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "Base Color"
+			"depressedFgColor_override" "Base Color"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"close_button"
-				"scaleImage"	"1"
-			}				
+			"image_armedcolor"	"200 80 60 255"		
 		}	
 
 		"MOTD_HeaderIcon"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MOTD_HeaderIcon"
-			"xpos"			"265"
-			"ypos"			"25"
+			"xpos"			"6969"
+			"ypos"			"6969"
 			"zpos"			"100"
 			"wide"			"25"
 			"tall"			"25"
@@ -536,7 +505,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
+			"fgcolor_override"	"TanLight"
 			"wrap"			"1"
 		}
 		
@@ -555,7 +524,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
+			"fgcolor_override"	"TanLight"
 		}
 		
 		"MOTD_TitleImageBg"
@@ -583,6 +552,7 @@
 			"wide"			"280"
 			"tall"			"180"
 			"visible"		"1"
+			"border" 		"NoBorder"
 			
 			"MOTD_TitleImage"
 			{
@@ -609,7 +579,7 @@
 			"wide"			"280"
 			"tall"			"95"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor_override"	"Base Color"
 			
 			"MOTD_TextPanel"
 			{
@@ -637,7 +607,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor_override"	"46 43 42 255"
+					"fgcolor_override"	"TanLight"
 					"wrap"			"1"
 				}
 			}
@@ -665,18 +635,19 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"command"		"motd_viewurl"
-
-			"navUp"			"MOTD_CloseButton"
-			"navLeft"		"MOTD_PrevButton"
-			"navRight"		"MOTD_NextButton"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"defaultFgColor_override" "235 226 202 255"
-			"defaultBgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "235 226 202 255"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"	"25 25 25 255"
+		"armedBgColor_override"		"35 35 35 255"
+		"depressedBgColor_override"	"25 25 25 255"
+		
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override" 	"TanLight"
+		"depressedFgColor_override" "TanDark"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 		}	
 		
 		"MOTD_PrevButton"
@@ -690,7 +661,7 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
@@ -700,10 +671,6 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"Command"		"motd_prev"
-
-			"navUp"			"MOTD_CloseButton"
-			"navRight"		"MOTD_URLButton"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
@@ -728,32 +695,28 @@
 		
 		"MOTD_NextButton"
 		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"MOTD_NextButton"
-			"xpos"			"267"
-			"ypos"			"336"
-			"zpos"			"1"
-			"wide"			"20"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"0"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		""
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"Command"		"motd_next"
-
-			"navUp"			"MOTD_CloseButton"
-			"navLeft"		"MOTD_URLButton"
-
+			"ControlName"		"CExImageButton"
+			"fieldName"			"MOTD_NextButton"
+			"xpos"				"267"
+			"ypos"				"336"
+			"zpos"				"1"
+			"wide"				"20"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"labelText"			""
+			"font"				"HudFontSmallBold"
+			"textAlignment"		"center"
+			"dulltext"			"0"
+			"brighttext"		"0"
+			"default"			"1"
+			"Command"			"motd_next"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
+			"paintbackground" 	"0"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -778,47 +741,41 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c355"
-		"ypos"			"28"
-		"zpos"			"10"
-		"wide"			"32"
-		"tall"			"32"
+		"xpos"			"202"
+		"ypos"			"415"
+		"zpos"			"1"
+		"wide"			"36"
+		"tall"			"36"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-
-		"navUp"			"MOTD_ShowButtonPanel"
-		"navDown"		"SettingsButton"
-		"navLeft"		"QuickplayButton"
-		"navRight"		"Notifications_Panel"
-		"navToRelay"	"Notifications_ShowButtonPanel_SB"
 		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"16"
-			"ypos"			"0"
+			"xpos"			"6969"
+			"ypos"			"6969"
 			"zpos"			"3"
-			"wide"			"16"
-			"tall"			"16"
+			"wide"			"12"
+			"tall"			"12"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"glyph_achievements"
 			"scaleImage"	"1"
-			"drawcolor" "210 125 33 255"
+			"drawcolor" "255 255 255 255"
 		}				
 		
 		"Notifications_CountLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_CountLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"DesignosaurRegular16"
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
-			"xpos"			"16"
-			"ypos"			"0"
+			"xpos"			"12"
+			"ypos"			"-4"
 			"zpos"			"4"
 			"wide"			"16"
 			"tall"			"16"
@@ -826,7 +783,25 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"bh_white"
+			"fgcolor_override"	"Base Color"
+		}
+		"Notifications_CountLabelBG"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Notifications_CountLabelBG"
+			"font"			"DesignosaurRegular16eticaBold16"
+			"labelText"		"%noticount%"
+			"textAlignment"	"center"
+			"xpos"			"13"
+			"ypos"			"-3"
+			"zpos"			"4"
+			"wide"			"16"
+			"tall"			"16"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor_override"	"0 0 0 255"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
@@ -836,23 +811,20 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"32"
-			"tall"			"32"
+			"wide"			"20"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"HudFontSmallestBold"
+			"font"			"DesignosaurRegular16eticaBold12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-
 			"Command"		"noti_show"
-			"navActivate"	"<QuickplayButton"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
@@ -866,8 +838,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
+				"wide"			"20"
+				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"button_Alert"
@@ -880,21 +852,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c140"
-		"ypos"			"60"
-		"zpos"			"10"
+		"xpos"			"c0"
+		"ypos"			"102"
+		"zpos"			"1"
 		"wide"			"210"
 		"tall"			"80"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
 		"border"		"MainMenuHighlightBorder"
-
-		"navUp"			"MOTD_ShowButtonPanel"
-		"navDown"		"SettingsButton"
-		"navLeft"		"Notifications_ShowButtonPanel"
-		"navRight"		"MOTD_ShowButtonPanel"
-		"navToRelay"	"Notifications_CloseButton"
 		
 		"Notifications_CloseButton"
 		{
@@ -916,21 +882,18 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-
-			"Command"		"noti_hide"
-			"navActivate"	"<QuickplayButton"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
+			"Command"		"noti_hide"
+			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "Button Color"
+			"depressedFgColor_override" "Button Color"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_drawcolor"	"TanLight"
+			"image_armedcolor"	"Button Color"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -994,19 +957,17 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HTMLContainer"
-		"xpos"			"c0"
-		"ypos"			"92"
-		"zpos"			"1"
+		"xpos"			"c"
+		"ypos"			"130"
 		"wide"			"300"
-		"tall"			"300"
+		"tall"			"240"
 		"autoResize"	"3"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"border"		"MainMenuBGBorder"
-		"PaintBackgroundType"	"2"
-		
+
 		"HTMLLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1020,7 +981,7 @@
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 		}
 
@@ -1029,10 +990,9 @@
 			"ControlName"	"HTML"
 			"fieldName"		"HTML"
 			"xpos"			"5"
-			"ypos"			"5"
-			"zpos"			"1"
+			"ypos"			"25"
 			"wide"			"290"
-			"tall"			"290"
+			"tall"			"210"
 			"autoResize"	"3"
 			"pinCorner"		"0"
 			"visible"		"1"

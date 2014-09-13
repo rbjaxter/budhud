@@ -77,13 +77,13 @@
 		"visible"						"1"
 		"enabled"						"1"
 		"tabPosition"					"3"
-		"labelText"						"3"
+		"labelText"						"&3"
 		"textAlignment"					"north-west"
 		"dulltext"						"0"
 		"brighttext"					"0"
 		"paintborder"					"0"
 		"command"						"jointeam blue"
-		"team"							"(3)"		// team blue
+		"team"							"3"		// team blue
 		"associated_model"				"bluedoor"
 		"hover"							".1"
 		"font"							"DesignosaurRegular10"

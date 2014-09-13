@@ -2238,7 +2238,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Arial"
+				"name"		"Designosaur"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
