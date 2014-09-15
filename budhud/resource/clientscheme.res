@@ -1,15 +1,40 @@
 Scheme
 {
-	//Name - currently overriden in code
-	//{
-	//	"Name"	"ClientScheme"
-	//}
-
-	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		
+	////////////////////////////// BUDHUD COLORS /////////////////////////////////	
 	
-		// budhud
+		// budhud: HUD Color Customization
+		// Change colors here to customize your hud
+		
+			// Health
+			"bh_Health"			"255 255 255 255"
+			"bh_HealthLow"		"150 150 150 255"
+			"bh_HealthBuff"		"0 153 255 255"
+			
+			// Ammo
+			"bh_AmmoInClip"		"255 255 255 255"
+			"bh_AmmoReserve"	"255 255 255 255"
+			"bh_AmmoNoClip"		"255 255 255 255"
+			
+			// Damage Account (For healing and damage done)
+			"bh_HealColor"		"255 255 255 255"
+			"bh_DamageColor"	"255 255 255 255"
+			"bh_hudDMGDisplay"	"243 157 48 255"
+			
+			// whayay's Crosshairs
+			"ya_crosshair"		"255 255 255 255"
+			"ya_xhairflash"		"240 134 49 255"
+			"ya_xhairnormal"	"255 255 255 255" // Should be the same as ya_crosshair
+			
+			// Fog's Crosshairs
+			"fog_crosshair"		"255 255 255 255"
+			"fog_xhairflash"	"240 134 49 255"
+			"fog_xhairnormal"	"255 255 255 255" // Should be the same as fog_crosshair
+		
+		// budhud: Core Colors
+		// These are best left untouched
 		"bh_white"			"255 255 255 255"
 		"bh_black"			"0 0 0 255"
 		"bh_lblue"			"0 153 255 255"
@@ -20,7 +45,7 @@ Scheme
 		"bh_green"			"0 215 0 255"
 		"bh_red"			"215 0 0 255"
 		
-		// base colors
+		// TF2 Defaults
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
@@ -49,7 +74,7 @@ Scheme
 		"HUDRedTeamSolid"	"180 92 77 255"
 		"HUDDeathWarning"	"255 0 0 255"
 		"HudWhite"			"255 255 255 255"
-		"HudOffWhite"		"200 187 161 255"
+		"HudOffWhite"		"bh_white"
 		"HudBlack"			"65 65 65 255"
 		"ProgressBarBlue"	"91 122 142 255"
 		
@@ -79,7 +104,7 @@ Scheme
 		"HudTrainingHint"			"212 160 23 255"
 		
 		"TanDark"				"150 150 150 255"
-		"TanLight"				"255 255 255 255"
+		"bh_white"				"255 255 255 255"
 		"TanDarker"				"46 43 42 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
@@ -110,7 +135,7 @@ Scheme
 		"HTMLBackground"						"95 92 101 255"
 		
 		"ItemAttribLevel"						"117 107 94 255"
-		"ItemAttribNeutral"						"235 226 202 255"
+		"ItemAttribNeutral"						"bh_white"
 		"ItemAttribPositive"					"153 204 255 255"
 		"ItemAttribNegative"					"255 64 64 255"
 
@@ -229,8 +254,8 @@ Scheme
 		CheckButton.Check				"Yellow"		// color of the check itself
 		CheckButton.HighlightFgColor	"Yellow"
 		
-		ComboBoxButton.ArrowColor		"TanLight"
-		ComboBoxButton.ArmedArrowColor	"TanLight"
+		ComboBoxButton.ArrowColor		"bh_white"
+		ComboBoxButton.ArmedArrowColor	"bh_white"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
@@ -260,8 +285,8 @@ Scheme
 		GraphPanel.BgColor				"TransparentBlack"
 
 		Label.TextDullColor				"TanDark"
-		Label.TextColor					"TanLight"
-		Label.TextBrightColor			"TanLight"
+		Label.TextColor					"bh_white"
+		Label.TextBrightColor			"bh_white"
 		Label.SelectedTextColor			"White"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"Blank"
@@ -274,10 +299,10 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
 		ListPanel.EmptyListInfoTextColor	"Orange"
 
-		Menu.TextColor					"TanLight"
+		Menu.TextColor					"bh_white"
 		Menu.BgColor					"TransparentBlack"
 		Menu.ArmedTextColor				"TanDark"
-		Menu.ArmedBgColor				"TanLight"
+		Menu.ArmedBgColor				"bh_white"
 		Menu.TextInset					"6"
 
 		Chat.TypingText					"Orange"
@@ -341,7 +366,7 @@ Scheme
 		TextEntry.CursorColor		"Gray"
 		TextEntry.DisabledTextColor	"Gray"
 		TextEntry.DisabledBgColor	"Blank"
-		TextEntry.SelectedTextColor	"TanLight"
+		TextEntry.SelectedTextColor	"bh_white"
 		TextEntry.SelectedBgColor	"Gray"
 		TextEntry.OutOfFocusSelectedBgColor	"Blank"
 		TextEntry.FocusEdgeColor	"Blank"
@@ -3089,7 +3114,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "bh_white"
 					"offset" "0 1"
 				}
 			}
@@ -3098,7 +3123,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "bh_white"
 					"offset" "1 0"
 				}
 			}
@@ -3107,7 +3132,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "bh_white"
 					"offset" "0 0"
 				}
 			}
@@ -3116,7 +3141,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "bh_white"
 					"offset" "0 0"
 				}
 			}
@@ -3381,7 +3406,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "bh_white"
 					"offset" "0 0"
 				}
 			}
@@ -4331,7 +4356,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "bh_white"
 					"offset" "0 1"
 				}
 			}
@@ -4340,7 +4365,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "bh_white"
 					"offset" "1 0"
 				}
 			}
@@ -4349,7 +4374,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "bh_white"
 					"offset" "0 0"
 				}
 			}
@@ -4358,7 +4383,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "bh_white"
 					"offset" "0 0"
 				}
 			}

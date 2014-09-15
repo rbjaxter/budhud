@@ -128,7 +128,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"fgcolor"		"235 226 202 255"
+				"fgcolor"		"bh_white"
 			
 			}
 			
@@ -308,7 +308,7 @@
 				"visible"		"1"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				//"fgcolor"		"bh_white"
 			}
 			
 		}

@@ -62,7 +62,7 @@
 		"centerwrap"	"1"
 		"labelText"		"%updatetext%"
 		"textAlignment"		"center"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "bh_white"
 		"bgcolor_override" "0 0 0 0"
 		"auto_wide_tocontents" "1"
 		
@@ -86,7 +86,7 @@
 		"enabled"		"1"
 		"labelText"		"%ellipses%"
 		"textAlignment"		"west"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "bh_white"
 		"bgcolor_override" "0 0 0 0"
 		
 		"pin_to_sibling"               "TitleLabel"
@@ -121,9 +121,9 @@
 		"defaultBgColor_override"	"15 15 15 255k"
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanLight"
+		"defaultFgColor_override"	"bh_white"
+		"armedFgColor_override" 	"bh_white"
+		"depressedFgColor_override" "bh_white"
 		"border_default"			"ButtonHover"
 		"border_armed"				"ButtonHover"
 	}

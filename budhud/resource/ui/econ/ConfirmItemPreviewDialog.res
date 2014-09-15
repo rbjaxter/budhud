@@ -167,7 +167,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "Base Color"
+		"fgcolor_override" "bh_white"
 	}
 	"CancelButton"
 	{
@@ -196,9 +196,9 @@
 		"defaultBgColor_override"	"15 15 15 255"
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanLight"
+		"defaultFgColor_override"	"bh_white"
+		"armedFgColor_override" 	"bh_white"
+		"depressedFgColor_override" "bh_white"
 		"border_default"			"ButtonHover"
 		"border_armed"				"ButtonHover"
 	}
@@ -229,9 +229,9 @@
 		"defaultBgColor_override"	"15 15 15 255"
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanLight"
+		"defaultFgColor_override"	"bh_white"
+		"armedFgColor_override" 	"bh_white"
+		"depressedFgColor_override" "bh_white"
 		"border_default"			"ButtonHover"
 		"border_armed"				"ButtonHover"
 	}

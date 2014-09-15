@@ -44,7 +44,7 @@
 				"visible"						"1"
 				"labelText"						"%playername%"
 				"textAlignment"					"north-west"
-				//"fgcolor"						"235 226 202 255"
+				//"fgcolor"						"bh_white"
 					
 				if_mvm
 				{

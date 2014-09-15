@@ -395,7 +395,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
+			"fgcolor"		"bh_white"
 			"centerwrap"	"1"
 		}
 	}	

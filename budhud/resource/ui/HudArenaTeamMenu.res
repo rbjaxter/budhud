@@ -162,7 +162,7 @@
 		"dulltext"					"0"
 		"brighttext"				"1"
 		"font"						"DesignosaurRegular24"
-		"fgcolor"					"TanLight"
+		"fgcolor"					"bh_white"
 	}
 	"teambutton2"
 	{

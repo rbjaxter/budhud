@@ -594,7 +594,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Winpanel_KillStreakLeader"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "bh_white"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"

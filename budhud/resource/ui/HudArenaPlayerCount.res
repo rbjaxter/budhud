@@ -49,7 +49,7 @@
 			"font"			"DesignosaurRegular24"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"bh_white"
 		}	
 		"countshadow"
 		{
@@ -135,7 +135,7 @@
 			"font"			"DesignosaurRegular24"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"bh_white"
 		}	
 		"countshadow"
 		{

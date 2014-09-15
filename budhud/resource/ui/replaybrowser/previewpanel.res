@@ -10,7 +10,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"ReplayBalloonBorder"
+		"border"		"NoBorder"
 		"proportional"	"0"
 	}
 	"Screenshot"
@@ -59,7 +59,7 @@
 			"FieldName"		"DateTimeLabel"
 			"Font"			"DesignosaurRegular10"
 			"TextAlignment"	"west"
-			"fgcolor_override"	"115 106 91 255"
+			"fgcolor_override"	"bh_white"
 			"xpos"			"0"
 			"ypos"			"22"
 			"wide"			"160"

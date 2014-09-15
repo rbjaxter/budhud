@@ -65,7 +65,7 @@
 		"enabled"				"1"
 		"scaleImage"			"1"	
 		"icon"					"ico_metal"
-		"iconColor"				"TanLight"
+		"iconColor"				"bh_white"
 	}		
 			
 	"CostLabel"		
@@ -73,7 +73,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"CostLabel"
 		"font"					"DesignosaurRegular16"
-		"fgcolor"				"TanLight"
+		"fgcolor"				"bh_white"
 		"xpos"					"49"
 		"ypos"					"16"
 		"zpos"					"1"
@@ -127,7 +127,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"NumberLabel"
 		"font"					"DesignosaurRegular20"
-		"fgcolor"				"TanLight"
+		"fgcolor"				"bh_white"
 		"xpos"					"0"
 		"ypos"					"95"
 		"zpos"					"1"

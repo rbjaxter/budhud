@@ -123,7 +123,7 @@
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
 		"font"			"DesignosaurRegular36"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"bh_white"
 		
 		"if_hybrid"
 		{
@@ -187,7 +187,7 @@
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"DesignosaurRegular36"
-		"fgcolor"		"TanLight"		
+		"fgcolor"		"bh_white"		
 		
 		"if_hybrid"
 		{

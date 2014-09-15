@@ -66,7 +66,7 @@
 		"font"			"DesignosaurRegular20"
 		"labelText"		"Your Team"
 		"textAlignment"	"center"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"bh_white"
 	}
 	"titleShadow"
 	{
@@ -103,7 +103,7 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"#TF_Arena_F4_ChangeClass"
 		"textAlignment"	"center"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"bh_white"
 	}
 	"changeLabelShadow"
 	{

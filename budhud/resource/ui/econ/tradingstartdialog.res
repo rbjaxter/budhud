@@ -48,9 +48,9 @@
 				"defaultBgColor_override"	"15 15 15 255"
 				"armedBgColor_override"		"25 25 25 255"
 				"depressedBgColor_override"	"25 25 25 255"
-				"defaultFgColor_override"	"TanLight"
-				"armedFgColor_override" 	"TanLight"
-				"depressedFgColor_override" "TanLight"
+				"defaultFgColor_override"	"bh_white"
+				"armedFgColor_override" 	"bh_white"
+				"depressedFgColor_override" "bh_white"
 				"border_default"			"ButtonHover"
 				"border_armed"				"ButtonHover"
 			}
@@ -89,7 +89,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "bh_white"
 	}
 	
 	"PlayerListScroller"
@@ -144,7 +144,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "bh_white"
 		}	
 
 		"subbutton0"
@@ -174,9 +174,9 @@
 			"defaultBgColor_override"	"15 15 15 255"
 			"armedBgColor_override"		"25 25 25 255"
 			"depressedBgColor_override"	"25 25 25 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
+			"defaultFgColor_override"	"bh_white"
+			"armedFgColor_override" 	"bh_white"
+			"depressedFgColor_override" "bh_white"
 			"border_default"			"ButtonHover"
 			"border_armed"				"ButtonHover"
 		}
@@ -207,9 +207,9 @@
 			"defaultBgColor_override"	"15 15 15 255"
 			"armedBgColor_override"		"25 25 25 255"
 			"depressedBgColor_override"	"25 25 25 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
+			"defaultFgColor_override"	"bh_white"
+			"armedFgColor_override" 	"bh_white"
+			"depressedFgColor_override" "bh_white"
 			"border_default"			"ButtonHover"
 			"border_armed"				"ButtonHover"
 		}
@@ -240,9 +240,9 @@
 			"defaultBgColor_override"	"15 15 15 255"
 			"armedBgColor_override"		"25 25 25 255"
 			"depressedBgColor_override"	"25 25 25 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
+			"defaultFgColor_override"	"bh_white"
+			"armedFgColor_override" 	"bh_white"
+			"depressedFgColor_override" "bh_white"
 			"border_default"			"ButtonHover"
 			"border_armed"				"ButtonHover"
 		}
@@ -274,7 +274,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "bh_white"
 		}	
 		
 		"EmptyPlayerListLabel"
@@ -295,14 +295,14 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "bh_white"
 			"paintbackground"	"1"
 			"defaultBgColor_override"	"15 15 15 255"
 			"armedBgColor_override"		"25 25 25 255"
 			"depressedBgColor_override"	"25 25 25 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
+			"defaultFgColor_override"	"bh_white"
+			"armedFgColor_override" 	"bh_white"
+			"depressedFgColor_override" "bh_white"
 			"border_default"			"ButtonHover"
 			"border_armed"				"ButtonHover"
 		}	
@@ -335,7 +335,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "bh_white"
 		}	
 		
 		"EmptyPlayerListLabel"
@@ -356,7 +356,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "Base Color"
+			"fgcolor_override" "bh_white"
 		}	
 	}
 	"StatePanel3"
@@ -387,7 +387,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "Base Color"
+			"fgcolor_override" "bh_white"
 		}	
 		
 		"URLHelpLabel"
@@ -408,7 +408,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "bh_white"
 		}	
 		
 		"URLFailLabel"
@@ -429,7 +429,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "Base Color"
+			"fgcolor_override" "bh_white"
 		}	
 		"URLSearchingLabel"
 		{
@@ -449,7 +449,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "Base Color"
+			"fgcolor_override" "bh_white"
 		}	
 		
 		"URLEntry"
@@ -471,7 +471,7 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			"wrap"				"0"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"bh_white"
 			"bgcolor_override"	"0 0 0 60"
 			"paintbackgroundtype" "2"
 			"labelText"			""
@@ -506,9 +506,9 @@
 			"defaultBgColor_override"	"15 15 15 255"
 			"armedBgColor_override"		"25 25 25 255"
 			"depressedBgColor_override"	"25 25 25 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
+			"defaultFgColor_override"	"bh_white"
+			"armedFgColor_override" 	"bh_white"
+			"depressedFgColor_override" "bh_white"
 			"border_default"			"ButtonHover"
 			"border_armed"				"ButtonHover"
 		}
@@ -541,9 +541,9 @@
 			"defaultBgColor_override"	"15 15 15 255"
 			"armedBgColor_override"		"25 25 25 255"
 			"depressedBgColor_override"	"25 25 25 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
+			"defaultFgColor_override"	"bh_white"
+			"armedFgColor_override" 	"bh_white"
+			"depressedFgColor_override" "bh_white"
 			"border_default"			"ButtonHover"
 			"border_armed"				"ButtonHover"
 	}

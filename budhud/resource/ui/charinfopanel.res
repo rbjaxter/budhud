@@ -23,8 +23,8 @@
 		"title_font"							"HudFontMediumBold"
 		"titletextinsetX"						"40"
 		"titletextinsetY"						"0"
-		"titlebarfgcolor_override"				"200 187 161 255"
-		"titlebardisabledfgcolor_override"		"200 187 161 255"
+		"titlebarfgcolor_override"				"bh_white"
+		"titlebardisabledfgcolor_override"		"bh_white"
 		"titlebarbgcolor_override"				"46 43 42 255"
 		
 		"clientinsetx_override"					"0"

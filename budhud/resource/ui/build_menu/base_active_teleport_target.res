@@ -92,7 +92,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"DesignosaurRegular20"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"bh_white"
 		"xpos"			"0"
 		"ypos"			"85"
 		"zpos"			"1"

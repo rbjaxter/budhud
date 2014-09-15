@@ -71,7 +71,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"DesignosaurRegular48"
-		"fgcolor"		"bh_white"
+		"fgcolor"		"bh_Health"
 	}
 	"PlayerStatusHealthValueBG"
 	{

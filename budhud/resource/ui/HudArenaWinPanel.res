@@ -204,7 +204,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"ArenaStreakLabel"
 			"font"			"DesignosaurRegular14"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"bh_white"
 			"xpos"			"35"
 			"ypos"			"-15"
 			"zpos"			"3"

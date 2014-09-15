@@ -60,7 +60,7 @@
 			"visible"					"0"
 			"enabled"					"1"
 			"tabPosition"				"0"
-			"fgcolor_override" 			"Base Color"
+			"fgcolor_override" 			"bh_white"
 		}
 
 		"SetStyleButton"

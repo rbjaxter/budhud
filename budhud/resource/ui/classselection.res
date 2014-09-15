@@ -1141,7 +1141,7 @@
 		"labelText"		"#TF_TeamCount"
 		"textAlignment"	"left"
 		"font"			"HudFontMediumSmallSecondary"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"bh_white"
 	}
 	
 	"numScout" [$WIN32]
@@ -1761,7 +1761,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "bh_white"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"

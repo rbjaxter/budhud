@@ -91,7 +91,7 @@
 			"PaintBackgroundType"				"2"
 			"paintborder"						"1"
 			
-			"fgcolor_override"					"Base Color"
+			"fgcolor_override"					"bh_white"
 			
 			"border_default"					"NoBorder"
 			"border_armed"						"NoBorder"
@@ -441,7 +441,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "bh_white"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -644,7 +644,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "bh_white"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"

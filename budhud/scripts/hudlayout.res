@@ -1,7 +1,7 @@
 "Resource/HudLayout.res"
 {
-	//Crosshairs
-	
+	/////////////////////////////// CROSSHAIRS //////////////////////////////////	
+
 	/////////////////////////////////////////////////////////////////////////////
 	// whayay's Crosshair (thanks whayay!)
 	/////////////////////////////////////////////////////////////////////////////
@@ -29,7 +29,7 @@
 													//You can add "Small" or "Big" at the end to change the size
 													//e.g. "CrosshairOLSmall"
         
-        "fgcolor"			"bh_white"      		//Color is changed via the clientscheme
+        "fgcolor"			"ya_crosshair"      		//Color is changed via the clientscheme
 													//in the "/resource/" folder
 	}
 	
@@ -56,7 +56,7 @@
 		"labelText"			"o"
 		"textAlignment"		"center"	
 			
-		"fgcolor"			"255 255 255 100"
+		"fgcolor"			"fog_crosshair"
 	}
 
 	/////////////////////////////////////////////////////////////////////////////
@@ -88,7 +88,7 @@
 		"textAlignment"				"center"
 		"outline"					"1"
 					
-		"fgcolor"					"255 255 255 255"
+		"fgcolor"					"fog_crosshair"
 	}		
 			
 	BasicCross		
@@ -109,7 +109,7 @@
 		"labelText"					"2"
 		"textAlignment"				"center"	
 				
-		"fgcolor"					"255 255 255 255"
+		"fgcolor"					"fog_crosshair"
 	}		
 			
 	BasicCrossSmall		
@@ -130,7 +130,7 @@
 		"labelText"					"2"
 		"textAlignment"				"center"	
 				
-		"fgcolor"					"255 255 255 255"
+		"fgcolor"					"fog_crosshair"
 	}		
 			
 	BasicCrossLarge		
@@ -151,7 +151,7 @@
 		"labelText"					"2"
 		"textAlignment"				"center"	
 				
-		"fgcolor"					"255 255 255 255"
+		"fgcolor"					"fog_crosshair"
 	}		
 			
 	BasicDot		
@@ -172,7 +172,7 @@
 		"labelText"					"3"
 		"textAlignment"				"center"	
 				
-		"fgcolor"					"255 255 255 255"
+		"fgcolor"					"fog_crosshair"
 	}		
 		
 	CircleDot		
@@ -193,7 +193,7 @@
 		"labelText"					"8"
 		"textAlignment"				"center"	
 				
-		"fgcolor"					"255 255 255 255"
+		"fgcolor"					"fog_crosshair"
 	}		
 			
 	ThinCircle		
@@ -214,7 +214,7 @@
 		"labelText"					"9"
 		"textAlignment"				"center"	
 				
-		"fgcolor"					"255 255 255 255"
+		"fgcolor"					"fog_crosshair"
 	}		
 			
 	WingsPlus		
@@ -235,7 +235,7 @@
 		"labelText"					"c"
 		"textAlignment"				"center"	
 				
-		"fgcolor"					"255 255 255 255"
+		"fgcolor"					"fog_crosshair"
 	}		
 			
 	Wings		
@@ -256,7 +256,7 @@
 		"labelText"					"d"
 		"textAlignment"				"center"	
 				
-		"fgcolor"					"255 255 255 255"
+		"fgcolor"					"fog_crosshair"
 	}		
 			
 	WingsSmallDot		
@@ -298,7 +298,7 @@
 		"labelText"					"g"
 		"textAlignment"				"center"	
 				
-		"fgcolor"					"255 255 255 255"
+		"fgcolor"					"fog_crosshair"
 	}		
 			
 	OpenCross		
@@ -319,7 +319,7 @@
 		"labelText"					"i"
 		"textAlignment"				"center"	
 				
-		"fgcolor"					"255 255 255 255"
+		"fgcolor"					"fog_crosshair"
 	}
 	
 	OpenCrossDot
@@ -340,7 +340,7 @@
 		"labelText"					"h"
 		"textAlignment"				"center"	
 				
-		"fgcolor"					"255 255 255 255"
+		"fgcolor"					"fog_crosshair"
 	}
 	
 	ThinCross
@@ -361,7 +361,7 @@
 		"labelText"					"+"
 		"textAlignment"				"center"	
 				
-		"fgcolor"					"255 255 255 255"
+		"fgcolor"					"fog_crosshair"
 	}
 	
 	KonrWings
@@ -383,12 +383,12 @@
 		"labelText"					"i"
 		"textAlignment"				"center"	
 				
-		"fgcolor"					"255 255 255 255"
+		"fgcolor"					"fog_crosshair"
 	}
 		
 	/////////////////////////////////////////////////////////////////////////////
 	// Pilot Crosshair
-	// Core
+	// >> Core Elements
 	/////////////////////////////////////////////////////////////////////////////
 	
 	//set "visible" and "enabled" to "1"
@@ -514,7 +514,7 @@
 	/////////////////////////////////////////////////////////////////////////////
 	//4 x 3 Pilot Crosshair
 	// Enable these (along with the "core" section above)
-	// if you're on a 4 x 3 resolution
+	// if you're on a 4x3 resolution
 	/////////////////////////////////////////////////////////////////////////////
 	
 	"PilotHorizontal3"
@@ -744,7 +744,7 @@
 		"SelectionAlpha"			"220"
 		"BoxColor" 					"0 0 0 220"
 		"SelectedBoxClor" 			"0 0 0 220"
-		"SelectionNumberFg"			"200 187 161 255"
+		"SelectionNumberFg"			"bh_white"
 		"NumberFont" 				"HudSelectionText"
 	}	
 	
@@ -836,7 +836,7 @@
 		"visible" 					"0"
 		"enabled" 					"1"
 		"xpos" 						"c-100"
-		"ypos" 						"c150"
+		"ypos" 						"c154"
 		"zpos"						"1"
 		"wide" 						"600"
 		"tall" 						"45"

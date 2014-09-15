@@ -339,7 +339,7 @@
 		/////////////////////////////
 		"autoResize"			"0"
 		"pinCorner"				"0"
-		"visible"				"1"	[$WIN32]
+		"visible"				"1"	
 		"visible"				"0"	[$X360]
 		"enabled"				"1"
 		"fgcolor_override"		"bh_orange"
@@ -375,7 +375,7 @@
 		/////////////////////////////
 		"autoResize"			"0"
 		"pinCorner"				"0"
-		"visible"				"1"	[$WIN32]
+		"visible"				"1"	
 		"enabled"				"1"
 		
 		if_mvm
@@ -511,7 +511,7 @@
 		"textAlignment"		"west"
 		"xpos"				"115"
 		"xpos_hidef"		"135"
-		"ypos"				"348"	[$WIN32]
+		"ypos"				"348"	
 		"ypos"				"277"	[$X360]
 		"zpos"				"4"
 		"wide"				"424"
@@ -712,7 +712,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"HorizontalLine"
 		"xpos"				"6969"
-		"ypos"				"6969"	[$WIN32]
+		"ypos"				"6969"	
 		"zpos"				"3"
 		"wide"				"465"
 		"tall"				"1"
@@ -849,7 +849,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"bh_white"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -928,7 +928,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"bh_white"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -1337,8 +1337,8 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
-			"xpos"				"440"	[$WIN32]
-			"ypos"				"30"	[$WIN32]
+			"xpos"				"440"	
+			"ypos"				"30"	
 			"zpos"				"3"
 			"wide"				"100"
 			"tall"				"20"
@@ -1380,8 +1380,8 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
-			"xpos"				"200"	[$WIN32]
-			"ypos"				"10"	[$WIN32]
+			"xpos"				"200"	
+			"ypos"				"10"	
 			"zpos"				"3"
 			"wide"				"100"
 			"tall"				"20"
@@ -1398,8 +1398,8 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
-			"xpos"				"200"	[$WIN32]
-			"ypos"				"20"	[$WIN32]
+			"xpos"				"200"	
+			"ypos"				"20"	
 			"zpos"				"3"
 			"wide"				"100"
 			"tall"				"20"
@@ -1441,8 +1441,8 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
-			"xpos"				"200"	[$WIN32]
-			"ypos"				"30"	[$WIN32]
+			"xpos"				"200"	
+			"ypos"				"30"	
 			"zpos"				"3"
 			"wide"				"100"
 			"tall"				"20"
@@ -1459,8 +1459,8 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"%captures%"
 			"textAlignment"		"west"
-			"xpos"				"545"[$WIN32]
-			"ypos"				"30"[$WIN32]
+			"xpos"				"545"
+			"ypos"				"30"
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
@@ -1486,8 +1486,8 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"%defenses%"
 			"textAlignment"		"west"
-			"xpos"				"305"	[$WIN32]
-			"ypos"				"10"	[$WIN32]
+			"xpos"				"305"	
+			"ypos"				"10"	
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
@@ -1504,8 +1504,8 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"%dominations%"
 			"textAlignment"		"west"
-			"xpos"				"305"	[$WIN32]
-			"ypos"				"20"	[$WIN32]
+			"xpos"				"305"	
+			"ypos"				"20"	
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
@@ -1531,8 +1531,8 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"%Revenge%"
 			"textAlignment"		"west"
-			"xpos"				"305"	[$WIN32]
-			"ypos"				"30"	[$WIN32]
+			"xpos"				"305"	
+			"ypos"				"30"	
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
@@ -1549,10 +1549,10 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
-			"xpos"				"326"	[$WIN32]
-			"ypos"				"30"	[$WIN32]
+			"xpos"				"326"	
+			"ypos"				"30"	
 			"zpos"				"3"
-			"wide"				"95"	[$WIN32]
+			"wide"				"95"	
 			"tall"				"20"
 			"autoResize"		"0"
 			"pinCorner"			"0"
@@ -1592,8 +1592,8 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
-			"xpos"				"326"	[$WIN32]
-			"ypos"				"0"	[$WIN32]
+			"xpos"				"326"	
+			"ypos"				"0"	
 			"zpos"				"3"
 			"wide"				"95"
 			"tall"				"20"
@@ -1635,10 +1635,10 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
-			"xpos"				"326"	[$WIN32]
-			"ypos"				"20"	[$WIN32]
+			"xpos"				"445"	
+			"ypos"				"20"	
 			"zpos"				"3"
-			"wide"				"95"	[$WIN32]
+			"wide"				"95"
 			"tall"				"20"
 			"autoResize"		"0"
 			"pinCorner"			"0"
@@ -1653,10 +1653,10 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
-			"xpos"				"326"	[$WIN32]
-			"ypos"				"10"	[$WIN32]
+			"xpos"				"326"	
+			"ypos"				"10"	
 			"zpos"				"3"
-			"wide"				"95"	[$WIN32]
+			"wide"				"95"	
 			"tall"				"20"
 			"autoResize"		"0"
 			"pinCorner"			"0"
@@ -1696,8 +1696,8 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"%healing%"
 			"textAlignment"		"west"
-			"xpos"				"425"	[$WIN32]
-			"ypos"				"30"	[$WIN32]
+			"xpos"				"425"	
+			"ypos"				"30"	
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
@@ -1723,8 +1723,8 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"%invulns%"
 			"textAlignment"		"west"
-			"xpos"				"425"	[$WIN32]
-			"ypos"				"0"	[$WIN32]
+			"xpos"				"425"	
+			"ypos"				"0"	
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
@@ -1750,8 +1750,8 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"%teleports%"
 			"textAlignment"		"west"
-			"xpos"				"425"	[$WIN32]
-			"ypos"				"20"	[$WIN32]
+			"xpos"				"545"	
+			"ypos"				"20"	
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
@@ -1768,8 +1768,8 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"%headshots%"
 			"textAlignment"		"west"
-			"xpos"				"425"	[$WIN32]
-			"ypos"				"10"	[$WIN32]
+			"xpos"				"425"	
+			"ypos"				"10"	
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
@@ -1795,8 +1795,8 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"east"
-			"xpos"				"445"	[$WIN32]
-			"ypos"				"0"	[$WIN32]
+			"xpos"				"445"	
+			"ypos"				"0"	
 			"zpos"				"3"
 			"wide"				"95"
 			"tall"				"20"
@@ -1812,9 +1812,9 @@
 			"font"				"DesignosaurRegular10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%backstabs%"
-			"textAlignment"		"west"		[$WIN32]
-			"xpos"				"545"	[$WIN32]
-			"ypos"				"0"	[$WIN32]
+			"textAlignment"		"west"		
+			"xpos"				"545"	
+			"ypos"				"0"	
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
@@ -1868,10 +1868,10 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_Scoreboard_Support"
 			"textAlignment"		"east"
-			"xpos"				"445"	[$WIN32]
-			"ypos"				"20"	[$WIN32]
+			"xpos"				"326"	
+			"ypos"				"20"	
 			"zpos"				"3"
-			"wide"				"95"
+			"wide"				"95"	
 			"tall"				"20"
 			"autoResize"		"0"
 			"pinCorner"			"0"
@@ -1885,9 +1885,9 @@
 			"font"				"DesignosaurRegular10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%support%"
-			"textAlignment"		"west"		[$WIN32]
-			"xpos"				"545"	[$WIN32]
-			"ypos"				"20"	[$WIN32]
+			"textAlignment"		"west"		
+			"xpos"				"425"	
+			"ypos"				"20"	
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"
@@ -1904,8 +1904,8 @@
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_Scoreboard_Damage"
 			"textAlignment"		"east"
-			"xpos"				"206"[$WIN32]
-			"ypos"				"0"[$WIN32]
+			"xpos"				"206"
+			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"95"
 			"tall"				"20"
@@ -1946,9 +1946,9 @@
 			"font"				"DesignosaurRegular10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%damage%"
-			"textAlignment"		"west"		[$WIN32]
-			"xpos"				"305"	[$WIN32]
-			"ypos"				"0"	[$WIN32]
+			"textAlignment"		"west"		
+			"xpos"				"305"	
+			"ypos"				"0"	
 			"zpos"				"3"
 			"wide"				"35"
 			"tall"				"20"

@@ -97,7 +97,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"CerbeticaBold20"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"bh_white"
 		"xpos"			"0"
 		"ypos"			"95"
 		"zpos"			"1"

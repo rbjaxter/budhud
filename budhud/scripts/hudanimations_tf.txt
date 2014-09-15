@@ -11,15 +11,15 @@
 // whayay's Crosshair: Damage Flash
 event DamagedPlayer
 {
-    Animate Crosshair 		FgColor 	"bh_orange" 	Linear 0.0 0.00001
-	Animate Crosshair 		FgColor 	"bh_white" 		Linear 0.10 0.10001
+    Animate Crosshair 		FgColor 	"ya_xhairflash" 		Linear 0.0 0.00001
+	Animate Crosshair 		FgColor 	"ya_xhairnormal" 		Linear 0.10 0.10001
 }
 
 // Fog's Crosshair: Damage Flash
 event DamagedPlayer
 {
-	Animate fogCrosshair 	FgColor 	"bh_orange" 	Linear 0.0 0.00001
-	Animate fogCrosshair 	FgColor 	"bh_white" 		Linear 0.10 0.10001
+	Animate fogCrosshair 	FgColor 	"fog_xhairflash" 		Linear 0.0 0.00001
+	Animate fogCrosshair 	FgColor 	"fog_xhairnormal" 		Linear 0.10 0.10001
 }
 
 ///////////////////////////////////////////////////////////////////////////
@@ -187,9 +187,9 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"				Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"					Linear 0.2 0.4
-	Animate PlayerStatusHealthValue			fgcolor		"bh_lblue"			Linear 0.0 0.3
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"					Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"						Linear 0.2 0.4
+	Animate PlayerStatusHealthValue			fgcolor		"bh_HealthBuff"			Linear 0.0 0.3
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -238,8 +238,8 @@ event HudLowAmmoPulse
 {
 	Animate	HudWeaponLowAmmoImage			Alpha		"255"				Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage			Alpha		"0"					Linear 0.125 0.075
-	Animate AmmoInReserve					fgcolor		"bh_gray"			Linear 0.0 0.2
-	Animate AmmoNoClip						fgcolor		"bh_gray"			Linear 0.0 0.2
+	Animate AmmoInReserve					fgcolor		"bh_HealthLow"			Linear 0.0 0.2
+	Animate AmmoNoClip						fgcolor		"bh_HealthLow"			Linear 0.0 0.2
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -725,7 +725,7 @@ event DamagedPlayer
 event SpyWarningFlash
 {
 	Animate	EnemyCountImageBG	BgColor	"RedSolid"		Linear 0.0 0.01
-	Animate	EnemyCountImageBG	BgColor	"TanLight"		Linear 0.21 0.01
+	Animate	EnemyCountImageBG	BgColor	"bh_white"		Linear 0.21 0.01
 	
 	RunEvent	SpyWarningFlashLoop		0.42
 }
@@ -743,7 +743,7 @@ event SpyWarningFlashEnd
 
 event HudReadyPulse
 {
-	Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	TournamentInstructionsLabel 	FgColor		"bh_white"		Linear 0.0 0.1
 	Animate	TournamentInstructionsLabel 	FgColor		"RedSolid"		Linear 0.3 0.4
 
 	RunEvent HudReadyPulseLoop	0.5
@@ -756,7 +756,7 @@ event HudReadyPulseLoop
 
 event HudReadyPulseEnd
 {
-	Animate	TournamentInstructionsLabel 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	TournamentInstructionsLabel 	FgColor		"bh_white"		Linear 0.0 0.1
 	
 	StopEvent HudReadyPulse			0.0
 	StopEvent HudReadyPulseLoop		0.0
@@ -765,7 +765,7 @@ event HudReadyPulseEnd
 // Respec in Win
 event RespecEarnedPulse
 {
-	Animate	RespecTextLabelWin	FgColor	"TanLight"		Linear 0.0 0.1
+	Animate	RespecTextLabelWin	FgColor	"bh_white"		Linear 0.0 0.1
 	Animate	RespecTextLabelWin	FgColor	"RedSolid"		Linear 0.3 0.4
 	
 	RunEvent RespecEarnedPulseLoop		0.5
@@ -778,7 +778,7 @@ event RespecEarnedPulseLoop
 
 event RespecEarnedPulseEnd
 {
-	Animate	RespecTextLabelWin 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	RespecTextLabelWin 	FgColor		"bh_white"		Linear 0.0 0.1
 	
 	StopEvent RespecEarnedPulse			0.0
 	StopEvent RespecEarnedPulseLoop		0.0
@@ -787,7 +787,7 @@ event RespecEarnedPulseEnd
 // Respec on Loss
 event RespecEarnedPulseLoss
 {
-	Animate	RespecTextLabelLoss	FgColor	"TanLight"		Linear 0.0 0.1
+	Animate	RespecTextLabelLoss	FgColor	"bh_white"		Linear 0.0 0.1
 	Animate	RespecTextLabelLoss	FgColor	"RedSolid"		Linear 0.3 0.4
 	
 	RunEvent RespecEarnedPulseLoopLoss		0.5
@@ -800,8 +800,8 @@ event RespecEarnedPulseLoopLoss
 
 event RespecEarnedPulseEndLoss
 {
-	Animate	RespecTextLabelLoss FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	RespecTextLabelLoss FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	RespecTextLabelLoss FgColor		"bh_white"		Linear 0.0 0.1
+	Animate	RespecTextLabelLoss FgColor		"bh_white"		Linear 0.0 0.1
 	
 	StopEvent RespecEarnedPulseLoss		0.0
 	StopEvent RespecEarnedPulseLoopLoss	0.0

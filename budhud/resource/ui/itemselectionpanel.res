@@ -134,7 +134,7 @@
 		"pinCorner"							"0"
 		"visible"							"1"
 		"enabled"							"1"
-		"fgcolor"							"TanLight"
+		"fgcolor"							"bh_white"
 	}
 
 	"NameFilterTextEntry"
@@ -154,7 +154,7 @@
 		"textHidden"						"0"
 		"editable"							"1"
 		"unicode"							"1"
-		"fgcolor_override"					"TanLight"
+		"fgcolor_override"					"bh_white"
 		"bgcolor_override"					"15 15 15 255"
 		"paintbackgroundtype"				"2"
 		"font"								"HudFontSmallest"
@@ -300,8 +300,8 @@
 		"armedBgColor_override"				"35 35 35 255"
 		"depressedBgColor_override"			"25 25 25 255"
 		
-		"defaultFgColor_override"			"TanLight"
-		"armedFgColor_override" 			"TanLight"
+		"defaultFgColor_override"			"bh_white"
+		"armedFgColor_override" 			"bh_white"
 		"depressedFgColor_override"		 	"TanDark"
 		
 		"border_default"					"NoBorder"
@@ -359,8 +359,8 @@
 		"armedBgColor_override"				"35 35 35 255"
 		"depressedBgColor_override"			"25 25 25 255"
 		
-		"defaultFgColor_override"			"TanLight"
-		"armedFgColor_override" 			"TanLight"
+		"defaultFgColor_override"			"bh_white"
+		"armedFgColor_override" 			"bh_white"
 		"depressedFgColor_override" 		"TanDark"
 		
 		"border_default"					"NoBorder"
@@ -383,7 +383,7 @@
 		"pinCorner"							"0"
 		"visible"							"1"
 		"enabled"							"1"
-		"fgcolor_override" 					"Base Color"
+		"fgcolor_override" 					"bh_white"
 	}
 	
 	"NextPageButton"
@@ -413,8 +413,8 @@
 		"armedBgColor_override"				"35 35 35 255"
 		"depressedBgColor_override"			"25 25 25 255"
 		
-		"defaultFgColor_override"			"TanLight"
-		"armedFgColor_override" 			"TanLight"
+		"defaultFgColor_override"			"bh_white"
+		"armedFgColor_override" 			"bh_white"
 		"depressedFgColor_override" 		"TanDark"
 		
 		"border_default"					"NoBorder"
