@@ -807,7 +807,7 @@
 		"visible" 					"0"
 		"enabled" 					"1"
 		"xpos"						"c-100"
-		"ypos"						"c25"
+		"ypos"						"c42"
 		"zpos"						"1"
 		"wide"	 					"600"
 		"tall"	 					"45"
@@ -836,7 +836,7 @@
 		"visible" 					"0"
 		"enabled" 					"1"
 		"xpos" 						"c-100"
-		"ypos" 						"c154"
+		"ypos" 						"c135" //c55 
 		"zpos"						"1"
 		"wide" 						"600"
 		"tall" 						"45"
@@ -1360,9 +1360,9 @@
 		"tall"						"200"
 		"visible"					"1"
 		"enabled"					"1"
-		"separator_width"			"10"	// distance between the icons (including their backgrounds)
-		"separator_height"			"5"
-		"height_offset"				"3" // distance from the bottom of the panel
+		"separator_width"			"5"	// distance between the icons (including their backgrounds)
+		"separator_height"			"3"
+		"height_offset"				"2" // distance from the bottom of the panel
 	}
 	
 	HudCapturePanel	
@@ -1753,9 +1753,9 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HudAchievementTracker"
 		"xpos"						"5"
-		"NormalY"					"10"
-		"EngineerY"					"170"
-		"zpos"						"2"
+		"NormalY"					"12"
+		"EngineerY"					"12"
+		"zpos"						"50"
 		"wide"						"200"
 		"tall"						"280"
 		"visible"					"1"

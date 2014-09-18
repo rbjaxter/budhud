@@ -74,7 +74,7 @@ Scheme
 		"HUDRedTeamSolid"	"180 92 77 255"
 		"HUDDeathWarning"	"255 0 0 255"
 		"HudWhite"			"255 255 255 255"
-		"HudOffWhite"		"bh_white"
+		"HudOffWhite"		"255 255 255 255"
 		"HudBlack"			"65 65 65 255"
 		"ProgressBarBlue"	"91 122 142 255"
 		
@@ -104,7 +104,7 @@ Scheme
 		"HudTrainingHint"			"212 160 23 255"
 		
 		"TanDark"				"150 150 150 255"
-		"bh_white"				"255 255 255 255"
+		"TanLight"				"255 255 255 255"
 		"TanDarker"				"46 43 42 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
@@ -135,7 +135,7 @@ Scheme
 		"HTMLBackground"						"95 92 101 255"
 		
 		"ItemAttribLevel"						"117 107 94 255"
-		"ItemAttribNeutral"						"bh_white"
+		"ItemAttribNeutral"						"235 226 202 255"
 		"ItemAttribPositive"					"153 204 255 255"
 		"ItemAttribNegative"					"255 64 64 255"
 
@@ -206,7 +206,7 @@ Scheme
 	{
 		// vgui_controls color specifications
 		ReplayBrowser.BgColor								"DarkBrown"
-		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"200 128 255 255"
+		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"bh_orange"
 		ReplayBrowser.Button.ArmedBgColor					"TFOrange"
 		ReplayBrowser.Button.DepressedBgColor				"TFOrange"
 		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
@@ -219,11 +219,11 @@ Scheme
 		
 		Econ.Dialog.BgColor									"Blank"
 		Econ.Button.BgColor									"25 25 25 200"
-		Econ.Button.FgColor									"bh_white"
+		Econ.Button.FgColor									"255 255 255 255"
 		Econ.Button.ArmedBgColor							"35 35 35 200"
-		Econ.Button.ArmedFgColor							"bh_white"
+		Econ.Button.ArmedFgColor							"255 255 255 255"
 		Econ.Button.DepressedBgColor						"25 25 25 200"
-		Econ.Button.DepressedFgColor						"bh_white"
+		Econ.Button.DepressedFgColor						"255 255 255 255"
 		
 		Econ.Button.PresetDefaultColorFg					"bh_orange"
 		Econ.Button.PresetArmedColorFg						"bh_orange"
@@ -233,208 +233,208 @@ Scheme
 		Econ.Button.PresetArmedColorBg						"50 50 50 200"
 		Econ.Button.PresetDepressedColorBg					"25 25 25 200"
 		
-		Border.Bright					"NoBorder"		// the lit side of a control
-		Border.Dark						"NoBorder"		// the dark/unlit side of a control
-		Border.Selection				"NoBorder"			// the additional border color for displaying the default/selected button
+		Border.Bright										"NoBorder"		// the lit side of a control
+		Border.Dark											"NoBorder"		// the dark/unlit side of a control
+		Border.Selection									"NoBorder"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"bh_white"
-		Button.BgColor					"25 25 25 200"
-		Button.ArmedTextColor			"bh_white"
-		Button.ArmedBgColor				"35 35 35 200"
-		Button.SelectedTextColor		"bh_white"
-		Button.SelectedBgColor			"25 25 25 200"
-		Button.DepressedTextColor		"bh_white"
-		Button.DepressedBgColor			"35 35 35 200"
+		Button.TextColor									"255 255 255 255"
+		Button.BgColor										"25 25 25 200"
+		Button.ArmedTextColor								"255 255 255 255"
+		Button.ArmedBgColor									"35 35 35 200"
+		Button.SelectedTextColor							"255 255 255 255"
+		Button.SelectedBgColor								"25 25 25 200"
+		Button.DepressedTextColor							"255 255 255 255"
+		Button.DepressedBgColor								"35 35 35 200"
 
-		CheckButton.TextColor			"Yellow"
-		CheckButton.SelectedTextColor	"Yellow"
-		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"Yellow" 		// the left checkbutton border
-		CheckButton.Border2  			"Yellow"		// the right checkbutton border
-		CheckButton.Check				"Yellow"		// color of the check itself
-		CheckButton.HighlightFgColor	"Yellow"
+		CheckButton.TextColor								"Yellow"
+		CheckButton.SelectedTextColor						"Yellow"
+		CheckButton.BgColor									"TransparentBlack"
+		CheckButton.Border1  								"Yellow" 		// the left checkbutton border
+		CheckButton.Border2  								"Yellow"		// the right checkbutton border
+		CheckButton.Check									"Yellow"		// color of the check itself
+		CheckButton.HighlightFgColor						"Yellow"
 		
-		ComboBoxButton.ArrowColor		"bh_white"
-		ComboBoxButton.ArmedArrowColor	"bh_white"
-		ComboBoxButton.BgColor			"Blank"
-		ComboBoxButton.DisabledBgColor	"Blank"
+		ComboBoxButton.ArrowColor							"255 255 255 255"
+		ComboBoxButton.ArmedArrowColor						"255 255 255 255"
+		ComboBoxButton.BgColor								"Blank"
+		ComboBoxButton.DisabledBgColor						"Blank"
 
-		Frame.BgColor					"TransparentBlack"
-		Frame.OutOfFocusBgColor			"TransparentBlack"
-		Frame.FocusTransitionEffectTime	"0.0"	[$WIN32] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.0"	[$WIN32] // time it takes for a window to fade in/out on open/close
-		Frame.FocusTransitionEffectTime	"0.15"	[$X360] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.15"	[$X360] // time it takes for a window to fade in/out on open/close
-		Frame.AutoSnapRange				"0"
-		FrameGrip.Color1				"Blank"
-		FrameGrip.Color2				"Blank"
-		FrameTitleButton.FgColor		"Blank"
-		FrameTitleButton.BgColor		"Blank"
-		FrameTitleButton.DisabledFgColor	"Blank"
-		FrameTitleButton.DisabledBgColor	"Blank"
-		FrameSystemButton.FgColor		"Blank"
-		FrameSystemButton.BgColor		"Blank"
-		FrameSystemButton.Icon			""
-		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.TextColor			"Orange"
-		FrameTitleBar.BgColor			"Blank"
-		FrameTitleBar.DisabledTextColor	"Orange"
-		FrameTitleBar.DisabledBgColor	"Blank"
+		Frame.BgColor										"TransparentBlack"
+		Frame.OutOfFocusBgColor								"TransparentBlack"
+		Frame.FocusTransitionEffectTime						"0.0"	[$WIN32] // time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime							"0.0"	[$WIN32] // time it takes for a window to fade in/out on open/close
+		Frame.FocusTransitionEffectTime						"0.15"	[$X360] // time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime							"0.15"	[$X360] // time it takes for a window to fade in/out on open/close
+		Frame.AutoSnapRange									"0"
+		FrameGrip.Color1									"Blank"
+		FrameGrip.Color2									"Blank"
+		FrameTitleButton.FgColor							"Blank"
+		FrameTitleButton.BgColor							"Blank"
+		FrameTitleButton.DisabledFgColor					"Blank"
+		FrameTitleButton.DisabledBgColor					"Blank"
+		FrameSystemButton.FgColor							"Blank"
+		FrameSystemButton.BgColor							"Blank"
+		FrameSystemButton.Icon								""
+		FrameSystemButton.DisabledIcon						""
+		FrameTitleBar.TextColor								"Orange"
+		FrameTitleBar.BgColor								"Blank"
+		FrameTitleBar.DisabledTextColor						"Orange"
+		FrameTitleBar.DisabledBgColor						"Blank"
 
-		GraphPanel.FgColor				"Orange"
-		GraphPanel.BgColor				"TransparentBlack"
+		GraphPanel.FgColor									"Orange"
+		GraphPanel.BgColor									"TransparentBlack"
 
-		Label.TextDullColor				"TanDark"
-		Label.TextColor					"bh_white"
-		Label.TextBrightColor			"bh_white"
-		Label.SelectedTextColor			"White"
-		Label.BgColor					"Blank"
-		Label.DisabledFgColor1			"Blank"
-		Label.DisabledFgColor2			"Black"
+		Label.TextDullColor									"TanDark"
+		Label.TextColor										"255 255 255 255"
+		Label.TextBrightColor								"255 255 255 255"
+		Label.SelectedTextColor								"255 255 255 255"
+		Label.BgColor										"Blank"
+		Label.DisabledFgColor1								"Blank"
+		Label.DisabledFgColor2								"Black"
 
-		ListPanel.TextColor					"Orange"
-		ListPanel.BgColor					"TransparentBlack"
-		ListPanel.SelectedTextColor			"Black"
-		ListPanel.SelectedBgColor			"Red"
-		ListPanel.SelectedOutOfFocusBgColor	"Red"
-		ListPanel.EmptyListInfoTextColor	"Orange"
+		ListPanel.TextColor									"Orange"
+		ListPanel.BgColor									"TransparentBlack"
+		ListPanel.SelectedTextColor							"bh_black"
+		ListPanel.SelectedBgColor							"Red"
+		ListPanel.SelectedOutOfFocusBgColor					"Red"
+		ListPanel.EmptyListInfoTextColor					"Orange"
 
-		Menu.TextColor					"bh_white"
-		Menu.BgColor					"TransparentBlack"
-		Menu.ArmedTextColor				"TanDark"
-		Menu.ArmedBgColor				"bh_white"
-		Menu.TextInset					"6"
+		Menu.TextColor										"255 255 255 255"
+		Menu.BgColor										"TransparentBlack"
+		Menu.ArmedTextColor									"TanDark"
+		Menu.ArmedBgColor									"255 255 255 255"
+		Menu.TextInset										"6"
 
-		Chat.TypingText					"Orange"
+		Chat.TypingText										"Orange"
 
-		Panel.FgColor					"Gray"
-		Panel.BgColor					"Blank"
+		Panel.FgColor										"Gray"
+		Panel.BgColor										"Blank"
 
-		HTML.BgColor					"Blank"
+		HTML.BgColor										"Blank"
 
-		ProgressBar.FgColor				"ProgressOffWhite"
-		ProgressBar.BgColor				"ProgressBackground"
+		ProgressBar.FgColor									"ProgressOffWhite"
+		ProgressBar.BgColor									"ProgressBackground"
 
-		CircularProgressBar.FgColor		"White"
-		CircularProgressBar.BgColor		"White"
+		CircularProgressBar.FgColor							"White"
+		CircularProgressBar.BgColor							"White"
 		
-		"BuildingHealthBar.BgColor"		"HealthBgGrey"
-		"BuildingHealthBar.Health"		"ProgressOffWhite"
-		"BuildingHealthBar.LowHealth"	"LowHealthRed"
+		"BuildingHealthBar.BgColor"							"HealthBgGrey"
+		"BuildingHealthBar.Health"							"ProgressOffWhite"
+		"BuildingHealthBar.LowHealth"						"LowHealthRed"
 
-		PropertySheet.TextColor			"Orange"
-		PropertySheet.SelectedTextColor	"Orange"
-		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
+		PropertySheet.TextColor								"Orange"
+		PropertySheet.SelectedTextColor						"Orange"
+		PropertySheet.TransitionEffectTime					"0.25"	// time to change from one tab to another
 
-		RadioButton.TextColor			"Orange"
-		RadioButton.SelectedTextColor	"Orange"
+		RadioButton.TextColor								"Orange"
+		RadioButton.SelectedTextColor						"Orange"
 
-		RichText.TextColor				"Gray"
-		RichText.BgColor				"Blank"
-		RichText.SelectedTextColor		"Gray"
-		RichText.SelectedBgColor		"Red"
+		RichText.TextColor									"Gray"
+		RichText.BgColor									"Blank"
+		RichText.SelectedTextColor							"Gray"
+		RichText.SelectedBgColor							"Red"
 
-		ScrollBarButton.FgColor				"Gray"
-		ScrollBarButton.BgColor				"Blank"
-		ScrollBarButton.ArmedFgColor		"Gray"
-		ScrollBarButton.ArmedBgColor		"Blank"
-		ScrollBarButton.DepressedFgColor	"Black"
-		ScrollBarButton.DepressedBgColor	"Blank"
+		ScrollBarButton.FgColor								"Gray"
+		ScrollBarButton.BgColor								"Blank"
+		ScrollBarButton.ArmedFgColor						"Gray"
+		ScrollBarButton.ArmedBgColor						"Blank"
+		ScrollBarButton.DepressedFgColor					"Black"
+		ScrollBarButton.DepressedBgColor					"Blank"
 
-		ScrollBarSlider.FgColor				"Gray"		// nob color
-		ScrollBarSlider.BgColor				"Blank"		// slider background color
+		ScrollBarSlider.FgColor								"Gray"		// nob color
+		ScrollBarSlider.BgColor								"Blank"		// slider background color
 
-		SectionedListPanel.HeaderTextColor	"Orange"
-		SectionedListPanel.HeaderBgColor	"Blank"
-		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"Orange"
-		SectionedListPanel.BrightTextColor	"Orange"
-		SectionedListPanel.BgColor			"TransparentLightBlack"
-		SectionedListPanel.SelectedTextColor			"Black"
-		SectionedListPanel.SelectedBgColor				"Red"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
+		SectionedListPanel.HeaderTextColor					"Orange"
+		SectionedListPanel.HeaderBgColor					"Blank"
+		SectionedListPanel.DividerColor						"Black"
+		SectionedListPanel.TextColor						"Orange"
+		SectionedListPanel.BrightTextColor					"Orange"
+		SectionedListPanel.BgColor							"TransparentLightBlack"
+		SectionedListPanel.SelectedTextColor				"Black"
+		SectionedListPanel.SelectedBgColor					"Red"
+		SectionedListPanel.OutOfFocusSelectedTextColor		"Black"
+		SectionedListPanel.OutOfFocusSelectedBgColor		"255 255 255 32"
 
-		Slider.NobColor				"108 108 108 255"
-		Slider.TextColor			"127 140 127 255"
-		Slider.TrackColor			"31 31 31 255"
-		Slider.DisabledTextColor1	"117 117 117 255"
-		Slider.DisabledTextColor2	"30 30 30 255"
+		Slider.NobColor										"108 108 108 255"
+		Slider.TextColor									"127 140 127 255"
+		Slider.TrackColor									"31 31 31 255"
+		Slider.DisabledTextColor1							"117 117 117 255"
+		Slider.DisabledTextColor2							"30 30 30 255"
 
-		TextEntry.TextColor			"Gray"
-		TextEntry.BgColor			"Blank"
-		TextEntry.CursorColor		"Gray"
-		TextEntry.DisabledTextColor	"Gray"
-		TextEntry.DisabledBgColor	"Blank"
-		TextEntry.SelectedTextColor	"bh_white"
-		TextEntry.SelectedBgColor	"Gray"
-		TextEntry.OutOfFocusSelectedBgColor	"Blank"
-		TextEntry.FocusEdgeColor	"Blank"
+		TextEntry.TextColor									"Gray"
+		TextEntry.BgColor									"Blank"
+		TextEntry.CursorColor								"Gray"
+		TextEntry.DisabledTextColor							"Gray"
+		TextEntry.DisabledBgColor							"Blank"
+		TextEntry.SelectedTextColor							"255 255 255 255"
+		TextEntry.SelectedBgColor							"Gray"
+		TextEntry.OutOfFocusSelectedBgColor					"Blank"
+		TextEntry.FocusEdgeColor							"Blank"
 
-		ToggleButton.SelectedTextColor	"Orange"
+		ToggleButton.SelectedTextColor						"Orange"
 
-		Tooltip.TextColor			"TransparentBlack"
-		Tooltip.BgColor				"Red"
+		Tooltip.TextColor									"TransparentBlack"
+		Tooltip.BgColor										"Red"
 
-		TreeView.BgColor			"TransparentBlack"
+		TreeView.BgColor									"TransparentBlack"
 
-		WizardSubPanel.BgColor		"Blank"
+		WizardSubPanel.BgColor								"Blank"
 		
-		TimerProgress.Active		"HudTimerProgressActive"
-		TimerProgress.InActive		"HudTimerProgressInActive"
-		TimerProgress.Warning		"HudTimerProgressWarning"
+		TimerProgress.Active								"HudTimerProgressActive"
+		TimerProgress.InActive								"HudTimerProgressInActive"
+		TimerProgress.Warning								"HudTimerProgressWarning"
 
-		HudObjectives.FgColor		"HudPanelForeground"
-		HudObjectives.BgColor		"HudPanelBackground"
-		HudObjectives.BorderColor	"HudPanelBorder"
+		HudObjectives.FgColor								"HudPanelForeground"
+		HudObjectives.BgColor								"HudPanelBackground"
+		HudObjectives.BorderColor							"HudPanelBorder"
 				
-		HudProgressBar.Active		"HudProgressBarActive"
-		HudProgressBar.InActive		"HudProgressBarInActive"
+		HudProgressBar.Active								"HudProgressBarActive"
+		HudProgressBar.InActive								"HudProgressBarInActive"
 		
-		HudCaptureIcon.Active		"HudProgressBarActive"
-		HudCaptureIcon.InActive		"HudProgressBarInActive"
-		HudCaptureProgressBar.Active	"HudProgressBarActive"
-		HudCaptureProgressBar.InActive	"HudProgressBarInActive"
+		HudCaptureIcon.Active								"HudProgressBarActive"
+		HudCaptureIcon.InActive								"HudProgressBarInActive"
+		HudCaptureProgressBar.Active						"HudProgressBarActive"
+		HudCaptureProgressBar.InActive						"HudProgressBarInActive"
 
 		// scheme-specific colors
-		"FgColor"		"Orange"
-		"BgColor"		"TransparentBlack"
+		"FgColor"											"Orange"
+		"BgColor"											"TransparentBlack"
 
-		"ViewportBG"		"Blank"
-		"TeamSpec"			"204 204 204 255"
-		"TeamRed"			"255 64 64 255"
-		"TeamBlue"			"153 204 255 255"
+		"ViewportBG"										"Blank"
+		"TeamSpec"											"204 204 204 255"
+		"TeamRed"											"255 64 64 255"
+		"TeamBlue"											"153 204 255 255"
 
-		"MapDescriptionText"	"Gray" // the text used in the map description window
-		"HudIcon_Green"		"0 160 0 255"
-		"HudIcon_Red"		"160 0 0 255"
+		"MapDescriptionText"								"Gray" // the text used in the map description window
+		"HudIcon_Green"										"0 160 0 255"
+		"HudIcon_Red"										"160 0 0 255"
 
 		// CHudMenu
-		"ItemColor"		"255 167 42 200"	// default 255 167 42 255
-		"MenuColor"		"233 208 173 255"
-		"MenuBoxBg"		"0 0 0 100"
+		"ItemColor"											"255 167 42 200"	// default 255 167 42 255
+		"MenuColor"											"233 208 173 255"
+		"MenuBoxBg"											"0 0 0 100"
 
 		// weapon selection colors
-		"SelectionNumberFg"		"251 235 202 255"
-		"SelectionTextFg"		"251 235 202 255"
-		"SelectionEmptyBoxBg" 	"0 0 0 80"
-		"SelectionBoxBg" 		"0 0 0 80"
-		"SelectionSelectedBoxBg" "0 0 0 190"
+		"SelectionNumberFg"									"251 235 202 255"
+		"SelectionTextFg"									"251 235 202 255"
+		"SelectionEmptyBoxBg" 								"0 0 0 80"
+		"SelectionBoxBg" 									"0 0 0 80"
+		"SelectionSelectedBoxBg"							"0 0 0 190"
 
 		// Hint message colors
-		"HintMessageFg"			"255 255 255 255"
-		"HintMessageBg" 		"0 0 0 60"
+		"HintMessageFg"										"255 255 255 255"
+		"HintMessageBg" 									"0 0 0 60"
 
-		"ProgressBarFg"			"255 30 13 255"
+		"ProgressBarFg"										"255 30 13 255"
 
 		// Top-left corner of the menu on the main screen
-		"Main.Menu.X"		"32"
-		"Main.Menu.Y"		"248"
+		"Main.Menu.X"										"32"
+		"Main.Menu.Y"										"248"
 
 		// Blank space to leave beneath the menu on the main screen
-		"Main.BottomBorder"	"32"
+		"Main.BottomBorder"									"32"
 		
-		"VguiScreenCursor"			"255 208 64 255"
+		"VguiScreenCursor"									"255 208 64 255"
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
@@ -469,16 +469,16 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"12"
-				"weight"	"500"
-				"underline" "1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"			"Designosaur"
+				"tall"			"12"
+				"weight"		"500"
+				"underline" 	"1"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"2"
 			{
-				"name"		"Designosaur"
-				"tall"		"11"
+				"name"			"Designosaur"
+				"tall"			"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
 			}
@@ -487,51 +487,51 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
+				"name"			"Designosaur"
+				"tall"			"12"
+				"weight"		"0"
+				"range"			"0x0000 0x017F"
+				"yres"			"480 599"
 			}
 			"2"
 			{
-				"name"		"Designosaur"
-				"tall"		"13"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
+				"name"			"Designosaur"
+				"tall"			"13"
+				"weight"		"0"
+				"range"			"0x0000 0x017F"
+				"yres"			"600 767"
 			}
 			"3"
 			{
-				"name"		"Designosaur"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
-				"antialias"	"1"
+				"name"			"Designosaur"
+				"tall"			"14"
+				"weight"		"0"
+				"range"			"0x0000 0x017F"
+				"yres"			"768 1023"
+				"antialias"		"1"
 			}
 			"4"
 			{
-				"name"		"Designosaur"
-				"tall"		"20"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
-				"antialias"	"1"
+				"name"			"Designosaur"
+				"tall"			"20"
+				"weight"		"0"
+				"range"			"0x0000 0x017F"
+				"yres"			"1024 1199"
+				"antialias"		"1"
 			}
 			"5"
 			{
-				"name"		"Designosaur"
-				"tall"		"22"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
-				"antialias"	"1"
+				"name"			"Designosaur"
+				"tall"			"22"
+				"weight"		"0"
+				"range"			"0x0000 0x017F"
+				"yres"			"1200 6000"
+				"antialias"		"1"
 			}
 			"6"
 			{
-				"name"		"Designosaur"
-				"tall"		"12"
+				"name"			"Designosaur"
+				"tall"			"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
 			}
@@ -542,104 +542,104 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"name"			"Designosaur"
+				"tall"			"12"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"480 599"
 			}
 			"2"
 			{
-				"name"		"Designosaur"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+				"name"			"Designosaur"
+				"tall"			"12"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"600 767"
 			}
 			"3"
 			{
-				"name"		"Designosaur"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
+				"name"			"Designosaur"
+				"tall"			"12"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"768 1023"
+				"antialias"		"1"
 			}
 			"4"
 			{
-				"name"		"Designosaur"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
+				"name"			"Designosaur"
+				"tall"			"14"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"1024 1199"
+				"antialias"		"1"
 			}
 			"5"
 			{
-				"name"		"Designosaur"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
+				"name"			"Designosaur"
+				"tall"			"16"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"1200 6000"
+				"antialias"		"1"
 			}
 		}
 		DefaultLarge
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"18"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"480 599"
+				"name"			"Designosaur"
+				"tall"			"18"
+				"weight"		"900"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"480 599"
 			}
 			"2"
 			{
-				"name"		"Designosaur"
-				"tall"		"21"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"600 767"
+				"name"			"Designosaur"
+				"tall"			"21"
+				"weight"		"900"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"600 767"
 			}
 			"3"
 			{
-				"name"		"Designosaur"
-				"tall"		"22"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"768 1023"
-				"antialias"	"1"
+				"name"			"Designosaur"
+				"tall"			"22"
+				"weight"		"900"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"768 1023"
+				"antialias"		"1"
 			}
 			"4"
 			{
-				"name"		"Designosaur"
-				"tall"		"28"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1024 1199"
-				"antialias"	"1"
+				"name"			"Designosaur"
+				"tall"			"28"
+				"weight"		"900"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"1024 1199"
+				"antialias"		"1"
 			}
 			"5"
 			{
-				"name"		"Designosaur"
-				"tall"		"30"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
+				"name"			"Designosaur"
+				"tall"			"30"
+				"weight"		"900"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"1200 6000"
+				"antialias"		"1"
 			}
 			"6"
 			{
-				"name"		"Designosaur"
-				"tall"		"20"
+				"name"			"Designosaur"
+				"tall"			"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Designosaur"
-				"tall"		"20"
+				"name"			"Designosaur"
+				"tall"			"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
 			}
@@ -649,12 +649,12 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS" [!$OSX]
-				"name"		"Helvetica" [$OSX]
-				"tall"		"18"
-				"weight"	"900"
-				"antialias" "1"
-				"additive"	"1"
+				"name"			"Trebuchet MS" [!$OSX]
+				"name"			"Helvetica" [$OSX]
+				"tall"			"18"
+				"weight"		"900"
+				"antialias" 	"1"
+				"additive"		"1"
 			}
 		}
 
@@ -662,112 +662,112 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"6"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"6"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias"		"1"
 			}
 		}
 		HudHintText
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"	"480 599"
+				"name"			"Designosaur"
+				"tall"			"12"
+				"weight"		"700"
+				"yres"			"480 599"
 			}
 			"2"
 			{
-				"name"		"Designosaur"
-				"tall"		"13"	[$WIN32]
-				"tall"		"23"	[$X360]
-				"weight"	"700"
-				"yres"	"600 767"
+				"name"			"Designosaur"
+				"tall"			"13"	[$WIN32]
+				"tall"			"23"	[$X360]
+				"weight"		"700"
+				"yres"			"600 767"
 			}
 			"3"
 			{
-				"name"		"Designosaur"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"	"768 1023"
+				"name"			"Designosaur"
+				"tall"			"14"
+				"weight"		"700"
+				"yres"			"768 1023"
 			}
 			"4"
 			{
-				"name"		"Designosaur"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"	"1024 1199"
+				"name"			"Designosaur"
+				"tall"			"20"
+				"weight"		"700"
+				"yres"			"1024 1199"
 			}
 			"5"
 			{
-				"name"		"Designosaur"
-				"tall"		"24"
-				"weight"	"700"
-				"yres"	"1200 10000"
+				"name"			"Designosaur"
+				"tall"			"24"
+				"weight"		"700"
+				"yres"			"1200 10000"
 			}
 		}
 		"HudFontGiant"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"24"
+				"name"			"Designosaur"
+				"tall"			"24"
 				"tall_lodef"	"80"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"yres"		"480 599"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+				"yres"			"480 599"
 			}
 			"2"
 			{
-				"name"		"Designosaur"
-				"tall"		"32"
+				"name"			"Designosaur"
+				"tall"			"32"
 				"tall_hidef"	"120"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"yres"		"600 767"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+				"yres"			"600 767"
 			}
 			"3"
 			{
-				"name"		"Designosaur"
-				"tall"		"44"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"yres"		"768 1023"
+				"name"			"Designosaur"
+				"tall"			"44"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+				"yres"			"768 1023"
 			}
 			"4"
 			{
-				"name"		"Designosaur"
-				"tall"		"48"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"yres"		"1024 1199"
+				"name"			"Designosaur"
+				"tall"			"48"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+				"yres"			"1024 1199"
 			}
 			"5"
 			{
-				"name"		"Designosaur"
-				"tall"		"52"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"yres"		"1200 10000"
+				"name"			"Designosaur"
+				"tall"			"52"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+				"yres"			"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"44"
+				"name"			"Designosaur"
+				"tall"			"44"
 				"tall_lodef"	"52"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 
@@ -775,12 +775,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"35"
+				"name"			"Designosaur"
+				"tall"			"35"
 				"tall_lodef"	"40"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 
@@ -788,116 +788,116 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"36"
+				"name"			"Designosaur"
+				"tall"			"36"
 				"tall_hidef"	"48"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"HudFontMediumBig"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"30"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"30"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}	
 		"HudFontMediumBigBold"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"30"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"30"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}		
 		"HudFontMedium"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"24"
-				"tall_lodef"		"28"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"24"
+				"tall_lodef"	"28"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"HudFontMediumSecondary"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"24"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"HudFontMediumBold"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"24"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"HudFontMediumSmallBold"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"18"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"HudFontMediumSmall"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"18"
+				"name"			"Designosaur"
+				"tall"			"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"HudFontMediumSmallSecondary"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"18"
+				"name"			"Designosaur"
+				"tall"			"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"HudFontSmall"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"14"
+				"name"			"Designosaur"
+				"tall"			"14"
 				"tall_lodef"	"16"
-				"weight"	"500"
-				"additive"	"0"
+				"weight"		"500"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}	
@@ -905,33 +905,33 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"16"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"16"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"HudFontSmallBold"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"14"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"14"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"HudFontSmallBoldShadow"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"14"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"14"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 				"dropshadow"	"1"
 			}
 		}
@@ -939,10 +939,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
+				"name"			"Designosaur"
+				"tall"			"11"
+				"weight"		"500"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
@@ -950,10 +950,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
+				"name"			"Designosaur"
+				"tall"			"11"
+				"weight"		"500"
+				"additive"		"0"
 				"antialias" 	"1"
 				"dropshadow"	"1"
 			}
@@ -962,285 +962,285 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"11"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"PerformanceModeSmall"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"4"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"4"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"StorePromotionsTitle"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"10"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"10"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"FontCartPrice"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"16"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"16"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"FontStorePrice"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"9"
-				"weight"	"0"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"9"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"FontStoreOriginalPrice"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"9"
-				"weight"	"0"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"9"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"FontStorePriceSmall"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"6"
-				"weight"	"0"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"6"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"FontStorePromotion"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"12"
+				"name"			"Designosaur"
+				"tall"			"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"TextTooltipFont"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"11"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		GameUIButtons
 		{
 			"1"	//[$X360]
 			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
-				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
+				"bitmap"		"1"
+				"name"			"Buttons"
+				"scalex"		"0.5"
+				"scalex_lodef"	"0.75"
+				"scaley"		"0.5"
+				"scaley_lodef"	"0.75"
 			}
 		}
 		GameUIButtonsSmall
 		{
 			"1"	[$X360]
 			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scaley"	"0.5"
+				"bitmap"		"1"
+				"name"			"Buttons"
+				"scalex"		"0.5"
+				"scaley"		"0.5"
 			}
 		}
 		GameUIButtonsSmallest
 		{
 			"1"	[$X360]
 			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.4"
-				"scaley"	"0.4"
+				"bitmap"		"1"
+				"name"			"Buttons"
+				"scalex"		"0.4"
+				"scaley"		"0.4"
 			}
 		}
 		"GameUIButtonText"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"18"
+				"name"			"Designosaur"
+				"tall"			"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"HudClassHealth"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"16"
+				"name"			"Designosaur"
+				"tall"			"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"SpectatorKeyHints"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"8"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"8"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"ClockSubText"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"9"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"9"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"ClockSubTextSuddenDeath"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"8"
+				"name"			"Designosaur"
+				"tall"			"8"
 				"tall_hidef"	"9"
 				"tall_lodef"	"10"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"ClockSubTextTiny"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"8"
+				"name"			"Designosaur"
+				"tall"			"8"
 				"tall_hidef"	"7"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"HudSelectionText"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"15"
-				"weight"	"700"
+				"name"			"Designosaur"
+				"tall"			"15"
+				"weight"		"700"
 				"antialias" 	"1"
-				"yres"		"1 599"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"additive"	"1"
+				"yres"			"1 599"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"additive"		"1"
 			}
 			"2"
 			{
-				"name"		"Designosaur"
-				"tall"		"15"	[$WIN32]
-				"tall"		"21"	[$X360]
-				"weight"	"700"
+				"name"			"Designosaur"
+				"tall"			"15"	[$WIN32]
+				"tall"			"21"	[$X360]
+				"weight"		"700"
 				"antialias" 	"1"
-				"yres"		"600 767"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"additive"	"1"
+				"yres"			"600 767"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"additive"		"1"
 			}
 			"3"
 			{
-				"name"		"Designosaur"
-				"tall"		"18"
-				"weight"	"900"
+				"name"			"Designosaur"
+				"tall"			"18"
+				"weight"		"900"
 				"antialias" 	"1"
-				"yres"		"768 1023"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"768 1023"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"4"
 			{
-				"name"		"Designosaur"
-				"tall"		"21"
-				"weight"	"900"
+				"name"			"Designosaur"
+				"tall"			"21"
+				"weight"		"900"
 				"antialias" 	"1"
-				"yres"		"1024 1199"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"1024 1199"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"5"
 			{
-				"name"		"Designosaur"
-				"tall"		"24"
-				"weight"	"1000"
+				"name"			"Designosaur"
+				"tall"			"24"
+				"weight"		"1000"
 				"antialias" 	"1"
-				"yres"		"1200 10000"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"1200 10000"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		DebugOverlay
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Courier New"
-				"tall"		"14"
-				"weight"	"400"
-				"outline"	"1"
-				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"			"Courier New"
+				"tall"			"14"
+				"weight"		"400"
+				"outline"		"1"
+				"range"			"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"1"	[$X360]
 			{
-				"name"		"Designosaur"
-				"tall"		"18"
-				"weight"	"200"
-				"outline"	"1"
+				"name"			"Designosaur"
+				"tall"			"18"
+				"weight"		"200"
+				"outline"		"1"
 			}
 		}		
 		TFTypeDeath
 		{
 			"1"
 			{
-				"name"  	"tfd" // tfd.ttf
-				"tall"  	"28"
-				"weight" 	"0"
-				"additive" 	"0"
+				"name"  		"tfd" // tfd.ttf
+				"tall"  		"28"
+				"weight" 		"0"
+				"additive" 		"0"
 				"antialias" 	"1"
 			}
 		}
@@ -1249,10 +1249,10 @@ Scheme
 		{
 			"1"
 			 {
-				"name"  	"Team Fortress" // tf.ttf
-				"tall"  	"28"
-				"weight" 	"0"
-				"additive" 	"1"
+				"name"  		"Team Fortress" // tf.ttf
+				"tall"  		"28"
+				"weight" 		"0"
+				"additive" 		"1"
 				"antialias" 	"1"
 			}
 		}
@@ -1260,12 +1260,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Courier New"
-				"tall"		"90"
-				"weight"	"900"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
+				"name"			"Courier New"
+				"tall"			"90"
+				"weight"		"900"
+				"range"			"0x0000 0x007F"	//	Basic Latin
+				"antialias" 	"1"
+				"additive"		"0"
 			}
 		}
 
@@ -1273,76 +1273,76 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "Team Fortress" // tf.ttf
-				"tall"  "28"
-				"weight" "0"
-				"additive" "1"
-				"antialias" "1"
+				"name"  		"Team Fortress" // tf.ttf
+				"tall"  		"28"
+				"weight" 		"0"
+				"additive" 		"1"
+				"antialias"		"1"
 			}
 			"2"
 			{
-				"name"  "Designosaur"
-				"tall"  "28"
-				"weight" "0"
-				"additive" "1"
-				"antialias" "1"
+				"name"  		"Designosaur"
+				"tall"  		"28"
+				"weight" 		"0"
+				"additive" 		"1"
+				"antialias" 	"1"
 			}
 		}
 		"CloseCaption_Normal"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"24"
+				"name"			"Designosaur"
+				"tall"			"24"
 				"tall_hidef"	"32"
-				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"weight"		"500"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"24"
+				"name"			"Designosaur"
+				"tall"			"24"
 				"tall_hidef"	"32"
-				"weight"	"500"
-				"italic"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"weight"		"500"
+				"italic"		"1"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"24"
+				"name"			"Designosaur"
+				"tall"			"24"
 				"tall_hidef"	"32"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"weight"		"900"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"24"
+				"name"			"Designosaur"
+				"tall"			"24"
 				"tall_hidef"	"32"
-				"weight"	"900"
-				"italic"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"weight"		"900"
+				"italic"		"1"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Small"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"16"
+				"name"			"Designosaur"
+				"tall"			"16"
 				"tall_hidef"	"24"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"weight"		"900"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		// this is the symbol font
@@ -1350,53 +1350,53 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Marlett"
-				"tall"		"20"
-				"weight"	"0"
-				"symbol"	"1"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"name"			"Marlett"
+				"tall"			"20"
+				"weight"		"0"
+				"symbol"		"1"
+				"range"			"0x0000 0x007F"	//	Basic Latin
 			}
 		}
 		"MarlettSmall"
 		{
 			"1"
 			{
-				"name"		"Marlett"
-				"tall"		"14"
-				"weight"	"0"
-				"symbol"	"1"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"name"			"Marlett"
+				"tall"			"14"
+				"weight"		"0"
+				"symbol"		"1"
+				"range"			"0x0000 0x007F"	//	Basic Latin
 			}
 		}
 		"MenuMainTitle"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"24"
-				"antialias" "1"
-				"weight"	"500"
+				"name"			"Designosaur"
+				"tall"			"24"
+				"antialias" 	"1"
+				"weight"		"500"
 			}
 		}
 		"MenuClassBuckets"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"11"
+				"name"			"Designosaur"
+				"tall"			"11"
 				"tall_lodef"	"14"
-				"antialias" "1"
-				"weight"	"500"
+				"antialias" 	"1"
+				"weight"		"500"
 			}
 		}
 		"MenuKeys"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"12"
-				"antialias" "1"
-				"weight"	"500"
+				"name"			"Designosaur"
+				"tall"			"12"
+				"antialias" 	"1"
+				"weight"		"500"
 			}
 		}
 		
@@ -1404,12 +1404,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"13"
+				"name"			"Designosaur"
+				"tall"			"13"
 				"tall_hidef"	"14"
 				"tall_lodef"	"17"
-				"weight"	"800"
-				"additive"	"0"
+				"weight"		"800"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}		
@@ -1448,13 +1448,13 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"24"
+				"name"			"Designosaur"
+				"tall"			"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
-				"antialias" "1"
+				"antialias" 	"1"
 				"custom"		"1" [$OSX]
-				"weight"	"500"
+				"weight"		"500"
 			}
 		}
 		"ChalkboardText"
@@ -1475,78 +1475,78 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"8"
+				"name"			"Designosaur"
+				"tall"			"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"ScoreboardSmall"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"10"
+				"name"			"Designosaur"
+				"tall"			"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"ScoreboardMediumSmall"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"14"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
+				"name"			"Designosaur"
+				"tall"			"14"
+				"weight"		"500"
+				"range"			"0x0000 0x007F"	//	Basic Latin
+				"antialias" 	"1"
+				"additive"		"0"
 			}
 		}
 		"ScoreboardMedium"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"20"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
+				"name"			"Designosaur"
+				"tall"			"20"
+				"weight"		"500"
+				"range"			"0x0000 0x007F"	//	Basic Latin
+				"antialias" 	"1"
+				"additive"		"0"
 			}
 		}
 		"ScoreboardTeamName"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"20"
+				"name"			"Designosaur"
+				"tall"			"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
+				"weight"		"500"
+				"range"			"0x0000 0x007F"	//	Basic Latin
+				"antialias" 	"1"
+				"additive"		"0"
 			}
 		}
 		"ScoreboardTeamNameLarge"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"34"
+				"name"			"Designosaur"
+				"tall"			"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
+				"weight"		"500"
+				"range"			"0x0000 0x007F"	//	Basic Latin
+				"antialias" 	"1"
+				"additive"		"0"
 			}
 		}
 
@@ -1554,50 +1554,50 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"52"
-				"tall_lodef"		"80"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
-				"yres"		"1 599"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"52"
+				"tall_lodef"	"80"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"400"
+				"yres"			"1 599"
+				"antialias" 	"1"
 			}
 			"2"
 			{
-				"name"		"Designosaur"
-				"tall"		"72"
+				"name"			"Designosaur"
+				"tall"			"72"
 				"tall_hidef"	"120"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
-				"yres"		"600 767"
-				"antialias" "1"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"400"
+				"yres"			"600 767"
+				"antialias" 	"1"
 			}
 			"3"
 			{
-				"name"		"Designosaur"
-				"tall"		"100"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
-				"yres"		"768 1023"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"100"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"400"
+				"yres"			"768 1023"
+				"antialias" 	"1"
 			}
 			"4"
 			{
-				"name"		"Designosaur"
-				"tall"		"140"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
-				"yres"		"1024 1199"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"140"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"400"
+				"yres"			"1024 1199"
+				"antialias" 	"1"
 			}
 			"5"
 			{
-				"name"		"Designosaur"
-				"tall"		"180"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
-				"yres"		"1200 10000"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"180"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"400"
+				"yres"			"1200 10000"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -1605,22 +1605,22 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"10"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"10"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"ControlPointTimerSmaller"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"7"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"7"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 
@@ -1628,13 +1628,13 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"10"
+				"name"			"Designosaur"
+				"tall"			"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -1642,42 +1642,42 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"		"480 599"
+				"name"			"Designosaur"
+				"tall"			"12"
+				"weight"		"700"
+				"yres"			"480 599"
 				"dropshadow"	"0"
 			}
 			"2"
 			{
-				"name"		"Designosaur"
-				"tall"		"13"
-				"weight"	"700"
-				"yres"		"600 767"
+				"name"			"Designosaur"
+				"tall"			"13"
+				"weight"		"700"
+				"yres"			"600 767"
 				"dropshadow"	"0"
 			}
 			"3"
 			{
-				"name"		"Designosaur"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"		"768 1023"
+				"name"			"Designosaur"
+				"tall"			"14"
+				"weight"		"700"
+				"yres"			"768 1023"
 				"dropshadow"	"0"
 			}
 			"4"
 			{
-				"name"		"Designosaur"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"		"1024 1199"
+				"name"			"Designosaur"
+				"tall"			"20"
+				"weight"		"700"
+				"yres"			"1024 1199"
 				"dropshadow"	"0"
 			}
 			"5"
 			{
-				"name"		"Designosaur"
-				"tall"		"24"
-				"weight"	"700"
-				"yres"		"1200 10000"
+				"name"			"Designosaur"
+				"tall"			"24"
+				"weight"		"700"
+				"yres"			"1200 10000"
 				"dropshadow"	"0"
 			}
 		}
@@ -1685,42 +1685,42 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"		"480 599"
+				"name"			"Designosaur"
+				"tall"			"12"
+				"weight"		"700"
+				"yres"			"480 599"
 				"dropshadow"	"1"
 			}
 			"2"
 			{
-				"name"		"Designosaur"
-				"tall"		"13"
-				"weight"	"700"
-				"yres"		"600 767"
+				"name"			"Designosaur"
+				"tall"			"13"
+				"weight"		"700"
+				"yres"			"600 767"
 				"dropshadow"	"1"
 			}
 			"3"
 			{
-				"name"		"Designosaur"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"		"768 1023"
+				"name"			"Designosaur"
+				"tall"			"14"
+				"weight"		"700"
+				"yres"			"768 1023"
 				"dropshadow"	"1"
 			}
 			"4"
 			{
-				"name"		"Designosaur"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"		"1024 1199"
+				"name"			"Designosaur"
+				"tall"			"20"
+				"weight"		"700"
+				"yres"			"1024 1199"
 				"dropshadow"	"1"
 			}
 			"5"
 			{
-				"name"		"Designosaur"
-				"tall"		"24"
-				"weight"	"700"
-				"yres"		"1200 10000"
+				"name"			"Designosaur"
+				"tall"			"24"
+				"weight"		"700"
+				"yres"			"1200 10000"
 				"dropshadow"	"1"
 			}
 		}
@@ -1728,42 +1728,42 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"10"
-				"weight"	"700"
-				"yres"		"480 599"
+				"name"			"Designosaur"
+				"tall"			"10"
+				"weight"		"700"
+				"yres"			"480 599"
 				"dropshadow"	"1"
 			}
 			"2"
 			{
-				"name"		"Designosaur"
-				"tall"		"10"
-				"weight"	"700"
-				"yres"		"600 767"
+				"name"			"Designosaur"
+				"tall"			"10"
+				"weight"		"700"
+				"yres"			"600 767"
 				"dropshadow"	"1"
 			}
 			"3"
 			{
-				"name"		"Designosaur"
-				"tall"		"13"
-				"weight"	"700"
-				"yres"		"768 1023"
+				"name"			"Designosaur"
+				"tall"			"13"
+				"weight"		"700"
+				"yres"			"768 1023"
 				"dropshadow"	"1"
 			}
 			"4"
 			{
-				"name"		"Designosaur"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"		"1024 1199"
+				"name"			"Designosaur"
+				"tall"			"14"
+				"weight"		"700"
+				"yres"			"1024 1199"
 				"dropshadow"	"1"
 			}
 			"5"
 			{
-				"name"		"Designosaur"
-				"tall"		"15"
-				"weight"	"700"
-				"yres"		"1200 10000"
+				"name"			"Designosaur"
+				"tall"			"15"
+				"weight"		"700"
+				"yres"			"1200 10000"
 				"dropshadow"	"1"
 			}
 		}
@@ -1785,8 +1785,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"14"
+				"name"			"Designosaur"
+				"tall"			"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
@@ -1798,11 +1798,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"12"
-				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"TextColor"	"Black"
+				"name"			"Designosaur"
+				"tall"			"12"
+				"weight"		"500"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"TextColor"		"Black"
 				"antialias" 	"1"
 			}
 		}
@@ -1810,11 +1810,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"8"
-				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"TextColor"	"Black"
+				"name"			"Designosaur"
+				"tall"			"8"
+				"weight"		"500"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"TextColor"		"Black"
 				"antialias" 	"1"
 			}
 		}
@@ -1823,12 +1823,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"8"
+				"name"			"Designosaur"
+				"tall"			"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"12"
-				"weight"	"0"
-				"additive"	"1"
+				"weight"		"0"
+				"additive"		"1"
 				"antialias" 	"1"
 			}
 		}		
@@ -1836,12 +1836,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"9"
+				"name"			"Designosaur"
+				"tall"			"9"
 				"tall_hidef"	"10"
 				"tall_lodef"	"16"
-				"weight"	"400"
-				"additive"	"0"
+				"weight"		"400"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}		
@@ -1850,11 +1850,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"11"  [!$OSX]
-				"tall"		"9"  [$OSX]
-				"weight"	"800"
-				"additive"	"0"
+				"name"			"Designosaur"
+				"tall"			"11"  [!$OSX]
+				"tall"			"9"  [$OSX]
+				"weight"		"800"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}		
@@ -1863,95 +1863,95 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"36"
-				"tall_lodef"		"28"
-				"weight"	"500"
+				"name"			"Designosaur"
+				"tall"			"36"
+				"tall_lodef"	"28"
+				"weight"		"500"
 			}
 		}
 		MatchmakingDialogSessionOptionsTitle
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"30"
-				"tall_lodef"		"22"
-				"weight"	"500"
+				"name"			"Designosaur"
+				"tall"			"30"
+				"tall_lodef"	"22"
+				"weight"		"500"
 			}
 		}
 		MatchmakingDialogMenuLarge
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"28"
+				"name"			"Designosaur"
+				"tall"			"28"
 				"tall_lodef"	"24"
-				"weight"	"500"
+				"weight"		"500"
 			}
 		}
 		MatchmakingDialogMenuBrowserHostname
 		{
-			"1"			// brower item hostname
+			"1" // brower item hostname
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"22"
-				"weight"	"900"
+				"name"			"Trebuchet MS"
+				"tall"			"22"
+				"weight"		"900"
 			}
 		}
 		MatchmakingDialogMenuBrowserDetails
 		{
-			"1"			// browser item players and map name
+			"1" // browser item players and map name
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"18"
-				"weight"	"900"
+				"name"			"Trebuchet MS"
+				"tall"			"18"
+				"weight"		"900"
 			}
 		}		
 		MatchmakingDialogMenuMedium
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"22"
-				"weight"	"500"
+				"name"			"Designosaur"
+				"tall"			"22"
+				"weight"		"500"
 			}
 		}
 		MatchmakingDialogMenuMediumSmall
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"18"
-				"weight"	"500"
+				"name"			"Designosaur"
+				"tall"			"18"
+				"weight"		"500"
 			}
 		}
 		MatchmakingDialogMenuSmall
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"22"
-				"tall_lodef"		"18"
-				"weight"	"900"
+				"name"			"Designosaur"
+				"tall"			"22"
+				"tall_lodef"	"18"
+				"weight"		"900"
 			}
 		}
 		MatchmakingDialogMenuSmallest
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"18"
-				"tall_lodef"		"18"
-				"weight"	"900"
+				"name"			"Designosaur"
+				"tall"			"18"
+				"tall_lodef"	"18"
+				"weight"		"900"
 			}
 		}
 		RankingDialogHeaders
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"15"
-				"weight"	"900"
+				"name"			"Designosaur"
+				"tall"			"15"
+				"weight"		"900"
 			}
 		}
 		
@@ -1959,21 +1959,21 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"36"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"36"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"TeamMenu"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"11"
-				"weight"	"600"
-				"additive"	"0"
+				"name"			"Designosaur"
+				"tall"			"11"
+				"weight"		"600"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}		
@@ -1981,10 +1981,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"18"
-				"weight"	"400"
-				"additive"	"0"
+				"name"			"Designosaur"
+				"tall"			"18"
+				"weight"		"400"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}			
@@ -1992,20 +1992,20 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"14"
-				"weight"	"900"
-				"antialias" "1"
+				"name"			"Trebuchet MS"
+				"tall"			"14"
+				"weight"		"900"
+				"antialias" 	"1"
 			}
 		}
 		"ImportToolSmallestBold"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"10"
-				"weight"	"600"
-				"additive"	"0"
+				"name"			"Designosaur"
+				"tall"			"10"
+				"weight"		"600"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
@@ -2013,10 +2013,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"10"
-				"weight"	"500"
-				"additive"	"0"
+				"name"			"Designosaur"
+				"tall"			"10"
+				"weight"		"500"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
@@ -2025,30 +2025,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"10"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"480 599"
-				"antialias"	"1"
+				"name"			"Designosaur"
+				"tall"			"10"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"480 599"
+				"antialias"		"1"
 			}
 			"2"
 			{
-				"name"		"Designosaur"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"600 1199"
-				"antialias"	"1"
+				"name"			"Designosaur"
+				"tall"			"12"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"600 1199"
+				"antialias"		"1"
 			}
 			"3"
 			{
-				"name"		"Designosaur"
-				"tall"		"15"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1200 6000"
-				"antialias"	"1"
+				"name"			"Designosaur"
+				"tall"			"15"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"1200 6000"
+				"antialias"		"1"
 			}
 		}
 		
@@ -2056,43 +2056,43 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"8"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"8"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"ItemFontNameSmall"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"9"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"9"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"ItemFontNameLarge"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"12"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"12"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"ItemFontAttribSmallest"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"7"
-				"weight"	"500"
-				"additive"	"0"
+				"name"			"Designosaur"
+				"tall"			"7"
+				"weight"		"500"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
@@ -2100,10 +2100,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"8"
-				"weight"	"500"
-				"additive"	"0"
+				"name"			"Designosaur"
+				"tall"			"8"
+				"weight"		"500"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
@@ -2111,10 +2111,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
+				"name"			"Designosaur"
+				"tall"			"11"
+				"weight"		"500"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}	
@@ -2123,10 +2123,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"9"
-				"weight"	"500"
-				"additive"	"0"
+				"name"			"Designosaur"
+				"tall"			"9"
+				"weight"		"500"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
@@ -2134,23 +2134,23 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"9"
-				"weight"	"500"
-				"blur"		"3"
-				"additive"	"1"
+				"name"			"Designosaur"
+				"tall"			"9"
+				"weight"		"500"
+				"blur"			"3"
+				"additive"		"1"
 				"antialias" 	"1"
-				"custom"	"1"
+				"custom"		"1"
 			}
 		}
 		"AchievementTracker_Desc"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"7"
-				"weight"	"0"
-				"additive"	"1"
+				"name"			"Designosaur"
+				"tall"			"7"
+				"weight"		"0"
+				"additive"		"1"
 				"antialias" 	"1"
 			}
 		}
@@ -2163,56 +2163,56 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"name"			"Designosaur"
+				"tall"			"12"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"480 599"
 			}
 			"2"
 			{
-				"name"		"Designosaur"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+				"name"			"Designosaur"
+				"tall"			"12"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"600 767"
 			}
 			"3"
 			{
-				"name"		"Designosaur"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
+				"name"			"Designosaur"
+				"tall"			"12"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"768 1023"
+				"antialias"		"1"
 			}
 			"4"
 			{
-				"name"		"Designosaur"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
+				"name"			"Designosaur"
+				"tall"			"14"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"1024 1199"
+				"antialias"		"1"
 			}
 			"5"
 			{
-				"name"		"Designosaur"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
+				"name"			"Designosaur"
+				"tall"			"16"
+				"weight"		"0"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"1200 6000"
+				"antialias"		"1"
 			}
 		}
 		"ReplayBrowserSmallest"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
+				"name"			"Designosaur"
+				"tall"			"11"
+				"weight"		"500"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
@@ -2220,51 +2220,51 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
+				"name"			"Designosaur"
+				"tall"			"12"
+				"weight"		"0"
+				"range"			"0x0000 0x017F"
+				"yres"			"480 599"
 			}
 			"2"
 			{
-				"name"		"Designosaur"
-				"tall"		"13"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
+				"name"			"Designosaur"
+				"tall"			"13"
+				"weight"		"0"
+				"range"			"0x0000 0x017F"
+				"yres"			"600 767"
 			}
 			"3"
 			{
-				"name"		"Designosaur"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
-				"antialias"	"1"
+				"name"			"Designosaur"
+				"tall"			"14"
+				"weight"		"0"
+				"range"			"0x0000 0x017F"
+				"yres"			"768 1023"
+				"antialias"		"1"
 			}
 			"4"
 			{
-				"name"		"Designosaur"
-				"tall"		"20"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
-				"antialias"	"1"
+				"name"			"Designosaur"
+				"tall"			"20"
+				"weight"		"0"
+				"range"			"0x0000 0x017F"
+				"yres"			"1024 1199"
+				"antialias"		"1"
 			}
 			"5"
 			{
-				"name"		"Designosaur"
-				"tall"		"22"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
-				"antialias"	"1"
+				"name"			"Designosaur"
+				"tall"			"22"
+				"weight"		"0"
+				"range"			"0x0000 0x017F"
+				"yres"			"1200 6000"
+				"antialias"		"1"
 			}
 			"6"
 			{
-				"name"		"Designosaur"
-				"tall"		"12"
+				"name"			"Designosaur"
+				"tall"			"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
 			}
@@ -2273,59 +2273,59 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"11"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"ReplayMedium"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"14"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"14"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"ReplayMediumBig"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"18"
+				"name"			"Designosaur"
+				"tall"			"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"ReplayBrowserTab"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"24"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"ReplayLarger"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"18"
+				"name"			"Designosaur"
+				"tall"			"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -2336,22 +2336,22 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"14"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"14"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"EconFontMedium"
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Designosaur"
+				"tall"			"24"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 
@@ -2359,12 +2359,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Designosaur"
-				"tall"		"15"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
+				"name"			"Designosaur"
+				"tall"			"15"
+				"weight"		"500"
+				"range"			"0x0000 0x007F"	//	Basic Latin
+				"antialias" 	"1"
+				"additive"		"0"
 			}
 		}
 
@@ -2521,10 +2521,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Courier New"
-				"tall"		"72"
-				"weight"	"0"
-				"antialias"	"1"
+				"name"			"Courier New"
+				"tall"			"72"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
 		
@@ -2532,11 +2532,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Courier New"
-				"tall"		"72"
-				"weight"	"0"
-				"antialias"	"1"
-				"outline"	"1"
+				"name"			"Courier New"
+				"tall"			"72"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
 
@@ -2544,10 +2544,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"8"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"8"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -2555,10 +2555,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"10"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"10"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -2566,10 +2566,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"12"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"12"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -2577,10 +2577,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"14"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"14"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -2588,10 +2588,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"16"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"16"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -2599,10 +2599,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"18"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"18"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 
@@ -2610,11 +2610,11 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"18"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"			"Crosshairs"
+				"tall" 			"18"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
 			}
 		}
 		
@@ -2622,10 +2622,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"20"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"20"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -2633,10 +2633,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"22"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"22"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -2644,10 +2644,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"24"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"24"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -2655,11 +2655,11 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"24"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"			"Crosshairs"
+				"tall" 			"24"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
 			}
 		}
 		
@@ -2667,10 +2667,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"26"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"26"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -2678,11 +2678,11 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"26"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"			"Crosshairs"
+				"tall" 			"26"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
 			}
 		}
 		
@@ -2690,10 +2690,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"28"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"28"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -2701,10 +2701,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"30"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"30"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -2712,10 +2712,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"32"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"32"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 
@@ -2723,11 +2723,11 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"32"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"			"Crosshairs"
+				"tall" 			"32"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
 			}
 		}
 		
@@ -2735,10 +2735,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"34"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"34"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -2746,11 +2746,11 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"34"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"			"Crosshairs"
+				"tall" 			"34"
+				"weight" 		"0"
+				"antialias" 	"1"
+				"outline"		"1"
 			}
 		}
 		
@@ -2758,10 +2758,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"36"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"36"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -2769,10 +2769,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"38"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"38"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -2780,10 +2780,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"40"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"			"Crosshairs"
+				"tall" 			"40"
+				"weight" 		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -2791,10 +2791,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Symbol"
-			"tall"			"16"
-			"weight"		"0"
-			"antialias"		"1"
+				"name"			"Symbol"
+				"tall"			"16"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
 		
@@ -2802,10 +2802,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Symbol"
-			"tall"			"24"
-			"weight"		"0"
-			"antialias"		"1"
+				"name"			"Symbol"
+				"tall"			"24"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
 		
@@ -2813,11 +2813,11 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Symbol"
-			"tall"			"24"
-			"weight"		"0"
-			"antialias"		"1"
-			"outline"		"1"
+				"name"			"Symbol"
+				"tall"			"24"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
 		
@@ -2825,10 +2825,10 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Symbol"
-			"tall"			"32"
-			"weight"		"0"
-			"antialias"		"1"
+				"name"			"Symbol"
+				"tall"			"32"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
 		
@@ -2836,61 +2836,61 @@ Scheme
 		{
 			"1"
 			{
-			"name"			"Symbol"
-			"tall"			"40"
-			"weight"		"0"
-			"antialias"		"1"
+				"name"			"Symbol"
+				"tall"			"40"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
 		"KonrWings16"
 		{
 			"1"
 			{
-			"name"			"Garm3nFont"
-			"tall"			"16"
-			"weight"		"0"
-			"antialias"		"1"
+				"name"			"Garm3nFont"
+				"tall"			"16"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
 		"KonrWings24"
 		{
 			"1"
 			{
-			"name"			"Garm3nFont"
-			"tall"			"24"
-			"weight"		"0"
-			"antialias"		"1"
+				"name"			"Garm3nFont"
+				"tall"			"24"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
 		"KonrWingsOutline24"
 		{
 			"1"
 			{
-			"name"			"Garm3nFont"
-			"tall"			"24"
-			"weight"		"0"
-			"antialias"		"1"
-			"outline"		"1"
+				"name"			"Garm3nFont"
+				"tall"			"24"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
 		"KonrWings32"
 		{
 			"1"
 			{
-			"name"			"Garm3nFont"
-			"tall"			"32"
-			"weight"		"0"
-			"antialias"		"1"
+				"name"			"Garm3nFont"
+				"tall"			"32"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
 		"KonrWings40"
 		{
 			"1"
 			{
-			"name"			"Garm3nFont"
-			"tall"			"40"
-			"weight"		"0"
-			"antialias"		"1"
+				"name"			"Garm3nFont"
+				"tall"			"40"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
 		
@@ -2900,72 +2900,72 @@ Scheme
         {
             "1"
             {
-                "name"        "Crosshair"
-                "tall"        "16"
-                "additive"    "0"
+                "name"       	"Crosshair"
+                "tall"       	"16"
+                "additive"   	"0"
                 "antialias"     "1"
-                "weight"    "0"
-                "outline"    "0"
+                "weight"    	"0"
+                "outline"   	"0"
             }
         }
         "CrosshairOLSmall"
         {
             "1"
             {
-                "name"        "Crosshair"
-                "tall"        "16"
-                "additive"    "0"
+                "name"        	"Crosshair"
+                "tall"        	"16"
+                "additive"    	"0"
                 "antialias"     "1"
-                "weight"    "0"
-                "outline"    "1"
+                "weight"    	"0"
+                "outline"    	"1"
             }
         }
         "CrosshairAA"
         {
             "1"
             {
-                "name"        "Crosshair"
-                "tall"        "20"
-                "additive"    "0"
+                "name"       	"Crosshair"
+                "tall"        	"20"
+                "additive"    	"0"
                 "antialias"     "1"
-                "weight"    "0"
-                "outline"    "0"
+                "weight"    	"0"
+                "outline"    	"0"
             }
         }
         "CrosshairOL"
         {
             "1"
             {
-                "name"        "Crosshair"
-                "tall"        "20"
-                "additive"    "0"
+                "name"        	"Crosshair"
+                "tall"        	"20"
+                "additive"    	"0"
                 "antialias"     "1"
-                "weight"    "0"
-                "outline"    "1"
+                "weight"    	"0"
+                "outline"    	"1"
             }
         }
         "CrosshairAABig"
         {
             "1"
             {
-                "name"        "Crosshair"
-                "tall"        "24"
-                "additive"    "0"
+                "name"        	"Crosshair"
+                "tall"        	"24"
+                "additive"    	"0"
                 "antialias"     "1"
-                "weight"    "0"
-                "outline"    "0"
+                "weight"    	"0"
+                "outline"    	"0"
             }
         }
         "CrosshairOLBig"
         {
             "1"
             {
-                "name"        "Crosshair"
-                "tall"        "24"
-                "additive"    "0"
+                "name"        	"Crosshair"
+                "tall"        	"24"
+                "additive"    	"0"
                 "antialias"     "1"
-                "weight"    "0"
-                "outline"    "1"
+                "weight"    	"0"
+                "outline"    	"1"
             }
         }
 	}

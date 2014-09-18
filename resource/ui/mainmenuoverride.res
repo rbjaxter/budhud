@@ -408,7 +408,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
 		"border"				"NoBorder"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"25 25 25 200"
 		
 		"MOTD_HeaderContainer"
 		{
@@ -772,10 +772,10 @@
 		{
 			"ControlName"					"CExLabel"
 			"fieldName"						"Notifications_CountLabel"
-			"font"							"DesignosaurRegular16"
+			"font"							"DesignosaurRegular14"
 			"labelText"						"%noticount%"
 			"textAlignment"					"center"
-			"xpos"							"17"
+			"xpos"							"18"
 			"ypos"							"2"
 			"zpos"							"4"
 			"wide"							"16"
@@ -1619,7 +1619,7 @@
 			"tabPosition"					"0"
 			"font"							"DesignosaurRegular16"
 			"textAlignment"					"east"
-			"labelText"						"budhud BETA"
+			"labelText"						"budhud"
 			"dulltext"						"0"
 			"brighttext"					"0"
 			"default"						"1"

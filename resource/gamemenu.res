@@ -2,16 +2,13 @@
 {
 	"budhud"
 	{
-		"label" 		"budhud BETA" 
+		"label" 		"budhud" 
 		"subimage"		""
 		"OnlyAtMenu" 	"0"
 		"tooltip"		"Show information about the hud"
 		"command" 		"engine con_enable 1;showconsole;clear;
 		echo ========================================================================;
-		echo BUDHUD, Version 0.9.9beta by Whisker Biscuit;
-		echo ========================================================================;
-		echo This is the BETA release of budhud, so there are likely still bugs;
-		echo If you find any issues, please let me know @ Github or steam group!;
+		echo BUDHUD, Version 1.0.0 by Whisker Biscuit;
 		echo ========================================================================;
 		echo Report Issues: github.com/WhiskerBiscuit/budhud/issues;
 		echo HUD GROUP: steamcommunity.com/groups/budhud;

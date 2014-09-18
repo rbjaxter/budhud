@@ -636,13 +636,13 @@ event HasMOTDBlinkStop
 event HasNotificationsBlink
 {
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.2 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.2 0.1
 		
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.6 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"			Linear 0.6 0.1
 	
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 1.0 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"			Linear 1.0 0.1
 	
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
 
@@ -687,7 +687,7 @@ event AddToCartBlink
 
 event NotificationsPresentBlink
 {
-	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.0 0.1
+	Animate	NotificationsPresentPanel 	FgColor		"255"		Linear 0.0 0.1
 	Animate	NotificationsPresentPanel 	Alpha		"0"			Linear 0.2 0.1
 		
 	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.4 0.1
