@@ -1,6 +1,6 @@
 "Resource/UI/HudMedicCharge.res"
 {	
-	"ChargeLabelNearCrosshair"
+	"ChargeLabelNearCrosshair" // Broken with vaccinator
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelNearCrosshair"
@@ -42,7 +42,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"490"
+		"xpos"			"c60"
 		"ypos"			"287"
 		"zpos"			"2"
 		"wide"			"200"
@@ -63,7 +63,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"490"
+		"xpos"			"c60"
 		"ypos"			"287"
 		"zpos"			"5"
 		"wide"			"200"
