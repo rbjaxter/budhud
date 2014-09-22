@@ -7,7 +7,7 @@
 	/////////////////////////////////////////////////////////////////////////////
 
 	"Crosshair"
-		{
+	{
         "controlname"		"CExLabel"
 		"fieldname"			"Crosshair"
         "textAlignment"		"center"

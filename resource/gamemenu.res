@@ -4,11 +4,11 @@
 	{
 		"label" 		"budhud" 
 		"subimage"		""
-		"OnlyAtMenu" 	"0"
+		"OnlyAtMenu" 	"1"
 		"tooltip"		"Show information about the hud"
 		"command" 		"engine con_enable 1;showconsole;clear;
 		echo ========================================================================;
-		echo BUDHUD, Version 1.0.0 by Whisker Biscuit;
+		echo BUDHUD, Version 1.0.1 by Whisker Biscuit;
 		echo ========================================================================;
 		echo Report Issues: github.com/WhiskerBiscuit/budhud/issues;
 		echo HUD GROUP: steamcommunity.com/groups/budhud;
