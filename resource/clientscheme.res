@@ -7,6 +7,7 @@ Scheme
 	
 		// budhud: HUD Color Customization
 		// Change colors here to customize your hud
+		// A restart of TF2 will be required for these changes to take effect
 		
 			// Health
 			"bh_Health"			"255 255 255 255"
@@ -21,7 +22,7 @@ Scheme
 			// Damage Account (For healing and damage done)
 			"bh_HealColor"		"255 255 255 255"
 			"bh_DamageColor"	"255 255 255 255"
-			"bh_hudDMGDisplay"	"243 157 48 255"
+			"bh_hudDMGDisplay"	"243 157 48 255" // Damage done that appears below ammo
 			
 			// whayay's Crosshairs
 			"ya_crosshair"		"255 255 255 255"
@@ -35,15 +36,16 @@ Scheme
 		
 		// budhud: Core Colors
 		// These are best left untouched
-		"bh_white"			"255 255 255 255"
-		"bh_black"			"0 0 0 255"
-		"bh_lblue"			"0 153 255 255"
-		"bh_gray"			"150 150 150 255"
-		"bh_lorange"		"243 157 48 255"
-		"bh_dorange"		"204 93 27 255"
-		"bh_orange"			"240 134 49 255"
-		"bh_green"			"0 215 0 255"
-		"bh_red"			"215 0 0 255"
+		
+			"bh_white"			"255 255 255 255"
+			"bh_black"			"0 0 0 255"
+			"bh_lblue"			"0 153 255 255"
+			"bh_gray"			"150 150 150 255"
+			"bh_lorange"		"243 157 48 255"
+			"bh_dorange"		"204 93 27 255"
+			"bh_orange"			"240 134 49 255"
+			"bh_green"			"0 215 0 255"
+			"bh_red"			"215 0 0 255"
 		
 		// TF2 Defaults
 		"Orange"			"178 82 22 255"
@@ -2458,6 +2460,17 @@ Scheme
 				"tall"		"24"
 				"weight"	"500"
 				"antialias"	"1"
+			}
+		}
+		DesignosaurRegular24Outline
+		{
+			"1"
+			{
+				"name"		"Designosaur"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias"	"1"
+				"outline"	"1"
 			}
 		}
 		DesignosaurRegular32

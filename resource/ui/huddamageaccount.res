@@ -9,9 +9,10 @@
 		"PositiveColor"			"bh_HealColor"
 		"NegativeColor"			"bh_DamageColor"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"DesignosaurRegular24"
-		"delta_item_font_big"	"DesignosaurRegular24"
+		"delta_item_font"		"DesignosaurRegular24Outline"
+		"delta_item_font_big"	"DesignosaurRegular24Outline"
 	}
+	
 	"DamageAccountValue"
 	{
 		"ControlName"			"CExLabel"
