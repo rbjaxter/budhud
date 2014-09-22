@@ -11,7 +11,7 @@ Scheme
 		
 			// Health
 			"bh_Health"			"255 255 255 255"
-			"bh_HealthLow"		"150 150 150 255"
+			"bh_HealthLow"		"215 0 0 255"
 			"bh_HealthBuff"		"0 153 255 255"
 			
 			// Ammo
