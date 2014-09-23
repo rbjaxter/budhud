@@ -18,6 +18,7 @@ Scheme
 			"bh_AmmoInClip"		"255 255 255 255"
 			"bh_AmmoReserve"	"255 255 255 255"
 			"bh_AmmoNoClip"		"255 255 255 255"
+			"bh_LowAmmo"		"150 150 150 255"
 			
 			// Damage Account (For healing and damage done)
 			"bh_HealColor"		"255 255 255 255"
