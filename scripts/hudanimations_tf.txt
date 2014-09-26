@@ -338,7 +338,7 @@ event FlagOutline
 //		RunEvent HudSpyDisguiseHide	0.7
 // }
 
-event HudSpyDisguiseHide
+// event HudSpyDisguiseHide
 // {
 //		Animate PlayerStatusSpyOutlineImage		Position	"3 413"			Linear 0.0 0.2
 //		Animate PlayerStatusSpyOutlineImage		Size		"55 55"			Linear 0.0 0.2
@@ -747,7 +747,7 @@ event SpyWarningFlashEnd
 event HudReadyPulse
 {
 	Animate	TournamentInstructionsLabel 	FgColor		"bh_white"		Linear 0.0 0.1
-	Animate	TournamentInstructionsLabel 	FgColor		"RedSolid"		Linear 0.3 0.4
+	Animate	TournamentInstructionsLabel 	FgColor		"bh_red"		Linear 0.3 0.4
 
 	RunEvent HudReadyPulseLoop	0.5
 }

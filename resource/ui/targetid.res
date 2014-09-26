@@ -14,9 +14,9 @@
 			"visible" 	"1"
 			"enabled" 	"1"
 			"fillcolor" "0 0 0 150"
-			
 		}
-			"TargetBackground2"
+		
+		"TargetBackground2"
 		{
 			"ControlName" "ImagePanel"
 			"fieldName" "TargetBackground2"
@@ -29,9 +29,8 @@
 			"pinCorner" "0"
 			"visible" 	"1"
 			"enabled" 	"1"
-			
-			
 		}
+		
 	"TargetIDBG"
 	{
 		"ControlName"		"CTFImagePanel"
