@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"CerbeticaBold12"
+		"font"			"DesignosaurRegular12"
 		"fgcolor"		"0 255 0 255"
 		"xpos"			"15"
 		"ypos"			"2"
@@ -89,7 +89,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"CerbeticaBold20"
+		"font"			"DesignosaurRegular20"
 		"fgcolor"		"0 255 0 255"
 		"xpos"			"0"
 		"ypos"			"95"
@@ -109,7 +109,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"CerbeticaBold20"
+		"font"			"DesignosaurRegular20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"1"
 		"ypos"			"96"
