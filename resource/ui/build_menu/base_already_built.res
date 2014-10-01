@@ -94,7 +94,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"CerbeticaBold16"
+		"font"			"DesignosaurRegular16"
 		"fgcolor"		"bh_white"
 		"xpos"			"69699"
 		"ypos"			"69699"
