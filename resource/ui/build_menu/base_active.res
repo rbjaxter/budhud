@@ -4,7 +4,7 @@
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemNameLabel"
-		"font"					"DesignosaurRegular12"
+		"font"					"CerbeticaBold12"
 		"xpos"					"15"
 		"ypos"					"2"
 		"zpos"					"1"

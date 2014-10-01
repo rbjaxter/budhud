@@ -131,8 +131,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabelShadow"
-		"font"			"DesignosaurRegular20"
-		"fgcolor"		"bh_black"
+		"font"			"CerbeticaBold20"
+		"fgcolor"		"TransparentBlack"
 		"xpos"			"6969"
 		"ypos"			"6969"
 		"zpos"			"1"
