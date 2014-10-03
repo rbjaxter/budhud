@@ -83,7 +83,7 @@
                 "tall"                  "100"
                 "visible"               "0"
                 "enabled"               "1"
-                "textAlignment" "west"         
+                "textAlignment" 		"west"         
                 "labelText"             "%AmmoInReserve%"
         }              
         "AmmoInReserveShadow"
@@ -99,7 +99,7 @@
                 "tall"                  "100"
                 "visible"               "0"
                 "enabled"               "1"
-                "textAlignment" "west"         
+                "textAlignment" 		"west"         
                 "labelText"             "%AmmoInReserve%"
         }                                                                      
         "AmmoNoClip"
@@ -115,7 +115,7 @@
                 "tall"                  "100"
                 "visible"               "0"
                 "enabled"               "1"
-                "textAlignment" "center"               
+                "textAlignment" 		"center"               
                 "labelText"             "%Ammo%"
                
         }      

@@ -132,7 +132,7 @@
 				
 		"fgcolor"					"fog_crosshair"
 	}		
-			
+
 	BasicCrossLarge		
 	{		
 		"controlName"				"CExLabel"
@@ -153,7 +153,7 @@
 				
 		"fgcolor"					"fog_crosshair"
 	}		
-			
+
 	BasicDot		
 	{		
 		"controlName"				"CExLabel"
@@ -827,7 +827,7 @@
 		"priority"					"40"
 		
 		"x_offset" 					"20"
-		"y_offset" 					"20"
+		"y_offset" 					"100"
 	}
 	
 	CSecondaryTargetID

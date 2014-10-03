@@ -18,17 +18,17 @@
 		
 		"TargetBackground2"
 		{
-			"ControlName" "ImagePanel"
-			"fieldName" "TargetBackground2"
-			"xpos" 		"0"
-			"ypos" 		"15"
-			"zpos" 		"6"
-			"wide" 		"600"
-			"tall" 		"15"
-			"autoResize" "0"
-			"pinCorner" "0"
-			"visible" 	"1"
-			"enabled" 	"1"
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"TargetBackground2"
+			"xpos" 			"0"
+			"ypos" 			"15"
+			"zpos" 			"6"
+			"wide" 			"600"
+			"tall" 			"15"
+			"autoResize" 	"0"
+			"pinCorner" 	"0"
+			"visible" 		"1"
+			"enabled" 		"1"
 		}
 		
 	"TargetIDBG"
@@ -233,7 +233,7 @@
 			"drawcolor"		"ProgressOffWhite"
 			"scaleImage"	"1"
 		}
-				"MoveableKeyText"
+		"MoveableKeyText"
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"MoveableKeyText"

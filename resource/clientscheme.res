@@ -17,23 +17,22 @@ Scheme
 			// Ammo
 			"bh_AmmoInClip"		"255 255 255 255"
 			"bh_AmmoReserve"	"255 255 255 255"
-			"bh_AmmoNoClip"		"255 255 255 255"
-			"bh_LowAmmo"		"150 150 150 255"
+			"bh_AmmoNoClip"		"150 150 150 255"
 			
-			// Damage Account (For healing and damage done)
-			"bh_HealColor"		"255 255 255 255"
-			"bh_DamageColor"	"255 255 255 255"
-			"bh_hudDMGDisplay"	"243 157 48 255" // Damage done that appears below ammo
+			// Damage Done & Heals Given
+			"bh_DamageColor"	"255 255 255 255" 	// Damage done that appears above player
+			"bh_hudDMGDisplay"	"243 157 48 255" 	// Damage done that appears below ammo
+			"bh_HealColor"		"0 153 255 255" 	// Medigun/arrow heals
 			
 			// whayay's Crosshairs
-			"ya_crosshair"		"255 255 255 255"
+			"ya_crosshair"		"255 255 255 255" 	// Crosshair color
 			"ya_xhairflash"		"240 134 49 255"
-			"ya_xhairnormal"	"255 255 255 255" // Should be the same as ya_crosshair
+			"ya_xhairnormal"	"255 255 255 255" 	// Should be the same as ya_crosshair
 			
 			// Fog's Crosshairs
-			"fog_crosshair"		"255 255 255 255"
+			"fog_crosshair"		"255 255 255 255"	// Crosshair color
 			"fog_xhairflash"	"240 134 49 255"
-			"fog_xhairnormal"	"255 255 255 255" // Should be the same as fog_crosshair
+			"fog_xhairnormal"	"255 255 255 255" 	// Should be the same as fog_crosshair
 		
 		// budhud: Core Colors
 		// These are best left untouched

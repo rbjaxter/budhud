@@ -16,7 +16,7 @@
 		"settitlebarvisible"	"0"
 		"paintborder"			"2"
 		"paintbackground"		"1"
-		"border"				"CyanBorderThick"
+		"border"				"NoBorder"
 		"bgcolor_override"		"25 25 25 255"
 	}
 	
@@ -24,7 +24,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"DesignosaurRegular32"
+		"font"			"DesignosaurRegular20"
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
