@@ -16,6 +16,56 @@
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
+	/////////////////////////////////////////////////////////////////////////////
+	// PlayerStatusHealthBonusImage controls low health/buff over health cross
+	// Set xpos/ypos to 6969 to disable
+	/////////////////////////////////////////////////////////////////////////////
+	"PlayerStatusHealthBonusImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBonusImage"
+		"xpos"			"27"
+		"ypos"			"39"
+		"zpos"			"0"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/health_over_bg"
+		"scaleImage"	"1"	
+	}	
+	/////////////////////////////////////////////////////////////////////////////
+	// TeamIndicator shows a team-colored bar under your health
+	// Set xpos/ypos to 6969 to disable
+	/////////////////////////////////////////////////////////////////////////////
+	"TeamIndicator"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamIndicator"
+		"xpos"			"70"
+		"ypos"			"68"
+		"zpos"			"-6969"
+		"wide"			"60"
+		"tall"			"6"
+		"autoresize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enable"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"	"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"
+		"src_corner_width"		"40"
+		"draw_corner_width"		"0"
+		"draw_corner_height"	"0"
+	}	
+	/////////////////////////////////////////////////////////////////////////////
+	// PlayerStatusHealthImage & PlayerStatusHealthImageBG controls the health cross
+	// Set xpos/ypos to 6969 to disable
+	/////////////////////////////////////////////////////////////////////////////
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -42,20 +92,6 @@
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
-	}	
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"c0"
-		"ypos"			"c0"
-		"zpos"			"0"
-		"wide"			"25"
-		"tall"			"25"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
 	}
 	"PlayerStatusHealthValue"
 	{
@@ -77,8 +113,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"2"
-		"ypos"			"2"
+		"xpos"			"1"
+		"ypos"			"1"
 		"zpos"			"4"
 		"wide"			"200"
 		"tall"			"100"
@@ -335,29 +371,5 @@
 		"scaleImage"	"1"	
 		"image"			""
 		"fgcolor"		"TanDark"
-	}
-		"TeamIndicator"
-		{
-				"ControlName"	"CTFImagePanel"
-				"fieldName"		"TeamIndicator"
-				"xpos"			"70"
-				"ypos"			"68"
-				"zpos"			"-6969"
-				"wide"			"60"
-				"tall"			"6"
-				"autoresize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enable"		"1"
-				"image"			"../hud/color_panel_brown"
-				"scaleImage"	"1"
-				"teambg_1"		"../hud/color_panel_brown"
-				"teambg_2"		"../hud/color_panel_red"
-				"teambg_3"		"../hud/color_panel_blu"
-		
-				"src_corner_height"		"40"
-				"src_corner_width"		"40"
-				"draw_corner_width"		"0"
-				"draw_corner_height"	"0"
-		}		
+	}	
 }

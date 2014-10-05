@@ -747,7 +747,7 @@ event SpyWarningFlashEnd
 event HudReadyPulse
 {
 	Animate	TournamentInstructionsLabel 	FgColor		"bh_white"		Linear 0.0 0.1
-	Animate	TournamentInstructionsLabel 	FgColor		"bh_red"		Linear 0.3 0.4
+	Animate	TournamentInstructionsLabel 	FgColor		"bh_orange"		Linear 0.3 0.4
 
 	RunEvent HudReadyPulseLoop	0.5
 }

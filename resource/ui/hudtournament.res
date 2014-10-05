@@ -500,7 +500,7 @@
 		"ControlName"							"CExLabel"
 		"fieldName"								"TournamentInstructionsLabel"
 		"font"									"RobotoCondensed12"
-		"fgcolor_override"						"bh_lorange"
+		"fgcolor_override"						"bh_white"
 		"xpos"									"0"
 		"ypos"									"44"
 		"wide"									"250"
@@ -518,7 +518,7 @@
 		{
 			"font"								"TFFontSmall"
 			"xpos"								"127"
-			"ypos"								"50"
+			"ypos"								"97"
 			"wide"								"250"
 			"tall"								"20"
 			"zpos"								"3"
@@ -594,12 +594,12 @@
 		"wrap"									"0"
 		"labelText"								"%tournamentstatelabel%"
 		"textAlignment"							"center"
-		"fgcolor"							"bh_orange"
+		"fgcolor"								"bh_orange"
 		
 		if_mvm
 		{
 			"xpos"								"227"
-			"ypos"								"50"
+			"ypos"								"70"
 		}
 	}
 	
@@ -625,7 +625,7 @@
 		if_mvm
 		{
 			"xpos"								"228"
-			"ypos"								"51"
+			"ypos"								"71"
 		}
 	}
 	"BGtournamentBlue"
