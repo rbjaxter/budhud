@@ -24,11 +24,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TitleLabel"
-<<<<<<< HEAD
 		"font"			"RobotoCondensed20"
-=======
-		"font"			"DesignosaurRegular20"
->>>>>>> origin/v1.0.3b
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"

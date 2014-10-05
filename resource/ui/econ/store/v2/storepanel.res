@@ -135,11 +135,7 @@
 		{
 			"textinsetx"		"25"
 			"textAlignment"		"center"
-<<<<<<< HEAD
 			"font"				"RobotoCondensed20"
-=======
-			"font"				"DesignosaurRegular20"
->>>>>>> origin/v1.0.3b
 			"ypos"				"50"
 			"selectedcolor"		"bh_white"
 			"unselectedcolor"	"TanDark"	
