@@ -35,7 +35,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"Notification_Label"
-		"font"			"DesignosaurRegular16"
+		"font"			"RobotoCondensed16"
 		"xpos"			"30"
 		"ypos"			"9"
 		"wide"			"200"

@@ -56,7 +56,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"DesignosaurRegular20"
+			"font"			"RobotoCondensed20"
 			"fgcolor"		"bh_white"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -73,7 +73,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
-		"font"			"DesignosaurRegular20"
+		"font"			"RobotoCondensed20"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"		"east"
 			"xpos"			"-183"
@@ -90,7 +90,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"DesignosaurRegular12"
+		"font"			"RobotoCondensed12"
 		"labelText"		"%pointslabel%"
 		"textAlignment"		"east"
 		"xpos"			"33"
@@ -109,7 +109,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchLabel"
-		"font"			"DesignosaurRegular14"
+		"font"			"RobotoCondensed14"
 		"labelText"		"%stopwatchlabel%"
 		"textAlignment"	"west"
 		"xpos"			"180"

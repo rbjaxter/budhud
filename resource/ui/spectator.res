@@ -102,7 +102,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"MapLabel"
-		"font"				"DesignosaurRegular10"
+		"font"				"RobotoCondensed10"
 		"xpos"				"6969"
 		"ypos"				"6969"
 		"wide"				"240"
@@ -129,7 +129,7 @@
 		"enabled"			"0"
 		"labelText"			"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"center"
-		"font"				"DesignosaurRegular9"
+		"font"				"RobotoCondensed9"
 		"fgcolor_override"	"bh_gray"
 	}
 	"SwitchCamModeKeyLabel"
@@ -146,7 +146,7 @@
 		"enabled"			"0"
 		"labelText"			"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"east"
-		"font"				"DesignosaurRegular10"
+		"font"				"RobotoCondensed10"
 		
 	}
 	"SwitchCamModeLabel"
@@ -163,7 +163,7 @@
 		"enabled"			"0"
 		"labelText"			"#TF_Spectator_SwitchCamMode"
 		"textAlignment"		"west"
-		"font"				"DesignosaurRegular10"
+		"font"				"RobotoCondensed10"
 	}
 	"CycleTargetFwdKeyLabel"
 	{
@@ -179,7 +179,7 @@
 		"enabled"			"0"
 		"labelText"			"#TF_Spectator_ClassOrTeamKey"
 		"textAlignment"		"east"
-		"font"				"DesignosaurRegular10"
+		"font"				"RobotoCondensed10"
 	}
 	"CycleTargetFwdLabel"
 	{
@@ -195,7 +195,7 @@
 		"enabled"			"0"
 		"labelText"			"#TF_Spectator_CycleTargetFwd"
 		"textAlignment"		"west"
-		"font"				"DesignosaurRegular10"
+		"font"				"RobotoCondensed10"
 	}
 	"CycleTargetRevKeyLabel"
 	{
@@ -211,7 +211,7 @@
 		"enabled"			"0"
 		"labelText"			"#TF_Spectator_ClassOrTeamKey"
 		"textAlignment"		"east"
-		"font"				"DesignosaurRegular10"
+		"font"				"RobotoCondensed10"
 	}
 	"CycleTargetRevLabel"
 	{
@@ -227,7 +227,7 @@
 		"enabled"			"0"
 		"labelText"			"#TF_Spectator_CycleTargetRev"
 		"textAlignment"		"west"
-		"font"				"DesignosaurRegular10"
+		"font"				"RobotoCondensed10"
 	}
 	"TipLabel"
 	{

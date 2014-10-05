@@ -20,7 +20,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"WarningLabel"
-		"font"			"DesignosaurRegular48"
+		"font"			"RobotoCondensed48"
 		"xpos"			"45"
 		"ypos"			"18"
 		"zpos"			"1"
@@ -38,7 +38,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"DesignosaurRegular24"
+		"font"			"RobotoCondensed24"
 		"xpos"			"75"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -58,7 +58,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabelTip"
-		"font"			"DesignosaurRegular16"
+		"font"			"RobotoCondensed16"
 		"xpos"			"75"
 		"ypos"			"34"
 		"zpos"			"1"

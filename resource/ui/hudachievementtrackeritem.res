@@ -26,7 +26,7 @@
 		"tall"			"16"
 		"zpos"			"4"
 		"textinsetx"	"5"
-		"font"			"DesignosaurRegular12"
+		"font"			"RobotoCondensed12"
 		"textAlignment"		"north-west"
 		"fgcolor_override"	"bh_white"
 	}
@@ -58,7 +58,7 @@
 		"zpos"			"4"
 		"textinsetx"	"5"
 		"fgcolor_override"		"250 255 255 255"
-		"font"			"DesignosaurRegular8"
+		"font"			"RobotoCondensed8"
 		"wrap"			"1"
 		"TextAlignment"		"north-west"
 	}

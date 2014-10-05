@@ -52,7 +52,7 @@
 					"ypos"						"25"
 					"wide"						"48"
 					"textAlignment"				"center"
-					"font"						"DesignosaurRegular8"
+					"font"						"RobotoCondensed8"
 				}
 			}
 			
@@ -324,7 +324,7 @@
 	{	
 		"ControlName"							"Label"
 		"fieldName"								"TournamentBLUELabel"
-		"font"									"DesignosaurRegular16"
+		"font"									"RobotoCondensed16"
 		"fgcolor_override"						"bh_white"
 		"xpos"									"12"
 		"ypos"									"23"
@@ -348,7 +348,7 @@
 	{	
 		"ControlName"							"Label"
 		"fieldName"								"TournamentBLUEStateLabel"
-		"font"									"DesignosaurRegular12"
+		"font"									"RobotoCondensed12"
 		"fgcolor_override"						"bh_white"
 		"xpos"									"56"
 		"ypos"									"23"
@@ -399,7 +399,7 @@
 	{	
 		"ControlName"							"Label"
 		"fieldName"								"TournamentREDLabel"
-		"font"									"DesignosaurRegular16"
+		"font"									"RobotoCondensed16"
 		"fgcolor_override"						"bh_white"
 		"xpos"									"175"
 		"ypos"									"23"
@@ -423,7 +423,7 @@
 	{	
 		"ControlName"							"Label"
 		"fieldName"								"TournamentREDStateLabel"
-		"font"									"DesignosaurRegular12"
+		"font"									"RobotoCondensed12"
 		"fgcolor_override"						"bh_white"
 		"xpos"									"130"
 		"ypos"									"23"
@@ -447,7 +447,7 @@
 	{	
 		"ControlName"							"CExLabel"
 		"fieldName"								"TournamentConditionLabel"
-		"font"									"DesignosaurRegular10"
+		"font"									"RobotoCondensed10"
 		"fgcolor"								"bh_white"
 		"xpos"									"0"
 		"ypos"									"28"
@@ -499,7 +499,7 @@
 	{	
 		"ControlName"							"CExLabel"
 		"fieldName"								"TournamentInstructionsLabel"
-		"font"									"DesignosaurRegular12"
+		"font"									"RobotoCondensed12"
 		"fgcolor_override"						"bh_lorange"
 		"xpos"									"0"
 		"ypos"									"44"

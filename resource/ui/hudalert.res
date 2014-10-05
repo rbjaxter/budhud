@@ -22,7 +22,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"AlertLabel"
-		"font"				"DesignosaurRegular22"
+		"font"				"RobotoCondensed22"
 		"xpos"				"80"
 		"ypos"				"70"
 		"zpos"				"1"

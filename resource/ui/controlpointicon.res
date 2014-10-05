@@ -45,7 +45,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"DesignosaurRegular14"
+		"font"			"RobotoCondensed14"
 		"xpos"			"11"
 		"ypos"			"0"
 		"zpos"			"4"
@@ -92,7 +92,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"DesignosaurRegular16"
+		"font"			"RobotoCondensed16"
 	}
 				
 	"CPTimerBG"

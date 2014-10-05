@@ -67,7 +67,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"font" 			"DesignosaurRegular16"
+		"font" 			"RobotoCondensed16"
 		"textAlignment"	"center"		
 	}
 	"PlayerStatusHealthValueFreezeBackground"
@@ -82,7 +82,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"font" 			"DesignosaurRegular16"
+		"font" 			"RobotoCondensed16"
 		"fgcolor"		"0 0 0 255"
 		"textAlignment"	"center"	
 	}			

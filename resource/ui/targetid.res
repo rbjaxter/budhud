@@ -18,17 +18,17 @@
 		
 		"TargetBackground2"
 		{
-			"ControlName" "ImagePanel"
-			"fieldName" "TargetBackground2"
-			"xpos" 		"0"
-			"ypos" 		"15"
-			"zpos" 		"6"
-			"wide" 		"600"
-			"tall" 		"15"
-			"autoResize" "0"
-			"pinCorner" "0"
-			"visible" 	"1"
-			"enabled" 	"1"
+			"ControlName" 	"ImagePanel"
+			"fieldName" 	"TargetBackground2"
+			"xpos" 			"0"
+			"ypos" 			"15"
+			"zpos" 			"6"
+			"wide" 			"600"
+			"tall" 			"15"
+			"autoResize" 	"0"
+			"pinCorner" 	"0"
+			"visible" 		"1"
+			"enabled" 		"1"
 		}
 		
 	"TargetIDBG"
@@ -107,7 +107,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabel"
-		"font"			"DesignosaurRegular14"
+		"font"			"RobotoCondensed14"
 		"xpos"			"45"
 		"ypos"			"14"
 		"zpos"			"7"
@@ -126,7 +126,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"DesignosaurRegular12"
+		"font"			"RobotoCondensed12"
 		"xpos"			"45"
 		"ypos"			"28"	
 		"zpos"			"6"
@@ -233,11 +233,11 @@
 			"drawcolor"		"ProgressOffWhite"
 			"scaleImage"	"1"
 		}
-				"MoveableKeyText"
+		"MoveableKeyText"
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"MoveableKeyText"
-			"font_minmode"	"DesignosaurRegular12"
+			"font_minmode"	"RobotoCondensed12"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"6"
@@ -257,7 +257,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
-			"font_minmode"	"DesignosaurRegular12"
+			"font_minmode"	"RobotoCondensed12"
 			"xpos"			"0"
 			"ypos"			"29"
 			"zpos"			"6"

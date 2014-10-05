@@ -70,7 +70,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"DesignosaurRegular48"
+		"font"			"RobotoCondensed48"
 		"fgcolor"		"bh_Health"
 	}
 	"PlayerStatusHealthValueBG"
@@ -86,7 +86,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"DesignosaurRegular48"
+		"font"			"RobotoCondensed48"
 		"fgcolor"		"bh_black"
 	}
 	"PlayerStatusBleedImage"

@@ -229,7 +229,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"xpos"			"10"
 			"ypos"			"5"
 			"zpos"			"1"
@@ -298,7 +298,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"xpos"			"40"
 			"ypos"			"15"
 			"zpos"			"1"
@@ -336,7 +336,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"xpos"			"6969"
 			"ypos"			"6969"
 			"zpos"			"1"
@@ -353,7 +353,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller2"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"xpos"			"42"
 			"ypos"			"28"
 			"zpos"			"1"

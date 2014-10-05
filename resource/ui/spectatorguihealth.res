@@ -63,7 +63,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"PlayerStatusHealthValue"
 		"xpos"				"-11"
-		"ypos"				"10"
+		"ypos"				"9"
 		"zpos"				"5"
 		"wide"				"70"
 		"tall"				"30"
@@ -72,7 +72,7 @@
 		"labeltext"			"%health%"
 		"textAlignment"		"center"
 		"fgcolor_override"	"bh_white"
-		"font"				"DesignosaurRegular16"
+		"font"				"RobotoCondensed16"
 	}
 	"PlayerStatusPlayerLevel"
 	{

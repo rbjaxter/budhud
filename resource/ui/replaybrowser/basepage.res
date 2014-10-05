@@ -37,7 +37,7 @@
 		"tabPosition"	"0"
 		"fgcolor_override"		"bh_white"
 		"bgcolor_override"		"bh_black"
-		"Font"			"DesignosaurRegular10"
+		"Font"			"RobotoCondensed10"
 	}
 	"ReplayList"
 	{

@@ -34,7 +34,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"FieldName"		"NoScreenshotLabel"
-			"Font"			"DesignosaurRegular10"
+			"Font"			"RobotoCondensed10"
 			"visible"		"0"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -46,7 +46,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"FieldName"		"MapLabel"
-			"Font"			"DesignosaurRegular10"
+			"Font"			"RobotoCondensed10"
 			"TextAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"10"
@@ -57,7 +57,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"FieldName"		"DateTimeLabel"
-			"Font"			"DesignosaurRegular10"
+			"Font"			"RobotoCondensed10"
 			"TextAlignment"	"west"
 			"fgcolor_override"	"bh_white"
 			"xpos"			"0"
@@ -69,7 +69,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"FieldName"		"Label0_0"
-			"Font"			"DesignosaurRegular10"
+			"Font"			"RobotoCondensed10"
 			"TextAlignment"	"west"
 			"fgcolor_override"	"bh_white"
 			"xpos"			"0"
@@ -82,7 +82,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"FieldName"		"Label0_1"
-			"Font"			"DesignosaurRegular10"
+			"Font"			"RobotoCondensed10"
 			"TextAlignment"	"west"
 			"fgcolor_override"	"bh_white"
 			"xpos"			"60"
@@ -94,7 +94,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"FieldName"		"Label1_0"
-			"Font"			"DesignosaurRegular10"
+			"Font"			"RobotoCondensed10"
 			"TextAlignment"	"west"
 			"fgcolor_override"	"bh_white"
 			"xpos"			"0"
@@ -107,7 +107,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"FieldName"		"Label1_1"
-			"Font"			"DesignosaurRegular10"
+			"Font"			"RobotoCondensed10"
 			"TextAlignment"	"west"
 			"fgcolor_override"	"bh_white"
 			"xpos"			"60"
@@ -119,7 +119,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"FieldName"		"Label2_0"
-			"Font"			"DesignosaurRegular10"
+			"Font"			"RobotoCondensed10"
 			"TextAlignment"	"west"
 			"fgcolor_override"	"bh_white"
 			"xpos"			"0"
@@ -132,7 +132,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"FieldName"		"Label2_1"
-			"Font"			"DesignosaurRegular10"
+			"Font"			"RobotoCondensed10"
 			"TextAlignment"	"west"
 			"fgcolor_override"	"bh_white"
 			"xpos"			"60"

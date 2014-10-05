@@ -58,7 +58,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"DisguiseNameLabel"
-		"font"				"DesignosaurRegular12"
+		"font"				"RobotoCondensed12"
 		"xpos"				"117"
 		"ypos"				"26"
 		"zpos"				"1"
@@ -78,7 +78,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"WeaponNameLabel"
-		"font"				"DesignosaurRegular12"
+		"font"				"RobotoCondensed12"
 		"xpos"				"117"
 		"ypos"				"37"
 		"zpos"				"1"

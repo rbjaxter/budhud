@@ -52,7 +52,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"DesignosaurRegular10"
+		"font"				"RobotoCondensed10"
 		"fgcolor_override"	"bh_white"
 	}			
 	"WaitingForPlayersBG"
@@ -85,7 +85,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"DesignosaurRegular10"
+		"font"				"RobotoCondensed10"
 		"fgcolor_override"	"bh_lorange"
 	}			
 	"OvertimeBG"
@@ -118,7 +118,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"DesignosaurRegular10"
+		"font"				"RobotoCondensed10"
 		"fgcolor_override"	"bh_white"
 	}			
 	"SuddenDeathBG"
@@ -151,7 +151,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"DesignosaurRegular10"
+		"font"				"RobotoCondensed10"
 		"fgcolor_override"	"bh_white"
 	}	
 	"SetupBG"
@@ -185,6 +185,6 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"DesignosaurRegular12"
+		"font"				"RobotoCondensed12"
 	}	
 }

@@ -90,6 +90,7 @@
 		"command" 		"offlinepractice"
 		"subimage" 		"glyph_practice"
 		"OnlyAtMenu" 	"1"
+		"tooltip"		"Training Mode"
 	}
 	
 	// These buttons get positioned by the MainMenuOverride.res	
@@ -98,7 +99,7 @@
 		"label" 		"#GameUI_GameMenu_CreateServer"
 		"command" 		"OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu" 	"1"
-		"tooltip" 		"#GameUI_GameMenu_CreateServer"
+		"tooltip" 		"Create Server"
 	}
 	"GeneralStoreButton"
 	{

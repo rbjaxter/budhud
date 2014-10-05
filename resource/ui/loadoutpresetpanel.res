@@ -15,7 +15,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"DesignosaurRegular24"
+			"font"			"RobotoCondensed24"
 			"textAlignment"	"center"
 			"textinsetx"	"0"
 			"dulltext"		"0"

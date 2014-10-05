@@ -122,7 +122,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"DesignosaurRegular36"
+		"font"			"RobotoCondensed36"
 		"fgcolor"		"bh_white"
 		
 		"if_hybrid"
@@ -154,7 +154,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"DesignosaurRegular36"
+		"font"			"RobotoCondensed36"
 		"fgcolor"		"Black"
 		
 		"if_hybrid"
@@ -186,7 +186,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
-		"font"			"DesignosaurRegular36"
+		"font"			"RobotoCondensed36"
 		"fgcolor"		"bh_white"		
 		
 		"if_hybrid"
@@ -218,7 +218,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
-		"font"			"DesignosaurRegular36"
+		"font"			"RobotoCondensed36"
 		"fgcolor"		"Black"		
 		
 		"if_hybrid"
@@ -293,7 +293,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DesignosaurRegular14"
+		"font"			"RobotoCondensed14"
 		"fgcolor"		"bh_white"
 		
 		"if_hybrid"
@@ -327,7 +327,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DesignosaurRegular14"
+		"font"			"RobotoCondensed14"
 		"fgcolor"		"bh_black"
 		
 		"if_hybrid"

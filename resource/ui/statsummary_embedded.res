@@ -110,7 +110,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelA"
-				"font"			"DesignosaurRegular12"
+				"font"			"RobotoCondensed12"
 				"font_hidef"	"Default"
 				"labelText"		"#StatSummary_StatTitle_MostPoints"
 				"textAlignment"		"east"
@@ -133,7 +133,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelB"
-				"font"			"DesignosaurRegular12"
+				"font"			"RobotoCondensed12"
 				"font_hidef"	"Default"
 				"labelText"		"#StatSummary_StatTitle_TotalPlaytime"
 				"textAlignment"		"west"
@@ -155,7 +155,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"OverallRecordLabel"
-				"font"			"DesignosaurRegular12"
+				"font"			"RobotoCondensed12"
 				"labelText"		"#StatSummary_Label_AsAnyClass"
 				"textAlignment"		"west"
 				"xpos"			"c+130"
@@ -380,7 +380,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1A"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -401,7 +401,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1B"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -419,9 +419,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel1"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"font_hidef"	"Default"
-			"font_lodef"			"DesignosaurRegular12"
+			"font_lodef"			"RobotoCondensed12"
 			"labelText"		"%class1%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -526,7 +526,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2A"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -547,7 +547,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2B"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -568,9 +568,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel2"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"font_hidef"	"Default"
-			"font_lodef"	"DesignosaurRegular12"
+			"font_lodef"	"RobotoCondensed12"
 			"labelText"		"%class2%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -675,7 +675,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3A"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -696,7 +696,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3B"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"labelText"		"%classbarlabel3B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -717,9 +717,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel3"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"font_hidef"	"Default"
-			"font_lodef"			"DesignosaurRegular12"
+			"font_lodef"			"RobotoCondensed12"
 			"labelText"		"%class3%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -824,7 +824,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4A"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"labelText"		"%classbarlabel4A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -845,7 +845,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4B"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"labelText"		"%classbarlabel4B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -866,9 +866,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel4"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"font_hidef"	"Default"
-			"font_lodef"			"DesignosaurRegular12"
+			"font_lodef"			"RobotoCondensed12"
 			"labelText"		"%class4%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -973,7 +973,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5A"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"labelText"		"%classbarlabel5A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -994,7 +994,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5B"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"labelText"		"%classbarlabel5B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1015,9 +1015,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel5"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"font_hidef"	"Default"
-			"font_lodef"			"DesignosaurRegular12"
+			"font_lodef"			"RobotoCondensed12"
 			"labelText"		"%class5%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1122,7 +1122,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6A"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"labelText"		"%classbarlabel6A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1143,7 +1143,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6B"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1164,9 +1164,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel6"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"font_hidef"	"Default"
-			"font_lodef"			"DesignosaurRegular12"
+			"font_lodef"			"RobotoCondensed12"
 			"labelText"		"%class6%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1271,7 +1271,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7A"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1292,7 +1292,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7B"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1313,9 +1313,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel7"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"font_hidef"	"Default"
-			"font_lodef"			"DesignosaurRegular12"
+			"font_lodef"			"RobotoCondensed12"
 			"labelText"		"%class7%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1420,7 +1420,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8A"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1441,7 +1441,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8B"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1462,9 +1462,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel8"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"font_hidef"	"Default"
-			"font_lodef"			"DesignosaurRegular12"
+			"font_lodef"			"RobotoCondensed12"
 			"labelText"		"%class8%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1569,7 +1569,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9A"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1590,7 +1590,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9B"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1611,9 +1611,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel9"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"font_hidef"	"Default"
-			"font_lodef"			"DesignosaurRegular12"
+			"font_lodef"			"RobotoCondensed12"
 			"labelText"		"%class9%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -2452,7 +2452,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TipText"
-		"font"			"DesignosaurRegular12"
+		"font"			"RobotoCondensed12"
 		"labelText"		"%tiptext%"
 		"textAlignment"			"west"
 		"textAlignment_hidef"		"north-west"

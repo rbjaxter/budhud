@@ -9,6 +9,6 @@
 		"PositiveColor"			"bh_orange"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		".8"
-		"delta_item_font"		"DesignosaurRegular20"
+		"delta_item_font"		"RobotoCondensed20"
 	}
 }

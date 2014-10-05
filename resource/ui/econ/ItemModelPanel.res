@@ -143,7 +143,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"quantitylabel"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -165,7 +165,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"serieslabel"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"

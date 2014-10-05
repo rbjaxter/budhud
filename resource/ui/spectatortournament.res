@@ -117,7 +117,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"DesignosaurRegular10"
+				"font"			"RobotoCondensed10"
 				"xpos"			"50"
 				"ypos"			"1"
 				"zpos"			"5"
@@ -225,20 +225,20 @@
 			
 			"respawntime"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"respawntime"
-				"font"			"DesignosaurRegular12"
-				"xpos"			"5"
-				"ypos"			"5"
-				"zpos"			"5"
-				"wide"			"23"
-				"tall"			"10"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%respawntime%"
-				"textAlignment"	"west"
-				"fgcolor"		"bh_orange"
+				"ControlName"		"CExLabel"
+				"fieldName"			"respawntime"
+				"font"				"RobotoCondensed14"
+				"xpos"				"19"
+				"ypos"				"-7"
+				"zpos"				"5"
+				"wide"				"31"
+				"tall"				"30"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"labelText"			"%respawntime%"
+				"textAlignment"		"center"
+				"fgcolor"			"bh_dorange"
 				
 			}
 			"healthcover"
@@ -262,7 +262,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"DesignosaurRegular12"
+				"font"			"RobotoCondensed12"
 				"xpos"			"130"
 				"ypos"			"2"
 				"zpos"			"6"
@@ -279,7 +279,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamountBG"
-				"font"			"DesignosaurRegular12"
+				"font"			"RobotoCondensed12"
 				"xpos"			"131"
 				"ypos"			"3"
 				"zpos"			"6"
@@ -351,7 +351,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"DesignosaurRegular24"
+		"font"			"RobotoCondensed24"
 		
 		if_mvm
 		{
@@ -373,7 +373,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"DesignosaurRegular20"
+		"font"			"RobotoCondensed20"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	
@@ -508,7 +508,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"DesignosaurRegular12"
+			"font"			"RobotoCondensed12"
 			"xpos"			"10"
 			"ypos"			"5"
 			"zpos"			"1"

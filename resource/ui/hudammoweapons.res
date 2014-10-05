@@ -40,7 +40,7 @@
         {
                 "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoInClip"
-                "font"                  "DesignosaurRegular48"
+                "font"                  "RobotoCondensed48"
                 "fgcolor"               "bh_AmmoInClip"
                 "xpos"                  "0"
                 "ypos"                  "0"
@@ -57,7 +57,7 @@
         {
                 "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoInClipShadow"
-                "font"                  "DesignosaurRegular48"
+                "font"                  "RobotoCondensed48"
                 "fgcolor"               "bh_black"
                 "xpos"                  "2"
                 "ypos"                  "2"
@@ -74,7 +74,7 @@
         {
                 "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoInReserve"
-                "font"                  "DesignosaurRegular24"
+                "font"                  "RobotoCondensed24"
                 "fgcolor"               "bh_AmmoReserve"
                 "xpos"                  "125"
                 "ypos"                  "-8"
@@ -83,14 +83,14 @@
                 "tall"                  "100"
                 "visible"               "0"
                 "enabled"               "1"
-                "textAlignment" "west"         
+                "textAlignment" 		"west"         
                 "labelText"             "%AmmoInReserve%"
         }              
         "AmmoInReserveShadow"
         {
                 "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoInReserveShadow"
-                "font"                  "DesignosaurRegular24"
+                "font"                  "RobotoCondensed24"
                 "fgcolor"               "bh_black"
                 "xpos"                  "126"
                 "ypos"                  "-7"
@@ -99,15 +99,15 @@
                 "tall"                  "100"
                 "visible"               "0"
                 "enabled"               "1"
-                "textAlignment" "west"         
+                "textAlignment" 		"west"         
                 "labelText"             "%AmmoInReserve%"
         }                                                                      
         "AmmoNoClip"
         {
                 "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoNoClip"
-                "font"                  "DesignosaurRegular48"
-                "fgcolor"               "bh_AmmoNoClip"
+                "font"                  "RobotoCondensed48"
+                "fgcolor"               "bh_AmmoInClip"
                 "xpos"                  "0"
                 "ypos"                  "0"
                 "zpos"                  "5"
@@ -115,7 +115,7 @@
                 "tall"                  "100"
                 "visible"               "0"
                 "enabled"               "1"
-                "textAlignment" "center"               
+                "textAlignment" 		"center"               
                 "labelText"             "%Ammo%"
                
         }      
@@ -123,7 +123,7 @@
         {
                 "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoNoClipShadow"
-                "font"                  "DesignosaurRegular48"
+                "font"                  "RobotoCondensed48"
                 "fgcolor"               "bh_black"
                 "xpos"                  "2"
                 "ypos"                  "2"

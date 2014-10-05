@@ -50,7 +50,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"DesignosaurRegular12"
+		"font"					"RobotoCondensed12"
 		"fgcolor_override"		"bh_white"
 	}
 
@@ -93,7 +93,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"DesignosaurRegular20"
+		"font"					"RobotoCondensed20"
 		"fgcolor_override"		"bh_white"
 	}
 }

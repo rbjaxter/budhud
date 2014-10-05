@@ -78,7 +78,7 @@
 			"enabled"							"1"
 			"tabPosition"						"0"
 			"labelText"							"+"
-			"font"								"DesignosaurRegular12"
+			"font"								"RobotoCondensed12"
 			"textAlignment"						"center"
 			"dulltext"							"0"
 			"brighttext"						"0"
@@ -103,7 +103,7 @@
 	{
 		"ControlName"							"CExLabel"
 		"fieldName"								"CaratLabel"
-		"font"									"DesignosaurRegular16"
+		"font"									"RobotoCondensed16"
 		"labelText"								">>"
 		"textAlignment"							"west"
 		"xpos"									"c-300"
