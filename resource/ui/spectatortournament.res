@@ -227,7 +227,11 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"respawntime"
+<<<<<<< HEAD
 				"font"				"RobotoCondensed14"
+=======
+				"font"				"DesignosaurRegular14"
+>>>>>>> origin/v1.0.3b
 				"xpos"				"19"
 				"ypos"				"-7"
 				"zpos"				"5"

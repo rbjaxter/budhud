@@ -17,7 +17,11 @@ Scheme
 			// Ammo
 			"bh_AmmoInClip"		"255 255 255 255"
 			"bh_AmmoReserve"	"255 255 255 255"
+<<<<<<< HEAD
 			"bh_LowAmmoPulse"	"150 150 150 255" 	// Ammo color when ammo is low
+=======
+			"bh_AmmoNoClip"		"150 150 150 255"
+>>>>>>> origin/v1.0.3b
 			
 			// Damage Done & Heals Given
 			"bh_DamageColor"	"255 255 255 255" 	// Damage done that appears above player
