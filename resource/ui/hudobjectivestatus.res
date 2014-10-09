@@ -26,7 +26,7 @@
 			"fieldName"			"TimePanelValue"
 			"font"				"RobotoCondensed20"
 			"fgcolor"			"bh_white"
-			"xpos"				"28"
+			"xpos"				"27"
 			"ypos"				"-6"
 			"zpos"				"3"
 			"wide"				"45"

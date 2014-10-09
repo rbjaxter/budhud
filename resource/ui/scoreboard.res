@@ -39,6 +39,7 @@
 			"class_width"			"15"
 			"score_width"			"25"
 			"ping_width"			"23"
+			"tall"					"448"
 		}
 	}
 	"BlueScoreBG"
@@ -1479,6 +1480,17 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+			
+			if_mvm
+			{
+				"textAlignment"			"west"
+				"fgcolor"				"bh_white"
+				"xpos"					"545"	
+				"ypos"					"30"	
+				"zpos"					"3"
+				"wide"					"35"
+				"tall"					"20"
+			}
 		}						
 		"Defenses"
 		{
@@ -1524,6 +1536,17 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+			
+			if_mvm
+			{
+				"textAlignment"			"west"
+				"fgcolor"				"bh_white"
+				"xpos"					"305"	
+				"ypos"					"20"	
+				"zpos"					"3"
+				"wide"					"35"
+				"tall"					"20"
+			}
 		}						
 		"Revenge"
 		{
@@ -1717,6 +1740,17 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+			
+			if_mvm
+			{
+				"textAlignment"			"west"
+				"fgcolor"				"bh_white"
+				"xpos"					"425"	
+				"ypos"					"30"	
+				"zpos"					"3"
+				"wide"					"35"
+				"tall"					"20"
+			}
 		}						
 		"Invuln"
 		{
@@ -1744,6 +1778,17 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+			
+			if_mvm
+			{
+				"textAlignment"			"west"
+				"fgcolor"				"bh_white"
+				"xpos"					"425"	
+				"ypos"					"0"	
+				"zpos"					"3"
+				"wide"					"35"
+				"tall"					"20"
+			}
 		}						
 		"Teleports"
 		{
@@ -1789,6 +1834,17 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+			
+			if_mvm
+			{
+				"textAlignment"			"west"
+				"fgcolor"				"bh_white"
+				"xpos"					"425"	
+				"ypos"					"10"	
+				"zpos"					"3"
+				"wide"					"35"
+				"tall"					"20"
+			}
 		}						
 		"BackstabsLabel"
 		{
@@ -1944,18 +2000,18 @@
 		}
 		"Damage"
 		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"Damage"
-			"font"				"RobotoCondensed10"
-			"fgcolor"			"bh_white"
-			"labelText"			"%damage%"
-			"textAlignment"		"west"		
-			"xpos"				"305"	
-			"ypos"				"0"	
-			"zpos"				"3"
-			"wide"				"35"
-			"tall"				"20"
-			/////////////////////////////
+			"ControlName"				"CExLabel"
+			"fieldName"					"Damage"
+			"font"						"RobotoCondensed10"
+			"fgcolor"					"bh_white"
+			"labelText"					"%damage%"
+			"textAlignment"				"west"		
+			"xpos"						"305"	
+			"ypos"						"0"	
+			"zpos"						"3"
+			"wide"						"35"
+			"tall"						"20"
+			///////////////////////////////////////////////
 			"textAlignment_minmode"		"center"
 			"fgcolor_minmode"			"bh_lorange"
 			"xpos_minmode"				"588"
@@ -1963,11 +2019,22 @@
 			"zpos_minmode"				"3"
 			"wide_minmode"				"95"
 			"tall_minmode"				"20"
-			/////////////////////////////
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
+			///////////////////////////////////////////////
+			"autoResize"				"0"
+			"pinCorner"					"0"
+			"visible"					"1"
+			"enabled"					"1"
+			
+			if_mvm
+			{
+				"textAlignment"			"west"
+				"fgcolor"				"bh_white"
+				"xpos"					"305"	
+				"ypos"					"0"	
+				"zpos"					"3"
+				"wide"					"35"
+				"tall"					"20"
+			}
 		}
 	}
 

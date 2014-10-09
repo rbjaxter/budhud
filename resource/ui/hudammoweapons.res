@@ -125,14 +125,14 @@
                 "fieldName"             "AmmoNoClipShadow"
                 "font"                  "RobotoCondensed48"
                 "fgcolor"               "bh_black"
-                "xpos"                  "2"
-                "ypos"                  "2"
+                "xpos"                  "1"
+                "ypos"                  "1"
                 "zpos"                  "5"
                 "wide"                  "200"
                 "tall"                  "100"
                 "visible"               "0"
                 "enabled"               "1"
-                "textAlignment" "center"               
+                "textAlignment"			"center"               
                 "labelText"             "%Ammo%"
                
         }
