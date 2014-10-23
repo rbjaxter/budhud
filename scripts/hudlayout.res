@@ -1119,7 +1119,7 @@
 		"wide"	 					"640"
 		"tall"	 					"480"
 		"zpos" 						"2"
-		"xpos"						"130"
+		"xpos"						"100"
 		"ypos"						"r61"
 		
 		"TextFont"					"Default"
