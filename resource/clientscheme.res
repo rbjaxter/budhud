@@ -13,6 +13,7 @@ Scheme
 			"bh_Health"			"255 255 255 255"
 			"bh_HealthLow"		"215 0 0 255"
 			"bh_HealthBuff"		"0 153 255 255"
+			"bh_HealthPickup"	"240 134 49 255"
 			
 			// Ammo
 			"bh_AmmoInClip"		"255 255 255 255"

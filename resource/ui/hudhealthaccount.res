@@ -6,7 +6,7 @@
 		"delta_item_x"			"c0"
 		"delta_item_start_y"	"0"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"bh_orange"
+		"PositiveColor"			"bh_HealthPickup"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		".8"
 		"delta_item_font"		"RobotoCondensed20"
