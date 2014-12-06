@@ -22,11 +22,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
-		"xpos"			"c-120"
-		"ypos"			"r20"	
+		"xpos"			"c-41"
+		"ypos"			"r36"
 		"zpos"			"-1"
-		"wide"			"120"
-		"tall"			"14"
+		"wide"			"28"
+		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"70 130 180 153"
@@ -35,6 +35,14 @@
 		"if_hybrid"
 		{
 			"visible"	"0"
+		}
+		
+		"if_hybrid_single"
+		{
+			"xpos"		"c-40"
+			"ypos"		"r36"
+			"wide"		"27"
+			"tall"		"23"
 		}
 		
 		"if_mvm"
@@ -52,11 +60,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
-		"xpos"			"c0"
-		"ypos"			"r20"	[$WIN32]
+		"xpos"			"c14"
+		"ypos"			"r36"
 		"zpos"			"-1"
-		"wide"			"120"
-		"tall"			"14"
+		"wide"			"28"
+		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"205 50 50 153"
@@ -65,6 +73,14 @@
 		"if_hybrid"
 		{
 			"visible"	"0"
+		}
+		
+		"if_hybrid_single"
+		{
+			"xpos"		"c14"
+			"ypos"		"r36"
+			"wide"		"27"
+			"tall"		"23"
 		}
 		
 		"if_mvm"
@@ -77,7 +93,7 @@
 			"visible"	"0"
 		}
 	}
-		
+	
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -113,14 +129,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-57"
-		"ypos"			"r33"
+		"xpos"			"c-50"
+		"ypos"			"r43"
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
 		"font"			"RobotoCondensed36"
 		"fgcolor"		"bh_white"
@@ -128,6 +144,12 @@
 		"if_hybrid"
 		{
 			"visible"	"0"
+		}
+		
+		"if_hybrid_single"
+		{
+			"xpos"		"c-50"
+			"ypos"		"r43"
 		}
 		
 		"if_mvm"
@@ -145,13 +167,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-56"
-		"ypos"			"r32"
+		"xpos"			"c-74"
+		"ypos"			"r38"
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
 		"font"			"RobotoCondensed36"
@@ -177,14 +199,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c7"
-		"ypos"			"r33"
+		"xpos"			"c1"
+		"ypos"			"r43"
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
 		"font"			"RobotoCondensed36"
 		"fgcolor"		"bh_white"		
@@ -192,6 +214,12 @@
 		"if_hybrid"
 		{
 			"visible"	"0"
+		}
+		
+		"if_hybrid_single"
+		{
+			"xpos"		"c1"
+			"ypos"		"r43"
 		}
 		
 		"if_mvm"
@@ -214,8 +242,8 @@
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"RobotoCondensed36"
@@ -283,7 +311,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
-		"ypos"			"r54"	[$WIN32]
+		"ypos"			"r72"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
 		"tall"			"30"
@@ -301,6 +329,12 @@
 			"visible"	"0"
 		}
 		
+		"if_hybrid_single"
+		{
+			"xpos"		"c-70"
+			"ypos"		"r72"
+		}
+		
 		"if_mvm"
 		{
 			"visible"	"0"
@@ -310,6 +344,7 @@
 		{
 			"visible"	"0"
 		}
+		
 	}	
 			
 	"PlayingToBG"
@@ -317,7 +352,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingToBG"
 		"xpos"			"c-69"	[$WIN32]
-		"ypos"			"r53"	[$WIN32]
+		"ypos"			"r71"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
 		"tall"			"30"
@@ -334,6 +369,12 @@
 		{
 			"visible"	"0"
 		}
+
+		"if_hybrid_single"
+		{
+			"xpos"		"c-70"
+			"ypos"		"r72"
+		}
 		
 		"if_mvm"
 		{
@@ -346,12 +387,12 @@
 		}
 	}
 		
-		"BlueFlag"
+	"BlueFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
-		"xpos"			"c-165"
-		"ypos"			"r75"	[$WIN32]
+		"xpos"			"c-136"
+		"ypos"			"r72"
 		"zpos"			"2"
 		"wide"			"160"
 		"tall"			"90"
@@ -367,7 +408,7 @@
 		"if_hybrid_single"
 		{
 			"xpos"		"c-80"
-			"ypos"		"r113"
+			"ypos"		"r73"
 		}
 		
 		"if_hybrid_double"
@@ -391,8 +432,8 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
-		"xpos"			"c5"
-		"ypos"			"r75"
+		"xpos"			"c-25"
+		"ypos"			"r72"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -408,6 +449,7 @@
 		"if_hybrid_single"
 		{
 			"xpos"		"c-80"
+			"ypos"		"r73"
 		}
 		
 		"if_hybrid_double"
@@ -430,17 +472,23 @@
 	{
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
-		"xpos"			"c-28"
-		"ypos"			"r100"	[$WIN32]
-		"zpos"			"5"
-		"wide"			"56"
-		"tall"			"56"
+		"xpos"			"c-25"
+		"ypos"			"r50"	[$WIN32]
+		"zpos"			"1"
+		"wide"			"50"
+		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
 		
 		"if_hybrid"
 		{
 			"ypos"		"r100"
+		}
+	
+		"if_hybrid_single"
+		{
+			"xpos"		"c-25"
+			"ypos"		"r50"
 		}
 		
 		"if_specialdelivery"
