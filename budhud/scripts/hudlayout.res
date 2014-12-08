@@ -16,7 +16,9 @@
 		"zpos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
+        "enabled"			"1"
         
+        "visible"			"1"			  			//"1" to enable
         
 		"labeltext"			"f"           			//Change this to use a different crosshair
 													//You can see the list of crosshairs in Crosshairs.png
