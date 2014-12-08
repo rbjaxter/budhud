@@ -27,13 +27,11 @@ Scheme
 			
 			// whayay's Crosshairs
 			"ya_crosshair"		"255 255 255 255" 	// Crosshair color
-			"ya_xhairflash"		"240 134 49 255"
-			"ya_xhairnormal"	"255 255 255 255" 	// Should be the same as ya_crosshair
+			"ya_xhairflash"		"240 134 49 255"	// Flash on damage done
 			
 			// Fog's Crosshairs
 			"fog_crosshair"		"255 255 255 255"	// Crosshair color
-			"fog_xhairflash"	"240 134 49 255"
-			"fog_xhairnormal"	"255 255 255 255" 	// Should be the same as fog_crosshair
+			"fog_xhairflash"	"240 134 49 255"	// Flash on damage done
 		
 		// budhud: Core Colors
 		// These are best left untouched
