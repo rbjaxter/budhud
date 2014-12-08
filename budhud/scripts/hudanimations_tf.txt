@@ -1,25 +1,8 @@
-///////////////////////////////////////////////////////////////////////////
-// For crosshair damage flash:
-// Set the second line ("bh_white") to the default color of your crosshair
-// If your crosshair is white, the second line should be white.
-// "255 255 255 255"	= White
-// "255 255 0 255" 		= Yellow
-// "145 225 25 255"		= Green
-// and so forth.
-///////////////////////////////////////////////////////////////////////////
-
 // whayay's Crosshair: Damage Flash
 event DamagedPlayer
 {
     Animate Crosshair 		FgColor 	"ya_xhairflash" 		Linear 0.0 0.00001
-	Animate Crosshair 		FgColor 	"ya_crosshair" 		Linear 0.10 0.10001
-}
-
-// Fog's Crosshair: Damage Flash
-event DamagedPlayer
-{
-	Animate fogCrosshair 	FgColor 	"fog_xhairflash" 		Linear 0.0 0.00001
-	Animate fogCrosshair 	FgColor 	"fog_crosshair" 		Linear 0.10 0.10001
+	Animate Crosshair 		FgColor 	"ya_crosshair" 			Linear 0.10 0.10001
 }
 
 ///////////////////////////////////////////////////////////////////////////

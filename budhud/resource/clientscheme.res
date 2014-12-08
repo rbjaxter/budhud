@@ -31,7 +31,6 @@ Scheme
 			
 			// Fog's Crosshairs
 			"fog_crosshair"		"255 255 255 255"	// Crosshair color
-			"fog_xhairflash"	"240 134 49 255"	// Flash on damage done
 		
 		// budhud: Core Colors
 		// These are best left untouched
