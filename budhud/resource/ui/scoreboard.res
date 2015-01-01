@@ -99,11 +99,13 @@
 		"zpos_minmode"		"-1"
 		"wide_minmode"		"454"
 		"tall_minmode"		"125"
+		"visible_minmode"	"1"
+		"enabled_minmode"	"1"
 		/////////////////////////
 		"autoResize"		"0"
 		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"border"			"TFThinLineBorder"
 		
 		if_mvm
@@ -458,11 +460,13 @@
 		"zpos_minmode"			"2"
 		"wide_minmode"			"2"
 		"tall_minmode"			"101"
+		"visible_minmode"		"1"
+		"enabled_minmode"		"1"
 		/////////////////////////////
 		"autoResize"			"0"
 		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"tabPosition"			"0"	
 		"fillcolor"				"0 0 0 153"
 		"PaintBackgroundType"	"0"

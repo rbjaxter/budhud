@@ -34,7 +34,7 @@
 	}
 	
 	/////////////////////////////////////////////////////////////////////////////
-	// Additional Crosshairs (no flash on damage)
+	// Fog's Crosshairs (no flash on damage)
 	/////////////////////////////////////////////////////////////////////////////	
 	
 	xHairCircle
@@ -405,8 +405,8 @@
 		"tall"						"154"
 		"autoResize"				"0"
 		"pinCorner"					"0"
-		"visible"					"0"			//1
-		"enabled"					"0"			//1
+		"visible"					"0"
+		"enabled"					"0"
 		"fillcolor"					"255 255 255 50"
 	}		
 		
@@ -421,8 +421,8 @@
 		"tall"						"38"
 		"autoResize"				"0"
 		"pinCorner"					"0"
-		"visible"					"0"			//1
-		"enabled"					"0"			//1
+		"visible"					"0"
+		"enabled"					"0"
 		"fillcolor"					"255 255 255 100"
 	}		
 	"PilotBottom"		
@@ -436,8 +436,8 @@
 		"tall"						"38"
 		"autoResize"				"0"
 		"pinCorner"					"0"
-		"visible"					"0"			//1
-		"enabled"					"0"			//1
+		"visible"					"0"
+		"enabled"					"0"
 		"fillcolor"					"255 255 255 150"
 	}		
 	"PilotLeft"		
@@ -451,8 +451,8 @@
 		"tall"						"1"
 		"autoResize"				"0"
 		"pinCorner"					"0"
-		"visible"					"0"			//1
-		"enabled"					"0"			//1
+		"visible"					"0"
+		"enabled"					"0"
 		"fillcolor"					"255 255 255 100"
 	}		
 			
@@ -468,8 +468,8 @@
 		"tall"						"1"
 		"autoResize"				"0"
 		"pinCorner"					"0"
-		"visible"					"0"			//1
-		"enabled"					"0"			//1
+		"visible"					"0"
+		"enabled"					"0"
 		"fillcolor"					"255 255 255 100"
 	}
 	
@@ -490,8 +490,8 @@
 		"tall"						"1"
 		"autoResize"				"0"
 		"pinCorner"					"0"
-		"visible"					"0"			//1
-		"enabled"					"0"			//1
+		"visible"					"0"
+		"enabled"					"0"
 		"fillcolor"					"255 255 255 50"
 	}		
 			
@@ -506,13 +506,13 @@
 		"tall"						"1"
 		"autoResize"				"0"
 		"pinCorner"					"0"
-		"visible"					"0"			//1
-		"enabled"					"0"			//1
+		"visible"					"0"
+		"enabled"					"0"
 		"fillcolor"					"255 255 255 50"
 	}
 	
 	/////////////////////////////////////////////////////////////////////////////
-	//4 x 3 Pilot Crosshair
+	// 4 x 3 Pilot Crosshair
 	// Enable these (along with the "core" section above)
 	// if you're on a 4x3 resolution
 	/////////////////////////////////////////////////////////////////////////////
@@ -528,8 +528,8 @@
 		"tall"						"1"
 		"autoResize"				"0"
 		"pinCorner"					"0"
-		"visible"					"0"			//1
-		"enabled"					"0"			//1
+		"visible"					"0"
+		"enabled"					"0"
 		"fillcolor"					"255 255 255 50"
 	}		
 			
@@ -544,8 +544,8 @@
 		"tall"						"1"
 		"autoResize"				"0"
 		"pinCorner"					"0"
-		"visible"					"0"			//1
-		"enabled"					"0"			//1
+		"visible"					"0"
+		"enabled"					"0"
 		"fillcolor"					"255 255 255 50"
 	}
 	
@@ -650,7 +650,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"xpos"						"c-50"
-		"ypos"						"c88"
+		"ypos"						"c85" //c88
 		"wide"						"200"
 		"tall"						"100"
 		"MeterFG"					"White"
@@ -752,7 +752,7 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-64"
-		"ypos"					"c75"
+		"ypos"					"c95"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -836,7 +836,7 @@
 		"visible" 					"0"
 		"enabled" 					"1"
 		"xpos" 						"c-100"
-		"ypos" 						"c135" //c55 
+		"ypos" 						"c68" //c135 
 		"zpos"						"1"
 		"wide" 						"600"
 		"tall" 						"45"
@@ -1303,7 +1303,7 @@
 		"visible"					"0"
 		"enabled"					"1"
 		"xpos"						"c-240"
-		"ypos"						"c105" //c108 c12
+		"ypos"						"c90" //c105
 		"zpos"						"5"
 		"wide"						"480"
 		"tall"						"100"
@@ -1564,7 +1564,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"xpos"						"c-55"
-		"ypos"						"c90"
+		"ypos"						"c105"
 		"wide"						"200"
 		"tall"						"100"
 	}	

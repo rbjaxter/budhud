@@ -122,18 +122,18 @@ event ResourcePickup
 
 event HintMessageShow
 {
-	Animate HudHintDisplay HintSize	"1"		Deaccel 0.0	0.3
-	Animate HudHintDisplay FgColor	"FgColor" 	Linear 0.4      0.4
+	Animate HudHintDisplay 		HintSize	"1"				Deaccel 0.0	0.3
+	Animate HudHintDisplay 		FgColor		"FgColor" 		Linear 0.4      0.4
 
 	// flash text
-	Animate HudHintDisplay FgColor	"FgColor" 	Linear 1.5 0.01
-	Animate HudHintDisplay FgColor	"255 220 0 255" Linear 2.0 0.2
-	Animate HudHintDisplay FgColor	"FgColor" 	Linear 2.2 0.2
-	Animate HudHintDisplay FgColor	"255 220 0 255" Linear 3.0 0.2
-	Animate HudHintDisplay FgColor	"FgColor" 	Linear 3.2 0.2
+	Animate HudHintDisplay 			FgColor			"FgColor" 				Linear 1.5 0.01
+	Animate HudHintDisplay 			FgColor			"255 255 255 255" 		Linear 2.0 0.2
+	Animate HudHintDisplay 			FgColor			"FgColor" 				Linear 2.2 0.2
+	Animate HudHintDisplay 			FgColor			"255 255 255 255" 		Linear 3.0 0.2
+	Animate HudHintDisplay 			FgColor			"FgColor" 				Linear 3.2 0.2
 
 	// hide the panel after a while	
-	Animate HudHintDisplay FgColor	"255 220 0 0"   Linear  10.0 	0.2
+	Animate HudHintDisplay FgColor	"255 255 0 0"   Linear  10.0 	0.2
 	Animate HudHintDisplay HintSize	"0"		Deaccel 10.2	0.3
 }
 

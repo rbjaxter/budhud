@@ -177,27 +177,27 @@
 		
 		if_halloween_0
 		{
-			"image"		"../console/title_team_halloween2011"
+			"image"		"../console/background_upward"
 		}
 		if_halloween_1
 		{
-			"image"		"../console/title_team_halloween2012"
+			"image"		"../console/background_upward"
 		}
 		if_halloween_2
 		{
-			"image"		"../console/title_team_halloween2013"
+			"image"		"../console/background_upward"
 		}
 		if_fullmoon
 		{
-			"image"		"../console/title_fullmoon"
+			"image"		"../console/background_upward"
 		}
 		if_christmas
 		{
-			"image"		"../console/background_xmas2011"
+			"image"		"../console/background_upward"
 		}
 		if_eotl_launch
 		{
-			"image"		"../console/title_eotl01"
+			"image"		"../console/background_upward"
 		}
 	}
 					
@@ -3039,8 +3039,8 @@
 			"zpos"					"-1"
 			"wide"					"p0.9"
 			"tall"					"o1"
-			"visible"				"1"
-			"enabled"				"1"
+			"visible"				"0"
+			"enabled"				"0"
 			"image"					"menu_background_eotl_duck"
 			"scaleImage"			"1"
 			"proportionaltoparent"	"1"

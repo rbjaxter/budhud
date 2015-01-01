@@ -5,7 +5,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelNearCrosshair"
 		"xpos"			"c-100"
-		"ypos"			"c-30"
+		"ypos"			"c-35"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"100"
@@ -18,7 +18,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"RobotoCondensed12"
+		"font"			"RobotoCondensed20"
 		"fgcolor"		"bh_white"
 	}	
 	"Background"
