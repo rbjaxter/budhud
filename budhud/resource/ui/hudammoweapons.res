@@ -1,6 +1,16 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
-        "HudWeaponAmmoBG"
+ 
+	/////////////////////////////////////////////////////////////////////////////
+	// DON'T EDIT THIS UNLESS YOU KNOW WHAT YOU'RE DOING
+	// This allows you to move INDIVIDUAL elements such
+	// as clip/clip shadow/reserve/reserve shadow/etc.
+	// To move the ENTIRETY of the ammo elements (not
+	// individual parts) go to hudlayout.res and
+	// CTRL + F "HudWeaponAmmo".
+	/////////////////////////////////////////////////////////////////////////////
+ 
+		"HudWeaponAmmoBG"
         {
                 "ControlName"   		"CTFImagePanel"
                 "fieldName"             "HudWeaponAmmoBG"

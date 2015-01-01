@@ -1,12 +1,18 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
 	// player health data
+
+	/////////////////////////////////////////////////////////////////////////////
+	// AMMO PLACEMENT CUSTOMIZATION | HudPlayerHealth
+	// Moves the entirety of the health elements.
+	/////////////////////////////////////////////////////////////////////////////
+
 	"HudPlayerHealth"
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HudPlayerHealth"
 		"xpos"						"c-250"
-		"ypos"						"c47"
+		"ypos"						"c61"
 		"zpos"						"2"
 		"wide"						"200"
 		"tall"						"100"
@@ -16,24 +22,7 @@
 		"HealthDeathWarning"		"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
-	/////////////////////////////////////////////////////////////////////////////
-	// PlayerStatusHealthBonusImage controls low health/buff over health cross
-	// Set xpos/ypos to 6969 to disable
-	/////////////////////////////////////////////////////////////////////////////
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"27"
-		"ypos"			"39"
-		"zpos"			"0"
-		"wide"			"25"
-		"tall"			"25"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
-	}	
+	
 	/////////////////////////////////////////////////////////////////////////////
 	// TeamIndicator shows a team-colored bar under your health
 	// Set xpos/ypos to 6969 to disable
@@ -62,8 +51,12 @@
 		"draw_corner_width"		"0"
 		"draw_corner_height"	"0"
 	}	
+
 	/////////////////////////////////////////////////////////////////////////////
-	// PlayerStatusHealthImage & PlayerStatusHealthImageBG controls the health cross
+	// Health Cross
+	// PlayerStatusHealthImage & PlayerStatusHealthImageBG
+	// ======================================================================= //
+	// Controls the health cross to the left of your numerical health value
 	// Set xpos/ypos to 6969 to disable
 	/////////////////////////////////////////////////////////////////////////////
 	"PlayerStatusHealthImage"
@@ -93,6 +86,29 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}
+	
+	/////////////////////////////////////////////////////////////////////////////
+	// Health Cross Buff
+	// PlayerStatusHealthBonusImage
+	// ======================================================================= //
+	// Controls low health/buff over health cross
+	// Set xpos/ypos to 6969 to disable
+	/////////////////////////////////////////////////////////////////////////////
+	"PlayerStatusHealthBonusImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBonusImage"
+		"xpos"			"27"
+		"ypos"			"39"
+		"zpos"			"0"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/health_over_bg"
+		"scaleImage"	"1"	
+	}
+	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"

@@ -1,5 +1,10 @@
 "Resource/HudLayout.res"
 {
+	/////////////////////////////////////////////////////////////////////////////
+	// HEALTH PLACEMENT CUSTOMIZATION
+	// Controlled in resource\ui\hudplayerhealth.res, not here
+	/////////////////////////////////////////////////////////////////////////////
+
 	/////////////////////////////// CROSSHAIRS //////////////////////////////////	
 
 	/////////////////////////////////////////////////////////////////////////////
@@ -582,18 +587,23 @@
 		"wide"						"f0"
 		"tall"						"480"
 	}		
-		
+
+	/////////////////////////////////////////////////////////////////////////////
+	// AMMO PLACEMENT CUSTOMIZATION
+	// Moves the entirety of the ammo elements
+	/////////////////////////////////////////////////////////////////////////////
+	
 	HudWeaponAmmo		
 	{		
 		"fieldName" 				"HudWeaponAmmo"
 		"visible" 					"1"
 		"enabled" 					"1"
 		"xpos"						"c50"
-		"ypos"						"c48"
+		"ypos"						"c62"
 		"wide"						"200"
 		"tall"						"100"
 	}		
-			
+				
 	HudObjectiveStatus		
 	{		
 		"fieldName" 				"HudObjectiveStatus"
@@ -764,11 +774,10 @@
 	{	
 		"fieldName"					"CHealthAccountPanel"
 		"xpos"						"76"
-		"xpos_minmode"				"76"
 		"ypos"						"r152"
-		"ypos_minmode"				"r152"
 		"wide"						"116"
 		"tall"  					"180"
+		"zpos"						"-1"
 		"visible" 					"1"
 		"enabled" 					"1"
 		"PaintBackgroundType"		"2"
@@ -837,7 +846,7 @@
 		"enabled" 					"1"
 		"xpos" 						"c-100"
 		"ypos" 						"c68" //c135 
-		"zpos"						"1"
+		"zpos"						"0"
 		"wide" 						"600"
 		"tall" 						"45"
 		"priority" 					"35"
