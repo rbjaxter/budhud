@@ -762,7 +762,7 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-64"
-		"ypos"					"c95"
+		"ypos"					"c100"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -787,7 +787,7 @@
 	{	
 		"fieldName"					"CDamageAccountPanel"
 		"xpos"						"0"
-		"ypos"						"0"
+		"ypos"						"10"
 		"wide"						"f0"
 		"tall"						"480"
 		"visible" 					"1"
@@ -816,7 +816,7 @@
 		"visible" 					"0"
 		"enabled" 					"1"
 		"xpos"						"c-100"
-		"ypos"						"c42"
+		"ypos"						"c40"
 		"zpos"						"1"
 		"wide"	 					"600"
 		"tall"	 					"45"
@@ -1511,8 +1511,7 @@
 		"fieldName" 				"HudChat"
 		"visible" 					"1"
 		"enabled" 					"1"
-		"xpos"						"10"	[$WIN32]
-		"xpos"						"42"	[$X360]
+		"xpos"						"50"	[$WIN32]
 		"ypos"						"275"
 		"wide"	 					"320"
 		"tall"	 					"120"
@@ -1572,8 +1571,8 @@
 		"fieldName"					"HudDemomanPipes"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-55"
-		"ypos"						"c105"
+		"xpos"						"c-54"
+		"ypos"						"c90"
 		"wide"						"200"
 		"tall"						"100"
 	}	
