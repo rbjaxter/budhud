@@ -57,11 +57,13 @@ event MenuOpen
 event MenuClose
 {	
 	// Hide it
-	Animate HudMenu Alpha 		"0" Linear 0.0 1
+	Animate HudMenu Alpha 			"0" Linear 0.0 1
 	Animate HudMenu SelectionAlpha 	"0" Linear 0.0 1
-	Animate HudMenu FgColor		"0 0 0 0" Linear 0.0 1
+	Animate HudMenu FgColor			"0 0 0 0" Linear 0.0 1
 	Animate HudMenu MenuColor		"0 0 0 0" Linear 0.0 1
 	Animate HudMenu ItemColor		"0 0 0 0" Linear 0.0 1
+	RunEvent FillUber 0.0
+	RunEvent FillKritz 0.0
 }
 
 event MenuPulse
@@ -793,4 +795,203 @@ event RespecEarnedPulseEndLoss
 	StopEvent RespecEarnedPulseLoopLoss	0.0
 }
 
-//
+/// UBER TRACKING HUD MOD
+
+event FillUber
+{
+ RunEvent ClearUber 0.0
+ Animate UberLabel alpha "255" Linear 0.1 0.001
+ RunEvent UberDigitLoop 0.1
+ Animate Uber10 alpha "255" Linear 4.1 0.001
+ Animate Uber10 alpha "0" Linear 8.1 0.001
+ Animate Uber20 alpha "255" Linear 8.1 0.001
+ Animate Uber20 alpha "0" Linear 12.1 0.001
+ Animate Uber30 alpha "255" Linear 12.1 0.001
+ Animate Uber30 alpha "0" Linear 16.1 0.001
+ Animate Uber40 alpha "255" Linear 16.1 0.001
+ Animate Uber40 alpha "0" Linear 20.1 0.001
+ Animate Uber50 alpha "255" Linear 20.1 0.001
+ Animate Uber50 alpha "0" Linear 24.1 0.001
+ Animate Uber60 alpha "255" Linear 24.1 0.001
+ Animate Uber60 alpha "0" Linear 28.1 0.001
+ Animate Uber70 alpha "255" Linear 28.1 0.001
+ Animate Uber70 alpha "0" Linear 32.1 0.001
+ Animate Uber80 alpha "255" Linear 32.1 0.001
+ Animate Uber80 alpha "0" Linear 36.1 0.001
+ Animate Uber90 alpha "255" Linear 36.1 0.001
+ Animate Uber90 alpha "0" Linear 40.1 0.001
+ Animate Uber100 alpha "255" Linear 40.1 0.001
+ RunEvent ClearUber 41.1
+}
+
+event FillKritz
+{
+ RunEvent ClearKritz 0.0
+ Animate KritzLabel alpha "255" Linear 0.1 0.001
+ RunEvent KritzDigitLoop 0.1
+ Animate Kritz10 alpha "255" Linear 3.1 0.001
+ Animate Kritz10 alpha "0" Linear 6.1 0.001
+ Animate Kritz20 alpha "255" Linear 6.1 0.001
+ Animate Kritz20 alpha "0" Linear 9.1 0.001
+ Animate Kritz30 alpha "255" Linear 9.1 0.001
+ Animate Kritz30 alpha "0" Linear 12.1 0.001
+ Animate Kritz40 alpha "255" Linear 12.1 0.001
+ Animate Kritz40 alpha "0" Linear 15.1 0.001
+ Animate Kritz50 alpha "255" Linear 15.1 0.001
+ Animate Kritz50 alpha "0" Linear 18.1 0.001
+ Animate Kritz60 alpha "255" Linear 18.1 0.001
+ Animate Kritz60 alpha "0" Linear 21.1 0.001
+ Animate Kritz70 alpha "255" Linear 21.1 0.001
+ Animate Kritz70 alpha "0" Linear 24.1 0.001
+ Animate Kritz80 alpha "255" Linear 24.1 0.001
+ Animate Kritz80 alpha "0" Linear 27.1 0.001
+ Animate Kritz90 alpha "255" Linear 27.1 0.001
+ Animate Kritz90 alpha "0" Linear 30.1 0.001
+ Animate Kritz100 alpha "255" Linear 30.1 0.001
+ RunEvent ClearKritz 41.1
+}
+
+event UberDigitLoop
+{
+ RunEvent UberDigit 0.0
+ Animate Uber9 alpha "0" Linear 4.0 0.001
+ RunEvent uberDigit 4.0
+ Animate Uber9 alpha "0" Linear 8.0 0.001
+ RunEvent uberDigit 8.0
+ Animate Uber9 alpha "0" Linear 12.0 0.001
+ RunEvent uberDigit 12.0
+ Animate Uber9 alpha "0" Linear 16.0 0.001
+ RunEvent uberDigit 16.0
+ Animate Uber9 alpha "0" Linear 20.0 0.001
+ RunEvent uberDigit 20.0
+ Animate Uber9 alpha "0" Linear 24.0 0.001
+ RunEvent uberDigit 24.0
+ Animate Uber9 alpha "0" Linear 28.0 0.001
+ RunEvent uberDigit 28.0
+ Animate Uber9 alpha "0" Linear 32.0 0.001
+ RunEvent uberDigit 32.0
+ Animate Uber9 alpha "0" Linear 36.0 0.001
+ RunEvent uberDigit 36.0
+ Animate Uber9 alpha "0" Linear 40.0 0.001
+}
+
+event KritzDigitLoop
+{
+ RunEvent KritzDigit 0.0
+ Animate Kritz9 alpha "0" Linear 3.0 0.001
+ RunEvent KritzDigit 3.0
+ Animate Kritz9 alpha "0" Linear 6.0 0.001
+ RunEvent KritzDigit 6.0
+ Animate Kritz9 alpha "0" Linear 9.0 0.001
+ RunEvent KritzDigit 9.0
+ Animate Kritz9 alpha "0" Linear 12.0 0.001
+ RunEvent KritzDigit 12.0
+ Animate Kritz9 alpha "0" Linear 15.0 0.001
+ RunEvent KritzDigit 15.0
+ Animate Kritz9 alpha "0" Linear 18.0 0.001
+ RunEvent KritzDigit 18.0
+ Animate Kritz9 alpha "0" Linear 21.0 0.001
+ RunEvent KritzDigit 21.0
+ Animate Kritz9 alpha "0" Linear 24.0 0.001
+ RunEvent KritzDigit 24.0
+ Animate Kritz9 alpha "0" Linear 27.0 0.001
+ RunEvent KritzDigit 27.0
+ Animate Kritz9 alpha "0" Linear 30.0 0.001
+} 
+
+event UberDigit
+{
+ Animate Uber0 alpha "255" Linear 0.0 0.001
+ Animate Uber0 alpha "0" Linear 0.4 0.001
+ Animate Uber1 alpha "255" Linear 0.4 0.001
+ Animate Uber1 alpha "0" Linear 0.8 0.001
+ Animate Uber2 alpha "255" Linear 0.8 0.001
+ Animate Uber2 alpha "0" Linear 1.2 0.001
+ Animate Uber3 alpha "255" Linear 1.2 0.001
+ Animate Uber3 alpha "0" Linear 1.6 0.001
+ Animate Uber4 alpha "255" Linear 1.6 0.001
+ Animate Uber4 alpha "0" Linear 2.0 0.001
+ Animate Uber5 alpha "255" Linear 2.0 0.001
+ Animate Uber5 alpha "0" Linear 2.4 0.001
+ Animate Uber6 alpha "255" Linear 2.4 0.001
+ Animate Uber6 alpha "0" Linear 2.8 0.001
+ Animate Uber7 alpha "255" Linear 2.8 0.001
+ Animate Uber7 alpha "0" Linear 3.2 0.001
+ Animate Uber8 alpha "255" Linear 3.2 0.001
+ Animate Uber8 alpha "0" Linear 3.6 0.001
+ Animate Uber9 alpha "255" Linear 3.6 0.001
+ }
+ 
+ event KritzDigit
+{
+ Animate Kritz0 alpha "255" Linear 0.0 0.001
+ Animate Kritz0 alpha "0" Linear 0.3 0.001
+ Animate Kritz1 alpha "255" Linear 0.3 0.001
+ Animate Kritz1 alpha "0" Linear 0.6 0.001
+ Animate Kritz2 alpha "255" Linear 0.6 0.001
+ Animate Kritz2 alpha "0" Linear 0.9 0.001
+ Animate Kritz3 alpha "255" Linear 0.9 0.001
+ Animate Kritz3 alpha "0" Linear 1.2 0.001
+ Animate Kritz4 alpha "255" Linear 1.2 0.001
+ Animate Kritz4 alpha "0" Linear 1.5 0.001
+ Animate Kritz5 alpha "255" Linear 1.5 0.001
+ Animate Kritz5 alpha "0" Linear 1.8 0.001
+ Animate Kritz6 alpha "255" Linear 1.8 0.001
+ Animate Kritz6 alpha "0" Linear 2.1 0.001
+ Animate Kritz7 alpha "255" Linear 2.1 0.001
+ Animate Kritz7 alpha "0" Linear 2.4 0.001
+ Animate Kritz8 alpha "255" Linear 2.4 0.001
+ Animate Kritz8 alpha "0" Linear 2.7 0.001
+ Animate Kritz9 alpha "255" Linear 2.7 0.001
+ }
+ 
+ 
+event ClearUber
+{
+ Animate UberLabel alpha "0" Linear 0.0 0.001
+ Animate Uber10 alpha "0" Linear 0.0 0.001
+ Animate Uber20 alpha "0" Linear 0.0 0.001
+ Animate Uber30 alpha "0" Linear 0.0 0.001
+ Animate Uber40 alpha "0" Linear 0.0 0.001
+ Animate Uber50 alpha "0" Linear 0.0 0.001
+ Animate Uber60 alpha "0" Linear 0.0 0.001
+ Animate Uber70 alpha "0" Linear 0.0 0.001
+ Animate Uber80 alpha "0" Linear 0.0 0.001
+ Animate Uber90 alpha "0" Linear 0.0 0.001
+ Animate Uber100 alpha "0" Linear 0.0 0.001
+ Animate Uber0 alpha "0" Linear 0.0 0.001
+ Animate Uber1 alpha "0" Linear 0.0 0.001
+ Animate Uber2 alpha "0" Linear 0.0 0.001
+ Animate Uber3 alpha "0" Linear 0.0 0.001
+ Animate Uber4 alpha "0" Linear 0.0 0.001
+ Animate Uber5 alpha "0" Linear 0.0 0.001
+ Animate Uber6 alpha "0" Linear 0.0 0.001
+ Animate Uber7 alpha "0" Linear 0.0 0.001
+ Animate Uber8 alpha "0" Linear 0.0 0.001
+ Animate Uber9 alpha "0" Linear 0.0 0.001
+}
+
+event ClearKritz
+{
+ Animate KritzLabel alpha "0" Linear 0.0 0.001
+ Animate Kritz10 alpha "0" Linear 0.0 0.001
+ Animate Kritz20 alpha "0" Linear 0.0 0.001
+ Animate Kritz30 alpha "0" Linear 0.0 0.001
+ Animate Kritz40 alpha "0" Linear 0.0 0.001
+ Animate Kritz50 alpha "0" Linear 0.0 0.001
+ Animate Kritz60 alpha "0" Linear 0.0 0.001
+ Animate Kritz70 alpha "0" Linear 0.0 0.001
+ Animate Kritz80 alpha "0" Linear 0.0 0.001
+ Animate Kritz90 alpha "0" Linear 0.0 0.001
+ Animate Kritz100 alpha "0" Linear 0.0 0.001
+ Animate Kritz0 alpha "0" Linear 0.0 0.001
+ Animate Kritz1 alpha "0" Linear 0.0 0.001
+ Animate Kritz2 alpha "0" Linear 0.0 0.001
+ Animate Kritz3 alpha "0" Linear 0.0 0.001
+ Animate Kritz4 alpha "0" Linear 0.0 0.001
+ Animate Kritz5 alpha "0" Linear 0.0 0.001
+ Animate Kritz6 alpha "0" Linear 0.0 0.001
+ Animate Kritz7 alpha "0" Linear 0.0 0.001
+ Animate Kritz8 alpha "0" Linear 0.0 0.001
+ Animate Kritz9 alpha "0" Linear 0.0 0.001
+}
