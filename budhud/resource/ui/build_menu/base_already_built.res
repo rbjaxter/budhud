@@ -25,7 +25,7 @@
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemNameLabel"
-		"font"					"RobotoCondensed16"
+		"font"					"RobotoCondensed12"
 		"xpos"					"15"
 		"ypos"					"2"
 		"zpos"					"1"

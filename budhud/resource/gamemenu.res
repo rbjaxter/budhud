@@ -8,7 +8,7 @@
 		"tooltip"		"Show information about the hud"
 		"command" 		"engine con_enable 1;showconsole;clear;
 		echo ========================================================================;
-		echo BUDHUD, 1/JAN/2015 by Whisker Biscuit;
+		echo BUDHUD, 18/JAN/2015 by Whisker Biscuit;
 		echo ========================================================================;
 		echo Report Issues: github.com/WhiskerBiscuit/budhud/issues;
 		echo HUD GROUP: steamcommunity.com/groups/budhud;

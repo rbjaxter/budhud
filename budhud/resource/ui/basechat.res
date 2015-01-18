@@ -6,9 +6,9 @@
 		"fieldName" 		      	"HudChat"
 		"visible" 		        	"1"
 		"enabled" 		        	"1"
-		"xpos"			          	"1"
-		"ypos"			          	"200"				// Top Left = 0
-		"wide"	 		          	"242"
+		"xpos"			          	"5"
+		"ypos"			          	"0"				// Top Left = 0
+		"wide"	 		          	"240"
 		"tall"	 		          	"110"
 		"fgcolor"					"bh_white"
 		"PaintBackgroundType"		"2"

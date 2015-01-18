@@ -3,38 +3,36 @@ Scheme
 	Colors
 	{
 		
-	////////////////////////////// BUDHUD COLORS /////////////////////////////////	
+	/////////////////////////////////////////////////////////////////////////////
+	// BUDHUD COLORS
+	// Change colors here to customize your hud
+	// TF2 will have to be restarted for these changes to take effect
+	/////////////////////////////////////////////////////////////////////////////	
 	
-		// budhud: HUD Color Customization
-		// Change colors here to customize your hud
-		// A restart of TF2 will be required for these changes to take effect
-		
-			// Health
+		// Health
 			"bh_Health"			"255 255 255 255"
 			"bh_HealthLow"		"215 0 0 255"
 			"bh_HealthBuff"		"0 153 255 255"
 			"bh_HealthPickup"	"240 134 49 255"
-			
-			// Ammo
+		
+		// Ammo
 			"bh_AmmoInClip"		"255 255 255 255"
 			"bh_AmmoReserve"	"255 255 255 255"
 			"bh_LowAmmoPulse"	"150 150 150 255" 	// Ammo color when ammo is low
-			
-			// Damage Done & Heals Given
+		
+		// Damage Done & Heals Given
 			"bh_DamageColor"	"255 255 255 255" 	// Damage done that appears above player
 			"bh_hudDMGDisplay"	"243 157 48 255" 	// Damage done that appears below ammo
 			"bh_HealColor"		"0 153 255 255" 	// Medigun/arrow heals
-			
-			// whayay's Crosshairs
+		
+		// whayay's Crosshairs
 			"ya_crosshair"		"255 255 255 255" 	// Crosshair color
 			"ya_xhairflash"		"240 134 49 255"	// Flash on damage done
-			
-			// Fog's Crosshairs
+		
+		// Fog's Crosshairs
 			"fog_crosshair"		"255 255 255 255"	// Crosshair color
 		
-		// budhud: Core Colors
-		// These are best left untouched
-		
+		// budhud core colors
 			"bh_white"			"255 255 255 255"
 			"bh_black"			"0 0 0 255"
 			"bh_lblue"			"0 153 255 255"
@@ -101,20 +99,21 @@ Scheme
 		"HudTimerProgressWarning"	"240 30 30 255"
 
 		// training
-		"HudTrainingHint"			"212 160 23 255"
+		// I have no idea what this controls
+		"HudTrainingHint"			"255 255 255 255"
 		
-		"TanDark"				"150 150 150 255"
-		"TanLight"				"255 255 255 255"
-		"TanDarker"				"46 43 42 255"
+		"TanDark"					"150 150 150 255"
+		"TanLight"					"255 255 255 255"
+		"TanDarker"					"46 43 42 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
 		"StoreGreen"			"76 107 34 255"
 		
-		// Building HUD Specific
-		"LowHealthRed"		"255 0 0 255"
-		"ProgressOffWhite"	"251 235 202 255"
-		"ProgressBackground"	"250 234 201 51"
-		"HealthBgGrey"		"72 71 69 255"
+		// Engineer HUD Specific
+		"LowHealthRed"				"255 0 0 255"
+		"ProgressOffWhite"			"255 255 255 255"
+		"ProgressBackground"		"150 150 150 255"
+		"HealthBgGrey"				"72 71 69 255"
 		
 		"ProgressOffWhiteTransparent"	"251 235 202 128"
 		
@@ -126,10 +125,10 @@ Scheme
 		"DisguiseMenuIconRed"	"192 56 63 255"
 		"DisguiseMenuIconBlue"	"92 128 166 255"
 
- 		"MatchmakingDialogTitleColor"			"200 184 151 255"
+ 		"MatchmakingDialogTitleColor"			"bh_orange"
  		"MatchmakingMenuItemBackground"			"46 43 42 255"
- 		"MatchmakingMenuItemBackgroundActive"	"150 71 0 255"	
-		"MatchmakingMenuItemTitleColor"			"200 184 151 255"
+ 		"MatchmakingMenuItemBackgroundActive"	"bh_orange"	
+		"MatchmakingMenuItemTitleColor"			"bh_orange"
 		"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
 		
 		"HTMLBackground"						"95 92 101 255"
@@ -215,36 +214,36 @@ Scheme
 		ReplayBrowser.Search.BgColor						"TanDark"
 		ReplayBrowser.Search.FgColor						"White"
 		
-		Replay.RenderDialog.BgColor							"30 30 30 200"
+		Replay.RenderDialog.BgColor							"30 30 30 255"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"25 25 25 200"
+		Econ.Button.BgColor									"25 25 25 255"
 		Econ.Button.FgColor									"255 255 255 255"
 		Econ.Button.ArmedBgColor							"35 35 35 200"
 		Econ.Button.ArmedFgColor							"255 255 255 255"
-		Econ.Button.DepressedBgColor						"25 25 25 200"
+		Econ.Button.DepressedBgColor						"25 25 25 255"
 		Econ.Button.DepressedFgColor						"255 255 255 255"
 		
 		Econ.Button.PresetDefaultColorFg					"bh_orange"
 		Econ.Button.PresetArmedColorFg						"bh_orange"
 		Econ.Button.PresetDepressedColorFg					"bh_orange"
 		
-		Econ.Button.PresetDefaultColorBg					"25 25 25 200"
-		Econ.Button.PresetArmedColorBg						"50 50 50 200"
-		Econ.Button.PresetDepressedColorBg					"25 25 25 200"
+		Econ.Button.PresetDefaultColorBg					"25 25 25 255"
+		Econ.Button.PresetArmedColorBg						"50 50 50 255"
+		Econ.Button.PresetDepressedColorBg					"25 25 25 255"
 		
 		Border.Bright										"NoBorder"		// the lit side of a control
 		Border.Dark											"NoBorder"		// the dark/unlit side of a control
 		Border.Selection									"NoBorder"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor									"255 255 255 255"
-		Button.BgColor										"25 25 25 200"
+		Button.BgColor										"25 25 25 255"
 		Button.ArmedTextColor								"255 255 255 255"
-		Button.ArmedBgColor									"35 35 35 200"
+		Button.ArmedBgColor									"35 35 35 255"
 		Button.SelectedTextColor							"255 255 255 255"
-		Button.SelectedBgColor								"25 25 25 200"
+		Button.SelectedBgColor								"25 25 25 255"
 		Button.DepressedTextColor							"255 255 255 255"
-		Button.DepressedBgColor								"35 35 35 200"
+		Button.DepressedBgColor								"35 35 35 255"
 
 		CheckButton.TextColor								"Yellow"
 		CheckButton.SelectedTextColor						"Yellow"
@@ -410,13 +409,13 @@ Scheme
 		"HudIcon_Red"										"160 0 0 255"
 
 		// CHudMenu
-		"ItemColor"											"255 167 42 200"	// default 255 167 42 255
-		"MenuColor"											"233 208 173 255"
+		"ItemColor"											"255 255 255 255"	// default 255 167 42 255
+		"MenuColor"											"255 255 255 255"
 		"MenuBoxBg"											"0 0 0 100"
 
 		// weapon selection colors
-		"SelectionNumberFg"									"251 235 202 255"
-		"SelectionTextFg"									"251 235 202 255"
+		"SelectionNumberFg"									"255 255 255 255"
+		"SelectionTextFg"									"255 255 255 255"
 		"SelectionEmptyBoxBg" 								"0 0 0 80"
 		"SelectionBoxBg" 									"0 0 0 80"
 		"SelectionSelectedBoxBg"							"0 0 0 190"
@@ -682,7 +681,6 @@ Scheme
 			{
 				"name"			"Roboto Condensed Regular"
 				"tall"			"13"	[$WIN32]
-				"tall"			"23"	[$X360]
 				"weight"		"700"
 				"yres"			"600 767"
 			}

@@ -23,7 +23,7 @@
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemNameLabel"
-		"font"					"RobotoCondensed16"
+		"font"					"RobotoCondensed12"
 		"fgcolor_override"		"bh_white"
 		"xpos"					"15"
 		"ypos"					"2"
@@ -94,7 +94,7 @@
 		"fieldName"		"CostLabel"
 		"font"			"RobotoCondensed14"
 		"fgcolor"		"bh_red"
-		"xpos"			"44"
+		"xpos"			"8"
 		"ypos"			"60"
 		"zpos"			"1"
 		"wide"			"84"
@@ -104,7 +104,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"Left"	
+		"textAlignment"	"center"	
 	}
 	
 	"ModeLabel"

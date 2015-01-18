@@ -7,7 +7,7 @@
 
 	/////////////////////////////////////////////////////////////////////////////
 	// TRANSPARENT VIEWMODELS (only works for dx9 users)
-	// See: \budhud\_Customization_\Transparent Viewmodels
+	// See: \budhud\_Customization_\Transparent Viewmodels for instructions
 	/////////////////////////////////////////////////////////////////////////////
 	
 	"TransparentViewmodelMask"
@@ -677,7 +677,7 @@
 		"fieldName"					"HudDemomanCharge"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-50"
+		"xpos"						"c-49"
 		"ypos"						"c85" //c88
 		"wide"						"200"
 		"tall"						"100"
@@ -779,20 +779,21 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c-64"
+		"xpos"					"c-66"
 		"ypos"					"c100"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
+		"textAlignment"			"center"
 	}	
 		
 	CHealthAccountPanel	
 	{	
 		"fieldName"					"CHealthAccountPanel"
-		"xpos"						"76"
-		"ypos"						"r152"
+		"xpos"						"c-115"
+		"ypos"						"r141"
 		"wide"						"116"
 		"tall"  					"180"
 		"zpos"						"-1"
@@ -890,12 +891,8 @@
 		"fieldName" 				"BuildingStatus_Engineer"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"0"
-		"xpos_hidef"				"32"
-		"xpos_lodef"				"40"
-		"ypos"						"0"
-		"ypos_hidef"				"16"
-		"ypos_lodef"				"25"
+		"xpos"						"-14"
+		"ypos"						"-150" // 0
 		"wide"						"640"
 		"tall"						"480"
 		
@@ -978,7 +975,7 @@
 		
 		"text_xpos" 				"8"
 		"text_ypos" 				"6"
-		"TextColor"					"255 170 0 220"
+		"TextColor"					"255 255 255 255"
 
 		"PaintBackgroundType"		"2"
 	}
@@ -1129,6 +1126,7 @@
 		"fieldName" 				"HudMenu"
 		"visible" 					"1"
 		"enabled" 					"1"
+		"ypos"						"0"
 		"wide"	 					"640"
 		"tall"	 					"480"
 		"zpos" 						"1"
@@ -1330,7 +1328,7 @@
 		"visible"					"0"
 		"enabled"					"1"
 		"xpos"						"c-240"
-		"ypos"						"c90" //c105
+		"ypos"						"c100" //c105
 		"zpos"						"5"
 		"wide"						"480"
 		"tall"						"100"
@@ -1590,7 +1588,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"xpos"						"c-54"
-		"ypos"						"c90"
+		"ypos"						"c96"
 		"wide"						"200"
 		"tall"						"100"
 	}	

@@ -128,11 +128,11 @@ event HintMessageShow
 	Animate HudHintDisplay 		FgColor		"FgColor" 		Linear 0.4      0.4
 
 	// flash text
-	Animate HudHintDisplay 			FgColor			"FgColor" 				Linear 1.5 0.01
+	Animate HudHintDisplay 			FgColor			"255 255 255 255" 				Linear 1.5 0.01
 	Animate HudHintDisplay 			FgColor			"255 255 255 255" 		Linear 2.0 0.2
-	Animate HudHintDisplay 			FgColor			"FgColor" 				Linear 2.2 0.2
+	Animate HudHintDisplay 			FgColor			"255 255 255 255" 				Linear 2.2 0.2
 	Animate HudHintDisplay 			FgColor			"255 255 255 255" 		Linear 3.0 0.2
-	Animate HudHintDisplay 			FgColor			"FgColor" 				Linear 3.2 0.2
+	Animate HudHintDisplay 			FgColor			"255 255 255 255" 				Linear 3.2 0.2
 
 	// hide the panel after a while	
 	Animate HudHintDisplay FgColor	"255 255 0 0"   Linear  10.0 	0.2
@@ -142,7 +142,7 @@ event HintMessageShow
 
 event HintMessageHide
 {
-	Animate HudHintDisplay FgColor	"255 220 0 0"   Linear  0.0 	0.2
+	Animate HudHintDisplay FgColor	"255 255 255 255"   Linear  0.0 	0.2
 	Animate HudHintDisplay HintSize	"0"		Deaccel 0.2	0.3
 }
 
@@ -152,11 +152,11 @@ event KeyHintMessageShow
 	Animate HudHintKeyDisplay Alpha	255 Linear 0.0 0.5
 
 	// flash text
-	Animate HudHintKeyDisplay FgColor	"FgColor" 	Linear 0.0 0.01
-	Animate HudHintKeyDisplay FgColor	"255 220 0 255" Linear 0.5 0.2
-	Animate HudHintKeyDisplay FgColor	"FgColor" 	Linear 0.7 0.2
-	Animate HudHintKeyDisplay FgColor	"255 220 0 255" Linear 1.5 0.2
-	Animate HudHintKeyDisplay FgColor	"FgColor" 	Linear 1.7 0.2
+	Animate HudHintKeyDisplay FgColor	"255 255 255 255" 	Linear 0.0 0.01
+	Animate HudHintKeyDisplay FgColor	"255 255 255 255" Linear 0.5 0.2
+	Animate HudHintKeyDisplay FgColor	"255 255 255 255" 	Linear 0.7 0.2
+	Animate HudHintKeyDisplay FgColor	"255 255 255 255" Linear 1.5 0.2
+	Animate HudHintKeyDisplay FgColor	"255 255 255 255" 	Linear 1.7 0.2
 
 	// hide the panel after a while	
 	Animate HudHintKeyDisplay Alpha	0 Linear 12.0 1.0
@@ -172,9 +172,11 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"					Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"						Linear 0.2 0.4
-	Animate PlayerStatusHealthValue			fgcolor		"bh_HealthBuff"			Linear 0.0 0.3
+	Animate	PlayerStatusHealthBonusImage 		Alpha		"255"					Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"						Linear 0.2 0.4
+	Animate PlayerStatusHealthValue				fgcolor		"bh_HealthBuff"			Linear 0.0 0.3
+	Animate PlayerStatusHealthValueSpectator 	fgcolor 	"bh_HealthBuff" 		Accel 0.0 0.0 
+ 	Animate PlayerStatusHealthValueFreezePanel 	fgcolor 	"bh_HealthBuff" 		Accel 0.0 0.0 
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -187,9 +189,11 @@ event HudHealthBonusPulseLoop
 
 event HudHealthBonusPulseStop
 {
-	StopEvent HudHealthBonusPulse 0.0
-	StopEvent HudHealthBonusPulseLoop 0.0
-	Animate PlayerStatusHealthValue 		fgcolor		"bh_Health"			Linear 0.0 0.0
+	StopEvent 	HudHealthBonusPulse					0.0
+	StopEvent 	HudHealthBonusPulseLoop 			0.0
+	Animate 	PlayerStatusHealthValue 			fgcolor		"bh_Health"				Linear 0.0 0.0
+	Animate 	PlayerStatusHealthValueSpectator 	fgcolor 	"bh_Health" 			Accel 0.0 0.0 
+ 	Animate 	PlayerStatusHealthValueFreezePanel 	fgcolor 	"bh_Health"				Accel 0.0 0.0 
 }
 
 //===========================================
@@ -197,8 +201,8 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"				Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"					Linear 0.125 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"					Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"						Linear 0.125 0.075
 	Animate PlayerStatusHealthValue			fgcolor		"bh_HealthLow"			Linear 0.0 0.2
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
@@ -212,9 +216,11 @@ event HudHealthDyingPulseLoop
 
 event HudHealthDyingPulseStop
 {
-	StopEvent HudHealthDyingPulse 0.0
-	StopEvent HudHealthDyingPulseLoop 0.0
-	Animate PlayerStatusHealthValue 		fgcolor		"bh_white"			Linear 0.0 0.0
+	StopEvent 	HudHealthDyingPulse 				0.0
+	StopEvent 	HudHealthDyingPulseLoop 			0.0
+	Animate 	PlayerStatusHealthValue 			fgcolor		"bh_white"				Linear 0.0 0.0
+	Animate 	PlayerStatusHealthValueSpectator 	fgcolor 	"bh_Health" 			Accel 0.0 0.0 
+ 	Animate 	PlayerStatusHealthValueFreezePanel 	fgcolor 	"bh_Health"				Accel 0.0 0.0 
 }
 
 //===========================================
@@ -675,7 +681,7 @@ event AddToCartBlink
 
 event NotificationsPresentBlink
 {
-	Animate	NotificationsPresentPanel 	FgColor		"255"		Linear 0.0 0.1
+	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.0 0.1
 	Animate	NotificationsPresentPanel 	Alpha		"0"			Linear 0.2 0.1
 		
 	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.4 0.1

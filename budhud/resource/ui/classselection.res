@@ -848,8 +848,8 @@
 		"wrap"			"1"
 		"font"			"HudFontMediumSmallSecondary"
 		"font_lodef"	"HudFontMediumSmallSecondary"
-		"fgcolor"		"HudTrainingHint"
-		"fgcolor_lodef"	"HudTrainingHint"
+		"fgcolor"		"bh_white"
+		"fgcolor_lodef"	"bh_white"
 	}
 	
 	"ShadedBar"
@@ -1795,7 +1795,7 @@
 		"pinCorner"				"0"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"fillcolor" 			"0 0 0 225"
+		"fillcolor" 			"0 0 0 150"
 		"draw_corner_width"		"5"
 		"draw_corner_height"	"5"
 	}
