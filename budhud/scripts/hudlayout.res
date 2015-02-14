@@ -892,7 +892,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"xpos"						"-14"
-		"ypos"						"-150"
+		"ypos"						"0"
 		"wide"						"640"
 		"tall"						"480"
 		
@@ -1157,19 +1157,17 @@
 		"fieldName" 				"HudCloseCaption"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-250"
-		"ypos"						"276"	[$WIN32]
-		"ypos"						"236"	[$X360]
-		"wide"						"500"
-		"tall"						"136"	[$WIN32]
-		"tall"						"176"	[$X360]
+		"xpos"						"c135"
+		"ypos"						"280"
+		"wide"						"415" // 110 lowest
+		"tall"						"60"
 				
-		"BgAlpha"					"128"
+		"BgAlpha"					"0"
 
-		"GrowTime"					"0.25"
-		"ItemHiddenTime"			"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
-		"ItemFadeInTime"			"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
-		"ItemFadeOutTime"			"0.3"
+		"GrowTime"					"0.01"
+		"ItemHiddenTime"			"0.01"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
+		"ItemFadeInTime"			"0.01"	// Once ItemHiddenTime is finished, takes this much longer to fade in
+		"ItemFadeOutTime"			"0.05"
 		"topoffset"					"0"
 	}
 

@@ -2,13 +2,13 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"54"
-		"delta_item_start_y"	"45"
-		"delta_item_end_y"		"45"
+		"delta_item_x"			"83"
+		"delta_item_start_y"	"23"
+		"delta_item_end_y"		"36"
 		"PositiveColor"			"bh_orange"
 		"NegativeColor"			"bh_red"
-		"delta_lifetime"		".8"
-		"delta_item_font"		"RobotoCondensed20"
+		"delta_lifetime"		".7"
+		"delta_item_font"		"RobotoCondensed16"
 	}
 	
 	"AccountBG"
