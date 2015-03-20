@@ -328,6 +328,7 @@ Scheme
 				"antialias"		"1" [!$OSX]
 			}
 		}
+    }
 
 	}
 	CustomFontFiles

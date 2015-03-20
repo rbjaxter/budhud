@@ -44,13 +44,15 @@ Scheme
 			"bh_red"			"215 0 0 255"
 		
 		// TF2 Defaults
-		"Orange"			"178 82 22 255"
-		"OrangeDim"			"178 82 22 120"
-		"LightOrange"		"188 112 0 128"
-		"GoalOrange"		"255 133 0"
-		"TFOrange"			"145 73 59 255"
+		// One of these 5 controls HudHintDisplay / HudHintKeyDisplay color
+		// (surf timer, etc)
+		"Orange"			"255 255 255 255"
+		"OrangeDim"			"255 255 255 255"
+		"LightOrange"		"255 255 255 255"
+		"GoalOrange"		"255 255 255 255"
+		"TFOrange"			"150 150 150 50"		// Backpack page number BG
 		
-		"White"				"235 235 235 255"
+		"White"				"255 255 255 255"
 		"Red"				"192 28 0 140"
 		"RedSolid"			"192 28 0 255"
 		"Blue"				"0 28 162 140"

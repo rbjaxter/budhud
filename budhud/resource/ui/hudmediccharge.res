@@ -64,7 +64,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
 		"xpos"			"c60"
-		"ypos"			"287"
+		"ypos"			"301"
 		"zpos"			"5"
 		"wide"			"200"
 		"tall"			"100"
