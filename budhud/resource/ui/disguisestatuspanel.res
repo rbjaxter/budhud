@@ -32,10 +32,10 @@
 	{
 		"ControlName"			"CTFImagePanel"
 		"fieldName"				"DisguiseStatusBG"
-		"xpos"					"80"
+		"xpos"					"150"
 		"ypos"					"30"
 		"zpos"					"-1"
-		"wide"					"150"
+		"wide"					"80"
 		"tall"	 				"25"
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -59,10 +59,10 @@
 		"ControlName"		"Label"
 		"fieldName"			"DisguiseNameLabel"
 		"font"				"RobotoCondensed12"
-		"xpos"				"117"
-		"ypos"				"26"
+		"xpos"				"151"
+		"ypos"				"25"
 		"zpos"				"1"
-		"wide"				"110"
+		"wide"				"80"
 		"tall"				"24"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -98,8 +98,8 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"SpectatorGUIHealth"
-		"xpos"						"70"
-		"ypos"						"18"
+		"xpos"						"6969"	// 70
+		"ypos"						"6969"	// 18
 		"wide"						"50"
 		"tall"						"50"
 		"visible"					"1"

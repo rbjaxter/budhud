@@ -820,13 +820,11 @@
 		"fieldName" 				"DisguiseStatus"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"10"	[$WIN32]
-		"ypos"						"r70"	[$WIN32]
-		"xpos"						"50"	[$X360]
-		"ypos"						"330"	[$X360]
+		"xpos"						"-60"
+		"ypos"						"r70"
+		"zpos"						"5"
 		"wide"						"500"
 		"tall"						"200"
-		"TextFont"					"Default"	[$X360]
 	}				
 
 	CMainTargetID				
@@ -1573,7 +1571,7 @@
 		"fieldName" 				"HudMenuSpyDisguise"
 		"visible" 					"1"
 		"enabled" 					"1"
-		"xpos"						"r788"
+		"xpos"						"c-300"
 		"ypos"						"c-128"
 		"wide"						"470"
 		"tall"						"250"

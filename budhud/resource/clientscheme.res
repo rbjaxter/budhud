@@ -2487,6 +2487,16 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		RobotoCondensed40
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed Regular"
+				"tall"		"40"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
 		RobotoCondensed48
 		{
 			"1"

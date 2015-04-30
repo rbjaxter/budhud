@@ -116,6 +116,11 @@
 		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
 	}
 
+	/////////////////////////////////////////////////////////////////////////////
+	// THIRD PERSON PLAYER MODEL
+	// This controls the third person player model seen in the bottom left corner
+	/////////////////////////////////////////////////////////////////////////////
+	
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
