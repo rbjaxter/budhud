@@ -35,7 +35,7 @@
 		"xpos"					"150"
 		"ypos"					"30"
 		"zpos"					"-1"
-		"wide"					"80"
+		"wide"					"85"
 		"tall"	 				"25"
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -79,7 +79,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"WeaponNameLabel"
 		"font"				"RobotoCondensed12"
-		"xpos"				"117"
+		"xpos"				"121"
 		"ypos"				"37"
 		"zpos"				"1"
 		"wide"				"110"
@@ -98,8 +98,8 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"SpectatorGUIHealth"
-		"xpos"						"6969"	// 70
-		"ypos"						"6969"	// 18
+		"xpos"						"202"	// 70
+		"ypos"						"-1"	// 18
 		"wide"						"50"
 		"tall"						"50"
 		"visible"					"1"

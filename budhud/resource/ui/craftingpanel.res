@@ -384,7 +384,7 @@
     		"enabled"			"1"
 			"pinCorner"			"0"
 			"autoResize"		"0"
-			"PaintBackgroundType""1"
+			"PaintBackgroundType"	"1"
 			"border"			"NoBorder"
 			"bgcolor_override"	"35 35 35 255"
 			

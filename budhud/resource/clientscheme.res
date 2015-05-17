@@ -32,6 +32,17 @@ Scheme
 		// Fog's Crosshairs
 			"fog_crosshair"		"255 255 255 255"	// Crosshair color
 		
+		// statsummary colors
+			"bh_bar1"			"150 150 150 255"
+			"bh_bar2"			"150 150 150 255"
+			"bh_bar3"			"150 150 150 255"
+			"bh_bar4"			"150 150 150 255"
+			"bh_bar5"			"150 150 150 255"
+			"bh_bar6"			"150 150 150 255"
+			"bh_bar7"			"150 150 150 255"
+			"bh_bar8"			"150 150 150 255"
+			"bh_bar9"			"150 150 150 255"
+		
 		// budhud core colors
 			"bh_white"			"255 255 255 255"
 			"bh_black"			"0 0 0 255"

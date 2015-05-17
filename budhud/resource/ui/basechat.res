@@ -7,7 +7,7 @@
 		"visible" 		        	"1"
 		"enabled" 		        	"1"
 		"xpos"			          	"5"
-		"ypos"			          	"0"				// Top Left = 0
+		"ypos"			          	"5"				// Top Left = 0
 		"wide"	 		          	"240"
 		"tall"	 		          	"110"
 		"fgcolor"					"bh_white"
