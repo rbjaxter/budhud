@@ -320,7 +320,7 @@
 			"tabPosition"		"0"
 			"textAlignment"		"center"
 			"scaleImage"		"1"
-			"font"			"RobotoCondensed16"
+			"font"			"LatoSemibold16"
 			
 			"fgcolor"	"124 114 99 255"
 			"defaultBgColor_override" "25 25 25 255"
@@ -435,7 +435,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"RobotoCondensed14"
+		"font"			"LatoSemibold14"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"west"
 		"xpos"			"c-42"

@@ -105,7 +105,7 @@
 			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"RobotoCondensed24"
+			"font"				"LatoSemibold24"
 			"fgcolor"			"bh_white"
 		}
 		"NumPipesLabelDropshadow"
@@ -126,7 +126,7 @@
 			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"RobotoCondensed24"
+			"font"				"LatoSemibold24"
 			"fgcolor"			"bh_black"
 		}		
 	}
@@ -179,7 +179,7 @@
 			"textAlignment"		"center"
 			"dulltext"			"1"
 			"brighttext"		"0"
-			"font"				"RobotoCondensed24"
+			"font"				"LatoSemibold24"
 			"fgcolor"			"bh_white"
 		}
 		"NumPipesLabelDropshadow"
@@ -200,7 +200,7 @@
 			"textAlignment"		"center"
 			"dulltext"			"1"
 			"brighttext"		"0"
-			"font"				"RobotoCondensed24"
+			"font"				"LatoSemibold24"
 			"fgcolor"			"bh_black"
 		}			
 	}				

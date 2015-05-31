@@ -68,7 +68,7 @@
 		"centerwrap"			"1"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"RobotoCondensed9"
+		"font"					"LatoSemibold9"
 		"fgcolor_override"		"bh_white"
 	}
 
@@ -110,7 +110,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"RobotoCondensed20"
+		"font"					"LatoSemibold20"
 		"fgcolor_override"		"bh_white"
 	}
 }

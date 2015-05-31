@@ -73,7 +73,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"RobotoCondensed10"
+			"font"			"LatoSemibold10"
 			"xpos"			"5"
 			"ypos"			"2"
 			"zpos"			"5"

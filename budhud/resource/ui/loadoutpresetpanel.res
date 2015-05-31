@@ -15,7 +15,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"RobotoCondensed24"
+			"font"			"LatoSemibold24"
 			"textAlignment"	"center"
 			"textinsetx"	"0"
 			"dulltext"		"0"

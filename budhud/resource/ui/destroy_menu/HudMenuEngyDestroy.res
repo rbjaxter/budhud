@@ -36,7 +36,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"RobotoCondensed20"
+		"font"			"LatoSemibold20"
 		"xpos"			"6969"			
 		"ypos"			"6969"
 		"zpos"			"2"
@@ -56,7 +56,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"RobotoCondensed20"
+		"font"			"LatoSemibold20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"6969"			// align me to the left edge of the first selection
 		"ypos"			"6969"

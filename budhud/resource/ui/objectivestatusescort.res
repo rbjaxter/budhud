@@ -202,7 +202,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"RobotoCondensed9"		
+			"font"			"LatoSemibold9"		
 			"xpos"			"18"			
 			"ypos"			"53"		
 			"zpos"			"2"
@@ -419,7 +419,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"RobotoCondensed8"
+			"font"			"LatoSemibold8"
 			"xpos"			"25"
 			"xpos_minmode"		"25"
 			"ypos"			"53"
@@ -567,7 +567,7 @@
 				
 				"if_multiple_trains"
 				{
-					"font"			"RobotoCondensed8"
+					"font"			"LatoSemibold8"
 					"xpos"			"0"
 					"ypos"			"3"			
 					"wide"			"35"			

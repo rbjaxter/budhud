@@ -50,7 +50,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"RobotoCondensed12"
+		"font"					"LatoSemibold12"
 		"fgcolor_override"		"150 150 150 255"
 	}
 
@@ -90,7 +90,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"RobotoCondensed20"
+		"font"					"LatoSemibold20"
 	}
 	"ItemEffectMeterCountBG"
 	{
@@ -109,7 +109,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"RobotoCondensed20"
+		"font"					"LatoSemibold20"
 		"fgcolor_override"		"bh_black"
 	}
 }

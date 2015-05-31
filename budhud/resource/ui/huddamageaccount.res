@@ -9,8 +9,8 @@
 		"PositiveColor"			"bh_HealColor"
 		"NegativeColor"			"bh_DamageColor"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"RobotoCondensed24Outline"
-		"delta_item_font_big"	"RobotoCondensed24Outline"
+		"delta_item_font"		"LatoSemibold24Outline"
+		"delta_item_font_big"	"LatoSemibold24Outline"
 	}
 	
 	"DamageAccountValue"
@@ -27,7 +27,7 @@
 		"labelText"				"%metal%"
 		"textAlignment"			"center"
 		"fgcolor"				"bh_hudDMGDisplay"
-		"font"					"RobotoCondensed24"
+		"font"					"LatoSemibold24"
 	}
 	
 	"DamageAccountValueBG"
@@ -44,6 +44,6 @@
 		"labelText"				"%metal%"
 		"textAlignment"			"center"
 		"fgcolor"				"bh_black"
-		"font"					"RobotoCondensed24"
+		"font"					"LatoSemibold24"
 	}
 }

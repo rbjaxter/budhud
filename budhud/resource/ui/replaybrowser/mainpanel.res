@@ -137,7 +137,7 @@
 		{
 			"textinsetx"		"25"
 			"textAlignment"		"center"
-			"font"				"RobotoCondensed32"
+			"font"				"LatoSemibold32"
 			"ypos"				"50"
 			"selectedcolor"		"bh_white"
 			"unselectedcolor"	"bh_white"	
@@ -162,7 +162,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Back (&Q)"
-		"font"			"RobotoCondensed10"
+		"font"			"LatoSemibold10"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

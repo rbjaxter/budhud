@@ -9,6 +9,6 @@
 		"PositiveColor"			"bh_HealthPickup"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		".6"
-		"delta_item_font"		"RobotoCondensed24"
+		"delta_item_font"		"LatoSemibold24"
 	}
 }

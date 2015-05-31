@@ -40,9 +40,9 @@
 		"zpos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
-        "enabled"			"0"
+        "enabled"			"1"
         
-        "visible"			"0"			  			//"1" to enable
+        "visible"			"1"			  			//"1" to enable
         
 		"labeltext"			"f"           			//Change this to use a different crosshair
 													//You can see the list of crosshairs in Crosshairs.png
@@ -793,7 +793,7 @@
 	CHealthAccountPanel	
 	{	
 		"fieldName"					"CHealthAccountPanel"
-		"xpos"						"c-115"
+		"xpos"						"c-110"
 		"ypos"						"r141"
 		"wide"						"116"
 		"tall"  					"180"
@@ -1055,7 +1055,7 @@
 		"CornerRadius"	 	 		"3"
 		"RightJustify"	 	 		"1"	// If 1, draw notices from the right
 			
-		"TextFont"					"RobotoCondensed12"
+		"TextFont"					"LatoSemibold12"
 			
 		"TeamBlue"					"HUDBlueTeamSolid"
 		"TeamRed"					"HUDRedTeamSolid"

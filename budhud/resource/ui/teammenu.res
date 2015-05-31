@@ -86,7 +86,7 @@
 		"team"							"3"		// team blue
 		"associated_model"				"bluedoor"
 		"hover"							".1"
-		"font"							"RobotoCondensed10"
+		"font"							"LatoSemibold10"
 		"armedfgcolor_override"			"bh_orange"
 		"defaultfgcolor_override"		"bh_white"
 	}
@@ -114,7 +114,7 @@
 		"team"							"2"		// team red
 		"associated_model"				"reddoor"	
 		"hover"							".1"
-		"font"							"RobotoCondensed10"
+		"font"							"LatoSemibold10"
 		"armedfgcolor_override"			"bh_orange"
 		"defaultfgcolor_override"		"bh_white"
 	}
@@ -140,7 +140,7 @@
 		"paintborder"					"0"
 		"command"						"jointeam auto"
 		"associated_model"				"autodoor"
-		"font"							"RobotoCondensed10"
+		"font"							"LatoSemibold10"
 		"armedfgcolor_override"			"bh_orange"
 		"defaultfgcolor_override"		"bh_white"
 	}
@@ -165,7 +165,7 @@
 		"paintborder"					"0"
 		"command"						"jointeam auto"
 		"associated_model"				"autodoor"
-		"font"							"RobotoCondensed20"
+		"font"							"LatoSemibold20"
 		"armedfgcolor_override"			"bh_orange"
 		"defaultfgcolor_override"		"bh_white"
 	}
@@ -191,7 +191,7 @@
 		"paintborder"					"0"
 		"command"						"jointeam spectate"
 		"associated_model"				"spectate"	
-		"font"							"RobotoCondensed10"
+		"font"							"LatoSemibold10"
 		"armedfgcolor_override"			"bh_orange"
 		"defaultfgcolor_override"		"bh_white"
 	}
@@ -216,7 +216,7 @@
 		"paintborder"					"0"
 		"command"						"jointeam spectate"
 		"associated_model"				"spectate"	
-		"font"							"RobotoCondensed20"
+		"font"							"LatoSemibold20"
 		"armedfgcolor_override"			"bh_orange"
 		"defaultfgcolor_override"		"bh_white"
 	}
@@ -237,7 +237,7 @@
 		"labelText"						"CANCEL (0)"
 		"textAlignment"					"center"
 		"Command"						"cancelmenu"
-		"font"							"RobotoCondensed12"
+		"font"							"LatoSemibold12"
 		"paintbackground"				"0"
 		"armedfgcolor_override"			"bh_orange"
 		"defaultfgcolor_override"		"bh_white"
@@ -377,7 +377,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"1"
-		"font"					"RobotoCondensed20"
+		"font"					"LatoSemibold20"
 		"fgcolor_override"		"bh_white"
 	}		
 	
@@ -398,7 +398,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"1"
-		"font"					"RobotoCondensed20"
+		"font"					"LatoSemibold20"
 		"fgcolor_override"		"bh_white"
 	}	
 	

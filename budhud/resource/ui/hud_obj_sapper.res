@@ -60,7 +60,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"RobotoCondensed12"
+			"font"			"LatoSemibold12"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"

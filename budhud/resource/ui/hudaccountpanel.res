@@ -8,7 +8,7 @@
 		"PositiveColor"			"bh_orange"
 		"NegativeColor"			"bh_red"
 		"delta_lifetime"		".7"
-		"delta_item_font"		"RobotoCondensed16"
+		"delta_item_font"		"LatoSemibold16"
 	}
 	
 	"AccountBG"
@@ -64,7 +64,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"RobotoCondensed24"
+		"font"					"LatoSemibold24"
 		"fgcolor_override"		"bh_white"
 	}
 	"AccountValueShadow"
@@ -85,7 +85,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"RobotoCondensed24"
+		"font"					"LatoSemibold24"
 		"fgcolor_override"		"bh_black"
 	}
 }

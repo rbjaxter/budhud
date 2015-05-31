@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"RobotoCondensed24"
+		"font"			"LatoSemibold24"
 		"fgcolor"		"bh_orange"
 	}
 	
@@ -65,7 +65,7 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
-		"font"			"RobotoCondensed16"
+		"font"			"LatoSemibold16"
 		"fgcolor"		"bh_white"
 	}	
 	
@@ -73,7 +73,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"RobotoCondensed12"
+		"font"			"LatoSemibold12"
 		"xpos"			"c-170"
 		"ypos"			"c-66" 
 		"zpos"			"3"
@@ -159,7 +159,7 @@
 		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"RobotoCondensed20"
+		"font"			"LatoSemibold20"
 		"paintbackground"	"0"
 		
 		"fgcolor"					"bh_white"
@@ -188,7 +188,7 @@
 		"brighttext"	"0"
 		"command"		"intro"
 		"default"		"1"
-		"font"			"RobotoCondensed14"
+		"font"			"LatoSemibold14"
 		"paintbackground"	"0"
 
 		"fgcolor"					"bh_white"
@@ -216,7 +216,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"RobotoCondensed20"
+		"font"			"LatoSemibold20"
 		"paintbackground"	"0"
 		
 		"fgcolor"					"bh_white"
@@ -243,7 +243,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"RobotoCondensed14"
+		"font"			"LatoSemibold14"
 		"paintbackground"	"0"
 		
 		"fgcolor"					"bh_white"

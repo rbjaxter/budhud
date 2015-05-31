@@ -72,7 +72,7 @@
 		"labeltext"			"%health%"
 		"textAlignment"		"center"
 		"fgcolor_override"	"bh_white"
-		"font"				"RobotoCondensed16"
+		"font"				"LatoSemibold16"
 	}
 	"PlayerStatusPlayerLevel"
 	{

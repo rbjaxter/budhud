@@ -50,7 +50,7 @@
         {
                 "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoInClip"
-                "font"                  "RobotoCondensed48"
+                "font"                  "LatoSemibold48"
                 "fgcolor"               "bh_AmmoInClip"
                 "xpos"                  "0"
                 "ypos"                  "0"
@@ -67,7 +67,7 @@
         {
                 "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoInClipShadow"
-                "font"                  "RobotoCondensed48"
+                "font"                  "LatoSemibold48"
                 "fgcolor"               "bh_black"
                 "xpos"                  "1"
                 "ypos"                  "1"
@@ -84,7 +84,7 @@
         {
                 "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoInReserve"
-                "font"                  "RobotoCondensed24"
+                "font"                  "LatoSemibold24"
                 "fgcolor"               "bh_AmmoReserve"
                 "xpos"                  "125"
                 "ypos"                  "-8"
@@ -100,7 +100,7 @@
         {
                 "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoInReserveShadow"
-                "font"                  "RobotoCondensed24"
+                "font"                  "LatoSemibold24"
                 "fgcolor"               "bh_black"
                 "xpos"                  "126"
                 "ypos"                  "-7"
@@ -116,7 +116,7 @@
         {
                 "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoNoClip"
-                "font"                  "RobotoCondensed48"
+                "font"                  "LatoSemibold48"
                 "fgcolor"               "bh_AmmoInClip"
                 "xpos"                  "0"
                 "ypos"                  "0"
@@ -133,7 +133,7 @@
         {
                 "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoNoClipShadow"
-                "font"                  "RobotoCondensed48"
+                "font"                  "LatoSemibold48"
                 "fgcolor"               "bh_black"
                 "xpos"                  "1"
                 "ypos"                  "1"

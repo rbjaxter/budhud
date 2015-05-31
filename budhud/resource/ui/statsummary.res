@@ -47,7 +47,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"MapLabel"
-		"font"				"RobotoCondensed48"
+		"font"				"LatoSemibold48"
 		"labelText"			"%maplabel%"
 		"textAlignment"		"west"
 		"xpos"				"c-420"

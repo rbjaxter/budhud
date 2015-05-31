@@ -45,7 +45,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamLabel"
-			"font"				"RobotoCondensed24"
+			"font"				"LatoSemibold24"
 			"labelText"			"%blueteamname%"
 			"textAlignment"		"west"
 			"xpos"				"4"
@@ -62,7 +62,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamScore"
-			"font"				"RobotoCondensed40"
+			"font"				"LatoSemibold40"
 			"labelText"			"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"				"15"
@@ -79,7 +79,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamScoreDropshadow"
-			"font"				"RobotoCondensed40"
+			"font"				"LatoSemibold40"
 			"labelText"			"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"				"17"
@@ -97,7 +97,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamLabel"
-			"font"				"RobotoCondensed24"
+			"font"				"LatoSemibold24"
 			"labelText"			"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"				"122"
@@ -114,7 +114,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamScore"
-			"font"				"RobotoCondensed40"
+			"font"				"LatoSemibold40"
 			"labelText"			"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"				"105"
@@ -131,7 +131,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamScoreDropshadow"
-			"font"				"RobotoCondensed40"
+			"font"				"LatoSemibold40"
 			"labelText"			"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"				"107"
@@ -187,7 +187,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"RobotoCondensed20"
+		"font"			"LatoSemibold20"
 		"xpos"			"10"
 		"ypos"			"54"
 		"zpos"			"1"
@@ -206,7 +206,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
-		"font"			"RobotoCondensed20"
+		"font"			"LatoSemibold20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"11"
 		"ypos"			"55"
@@ -226,7 +226,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabel"
-		"font"			"RobotoCondensed20"
+		"font"			"LatoSemibold20"
 		"xpos"			"10"
 		"ypos"			"59"
 		"zpos"			"1"
@@ -245,7 +245,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabelDropshadow"
-		"font"			"RobotoCondensed20"
+		"font"			"LatoSemibold20"
 		"fgcolor"		"black"
 		"xpos"			"10"
 		"ypos"			"60"
@@ -265,7 +265,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"RobotoCondensed12"
+		"font"			"LatoSemibold12"
 		"xpos"			"6969"
 		"ypos"			"6969"
 		"zpos"			"1"
@@ -284,7 +284,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"RobotoCondensed9"
+		"font"			"LatoSemibold9"
 		"xpos"			"10"
 		"ypos"			"82"
 		"zpos"			"1"
@@ -320,7 +320,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TopPlayerLabel"
-		"font"			"RobotoCondensed9"
+		"font"			"LatoSemibold9"
 		"xpos"			"15"
 		"ypos"			"100"
 		"zpos"			"3"
@@ -339,7 +339,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"RobotoCondensed9"
+		"font"			"LatoSemibold9"
 		"xpos"			"45"
 		"ypos"			"100"
 		"zpos"			"3"
@@ -583,7 +583,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakLeaderLabel"
-		"font"			"RobotoCondensed9"
+		"font"			"LatoSemibold9"
 		"xpos"			"15"
 		"ypos"			"164"
 		"zpos"			"3"
@@ -603,7 +603,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakMaxCountLabel"
-		"font"			"RobotoCondensed9"
+		"font"			"LatoSemibold9"
 		"xpos"			"116"
 		"ypos"			"0"
 		"zpos"			"3"

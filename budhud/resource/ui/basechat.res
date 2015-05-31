@@ -62,7 +62,7 @@
 		"enabled"		          	"1"
 		"labelText"		        	""
 		"textAlignment"		    	"south-west"
-		"font"			          	"RobotoCondensed12"
+		"font"			          	"LatoSemibold12"
 		"maxchars"		        	"-1"
 	}
 }

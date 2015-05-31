@@ -66,7 +66,7 @@
 		"enabled"				"1"
 		"labelText"			"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"					"RobotoCondensed24"
+		"font"					"LatoSemibold24"
 	}
 	"BuyBackLabel"
 	{
@@ -82,7 +82,7 @@
 		"enabled"				"1"
 		"labelText"			""
 		"textAlignment"		"center"
-		"font"					"RobotoCondensed24"
+		"font"					"LatoSemibold24"
 		"wrap"					"1"
 		"centerwrap"			"1"
 	}
@@ -305,7 +305,7 @@
 		{	
 			"ControlName"					"CExLabel"
 			"fieldName"						"ItemLabel"
-			"font"								"RobotoCondensed12"
+			"font"								"LatoSemibold12"
 			"xpos"								"10"
 			"ypos"								"5"
 			"zpos"								"1"

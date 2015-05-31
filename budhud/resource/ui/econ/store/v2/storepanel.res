@@ -135,7 +135,7 @@
 		{
 			"textinsetx"		"25"
 			"textAlignment"		"center"
-			"font"				"RobotoCondensed20"
+			"font"				"LatoSemibold20"
 			"ypos"				"50"
 			"selectedcolor"		"bh_white"
 			"unselectedcolor"	"TanDark"	

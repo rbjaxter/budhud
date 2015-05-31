@@ -49,7 +49,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"RobotoCondensed16"
+		"font"			"LatoSemibold16"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"10"

@@ -20,7 +20,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"WarningLabel"
-		"font"			"RobotoCondensed48"
+		"font"			"LatoSemibold48"
 		"xpos"			"45"
 		"ypos"			"18"
 		"zpos"			"1"
@@ -38,7 +38,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"RobotoCondensed24"
+		"font"			"LatoSemibold24"
 		"xpos"			"75"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -58,7 +58,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabelTip"
-		"font"			"RobotoCondensed16"
+		"font"			"LatoSemibold16"
 		"xpos"			"75"
 		"ypos"			"34"
 		"zpos"			"1"

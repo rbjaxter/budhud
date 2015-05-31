@@ -23,7 +23,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
-			"font"				"RobotoCondensed20"
+			"font"				"LatoSemibold20"
 			"fgcolor"			"bh_white"
 			"xpos"				"28"
 			"ypos"				"-6"
@@ -60,7 +60,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
-			"font"				"RobotoCondensed20"
+			"font"				"LatoSemibold20"
 			"fgcolor"			"bh_white"
 			"xpos"				"28"
 			"ypos"				"-6"

@@ -50,7 +50,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"RobotoCondensed9"
+		"font"					"LatoSemibold9"
 		"fgcolor_override"		"bh_gray"
 	}
 

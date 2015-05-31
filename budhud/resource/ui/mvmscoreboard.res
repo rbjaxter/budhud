@@ -32,7 +32,7 @@
 	{
 		"ControlName"					"CExLabel"
 		"fieldName"						"PopFileLabel"
-		"font"							"RobotoCondensed16"
+		"font"							"LatoSemibold16"
 		"labelText"						"%popfile%"
 		"textAlignment"					"west"
 		"xpos"							"275"
@@ -56,7 +56,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldName"					"DifficultyLabel"
-			"font"						"RobotoCondensed12"
+			"font"						"LatoSemibold12"
 			"labelText"					"#TF_MvM_Difficulty"
 			"textAlignment"				"center"
 			"xpos"						"6969"		// 0
@@ -70,7 +70,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldName"					"DifficultyValue"
-			"font"						"RobotoCondensed12"
+			"font"						"LatoSemibold12"
 			"labelText"					"%difficultyvalue%"
 			"textAlignment"				"center"
 			"xpos"						"0"
@@ -118,7 +118,7 @@
 		"autoresize"					"3"
 		"linespacing"					"22"
 		"textcolor"						"White"
-		"font"							"RobotoCondensed24"
+		"font"							"LatoSemibold24"
 	}
 	
 	"CreditStatsContainer"
@@ -157,7 +157,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldName"					"CreditsLabel"
-			"font"						"RobotoCondensed16"
+			"font"						"LatoSemibold16"
 			"labelText"					"#TF_PVE_Currency"
 			"textAlignment" 			"center"
 			"xpos"						"6969"
@@ -218,7 +218,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldName"					"RespecStatusLabel"
-			"font"						"RobotoCondensed10"
+			"font"						"LatoSemibold10"
 			"labelText"					"%respecstatus%"
 			"textAlignment" 			"east"
 			"xpos"						"172"

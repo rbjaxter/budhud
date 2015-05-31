@@ -117,7 +117,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"RobotoCondensed10"
+				"font"			"LatoSemibold10"
 				"xpos"			"50"
 				"ypos"			"1"
 				"zpos"			"5"
@@ -227,7 +227,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"respawntime"
-				"font"				"RobotoCondensed14"
+				"font"				"LatoSemibold14"
 				"xpos"				"19"
 				"ypos"				"-7"
 				"zpos"				"5"
@@ -262,7 +262,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"RobotoCondensed12"
+				"font"			"LatoSemibold12"
 				"xpos"			"130"
 				"ypos"			"2"
 				"zpos"			"6"
@@ -279,7 +279,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamountBG"
-				"font"			"RobotoCondensed12"
+				"font"			"LatoSemibold12"
 				"xpos"			"131"
 				"ypos"			"3"
 				"zpos"			"6"
@@ -351,7 +351,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"RobotoCondensed24"
+		"font"			"LatoSemibold24"
 		
 		if_mvm
 		{
@@ -373,7 +373,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"RobotoCondensed20"
+		"font"			"LatoSemibold20"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	
@@ -508,7 +508,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"RobotoCondensed12"
+			"font"			"LatoSemibold12"
 			"xpos"			"10"
 			"ypos"			"5"
 			"zpos"			"1"
