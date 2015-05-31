@@ -13,9 +13,9 @@ To download this hud, click the "Download ZIP" button to the right. Alternativel
 https://github.com/WhiskerBiscuit/budhud/archive/master.zip
 
 ### Installing
-After extracting the hud, navigate to: `/Steam/steamapps/common/team fortress 2/tf/custom` and move the **2ND** "budhud" folder into your custom folder.
+After extracting the hud, navigate to: `\Steam\steamapps\common\team fortress 2\tf\custom\` and move the "budhud" folder into your custom folder (NOT "budhud-master").
 
-Your directory should then look like this: `/Steam/steamapps/common/team fortress 2/tf/custom/budhud` and contain `Customization`, `materials`, `resource`, and `scripts`
+Your directory should then look like this: `\Steam\steamapps\common\team fortress 2\tf\custom\budhud` and contain `_Customization_`, `materials`, `resource`, and `scripts`
 
 Customization
 =============
@@ -23,7 +23,7 @@ Customization
 Health, ammo, damage account, and crosshair colors can be changed in `\budhud\resource\clientscheme.res`.
 
 ### Custom Crosshairs
-To access the custom crosshairs, navigate to `\budhud\scripts\hudlayout.res`. I've included whayay's, fog's, Garm3n's & konr's crosshairs. If I'm missing crosshairs or you find any bugs with them, let me know.
+To access the custom crosshairs, navigate to `\budhud\scripts\hudlayout.res`. I've included whayay's, fog's, Garm3n's & konr's crosshairs. To view the available crosshairs, navigate to `_Customization_\Custom Crosshairs`. You can also find instructions on use there. For an in-depth explanation of custom crosshairs, check out this guide: http://huds.tf/forum/showthread.php?tid=23
 
 ##### whayay's crosshairs
 Whayay's crosshairs can be seen in `\budhud\_Customization_\whayay's crosshairs.png`. Note the letter underneath the crosshair you want to use. Then, go to your hudlayout.res and find "labeltext" under the first section at the top. Change "f" to whatever letter is associated with the crosshair you would like to use.
