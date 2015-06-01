@@ -53,7 +53,7 @@
 		"xpos"				"c-420"
 		"ypos"				"c-270"
 		"zpos"				"50"
-		"wide"				"350"
+		"wide"				"500"
 		"tall"				"100"
 		"autoResize"		"0"
 		"pinCorner"			"0"

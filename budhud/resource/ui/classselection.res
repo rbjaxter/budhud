@@ -89,7 +89,7 @@
 		}				
 	}
 		
-	"Offense"
+	"1"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Offense"
@@ -97,8 +97,7 @@
 		"ypos"			"c44"
 		"zpos"			"5"
 		"wide"			"90"
-		"tall"			"12"
-		"tall_lodef"			"22"
+		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -297,7 +296,7 @@
 		"ypos"			"c44"
 		"zpos"			"5"
 		"wide"			"90"
-		"tall"			"12"
+		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -495,7 +494,7 @@
 		"ypos"			"c44"
 		"zpos"			"5"
 		"wide"			"90"
-		"tall"			"12"
+		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
