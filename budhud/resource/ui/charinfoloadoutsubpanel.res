@@ -283,8 +283,8 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"..\hud\backpack_01"
-		"inactiveimage"		"..\hud\backpack_01_grey"
+		"activeimage"		"../hud/backpack_01"
+		"inactiveimage"		"../hud/backpack_01_grey"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	

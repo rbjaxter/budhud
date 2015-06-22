@@ -4933,4 +4933,5 @@ Scheme
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
+	}
 }

@@ -17,7 +17,7 @@ Scheme
 			
 		// TF2								
 	    "TFDarkBrown"        							"60 56 53 255"
-	    "TFDarkBrownTranspare							"60 56 53 190"
+	    "TFDarkBrownTransparent"							"60 56 53 190"
 	    "TFTanBright"        							"236 227 203 150"
 	    "TFbh_white"         							"201 188 162 150"
 	    "TFTanMedium"        							"131 121 104 150"
@@ -36,7 +36,7 @@ Scheme
 			
 	    "TFMediumBrown"									"69 64 58 255"
 			
-	    "QuickListBGDeselecte							"69 64 58 255"
+	    "QuickListBGDeselected"							"69 64 58 255"
 	    "QuickListBGSelected"							"131 121 104 150"
 					
 	    "Blank"											"0 0 0 0"
@@ -53,7 +53,7 @@ Scheme
 		// scheme-specific colors			
 		Border.Bright									"200 200 200 196"
 		Border.Dark										"40 40 40 196"
-		Border.Selection								"0 0 0 196"default/selected button
+		Border.Selection								"0 0 0 196"			// default/selected button
 				
 		Button.TextColor								"196 196 196 255"
 		Button.BgColor									"120 120 120 128"
@@ -330,7 +330,6 @@ Scheme
 		}
     }
 
-	}
 	CustomFontFiles
 	{
 		"9"

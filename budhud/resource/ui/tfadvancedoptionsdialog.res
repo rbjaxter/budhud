@@ -1,4 +1,4 @@
-"Resource\UI\TFAdvancedOptionsDialog.res"
+"Resource/UI/TFAdvancedOptionsDialog.res"
 {
 	"TFAdvancedOptionsDialog"
 	{
