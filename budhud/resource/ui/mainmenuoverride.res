@@ -1622,7 +1622,7 @@
 			"brighttext"					"0"
 			"default"						"1"
 	
-			"sound_depressed"				"ui/quack.wav"
+			"sound_depressed"				"ui\quack.wav"
 			"sound_released"				""
 	
 			"border_default"				""

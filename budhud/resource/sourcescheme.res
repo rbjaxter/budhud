@@ -17,7 +17,7 @@ Scheme
 			
 		// TF2								
 	    "TFDarkBrown"        							"60 56 53 255"
-	    "TFDarkBrownTransparent"							"60 56 53 190"
+	    "TFDarkBrownTransparent"						"60 56 53 190"
 	    "TFTanBright"        							"236 227 203 150"
 	    "TFbh_white"         							"201 188 162 150"
 	    "TFTanMedium"        							"131 121 104 150"
@@ -330,6 +330,7 @@ Scheme
 		}
     }
 
+	}
 	CustomFontFiles
 	{
 		"9"

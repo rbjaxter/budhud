@@ -4902,10 +4902,9 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"7" // budhud font
-			// Previous fonts: Designosaur, Roboto Condensed Regular
+		"7" //budhud font
 		{
-			"font"	"resource/fonts/Lato-Semibold.ttf"
+			"font"	"resource/fonts/LatoSemibold.ttf"
 			"name"	"Lato Semibold"
 		}
 		"8" // Fog's xHairs

@@ -89,7 +89,7 @@
 		}				
 	}
 		
-	"1"
+	"Offense"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Offense"
