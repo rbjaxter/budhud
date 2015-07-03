@@ -2752,6 +2752,107 @@
 		}				
 	}			
 
+	"DemoUIButton"
+	{
+		"ControlName"				"CExImageButton"
+		"fieldName"					"DemoUIButton"
+		"xpos"						"40"
+		"ypos"						"430"
+		"zpos"						"1"
+		"wide"						"70"
+		"tall"						"16"
+		"autoResize"				"0"
+		"pinCorner"					"3"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"DemoUI"
+		"font"						"LatoSemibold18"
+		"textAlignment"				"west"
+		"textinsetx"				"35"
+		"use_proportional_insets" 	"1"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"default"					"1"
+		"paintbackground"			"0"
+		"Command"					"engine demoui"
+		
+		"defaultFgColor_override" 	"bh_white"
+		"armedFgColor_override" 	"bh_orange"
+		"depressedFgColor_override" "bh_orange"		
+		
+		"sound_depressed"			"ui/buttonclick.wav"
+		"sound_released"			"ui/buttonclickrelease.wav"
+		
+		"image_drawcolor"			"bh_white"
+		"image_armedcolor"			"bh_orange"
+		"SubImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SubImage"
+			"xpos"					"16"
+			"ypos"					"6"
+			"zpos"					"1"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"scaleImage"			"1"
+			"image"					"glyph_quit"
+		}				
+	}
+
+	"ConsoleButton"
+	{
+		"ControlName"				"CExImageButton"
+		"fieldName"					"ConsoleButton"
+		"xpos"						"75"
+		"ypos"						"430"
+		"zpos"						"1"
+		"wide"						"70"
+		"tall"						"16"
+		"autoResize"				"0"
+		"pinCorner"					"3"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"Console"
+		"font"						"LatoSemibold18"
+		"textAlignment"				"west"
+		"textinsetx"				"35"
+		"use_proportional_insets" 	"1"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"default"					"1"
+		"paintbackground"			"0"
+		"Command"					"engine toggleconsole"
+		
+		"defaultFgColor_override" 	"bh_white"
+		"armedFgColor_override" 	"bh_orange"
+		"depressedFgColor_override" "bh_orange"		
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"			"bh_white"
+		"image_armedcolor"			"bh_orange"
+		"SubImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SubImage"
+			"xpos"					"16"
+			"ypos"					"6"
+			"zpos"					"1"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"scaleImage"			"1"
+			"image"					"glyph_quit"
+		}				
+	}
+	
+	
 	"DisconnectButton"
 	{
 		"ControlName"						"CExImageButton"

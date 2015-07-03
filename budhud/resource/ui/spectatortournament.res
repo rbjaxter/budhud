@@ -10,14 +10,14 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 				
-		"team1_player_base_offset_x"		"-367"
-		"team1_player_base_y"				"460"
+		"team1_player_base_offset_x"		"c0"		// -367
+		"team1_player_base_y"				"200"		// 460
 		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"-16"
-		"team2_player_base_offset_x"		"207"
-		"team2_player_base_y"				"460"
+		"team1_player_delta_y"				"-18"
+		"team2_player_base_offset_x"		"c0"		// 207
+		"team2_player_base_y"				"350"		// 460
 		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"-16"
+		"team2_player_delta_y"				"-18"
 		
 		"playerpanels_kv"
 		{
@@ -60,8 +60,8 @@
 			"tall" 			"18"
 			"autoResize" 	"0"
 			"pinCorner"		"0"
-			"visible" 		"1"
-			"enabled" 		"1"
+			"visible" 		"0"
+			"enabled" 		"0"
 			"fillcolor" 	"15 15 15 255"
 			}
 			
@@ -76,8 +76,8 @@
 			"tall" 			"3"
 			"autoResize" 	"0"
 			"pinCorner"		"0"
-			"visible" 		"1"
-			"enabled" 		"1"
+			"visible" 		"0"
+			"enabled" 		"0"
 			"fillcolor" 	"15 15 15 255"
 			}
 			
@@ -92,8 +92,8 @@
 			"tall" 			"4"
 			"autoResize" 	"0"
 			"pinCorner"		"0"
-			"visible" 		"1"
-			"enabled" 		"1"
+			"visible" 		"0"
+			"enabled" 		"0"
 			"fillcolor" 	"15 15 15 255"
 			}
 			
@@ -108,8 +108,8 @@
 			"tall" 			"16"
 			"autoResize" 	"0"
 			"pinCorner"		"0"
-			"visible" 		"1"
-			"enabled" 		"1"
+			"visible" 		"0"
+			"enabled" 		"0"
 			"fillcolor" 	"15 15 15 255"
 			}
 		
@@ -247,7 +247,7 @@
 				"fieldName"		"healthcover"
 				"font"			"Blocks48"
 				"xpos"			"22"
-				"ypos"			"1"
+				"ypos"			"0"
 				"zpos"			"5"
 				"wide"			"26"
 				"tall"			"20"
