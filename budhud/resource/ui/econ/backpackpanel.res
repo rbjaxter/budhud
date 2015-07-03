@@ -124,18 +124,17 @@
 			{
 				"use_item_rendertarget" 	"0"
 				"allow_rot"					"0"
-				"inventory_image_type"		"1"
 			}
 			
 			"New"
 			{
 			"ControlName" 					"CExLabel"
 			"fieldName" 					"New"
-			"font" 							"FontStorePrice"
+			"font" 							"LatoSemibold10"
 			"textAlignment" 				"east"
 			"xpos" 							"rs1"
 			"zpos" 							"15"
-			"wide" 							"25"
+			"wide" 							"30"
 			"tall" 							"12"
 			"textinsetx" 					"8"
 			"autoResize" 					"1"
@@ -402,7 +401,7 @@
 		"tall"			"42"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"255 255 255 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
