@@ -1,5 +1,6 @@
 "Resource/UI/ItemModelPanel.res"
-{	
+{
+
 	"mouseoveritempanel"
 	{
 		"fieldName"				"mouseoveritempanel"
@@ -9,11 +10,15 @@
 		"text_xpos_collection"	"0"
 		"text_ypos"			"15"
 		"text_forcesize" "0"
+		//"model_xpos_collection"	"77"
+		//"model_ypos_collection"	"20"
+		//"model_wide_collection"	"156"
+		//"model_tall_collection"	"100"
 	}
-	
+
 	"LoadingSpinner"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"LoadingSpinner"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -29,32 +34,33 @@
 		"scaleImage"	"1"
 	}
 	
+	
 	"MainContentsContainer"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"MainContentsContainer"
+		"fieldName"		"MainContentsContainer"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"bgcolor_override" "0 0 0 0"
-		
+		"bgcolor_override"		"0 0 0 0"
+	
 		"itemmodelpanel"
 		{
-			"ControlName" "CEmbeddedItemModelPanel"
-			"fieldName"	  "itemmodelpanel"
-			
-			"xpos"		"0"
-			"ypos"		"0"
-			"zpos"		"1"
-			"wide"		"140"
-			"tall"		"100"
-			"autoresize" "0"
-			"pinCorner"	"0"
-			"visible"	"1"
-			"enabled"   "1"
-			"useparentbg" "1"
+			"ControlName"		"CEmbeddedItemModelPanel"
+			"fieldName"		"itemmodelpanel"
+		
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"		
+			"wide"			"140"
+			"tall"			"100"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"useparentbg"		"1"
 			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
@@ -72,7 +78,6 @@
 			}
 		}
 		
-	
 		"namelabel"
 		{
 			"ControlName"	"CExLabel"
@@ -111,7 +116,7 @@
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
-	
+		
 		"equippedlabel"
 		{
 			"ControlName"	"CExLabel"
@@ -134,7 +139,7 @@
 			"PaintBackgroundType"	"0"
 			"border"		"NoBorder"
 		}
-	
+		
 		"paint_icon"
 		{
 			"ControlName"	"CItemMaterialCustomizationIconPanel"
@@ -153,11 +158,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"quantitylabel"
-			"font"			"LatoSemibold10"
+			"font"			"LatoSemibold12"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
-			"wide"			"10"
+			"wide"			"18"
 			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -175,11 +180,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"serieslabel"
-			"font"			"LatoSemibold10"
+			"font"			"LatoSemibold12"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
-			"wide"			"14"
+			"wide"			"18"
 			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -188,7 +193,7 @@
 			"labelText"		""
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
-			"bgcolor_override"		"0 0 0 255"
+			"bgcolor_override"		"0 40 30 255"
 			"PaintBackgroundType"	"0"
 			"border"		"NoBorder"
 		}
@@ -197,11 +202,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"matcheslabel"
-			"font"			"LatoSemibold10"
+			"font"			"ItemFontAttribSmall"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
-			"wide"			"20"
+			"wide"			"24"
 			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -209,15 +214,33 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"center"
+			"border"		"NoBorder"
 			"fgcolor"		"200 180 60 255"
-			"bgcolor_override"		"0 0 0 255"
+			"bgcolor_override"		"0 40 30 255"
 			"PaintBackgroundType"	"2"
-		}
+			}
 
 		"vision_restriction_icon"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"vision_restriction_icon"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"2"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"wide"			"20"
+			"border"		"NoBorder"
+			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			}
+
+		"is_strange_icon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"is_strange_icon"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -229,7 +252,21 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-
+		"is_unusual_icon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"is_unusual_icon"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"2"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+			"scaleImage"	"1"
+		}
 		"contained_item_panel"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -244,9 +281,9 @@
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			"useparentbg"	"0"
-		
+			
 			"enabled"		"1"
-		
+			
 			"model_xpos"	"1"
 			"model_ypos"	"1"
 			"model_wide"	"16"
@@ -254,16 +291,16 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"model_only"	"1"
-		
+			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-		
+			
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
-		
+			
 			"use_item_sounds"	"1"
 		}
 	}
