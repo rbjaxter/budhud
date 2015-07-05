@@ -1,4 +1,4 @@
-"Resource/UI/SpectatorGUIHealth.res"
+"resource/ui/SpectatorGUIHealth.res"
 {
 	"PlayerStatusHealthImage"
 	{

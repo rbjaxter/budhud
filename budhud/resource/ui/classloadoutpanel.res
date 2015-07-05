@@ -1,4 +1,4 @@
-"Resource/UI/FullLoadoutPanel.res"
+"resource/ui/FullLoadoutPanel.res"
 {
 	"class_loadout_panel"
 	{
@@ -460,84 +460,7 @@
 		"bgcolor_override"		"69 64 63 0"
 		"PaintBackgroundType"	"0"
 	}
-	"RedButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"RedButton"
-//		"xpos"				"c-40"
-//		"ypos"				"35"
-		"xpos"				"c5"
-		"ypos"				"22"
-		"zpos"				"12"	
-		"wide"				"80"
-		"tall"				"20"
-		"autoResize"		"1"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"RED Team"
-		"textAlignment"		"center"
-		"font"				"LatoSemibold16"
-		"scaleImage"		"1"
-		"command"			"sv_cheats 1;r_skin 0"
-		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override" "250 68 17 255"
-		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "250 68 17 255"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"keyboardinputenabled"	"0"
-		
-		"paintbackground"	"1"
-		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
-		"border_depressed"			"NoBorder"
-	}
-	
-	"BlueButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"BlueButton"
-//		"xpos"				"c-40"
-//		"ypos"				"10"
-		"xpos"				"c-85"
-		"ypos"				"22"
-		"zpos"				"12"	
-		"wide"				"80"
-		"tall"				"20"
-		"autoResize"		"1"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"BLU Team"
-		"textAlignment"		"center"
-		"font"				"LatoSemibold16"
-		"scaleImage"		"1"
-		"command"			"sv_cheats 1;r_skin 1"
-		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override" "0 98 255 255"
-		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "0 98 255 255"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"keyboardinputenabled"	"0"
-		
-		"paintbackground"	"1"
-		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
-		"border_depressed"			"NoBorder"
-	}
-	
+
 	"CharacterLoadoutButton"
 	{
 		"ControlName"	"CExImageButton"

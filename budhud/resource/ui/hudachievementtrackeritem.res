@@ -1,4 +1,4 @@
-"Resource/UI/HudAchievementTrackerItem.res"
+"resource/ui/HudAchievementTrackerItem.res"
 {	
 	"HudAchievementTrackerItem"
 	{

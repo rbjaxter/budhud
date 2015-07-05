@@ -1,4 +1,4 @@
-"Resource/UI/StorePanel.res"
+"resource/ui/StorePanel.res"
 {
 	"store_panel"
 	{

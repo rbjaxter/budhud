@@ -1,4 +1,4 @@
-"Resource/UI/HudSpellSelection.res"
+"resource/ui/HudSpellSelection.res"
 {		
 	"ItemEffectMeterBG"
 	{

@@ -1,4 +1,4 @@
-"Resource/UI/ItemSelectionPanel.res"
+"resource/ui/ItemSelectionPanel.res"
 {
 	"ItemSelectionPanel"
 	{

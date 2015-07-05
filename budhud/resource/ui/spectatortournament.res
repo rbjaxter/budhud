@@ -1,4 +1,4 @@
-"Resource/UI/SpectatorTournament.res"
+"resource/ui/SpectatorTournament.res"
 {
 	"specgui"
 	{

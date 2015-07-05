@@ -1,6 +1,6 @@
 #base "HudMiniGame_Soccer.res"
 
-"Resource/UI/HudMiniGame_SuddenDeath.res"
+"resource/ui/HudMiniGame_SuddenDeath.res"
 {
 	"PlayingTo"
 	{

@@ -1,4 +1,4 @@
-"Resource/UI/hudmannvsmachinestatus.res"
+"resource/ui/hudmannvsmachinestatus.res"
 {	
 	"WaveStatusPanel"
 	{

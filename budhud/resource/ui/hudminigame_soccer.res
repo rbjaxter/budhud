@@ -1,6 +1,6 @@
 #base "HudMiniGame_Base.res"
 
-"Resource/UI/HudMiniGame_Soccer.res"
+"resource/ui/HudMiniGame_Soccer.res"
 {
 	"GameImage"
 	{

@@ -1,4 +1,4 @@
-"Resource/UI/econ/questeditorpanel.res"
+"resource/ui/econ/questeditorpanel.res"
 {
 	"InspectionPanel"
 	{

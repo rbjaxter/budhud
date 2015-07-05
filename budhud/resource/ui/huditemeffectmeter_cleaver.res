@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Cleaver.res"
+"resource/ui/HudItemEffectMeter_Cleaver.res"
 {
 	HudItemEffectMeter
 	{

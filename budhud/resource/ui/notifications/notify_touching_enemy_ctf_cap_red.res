@@ -1,6 +1,6 @@
 #base "base_notification.res"
 
-"Resource/UI/notifications/notify_touching_enemy_ctf_cap_red.res"
+"resource/ui/notifications/notify_touching_enemy_ctf_cap_red.res"
 {	
 	"Notification_Background"
 	{

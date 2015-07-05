@@ -1,4 +1,4 @@
-"Resource/UI/FlagStatus.res"
+"resource/ui/FlagStatus.res"
 {	
 	"Arrow"
 	{

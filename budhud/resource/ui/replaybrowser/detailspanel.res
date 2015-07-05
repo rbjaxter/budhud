@@ -1,4 +1,4 @@
-"Resource/UI/DetailsPanel.res"
+"resource/ui/DetailsPanel.res"
 {
 	"DetailsPanel"
 	{

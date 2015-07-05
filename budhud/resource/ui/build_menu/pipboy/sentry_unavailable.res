@@ -1,6 +1,6 @@
 #base "base_unavailable.res"
 
-"Resource/UI/build_menu/sentry_unavailable.res"
+"resource/ui/build_menu/sentry_unavailable.res"
 {
 	"ItemNameLabel"
 	{	

@@ -1,4 +1,4 @@
-"Resource/UI/HudObjectiveStatus.res"
+"resource/ui/HudObjectiveStatus.res"
 {	
 	"ObjectiveStatusTimePanel"
 	{

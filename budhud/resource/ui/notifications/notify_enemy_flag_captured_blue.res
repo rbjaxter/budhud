@@ -1,6 +1,6 @@
 #base "base_notification.res"
 
-"Resource/UI/notifications/notify_enemy_flag_captured_blue.res"
+"resource/ui/notifications/notify_enemy_flag_captured_blue.res"
 {	
 	"Notification_Background"
 	{

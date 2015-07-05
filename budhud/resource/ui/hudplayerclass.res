@@ -1,4 +1,4 @@
-"Resource/UI/HudPlayerClass.res"
+"resource/ui/HudPlayerClass.res"
 {
 	// player class data
 	"HudPlayerClass"

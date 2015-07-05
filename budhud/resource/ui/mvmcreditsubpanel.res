@@ -1,4 +1,4 @@
-"Resource/UI/mvmcreditsubpanel.res"
+"resource/ui/mvmcreditsubpanel.res"
 {	
 	"HeaderLabel"
 	{

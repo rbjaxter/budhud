@@ -1,4 +1,4 @@
-"Resource/UI/ItemPickupPanel.res"
+"resource/ui/ItemPickupPanel.res"
 {
 	"item_pickup"
 	{

@@ -1,4 +1,4 @@
-"Resource/UI/PreviewPanel.res"
+"resource/ui/PreviewPanel.res"
 {
 	"PreviewPanel"
 	{

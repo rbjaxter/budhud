@@ -1,4 +1,4 @@
-"Resource/UI/FullLoadoutPanel.res"
+"resource/ui/FullLoadoutPanel.res"
 {
 	"backpack_panel"
 	{
@@ -228,7 +228,7 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"default"			"0"
-		"border"			"CyanBorder"
+		"border"			"NoBorder"
 		
 		"fgcolor_override"	"bh_white"
 		"bgcolor_override"	"0 0 0 0"

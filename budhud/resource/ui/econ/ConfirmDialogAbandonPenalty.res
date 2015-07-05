@@ -1,4 +1,4 @@
-"Resource/UI/ConfirmDialogAbandonPenalty.res"
+"resource/ui/ConfirmDialogAbandonPenalty.res"
 {
 	"ConfirmDialog"
 	{
