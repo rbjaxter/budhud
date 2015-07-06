@@ -1,4 +1,4 @@
-"resource/ui/TankStatusPanel.res"
+"Resource/UI/TankStatusPanel.res"
 {
 	"Background"
 	{

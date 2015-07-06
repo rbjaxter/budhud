@@ -1,4 +1,4 @@
-"resource/ui/econ/QuestEditorPanel.res"
+"Resource/UI/econ/QuestEditorPanel.res"
 {
 	"QuestEditor"
 	{

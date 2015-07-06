@@ -1,4 +1,4 @@
-"resource/ui/TeamMenu.res"
+"Resource/UI/TeamMenu.res"
 {
 	"team"
 	{

@@ -1,4 +1,4 @@
-"resource/ui/HealthIconPanel.res"
+"Resource/UI/HealthIconPanel.res"
 {
 	"HealthIcon"
 	{

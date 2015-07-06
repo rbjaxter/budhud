@@ -1,4 +1,4 @@
-"resource/ui/HudTeamGoal.res"
+"Resource/UI/HudTeamGoal.res"
 {
 	"HudTeamGoalBG"
 	{

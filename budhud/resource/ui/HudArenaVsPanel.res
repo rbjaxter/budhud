@@ -1,4 +1,4 @@
-"resource/ui/HudArenaVsPanel.res"
+"Resource/UI/HudArenaVsPanel.res"
 {
 	"bluepanel"
 	{

@@ -1,6 +1,6 @@
 #base "base_unavailable_teleport_target.res"
 
-"resource/ui/build_menu/dispenser_unavailable.res"
+"Resource/UI/build_menu/dispenser_unavailable.res"
 {
 	"ItemNameLabel"
 	{	

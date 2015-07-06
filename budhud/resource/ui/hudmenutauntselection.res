@@ -1,4 +1,4 @@
-"resource/ui/HudMenuTauntSelection.res"
+"Resource/UI/HudMenuTauntSelection.res"
 {
 	"MainBackground"	
 	{

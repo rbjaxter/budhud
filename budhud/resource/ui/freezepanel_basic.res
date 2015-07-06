@@ -1,6 +1,6 @@
-"resource/ui/FreezePanel_Basic.res"
+"Resource/UI/FreezePanel_Basic.res"
 {
-	"FreezePanelBase"
+	"FreezePanelBase"	[$X360]
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
@@ -76,15 +76,18 @@
 		"FreezePanelBG"
 		{
 			"ControlName"		"CTFImagePanel"
-			"fieldName"			"FreezePanelBG"
-			"xpos"				"6969"
-			"ypos"				"6969"
-			"zpos"				"0"
-			"wide"				"266"
-			"tall"				"48"
-			"visible"			"0"
-			"enabled"			"0"
-			"image"				"../hud/color_panel_blu"
+			"fieldName"		"FreezePanelBG"
+			"xpos"			"6969"
+			"xpos_hidef"		"6969"
+			"ypos"			"6969"
+			"ypos_hidef"		"6969"
+			"ypos_lodef"		"6969"
+			"zpos"			"0"
+			"wide"			"266"
+			"tall"			"48"
+			"visible"		"0"
+			"enabled"		"0"
+			"image"			"../hud/color_panel_blu"
 			"scaleImage"		"1"	
 		}
 
@@ -116,7 +119,7 @@
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"HudFontSmall"
-			"xpos"			"c6"
+			"xpos"			"c6"			// No avatar image on X360
 			"xpos_hidef"		"c69"
 			"ypos"			"266"
 			"ypos_hidef"		"266"
@@ -226,7 +229,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"LatoSemibold12"
+			"font"			"LatoSemiBold12"
 			"xpos"			"6969"
 			"ypos"			"6969"
 			"zpos"			"1"
@@ -245,7 +248,7 @@
 	
 	}		
 	
-	"FreezePanelBase"	
+	"FreezePanelBase"	[$WIN32]
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
@@ -296,7 +299,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
-			"font"			"LatoSemibold10"
+			"font"			"LatoSemiBold10"
 			"xpos"			"40"
 			"ypos"			"15"
 			"zpos"			"1"
@@ -320,7 +323,7 @@
 			"ypos"			"6"
 			"zpos"			"1"
 			"wide"			"30"
-			"tall"			"30"
+			"tall"			"50"
 			"visible"		"1"
 			"enabled"		"1"	
 			"HealthBonusPosAdj"	"9"
@@ -334,7 +337,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"LatoSemibold12"
+			"font"			"LatoSemiBold12"
 			"xpos"			"6969"
 			"ypos"			"6969"
 			"zpos"			"1"
@@ -351,7 +354,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller2"
-			"font"			"LatoSemibold12"
+			"font"			"LatoSemiBold12"
 			"xpos"			"42"
 			"ypos"			"30"
 			"zpos"			"1"
@@ -386,7 +389,7 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"NemesisSubPanel"
-			"xpos"			"6969"
+			"xpos"			"6969"		// FIXME
 			"ypos"			"6969"
 			"zpos"			"4"
 			"wide"			"306"

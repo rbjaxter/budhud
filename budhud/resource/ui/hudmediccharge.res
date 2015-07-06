@@ -1,4 +1,4 @@
-"resource/ui/HudMedicCharge.res"
+"Resource/UI/HudMedicCharge.res"
 {	
 	"ChargeLabelNearCrosshair" // Broken with vaccinator
 	{

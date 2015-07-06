@@ -1,6 +1,6 @@
 #base "base_selectable.res"
 
-"resource/ui/build_menu/sentry_selectable.res"
+"Resource/UI/build_menu/sentry_selectable.res"
 {
 	"ItemNameLabel"
 	{	

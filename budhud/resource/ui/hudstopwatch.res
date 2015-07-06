@@ -1,4 +1,4 @@
-"resource/ui/HudStopWatch.res"
+"Resource/UI/HudStopWatch.res"
 {
 	"HudStopWatchBG"
 	{

@@ -1,4 +1,4 @@
-"resource/ui/build_menu/tele_entrance_inactive.res"
+"Resource/UI/build_menu/tele_entrance_inactive.res"
 {
 	"ItemNameLabel"
 	{	

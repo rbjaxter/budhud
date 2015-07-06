@@ -1,4 +1,4 @@
-"resource/ui/HudArenaClassLayout.res"
+"Resource/UI/HudArenaClassLayout.res"
 {
 	"background"
 	{

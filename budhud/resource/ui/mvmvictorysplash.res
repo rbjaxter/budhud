@@ -1,4 +1,4 @@
-"resource/ui/MvMVictoryPanel.res"
+"Resource/UI/MvMVictoryPanel.res"
 {	
 	"SplashContainer"
 	{

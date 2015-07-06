@@ -1,4 +1,4 @@
-"resource/ui/TradingStartDialog.res"
+"Resource/UI/TradingStartDialog.res"
 {
 	"TradingStartDialog"
 	{

@@ -1,4 +1,4 @@
-"resource/ui/Scoreboard.res"
+"Resource/UI/Scoreboard.res"
 {
 	"scores"
 	{

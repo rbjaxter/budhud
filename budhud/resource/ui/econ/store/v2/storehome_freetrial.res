@@ -1,6 +1,6 @@
 #base "StoreHome_Base.res"
 
-"resource/ui/StoreHome_FreeTrial.res"
+"Resource/UI/StoreHome_FreeTrial.res"
 {
 	"Callout"
 	{

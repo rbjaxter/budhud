@@ -1,4 +1,4 @@
-"resource/ui/mvmscoreboard.res"
+"Resource/UI/mvmscoreboard.res"
 {		
 	"WaveStatusPanel"
 	{

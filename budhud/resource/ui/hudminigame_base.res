@@ -1,4 +1,4 @@
-"resource/ui/HudMiniGame_Base.res"
+"Resource/UI/HudMiniGame_Base.res"
 {
 	"LeftSideBG"
 	{

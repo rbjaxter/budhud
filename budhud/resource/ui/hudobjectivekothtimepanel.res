@@ -1,4 +1,4 @@
-"resource/ui/HudObjectiveKothTimePanel.res"
+"Resource/UI/HudObjectiveKothTimePanel.res"
 {	
 	"BlueTimer"
 	{

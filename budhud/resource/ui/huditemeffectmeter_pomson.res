@@ -1,4 +1,4 @@
-"resource/ui/HudItemEffectMeter_Pomson.res"
+"Resource/UI/HudItemEffectMeter_Pomson.res"
 {
 	HudItemEffectMeter
 	{

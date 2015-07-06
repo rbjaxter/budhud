@@ -1,4 +1,4 @@
-"resource/ui/ConfirmApplyStrangePartApplicationDialog.res"
+"Resource/UI/ConfirmApplyStrangePartApplicationDialog.res"
 {
 	"ConfirmApplyStrangePartApplicationDialog"
 	{

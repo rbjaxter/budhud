@@ -1,6 +1,6 @@
 #base "base_notification.res"
 
-"resource/ui/notifications/notify_no_invuln_with_flag_blue.res"
+"Resource/UI/notifications/notify_no_invuln_with_flag_blue.res"
 {	
 	"Notification_Background"
 	{

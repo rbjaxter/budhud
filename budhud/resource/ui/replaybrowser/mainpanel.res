@@ -1,4 +1,4 @@
-"resource/ui/replaybrowser/mainpanel.res"
+"Resource/UI/replaybrowser/mainpanel.res"
 {
 	"ReplayBrowser"
 	{

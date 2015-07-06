@@ -1,4 +1,4 @@
-"resource/ui/QuestNotificationPanel_base.res"
+"Resource/UI/QuestNotificationPanel_base.res"
 {
 	"QuestNotificationPanel"
 	{
@@ -15,7 +15,7 @@
 		"output_step" "50"
 
 		"MainContainer"
-		{"resource/ui/econ/ScrollableQuestDetails.res"
+		{"Resource/UI/econ/ScrollableQuestDetails.res"
 {
 	"Container"
 	{

@@ -1,6 +1,6 @@
 #base "base_active_teleport_target.res"
 
-"resource/ui/build_menu/dispenser_active.res"
+"Resource/UI/build_menu/dispenser_active.res"
 {
 	"ItemNameLabel"
 	{	

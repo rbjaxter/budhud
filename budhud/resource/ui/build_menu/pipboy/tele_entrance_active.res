@@ -1,6 +1,6 @@
 #base "base_active.res"
 
-"resource/ui/build_menu/tele_entrance_active.res"
+"Resource/UI/build_menu/tele_entrance_active.res"
 {
 	"ItemNameLabel"
 	{	

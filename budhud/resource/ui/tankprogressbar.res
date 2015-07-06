@@ -1,4 +1,4 @@
-"resource/ui/TankProgressBar.res"
+"Resource/UI/TankProgressBar.res"
 {
 	"TankProgressBar"
 	{

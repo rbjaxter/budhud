@@ -1,4 +1,4 @@
-"resource/ui/HudArenaPlayerCount.res"
+"Resource/UI/HudArenaPlayerCount.res"
 {
 	"blueteam"
 	{

@@ -1,6 +1,6 @@
 #base "HudItemTracker.res"
 
-"resource/ui/HudAchievementTrackerItem.res"
+"Resource/UI/HudAchievementTrackerItem.res"
 {	
 	"ItemTrackerPanel"
 	{

@@ -1,4 +1,4 @@
-"resource/ui/HudObjectiveTimePanel.res"
+"Resource/UI/HudObjectiveTimePanel.res"
 {	
 	"TimePanelBG"
 	{

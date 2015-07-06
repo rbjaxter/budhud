@@ -1,4 +1,4 @@
-"resource/ui/MvMInWorldCurrency.res"
+"Resource/UI/MvMInWorldCurrency.res"
 {
 	"BorderBG"
 	{

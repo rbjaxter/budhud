@@ -1,4 +1,4 @@
-"resource/ui/notifications/notify_golden_wrench.res"
+"Resource/UI/notifications/notify_golden_wrench.res"
 {
 	"Notification_Background"
 	{

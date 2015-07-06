@@ -1,4 +1,4 @@
-"resource/ui/econ/CyclingAdContainer.res"
+"Resource/UI/econ/CyclingAdContainer.res"
 {
 	"ButtonContainer"
 	{

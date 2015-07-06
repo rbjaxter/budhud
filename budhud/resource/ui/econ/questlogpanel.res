@@ -1,4 +1,4 @@
-"resource/ui/econ/QuestLogPanel.res"
+"Resource/UI/econ/QuestLogPanel.res"
 {
 	"QuestLog"
 	{
@@ -104,7 +104,7 @@
 		"proportionaltoparent"	"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"NoBorder"
+		"border"		"CyanBorderThick"
 		"bgcolor_override"	"25 25 25 255"
 
 		"UpperLine"

@@ -1,4 +1,4 @@
-"resource/ui/ConfirmDialogOptOut.res"
+"Resource/UI/ConfirmDialogOptOut.res"
 {
 	"ConfirmDialog"
 	{

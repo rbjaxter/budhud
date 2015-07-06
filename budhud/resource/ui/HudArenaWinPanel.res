@@ -1,4 +1,4 @@
-"resource/ui/arenawinpanel.res"
+"Resource/UI/arenawinpanel.res"
 {
 	"ArenaWinPanelScores"
 	{

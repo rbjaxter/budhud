@@ -1,6 +1,6 @@
 #base "base_notification.res"
 
-"resource/ui/notifications/notify_your_flag_captured_red.res"
+"Resource/UI/notifications/notify_your_flag_captured_red.res"
 {	
 	"Notification_Background"
 	{
