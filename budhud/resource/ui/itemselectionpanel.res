@@ -97,8 +97,8 @@
 		"tall"								"18"
 		"autoResize"						"1"
 		"pinCorner"							"0"
-		"visible"							"0"
-		"enabled" 							"0"
+		"visible"							"1"
+		"enabled"							"1"
 		"fgcolor_override" 					"bh_orange"
 	}
 	"ClassLabel"

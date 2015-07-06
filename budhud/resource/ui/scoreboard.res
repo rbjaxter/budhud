@@ -24,9 +24,9 @@
 		"stats_width"				"30"
 		"killstreak_width"			"20"
 		/////////////////////////////
-		"medal_width_minmode"		"0"
+		"medal_width_minmode"		"13"
 		"avatar_width_minmode"		"60"
-		"name_width_minmode"		"55"	
+		"name_width_minmode"		"50"	
 		"status_width_minmode"		"15"
 		"nemesis_width_minmode"		"15"
 		"class_width_minmode"		"15"
@@ -112,7 +112,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"border"			"TFThinLineBorder"
+		"border"			"BackpackItemGrayedOut"
 		
 		if_mvm
 		{
@@ -340,7 +340,7 @@
 		"tall"					"20"
 		/////////////////////////////
 		"xpos_minmode"			"150"
-		"ypos_minmode"			"57"
+		"ypos_minmode"			"58"
 		"zpos_minmode"			"60"
 		"wide_minmode"			"300"
 		"tall_minmode"			"20"
@@ -465,7 +465,7 @@
 		"ypos_minmode"			"84"
 		"zpos_minmode"			"2"
 		"wide_minmode"			"2"
-		"tall_minmode"			"101"
+		"tall_minmode"			"99"
 		"visible_minmode"		"1"
 		"enabled_minmode"		"1"
 		/////////////////////////////
@@ -552,15 +552,17 @@
 		"zpos_minmode"			"2"
 		"wide_minmode"			"60"
 		"tall_minmode"			"60"
-		"fillcolor_minmode"		"0 0 0 75"
+		"border_minmode"		"BackpackItemGrayedOut"
+		"fillcolor_minmode"		"0 0 0 0"
 		/////////////////////////////
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"	
-		"fillcolor"				"0 0 0 153"
+		"fillcolor"				"0 0 0 0"
 		"PaintBackgroundType"	"0"
+		"border"				"BackpackItemGrayedOut"
 		
 		if_mvm
 		{
@@ -586,15 +588,17 @@
 		"zpos_minmode"			"2"
 		"wide_minmode"			"60"
 		"tall_minmode"			"34"
-		"fillcolor_minmode"		"0 0 0 75"
+		"border_minmode"		"BackpackItemGrayedOut"
+		"fillcolor_minmode"		"0 0 0 0"
 		/////////////////////////////
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"	
-		"fillcolor"				"0 0 0 153"
+		"fillcolor"				"0 0 0 0"
 		"PaintBackgroundType"	"0"
+		"border"				"BackpackItemGrayedOut"
 		
 		if_mvm
 		{
@@ -620,7 +624,8 @@
 		"zpos_minmode"			"2"
 		"wide_minmode"			"60"
 		"tall_minmode"			"34"
-		"fillcolor_minmode"		"0 0 0 75"
+		"border_minmode"		"BackpackItemGrayedOut"
+		"fillcolor_minmode"		"0 0 0 0"
 		/////////////////////////////
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -1372,7 +1377,7 @@
 			"wide"				"95"
 			"tall"				"20"
 			/////////////////////////////
-			"xpos_minmode"		"599"
+			"xpos_minmode"		"598"
 			"ypos_minmode"		"117"
 			"zpos_minmode"		"3"
 			"wide_minmode"		"95"
@@ -1649,7 +1654,7 @@
 			"wide"				"95"
 			"tall"				"20"
 			/////////////////////////////
-			"xpos_minmode"		"595"
+			"xpos_minmode"		"594"
 			"ypos_minmode"		"167"
 			"zpos_minmode"		"3"
 			"wide_minmode"		"95"
@@ -1710,7 +1715,7 @@
 			"wide"				"95"
 			"tall"				"20"
 			/////////////////////////////
-			"xpos_minmode"		"609"
+			"xpos_minmode"		"607"
 			"ypos_minmode"		"107"
 			"zpos_minmode"		"3"
 			"wide_minmode"		"95"
@@ -1994,7 +1999,7 @@
 			"wide"				"95"
 			"tall"				"20"
 			/////////////////////////////
-			"xpos_minmode"		"600"
+			"xpos_minmode"		"601"
 			"ypos_minmode"		"147"
 			"zpos_minmode"		"3"
 			"wide_minmode"		"95"

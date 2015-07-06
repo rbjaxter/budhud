@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_bg"
-		"fillcolor"		"64 64 64 100"
+		"fillcolor"		"bh_BGStandard"
 	}
 	
 	"DestroyIcon"	

@@ -13,7 +13,7 @@
 		"enabled"						"1"
 		"scaleImage"					"1"	
 		"icon"							"hud_menu_bg"
-		"fillcolor"						"0 0 0 200"
+		"fillcolor"						"bh_BGStandard"
 	}	
 	
 	"Divider"	
@@ -48,9 +48,9 @@
 	{					
 		"ControlName"					"CExLabel"
 		"fieldName"						"TitleLabel"
-		"font"							"LatoSemibold24"
-		"xpos"							"6"			// align me to the left edge of the first selection
-		"ypos"							"13"
+		"font"							"LatoSemibold20"
+		"xpos"							"5"			// align me to the left edge of the first selection
+		"ypos"							"12"
 		"zpos"							"3"
 		"wide"							"360"
 		"tall"							"38"
