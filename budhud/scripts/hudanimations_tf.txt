@@ -169,7 +169,7 @@ event KeyHintMessageHide
 
 //===========================================
 
-//Health Bonus Pulse
+// Health Bonus Pulse
 event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"255"					Linear 0.0 0.2

@@ -1722,6 +1722,73 @@
 ///////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////
 	
+	"PlayComp"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldname"							"PlayComp"
+		"xpos"								"125"
+		"ypos"								"120"
+		"zpos"								"11"
+		"wide"								"225"
+		"tall"								"40"
+		"visible"							"1"
+		"PaintBackgroundType"				"0"
+
+		"navUp"							 	"QuickplayButton"
+		"navDown"							"ServerBrowserButton"
+		"navRight"							"Notifications_ShowButtonPanel"
+		"navToRelay"						"SubButton"
+
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"SubButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"wide"							"350"
+			"tall"							"40"
+			"autoResize"					"0"
+			"pinCorner"						"3"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"textinsetx"					"25"
+			"use_proportional_insets" 		"1"
+			"font"							"LatoSemibold36"
+			"textAlignment"					"west"
+			"dulltext"						"0"
+			"brighttext"					"0"
+			"default"						"1"
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+			
+		//	"border_default"				"MainMenuButtonDefault"
+		//	"border_armed"					"MainMenuButtonArmed"
+			"paintbackground"				"0"
+			
+			"defaultFgColor_override"	 	"bh_white"
+			"armedFgColor_override" 		"bh_orange"
+			"depressedFgColor_override" 	"bh_white"
+			
+		//	"image_drawcolor"				"117 107 94 255"
+		//	"image_armedcolor"				"bh_white"
+
+			"SubImage"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"SubImage"
+				"xpos"					"6969"
+				"ypos"					"6969"
+				"zpos"					"1"
+				"wide"					"14"
+				"tall"					"14"
+				"visible"				"0"
+				"enabled"				"0"
+				"scaleImage"			"1"
+			}
+		}
+	}	
+
 	"QuickplayButton"
 	{
 		"ControlName"						"EditablePanel"
@@ -1929,7 +1996,7 @@
 		"xpos"								"50"
 		"ypos"								"120"
 		"zpos"								"11"
-		"wide"								"350"
+		"wide"								"225"
 		"tall"								"40"
 		"visible"							"1"
 		"PaintBackgroundType"				"0"

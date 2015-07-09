@@ -23,6 +23,13 @@
 		"OnlyInGame" 	"1"
         "tooltip" 		"Toggles between the 6v6 and 12v12 scoreboard"
 	}
+	"PlayComp"
+	{
+		"label" 		"/ COMP" 
+		"command" 		"ladder_ui_show"
+		"subimage" 		"glyph_practice"
+		"OnlyAtMenu" 	"1"
+	}
 	"ResumeGameButton"
 	{
 		"label"			"RESUME GAME"
@@ -46,7 +53,7 @@
 	}
 	"PlayPVEButton"
 	{
-		"label" 		"MANN VS MACHINE" 
+		"label" 		"MvM" 
 		"command" 		"playpve"
 		"subimage" 		"glyph_coop"
 		"OnlyAtMenu" 	"1"

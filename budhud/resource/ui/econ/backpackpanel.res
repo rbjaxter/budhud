@@ -72,7 +72,7 @@
 	{
 		"ControlName" 						"CExLabel"
 		"fieldName" 						"New"
-		"font" 								"LatoSemibold12"
+		"font" 								"LatoSemibold9"
 		"textAlignment" 					"center"
 		"ypos" 								"0"
 		"xpos" 								"0"
@@ -130,7 +130,7 @@
 			{
 			"ControlName" 					"CExLabel"
 			"fieldName" 					"New"
-			"font" 							"LatoSemibold10"
+			"font" 							"LatoSemibold9"
 			"textAlignment" 				"east"
 			"xpos" 							"rs1"
 			"zpos" 							"15"

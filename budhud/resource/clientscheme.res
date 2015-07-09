@@ -10,96 +10,100 @@ Scheme
 	/////////////////////////////////////////////////////////////////////////////	
 	
 		// Health
-			"bh_Health"			"255 255 255 255"
-			"bh_HealthLow"		"215 0 0 255"
-			"bh_HealthBuff"		"0 153 255 255"
-			"bh_HealthPickup"	"240 134 49 255"
+			"bh_Health"				"255 255 255 255"
+			"bh_HealthLow"			"215 0 0 255"
+			"bh_HealthBuff"			"0 153 255 255"
+			"bh_HealthPickup"		"240 134 49 255"
 		
 		// Ammo
-			"bh_AmmoInClip"		"255 255 255 255"
-			"bh_AmmoReserve"	"255 255 255 255"
-			"bh_LowAmmoPulse"	"150 150 150 255" 	// Ammo color when ammo is low
+			"bh_AmmoInClip"			"255 255 255 255"
+			"bh_AmmoReserve"		"255 255 255 255"
+			"bh_LowAmmoPulse"		"150 150 150 255" 	// Ammo color when ammo is low
 		
 		// Damage Done & Heals Given
-			"bh_DamageColor"	"255 255 255 255" 	// Damage done that appears above player
-			"bh_hudDMGDisplay"	"243 157 48 255" 	// Damage done that appears below ammo
-			"bh_HealColor"		"0 153 255 255" 	// Medigun/arrow heals
+			"bh_DamageColor"		"255 255 255 255" 	// Damage done that appears above player
+			"bh_hudDMGDisplay"		"243 157 48 255" 	// Damage done that appears below ammo
+			"bh_HealColor"			"0 153 255 255" 	// Medigun/arrow heals
 		
 		// whayay's Crosshairs
-			"ya_crosshair"		"255 255 255 255" 	// Crosshair color
-			"ya_xhairflash"		"240 134 49 255"	// Flash on damage done
+			"ya_crosshair"			"255 255 255 255" 	// Crosshair color
+			"ya_xhairflash"			"240 134 49 255"	// Flash on damage done
 		
 		// Fog's Crosshairs
-			"fog_crosshair"		"255 255 255 255"	// Crosshair color
+			"fog_crosshair"			"255 255 255 255"	// Crosshair color
 		
 		// statsummary colors
-			"bh_bar1"			"150 150 150 255"
-			"bh_bar2"			"150 150 150 255"
-			"bh_bar3"			"150 150 150 255"
-			"bh_bar4"			"150 150 150 255"
-			"bh_bar5"			"150 150 150 255"
-			"bh_bar6"			"150 150 150 255"
-			"bh_bar7"			"150 150 150 255"
-			"bh_bar8"			"150 150 150 255"
-			"bh_bar9"			"150 150 150 255"
+			"bh_bar1"				"150 150 150 255"
+			"bh_bar2"				"150 150 150 255"
+			"bh_bar3"				"150 150 150 255"
+			"bh_bar4"				"150 150 150 255"
+			"bh_bar5"				"150 150 150 255"
+			"bh_bar6"				"150 150 150 255"
+			"bh_bar7"				"150 150 150 255"
+			"bh_bar8"				"150 150 150 255"
+			"bh_bar9"				"150 150 150 255"
 			
 		// Misc
-			"bh_BGStandard"		"0 0 0 100"			// hudmenuengydestroy.res ; hudmenuengybuild.res ; hudmenutauntselection.res
+			"bh_BGStandard"			"0 0 0 100"			// hudmenuengydestroy.res ; hudmenuengybuild.res ; hudmenutauntselection.res
 		
 		// budhud core colors
-			"bh_white"			"255 255 255 255"
-			"bh_black"			"0 0 0 255"
-			"bh_lblue"			"0 153 255 255"
-			"bh_gray"			"150 150 150 255"
-			"bh_lorange"		"243 157 48 255"
-			"bh_dorange"		"204 93 27 255"
-			"bh_orange"			"240 134 49 255"
-			"bh_green"			"0 215 0 255"
-			"bh_red"			"215 0 0 255"
+			"bh_white"				"255 255 255 255"
+			"bh_black"				"0 0 0 255"
+			"bh_lblue"				"0 153 255 255"
+			"bh_gray"				"150 150 150 255"
+			"bh_lorange"			"243 157 48 255"
+			"bh_dorange"			"204 93 27 255"
+			"bh_orange"				"240 134 49 255"
+			"bh_green"				"0 215 0 255"
+			"bh_red"				"215 0 0 255"
 		
-		// TF2 Defaults
 		// One of these 5 controls HudHintDisplay / HudHintKeyDisplay color
 		// (surf timer, etc)
-		"Orange"			"255 255 255 255"
-		"OrangeDim"			"255 255 255 255"
-		"LightOrange"		"255 255 255 255"
-		"GoalOrange"		"255 255 255 255"
-		"TFOrange"			"150 150 150 50"		// Backpack page number BG
+		"Orange"					"255 255 255 255"
+		"OrangeDim"					"255 255 255 255"
+		"LightOrange"				"255 255 255 255"
+		"GoalOrange"				"255 255 255 255"
+		"TFOrange"					"150 150 150 0"		// Backpack page number BG (chooses selected page color)
 		
-		"White"				"255 255 255 255"
-		"Red"				"192 28 0 140"
-		"RedSolid"			"192 28 0 255"
-		"Blue"				"0 28 162 140"
-		"Yellow"			"251 235 202 255"
-		"TransparentYellow"	"251 235 202 140"
-		//"Black"				"0 0 0 255"
+		"White"						"255 255 255 255"
+		"Red"						"192 28 0 140"
+		"RedSolid"					"192 28 0 255"
+		"Blue"						"0 28 162 140"
+		
+		// Poopy beige-colored yellow changed to white
+		// Unsure where this is used
+		// Findall "Yellow" and "TransparentYellow" through all files if you care ¯\_(ツ)_/¯
+		"Yellow"					"255 255 255 255"	// Default: 251 235 202 255
+		"TransparentYellow"			"255 255 255 140"	// Default: 251 235 202 140
+		
+		//"Black"					"0 0 0 255"
 		//Changed black to a NTSC safe color
-		"GreenSolid"		 "76 107 34 255"
+		"GreenSolid"		 		"76 107 34 255"
 		
-		"Black"				"46 43 42 255"
-		"TransparentBlack"	"0 0 0 196"
-		"TransparentLightBlack"	"0 0 0 90"
-		"FooterBGBlack"		"52 48 55 255"
+		"Black"						"46 43 42 255"
+		"TransparentBlack"			"0 0 0 196"
+		"TransparentLightBlack"		"0 0 0 90"
+		"FooterBGBlack"				"52 48 55 255"
 		
-		"HUDBlueTeam"		"104 124 155 127"
-		"HUDRedTeam"		"180 92 77 127"
-		"HUDSpectator"		"124 124 124 127"
-		"HUDBlueTeamSolid"	"104 124 155 255"
-		"HUDRedTeamSolid"	"180 92 77 255"
-		"HUDDeathWarning"	"255 0 0 255"
-		"HudWhite"			"255 255 255 255"
-		"HudOffWhite"		"255 255 255 255"
-		"HudBlack"			"65 65 65 255"
-		"ProgressBarBlue"	"91 122 142 255"
+		"HUDBlueTeam"				"104 124 155 127"
+		"HUDRedTeam"				"180 92 77 127"
+		"HUDSpectator"				"124 124 124 127"
+		"HUDBlueTeamSolid"			"104 124 155 255"
+		"HUDRedTeamSolid"			"180 92 77 255"
+		"HUDDeathWarning"			"255 0 0 255"
+		"HudWhite"					"255 255 255 255"
+		"HudOffWhite"				"255 255 255 255"
+		"HudBlack"					"65 65 65 255"
+		"ProgressBarBlue"			"91 122 142 255"
 		
-		"CreditsGreen"		"94 150 49 255"
+		"CreditsGreen"				"94 150 49 255"
 		
-		"Gray"				"178 178 178 255"
+		"Gray"						"178 178 178 255"
 
-		"Blank"				"0 0 0 0"
-		"ForTesting"		"255 0 0 32"
-		"ForTesting_Magenta"	"255 0 255 255"
-		"ForTesting_MagentaDim"	"255 0 255 120"
+		"Blank"						"0 0 0 0"
+		"ForTesting"				"255 0 0 32"
+		"ForTesting_Magenta"		"255 0 255 255"
+		"ForTesting_MagentaDim"		"255 0 255 120"
 
 		"HudPanelForeground"		"123 110 59 184"
 		"HudPanelBackground"		"123 110 59 184"
@@ -110,7 +114,7 @@ Scheme
 		"HudProgressBarActiveLow"	"240 30 30 255"
 		"HudProgressBarInActiveLow"	"240 30 30 99"	
 
-		"HudTimerProgressActive"	"251 235 202 255"
+		"HudTimerProgressActive"	"255 255 255 255"		// Default: 251 235 202 255
 		"HudTimerProgressInActive"	"52 48 45 255"
 		"HudTimerProgressWarning"	"240 30 30 255"
 
@@ -119,11 +123,10 @@ Scheme
 		"HudTrainingHint"			"255 255 255 255"
 		
 		"TanDark"					"150 150 150 255"
-		"bh_white"					"255 255 255 255"
-		"TanDarker"					"46 43 42 255"
+		"TanDarker"					"150 150 150 255"
 		
-		"StoreDarkTan"			"131 121 104 255"
-		"StoreGreen"			"76 107 34 255"
+		"StoreDarkTan"				"255 255 255 255"		// Default: 131 121 104 255
+		"StoreGreen"				"76 107 34 255"
 		
 		// Engineer HUD Specific
 		"LowHealthRed"				"255 0 0 255"
@@ -131,26 +134,26 @@ Scheme
 		"ProgressBackground"		"150 150 150 255"
 		"HealthBgGrey"				"72 71 69 255"
 		
-		"ProgressOffWhiteTransparent"	"251 235 202 128"
+		"ProgressOffWhiteTransparent"	"255 255 255 255"	// Default: 251 235 202 128
 		
-		"LabelDark"			"48 43 42 255"
-		"LabelTransparent"	"109 96 80 180"
+		"LabelDark"					"48 43 42 255"
+		"LabelTransparent"			"109 96 80 180"
 		
-		"BuildMenuActive"	"248 231 198 255"
+		"BuildMenuActive"			"255 255 255 255"		// Default: 248 231 198 255 (poopy yellow)
 		
-		"DisguiseMenuIconRed"	"192 56 63 255"
-		"DisguiseMenuIconBlue"	"92 128 166 255"
+		"DisguiseMenuIconRed"		"192 56 63 255"
+		"DisguiseMenuIconBlue"		"92 128 166 255"
 
- 		"MatchmakingDialogTitleColor"			"bh_orange"
+ 		"MatchmakingDialogTitleColor"			"240 134 49 255"		// bh_orange
  		"MatchmakingMenuItemBackground"			"46 43 42 255"
- 		"MatchmakingMenuItemBackgroundActive"	"bh_orange"	
-		"MatchmakingMenuItemTitleColor"			"bh_orange"
-		"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
+ 		"MatchmakingMenuItemBackgroundActive"	"240 134 49 255"		// bh_orange
+		"MatchmakingMenuItemTitleColor"			"240 134 49 255"		// bh_orange
+		"MatchmakingMenuItemDescriptionColor"	"255 255 255 255"		// Default: 200 184 151 255
 		
 		"HTMLBackground"						"95 92 101 255"
 		
 		"ItemAttribLevel"						"117 107 94 255"
-		"ItemAttribNeutral"						"235 226 202 255"
+		"ItemAttribNeutral"						"255 255 255 255"		// Default: 235 226 202 255 (off-white)
 		"ItemAttribPositive"					"153 204 255 255"
 		"ItemAttribNegative"					"255 64 64 255"
 
@@ -163,7 +166,7 @@ Scheme
 		"ItemFlags"								"117 107 94 255"
 		"ItemLimitedQuantity"					"225 209 0 255"
 				
-	"QualityColorNormal"					"178 178 178 255"
+		"QualityColorNormal"					"178 178 178 255"
 		"QualityColorrarity1"					"77 116 85 255"
 		"QualityColorrarity2"					"141 131 75 255"
 		"QualityColorrarity3"					"204 204 250 255"
@@ -220,16 +223,16 @@ Scheme
 		"LighterDarkBrown"						"59 54 48 255"
 		"DarkBrown"								"41 37 38 255"
 		
-		"UpgradeDefaultFg"		"87 82 74 255"
-		"UpgradeDefaultBg"		"111 104 94 255"
-		"UpgradeArmedFg"		"194 96 47 255"
-		"UpgradeArmedBg"		"239 128 73 255"
-		"UpgradeDepressedFg"	"204 106 57 255"
-		"UpgradeDepressedBg"	"249 138 83 255"
-		"UpgradeSelectedFg"		"204 106 57 255"
-		"UpgradeSelectedBg"		"249 138 83 255"
-		"UpgradeDisabledFg"		"64 59 52 255"
-		"UpgradeDisabledBg"		"79 77 68 255"
+		"UpgradeDefaultFg"						"87 82 74 255"
+		"UpgradeDefaultBg"						"111 104 94 255"
+		"UpgradeArmedFg"						"194 96 47 255"
+		"UpgradeArmedBg"						"239 128 73 255"
+		"UpgradeDepressedFg"					"204 106 57 255"
+		"UpgradeDepressedBg"					"249 138 83 255"
+		"UpgradeSelectedFg"						"204 106 57 255"
+		"UpgradeSelectedBg"						"249 138 83 255"
+		"UpgradeDisabledFg"						"64 59 52 255"
+		"UpgradeDisabledBg"						"79 77 68 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -266,8 +269,8 @@ Scheme
 		Econ.Button.PresetArmedColorBg						"50 50 50 255"
 		Econ.Button.PresetDepressedColorBg					"25 25 25 255"
 		
-		Border.Bright										"NoBorder"		// the lit side of a control
-		Border.Dark											"NoBorder"		// the dark/unlit side of a control
+		Border.Bright										"NoBorder"			// the lit side of a control
+		Border.Dark											"NoBorder"			// the dark/unlit side of a control
 		Border.Selection									"NoBorder"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor									"255 255 255 255"
@@ -282,9 +285,9 @@ Scheme
 		CheckButton.TextColor								"Yellow"
 		CheckButton.SelectedTextColor						"Yellow"
 		CheckButton.BgColor									"TransparentBlack"
-		CheckButton.Border1  								"Yellow" 		// the left checkbutton border
-		CheckButton.Border2  								"Yellow"		// the right checkbutton border
-		CheckButton.Check									"Yellow"		// color of the check itself
+		CheckButton.Border1  								"Yellow" 			// the left checkbutton border
+		CheckButton.Border2  								"Yellow"			// the right checkbutton border
+		CheckButton.Check									"Yellow"			// color of the check itself
 		CheckButton.HighlightFgColor						"Yellow"
 		
 		ComboBoxButton.ArrowColor							"255 255 255 255"
@@ -294,10 +297,8 @@ Scheme
 
 		Frame.BgColor										"TransparentBlack"
 		Frame.OutOfFocusBgColor								"TransparentBlack"
-		Frame.FocusTransitionEffectTime						"0.0"	[$WIN32] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime							"0.0"	[$WIN32] // time it takes for a window to fade in/out on open/close
-		Frame.FocusTransitionEffectTime						"0.15"	[$X360] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime							"0.15"	[$X360] // time it takes for a window to fade in/out on open/close
+		Frame.FocusTransitionEffectTime						"0.0"
+		Frame.TransitionEffectTime							"0.0"
 		Frame.AutoSnapRange									"0"
 		FrameGrip.Color1									"Blank"
 		FrameGrip.Color2									"Blank"
@@ -309,12 +310,12 @@ Scheme
 		FrameSystemButton.BgColor							"Blank"
 		FrameSystemButton.Icon								""
 		FrameSystemButton.DisabledIcon						""
-		FrameTitleBar.TextColor								"Orange"
+		FrameTitleBar.TextColor								"bh_orange"
 		FrameTitleBar.BgColor								"Blank"
-		FrameTitleBar.DisabledTextColor						"Orange"
+		FrameTitleBar.DisabledTextColor						"bh_orange"
 		FrameTitleBar.DisabledBgColor						"Blank"
 
-		GraphPanel.FgColor									"Orange"
+		GraphPanel.FgColor									"bh_orange"
 		GraphPanel.BgColor									"TransparentBlack"
 
 		Label.TextDullColor									"TanDark"
@@ -325,12 +326,12 @@ Scheme
 		Label.DisabledFgColor1								"Blank"
 		Label.DisabledFgColor2								"Black"
 
-		ListPanel.TextColor									"Orange"
+		ListPanel.TextColor									"bh_orange"
 		ListPanel.BgColor									"TransparentBlack"
 		ListPanel.SelectedTextColor							"bh_black"
 		ListPanel.SelectedBgColor							"Red"
 		ListPanel.SelectedOutOfFocusBgColor					"Red"
-		ListPanel.EmptyListInfoTextColor					"Orange"
+		ListPanel.EmptyListInfoTextColor					"bh_orange"
 
 		Menu.TextColor										"255 255 255 255"
 		Menu.BgColor										"TransparentBlack"
@@ -338,7 +339,7 @@ Scheme
 		Menu.ArmedBgColor									"255 255 255 255"
 		Menu.TextInset										"6"
 
-		Chat.TypingText										"Orange"
+		Chat.TypingText										"bh_orange"
 
 		Panel.FgColor										"Gray"
 		Panel.BgColor										"Blank"
@@ -355,12 +356,12 @@ Scheme
 		"BuildingHealthBar.Health"							"ProgressOffWhite"
 		"BuildingHealthBar.LowHealth"						"LowHealthRed"
 
-		PropertySheet.TextColor								"Orange"
-		PropertySheet.SelectedTextColor						"Orange"
+		PropertySheet.TextColor								"bh_orange"
+		PropertySheet.SelectedTextColor						"bh_orange"
 		PropertySheet.TransitionEffectTime					"0.25"	// time to change from one tab to another
 
-		RadioButton.TextColor								"Orange"
-		RadioButton.SelectedTextColor						"Orange"
+		RadioButton.TextColor								"bh_orange"
+		RadioButton.SelectedTextColor						"bh_orange"
 
 		RichText.TextColor									"Gray"
 		RichText.BgColor									"Blank"
@@ -377,11 +378,11 @@ Scheme
 		ScrollBarSlider.FgColor								"Gray"		// nob color
 		ScrollBarSlider.BgColor								"Blank"		// slider background color
 
-		SectionedListPanel.HeaderTextColor					"Orange"
+		SectionedListPanel.HeaderTextColor					"bh_orange"
 		SectionedListPanel.HeaderBgColor					"Blank"
 		SectionedListPanel.DividerColor						"Black"
-		SectionedListPanel.TextColor						"Orange"
-		SectionedListPanel.BrightTextColor					"Orange"
+		SectionedListPanel.TextColor						"bh_orange"
+		SectionedListPanel.BrightTextColor					"bh_orange"
 		SectionedListPanel.BgColor							"TransparentLightBlack"
 		SectionedListPanel.SelectedTextColor				"Black"
 		SectionedListPanel.SelectedBgColor					"Red"
@@ -404,7 +405,7 @@ Scheme
 		TextEntry.OutOfFocusSelectedBgColor					"Blank"
 		TextEntry.FocusEdgeColor							"Blank"
 
-		ToggleButton.SelectedTextColor						"Orange"
+		ToggleButton.SelectedTextColor						"bh_orange"
 
 		Tooltip.TextColor									"TransparentBlack"
 		Tooltip.BgColor										"Red"
@@ -430,7 +431,7 @@ Scheme
 		HudCaptureProgressBar.InActive						"HudProgressBarInActive"
 
 		// scheme-specific colors
-		"FgColor"											"Orange"
+		"FgColor"											"bh_orange"
 		"BgColor"											"TransparentBlack"
 
 		"ViewportBG"										"Blank"
@@ -471,7 +472,8 @@ Scheme
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
-	//
+
+	
 	// Bitmap Fonts are ****VERY*** expensive static memory resources so they are purposely sparse
 	BitmapFontFiles
 	{
@@ -483,7 +485,7 @@ Scheme
 	//
 	//////////////////////// FONTS /////////////////////////////
 	//
-	// describes all the fonts
+	
 	Fonts
 	{
 		// fonts are used in order that they are listed
@@ -1251,7 +1253,7 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"			"Courier New"
+				"name"			"Lato Semibold"
 				"tall"			"14"
 				"weight"		"400"
 				"outline"		"1"
@@ -1292,7 +1294,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Courier New"
+				"name"			"Lato Semibold"
 				"tall"			"90"
 				"weight"		"900"
 				"range"			"0x0000 0x007F"	//	Basic Latin
@@ -2755,7 +2757,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Courier New"
+				"name"			"Lato Semibold"
 				"tall"			"72"
 				"weight"		"0"
 				"antialias"		"1"
@@ -2766,7 +2768,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Courier New"
+				"name"			"Lato Semibold"
 				"tall"			"72"
 				"weight"		"0"
 				"antialias"		"1"
@@ -3489,7 +3491,9 @@ Scheme
 			"tiled"					"1"
 		}
 		
-		OutlinedGreyBox
+		OutlinedGreyBox				
+		// Used in \ui\lobbycontainerframe.res [Experimental matchmaking]
+		// -> "Competitive" text's border
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -3501,6 +3505,8 @@ Scheme
 			"draw_corner_height" 	"11"	
 		}
 		OutlinedDullGreyBox
+		// Used in \ui\charinfopanel.res [First sheet of backpack]
+		// -> "Loadout" and "Stats" Borders
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -3513,18 +3519,22 @@ Scheme
 		}
 		
 		TFThinLineBorder
+		// Used in \ui\notificationspresentpanel.res [New Item Notification]
+		// -> Notification of new items from main menu, not while in-game
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
 			"image"					"../hud/tournament_panel_brown"
-			//"image"					"../hud/color_panel_browner"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderOpaque
+		// Used in \ui\storemapstampsinfodialog.res ["Learn More" in Shop -> Maps]
+		// Used in \ui\storepreviewitempanel.res [Shop -> "Items" and "Bundles" border for when items are clicked on]
+		// Used in \ui\storepreviewitempanel_stamps.res [Shop -> Maps; border for when items under "Maps" are clicked on]
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -3536,6 +3546,7 @@ Scheme
 			"draw_corner_height" 	"5"	
 		}
 		TFFatLineBorder
+		// No direct references to this border in my hud
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -3547,6 +3558,7 @@ Scheme
 			"draw_corner_height" 	"5"	
 		}
 		TFFatLineBorderRedBGOpaque
+		// No direct references to this border in my hud
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -3558,6 +3570,7 @@ Scheme
 			"draw_corner_height" 	"5"	
 		}
 		TFFatLineBorderRedBGOpaque_Store
+		// No direct references to this border in my hud
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -3569,6 +3582,7 @@ Scheme
 			"draw_corner_height" 	"11"	
 		}
 		TFFatLineBorderRedBG
+		// No direct references to this border in my hud
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -3580,6 +3594,7 @@ Scheme
 			"draw_corner_height" 	"5"	
 		}
 		TFFatLineBorderBlueBG
+		// No direct references to this border in my hud
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -3704,6 +3719,9 @@ Scheme
 			"draw_corner_height" 	"5"	
 		}
 		LoadoutItemPopupBorder
+		// Used in ui\econ\store\v2\storepage.res
+		// Used in ui\econ\store\v2\storepreviewitempanel.res
+		// Used in ui\recon\store\v2\storepreviewitempanel_maps.res
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -3716,6 +3734,7 @@ Scheme
 		}
 		
 		BackpackItemGrayedOut
+		// Used in resource\ui\scoreboard.res
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
