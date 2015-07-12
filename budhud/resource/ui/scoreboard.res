@@ -1204,10 +1204,10 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}												
-		"Kills"
+		"bh_Kills"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"Kills"
+			"fieldName"			"bh_Kills"
 			"font"				"LatoSemibold16"
 			"fgcolor"			"bh_lorange"
 			"labelText"			"%kills%"
@@ -1239,10 +1239,10 @@
 				"tall"			"20"
 			}
 		}						
-		"Deaths"
+		"bh_Deaths"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"Deaths"
+			"fieldName"			"bh_Deaths"
 			"font"				"LatoSemibold16"
 			"fgcolor"			"bh_dorange"
 			"labelText"			"%deaths%"
@@ -1292,10 +1292,10 @@
 			"enabled"			"0"
 			"fgcolor"			"185 177 153 255"
 		}							
-		"Assists"
+		"bh_Assists"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"Assists"
+			"fieldName"			"bh_Assists"
 			"font"				"LatoSemibold16"
 			"fgcolor"			"bh_orange"
 			"labelText"			"%assists%"
@@ -1327,10 +1327,10 @@
 				"tall"			"20"
 			}
 		}						
-		"Destruction"
+		"bh_Destruction"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"Destruction"
+			"fieldName"			"bh_Destruction"
 			"font"				"LatoSemibold10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%destruction%"
@@ -1467,10 +1467,10 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}						
-		"Captures"
+		"bh_Captures"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"Captures"
+			"fieldName"			"bh_Captures"
 			"font"				"LatoSemibold10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%captures%"
@@ -1505,10 +1505,10 @@
 				"tall"					"20"
 			}
 		}						
-		"Defenses"
+		"bh_Defenses"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"Defenses"
+			"fieldName"			"bh_Defenses"
 			"font"				"LatoSemibold10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%defenses%"
@@ -1523,10 +1523,10 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}						
-		"Domination"
+		"bh_Domination"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"Domination"
+			"fieldName"			"bh_Domination"
 			"font"				"LatoSemibold10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%dominations%"
@@ -1561,10 +1561,10 @@
 				"tall"					"20"
 			}
 		}						
-		"Revenge"
+		"bh_Revenge"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"Revenge"
+			"fieldName"			"bh_Revenge"
 			"font"				"LatoSemibold10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%Revenge%"
@@ -1726,10 +1726,10 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}				
-		"Healing"
+		"bh_Healing"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"Healing"
+			"fieldName"			"bh_Healing"
 			"font"				"LatoSemibold10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%healing%"
@@ -1764,10 +1764,10 @@
 				"tall"					"20"
 			}
 		}						
-		"Invuln"
+		"bh_Invuln"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"Invuln"
+			"fieldName"			"bh_Invuln"
 			"font"				"LatoSemibold10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%invulns%"
@@ -1802,10 +1802,10 @@
 				"tall"					"20"
 			}
 		}						
-		"Teleports"
+		"bh_Teleports"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"Teleports"
+			"fieldName"			"bh_Teleports"
 			"font"				"LatoSemibold10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%teleports%"
@@ -1820,10 +1820,10 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}						
-		"Headshots"
+		"bh_Headshots"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"Headshots"
+			"fieldName"			"bh_Headshots"
 			"font"				"LatoSemibold10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%headshots%"
@@ -1876,10 +1876,10 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-		"Backstabs"
+		"bh_Backstabs"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"Backstabs"
+			"fieldName"			"bh_Backstabs"
 			"font"				"LatoSemibold10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%backstabs%"
@@ -1913,10 +1913,10 @@
 			"visible"			"0"
 			"enabled"			"0"
 		}
-		"Bonus"
+		"bh_Bonus"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"Bonus"
+			"fieldName"			"bh_Bonus"
 			"font"				"LatoSemibold10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%bonus%"
@@ -1949,10 +1949,10 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-		"Support"
+		"bh_Support"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"Support"
+			"fieldName"			"bh_Support"
 			"font"				"LatoSemibold10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%support%"
@@ -2010,10 +2010,10 @@
 			"visible"			"1"
 			"enabled"			"1"
 		}
-		"Damage"
+		"bh_Damage"
 		{
 			"ControlName"				"CExLabel"
-			"fieldName"					"Damage"
+			"fieldName"					"bh_Damage"
 			"font"						"LatoSemibold10"
 			"fgcolor"					"bh_white"
 			"labelText"					"%damage%"

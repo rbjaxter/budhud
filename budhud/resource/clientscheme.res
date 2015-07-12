@@ -63,7 +63,7 @@ Scheme
 		"OrangeDim"					"255 255 255 255"
 		"LightOrange"				"255 255 255 255"
 		"GoalOrange"				"255 255 255 255"
-		"TFOrange"					"150 150 150 0"		// Backpack page number BG (chooses selected page color)
+		"TFOrange"					"150 150 150 255"		// Backpack page number BG (selected page color)
 		
 		"White"						"255 255 255 255"
 		"Red"						"192 28 0 140"
