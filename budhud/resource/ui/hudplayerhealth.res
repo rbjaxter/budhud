@@ -3,7 +3,9 @@
 	// player health data
 
 	/////////////////////////////////////////////////////////////////////////////
-	// AMMO PLACEMENT CUSTOMIZATION | HudPlayerHealth
+	// AMMO PLACEMENT CUSTOMIZATION
+	// >> HudPlayerHealth
+	// ======================================================================= //
 	// Moves the entirety of the health elements.
 	/////////////////////////////////////////////////////////////////////////////
 
@@ -24,7 +26,9 @@
 	}	
 	
 	/////////////////////////////////////////////////////////////////////////////
-	// TeamIndicator shows a team-colored bar under your health
+	// Shows a team-colored bar under your health
+	// >> TeamIndicator
+	// ======================================================================= //
 	// Set visible/enable to 1 to enable
 	/////////////////////////////////////////////////////////////////////////////
 	"TeamIndicator"
@@ -54,7 +58,7 @@
 
 	/////////////////////////////////////////////////////////////////////////////
 	// Health Cross
-	// PlayerStatusHealthImage & PlayerStatusHealthImageBG
+	// >> PlayerStatusHealthImage; PlayerStatusHealthImageBG
 	// ======================================================================= //
 	// Controls the health cross to the left of your numerical health value
 	// Set xpos/ypos to 6969 to disable
@@ -108,6 +112,8 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
+	
+	/////////////////////////////////////////////////////////////////////////////
 	
 	"PlayerStatusHealthValue"
 	{

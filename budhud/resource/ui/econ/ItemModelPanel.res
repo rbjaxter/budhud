@@ -215,7 +215,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"serieslabel"
-			"font"			"LatoSemiBold10"
+			"font"			"LatoSemiBold9"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"

@@ -375,25 +375,270 @@
 				"tall"						"12"
 				"visible"					"1"
 				"enabled"					"1"
-				"image"						"glyph_create"
+				"image"						"replay\thumbnails\createserver"
 				"scaleImage"				"1"
 			}				
 		}		
 	}
 	
+	"TopRightContainer"
+	{
+			"ControlName"					"EditablePanel"
+			"fieldName"						"TopRightContainer"
+			"xpos"							"c95"
+			"ypos"							"26"
+			"zpos"							"0"
+			"wide"							"212"
+			"tall"							"36"
+			"autoResize"					"3"
+			"pinCorner"						"0"
+			"visible"						"0"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"border"						"MainMenuBGBorder"
+			"PaintBackgroundType"			"2"
+	}
+
+	"Notifications_ShowButtonPanel"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldName"							"Notifications_ShowButtonPanel"
+		"xpos"								"c188"
+		"ypos"								"28"
+		"zpos"								"10"
+		"wide"								"32"
+		"tall"								"32"
+		"autoResize"						"0"
+		"pinCorner"							"3"
+		"visible"							"1"
+		"enabled"							"1"
+
+		"navUp"								"MOTD_ShowButtonPanel"
+		"navDown"							"SettingsButton"
+		"navLeft"							"QuickplayButton"
+		"navRight"							"Notifications_Panel"
+		"navToRelay"						"Notifications_ShowButtonPanel_SB"
+		
+		"SubImage"
+		{
+			"ControlName"					"ImagePanel"
+			"fieldName"						"SubImage"
+			"xpos"							"16"
+			"ypos"							"0"
+			"zpos"							"3"
+			"wide"							"16"
+			"tall"							"16"
+			"visible"						"1"
+			"enabled"						"1"
+			"image"							"glyph_achievements"
+			"scaleImage"					"1"
+			"drawcolor" 					"210 125 33 255"
+		}				
+		
+		"Notifications_CountLabel"
+		{
+			"ControlName"					"CExLabel"
+			"fieldName"						"Notifications_CountLabel"
+			"font"							"HudFontSmallestBold"
+			"labelText"						"%noticount%"
+			"textAlignment"					"center"
+			"xpos"							"16"
+			"ypos"							"0"
+			"zpos"							"4"
+			"wide"							"16"
+			"tall"							"16"
+			"autoResize"					"0"
+			"pinCorner"						"0"
+			"visible"						"1"
+			"enabled"						"1"
+			"fgcolor_override"				"255 255 255 255"
+		}
+	
+		"Notifications_ShowButtonPanel_SB"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"Notifications_ShowButtonPanel_SB"
+			"xpos"							"0"
+			"ypos"							"0"
+			"zpos"							"1"
+			"wide"							"32"
+			"tall"							"32"
+			"autoResize"					"0"
+			"pinCorner"						"3"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"labelText"						""
+			"font"							"HudFontSmallestBold"
+			"textAlignment"					"center"
+			"dulltext"						"0"
+			"brighttext"					"0"
+			"default"						"1"
+
+			"Command"						"noti_show"
+			"navActivate"					"<QuickplayButton"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+			"paintbackground" 				"0"
+			"image_drawcolor"				"235 226 202 255"
+			"image_armedcolor"				"255 255 255 255"
+			
+			"SubImage"
+			{
+				"ControlName"				"ImagePanel"
+				"fieldName"					"SubImage"
+				"xpos"						"0"
+				"ypos"						"0"
+				"zpos"						"1"
+				"wide"						"32"
+				"tall"						"32"
+				"visible"					"1"
+				"enabled"					"1"
+				"image"						"button_Alert"
+				"scaleImage"				"1"
+			}
+		}
+	}
+
+	"QuestLogButton"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldName"							"QuestLogButton"
+		"xpos"								"c228"
+		"ypos"								"28"
+		"zpos"								"1"
+		"wide"								"32"
+		"tall"								"32"
+		"autoResize"						"0"
+		"pinCorner"							"3"
+		"visible"							"1"
+		"enabled"							"1"
+		"tabPosition"						"0"
+		
+		"navUp"								"Notifications_Panel"
+		"navLeft"							"SettingsButton"
+
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"SubButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"wide"							"f0"
+			"tall"							"f0"
+			"autoResize"					"0"
+			"pinCorner"						"3"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"textinsetx"					"25"
+			"labelText"						""
+			"use_proportional_insets" 		"1"
+			"font"							"HudFontSmallBold"
+			"command"						"questlog"
+			"textAlignment"					"west"
+			"dulltext"						"0"
+			"brighttext"					"0"
+			"default"						"1"
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+			"actionsignallevel" 			"2"
+			"proportionaltoparent"			"1"
+				
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+			"paintbackground"				"0"
+			"paintborder"					"0"
+			"image_drawcolor"				"235 226 202 255"
+			"image_armedcolor"				"255 255 255 255"
+
+			"SubImage"
+			{
+				"ControlName"				"ImagePanel"
+				"fieldName"					"SubImage"
+				"xpos"						"cs-0.5"
+				"ypos"						"cs-0.5"
+				"zpos"						"1"
+				"wide"						"f0"
+				"tall"						"f0"
+				"visible"					"1"
+				"enabled"					"1"
+				"scaleImage"				"1"
+				"image"						"replay\thumbnails\contracts"
+
+				"proportionaltoparent"		"1"
+				"mouseinputenabled"			"0"
+				"keyboardinputenabled" 		"0"
+			}		
+		}
+		
+		"NotificationsContainer"
+		{
+			"ControlName"					"EditablePanel"
+			"fieldName"						"NotificationsContainer"
+			"xpos"							"rs1"
+			"ypos"							"0"
+			"zpos"							"10"
+			"wide"							"16"
+			"tall"							"16"
+			"visible"						"0"
+			"proportionaltoparent"			"1"
+			"mouseinputenabled"				"0"
+			"keyboardinputenabled" 			"0"
+
+			"SubImage"
+			{
+				"ControlName"				"ImagePanel"
+				"fieldName"					"SubImage"
+				"xpos"						"cs-0.5"
+				"ypos"						"cs-0.5"
+				"zpos"						"3"
+				"wide"						"16"
+				"tall"						"16"
+				"visible"					"1"
+				"enabled"					"1"
+				"image"						"glyph_achievements"
+				"scaleImage"				"1"
+				"drawcolor"					"210 125 33 255"
+				"proportionaltoparent"		"1"
+			}				
+		
+			"Notifications_CountLabel"
+			{
+				"ControlName"				"CExLabel"
+				"fieldName"					"Notifications_CountLabel"
+				"font"						"HudFontSmallestBold"
+				"labelText"					"%noticount%"
+				"textAlignment"				"center"
+				"xpos"						"cs-0.5"
+				"ypos"						"cs-0.5"
+				"zpos"						"4"
+				"wide"						"16"
+				"tall"						"16"
+				"autoResize"				"0"
+				"pinCorner"					"0"
+				"visible"					"1"
+				"enabled"					"1"
+				"fgcolor_override"			"255 255 255 255"
+				"proportionaltoparent"		"1"
+			}
+		}
+	}	
+	
 	"MOTD_ShowButtonPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"212"
-		"ypos"			"410"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
+		"ControlName"						"EditablePanel"
+		"fieldName"							"MOTD_ShowButtonPanel"
+		"xpos"								"c200"
+		"ypos"								"35"
+		"zpos"								"1"
+		"wide"								"20"
+		"tall"								"20"
+		"autoResize"						"0"
+		"pinCorner"							"3"
+		"visible"							"1"
+		"enabled"							"1"
 		
 		"MOTD_ShowButtonPanel_SB"
 		{
@@ -420,8 +665,8 @@
 			"sound_released"				"UI/buttonclickrelease.wav"
 			"paintbackground"				"0"
 			
-			"image_drawcolor"				"255 255 255 255"
-			"image_armedcolor"				"150 150 150 255"
+			"image_drawcolor"				"235 226 202 255"
+			"image_armedcolor"				"255 255 255 255"
 
 			"SubImage"
 			{
@@ -434,7 +679,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"button_MOTD"
+				"image"			"replay\thumbnails\news"
 				"scaleImage"	"1"
 			}
 		}
@@ -787,8 +1032,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"235"
-		"ypos"			"410"
+		"xpos"			"c172"
+		"ypos"			"35"
 		"zpos"			"1"
 		"wide"			"36"
 		"tall"			"36"
@@ -820,8 +1065,8 @@
 			"font"							"LatoSemibold14"
 			"labelText"						"%noticount%"
 			"textAlignment"					"center"
-			"xpos"							"18"
-			"ypos"							"2"
+			"xpos"							"6969"
+			"ypos"							"6969"
 			"zpos"							"4"
 			"wide"							"16"
 			"tall"							"16"
@@ -871,7 +1116,7 @@
 				"tall"						"20"
 				"visible"					"1"
 				"enabled"					"1"
-				"image"						"button_Alert"
+				"image"						"replay\thumbnails\newnotification"
 				"scaleImage"				"1"
 			}
 		}
@@ -1025,16 +1270,11 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 			
-		//	"border_default"				"MainMenuButtonDefault"
-		//	"border_armed"					"MainMenuButtonArmed"
 			"paintbackground"				"0"
-			
-			"defaultFgColor_override"	 	"bh_white"
-			"armedFgColor_override" 		"bh_orange"
-			"depressedFgColor_override" 	"bh_white"
 			
 			"image_drawcolor"				"255 255 255 255"
 			"image_armedcolor"				"240 134 49 255"
+			
 			"SubImage"
 			{
 				"ControlName"				"ImagePanel"
@@ -1046,8 +1286,9 @@
 				"tall"						"12"
 				"visible"					"1"
 				"enabled"					"1"
+				"image"						"replay\thumbnails\train"
 				"scaleImage"				"1"
-			}		
+			}
 		}
 	}
 
@@ -1663,8 +1904,8 @@
 		"xpos"							"0"
 		"ypos"							"422"
 		"zpos"							"11"
-		"wide"							"100"
-		"tall"							"100"
+		"wide"							"70"
+		"tall"							"80"
 		"visible"						"1"
 		"PaintBackgroundType"			"0"
 		
@@ -1673,15 +1914,15 @@
 			"ControlName"				"CExImageButton"
 			"fieldName"					"SubButton"
 			"xpos"						"0"
-			"ypos"						"0"
-			"wide"						"100"
-			"tall"						"100"
+			"ypos"						"11"
+			"wide"						"80"
+			"tall"						"80"
 			"autoResize"				"0"
 			"pinCorner"					"3"
 			"visible"					"1"
 			"enabled"					"1"
 			"tabPosition"				"0"
-			"font"						"LatoSemibold16"
+			"font"						"LatoSemibold12"
 			"textAlignment"				"west"
 			"labelText"					"Scoreboard"
 			"dulltext"					"0"
@@ -2246,7 +2487,7 @@
 				"tall"						"12"
 				"visible"					"1"
 				"enabled"					"1"
-				"image"						"glyph_create"
+				"image"						"replay\thumbnails\callvote"
 				"scaleImage"				"1"
 			}				
 		}
@@ -2307,7 +2548,7 @@
 				"tall"						"12"
 				"visible"					"1"
 				"enabled"					"1"
-				"image"						"glyph_create"
+				"image"						"replay\thumbnails\muteplayers"
 				"scaleImage"				"1"
 			}				
 		}
@@ -2369,7 +2610,7 @@
 				"tall"						"12"
 				"visible"					"1"
 				"enabled"					"1"
-				"image"						"glyph_create"
+				"image"						"replay\thumbnails\callcoach"
 				"scaleImage"				"1"
 			}				
 		}
@@ -2499,7 +2740,7 @@
 			"tall"							"15"
 			"visible"						"1"
 			"enabled"						"1"
-			"image"							"glyph_achievements"
+			"image"							"replay\thumbnails\achievements"
 			"scaleImage"					"1"
 		}				
 	}		
@@ -2550,7 +2791,7 @@
 			"tall"							"15"
 			"visible"						"1"
 			"enabled"						"1"
-			"image"							"glyph_forums"
+			"image"							"replay/thumbnails/developercommentary"
 			"scaleImage"					"1"
 		}				
 	}		
@@ -2601,7 +2842,7 @@
 			"tall"							"15"
 			"visible"						"1"
 			"enabled"						"1"
-			"image"							"glyph_commentary"
+			"image"							"replay/thumbnails/beacoach"
 			"scaleImage"					"1"
 		}				
 	}		
@@ -2651,7 +2892,7 @@
 			"tall"							"15"
 			"visible"						"1"
 			"enabled"						"1"
-			"image"							"glyph_bug"
+			"image"							"replay/thumbnails/reportbug"
 			"scaleImage"					"1"
 		}				
 	}		

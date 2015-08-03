@@ -55,37 +55,20 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
-	"PlayerStatusHealthValueFreezePanel"
+	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueFreezePanel"
-		"xpos"			"3"
-		"ypos"			"3"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"6"
+		"ypos"			"11"
 		"zpos"			"5"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"20"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"font" 			"LatoSemiBold16"
-		"textAlignment"	"center"		
-	}
-	"PlayerStatusHealthValueFreezeBackground"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueFreezeBackground"
-		"xpos"			"4"
-		"ypos"			"4"
-		"zpos"			"5"
-		"wide"			"26"
-		"tall"			"26"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"font" 			"LatoSemiBold16"
-		"fgcolor"		"0 0 0 255"
 		"textAlignment"	"center"	
-	}			
-	
-
+		"font"			"LatoSemiBold12"
+		"fgcolor"		"bh_white"
+	}
 }

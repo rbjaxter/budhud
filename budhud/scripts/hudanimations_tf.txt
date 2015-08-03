@@ -834,7 +834,7 @@ event QuestNotification_Present
 event QuestNotification_Hide
 {
 	Animate MainContainer Position	"r115 94"		Deaccel	0		0
-	Animate MainContainer Position	"r0 94"		Deaccel 0.01	0.4
+	Animate MainContainer Position	"r0 94"			Deaccel 0.01	0.4
 }
 
 event ItemCard_ShowPinHint
