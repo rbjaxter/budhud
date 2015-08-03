@@ -9,7 +9,7 @@ Scheme
 	    "TFTanMedium"               					"150 150 150 255"
 	    "TFTanLightBright"          					"255 255 255 255"
 	    "TFTanLightDark"            					"150 150 150 255"
-	    "TFOrangeBright"            					"156 82 33 255" 	// poopy color
+	    "TFOrangeBright"            					"255 255 255 255" 	// poopy color
 	    "TFTextBright"              					"255 255 255 255"
 	    "TFTextLight"               					"255 255 255 255"
 	    "TFTextMedium"									"150 150 150 255"
