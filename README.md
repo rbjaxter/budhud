@@ -15,7 +15,9 @@ https://github.com/WhiskerBiscuit/budhud/archive/master.zip
 ### Installing
 After extracting the hud, navigate to: `\Steam\steamapps\common\team fortress 2\tf\custom\` and move the "budhud" folder into your custom folder (NOT "budhud-master").
 
-Your directory should then look like this: `\Steam\steamapps\common\team fortress 2\tf\custom\budhud` and contain `_Customization_`, `materials`, `resource`, and `scripts`
+Your directory should then look like this: `\Steam\steamapps\common\team fortress 2\tf\custom\budhud` and contain `materials`, `resource`, and `scripts`. The `_Customization_` folder can be deleted or stored somewhere else if you intend to use files from it.
+
+Please note that I use a developmental branch for revision history, but that it is not considered release candidate.
 
 Customization
 =============
