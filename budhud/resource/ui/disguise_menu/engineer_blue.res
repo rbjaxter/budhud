@@ -15,7 +15,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Class_Name_Engineer"
-		"fgcolor"		"70 130 180 153"
+		"fgcolor"		"bh_white"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"

@@ -16,6 +16,27 @@
 		echo TF2 Charity Fundraiser Site: tipofthehats.org;
 		echo ========================================================================"
 	}
+	"Favorite1"
+	{
+		"label"			""
+		"command" 		"engine connect IP; password pw"
+		"OnlyAtMenu" 	"0"
+		"tooltip" 		"Server 1"
+	}
+	"Favorite2"
+	{
+		"label"			""
+		"command" 		"engine connect IP; password pw"
+		"OnlyAtMenu" 	"0"
+		"tooltip" 		"Server 2"
+	}
+	"Favorite3"
+	{
+		"label"			""
+		"command" 		"engine connect IP; password pw"
+		"OnlyAtMenu" 	"0"
+		"tooltip" 		"Server 3"
+	}
 	"ToggleScoreboard"
 	{
 		"label" 		"Scoreboard"    

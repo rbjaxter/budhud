@@ -9,8 +9,8 @@
 		"PositiveColor"			"bh_HealColor"
 		"NegativeColor"			"bh_DamageColor"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"LatoSemibold24Outline"
-		"delta_item_font_big"	"LatoSemibold24Outline"
+		"delta_item_font"		"LatoSemibold20Outline"
+		"delta_item_font_big"	"LatoSemibold20Outline"
 	}
 	
 	"DamageAccountValue"

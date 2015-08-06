@@ -97,7 +97,7 @@
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"bh_white"
+		"fgcolor_override"	"bh_chargemeter"
 		"bgcolor_override"	"bh_gray"
 	}		
 

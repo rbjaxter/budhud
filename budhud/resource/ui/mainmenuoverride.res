@@ -1893,10 +1893,6 @@
 		}
 	}
 	
-///////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////
-
 	"ToggleScoreboard"
 	{
 		"ControlName"					"EditablePanel"
@@ -1958,10 +1954,6 @@
 			}
 		}
 	}
-	
-///////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////
 	
 	"PlayComp"
 	{
@@ -2028,7 +2020,188 @@
 				"scaleImage"			"1"
 			}
 		}
-	}	
+	}
+	
+	"Favorite1"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldname"							"Favorite1"
+		"xpos"								"r25"
+		"ypos"								"5"
+		"zpos"								"11"
+		"wide"								"25"
+		"tall"								"25"
+		"visible"							"1"
+		"PaintBackgroundType"				"0"
+		
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"SubButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"wide"							"350"
+			"tall"							"40"
+			"autoResize"					"0"
+			"pinCorner"						"3"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"textinsetx"					"25"
+			"use_proportional_insets" 		"1"
+			"font"							"LatoSemibold36"
+			"textAlignment"					"west"
+			"dulltext"						"0"
+			"brighttext"					"0"
+			"default"						"1"
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+			
+		//	"border_default"				"MainMenuButtonDefault"
+		//	"border_armed"					"MainMenuButtonArmed"
+			"paintbackground"				"0"
+			
+			"image_drawcolor"				"255 255 255 255"
+			"image_armedcolor"				"240 134 49 255"
+
+			"SubImage"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"SubImage"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"1"
+				"wide"					"20"
+				"tall"					"20"
+				"visible"				"1"
+				"enabled"				"1"
+				"scaleImage"			"1"
+				"image"					"replay\thumbnails\heart"
+			}
+		}
+	}
+
+	"Favorite2"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldname"							"Favorite2"
+		"xpos"								"r25"
+		"ypos"								"30"
+		"zpos"								"11"
+		"wide"								"25"
+		"tall"								"25"
+		"visible"							"1"
+		"PaintBackgroundType"				"0"
+		
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"SubButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"wide"							"350"
+			"tall"							"40"
+			"autoResize"					"0"
+			"pinCorner"						"3"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"textinsetx"					"25"
+			"use_proportional_insets" 		"1"
+			"font"							"LatoSemibold36"
+			"textAlignment"					"west"
+			"dulltext"						"0"
+			"brighttext"					"0"
+			"default"						"1"
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+			
+		//	"border_default"				"MainMenuButtonDefault"
+		//	"border_armed"					"MainMenuButtonArmed"
+			"paintbackground"				"0"
+			
+			"image_drawcolor"				"255 255 255 255"
+			"image_armedcolor"				"240 134 49 255"
+
+			"SubImage"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"SubImage"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"1"
+				"wide"					"20"
+				"tall"					"20"
+				"visible"				"1"
+				"enabled"				"1"
+				"scaleImage"			"1"
+				"image"					"replay\thumbnails\heart"
+			}
+		}
+	}
+
+	"Favorite3"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldname"							"Favorite3"
+		"xpos"								"r25"
+		"ypos"								"55"
+		"zpos"								"11"
+		"wide"								"25"
+		"tall"								"25"
+		"visible"							"1"
+		"PaintBackgroundType"				"0"
+		
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"SubButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"wide"							"350"
+			"tall"							"40"
+			"autoResize"					"0"
+			"pinCorner"						"3"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"textinsetx"					"25"
+			"use_proportional_insets" 		"1"
+			"font"							"LatoSemibold36"
+			"textAlignment"					"west"
+			"dulltext"						"0"
+			"brighttext"					"0"
+			"default"						"1"
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+			
+		//	"border_default"				"MainMenuButtonDefault"
+		//	"border_armed"					"MainMenuButtonArmed"
+			"paintbackground"				"0"
+			
+			"image_drawcolor"				"255 255 255 255"
+			"image_armedcolor"				"240 134 49 255"
+
+			"SubImage"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"SubImage"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"1"
+				"wide"					"20"
+				"tall"					"20"
+				"visible"				"1"
+				"enabled"				"1"
+				"scaleImage"			"1"
+				"image"					"replay\thumbnails\heart"
+			}
+		}
+	}
+	
+///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////	
 
 	"QuickplayButton"
 	{

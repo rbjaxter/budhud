@@ -24,6 +24,11 @@ Scheme
 			"bh_DamageColor"		"255 255 255 255" 	// Damage done that appears above player
 			"bh_hudDMGDisplay"		"243 157 48 255" 	// Damage done that appears below ammo
 			"bh_HealColor"			"0 153 255 255" 	// Medigun/arrow heals
+			
+		// Full Uber Flash
+			"bh_chargecolor1"		"243 157 48 255"	// When full, uber will change between these two values
+			"bh_chargecolor2"		"204 93 27 255"
+			"bh_chargemeter"		"255 255 255 255"	// Default uber chargemeter fill color
 		
 		// whayay's Crosshairs
 			"ya_crosshair"			"255 255 255 255" 	// Crosshair color
@@ -2664,6 +2669,17 @@ Scheme
 				"tall"		"20"
 				"weight"	"500"
 				"antialias"	"1"
+			}
+		}
+		LatoSemibold20Outline
+		{
+			"1"
+			{
+				"name"		"Lato Semibold"
+				"tall"		"20"
+				"weight"	"500"
+				"antialias"	"1"
+				"outline"	"1"
 			}
 		}
 		LatoSemibold24
