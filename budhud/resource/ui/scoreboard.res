@@ -690,7 +690,7 @@
 	"MapName"
 	{
 		"ControlName"				"CExLabel"
-		"fieldName"					"mapname"
+		"fieldName"					"MapName"
 		"font"						"LatoSemibold12"
 		"fgcolor"					"bh_orange"
 		"labelText"					"%mapname%"

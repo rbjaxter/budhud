@@ -8,7 +8,7 @@
 		"tooltip"		"Show information about the hud"
 		"command" 		"engine con_enable 1;showconsole;clear;
 		echo ========================================================================;
-		echo BUDHUD, 2/AUGUST/2015 by Whisker Biscuit;
+		echo BUDHUD, 14/AUGUST/2015 by Whisker Biscuit;
 		echo ========================================================================;
 		echo Report Issues: github.com/WhiskerBiscuit/budhud/issues;
 		echo HUD GROUP: steamcommunity.com/groups/budhud;
@@ -16,37 +16,39 @@
 		echo TF2 Charity Fundraiser Site: tipofthehats.org;
 		echo ========================================================================"
 	}
+
+	// Add your own favorite servers here.
+	// To do so, you must put a connect string
+	// Example: 
+	// "command"		"engine connect 192.223.26.43:27015; password butts"
+	// You can also set these up to create a locally-hosted server
+	// Example:
+	// "command"		"engine map tr_walkway_rc2"
+
 	"Favorite1"
 	{
-		"label"			""
-		"command" 		"engine connect IP; password pw"
+		"label"			""			// Leave blank
+		"command" 		"engine connect IPandPORThere; password passwordhere"
 		"OnlyAtMenu" 	"0"
-		"tooltip" 		"Server 1"
+		"tooltip" 		"Server 1"	// Change if you'd like
 	}
 	"Favorite2"
 	{
-		"label"			""
-		"command" 		"engine connect IP; password pw"
+		"label"			""			// Leave blank
+		"command" 		"engine connect IPandPORThere; password passwordhere"
 		"OnlyAtMenu" 	"0"
-		"tooltip" 		"Server 2"
+		"tooltip" 		"Server 2"	// Change if you'd like
 	}
 	"Favorite3"
 	{
-		"label"			""
-		"command" 		"engine connect IP; password pw"
+		"label"			""			// Leave blank
+		"command" 		"engine map tr_walkway_rc2"
 		"OnlyAtMenu" 	"0"
-		"tooltip" 		"Server 3"
-	}
-	"ToggleScoreboard"
-	{
-		"label" 		"Scoreboard"    
-		"command" 		"engine toggle cl_hud_minmode"
-		"OnlyInGame" 	"1"
-        "tooltip" 		"Toggles between the 6v6 and 12v12 scoreboard"
+		"tooltip" 		"tr_walkway_rc2 (Local)"	// Change if you'd like
 	}
 	"PlayComp"
 	{
-		"label" 		"/ COMP" 
+		"label" 		"MATCHMAKING" 
 		"command" 		"ladder_ui_show"
 		"subimage" 		"glyph_practice"
 		"OnlyAtMenu" 	"1"
@@ -116,7 +118,6 @@
 	{
 		"label" 		"#TF_Training"
 		"command" 		"offlinepractice"
-		"subimage" 		"glyph_practice"
 		"OnlyAtMenu" 	"1"
 		"tooltip"		"Training Mode"
 	}
@@ -149,7 +150,6 @@
 		"label"			""
 		"command"		"callvote"
 		"OnlyInGame"	"1"
-		"subimage" 		"icon_checkbox"
 		"tooltip" 		"#MMenu_CallVote"
 	}
 	"MutePlayersButton"
@@ -157,7 +157,6 @@
 		"label"			""
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
-		"subimage"		"glyph_muted"
 		"tooltip" 		"#MMenu_MutePlayers"
 	}
 	"RequestCoachButton"
@@ -165,7 +164,6 @@
 		"label"			""
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
-		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
+		"tooltip" 		"#MMenu_RequestCoach"
 	}
 }

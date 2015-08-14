@@ -1,6 +1,5 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
-	// player health data
 
 	/////////////////////////////////////////////////////////////////////////////
 	// AMMO PLACEMENT CUSTOMIZATION
@@ -75,6 +74,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
+		"bgcolor"		"255 255 255 255"
 	}		
 	"PlayerStatusHealthImageBG"
 	{

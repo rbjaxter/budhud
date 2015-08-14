@@ -69,17 +69,18 @@
 	}
 
 	"New"
+	//	Appears over page number
 	{
 		"ControlName" 						"CExLabel"
 		"fieldName" 						"New"
-		"font" 								"LatoSemibold9"
+		"font" 								"LatoSemibold6"
 		"textAlignment" 					"center"
 		"ypos" 								"0"
 		"xpos" 								"0"
 		"zpos" 								"0"
-		"wide" 								"f6"
-		"tall" 								"f-3"
-		"textinsetx" 						"8"
+		"wide" 								"9"
+		"tall" 								"f-4"
+		"textinsetx" 						"0"
 		"autoResize" 						"1"
 		"pinCorner" 						"0"
 		"visible" 							"0"
@@ -127,14 +128,15 @@
 			}
 			
 			"New"
+			// Appears over new item
 			{
 			"ControlName" 					"CExLabel"
 			"fieldName" 					"New"
-			"font" 							"LatoSemibold9"
+			"font" 							"LatoSemibold6"
 			"textAlignment" 				"east"
 			"xpos" 							"rs1"
 			"zpos" 							"15"
-			"wide" 							"30"
+			"wide" 							"20"
 			"tall" 							"12"
 			"textinsetx" 					"8"
 			"autoResize" 					"1"
