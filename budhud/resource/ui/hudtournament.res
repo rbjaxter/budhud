@@ -1024,8 +1024,8 @@
 		if_readymode
 		{
 			"font"								"HudFontSmallishBold"
-			"xpos"								"70"
-			"ypos"								"35"
+			"xpos"								"6969"
+			"ypos"								"6969"
 			"wide"								"500"
 			"tall"								"20"
 			"zpos"								"3"
