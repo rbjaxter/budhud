@@ -859,7 +859,7 @@
 		"font"									"LatoSemiBold40"
 		"xpos"									"100"
 		"ypos"									"100"
-		"wide"									"40"
+		"wide"									"90"
 		"tall"									"40"
 		"zpos"									"1"
 		"autoResize"							"0"
@@ -873,19 +873,19 @@
 	
 		if_mvm
 		{
-			"xpos"								"c-197"
+			"xpos"								"c-217"
 			"ypos"								"100"
 		}
 		
 		if_competitive
 		{
-			"xpos"								"300"
+			"xpos"								"c-217"
 			"ypos"								"100"
 		}
 
 		if_readymode
 		{
-			"xpos"								"300"
+			"xpos"								"c-217"
 			"ypos"								"100"
 		}
 	}
@@ -895,9 +895,9 @@
 		"ControlName"							"CExLabel"
 		"fieldName"								"CountdownLabelShadow"
 		"font"									"LatoSemiBold40"
-		"xpos"									"231"
-		"ypos"									"r54"
-		"wide"									"40"
+		"xpos"									"100"
+		"ypos"									"100"
+		"wide"									"90"
 		"tall"									"40"
 		"zpos"									"1"
 		"autoResize"							"0"
@@ -911,20 +911,20 @@
 
 		if_mvm
 		{
-			"xpos"								"c-196"
+			"xpos"								"c-216"
 			"ypos"								"101"
 		}
 
 		if_competitive
 		{
-			"xpos"								"300"
-			"ypos"								"100"
+			"xpos"								"c-216"
+			"ypos"								"101"
 		}
 
 		if_readymode
 		{
-			"xpos"								"300"
-			"ypos"								"100"
+			"xpos"								"c-216"
+			"ypos"								"101"
 		}
 	}
 	"BGtournamentBlue"
@@ -1024,8 +1024,8 @@
 		if_readymode
 		{
 			"font"								"HudFontSmallishBold"
-			"xpos"								"6969"
-			"ypos"								"6969"
+			"xpos"								"70"
+			"ypos"								"35"
 			"wide"								"500"
 			"tall"								"20"
 			"zpos"								"3"
