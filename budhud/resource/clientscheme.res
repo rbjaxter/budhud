@@ -5574,7 +5574,7 @@ Scheme
 		}
 		"7" //budhud font
 		{
-			"font"	"resource/fonts/LatoSemibold.ttf"
+			"font"	"resource/fonts/Lato-Semibold.ttf"
 			"name"	"Lato Semibold"
 		}
 		"8" // Fog's xHairs
