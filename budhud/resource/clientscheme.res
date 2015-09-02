@@ -2377,6 +2377,31 @@ Scheme
 			}
 		}
 		
+		"TradeUp_Text"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+
+		"TradeUp_Quote"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"9"
+				"weight"	"400"
+				"antialias" "1"
+				"additive"	"0"
+				"italic"	"1"
+			}
+		}
+		
 		//
 		//////////////////// REPLAY FONTS //////////////////////////////
 		//
