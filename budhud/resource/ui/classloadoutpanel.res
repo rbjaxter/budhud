@@ -1,5 +1,75 @@
 "resource/ui/FullLoadoutPanel.res"
 {
+	"bhe_RED"
+	{
+		"ControlName"				"CExImageButton"
+		"fieldName"					"bhe_RED"
+		"xpos"						"c10"
+		"ypos"						"23"
+		"zpos"						"12"	
+		"wide"						"40"
+		"tall"						"20"
+		"autoResize"				"1"
+		"pinCorner"					"2"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"RED"
+		"textAlignment"				"center"
+		"font"						"LatoSemibold20"
+		"scaleImage"				"1"
+		"command"					"sv_cheats 1;r_skin 0;r_eyes 1"
+		
+		"defaultFgColor_override" 	"bh_red"
+		"armedFgColor_override" 	"bh_orange"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		
+		"keyboardinputenabled"		"0"
+		
+		"paintbackground"			"1"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
+		"border_depressed"			"NoBorder"
+	}
+	
+	"bhe_BLU"
+	{
+		"ControlName"				"CExImageButton"
+		"fieldName"					"bhe_BLU"
+		"xpos"						"c-54"
+		"ypos"						"23"
+		"zpos"						"12"	
+		"wide"						"40"
+		"tall"						"20"
+		"autoResize"				"1"
+		"pinCorner"					"2"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"BLU"
+		"textAlignment"				"center"
+		"font"						"LatoSemibold20"
+		"scaleImage"				"1"
+		"command"					"sv_cheats 1;r_skin 1;r_eyes 1"
+		
+		"defaultFgColor_override" 	"bh_blue"
+		"armedFgColor_override" 	"bh_orange"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		
+		"keyboardinputenabled"		"0"
+		
+		"paintbackground"			"1"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
+		"border_depressed"			"NoBorder"
+	}
+	
 	"class_loadout_panel"
 	{
 		"ControlName"	"Frame"
@@ -64,6 +134,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type"	"1"
 			}
 		}
 		
@@ -188,7 +259,7 @@
 		
 		"render_texture""0"
 		"fov"			"30"
-		"allow_rot"		"1"
+		"allow_manip"		"1"
 				
 		"model"
 		{

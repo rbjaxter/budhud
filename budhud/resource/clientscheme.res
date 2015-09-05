@@ -61,6 +61,7 @@ Scheme
 			"bh_orange"				"240 134 49 255"
 			"bh_green"				"0 215 0 255"
 			"bh_red"				"215 0 0 255"
+			"bh_blue"				"0 153 255 255"
 		
 		// One of these 5 controls HudHintDisplay / HudHintKeyDisplay color
 		// (surf timer, etc)
