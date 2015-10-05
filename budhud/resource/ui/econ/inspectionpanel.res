@@ -11,6 +11,22 @@
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"30 25 25 245"
+
+		"BGImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BGImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"o1"
+			"tall"			"p0.75"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"item_carousel_bg"
+			"scaleImage"	"1"
+			"proportionaltoparent" "1"
+		}
 	}
 
 	"BGImage"

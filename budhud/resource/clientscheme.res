@@ -2135,6 +2135,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"ItemFontNameLarger"
+		{
+			"1"
+			{
+				"name"			"Lato Semibold"
+				"tall"			"18"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"ItemFontAttribSmallest"
 		{
 			"1"
@@ -2178,7 +2189,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}	
-		
+		"ItemFontAttribLarger"
+		{
+			"1"
+			{
+				"name"			"Lato SemiBold"
+				"tall"			"14"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}		
 		"AchievementTracker_Name"
 		{
 			"1"

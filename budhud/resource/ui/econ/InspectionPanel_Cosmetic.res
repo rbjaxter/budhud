@@ -472,6 +472,8 @@
 					"command"		"viewwikipage"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+<<<<<<< HEAD
+=======
 				}		
 				
 				"TradableLabel"
@@ -604,6 +606,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
+>>>>>>> f6186bf8172e486ca2a37ce974b38db1f2a90ed3
 				}
 			}
 		}
