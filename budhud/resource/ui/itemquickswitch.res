@@ -4,9 +4,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ItemQuickSwitchPanel"
-		"xpos"			"c-125"
+		"xpos"			"c-153"
 		"ypos"			"280"
-		"wide"			"275"
+		"wide"			"295"
 		"tall"			"160"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -119,9 +119,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"itemcontainerscroller"
-		"xpos"			"5"
+		"xpos"			"35"
 		"ypos"			"30"
-		"wide"			"265"
+		"wide"			"260"
 		"tall"			"125"
 		"PaintBackgroundType"	"2"
 		"fgcolor_override"	"59 54 48 255"

@@ -71,7 +71,7 @@
 	"titleShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"LatoSemiboldBold24"
+		"fieldName"		"LatoSemibold24"
 		"xpos"			"c-199"
 		"ypos"			"108"
 		"zpos"			"5"
@@ -81,7 +81,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"LatoSemiboldBold20"
+		"font"			"LatoSemibold20"
 		"labelText"		"Your Team"
 		"textAlignment"	"center"
 		"fgcolor"		"TransparentBlack"

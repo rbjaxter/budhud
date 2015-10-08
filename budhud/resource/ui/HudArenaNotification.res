@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"bh_BGStandard"
 	}
 
 	"WarningLabel"
@@ -38,9 +38,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"LatoSemibold24"
-		"xpos"			"75"
-		"ypos"			"0"
+		"font"			"LatoSemibold16"
+		"xpos"			"73"
+		"ypos"			"8"
 		"zpos"			"1"
 		"wide"			"230"
 		"tall"			"64"
@@ -58,9 +58,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabelTip"
-		"font"			"LatoSemibold16"
+		"font"			"LatoSemibold14"
 		"xpos"			"75"
-		"ypos"			"34"
+		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"230"
 		"tall"			"64"
