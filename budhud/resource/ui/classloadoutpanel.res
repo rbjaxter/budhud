@@ -1,6 +1,6 @@
 "resource/ui/FullLoadoutPanel.res"
 {
-	"bhe_RED"
+	"bh_e_RED"
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"bhe_RED"
@@ -35,7 +35,7 @@
 		"border_depressed"			"NoBorder"
 	}
 	
-	"bhe_BLU"
+	"bh_e_BLU"
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"bhe_BLU"

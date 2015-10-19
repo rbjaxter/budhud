@@ -1029,8 +1029,8 @@
 			"wide"								"500"
 			"tall"								"20"
 			"zpos"								"3"
-			"visible"							"1"
-			"enabled"							"1"
+			"visible"							"0"
+			"enabled"							"0"
 		}
 	}
 }

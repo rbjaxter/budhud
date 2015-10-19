@@ -12,7 +12,7 @@
 		"settitlebarvisible"	"0"
 		"paintborder"			"2"
 		"paintbackground"		"1"
-		"border"				"NoBorder"
+		"border"				"bh_b_main"
 		"bgcolor_override"		"25 25 25 255"
 	}
 	"mouseoveritempanel"
@@ -34,7 +34,8 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-			"BackColor"
+		
+		"BackColor"
     	{
     		"ControlName"			"EditablePanel"
     		"fieldName"				"BackColor"
@@ -48,7 +49,7 @@
 			"pinCorner"				"0"
 			"autoResize"			"0"
 			"PaintBackgroundType"	"1"
-			"border"				"NoBorder"
+			"border"				"bh_b_main"
 			"bgcolor_override"		"35 35 35 255"
 			
 			"attriblabel"

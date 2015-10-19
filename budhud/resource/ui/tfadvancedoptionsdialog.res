@@ -141,7 +141,7 @@
 		"visible"						"0"
 		"paintborder"					"1"
 		"paintbackground"				"1"
-		"border"						"NoBorder"
+		"border"						"bh_b_main"
 		"bgcolor_override"				"25 25 25 255"
 		
 		"TipLabel"

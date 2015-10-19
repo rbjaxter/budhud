@@ -59,7 +59,7 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			"border"		"NoBorder"
+			"border"		"bh_b_main"
 						
 			"model_xpos"	"24"
 			"model_ypos"	"6"
@@ -118,7 +118,7 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			"border"		"NoBorder"
+			"border"		"bh_b_main"
 			
 			"model_xpos"	"2"
 			"model_ypos"	"2"
@@ -275,7 +275,8 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
-				"BackColor"
+		
+		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
     		"fieldName"			"BackColor"
@@ -372,8 +373,8 @@
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "TanDark"
 		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 	}		
 	
 	"CurPageLabel"
@@ -425,8 +426,8 @@
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "TanDark"
 		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 	}	
 	
 	"PriceLabel"
@@ -570,7 +571,7 @@
 			
 			"paintbackground"	"0"
 			"paintborder"		"1"
-			"border"			"NoBorder"
+			"border"			"bh_b_main"
 			
 			"image_drawcolor"		"150 150 150 150"
 			"image_armedcolor"		"240 134 49 255"
@@ -781,8 +782,8 @@
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "TanDark"
 		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 	}
 	
 	"CartImage"

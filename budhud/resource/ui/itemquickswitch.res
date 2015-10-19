@@ -20,7 +20,7 @@
 		
 		"itempanel_xpos"	"0"
 		"itempanel_ydelta"	"0"
-		"border"			"NoBorder"
+		"border"			"bh_b_main"
 		
 		"itemskv"	
 		{

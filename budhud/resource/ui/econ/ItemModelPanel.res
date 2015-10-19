@@ -28,7 +28,8 @@
 			"pinCorner"			"0"
 			"autoResize"		"0"
 			"PaintBackgroundType""1"
-			"border"			"NoBorder"
+			"border"			"NoBorder"				// Causes border to appear on older weapons 
+														// that only draws border on top horizontal and left vertical
 			"bgcolor_override"	"30 30 30 255"
 			
 			"attriblabel"

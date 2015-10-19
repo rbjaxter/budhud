@@ -63,7 +63,7 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			"border"		"NoBorder"
+			"border"		"bh_b_main"
 						
 			"model_xpos"	"24"
 			"model_ypos"	"6"
@@ -120,7 +120,7 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			"border"		"NoBorder"
+			"border"		"bh_b_main"
 			
 			"model_xpos"	"2"
 			"model_ypos"	"2"
@@ -307,7 +307,7 @@
 		"selected_button_default"	"0"
 		"auto_layout_horizontal_buffer"	"9"
 		"display_vertically"	"0"
-		"border" "NoBorder"
+		"border" 			"NoBorder"		// Causes weird border to form, don't use
 		"ButtonSettings"
 		{
 			"wide"				"100"
@@ -374,8 +374,8 @@
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "TanDark"
 		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 	}		
 	
 	"CurPageLabel"
@@ -427,8 +427,8 @@
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "TanDark"
 		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 	}	
 	
 	"BackpackSpaceLabel"
@@ -465,7 +465,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"textinsetx"	"15"
-		"border"		"NoBorder"
+		"border"		"bh_b_main"
 		
 		"Command"		"viewcart"
 		"font"			"HudFontSmallBold"
@@ -479,8 +479,8 @@
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "TanDark"
 		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 	}
 	
 	"CartImage"

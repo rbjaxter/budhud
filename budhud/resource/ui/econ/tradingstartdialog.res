@@ -12,7 +12,7 @@
 		"settitlebarvisible"	""
 		"paintbackgroundtype"	"2"
 		"paintbackground"		"1"
-		"border"				"NoBorder"
+		"border"				"bh_b_main"
 		"bgcolor_override"		"35 35 35 255"
 		
 		

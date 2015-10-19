@@ -37,8 +37,8 @@
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
 		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 		
 	}
 	"CaratLabel"

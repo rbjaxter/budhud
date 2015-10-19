@@ -13,7 +13,7 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"30 30 30 255"
 		"settitlebarvisible"	"0"
-		"border"				"NoBorder"
+		"border"				"bh_b_main"
 	}
 	
 	"CenterPositioner"

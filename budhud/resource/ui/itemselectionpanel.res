@@ -305,8 +305,8 @@
 		"armedFgColor_override" 			"bh_white"
 		"depressedFgColor_override"		 	"TanDark"
 		
-		"border_default"					"NoBorder"
-		"border_armed"						"NoBorder"
+		"border_default"					"bh_b_main"
+		"border_armed"						"bh_b_main"
 	}
 	"ShowSelection"
 	{
@@ -364,8 +364,8 @@
 		"armedFgColor_override" 			"bh_white"
 		"depressedFgColor_override" 		"TanDark"
 		
-		"border_default"					"NoBorder"
-		"border_armed"						"NoBorder"
+		"border_default"					"bh_b_main"
+		"border_armed"						"bh_b_main"
 	}		
 	
 	"CurPageLabel"
@@ -418,8 +418,8 @@
 		"armedFgColor_override" 			"bh_white"
 		"depressedFgColor_override" 		"TanDark"
 		
-		"border_default"					"NoBorder"
-		"border_armed"						"NoBorder"
+		"border_default"					"bh_b_main"
+		"border_armed"						"bh_b_main"
 	}		
 	
 	"mouseoveritempanel"
@@ -436,7 +436,8 @@
 		"noitem_textcolor"					"117 107 94 255"
 		"PaintBackgroundType"				"0"
 		"paintborder"						"0"
-											"BackColor"
+											
+		"BackColor"
     	{
     		"ControlName"						"EditablePanel"
     		"fieldName"							"BackColor"

@@ -50,6 +50,7 @@ Scheme
 			
 		// Misc
 			"bh_BGStandard"			"0 0 0 100"			// hudmenuengydestroy.res ; hudmenuengybuild.res ; hudmenutauntselection.res
+			"bh_border_main"		"140 140 140 255"
 		
 		// budhud core colors
 			"bh_white"				"255 255 255 255"
@@ -3274,8 +3275,89 @@ Scheme
 	//////////////////// BORDERS //////////////////////////////
 	//
 	// describes all the border types
+
 	Borders
 	{
+		bh_b_main
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "bh_border_main"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "bh_border_main"
+					"offset" "0 1"
+				}
+				"3"
+				{
+					"color" "bh_border_main"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "bh_border_main"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "bh_border_main"
+					"offset" "0 1"
+				}
+				"3"
+				{
+					"color" "bh_border_main"
+					"offset" "0 1"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "bh_border_main"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "bh_border_main"
+					"offset" "0 1"
+				}
+				"3"
+				{
+					"color" "bh_border_main"
+					"offset" "0 1"
+				}
+			}
+			
+			Bottom
+			{
+				"1"
+				{
+					"color" "bh_border_main"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "bh_border_main"
+					"offset" "0 1"
+				}
+				"3"
+				{
+					"color" "bh_border_main"
+					"offset" "0 1"
+				}
+			}
+		}		
+		
 		NoBorder
 		{
 			"inset" "0 0 0 0"

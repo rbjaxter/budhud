@@ -55,10 +55,10 @@
 		"enabled"					"1"
 		"fillcolor"					"150 150 150 10"
 	}
-	"EmptyBoxBottomLeft"
+	"bh_e_EmptyBoxBottomLeft"
 	{
 		"ControlName"				"ImagePanel"
-		"fieldName"					"EmptyBoxBottomLeft"
+		"fieldName"					"bh_e_EmptyBoxBottomLeft"
 		"xpos"						"0"
 		"ypos"						"r40"
 		"zpos"						"0"
@@ -70,10 +70,10 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 	}
-	"EmptyBoxBottomLeftHover"
+	"bh_e_EmptyBoxBottomLeftHover"
 	{
 		"ControlName"				"CExButton"
-		"fieldName"					"EmptyBoxBottomLeftHover"
+		"fieldName"					"bh_e_EmptyBoxBottomLeftHover"
 		"xpos"						"0"
 		"ypos"						"r40"
 		"zpos"						"0"
@@ -86,10 +86,10 @@
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
 	}
-	"EmptyBoxTopRight"
+	"bh_e_EmptyBoxTopRight"
 	{
 		"ControlName"				"ImagePanel"
-		"fieldName"					"EmptyBoxTopRight"
+		"fieldName"					"bh_e_EmptyBoxTopRight"
 		"xpos"						"r40"
 		"ypos"						"r40"
 		"zpos"						"0"
@@ -99,10 +99,10 @@
 		"enabled"					"1"
 		"fillcolor"					"150 150 150 10"
 	}
-	"EmptyBoxBottomRightHover"
+	"bh_e_EmptyBoxBottomRightHover"
 	{
 		"ControlName"				"CExButton"
-		"fieldName"					"EmptyBoxBottomRightHover"
+		"fieldName"					"bh_e_EmptyBoxBottomRightHover"
 		"xpos"						"r40"
 		"ypos"						"r40"
 		"zpos"						"0"

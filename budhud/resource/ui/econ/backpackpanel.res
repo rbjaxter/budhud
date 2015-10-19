@@ -231,7 +231,7 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"default"			"0"
-		"border"			"NoBorder"
+		"border"			"bh_b_main"
 		
 		"fgcolor_override"	"bh_white"
 		"bgcolor_override"	"0 0 0 0"
@@ -336,24 +336,24 @@
 	
 	"mouseoveritempanel"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"mouseoveritempanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"100"
-		"wide"			"300"
-		"tall"			"300"
-		"visible"		"0"
+		"ControlName"			"CItemModelPanel"
+		"fieldName"				"mouseoveritempanel"
+		"xpos"					"c-70"
+		"ypos"					"270"
+		"zpos"					"100"
+		"wide"					"300"
+		"tall"					"300"
+		"visible"				"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+		"paintborder"			"1"
 		
-		"text_ypos"			"20"
-		"text_center"		"1"
-		"model_hide"		"1"
-		"resize_to_text"	"1"
-		"padding_height"	"15"
+		"text_ypos"				"20"
+		"text_center"			"1"
+		"model_hide"			"1"
+		"resize_to_text"		"1"
+		"padding_height"		"15"
 		
 		"BackColor"
     	{
@@ -369,7 +369,7 @@
 			"pinCorner"			"0"
 			"autoResize"		"0"
 			"PaintBackgroundType" "1"
-			"border"			"NoBorder"
+			"border"			"bh_b_main"
 			"bgcolor_override"	"35 35 35 255"
 			
 			"attriblabel"
@@ -453,8 +453,8 @@
 		"armedFgColor_override" 	"bh_gray"
 		"depressedFgColor_override" "bh_gray"
 		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 	}		
 	
 	"CurPageLabel"
@@ -492,7 +492,7 @@
 		"tabPosition"	"0"
 		"labelText"		"&D"
 		"font"			"HudFontSmallBold"
-		"border"		"NoBorder"
+		"border"		"bh_b_main"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -508,8 +508,8 @@
 		"armedFgColor_override" 	"bh_gray"
 		"depressedFgColor_override" "bh_gray"
 		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 	}		
 	
 	"DragToNextPageButton"
@@ -591,8 +591,8 @@
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_gray"
 		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 		
 	}
 	
@@ -600,14 +600,14 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StyleButton"
-		"xpos"			"c-200"
-		"ypos"			"323"
+		"xpos"			"6969"
+		"ypos"			"6969"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"SET STYLE"
@@ -628,7 +628,7 @@
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_gray"
 		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 	}
 }

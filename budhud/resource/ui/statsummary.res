@@ -91,7 +91,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"border"		"NoBorder"
+				"border"		"bh_b_main"
 				"bgcolor_override"	"15 15 15 150"
 			}
 	
@@ -128,7 +128,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"NoBorder"
+			"border"		"bh_b_main"
 			"bgcolor_override"		"15 15 15 150"
 		}
 
@@ -429,7 +429,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"NoBorder"
+			"border"		"bh_b_main"
 			"bgcolor_override"		"15 15 15 150"
 		}
 		"AveragesLabel"
@@ -1817,7 +1817,7 @@
 			"enabled"		"1"
 			"enabled_hidef"		"0"			
 			"enabled_lodef"		"0"			
-			"border"		"NoBorder"
+			"border"		"bh_b_main"
 			"bgcolor_override"	"15 15 15 150"
 		}
 		"RecordsLabel1"
