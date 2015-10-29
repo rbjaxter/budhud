@@ -4342,39 +4342,34 @@
 				"items"
 				{
 					"0"
-					{
-						"item"		"Unused Invasion Pass"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
-					}
+						{
+							"item"			"Tipped Lid"
+							"show_market"	"0"
+						}
 					"1"
-					{
-						"item"		"Invasion Key"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
-					}
+						{
+							"item"			"Halloween 2015 Key"
+							"show_market"	"0"
+						}
 					"2"
-					{
-						"item"		"Invasion Case 01"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-					}
+						{
+							"item"			"Halloween 2015 case"
+						}
 					"3"
-					{
-						"item"		"Invasion Case 02"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-					}
+						{
+							"item"			"Taunt: Zoomin' Broom"
+							"show_market"	"0"
+						}
+					"4"
+						{
+							"item"			"Taunt: Maggot's Condolence"
+							"show_market"	"0"
+						}
+					"5"
+						{
+							"item"			"Jaunty Pin 2015"
+							"show_market"	"0"
+						}
 				}
 			}
 
@@ -4405,66 +4400,66 @@
 
 	"icon_generator"
 	{
-		"ControlName"		"CEmbeddedItemModelPanel"
-		"fieldName"		"icon_generator"
+		"ControlName"			"CEmbeddedItemModelPanel"
+		"fieldName"				"icon_generator"
 
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"		
-		"wide"			"300"
-		"tall"			"300"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"useparentbg"		"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"1"		
+		"wide"					"300"
+		"tall"					"300"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"useparentbg"			"1"
 	
-		"inset_eq_x"	"2"
-		"inset_eq_y"	"2"
+		"inset_eq_x"			"2"
+		"inset_eq_y"			"2"
 
-		"fov"			"54"
-		"start_framed"		"1"
+		"fov"					"54"
+		"start_framed"			"1"
 
 		"disable_manipulation"	"1"
 
 		"model"
 		{
-			"angles_x"		"10"
-			"angles_y"		"130"
-			"angles_z"		"0"
+			"angles_x"			"10"
+			"angles_y"			"130"
+			"angles_z"			"0"
 		}
 	}
 	
 	"ReloadSchemeButton"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ReloadSchemeButton"
-		"xpos"			"0"
-		"ypos"			"r20"
-		"zpos"			"2"
-		"wide"			"20"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"0"
-		"Command"		"reloadscheme"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"ControlName"				"CExButton"
+		"fieldName"					"ReloadSchemeButton"
+		"xpos"						"0"
+		"ypos"						"r20"
+		"zpos"						"2"
+		"wide"						"20"
+		"tall"						"20"
+		"autoResize"				"0"
+		"pinCorner"					"3"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					""
+		"font"						"HudFontSmallBold"
+		"textAlignment"				"west"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"default"					"0"
+		"Command"					"reloadscheme"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
+		"border_default"			""
+		"border_armed"				""
+		"paintbackground"			"0"
 		
-		"defaultFgColor_override" "Blank"
-		"armedFgColor_override" "Blank"
+		"defaultFgColor_override"	"Blank"
+		"armedFgColor_override" 	"Blank"
 		"depressedFgColor_override" "Blank"
 	}
 }

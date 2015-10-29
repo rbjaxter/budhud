@@ -237,6 +237,22 @@
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
 	}
+	"PlayerStatus_MedicUberBlastResistImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_MedicUberBlastResistImage"
+		"xpos"			"85"
+		"xpos_minmode"	"70"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../HUD/defense_buff_explosion_blue"
+		"fgcolor"		"TanDark"
+	}
 	"PlayerStatus_MedicUberFireResistImage"
 	{
 		"ControlName"	"ImagePanel"

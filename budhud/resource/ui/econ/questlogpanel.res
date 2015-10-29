@@ -67,8 +67,7 @@
 		"tall"			"100"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"NoBorder"
-		"bgcolor_override"	"25 25 25 255"
+		"border"		"MainMenuBGBorder"
 		
 		"TipLabel"
 		{
@@ -104,8 +103,7 @@
 		"proportionaltoparent"	"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"CyanBorderThick"
-		"bgcolor_override"	"25 25 25 255"
+		"border"		"MainMenuBGBorder"
 
 		"UpperLine"
 		{
@@ -130,11 +128,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QuestLogTitle"
-			"font"			"LatoSemiBold16"
+			"font"			"HudFontSmallBold"
 			"labelText"		"#QuestLog_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
-			"ypos"			"5"
+			"ypos"			"10"
 			"zpos"			"2"
 			"wide"			"f0"
 			"tall"			"30"
@@ -161,8 +159,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		"ã"
-			"font"			"Sosa Small"
+			"labeltext"		""
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -175,11 +173,11 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "235 226 202 255"
+			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "200 80 60 255"
+			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -190,7 +188,7 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"visible"		"0"
+				"visible"		"1"
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
@@ -205,13 +203,17 @@
 			"ypos"			"p0.1"
 			"zpos"			"10"
 			"wide"			"p.95"
-			"tall"			"p.875"
+			"tall"			"o1"
 			"visible"		"1"
 			"enabled"		"1"
 			"proportionaltoparent" "1"
 
 			"entry_step" "10"
 			"entry_y"	"10"
+
+			"no_quests"		"#QuestLog_NoQuests"
+			"need_a_pass"	"#QuestLog_NeedPassForContracts"
+			"not_possible"	"#QuestLog_NoContractsPossible"
 		}
 	}
 }
