@@ -29,7 +29,7 @@
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"70 130 180 153"
+		"fillcolor"		"bh_g_red"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -67,7 +67,7 @@
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"205 50 50 153"
+		"fillcolor"		"bh_g_blue"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"

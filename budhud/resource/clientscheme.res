@@ -51,6 +51,8 @@ Scheme
 		// Misc
 			"bh_BGStandard"			"0 0 0 100"			// hudmenuengydestroy.res ; hudmenuengybuild.res ; hudmenutauntselection.res
 			"bh_border_main"		"140 140 140 255"
+			"bh_g_red"				"70 130 180 153"
+			"bh_g_blue"				"205 50 50 153"
 		
 		// budhud core colors
 			"bh_white"				"255 255 255 255"

@@ -99,8 +99,7 @@
 		"brighttext"		"0"
 		"fgcolor_override"	"bh_chargemeter"
 		"bgcolor_override"	"bh_gray"
-	}		
-
+	}	
 	"ChargeMeter1"
 	{	
 		"ControlName"		"ContinuousProgressBar"
