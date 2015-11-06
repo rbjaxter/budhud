@@ -51,8 +51,8 @@
 				"defaultFgColor_override"	"bh_white"
 				"armedFgColor_override" 	"bh_white"
 				"depressedFgColor_override" "bh_white"
-				"border_default"			"ButtonHover"
-				"border_armed"				"ButtonHover"
+				"border_default"			"bh_b_main"
+				"border_armed"				"bh_b_main"
 			}
 			
 			"avatar"
@@ -177,8 +177,8 @@
 			"defaultFgColor_override"	"bh_white"
 			"armedFgColor_override" 	"bh_white"
 			"depressedFgColor_override" "bh_white"
-			"border_default"			"ButtonHover"
-			"border_armed"				"ButtonHover"
+			"border_default"			"bh_b_main"
+			"border_armed"				"bh_b_main"
 		}
 		"subbutton1"
 		{
@@ -210,8 +210,8 @@
 			"defaultFgColor_override"	"bh_white"
 			"armedFgColor_override" 	"bh_white"
 			"depressedFgColor_override" "bh_white"
-			"border_default"			"ButtonHover"
-			"border_armed"				"ButtonHover"
+			"border_default"			"bh_b_main"
+			"border_armed"				"bh_b_main"
 		}
 		"subbutton2"
 		{
@@ -243,8 +243,8 @@
 			"defaultFgColor_override"	"bh_white"
 			"armedFgColor_override" 	"bh_white"
 			"depressedFgColor_override" "bh_white"
-			"border_default"			"ButtonHover"
-			"border_armed"				"ButtonHover"
+			"border_default"			"bh_b_main"
+			"border_armed"				"bh_b_main"
 		}
 	}
 	"StatePanel1"
@@ -303,8 +303,8 @@
 			"defaultFgColor_override"	"bh_white"
 			"armedFgColor_override" 	"bh_white"
 			"depressedFgColor_override" "bh_white"
-			"border_default"			"ButtonHover"
-			"border_armed"				"ButtonHover"
+			"border_default"			"bh_b_main"
+			"border_armed"				"bh_b_main"
 		}	
 	}
 	"StatePanel2"
@@ -509,8 +509,8 @@
 			"defaultFgColor_override"	"bh_white"
 			"armedFgColor_override" 	"bh_white"
 			"depressedFgColor_override" "bh_white"
-			"border_default"			"ButtonHover"
-			"border_armed"				"ButtonHover"
+			"border_default"			"bh_b_main"
+			"border_armed"				"bh_b_main"
 		}
 	}
 	
@@ -544,7 +544,7 @@
 			"defaultFgColor_override"	"bh_white"
 			"armedFgColor_override" 	"bh_white"
 			"depressedFgColor_override" "bh_white"
-			"border_default"			"ButtonHover"
-			"border_armed"				"ButtonHover"
+			"border_default"			"bh_b_main"
+			"border_armed"				"bh_b_main"
 	}
 }

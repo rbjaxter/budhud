@@ -168,8 +168,8 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 	}
 	"ShowNextButton"
 	{
@@ -201,7 +201,7 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 	}
 }

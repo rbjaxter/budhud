@@ -112,5 +112,14 @@
 		"Command"		"maps_learnmore"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"		"15 15 15 255"
+		"armedBgColor_override"			"25 25 25 255"
+		"depressedBgColor_override"		"25 25 25 255"
+		"defaultFgColor_override"		"bh_white"
+		"armedFgColor_override" 		"bh_white"
+		"depressedFgColor_override" 	"bh_white"
+		"border_default"				"bh_b_main"
+		"border_armed"					"bh_b_main"
 	}	
 }

@@ -299,8 +299,8 @@
 		"fgcolor_override"	"bh_white"
 		"bgcolor_override"	"15 15 15 255"
 		"paintbackgroundtype" "0"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 		"font"		"HudFontSmallest"
 	}
 	

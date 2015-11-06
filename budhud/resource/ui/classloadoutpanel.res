@@ -1,9 +1,9 @@
 "resource/ui/FullLoadoutPanel.res"
 {
-	"bh_e_red"
+	"bh_e_RED"
 	{
 		"ControlName"				"CExImageButton"
-		"fieldName"					"bh_e_red"
+		"fieldName"					"bh_e_RED"
 		"xpos"						"c10"
 		"ypos"						"23"
 		"zpos"						"12"	
@@ -35,10 +35,10 @@
 		"border_depressed"			"NoBorder"
 	}
 	
-	"bh_e_blu"
+	"bh_e_BLU"
 	{
 		"ControlName"				"CExImageButton"
-		"fieldName"					"bh_e_blu"
+		"fieldName"					"bh_e_BLU"
 		"xpos"						"c-54"
 		"ypos"						"23"
 		"zpos"						"12"	

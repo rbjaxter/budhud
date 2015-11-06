@@ -49,7 +49,8 @@ Scheme
 			"bh_bar9"				"150 150 150 255"
 			
 		// Misc
-			"bh_BGStandard"			"0 0 0 100"			// hudmenuengydestroy.res ; hudmenuengybuild.res ; hudmenutauntselection.res
+			"bh_BGStandard"			"0 0 0 100"
+			"bh_BGDarker"			"0 0 0 240"
 			"bh_border_main"		"140 140 140 255"
 			"bh_g_red"				"70 130 180 153"
 			"bh_g_blue"				"205 50 50 153"

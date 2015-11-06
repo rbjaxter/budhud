@@ -77,8 +77,8 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 	}
 	"ShowRenderInfoButton"
 	{
@@ -107,8 +107,8 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 		"image_default"		"replay/info_button_small"
 		"image_armed"		"replay/info_button_over_small"
 		"SubImage"
@@ -152,8 +152,8 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 	}
 	"ViewYouTubeButton"
 	{
@@ -182,8 +182,8 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 	}
 	"ShareYouTubeURLButton"
 	{
@@ -212,8 +212,8 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 	}
 	"DeleteButton"
 	{
@@ -243,8 +243,8 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 	}
 	"PlayButton"
 	{
@@ -275,8 +275,8 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 	}
 	"RenderButton"
 	{
@@ -306,7 +306,7 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 	}	
 }

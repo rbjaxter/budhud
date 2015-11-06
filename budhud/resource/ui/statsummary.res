@@ -435,25 +435,19 @@
 		"AveragesLabel"
 		{
 			"ControlName"		"Label"
-			"fieldName"		"AveragesLabel"
-			"font"			"ScoreboardMedium"
-			"labelText"		"#StatSummary_Label_PerformanceReport"
+			"fieldName"			"AveragesLabel"
+			"font"				"LatoSemiBold16"
+			"labelText"			"#StatSummary_Label_PerformanceReport"
 			"textAlignment"		"west"
-			"textAlignment_hidef"		"center"
-			"textAlignment_lodef"		"center"
-			"xpos"			"c-285"
-			"xpos_hidef"			"c-193"
-			"xpos_lodef"			"c-193"
-			"ypos"			"170" [!$OSX]
-			"ypos"			"185" [$OSX]
-			"ypos_hidef"			"32"
-			"ypos_lodef"			"32"
-			"wide"			"300"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"xpos"				"c-285"
+			"ypos"				"170" [!$OSX]
+			"ypos"				"185" [$OSX]
+			"wide"				"300"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
 		}
 		"ClassBarBG1A"
 		{
@@ -1824,7 +1818,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"ScoreboardMedium"
+			"font"			"LatoSemiBold16"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"		"west"
 			"xpos"			"c+124"

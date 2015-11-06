@@ -187,6 +187,14 @@
 		{
 			"image"		"../console/background_upward"
 		}
+		if_halloween_3
+		{
+			"image"		"../console/background_upward"
+		}
+		if_halloween_4
+		{
+			"image"		"../console/background_upward"
+		}
 		if_fullmoon
 		{
 			"image"		"../console/background_upward"
@@ -199,9 +207,13 @@
 		{
 			"image"		"../console/background_upward"
 		}
+		if_operation
+		{
+			"image"		"../console/background_upward"
+		}
 		if_community_update
 		{
-			"image"		"../console/title_invasion"
+			"image"		"../console/background_upward"
 		}
 	}
 					
@@ -4186,49 +4198,49 @@
 
 		"Background"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"Background"
-			"xpos"			"cs-0.5"
-			"ypos"			"315"
-			"zpos"			"0"
-			"wide"			"p0.8"
-			"tall"			"90"
-			"visible"		"1"
+			"ControlName"			"EditablePanel"
+			"fieldname"				"Background"
+			"xpos"					"cs-0.5"
+			"ypos"					"315"
+			"zpos"					"0"
+			"wide"					"p0.8"
+			"tall"					"90"
+			"visible"				"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"Black"
-			"paintborder"	"1"
-			"border"		"FlameMenuBorder"
+			"bgcolor_override"		"Black"
+			"paintborder"			"1"
+			"border"				"bh_border_main"
 
 			"OperationTitleLabel"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"OperationTitleLabel"
-				"font"			"HudFontSmallBold"
-				"labelText"		"#MMenu_Update"
-				"textAlignment"	"west"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"textinsetx"	"20"
+				"ControlName"		"CExLabel"
+				"fieldName"			"OperationTitleLabel"
+				"font"				"HudFontSmallBold"
+				"labelText"			"#MMenu_Update"
+				"textAlignment"		"west"
+				"xpos"				"0"
+				"ypos"				"0"
+				"wide"				"f0"
+				"tall"				"30"
+				"autoResize"		"0"
+				"pinCorner"			"0"
+				"visible"			"1"
+				"enabled"			"1"
+				"textinsetx"		"20"
 				"fgcolor_override"	"235 227 203 255"
 			}
 
 			"ViewDetailsButton"
 			{
-				"ControlName"	"EditablePanel"
-				"fieldname"		"ViewDetailsButton"
-				"xpos"			"p0.02"
-				"ypos"			"27"
-				"zpos"			"11"
-				"wide"			"p0.48"
-				"tall"			"26"
-				"visible"		"0"
+				"ControlName"			"EditablePanel"
+				"fieldname"				"ViewDetailsButton"
+				"xpos"					"p0.02"
+				"ypos"					"27"
+				"zpos"					"11"
+				"wide"					"p0.48"
+				"tall"					"26"
+				"visible"				"0"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 
@@ -4273,14 +4285,14 @@
 			
 			"ViewComicButton"
 			{
-				"ControlName"	"EditablePanel"
-				"fieldname"		"ViewComicButton"
-				"xpos"			"p0.5"
-				"ypos"			"27"
-				"zpos"			"11"
-				"wide"			"p0.48"
-				"tall"			"26"
-				"visible"		"0"
+				"ControlName"			"EditablePanel"
+				"fieldname"				"ViewComicButton"
+				"xpos"					"p0.5"
+				"ypos"					"27"
+				"zpos"					"11"
+				"wide"					"p0.48"
+				"tall"					"26"
+				"visible"				"0"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 

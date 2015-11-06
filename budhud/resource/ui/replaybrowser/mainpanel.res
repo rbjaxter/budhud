@@ -162,7 +162,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Back (&Q)"
-		"font"			"LatoSemibold10"
+		"font"			"LatoSemibold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -177,7 +177,7 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 	}		
 }

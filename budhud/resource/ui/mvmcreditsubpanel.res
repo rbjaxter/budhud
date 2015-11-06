@@ -14,17 +14,17 @@
 		"fgcolor"				"bh_white"
 	}
 		
-	"TableBackground"
+	"bh_e_background"
 	{
 		"ControlName"			"EditablePanel"
-		"fieldName"				"TestBackground"
+		"fieldName"				"bh_e_background"
 		"xpos"					"0"
 		"ypos"					"14"
 		"zpos"					"-1"
 		"wide"					"190"
 		"tall"					"42"
 		"visible"				"1"
-		"bgcolor_override"		"20 20 20 50"
+		"bgcolor_override"		"bh_BGStandard"
 	}
 	
 	"CreditCollectedTextLabel"

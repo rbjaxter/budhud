@@ -305,8 +305,8 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 			}
 			"ForBestResultsLabel"
 			{
@@ -382,8 +382,8 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 		}
 		"NextButton"
 		{
@@ -407,8 +407,8 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 		}
 	}
 	"AdjustFilterPage"
@@ -556,8 +556,8 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 				}
 				"NextStencilPaletteButton"
 				{
@@ -581,8 +581,8 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 				}
 				"StencilGradientMap"
 				{
@@ -698,8 +698,8 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 		}
 		"BackButton"
 		{
@@ -723,8 +723,8 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 		}
 		"NextButton"
 		{
@@ -748,8 +748,8 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 		}
 	}
 	"FinalConfirmPage"
@@ -863,8 +863,8 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 		}
 		"BackButton"
 		{
@@ -888,8 +888,8 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 		}
 		"OkButton"
 		{
@@ -914,8 +914,8 @@
 		"defaultFgColor_override"	"bh_white"
 		"armedFgColor_override" 	"bh_white"
 		"depressedFgColor_override" "bh_white"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"bh_b_main"
+		"border_armed"				"bh_b_main"
 		}
 	}
 	"PerformingActionPage"
