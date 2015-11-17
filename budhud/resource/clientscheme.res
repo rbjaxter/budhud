@@ -498,6 +498,7 @@ Scheme
 	{
 		// UI buttons, custom font, (256x64)
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
+		"ButtonsSC"		"materials/vgui/fonts/buttons_sc.vbf"
 	}
 
 
@@ -1105,104 +1106,136 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Lato Semibold"
-				"tall"			"11"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
+				"name"		"TF2 Secondary"
+				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		GameUIButtons
 		{
 			"1"	//[$X360]
 			{
-				"bitmap"		"1"
-				"name"			"Buttons"
-				"scalex"		"0.5"
-				"scalex_lodef"	"0.75"
-				"scaley"		"0.5"
-				"scaley_lodef"	"0.75"
+				"bitmap"	"1"
+				"name"		"Buttons"
+				"scalex"	"0.5"
+				"scalex_lodef"		"0.75"
+				"scaley"	"0.5"
+				"scaley_lodef"		"0.75"
 			}
 		}
 		GameUIButtonsSmall
 		{
 			"1"	[$X360]
 			{
-				"bitmap"		"1"
-				"name"			"Buttons"
-				"scalex"		"0.5"
-				"scaley"		"0.5"
+				"bitmap"	"1"
+				"name"		"Buttons"
+				"scalex"	"0.5"
+				"scaley"	"0.5"
 			}
 		}
 		GameUIButtonsSmallest
 		{
 			"1"	[$X360]
 			{
-				"bitmap"		"1"
-				"name"			"Buttons"
-				"scalex"		"0.4"
-				"scaley"		"0.4"
+				"bitmap"	"1"
+				"name"		"Buttons"
+				"scalex"	"0.4"
+				"scaley"	"0.4"
+			}
+		}
+		GameUIButtonsSteamController
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"ButtonsSC"
+				"scalex"	"0.5"
+				"scalex_lodef"		"0.75"
+				"scaley"	"0.5"
+				"scaley_lodef"		"0.75"
+			}
+		}
+		GameUIButtonsSteamControllerSmall
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"ButtonsSC"
+				"scalex"	"0.25"
+				"scaley"	"0.25"
+			}
+		}
+		GameUIButtonsSteamControllerSmallest
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"ButtonsSC"
+				"scalex"	"0.15"
+				"scaley"	"0.15"
 			}
 		}
 		"GameUIButtonText"
 		{
 			"1"
 			{
-				"name"			"Lato Semibold"
-				"tall"			"18"
+				"name"		"TF2 Secondary"
+				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudClassHealth"
 		{
 			"1"
 			{
-				"name"			"Lato Semibold"
-				"tall"			"16"
+				"name"		"TF2"
+				"tall"		"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"SpectatorKeyHints"
 		{
 			"1"
 			{
-				"name"			"Lato Semibold"
-				"tall"			"8"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
+				"name"		"Verdana"
+				"tall"		"8"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ClockSubText"
 		{
 			"1"
 			{
-				"name"			"Lato Semibold"
-				"tall"			"9"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
+				"name"		"Verdana"
+				"tall"		"9"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ClockSubTextSuddenDeath"
 		{
 			"1"
 			{
-				"name"			"Lato Semibold"
-				"tall"			"8"
+				"name"		"Verdana"
+				"tall"		"8"
 				"tall_hidef"	"9"
 				"tall_lodef"	"10"
-				"weight"		"500"
-				"additive"		"0"
-				"antialias" 	"1"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ClockSubTextTiny"
@@ -2169,6 +2202,16 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		ItemFontAttribSmallv2
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"antialias" "1"
+				"weight"	"500"
+			}
+		}
 		"ItemFontAttribSmall"
 		{
 			"1"
@@ -2479,8 +2522,20 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Lato Semibold"
+				"name"		"TF2 Secondary"
 				"tall"		"13"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"QuestLargeText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -5759,9 +5814,8 @@ Scheme
 		}
 	}
 
-	//////////////////////// CUSTOM FONT FILES /////////////////////////////
-	//
-	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
+	//////////////////////// CUSTOM FONT FILES ////////////////////////
+
 	CustomFontFiles
 	{
 		"1" "resource/tf.ttf"
@@ -5782,7 +5836,7 @@ Scheme
 		"4" 
 		{
 			"font" "resource/TF2Secondary.ttf"
-			"name" "Lato Semibold"
+			"name" "TF2 Secondary"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -5795,7 +5849,7 @@ Scheme
 		"5" 
 		{
 			"font" "resource/TF2Professor.ttf"
-			"name" "Lato Semibold"
+			"name" "TF2 Professor"
 			"russian"
 			{
 				"range" "0x0000 0x00FF"
@@ -5821,33 +5875,37 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}
-		"7" //budhud font
+		}			
+		"7" "resource/ocra.ttf"
+	
+	//////////////////////// BUDHUD FONT ENTRIES ////////////////////////
+		
+		"8" //budhud font
 		{
 			"font"	"resource/fonts/Lato-Semibold.ttf"
 			"name"	"Lato Semibold"
 		}
-		"8" // Fog's xHairs
+		"9" // Fog's Crosshairs
 		{
 			"font" "resource/fonts/crosshairs.ttf"
 			"name" "Crosshairs"
 		}
-		"9" // Thin Cross
+		"10" // Thin Cross
 		{
 			"font" "resource/fonts/Symbol.ttf"
 			"name" "Symbol"
 		}
-		"10" // Konr Wings
+		"11" // Garm3n's Crosshairs
 		{
 			"font" "resource/fonts/Garm3nFont.ttf"
 			"name" "Garm3nFont"
 		}
-		"11" // yahud
+		"12" // whayay's crosshairs
 		{
 			"font"	"resource/fonts/Crosshair.ttf"
 			"name"	"Crosshair"
 		}
-		"12" // Tournament HUD HP block
+		"13" // Tournament HUD HP block
 		{
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"

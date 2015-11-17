@@ -672,7 +672,7 @@
 		"wide"						"1910"
 		"tall"						"1070"
 	}			
-				
+
 	HudDemomanCharge			
 	{			
 		"fieldName"					"HudDemomanCharge"
@@ -685,7 +685,7 @@
 		"MeterFG"					"White"
 		"MeterBG"					"Gray"
 	}				
-			
+
 	HudBowCharge			
 	{			
 		"fieldName"					"HudBowCharge"
@@ -699,7 +699,7 @@
 		"MeterFG"					"White"
 		"MeterBG"					"Gray"
 	}			
-			
+
 	HudFlameRocketCharge			
 	{			
 		"fieldName"					"HudFlameRocketCharge"
@@ -718,7 +718,7 @@
 		"MeterFG"					"White"
 		"MeterBG"					"Gray"
 	}			
-			
+
 	HudBossHealth			
 	{			
 		"fieldName"					"HudBossHealth"
