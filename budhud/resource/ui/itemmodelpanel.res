@@ -236,7 +236,6 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			}
-
 		"is_strange_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -267,41 +266,58 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
+
+		"is_loaner_icon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"is_loaner_icon"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"2"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+			"scaleImage"	"1"
+		}
+
 		"contained_item_panel"
 		{
-			"ControlName"	"CItemModelPanel"
-			"xpos"			"32"
-			"ypos"			"20"
-			"zpos"			"4"
-			"wide"			"18"
-			"tall"			"18"
-			"visible"		"0"
-			"bgcolor_override"		"0 0 0 200"
-			"noitem_textcolor"		"117 107 94 255"
-			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-			"useparentbg"	"0"
-			
-			"enabled"		"1"
-			
-			"model_xpos"	"1"
-			"model_ypos"	"1"
-			"model_wide"	"16"
-			"model_tall"	"16"
-			"text_ypos"		"60"
-			"text_center"	"1"
-			"model_only"	"1"
-			
-			"inset_eq_x"	"2"
-			"inset_eq_y"	"2"
-			
+			"ControlName"				"CItemModelPanel"
+			"xpos"						"32"
+			"ypos"						"20"
+			"zpos"						"4"
+			"wide"						"18"
+			"tall"						"18"
+			"visible"					"0"
+			"bgcolor_override"			"0 0 0 200"
+			"noitem_textcolor"			"117 107 94 255"
+			"PaintBackgroundType"		"2"
+			"paintborder"				"0"
+			"useparentbg"				"0"
+		
+			"enabled"					"1"
+		
+			"model_xpos"				"1"
+			"model_ypos"				"1"
+			"model_wide"				"16"
+			"model_tall"				"16"
+			"text_ypos"					"60"
+			"text_center"				"1"
+			"model_only"				"1"
+		
+			"inset_eq_x"				"2"
+			"inset_eq_y"				"2"
+		
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
-			
-			"use_item_sounds"	"1"
+		
+			"use_item_sounds"			"1"
 		}
 	}
 }

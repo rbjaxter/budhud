@@ -1,9 +1,10 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
-	// player health data
 
 	/////////////////////////////////////////////////////////////////////////////
-	// AMMO PLACEMENT CUSTOMIZATION | HudPlayerHealth
+	// AMMO PLACEMENT CUSTOMIZATION
+	// >> HudPlayerHealth
+	// ======================================================================= //
 	// Moves the entirety of the health elements.
 	/////////////////////////////////////////////////////////////////////////////
 
@@ -24,7 +25,9 @@
 	}	
 	
 	/////////////////////////////////////////////////////////////////////////////
-	// TeamIndicator shows a team-colored bar under your health
+	// Shows a team-colored bar under your health
+	// >> TeamIndicator
+	// ======================================================================= //
 	// Set visible/enable to 1 to enable
 	/////////////////////////////////////////////////////////////////////////////
 	"TeamIndicator"
@@ -54,7 +57,7 @@
 
 	/////////////////////////////////////////////////////////////////////////////
 	// Health Cross
-	// PlayerStatusHealthImage & PlayerStatusHealthImageBG
+	// >> PlayerStatusHealthImage; PlayerStatusHealthImageBG
 	// ======================================================================= //
 	// Controls the health cross to the left of your numerical health value
 	// Set xpos/ypos to 6969 to disable
@@ -71,6 +74,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"
+		"bgcolor"		"255 255 255 255"
 	}		
 	"PlayerStatusHealthImageBG"
 	{
@@ -81,8 +85,8 @@
 		"zpos"			"3"
 		"wide"			"27"
 		"tall"			"27"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}
@@ -108,6 +112,8 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
+	
+	/////////////////////////////////////////////////////////////////////////////
 	
 	"PlayerStatusHealthValue"
 	{
@@ -237,22 +243,6 @@
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
 	}
-	"PlayerStatus_MedicUberBlastResistImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_MedicUberBlastResistImage"
-		"xpos"			"85"
-		"xpos_minmode"	"70"
-		"ypos"			"0"
-		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"../HUD/defense_buff_explosion_blue"
-		"fgcolor"		"TanDark"
-	}
 	"PlayerStatus_MedicUberFireResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -324,13 +314,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
-		"xpos"			"115"
-		"xpos_minmode"	"115"
-		"ypos"			"75"
-		"ypos_minmode"	"55"
+		"xpos"			"148"
+		"ypos"			"38"
 		"zpos"			"7"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"27"
+		"tall"			"27"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -388,6 +376,22 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
+	"PlayerStatus_SpyMarked"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_SpyMarked"
+		"xpos"			"115"
+		"xpos_minmode"	"70"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"0"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			""
+		"fgcolor"		"TanDark"
+	}
 	"PlayerStatus_Parachute"
 	{
 		"ControlName"	"ImagePanel"
@@ -409,6 +413,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneStrength"
 		"xpos"			"85"
+		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -424,6 +429,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneHaste"
 		"xpos"			"85"
+		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -439,6 +445,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneRegen"
 		"xpos"			"85"
+		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -454,6 +461,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneResist"
 		"xpos"			"85"
+		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -469,6 +477,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneVampire"
 		"xpos"			"85"
+		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -479,11 +488,12 @@
 		"image"			"../Effects/powerup_vampire_hud"
 		"fgcolor"		"TanDark"
 	}
-	"PlayerStatus_RuneWarlock"
+	"PlayerStatus_RuneReflect"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_RuneWarlock"
+		"fieldName"		"PlayerStatus_RuneReflect"
 		"xpos"			"85"
+		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -491,7 +501,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"			"../Effects/powerup_warlock_hud"
+		"image"			"../Effects/powerup_reflect_hud"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatus_RunePrecision"
@@ -499,6 +509,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RunePrecision"
 		"xpos"			"85"
+		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -514,6 +525,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneAgility"
 		"xpos"			"85"
+		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -523,5 +535,69 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_agility_hud"
 		"fgcolor"		"TanDark"
-	}	
+	}
+	"PlayerStatus_RuneKnockout"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneKnockout"
+		"xpos"			"85"
+		"xpos_minmode"	"70"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_knockout_hud"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatus_RuneKing"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneKing"
+		"xpos"			"85"
+		"xpos_minmode"	"70"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_king_hud"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatus_RunePlague"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RunePlague"
+		"xpos"			"85"
+		"xpos_minmode"	"70"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_plague_hud"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatus_RuneSupernova"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneSupernova"
+		"xpos"			"85"
+		"xpos_minmode"	"70"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_supernova_hud"
+		"fgcolor"		"TanDark"
+	}
 }

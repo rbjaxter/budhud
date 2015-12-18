@@ -1,0 +1,7 @@
+1. Install the base hud normally
+2. Copy the custom file you'd like to use into the appropriate directory.
+If it asks you to overwrite a file, you did it correctly.
+
+Directories:
+hudplayerhealth.res -> budhud\resource\ui
+hudanimations_tf.res -> budhud\scripts

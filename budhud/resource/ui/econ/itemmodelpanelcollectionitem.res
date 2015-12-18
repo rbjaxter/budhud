@@ -284,6 +284,52 @@
 			"bgcolor_override"		"0 40 30 255"
 			"PaintBackgroundType"	"2"
 		}
+		"is_strange_icon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"is_strange_icon"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"2"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+			"scaleImage"	"1"
+		}
+		"is_unusual_icon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"is_unusual_icon"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"2"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+			"scaleImage"	"1"
+		}
+
+		"is_loaner_icon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"is_loaner_icon"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"2"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+			"scaleImage"	"1"
+		}
 
 		"vision_restriction_icon"
 		{

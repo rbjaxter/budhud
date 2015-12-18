@@ -235,24 +235,24 @@
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
 		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 	
 		"ServerChangeLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ServerChangeLabel"
-			"font"			"HudFontSmall"
-			"textAlignment"	"center"
-			"labelText"		"%servermessage%"
-			"xpos"			"c-150"
-			"ypos"			"400"
-			"wide"			"300"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"bh_white"		
+			"ControlName"		"CExLabel"
+			"fieldName"			"ServerChangeLabel"
+			"font"				"HudFontSmall"
+			"textAlignment"		"center"
+			"labelText"			"%servermessage%"
+			"xpos"				"c-150"
+			"ypos"				"400"
+			"wide"				"300"
+			"tall"				"20"
+			"visible"			"1"
+			"enabled"			"1"
+			"fgcolor"			"bh_white"		
 		}
 	}
 }

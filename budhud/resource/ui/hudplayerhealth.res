@@ -60,7 +60,8 @@
 	// >> PlayerStatusHealthImage; PlayerStatusHealthImageBG
 	// ======================================================================= //
 	// Controls the health cross to the left of your numerical health value
-	// Set xpos/ypos to 6969 to disable
+	// IMPORTANT: To disable, set visible and enabled to 0. Do not change x/ypos!
+	// This will cause various status effects to vanish.
 	/////////////////////////////////////////////////////////////////////////////
 	"PlayerStatusHealthImage"
 	{

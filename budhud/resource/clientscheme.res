@@ -5,15 +5,18 @@ Scheme
 		
 	/////////////////////////////////////////////////////////////////////////////
 	// BUDHUD COLORS
-	// Change colors here to customize your hud
+	// Change colors using RGBA values to customize your hud
 	// TF2 will have to be restarted for these changes to take effect
+	// Example of RGBA values: http://www.colorspire.com/
+	// the fourth number in an RGBA value controls opacity; set to 255 to make it
+	// fully visible, 0 to hide it entirely.
 	/////////////////////////////////////////////////////////////////////////////	
 	
 		// Health
 			"bh_Health"				"255 255 255 255"
-			"bh_HealthLow"			"215 0 0 255"
-			"bh_HealthBuff"			"0 153 255 255"
-			"bh_HealthPickup"		"240 134 49 255"
+			"bh_HealthLow"			"215 000 000 255"
+			"bh_HealthBuff"			"000 153 255 255"
+			"bh_HealthPickup"		"240 134 049 255"
 		
 		// Ammo
 			"bh_AmmoInClip"			"255 255 255 255"
@@ -22,17 +25,17 @@ Scheme
 		
 		// Damage Done & Heals Given
 			"bh_DamageColor"		"255 255 255 255" 	// Damage done that appears above player
-			"bh_hudDMGDisplay"		"243 157 48 255" 	// Damage done that appears below ammo
-			"bh_HealColor"			"0 153 255 255" 	// Medigun/arrow heals
+			"bh_hudDMGDisplay"		"243 157 048 255" 	// Damage done that appears below ammo
+			"bh_HealColor"			"000 153 255 255" 	// Medigun/arrow heals
 			
 		// Full Uber Flash
 			"bh_chargecolor1"		"243 157 48 255"	// When full, uber will change between these two values
-			"bh_chargecolor2"		"204 93 27 255"
+			"bh_chargecolor2"		"204 093 027 255"
 			"bh_chargemeter"		"255 255 255 255"	// Default uber chargemeter fill color
 		
 		// whayay's Crosshairs
 			"ya_crosshair"			"255 255 255 255" 	// Crosshair color
-			"ya_xhairflash"			"240 134 49 255"	// Flash on damage done
+			"ya_xhairflash"			"240 134 049 255"	// Flash on damage done
 		
 		// Fog's Crosshairs
 			"fog_crosshair"			"255 255 255 255"	// Crosshair color
@@ -49,23 +52,24 @@ Scheme
 			"bh_bar9"				"150 150 150 255"
 			
 		// Misc
-			"bh_BGStandard"			"0 0 0 100"
-			"bh_BGDarker"			"0 0 0 240"
+			"bh_BGStandard"			"000 000 000 100"
+			"bh_BGDarker"			"000 000 000 240"
+			"bh_BGLighter"			"150 150 150 255"
 			"bh_border_main"		"140 140 140 255"
-			"bh_g_red"				"70 130 180 153"
-			"bh_g_blue"				"205 50 50 153"
+			"bh_g_red"				"070 130 180 153"
+			"bh_g_blue"				"205 050 050 153"
 		
 		// budhud core colors
 			"bh_white"				"255 255 255 255"
-			"bh_black"				"0 0 0 255"
-			"bh_lblue"				"0 153 255 255"
+			"bh_black"				"000 000 000 255"
+			"bh_lblue"				"000 153 255 255"
 			"bh_gray"				"150 150 150 255"
-			"bh_lorange"			"243 157 48 255"
-			"bh_dorange"			"204 93 27 255"
-			"bh_orange"				"240 134 49 255"
-			"bh_green"				"0 215 0 255"
-			"bh_red"				"215 0 0 255"
-			"bh_blue"				"0 153 255 255"
+			"bh_lorange"			"243 157 048 255"
+			"bh_dorange"			"204 093 027 255"
+			"bh_orange"				"240 134 049 255"
+			"bh_green"				"000 215 000 255"
+			"bh_red"				"215 000 000 255"
+			"bh_blue"				"000 153 255 255"
 		
 		// One of these 5 controls HudHintDisplay / HudHintKeyDisplay color
 		// (surf timer, etc)
@@ -98,7 +102,7 @@ Scheme
 		
 		//"Black"					"0 0 0 255"
 		//Changed black to a NTSC safe color
-		"GreenSolid"		 		"76 107 34 255"
+		"GreenSolid"		 		"76 107 34 255"		// Default: 76 107 34 255
 		
 		"Black"						"46 43 42 255"
 		"TransparentBlack"			"0 0 0 196"
@@ -116,7 +120,7 @@ Scheme
 		"HudBlack"					"65 65 65 255"
 		"ProgressBarBlue"			"91 122 142 255"
 		
-		"CreditsGreen"				"94 150 49 255"
+		"CreditsGreen"				"94 150 49 255"		
 		
 		"Gray"						"178 178 178 255"
 

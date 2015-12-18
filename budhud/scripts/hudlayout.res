@@ -46,15 +46,17 @@
         
 		"labeltext"			"f"           			//Change this to use a different crosshair
 													//You can see the list of crosshairs in Crosshairs.png
+		"labeltext"			"f"           			// Change this to use a different crosshair
+													// You can see the list of crosshairs in Crosshairs.png
         
-        "font"				"CrosshairOLsmall"	    //Use "CrosshairOL" for a crosshair with an outline
-													//or "CrosshairAA" for a smooth crosshair w/o an outline 
+        "font"				"CrosshairOLsmall"	    // Use "CrosshairOL" for a crosshair with an outline
+													// or "CrosshairAA" for a smooth crosshair w/o an outline 
                                      
-													//You can add "Small" or "Big" at the end to change the size
-													//e.g. "CrosshairOLSmall"
+													// You can add "Small" or "Big" at the end to change the size
+													// e.g. "CrosshairOLSmall"
         
-        "fgcolor"			"ya_crosshair"      		//Color is changed via the clientscheme
-													//in the "/resource/" folder
+        "fgcolor"			"ya_crosshair"      	// Color is changed via the clientscheme
+													// in the "/resource/" folder
 	}
 	
 	/////////////////////////////////////////////////////////////////////////////
@@ -1575,7 +1577,7 @@
 		"fieldName"					"HudDemomanPipes"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-54"
+		"xpos"						"c-51"
 		"ypos"						"c105"
 		"wide"						"200"
 		"tall"						"100"

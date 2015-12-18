@@ -322,8 +322,8 @@
 			"wide"								"500"
 			"tall"								"480"
 
-			"team1_player_base_y"				"66"
-			"team2_player_delta_x"				"52"
+			"team1_player_base_y"				"67"
+			"team2_player_delta_x"				"55"
 		}	
 
 		if_competitive
