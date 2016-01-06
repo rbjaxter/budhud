@@ -50,16 +50,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-57"
+		"xpos"			"c-62"
 		"ypos"			"r33"
 		"zpos"			"8"
-		"wide"			"50"
+		"wide"			"55"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"LatoSemibold36"
+		"font"			"bh_Lato36"
 		"fgcolor"		"bh_white"
 	}	
 		
@@ -67,16 +67,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-56"
+		"xpos"			"c-61"
 		"ypos"			"r32"
 		"zpos"			"8"
-		"wide"			"50"
+		"wide"			"55"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"LatoSemibold36"
+		"font"			"bh_Lato36"
 		"fgcolor"		"bh_black"
 	}	
 
@@ -87,13 +87,13 @@
 		"xpos"			"c7"
 		"ypos"			"r33"
 		"zpos"			"8"
-		"wide"			"50"
+		"wide"			"55"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
-		"font"			"LatoSemibold36"
+		"font"			"bh_Lato36"
 		"fgcolor"		"bh_white"			
 	}	
 		
@@ -104,13 +104,13 @@
 		"xpos"			"c8"
 		"ypos"			"r32"
 		"zpos"			"8"
-		"wide"			"50"
+		"wide"			"55"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
-		"font"			"LatoSemibold36"
+		"font"			"bh_Lato36"
 		"fgcolor"		"bh_black"		
 	}	
 
@@ -129,7 +129,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LatoSemibold14"
+		"font"			"bh_Lato14"
 		"fgcolor"		"bh_white"
 	}	
 			

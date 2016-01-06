@@ -32,7 +32,7 @@
 	{
 		"ControlName"					"CExLabel"
 		"fieldName"						"PopFileLabel"
-		"font"							"LatoSemibold16"
+		"font"							"bh_Lato16"
 		"labelText"						"%popfile%"
 		"textAlignment"					"west"
 		"xpos"							"275"
@@ -56,7 +56,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldName"					"DifficultyLabel"
-			"font"						"LatoSemibold12"
+			"font"						"bh_Lato12"
 			"labelText"					"#TF_MvM_Difficulty"
 			"textAlignment"				"center"
 			"xpos"						"6969"		// 0
@@ -70,7 +70,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldName"					"DifficultyValue"
-			"font"						"LatoSemibold12"
+			"font"						"bh_Lato12"
 			"labelText"					"%difficultyvalue%"
 			"textAlignment"				"center"
 			"xpos"						"0"
@@ -118,7 +118,7 @@
 		"autoresize"					"3"
 		"linespacing"					"22"
 		"textcolor"						"White"
-		"font"							"LatoSemibold24"
+		"font"							"bh_Lato24"
 	}
 	
 	"CreditStatsContainer"
@@ -127,7 +127,7 @@
 		"fieldName"						"CreditStatsContainer"
 		"xpos"							"95"
 		"ypos"							"220"
-		"wide"							"400"
+		"wide"							"450"
 		"tall"							"205"
 		"visible"						"1"
 		
@@ -157,7 +157,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldName"					"CreditsLabel"
-			"font"						"LatoSemibold16"
+			"font"						"bh_Lato16"
 			"labelText"					"#TF_PVE_Currency"
 			"textAlignment" 			"center"
 			"xpos"						"6969"
@@ -170,7 +170,7 @@
 		{
 			"ControlName"				"CCreditDisplayPanel"
 			"fieldName"					"PreviousWaveCreditInfoPanel"
-			"xpos"						"8"
+			"xpos"						"34"
 			"ypos"						"30"
 			"wide"						"184"
 			"tall"						"60"
@@ -182,7 +182,7 @@
 		{
 			"ControlName"				"CCreditDisplayPanel"
 			"fieldName"					"TotalGameCreditInfoPanel"
-			"xpos"						"208"
+			"xpos"						"234"
 			"ypos"						"30"
 			"wide"						"184"
 			"tall"						"60"
@@ -194,8 +194,8 @@
 		{
 			"ControlName"				"CCreditSpendPanel"
 			"fieldName"					"PreviousWaveCreditSpendPanel"
-			"xpos"						"8"
-			"ypos"						"75"
+			"xpos"						"34"
+			"ypos"						"85"
 			"wide"						"184"
 			"tall"						"60"
 			"wide"						"200"
@@ -206,8 +206,8 @@
 		{
 			"ControlName"				"CCreditSpendPanel"
 			"fieldName"					"TotalGameCreditSpendPanel"
-			"xpos"						"208"
-			"ypos"						"75"
+			"xpos"						"234"
+			"ypos"						"85"
 			"wide"						"184"
 			"tall"						"60"
 			"wide"						"200"
@@ -218,7 +218,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldName"					"RespecStatusLabel"
-			"font"						"LatoSemibold10"
+			"font"						"bh_Lato10"
 			"labelText"					"%respecstatus%"
 			"textAlignment" 			"east"
 			"xpos"						"172"

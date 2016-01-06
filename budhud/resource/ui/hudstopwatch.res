@@ -56,7 +56,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"LatoSemibold20"
+			"font"			"bh_Lato20"
 			"fgcolor"		"bh_white"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -73,7 +73,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
-		"font"			"LatoSemibold20"
+		"font"			"bh_Lato20"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"		"east"
 			"xpos"			"-183"
@@ -90,7 +90,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"LatoSemibold12"
+		"font"			"bh_Lato12"
 		"labelText"		"%pointslabel%"
 		"textAlignment"		"east"
 		"xpos"			"33"
@@ -109,7 +109,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchLabel"
-		"font"			"LatoSemibold14"
+		"font"			"bh_Lato14"
 		"labelText"		"%stopwatchlabel%"
 		"textAlignment"	"west"
 		"xpos"			"180"

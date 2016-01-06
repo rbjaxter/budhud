@@ -18,7 +18,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LatoSemibold20"
+		"font"			"bh_Lato20"
 		"fgcolor"		"bh_white"
 	}	
 	"Background"
@@ -56,7 +56,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LatoSemibold48"
+		"font"			"bh_Lato48"
 		"fgcolor"		"bh_white"
 	}
 	"IndividualChargesLabel"
@@ -77,7 +77,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LatoSemibold48"
+		"font"			"bh_Lato48"
 		"fgcolor"		"bh_white"
 	}
 	"ChargeMeter"

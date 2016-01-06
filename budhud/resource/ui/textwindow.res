@@ -33,7 +33,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LatoSemibold24"
+		"font"			"bh_Lato24"
 		"fgcolor"		"bh_white"
 	}	
 
@@ -49,7 +49,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"LatoSemibold14"
+		"font"			"bh_Lato14"
 		"xpos"			"c-184"
 		"ypos"			"125"
 		"zpos"			"1"
@@ -100,7 +100,7 @@
 		"brighttext"	"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"LatoSemibold20"
+		"font"			"bh_Lato20"
 		"paintbackground"	"0"
 		
 		"fgcolor"					"bh_white"

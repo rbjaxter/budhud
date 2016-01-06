@@ -86,7 +86,7 @@
 		"team"							"3"		// team blue
 		"associated_model"				"bluedoor"
 		"hover"							".1"
-		"font"							"LatoSemibold10"
+		"font"							"bh_Lato10"
 		"armedfgcolor_override"			"bh_orange"
 		"defaultfgcolor_override"		"bh_white"
 	}
@@ -114,7 +114,7 @@
 		"team"							"2"		// team red
 		"associated_model"				"reddoor"	
 		"hover"							".1"
-		"font"							"LatoSemibold10"
+		"font"							"bh_Lato10"
 		"armedfgcolor_override"			"bh_orange"
 		"defaultfgcolor_override"		"bh_white"
 	}
@@ -140,7 +140,7 @@
 		"paintborder"					"0"
 		"command"						"jointeam auto"
 		"associated_model"				"autodoor"
-		"font"							"LatoSemibold10"
+		"font"							"bh_Lato10"
 		"armedfgcolor_override"			"bh_orange"
 		"defaultfgcolor_override"		"bh_white"
 	}
@@ -165,7 +165,7 @@
 		"paintborder"					"0"
 		"command"						"jointeam auto"
 		"associated_model"				"autodoor"
-		"font"							"LatoSemibold20"
+		"font"							"bh_Lato20"
 		"armedfgcolor_override"			"bh_orange"
 		"defaultfgcolor_override"		"bh_white"
 	}
@@ -191,7 +191,7 @@
 		"paintborder"					"0"
 		"command"						"jointeam spectate"
 		"associated_model"				"spectate"	
-		"font"							"LatoSemibold10"
+		"font"							"bh_Lato10"
 		"armedfgcolor_override"			"bh_orange"
 		"defaultfgcolor_override"		"bh_white"
 	}
@@ -216,7 +216,7 @@
 		"paintborder"					"0"
 		"command"						"jointeam spectate"
 		"associated_model"				"spectate"	
-		"font"							"LatoSemibold20"
+		"font"							"bh_Lato20"
 		"armedfgcolor_override"			"bh_orange"
 		"defaultfgcolor_override"		"bh_white"
 	}
@@ -237,7 +237,7 @@
 		"labelText"						"CANCEL (0)"
 		"textAlignment"					"center"
 		"Command"						"cancelmenu"
-		"font"							"LatoSemibold12"
+		"font"							"bh_Lato12"
 		"paintbackground"				"0"
 		"armedfgcolor_override"			"bh_orange"
 		"defaultfgcolor_override"		"bh_white"
@@ -377,7 +377,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"1"
-		"font"					"LatoSemibold20"
+		"font"					"bh_Lato20"
 		"fgcolor_override"		"bh_white"
 	}		
 	
@@ -398,7 +398,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"1"
-		"font"					"LatoSemibold20"
+		"font"					"bh_Lato20"
 		"fgcolor_override"		"bh_white"
 	}	
 	

@@ -74,7 +74,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"LatoSemibold20"
+		"font"			"bh_Lato20"
 		"labelText"		"dynamic"
 		"textAlignment"	"center"
 		"xpos"			"100"

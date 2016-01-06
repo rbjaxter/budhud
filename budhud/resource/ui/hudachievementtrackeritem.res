@@ -2,15 +2,15 @@
 {	
 	"HudAchievementTrackerItem"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HudAchievementTrackerItem"
-		"xpos"			"0"		[$WIN32]
-		"ypos"			"0"		[$WIN32]
-		"zpos"			"3"
-		"wide"			"190"
-		"tall"			"29"
-		"visible"		"0"
-		"enabled"		"1"	
+		"ControlName"			"EditablePanel"
+		"fieldName"				"HudAchievementTrackerItem"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"190"
+		"tall"					"29"
+		"visible"				"0"
+		"enabled"				"1"	
 		
 		"PaintBackgroundType"	"2"
 	}
@@ -26,7 +26,7 @@
 		"tall"			"16"
 		"zpos"			"4"
 		"textinsetx"	"5"
-		"font"			"LatoSemibold12"
+		"font"			"bh_Lato12"
 		"textAlignment"		"north-west"
 		"fgcolor_override"	"bh_white"
 	}
@@ -58,7 +58,7 @@
 		"zpos"			"4"
 		"textinsetx"	"5"
 		"fgcolor_override"		"250 255 255 255"
-		"font"			"LatoSemibold8"
+		"font"			"bh_Lato8"
 		"wrap"			"1"
 		"TextAlignment"		"north-west"
 	}

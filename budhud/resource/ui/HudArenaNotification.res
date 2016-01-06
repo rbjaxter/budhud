@@ -20,7 +20,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"WarningLabel"
-		"font"			"LatoSemibold48"
+		"font"			"bh_Lato48"
 		"xpos"			"45"
 		"ypos"			"18"
 		"zpos"			"1"
@@ -38,7 +38,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"LatoSemibold16"
+		"font"			"bh_Lato16"
 		"xpos"			"73"
 		"ypos"			"8"
 		"zpos"			"1"
@@ -58,7 +58,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabelTip"
-		"font"			"LatoSemibold14"
+		"font"			"bh_Lato14"
 		"xpos"			"75"
 		"ypos"			"40"
 		"zpos"			"1"

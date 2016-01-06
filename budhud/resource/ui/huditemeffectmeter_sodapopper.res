@@ -51,7 +51,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"LatoSemibold9"
+		"font"					"bh_Lato9"
 		"fgcolor_override"		"bh_gray"
 	}
 

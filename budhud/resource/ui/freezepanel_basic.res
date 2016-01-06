@@ -217,7 +217,7 @@
 		{	
 			"ControlName"				"CExLabel"
 			"fieldName"					"ItemLabel"
-			"font"						"LatoSemiBold12"
+			"font"						"bh_Lato12"
 			"xpos"						"6969"
 			"ypos"						"6969"
 			"zpos"						"1"
@@ -287,7 +287,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"			"FreezeLabel"
-			"font"				"LatoSemiBold10"
+			"font"				"bh_Lato10"
 			"xpos"				"40"
 			"ypos"				"17"
 			"zpos"				"1"
@@ -325,7 +325,7 @@
 		{	
 			"ControlName"				"CExLabel"
 			"fieldName"					"FreezeLabelKiller"
-			"font"						"LatoSemiBold12"
+			"font"						"bh_Lato12"
 			"xpos"						"6969"
 			"ypos"						"6969"
 			"zpos"						"1"
@@ -342,7 +342,7 @@
 		{	
 			"ControlName"				"CExLabel"
 			"fieldName"					"FreezeLabelKiller2"
-			"font"						"LatoSemiBold12"
+			"font"						"bh_Lato12"
 			"xpos"						"42"
 			"ypos"						"32"
 			"zpos"						"1"

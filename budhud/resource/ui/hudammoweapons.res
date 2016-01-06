@@ -50,7 +50,7 @@
         {
                 "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoInClip"
-                "font"                  "LatoSemibold48"
+                "font"                  "bh_Lato48"
                 "fgcolor"               "bh_AmmoInClip"
                 "xpos"                  "0"
                 "ypos"                  "0"
@@ -67,7 +67,7 @@
         {
                 "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoInClipShadow"
-                "font"                  "LatoSemibold48"
+                "font"                  "bh_Lato48"
                 "fgcolor"               "bh_black"
                 "xpos"                  "1"
                 "ypos"                  "1"
@@ -84,7 +84,7 @@
         {
                 "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoInReserve"
-                "font"                  "LatoSemibold24"
+                "font"                  "bh_Lato24"
                 "fgcolor"               "bh_AmmoReserve"
                 "xpos"                  "125"
                 "ypos"                  "-8"
@@ -100,7 +100,7 @@
         {
                 "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoInReserveShadow"
-                "font"                  "LatoSemibold24"
+                "font"                  "bh_Lato24"
                 "fgcolor"               "bh_black"
                 "xpos"                  "126"
                 "ypos"                  "-7"
@@ -116,7 +116,7 @@
         {
                 "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoNoClip"
-                "font"                  "LatoSemibold48"
+                "font"                  "bh_Lato48"
                 "fgcolor"               "bh_AmmoInClip"
                 "xpos"                  "0"
                 "ypos"                  "0"
@@ -133,7 +133,7 @@
         {
                 "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoNoClipShadow"
-                "font"                  "LatoSemibold48"
+                "font"                  "bh_Lato48"
                 "fgcolor"               "bh_black"
                 "xpos"                  "1"
                 "ypos"                  "1"

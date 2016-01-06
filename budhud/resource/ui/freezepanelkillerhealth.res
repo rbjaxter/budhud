@@ -68,7 +68,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"LatoSemiBold12"
+		"font"			"bh_Lato12"
 		"fgcolor"		"bh_white"
 	}
 }

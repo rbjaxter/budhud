@@ -20,7 +20,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"LatoSemibold16"
+		"font"			"bh_Lato16"
 		"xpos"			"24"
 		"ypos"			"50"
 		"zpos"			"3"
@@ -40,7 +40,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"LatoSemibold16"
+		"font"			"bh_Lato16"
 		"fgcolor"		"bh_black"
 		"xpos"			"25"
 		"ypos"			"51"
@@ -61,7 +61,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ToggleLabel"
-		"font"			"LatoSemibold8"
+		"font"			"bh_Lato8"
 		"xpos"			"23"
 		"ypos"			"190"
 		"zpos"			"2"
@@ -351,7 +351,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"LatoSemibold12"
+		"font"			"bh_Lato12"
 		"fgcolor"		"255 255 255 255"
 		"xpos"			"25"
 		"ypos"			"87"
@@ -388,7 +388,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"LatoSemibold12"
+		"font"			"bh_Lato12"
 		"fgcolor"		"255 255 255 255"
 		"xpos"			"25"
 		"ypos"			"123"
@@ -425,7 +425,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"LatoSemibold12"
+		"font"			"bh_Lato12"
 		"fgcolor"		"255 255 255 255"
 		"xpos"			"25"
 		"ypos"			"159"

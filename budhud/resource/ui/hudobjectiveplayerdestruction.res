@@ -207,7 +207,7 @@
 			"enabled"				"1"
 			"textAlignment"			"center"	
 			"labelText"				"%flagvalue%"
-			"font"					"LatoSemiBold20"
+			"font"					"bh_Lato20"
 			"fgcolor"				"bh_white"	
 			"proportionalToParent"	"1"	
 		}	
@@ -225,7 +225,7 @@
 			"enabled"				"1"
 			"textAlignment"			"center"	
 			"labelText"				"%flagvalue%"
-			"font"					"LatoSemiBold20"
+			"font"					"bh_Lato20"
 			"fgcolor"				"bh_black"	
 			"proportionalToParent"	"1"	
 		}
@@ -347,7 +347,7 @@
 				"enabled"				"1"
 				"textAlignment"			"west"	
 				"labelText"				"%blue_escrow%"
-				"font"					"LatoSemiBold20"
+				"font"					"bh_Lato20"
 				"fgcolor"				"bh_white"		
 				"proportionalToParent"	"1"
 			}
@@ -381,7 +381,7 @@
 				"enabled"				"1"
 				"textAlignment"			"east"	
 				"labelText"				"%red_escrow%"
-				"font"					"LatoSemiBold20"
+				"font"					"bh_Lato20"
 				"fgcolor"				"bh_white"		
 				"proportionalToParent"	"1"
 			}
@@ -702,7 +702,7 @@
 				"enabled"					"1"
 				"textAlignment"				"east"	
 				"labelText"					"%score%"
-				"font"						"LatoSemiBold20"
+				"font"						"bh_Lato20"
 				"fgcolor"					"bh_white"		
 				"proportionalToParent"		"1"
 			}	
@@ -720,7 +720,7 @@
 				"enabled"					"0"
 				"textAlignment"				"east"	
 				"labelText"					"%score%"
-				"font"						"LatoSemiBold20"
+				"font"						"bh_Lato20"
 				"fgcolor"					"TransparentBlack"		
 				"proportionalToParent"		"1"
 			}
@@ -754,7 +754,7 @@
 				"enabled"					"1"
 				"textAlignment"				"west"	
 				"labelText"					"%score%"
-				"font"						"LatoSemiBold20"
+				"font"						"bh_Lato20"
 				"fgcolor"					"bh_white"	
 				"proportionalToParent"		"1"	
 			}	
@@ -772,7 +772,7 @@
 				"enabled"					"0"
 				"textAlignment"				"west"	
 				"labelText"					"%score%"
-				"font"						"LatoSemiBold20"
+				"font"						"bh_Lato20"
 				"fgcolor"					"TransparentBlack"		
 				"proportionalToParent"		"1"
 			}
@@ -1035,7 +1035,7 @@
 			"enabled"						"1"
 			"textAlignment"					"center"	
 			"labelText"						"%countdowntime%"
-			"font"							"LatoSemiBold20"
+			"font"							"bh_Lato20"
 			"fgcolor"						"bh_white"		
 			"proportionalToParent"			"1"
 		}
@@ -1053,7 +1053,7 @@
 			"enabled"						"1"
 			"textAlignment"					"center"	
 			"labelText"						"%countdowntime%"
-			"font"							"LatoSemiBold20"
+			"font"							"bh_Lato20"
 			"fgcolor"						"bh_black"		
 			"proportionalToParent"			"1"
 		}

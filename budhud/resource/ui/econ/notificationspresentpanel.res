@@ -31,6 +31,6 @@
 		"wrap"			"1"
 		"labelText"		"#Notifications_Present"
 		"textAlignment"	"north-west"
-		"font"			"LatoSemiBold10"
+		"font"			"bh_Lato10"
 	}
 }

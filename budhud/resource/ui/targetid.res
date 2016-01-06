@@ -107,7 +107,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"			"TargetNameLabel"
-		"font"				"LatoSemibold14"
+		"font"				"bh_Lato14"
 		"xpos"				"45"
 		"ypos"				"14"
 		"zpos"				"7"
@@ -126,7 +126,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"TargetDataLabel"
-		"font"				"LatoSemibold12"
+		"font"				"bh_Lato12"
 		"xpos"				"45"
 		"ypos"				"28"	
 		"zpos"				"6"
@@ -237,7 +237,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"MoveableKeyText"
-			"font_minmode"	"LatoSemibold12"
+			"font_minmode"	"bh_Lato12"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"6"
@@ -257,7 +257,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
-			"font_minmode"	"LatoSemibold12"
+			"font_minmode"	"bh_Lato12"
 			"xpos"			"0"
 			"ypos"			"29"
 			"zpos"			"6"

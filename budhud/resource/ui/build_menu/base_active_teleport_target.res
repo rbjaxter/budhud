@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"LatoSemibold12"
+		"font"			"bh_Lato12"
 		"xpos"			"15"
 		"ypos"			"4"
 		"zpos"			"1"
@@ -91,7 +91,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"LatoSemibold20"
+		"font"			"bh_Lato20"
 		"fgcolor"		"bh_white"
 		"xpos"			"0"
 		"ypos"			"85"

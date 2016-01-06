@@ -57,7 +57,7 @@
 					"ypos"				"25"
 					"wide"				"48"
 					"textAlignment"		"center"
-					"font"				"LatoSemiBold6"
+					"font"				"bh_Lato6"
 				}
 
 				if_competitive
@@ -66,7 +66,7 @@
 					"ypos"				"25"
 					"wide"				"48"
 					"textAlignment"		"center"
-					"font"				"LatoSemiBold6"
+					"font"				"bh_Lato6"
 				}
 
 				if_readymode
@@ -75,7 +75,7 @@
 					"ypos"				"25"
 					"wide"				"48"
 					"textAlignment"		"center"
-					"font"				"LatoSemiBold6"
+					"font"				"bh_Lato6"
 				}
 			}
 			
@@ -470,7 +470,7 @@
 	{	
 		"ControlName"							"Label"
 		"fieldName"								"TournamentBLUELabel"
-		"font"									"LatoSemibold16"
+		"font"									"bh_Lato16"
 		"fgcolor_override"						"bh_white"
 		"xpos"									"12"
 		"ypos"									"23"
@@ -506,7 +506,7 @@
 	{	
 		"ControlName"							"Label"
 		"fieldName"								"TournamentBLUEStateLabel"
-		"font"									"LatoSemibold12"
+		"font"									"bh_Lato12"
 		"fgcolor_override"						"bh_white"
 		"xpos"									"56"
 		"ypos"									"23"
@@ -581,7 +581,7 @@
 	{	
 		"ControlName"							"Label"
 		"fieldName"								"TournamentREDLabel"
-		"font"									"LatoSemibold16"
+		"font"									"bh_Lato16"
 		"fgcolor_override"						"bh_white"
 		"xpos"									"175"
 		"ypos"									"23"
@@ -617,7 +617,7 @@
 	{	
 		"ControlName"							"Label"
 		"fieldName"								"TournamentREDStateLabel"
-		"font"									"LatoSemibold12"
+		"font"									"bh_Lato12"
 		"fgcolor_override"						"bh_white"
 		"xpos"									"130"
 		"ypos"									"23"
@@ -653,7 +653,7 @@
 	{	
 		"ControlName"							"CExLabel"
 		"fieldName"								"TournamentConditionLabel"
-		"font"									"LatoSemibold10"
+		"font"									"bh_Lato10"
 		"fgcolor"								"bh_white"
 		"xpos"									"0"
 		"ypos"									"28"
@@ -729,7 +729,7 @@
 	{	
 		"ControlName"							"CExLabel"
 		"fieldName"								"TournamentInstructionsLabel"
-		"font"									"LatoSemibold12"
+		"font"									"bh_Lato12"
 		"fgcolor_override"						"bh_white"
 		"xpos"									"0"
 		"ypos"									"45"
@@ -898,7 +898,7 @@
 	{	
 		"ControlName"							"CExLabel"
 		"fieldName"								"CountdownLabel"
-		"font"									"LatoSemiBold40"
+		"font"									"bh_Lato40"
 		"xpos"									"100"
 		"ypos"									"100"
 		"wide"									"90"
@@ -936,7 +936,7 @@
 	{	
 		"ControlName"							"CExLabel"
 		"fieldName"								"CountdownLabelShadow"
-		"font"									"LatoSemiBold40"
+		"font"									"bh_Lato40"
 		"xpos"									"100"
 		"ypos"									"100"
 		"wide"									"90"
@@ -1040,7 +1040,7 @@
 	{	
 		"ControlName"							"CExLabel"
 		"fieldName"								"thisprobablywontwork"
-		"font"									"LatoSemibold12"
+		"font"									"bh_Lato12"
 		"fgcolor_override"						"bh_white"
 		"xpos"									"6969"
 		"ypos"									"6969"

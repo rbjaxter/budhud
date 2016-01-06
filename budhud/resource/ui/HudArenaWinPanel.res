@@ -76,7 +76,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"LatoSemibold24"
+			"font"			"bh_Lato24"
 			"labelText"		"%blueteamname%"
 			"textAlignment"	"west"
 			"xpos"			"29"
@@ -92,7 +92,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"LatoSemibold48"
+			"font"			"bh_Lato48"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"138"
@@ -109,7 +109,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"LatoSemibold48"
+			"font"			"bh_Lato48"
 			"fgcolor"		"TransparentBlack"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
@@ -127,7 +127,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"LatoSemibold24"
+			"font"			"bh_Lato24"
 			"labelText"		"%redteamname%"
 			"textAlignment"	"east"
 			"xpos"			"220"
@@ -143,7 +143,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"LatoSemibold48"
+			"font"			"bh_Lato48"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"230"
@@ -160,7 +160,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-			"font"			"LatoSemibold48"
+			"font"			"bh_Lato48"
 			"fgcolor"		"TransparentBlack"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
@@ -203,7 +203,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"ArenaStreakLabel"
-			"font"			"LatoSemibold14"
+			"font"			"bh_Lato14"
 			"fgcolor"		"bh_white"
 			"xpos"			"35"
 			"ypos"			"-15"
@@ -256,7 +256,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"LosingTeamLabel"
-		"font"			"LatoSemibold20"
+		"font"			"bh_Lato20"
 		"xpos"			"35"
 		"ypos"			"94"
 		"zpos"			"1"
@@ -275,7 +275,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"LosingTeamLabelDropshadow"
-		"font"			"LatoSemibold20"
+		"font"			"bh_Lato20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"36"
 		"ypos"			"95"
@@ -296,7 +296,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"LatoSemibold20"
+		"font"			"bh_Lato20"
 		"xpos"			"35"
 		"ypos"			"94"
 		"zpos"			"1"
@@ -315,7 +315,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
-		"font"			"LatoSemibold20"
+		"font"			"bh_Lato20"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"36"
 		"ypos"			"95"
@@ -354,7 +354,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"LatoSemibold9"
+		"font"			"bh_Lato9"
 		"xpos"			"35"
 		"ypos"			"122"
 		"zpos"			"1"
@@ -391,7 +391,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TopPlayerLabel"
-		"font"			"LatoSemibold9"
+		"font"			"bh_Lato9"
 		"xpos"			"50"
 		"ypos"			"140"
 		"zpos"			"3"
@@ -410,7 +410,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"DamageThisRoundLabel"
-		"font"			"LatoSemibold9"
+		"font"			"bh_Lato9"
 		"xpos"			"265"
 		"ypos"			"140"
 		"zpos"			"3"
@@ -429,7 +429,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"LatoSemibold9"
+		"font"			"bh_Lato9"
 		"xpos"			"315"
 		"ypos"			"140"
 		"zpos"			"3"
@@ -448,7 +448,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"LatoSemibold9"
+		"font"			"bh_Lato9"
 		"xpos"			"360"
 		"ypos"			"140"
 		"zpos"			"3"
@@ -467,7 +467,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"LatoSemibold9"
+		"font"			"bh_Lato9"
 		"xpos"			"400"
 		"ypos"			"140"
 		"zpos"			"3"

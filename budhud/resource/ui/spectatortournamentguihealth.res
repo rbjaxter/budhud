@@ -69,6 +69,6 @@
 		"labeltext"			"%health%"
 		"textAlignment"		"center"
 		"fgcolor_override"	"bh_white"
-		"font"				"LatoSemibold16"
+		"font"				"bh_Lato16"
 	}		
 }

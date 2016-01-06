@@ -86,7 +86,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountTextShadow"
-		"font"			"LatoSemibold24"
+		"font"			"bh_Lato24"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
 		"xpos"			"44"
@@ -100,7 +100,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountText"
-		"font"			"LatoSemibold24"
+		"font"			"bh_Lato24"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
 		"xpos"			"43"

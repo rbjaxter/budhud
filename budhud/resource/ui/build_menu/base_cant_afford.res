@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"LatoSemibold12"
+		"font"			"bh_Lato12"
 		"fgcolor"		"bh_red"
 		"xpos"			"10"
 		"ypos"			"9"
@@ -23,7 +23,7 @@
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemNameLabel"
-		"font"					"LatoSemibold12"
+		"font"					"bh_Lato12"
 		"fgcolor_override"		"bh_white"
 		"xpos"					"15"
 		"ypos"					"2"
@@ -92,7 +92,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"LatoSemibold14"
+		"font"			"bh_Lato14"
 		"fgcolor"		"bh_red"
 		"xpos"			"8"
 		"ypos"			"60"
@@ -146,7 +146,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"LatoSemibold20"
+		"font"			"bh_Lato20"
 		"fgcolor"		"bh_white"
 		"xpos"			"0"
 		"ypos"			"95"
@@ -166,7 +166,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"LatoSemibold16"
+		"font"			"bh_Lato16"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"1"
 		"ypos"			"96"

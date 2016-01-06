@@ -48,7 +48,7 @@
 	{					
 		"ControlName"					"CExLabel"
 		"fieldName"						"TitleLabel"
-		"font"							"LatoSemibold20"
+		"font"							"bh_Lato20"
 		"xpos"							"5"			// align me to the left edge of the first selection
 		"ypos"							"12"
 		"zpos"							"3"
@@ -68,7 +68,7 @@
 	{		
 		"ControlName"					"CExLabel"
 		"fieldName"						"WeaponTauntLabel"
-		"font"							"LatoSemibold12"
+		"font"							"bh_Lato12"
 		"xpos"							"130"
 		"ypos"							"26"
 		"zpos"							"2"
@@ -143,7 +143,7 @@
 	{		
 		"ControlName"					"CExLabel"
 		"fieldName"						"NumberLabel1"
-		"font"							"LatoSemibold20"
+		"font"							"bh_Lato20"
 		"fgcolor"						"bh_white"
 		"ypos"							"95"
 		"xpos"							"34"
@@ -215,7 +215,7 @@
 	{		
 		"ControlName"					"CExLabel"
 		"fieldName"						"NumberLabel2"
-		"font"							"LatoSemibold20"
+		"font"							"bh_Lato20"
 		"fgcolor"						"bh_white"
 		"ypos"							"95"
 		"xpos"							"89"
@@ -287,7 +287,7 @@
 	{					
 		"ControlName"					"CExLabel"
 		"fieldName"						"NumberLabel3"
-		"font"							"LatoSemibold20"
+		"font"							"bh_Lato20"
 		"fgcolor"						"bh_white"
 		"xpos"							"144"
 		"ypos"							"95"
@@ -359,7 +359,7 @@
 	{		
 		"ControlName"					"CExLabel"
 		"fieldName"						"NumberLabel4"
-		"font"							"LatoSemibold20"
+		"font"							"bh_Lato20"
 		"fgcolor"						"bh_white"
 		"xpos"							"200"
 		"ypos"							"95"
@@ -431,7 +431,7 @@
 	{		
 		"ControlName"					"CExLabel"
 		"fieldName"						"NumberLabel5"
-		"font"							"LatoSemibold20"
+		"font"							"bh_Lato20"
 		"fgcolor"						"bh_white"
 		"ypos"							"95"
 		"xpos"							"256"
@@ -503,7 +503,7 @@
 	{					
 		"ControlName"					"CExLabel"
 		"fieldName"						"NumberLabel6"
-		"font"							"LatoSemibold20"
+		"font"							"bh_Lato20"
 		"fgcolor"						"bh_white"
 		"xpos"							"310"
 		"ypos"							"95"
@@ -575,7 +575,7 @@
 	{					
 		"ControlName"					"CExLabel"
 		"fieldName"						"NumberLabel7"
-		"font"							"LatoSemibold20"
+		"font"							"bh_Lato20"
 		"fgcolor"						"bh_white"
 		"xpos"							"364"
 		"ypos"							"95"
@@ -647,7 +647,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel8"
-		"font"			"LatoSemibold20"
+		"font"			"bh_Lato20"
 		"fgcolor"		"bh_white"
 		"xpos"			"420"
 		"ypos"			"95"

@@ -58,7 +58,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"DisguiseNameLabel"
-		"font"				"LatoSemibold12"
+		"font"				"bh_Lato12"
 		"xpos"				"151"
 		"ypos"				"25"
 		"zpos"				"1"
@@ -78,7 +78,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"WeaponNameLabel"
-		"font"				"LatoSemibold12"
+		"font"				"bh_Lato12"
 		"xpos"				"121"
 		"ypos"				"37"
 		"zpos"				"1"

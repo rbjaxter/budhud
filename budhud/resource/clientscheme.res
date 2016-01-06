@@ -66,10 +66,17 @@ Scheme
 			"bh_gray"				"150 150 150 255"
 			"bh_lorange"			"243 157 048 255"
 			"bh_dorange"			"204 093 027 255"
+			"bh_deeorange"			"228 144 000 255"
 			"bh_orange"				"240 134 049 255"
 			"bh_green"				"000 215 000 255"
 			"bh_red"				"215 000 000 255"
 			"bh_blue"				"000 153 255 255"
+			
+		// References (Ignore)
+		
+		// BORDERS
+		// ReplayGrayDialogBorder - Contracts, news
+		// BackpackItemGrayedOut - Scoreboard
 		
 		// One of these 5 controls HudHintDisplay / HudHintKeyDisplay color
 		// (surf timer, etc)
@@ -2819,7 +2826,7 @@ Scheme
 
 		//////////////////// BUDHUD FONTS /////////////////////////
 
-		LatoSemibold6
+		bh_Lato6
 		{
 			"1"
 			{
@@ -2829,7 +2836,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		LatoSemibold8
+		bh_Lato8
 		{
 			"1"
 			{
@@ -2839,7 +2846,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		LatoSemibold9
+		bh_Lato9
 		{
 			"1"
 			{
@@ -2849,7 +2856,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		LatoSemibold10
+		bh_Lato10
 		{
 			"1"
 			{
@@ -2859,7 +2866,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		LatoSemibold12
+		bh_Lato12
 		{
 			"1"
 			{
@@ -2869,7 +2876,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		LatoSemibold14
+		bh_Lato14
 		{
 			"1"
 			{
@@ -2879,7 +2886,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		LatoSemibold16
+		bh_Lato16
 		{
 			"1"
 			{
@@ -2889,7 +2896,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		LatoSemibold20
+		bh_Lato20
 		{
 			"1"
 			{
@@ -2899,7 +2906,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		LatoSemibold20Outline
+		bh_Lato20Outline
 		{
 			"1"
 			{
@@ -2910,7 +2917,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		LatoSemibold24
+		bh_Lato24
 		{
 			"1"
 			{
@@ -2920,7 +2927,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		LatoSemibold24Outline
+		bh_Lato24Outline
 		{
 			"1"
 			{
@@ -2931,7 +2938,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		LatoSemibold32
+		bh_Lato32
 		{
 			"1"
 			{
@@ -2941,7 +2948,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		LatoSemibold36
+		bh_Lato36
 		{
 			"1"
 			{
@@ -2951,7 +2958,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		LatoSemibold40
+		bh_Lato40
 		{
 			"1"
 			{
@@ -2961,7 +2968,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		LatoSemibold48
+		bh_Lato48
 		{
 			"1"
 			{

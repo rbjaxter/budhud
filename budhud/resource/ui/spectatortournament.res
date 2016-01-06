@@ -10,12 +10,12 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 				
-		"team1_player_base_offset_x"		"c0"		// -367
-		"team1_player_base_y"				"200"		// 460
+		"team1_player_base_offset_x"		"c0"
+		"team1_player_base_y"				"180"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"-18"
-		"team2_player_base_offset_x"		"c0"		// 207
-		"team2_player_base_y"				"350"		// 460
+		"team2_player_base_offset_x"		"c0"	
+		"team2_player_base_y"				"370"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"-18"
 		
@@ -28,7 +28,7 @@
 		
 
 			
-			"color_ready"	"0 255 0 220"
+			"color_ready"		"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 			
 			"tabPosition"	"0"
@@ -117,7 +117,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"LatoSemibold10"
+				"font"			"bh_Lato10"
 				"xpos"			"50"
 				"ypos"			"1"
 				"zpos"			"5"
@@ -227,7 +227,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"			"respawntime"
-				"font"				"LatoSemibold14"
+				"font"				"bh_Lato14"
 				"xpos"				"19"
 				"ypos"				"-7"
 				"zpos"				"5"
@@ -262,7 +262,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"LatoSemibold12"
+				"font"			"bh_Lato12"
 				"xpos"			"125"
 				"ypos"			"2"
 				"zpos"			"6"
@@ -279,7 +279,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamountBG"
-				"font"			"LatoSemibold12"
+				"font"			"bh_Lato12"
 				"xpos"			"126"
 				"ypos"			"3"
 				"zpos"			"6"
@@ -351,7 +351,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"LatoSemibold24"
+		"font"			"bh_Lato24"
 		
 		if_mvm
 		{
@@ -364,16 +364,16 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"c-190"
-		"ypos"			"360"
+		"ypos"			"200"
 		"wide"			"380"
-		"tall"			"24"
+		"tall"			"400"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"LatoSemibold20"
+		"font"			"bh_Lato14"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	
@@ -507,7 +507,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"LatoSemibold12"
+			"font"			"bh_Lato12"
 			"xpos"			"10"
 			"ypos"			"5"
 			"zpos"			"1"

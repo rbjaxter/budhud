@@ -71,7 +71,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"LatoSemibold20"
+		"font"			"bh_Lato20"
 	}
 	"BuyBackLabel"
 	{
@@ -87,7 +87,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"center"
-		"font"			"LatoSemibold24"
+		"font"			"bh_Lato24"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
@@ -366,7 +366,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"LatoSemibold12"
+			"font"			"bh_Lato12"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"

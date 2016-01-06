@@ -11,22 +11,21 @@
 		"tall"					"150"
 		"visible"				"0"
 		"enabled"				"1"
-		"delta_item_x"			"22"	[$WIN32]
-		"delta_item_x"			"115"	[$X360]
+		"delta_item_x"			"22"
 		"delta_item_start_y"	"6969"
 		"delta_item_end_y"		"6969"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"LatoSemibold20"
+		"delta_item_font"		"bh_Lato20"
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
-			"font"				"LatoSemibold20"
+			"font"				"bh_Lato20"
 			"fgcolor"			"bh_white"
-			"xpos"				"27"
+			"xpos"				"32"
 			"ypos"				"-6"
 			"zpos"				"3"
 			"wide"				"45"

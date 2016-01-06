@@ -87,7 +87,7 @@
 	{
 		"ControlName"						"CExLabel"
 		"fieldName"							"CaratLabel"
-		"font"								"LatoSemibold16"
+		"font"								"bh_Lato16"
 		"labelText"							">"
 		"textAlignment"						"west"
 		"xpos"								"c-300"

@@ -2,7 +2,7 @@
 {
 	/////////////////////////////////////////////////////////////////////////////
 	// HEALTH PLACEMENT CUSTOMIZATION
-	// Controlled in resource\ui\hudplayerhealth.res, not here
+	// Controlled in resource\ui\hudplayerhealth.res
 	/////////////////////////////////////////////////////////////////////////////
 
 	/////////////////////////////////////////////////////////////////////////////
@@ -619,7 +619,7 @@
 		"fieldName" 				"HudWeaponAmmo"
 		"visible" 					"1"
 		"enabled" 					"1"
-		"xpos"						"c50"
+		"xpos"						"c40"
 		"ypos"						"c62"
 		"wide"						"200"
 		"tall"						"100"
@@ -803,7 +803,7 @@
 	CDamageAccountPanel	
 	{	
 		"fieldName"					"CDamageAccountPanel"
-		"xpos"						"0"
+		"xpos"						"-2"
 		"ypos"						"10"
 		"wide"						"f0"
 		"tall"						"480"
@@ -888,7 +888,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"xpos"						"-14"
-		"ypos"						"0"
+		"ypos"						"-60"
 		"wide"						"640"
 		"tall"						"480"
 		
@@ -1052,7 +1052,7 @@
 		"CornerRadius"	 	 		"3"
 		"RightJustify"	 	 		"1"	// If 1, draw notices from the right
 			
-		"TextFont"					"LatoSemibold12"
+		"TextFont"					"bh_Lato12"
 			
 		"TeamBlue"					"HUDBlueTeamSolid"
 		"TeamRed"					"HUDRedTeamSolid"
@@ -1279,8 +1279,8 @@
 		"enabled" 					"1"
 		"xpos" 						"r42"
 		"ypos" 						"355"
-		"wide" 						"32"
-		"tall" 						"32"
+		"wide" 						"25"
+		"tall" 						"25"
 	}
 
 	HudVoiceStatus
@@ -1295,21 +1295,21 @@
 
 		"item_wide"					"135"
 		
-		"show_avatar"				"0"
+		"show_avatar"				"1"
 
 		"show_dead_icon"			"1"
 		"dead_xpos"					"1"
-		"dead_ypos"					"0"
-		"dead_wide"					"16"
-		"dead_tall"					"16"
-				
+		"dead_ypos"					"2"
+		"dead_wide"					"12"
+		"dead_tall"					"12"
+
 		"show_voice_icon"			"1"
-		"icon_ypos"					"0"
-		"icon_xpos"					"15"
-		"icon_tall"					"16"
-		"icon_wide"					"16"
-				
-		"text_xpos"					"33"
+		"icon_ypos"					"2"
+		"icon_xpos"					"2"
+		"icon_tall"					"12"
+		"icon_wide"					"12"
+
+		"text_xpos"					"45"
 	}
 
 	HudHintDisplay
@@ -1325,7 +1325,7 @@
 		"HintSize"					"1"
 		"text_xpos"					"8"
 		"text_ypos"					"8"
-		"center_x"					"0"	// center text horizontally
+		"center_x"					"0"		// center text horizontally
 		"center_y"					"-1"	// align text on the bottom
 	}	
 
@@ -1408,9 +1408,9 @@
 		"fieldName"					"WinPanel"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-100"
-		"ypos"						"260"
-		"wide"						"200"
+		"xpos"						"c-112"
+		"ypos"						"270"
+		"wide"						"500"
 		"tall"						"300"
 	}	
 	
@@ -1577,7 +1577,7 @@
 		"fieldName"					"HudDemomanPipes"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-51"
+		"xpos"						"c-56"
 		"ypos"						"c105"
 		"wide"						"200"
 		"tall"						"100"
@@ -1767,9 +1767,9 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HudAchievementTracker"
-		"xpos"						"5"
-		"NormalY"					"12"
-		"EngineerY"					"12"
+		"xpos"						"0"
+		"NormalY"					"120"
+		"EngineerY"					"250"
 		"zpos"						"50"
 		"wide"						"200"
 		"tall"						"280"
@@ -1944,5 +1944,124 @@
 		"ypos"						"0"
 		"wide"						"f0"
 		"tall"						"480"
+	}
+	
+	/////////////////////////////////////////////////////////////////////////////
+	// ** DEV USE ONLY **
+	// Do not enable unless you enjoy grids.
+	/////////////////////////////////////////////////////////////////////////////	
+	
+	"bh_dev_h_center"
+	{
+		"ControlName"				"ImagePanel"
+		"fieldName"					"bh_dev"
+		"xpos"						"c-5"
+		"ypos"						"f0"
+		"zpos"						"0"
+		"wide"						"10"
+		"tall"						"f0"
+		"visible"					"0"
+		"enabled"					"0"
+		"fillcolor"					"150 150 150 120"
+	}
+	
+	"bh_dev_h_L1"
+	{
+		"ControlName"				"ImagePanel"
+		"fieldName"					"bh_dev"
+		"xpos"						"c-150"
+		"ypos"						"f0"
+		"zpos"						"0"
+		"wide"						"10"
+		"tall"						"f0"
+		"visible"					"0"
+		"enabled"					"0"
+		"fillcolor"					"150 150 150 120"
+	}
+	
+	"bh_dev_h_L2"
+	{
+		"ControlName"				"ImagePanel"
+		"fieldName"					"bh_dev"
+		"xpos"						"c-295"
+		"ypos"						"f0"
+		"zpos"						"0"
+		"wide"						"10"
+		"tall"						"f0"
+		"visible"					"0"
+		"enabled"					"0"
+		"fillcolor"					"150 150 150 120"
+	}
+	
+	"bh_dev_h_R1"
+	{
+		"ControlName"				"ImagePanel"
+		"fieldName"					"bh_dev"
+		"xpos"						"c140"
+		"ypos"						"f0"
+		"zpos"						"0"
+		"wide"						"10"
+		"tall"						"f0"
+		"visible"					"0"
+		"enabled"					"0"
+		"fillcolor"					"150 150 150 120"
+	}
+	
+	"bh_dev_h_R2"
+	{
+		"ControlName"				"ImagePanel"
+		"fieldName"					"bh_dev"
+		"xpos"						"c290"
+		"ypos"						"f0"
+		"zpos"						"0"
+		"wide"						"10"
+		"tall"						"f0"
+		"visible"					"0"
+		"enabled"					"0"
+		"fillcolor"					"150 150 150 120"
+	}
+	
+	/////////////////////////////////////////////////////////////////////////////	
+	
+	"bh_dev_v_center"
+	{
+		"ControlName"				"ImagePanel"
+		"fieldName"					"bh_dev"
+		"xpos"						"f0"
+		"ypos"						"c-5"
+		"zpos"						"0"
+		"wide"						"f0"
+		"tall"						"10"
+		"visible"					"0"
+		"enabled"					"0"
+		"fillcolor"					"150 150 150 120"
+	}
+	
+	"bh_dev_v_U1"
+	{
+		"ControlName"				"ImagePanel"
+		"fieldName"					"bh_dev"
+		"xpos"						"f0"
+		"ypos"						"c-150"
+		"zpos"						"0"
+		"wide"						"f0"
+		"tall"						"10"
+		"visible"					"0"
+		"enabled"					"0"
+		"fillcolor"					"150 150 150 120"
+	}
+	
+	"bh_dev_v_D1"
+	{
+		"ControlName"				"ImagePanel"
+		"fieldName"					"bh_dev"
+		"xpos"						"f0"
+		"ypos"						"c145"
+		"zpos"						"0"
+		"wide"						"f0"
+		"tall"						"10"
+		"visible"					"0"
+		"enabled"					"0"
+		"fillcolor"					"150 150 150 120"
 	}
 }

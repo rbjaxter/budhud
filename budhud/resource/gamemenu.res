@@ -8,7 +8,7 @@
 		"tooltip"		"Show information about the hud"
 		"command" 		"engine con_enable 1;showconsole;clear;
 		echo ========================================================================;
-		echo BUDHUD, 17/DECEMBER/2015 by Whisker;
+		echo BUDHUD, 6/JANUARY/2015 by Whisker Biscuit;
 		echo ========================================================================;
 		echo Report Issues: github.com/WhiskerBiscuit/budhud/issues;
 		echo HUD GROUP: steamcommunity.com/groups/budhud;
@@ -121,7 +121,7 @@
 		"OnlyAtMenu" 	"1"
 		"tooltip"		"Training Mode"
 	}
-	
+
 	// These buttons get positioned by the MainMenuOverride.res	
 	"CreateServerButton"
 	{

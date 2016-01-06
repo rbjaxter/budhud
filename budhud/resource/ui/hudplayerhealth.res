@@ -1,6 +1,5 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
-
 	/////////////////////////////////////////////////////////////////////////////
 	// AMMO PLACEMENT CUSTOMIZATION
 	// >> HudPlayerHealth
@@ -60,8 +59,10 @@
 	// >> PlayerStatusHealthImage; PlayerStatusHealthImageBG
 	// ======================================================================= //
 	// Controls the health cross to the left of your numerical health value
-	// IMPORTANT: To disable, set visible and enabled to 0. Do not change x/ypos!
-	// This will cause various status effects to vanish.
+	// IMPORTANT:
+	// PlayerStatusHealthImage: To disable, set visible and enabled to 0. Do not 
+	// change x/ypos! This will cause various status effects to vanish.
+	// PlayerStatusHealthImageBG: Set xpos/ypos to 6969 to disable.
 	/////////////////////////////////////////////////////////////////////////////
 	"PlayerStatusHealthImage"
 	{
@@ -113,7 +114,7 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
-	
+
 	/////////////////////////////////////////////////////////////////////////////
 	
 	"PlayerStatusHealthValue"
@@ -129,7 +130,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"LatoSemibold48"
+		"font"			"bh_Lato48"
 		"fgcolor"		"bh_Health"
 	}
 	"PlayerStatusHealthValueBG"
@@ -145,7 +146,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"LatoSemibold48"
+		"font"			"bh_Lato48"
 		"fgcolor"		"bh_black"
 	}
 	"PlayerStatusBleedImage"

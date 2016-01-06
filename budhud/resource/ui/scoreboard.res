@@ -13,7 +13,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"tabPosition"				"0"
-		"medal_width"				"13"
+		"medal_width"				"20"
 		"avatar_width"				"60"
 		"spacer"					"5"
 		"name_width"				"90"	
@@ -27,7 +27,7 @@
 		"killstreak_width"			"10"
 		"killstreak_image_width"	"10"
 		/////////////////////////////
-		"medal_width_minmode"		"13"
+		"medal_width_minmode"		"20"
 		"avatar_width_minmode"		"60"
 		"spacer"					"5"
 		"name_width_minmode"		"90"	
@@ -133,7 +133,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"BlueTeamLabel"
-		"font"				"LatoSemibold24"
+		"font"				"bh_Lato24"
 		"fgcolor_override"	"bh_white"
 		"labelText"			"%blueteamname%"
 		"textAlignment"		"west"
@@ -161,7 +161,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"BlueTeamScore"
-		"font"				"LatoSemibold48"
+		"font"				"bh_Lato48"
 		"fgcolor_override"	"bh_white"
 		"labelText"			"%blueteamscore%"
 		"textAlignment"		"east"
@@ -184,7 +184,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"BlueTeamScoreDropshadow"
-		"font"				"LatoSemibold48"
+		"font"				"bh_Lato48"
 		"fgcolor_override"	"bh_black"
 		"labelText"			"%blueteamscore%"
 		"textAlignment"		"east"
@@ -207,7 +207,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"BlueTeamPlayerCount"
-		"font"				"LatoSemibold10"
+		"font"				"bh_Lato10"
 		"fgcolor_override"	"bh_white"
 		"labelText"			"%blueteamplayercount%"
 		"textAlignment"		"west"
@@ -235,7 +235,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"RedTeamLabel"
-		"font"				"LatoSemibold24"
+		"font"				"bh_Lato24"
 		"fgcolor_override"	"bh_white"
 		"labelText"			"%redteamname%"
 		"textAlignment"		"east"
@@ -263,7 +263,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"RedTeamScore"
-		"font"				"LatoSemibold48"
+		"font"				"bh_Lato48"
 		"fgcolor_override"	"bh_white"
 		"labelText"			"%redteamscore%"
 		"textAlignment"		"west"
@@ -286,7 +286,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"RedTeamScoreDropshadow"
-		"font"				"LatoSemibold48"
+		"font"				"bh_Lato48"
 		"fgcolor"			"bh_black"
 		"labelText"			"%redteamscore%"
 		"textAlignment"		"west"
@@ -309,7 +309,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"RedTeamPlayerCount"
-		"font"				"LatoSemibold10"
+		"font"				"bh_Lato10"
 		"fgcolor_override"	"bh_white"
 		"labelText"			"%redteamplayercount%"
 		"textAlignment"		"east"
@@ -337,7 +337,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ServerLabel"
-		"font"					"LatoSemibold10"
+		"font"					"bh_Lato10"
 		"labelText"				"%server%"
 		"textAlignment"			"west"
 		"xpos"					"8"
@@ -372,7 +372,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ServerTimeLeft"
-		"font"					"LatoSemibold10"
+		"font"					"bh_Lato10"
 		"fgcolor_override"		"bh_orange"
 		"labelText"				"%servertimeleft%"
 		"textAlignment"			"east"
@@ -492,7 +492,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"Spectators"
-		"font"				"LatoSemibold10"
+		"font"				"bh_Lato10"
 		"labelText"			"%spectators%"
 		"textAlignment"		"west"
 		"xpos"				"115"
@@ -523,7 +523,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SpectatorsInQueue"
-		"font"				"LatoSemibold10"
+		"font"				"bh_Lato10"
 		"labelText"			"%waitingtoplay%"
 		"textAlignment"		"west"
 		"xpos"				"115"
@@ -551,7 +551,7 @@
 		"ypos"					"386"
 		"zpos"					"2"
 		"wide"					"83"
-		"tall"					"50"
+		"tall"					"49"
 		/////////////////////////////
 		"xpos_minmode"			"8"
 		"ypos_minmode"			"60"
@@ -576,7 +576,7 @@
 			"ypos"				"385"
 			"zpos"				"2"
 			"wide"				"88"
-			"tall"				"50"
+			"tall"				"49"
 		}
 	}
 	"ShadedBarRight"
@@ -638,7 +638,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"	
-		"fillcolor"				"0 0 0 153"
+		"fillcolor"				"0 0 0 0"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -675,7 +675,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"PlayerNameLabel"
-		"font"				"LatoSemibold12"
+		"font"				"bh_Lato12"
 		"labelText"			"%playername%"
 		"textAlignment"		"west"
 		"xpos"				"6969"
@@ -697,7 +697,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"MapName"
-		"font"						"LatoSemibold12"
+		"font"						"bh_Lato12"
 		"fgcolor"					"bh_orange"
 		"labelText"					"%mapname%"
 		"textAlignment"				"center"
@@ -1019,7 +1019,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"KillsLabel"
-			"font"				"LatoSemibold16"
+			"font"				"bh_Lato16"
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_KillsLabel"
 			"textAlignment"		"east"
@@ -1043,7 +1043,7 @@
 			if_mvm
 			{
 				"xpos"			"-50"
-				"ypos"			"2"
+				"ypos"			"0"
 				"zpos"			"3"
 				"wide"			"95"
 				"tall"			"20"
@@ -1053,7 +1053,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"KillsLabelMinmode"
-			"font"				"LatoSemibold20"
+			"font"				"bh_Lato20"
 			"fgcolor"			"bh_white"
 			"labelText"			"K:"
 			"textAlignment"		"east"
@@ -1073,12 +1073,18 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+		
+			if_mvm
+			{
+				"xpos"			"6969"
+				"ypos"			"6969"
+			}
 		}		
 		"DeathsLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DeathsLabel"
-			"font"				"LatoSemibold16"
+			"font"				"bh_Lato16"
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_DeathsLabel"
 			"textAlignment"		"east"
@@ -1102,7 +1108,7 @@
 			if_mvm
 			{
 				"xpos"			"-50"
-				"ypos"			"30"
+				"ypos"			"28"
 				"zpos"			"3"
 				"wide"			"95"
 				"tall"			"20"
@@ -1112,7 +1118,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DeathsLabelMinmode"
-			"font"				"LatoSemibold20"
+			"font"				"bh_Lato20"
 			"fgcolor"			"bh_white"
 			"labelText"			"D:"
 			"textAlignment"		"east"
@@ -1132,12 +1138,18 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+			
+			if_mvm
+			{
+				"xpos"			"6969"
+				"ypos"			"6969"
+			}
 		}		
 		"AssistsLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"AssistsLabel"
-			"font"				"LatoSemibold16"
+			"font"				"bh_Lato16"
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
@@ -1161,7 +1173,7 @@
 			if_mvm
 			{
 				"xpos"			"-50"
-				"ypos"			"16"
+				"ypos"			"14"
 				"zpos"			"3"
 				"wide"			"95"
 				"tall"			"20"
@@ -1171,7 +1183,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"AssistsLabelMinmode"
-			"font"				"LatoSemibold20"
+			"font"				"bh_Lato20"
 			"fgcolor"			"bh_white"
 			"labelText"			"A:"
 			"textAlignment"		"east"
@@ -1191,12 +1203,18 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+			
+			if_mvm
+			{
+				"xpos"			"6969"
+				"ypos"			"6969"
+			}
 		}
 		"DestructionLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DestructionLabel"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
@@ -1214,7 +1232,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"bh_Kills"
-			"font"				"LatoSemibold16"
+			"font"				"bh_Lato16"
 			"fgcolor"			"bh_lorange"
 			"labelText"			"%kills%"
 			"textAlignment"		"center"
@@ -1224,7 +1242,7 @@
 			"wide"				"35"
 			"tall"				"20"
 			/////////////////////////////
-			"font_minmode"		"LatoSemibold20"
+			"font_minmode"		"bh_Lato20"
 			"xpos_minmode"		"61"
 			"ypos_minmode"		"110"
 			"zpos_minmode"		"3"
@@ -1238,8 +1256,9 @@
 			
 			if_mvm
 			{
+				"font"			"bh_Lato16"
 				"xpos"			"45"
-				"ypos"			"2"
+				"ypos"			"0"
 				"zpos"			"3"
 				"wide"			"35"
 				"tall"			"20"
@@ -1249,7 +1268,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"bh_Deaths"
-			"font"				"LatoSemibold16"
+			"font"				"bh_Lato16"
 			"fgcolor"			"bh_dorange"
 			"labelText"			"%deaths%"
 			"textAlignment"		"center"
@@ -1259,7 +1278,7 @@
 			"wide"				"35"
 			"tall"				"20"
 			/////////////////////////////
-			"font_minmode"		"LatoSemibold20"
+			"font_minmode"		"bh_Lato20"
 			"xpos_minmode"		"61"
 			"ypos_minmode"		"150"
 			"zpos_minmode"		"3"
@@ -1273,8 +1292,9 @@
 			
 			if_mvm
 			{
+				"font"			"bh_Lato16"
 				"xpos"			"45"
-				"ypos"			"30"
+				"ypos"			"28"
 				"zpos"			"3"
 				"wide"			"35"
 				"tall"			"20"
@@ -1284,7 +1304,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"gametype"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"labelText"			"%gametype%"
 			"textAlignment"		"east"
 			"xpos"				"435"
@@ -1302,7 +1322,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"bh_Assists"
-			"font"				"LatoSemibold16"
+			"font"				"bh_Lato16"
 			"fgcolor"			"bh_orange"
 			"labelText"			"%assists%"
 			"textAlignment"		"center"
@@ -1312,7 +1332,7 @@
 			"wide"				"35"
 			"tall"				"20"
 			/////////////////////////////
-			"font_minmode"		"LatoSemibold20"
+			"font_minmode"		"bh_Lato20"
 			"xpos_minmode"		"61"
 			"ypos_minmode"		"130"
 			"zpos_minmode"		"3"
@@ -1326,8 +1346,9 @@
 			
 			if_mvm
 			{
+				"font"			"bh_Lato16"
 				"xpos"			"45"
-				"ypos"			"16"
+				"ypos"			"14"
 				"zpos"			"3"
 				"wide"			"35"
 				"tall"			"20"
@@ -1337,7 +1358,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"bh_Destruction"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%destruction%"
 			"textAlignment"		"west"
@@ -1355,7 +1376,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CapturesLabel"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
@@ -1373,7 +1394,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CapturesLabelMinmode"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"CAPS:"
 			"textAlignment"		"west"
@@ -1398,7 +1419,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DefensesLabel"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
@@ -1416,7 +1437,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DominationLabel"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
@@ -1434,7 +1455,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DominationLabelMinmode"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"DOMS:"
 			"textAlignment"		"west"
@@ -1459,7 +1480,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RevengeLabel"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
@@ -1477,7 +1498,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"bh_Captures"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%captures%"
 			"textAlignment"		"west"
@@ -1515,7 +1536,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"bh_Defenses"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%defenses%"
 			"textAlignment"		"west"
@@ -1533,7 +1554,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"bh_Domination"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%dominations%"
 			"textAlignment"		"west"
@@ -1571,7 +1592,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"bh_Revenge"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%Revenge%"
 			"textAlignment"		"west"
@@ -1589,7 +1610,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"HealingLabel"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
@@ -1607,7 +1628,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"HealingLabelMinmode"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"HEALS:"
 			"textAlignment"		"west"
@@ -1632,7 +1653,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"InvulnLabel"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
@@ -1650,7 +1671,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"InvulnLabelMinmode"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"UBERS:"
 			"textAlignment"		"west"
@@ -1675,7 +1696,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TeleportsLabel"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
@@ -1693,7 +1714,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"HeadshotsLabel"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
@@ -1711,7 +1732,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"HeadshotsLabelMinmode"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"HS:"
 			"textAlignment"		"west"
@@ -1736,7 +1757,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"bh_Healing"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%healing%"
 			"textAlignment"		"west"
@@ -1774,7 +1795,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"bh_Invuln"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%invulns%"
 			"textAlignment"		"west"
@@ -1812,7 +1833,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"bh_Teleports"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%teleports%"
 			"textAlignment"		"west"
@@ -1830,7 +1851,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"bh_Headshots"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%headshots%"
 			"textAlignment"		"west"
@@ -1868,7 +1889,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BackstabsLabel"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"east"
@@ -1886,7 +1907,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"bh_Backstabs"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%backstabs%"
 			"textAlignment"		"west"		
@@ -1904,7 +1925,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BonusLabel"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"east"
@@ -1923,7 +1944,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"bh_Bonus"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%bonus%"
 			"textAlignment"		"west"
@@ -1941,7 +1962,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"SupportLabel"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_Scoreboard_Support"
 			"textAlignment"		"east"
@@ -1959,7 +1980,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"bh_Support"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"%support%"
 			"textAlignment"		"west"		
@@ -1977,7 +1998,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DamageLabel"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"#TF_Scoreboard_Damage"
 			"textAlignment"		"east"
@@ -1995,7 +2016,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DamageLabelMinmode"
-			"font"				"LatoSemibold10"
+			"font"				"bh_Lato10"
 			"fgcolor"			"bh_white"
 			"labelText"			"DMG:"
 			"textAlignment"		"west"
@@ -2020,7 +2041,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldName"					"bh_Damage"
-			"font"						"LatoSemibold10"
+			"font"						"bh_Lato10"
 			"fgcolor"					"bh_white"
 			"labelText"					"%damage%"
 			"textAlignment"				"west"		
@@ -2236,7 +2257,7 @@
 		}
 	}
 	
-	"BGscoreBlu"
+	"bh_e_BGscoreBlu"
 	{
 		"ControlName" 			"ImagePanel"
 		"fieldName" 			"BGscoreBlu"
@@ -2265,7 +2286,7 @@
 			"visible"		"0"
 		}
 	}
-	"BGscoreRed"
+	"bh_e_BGscoreRed"
 	{
 		"ControlName" 			"ImagePanel"
 		"fieldName" 			"BGscoreRed"

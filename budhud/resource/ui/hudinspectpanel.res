@@ -71,7 +71,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"LatoSemibold12"
+			"font"			"bh_Lato12"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"

@@ -22,10 +22,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
-		"xpos"			"c-41"
+		"xpos"			"c-56"
 		"ypos"			"r36"
 		"zpos"			"-1"
-		"wide"			"28"
+		"wide"			"59"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
@@ -60,10 +60,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
-		"xpos"			"c14"
+		"xpos"			"c3"
 		"ypos"			"r36"
 		"zpos"			"-1"
-		"wide"			"28"
+		"wide"			"59"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
@@ -129,7 +129,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-50"
+		"xpos"			"c-60"
 		"ypos"			"r43"
 		"zpos"			"8"
 		"wide"			"50"
@@ -138,7 +138,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
-		"font"			"LatoSemibold36"
+		"font"			"bh_Lato36"
 		"fgcolor"		"bh_white"
 		
 		"if_hybrid"
@@ -176,7 +176,7 @@
 		"enabled"		"0"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"LatoSemibold36"
+		"font"			"bh_Lato36"
 		"fgcolor"		"Black"
 		
 		"if_hybrid"
@@ -199,7 +199,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c1"
+		"xpos"			"c13"
 		"ypos"			"r43"
 		"zpos"			"8"
 		"wide"			"50"
@@ -208,7 +208,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"LatoSemibold36"
+		"font"			"bh_Lato36"
 		"fgcolor"		"bh_white"		
 		
 		"if_hybrid"
@@ -246,7 +246,7 @@
 		"enabled"		"0"
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
-		"font"			"LatoSemibold36"
+		"font"			"bh_Lato36"
 		"fgcolor"		"Black"		
 		
 		"if_hybrid"
@@ -321,7 +321,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LatoSemibold14"
+		"font"			"bh_Lato14"
 		"fgcolor"		"bh_white"
 		
 		"if_hybrid"
@@ -362,7 +362,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LatoSemibold14"
+		"font"			"bh_Lato14"
 		"fgcolor"		"bh_black"
 		
 		"if_hybrid"
@@ -391,7 +391,7 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
-		"xpos"			"c-136"
+		"xpos"			"c-152"
 		"ypos"			"r72"
 		"zpos"			"2"
 		"wide"			"160"
@@ -432,7 +432,7 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
-		"xpos"			"c-25"
+		"xpos"			"c-5"
 		"ypos"			"r72"
 		"zpos"			"5"
 		"wide"			"160"
@@ -472,7 +472,7 @@
 	{
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
-		"xpos"			"c-25"
+		"xpos"			"c-24"
 		"ypos"			"r50"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"50"

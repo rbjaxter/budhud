@@ -105,7 +105,7 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_Offense"
 		"textAlignment"	"left"
-		"font"			"LatoSemibold20"
+		"font"			"bh_Lato20"
 		"fgcolor"		"bh_white"
 	}
 	"scout"
@@ -304,7 +304,7 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_Defense"
 		"textAlignment"	"left"
-		"font"			"LatoSemibold20"
+		"font"			"bh_Lato20"
 		"fgcolor"		"bh_white"
 
 	}
@@ -502,7 +502,7 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_Support"
 		"textAlignment"	"left"
-		"font"			"LatoSemibold20"
+		"font"			"bh_Lato20"
 		"fgcolor"		"bh_white"
 	}
 	"medic"
@@ -700,7 +700,7 @@
 		"labelText"						"CANCEL (&Q)"
 		"textAlignment"					"center"
 		"Command"						"vguicancel"
-		"font"							"LatoSemibold10"
+		"font"							"bh_Lato10"
 		"paintbackground"				"0"
 		"armedfgcolor_override"			"bh_orange"
 		"defaultfgcolor_override"		"bh_white"
@@ -722,7 +722,7 @@
 		"labelText"						"CANCEL (&Q)"
 		"textAlignment"					"center"
 		"Command"						"vguicancel"
-		"font"							"LatoSemibold10"
+		"font"							"bh_Lato10"
 		"paintbackground"				"0"
 		"armedfgcolor_override"			"bh_orange"
 		"defaultfgcolor_override"		"bh_white"
@@ -748,7 +748,7 @@
 		"labelText"						"EDIT LOADOUT (&E)"
 		"textAlignment"					"center"
 		"Command"						"openloadout"
-		"font"							"LatoSemibold10"
+		"font"							"bh_Lato10"
 		"paintbackground"				"0"
 		"armedfgcolor_override"			"bh_orange"
 		"defaultfgcolor_override"		"bh_white"
@@ -1159,7 +1159,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"center"
-		"font"			"LatoSemibold12"
+		"font"			"bh_Lato12"
 		"fgcolor"		"bh_white"
 	}	
 	
@@ -1179,7 +1179,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"center"
-		"font"			"LatoSemibold12"
+		"font"			"bh_Lato12"
 		"fgcolor"		"bh_white"
 	}		
 	
@@ -1199,7 +1199,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"center"
-		"font"			"LatoSemibold12"
+		"font"			"bh_Lato12"
 		"fgcolor"		"bh_white"
 	}			
 	
@@ -1219,7 +1219,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"center"
-		"font"			"LatoSemibold12"
+		"font"			"bh_Lato12"
 		"fgcolor"		"bh_white"
 	}				
 	
@@ -1239,7 +1239,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"center"
-		"font"			"LatoSemibold12"
+		"font"			"bh_Lato12"
 		"fgcolor"		"bh_white"
 	}					
 	
@@ -1259,7 +1259,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"center"
-		"font"			"LatoSemibold12"
+		"font"			"bh_Lato12"
 		"fgcolor"		"bh_white"
 	}						
 	
@@ -1279,7 +1279,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"center"
-		"font"			"LatoSemibold12"
+		"font"			"bh_Lato12"
 		"fgcolor"		"bh_white"
 	}							
 	
@@ -1299,7 +1299,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"center"
-		"font"			"LatoSemibold12"
+		"font"			"bh_Lato12"
 		"fgcolor"		"bh_white"
 	}						
 	
@@ -1319,7 +1319,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"center"
-		"font"			"LatoSemibold12"
+		"font"			"bh_Lato12"
 		"fgcolor"		"bh_white"
 	}								
 	

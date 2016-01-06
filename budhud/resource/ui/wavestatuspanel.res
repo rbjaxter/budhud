@@ -26,7 +26,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"WaveCountLabel"
-		"font"						"LatoSemibold12"
+		"font"						"bh_Lato12"
 		"fgcolor"					"bh_white"
 		"xpos"						"280"
 		"ypos"						"5"
@@ -64,7 +64,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"SupportLabel"
-		"font"						"LatoSemibold12"
+		"font"						"bh_Lato12"
 		"fgcolor"					"bh_white"
 		"xpos"						"55"
 		"ypos"						"0"
@@ -88,7 +88,7 @@
 		"fieldName"					"ProgressBar"
 		"xpos"						"211"
 		"ypos"						"20"
-		"zpos"						"3"
+		"zpos"						"2"
 		"wide"						"178"
 		"tall"						"11"
 		"visible"					"1"
