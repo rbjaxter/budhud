@@ -30,33 +30,56 @@
 	// See: \budhud\_Customization\Custom Crosshairs for instructions
 	/////////////////////////////////////////////////////////////////////////////
 
-	"Crosshair"
+	"whayay_crosshair"
 	{
         "controlname"		"CExLabel"
-		"fieldname"			"Crosshair"
+		"fieldname"			"whayay_crosshair"
         "textAlignment"		"center"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
-        "enabled"			"0"
+
+
         
-        "visible"			"0"			  			//"1" to enable
+		"labeltext"			"f"           						// Change this to use a different crosshair
         
-		"labeltext"			"f"           			//Change this to use a different crosshair
-													//You can see the list of crosshairs in Crosshairs.png
-		"labeltext"			"f"           			// Change this to use a different crosshair
-													// You can see the list of crosshairs in Crosshairs.png
-        
-        "font"				"CrosshairOLsmall"	    // Use "CrosshairOL" for a crosshair with an outline
-													// or "CrosshairAA" for a smooth crosshair w/o an outline 
+        "font"				"CrosshairOLsmall"	    			// Use "CrosshairOL" for a crosshair with an outline
+																// or "CrosshairAA" for a smooth crosshair w/o an outline 
                                      
-													// You can add "Small" or "Big" at the end to change the size
-													// e.g. "CrosshairOLSmall"
+																// You can add "Small" or "Big" at the end to change the size
+																// e.g. "CrosshairOLSmall"
         
-        "fgcolor"			"ya_crosshair"      	// Color is changed via the clientscheme
-													// in the "/resource/" folder
+        "fgcolor"			"ya_crosshair"      				// Color is changed via the clientscheme
+																// in the "/resource/" folder
+	}
+	
+	/////////////////////////////////////////////////////////////////////////////
+	// Knuckle's Crosshair
+	// See: \budhud\_Customization\Custom Crosshairs for instructions
+	// Valid font sizes: Any number between 10 - 50
+	/////////////////////////////////////////////////////////////////////////////
+	
+	"knuckles_crosshair"
+	{
+		"controlName"				"CExLabel"
+		"fieldName"					"knuckles_crosshair"
+		"textAlignment"				"center"		
+		"xpos"						"0"
+		"ypos"						"1"
+		"zpos"						"1"
+		"wide"						"f0"
+		"tall"						"480"
+		
+		"visible"					"0"							// Set both to "1"
+		"enabled"					"0"							// to enable
+		
+		"font"						"size:30,outline:off"
+		
+		"labelText"					"a"							// Change this to use a different crosshair		
+
+		"fgcolor"					"knuckles_crosshair"
 	}
 	
 	/////////////////////////////////////////////////////////////////////////////
@@ -595,7 +618,7 @@
 	}
 	
 	/////////////////////////////////////////////////////////////////////////////
-	//END CUSTOMIZATION
+	// END CUSTOMIZATION
 	/////////////////////////////////////////////////////////////////////////////
 	
 	HudPlayerStatus
@@ -624,7 +647,7 @@
 		"wide"						"200"
 		"tall"						"100"
 	}		
-				
+
 	HudObjectiveStatus		
 	{		
 		"fieldName" 				"HudObjectiveStatus"
@@ -635,7 +658,7 @@
 		"wide"						"f0"
 		"tall"						"480"
 	}			
-			
+
 	HudKothTimeStatus		
 	{		
 		"fieldName" 				"HudKothTimeStatus"
@@ -643,27 +666,27 @@
 		"enabled" 					"1"
 		"xpos"						"c-100"
 		"ypos"						"0"
-		"wide"						"200"
-		"tall"						"160"
+		"wide"						"175"
+		"tall"						"100"
 				
 		"blue_active_xpos"			"25"
 			
 		"red_active_xpos"			"115"
 	}			
-		
+
 	HudItemEffectMeter		
 	{		
 		"fieldName"					"HudItemEffectMeter"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"r162"
-		"ypos"						"r52"
-		"wide"						"100"
-		"tall"						"50"
+		"xpos"						"c-51"
+		"ypos"						"c68"	// Just below TargetID when being healed
+		"wide"						"200"
+		"tall"						"200"
 		"MeterFG"					"White"
 		"MeterBG"					"Gray"
 	}		
-			
+
 	HudMedicCharge		
 	{		
 		"fieldName" 				"HudMedicCharge"
@@ -681,9 +704,9 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"xpos"						"c-51"
-		"ypos"						"c85" //c88
-		"wide"						"101"
-		"tall"						"100"
+		"ypos"						"c79"	// Just below TargetID when being healed
+		"wide"						"200"
+		"tall"						"200"
 		"MeterFG"					"White"
 		"MeterBG"					"Gray"
 	}				
@@ -776,15 +799,15 @@
 	
 	CHudAccountPanel
 	{
-		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c-66"
-		"ypos"					"c100"
-		"wide"					"116"
-		"tall"  				"180"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-		"textAlignment"			"center"
+		"fieldName"					"CHudAccountPanel"
+		"xpos"						"c-65"
+		"ypos"						"c100"
+		"wide"						"116"
+		"tall"  					"180"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"PaintBackgroundType"		"2"
+		"textAlignment"				"center"
 	}	
 		
 	CHealthAccountPanel	
@@ -803,7 +826,7 @@
 	CDamageAccountPanel	
 	{	
 		"fieldName"					"CDamageAccountPanel"
-		"xpos"						"-2"
+		"xpos"						"2"
 		"ypos"						"10"
 		"wide"						"f0"
 		"tall"						"480"
@@ -860,7 +883,7 @@
 		"visible" 					"0"
 		"enabled" 					"1"
 		"xpos" 						"c-100"
-		"ypos" 						"c68" //c135 
+		"ypos" 						"c55" //c135 
 		"zpos"						"0"
 		"wide" 						"600"
 		"tall" 						"45"
@@ -1951,7 +1974,7 @@
 	// Do not enable unless you enjoy grids.
 	/////////////////////////////////////////////////////////////////////////////	
 	
-	"bh_dev_h_center"
+	"bh_dev_v_center"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"bh_dev"
@@ -1965,7 +1988,7 @@
 		"fillcolor"					"150 150 150 120"
 	}
 	
-	"bh_dev_h_L1"
+	"bh_dev_v_L1"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"bh_dev"
@@ -1979,7 +2002,7 @@
 		"fillcolor"					"150 150 150 120"
 	}
 	
-	"bh_dev_h_L2"
+	"bh_dev_v_L2"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"bh_dev"
@@ -1993,7 +2016,7 @@
 		"fillcolor"					"150 150 150 120"
 	}
 	
-	"bh_dev_h_R1"
+	"bh_dev_v_R1"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"bh_dev"
@@ -2007,7 +2030,7 @@
 		"fillcolor"					"150 150 150 120"
 	}
 	
-	"bh_dev_h_R2"
+	"bh_dev_v_R2"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"bh_dev"
@@ -2023,7 +2046,7 @@
 	
 	/////////////////////////////////////////////////////////////////////////////	
 	
-	"bh_dev_v_center"
+	"bh_dev_h_center"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"bh_dev"
@@ -2037,7 +2060,7 @@
 		"fillcolor"					"150 150 150 120"
 	}
 	
-	"bh_dev_v_U1"
+	"bh_dev_h_U1"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"bh_dev"
@@ -2051,7 +2074,7 @@
 		"fillcolor"					"150 150 150 120"
 	}
 	
-	"bh_dev_v_D1"
+	"bh_dev_h_D1"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"bh_dev"

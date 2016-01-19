@@ -2,7 +2,7 @@ Scheme
 {
 	Colors
 	{
-		
+
 	/////////////////////////////////////////////////////////////////////////////
 	// BUDHUD COLORS
 	// Change colors using RGBA values to customize your hud
@@ -11,68 +11,76 @@ Scheme
 	// the fourth number in an RGBA value controls opacity; set to 255 to make it
 	// fully visible, 0 to hide it entirely.
 	/////////////////////////////////////////////////////////////////////////////	
+	// ============================ MAC / OTHER USERS ===========================
+	// Ensure that your text editor doesn't turn quotation marks (") into other
+	// variations such as a left double quotation mark (“).
+	/////////////////////////////////////////////////////////////////////////////
 	
 		// Health
-			"bh_Health"				"255 255 255 255"
-			"bh_HealthLow"			"215 000 000 255"
-			"bh_HealthBuff"			"000 153 255 255"
-			"bh_HealthPickup"		"240 134 049 255"
+			"bh_Health"							"255 255 255 255"
+			"bh_HealthLow"						"215 000 000 255"
+			"bh_HealthBuff"						"000 153 255 255"
+			"bh_HealthPickup"					"240 134 049 255"
 		
 		// Ammo
-			"bh_AmmoInClip"			"255 255 255 255"
-			"bh_AmmoReserve"		"255 255 255 255"
-			"bh_LowAmmoPulse"		"150 150 150 255" 	// Ammo color when ammo is low
+			"bh_AmmoInClip"						"255 255 255 255"
+			"bh_AmmoReserve"					"255 255 255 255"
+			"bh_LowAmmoPulse"					"150 150 150 255" 	// Ammo color when ammo is low
 		
 		// Damage Done & Heals Given
-			"bh_DamageColor"		"255 255 255 255" 	// Damage done that appears above player
-			"bh_hudDMGDisplay"		"243 157 048 255" 	// Damage done that appears below ammo
-			"bh_HealColor"			"000 153 255 255" 	// Medigun/arrow heals
-			
+			"bh_DamageColor"					"255 255 255 255" 	// Damage done that appears above player
+			"bh_hudDMGDisplay"					"243 157 048 255" 	// Damage done that appears below ammo
+			"bh_HealColor"						"000 153 255 255" 	// Medigun/arrow heals
+
 		// Full Uber Flash
-			"bh_chargecolor1"		"243 157 48 255"	// When full, uber will change between these two values
-			"bh_chargecolor2"		"204 093 027 255"
-			"bh_chargemeter"		"255 255 255 255"	// Default uber chargemeter fill color
+			"bh_chargecolor1"					"243 157 048 255"	// When full, uber will change between these two values
+			"bh_chargecolor2"					"204 093 027 255"
+			"bh_chargemeter"					"255 255 255 255"	// Uber chargemeter fill color
+			"bh_chargemeterBG"					"150 150 150 255"	// Uber chargemeter background
 		
 		// whayay's Crosshairs
-			"ya_crosshair"			"255 255 255 255" 	// Crosshair color
-			"ya_xhairflash"			"240 134 049 255"	// Flash on damage done
+			"ya_crosshair"						"255 255 255 255" 	// Crosshair color
+			"ya_xhairflash"						"240 134 049 255"	// Flash on damage done
 		
 		// Fog's Crosshairs
-			"fog_crosshair"			"255 255 255 255"	// Crosshair color
+			"fog_crosshair"						"255 255 255 255"	// Crosshair color
+			
+		// Knuckle's Crosshairs
+			"knuckles_crosshair"				"255 255 255 255" 	// Crosshair color
 		
 		// statsummary colors
-			"bh_bar1"				"150 150 150 255"
-			"bh_bar2"				"150 150 150 255"
-			"bh_bar3"				"150 150 150 255"
-			"bh_bar4"				"150 150 150 255"
-			"bh_bar5"				"150 150 150 255"
-			"bh_bar6"				"150 150 150 255"
-			"bh_bar7"				"150 150 150 255"
-			"bh_bar8"				"150 150 150 255"
-			"bh_bar9"				"150 150 150 255"
+			"bh_bar1"							"150 150 150 255"
+			"bh_bar2"							"150 150 150 255"
+			"bh_bar3"							"150 150 150 255"
+			"bh_bar4"							"150 150 150 255"
+			"bh_bar5"							"150 150 150 255"
+			"bh_bar6"							"150 150 150 255"
+			"bh_bar7"							"150 150 150 255"
+			"bh_bar8"							"150 150 150 255"
+			"bh_bar9"							"150 150 150 255"
 			
 		// Misc
-			"bh_BGStandard"			"000 000 000 100"
-			"bh_BGDarker"			"000 000 000 240"
-			"bh_BGLighter"			"150 150 150 255"
-			"bh_border_main"		"140 140 140 255"
-			"bh_g_red"				"070 130 180 153"
-			"bh_g_blue"				"205 050 050 153"
+			"bh_BGStandard"						"000 000 000 100"
+			"bh_BGDarker"						"000 000 000 240"
+			"bh_BGLighter"						"150 150 150 255"
+			"bh_border_main"					"140 140 140 255"
+			"bh_g_red"							"070 130 180 153"
+			"bh_g_blue"							"205 050 050 153"
 		
 		// budhud core colors
-			"bh_white"				"255 255 255 255"
-			"bh_black"				"000 000 000 255"
-			"bh_lblue"				"000 153 255 255"
-			"bh_gray"				"150 150 150 255"
-			"bh_lorange"			"243 157 048 255"
-			"bh_dorange"			"204 093 027 255"
-			"bh_deeorange"			"228 144 000 255"
-			"bh_orange"				"240 134 049 255"
-			"bh_green"				"000 215 000 255"
-			"bh_red"				"215 000 000 255"
-			"bh_blue"				"000 153 255 255"
+			"bh_white"							"255 255 255 255"
+			"bh_black"							"000 000 000 255"
+			"bh_lblue"							"000 153 255 255"
+			"bh_dgray"							"100 100 100 255"
+			"bh_gray"							"150 150 150 255"
+			"bh_lorange"						"243 157 048 255"
+			"bh_dorange"						"204 093 027 255"
+			"bh_orange"							"240 134 049 255"
+			"bh_green"							"000 215 000 255"
+			"bh_red"							"215 000 000 255"
+			"bh_blue"							"000 153 255 255"
 			
-		// References (Ignore)
+		// References
 		
 		// BORDERS
 		// ReplayGrayDialogBorder - Contracts, news
@@ -80,99 +88,97 @@ Scheme
 		
 		// One of these 5 controls HudHintDisplay / HudHintKeyDisplay color
 		// (surf timer, etc)
-		// 7/28 - IT USED TO, now it doesn't anymore??
-		"Orange"					"255 255 255 255"
-		"OrangeDim"					"255 255 255 255"
-		"LightOrange"				"255 255 255 255"
-		"GoalOrange"				"255 255 255 255"
-		"TFOrange"					"85 85 85 255"		// Backpack page number BG (selected page color)
-		"QuestGold"					"255 255 255 255"
+		// 7/28/15 - IT USED TO, now it doesn't anymore??
+		"Orange"								"255 255 255 255"
+		"OrangeDim"								"255 255 255 255"
+		"LightOrange"							"255 255 255 255"
+		"GoalOrange"							"255 255 255 255"
+		"TFOrange"								"085 085 085 255"		// Backpack page number BG (selected page color)
+		"QuestGold"								"255 255 255 255"
 		
-		// Added 10/29/15 
+		// Added 10/29/15 Halloween Update 
 		
-		"HalloweenThemeColor2015_Light"		"238 126 17 255"
-		"HalloweenThemeColor2015"			"135 54 16 255"
-		"HalloweenThemeColor2015_Dark"		"108 49 21 255"
-		"QuestStandardHighlight"			"0 255 0 255"
-		"QuestBonusHighlight"				"150 160 255 255"		
+		"HalloweenThemeColor2015_Light"			"238 126 017 255"
+		"HalloweenThemeColor2015"				"135 054 016 255"
+		"HalloweenThemeColor2015_Dark"			"108 049 021 255"
+		"QuestStandardHighlight"				"000 255 000 255"
+		"QuestBonusHighlight"					"150 160 255 255"		
 		
-		"White"						"255 255 255 255"
-		"Red"						"192 28 0 140"
-		"RedSolid"					"192 28 0 255"
-		"Blue"						"0 28 162 140"
+		"White"									"255 255 255 255"
+		"Red"									"192 028 000 140"
+		"RedSolid"								"192 028 000 255"
+		"Blue"									"000 028 162 140"
 		
 		// Poopy beige-colored yellow changed to white
-		// Unsure where this is used
-		// Findall "Yellow" and "TransparentYellow" through all files if you care ¯\_(ツ)_/¯
-		"Yellow"					"255 255 255 255"	// Default: 251 235 202 255
-		"TransparentYellow"			"255 255 255 140"	// Default: 251 235 202 140
+		"Yellow"								"255 255 255 255"	// Default: 251 235 202 255
+		"TransparentYellow"						"255 255 255 140"	// Default: 251 235 202 140
 		
-		//"Black"					"0 0 0 255"
+		//"Black"								"0 0 0 255"
 		//Changed black to a NTSC safe color
-		"GreenSolid"		 		"76 107 34 255"		// Default: 76 107 34 255
+		"GreenSolid"		 					"76 107 34 255"		// Default: 76 107 34 255
 		
-		"Black"						"46 43 42 255"
-		"TransparentBlack"			"0 0 0 196"
-		"TransparentLightBlack"		"0 0 0 90"
-		"FooterBGBlack"				"52 48 55 255"
+		"Black"									"46 43 42 255"
+		"TransparentBlack"						"0 0 0 196"
+		"TransparentLightBlack"					"0 0 0 90"
+		"FooterBGBlack"							"52 48 55 255"
 		
-		"HUDBlueTeam"				"104 124 155 127"
-		"HUDRedTeam"				"180 92 77 127"
-		"HUDSpectator"				"124 124 124 127"
-		"HUDBlueTeamSolid"			"104 124 155 255"
-		"HUDRedTeamSolid"			"180 92 77 255"
-		"HUDDeathWarning"			"255 0 0 255"
-		"HudWhite"					"255 255 255 255"
-		"HudOffWhite"				"255 255 255 255"
-		"HudBlack"					"65 65 65 255"
-		"ProgressBarBlue"			"91 122 142 255"
+		"HUDBlueTeam"							"104 124 155 127"
+		"HUDRedTeam"							"180 92 77 127"
+		"HUDSpectator"							"124 124 124 127"
+		"HUDBlueTeamSolid"						"104 124 155 255"
+		"HUDRedTeamSolid"						"180 92 77 255"
+		"HUDDeathWarning"						"255 0 0 255"
+		"HudWhite"								"255 255 255 255"
+		"HudOffWhite"							"255 255 255 255"
+		"HudBlack"								"65 65 65 255"
+		"ProgressBarBlue"						"91 122 142 255"
 		
-		"CreditsGreen"				"94 150 49 255"		
+		"CreditsGreen"							"94 150 49 255"		
 		
-		"Gray"						"178 178 178 255"
+		"Gray"									"178 178 178 255"
 
-		"Blank"						"0 0 0 0"
-		"ForTesting"				"255 0 0 32"
-		"ForTesting_Magenta"		"255 0 255 255"
-		"ForTesting_MagentaDim"		"255 0 255 120"
+		"Blank"									"0 0 0 0"
+		"ForTesting"							"255 0 0 32"
+		"ForTesting_Magenta"					"255 0 255 255"
+		"ForTesting_MagentaDim"					"255 0 255 120"
 
-		"HudPanelForeground"		"123 110 59 184"
-		"HudPanelBackground"		"123 110 59 184"
-		"HudPanelBorder"			"255 255 255 102"
+		"HudPanelForeground"					"123 110 59 184"
+		"HudPanelBackground"					"123 110 59 184"
+		"HudPanelBorder"						"255 255 255 102"
 
-		"HudProgressBarActive"		"240 207 78 255"
-		"HudProgressBarInActive"	"140 120 73 255"
-		"HudProgressBarActiveLow"	"240 30 30 255"
-		"HudProgressBarInActiveLow"	"240 30 30 99"	
+		"HudProgressBarActive"					"240 207 78 255"
+		"HudProgressBarInActive"				"140 120 73 255"
+		"HudProgressBarActiveLow"				"240 30 30 255"
+		"HudProgressBarInActiveLow"				"240 30 30 99"	
 
-		"HudTimerProgressActive"	"255 255 255 255"		// Default: 251 235 202 255
-		"HudTimerProgressInActive"	"52 48 45 255"
-		"HudTimerProgressWarning"	"240 30 30 255"
+		"HudTimerProgressActive"				"255 255 255 255"		// Default: 251 235 202 255
+		"HudTimerProgressInActive"				"52 48 45 255"
+		"HudTimerProgressWarning"				"240 30 30 255"
 
 		// training
-		"HudTrainingHint"			"255 255 255 255"
+		"HudTrainingHint"						"255 255 255 255"
 		
-		"TanDark"					"150 150 150 255"
-		"TanDarker"					"150 150 150 255"
+		"TanDark"								"150 150 150 255"
+		"TanDarker"								"150 150 150 255"
 		
-		"StoreDarkTan"				"255 255 255 255"		// Default: 131 121 104 255
-		"StoreGreen"				"76 107 34 255"
+		"StoreDarkTan"							"255 255 255 255"		// Default: 131 121 104 255
+		"StoreGreen"							"76 107 34 255"
 		
 		// Engineer HUD Specific
-		"LowHealthRed"				"255 0 0 255"
-		"ProgressOffWhite"			"255 255 255 255"
-		"ProgressBackground"		"150 150 150 255"
-		"HealthBgGrey"				"72 71 69 255"
+		"LowHealthRed"							"255 0 0 255"
+		"ProgressOffWhite"						"255 255 255 255"
+		"ProgressBackground"					"150 150 150 255"
+		"HealthBgGrey"							"72 71 69 255"
 		
-		"ProgressOffWhiteTransparent"	"255 255 255 255"	// Default: 251 235 202 128
+		"ProgressOffWhiteTransparent"			"255 255 255 255"	// Default: 251 235 202 128
 		
-		"LabelDark"					"48 43 42 255"
-		"LabelTransparent"			"109 96 80 180"
+		"LabelDark"								"48 43 42 255"
+		"LabelTransparent"						"109 96 80 180"
 		
-		"BuildMenuActive"			"255 255 255 255"		// Default: 248 231 198 255 (poopy yellow)
+		"BuildMenuActive"						"255 255 255 255"		// Default: 248 231 198 255 (poopy yellow)
 		
-		"DisguiseMenuIconRed"		"192 56 63 255"
-		"DisguiseMenuIconBlue"		"92 128 166 255"
+		"DisguiseMenuIconRed"					"192 56 63 255"
+		"DisguiseMenuIconBlue"					"92 128 166 255"
 
  		"MatchmakingDialogTitleColor"			"240 134 49 255"		// bh_orange
  		"MatchmakingMenuItemBackground"			"46 43 42 255"
@@ -3456,6 +3462,912 @@ Scheme
                 "outline"    	"1"
             }
         }
+		
+		//////////////////// HUD CROSSHAIRS (Knuckles) /////////////////////////
+		
+		"size:10,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"10"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:11,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"11"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:12,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"12"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:13,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"13"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:14,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"14"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:15,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"15"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:16,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"16"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:17,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"17"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:18,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"18"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:19,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"19"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:20,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"20"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:21,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"21"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:22,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"22"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:23,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"23"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:24,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"24"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:25,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"25"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:26,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"26"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:27,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"26"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:28,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"28"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:29,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"29"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:30,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"30"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:31,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"31"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:32,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"32"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:33,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"33"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:34,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"34"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:35,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"35"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:36,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"36"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:37,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"37"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:38,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"38"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:39,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"39"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:40,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"40"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:41,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"41"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:42,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"42"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:43,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"43"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:44,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"44"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:45,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"45"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:46,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"46"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:47,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"47"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:48,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"48"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:49,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"49"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:50,outline:off"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"50"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
+		"size:10,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"10"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:11,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"11"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:12,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"12"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:13,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"13"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:14,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"14"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:15,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"15"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:16,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"16"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:17,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"17"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:18,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"18"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:19,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"19"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:20,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"20"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:21,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"21"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:22,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"22"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:23,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"23"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:24,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"24"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:25,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"25"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:26,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"26"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:27,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"26"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:28,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"28"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:29,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"29"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:30,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"30"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:31,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"31"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:32,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"32"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:33,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"33"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:34,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"34"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:35,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"35"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:36,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"36"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:37,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"37"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:38,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"38"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:39,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"39"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:40,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"40"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:41,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"41"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:42,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"42"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:43,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"43"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:44,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"44"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:45,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"45"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:46,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"46"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:47,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"47"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:48,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"48"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:49,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"49"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		"size:50,outline:on"
+		{
+			"1"
+			{
+				"name"			"KnucklesCrosses"
+				"tall"			"50"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
+			}
+		}
+		
 	}
 	
 	//
@@ -3475,11 +4387,13 @@ Scheme
 					"color" "bh_border_main"
 					"offset" "0 1"
 				}
+
 				"2"
 				{
 					"color" "bh_border_main"
 					"offset" "0 1"
 				}
+
 				"3"
 				{
 					"color" "bh_border_main"
@@ -3494,18 +4408,20 @@ Scheme
 					"color" "bh_border_main"
 					"offset" "0 1"
 				}
+
 				"2"
 				{
 					"color" "bh_border_main"
 					"offset" "0 1"
 				}
+
 				"3"
 				{
 					"color" "bh_border_main"
 					"offset" "0 1"
 				}
 			}
-
+			
 			Top
 			{
 				"1"
@@ -3513,11 +4429,13 @@ Scheme
 					"color" "bh_border_main"
 					"offset" "0 1"
 				}
+
 				"2"
 				{
 					"color" "bh_border_main"
 					"offset" "0 1"
 				}
+
 				"3"
 				{
 					"color" "bh_border_main"
@@ -3532,18 +4450,88 @@ Scheme
 					"color" "bh_border_main"
 					"offset" "0 1"
 				}
+
 				"2"
 				{
 					"color" "bh_border_main"
 					"offset" "0 1"
 				}
+
 				"3"
 				{
 					"color" "bh_border_main"
 					"offset" "0 1"
 				}
 			}
+			
 		}		
+		
+		bh_b_loadoutstats
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "bh_white"
+					"offset" "0 1"
+				}
+
+				"2"
+				{
+					"color" "bh_white"
+					"offset" "0 1"
+				}
+
+				"3"
+				{
+					"color" "bh_white"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "bh_white"
+					"offset" "0 1"
+				}
+
+				"2"
+				{
+					"color" "bh_white"
+					"offset" "0 1"
+				}
+
+				"3"
+				{
+					"color" "bh_white"
+					"offset" "0 1"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "bh_white"
+					"offset" "0 1"
+				}
+
+				"2"
+				{
+					"color" "bh_white"
+					"offset" "0 1"
+				}
+
+				"3"
+				{
+					"color" "bh_white"
+					"offset" "0 1"
+				}
+			}
+		}	
 		
 		NoBorder
 		{
@@ -5891,7 +6879,7 @@ Scheme
 	
 	//////////////////////// BUDHUD FONT ENTRIES ////////////////////////
 		
-		"8" //budhud font
+		"8" //budhud Font
 		{
 			"font"	"resource/fonts/Lato-Semibold.ttf"
 			"name"	"Lato Semibold"
@@ -5911,12 +6899,17 @@ Scheme
 			"font" "resource/fonts/Garm3nFont.ttf"
 			"name" "Garm3nFont"
 		}
-		"12" // whayay's crosshairs
+		"12" // whayay's Crosshairs
 		{
 			"font"	"resource/fonts/Crosshair.ttf"
 			"name"	"Crosshair"
 		}
-		"13" // Tournament HUD HP block
+		"13" // Knuckle's Crosshairs
+		{
+			"font" "resource/fonts/KnucklesCrosses.ttf"
+			"name" "KnucklesCrosses"
+		}
+		"14" // Tournament HUD HP block
 		{
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"

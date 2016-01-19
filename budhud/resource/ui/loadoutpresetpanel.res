@@ -25,9 +25,6 @@
 			"sound_released"			"UI/buttonclickrelease.wav"
 			"centerwrap"				"1"
 			"paintbackground"			"1"
-			"border_default"			"bh_b_main"
-			"border_armed"				"bh_b_main"
-			"border_depressed"			"bh_b_main"
 		}			
 	}
 }

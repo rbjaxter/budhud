@@ -61,17 +61,20 @@
 	}				
 	"FooterLine"
 	{
-		"ControlName"							"ImagePanel"
+		"ControlName"							"EditablePanel"
 		"fieldName"								"FooterLine"
-		"xpos"									"0" //0
-		"ypos"									"0" //420
-		"zpos"									"2"
+		"xpos"									"0"
+		"ypos"									"420"
+		"zpos"									"5"
 		"wide"									"f0"
-		"tall"									"10"
-		"visible"								"0"
-		"enabled"								"0"
-		"image"									"loadout_solid_line"
-		"scaleImage"						    "1"
+		"tall"									"2"
+		"visible"								"1"
+		"enabled"								"1"
+		"pinCorner"								"0"
+		"autoResize"							"0"
+		"PaintBackgroundType"					"2"
+		"border"								"NoBorder"
+		"bgcolor_override"						"bh_white"
 	}				
 	
 	"Sheet"
@@ -86,17 +89,20 @@
 		
 		"HeaderLine"
 		{
-			"ControlName"						"ImagePanel"
+			"ControlName"						"EditablePanel"
 			"fieldName"							"HeaderLine"
-			"xpos"								"6969" //0
-			"ypos"								"6969" //32
+			"xpos"								"0"
+			"ypos"								"32"
 			"zpos"								"5"
 			"wide"								"f0"
-			"tall"								"10"
-			"visible"							"0"
-			"enabled"							"0"
-			"image"								"loadout_solid_line"
-			"scaleImage"						"1"
+			"tall"								"2"
+			"visible"							"1"
+			"enabled"							"1"
+			"pinCorner"							"0"
+			"autoResize"						"0"
+			"PaintBackgroundType"				"2"
+			"border"							"NoBorder"
+			"bgcolor_override"					"bh_white"
 		}				
 		
 		"tabskv"
@@ -106,10 +112,10 @@
 			"textAlignment"						"center"
 			"selectedcolor"						"bh_white"
 			"unselectedcolor"					"bh_gray"	
-			"defaultBgColor_override"			"46 43 42 255"
-			"paintbackground"					"0"
-			"activeborder_override"				"OutlinedDullGreyBox"
-			"normalborder_override"				"OutlinedDullGreyBox"
+			"defaultBgColor_override"			"35 35 35 255"
+			"paintbackground"					"1"
+			"activeborder_override"				"bh_b_loadoutstats"
+			"normalborder_override"				"bh_b_loadoutstats"
 		}
 	}
 	

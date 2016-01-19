@@ -1,1 +1,0 @@
-Because of all of the changes I'm making to the base files, these files will no longer be updated/current. Use at your own discretion.

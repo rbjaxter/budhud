@@ -11,7 +11,8 @@
 		"tall"			"35"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFThinLineBorder"
+		"bgcolor_override"	"46 43 42 255"
+		"border"		"bh_b_main"
 	}
 
 	"TextLabel"
@@ -19,8 +20,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
 		"fgcolor"		"bh_white"
-		"xpos"			"7"
-		"ypos"			"7"
+		"xpos"			"16"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"116"
 		"tall"			"35"
@@ -30,7 +31,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"#Notifications_Present"
-		"textAlignment"	"north-west"
+		"textAlignment"	"center"
 		"font"			"bh_Lato10"
 	}
 }

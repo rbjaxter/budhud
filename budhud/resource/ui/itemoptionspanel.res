@@ -85,6 +85,10 @@
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 			"Command"					"set_style"
+			"PaintBackground"			"0"
+			
+			"defaultFgColor_override" 	"bh_white"
+			"armedFgColor_override" 	"bh_orange"
 			
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"

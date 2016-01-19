@@ -48,5 +48,6 @@
 		"textAlignment"	"West"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor"		"bh_white"
 	}
 }

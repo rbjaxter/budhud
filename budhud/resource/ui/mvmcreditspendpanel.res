@@ -13,8 +13,7 @@
 		"tall"					"15"
 		"fgcolor"				"bh_white"
 	}
-	
-		
+			
 	"bh_e_background"
 	{
 		"ControlName"			"EditablePanel"

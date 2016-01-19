@@ -1,0 +1,16 @@
+Notes: 
+- Using any voicemenu will restart the counter
+- Respawning will cause the counter to stop
+	* There are no known work arounds for either of these
+- Only shows on medic, with your medigun out
+
+1. Move hudmediccharge.res to \custom\budhud\resource\ui.
+
+2. Set up this script in your autoexec or medic config that will be used to start the tracker:
+alias 	+uber_counter 	"voice_menu_1"
+alias 	-uber_counter 	"voice_menu_1"
+bind 	KEY 			+uber_counter 
+
+Credit:
+BenNZL and others in this thread
+http://teamfortress.tv/thread/17883/uber-tracking-hud-mod/?page=2#52

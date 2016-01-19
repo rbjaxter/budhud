@@ -1,10 +1,12 @@
 1. Navigate to \budhud\_Customization_\Custom Crosshairs to view available crosshairs. 
 	A. For whayay's crosshairs, note the letter below the crosshair you would like to use
-	B. For Fog's crosshairs, note the number or letter underneath the crosshair you would like to use 
+	B. For Fog's crosshairs, note the number or letter below the crosshair you would like to use 
+	C. For Knuckle's crosshairs, note the number or letter above the crosshair you would like to use
 
 2. Navigate to \custom\budhud\scripts\hudlayout.res
-	A. For whayay's crosshairs, find the section titled "Crosshair" and change "labelText" to whatever letter paired with the crosshair you chose
+	A. For whayay's crosshairs, find the section titled "whayay_crosshair" and change "labelText" to whatever letter paired with the crosshair you chose
 	B. For Fog's crosshairs, you'll have to look below the section titled "Fog's Crosshairs" and find the section that has the same labelText as the number or letter of the crosshair you chose
+	C. For Knuckle's crosshairs, find the section titled "knuckles_crosshair" and change "labelText" to whatever letter paired with the crosshair you chose
 
 Credit:
-whayay, fog, garm3n, konr
+whayay, fog, garm3n, konr, Knuckles

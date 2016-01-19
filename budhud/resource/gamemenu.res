@@ -7,16 +7,17 @@
 		"OnlyAtMenu" 	"1"
 		"tooltip"		"Show information about the hud"
 		"command" 		"engine con_enable 1;showconsole;clear;
-		echo ========================================================================;
-		echo BUDHUD, 6/JANUARY/2015 by Whisker Biscuit;
-		echo ========================================================================;
+		echo ==============================================;
+		echo BUDHUD, 18/JANUARY/2016 by Whisker;
+		echo ==============================================;
 		echo Report Issues: github.com/WhiskerBiscuit/budhud/issues;
 		echo HUD GROUP: steamcommunity.com/groups/budhud;
-		echo ========================================================================;
+		echo ==============================================;
 		echo TF2 Charity Fundraiser Site: tipofthehats.org;
-		echo ========================================================================"
+		echo =============================================="
 	}
 
+	/////////////////////////////////////////////////////////////////////////
 	// Add your own favorite servers here.
 	// To do so, you must put a connect string
 	// Example: 
@@ -24,20 +25,21 @@
 	// You can also set these up to create a locally-hosted server
 	// Example:
 	// "command"		"engine map tr_walkway_rc2"
-
+	/////////////////////////////////////////////////////////////////////////
+	
 	"Favorite1"
 	{
 		"label"			""			// Leave blank
-		"command" 		"engine connect IPandPORThere; password passwordhere"
+		"command" 		"engine connect 192.223.26.43:27015"
 		"OnlyAtMenu" 	"0"
-		"tooltip" 		"Server 1"	// Change if you'd like
+		"tooltip" 		"jump.tf | Beginners (East)"	// Change if you'd like
 	}
 	"Favorite2"
 	{
 		"label"			""			// Leave blank
-		"command" 		"engine connect IPandPORThere; password passwordhere"
+		"command" 		"engine connect 216.52.143.183:27015"
 		"OnlyAtMenu" 	"0"
-		"tooltip" 		"Server 2"	// Change if you'd like
+		"tooltip" 		"ReSurfed | Easy Maps"	// Change if you'd like
 	}
 	"Favorite3"
 	{

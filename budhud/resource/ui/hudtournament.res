@@ -916,7 +916,7 @@
 		if_mvm
 		{
 			"xpos"								"c-217"
-			"ypos"								"100"
+			"ypos"								"110"
 		}
 		
 		if_competitive
@@ -954,7 +954,7 @@
 		if_mvm
 		{
 			"xpos"								"c-216"
-			"ypos"								"101"
+			"ypos"								"111"
 		}
 
 		if_competitive

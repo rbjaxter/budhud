@@ -166,15 +166,15 @@
 		"font"					"bh_Lato16"
 		"labelText"				">>"
 		"textAlignment"			"west"
-		"xpos"					"c-300"
+		"xpos"					"6969"		// c-300
 		"ypos"					"20"
 		"zpos"					"1"
 		"wide"					"20"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"fgcolor_override" 		"bh_orange"
 	}
 	"ClassLabel"
@@ -184,7 +184,7 @@
 		"font"					"HudFontMediumSmallBold"
 		"labelText"				"#ClassBeingEquipped"
 		"textAlignment"			"west"
-		"xpos"					"c-280"
+		"xpos"					"6969"		// c-200
 		"ypos"					"15"
 		"zpos"					"1"
 		"wide"					"210"

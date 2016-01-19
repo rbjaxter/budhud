@@ -126,7 +126,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"TargetDataLabel"
-		"font"				"bh_Lato12"
+		"font"				"bh_Lato10"
 		"xpos"				"45"
 		"ypos"				"28"	
 		"zpos"				"6"

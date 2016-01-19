@@ -52,8 +52,8 @@
 		"font"				"bh_Lato16"
 		"labelText"			">>"
 		"textAlignment"		"west"
-		"xpos"				"10"
-		"ypos"				"5"
+		"xpos"				"6969"		// 10
+		"ypos"				"6969"			// 5
 		"zpos"				"1"
 		"wide"				"20"
 		"tall"				"15"
@@ -67,10 +67,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"bh_Lato12"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
-		"xpos"			"30"
+		"xpos"			"6"
 		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"60"

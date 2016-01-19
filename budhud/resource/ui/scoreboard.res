@@ -110,7 +110,7 @@
 		"ypos_minmode"		"60"
 		"zpos_minmode"		"-1"
 		"wide_minmode"		"454"
-		"tall_minmode"		"125"
+		"tall_minmode"		"126"
 		"visible_minmode"	"1"
 		"enabled_minmode"	"1"
 		/////////////////////////

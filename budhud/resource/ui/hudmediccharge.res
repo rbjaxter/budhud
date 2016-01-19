@@ -1,9 +1,16 @@
 "Resource/UI/HudMedicCharge.res"
 {	
-	"ChargeLabelNearCrosshair" // Broken with vaccinator
+	/////////////////////////////////////////////////////////////////////////////
+	// Medic Uber % Below Crosshair
+	// bh_xhairchargelabel
+	// ======================================================================= //
+	// Shows uber percentage below your crosshair (broken with vaccinator)
+	// Set visible/enabled to 1 to enable
+	/////////////////////////////////////////////////////////////////////////////
+	"bh_xhairchargelabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"ChargeLabelNearCrosshair"
+		"fieldName"		"bh_xhairchargelabel"
 		"xpos"			"c-100"
 		"ypos"			"c-35"
 		"zpos"			"2"
@@ -11,16 +18,19 @@
 		"tall"			"100"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"0" // Set to 1 to enable
-		"enabled"		"0" // Set to 1 to enable
+		"visible"		"0" 	// Set to 1 to enable
+		"enabled"		"0" 	// Set to 1 to enable
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"bh_Lato20"
+		"font"			"bh_Lato16"
 		"fgcolor"		"bh_white"
 	}	
+	
+	/////////////////////////////////////////////////////////////////////////////
+	
 	"Background"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -98,7 +108,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"fgcolor_override"	"bh_chargemeter"
-		"bgcolor_override"	"bh_gray"
+		"bgcolor_override"	"bh_chargemeterBG"
 	}	
 	"ChargeMeter1"
 	{	
@@ -106,10 +116,10 @@
 		"fieldName"			"ChargeMeter1"
 		"font"				"Default"
 		"xpos"				"c-50"
-		"ypos"				"c111"
+		"ypos"				"c103"
 		"zpos"				"2"
-		"wide"				"100"
-		"tall"				"3"			
+		"wide"				"48"
+		"tall"				"6"			
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -117,8 +127,8 @@
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"bh_white"
-		"bgcolor_override"	"bh_gray"
+		"fgcolor_override"	"bh_chargemeter"
+		"bgcolor_override"	"bh_chargemeterBG"
 	}
 
 	"ChargeMeter2"
@@ -126,11 +136,11 @@
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter2"
 		"font"				"Default"
-		"xpos"				"c-50"
-		"ypos"				"c114"
+		"xpos"				"c3"
+		"ypos"				"c103"
 		"zpos"				"2"
-		"wide"				"100"
-		"tall"				"3"				
+		"wide"				"48"
+		"tall"				"6"				
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -138,8 +148,8 @@
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"bh_white"
-		"bgcolor_override"	"bh_gray"
+		"fgcolor_override"	"bh_chargemeter"
+		"bgcolor_override"	"bh_chargemeterBG"
 	}
 
 	"ChargeMeter3"
@@ -148,10 +158,10 @@
 		"fieldName"			"ChargeMeter3"
 		"font"				"Default"
 		"xpos"				"c-50"
-		"ypos"				"c117"
+		"ypos"				"c114"
 		"zpos"				"2"
-		"wide"				"100"
-		"tall"				"3"			
+		"wide"				"48"
+		"tall"				"6"			
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -159,8 +169,8 @@
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"bh_white"
-		"bgcolor_override"	"bh_gray"
+		"fgcolor_override"	"bh_chargemeter"
+		"bgcolor_override"	"bh_chargemeterBG"
 	}
 
 	"ChargeMeter4"
@@ -168,11 +178,11 @@
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter4"
 		"font"				"Default"
-		"xpos"				"c-50"
-		"ypos"				"c120"
+		"xpos"				"c3"
+		"ypos"				"c114"
 		"zpos"				"2"
-		"wide"				"100"
-		"tall"				"3"
+		"wide"				"48"
+		"tall"				"6"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -180,8 +190,8 @@
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"bh_white"
-		"bgcolor_override"	"bh_gray"
+		"fgcolor_override"	"bh_chargemeter"
+		"bgcolor_override"	"bh_chargemeterBG"
 	}
 	
 	"HealthClusterIcon"

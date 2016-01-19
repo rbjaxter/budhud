@@ -36,8 +36,8 @@
 		"xpos"					"70"
 		"ypos"					"68"
 		"zpos"					"-6969"
-		"wide"					"60"
-		"tall"					"6"
+		"wide"					"63"
+		"tall"					"4"
 		"autoresize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
@@ -99,6 +99,7 @@
 	// ======================================================================= //
 	// Controls low health/buff over health cross
 	// Set xpos/ypos to 6969 to disable
+	// Set xpos to 88 to position behind player health
 	/////////////////////////////////////////////////////////////////////////////
 	"PlayerStatusHealthBonusImage"
 	{

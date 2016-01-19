@@ -53,12 +53,12 @@
 		"ypos"					"0"
 		"zpos"					"0"
 		"wide"					"100"
-		"tall"					"20"
+		"tall"					"21"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"bh_BGStandard"
+		"border"				"BackpackItemGrayedOut"
 	}
 	
 	"CurrencyLabel"
@@ -78,12 +78,29 @@
 		"labelText"				"Remaining"
 	}
 	
+	"CurrencyLabelShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"CurrencyLabelShadow"
+		"font"					"bh_Lato14"
+		"fgcolor"				"bh_black"
+		"xpos"					"5"
+		"ypos"					"1"
+		"zpos"					"0"
+		"wide"					"80"
+		"tall"					"20"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"west"	
+		"labelText"				"Remaining"
+	}
+	
 	"CurrencyGood"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CurrencyGood"
 		"font"					"bh_Lato14"
-		"fgcolor"				"125 225 30 255"
+		"fgcolor"				"bh_green"
 		"xpos"					"45"
 		"ypos"					"0"
 		"zpos"					"4"
@@ -100,9 +117,26 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"CurrencyBad"
 		"font"					"bh_Lato14"
-		"fgcolor"				"225 30 30 255"
+		"fgcolor"				"bh_red"
 		"xpos"					"45"
 		"ypos"					"0"
+		"zpos"					"4"
+		"wide"					"50"
+		"tall"					"20"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"east"	
+		"labelText"				"%currency%"
+	}
+	
+	"CurrencyBadShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"CurrencyBadShadow"
+		"font"					"bh_Lato14"
+		"fgcolor"				"bh_black"
+		"xpos"					"46"
+		"ypos"					"1"
 		"zpos"					"4"
 		"wide"					"50"
 		"tall"					"20"
