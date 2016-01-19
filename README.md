@@ -3,21 +3,21 @@ A Team Fortress 2 HUD built from the base hud and elements of rays' hud, with Fo
 
 **Note:** If you plan to make changes to the hud, it is best to use Notepad++ (for proper file formatting):
 http://notepad-plus-plus.org/
+For Mac users: http://www.sublimetext.com/2
 
 ####STEAM: http://steamcommunity.com/groups/budhud
+####Screenshots: http://imgur.com/a/pFLrC
 
 Installation
 ============
 ### Download
 To download this hud, click the "Download ZIP" button to the right. Alternatively, click this:
-https://github.com/WhiskerBiscuit/budhud/archive/master.zip
+https://github.com/rbjaxter/budhud/archive/master.zip
 
 ### Installing
-After extracting the hud, navigate to: `\Steam\steamapps\common\team fortress 2\tf\custom\` and move the "budhud" folder into your custom folder (NOT "budhud-master").
+After extracting the hud, navigate to: `\Steam\steamapps\common\team fortress 2\tf\custom\` and move the "budhud" folder into your custom folder (NOT the entirety "budhud-master"). If you do not have a custom folder, create it.
 
 Your directory should then look like this: `\Steam\steamapps\common\team fortress 2\tf\custom\budhud` and contain `materials`, `resource`, and `scripts`. The `_Customization_` folder can be deleted or stored somewhere else if you intend to use files from it.
-
-Please note that I use a developmental branch for revision history, but that it is not considered release candidate.
 
 Customization
 =============
@@ -37,7 +37,9 @@ To modify the damage color for whayay's crosshair, navigate to `\budhud\resource
 Fog's crosshairs can be seen in `budhud\_Customization_\Fog's crosshairs.png`. Note the number or letter underneath the crosshair you want to use. Then, go to your hudlayout.res and search under the "Fog's Crosshairs" header for the appropriate crosshair entry. I don't want to complicate this too much, but if you're having a hard time finding the correct crosshair, the "labelText" value in every section of code pairs with the same value assigned to the crosshairs in the picture included. The scattergun spread, for instance, is assigned a 0, and its section of code (ScatterSpread) has a labelText value of 0.
 
 ### Medic Uber Percentage Near Crosshair
-To enable uber percentage showing below your crosshair, navigate to `\budhud\resource\ui\hudmediccharge.res` and set `visible` and `enabled` for `ChargeLabelNearCrosshair` to 1.
+To enable uber percentage showing below your crosshair, navigate to `\budhud\resource\ui\hudmediccharge.res` and find the section titled "Medic Uber % Below Crosshair".
 
-### Disabling the Health Cross
-If you'd like to disable the health cross, navigate to `\budhud\resource\ui\hudplayerhealth.res` and set `visible` and `enabled` for `PlayerStatusHealthBonusImage`, `PlayerStatusHealthImage`, and `PlayerStatusHealthImageBG` to 0.
+### Disabling the Health Cross and Moving the Buff Health
+If you'd like to disable the health cross, navigate to `\budhud\resource\ui\hudplayerhealth.res` and find the section titled "Health Cross". 
+
+If you'd like to disable the health buff, navigate to `\budhud\resource\ui\hudplayerhealth.res` and find the section titled "Health Cross Buff".
