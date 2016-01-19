@@ -39,6 +39,9 @@ Fog's crosshairs can be seen in `budhud\_Customization_\Fog's crosshairs.png`. N
 ### Medic Uber Percentage Near Crosshair
 To enable uber percentage showing below your crosshair, navigate to `\budhud\resource\ui\hudmediccharge.res` and find the section titled "Medic Uber % Below Crosshair".
 
+### Medic Rainbow Ubercharge
+To enable the rianbow uber charge for medic, navigate to `\budhud\scripts\hudanimations_tf.txt` and find the section titled "Medic Rainbow Uber Flash".
+
 ### Disabling the Health Cross and Moving the Buff Health
 If you'd like to disable the health cross, navigate to `\budhud\resource\ui\hudplayerhealth.res` and find the section titled "Health Cross". 
 
