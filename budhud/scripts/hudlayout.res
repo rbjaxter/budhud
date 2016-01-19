@@ -40,8 +40,8 @@
 		"zpos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
-
-
+		"visible"			"0"
+		"enabled"			"0"
         
 		"labeltext"			"f"           						// Change this to use a different crosshair
         
