@@ -339,23 +339,23 @@
 	}
 	"ReinforcementsLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"	[$WIN32]
-		"ypos"			"50"	[$WIN32]
-		"wide"			"600"	[$WIN32]
-		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"		"center"
-		"font"			"bh_Lato24"
+		"ControlName"			"CExLabel"
+		"fieldName"				"ReinforcementsLabel"
+		"xpos"					"c-300"	[$WIN32]
+		"ypos"					"50"	[$WIN32]
+		"wide"					"600"	[$WIN32]
+		"tall"					"24"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"#game_respawntime_in_secs"
+		"textAlignment"			"center"
+		"font"					"bh_Lato24"
 		
 		if_mvm
 		{
-		"ypos"			"68"	[$WIN32]
+			"ypos"			"85"
 		}
 		
 	}
