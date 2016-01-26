@@ -115,6 +115,7 @@ Scheme
 		// Poopy beige-colored yellow changed to white
 		"Yellow"								"255 255 255 255"	// Default: 251 235 202 255
 		"TransparentYellow"						"255 255 255 140"	// Default: 251 235 202 140
+		"BrightYellow"							"251 255 255 255"	// Default: 251 231 000 255
 		
 		//"Black"								"0 0 0 255"
 		//Changed black to a NTSC safe color
@@ -730,7 +731,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"			"Trebuchet MS" [!$OSX]
+				"name"			"Lato Semibold" [!$OSX]
 				"name"			"Helvetica" [$OSX]
 				"tall"			"18"
 				"weight"		"900"
@@ -1132,136 +1133,136 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Lato Semibold"
+				"tall"			"11"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		GameUIButtons
 		{
 			"1"	//[$X360]
 			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
-				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
+				"bitmap"		"1"
+				"name"			"Buttons"
+				"scalex"		"0.5"
+				"scalex_lodef"	"0.75"
+				"scaley"		"0.5"
+				"scaley_lodef"	"0.75"
 			}
 		}
 		GameUIButtonsSmall
 		{
 			"1"	[$X360]
 			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.5"
-				"scaley"	"0.5"
+				"bitmap"		"1"
+				"name"			"Buttons"
+				"scalex"		"0.5"
+				"scaley"		"0.5"
 			}
 		}
 		GameUIButtonsSmallest
 		{
 			"1"	[$X360]
 			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.4"
-				"scaley"	"0.4"
+				"bitmap"		"1"
+				"name"			"Buttons"
+				"scalex"		"0.4"
+				"scaley"		"0.4"
 			}
 		}
 		GameUIButtonsSteamController
 		{
 			"1"
 			{
-				"bitmap"	"1"
-				"name"		"ButtonsSC"
-				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
-				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
+				"bitmap"		"1"
+				"name"			"ButtonsSC"
+				"scalex"		"0.5"
+				"scalex_lodef"	"0.75"
+				"scaley"		"0.5"
+				"scaley_lodef"	"0.75"
 			}
 		}
 		GameUIButtonsSteamControllerSmall
 		{
 			"1"
 			{
-				"bitmap"	"1"
-				"name"		"ButtonsSC"
-				"scalex"	"0.25"
-				"scaley"	"0.25"
+				"bitmap"		"1"
+				"name"			"ButtonsSC"
+				"scalex"		"0.25"
+				"scaley"		"0.25"
 			}
 		}
 		GameUIButtonsSteamControllerSmallest
 		{
 			"1"
 			{
-				"bitmap"	"1"
-				"name"		"ButtonsSC"
-				"scalex"	"0.15"
-				"scaley"	"0.15"
+				"bitmap"		"1"
+				"name"			"ButtonsSC"
+				"scalex"		"0.15"
+				"scaley"		"0.15"
 			}
 		}
 		"GameUIButtonText"
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"18"
+				"name"			"Lato Semibold"
+				"tall"			"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"HudClassHealth"
 		{
 			"1"
 			{
-				"name"		"TF2"
-				"tall"		"16"
+				"name"			"Lato Semibold"
+				"tall"			"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"SpectatorKeyHints"
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Lato Semibold"
+				"tall"			"8"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"ClockSubText"
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"9"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"Lato Semibold"
+				"tall"			"9"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"ClockSubTextSuddenDeath"
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"			"Lato Semibold"
+				"tall"			"8"
 				"tall_hidef"	"9"
 				"tall_lodef"	"10"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias"		"1"
 			}
 		}
 		"ClockSubTextTiny"
@@ -1643,6 +1644,30 @@ Scheme
 				"additive"		"0"
 			}
 		}
+		"ScoreboardTeamCountNew"
+		{
+			"1"
+			{
+				"name"			"Lato Semibold"
+				"tall"			"14"
+				"weight"		"500"
+				"range"			"0x0000 0x007F"	//	Basic Latin
+				"antialias" 	"1"
+				"additive"		"0"
+			}
+		}
+		"ScoreboardTeamNameNew"
+		{
+			"1"
+			{
+				"name"			"Lato Semibold"
+				"tall"			"24"
+				"weight"		"500"
+				"range"			"0x0000 0x007F"	//	Basic Latin
+				"antialias" 	"1"
+				"additive"		"0"
+			}
+		}
 		"ScoreboardTeamNameLarge"
 		{
 			"1"
@@ -1658,6 +1683,18 @@ Scheme
 			}
 		}
 
+		"ScoreboardTeamScoreNew"
+ 		{
+			"1"
+			{
+				"name"			"Lato Semibold"
+				"tall"			"36"
+				"tall_hidef"	"48"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
 		"ScoreboardTeamScore"
 		{
 			"1"
@@ -2001,7 +2038,7 @@ Scheme
 		{
 			"1" // brower item hostname
 			{
-				"name"			"Trebuchet MS"
+				"name"			"Lato Semibold"
 				"tall"			"22"
 				"weight"		"900"
 			}
@@ -2010,7 +2047,7 @@ Scheme
 		{
 			"1" // browser item players and map name
 			{
-				"name"			"Trebuchet MS"
+				"name"			"Lato Semibold"
 				"tall"			"18"
 				"weight"		"900"
 			}
@@ -2100,7 +2137,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS"
+				"name"			"Lato Semibold"
 				"tall"			"14"
 				"weight"		"900"
 				"antialias" 	"1"
@@ -2548,7 +2585,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Lato Semibold"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2560,7 +2597,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Lato Semibold"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2618,7 +2655,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Lato Semibold"
 				"tall"		"9"
 				"weight"	"400"
 				"antialias" "1"

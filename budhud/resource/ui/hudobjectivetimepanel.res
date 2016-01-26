@@ -80,7 +80,7 @@
 		"tall"				"19"
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"== OVERTIME =="
+		"labelText"			"Overtime"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
