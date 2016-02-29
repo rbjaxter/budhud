@@ -12,14 +12,14 @@
 		
 		"NemesisSubPanel"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"NemesisSubPanel"
-			"xpos"			"c46"
-			"ypos"			"223"
-			"zpos"			"4"
-			"wide"			"166"
-			"tall"			"38"
-			"visible"		"1"
+			"ControlName"			"EditablePanel"
+			"fieldName"				"NemesisSubPanel"
+			"xpos"					"c46"
+			"ypos"					"223"
+			"zpos"					"4"
+			"wide"					"166"
+			"tall"					"38"
+			"visible"				"1"
 
 			"NemesisPanelBG"
 			{
@@ -122,27 +122,6 @@
 			"labelText"			"%killername%"
 			"textAlignment"		"Left"
 		}
-
-		"FreezePanelHealth"
-		{
-			"ControlName"				"EditablePanel"
-			"fieldName"					"FreezePanelHealth"
-			"xpos"						"c-30"
-			"xpos_hidef"				"c35"
-			"ypos"						"253"
-			"ypos_hidef"				"253"
-			"ypos_lodef"				"223"
-			"zpos"						"1"
-			"wide"						"31"
-			"tall"						"31"
-			"visible"					"1"
-			"enabled"					"1"	
-			"HealthBonusPosAdj"			"9"
-			"HealthDeathWarning"		"0.49"
-			"TFFont"					"HudFontSmall"
-			"HealthDeathWarningColor"	"HUDDeathWarning"
-			"TextColor"					"HudOffWhite"
-		}	
 	}
 
 	
@@ -308,10 +287,10 @@
 			"ControlName"				"CTFFreezePanelHealth"
 			"fieldName"					"FreezePanelHealth"
 			"xpos"						"-1"
-			"ypos"						"8"
+			"ypos"						"16"
 			"zpos"						"1"
-			"wide"						"30"
-			"tall"						"30"
+			"wide"						"40"
+			"tall"						"40"
 			"visible"					"1"
 			"enabled"					"1"	
 			"HealthBonusPosAdj"			"9"
@@ -361,13 +340,13 @@
 		{
 			"ControlName"				"CAvatarImagePanel"
 			"fieldName"					"AvatarImage"
-			"xpos"						"8"
-			"ypos"						"31"
+			"xpos"						"6969"	// 15
+			"ypos"						"6969"	// 31
 			"zpos"						"0"
 			"wide"						"14"
 			"tall"						"14"
-			"visible"					"1"
-			"enabled"					"1"
+			"visible"					"0"
+			"enabled"					"0"
 			"image"						""
 			"scaleImage"				"1"	
 			"color_outline"				"bh_white"

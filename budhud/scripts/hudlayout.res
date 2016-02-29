@@ -683,15 +683,15 @@
 		"red_active_xpos"			"115"
 	}			
 
-	HudItemEffectMeter		
-	{		
+	HudItemEffectMeter
+	{
 		"fieldName"					"HudItemEffectMeter"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-51"
-		"ypos"						"c68"	// Just below TargetID when being healed
-		"wide"						"200"
-		"tall"						"200"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"f0"
+		"tall"						"f0"
 		"MeterFG"					"White"
 		"MeterBG"					"Gray"
 	}		
@@ -703,8 +703,8 @@
 		"enabled" 					"1"
 		"xpos"						"0"
 		"ypos"						"0"
-		"wide"						"1910"
-		"tall"						"1070"
+		"wide"						"f0"		// 1910
+		"tall"						"f0"		// 1070
 	}			
 
 	HudDemomanCharge			
@@ -712,10 +712,10 @@
 		"fieldName"					"HudDemomanCharge"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-51"
-		"ypos"						"c79"	// Just below TargetID when being healed
-		"wide"						"200"
-		"tall"						"200"
+		"xpos"						"0"			// c-51
+		"ypos"						"0"			// c79
+		"wide"						"f0"
+		"tall"						"f0"
 		"MeterFG"					"White"
 		"MeterBG"					"Gray"
 	}				
@@ -760,9 +760,9 @@
 		"enabled"					"1"
 		"xpos"						"c-100"
 		"ypos"						"42"
-		"zpos"						"0"			// draw in front of ammo
-		"wide"						"200"
-		"tall"						"50"
+		"zpos"						"0"
+		"wide"						"f0"
+		"tall"						"f0"
 		"MeterFG"					"Red"
 		"MeterBG"					"Gray"
 	}		
@@ -838,7 +838,7 @@
 		"xpos"						"2"
 		"ypos"						"10"
 		"wide"						"f0"
-		"tall"						"480"
+		"tall"						"f0"
 		"visible" 					"1"
 		"enabled" 					"1"
 		"PaintBackgroundType"		"2"
@@ -1609,10 +1609,10 @@
 		"fieldName"					"HudDemomanPipes"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-56"
-		"ypos"						"c105"
-		"wide"						"200"
-		"tall"						"100"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"f0"
+		"tall"						"f0"
 	}	
 
 	HudTeamGoal
@@ -1977,6 +1977,19 @@
 		"wide"						"f0"
 		"tall"						"480"
 	}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// General HUD Reference Information
+	// Borders
+	//	ReplayGrayDialogBorder 	- Contracts, news
+	//	BackpackItemGrayedOut 	- Scoreboard
+	//	bh_b_main 				- Basic gray outline border
+	//	bh_b_loadoutstats		- Same as bh_b_main except bottom line is removed 
+	//
+	//
+	//
+	//
+	////////////////////////////////////////////////////////////////////////////////////////////////////	
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// ** DEV USE ONLY **

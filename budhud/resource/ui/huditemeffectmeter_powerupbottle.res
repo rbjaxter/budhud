@@ -7,8 +7,8 @@
 		"enabled"				"1"
 		"xpos"					"r120"
 		"ypos"					"c195"
-		"wide"					"100"
-		"tall"					"250"
+		"wide"					"f0"
+		"tall"					"f0"
 		"MeterFG"				"bh_white"
 		"MeterBG"				"bh_gray"
 	}

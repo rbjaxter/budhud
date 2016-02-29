@@ -139,12 +139,12 @@
 		"textAlignment"		"west"
 		"xpos"				"10"
 		"ypos"				"19"
-		"wide"				"140"
+		"wide"				"250"
 		"tall"				"34"
 		/////////////////////////
 		"xpos_minmode"		"83"
 		"ypos_minmode"		"19"
-		"wide_minmode"		"140"
+		"wide_minmode"		"250"
 		"tall_minmode"		"34"
 		/////////////////////////
 		"autoResize"		"0"
@@ -239,14 +239,14 @@
 		"fgcolor_override"	"bh_white"
 		"labelText"			"%redteamname%"
 		"textAlignment"		"east"
-		"xpos"				"450"
+		"xpos"				"340"
 		"ypos"				"19"
-		"wide"				"140"
+		"wide"				"250"
 		"tall"				"34"
 		/////////////////////////
-		"xpos_minmode"		"377"
+		"xpos_minmode"		"267"
 		"ypos_minmode"		"19"
-		"wide_minmode"		"140"
+		"wide_minmode"		"250"
 		"tall_minmode"		"34"
 		/////////////////////////
 		"autoResize"		"0"

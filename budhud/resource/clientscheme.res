@@ -82,12 +82,6 @@ Scheme
 			"bh_green"							"000 215 000 255"
 			"bh_red"							"215 000 000 255"
 			"bh_blue"							"000 153 255 255"
-			
-		// References
-		
-		// BORDERS
-		// ReplayGrayDialogBorder - Contracts, news
-		// BackpackItemGrayedOut - Scoreboard
 		
 		// One of these 5 controls HudHintDisplay / HudHintKeyDisplay color
 		// (surf timer, etc)

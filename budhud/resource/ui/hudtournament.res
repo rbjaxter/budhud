@@ -915,20 +915,20 @@
 	
 		if_mvm
 		{
-			"xpos"								"204"
-			"ypos"								"110"
+			"xpos"								"c-217"
+			"ypos"								"105"
 		}
 		
 		if_competitive
 		{
 			"xpos"								"c-217"
-			"ypos"								"100"
+			"ypos"								"105"
 		}
 
 		if_readymode
 		{
 			"xpos"								"c-217"
-			"ypos"								"100"
+			"ypos"								"105"
 		}
 	}
 	
@@ -953,20 +953,20 @@
 
 		if_mvm
 		{
-			"xpos"								"205"
-			"ypos"								"111"
+			"xpos"								"c-216"
+			"ypos"								"106"
 		}
 
 		if_competitive
 		{
 			"xpos"								"c-216"
-			"ypos"								"101"
+			"ypos"								"106"
 		}
 
 		if_readymode
 		{
 			"xpos"								"c-216"
-			"ypos"								"101"
+			"ypos"								"106"
 		}
 	}
 	"BGtournamentBlue"

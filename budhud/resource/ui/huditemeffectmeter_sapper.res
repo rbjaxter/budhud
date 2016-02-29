@@ -7,8 +7,8 @@
 		"enabled"				"1"
 		"xpos"					"c-100"
 		"ypos"					"c44"
-		"wide"					"200"
-		"tall"					"150"
+		"wide"					"f0"
+		"tall"					"f0"
 		"MeterFG"				"bh_white"
 		"MeterBG"				"bh_gray"
 	}
@@ -51,7 +51,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"bh_Lato9"
-		"fgcolor_override"		"bh_orange"
+		"fgcolor_override"		"bh_gray"
 	}
 
 	"ItemEffectMeter"

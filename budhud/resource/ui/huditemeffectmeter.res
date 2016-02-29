@@ -1,3 +1,14 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Affected Weapons
+	// ============================================================================================== //
+	// Scout	-	Sandman, Wrap Assassin
+	// Soldier	-	Buff Banner, Battalion's Backup, Concheror
+	// Pyro		-	Phlogistinator
+	// Heavy	-	Sandvich, Buffalo Steak Sandvich,
+	// Sniper	-	Jarate
+	// Spy		-	Invis Watch, Clock and Dagger, Dead Ringer
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
 "Resource/UI/HudItemEffectMeter.res"
 {
 	HudItemEffectMeter
@@ -5,10 +16,10 @@
 		"fieldName"				"HudItemEffectMeter"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-100"
-		"ypos"					"c16"
-		"wide"					"200"
-		"tall"					"200"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"f0"
 		"MeterFG"				"bh_white"
 		"MeterBG"				"bh_gray"
 	}
@@ -36,9 +47,9 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"50"
-		"ypos"					"103"
-		"zpos"					"2"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"3"
 		"wide"					"100"
 		"tall"					"6"	
 		"autoResize"			"1"
@@ -52,6 +63,10 @@
 		"brighttext"			"0"
 		"font"					"bh_Lato9"
 		"fgcolor_override"		"bh_gray"
+		
+		"pin_to_sibling" 		"ItemEffectMeter"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"ItemEffectMeter"
@@ -59,8 +74,8 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"50"
-		"ypos"					"103"
+		"xpos"					"c-50"
+		"ypos"					"c99"
 		"zpos"					"2"
 		"wide"					"100"
 		"tall"					"6"				

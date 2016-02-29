@@ -27,7 +27,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fg_image"			"progress_bar_blu"
-		"bg_image"	"		progress_bar_blu"
+		"bg_image"			"progress_bar_blu"
 	}
 
 	"Teardrop"

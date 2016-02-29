@@ -8,7 +8,7 @@
 		"tooltip"		"Show information about the hud"
 		"command" 		"engine con_enable 1;showconsole;clear;
 		echo ==============================================;
-		echo BUDHUD, 18/JANUARY/2016 by Whisker;
+		echo BUDHUD, 28/FEBRUARY/2016 by Whisker;
 		echo ==============================================;
 		echo Report Issues: github.com/WhiskerBiscuit/budhud/issues;
 		echo HUD GROUP: steamcommunity.com/groups/budhud;
@@ -108,6 +108,7 @@
 		"label" 		"#MMenu_SteamWorkshop"
 		"command" 		"engine OpenSteamWorkshopDialog"
 		"subimage" 		"glyph_steamworkshop"
+		"tooltip"		"Steam Workshop"
 	}
 	"VRModeButton"
 	{
