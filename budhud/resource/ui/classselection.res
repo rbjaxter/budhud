@@ -1360,7 +1360,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageScout"
 		"xpos"			"c-270"
-		"ypos"			"30"
+		"ypos"			"150"
 		"zpos"			"10"
 		"wide"			"10"
 		"tall"			"10"
