@@ -19,71 +19,71 @@
 		"team2_player_base_y"					"0"
 		"team2_player_delta_x"					"47"
 		"team2_player_delta_y"					"0"
-				"team2_player_delta_y"				"0"
-		"teams_player_delta_x_comp"			"42"
+		"team2_player_delta_y"					"0"
+		"teams_player_delta_x_comp"				"42"
 
-		"avatar_width"	"63"
-		"spacer"		"5"
-		"name_width"	"57"
-		"horiz_inset"	"2"
+		"avatar_width"							"63"
+		"spacer"								"5"
+		"name_width"							"57"
+		"horiz_inset"							"2"
 
 		if_mvm
 		{
-			"xpos"					"c-250"
-			"ypos"					"0"
-			"wide"					"500"
-			"tall"					"480"
+			"xpos"								"c-250"
+			"ypos"								"0"
+			"wide"								"500"
+			"tall"								"480"
 
-			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
+			"team1_player_base_y"				"66"
+			"team2_player_base_y"				"66"
+			"team2_player_delta_x"				"52"
 		}
 		
 		if_competitive
 		{
-			"xpos"							"cs-0.5"
-			"ypos"							"0"
-			"wide"							"f0"
-			"tall"							"480"
+			"xpos"								"cs-0.5"
+			"ypos"								"0"
+			"wide"								"f0"
+			"tall"								"480"
 
-			"team1_player_base_y"			"75"
-			"team2_player_base_y"			"66"
-			"team2_player_base_offset_x"	"5"
+			"team1_player_base_y"				"75"
+			"team2_player_base_y"				"66"
+			"team2_player_base_offset_x"		"5"
 		}
 		
 		if_readymode
 		{
-			"xpos"							"c-320"
-			"ypos"							"0"
-			"wide"							"640"
-			"tall"							"480"
+			"xpos"								"c-320"
+			"ypos"								"0"
+			"wide"								"640"
+			"tall"								"480"
 
-			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
-			"team2_player_base_offset_x"	"5"
+			"team1_player_base_y"				"66"
+			"team2_player_base_y"				"66"
+			"team2_player_delta_x"				"52"
+			"team2_player_base_offset_x"		"5"
 		}
 
 		"ModeImage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"ModeImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"35"
-			"zpos"			"0"
-			"wide"			"60"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"1"
-			"image"			"competitive/competitive_logo_laurel"
-			"scaleImage"	"1"
-			"proportionaltoparent"	"1"
+			"ControlName"						"ImagePanel"
+			"fieldName"							"ModeImage"
+			"xpos"								"cs-0.5"
+			"ypos"								"35"
+			"zpos"								"0"
+			"wide"								"60"
+			"tall"								"60"
+			"autoResize"						"0"
+			"pinCorner"							"0"
+			"visible"							"0"
+			"enabled"							"1"
+			"image"								"competitive/competitive_logo_laurel"
+			"scaleImage"						"1"
+			"proportionaltoparent"				"1"
 
 			if_competitive
 			{
-				"visible"		"1"
+				"visible"						"1"
 			}
 		}
 		
@@ -97,10 +97,23 @@
 			"color_ready"		"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 			
+			if_mvm
+			{
+				"wide"		"55"
+				"tall"		"35"
+			}
+						
+			if_competitive
+			{
+				"wide"		"45"
+				"tall"		"29"
+			}
+
 			if_readymode
 			{
-				"wide"				"52"
-			}			
+				"wide"		"55"
+				"tall"		"35"
+			}		
 			
 			"playername"
 			{
@@ -210,7 +223,12 @@
 
 				if_competitive
 				{
-					"visible"		"1"
+					"xpos"					"4"
+					"ypos"					"4"
+					"wide"					"p0.4"
+					"tall"					"p0.6"
+					"visible"				"1"
+					"proportionaltoparent" 	"1"
 				}
 
 				if_readymode
@@ -235,6 +253,14 @@
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
+				
+				if_competitive
+				{
+					"wide"					"p0.64"
+					"tall"					"p0.96"
+					"visible"				"1"
+					"proportionaltoparent" 	"1"
+				}
 			}
 			
 			"ReadyBG"
@@ -265,7 +291,12 @@
 				
 				if_competitive
 				{
-					"visible"		"1"
+					"xpos"					"28"
+					"ypos"					"5"
+					"wide"					"p0.3"
+					"tall"					"p0.45"
+					"proportionaltoparent" 	"1"
+					"visible"				"1"
 				}
 				
 				if_readymode
@@ -276,33 +307,38 @@
 			
 			"ReadyImage"
 			{
-				"ControlName"		"ImagePanel"
-				"fieldName"			"ReadyImage"
-				"xpos"				"32"
-				"ypos"				"8"
-				"zpos"				"0"
-				"wide"				"12"
-				"tall"				"12"
-				"autoResize"		"0"
-				"pinCorner"			"0"
-				"visible"			"0"
-				"enabled"			"1"
-				"image"				"hud/checkmark"
-				"scaleImage"		"1"
+				"ControlName"				"ImagePanel"
+				"fieldName"					"ReadyImage"
+				"xpos"						"32"
+				"ypos"						"8"
+				"zpos"						"0"
+				"wide"						"12"
+				"tall"						"12"
+				"autoResize"				"0"
+				"pinCorner"					"0"
+				"visible"					"0"
+				"enabled"					"1"
+				"image"						"hud/checkmark"
+				"scaleImage"				"1"
 
 				if_mvm
 				{
-					"visible"		"1"
+					"visible"				"1"
 				}
 
 				if_competitive
 				{
-					"visible"		"1"
+					"xpos"					"30"
+					"ypos"					"7"
+					"wide"					"p0.21"
+					"tall"					"p0.34"
+					"proportionaltoparent" 	"1"
+					"visible"				"1"
 				}
 
 				if_readymode
 				{
-					"visible"		"1"
+					"visible"				"1"
 				}
 			}
 			
@@ -322,6 +358,15 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
 				//"fgcolor"		"235 226 202 255"
+				
+				if_competitive
+				{
+					"xpos"					"31"
+					"ypos"					"15"
+					"wide"					"p0.41"
+					"tall"					"p0.28"
+					"proportionaltoparent" 	"1"
+				}
 			}
 			
 			"chargeamount"
@@ -345,82 +390,43 @@
 				{	
 					"visible"		"0"
 				}
+				
+				if_competitive
+				{
+					"xpos"						"22"
+					"ypos"						"15"
+					"wide"						"p0.45"
+					"tall"						"p0.28"
+					"proportionaltoparent" 		"1"
+				}
 			}
 			
 			"specindex"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"specindex"
-				"font"			"DefaultVerySmall"
-				"xpos"			"4"
-				"ypos"			"2"
-				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%specindex%"
-				"textAlignment"	"north-west"
-			}
-			
-			if_mvm
-			{
-				"wide"		"55"
-				"tall"		"35"
-			}
-						
-			if_competitive
-			{
-				"wide"		"55"
-				"tall"		"35"
-			}
-
-			if_readymode
-			{
-				"wide"		"55"
-				"tall"		"35"
+				"ControlName"				"CExLabel"
+				"fieldName"					"specindex"
+				"font"						"DefaultVerySmall"
+				"xpos"						"4"
+				"ypos"						"2"
+				"zpos"						"5"
+				"wide"						"50"
+				"tall"						"8"
+				"autoResize"				"0"
+				"pinCorner"					"0"
+				"visible"					"1"
+				"labelText"					"%specindex%"
+				"textAlignment"				"north-west"
+				
+				if_competitive
+				{
+					"wide"					"p0.9"
+					"tall"					"p0.22"
+					"proportionaltoparent" 	"1"
+				}
 			}
 		}
-		
-		if_mvm
-		{
-			"xpos"								"c-250"
-			"ypos"								"0"
-			"wide"								"500"
-			"tall"								"480"
-
-			"team1_player_base_y"				"67"
-			"team2_player_delta_x"				"55"
-		}	
-
-		if_competitive
-		{
-			"xpos"							"c-320"
-			"ypos"							"0"
-			"wide"							"640"
-			"tall"							"480"
-
-			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
-			"team2_player_base_offset_x"	"5"
-		}
-		
-		if_readymode
-		{
-			"xpos"							"c-320"
-			"ypos"							"0"
-			"wide"							"640"
-			"tall"							"480"
-
-			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
-			"team2_player_base_offset_x"	"5"
-		}			
 	}
-
+		
 	"HudTournamentBG"
 	{
 		"ControlName"							"ScalableImagePanel"
@@ -435,11 +441,12 @@
 		"visible"								"0"
 		"enabled"								"0"
 		"image"									"../HUD/tournament_panel_brown"
+		"proportionaltoparent"					"1"
 				
-		"src_corner_height"						"23"				// pixels inside the image
+		"src_corner_height"						"23"
 		"src_corner_width"						"23"
 						
-		"draw_corner_width"						"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_width"						"8"
 		"draw_corner_height"					"8"	
 		
 		if_mvm
@@ -449,9 +456,10 @@
 		
 		if_competitive
 		{
-			"xpos"								"195"
-			"ypos"								"5"
-			"visible"							"1"
+			"xpos"			"cs-0.5"
+			"ypos"			"12"
+			"tall"			"20"
+			"visible"		"1"
 		}
 		
 		if_readymode
@@ -552,6 +560,7 @@
 		"wrap"									"0"
 		"labelText"								"%bluenamelabel%"
 		"textAlignment"							"west"
+		"proportionaltoparent"					"1"
 
 		if_mvm
 		{
@@ -596,7 +605,7 @@
 
 		if_competitive
 		{
-			"xpos"								"251"
+			"xpos"								"cs-0.5"
 			"visible"							"0"
 		}
 
@@ -663,6 +672,7 @@
 		"wrap"									"0"
 		"labelText"								"%rednamelabel%"
 		"textAlignment"							"east"
+		"proportionaltoparent"					"1"
 		
 		if_mvm
 		{
@@ -811,6 +821,7 @@
 		"wrap"									"0"
 		"labelText"								"%readylabel%"
 		"textAlignment"							"center"
+		"proportionaltoparent"					"1"
 		
 		if_mvm
 		{
@@ -825,10 +836,10 @@
 		if_competitive
 		{
 			"font"								"HudFontSmallishBold"
-			"xpos"								"225"
-			"ypos"								"107"
+			"xpos"								"cs-0.5"
+			"ypos"								"110"
 			"wide"								"190"
-			"tall"								"20"
+			"tall"								"12"
 			"zpos"								"3"
 		}
 
@@ -870,10 +881,10 @@
 		if_competitive
 		{
 			"font"								"HudFontSmallishBold"
-			"xpos"								"226"
-			"ypos"								"108"
+			"xpos"								"cs-0.5"
+			"ypos"								"111"
 			"wide"								"190"
-			"tall"								"20"
+			"tall"								"12"
 			"visible"							"1"
 			"fgcolor"							"bh_black"
 		}
@@ -936,15 +947,15 @@
 	{
 		"ControlName"							"ScalableImagePanel"
 		"fieldName"								"CountdownBG"
-		"xpos"									"6969"		// 230
-		"ypos"									"6969"		// r55
+		"xpos"									"230"		// 230
+		"ypos"									"r55"		// r55
 		"zpos"									"-1"
 		"wide"									"40"
 		"tall"									"40"
 		"autoResize"							"0"
 		"pinCorner"								"0"
-		"visible"								"0"
-		"enabled"								"0"
+		"visible"								"1"
+		"enabled"								"1"
 		"image"									"../HUD/color_panel_red"
 
 		"src_corner_height"						"23" // pixels inside the image
@@ -952,95 +963,89 @@
 		
 		"draw_corner_width"						"1" // screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 					"1"	
+		"proportionaltoparent"					"1"
 		
 		if_competitive
 		{
+			"xpos"			"cs-0.5"
+			"ypos"			"150"
 		}
 
 		if_readymode
 		{
+			"xpos"			"300"
+			"ypos"			"130"
 		}
 	}
 
 	"CountdownLabel"
 	{	
-		"ControlName"							"CExLabel"
-		"fieldName"								"CountdownLabel"
-		"font"									"bh_Lato12"
-		"xpos"									"25"
-		"ypos"									"100"
-		"wide"									"200"
-		"tall"									"40"
-		"zpos"									"1"
-		"autoResize"							"0"
-		"pinCorner"								"0"
-		"visible"								"1"
-		"enabled"								"1"
-		"wrap"									"0"
-		"labelText"								"%tournamentstatelabel%"
-		"textAlignment"							"center"
-		"fgcolor"								"bh_white"
-	
-		if_mvm
-		{
-			"xpos"								"c-217"
-			"ypos"								"105"
-			"font"								"bh_Lato40"
-		}
-		
+		"ControlName"		"CExLabel"
+		"fieldName"		"CountdownLabel"
+		"font"			"HudFontGiant"
+		"xpos"			"230"
+		"ypos"			"r55"
+		"wide"			"40"
+		"tall"			"40"
+		"zpos"			"5"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%tournamentstatelabel%"
+		"textAlignment"		"center"
+		"proportionaltoparent"	"1"
+
 		if_competitive
 		{
-			"xpos"								"c-217"
-			"ypos"								"105"
-			"font"								"bh_Lato12"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.1"
+			"fgcolor"		"TanLight"
+			"font"			"HudFontGiant"
 		}
 
 		if_readymode
 		{
-			"xpos"								"c-207"
-			"ypos"								"125"
-			"font"								"bh_Lato12"
-			"wide"								"200"
+			"xpos"			"300"
+			"ypos"			"130"
 		}
 	}
 	
 	"CountdownLabelShadow"
 	{	
-		"ControlName"							"CExLabel"
-		"fieldName"								"CountdownLabelShadow"
-		"font"									"bh_Lato40"
-		"xpos"									"100"
-		"ypos"									"100"
-		"wide"									"90"
-		"tall"									"40"
-		"zpos"									"1"
-		"autoResize"							"0"
-		"pinCorner"								"0"
-		"visible"								"0"
-		"enabled"								"1"
-		"wrap"									"0"
-		"labelText"								"%tournamentstatelabel%"
-		"textAlignment"							"center"
-		"fgcolor"								"bh_black"
-
-		if_mvm
-		{
-			"xpos"								"c-216"
-			"ypos"								"106"
-		}
+		"ControlName"		"CExLabel"
+		"fieldName"		"CountdownLabelShadow"
+		"font"			"HudFontGiant"
+		"xpos"			"231"
+		"ypos"			"r54"
+		"wide"			"40"
+		"tall"			"40"
+		"zpos"			"4"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%tournamentstatelabel%"
+		"textAlignment"		"center"
+		"fgcolor"		"Black"
+		"proportionaltoparent"	"1"
 
 		if_competitive
 		{
-			"xpos"								"c-216"
-			"ypos"								"106"
+			"xpos"			"cs-0.48"
+			"ypos"			"cs-0.08"
+			"font"			"HudFontGiant"
 		}
 
 		if_readymode
 		{
-			"xpos"								"c-216"
-			"ypos"								"106"
+			"xpos"			"300"
+			"ypos"			"130"
 		}
 	}
+	
 	"FrontParticlePanel"
 	{
 		"ControlName"	"CTFParticlePanel"
