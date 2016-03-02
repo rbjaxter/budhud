@@ -450,7 +450,7 @@
 		"tabPosition"			"0"
 		"autoresize"			"3"
 		"linespacing"			"17"
-		"textcolor"				"red"
+		"fgcolor"				"red"
 		
  		if_mvm
  		{

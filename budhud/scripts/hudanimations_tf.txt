@@ -1145,14 +1145,14 @@ event QuestItem_Complete_Progress
 	Animate Dimmer	xpos 142	Linear 0 5
 }
 
-event QuestItem_Quickplay_Flash
+event QuestItem_Options_Flash
 {
-	Animate SubButton FgColor bh_orange	Linear 0	 0.1
-	Animate SubButton FgColor bh_white		Linear 0.1	 0.1
-	Animate SubButton FgColor bh_orange	Linear 0.2	 0.1
-	Animate SubButton FgColor bh_white		Linear 0.3	 0.1
-	Animate SubButton FgColor bh_orange	Linear 0.4	 0.1
-	Animate SubButton FgColor bh_white		Linear 0.5	 0.1
+	Animate OptionsButton FgColor bh_orange		Linear 0	 0.1
+	Animate OptionsButton FgColor bh_white		Linear 0.1	 0.1
+	Animate OptionsButton FgColor bh_orange		Linear 0.2	 0.1
+	Animate OptionsButton FgColor bh_white		Linear 0.3	 0.1
+	Animate OptionsButton FgColor bh_orange		Linear 0.4	 0.1
+	Animate OptionsButton FgColor bh_white		Linear 0.5	 0.1
 }
 
 //--------------------------------------------------------------------------
@@ -1185,6 +1185,8 @@ event QuestItem_Reset
 	Animate FrontFolderContainer		ypos 0	Linear 0 0
 	RunEventChild IdentifyButtonContainer QuestItem_Identify_Collapse 0
 	RunEventChild TurnInContainer QuestItem_Complete_Collapse 0
+	
+	SetInputEnabled FrontFolderContainer 1 0
 }
 
 //--------------------------------------------------------------------------
@@ -1277,7 +1279,7 @@ event QuestItem_Expand_Halloween
 	Animate FrontFolderContainer		ypos 240	Gain 0.75 0.4 0.4
 	Animate QuestPaperContainer			tall 300    Gain 0.75 0.4 0.4
 
-	RunEventChild QuickplayButton QuestItem_Quickplay_Flash 1
+	RunEvent QuestItem_Options_Flash 1
 }
 
 event QuestItem_Collapse_Halloween

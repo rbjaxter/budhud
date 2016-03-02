@@ -1939,11 +1939,10 @@
 		"tall"						"150"
 	}
 
-
-	"CTFKillStreakNotice"
+	"CTFStreakNotice"
 	{
-		"fieldName"					"CTFKillStreakNotice"
-		"xpos"						"0"			
+		"fieldName"					"CTFStreakNotice"
+		"xpos"						"0"
 		"ypos"						"0"
 		"wide"						"640"
 		"tall"						"480"
@@ -1952,7 +1951,19 @@
 		"bgcolor_override"			"0 0 0 0"
 		"PaintBackgroundType"		"0" // rounded corners
 	}
-
+	
+	CTFFlagCalloutPanel
+	{
+		"fieldName"					"CTFFlagCalloutPanel"
+		"visible" 					"0"
+		"enabled" 					"1"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"	 					"40"
+		"tall"	 					"40"
+		"priority"					"40"
+	}
+	
 	"HudMenuTauntSelection"
 	{
 		"fieldName" 				"HudMenuTauntSelection"
@@ -1964,6 +1975,18 @@
 		"ypos_lodef"				"c-42"
 		"wide"						"470"
 		"tall"						"200"
+		"PaintBackgroundType"		"0"
+	}
+	
+	"ItemAttributeTracker"
+	{
+		"fieldName" 				"ItemAttributeTracker"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"f5"
+		"tall"						"f0"
 		"PaintBackgroundType"		"0"
 	}
 	
