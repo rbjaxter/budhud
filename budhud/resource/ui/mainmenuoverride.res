@@ -2099,7 +2099,7 @@
 		
 		if_competitive_stress_event
 		{
-			"xpos"							"302"
+			"xpos"							"312"
 			"ypos"							"85"
 			"wide"							"56"
 			"tall"							"56"
