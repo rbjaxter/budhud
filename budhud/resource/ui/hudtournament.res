@@ -283,8 +283,8 @@
 				"src_corner_height"	"22"				// pixels inside the image
 				"src_corner_width"	"22"
 			
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"3"
+				"draw_corner_width"	"1"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"1"
 				
 				if_mvm
 				{
@@ -971,8 +971,8 @@
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
 		
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"2"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"2"	
 		"proportionaltoparent"	"1"
 
 		if_competitive
@@ -1028,7 +1028,7 @@
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"HudFontGiant"
 		"xpos"			"231"
-		"ypos"			"r54"
+		"ypos"			"r53"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"4"

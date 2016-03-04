@@ -2077,6 +2077,36 @@
 		}
 	}
 	
+	"CompetitiveBetaImage"
+	{
+		"ControlName"						"ImagePanel"
+		"fieldname"							"CompetitiveBetaImage"
+		"xpos"								"312"
+		"ypos"								"95"
+		"zpos"								"11"
+		"wide"								"30"
+		"tall"								"30"
+		"visible"							"0"
+		"enabled"							"0"
+		"image"								"beta"
+		"scaleImage"						"1"
+		
+		if_competitive
+		{
+			"visible"						"1"
+			"enabled"						"1"
+		}
+		
+		if_competitive_stress_event
+		{
+			"xpos"							"302"
+			"ypos"							"85"
+			"wide"							"56"
+			"tall"							"56"
+			"image"							"beta_stress"
+		}
+	}
+	
 	"Favorite1"
 	{
 		"ControlName"						"EditablePanel"

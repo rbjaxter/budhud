@@ -1502,6 +1502,16 @@ event Hud_StatsAndMedals_Show
 	Animate RedMedals ypos 75 Accel 0 0.1
 }
 
+event CompetitiveGame_HideDisconnectButton
+{
+	Animate DisconnectButton ypos r-100 Accel 0 0
+}
+
+event CompetitiveGame_ShowDisconnectButton
+{
+	Animate DisconnectButton ypos r50 Accel 0 0.4
+}
+
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// UBER TRACKING HUD MOD
 	////////////////////////////////////////////////////////////////////////////////////////////////////

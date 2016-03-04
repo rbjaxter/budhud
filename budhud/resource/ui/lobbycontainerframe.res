@@ -117,6 +117,7 @@
 			"paintbackground"					"1"
 			"activeborder_override"				"bh_b_loadoutstats"
 			"normalborder_override"				"bh_b_loadoutstats"
+			"mouseinputenabled"					"0"
 		}
 	}
 
