@@ -2081,7 +2081,7 @@
 	{
 		"ControlName"						"ImagePanel"
 		"fieldname"							"CompetitiveBetaImage"
-		"xpos"								"312"
+		"xpos"								"315"
 		"ypos"								"95"
 		"zpos"								"11"
 		"wide"								"30"
@@ -2099,11 +2099,11 @@
 		
 		if_competitive_stress_event
 		{
-			"xpos"							"312"
+			"xpos"							"315"
 			"ypos"							"85"
 			"wide"							"56"
 			"tall"							"56"
-			"image"							"beta_stress"
+			"image"							"replay\thumbnails\tyrone"
 		}
 	}
 	
@@ -2366,7 +2366,7 @@
 
 		"navUp"								"ServerBrowserButton"
 		"navDown"							"QuickplayChangeButton"
-		"navRight"							"CallVoteButton"
+		"navRight"							"ReportPlayerButton"
 		"navToRelay"						"SubButton"
 
 		"SubButton"
@@ -2686,6 +2686,68 @@
 			}
 		}
 	}
+	
+	"ReportPlayerButton"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldname"							"ReportPlayerButton"
+		"xpos"								"228"
+		"ypos"								"418"
+		"zpos"								"12"
+		"wide"								"25"
+		"tall"								"25"
+		"visible"							"1"
+
+		"navLeft"							"ResumeGameButton"
+		"navRight"							"CallVoteButton"
+		"navDown"							"QuickplayChangeButton"
+		"navToRelay"						"SubButton"
+
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"SubButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"wide"							"25"
+			"tall"							"25"
+			"autoResize"					"0"
+			"pinCorner"						"3"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"textinsetx"					"100"
+			"font"							"HudFontSmallBold"
+			"textAlignment"					"west"
+			"dulltext"						"0"
+			"brighttext"					"0"
+			"default"						"1"
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+			
+		//	"border_default"				"MainMenuMiniButtonDefault"
+		//	"border_armed"					"MainMenuMiniButtonArmed"
+			"paintbackground"				"0"
+						
+			"image_drawcolor"				"255 255 255 255"
+			"image_armedcolor"				"240 134 49 255"
+			
+			"SubImage"
+			{
+				"ControlName"				"ImagePanel"
+				"fieldName"					"SubImage"
+				"xpos"						"4"
+				"ypos"						"4"
+				"zpos"						"1"
+				"wide"						"15"
+				"tall"						"15"
+				"visible"					"1"
+				"enabled"					"1"
+				"image"						"replay\thumbnails\reportplayer"
+				"scaleImage"				"1"
+			}				
+		}
+	}
 
 	"CallVoteButton"
 	{
@@ -2698,7 +2760,7 @@
 		"tall"								"25"
 		"visible"							"1"
 
-		"navLeft"							"ResumeGameButton"
+		"navLeft"							"ReportPlayerButton"
 		"navDown"							"QuickplayChangeButton"
 		"navRight"							"MutePlayersButton"
 		"navToRelay"						"SubButton"

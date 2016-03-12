@@ -75,6 +75,53 @@
 			"visible"		"0"
 		}
 	}
+	"BlueTeamImage"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BlueTeamImage"
+		"xpos"				"6969"				// 216
+		"ypos"				"20"
+		"zpos"				"-5"
+		"wide"				"40"
+		"tall"				"40"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/team_blue"
+		"scaleImage"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"BlueLeaderAvatar"
+	{
+		"ControlName"		"CAvatarImagePanel"
+		"fieldName"			"BlueLeaderAvatar"
+		"xpos"				"16"
+		"ypos"				"16"
+		"zpos"				"5"
+		"wide"				"45"
+		"tall"				"45"
+		"visible"			"0"
+		"enabled"			"1"
+		"image"				""
+		"scaleImage"		"1"	
+		"color_outline"		"52 48 45 255"
+	}
+	"BlueLeaderAvatarBG"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"BlueLeaderAvatarBG"
+		"xpos"					"14"
+		"ypos"					"14"
+		"zpos"					"4"
+		"wide"					"49"
+		"tall"					"49"
+		"visible"				"0"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"117 107 94 255"
+	}
 	"RedScoreBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -95,6 +142,54 @@
 		{
 			"visible"		"0"
 		}
+	}
+	"RedTeamImage"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"RedTeamImage"
+		"fieldName"			"BlueTeamImage"
+		"xpos"				"6969"			// 338
+		"ypos"				"20"
+		"zpos"				"-5"
+		"wide"				"40"
+		"tall"				"40"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/team_red"
+		"scaleImage"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"RedLeaderAvatar"
+	{
+		"ControlName"		"CAvatarImagePanel"
+		"fieldName"		"RedLeaderAvatar"
+		"xpos"			"580"
+		"ypos"			"16"
+		"zpos"			"5"
+		"wide"			"45"
+		"tall"			"45"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"	
+		"color_outline"	"52 48 45 255"
+	}
+	"RedLeaderAvatarBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RedLeaderAvatarBG"
+		"xpos"			"578"
+		"ypos"			"14"
+		"zpos"			"4"
+		"wide"			"49"
+		"tall"			"49"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"	"117 107 94 255"
 	}
 	"MainBG"
 	{

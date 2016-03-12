@@ -8,7 +8,7 @@
 		"tooltip"		"Show information about the hud"
 		"command" 		"engine con_enable 1;showconsole;clear;
 		echo ==============================================;
-		echo BUDHUD, 3/MARCH/2016 by Whisker;
+		echo BUDHUD, 11/MARCH/2016 by Whisker;
 		echo ==============================================;
 		echo Report Issues: github.com/WhiskerBiscuit/budhud/issues;
 		echo HUD GROUP: steamcommunity.com/groups/budhud;
@@ -168,5 +168,13 @@
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
 		"tooltip" 		"#MMenu_RequestCoach"
+	}
+	"ReportPlayerButton"
+	{
+		"label"			""
+		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_alert"
+		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }

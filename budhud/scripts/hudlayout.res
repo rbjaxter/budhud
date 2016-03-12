@@ -44,8 +44,8 @@
 		"tall"				"480"
 
 
-		"enabled"			"0"									// Set both to "1"
-		"visible"			"0"			  						// to enable
+		"enabled"			"1"									// Set both to "1"
+		"visible"			"1"			  						// to enable
         
 		"labeltext"			"f"           						// Change this to use a different crosshair
         
@@ -2054,6 +2054,18 @@
 		"enabled" 					"1"
 		"xpos"						"0"
 		"ypos"						"0"
+		"wide"						"f0"
+		"tall"						"f0"
+	}
+	
+	HudCompetitive
+	{
+		"fieldName"					"HudCompetitive"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"2"
 		"wide"						"f0"
 		"tall"						"f0"
 	}

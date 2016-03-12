@@ -363,11 +363,12 @@
 				
 				if_competitive
 				{
-					"xpos"			"31"
-					"ypos"			"15"
-					"wide"			"p0.41"
-					"tall"			"p0.28"
-					"proportionaltoparent" "1"
+					"xpos"					"6"
+					"ypos"					"7.5"
+					"wide"					"p0.5"
+					"tall"					"p0.28"
+					"autoResize"			"1"
+					"proportionaltoparent"	"1"
 				}
 			}
 			
@@ -441,8 +442,8 @@
 		"tall"					"55"
 		"autoResize"			"0"
 		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"image"					"../HUD/tournament_panel_brown"
 		"proportionaltoparent"	"1"
 
@@ -462,7 +463,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"12"
 			"tall"			"20"
-			"visible"		"1"
+			"visible"		"0"
 		}
 		
 		if_readymode
@@ -473,21 +474,21 @@
 	}
 	"TournamentLabel"
 	{	
-		"ControlName"		"Label"
-		"fieldName"		"TournamentLabel"
-		"font"			"HudFontSmall"
-		"xpos"			"5"
-		"ypos"			"3"
-		"zpos"			"1"
-		"wide"			"240"
-		"tall"			"19"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"0"
-		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"		"center"
+		"ControlName"			"Label"
+		"fieldName"				"TournamentLabel"
+		"font"					"HudFontSmall"
+		"xpos"					"5"
+		"ypos"					"70"
+		"zpos"					"1"
+		"wide"					"240"
+		"tall"					"19"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"wrap"					"0"
+		"labelText"				"%tournamentstatelabel%"
+		"textAlignment"			"center"
 		"proportionaltoparent"	"1"
 		
 		if_mvm
@@ -498,12 +499,14 @@
 		if_competitive
 		{
 			"xpos"			"cs-0.5"
+			"ypos"			"3"
 			"visible"		"0"
 		}
 
 		if_readymode
 		{
 			"xpos"			"200"
+			"ypos"			"3"
 			"visible"		"0"
 		}
 	}
@@ -735,8 +738,8 @@
 		"fieldName"			"TournamentConditionLabel"
 		"font"				"TFFontSmall"
 		"fgcolor"			"bh_white"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"25"
+		"ypos"				"70"
 		"zpos"				"1"
 		"wide"				"200"
 		"tall"				"50"
@@ -755,11 +758,10 @@
 
 		if_competitive
 		{
-			"xpos"			"c-45"
-			"ypos"			"18"
-			"tall"			"35"
+			"xpos"			"c-100"
+			"ypos"			"-10"
 			"visible"		"1"
-			"font"			"bh_Lato14"
+			"font"			"bh_Lato16"
 		}
 
 		if_readymode
@@ -790,8 +792,8 @@
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
 		
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 		
 		if_mvm
 		{
@@ -841,7 +843,7 @@
 		{
 			"font"			"bh_Lato12"
 			"xpos"			"cs-0.5"
-			"ypos"			"110"
+			"ypos"			"115"
 			"wide"			"190"
 			"tall"			"12"
 			"zpos"			"3"
@@ -892,7 +894,7 @@
 		{
 			"font"			"bh_Lato12"
 			"xpos"			"cs-0.5"
-			"ypos"			"111"
+			"ypos"			"116"
 			"wide"			"190"
 			"tall"			"12"
 			"visible"		"1"
@@ -1009,10 +1011,11 @@
 
 		if_competitive
 		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.1"
+			"wide"			"60"
+			"xpos"			"c-30"
+			"ypos"			"c5"
 			"fgcolor"		"bh_white"
-			"font"			"HudFontGiant"
+			"font"			"bh_Lato32"
 		}
 
 		if_readymode
@@ -1044,9 +1047,11 @@
 
 		if_competitive
 		{
-			"xpos"			"cs-0.48"
-			"ypos"			"cs-0.08"
-			"font"			"HudFontGiant"
+			"wide"			"60"
+			"xpos"			"c-29"
+			"ypos"			"c6"
+			"fgcolor"		"bh_black"
+			"font"			"bh_Lato32"
 		}
 
 		if_readymode
@@ -1152,7 +1157,7 @@
 
 		"BlueTeamBG"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"		"ImagePanel"
 			"fieldName"		"BlueTeamBG"
 			"xpos"			"0"
 			"ypos"			"10"
@@ -1163,13 +1168,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderBlueBGOpaque"
+			"border"		"NoBorder"
 		}
 		"BlueTeamImage"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"BlueTeamImage"
-			"xpos"			"9"
+			"xpos"			"45"
 			"ypos"			"0"
 			"zpos"			"5"
 			"wide"			"56"
@@ -1178,6 +1183,52 @@
 			"enabled"		"1"
 			"image"			"../hud/team_blue"
 			"scaleImage"		"1"
+		}
+		"BlueTeamLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"BlueTeamLabel"
+			"font"			"CompMatchStartTeamNames"
+			"labelText"		"%blueteamname%"
+			"textAlignment"		"center"
+			"xpos"			"48"
+			"ypos"			"13"
+			"zpos"			"20"
+			"wide"			"95"
+			"tall"			"30"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"centerwrap"	"1"
+		}
+		"BlueLeaderAvatar"
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"BlueLeaderAvatar"
+			"xpos"			"11"
+			"ypos"			"10"
+			"zpos"			"5"	
+			"wide"			"35"
+			"tall"			"35"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"	"1"	
+			"color_outline"	"52 48 45 255"
+		}
+		"BlueLeaderAvatarBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"BlueLeaderAvatarBG"
+			"xpos"			"9"
+			"ypos"			"8"
+			"zpos"			"4"
+			"wide"			"39"
+			"tall"			"39"
+			"visible"		"1"
+			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"117 107 94 255"
 		}
 		"BluePlayerList"
 		{
@@ -1210,7 +1261,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderClearBG"
+			"border"		"NoBorder"
 		}
 	}
 
@@ -1239,13 +1290,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderRedBGOpaque"
+			"border"		"NoBorder"
 		}
 		"RedTeamImage"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"RedTeamImage"
-			"xpos"			"84"
+			"xpos"			"37"
 			"ypos"			"-9"
 			"zpos"			"5"
 			"wide"			"70"
@@ -1254,6 +1305,52 @@
 			"enabled"		"1"
 			"image"			"../hud/team_Red"
 			"scaleImage"		"1"
+		}
+		"RedTeamLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"RedTeamLabel"
+			"font"			"CompMatchStartTeamNames"
+			"labelText"		"%redteamname%"
+			"textAlignment"		"center"
+			"xpos"			"5"
+			"ypos"			"13"
+			"zpos"			"20"
+			"wide"			"95"
+			"tall"			"30"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"centerwrap"	"1"
+		}
+		"RedLeaderAvatar"
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"RedLeaderAvatar"
+			"xpos"			"102"
+			"ypos"			"10"
+			"zpos"			"5"
+			"wide"			"35"
+			"tall"			"35"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"	"1"	
+			"color_outline"	"52 48 45 255"
+		}
+		"RedLeaderAvatarBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RedLeaderAvatarBG"
+			"xpos"			"100"
+			"ypos"			"8"
+			"zpos"			"4"
+			"wide"			"39"
+			"tall"			"39"
+			"visible"		"1"
+			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"117 107 94 255"
 		}
 		"RedPlayerList"
 		{
@@ -1286,7 +1383,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderClearBG"
+			"border"		"NoBorder"
 		}
 	}
 }
