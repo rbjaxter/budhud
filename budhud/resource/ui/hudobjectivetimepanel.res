@@ -58,13 +58,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
+		"xpos"			"18"
 		"ypos"			"34"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"78"
 		"wide_hidef"	"300"
@@ -98,11 +93,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
-		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
+		"xpos"			"6969"	[$WIN32]
+		"ypos"			"6969"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
@@ -122,12 +114,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"33"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"78"
 		"wide_hidef"	"300"
@@ -161,11 +148,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
-		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
+		"xpos"			"6969"	[$WIN32]
+		"ypos"			"6969"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
@@ -224,11 +208,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
-		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
+		"xpos"			"6969"	[$WIN32]
+		"ypos"			"6969"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
@@ -248,12 +229,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
 		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
 		"ypos"			"33"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"78"
 		"wide_hidef"	"300"
@@ -288,11 +264,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
-		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
+		"xpos"			"6969"	[$WIN32]
+		"ypos"			"6969"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"

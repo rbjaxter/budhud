@@ -6,7 +6,7 @@
 		"fieldName" 		      	"HudChat"
 		"visible" 		        	"1"
 		"enabled" 		        	"1"
-		"xpos"			          	"5"
+		"xpos"			          	"7"
 		"ypos"			          	"5"
 		"wide"	 		          	"240"
 		"tall"	 		          	"110"
