@@ -1,9 +1,13 @@
 #budhud
 A Team Fortress 2 HUD built from the base hud and elements of rays' hud.
 
-**Note:** If you plan to make changes to the hud, it is best to use Notepad++ (for proper file formatting):
+**Note:** If you plan to make changes to the hud, it is best to use a code editor such as either of the two listed below.
+
+For Windows: Notepad++
 http://notepad-plus-plus.org/
-For Mac users: http://www.sublimetext.com/2
+
+For Mac: Sublime
+http://www.sublimetext.com/2
 
 ####STEAM: http://steamcommunity.com/groups/budhud
 ####Screenshots: http://imgur.com/a/pFLrC
@@ -33,8 +37,8 @@ Whayay's crosshairs can be seen in `\budhud\_Customization_\whayay's crosshairs.
 ###### Damage Flash
 To modify the damage color for whayay's crosshair, navigate to `\budhud\resource\clientscheme.res` and find the crosshairs section.
 
-##### Knuckle's Crosshairs
-Knuckle's crosshairs can be seen in `\budhud\_Customization_\Knuckle's Crosshairs.png`. Note the letter underneath the crosshair you want to use. Then, go to your hudlayout.res and find "labeltext" under the first section at the top. Change "a" to whatever letter is associated with the crosshair you would like to use.
+##### Knuckles' Crosshairs
+Knuckles' crosshairs can be seen in `\budhud\_Customization_\Knuckles' Crosshairs.png`. Note the letter underneath the crosshair you want to use. Then, go to your hudlayout.res and find "labeltext" under the first section at the top. Change "a" to whatever letter is associated with the crosshair you would like to use.
 
 ###### Damage Flash
 To modify the damage color for Knuckle's crosshair, navigate to `\budhud\resource\clientscheme.res` and find the crosshairs section.
