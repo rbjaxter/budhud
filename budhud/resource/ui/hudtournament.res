@@ -2,14 +2,14 @@
 {
 	HudTournament
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"				"HudTournament"
+		"ControlName"						"EditablePanel"
+		"fieldName"							"HudTournament"
 				
-		"xpos"					"c-125"
-		"ypos"					"0"
-		"wide"					"250"
-		"tall"					"480"
-		"proportionaltoparent"	"1"
+		"xpos"								"c-125"
+		"ypos"								"0"
+		"wide"								"250"
+		"tall"								"480"
+		"proportionaltoparent"				"1"
 
 		"team1_player_base_offset_x"		"-75"
 		"team1_player_base_y"				"0"
@@ -21,17 +21,17 @@
 		"team2_player_delta_y"				"0"
 		"teams_player_delta_x_comp"			"45"
 
-		"avatar_width"	"63"
-		"spacer"		"5"
-		"name_width"	"57"
-		"horiz_inset"	"2"
+		"avatar_width"						"63"
+		"spacer"							"5"
+		"name_width"						"57"
+		"horiz_inset"						"2"
 
 		if_mvm
 		{
-			"xpos"					"c-250"
-			"ypos"					"0"
-			"wide"					"500"
-			"tall"					"480"
+			"xpos"							"c-250"
+			"ypos"							"0"
+			"wide"							"500"
+			"tall"							"480"
 
 			"team1_player_base_y"			"66"
 			"team2_player_base_y"			"66"
@@ -65,24 +65,24 @@
 
 		"ModeImage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"ModeImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"35"
-			"zpos"			"0"
-			"wide"			"60"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"1"
-			"image"			"competitive/competitive_logo_laurel"
-			"scaleImage"	"1"
-			"proportionaltoparent"	"1"
+			"ControlName"					"ImagePanel"
+			"fieldName"						"ModeImage"
+			"xpos"							"cs-0.5"
+			"ypos"							"35"
+			"zpos"							"0"
+			"wide"							"60"
+			"tall"							"60"
+			"autoResize"					"0"
+			"pinCorner"						"0"
+			"visible"						"0"
+			"enabled"						"1"
+			"image"							"competitive/competitive_logo_laurel"
+			"scaleImage"					"1"
+			"proportionaltoparent"			"1"
 
 			if_competitive
 			{
-				"visible"		"1"
+				"visible"					"1"
 			}
 		}
 		
@@ -759,9 +759,9 @@
 		if_competitive
 		{
 			"xpos"			"c-100"
-			"ypos"			"-10"
+			"ypos"			"4"
 			"visible"		"1"
-			"font"			"bh_Lato16"
+			"font"			"bh_Lato14"
 		}
 
 		if_readymode
