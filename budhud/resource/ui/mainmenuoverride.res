@@ -517,6 +517,92 @@
 		}
 	}
 
+	"WatchStreamButton"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldName"							"WatchStreamButton"
+		"xpos"								"c375"
+		"ypos"								"29"
+		"zpos"								"1"
+		"wide"								"32"
+		"tall"								"32"
+		"autoResize"						"0"
+		"pinCorner"							"3"
+		"visible"							"1"
+		"enabled"							"1"
+		"tabPosition"						"0"
+		
+		"navUp"								"Notifications_Panel"
+		"navLeft"							"SettingsButton"
+
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"SubButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"wide"							"f0"
+			"tall"							"f0"
+			"autoResize"					"0"
+			"pinCorner"						"3"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"textinsetx"					"25"
+			"labelText"						""
+			"use_proportional_insets" 		"1"
+			"font"							"HudFontSmallBold"
+			"command"						"watch_stream"
+			"textAlignment"					"west"
+			"dulltext"						"0"
+			"brighttext"					"0"
+			"default"						"1"
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"vo/null.mp3"
+			"actionsignallevel" 			"2"
+			"proportionaltoparent"			"1"
+				
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+			"paintbackground" 				"0"
+			"image_drawcolor"				"235 226 202 255"
+			"image_armedcolor"				"255 255 255 255"
+
+			"SubImage"
+			{
+				"ControlName"				"ImagePanel"
+				"fieldName"					"SubImage"
+				"xpos"						"0"
+				"ypos"						"0"
+				"zpos"						"1"
+				"wide"						"23"
+				"tall"						"23"
+				"visible"					"1"
+				"enabled"					"1"
+				"image"						"replay\thumbnails\streams"
+				"scaleImage"				"1"
+			}		
+		}
+	}
+
+	"StreamListPanel"
+	{
+		"ControlName"	"CTFStreamListPanel"
+		"fieldName"		"StreamListPanel"
+		"xpos"			"c5"
+		"ypos"			"65"
+		"zpos"			"1"
+		"wide"			"300"
+		"tall"			"350"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"paintbackground"	"0"
+		"border"		"MainMenuHighlightBorder"
+
+		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
+		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
+	}	
+	
 	"bh_QuestLog"
 	{
 		"ControlName"						"EditablePanel"
