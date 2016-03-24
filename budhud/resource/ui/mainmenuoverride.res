@@ -521,8 +521,8 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"WatchStreamButton"
-		"xpos"								"c375"
-		"ypos"								"29"
+		"xpos"								"c374"
+		"ypos"								"31"
 		"zpos"								"1"
 		"wide"								"32"
 		"tall"								"32"
@@ -565,8 +565,8 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 			"paintbackground" 				"0"
-			"image_drawcolor"				"235 226 202 255"
-			"image_armedcolor"				"255 255 255 255"
+			"image_drawcolor"				"255 255 255 255"
+			"image_armedcolor"				"240 134 49 255"
 
 			"SubImage"
 			{
@@ -575,8 +575,8 @@
 				"xpos"						"0"
 				"ypos"						"0"
 				"zpos"						"1"
-				"wide"						"23"
-				"tall"						"23"
+				"wide"						"20"
+				"tall"						"20"
 				"visible"					"1"
 				"enabled"					"1"
 				"image"						"replay\thumbnails\streams"
