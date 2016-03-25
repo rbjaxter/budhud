@@ -521,8 +521,8 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"WatchStreamButton"
-		"xpos"								"c374"
-		"ypos"								"31"
+		"xpos"								"r52"
+		"ypos"								"30"
 		"zpos"								"1"
 		"wide"								"32"
 		"tall"								"32"
