@@ -1,0 +1,12 @@
+hudanimations_manifest
+{
+
+	"file"		"scripts/bh_hudanimations/bh_ammo.txt"
+	"file"		"scripts/bh_hudanimations/bh_crosshairs.txt"
+	"file"		"scripts/bh_hudanimations/bh_health.txt"
+	"file"		"scripts/bh_hudanimations/bh_mediccharge.txt"
+	"file"		"scripts/bh_hudanimations/bh_spydisguise.txt"	
+	"file"		"scripts/bh_hudanimations/bh_ubertracking.txt"
+	"file"		"scripts/hudanimations_tf.txt"
+	
+}

@@ -1,0 +1,13 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// whayay's and Knuckles' Crosshairs: Flash
+	// ============================================================================================== //
+	// This can be controlled in ..\budhud\resource\clientscheme.res
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	event DamagedPlayer
+	{
+		Animate whayay_crosshair 		FgColor 		"ya_crosshairflash" 		Linear 0.00 0.00001
+		Animate whayay_crosshair 		FgColor 		"ya_crosshair" 				Linear 0.10 0.10001
+		Animate knuckles_crosshair		FgColor			"knuckles_crosshairflash"	Linear 0.00 0.00001
+		Animate knuckles_crosshair		FgColor			"knuckles_crosshair"		Linear 0.00 0.20001
+	}

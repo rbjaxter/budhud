@@ -98,8 +98,8 @@
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"			"BlueLeaderAvatar"
-		"xpos"				"26"
-		"ypos"				"16"
+		"xpos"				"6969"
+		"ypos"				"6969"
 		"zpos"				"5"
 		"wide"				"45"
 		"tall"				"45"
@@ -113,8 +113,8 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"BlueLeaderAvatarBG"
-		"xpos"					"14"
-		"ypos"					"14"
+		"xpos"					"6969"
+		"ypos"					"6969"
 		"zpos"					"4"
 		"wide"					"49"
 		"tall"					"49"
@@ -167,8 +167,8 @@
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"			"RedLeaderAvatar"
-		"xpos"				"560"
-		"ypos"				"16"
+		"xpos"				"6969"
+		"ypos"				"6969"
 		"zpos"				"5"
 		"wide"				"45"
 		"tall"				"45"
@@ -182,8 +182,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RedLeaderAvatarBG"
-		"xpos"			"578"
-		"ypos"			"14"
+		"xpos"			"6969"
+		"ypos"			"6969"
 		"zpos"			"4"
 		"wide"			"49"
 		"tall"			"49"
