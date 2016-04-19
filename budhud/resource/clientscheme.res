@@ -156,6 +156,7 @@ Scheme
 		// training
 		"HudTrainingHint"						"255 255 255 255"
 		
+		"TanLight"								"255 255 255 255"
 		"TanDark"								"150 150 150 255"
 		"TanDarker"								"150 150 150 255"
 		

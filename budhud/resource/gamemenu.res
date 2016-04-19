@@ -8,9 +8,9 @@
 		"tooltip"		"Show information about the hud"
 		"command" 		"engine con_enable 1;showconsole;clear;
 		echo ==============================================;
-		echo BUDHUD, 28/MARCH/2016 by Whisker;
+		echo BUDHUD, 19/APRIL/2016 by Whisker;
 		echo ==============================================;
-		echo Report Issues: github.com/WhiskerBiscuit/budhud/issues;
+		echo Report Issues: github.com/rbjaxter/budhud/issues;
 		echo HUD GROUP: steamcommunity.com/groups/budhud;
 		echo ==============================================;
 		echo TF2 Charity Fundraiser Site: tipofthehats.org;

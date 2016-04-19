@@ -1,12 +1,12 @@
 "Resource/UI/HudMedicCharge.res"
 {	
-	/////////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Medic Uber % Below Crosshair
-	// bh_xhairchargelabel
-	// ======================================================================= //
+	// >> bh_xhairchargelabel
+	// ============================================================================================== //
 	// Shows uber percentage below your crosshair (broken with vaccinator)
 	// Set visible/enabled to 1 to enable
-	/////////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	"bh_xhairchargelabel"
 	{
 		"ControlName"	"CExLabel"
@@ -29,7 +29,7 @@
 		"fgcolor"		"bh_white"
 	}	
 	
-	/////////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	"Background"
 	{
@@ -52,7 +52,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c60"
+		"xpos"			"c65"
 		"ypos"			"301"
 		"zpos"			"2"
 		"wide"			"200"
@@ -96,7 +96,7 @@
 		"fieldName"			"ChargeMeter"
 		"font"				"Default"
 		"xpos"				"c-50"
-		"ypos"				"c115"
+		"ypos"				"c108"
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"6"				
@@ -116,7 +116,7 @@
 		"fieldName"			"ChargeMeter1"
 		"font"				"Default"
 		"xpos"				"c-50"
-		"ypos"				"c103"
+		"ypos"				"c99"
 		"zpos"				"2"
 		"wide"				"48"
 		"tall"				"6"			
@@ -136,8 +136,8 @@
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter2"
 		"font"				"Default"
-		"xpos"				"c3"
-		"ypos"				"c103"
+		"xpos"				"c2"
+		"ypos"				"c99"
 		"zpos"				"2"
 		"wide"				"48"
 		"tall"				"6"				
@@ -158,7 +158,7 @@
 		"fieldName"			"ChargeMeter3"
 		"font"				"Default"
 		"xpos"				"c-50"
-		"ypos"				"c114"
+		"ypos"				"c108"
 		"zpos"				"2"
 		"wide"				"48"
 		"tall"				"6"			
@@ -178,8 +178,8 @@
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter4"
 		"font"				"Default"
-		"xpos"				"c3"
-		"ypos"				"c114"
+		"xpos"				"c2"
+		"ypos"				"c108"
 		"zpos"				"2"
 		"wide"				"48"
 		"tall"				"6"
@@ -222,7 +222,7 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"scaleImage"	"1"	
 	}
-
+	
 	// UBER TRACKING BAR
 
 	"UberLabel"
