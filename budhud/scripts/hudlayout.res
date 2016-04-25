@@ -1442,8 +1442,10 @@
 		"enabled"					"1"
 		"xpos"						"c-112"
 		"ypos"						"270"
+		"zpos"						"4"
 		"wide"						"500"
 		"tall"						"300"
+		"proportionaltoparent"		"1"
 	}	
 	
 	ArenaWinPanel	
@@ -2061,18 +2063,6 @@
 	HudMatchStatus
 	{
 		"fieldName"				"HudMatchStatus"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"2"
-		"wide"					"f0"
-		"tall"					"f0"
-	}
-
-	HudTeamStatus
-	{
-		"fieldName"				"HudTeamStatus"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
