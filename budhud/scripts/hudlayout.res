@@ -1446,7 +1446,7 @@
 		"wide"						"500"
 		"tall"						"300"
 		"proportionaltoparent"		"1"
-	}	
+	}
 	
 	ArenaWinPanel	
 	{	

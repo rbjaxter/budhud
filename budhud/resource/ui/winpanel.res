@@ -12,7 +12,7 @@
 
 		"BlueScoreBG"
 		{
-			"ControlName"			"ImagePanel"
+			"ControlName"			"EditablePanel"
 			"fieldName"				"BlueScoreBG"
 			"xpos"					"0"
 			"ypos"					"15"
@@ -28,7 +28,7 @@
 		}
 		"RedScoreBG"
 		{
-			"ControlName"			"ImagePanel"
+			"ControlName"			"EditablePanel"
 			"fieldName"				"RedScoreBG"
 			"xpos"					"112"
 			"ypos"					"15"
@@ -202,23 +202,20 @@
 			"bgcolor_override"		"117 107 94 255"
 		}
 	}
-	"WinPanelBG"
+	"WinPanelBGBorder"
 	{
-		"ControlName"				"ImagePanel"
-		"fieldName"					"WinPanelBG"
+		"ControlName"				"EditablePanel"
+		"fieldName"					"WinPanelBGBorder"
 		"xpos"						"6969"
 		"ypos"						"6969"
 		"zpos"						"0"
-		"wide"						"500"
-		"tall"						"80"
+		"wide"						"224"
+		"tall"						"107"
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"	
-		"fillcolor"					"0 0 0 100"
-		"src_corner_height"			"3"
-		"src_corner_width"			"3"
-		"draw_corner_width"			"0"
-		"draw_corner_height"		"0"		
+		"border"					"BackpackItemGrayedOut"
+		"proportionaltoparent"		"1"
 	}
 	"bh_e_background"
 	{
