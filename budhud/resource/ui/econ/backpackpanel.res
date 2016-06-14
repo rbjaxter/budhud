@@ -372,7 +372,7 @@
 			"pinCorner"			"0"
 			"autoResize"		"0"
 			"PaintBackgroundType" "1"
-			"border"			"bh_b_main"
+			"border"			"NoBorder"
 			"bgcolor_override"	"35 35 35 255"
 			
 			"attriblabel"

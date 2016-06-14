@@ -180,21 +180,21 @@
 		{
 			"ControlName"	"CItemMaterialCustomizationIconPanel"
 			"fieldName"		"paint_icon"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"4"
+			"ypos"			"4"
 			"zpos"			"2"
-			"wide"			"16"
-			"tall"			"16"
+			"wide"			"11"
+			"tall"			"11"
 			"visible"		"0"
 			"enabled"		"1"
-
+			"scaleimage"	"1"
 		}
 
 		"quantitylabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"quantitylabel"
-			"font"			"bh_Lato12"
+			"font"			"bh_Lato9"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -206,12 +206,12 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"center"
-			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
+			"fgcolor"		"bh_orange"
+			"bgcolor_override"		"0 0 0 225"
 			"PaintBackgroundType"	"0"
 			"border"		"NoBorder"
 		}
-
+	
 		"serieslabel"
 		{
 			"ControlName"	"CExLabel"
@@ -228,8 +228,8 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"center"
-			"fgcolor"		"200 180 60 255"
-			"bgcolor_override"		"0 0 0 255"
+			"fgcolor"		"bh_orange"
+			"bgcolor_override"		"0 0 0 225"
 			"PaintBackgroundType"	"0"
 			"border"		"NoBorder"
 		}
@@ -264,8 +264,8 @@
 			"zpos"			"2"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"wide"			"16"
-			"tall"			"16"
+			"wide"			"11"
+			"tall"			"11"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"
@@ -279,8 +279,8 @@
 			"zpos"			"2"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"wide"			"16"
-			"tall"			"16"
+			"wide"			"11"
+			"tall"			"11"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"
@@ -294,13 +294,12 @@
 			"zpos"			"2"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"wide"			"16"
-			"tall"			"16"
+			"wide"			"11"
+			"tall"			"11"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-
 		"is_loaner_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -310,8 +309,8 @@
 			"zpos"			"2"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"wide"			"16"
-			"tall"			"16"
+			"wide"			"11"
+			"tall"			"11"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"

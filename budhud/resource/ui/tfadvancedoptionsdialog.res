@@ -141,7 +141,7 @@
 		"visible"						"0"
 		"paintborder"					"1"
 		"paintbackground"				"1"
-		"border"						"bh_b_main"
+		"border"						"ReplayGrayDialogBorder"
 		"bgcolor_override"				"25 25 25 255"
 		
 		"TipLabel"

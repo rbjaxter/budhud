@@ -1,12 +1,19 @@
 "Resource/UI/HudItemEffectMeter_PowerupBottles.res"
 {
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Affected Weapons
+	// ============================================================================================== //
+	// MvM Canteen
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
 	HudItemEffectMeter
 	{
 		"fieldName"				"HudItemEffectMeter"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"r120"
-		"ypos"					"c195"
+		"xpos"					"r140"
+		"ypos"					"c196"
 		"wide"					"f0"
 		"tall"					"f0"
 		"MeterFG"				"bh_white"

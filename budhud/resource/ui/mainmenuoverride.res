@@ -236,14 +236,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"6969"
-		"ypos"			"6969"
+		"xpos"			"6969"					// 325
+		"ypos"			"6969"					// 150
 		"zpos"			"-99"
-		"wide"			"600"
-		"tall"			"600"
-		"visible"		"0"
+		"wide"			"400"
+		"tall"			"400"
+		"visible"		"1"
 		"enabled"		"0"
-		"scaleImage"	"1"
+		"scaleImage"	"0"
 	}
 	
 	"MainMenuBGPanel"
@@ -290,7 +290,7 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"ReplayGrayDialogBorder"
 		
 		"TipSubLabel"
 		{
@@ -2167,8 +2167,8 @@
 	{
 		"ControlName"						"ImagePanel"
 		"fieldname"							"CompetitiveBetaImage"
-		"xpos"								"315"
-		"ypos"								"95"
+		"xpos"								"6969"		// 315
+		"ypos"								"6969"		// 95
 		"zpos"								"11"
 		"wide"								"30"
 		"tall"								"30"
@@ -2185,8 +2185,8 @@
 		
 		if_competitive_stress_event
 		{
-			"xpos"							"315"
-			"ypos"							"85"
+			"xpos"							"6969"		// 315
+			"ypos"							"6969"		// 85
 			"wide"							"56"
 			"tall"							"56"
 			"image"							"replay\thumbnails\tyrone"
@@ -2369,6 +2369,24 @@
 			}
 		}
 	}
+	
+	"bh_menugif"
+	{
+		"ControlName"					"ImagePanel"
+		"fieldName"						"bh_menugif"
+		"xpos"							"0"
+		"ypos"							"0"
+		"zpos"							"0"		
+		"wide"							"f0"
+		"tall"							"f0"
+		"autoResize"					"0"
+		"pinCorner"						"0"
+		"visible"						"0"								// Set "visible" and "enabled" to "1"
+		"enabled"						"0"								// to enable the menu background GIF
+		"paintborder"					"0"
+		"image"							"replay\thumbnails\menugif"
+		"scaleImage"					"1"
+	}	
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 

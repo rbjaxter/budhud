@@ -8,7 +8,7 @@
 		"tooltip"		"Show information about the hud"
 		"command" 		"engine con_enable 1;showconsole;clear;
 		echo ==============================================;
-		echo BUDHUD, 2/MAY/2016 by Whisker;
+		echo BUDHUD, June 14th, 2016 by Whisker;
 		echo ==============================================;
 		echo Report Issues: github.com/rbjaxter/budhud/issues;
 		echo HUD GROUP: steamcommunity.com/groups/budhud;
@@ -30,9 +30,9 @@
 	"Favorite1"
 	{
 		"label"			""			// Leave blank
-		"command" 		"engine connect 192.223.26.43:27015"
+		"command" 		"engine connect 66.151.138.88:27015"
 		"OnlyAtMenu" 	"0"
-		"tooltip" 		"jump.tf | Beginners (East)"	// Change if you'd like
+		"tooltip" 		"jump.tf | Beginners (West)"	// Change if you'd like
 	}
 	"Favorite2"
 	{

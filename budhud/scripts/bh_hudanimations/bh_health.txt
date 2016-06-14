@@ -37,7 +37,7 @@
 		Animate			PlayerStatusHealthBonusImage 				Alpha			"0"						Linear 0.125 0.075
 		Animate 		PlayerStatusHealthValue						fgcolor			"bh_HealthLow"			Linear 0.0 0.2
 		
-		RunEvent 		HudHealthDyingPulseLoop	0.25
+		RunEvent 		HudHealthDyingPulseLoop	0.01
 	}
 	
 	// call to loop HudHealthDyingPulse

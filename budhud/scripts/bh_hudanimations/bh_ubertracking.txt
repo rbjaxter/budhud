@@ -1,7 +1,20 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// UBER TRACKING HUD MOD
+	// Uber Tracking
+	// ============================================================================================== //
+	// See budhud\_Customization_\Uber Tracking\Instructions.txt for information
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
+	event MenuClose
+	{
+		Animate 		HudMenu 		Alpha 				"0" Linear 0.0 1
+		Animate 		HudMenu 		SelectionAlpha 		"0" Linear 0.0 1
+		Animate 		HudMenu 		FgColor				"0 0 0 0" Linear 0.0 1
+		Animate 		HudMenu 		MenuColor			"0 0 0 0" Linear 0.0 1
+		Animate 		HudMenu 		ItemColor			"0 0 0 0" Linear 0.0 1
+		RunEvent 		FillUber 		0.0
+		RunEvent 		FillKritz 		0.0
+	}
+	
 	event FillUber
 	{
 		RunEvent ClearUber 0.0

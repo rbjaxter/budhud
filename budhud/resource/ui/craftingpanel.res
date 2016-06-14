@@ -458,7 +458,7 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"ReplayGrayDialogBorder"
 		
 		"TipLabel"
 		{

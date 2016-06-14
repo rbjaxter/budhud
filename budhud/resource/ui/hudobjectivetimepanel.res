@@ -102,15 +102,11 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"OvertimeLabel"
-		"xpos"						"16"
-		"ypos"						"33"
+		"xpos"						"22"
+		"ypos"						"13"
 		"zpos"						"5"
-		"wide"						"78"
-		"wide_hidef"				"300"
-		"wide_lodef"				"300"
-		"tall"						"19"
-		"tall_hidef"				"19"
-		"tall_lodef"				"22"
+		"wide"						"70"
+		"tall"						"25"
 		"visible"					"0"
 		"enabled"					"1"
 		"labelText"					"#game_Overtime"
@@ -118,9 +114,8 @@
 		"dulltext"					"0"
 		"brighttext"				"0"
 		"wrap"						"0"
-		"font"						"ClockSubText"
-		"font_hidef"				"HudFontSmall"
-		"font_lodef"				"HudFontSmall"
+		"font"						"bh_Lato14"
+		"bgcolor_override"					"bh_orange"
 
 		if_comp
 		{
@@ -208,8 +203,8 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"SetupLabel"
-		"xpos"						"16"
-		"ypos"						"33"
+		"xpos"						"17"
+		"ypos"						"34"
 		"zpos"						"5"
 		"wide"						"78"
 		"wide_hidef"				"300"

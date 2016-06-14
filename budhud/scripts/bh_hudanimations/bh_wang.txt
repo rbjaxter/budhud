@@ -1,0 +1,15 @@
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup	Position	"c-90 -70"		Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-90 70"		Spline 0.001 0.2
+	Animate the_wang_who_peaks	Position	"c-50 435"		Spline 0.001 0.2
+	Animate the_wang_who_peaks	Position	"c-50 435"		Linear 0.0 0.001
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup	Position	"c-90 70"		Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-90 -70"		Spline 0.001 0.2
+	Animate the_wang_who_peaks	Position	"c-50 435"		Linear 0.0 0.001
+	Animate the_wang_who_peaks	Position	"c-50 500"		Spline 0.001 0.2
+}
