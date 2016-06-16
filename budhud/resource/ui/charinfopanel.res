@@ -50,7 +50,7 @@
 		"ControlName"							"ImagePanel"
 		"fieldName"								"BackgroundFooter"
 		"xpos"									"0"
-		"ypos"									"420"
+		"ypos"									"r60"
 		"zpos"									"0"
 		"wide"									"f0"
 		"tall"									"60"
