@@ -161,6 +161,21 @@
 		"draw_corner_height" 			"0"
 	}
 	
+	"CountdownBG"
+	{
+		"ypos"							"6969"
+		
+		if_competitive
+		{
+			"ypos"						"6969"
+		}
+		
+		if_readymode
+		{
+			"ypos"						"6969"
+		}
+	}
+	
 	"HudTournamentREDBG"
 	{
 		"xpos"							"c0"
