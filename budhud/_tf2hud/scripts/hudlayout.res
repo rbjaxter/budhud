@@ -17,9 +17,9 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"r95"	[$WIN32]
-		"xpos_minmode"	"r85"	[$WIN32]
+		"xpos_disabled"	"r85"	[$WIN32]
 		"ypos"	"r55"	[$WIN32]
-		"ypos_minmode"	"r36"	[$WIN32]
+		"ypos_disabled"	"r36"	[$WIN32]
 		"xpos"	"r131"	[$X360]
 		"ypos"	"r77"	[$X360]
 		"wide"	"94"
@@ -48,10 +48,10 @@
 		"tall"	"160"
 		
 		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
+		"blue_active_xpos_disabled"	"55"
 	
 		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
+		"red_active_xpos_disabled"	"105"
 	}	
 
 	HudItemEffectMeter
@@ -60,9 +60,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
+		"xpos_disabled"	"r52"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r50"	[$WIN32]
+		"ypos_disabled"	"r50"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"100"
@@ -77,9 +77,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r138"	[$WIN32]
-		"xpos_minmode"	"r100"	[$WIN32]
+		"xpos_disabled"	"r100"	[$WIN32]
 		"ypos"			"r69"	[$WIN32]
-		"ypos_minmode"	"r34"	[$WIN32]
+		"ypos_disabled"	"r34"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
 		"wide"			"200"
@@ -92,14 +92,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
+		"xpos_disabled"	"r52"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
+		"ypos_disabled"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
-		"wide_minmode"	"50"
+		"wide_disabled"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -111,14 +111,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
+		"xpos_disabled"	"r52"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
+		"ypos_disabled"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
-		"wide_minmode"	"50"
+		"wide_disabled"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -130,14 +130,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
+		"xpos_disabled"	"r52"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
+		"ypos_disabled"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
-		"wide_minmode"	"50"
+		"wide_disabled"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -165,8 +165,8 @@
 		"ypos" 	"0"
 		"tall"	"480"
 		"RightMargin" "0"
-		"RightMargin_hidef" "32"
-		"RightMargin_lodef" "38"
+		"RightMargin_disabled" "32"
+		"RightMargin_disabled" "38"
 		"visible" "1"
 		"enabled" "1"
 		"SmallBoxWide" "72"
@@ -201,7 +201,7 @@
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"r162"	[$WIN32]
 		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
+		"ypos_disabled"			"r134"	[$WIN32]
 		"xpos"					"r194"	[$X360]
 		"ypos"					"r174"	[$X360]
 		"wide"					"116"
@@ -215,9 +215,9 @@
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"76"
-		"xpos_minmode"			"61"
+		"xpos_disabled"			"61"
 		"ypos"					"r152"
-		"ypos_minmode"			"r134"
+		"ypos_disabled"			"r134"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -261,11 +261,11 @@
 		"ypos"		"285"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall_disabled"	 	"28"
 		"priority"	"40"
-		"priority_lodef"	"5"
+		"priority_disabled"	"5"
 
-		if_vr
+		disabled_vr
 		{
 			"ypos"		"370"
 			"x_offset"	"20"
@@ -281,9 +281,9 @@
 		"ypos"		"250"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall_disabled"	 	"28"
 		"priority"	"40"
-		"priority_lodef" "35"
+		"priority_disabled" "35"
 		
 		"x_offset" "20"
 		"y_offset" "20"
@@ -298,10 +298,10 @@
 		"ypos"		"335"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall_disabled"	 	"28"
 		"priority"	"35"
 
-		if_vr
+		disabled_vr
 		{
 			"ypos"		"330"
 			"x_offset"	"20"
@@ -330,11 +330,11 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
+		"xpos_disabled"		"32"
+		"xpos_disabled"		"40"
 		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
+		"ypos_disabled"		"16"
+		"ypos_disabled"		"25"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -897,13 +897,13 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-133"
-		"xpos_lodef"			"c-190"
+		"xpos_disabled"			"c-190"
 		"ypos"				"270"
-		"ypos_lodef"			"250"
+		"ypos_disabled"			"250"
 		"wide"					"266"
-		"wide_lodef"			"400"
+		"wide_disabled"			"400"
 		"tall"					"120"
-		"tall_lodef"			"190"
+		"tall_disabled"			"190"
 	}
 	
 	FreezePanel
@@ -1023,8 +1023,8 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
+		"ypos_disabled"	"c-42"
+		"ypos_disabled"	"c-42"
 		"wide"			"470"
 		"tall"			"200"	[$WIN32]
 		"tall"			"180"	[$X360]
@@ -1037,9 +1037,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
+		"xpos_disabled"	"r110"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
+		"ypos_disabled"	"r30"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"100"
@@ -1053,7 +1053,7 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"65"
-		"ypos_lodef"			"75"
+		"ypos_disabled"			"75"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -1066,7 +1066,7 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"15"
-		"ypos_lodef"			"75"
+		"ypos_disabled"			"75"
 		"wide"					"320"
 		"tall"					"300"
 	}
@@ -1078,8 +1078,8 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"			"90"
+		"ypos_disabled"				"90"
+		"ypos_disabled"			"90"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -1091,8 +1091,8 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"				"90"
+		"ypos_disabled"				"90"
+		"ypos_disabled"				"90"
 		"wide"					"320"
 		"tall"					"150"
 	}
@@ -1116,7 +1116,7 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"65"
-		"ypos_lodef"				"75"
+		"ypos_disabled"				"75"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -1127,7 +1127,7 @@
 		"enabled"				"1"
 		"xpos"					"c-125"
 		"ypos"					"5"
-		"ypos_lodef"				"75"
+		"ypos_disabled"				"75"
 		"zpos"					"2"
 		"wide"					"250"
 		"tall"					"80"
@@ -1140,7 +1140,7 @@
 		"enabled"				"1"
 		"xpos"					"c-90"
 		"ypos"					"-70"
-		"ypos_lodef"				"75"
+		"ypos_disabled"				"75"
 		"wide"					"180"
 		"tall"					"65"
 	}
@@ -1152,8 +1152,8 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"5"
-		"ypos_minmode"				"15"
-		"ypos_lodef"				"75"
+		"ypos_disabled"				"15"
+		"ypos_disabled"				"75"
 		"wide"					"125"
 		"tall"					"70"
 	}
@@ -1402,8 +1402,8 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
+		"ypos_disabled"	"c-42"
+		"ypos_disabled"	"c-42"
 		"wide"			"470"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"

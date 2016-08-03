@@ -39,7 +39,7 @@
 		"image"			"../hud/score_panel_blue_bg_solid"
 		"scaleImage"		"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -58,7 +58,7 @@
 		"image"			"../hud/team_blue"
 		"scaleImage"		"1"
 
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -106,7 +106,7 @@
 		"image"			"../hud/score_panel_red_bg_solid"
 		"scaleImage"		"1"
 
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -126,7 +126,7 @@
 		"image"			"../hud/team_red"
 		"scaleImage"		"1"
 
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -174,7 +174,7 @@
 		"enabled"		"1"
 		"border"		"TFThinLineBorder"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"ypos"			"0"
 			"tall"			"448"
@@ -197,7 +197,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -219,7 +219,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -242,7 +242,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -263,7 +263,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -285,7 +285,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -307,7 +307,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -330,7 +330,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -351,7 +351,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -364,9 +364,9 @@
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"			"11"
-		"xpos_hidef"	"31"
+		"xpos_disabled"	"31"
 		"ypos"			"60"
-		"ypos_lodef"	"62"
+		"ypos_disabled"	"62"
 		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -374,7 +374,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"ypos"			"0"
 			"visible"		"1"
@@ -395,7 +395,7 @@
 		"enabled"		"1"
 		"border"		"TFThinLineBorder"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -415,7 +415,7 @@
 		"enabled"		"1"
 		"border"		"TFFatLineBorderOpaque"
 
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -437,7 +437,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -461,7 +461,7 @@
 		"fgcolor"		"BrightYellow"
 		"centerwrap"	"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -482,7 +482,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"ypos"			"0"
 			"visible"		"1"
@@ -507,7 +507,7 @@
 		"fgcolor"		"blue"
 		//"show_columns"	"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -531,7 +531,7 @@
 		"fgcolor"		"red"
 		//"show_columns"	"1"
 
- 		if_mvm
+ 		disabled_mvm
  		{
  			"visible"		"0"
  		}
@@ -553,7 +553,7 @@
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -575,7 +575,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"ypos"		"428"
 		}
@@ -597,7 +597,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -619,7 +619,7 @@
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"1"
 		}
@@ -629,7 +629,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ClassImage"
 		"xpos"			"22"
-		"xpos_lodef"	"12"
+		"xpos_disabled"	"12"
 		"ypos"			"350"
 		"zpos"			"3"
 		"wide"			"92"
@@ -639,7 +639,7 @@
 		"image"			"../hud/class_scoutred"
 		"scaleImage"		"1"	
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"1"
 		}
@@ -665,7 +665,7 @@
 
 		"disable_speak_event"	"1"
 
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -852,7 +852,7 @@
 		"enabled"		"1"
 		"border"		"TFThinLineBorder"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -874,7 +874,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"1"
 			"wide"			"175"
@@ -897,7 +897,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -920,7 +920,7 @@
 		"enabled"		"1"
 		"fgcolor"		"236 227 203 255"
 
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -942,7 +942,7 @@
 		"fillcolor"		"127 127 127 153"
 		"PaintBackgroundType"	"0"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"1"
 		}
@@ -964,7 +964,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -984,7 +984,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -1195,7 +1195,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"1"
 		}
@@ -1929,7 +1929,7 @@
 		
 		"verbose"			"1"
 		
-		if_mvm
+		disabled_mvm
 		{
 			"visible"		"1"
 		}

@@ -76,12 +76,16 @@ Scheme
 			"bh_lblue"							"000 153 255 255"
 			"bh_dgray"							"100 100 100 255"
 			"bh_gray"							"150 150 150 255"
+			"bh_gray_t"							"150 150 150 064"
 			"bh_lorange"						"243 157 048 255"
 			"bh_dorange"						"204 093 027 255"
 			"bh_orange"							"240 134 049 255"
+			"bh_orange_t"						"240 134 049 064"
 			"bh_green"							"000 215 000 255"
 			"bh_red"							"215 000 000 255"
-			"bh_blue"							"000 153 255 255"
+			"bh_red_t"							"228 000 027 064"
+			"bh_blue"							"076 108 133 255"
+			"bh_blue_t"							"076 108 133 064"
 		
 		// One of these 5 controls HudHintDisplay / HudHintKeyDisplay color
 		// (surf timer, etc)

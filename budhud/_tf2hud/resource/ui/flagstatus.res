@@ -27,7 +27,7 @@
 		"image"			"../hud/objectives_flagpanel_briefcase"
 		"scaleImage"	"1"
 		
-		"if_mvm"
+		"disabled_mvm"
 		{
 			"xpos"			"62"
 			"ypos"			"21"
@@ -49,7 +49,7 @@
 		"image"			"../hud/objectives_flagpanel_ico_flag_home"
 		"scaleImage"	"1"	
 		
-		"if_mvm"
+		"disabled_mvm"
 		{
 			"visible"	"0"
 		}
