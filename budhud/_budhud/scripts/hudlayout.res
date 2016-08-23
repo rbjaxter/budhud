@@ -46,8 +46,8 @@
 		"tall"				"480"
 
 
-		"enabled"			"1"									// Set both to "1"
-		"visible"			"1"			  						// to enable
+		"enabled"			"0"									// Set both to "1"
+		"visible"			"0"			  						// to enable
         
 		"labeltext"			"f"           						// Change this to use a different crosshair
         
