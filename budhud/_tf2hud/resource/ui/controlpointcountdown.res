@@ -5,7 +5,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CapCountdownLabel"
 		"font"			"HudFontMedium"
-		"font_minmode"		"HudFontMediumSmall"
+		"font_disabled"		"HudFontMediumSmall"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"

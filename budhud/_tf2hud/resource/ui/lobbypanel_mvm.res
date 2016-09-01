@@ -1218,7 +1218,7 @@
 		"NavLeft"		"<<Sheet"
 		"NavRight"		"<<StartPartyButton"
 
-		"if_competitive"
+		"disabled_competitive"
 		{
 			"ypos"		"35"
 		}

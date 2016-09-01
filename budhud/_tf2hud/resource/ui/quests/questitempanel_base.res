@@ -411,99 +411,99 @@
 					"scaleImage"	"1"	
 					"proportionaltoparent"	"1"	
 
-					if_brazilian
+					disabled_brazilian
 					{
 						"image"			"contracts/accepted_brazilian"
 					}
-					if_czech
+					disabled_czech
 					{
 						"image"			"contracts/accepted_czech"
 					}
-					if_danish
+					disabled_danish
 					{
 						"image"			"contracts/accepted_danish"
 					}
-					if_dutch
+					disabled_dutch
 					{
 						"image"			"contracts/accepted_dutch"
 					}
-					if_finnish
+					disabled_finnish
 					{
 						"image"			"contracts/accepted_finnish"
 					}
-					if_french
+					disabled_french
 					{
 						"image"			"contracts/accepted_french"
 					}
-					if_german
+					disabled_german
 					{
 						"image"			"contracts/accepted_german"
 					}
-					if_greek
+					disabled_greek
 					{
 						"image"			"contracts/accepted_greek"
 					}
-					if_hungarian
+					disabled_hungarian
 					{
 						"image"			"contracts/accepted_hungarian"
 					}
-					if_italian
+					disabled_italian
 					{
 						"image"			"contracts/accepted_italian"
 					}
-					if_japanese
+					disabled_japanese
 					{
 						"image"			"contracts/accepted_japanese"
 					}
-					if_korean
+					disabled_korean
 					{
 						"image"			"contracts/accepted_korean"
 					}
-					if_koreana
+					disabled_koreana
 					{
 						"image"			"contracts/accepted_korean"
 					}
-					if_norwegian
+					disabled_norwegian
 					{
 						"image"			"contracts/accepted_norwegian"
 					}
-					if_polish
+					disabled_polish
 					{
 						"image"			"contracts/accepted_polish"
 					}
-					if_portuguese
+					disabled_portuguese
 					{
 						"image"			"contracts/accepted_portuguese"
 					}
-					if_romanian
+					disabled_romanian
 					{
 						"image"			"contracts/accepted_romanian"
 					}
-					if_russian
+					disabled_russian
 					{
 						"image"			"contracts/accepted_russian"
 					}
-					if_schinese
+					disabled_schinese
 					{
 						"image"			"contracts/accepted_schinese"
 					}
-					if_spanish
+					disabled_spanish
 					{
 						"image"			"contracts/accepted_spanish"
 					}
-					if_swedish
+					disabled_swedish
 					{
 						"image"			"contracts/accepted_swedish"
 					}
-					if_tchinese
+					disabled_tchinese
 					{
 						"image"			"contracts/accepted_tchinese"
 					}
-					if_turkish
+					disabled_turkish
 					{
 						"image"			"contracts/accepted_turkish"
 					}
-					if_ukrainian
+					disabled_ukrainian
 					{
 						"image"			"contracts/accepted_ukrainian"
 					}

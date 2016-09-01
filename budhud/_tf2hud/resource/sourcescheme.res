@@ -148,7 +148,7 @@ Scheme
 		{
 			"1"	[$X360]
 			{
-				"tall_hidef"		"24"
+				"tall_disabled"		"24"
 			}
 		}
 
@@ -158,7 +158,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"35"
-				"tall_lodef"	"40"
+				"tall_disabled"	"40"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"

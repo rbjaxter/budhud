@@ -25,8 +25,8 @@
 		"font"			"HudFontSmallBold"
 		"xpos"			"80"
 		"ypos"			"70"
-		//"ypos_hidef"	"23"
-		//"ypos_lodef"	"20"
+		//"ypos_disabled"	"23"
+		//"ypos_disabled"	"20"
 		"zpos"			"1"
 		"wide"			"230"	[$WIN32]
 		"wide"			"180"	[$X360]

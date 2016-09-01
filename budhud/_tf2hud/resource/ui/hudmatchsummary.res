@@ -131,7 +131,7 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"#GameUI_GameMenu_Disconnect"
 			"mouseinputenabled"	"1"
-
+			"keyboardinputenabled"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -228,7 +228,7 @@
 					"enabled"		"1"
 					"border"		"TFFatLineBorderBlueBGOpaque"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"39"
 					}
@@ -250,7 +250,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"43"
 					}
@@ -274,7 +274,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"44"
 					}
@@ -296,7 +296,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"43"
 					}
@@ -319,7 +319,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"44"
 					}
@@ -338,7 +338,7 @@
 					"image"			"../hud/team_blue"
 					"scaleImage"		"1"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"29"
 					}
@@ -375,7 +375,7 @@
 					"scaleImage"	"1"	
 					"color_outline"	"52 48 45 255"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"40"
 					}
@@ -393,7 +393,7 @@
 					"PaintBackgroundType"	"2"
 					"bgcolor_override"	"117 107 94 255"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"38"
 					}
@@ -410,7 +410,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"77"
 						"tall"			"340"
@@ -442,7 +442,7 @@
 						"stats_width"	"s.08"
 						"horiz_inset"	"5"
 
-						if_large
+						disabled_large
 						{
 							"tall"			"340"
 							"linegap"		"1"
@@ -464,7 +464,7 @@
 					"enabled"		"1"
 					"border"		"TFFatLineBorderClearBG"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"57"
 						"tall"			"360"
@@ -498,7 +498,7 @@
 					"enabled"		"1"
 					"border"		"TFFatLineBorderRedBGOpaque"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"39"
 					}
@@ -520,7 +520,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"43"
 					}
@@ -543,7 +543,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"44"
 					}
@@ -565,7 +565,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"43"
 					}
@@ -588,7 +588,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"44"
 					}
@@ -607,7 +607,7 @@
 					"image"			"../hud/team_red"
 					"scaleImage"		"1"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"20"
 					}
@@ -644,7 +644,7 @@
 					"scaleImage"	"1"	
 					"color_outline"	"52 48 45 255"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"40"
 					}
@@ -662,7 +662,7 @@
 					"PaintBackgroundType"	"2"
 					"bgcolor_override"	"117 107 94 255"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"38"
 					}
@@ -679,7 +679,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"77"
 						"tall"			"340"
@@ -711,7 +711,7 @@
 						"stats_width"	"s.08"
 						"horiz_inset"	"5"
 
-						if_large
+						disabled_large
 						{
 							"tall"			"340"
 							"linegap"		"1"
@@ -733,7 +733,7 @@
 					"enabled"		"1"
 					"border"		"TFFatLineBorderClearBG"
 
-					if_large
+					disabled_large
 					{
 						"ypos"			"57"
 						"tall"			"360"
@@ -752,7 +752,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 
-				if_large
+				disabled_large
 				{
 					"visible"		"0"
 				}
@@ -863,7 +863,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 
-				if_large
+				disabled_large
 				{
 					"visible"		"0"
 				}

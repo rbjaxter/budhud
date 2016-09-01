@@ -9,7 +9,7 @@
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
-		"ypos_minmode"		"-7"
+		"ypos_disabled"		"-7"
 		"visible"			"1"
 		"enabled"			"1"
 	}
@@ -52,8 +52,8 @@
 		"ypos"				"r100"
 		"wide"				"100"
 		"tall"				"100"
-		"xpos_minmode"		"65"
-		"ypos_minmode"		"r88"
+		"xpos_disabled"		"65"
+		"ypos_disabled"		"r88"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
@@ -66,8 +66,8 @@
 		"ypos"				"r15"
 		"wide"				"100"
 		"tall"				"100"
-		"xpos_minmode"		"145"
-		"ypos_minmode"		"r12"
+		"xpos_disabled"		"145"
+		"ypos_disabled"		"r12"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}

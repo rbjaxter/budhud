@@ -22,7 +22,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"fillcolor"				"70 130 180 155"
+			"fillcolor"				"bh_blue_t"
 			"scaleImage"			"1"
 			
 		}
@@ -38,7 +38,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"fillcolor"				"205 50 50 155"
+			"fillcolor"				"bh_red_t"
 			"scaleImage"			"1"
 		}
 		"BlueTeamLabel"

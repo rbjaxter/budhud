@@ -26,7 +26,7 @@
 		"progress_xpos"		"79"
 		"progress_wide"		"270"
 		
-		"if_blue_is_top"
+		"disabled_blue_is_top"
 		{
 			"ypos"				"r176"
 		}
@@ -46,7 +46,7 @@
 		"progress_xpos"		"79"
 		"progress_wide"		"270"
 		
-		"if_red_is_top"
+		"disabled_red_is_top"
 		{
 			"ypos"				"r176"
 		}

@@ -14,9 +14,9 @@
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
+		"teambg_2_disabled"	"../hud/misc_ammo_area_red_disabled"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3_disabled"	"../hud/misc_ammo_area_blue_disabled"				
 	}
 	
 	"SoldierImage"
@@ -76,7 +76,7 @@
 		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"20"
-		"tall_lodef"	"28"
+		"tall_disabled"	"28"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -87,7 +87,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontMedium"
-		"font_lodef"	"HudFontMediumBig"
+		"font_disabled"	"HudFontMediumBig"
 	}
 	"NumPipesLabelDropshadow"
 	{
@@ -98,7 +98,7 @@
 		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"20"
-		"tall_lodef"	"28"
+		"tall_disabled"	"28"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -109,7 +109,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontMedium"
-		"font_lodef"	"HudFontMediumBig"
+		"font_disabled"	"HudFontMediumBig"
 		"fgcolor"		"black"
 	}		
 }

@@ -23,7 +23,7 @@
 		"color_blue"			"84 111 127 255"
 		"color_red"				"171 59 59 255"
 
-		"if_hybrid"
+		"disabled_hybrid"
 		{
 			"zpos"			"-1"
 		}
@@ -65,17 +65,17 @@
 		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"
 		
-		"if_hybrid"
+		"disabled_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"disabled_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"disabled_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -97,20 +97,20 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
+		"image_disabled"	"../hud/objectives_flagpanel_bg_playingto_disabled"
 		"scaleImage"	"1"	
 		
-		"if_hybrid"
+		"disabled_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"disabled_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"disabled_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -177,15 +177,15 @@
 			"zpos"			"11"
 			"wide"			"100"
 			"tall"			"35"
-			"tall_hidef"	"100"
-			"tall_lodef"	"75"
+			"tall_disabled"	"100"
+			"tall_disabled"	"75"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
 			"font"			"HudFontMediumBold"
-			"font_hidef"	"HudFontGiant"
-			"font_lodef"	"HudFontGiant"
+			"font_disabled"	"HudFontGiant"
+			"font_disabled"	"HudFontGiant"
 			"fgcolor"		"TanLight"	
 			"proportionalToParent"	"1"	
 		}	
@@ -199,15 +199,15 @@
 			"zpos"			"11"
 			"wide"			"100"
 			"tall"			"35"
-			"tall_hidef"	"100"
-			"tall_lodef"	"75"
+			"tall_disabled"	"100"
+			"tall_disabled"	"75"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
 			"font"			"HudFontMediumBold"
-			"font_hidef"	"HudFontGiant"
-			"font_lodef"	"HudFontGiant"
+			"font_disabled"	"HudFontGiant"
+			"font_disabled"	"HudFontGiant"
 			"fgcolor"		"Black"	
 			"proportionalToParent"	"1"	
 		}
@@ -572,8 +572,8 @@
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
+				"font_disabled"	"HudFontGiant"
+				"font_disabled"	"HudFontGiant"
 				"fgcolor"		"TanLight"		
 				"proportionalToParent"	"1"
 			}	
@@ -592,8 +592,8 @@
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
+				"font_disabled"	"HudFontGiant"
+				"font_disabled"	"HudFontGiant"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}
@@ -627,8 +627,8 @@
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
+				"font_disabled"	"HudFontGiant"
+				"font_disabled"	"HudFontGiant"
 				"fgcolor"		"TanLight"	
 				"proportionalToParent"	"1"	
 			}	
@@ -647,8 +647,8 @@
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
+				"font_disabled"	"HudFontGiant"
+				"font_disabled"	"HudFontGiant"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}
