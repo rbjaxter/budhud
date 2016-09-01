@@ -5955,8 +5955,8 @@ Scheme
 			"color"					"QualityColorStrange"
 			
 			"image"					"backpack_rect_color"
-			"src_corner_height"		"0"				// pixels inside the image
-			"src_corner_width"		"0"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
