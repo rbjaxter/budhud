@@ -27,12 +27,12 @@
 			"ypos"			"0"
 			"zpos"			"0"
 			
-//			if_halloween
+//			disabled_halloween
 //			{
 //				"visible"		"1"
 //				"image"		"store/store_halloween_premium_callout"
 //			}
-			if_christmas
+			disabled_christmas
 			{
 				"visible"		"1"
 				"ypos"			"15"

@@ -167,7 +167,7 @@
 		"border"		"MainMenuBGBorder"
 		"proportionaltoparent"	"1"
 
-		if_mini
+		disabled_mini
 		{
 			"ypos"			"cs-0.5"
 			"tall"			"35"
@@ -184,7 +184,7 @@
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
-			if_mini
+			disabled_mini
 			{
 				"xpos"			"rs1-10"
 				"ypos"			"0"
@@ -321,7 +321,7 @@
 				"proportionaltoparent"	"1"
 				"bgcolor_override"	"0 0 0 150"
 
-				"if_mini"
+				"disabled_mini"
 				{
 					"visible"		"0"
 				}

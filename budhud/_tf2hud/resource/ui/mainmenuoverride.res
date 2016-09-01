@@ -176,84 +176,84 @@
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 
-		if_wider
+		disabled_wider
 		{
 			"wide"			"f0"
 			"tall"			"o0.628"
 		}
 
-		if_taller
+		disabled_taller
 		{
 			"wide"			"o1.6"
 			"tall"			"f0"
 		}
 		
-		if_halloween_0
+		disabled_halloween_0
 		{
 			"image"		"../console/title_team_halloween2011"
 		}
-		if_halloween_1
+		disabled_halloween_1
 		{
 			"image"		"../console/title_team_halloween2012"
 		}
-		if_halloween_2
+		disabled_halloween_2
 		{
 			"image"		"../console/title_team_halloween2013"
 		}
-		if_halloween_3
+		disabled_halloween_3
 		{
 			"image"		"../console/title_team_halloween2014"
 		}
-		if_halloween_4
+		disabled_halloween_4
 		{
 			"image"		"../console/title_team_halloween2015"
 		}
-		if_fullmoon
+		disabled_fullmoon
 		{
 			"image"		"../console/title_fullmoon"
 		}
-		if_christmas
+		disabled_christmas
 		{
 			"image"		"../console/background_xmas2011"
 		}
-//		if_eotl_launch
+//		disabled_eotl_launch
 //		{
 //			"image"		"../console/title_eotl01"
 //		}
-		if_spy_vs_engy_war
+		disabled_spy_vs_engy_war
 		{
 			"image"		"../console/background_sve_01"
 		}
-//		if_operation
+//		disabled_operation
 //		{
 //			"image"		"../console/title_team_tough_break"
 //		}
-//		if_community_update
+//		disabled_community_update
 //		{
 //			"image"		"../console/title_invasion"
 //		}
 
-		if_meet_your_match_0
+		disabled_meet_your_match_0
 		{
 			"xpos"		"rs1"
 			"image"		"../console/title_team_heavy01_blu_widescreen"
 		}
-		if_meet_your_match_1
+		disabled_meet_your_match_1
 		{
 			"xpos"		"rs1"
 			"image"		"../console/title_team_heavy01_red_widescreen"
 		}
-		if_meet_your_match_2
+		disabled_meet_your_match_2
 		{
 			"xpos"		"rs1"
 			"image"		"../console/title_team_pyro01_blu_widescreen"
 		}
-		if_meet_your_match_3
+		disabled_meet_your_match_3
 		{
 			"xpos"		"rs1"
 			"image"		"../console/title_team_pyro01_red_widescreen"
 		}
-		if_meet_your_match_4
+		disabled_meet_your_match_4
 		{
 			"image"		"../console/title_team_competitive_widescreen"
 		}
@@ -274,12 +274,12 @@
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 
-//		if_operation
+//		disabled_operation
 //		{
 //			"image"		"../logo/tough_break_logo"
 //		}
 
-		if_meet_your_match_0
+		disabled_meet_your_match_0
 		{
 			"xpos"			"c-300"
 			"ypos"			"0"
@@ -287,7 +287,7 @@
 			"tall"			"145"
 			"image"		"../logo/meet_your_match_logo"
 		}
-		if_meet_your_match_1
+		disabled_meet_your_match_1
 		{
 			"xpos"			"c-300"
 			"ypos"			"0"
@@ -295,7 +295,7 @@
 			"tall"			"145"
 			"image"		"../logo/meet_your_match_logo"
 		}
-		if_meet_your_match_2
+		disabled_meet_your_match_2
 		{
 			"xpos"			"c-300"
 			"ypos"			"0"
@@ -303,7 +303,7 @@
 			"tall"			"145"
 			"image"		"../logo/meet_your_match_logo"
 		}
-		if_meet_your_match_3
+		disabled_meet_your_match_3
 		{
 			"xpos"			"c-300"
 			"ypos"			"0"
@@ -311,7 +311,7 @@
 			"tall"			"145"
 			"image"		"../logo/meet_your_match_logo"
 		}
-		if_meet_your_match_4
+		disabled_meet_your_match_4
 		{
 			"xpos"			"c-300"
 			"ypos"			"0"
@@ -1520,6 +1520,22 @@
 					"desc_token"		"#MMenu_PlayList_Training_Desc"
 				}
 
+				"CreateServerEntry"
+				{
+					"ControlName"	"CMainMenuPlayListEntry"
+					"fieldName"		"CreateServerEntry"
+					"xpos"			"0"
+					"ypos"			"253"
+					"tall"			"45"
+					"wide"			"p1"
+					"proportionaltoparent"	"1"
+
+					"image_name"		"main_menu/main_menu_button_custom_server"
+					"button_token"		"#MMenu_PlayList_CreateServer_Button"
+					"button_command"	"OpenCreateMultiplayerGameDialog"
+					"desc_token"		"#MMenu_PlayList_CreateServer_Desc"
+				}
+
 				"ScrollBar"
 				{
 					"ControlName"	"ScrollBar"
@@ -1967,43 +1983,28 @@
 				{
 					"0"
 					{
-						"item"		"Tough Break Case 01 Pyroland"
-						"show_market"	"1"
+						"item"		"Competitive Matchmaking Official"
+						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Tough Break Case 02 Warbirds"
-						"show_market"	"1"
+						"item"		"Taunt: The Carlton"
+						"show_market"	"0"
 					}
 					"2"
 					{
-						"item"		"Tough Break Key"
+						"item"		"Taunt: The Balloonibouncer"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Tough Break Cosmetic Case"
-						"show_market"	"1"
+						"item"		"Taunt: Disco Fever"
+						"show_market"	"0"
 					}
 					"4"
 					{
-						"item"		"Tough Break Cosmetic Key"
+						"item"		"Taunt: The Fubar Fanfare"
 						"show_market"	"0"
-					}
-					"5"
-					{
-						"item"		"Taunt: Mannrobics"
-						"show_market"	"0"
-					}
-					"6"
-					{
-						"item"		"Mayflower Cosmetic Key"
-						"show_market"	"0"
-					}
-					"7"
-					{
-						"item"		"Mayflower Cosmetic Case"
-						"show_market"	"1"
 					}
 				}
 			}

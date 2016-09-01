@@ -1,3 +1,5 @@
+	#base	"..\..\_budhud\scripts\bh_gridme.res"
+
 "Resource/HudLayout.res"
 {
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1376,10 +1378,10 @@
 		"ypos"						"0"
 		"wide"						"200"
 		"tall"						"100"
-				
-		"blue_active_xpos"			"22"
-			
-		"red_active_xpos"			"114"
+
+		"blue_active_xpos"			"40"
+
+		"red_active_xpos"			"110"
 	}			
 
 	HudItemEffectMeter
@@ -2767,5 +2769,4 @@
 	//	bh_b_main 				- Basic gray outline border
 	//	bh_b_loadoutstats		- Same as bh_b_main except bottom line is removed 
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
-	
 }

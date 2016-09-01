@@ -78,7 +78,7 @@
 		"proportionaltoparent"	"1"
 		"fgcolor"		"TanLight"
 
-		if_readymode
+		disabled_readymode
 		{
 			"xpos"			"300"
 			"ypos"			"130"
@@ -106,7 +106,7 @@
 		"proportionaltoparent"	"1"
 
 	
-		if_readymode
+		disabled_readymode
 		{
 			"xpos"			"300"
 			"ypos"			"130"
@@ -221,7 +221,7 @@
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
 
-		if_match
+		disabled_match
 		{
 			"visible"		"1"
 		}
@@ -232,15 +232,15 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
-		"xpos_hidef"		"c-150"
-		"xpos_lodef"		"c-150"
+		"xpos_disabled"		"c-150"
+		"xpos_disabled"		"c-150"
 		"ypos"				"0"	[$WIN32]
-		"ypos_minmode"		"-14"	[$WIN32]
+		"ypos_disabled"		"-14"	[$WIN32]
 		"ypos"				"24"	[$X360]
 		"zpos"				"2"
 		"wide"				"110"
-		"wide_hidef"		"300"
-		"wide_lodef"		"300"
+		"wide_disabled"		"300"
+		"wide_disabled"		"300"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
@@ -253,11 +253,11 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 
-		if_match
+		disabled_match
 		{
 			"xpos"					"cs-0.5"
 			"wide"					"130"
-			"ypos_minmode"			"0"
+			"ypos_disabled"			"0"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -272,38 +272,38 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
+			"font_disabled"	"HudFontSmall"
+			"font_disabled"	"HudFontMedium"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
-			"xpos_minmode"	"39"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
+			"xpos_disabled"	"39"
+			"xpos_disabled"	"114"
+			"xpos_disabled"	"114"
 			"ypos"			"11"
-			"ypos_minmode"	"6"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
+			"ypos_disabled"	"6"
+			"ypos_disabled"	"15"
+			"ypos_disabled"	"18"
 			"zpos"			"3"
 			"wide"			"45"
-			"wide_minmode"	"30"
-			"wide_lodef"	"50"
+			"wide_disabled"	"30"
+			"wide_disabled"	"50"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 
-			if_match
+			disabled_match
 			{
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
 				"ypos"			"12"
-				"ypos_minmode"	"12"
+				"ypos_disabled"	"12"
 				"tall"			"10"
 				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
+				"font_disabled"	"HudFontSmall"
+				"font_disabled"	"HudFontSmall"
 			}
 		}	
 	}
@@ -583,7 +583,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 
-		if_large
+		disabled_large
 		{
 			"ypos"			"65"
 			"tall"			"385"
@@ -682,7 +682,7 @@
 			"linegap"		"4"
 			//"show_columns"	"1"
 
-			if_large
+			disabled_large
 			{
 				"tall"			"315"
 			}
@@ -702,7 +702,7 @@
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
 
-			if_large
+			disabled_large
 			{
 				"tall"			"325"
 			}
@@ -721,7 +721,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 
-		if_large
+		disabled_large
 		{
 			"ypos"			"65"
 			"tall"			"385"
@@ -820,7 +820,7 @@
 			"linegap"		"4"
 			//"show_columns"	"1"
 
-			if_large
+			disabled_large
 			{
 				"tall"			"315"
 			}
@@ -840,7 +840,7 @@
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
 
-			if_large
+			disabled_large
 			{
 				"tall"			"325"
 			}

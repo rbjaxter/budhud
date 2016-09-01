@@ -12,7 +12,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		
-		"if_hybrid"
+		"disabled_hybrid"
 		{
 			"zpos"			"-1"
 		}
@@ -33,17 +33,17 @@
 		"image"			"../hud/objectives_flagpanel_bg_left"
 		"scaleImage"	"1"	
 		
-		"if_hybrid"
+		"disabled_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"disabled_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"disabled_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -64,17 +64,17 @@
 		"image"			"../hud/objectives_flagpanel_bg_right"
 		"scaleImage"	"1"	
 		
-		"if_hybrid"
+		"disabled_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"disabled_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"disabled_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -95,17 +95,17 @@
 		"image"			"../hud/objectives_flagpanel_bg_outline"
 		"scaleImage"	"1"	
 		
-		"if_hybrid"
+		"disabled_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"disabled_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"disabled_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -117,33 +117,33 @@
 		"fieldName"		"BlueScore"
 		"xpos"			"c-130"
 		"ypos"			"r47"
-		"ypos_lodef"	"r88"
-		"ypos_hidef"	"r93"
+		"ypos_disabled"	"r88"
+		"ypos_disabled"	"r93"
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
+		"tall_disabled"	"100"
+		"tall_disabled"	"75"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBig"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
+		"font_disabled"	"HudFontGiant"
+		"font_disabled"	"HudFontGiant"
 		"fgcolor"		"TanLight"
 		
-		"if_hybrid"
+		"disabled_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"disabled_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"disabled_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -155,33 +155,33 @@
 		"fieldName"		"BlueScoreShadow"
 		"xpos"			"c-128"
 		"ypos"			"r46"
-		"ypos_lodef"	"r87"
-		"ypos_hidef"	"r92"
+		"ypos_disabled"	"r87"
+		"ypos_disabled"	"r92"
 		"zpos"			"7"
 		"wide"			"75"
 		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
+		"tall_disabled"	"100"
+		"tall_disabled"	"75"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBig"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
+		"font_disabled"	"HudFontGiant"
+		"font_disabled"	"HudFontGiant"
 		"fgcolor"		"Black"
 		
-		"if_hybrid"
+		"disabled_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"disabled_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"disabled_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -193,33 +193,33 @@
 		"fieldName"		"RedScore"
 		"xpos"			"c57"
 		"ypos"			"r47"
-		"ypos_lodef"	"r88"
-		"ypos_hidef"	"r93"
+		"ypos_disabled"	"r88"
+		"ypos_disabled"	"r93"
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
+		"tall_disabled"	"100"
+		"tall_disabled"	"75"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
 		"font"			"HudFontBig"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
+		"font_disabled"	"HudFontGiant"
+		"font_disabled"	"HudFontGiant"
 		"fgcolor"		"TanLight"		
 		
-		"if_hybrid"
+		"disabled_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"disabled_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"disabled_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -231,33 +231,33 @@
 		"fieldName"		"RedScoreShadow"
 		"xpos"			"c59"
 		"ypos"			"r46"
-		"ypos_lodef"	"r87"
-		"ypos_hidef"	"r92"
+		"ypos_disabled"	"r87"
+		"ypos_disabled"	"r92"
 		"zpos"			"7"
 		"wide"			"75"
 		"tall"			"35"
-		"tall_hidef"	"100"
-		"tall_lodef"	"75"
+		"tall_disabled"	"100"
+		"tall_disabled"	"75"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
 		"font"			"HudFontBig"
-		"font_hidef"	"HudFontGiant"
-		"font_lodef"	"HudFontGiant"
+		"font_disabled"	"HudFontGiant"
+		"font_disabled"	"HudFontGiant"
 		"fgcolor"		"Black"		
 		
-		"if_hybrid"
+		"disabled_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"disabled_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"disabled_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -294,12 +294,12 @@
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"
 		
-		"if_hybrid"
+		"disabled_hybrid"
 		{
 			"ypos"		"r142"
 		}
 		
-		"if_specialdelivery"
+		"disabled_specialdelivery"
 		{
 			"visible"	"r142"
 		}
@@ -326,17 +326,17 @@
 		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"
 		
-		"if_hybrid"
+		"disabled_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"disabled_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"disabled_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -358,20 +358,20 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
+		"image_disabled"	"../hud/objectives_flagpanel_bg_playingto_disabled"
 		"scaleImage"	"1"	
 		
-		"if_hybrid"
+		"disabled_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"disabled_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"disabled_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -390,28 +390,28 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"if_hybrid"
+		"disabled_hybrid"
 		{
 			"visible"	"0"
 			"ypos"		"r100"
 		}
 		
-		"if_hybrid_single"
+		"disabled_hybrid_single"
 		{
 			"xpos"		"c-80"
 		}
 		
-		"if_hybrid_double"
+		"disabled_hybrid_double"
 		{
 			"xpos"		"c-115"
 		}
 
-		"if_specialdelivery"
+		"disabled_specialdelivery"
 		{
 			"ypos"		"r100"
 		}
 		
-		"if_no_flags"
+		"disabled_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -430,28 +430,28 @@
 		"visible"		"1"
 		"enabled"		"1"
 				
-		"if_hybrid"
+		"disabled_hybrid"
 		{
 			"visible"	"0"
 			"ypos"		"r100"
 		}
 		
-		"if_hybrid_single"
+		"disabled_hybrid_single"
 		{
 			"xpos"		"c-80"
 		}
 		
-		"if_hybrid_double"
+		"disabled_hybrid_double"
 		{
 			"xpos"		"c-45"
 		}
 
-		"if_specialdelivery"
+		"disabled_specialdelivery"
 		{
 			"ypos"		"r100"
 		}
 		
-		"if_no_flags"
+		"disabled_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -470,12 +470,12 @@
 		"visible"		"0"
 		"enabled"		"1"
 		
-		"if_hybrid"
+		"disabled_hybrid"
 		{
 			"ypos"		"r100"
 		}
 		
-		"if_specialdelivery"
+		"disabled_specialdelivery"
 		{
 			"ypos"		"r100"
 		}

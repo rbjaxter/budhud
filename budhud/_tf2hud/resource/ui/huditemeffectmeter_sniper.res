@@ -8,8 +8,8 @@
 		"x_offset"		"40"
 		"xpos"			"r164"	[$WIN32]
 		"ypos"			"r51"	[$WIN32]
-		"xpos_minmode"	"r30"	[$WIN32]
-		"ypos_minmode"	"r94"	[$WIN32]
+		"xpos_disabled"	"r30"	[$WIN32]
+		"ypos_disabled"	"r94"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r124"	[$X360]
 		"wide"			"100"
@@ -28,14 +28,14 @@
 		"wide"			"76"
 		"tall"			"44"
 		"visible"		"1"
-		"visible_minmode"	"0"
+		"visible_disabled"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
+		"teambg_2_disabled"	"../hud/misc_ammo_area_red_disabled"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3_disabled"	"../hud/misc_ammo_area_blue_disabled"				
 	}
 	
 	"ItemEffectMeterLabel"
@@ -66,11 +66,11 @@
 		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
+		"ypos_disabled"			"0"
+		"xpos_disabled"			"0"
 		"zpos"					"2"
 		"wide"					"40"
-		"wide_minmode"			"50"
+		"wide_disabled"			"50"
 		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"

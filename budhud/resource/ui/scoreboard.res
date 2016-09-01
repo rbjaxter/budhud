@@ -2372,7 +2372,7 @@
 		"pinCorner"				"0"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"fillcolor" 			"76 108 133 64"
+		"fillcolor" 			"bh_blue_t"
 		"draw_corner_width"		"5"
 		"draw_corner_height"	"5"
 		
@@ -2401,7 +2401,7 @@
 		"pinCorner"				"0"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"fillcolor" 			"228 0 27 64"
+		"fillcolor" 			"bh_red_t"
 		"draw_corner_width"		"5"
 		"draw_corner_height"	"5"
 
