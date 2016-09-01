@@ -274,4 +274,9 @@
 		}
 
 	}
+	
+	"KillStreakIcon"
+	{
+		"ypos"						"25"
+	}
 }
