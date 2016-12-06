@@ -1,3 +1,5 @@
+Note as of November: I'm currently rebuilding my hud from the ground up. I'll have an updated version by Christmas (hopefully!). Check out the Discord for updates: https://discord.gg/PTWkt3h
+
 #budhud
 A Team Fortress 2 HUD built from the base hud and elements of rays' hud.
 
