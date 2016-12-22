@@ -1,16 +1,3 @@
-	#base 		"huditemeffectmeter.res"
-
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Affected Weapons
-	// ============================================================================================== //
-	// Spy - Spycicle
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-"Resource/UI/HudItemEffectMeter_SpyKnife.res"
-{
-	"ItemEffectMeter"
-	{	
-		"ypos"					"c108"
-		"ypos_minmode"			"c108"
-	}		
-}
+	#base	"..\..\_stream\resource\ui\huditemeffectmeter_spyknife.res"
+	#base	"..\..\_budhud\resource\ui\huditemeffectmeter_spyknife.res"
+	#base	"..\..\_tf2hud\resource\ui\huditemeffectmeter_spyknife.res"

@@ -1,0 +1,45 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Casual/Comp Chat Positioning
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	event CompetitiveGame_LowerChatWindow
+	{
+		Animate 		HudChat								ypos 5			Accel 0 0
+	}
+	
+	event CompetitiveGame_RestoreChatWindow
+	{
+		Animate 		HudChat 							ypos 5 			Accel 0 0
+	}
+	
+	event HudTournament_MoveChatWindow
+	{
+		RunEvent 		CompetitiveGame_LowerChatWindow 	0
+		RunEvent 		CompetitiveGame_RestoreChatWindow 	10
+	}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// CTF Flag Pickup/Drop
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	event FlagOutline
+	{
+		RunEvent 		FlagOutlineHide 0.0
+		Animate 		OutlineImage		Alpha			"255"			Linear 0.1 0.2
+		
+		Animate 		OutlineImage		Position		"c-50 r50"		Linear 0.1 0.2
+		Animate 		OutlineImage		Size			"100 50"		Linear 0.1 0.2
+	
+		Animate 		OutlineImage		Position		"c-50 r100"		Linear 0.7 0.2
+		Animate 		OutlineImage		Size			"100 50"		Linear 0.7 0.2
+		
+		Animate			OutlineImage		Alpha			"0"				Linear 0.6 0.3
+	}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Death Camera Screenshot Animation
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	event HudSnapShotReminderIn
+	{
+	}

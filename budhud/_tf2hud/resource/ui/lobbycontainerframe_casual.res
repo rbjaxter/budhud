@@ -22,31 +22,21 @@
 		"mouseinputenabled"	"0"
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
+		"xp_source_notification_center_x"	"350"
 	}
 
-	"ShowExplanationsButton"
+	"SearchStatus"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ShowExplanationsButton"
-		"xpos"			"c275"
-		"ypos"			"10"
-		"zpos"			"100"
-		"wide"			"20"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"ControlName"	"CTFMatchMakingSearchStatusPanel"
+		"FieldName"		"SearchStatus"
+		"xpos"			"cs-0.5"
+		"ypos"			"-5"
+		"zpos"			"10000"
+		"wide"			"150"
+		"tall"			"65"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"?"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"0"
-		"Command"		"show_explanations"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"mouseinputenabled" "1"
 	}
 
 	"StartExplanation"
@@ -930,7 +920,7 @@
 		"ypos"			"0"
 		"zpos"			"10000"
 		"wide"			"250"
-		"tall"			"220"
+		"tall"			"260"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
@@ -943,7 +933,7 @@
 		"end_x"			"c-30"
 		"end_y"			"140"
 		"end_wide"		"250"
-		"end_tall"		"200"
+		"end_tall"		"240"
 		"callout_inparents_x"	"c100"
 		"callout_inparents_y"	"c-000"
 
@@ -977,7 +967,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"45"
 			"wide"			"f20"
-			"tall"			"200"
+			"tall"			"240"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1036,4 +1026,38 @@
 			}				
 		}			
 	}	
+
+	"Tooltip_CasualLobby"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Tooltip_CasualLobby"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10000"
+		"wide"			"300"
+		"tall"			"0"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
+		
+		"TipLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TipLabel"
+			"font"			"HudFontSmallestBold"
+			"labelText"		"%tiptext%"
+			"textAlignment"	"west"
+			"xpos"			"20"
+			"ypos"			"10"
+			"zpos"			"2"
+			"wide"			"100"
+			"tall"			"10"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor_override"	"TanLight"
+			"auto_wide_tocontents"	"1"
+		}
+	}
 }

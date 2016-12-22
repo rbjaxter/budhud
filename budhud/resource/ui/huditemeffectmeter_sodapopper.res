@@ -1,16 +1,3 @@
-	#base 		"huditemeffectmeter.res"
-
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Affected Weapons
-	// ============================================================================================== //
-	// Scout - Baby Face's Blaster, Soda Popper
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-"Resource/UI/HudItemEffectMeter_SodaPopper.res"
-{
-	"ItemEffectMeter"
-	{	
-		"ypos"					"c108"
-		"ypos_minmode"			"c108"
-	}		
-}
+	#base	"..\..\_stream\resource\ui\huditemeffectmeter_sodapopper.res"
+	#base	"..\..\_budhud\resource\ui\huditemeffectmeter_sodapopper.res"
+	#base	"..\..\_tf2hud\resource\ui\huditemeffectmeter_sodapopper.res"

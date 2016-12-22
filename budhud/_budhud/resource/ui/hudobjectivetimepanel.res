@@ -2,77 +2,91 @@
 {
 	"TimePanelBG"
 	{
-		"ypos"						"6969"
+		"ypos"														"r-6969"
 	}
 	
 	"ServerTimeLimitLabelBG"
 	{
-		"ypos"						"6969"
+		"ypos"														"r-6969"
 	}
 	
 	"TimePanelProgressBar"
 	{
-		"ypos"						"6969"
+		"ypos"														"r-6969"
 	}
 	
 	"WaitingForPlayersBG"
 	{
-		"ypos"						"6969"
+		"ypos"														"r-6969"
 	}
 	
 	"SetupBG"
 	{
-		"ypos"						"6969"
+		"ypos"														"r-6969"
 	}
 	
 	"OvertimeBG"
 	{
-		"ypos"						"6969"
+		"ypos"														"r-6969"
 	}
 	
 	"ServerTimeLimitLabel"
 	{
-		"font"						"bh_Lato12"
-		"xpos"						"75"
-		"ypos"						"32"
-		"wide"						"50"
-		"tall"						"20"
+		"font"														"bh_Font12"
+		"xpos"														"20"
+		"ypos"														"36"
+		"wide"														"68"
+		"tall"														"20"
 		
-		if_competitive
+		if_match
 		{
-			"ypos"					"6969"
+			"xpos"													"30"
+			"ypos"													"24"
 		}
 	}
 	
 	"WaitingForPlayersLabel"
 	{
-		"font"						"bh_Lato10"
-		"xpos"						"75"
-		"ypos"						"32"
-		"wide"						"50"
-		"tall"						"20"
+		"font"														"bh_Font10"
+		"xpos"														"30"
+		"ypos"														"36"
+		"wide"														"50"
+		"tall"														"20"
 		
-		if_competitive
+		if_match
 		{
-			"ypos"		"6969"
+			"xpos"													"30"
+			"ypos"													"24"
 		}
 	}
 	
 	"SetupLabel"
 	{
-		"font"						"bh_Lato10"
-		"xpos"						"75"
-		"ypos"						"32"
-		"wide"						"50"
-		"tall"						"20"
+		"font"														"bh_Font10"
+		"xpos"														"30"
+		"ypos"														"36"
+		"wide"														"50"
+		"tall"														"20"
+		
+		if_match
+		{
+			"xpos"													"30"
+			"ypos"													"24"
+		}
 	}
 	
 	"OvertimeLabel"
 	{
-		"font"						"bh_Lato10"
-		"xpos"						"75"
-		"ypos"						"32"
-		"wide"						"50"
-		"tall"						"20"
+		"font"														"bh_Font10"
+		"xpos"														"30"
+		"ypos"														"36"
+		"wide"														"50"
+		"tall"														"20"
+		
+		if_match
+		{
+			"xpos"													"30"
+			"ypos"													"24"
+		}
 	}
 }

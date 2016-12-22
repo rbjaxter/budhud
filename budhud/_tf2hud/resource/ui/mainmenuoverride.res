@@ -190,72 +190,31 @@
 		
 		disabled_halloween_0
 		{
-			"image"		"../console/title_team_halloween2011"
+			"image"		"../console/title_team_halloween2011_widescreen"
 		}
 		disabled_halloween_1
 		{
-			"image"		"../console/title_team_halloween2012"
+			"image"		"../console/title_team_halloween2012_widescreen"
 		}
 		disabled_halloween_2
 		{
-			"image"		"../console/title_team_halloween2013"
+			"image"		"../console/title_team_halloween2013_widescreen"
 		}
 		disabled_halloween_3
 		{
-			"image"		"../console/title_team_halloween2014"
+			"image"		"../console/title_team_halloween2014_widescreen"
 		}
 		disabled_halloween_4
-		{
-			"image"		"../console/title_team_halloween2015"
+		{	
+			"image"		"../console/title_team_halloween2015_widescreen"
 		}
 		disabled_fullmoon
 		{
-			"image"		"../console/title_fullmoon"
+			"image"		"../console/title_fullmoon_widescreen"
 		}
 		disabled_christmas
 		{
-			"image"		"../console/background_xmas2011"
-		}
-//		disabled_eotl_launch
-//		{
-//			"image"		"../console/title_eotl01"
-//		}
-		disabled_spy_vs_engy_war
-		{
-			"image"		"../console/background_sve_01"
-		}
-//		disabled_operation
-//		{
-//			"image"		"../console/title_team_tough_break"
-//		}
-//		disabled_community_update
-//		{
-//			"image"		"../console/title_invasion"
-//		}
-
-		disabled_meet_your_match_0
-		{
-			"xpos"		"rs1"
-			"image"		"../console/title_team_heavy01_blu_widescreen"
-		}
-		disabled_meet_your_match_1
-		{
-			"xpos"		"rs1"
-			"image"		"../console/title_team_heavy01_red_widescreen"
-		}
-		disabled_meet_your_match_2
-		{
-			"xpos"		"rs1"
-			"image"		"../console/title_team_pyro01_blu_widescreen"
-		}
-		disabled_meet_your_match_3
-		{
-			"xpos"		"rs1"
-			"image"		"../console/title_team_pyro01_red_widescreen"
-		}
-		disabled_meet_your_match_4
-		{
-			"image"		"../console/title_team_competitive_widescreen"
+			"image"		"../console/background_xmas2011_widescreen"
 		}
 	}
 					
@@ -278,47 +237,6 @@
 //		{
 //			"image"		"../logo/tough_break_logo"
 //		}
-
-		disabled_meet_your_match_0
-		{
-			"xpos"			"c-300"
-			"ypos"			"0"
-			"wide"			"o2"
-			"tall"			"145"
-			"image"		"../logo/meet_your_match_logo"
-		}
-		disabled_meet_your_match_1
-		{
-			"xpos"			"c-300"
-			"ypos"			"0"
-			"wide"			"o2"
-			"tall"			"145"
-			"image"		"../logo/meet_your_match_logo"
-		}
-		disabled_meet_your_match_2
-		{
-			"xpos"			"c-300"
-			"ypos"			"0"
-			"wide"			"o2"
-			"tall"			"145"
-			"image"		"../logo/meet_your_match_logo"
-		}
-		disabled_meet_your_match_3
-		{
-			"xpos"			"c-300"
-			"ypos"			"0"
-			"wide"			"o2"
-			"tall"			"145"
-			"image"		"../logo/meet_your_match_logo"
-		}
-		disabled_meet_your_match_4
-		{
-			"xpos"			"c-300"
-			"ypos"			"0"
-			"wide"			"o2"
-			"tall"			"145"
-			"image"		"../logo/meet_your_match_logo"
-		}
 	}	
 	
 	"TFCharacterImage"
@@ -1796,7 +1714,8 @@
 			"ypos"			"20"
 			"zpos"			"0"
 			"wide"			"260"
-			"tall"			"120"
+//			"tall"			"120"
+			"tall"			"96"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -1823,155 +1742,157 @@
 				"fgcolor_override"	"235 227 203 255"
 			}
 
-			"ViewDetailsGlow"
-			{
-				"ControlName"	"Panel"
-				"fieldName"		"ViewDetailsGlow"
-				"xpos"			"p0.02"
-				"ypos"			"27"
-				"zpos"			"10"
-				"wide"			"p0.48"
-				"tall"			"26"
-				"visible"		"0"
-				"proportionaltoparent"	"1"
-
-				"paintborder"	"0"
-				"border"	"MainMenuButtonGlow"
-				"paintbackground"		"3"
-				"bgcolor_override"	"238 103 17 255"
-			}
-
-			"ViewDetailsButton"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldname"		"ViewDetailsButton"
-				"xpos"			"p0.02"
-				"ypos"			"27"
-				"zpos"			"11"
-				"wide"			"p0.48"
-				"tall"			"26"
-				"visible"		"1"
-				"PaintBackgroundType"	"0"
-				"proportionaltoparent"	"1"
-
-				"SubButton"
-				{
-					"ControlName"	"CExImageButton"
-					"fieldName"		"SubButton"
-					"xpos"			"cs-0.5"
-					"ypos"			"0"
-					"wide"			"f0"
-					"tall"			"f0"
-					"autoResize"	"0"
-					"pinCorner"		"3"
-					"visible"		"1"
-					"enabled"		"1"
-					"tabPosition"	"0"
-					"use_proportional_insets" "1"
-					"font"			"HudFontSmallBold"
-					"textAlignment"	"center"
-					"dulltext"		"0"
-					"brighttext"	"0"
-					"default"		"1"
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
-					"labeltext"		"#MMenu_ViewUpdateDetails"
-					"proportionaltoparent"	"1"
-					"command"		"view_update_page"
-					"actionsignallevel"	"4"
-			
-					"border_default"	"MainMenuButtonDefault"
-					"border_armed"		"MainMenuButtonArmed"
-					"paintbackground"	"0"
-			
-					"defaultFgColor_override" "46 43 42 255"
-					"armedFgColor_override" "235 226 202 255"
-					"depressedFgColor_override" "46 43 42 255"
-			
-					"image_drawcolor"	"117 107 94 255"
-					"image_armedcolor"	"235 226 202 255"
-				}
-			}
-
-			"ViewWarButtonGlow"
-			{
-				"ControlName"	"Panel"
-				"fieldName"		"ViewWarButtonGlow"
-				"xpos"			"p0.5"
-				"ypos"			"27"
-				"zpos"			"10"
-				"wide"			"124"
-				"tall"			"26"
-				"visible"		"0"
-				"proportionaltoparent"	"1"
-
-				"paintborder"	"0"
-				"border"	"MainMenuButtonGlow"
-				"paintbackground"		"3"
-				"bgcolor_override"	"238 103 17 255"
-			}
-
-			"ViewWarButton"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldname"		"ViewWarButton"
-				"xpos"			"p0.5"
-				"ypos"			"27"
-				"zpos"			"11"
-				"wide"			"p0.48"
-				"tall"			"26"
-				"visible"		"1"
-				"PaintBackgroundType"	"0"
-				"proportionaltoparent"	"1"
-
-				"SubButton"
-				{
-					"ControlName"	"CExImageButton"
-					"fieldName"		"SubButton"
-					"xpos"			"cs-0.5"
-					"ypos"			"0"
-					"wide"			"f0"
-					"tall"			"f0"
-					"autoResize"	"0"
-					"pinCorner"		"3"
-					"visible"		"1"
-					"enabled"		"1"
-					"tabPosition"	"0"
-					"use_proportional_insets" "1"
-					"font"			"HudFontSmallBold"
-					"textAlignment"	"center"
-					"dulltext"		"0"
-					"brighttext"	"0"
-					"default"		"1"
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
-					"labeltext"		"#MMenu_ViewWar"
-					"proportionaltoparent"	"1"
-					"command"		"view_war"
-					"actionsignallevel"	"4"
-			
-					"border_default"	"MainMenuButtonDefault"
-					"border_armed"		"MainMenuButtonArmed"
-					"paintbackground"	"0"
-			
-					"defaultFgColor_override" "46 43 42 255"
-					"armedFgColor_override" "235 226 202 255"
-					"depressedFgColor_override" "46 43 42 255"
-			
-					"image_drawcolor"	"117 107 94 255"
-					"image_armedcolor"	"235 226 202 255"
-				}
-			}
+//			"ViewDetailsGlow"
+//			{
+//				"ControlName"	"Panel"
+//				"fieldName"		"ViewDetailsGlow"
+//				"xpos"			"p0.02"
+//				"ypos"			"27"
+//				"zpos"			"10"
+//				"wide"			"p0.48"
+//				"tall"			"26"
+//				"visible"		"0"
+//				"proportionaltoparent"	"1"
+//
+//				"paintborder"	"0"
+//				"border"	"MainMenuButtonGlow"
+//				"paintbackground"		"3"
+//				"bgcolor_override"	"238 103 17 255"
+//			}
+//
+//			"ViewDetailsButton"
+//			{
+//				"ControlName"	"EditablePanel"
+//				"fieldname"		"ViewDetailsButton"
+//				"xpos"			"p0.02"
+//				"ypos"			"27"
+//				"zpos"			"11"
+//				"wide"			"p0.48"
+//				"tall"			"26"
+//				"visible"		"1"
+//				"PaintBackgroundType"	"0"
+//				"proportionaltoparent"	"1"
+//
+//				"SubButton"
+//				{
+//					"ControlName"	"CExImageButton"
+//					"fieldName"		"SubButton"
+//					"xpos"			"cs-0.5"
+//					"ypos"			"0"
+//					"wide"			"f0"
+//					"tall"			"f0"
+//					"autoResize"	"0"
+//					"pinCorner"		"3"
+//					"visible"		"1"
+//					"enabled"		"1"
+//					"tabPosition"	"0"
+//					"use_proportional_insets" "1"
+//					"font"			"HudFontSmallBold"
+//					"textAlignment"	"center"
+//					"dulltext"		"0"
+//					"brighttext"	"0"
+//					"default"		"1"
+//					"sound_depressed"	"UI/buttonclick.wav"
+//					"sound_released"	"UI/buttonclickrelease.wav"
+//					"labeltext"		"#MMenu_ViewUpdateDetails"
+//					"proportionaltoparent"	"1"
+//					"command"		"view_update_page"
+//					"actionsignallevel"	"4"
+//			
+//					"border_default"	"MainMenuButtonDefault"
+//					"border_armed"		"MainMenuButtonArmed"
+//					"paintbackground"	"0"
+//			
+//					"defaultFgColor_override" "46 43 42 255"
+//					"armedFgColor_override" "235 226 202 255"
+//					"depressedFgColor_override" "46 43 42 255"
+//			
+//					"image_drawcolor"	"117 107 94 255"
+//					"image_armedcolor"	"235 226 202 255"
+//				}
+//			}
+//
+//			"ViewWarButtonGlow"
+//			{
+//				"ControlName"	"Panel"
+//				"fieldName"		"ViewWarButtonGlow"
+//				"xpos"			"p0.5"
+//				"ypos"			"27"
+//				"zpos"			"10"
+//				"wide"			"124"
+//				"tall"			"26"
+//				"visible"		"0"
+//				"proportionaltoparent"	"1"
+//
+//				"paintborder"	"0"
+//				"border"	"MainMenuButtonGlow"
+//				"paintbackground"		"3"
+//				"bgcolor_override"	"238 103 17 255"
+//			}
+//
+//			"ViewWarButton"
+//			{
+//				"ControlName"	"EditablePanel"
+//				"fieldname"		"ViewWarButton"
+//				"xpos"			"p0.5"
+//				"ypos"			"27"
+//				"zpos"			"11"
+//				"wide"			"p0.48"
+//				"tall"			"26"
+//				"visible"		"1"
+//				"PaintBackgroundType"	"0"
+//				"proportionaltoparent"	"1"
+//
+//				"SubButton"
+//				{
+//					"ControlName"	"CExImageButton"
+//					"fieldName"		"SubButton"
+//					"xpos"			"cs-0.5"
+//					"ypos"			"0"
+//					"wide"			"f0"
+//					"tall"			"f0"
+//					"autoResize"	"0"
+//					"pinCorner"		"3"
+//					"visible"		"1"
+//					"enabled"		"1"
+//					"tabPosition"	"0"
+//					"use_proportional_insets" "1"
+//					"font"			"HudFontSmallBold"
+//					"textAlignment"	"center"
+//					"dulltext"		"0"
+//					"brighttext"	"0"
+//					"default"		"1"
+//					"sound_depressed"	"UI/buttonclick.wav"
+//					"sound_released"	"UI/buttonclickrelease.wav"
+//					"labeltext"		"#MMenu_ViewWar"
+//					"proportionaltoparent"	"1"
+//					"command"		"view_war"
+//					"actionsignallevel"	"4"
+//			
+//					"border_default"	"MainMenuButtonDefault"
+//					"border_armed"		"MainMenuButtonArmed"
+//					"paintbackground"	"0"
+//			
+//					"defaultFgColor_override" "46 43 42 255"
+//					"armedFgColor_override" "235 226 202 255"
+//					"depressedFgColor_override" "46 43 42 255"
+//			
+//					"image_drawcolor"	"117 107 94 255"
+//					"image_armedcolor"	"235 226 202 255"
+//				}
+//			}
 			
 			"CyclingAd"
 			{
 				"ControlName"			"CCyclingAdContainerPanel"
 				"fieldName"				"CyclingAd"
 				"xpos"					"5"
-				"ypos"					"p0.47"
+//				"ypos"					"p0.47"
+				"ypos"					"27"
 				"zpos"					"100"
 				"wide"					"f10"
-				"tall"					"p0.5"
+//				"tall"					"p0.5"
+				"tall"					"60"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -1983,27 +1904,22 @@
 				{
 					"0"
 					{
-						"item"		"Competitive Matchmaking Official"
+						"item"		"Keyless Winter 2016 Case"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Taunt: The Carlton"
+						"item"		"Taunt: The Table Tantrum"
 						"show_market"	"0"
 					}
 					"2"
 					{
-						"item"		"Taunt: The Balloonibouncer"
+						"item"		"Taunt: Didgeridrongo"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Taunt: Disco Fever"
-						"show_market"	"0"
-					}
-					"4"
-					{
-						"item"		"Taunt: The Fubar Fanfare"
+						"item"		"Taunt: Scotsmann's Stagger"
 						"show_market"	"0"
 					}
 				}
@@ -2248,6 +2164,7 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"stay_armed_on_click"	"1"
 			
 			"border_default"	"MainMenuButtonDefault"
 			"border_armed"		"MainMenuButtonArmed"
@@ -2287,6 +2204,7 @@
 		"tall"			"26"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
+		"stay_armed_on_click"	"1"
 
 		"navUp"			"ServerBrowserButton"
 		"navDown"		"QuickplayChangeButton"

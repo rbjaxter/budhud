@@ -1,16 +1,3 @@
-	#base 		"huditemeffectmeter.res"
-
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Affected Weapons
-	// ============================================================================================== //
-	// Sniper - Hitman's Heatmaker
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-"Resource/UI/HudItemEffectMeter_SniperFocus.res"
-{
-	"ItemEffectMeter"
-	{	
-		"ypos"					"c108"
-		"ypos_minmode"			"c108"
-	}		
-}
+	#base	"..\..\_stream\resource\ui\huditemeffectmeter_sniperfocus.res"
+	#base	"..\..\_budhud\resource\ui\huditemeffectmeter_sniperfocus.res"
+	#base	"..\..\_tf2hud\resource\ui\huditemeffectmeter_sniperfocus.res"

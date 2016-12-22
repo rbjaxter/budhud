@@ -22,31 +22,7 @@
 		"mouseinputenabled"	"0"
 
 		"matchgroup"	"MatchGroup_Ladder_6v6"
-	}
-
-	"ShowExplanationsButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ShowExplanationsButton"
-		"xpos"			"c275"
-		"ypos"			"10"
-		"zpos"			"100"
-		"wide"			"20"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"?"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"0"
-		"Command"		"show_explanations"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"xp_source_notification_center_x"	"350"
 	}
 
 	"StartExplanation"

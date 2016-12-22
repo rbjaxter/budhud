@@ -1,16 +1,3 @@
-	#base 		"huditemeffectmeter.res"
-
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Affected Weapons
-	// ============================================================================================== //
-	// Scout - Flying Guillotine
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-"Resource/UI/HudItemEffectMeter_Cleaver.res"
-{
-	"ItemEffectMeter"
-	{	
-		"ypos"					"c117"
-		"ypos_minmode"			"c117"
-	}		
-}
+	#base	"..\..\_stream\resource\ui\huditemeffectmeter_cleaver.res"
+	#base	"..\..\_budhud\resource\ui\huditemeffectmeter_cleaver.res"
+	#base	"..\..\_tf2hud\resource\ui\huditemeffectmeter_cleaver.res"

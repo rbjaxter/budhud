@@ -2,6 +2,6 @@
 {
 	"TargetNameLabel"
 	{
-		"labeltext"			"wolf_tamer662"
+		"labeltext"													""
 	}
 }

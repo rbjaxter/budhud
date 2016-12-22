@@ -115,6 +115,48 @@
 		}
 	}
 
+	"OptionsButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"OptionsButton"
+		"xpos"			"c275"
+		"ypos"			"10"
+		"zpos"			"100"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"Command"		"options"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"image_drawcolor"	"235 226 202 255"
+		"image_armedcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"2"
+			"ypos"			"2"
+			"zpos"			"1"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_options"
+			"scaleImage"	"1"
+		}
+	}
+
 	"BackButton"
 	{
 		"ControlName"	"CExButton"

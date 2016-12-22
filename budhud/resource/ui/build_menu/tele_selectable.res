@@ -1,14 +1,3 @@
-#base "base_selectable.res"
-
-"Resource/UI/build_menu/tele_selectable.res"
-{
-	"ItemNameLabel"
-	{	
-		"labelText"		"Teleporter"
-	}
-	
-	"BuildingIcon"	
-	{
-		"icon"			"hud_menu_tele_entrance_build"
-	}
-}
+	#base	"..\..\..\_stream\resource\ui\build_menu\tele_selectable.res"
+	#base	"..\..\..\_budhud\resource\ui\build_menu\tele_selectable.res"
+	#base	"..\..\..\_tf2hud\resource\ui\build_menu\tele_selectable.res"

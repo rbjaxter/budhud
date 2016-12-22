@@ -1,3 +1,3 @@
-	#base	"..\..\_stream\resource\ui\HudObjectiveKothTimePanel.res"
-	#base	"..\..\_budhud\resource\ui\HudObjectiveKothTimePanel.res"
-	#base	"..\..\_tf2hud\resource\ui\HudObjectiveKothTimePanel.res"
+	#base	"..\..\_stream\resource\ui\hudobjectivekothtimepanel.res"
+	#base	"..\..\_budhud\resource\ui\hudobjectivekothtimepanel.res"
+	#base	"..\..\_tf2hud\resource\ui\hudobjectivekothtimepanel.res"

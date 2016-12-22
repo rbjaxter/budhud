@@ -1,16 +1,3 @@
-	#base 		"huditemeffectmeter.res"
-
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Affected Weapons
-	// ============================================================================================== //
-	// Engineer - Pomson 6000
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-"Resource/UI/HudItemEffectMeter_Raygun.res"
-{
-	"ItemEffectMeter"
-	{	
-		"ypos"					"c99"
-		"ypos_minmode"			"c99"
-	}		
-}
+	#base	"..\..\_stream\resource\ui\huditemeffectmeter_raygun.res"
+	#base	"..\..\_budhud\resource\ui\huditemeffectmeter_raygun.res"
+	#base	"..\..\_tf2hud\resource\ui\huditemeffectmeter_raygun.res"

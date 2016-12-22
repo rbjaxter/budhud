@@ -1,0 +1,128 @@
+"Resource/UI/StoreViewCartPanel.res"
+{
+
+	"CloseButton"
+	{
+		"ypos"														"r-6969"
+	}
+	
+	"CheckoutButton"
+	{
+		"ypos"														"r-6969"
+	}
+
+	"store_viewcart_panel"
+	{
+		"bgcolor_override"											"bh_MenuBG"
+		"infocus_bgcolor_override" 									"bh_MenuBG"
+		"outoffocus_bgcolor_override" 								"bh_MenuBG"
+		
+		"item_entry_kv"
+		{
+			"RemoveButton"
+			{
+				"defaultBgColor_override"							"bh_ButtonBGDefault"
+				"armedBgColor_override"								"bh_ButtonBGArmed"
+				"depressedBgColor_override"							"bh_ButtonBGDepressed"
+				"defaultFgColor_override"							"bh_ButtonDefault"
+				"armedFgColor_override" 							"bh_ButtonArmed"
+				"depressedFgColor_override" 						"bh_ButtonDepressed"
+				"border_default"									"bh_b_NESW"
+				"border_armed"										"bh_b_NESW"
+			}
+			
+			"PriceLabel"
+			{
+				"fgcolor"											"bh_white"
+			}
+		}
+	}
+	
+	"ClientArea"
+	{
+		"bgcolor_override"											"bh_MenuBG"
+		
+		"ItemListContainerScroller"
+		{
+			"ItemListContainer"
+			{
+				"PurchaseFooter"
+				{
+				
+					"TotalPriceLabel"
+					{
+						"fgcolor_override"							"bh_white"
+					}
+				}
+			}
+		}
+	}
+	
+	"bh_Back"
+	{
+		"ControlName"												"CExButton"
+		"fieldName"													"bh_Back"
+		"xpos"														"c-300"
+		"ypos"														"437"
+		"zpos"														"2"
+		"wide"														"100"
+		"tall"														"25"
+		"autoResize"												"0"
+		"pinCorner"													"3"
+		"visible"													"1"
+		"enabled"													"1"
+		"tabPosition"												"0"
+		"labelText"													"BACK (&Q)"
+		"font"														"HudFontSmallBold"
+		"textAlignment"												"center"
+		"dulltext"													"0"
+		"brighttext"												"0"
+		"default"													"1"
+		"Command"													"close"
+		"sound_depressed"											"UI/buttonclick.wav"
+		"sound_released"											"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"									"bh_ButtonBGDefault"
+		"armedBgColor_override"										"bh_ButtonBGArmed"
+		"depressedBgColor_override"									"bh_ButtonBGDepressed"
+		"defaultFgColor_override"									"bh_ButtonDefault"
+		"armedFgColor_override" 									"bh_ButtonArmed"
+		"depressedFgColor_override" 								"bh_ButtonDepressed"
+		"border_default"											"bh_b_NESW"
+		"border_armed"												"bh_b_NESW"
+	}
+	
+	"bh_CheckoutButton"
+	{
+		"ControlName"												"CExButton"
+		"fieldName"													"bh_CheckoutButton"
+		"xpos"														"c200"
+		"ypos"														"437"
+		"zpos"														"2"
+		"wide"														"100"
+		"tall"														"25"
+		"autoResize"												"0"
+		"pinCorner"													"3"
+		"visible"													"1"
+		"enabled"													"1"
+		"tabPosition"												"0"
+		"labelText"													"CHECKOUT (&E)"
+		"font"														"HudFontSmallBold"
+		"textAlignment"												"center"
+		"dulltext"													"0"
+		"brighttext"												"0"
+		"default"													"1"
+		"Command"													"checkout"
+		"sound_depressed"											"UI/buttonclick.wav"
+		"sound_released"											"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"									"bh_ButtonBGDefault"
+		"armedBgColor_override"										"bh_ButtonBGArmed"
+		"depressedBgColor_override"									"bh_ButtonBGDepressed"
+		"defaultFgColor_override"									"bh_ButtonDefault"
+		"armedFgColor_override" 									"bh_ButtonArmed"
+		"depressedFgColor_override" 								"bh_ButtonDepressed"
+		"border_default"											"bh_b_NESW"
+		"border_armed"												"bh_b_NESW"
+	}
+}

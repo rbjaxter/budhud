@@ -5,9 +5,15 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	event DamagedPlayer
+	{	
+		StopEvent		HitMarker				0.00
+		RunEvent 		HitMarker 				0.01
+	}
+	
+	event HitMarker
 	{
-		Animate whayay_crosshair 		FgColor 		"ya_crosshairflash" 		Linear 0.00 0.00001
-		Animate whayay_crosshair 		FgColor 		"ya_crosshair" 				Linear 0.10 0.10001
-		Animate knuckles_crosshair		FgColor			"knuckles_crosshairflash"	Linear 0.00 0.00001
-		Animate knuckles_crosshair		FgColor			"knuckles_crosshair"		Linear 0.00 0.20001
+		Animate 		whayay_crosshair 		FgColor 		"ya_crosshairflash" 		Linear 0.00 0.00001
+		Animate 		whayay_crosshair 		FgColor 		"ya_crosshair" 				Linear 0.10 0.10001
+		Animate 		knuckles_crosshair		FgColor			"knuckles_crosshairflash"	Linear 0.00 0.00001
+		Animate 		knuckles_crosshair		FgColor			"knuckles_crosshair"		Linear 0.00 0.20001
 	}

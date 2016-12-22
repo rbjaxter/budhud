@@ -1,16 +1,3 @@
-	#base 		"huditemeffectmeter.res"
-
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Affected Weapons
-	// ============================================================================================== //
-	// Scout - Bonk! Atomic Punch, Crit-a-Cola, Mad Milk
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-"Resource/UI/HudItemEffectMeter_Scout.res"
-{
-	"ItemEffectMeter"
-	{	
-		"ypos"					"c117"
-		"ypos_minmode"			"c117"
-	}		
-}
+	#base	"..\..\_stream\resource\ui\huditemeffectmeter_scout.res"
+	#base	"..\..\_budhud\resource\ui\huditemeffectmeter_scout.res"
+	#base	"..\..\_tf2hud\resource\ui\huditemeffectmeter_scout.res"

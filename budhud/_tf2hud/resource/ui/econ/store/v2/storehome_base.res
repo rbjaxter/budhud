@@ -287,7 +287,7 @@
 		"xpos"				"c-230"
 		"ypos"				"8"
 		"zpos"				"0"
-		"wide"				"335"
+		"wide"				"430"
 		"tall"				"30"
 		"autoResize"		"0"
 		"pinCorner"			"0"

@@ -1,18 +1,3 @@
-#base "base_unavailable.res"
-
-"Resource/UI/build_menu/tele_exit_unavailable.res"
-{
-	"ItemNameLabel"
-	{	
-		"labelText"		"#TF_Object_tele_exit_360"
-	}
-	
-	"NumberLabel"
-	{	
-		"labelText"		"4"
-	}
-			"NumberLabelShadow"
-	{	
-		"labelText"		"4"
-	}
-}
+	#base	"..\..\..\_stream\resource\ui\build_menu\tele_exit_unavailable.res"
+	#base	"..\..\..\_budhud\resource\ui\build_menu\tele_exit_unavailable.res"
+	#base	"..\..\..\_tf2hud\resource\ui\build_menu\tele_exit_unavailable.res"

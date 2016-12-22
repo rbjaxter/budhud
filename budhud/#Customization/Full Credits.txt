@@ -1,0 +1,47 @@
+/////////////////////////////
+// Main Testers / Feedback //
+/////////////////////////////
+Auzzie
+HunnyBunny
+ly_dee
+powah
+... and anyone in Discord or the Steam group who has found bugs!
+
+//////////////
+// hud Help //
+//////////////
+doodles							@ http://doodlesstuff.com
+flatline
+JarateKing
+omnibombulator
+raysfire
+Wiethoofd
+
+////////////////
+// Crosshairs //
+////////////////
+Knuckles
+Fog
+whayay
+
+////////////////////////////
+// Default hud Repository //
+////////////////////////////
+MFSTATE (mana) 					@ https://github.com/MFSTATE/tf2basehud
+Tewgon							@ https://github.com/Tewgon/tf2basehud
+
+///////////////
+// Main Font //
+///////////////
+Lato, by Łukasz Dziedzic 		@ http://www.lukaszdziedzic.eu/
+
+////////////////////
+// Previous Fonts //
+////////////////////
+Roboto Condensed 				@ https://www.fontsquirrel.com/fonts/roboto
+Designosaur 					@ https://fontlibrary.org/en/font/designosaur
+
+//////////////////
+// Custom Icons //
+//////////////////
+Freepik							@ http://www.freepik.com/

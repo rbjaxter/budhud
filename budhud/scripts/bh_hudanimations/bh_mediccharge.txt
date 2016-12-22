@@ -1,29 +1,17 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Medic Rainbow Uber Flash (slight potential epilepsy warning?)
+	// Medic Normal Uber Flash
 	// ============================================================================================== //
-	// See instructions below
-	// "Commenting" something means to add "//" in front of it.
-	// Do NOT uncomment any of the instructions below, just the "Animate" lines
+	// See instructions here: https://github.com/rbjaxter/budhud/wiki/Customization#medic-rainbow-ubercharge
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	event HudMedicCharged
 	{
-		// Comment these four lines ...
 		Animate			ChargeLabel 		FgColor			"bh_chargecolor1"		Linear 0.0 0.3
 		Animate			ChargeLabel 		FgColor			"bh_chargecolor2"		Linear 0.3 0.4
 		
 		Animate			ChargeMeter 		FgColor			"bh_chargecolor1"		Linear 0.0 0.3
 		Animate			ChargeMeter 		FgColor			"bh_chargecolor2"		Linear 0.3 0.4
 		
-		// ... and uncomment the seven lines below this to enable rainbow uber flash
-		// Animate		ChargeLabel 		FgColor			"255 000 000 255"		Linear 0.2 0.2
-		// Animate		ChargeLabel 		FgColor			"255 127 000 255"		Linear 0.4 0.2
-		// Animate		ChargeLabel 		FgColor			"255 255 000 255"		Linear 0.6 0.2
-		// Animate		ChargeLabel 		FgColor			"000 255 000 255"		Linear 0.8 0.2
-		// Animate		ChargeLabel 		FgColor			"000 000 255 255"		Linear 0.10 0.2
-		// Animate		ChargeLabel 		FgColor			"075 000 130 255"		Linear 0.12 0.2
-		// Animate 		ChargeLabel			FgColor			"139 000 255 255"		Linear 0.14 0.2
-	
 		// Increasing this value slows the speed of the animation down
 		RunEvent 		HudMedicChargedLoop	1.0
 	}

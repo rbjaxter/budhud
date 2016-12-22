@@ -2,7 +2,12 @@
 
 "Resource/UI/LobbyContainerFrame_MvM.res"
 {
-
+	"OptionsButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"OptionsButton"
+		"visible"	"0"
+	}
 	
 	"LearnMoreButton"
 	{

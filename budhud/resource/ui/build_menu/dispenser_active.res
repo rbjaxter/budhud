@@ -1,24 +1,3 @@
-#base "base_active.res"
-
-"Resource/UI/build_menu/dispenser_active.res"
-{
-	"ItemNameLabel"
-	{	
-		"labelText"		"#TF_Object_Dispenser"
-	}
-	
-	"BuildingIcon"	
-	{
-		"icon"			"hud_menu_dispenser_build"
-	}
-	
-	"NumberLabel"
-	{	
-		"labelText"		"2"
-	}
-	
-	"NumberLabelShadow"
-	{	
-		"labelText"		"2"
-	}
-}
+	#base	"..\..\..\_stream\resource\ui\build_menu\dispenser_active.res"
+	#base	"..\..\..\_budhud\resource\ui\build_menu\dispenser_active.res"
+	#base	"..\..\..\_tf2hud\resource\ui\build_menu\dispenser_active.res"
