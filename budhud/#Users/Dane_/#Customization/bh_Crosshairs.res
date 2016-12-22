@@ -18,10 +18,10 @@
 		"tall"														"480"
 
 
-		"enabled"													"0"									// Set both to "1"
-		"visible"													"0"			  						// to enable
+		"enabled"													"1"									// Set both to "1"
+		"visible"													"1"			  						// to enable
         
-		"labeltext"													"f"           						// Change this to use a different crosshair
+		"labeltext"													"t"           						// Change this to use a different crosshair
         
         "font"														"CrosshairOLsmall"	    			// Use "CrosshairOL" for a crosshair with an outline
 																										// or "CrosshairAA" for a smooth crosshair w/o an outline 
