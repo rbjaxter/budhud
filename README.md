@@ -17,3 +17,39 @@ If you plan to make changes to the hud, it is best to use a code editor such as 
 
 ## Installation, Customization, etc
 See the wiki here: https://github.com/rbjaxter/budhud/wiki
+
+## HUD Credits
+### Main Testers / Feedback
+Auzzie
+HunnyBunny
+ly_dee
+powah
+... and anyone in Discord or the Steam group who has found bugs!
+
+### HUD Help
+doodles @ http://doodlesstuff.com
+flatline
+JarateKing
+omnibombulator
+raysfire
+Wiethoofd
+
+### Crosshairs
+Knuckles
+Fog
+whayay
+
+Default HUD Repositories
+MFSTATE (mana) @ https://github.com/MFSTATE/tf2basehud
+Tewgon @ https://github.com/Tewgon/tf2basehud
+
+Main HUD Font
+Lato, by Łukasz Dziedzic @ http://www.lukaszdziedzic.eu/
+
+Previous Fonts
+Roboto Condensed @ https://www.fontsquirrel.com/fonts/roboto
+Designosaur @ https://fontlibrary.org/en/font/designosaur
+
+Custom Icons
+Freepik @ http://www.freepik.com/
+
