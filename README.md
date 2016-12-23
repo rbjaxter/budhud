@@ -1,7 +1,10 @@
 # budhud
 A Team Fortress 2 HUD built from the ground up using #base.
 
-**Note:** If you plan to make changes to the hud, it is best to use a code editor such as either of the two listed below.
+**IMPORTANT NOTE**: Installation has changed slightly from the much older version of the hud! Check out installation instructions here: https://github.com/rbjaxter/budhud/wiki/Installation
+
+## Modifying the HUD
+If you plan to make changes to the hud, it is best to use a code editor such as either of the two listed below.
 
 #### Windows: Notepad++, http://notepad-plus-plus.org/ 
 
