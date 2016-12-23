@@ -12,7 +12,7 @@
 
 	"CHudAccountPanel"
 	{
-		"delta_item_x"												"83"
+		"delta_item_x"												"88"
 		"delta_item_start_y"										"23"
 		"delta_item_end_y"											"36"
 		"PositiveColor"												"bh_orange"

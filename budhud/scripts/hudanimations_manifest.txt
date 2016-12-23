@@ -7,10 +7,10 @@ hudanimations_manifest
 	"file"		"scripts/bh_hudanimations/bh_Ammo.txt"
 	"file"		"scripts/bh_hudanimations/bh_Crosshairs.txt"
 	"file"		"scripts/bh_hudanimations/bh_Health.txt"
-	"file"		"scripts/bh_hudanimations/bh_MedicCharge.txt"
 //	"file"		"scripts/bh_hudanimations/bh_MedicChargeRainbow.txt"
+	"file"		"scripts/bh_hudanimations/bh_MedicCharge.txt"
 	"file"		"scripts/bh_hudanimations/bh_SpyDisguise.txt"	
-//	"file"		"scripts/bh_hudanimations/bh_UberTracking.txt"
+	"file"		"scripts/bh_hudanimations/bh_UberTracking.txt"
 	"file"		"scripts/bh_hudanimations/bh_Wang.txt"
 	"file"		"scripts/hudanimations_tf.txt"
 }

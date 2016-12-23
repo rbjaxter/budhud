@@ -704,7 +704,7 @@ Scheme
 			"1"
 			{
 				"name"		"Trebuchet MS" [!$OSX]
-				"name"		"Helvetica" [$OSX]
+				"name"		"Helvetica" [disabled]
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" "1"
@@ -1510,7 +1510,7 @@ Scheme
 				"tall_disabled"	"48"
 				"tall_disabled"	"48"
 				"antialias"		"1" 
-				"custom"		"1" [$OSX]
+				"custom"		"1" [disabled]
 				"weight"		"500"
 				"weight_disabled"	"800"
 				"weight_disabled"	"1000"
@@ -1525,7 +1525,7 @@ Scheme
 				"tall_disabled"	"48"
 				"tall_disabled"	"48"
 				"antialias"		"1"
-				"custom"		"1" [$OSX]
+				"custom"		"1" [disabled]
 				"weight"		"500"
 				"weight_disabled"	"800"
 				"weight_disabled"	"1000"
@@ -1540,7 +1540,7 @@ Scheme
 				"tall_disabled"	"36"
 				"tall_disabled"	"36"
 				"antialias" "1"
-				"custom"		"1" [$OSX]
+				"custom"		"1" [disabled]
 				"weight"	"500"
 			}
 		}
@@ -1550,11 +1550,11 @@ Scheme
 			{
 				"name"			"TF2 Professor"
 				"tall"			"14" [!$OSX]
-				"tall"			"15" [$OSX]
+				"tall"			"15" [disabled]
 				"tall_disabled"	"32"
 				"tall_disabled"	"32"
 				"antialias"		"1"
-				"custom"		"1" [$OSX]
+				"custom"		"1" [disabled]
 				"weight"		"500"
 			}
 		}
@@ -2030,7 +2030,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"11"  [!$OSX]
-				"tall"		"9"  [$OSX]
+				"tall"		"9"  [disabled]
 				"weight"	"800"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2499,7 +2499,7 @@ Scheme
 				"name"		"TF2 Professor"
 				"tall"		"20"
 				"antialias" "1"
-				"custom"		"1" [$OSX]
+				"custom"		"1" [disabled]
 				"weight"	"500"
 			}
 		}

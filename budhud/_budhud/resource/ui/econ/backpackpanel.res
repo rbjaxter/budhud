@@ -131,7 +131,7 @@
 	{
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_PrevArrow"
-		"xpos"														"115"
+		"xpos"														"c-312"
 		"ypos"														"r190"
 		"zpos"														"2"
 		"wide"														"20"
@@ -165,7 +165,7 @@
 	{
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_NextArrow"
-		"xpos"														"r142"
+		"xpos"														"c287"
 		"ypos"														"r190"
 		"zpos"														"2"
 		"wide"														"20"

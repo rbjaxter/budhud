@@ -396,63 +396,14 @@
 			"ypos"													"r-6969"
 		}
 	}	
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// "Waiting for teams to organize" message
+	////////////////////////////////////////////////////////////////////////////////////////////////////	
 	
 	"TournamentLabel"
 	{
-		"xpos"														"c-150"
-		"ypos"														"80"
-		"wide"														"300"
-		"font"														"bh_Font12"
-		
-		if_competitive
-		{
-			"ypos"													"r-6969"
-		}
-		
-		if_mvm
-		{
-			"ypos"													"r-6969"
-		}
-		
-		if_readymode
-		{
-			"xpos"													"c-150"
-			"ypos"													"80"
-		}
-	}
-	
-	"bh_TournamentLabelShadow"
-	{	
-		"ControlName"												"Label"
-		"fieldName"													"bh_TournamentLabelShadow"
-		"font"														"bh_Font12"
-		"fgcolor_override"											"bh_Shadow"
-		"xpos"														"c-149"
-		"ypos"														"81"
-		"zpos"														"1"
-		"wide"														"300"
-		"tall"														"19"
-		"visible"													"1"
-		"enabled"													"1"
-		"labelText"													"%tournamentstatelabel%"
-		"textAlignment"												"center"
-		"proportionaltoparent"										"1"
-		
-		if_mvm
-		{
-			"ypos"													"r-6969"
-		}
-
-		if_competitive
-		{
-			"ypos"													"r-6969"
-		}
-
-		if_readymode
-		{
-			"xpos"													"c-149"
-			"ypos"													"81"
-		}
+		"ypos"														"r-6969"
 	}
 	
 	"the_wang_who_peaks"

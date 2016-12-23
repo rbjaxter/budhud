@@ -283,7 +283,7 @@
 			"xpos_disabled"			"c-193"
 			"xpos_disabled"			"c-193"
 			"ypos"			"170" [!$OSX]
-			"ypos"			"185" [$OSX]
+			"ypos"			"185" [disabled]
 			"ypos_disabled"			"32"
 			"ypos_disabled"			"32"
 			"wide"			"300"
@@ -1664,7 +1664,7 @@
 			"textAlignment"		"west"
 			"xpos"			"c+124"
 			"ypos"			"170" [!$OSX]
-			"ypos"			"180" [$OSX]
+			"ypos"			"180" [disabled]
 			"wide"			"300"
 			"tall"			"20"
 			"autoResize"	"0"

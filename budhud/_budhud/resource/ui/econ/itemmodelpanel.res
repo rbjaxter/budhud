@@ -21,7 +21,7 @@
 	{
 		"serieslabel"
 		{	
-			"wide"													"16"
+			"wide"													"18"
 			"font"													"bh_Font8"
 			"fgcolor_override"										"bh_white"
 			"bgcolor_override"										"bh_MenuBG"
