@@ -213,7 +213,7 @@ Scheme
 			"1"
 			{
 				"name"												"Lato Semibold" [!$OSX]
-				"name"												"Lato Semibold" [$OSX]
+				"name"												"Lato Semibold" [disabled]
 				"tall"												"18"
 				"weight"											"900"
 				"antialias" 										"1"
@@ -938,7 +938,7 @@ Scheme
 				"tall_lodef"										"48"
 				"tall_hidef"										"48"
 				"antialias"											"1" 
-				"custom"											"1" [$OSX]
+				"custom"											"1" [disabled]
 				"weight"											"500"
 				"weight_lodef"										"800"
 				"weight_hidef"										"1000"
@@ -954,7 +954,7 @@ Scheme
 				"tall_lodef"										"48"
 				"tall_hidef"										"48"
 				"antialias"											"1"
-				"custom"											"1" [$OSX]
+				"custom"											"1" [disabled]
 				"weight"											"500"
 				"weight_lodef"										"800"
 				"weight_hidef"										"1000"
@@ -970,7 +970,7 @@ Scheme
 				"tall_lodef"										"36"
 				"tall_hidef"										"36"
 				"antialias" 										"1"
-				"custom"											"1" [$OSX]
+				"custom"											"1" [disabled]
 				"weight"											"500"
 			}
 		}
@@ -981,11 +981,11 @@ Scheme
 			{
 				"name"												"Lato Semibold"
 				"tall"												"14" [!$OSX]
-				"tall"												"15" [$OSX]
+				"tall"												"15" [disabled]
 				"tall_lodef"										"32"
 				"tall_hidef"										"32"
 				"antialias"											"1"
-				"custom"											"1" [$OSX]
+				"custom"											"1" [disabled]
 				"weight"											"500"
 			}
 		}
@@ -1482,7 +1482,7 @@ Scheme
 			{
 				"name"												"Lato Semibold"
 				"tall"												"11"  [!$OSX]
-				"tall"												"9"  [$OSX]
+				"tall"												"9"  [disabled]
 				"weight"											"800"
 				"additive"											"0"
 				"antialias" 										"1"

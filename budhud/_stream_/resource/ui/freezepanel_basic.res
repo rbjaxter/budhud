@@ -15,6 +15,11 @@
 	
 	"itempanel"
 	{
-		"ypos"													"r-6969"
+		"wide"													"0"
+		
+		"ItemLabel"
+		{
+			"ypos"												"r-6969"
+		}
 	}
 }
