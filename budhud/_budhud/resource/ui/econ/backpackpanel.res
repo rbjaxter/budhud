@@ -51,7 +51,9 @@
 		{
 			"itemmodelpanel"
 			{
+				"antialias"											"1"
 				"inventory_image_type"								"1"
+				"use_item_rendertarget"								"0"
 			}
 			
 			"New"
@@ -224,5 +226,12 @@
 	"mouseoveritempanel"
 	{
 		"zpos"														"6"
+		
+		"itemmodelpanel"
+		{
+			"antialias"												"1"
+			"inventory_image_type"									"1"
+			"use_item_rendertarget"									"0"
+		}
 	}
 }

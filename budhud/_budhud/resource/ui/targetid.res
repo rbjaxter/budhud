@@ -15,6 +15,11 @@
 		"ypos"														"r-6969"
 	}
 	
+	"AvatarImage"
+	{
+		"ypos"														"r-6969"
+	}
+	
 	"MoveableSubPanel"
 	{
 		"MoveableIconBG"

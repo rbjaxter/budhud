@@ -15,7 +15,7 @@
 		"ypos"														"0"
 		"zpos"														"0"
 		"wide"														"f0"
-		"tall"														"480"
+		"tall"														"f0"
 
 
 		"enabled"													"0"									// Set both to "1"
@@ -49,7 +49,7 @@
 		"ypos"														"1"
 		"zpos"														"1"
 		"wide"														"f0"
-		"tall"														"480"
+		"tall"														"f0"
 		
 		"visible"													"0"							// Set both to "1"
 		"enabled"													"0"							// to enable

@@ -6,15 +6,6 @@
 
 Scheme
 {
-	CustomFontFiles
-	{
-		"8"
-		{
-			"font"													"resource\fonts\Lato-Semibold.ttf"
-			"name"													"Lato Semibold"
-		}
-	}
-	
 	Fonts
 	{
 		"Default"

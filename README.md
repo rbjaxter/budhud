@@ -34,22 +34,25 @@ If you plan to make changes to the hud, it is best to use a code editor such as 
 * raysfire
 * Wiethoofd
 
-### Crosshairs
+### External HUD Credits
+#### HUD Font
+* Lato, by Łukasz Dziedzic | http://www.lukaszdziedzic.eu/
+
+#### Custom Icons
+* Freepik | http://www.freepik.com/
+
+#### Crosshairs
 * Knuckles
 * Fog
 * whayay
 
-### Default HUD Repositories
-* MFSTATE (mana) @ https://github.com/MFSTATE/tf2basehud
-* Tewgon @ https://github.com/Tewgon/tf2basehud
+#### Closed Captions
+clovervidia | https://steamcommunity.com/sharedfiles/filedetails/?id=167785751
 
-### Main HUD Font
-* Lato, by Łukasz Dziedzic @ http://www.lukaszdziedzic.eu/
+#### GFX Configs
+Comanglia | http://www.teamfortress.tv/25328/comanglia-s-config-fps-guide
 
 ### Previous Fonts
-* Roboto Condensed @ https://www.fontsquirrel.com/fonts/roboto
-* Designosaur @ https://fontlibrary.org/en/font/designosaur
-
-### Custom Icons
-* Freepik @ http://www.freepik.com/
+* Roboto Condensed | https://www.fontsquirrel.com/fonts/roboto
+* Designosaur | https://fontlibrary.org/en/font/designosaur
 

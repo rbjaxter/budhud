@@ -52,4 +52,14 @@
 			"border_armed"											"bh_b_NESW"
 		}
 	}
+	
+	"mousedragitempanel"
+	{
+		"itemmodelpanel"
+		{
+			"antialias"												"1"
+			"inventory_image_type"									"1"
+			"use_item_rendertarget"									"0"
+		}
+	}
 }

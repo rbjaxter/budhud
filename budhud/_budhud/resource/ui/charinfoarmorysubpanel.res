@@ -10,6 +10,43 @@
 		"bgcolor_override"											"bh_MenuBG"
 		"infocus_bgcolor_override" 									"bh_MenuBG"
 		"outoffocus_bgcolor_override" 								"bh_MenuBG"
+		
+		"thumbnail_modelpanels_kv"
+		{
+			"itemmodelpanel"
+			{
+				"antialias"											"1"
+				"inventory_image_type"								"1"
+				"use_item_rendertarget"								"0"
+			}
+		}
+	}
+	
+	"SelectedItemImageModelPanel"
+	{
+		"itemmodelpanel"
+		{
+			"antialias"												"1"
+			"inventory_image_type"									"1"
+			"use_item_rendertarget"									"0"
+		}
+	}
+	
+	"SelectedItemModelPanel"
+	{
+		"antialias"													"1"
+		"inventory_image_type"										"1"
+		"use_item_rendertarget"										"0"
+	}
+	
+	"mouseoveritempanel"
+	{
+		"itemmodelpanel"
+		{
+			"antialias"												"1"
+			"inventory_image_type"									"1"
+			"use_item_rendertarget"									"0"
+		}
 	}
 	
 	"ArmoryLabel"

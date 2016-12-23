@@ -19,4 +19,46 @@
 
 Scheme
 {
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// BUDHUD FONT ENTRIES
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	CustomFontFiles
+	{
+		"8" // budhud Font
+		{
+			"font"	"resource/fonts/Lato-Semibold.ttf"
+			"name"	"Lato Semibold"
+		}
+		"9" // Fog's Crosshairs
+		{
+			"font" "resource/fonts/crosshairs.ttf"
+			"name" "Crosshairs"
+		}
+		"10" // Thin Cross
+		{
+			"font" "resource/fonts/Symbol.ttf"
+			"name" "Symbol"
+		}
+		"11" // Garm3n's Crosshairs
+		{
+			"font" "resource/fonts/Garm3nFont.ttf"
+			"name" "Garm3nFont"
+		}
+		"12" // whayay's Crosshairs
+		{
+			"font"	"resource/fonts/Crosshair.ttf"
+			"name"	"Crosshair"
+		}
+		"13" // Knuckle's Crosshairs
+		{
+			"font" "resource/fonts/KnucklesCrosses.ttf"
+			"name" "KnucklesCrosses"
+		}
+		"14" // Tournament HUD HP block
+		{
+			"font" "resource/fonts/Blocks.ttf"
+			"name" "Blocks"
+		}
+	}
 }

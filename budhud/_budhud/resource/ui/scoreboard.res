@@ -880,4 +880,11 @@
 		"ypos"														"327"
 		"wide"														"280"
 	}
+	
+	"SpectatorsInQueue"
+	{
+		"xpos"														"10"
+		"ypos"														"327"
+		"wide"														"280"
+	}
 }
