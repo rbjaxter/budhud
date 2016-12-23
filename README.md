@@ -3,6 +3,9 @@
 
 **IMPORTANT NOTE**: Installation has changed slightly from the much older version of the hud! Check out installation instructions here: https://github.com/rbjaxter/budhud/wiki/Installation
 
+## Installation, Customization, etc
+See the wiki here: https://github.com/rbjaxter/budhud/wiki
+
 ## Modifying the HUD
 If you plan to make changes to the hud, it is best to use a code editor such as either of the two listed below.
 
@@ -14,9 +17,6 @@ If you plan to make changes to the hud, it is best to use a code editor such as 
 * Steam Group: http://steamcommunity.com/groups/budhud
 * Discord: https://discord.gg/PTWkt3h
 * Screenshots: http://imgur.com/a/aJ1K5
-
-## Installation, Customization, etc
-See the wiki here: https://github.com/rbjaxter/budhud/wiki
 
 ## HUD Credits
 ### Main Testers / Feedback
