@@ -10,7 +10,7 @@ Scheme
 	{
 		"8"
 		{
-			"font"													"resource\fonts\Lato-Semibold.ttf"
+			"font"													"resource/fonts/Lato-Semibold.ttf"
 			"name"													"Lato Semibold"
 		}
 	}
