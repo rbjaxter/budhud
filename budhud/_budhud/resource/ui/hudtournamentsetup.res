@@ -6,7 +6,7 @@
 {
 	"HudTournamentSetupBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 
 	"TournamentSetupLabel"

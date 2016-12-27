@@ -4,7 +4,7 @@
 {
 	"LearnMoreButton"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 		"labeltext"													"#bh_MvMGuide"
 		"defaultBgColor_override"									"bh_ButtonBGDefault"
 		"armedBgColor_override"										"bh_ButtonBGArmed"

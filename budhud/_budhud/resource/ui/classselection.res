@@ -2,117 +2,117 @@
 {
 	"CancelButton"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"EditLoadoutButton"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 
 	"ClassMenuSelect"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"MenuBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"localPlayerImage"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"localPlayerBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"countImage0"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"countImage1"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"countImage2"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"countImage3"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"countImage4"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"countImage5"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"countImage6"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"countImage7"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"countImage8"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"countImage9"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"countImage10"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"CountLabel"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"ClassTipsPanel"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"ShadedBar"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"Offense"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"Defense"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"Support"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"bh_ClassBG"

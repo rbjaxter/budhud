@@ -2,12 +2,12 @@
 {
 	"WhiteBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}	
 	
 	"GreenBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 
 	"bh_CurrencyBG"

@@ -2,12 +2,12 @@
 {
 	"CloseButton"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 		
 	"BackButton"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}	
 	
 	"bh_Back"

@@ -2,12 +2,12 @@
 {
 	"PlayerStatusHealthImage"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}	
 	
 	"PlayerStatusHealthImageBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}	
 	
 	"BuildingStatusHealthImageBG"

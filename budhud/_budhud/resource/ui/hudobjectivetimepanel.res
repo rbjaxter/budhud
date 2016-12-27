@@ -2,32 +2,32 @@
 {
 	"TimePanelBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"ServerTimeLimitLabelBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"TimePanelProgressBar"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"WaitingForPlayersBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"SetupBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"OvertimeBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"ServerTimeLimitLabel"

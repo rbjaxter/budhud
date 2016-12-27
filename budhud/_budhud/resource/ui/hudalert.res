@@ -2,12 +2,12 @@
 {
 	"HudAlertBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"AlertImage"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 
 	"AlertLabel"

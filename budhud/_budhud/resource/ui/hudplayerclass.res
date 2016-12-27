@@ -2,22 +2,22 @@
 {
 	"PlayerStatusClassImageBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"classmodelpanelBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}	
 	
 	"PlayerStatusSpyImage"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"classmodelpanel"
 	{
-		"ypos"														"r-6969"	
+		"ypos"														"696969"	
 	}	
 	
 	"PlayerStatusClassImage"

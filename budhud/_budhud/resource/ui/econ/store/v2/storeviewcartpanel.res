@@ -3,12 +3,12 @@
 
 	"CloseButton"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"CheckoutButton"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 
 	"store_viewcart_panel"

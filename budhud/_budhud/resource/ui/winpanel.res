@@ -2,62 +2,62 @@
 {
 	"WinPanelBGBorder"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"WinningTeamLabelDropshadow"
 	{	
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"WinningTeamLabel"
 	{	
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"AdvancingTeamLabel"
 	{	
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"AdvancingTeamLabelDropShadow"
 	{	
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"WinReasonLabel"
 	{	
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"DetailsLabel"
 	{	
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"ShadedBar"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}	
 	
 	"KillStreakMaxCountLabel"
 	{        
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 
 	"Player1Badge"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"Player2Badge"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 
 	"Player3Badge"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"TeamScoresPanel"
@@ -69,22 +69,22 @@
 
 		"BlueLeaderAvatar"
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		"BlueLeaderAvatarBG"
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}	
 
 		"RedLeaderAvatar"
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		"RedLeaderAvatarBG"
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 
 		"bh_BGscoreBlue"
@@ -123,7 +123,7 @@
 		"BlueScoreBG"
 		{
 			"xpos"													"0"
-			"ypos"													"r-6969"		// 15
+			"ypos"													"696969"		// 15
 			"wide"													"112"
 			"tall"													"25"
 			"border"												"bh_b_Blue"
@@ -132,7 +132,7 @@
 		"RedScoreBG"
 		{
 			"xpos"													"112"
-			"ypos"													"r-6969"		// 15
+			"ypos"													"696969"		// 15
 			"wide"													"112"
 			"tall"													"25"
 			"border"												"bh_b_Red"

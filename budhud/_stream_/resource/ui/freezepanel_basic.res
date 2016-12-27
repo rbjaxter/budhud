@@ -4,12 +4,14 @@
 	{
 		"FreezeLabel"
 		{	
-			"ypos"												"r-6969"
+			"ypos"												"696969"
+			"wide"												"0"
 		}
 	
 		"FreezeLabelKiller2"
 		{	
-			"ypos"												"r-6969"
+			"ypos"												"696969"
+			"wide"												"696969"
 		}
 	}
 	
@@ -19,7 +21,7 @@
 		
 		"ItemLabel"
 		{
-			"ypos"												"r-6969"
+			"ypos"												"696969"
 		}
 	}
 }

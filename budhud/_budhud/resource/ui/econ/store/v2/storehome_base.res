@@ -2,12 +2,12 @@
 {
 	"StoreBackgroundPanel"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 
 	"CartImage"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 
 	"StorePage"
@@ -27,13 +27,13 @@
 	
 	"PrevPageButton"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 		"labeltext"													"&A"
 	}
 	
 	"NextPageButton"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 		"labeltext"													"&D"
 	}
 	

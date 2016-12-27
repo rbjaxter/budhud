@@ -3,11 +3,11 @@
 
 	"CountdownLabelShadow"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 		
 		if_competitive
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 	}
 	
@@ -62,7 +62,7 @@
 			
 			"specindex"
 			{
-				"ypos"												"r-6969"
+				"ypos"												"696969"
 			}
 			
 			"ReadyBG"
@@ -102,21 +102,21 @@
 	
 	"HudTournamentBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	
 		if_competitive
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 	
 		if_readymode
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		if_mvm
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 	}
 	
@@ -131,7 +131,7 @@
 		
 		if_competitive
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		if_readymode
@@ -163,17 +163,17 @@
 		
 		if_mvm
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 
 		if_competitive
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 
 		if_readymode
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 	}
 	
@@ -246,37 +246,37 @@
 		
 		if_competitive
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		if_readymode
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		if_mvm
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 	}
 	
 	"CountdownBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 		
 		if_competitive
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		if_readymode
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		if_mvm
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 	}
 	
@@ -291,17 +291,17 @@
 		
 		if_competitive
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		if_readymode
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		if_mvm
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 	}
 	
@@ -314,17 +314,17 @@
 		
 		if_competitive
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		if_readymode
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		if_mvm
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 	}
 	
@@ -337,17 +337,17 @@
 		
 		if_competitive
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		if_readymode
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		if_mvm
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 	}
 	
@@ -360,17 +360,17 @@
 		
 		if_competitive
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		if_readymode
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		if_mvm
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 	}
 	
@@ -383,17 +383,17 @@
 		
 		if_competitive
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		if_readymode
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		if_mvm
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 	}	
 
@@ -403,7 +403,7 @@
 	
 	"TournamentLabel"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"the_wang_who_peaks"
@@ -426,13 +426,13 @@
 		
 		if_competitive
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 	}
 	
 	"HudTournamentBGHelp"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"CountdownLabel"

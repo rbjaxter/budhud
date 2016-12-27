@@ -6,32 +6,32 @@
 {
 	"CaratLabel"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"NameFilterLabel"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"ClassLabel"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"BottomLine"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"TopLine"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"ItemSlotLabel"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}	
 	"ItemSelectionPanel"
 	{
@@ -83,13 +83,13 @@
 	
 	"PrevPageButton"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 		"labeltext"													"&A"
 	}
 	
 	"NextPageButton"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 		"labeltext"													"&D"
 	}
 	

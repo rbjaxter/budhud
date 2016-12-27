@@ -7,7 +7,7 @@
 
 	HudVoiceStatus
 	{
-		"text_xpos"													"r-6969"
+		"text_xpos"													"696969"
 	}
 	
 	HudSpectatorExtras

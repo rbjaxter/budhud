@@ -2,27 +2,27 @@
 {
 	"CartImage"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 
 	"SortFilterLabel"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}	
 	
 	"SubcategoryFiltersLabel"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}	
 	
 	"NameFilterLabel"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"ClassFilterLabel"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}	
 	
 	"StorePage"
@@ -91,13 +91,13 @@
 	
 	"PrevPageButton"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 		"labeltext"													"&A"
 	}
 	
 	"NextPageButton"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 		"labeltext"													"&D"
 	}
 	

@@ -2,27 +2,27 @@
 {
 	"MenuBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"ShadedBar"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"MapInfoContinue"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 		
 	"MapInfoBack"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"MapInfoWatchIntro"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"bh_Continue"

@@ -2,27 +2,27 @@
 {
 	"Skip"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"Back"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 		
 	"ReplayVideo"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"MenuBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 
 	"ShadedBar"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 
 	"VideoPanel"

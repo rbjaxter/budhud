@@ -2,22 +2,22 @@
 {
 	"BuildIcon"			
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"BuildIconShadow"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"Divider"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}	
 	
 	"CancelLabel"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"MainBackground"	
@@ -32,11 +32,11 @@
 	
 	"TitleLabel"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"TitleLabelDropShadow"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 }

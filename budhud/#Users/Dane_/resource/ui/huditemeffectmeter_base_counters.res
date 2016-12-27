@@ -10,7 +10,7 @@
 	
 	"ItemEffectMeterBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"ItemEffectMeterLabel"

@@ -2,17 +2,17 @@
 {
 	"CaratLabel"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"ItemSlotLabel"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"TopLine"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 
 	"ItemQuickSwitchPanel"

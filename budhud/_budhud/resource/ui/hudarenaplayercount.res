@@ -25,7 +25,7 @@
 		
 		"countshadow"
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 	}
 
@@ -54,7 +54,7 @@
 		
 		"countshadow"
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}			
 	}
 }

@@ -2,12 +2,12 @@
 {
 	"background"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"ChargeLabel"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"ChargeMeter"
@@ -26,7 +26,7 @@
 	
 		"PipeIcon"
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		"NumPipesLabel"
@@ -53,7 +53,7 @@
 		
 		"PipeIcon"
 		{
-			"ypos"													"r-6969"
+			"ypos"													"696969"
 		}
 		
 		"NumPipesLabel"

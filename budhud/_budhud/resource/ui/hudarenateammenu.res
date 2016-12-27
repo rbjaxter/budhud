@@ -2,32 +2,32 @@
 {
 	"TeamMenuAuto"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 	
 	"TeamMenuSpectate"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}
 
 	"MenuBG"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}	
 
 	"ShadedBar"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}		
 		
 	"autodoor"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}		
 	
 	"spectate"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 	}			
 
 	"team"
@@ -123,7 +123,7 @@
 	
 	"CancelButton"
 	{
-		"ypos"														"r-6969"
+		"ypos"														"696969"
 		"labelText"													"(&Q)"
 	}
 }
