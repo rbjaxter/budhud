@@ -30,3 +30,4 @@
 		"image"														"replay\thumbnails\menugif"
 		"scaleImage"												"1"
 	}
+}
