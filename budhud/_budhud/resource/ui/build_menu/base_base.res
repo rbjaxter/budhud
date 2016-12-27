@@ -30,7 +30,7 @@
 		"xpos"														"22"
 		"ypos"														"50"
 		"wide"														"60"
-		"labeltext"													"Low Metal"
+		"labeltext"													"#bh_LowMetal"
 		"textalignment"												"center"
 		"fgcolor_override"											"bh_orange"
 	}

@@ -24,7 +24,7 @@
 		"visible"													"1"
 		"enabled"													"1"
 		"tabPosition"												"0"
-		"labelText"													"BACK"
+		"labelText"													"#bh_Back"
 		"font"														"HudFontSmallBold"
 		"textAlignment"												"center"
 		"dulltext"													"0"

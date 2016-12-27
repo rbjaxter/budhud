@@ -72,7 +72,7 @@
 		"ypos"														"320"
 		"wide"														"120"
 		"tall"														"26"
-		"labelText"													"STEAM MARKET"
+		"labelText"													"#bh_SteamMarket"
 		"defaultBgColor_override"									"bh_ButtonBGDefault"
 		"armedBgColor_override"										"bh_ButtonBGArmed"
 		"depressedBgColor_override"									"bh_ButtonBGDepressed"

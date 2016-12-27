@@ -117,28 +117,6 @@
 	}	
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Menu GIF
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-
-	"Background"
-	{
-		"ControlName"												"ScalableImagePanel"
-		"fieldName"													"Background"
-		"xpos"														"0"
-		"ypos"														"0"
-		"zpos"														"-199"		// Def. background is -200		
-		"wide"														"f0"
-		"tall"														"f0"
-		"autoResize"												"0"
-		"pinCorner"													"0"
-		"visible"													"1"
-		"enabled"													"1"
-		"paintborder"												"0"
-		"image"														"replay\thumbnails\menugif"
-		"scaleImage"												"1"
-	}	
-
-	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Hover Tip
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
 	
@@ -356,7 +334,7 @@
 		
 		"ControlName"												"CExImageButton"
 		"fieldName"													"bh_Casual"
-		"labelText"													"CASUAL"
+		"labelText"													"#bh_Casual"
 		"font"														"bh_Font26"
 		
 		"xpos"														"0"
@@ -382,7 +360,7 @@
 		
 		"ControlName"												"CExImageButton"
 		"fieldName"													"bh_Community"
-		"labelText"													"COMMUNITY"
+		"labelText"													"#bh_Community"
 		"font"														"bh_Font26"
 		
 		"xpos"														"0"
@@ -408,7 +386,7 @@
 		
 		"ControlName"												"CExImageButton"
 		"fieldName"													"bh_Competitive"
-		"labelText"													"COMPETITIVE"
+		"labelText"													"#bh_Competitive"
 		"font"														"bh_Font26"
 		
 		"xpos"														"0"
@@ -434,7 +412,7 @@
 		
 		"ControlName"												"CExImageButton"
 		"fieldName"													"bh_MvM"
-		"labelText"													"MANN VS MACHINE"
+		"labelText"													"#bh_MannVsMachine"
 		"font"														"bh_Font26"
 		
 		"xpos"														"0"
@@ -460,7 +438,7 @@
 		
 		"ControlName"												"CExImageButton"
 		"fieldName"													"bh_Backpack"
-		"labelText"													"BACKPACK"
+		"labelText"													"#bh_Backpack"
 		"font"														"bh_Font26"
 		
 		"xpos"														"0"
@@ -486,7 +464,7 @@
 		
 		"ControlName"												"CExImageButton"
 		"fieldName"													"bh_Store"
-		"labelText"													"STORE"
+		"labelText"													"#bh_Store"
 		"font"														"bh_Font26"
 		
 		"xpos"														"0"
@@ -512,7 +490,7 @@
 		
 		"ControlName"												"CExImageButton"
 		"fieldName"													"bh_Options"
-		"labelText"													"OPTIONS"
+		"labelText"													"#bh_Options"
 		"font"														"bh_Font26"
 		
 		"xpos"														"0"
@@ -538,7 +516,7 @@
 		
 		"ControlName"												"CExImageButton"
 		"fieldName"													"bh_AdvOptions"
-		"labelText"													"ADV OPTIONS"
+		"labelText"													"#bh_AdvOptions"
 		"font"														"bh_Font26"
 		
 		"xpos"														"0"
@@ -568,7 +546,7 @@
 		"wide"														"250"
 		"tall"														"32"
 		"textAlignment"												"center"
-		"labelText"													"DISCONNECT"
+		"labelText"													"#bh_Disconnect"
 		"font"														"bh_Font26"
 		"textAlignment"												"center"
 		"textinsetx"												"0"
@@ -597,7 +575,7 @@
 		"wide"														"250"
 		"tall"														"32"
 		"textAlignment"												"center"
-		"labelText"													"QUIT"
+		"labelText"													"#bh_Quit"
 		"font"														"bh_Font26"
 		"textAlignment"												"center"
 		"textinsetx"												"0"
@@ -1788,7 +1766,7 @@
 			"visible"												"1"
 			"enabled"												"1"
 			"tabPosition"											"0"
-			"labelText"												"OPEN LINK"
+			"labelText"												"#bh_OpenLink"
 			"textinsetx"											"20"
 			"use_proportional_insets"								"1"
 			"font"													"HudFontSmallestBold"

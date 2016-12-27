@@ -44,7 +44,7 @@
 						echo ======================================================;
 						echo ~ Thank you to everyone who actively uses my hud! ~~~~;
 						echo ======================================================;"
-		"tooltip"		"Updated 23 December 2016
+		"tooltip"		"Updated 26 December 2016
      Happy Holidays!"
 	}
 	
@@ -53,7 +53,7 @@
 		"label"			""
 		"command" 		"watch_stream"
 		"OnlyAtMenu" 	"0"
-		"tooltip" 		"Twitch Streams"
+		"tooltip" 		"#bh_TwitchStreams"
 	}	
 	
 	"bh_Contracts"
@@ -61,7 +61,7 @@
 		"label"			""
 		"command" 		"questlog"
 		"OnlyAtMenu" 	"0"
-		"tooltip" 		"Contracts"
+		"tooltip" 		"#bh_Contracts"
 	}
 	
 	"bh_News"
@@ -69,7 +69,7 @@
 		"label"			""
 		"command" 		"motd_show"
 		"OnlyAtMenu" 	"0"
-		"tooltip" 		"TF2 News"
+		"tooltip" 		"#bh_News"
 	}
 
 	"bh_DemoUI"
@@ -77,7 +77,7 @@
 		"label"			""
 		"command" 		"engine demoui"
 		"OnlyAtMenu" 	"0"
-		"tooltip" 		"DemoUI"
+		"tooltip" 		"#bh_DemoUI"
 	}
 	
 	"bh_CreateServer"
@@ -85,7 +85,7 @@
 		"label"			""
 		"command" 		"OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu" 	"0"
-		"tooltip" 		"Create Server"
+		"tooltip" 		"#bh_CreateServer"
 	}
 	
 	"bh_WorkshopButton"
@@ -93,7 +93,7 @@
 		"label"			""
 		"command" 		"engine OpenSteamWorkshopDialog"
 		"OnlyAtMenu" 	"0"
-		"tooltip" 		"Workshop Contributions"
+		"tooltip" 		"#bh_WorkshopContributions"
 	}
 	
 	"bh_ReplaysButton"
@@ -101,7 +101,7 @@
 		"label"			""
 		"command" 		"engine replay_reloadbrowser"
 		"OnlyAtMenu" 	"0"
-		"tooltip" 		"Replays"
+		"tooltip" 		"#bh_Replays"
 	}
 	
 	"bh_CoachButton"
@@ -109,7 +109,7 @@
 		"label"			""
 		"command" 		"engine cl_coach_toggle"
 		"OnlyAtMenu" 	"0"
-		"tooltip" 		"Be a Coach"
+		"tooltip" 		"#bh_BeACoach"
 	}
 	
 	"bh_AchievementsButton"
@@ -117,7 +117,7 @@
 		"label"			""
 		"command" 		"OpenAchievementsDialog"
 		"OnlyAtMenu" 	"0"
-		"tooltip" 		"Achievements"
+		"tooltip" 		"#bh_Achievements"
 	}
 	
 	/////////////////////////////////////////////////////////////////////////

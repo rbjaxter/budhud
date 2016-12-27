@@ -1,3 +1,7 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Backpack landing page (frame)
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
 "Resource/UI/CharInfoPanel.res"
 {
 	"BackButton"
@@ -54,7 +58,7 @@
 		"visible"													"1"
 		"enabled"													"1"
 		"tabPosition"												"0"
-		"labelText"													"BACK (&Q)"
+		"labelText"													"#bh_Back_QK"
 		"font"														"HudFontSmallBold"
 		"textAlignment"												"center"
 		"dulltext"													"0"

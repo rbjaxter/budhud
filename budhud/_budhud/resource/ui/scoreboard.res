@@ -171,7 +171,7 @@
 		"visible"													"1"
 		"enabled"													"1"
 		"tabPosition"												"0"
-		"medal_width"												"16"
+		"medal_width"												"20"
 		"avatar_width"												"60"
 		"spacer"													"5"
 		"name_width"												"90"	

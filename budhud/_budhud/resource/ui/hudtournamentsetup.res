@@ -1,3 +1,7 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// HUD tournament ready/not ready dialog
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
 "Resource/UI/HudTournamentSetup.res"
 {
 	"HudTournamentSetupBG"
@@ -55,7 +59,6 @@
 		"wide"														"70"
 		"tall"														"14"
 		"zpos"														"3"
-		"labelText"													"Not Ready"
 		"font"														"bh_Font12"
 		"paintbackground"											"0"
 

@@ -1,3 +1,7 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Mann Co. catalog
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
 "Resource/UI/CharInfoArmorySubPanel.res"
 {
 	"CaratLabel"
@@ -81,7 +85,7 @@
 		"font"														"HudFontSmallBold"
 		"wide"														"100"
 		"tall"														"26"
-		"labeltext"													"VIEW IN STORE"
+		"labeltext"													"#bh_ViewInStore"
 		"defaultBgColor_override"									"bh_ButtonBGDefault"
 		"armedBgColor_override"										"bh_ButtonBGArmed"
 		"depressedBgColor_override"									"bh_ButtonBGDepressed"
@@ -99,7 +103,7 @@
 		"font"														"HudFontSmallBold"
 		"wide"														"100"
 		"tall"														"26"
-		"labeltext"													"ITEM WIKI"
+		"labeltext"													"#bh_ItemWiki"
 		"defaultBgColor_override"									"bh_ButtonBGDefault"
 		"armedBgColor_override"										"bh_ButtonBGArmed"
 		"depressedBgColor_override"									"bh_ButtonBGDepressed"

@@ -1,3 +1,7 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Backpack landing page (content)
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {
 	"CharInfoLoadoutSubPanel"
@@ -58,14 +62,14 @@
 	"NoSteamLabel"
 	{
 		"font"														"bh_Font16"
-		"labelText"													"Steam appears to be down ¯\_(ツ)_/¯. Check https://steamstat.us/ for updates."
+		"labelText"													"#bh_SteamDown"
 		"fgcolor_override"											"bh_white"
 	}
 	
 	"NoGCLabel"
 	{
 		"font"														"bh_Font16"
-		"labelText"													"The Game Coordinator appears to be down ¯\_(ツ)_/¯. Check https://steamstat.us/ for updates."
+		"labelText"													"#bh_GCDown"
 		"fgcolor_override"											"bh_white"
 	}
 }

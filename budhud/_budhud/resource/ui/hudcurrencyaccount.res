@@ -40,7 +40,7 @@
 		"visible"													"1"
 		"enabled"													"1"
 		"textAlignment"												"west"	
-		"labelText"													"Currency"
+		"labelText"													"#bh_Currency"
 	}
 	
 	"bh_CurrencyLabelShadow"
@@ -57,7 +57,7 @@
 		"visible"													"1"
 		"enabled"													"1"
 		"textAlignment"												"west"	
-		"labelText"													"Currency"
+		"labelText"													"#bh_Currency"
 	}
 	
 	"Currency"

@@ -1,3 +1,7 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Decorated item inspection in backpack
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
 "Resource/UI/econ/QuestEditorPanel.res"
 {
 	"InspectionPanel"
@@ -27,7 +31,7 @@
 		"visible"													"1"
 		"enabled"													"1"
 		"tabPosition"												"0"
-		"labelText"													"BACK (&Q)"
+		"labelText"													"#bh_Back_QK"
 		"font"														"HudFontSmallBold"
 		"textAlignment"												"center"
 		"dulltext"													"0"

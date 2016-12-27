@@ -87,10 +87,43 @@
 			"ypos"													"r-6969"
 		}
 
+		"bh_BGscoreBlue"
+		{
+			"ControlName" 												"ImagePanel"
+			"fieldName" 												"bh_BGscoreBlue"
+			"xpos"														"0"
+			"ypos"														"15"
+			"wide"														"112"
+			"tall"														"25"
+			"visible" 													"1"
+			"enabled" 													"1"
+			"fillcolor" 												""
+			"draw_corner_width"											"5"
+			"draw_corner_height"										"5"
+			"border"													"bh_b_Blue"
+		}
+	
+		"bh_BGscoreRed"
+		{
+			"ControlName" 												"ImagePanel"
+			"fieldName" 												"bh_BGscoreRed"
+			"xpos"														"112"
+			"ypos"														"15"
+			"wide"														"112"
+			"tall"														"25"
+			"border"													"bh_b_Red"
+			"visible" 													"1"
+			"enabled" 													"1"
+			"fillcolor" 												""
+			"draw_corner_width"											"0"
+			"draw_corner_height"										"0"
+			"border"													"bh_b_Red"
+		}		
+		
 		"BlueScoreBG"
 		{
 			"xpos"													"0"
-			"ypos"													"15"
+			"ypos"													"6969"		// 15
 			"wide"													"112"
 			"tall"													"25"
 			"border"												"bh_b_Blue"
@@ -99,7 +132,7 @@
 		"RedScoreBG"
 		{
 			"xpos"													"112"
-			"ypos"													"15"
+			"ypos"													"6969"		// 15
 			"wide"													"112"
 			"tall"													"25"
 			"border"												"bh_b_Red"

@@ -1,3 +1,7 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Item drop/granted/acquired UI
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
 "Resource/UI/ItemPickupPanel.res"
 {
 	"CloseButton"
@@ -41,7 +45,7 @@
 		"visible"													"1"
 		"enabled"													"1"
 		"tabPosition"												"0"
-		"labelText"													"CONTINUE (&E)"
+		"labelText"													"#bh_Continue_QK"
 		"font"														"HudFontSmallBold"
 		"textAlignment"												"center"
 		"dulltext"													"0"
@@ -75,7 +79,7 @@
 		"visible"													"1"
 		"enabled"													"1"
 		"tabPosition"												"0"
-		"labelText"													"OPEN BP (&Q)"
+		"labelText"													"#bh_OpenBP_QK"
 		"font"														"HudFontSmallBold"
 		"textAlignment"												"center"
 		"dulltext"													"0"
@@ -109,7 +113,7 @@
 	
 	"NextButton"
 	{
-		"labelText"													"NEXT"
+		"labelText"													"#bh_Next"
 		"defaultBgColor_override"									"bh_ButtonBGDefault"
 		"armedBgColor_override"										"bh_ButtonBGArmed"
 		"depressedBgColor_override"									"bh_ButtonBGDepressed"
@@ -122,7 +126,7 @@
 	
 	"PrevButton"
 	{
-		"labelText"													"PREVIOUS"
+		"labelText"													"#bh_Previous"
 		"defaultBgColor_override"									"bh_ButtonBGDefault"
 		"armedBgColor_override"										"bh_ButtonBGArmed"
 		"depressedBgColor_override"									"bh_ButtonBGDepressed"

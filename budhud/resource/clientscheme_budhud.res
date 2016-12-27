@@ -153,7 +153,7 @@ Scheme
 	//		"visible"													"1"
 	//		"enabled"													"1"
 	//		"tabPosition"												"0"
-	//		"labelText"													"CLOSE"
+	//		"labelText"													"#bh_Close"
 	//		"font"														"HudFontSmallBold"
 	//		"textAlignment"												"center"
 	//		"dulltext"													"0"

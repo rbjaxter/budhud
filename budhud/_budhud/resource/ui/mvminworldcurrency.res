@@ -45,7 +45,7 @@
 		"visible"													"1"
 		"enabled"													"1"
 		"textAlignment"												"west"	
-		"labelText"													"Remaining"
+		"labelText"													"#bh_Remaining"
 	}
 	
 	"bh_CurrencyLabelShadow"
@@ -62,7 +62,7 @@
 		"visible"													"1"
 		"enabled"													"1"
 		"textAlignment"												"west"	
-		"labelText"													"Remaining"
+		"labelText"													"#bh_Remaining"
 	}
 	
 	"CurrencyGood"

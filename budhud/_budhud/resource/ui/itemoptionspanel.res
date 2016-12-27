@@ -1,3 +1,7 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Particle slider/set style modifier in loadout
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
 "Resource/UI/LoadoutParticleSlider.res"
 {
 	"PanelListPanel"
@@ -21,7 +25,7 @@
 
 		"SetStyleButton"
 		{
-			"labeltext"												"SET STYLE"
+			"labeltext"												"#bh_SetStyle"
 			"font"													"bh_Font14"
 			"PaintBackground"										"0"
 			"defaultBgColor_override"								"bh_ButtonBGDefault"

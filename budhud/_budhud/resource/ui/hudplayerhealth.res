@@ -17,9 +17,9 @@
 	
 	"HudPlayerHealth"
 	{
-		"xpos"														"c-200"
+		"xpos"														"c-240"
 		"ypos"														"c60"
-		"wide"														"120"
+		"wide"														"160"
 		"tall"														"100"
 	}
 	
@@ -35,7 +35,7 @@
 	
 	"PlayerStatusHealthValue"
 	{
-		"xpos"														"0"
+		"xpos"														"40"
 		"ypos"														"0"
 		"zpos"														"6"
 		"wide"														"120"
@@ -49,7 +49,7 @@
 	{
 		"ControlName"												"CExLabel"
 		"fieldName"													"PlayerStatusHealthValueShadow"
-		"xpos"														"1"
+		"xpos"														"41"
 		"ypos"														"1"
 		"zpos"														"1"
 		"wide"														"120"
@@ -64,7 +64,7 @@
 	
 	"PlayerStatusHealthBonusImage"
 	{
-		"xpos"														"44"
+		"xpos"														"84"
 		"ypos"														"34"
 		"zpos"														"0"
 		"wide"														"33"

@@ -11,7 +11,7 @@
 
 		"TitleLabel"
 		{
-			"labeltext"												"CALL VOTE"
+			"labeltext"												"#bh_CallVote"
 		}
 		
 		"bh_CallVote"
@@ -28,7 +28,7 @@
 			"visible"												"1"
 			"enabled"												"1"
 			"tabPosition"											"0"
-			"labelText"												"CALL VOTE"
+			"labelText"												"#bh_CallVote"
 			"font"													"HudFontSmallBold"
 			"textAlignment"											"center"
 			"dulltext"												"0"
@@ -62,7 +62,7 @@
 			"visible"												"1"
 			"enabled"												"1"
 			"tabPosition"											"0"
-			"labelText"												"CLOSE"
+			"labelText"												"#bh_Close"
 			"font"													"HudFontSmallBold"
 			"textAlignment"											"center"
 			"dulltext"												"0"

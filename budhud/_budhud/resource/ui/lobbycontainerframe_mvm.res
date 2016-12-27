@@ -1,12 +1,11 @@
 	#base	"..\..\..\_budhud\resource\ui\LobbyContainerFrame.res"
 
-
 "Resource/UI/LobbyContainerFrame_MvM.res"
 {
 	"LearnMoreButton"
 	{
 		"ypos"														"r-6969"
-		"labeltext"													"MVM GUIDE"
+		"labeltext"													"#bh_MvMGuide"
 		"defaultBgColor_override"									"bh_ButtonBGDefault"
 		"armedBgColor_override"										"bh_ButtonBGArmed"
 		"depressedBgColor_override"									"bh_ButtonBGDepressed"
@@ -21,7 +20,7 @@
 	"PlayNowButton"
 	{
 		"ypos"														"304"
-		"labeltext"													"MANN UP"
+		"labeltext"													"#bh_MannUp"
 		"defaultBgColor_override"									"bh_ButtonBGDefault"
 		"armedBgColor_override"										"bh_ButtonBGArmed"
 		"depressedBgColor_override"									"bh_ButtonBGDepressed"
@@ -36,7 +35,7 @@
 	"PracticeButton"
 	{
 		"ypos"														"304"
-		"labeltext"													"TRAINING"
+		"labeltext"													"#bh_Training"
 		"defaultBgColor_override"									"bh_ButtonBGDefault"
 		"armedBgColor_override"										"bh_ButtonBGArmed"
 		"depressedBgColor_override"									"bh_ButtonBGDepressed"

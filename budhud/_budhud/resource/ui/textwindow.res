@@ -48,7 +48,7 @@
 		"visible"													"1"
 		"enabled"													"1"
 		"tabPosition"												"0"
-		"labelText"													"CONTINUE (&E)"
+		"labelText"													"#bh_Continue_QK"
 		"font"														"HudFontSmallBold"
 		"textAlignment"												"center"
 		"Command"													"okay"

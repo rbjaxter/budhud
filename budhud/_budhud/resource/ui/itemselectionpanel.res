@@ -1,3 +1,7 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Item selection menu (within craft panel, etc)
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
 "Resource/UI/ItemSelectionPanel.res"
 {
 	"CaratLabel"
@@ -47,7 +51,7 @@
 	{
 		"xpos"														"c-50"
 		"ypos"														"310"
-		"labeltext"													"BACKPACK"
+		"labeltext"													"#bh_Backpack"
 		"wide"														"100"
 		"tall"														"26"
 	 	"defaultBgColor_override"									"15 15 15 255"
@@ -64,7 +68,7 @@
 	{
 		"xpos"														"c-50"
 		"ypos"														"310"
-		"labeltext"													"VALID ITEMS"
+		"labeltext"													"#bh_ValidItems"
 		"wide"														"100"
 		"tall"														"26"
 		"defaultBgColor_override"									"bh_ButtonBGDefault"
