@@ -123,7 +123,7 @@
 		"BlueScoreBG"
 		{
 			"xpos"													"0"
-			"ypos"													"6969"		// 15
+			"ypos"													"r-6969"		// 15
 			"wide"													"112"
 			"tall"													"25"
 			"border"												"bh_b_Blue"
@@ -132,7 +132,7 @@
 		"RedScoreBG"
 		{
 			"xpos"													"112"
-			"ypos"													"6969"		// 15
+			"ypos"													"r-6969"		// 15
 			"wide"													"112"
 			"tall"													"25"
 			"border"												"bh_b_Red"

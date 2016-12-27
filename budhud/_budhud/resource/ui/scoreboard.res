@@ -794,20 +794,41 @@
 
 	"ServerTimeLeftValue"
 	{
-		"xpos"														"270"
-		"ypos"														"-4"
-		"wide"														"60"
-		"textAlignment"												"center"
-		"font"														"bh_Font12"
-		
-		"ypos_minmode"												"8"
-		
+		"ypos"														"r-6969"
+
 		if_mvm
 		{
 			"ypos"													"r-6969"
 		}
 	}
 	
+	"bh_ServerTimeLeftValue"
+	{
+		"ControlName"												"CExLabel"
+		"fieldName"													"bh_ServerTimeLeftValue"
+		"font"														"bh_Font14Drop"
+		"labelText"													"%servertime%"
+		"textAlignment"												"center"
+		"xpos"														"260"
+		"ypos"														"-4"
+		"zpos"														"2"
+		"wide"														"80"
+		"tall"														"20"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"visible"													"1"
+		"enabled"													"1"
+		"fgcolor"													"bh_white"
+		"centerwrap"												"1"
+		
+		"ypos_minmode"												"8"		
+		
+		if_mvm
+		{
+			"ypos"													"r-6969"
+		}
+	}
+		
 	"redplayerlist"
 	{
 		"linespacing"												"16"

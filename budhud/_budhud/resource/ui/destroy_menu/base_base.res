@@ -15,7 +15,7 @@
 	
 	"MetalIcon"
 	{
-		"ypos"														"6969"
+		"ypos"														"r-6969"
 		"iconColor"													"bh_white"
 	}
 	
