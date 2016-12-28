@@ -2,63 +2,63 @@
 {
 	"TopBar"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 		"tall"														"0"
 	}
 
 	"BottomBar"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"bottombarblank"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"MapLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"CycleTargetFwdLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"CycleTargetFwdKeyLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"CycleTargetRevLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"CycleTargetRevKeyLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"SwitchCamModeKeyLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}	
 	
 	"SwitchCamModeLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"TipLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"ClassOrTeamLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"ReinforcementsLabel"
