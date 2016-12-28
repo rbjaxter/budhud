@@ -4,7 +4,7 @@
 	{
 		"ItemLabel"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 	}
 }

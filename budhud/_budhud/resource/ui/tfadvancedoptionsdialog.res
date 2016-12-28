@@ -17,12 +17,12 @@
 	
 	"CancelButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"OkButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"TitleLabel"

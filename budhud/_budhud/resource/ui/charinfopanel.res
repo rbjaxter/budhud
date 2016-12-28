@@ -6,7 +6,7 @@
 {
 	"BackButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 
 	"character_info"

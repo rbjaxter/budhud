@@ -4,7 +4,7 @@
 	{
 		"PlayForBraggingRightsExplanation"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 	}
 	
@@ -12,7 +12,7 @@
 	{
 		"PlayOnCommunityServerExplanation"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 	}
 
@@ -25,7 +25,7 @@
 	{
 		"MannVsMachineExplanation"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 
 		"MannVsMachineLabel"
@@ -70,7 +70,7 @@
 	{
 		"OpenHelpButton"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 
 		"SquadSurplusCountLabel"

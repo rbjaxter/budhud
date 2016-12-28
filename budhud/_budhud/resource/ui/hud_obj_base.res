@@ -72,7 +72,7 @@
 		"WrenchIcon"
 		{
 			"xpos"													"120"
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 			"wide"													"20"
 			"tall"													"20"
 			"iconColor"												"bh_gray"

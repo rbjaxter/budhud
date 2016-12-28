@@ -126,11 +126,11 @@
 				}
 				BlueTeamImage
 				{
-					"ypos"											"696969"
+					"ypos"											"r-6969"
 
 					if_large
 					{
-						"ypos"										"696969"
+						"ypos"										"r-6969"
 					}
 				}
 				"BlueTeamLabel"
@@ -299,11 +299,11 @@
 				}
 				RedTeamImage
 				{
-					"ypos"											"696969"
+					"ypos"											"r-6969"
 					
 					if_large
 					{
-						"ypos"										"696969"
+						"ypos"										"r-6969"
 					}
 				}
 				"RedTeamLabel"

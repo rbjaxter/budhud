@@ -6,7 +6,7 @@
 			
 		"CallVoteButton"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 
 		"TitleLabel"

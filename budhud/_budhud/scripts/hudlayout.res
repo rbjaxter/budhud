@@ -49,7 +49,7 @@
 
 	NotificationPanel
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -111,7 +111,7 @@
 
 	HudBowCharge			
 	{			
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}			
 
 	HudBossHealth			
@@ -352,7 +352,7 @@
 
 	HudTeamGoal
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}	
 	
 	HudTeamGoalTournament	

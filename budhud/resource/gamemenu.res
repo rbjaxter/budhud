@@ -44,7 +44,7 @@
 						echo ======================================================;
 						echo ~ Thank you to everyone who actively uses my hud! ~~~~;
 						echo ======================================================;"
-		"tooltip"		"Updated 27 December 2016
+		"tooltip"		"Updated 28 December 2016
      Happy Holidays!"
 	}
 	

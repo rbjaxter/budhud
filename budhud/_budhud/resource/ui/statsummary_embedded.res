@@ -2,22 +2,22 @@
 {
 	"NextTipButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"TipText"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"TipImage"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"ResetStatsButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"StatData"

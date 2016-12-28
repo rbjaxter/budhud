@@ -16,7 +16,7 @@
 
 	"LoadoutChangesLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"SelectLabel"
@@ -26,7 +26,7 @@
 
 	"ShowExplanationsButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 		
 	"ShowBackpackLabel"

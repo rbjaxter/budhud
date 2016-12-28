@@ -2,17 +2,17 @@
 {
 	"NextTipButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"TipText"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"TipImage"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"TFStatsSummary"
@@ -169,37 +169,37 @@
 		
 		"Background"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"MapImage"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}		
 		
 		"ContributedLabel"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"InfoBG"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 
 		"Title"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"MapAuthors"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"MapLeaderboardTitle"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 	}
 

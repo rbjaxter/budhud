@@ -2,29 +2,29 @@
 {
 	"TargetIDBG"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"TargetIDBG_Spec_Blue"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"TargetIDBG_Spec_Red"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"AvatarImage"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"MoveableSubPanel"
 	{
 		"MoveableIconBG"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"MoveableIcon"

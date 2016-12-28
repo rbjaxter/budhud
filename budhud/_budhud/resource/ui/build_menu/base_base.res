@@ -2,7 +2,7 @@
 {
 	"ItemBackground"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 		"icon"														""
 	}
 	
@@ -15,7 +15,7 @@
 	
 	"MetalIcon"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 		"iconColor"													"bh_white"
 	}
 	

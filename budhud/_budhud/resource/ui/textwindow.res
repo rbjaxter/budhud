@@ -2,17 +2,17 @@
 {
 	"MenuBG"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"ShadedBar"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 
 	"TFMessageTitle"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 
 	"TFTextMessage"
@@ -26,12 +26,12 @@
 	
 	"HTMLMessage"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"ok"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"bh_Continue"

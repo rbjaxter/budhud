@@ -3,12 +3,12 @@
 
 	"Background"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"HealthClusterIcon"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"bh_ResistNav"

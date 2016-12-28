@@ -2,12 +2,12 @@
 {	
 	"LeftSideBG"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"RightSideBG"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"ObjectiveStatusFlagPanel"
@@ -90,7 +90,7 @@
 	
 	"OutlineBG"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 		
 		"if_hybrid"
 		{
@@ -145,21 +145,21 @@
 	"BlueScoreShadow"
 	{
 		"fgcolor_override"											"bh_Shadow"
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 		
 		"if_hybrid"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"if_mvm"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"if_specialdelivery"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 	}	
 
@@ -200,7 +200,7 @@
 	"RedScoreShadow"
 	{
 		"fgcolor_override"											"bh_Shadow"
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 		
 		"if_hybrid"
 		{
@@ -220,7 +220,7 @@
 
 	"CarriedImage"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 
 		"if_hybrid"
 		{
@@ -270,26 +270,26 @@
 
 	"PlayingToBG"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 		
 		"if_hybrid"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 
 		"if_hybrid_single"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"if_mvm"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"if_specialdelivery"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 	}
 		
@@ -393,6 +393,6 @@
 
 	"SpecCarriedImage"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}			
 }

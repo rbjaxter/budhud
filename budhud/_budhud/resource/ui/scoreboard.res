@@ -2,52 +2,52 @@
 {
 	"ClassImage"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"classmodelpanel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"BlueScoreBG"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 
 	"RedScoreBG"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"PlayerNameBG"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"PlayerNameLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 
 	"MainBG"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}	
 	
 	"ShadedBar"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 
 	"RedTeamScoreDropshadow"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 
 	"BlueTeamScoreDropshadow"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"ServerLabelNew"
@@ -93,7 +93,7 @@
 		
 		if_mvm
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 	}
 
@@ -304,7 +304,7 @@
 		
 		"Kills"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"bh_Kills"
@@ -334,7 +334,7 @@
 		
 		"Assists"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"bh_Assists"
@@ -364,7 +364,7 @@
 		
 		"Deaths"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"bh_Deaths"
@@ -406,7 +406,7 @@
 		
 		"Damage"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"bh_Damage"
@@ -436,7 +436,7 @@
 		
 		"Healing"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"bh_Healing"
@@ -668,13 +668,13 @@
 		
 		if_mvm
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 	}
 	
 	"RedTeamScoreDropshadow"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"BlueTeamScore"
@@ -689,7 +689,7 @@
 		
 		if_mvm
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 	}
 	
@@ -753,11 +753,11 @@
 		"tall"														"45"
 		"textAlignment"												"center"
 		
-		"ypos_minmode"												"696969"
+		"ypos_minmode"												"r-6969"
 		
 		if_mvm
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 	}	
 	
@@ -769,36 +769,36 @@
 		"tall"														"45"
 		"textAlignment"												"center"
 		
-		"ypos_minmode"												"696969"
+		"ypos_minmode"												"r-6969"
 		
 		if_mvm
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 	}
 		
 	"ServerTimeLeftInsetBG"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"TimerBG"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}	
 	
 	"ServerTimeLeftLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}	
 
 	"ServerTimeLeftValue"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 
 		if_mvm
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 	}
 	
@@ -825,7 +825,7 @@
 		
 		if_mvm
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 	}
 		

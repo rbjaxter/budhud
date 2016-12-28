@@ -2,7 +2,7 @@
 {
 	"ClassLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"crafting_panel"

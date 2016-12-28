@@ -2,52 +2,52 @@
 {
 	"MenuBG"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"ShadedBar"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"bluedoor"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"reddoor"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"autodoor"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"spectate"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"TeamMenuSpectate"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"CancelButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 
 	"TeamMenuSelect"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}	
 	
 	"TeamMenuAuto"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}	
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -270,7 +270,7 @@
 	{
 		"ControlName"												"CExButton"
 		"fieldName"													"CancelButton"
-		"xpos"														"696969"
+		"xpos"														"r-6969"
 		"ypos"														"c231"
 		"zpos"														"6"
 		"wide"														"f0"

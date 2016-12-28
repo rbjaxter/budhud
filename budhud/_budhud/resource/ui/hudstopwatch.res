@@ -2,18 +2,18 @@
 {
 	"StopWatchDescriptionLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"HudStopWatchDescriptionBG"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"HudStopWatchBG"
 	{
 		"xpos"														"0"
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 		"draw_corner_width"											"0"
 		"draw_corner_height"										"0"
 		"wide"														"200"
@@ -22,7 +22,7 @@
 	
 	"StopWatchImageCaptureTime"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"StopWatchLabel"

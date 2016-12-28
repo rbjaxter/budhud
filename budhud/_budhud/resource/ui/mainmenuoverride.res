@@ -559,7 +559,7 @@
 
 		"SubImage"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}				
 	}
 	
@@ -588,7 +588,7 @@
 
 		"SubImage"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}				
 	}	
 	
@@ -1413,7 +1413,7 @@
 			"ControlName"											"ImagePanel"
 			"fieldName"												"SubImage"
 			"xpos"													"16"
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 			"zpos"													"3"
 			"wide"													"16"
 			"tall"													"16"
@@ -1432,7 +1432,7 @@
 			"labelText"												"%noticount%"
 			"textAlignment"											"center"
 			"xpos"													"16"
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 			"zpos"													"4"
 			"wide"													"16"
 			"tall"													"16"
@@ -1493,7 +1493,7 @@
 
 	"WatchStreamButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1542,7 +1542,7 @@
 		
 		"MOTD_HeaderIcon"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 
 		"MOTD_HeaderContainer"
@@ -2108,115 +2108,115 @@
 	
 	"ShowPromoCodesButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 
 	"ResumeGameButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"BackgroundFooter"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"FooterLine"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}	
 	
 	"NewUserForumsButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"AchievementsButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"CommentaryButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}		
 	
 	"CoachPlayersButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}		
 
 	"WorkshopButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}	
 
 	"ReplayButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"ReportBugButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}			
 	
 	"SettingsButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 
 	"TF2SettingsButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}	
 	
 	"ItemsContainer"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"FindAGameButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"FindAGameButtonHalfWidth"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"TFCharacterImage"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	"TFLogoImage"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}	
 
 	"MainMenuBGPanel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}	
 
 	"PlayLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 
 	"VRBGPanel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 
 	"QuestLogButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"MOTD_ShowButtonPanel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 }

@@ -2,11 +2,11 @@
 {
 	"HudTeamGoalBG"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"GoalImage"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 }

@@ -6,7 +6,7 @@
 {
 	"CaratLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"armory_panel"
@@ -68,13 +68,13 @@
 	
 	"PrevPageButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 		"labeltext"													"&A"
 	}
 	
 	"NextPageButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 		"labeltext"													"&D"
 	}
 	

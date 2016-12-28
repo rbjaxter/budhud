@@ -116,6 +116,6 @@ Scheme
 	// Defaults changed	
 		"TFOrange"													"085 085 085 255"		// Backpack page number BG (selected page color)
 		"TanLight"													"255 255 255 255"
-		"Orange"													"240 134 049 255"		// bh_orange
+		"Orange"													"240 134 049 255"		// bh_orange	
 	}
 }

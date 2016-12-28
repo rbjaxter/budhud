@@ -6,22 +6,22 @@
 {
 	"CloseButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"OpenLoadoutButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"SelectedItemNumberLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"ItemCountLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}	
 	
 	"item_pickup"

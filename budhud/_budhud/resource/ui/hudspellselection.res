@@ -2,22 +2,22 @@
 {		
 	"ItemEffectMeterBG"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"Spellbook"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 		
 	"ActionText"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"SpellText"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"SpellIcon"

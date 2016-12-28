@@ -2,7 +2,7 @@
 {		
 	"PlayerListBackground"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 
 	"WaveStatusPanel"
@@ -31,7 +31,7 @@
 		
 		"DifficultyLabel"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"DifficultyValue"
@@ -62,12 +62,12 @@
 		
 		"CreditStatsBackground"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"CreditsLabel"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"PreviousWaveCreditInfoPanel"

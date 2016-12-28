@@ -35,12 +35,12 @@
 	
 			"classimagebg"
 			{
-				"ypos"												"696969"
+				"ypos"												"r-6969"
 			}
 
 			"specindex"
 			{
-				"ypos"												"696969"
+				"ypos"												"r-6969"
 			}
 
 			"playername"

@@ -7,7 +7,7 @@
 
 	HudVoiceStatus
 	{
-		"text_xpos"													"696969"
+		"text_xpos"													"80008"		// Normal r-value does not work with this element
 	}
 	
 	HudSpectatorExtras

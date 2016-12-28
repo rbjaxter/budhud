@@ -3,7 +3,7 @@
 	"ServerLabelNew"
 	{
 		"xpos"														"326"
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 		
 		if_mvm
 		{

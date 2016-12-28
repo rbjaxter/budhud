@@ -216,11 +216,11 @@
 		
 		"EscortItemImageAlert"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"												"696969"
+				"ypos"												"r-6969"
 			}
 		}
 		
@@ -252,7 +252,7 @@
 		
 		"CapPlayerImage"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 
 		"CapNumPlayers"
@@ -312,11 +312,11 @@
 	
 		"EscortTeardrop"
 		{
-			"ypos"													"696969"		
+			"ypos"													"r-6969"		
 			
 			"ProgressText"
 			{	
-				"ypos"												"696969"
+				"ypos"												"r-6969"
 			}
 
 			"Blocked"

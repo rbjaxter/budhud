@@ -9,7 +9,7 @@
 
 		"BlueScoreBG"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"bh_BlueScoreBG"
@@ -31,7 +31,7 @@
 		
 		"RedScoreBG"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"bh_RedScoreBG"
@@ -116,7 +116,7 @@
 
 		"ArenaStreaksBG"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}	
 
 		"ArenaStreakLabel"
@@ -133,7 +133,7 @@
 
 	"WinPanelBG"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"bh_WinPanelBG"
@@ -199,7 +199,7 @@
 	
 	"WinReasonLabel"
 	{	
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"DetailsLabel"
@@ -214,7 +214,7 @@
 	
 	"ShadedBar"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"TopPlayersLabel"

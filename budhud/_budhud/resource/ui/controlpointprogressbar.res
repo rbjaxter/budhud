@@ -2,31 +2,31 @@
 {
 	"ControlPointProgressBar"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"ProgressBar"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}	
 	
 	"TearDrop"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}	
 	
 	"TeardropSide"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"Blocked"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"ProgressText"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}	
 }

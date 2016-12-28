@@ -2,17 +2,17 @@
 {
 	"PlayerStatus_MedicSmalLBulletResistImage"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"HudPlayerHealth"
@@ -25,12 +25,12 @@
 	
 	"PlayerStatusHealthImageBG"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"PlayerStatusHealthImage"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"PlayerStatusHealthValue"

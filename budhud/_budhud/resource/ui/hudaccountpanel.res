@@ -2,12 +2,12 @@
 {
 	"AccountBG"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"MetalIcon"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 
 	"CHudAccountPanel"

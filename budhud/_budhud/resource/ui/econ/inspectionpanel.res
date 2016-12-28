@@ -8,13 +8,13 @@
 	{
 		"BGImage"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 	}
 	
 	"CloseButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"bh_Back"

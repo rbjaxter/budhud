@@ -2,17 +2,17 @@
 {
 	"CaratLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}	
 	
 	"ShowExplanationsButton"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"ClassLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"backpack_panel"
@@ -78,7 +78,7 @@
 	
 	"NameFilterLabel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"NameFilterTextEntry"
@@ -201,7 +201,7 @@
 	{
 		"ControlName"												"CExButton"
 		"fieldName"													"PrevPageButton"
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 		"visible"													"1"
 		"enabled"													"1"
 		"labelText"													"&A"
@@ -214,7 +214,7 @@
 	{
 		"ControlName"												"CExButton"
 		"fieldName"													"PrevPageButton"
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 		"visible"													"1"
 		"enabled"													"1"
 		"labelText"													"&D"

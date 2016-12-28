@@ -2,7 +2,7 @@
 {
 	"ScreenshotPanel"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 
 	"FreezePanelBase"
@@ -16,12 +16,12 @@
 		
 		"FreezeLabel"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"FreezeLabelKiller"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 		
 		"FreezeLabelKiller2"
@@ -44,14 +44,14 @@
 		
 		"AvatarImage"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 			"wide"													"0"
 			"tall"													"0"
 		}
 		
 		"NemesisSubPanel"
 		{
-			"ypos"													"696969"
+			"ypos"													"r-6969"
 		}
 	}
 	

@@ -9,11 +9,11 @@
 	
 	"DestroyIcon"			
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 	
 	"DestroyIconShadow"
 	{
-		"ypos"														"696969"
+		"ypos"														"r-6969"
 	}
 }
