@@ -1,4 +1,4 @@
-	#base	"..\#Customization\bh_Crosshairs.res"
+	#base	"..\#customization\bh_crosshairs.res"
 
 "Resource/HudLayout.res"
 {

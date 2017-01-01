@@ -41,6 +41,19 @@ Scheme
 	// BUDHUD FONTS
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
+        "DefaultFixedOutline"
+        {
+            "1"
+            {
+                "name"         "Lato Semibold"
+                "tall"         "12"
+                "weight"     "0"
+                "outline"     "0"
+                "additive"     "0"
+                "antialias"  "1"
+            }
+        }	
+	
 		bh_Font6
 		{
 			"1"

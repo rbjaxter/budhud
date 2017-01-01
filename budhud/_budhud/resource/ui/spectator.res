@@ -1,5 +1,9 @@
 "Resource/UI/Spectator.res"
 {
+	"specgui"
+	{
+	}
+
 	"TopBar"
 	{
 		"ypos"														"r-6969"
@@ -60,9 +64,19 @@
 	{
 		"ypos"														"r-6969"
 	}
-	
+
 	"ReinforcementsLabel"
 	{
 		"ypos"														"60"
+	}
+
+	"itempanel"
+	{
+		"itemmodelpanel"
+		{
+			"antialias"												"1"
+			"inventory_image_type"									"1"
+			"use_item_rendertarget"									"0"
+		}
 	}
 }

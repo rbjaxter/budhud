@@ -30,7 +30,7 @@ Scheme
     //
 	
 		// Backpack page numbers
-		Button.TextColor									"bh_white"
+		Button.TextColor									"bh_ButtonDefault"
 		Button.BgColor										"bh_MenuBG"
 		Button.ArmedTextColor								"bh_white"
 		Button.ArmedBgColor									"bh_ButtonBGArmed"

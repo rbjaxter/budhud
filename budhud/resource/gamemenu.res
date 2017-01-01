@@ -27,10 +27,6 @@
 		"tooltip" 		"ReSurfed | Easy Maps"	// Change if you'd like
 	}
 	
-	/////////////////////////////////////////////////////////////////////////
-	// budhud Additions
-	/////////////////////////////////////////////////////////////////////////
-	
 	"bh_TitleHover"
 	{
 		"label"			""
@@ -44,8 +40,8 @@
 						echo ======================================================;
 						echo ~ Thank you to everyone who actively uses my hud! ~~~~;
 						echo ======================================================;"
-		"tooltip"		"Updated 28 December 2016
-     Happy Holidays!"
+		"tooltip"		"Updated 1 January 2016
+   Happy New Year!"
 	}
 	
 	"bh_Streams"

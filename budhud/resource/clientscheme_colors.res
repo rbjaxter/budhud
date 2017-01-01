@@ -76,13 +76,13 @@ Scheme
 	//	"bh_MainMenu1"												"240 134 049 255"	// Orange
 	//	"bh_MainMenu2"												"240 134 049 255"	// Orange
 	
-		// 25 DEC - Christmas
-		"bh_MainMenu1"												"186 032 032 255"	// Red
-		"bh_MainMenu2"												"000 215 000 255"	// Green
+	// 25 DEC - Christmas
+	//	"bh_MainMenu1"												"186 032 032 255"	// Red
+	//	"bh_MainMenu2"												"000 215 000 255"	// Green
 		
 	// 1 JAN - New Years
-	//	"bh_MainMenu1"												"186 085 211 255"	// Medium Orchid
-	//	"bh_MainMenu2"												"147 112 219 255"	// Medium Purple
+		"bh_MainMenu1"												"186 085 211 255"	// Medium Orchid
+		"bh_MainMenu2"												"147 112 219 255"	// Medium Purple
 		
 	// statsummary colors
 		"bh_bar1"													"150 150 150 255"
@@ -111,11 +111,13 @@ Scheme
 		"bh_red_t"													"228 000 027 064"
 		"bh_blue"													"076 108 133 255"
 		"bh_blue_t"													"076 108 133 064"
-		"bh_Blank"													"000 000 000 000"
+		"bh_blank"													"000 000 000 000"
 		
 	// Defaults changed	
 		"TFOrange"													"085 085 085 255"		// Backpack page number BG (selected page color)
-		"TanLight"													"255 255 255 255"
-		"Orange"													"240 134 049 255"		// bh_orange	
+		"TanLight"													"255 255 255 255"		// Referenced in a few areas, saves lines keeping this
+		"Orange"													"240 134 049 255"		// Referenced in a few areas, saves lines keeping this
+
+		"FgColor"													"255 255 255 255"		// Controls color of HudHintKeyDisplay (surf/jump timer)
 	}
 }
