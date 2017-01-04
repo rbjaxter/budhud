@@ -25,10 +25,10 @@
 			"ypos"													"0"
 			"wide"													"f0"
 			"tall"													"f0"
-			"team1_player_delta_x"									"55"
+			"team1_player_delta_x"									"59"
 			"team1_player_delta_y"									"40"
 			"team1_player_base_offset_x"							"-75"
-			"team2_player_delta_x"									"55"
+			"team2_player_delta_x"									"59"
 			"team2_player_delta_y"									"52"
 			"team2_player_base_offset_x"							"25"
 		}
