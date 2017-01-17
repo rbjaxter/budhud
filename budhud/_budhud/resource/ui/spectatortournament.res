@@ -151,12 +151,12 @@
 	"ReinforcementsLabel"
 	{
 		"xpos"														"c-300"
-		"ypos"														"50"
+		"ypos"														"84"
 		"wide"														"600"
 		"tall"														"24"
 		"labelText"													"#game_respawntime_in_secs"
 		"textAlignment"												"center"
-		"font"														"bh_Font24"
+		"font"														"bh_Font16"
 		
 		if_mvm
 		{

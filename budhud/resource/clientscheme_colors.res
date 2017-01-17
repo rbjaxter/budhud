@@ -73,16 +73,16 @@ Scheme
 		"bh_ButtonBGDepressed"										"035 035 035 255"
 		
 	// Main Menu - Default
-	//	"bh_MainMenu1"												"240 134 049 255"	// Orange
-	//	"bh_MainMenu2"												"240 134 049 255"	// Orange
+		"bh_MainMenu1"												"240 134 049 255"	// Orange
+		"bh_MainMenu2"												"240 134 049 255"	// Orange
 	
 	// 25 DEC - Christmas
 	//	"bh_MainMenu1"												"186 032 032 255"	// Red
 	//	"bh_MainMenu2"												"000 215 000 255"	// Green
 		
 	// 1 JAN - New Years
-		"bh_MainMenu1"												"186 085 211 255"	// Medium Orchid
-		"bh_MainMenu2"												"147 112 219 255"	// Medium Purple
+	//	"bh_MainMenu1"												"186 085 211 255"	// Medium Orchid
+	//	"bh_MainMenu2"												"147 112 219 255"	// Medium Purple
 		
 	// statsummary colors
 		"bh_bar1"													"150 150 150 255"

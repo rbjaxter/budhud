@@ -23,11 +23,6 @@ Scheme
 		Econ.Button.PresetDefaultColorBg					"25 25 25 255"
 		Econ.Button.PresetArmedColorBg						"50 50 50 255"
 		Econ.Button.PresetDepressedColorBg					"25 25 25 255"
-	//	
-	//	Border.Bright										"NoBorder"
-	//	Border.Dark											"NoBorder"
-	//	Border.Selection									"NoBorder"
-    //
 	
 		// Backpack page numbers
 		Button.TextColor									"bh_ButtonDefault"
@@ -52,7 +47,7 @@ Scheme
 		"ItemColor"											"255 255 255 255"	// default 255 167 42 255
 		"MenuColor"											"255 255 255 255"
 
-		// weapon selection colors
+		// Weapon selection colors
 		"SelectionNumberFg"									"255 255 255 255"
 		"SelectionTextFg"									"255 255 255 255"
 	}

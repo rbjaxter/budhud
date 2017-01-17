@@ -1,3 +1,7 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////	
+	// Store > "Items" tab
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
 "Resource/UI/StorePage.res"
 {
 	"CartImage"
@@ -91,23 +95,69 @@
 	
 	"PrevPageButton"
 	{
-		"ypos"														"r-6969"
-		"labeltext"													"&A"
+		"pin_to_sibling" 											"CurPageLabel"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		
+		"font"														"bh_Font14"
+		"xpos"														"20"
+		"ypos"														"3"
+		"zpos"														"2"
+		"wide"														"20"
+		"tall"														"25"
+		"labelText"													"<"
+		"defaultBgColor_override"									"bh_blank"
+		"armedBgColor_override"										"bh_blank"
+		"depressedBgColor_override"									"bh_blank"
+		"defaultFgColor_override"									"bh_ButtonDefault"
+		"armedFgColor_override" 									"bh_ButtonArmed"
+		"depressedFgColor_override" 								"bh_ButtonDepressed"
 	}
 	
 	"NextPageButton"
 	{
-		"ypos"														"r-6969"
-		"labeltext"													"&D"
+		"pin_to_sibling" 											"CurPageLabel"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		
+		"font"														"bh_Font14"
+		"xpos"														"-60"
+		"ypos"														"3"
+		"zpos"														"2"
+		"wide"														"20"
+		"tall"														"25"
+		"labelText"													">"
+		"defaultBgColor_override"									"bh_blank"
+		"armedBgColor_override"										"bh_blank"
+		"depressedBgColor_override"									"bh_blank"
+		"defaultFgColor_override"									"bh_ButtonDefault"
+		"armedFgColor_override" 									"bh_ButtonArmed"
+		"depressedFgColor_override" 								"bh_ButtonDepressed"
 	}
 	
 	"CurPageLabel"
 	{
-		"xpos"														"c-33"
+		"xpos"														"c220"
 		"ypos"														"282"
-		"wide"														"66"
+		"wide"														"60"
 		"font"														"bh_Font14"
 		"fgcolor_override"											"bh_white"
+	}
+	
+	"bh_QKPrev"
+	{
+		"ControlName"												"CExButton"
+		"fieldName"													"bh_QKPrev"
+		"ypos"														"r-6969"
+		"labeltext"													"&A"
+		"command"													"prevpage"
+	}
+	
+	"bh_QKNext"
+	{
+		"ControlName"												"CExButton"
+		"fieldName"													"bh_QKNext"
+		"ypos"														"r-6969"
+		"labeltext"													"&D"
+		"command"													"nextpage"
 	}
 	
 	"BackpackSpaceLabel"
