@@ -297,8 +297,10 @@
 	
 		"KillsLabel"
 		{
-			"xpos"													"-50"
+			"xpos"													"-35"
 			"ypos"													"2"
+			"wide"													"120"
+			"textalignment"											"east"
 			"font"													"bh_Font16"
 		}
 		
@@ -314,7 +316,7 @@
 			"font"													"bh_Font16"
 			"labelText"												"%kills%"
 			"textAlignment"											"center"
-			"xpos"													"50"
+			"xpos"													"84"
 			"ypos"													"2"
 			"zpos"													"3"
 			"wide"													"35"
@@ -327,8 +329,10 @@
 		
 		"AssistsLabel"
 		{
-			"xpos"													"-50"
+			"xpos"													"-35"
 			"ypos"													"16"
+			"wide"													"120"
+			"textalignment"											"east"
 			"font"													"bh_Font16"
 		}
 		
@@ -344,7 +348,7 @@
 			"font"													"bh_Font16"
 			"labelText"												"%assists%"
 			"textAlignment"											"center"
-			"xpos"													"50"
+			"xpos"													"84"
 			"ypos"													"16"
 			"zpos"													"3"
 			"wide"													"35"
@@ -357,8 +361,10 @@
 		
 		"DeathsLabel"
 		{
-			"xpos"													"-50"
+			"xpos"													"-35"
 			"ypos"													"30"
+			"wide"													"120"
+			"textalignment"											"east"
 			"font"													"bh_Font16"
 		}
 		
@@ -374,7 +380,7 @@
 			"font"													"bh_Font16"
 			"labelText"												"%deaths%"
 			"textAlignment"											"center"
-			"xpos"													"50"
+			"xpos"													"84"
 			"ypos"													"30"
 			"zpos"													"3"
 			"wide"													"35"
@@ -399,7 +405,7 @@
 		
 		"DamageLabel"
 		{
-			"xpos"													"42"
+			"xpos"													"76"
 			"ypos"													"6"
 			"font"													"bh_Font14"
 		}
@@ -416,7 +422,7 @@
 			"font"													"bh_Font14"
 			"labelText"												"%damage%"
 			"textAlignment"											"west"
-			"xpos"													"143"
+			"xpos"													"177"
 			"ypos"													"6"
 			"zpos"													"3"
 			"wide"													"55"
@@ -429,7 +435,7 @@
 		
 		"HealingLabel"
 		{
-			"xpos"													"42"
+			"xpos"													"76"
 			"ypos"													"26"
 			"font"													"bh_Font14"
 		}
@@ -446,7 +452,7 @@
 			"font"													"bh_Font14"
 			"labelText"												"%healing%"
 			"textAlignment"											"west"
-			"xpos"													"143"
+			"xpos"													"177"
 			"ypos"													"26"
 			"zpos"													"3"
 			"wide"													"55"
