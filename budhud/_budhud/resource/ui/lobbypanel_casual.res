@@ -26,4 +26,31 @@
 			}
 		}
 	}
+	
+	"GameModesContainer"
+	{
+		"PlaylistBGPanel"
+		{
+			"RestoreCasualSearchCriteria"
+			{
+				"image_drawcolor"									"255 255 255 255"
+				"image_armedcolor"									"240 134 049 255"
+				"paintbackground"									"0"
+			}
+			
+			"SaveCasualSearchCriteria"
+			{
+				"image_drawcolor"									"255 255 255 255"
+				"image_armedcolor"									"240 134 049 255"
+				"paintbackground"									"0"
+			}
+			
+			"ShowExplanationsButton"
+			{
+				"image_drawcolor"									"255 255 255 255"
+				"image_armedcolor"									"240 134 049 255"
+				"paintbackground"									"0"
+			}
+		}
+	}
 }

@@ -1,5 +1,25 @@
 "Resource/UI/LobbyContainerFrame.res"
 {
+	"OptionsButton"
+	{
+		"xpos"														"c-125"
+		"ypos"														"135"
+		"zpos"														"5"
+		"wide"														"12"
+		"tall"														"12"
+		"image_drawcolor"											"255 255 255 255"
+		"image_armedcolor"											"240 134 049 255"
+		"paintbackground"											"0"
+		
+		"SubImage"
+		{
+			"xpos"													"0"
+			"ypos"													"0"
+			"wide"													"12"
+			"tall"													"12"
+		}
+	}
+
 	"LobbyContainerFrame"
 	{
 		"bgcolor_override"											"bh_MenuBG"

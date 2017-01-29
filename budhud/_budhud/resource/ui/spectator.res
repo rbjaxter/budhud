@@ -67,7 +67,7 @@
 
 	"ReinforcementsLabel"
 	{
-		"ypos"														"52"
+		"ypos"														"70"
 		"font"														"bh_Font16"
 	}
 
