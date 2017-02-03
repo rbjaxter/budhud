@@ -20,7 +20,7 @@ Scheme
 	//	Econ.Button.DepressedFgColor						"bh_ButtonDepressed"
 	
 		// Loadout Presets
-		Econ.Button.PresetDefaultColorBg					"25 25 25 255"
+		Econ.Button.PresetDefaultColorBg					"150 150 150 255"
 		Econ.Button.PresetArmedColorBg						"50 50 50 255"
 		Econ.Button.PresetDepressedColorBg					"25 25 25 255"
 	

@@ -1,3 +1,4 @@
+	#base	"..\..\..\#users\dane\#customization\_enabled\bh_crosshairs.res"
 	#base	"..\..\..\#customization\_enabled\bh_crosshairs.res"
 
 "Resource/UI/HudPlayerClass.res"

@@ -2,9 +2,9 @@
 {
 	"OptionsButton"
 	{
-		"xpos"														"c-125"
-		"ypos"														"135"
-		"zpos"														"5"
+		"xpos"														"c270"
+		"ypos"														"72"
+		"zpos"														"80085"
 		"wide"														"12"
 		"tall"														"12"
 		"image_drawcolor"											"255 255 255 255"
