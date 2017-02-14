@@ -1,17 +1,19 @@
 #base "SurveyPanel_Base.res"
 
-"Resource/UI/SurveyPanel_MatchQuality.res"
+"Resource/UI/SurveyPanel_CompInquiry.res"
 {
 	"Survey"
 	{
+		"tall"			"250"
+	
 		"QuestionContainer"
 		{
 			"TextLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TextLabel"
-				"font"			"HudFontSmallBold"
-				"labelText"		"#TF_SurveyQuestion_MatchQuality"
+				"font"			"HudFontSmallestBold"
+				"labelText"		"#TF_SurveyQuestion_CompInquiry"
 				"textAlignment"	"north"
 				"xpos"			"cs-0.5"
 				"ypos"			"15"
@@ -36,7 +38,7 @@
 				"ypos"			"50"
 				"zpos"			"-1"
 				"wide"			"350"
-				"tall"			"50"
+				"tall"			"150"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"bgcolor_override"	"0 0 0 100"
@@ -57,11 +59,11 @@
 					"mouseinputenabled"	"0"
 				}
 
-				"Radio0" // Horrible
+				"Answer0" 
 				{
 					"ControlName"	"RadioButton"
 					"fieldName"		"Radio0"
-					"xpos"			"p0.1-10"
+					"xpos"			"p0.2"
 					"ypos"			"15"
 					"zpos"			"1"
 					"wide"			"15"
@@ -76,31 +78,31 @@
 					"Command"		"option0"
 				}
 
-				"Radio0Label"
+				"Answer0Label"
 				{
 					"ControlName"	"Label"
 					"fieldName"		"Radio0Label"
-					"xpos"			"p0.1-30"
-					"ypos"			"30"
+					"xpos"			"p0.3"
+					"ypos"			"15"
 					"zpos"			"1"
-					"wide"			"60"
+					"wide"			"250"
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
 					
-					"labelText"		"#TF_SurveyQuestion_Rating0"
+					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer0"
 					"font"			"HudFontSmallest"
-					"textAlignment"	"center"
+					"textAlignment"	"left"
 
 					"associate"		"Radio0"
 				}
 
-				"Radio1" // Bad
+				"Answer1"
 				{
 					"ControlName"	"RadioButton"
 					"fieldName"		"Radio1"
-					"xpos"			"p0.3-13"
-					"ypos"			"15"
+					"xpos"			"p0.2"
+					"ypos"			"35"
 					"zpos"			"2"
 					"wide"			"15"
 					"tall"			"20"
@@ -114,29 +116,29 @@
 					"Command"		"option1"
 				}
 
-				"Radio1Label"
+				"Answer1Label"
 				{
 					"ControlName"	"Label"
 					"fieldName"		"Radio1Label"
-					"xpos"			"p0.3-36"
-					"ypos"			"30"
+					"xpos"			"p0.3"
+					"ypos"			"35"
 					"zpos"			"1"
-					"wide"			"60"
+					"wide"			"250"
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
 					
-					"labelText"		"#TF_SurveyQuestion_Rating1"
+					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer1"
 					"font"			"HudFontSmallest"
-					"textAlignment"	"center"
+					"textAlignment"	"left"
 				}
 
-				"Radio2" // Neutral
+				"Answer2" 
 				{
 					"ControlName"	"RadioButton"
 					"fieldName"		"Radio2"
-					"xpos"			"p0.5-10"
-					"ypos"			"15"
+					"xpos"			"p0.2"
+					"ypos"			"55"
 					"zpos"			"3"
 					"wide"			"15"
 					"tall"			"20"
@@ -150,30 +152,30 @@
 					"Command"		"option2"
 				}
 
-				"Radio2Label"
+				"Answer2Label"
 				{
 					"ControlName"	"Label"
 					"fieldName"		"Radio2Label"
-					"xpos"			"p0.5-33"
-					"ypos"			"30"
+					"xpos"			"p0.3"
+					"ypos"			"55"
 					"zpos"			"1"
-					"wide"			"60"
+					"wide"			"250"
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
 					
-					"labelText"		"#TF_SurveyQuestion_Rating2"
+					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer2"
 					"font"			"HudFontSmallest"
-					"textAlignment"	"center"
+					"textAlignment"	"left"
 					"default"		"1"
 				}
 
-				"Radio3" // Good
+				"Answer3"
 				{
 					"ControlName"	"RadioButton"
 					"fieldName"		"Radio3"
-					"xpos"			"p0.7-10"
-					"ypos"			"15"
+					"xpos"			"p0.2"
+					"ypos"			"75"
 					"zpos"			"4"
 					"wide"			"15"
 					"tall"			"20"
@@ -187,29 +189,29 @@
 					"Command"		"option3"
 				}
 
-				"Radio3Label"
+				"Answer3Label"
 				{
 					"ControlName"	"Label"
 					"fieldName"		"Radio3Label"
-					"xpos"			"p0.7-33"
-					"ypos"			"30"
+					"xpos"			"p0.3"
+					"ypos"			"75"
 					"zpos"			"1"
-					"wide"			"60"
+					"wide"			"250"
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
 					
-					"labelText"		"#TF_SurveyQuestion_Rating3"
+					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer3"
 					"font"			"HudFontSmallest"
-					"textAlignment"	"center"
+					"textAlignment"	"left"
 				}
 
-				"Radio4" // Great
+				"Answer4"
 				{
 					"ControlName"	"RadioButton"
 					"fieldName"		"Radio4"
-					"xpos"			"p0.9-10"
-					"ypos"			"15"
+					"xpos"			"p0.2"
+					"ypos"			"95"
 					"zpos"			"5"
 					"wide"			"15"
 					"tall"			"20"
@@ -223,21 +225,57 @@
 					"Command"		"option4"
 				}
 
-				"Radio4Label"
+				"Answer4Label"
 				{
 					"ControlName"	"Label"
 					"fieldName"		"Radio4Label"
-					"xpos"			"p0.9-33"
-					"ypos"			"30"
+					"xpos"			"p0.3"
+					"ypos"			"95"
 					"zpos"			"1"
-					"wide"			"60"
+					"wide"			"250"
 					"tall"			"20"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
 					
-					"labelText"		"#TF_SurveyQuestion_Rating4"
+					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer4"
 					"font"			"HudFontSmallest"
-					"textAlignment"	"center"
+					"textAlignment"	"left"
+				}
+
+				"Answer5"
+				{
+					"ControlName"	"RadioButton"
+					"fieldName"		"Radio5"
+					"xpos"			"p0.2"
+					"ypos"			"115"
+					"zpos"			"5"
+					"wide"			"15"
+					"tall"			"20"
+					"visible"		"1"
+					"proportionaltoparent"	"1"
+
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"labelText"		""
+					"Command"		"option4"
+				}
+
+				"Answer5Label"
+				{
+					"ControlName"	"Label"
+					"fieldName"		"Radio5Label"
+					"xpos"			"p0.3"
+					"ypos"			"115"
+					"zpos"			"1"
+					"wide"			"250"
+					"tall"			"20"
+					"visible"		"1"
+					"proportionaltoparent"	"1"
+					
+					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer5"
+					"font"			"HudFontSmallest"
+					"textAlignment"	"left"
 				}
 			}
 
