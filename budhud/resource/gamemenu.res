@@ -10,6 +10,9 @@
 	// You can also set these up to create a locally-hosted server
 	// Example:
 	// "command"		"engine map tr_walkway_rc2"
+	// You can also set these up to place you into training mode
+	// Example:
+	// "command"		"engine play_training"
 	/////////////////////////////////////////////////////////////////////////
 
 	"bh_Favorite1"
@@ -40,7 +43,7 @@
 						echo ======================================================;
 						echo ~ Thank you to everyone who actively uses my hud! ~~~~;
 						echo ======================================================;"
-		"tooltip"		"Updated 2 February 2017"
+		"tooltip"		"Updated 7 March 2017"
 	}
 	
 	"bh_Streams"

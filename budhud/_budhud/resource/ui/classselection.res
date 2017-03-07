@@ -8,6 +8,7 @@
 	"EditLoadoutButton"
 	{
 		"ypos"														"r-6969"
+		"labeltext"													"&E"
 	}
 
 	"ClassMenuSelect"
