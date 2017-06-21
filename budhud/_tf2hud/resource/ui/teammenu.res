@@ -78,7 +78,7 @@
 		"enabled"		"1"
 		"tabPosition"	"3"
 		"labelText"		"&3"	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		""		[disabled]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -106,7 +106,7 @@
 		"enabled"		"1"
 		"tabPosition"	"4"
 		"labelText"		"&4"	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		""		[disabled]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -134,7 +134,7 @@
 		"enabled"		"1"
 		"tabPosition"	"1"
 		"labelText"		"&1"	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		""		[disabled]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -160,7 +160,7 @@
 		"enabled"		"1"
 		"tabPosition"	"2"
 		"labelText"		"&2"	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		""		[disabled]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -227,7 +227,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
 		"xpos"			"c-280" [$WIN32] 
-		"xpos"			"c-276" [$X360]
+		"xpos"			"c-276" [disabled]
 		"xpos_disabled"			"c-255"
 		"xpos_disabled"			"c-260"
 		"ypos"			"55"
@@ -235,7 +235,7 @@
 		"ypos_disabled"			"65"
 		"zpos"			"1"
 		"wide"			"102" [$WIN32] 
-		"wide"			"94" [$X360]
+		"wide"			"94" [disabled]
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -622,7 +622,7 @@
 		}
 	}			
 	
-	"Footer" [$X360]
+	"Footer" [disabled]
 	{
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"

@@ -1,3 +1,7 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Loads all hud animation files. Restart required for changes.
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
 hudanimations_manifest
 {
 	"file"		"scripts/hudanimations.txt"
@@ -10,6 +14,7 @@ hudanimations_manifest
 	"file"		"scripts/bh_hudanimations/bh_health_shadow.txt"
 //	"file"		"scripts/bh_hudanimations/bh_medicchargerainbow.txt"
 	"file"		"scripts/bh_hudanimations/bh_mediccharge.txt"
+	"file"		"scripts/bh_hudanimations/bh_spechealth.txt"	
 	"file"		"scripts/bh_hudanimations/bh_spydisguise.txt"	
 //	"file"		"scripts/bh_hudanimations/bh_ubertracking.txt"
 	"file"		"scripts/bh_hudanimations/bh_wang.txt"

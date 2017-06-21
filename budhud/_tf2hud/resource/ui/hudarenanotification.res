@@ -30,7 +30,7 @@
 		"wide"			"50"
 		"tall"			"50"
 		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
+		"wide"			"180"	[disabled]
 		"tall"			"55"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -51,7 +51,7 @@
 		"ypos_disabled"	"20"
 		"zpos"			"1"
 		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
+		"wide"			"180"	[disabled]
 		"tall"			"55"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -73,7 +73,7 @@
 		"ypos_disabled"	"20"
 		"zpos"			"1"
 		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
+		"wide"			"180"	[disabled]
 		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"

@@ -49,12 +49,12 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
-		"xpos"			"c-60"	[$X360]
+		"xpos"			"c-60"	[disabled]
 		"ypos"			"r28"	[$WIN32]
-		"ypos"			"r48"	[$X360]
+		"ypos"			"r48"	[disabled]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
-		"wide"			"120"	[$X360]
+		"wide"			"120"	[disabled]
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -86,14 +86,14 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
 		"xpos"			"c-75"	[$WIN32]
-		"xpos"			"c-70"	[$X360]
+		"xpos"			"c-70"	[disabled]
 		"ypos"			"r31"	[$WIN32]
-		"ypos"			"r51"	[$X360]
+		"ypos"			"r51"	[disabled]
 		"zpos"			"3"
 		"wide"			"150"	[$WIN32]
-		"wide"			"140"	[$X360]
+		"wide"			"140"	[disabled]
 		"tall"			"38"	[$WIN32]
-		"tall"			"35"	[$X360]
+		"tall"			"35"	[disabled]
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"

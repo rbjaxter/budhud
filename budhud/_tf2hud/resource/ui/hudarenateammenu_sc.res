@@ -238,7 +238,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
 		"xpos"			"c-280" [$WIN32] 
-		"xpos"			"c-276" [$X360]
+		"xpos"			"c-276" [disabled]
 		"xpos_disabled"			"c-255"
 		"xpos_disabled"			"c-260"
 		"ypos"			"55"
@@ -246,7 +246,7 @@
 		"ypos_disabled"			"65"
 		"zpos"			"1"
 		"wide"			"102" [$WIN32] 
-		"wide"			"94" [$X360]
+		"wide"			"94" [disabled]
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"

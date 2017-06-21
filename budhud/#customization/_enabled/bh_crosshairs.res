@@ -3,7 +3,7 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// whayay's Crosshairs
 	// ============================================================================================== //
-	// See: \budhud\#Customization\Custom Crosshairs for instructions / images
+	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Customization#crosshairs
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	"whayay_crosshair"
@@ -36,7 +36,7 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Knuckle's Crosshairs
 	// ============================================================================================== //
-	// See: \budhud\#Customization\Custom Crosshairs for instructions / images
+	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Customization#crosshairs
 	// Valid font sizes: Any number between 10 - 50
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
@@ -57,14 +57,14 @@
 		"font"														"size:30,outline:off"
 		
 		"labelText"													"a"							// Change this to use a different crosshair		
-
+		
 		"fgcolor"													"knuckles_crosshair"
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Fog's Crosshairs
 	// ============================================================================================== //
-	// See: \budhud\#Customization\Custom Crosshairs for instructions / images
+	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Customization#crosshairs
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	xHairCircle
@@ -76,16 +76,17 @@
 		"enabled"													"0"
 		"zpos"														"2"
 	
-		"xpos"														"c-100"
-		"ypos"														"c-102"
-		"wide"														"201"
-		"tall"														"200"
+		"xpos"														"0"
+		"ypos"														"0"
+		"zpos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
 	
 		//"font"													"xHairCircleOutline"
 		"font"														"xHairCircle"
 		"labelText"													"o"
 		"textAlignment"												"center"	
-			
+		
 		"fgcolor"													"fog_crosshair"
 	}
 
@@ -103,319 +104,299 @@
 	
 	ScatterSpread
 	{
-		"controlName"				"CExLabel"
-		"fieldName"	 				"ScatterSpread"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
+		"controlName"												"CExLabel"
+		"fieldName"	 												"ScatterSpread"
+		"visible"													"0"
+		"enabled"													"0"
 			
-		"xpos"						"c-99"
-		"ypos"						"c-99"
-		"wide"						"200"
-		"tall"						"200"
+		"xpos"														"1"
+		"ypos"														"2"
+		"zpos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
 			
-		//"font"					"CrosshairsOutline32"
-		"font"						"Crosshairs32"
-		"labelText"					"0"
-		"textAlignment"				"center"
-		"outline"					"1"
-					
-		"fgcolor"					"fog_crosshair"
+		//"font"													"CrosshairsOutline32"
+		"font"														"Crosshairs32"
+		"labelText"													"0"
+		"textAlignment"												"center"
+		"outline"													"1"
+			
+		"fgcolor"													"fog_crosshair"
 	}		
 			
 	BasicCross		
 	{		
-		"controlName"				"CExLabel"
-		"fieldName"	 				"BasicCross"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
+		"controlName"												"CExLabel"
+		"fieldName"	 												"BasicCross"
+		"visible"													"0"
+		"enabled"													"0"
 		
-		"xpos"						"c-102"
-		"ypos"						"c-99"
-		"wide"						"200"
-		"tall"						"200"
+		"xpos"														"-2"
+		"ypos"														"1"
+		"zpos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
 		
-		//"font"					"CrosshairsOutline26"
-		"font"						"Crosshairs26"
-		"labelText"					"2"
-		"textAlignment"				"center"	
-				
-		"fgcolor"					"fog_crosshair"
+		//"font"													"CrosshairsOutline26"
+		"font"														"Crosshairs26"
+		"labelText"													"2"
+		"textAlignment"												"center"	
+		
+		"fgcolor"													"fog_crosshair"
 	}		
 			
 	BasicCrossSmall		
 	{		
-		"controlName"				"CExLabel"
-		"fieldName"	 				"BasicCrossSmall"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
+		"controlName"												"CExLabel"
+		"fieldName"	 												"BasicCrossSmall"
+		"visible"													"0"
+		"enabled"													"0"
 		
-		"xpos"						"c-101"
-		"ypos"						"c-99"
-		"wide"						"200"
-		"tall"						"200"
+		"xpos"														"-1"
+		"ypos"														"1"
+		"zpos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
 		
-		//"font"					"CrosshairsOutline18"
-		"font"						"Crosshairs18"
-		"labelText"					"2"
-		"textAlignment"				"center"	
-				
-		"fgcolor"					"fog_crosshair"
+		//"font"													"CrosshairsOutline18"
+		"font"														"Crosshairs18"
+		"labelText"													"2"
+		"textAlignment"												"center"	
+		
+		"fgcolor"													"fog_crosshair"
 	}		
 
 	BasicCrossLarge		
 	{		
-		"controlName"				"CExLabel"
-		"fieldName"	 				"BasicCrossLarge"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
+		"controlName"												"CExLabel"
+		"fieldName"	 												"BasicCrossLarge"
+		"visible"													"0"
+		"enabled"													"0"
 		
-		"xpos"						"c-102"
-		"ypos"						"c-98"
-		"wide"						"200"
-		"tall"						"200"
+		"xpos"														"-2"
+		"ypos"														"2"
+		"zpos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
 		
-		//"font"					"CrosshairsOutline32"
-		"font"						"Crosshairs32"
-		"labelText"					"2"
-		"textAlignment"				"center"	
-				
-		"fgcolor"					"fog_crosshair"
+		//"font"													"CrosshairsOutline32"
+		"font"														"Crosshairs32"
+		"labelText"													"2"
+		"textAlignment"												"center"	
+		
+		"fgcolor"													"fog_crosshair"
 	}		
 
 	BasicDot		
 	{		
-		"controlName"				"CExLabel"
-		"fieldName"	 				"BasicDot"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
+		"controlName"												"CExLabel"
+		"fieldName"	 												"BasicDot"
+		"visible"													"0"
+		"enabled"													"0"
+		"zpos"														"2"
 		
-		"xpos"						"c-103"
-		"ypos"						"c-100"
-		"wide"						"201"
-		"tall"						"201"
+		"xpos"														"-3"
+		"ypos"														"1"
+		"zpos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
 		
-		//"font"					"CrosshairsOutline24"
-		"font"						"Crosshairs24"
-		"labelText"					"3"
-		"textAlignment"				"center"	
-				
-		"fgcolor"					"fog_crosshair"
+		//"font"													"CrosshairsOutline24"
+		"font"														"Crosshairs24"
+		"labelText"													"3"
+		"textAlignment"												"center"	
+		
+		"fgcolor"													"fog_crosshair"
 	}		
 		
 	CircleDot		
 	{		
-		"controlName"				"CExLabel"
-		"fieldName"	 				"CircleDot"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
+		"controlName"												"CExLabel"
+		"fieldName"	 												"CircleDot"
+		"visible"													"0"
+		"enabled"													"0"
 		
-		"xpos"						"c-100"
-		"ypos"						"c-96"
-		"wide"						"200"
-		"tall"						"200"
+		"xpos"														"0"
+		"ypos"														"4"
+		"zpos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
 		
-		//"font"					"CrosshairsOutline34"
-		"font"						"Crosshairs34"
-		"labelText"					"8"
-		"textAlignment"				"center"	
-				
-		"fgcolor"					"fog_crosshair"
+		//"font"													"CrosshairsOutline34"
+		"font"														"Crosshairs34"
+		"labelText"													"8"
+		"textAlignment"												"center"	
+		
+		"fgcolor"													"fog_crosshair"
 	}		
 			
 	ThinCircle		
 	{		
-		"controlName"				"CExLabel"
-		"fieldName"	 				"ThinCircle"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
+		"controlName"												"CExLabel"
+		"fieldName"	 												"ThinCircle"
+		"visible"													"0"
+		"enabled"													"0"
 		
-		"xpos"						"c-100"
-		"ypos"						"c-96"
-		"wide"						"200"
-		"tall"						"200"
+		"xpos"														"0"
+		"ypos"														"4"
+		"zpos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
 		
-		//"font"					"CrosshairsOutline34"
-		"font"						"Crosshairs34"
-		"labelText"					"9"
-		"textAlignment"				"center"	
-				
-		"fgcolor"					"fog_crosshair"
+		//"font"													"CrosshairsOutline34"
+		"font"														"Crosshairs34"
+		"labelText"													"9"
+		"textAlignment"												"center"	
+		
+		"fgcolor"													"fog_crosshair"
 	}		
 			
 	WingsPlus		
 	{		
-		"controlName"				"CExLabel"
-		"fieldName"	 				"WingsPlus"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
+		"controlName"												"CExLabel"
+		"fieldName"	 												"WingsPlus"
+		"visible"													"0"
+		"enabled"													"0"
 		
-		"xpos"						"c-100"
-		"ypos"						"c-97"
-		"wide"						"200"
-		"tall"						"200"
+		"xpos"														"0"
+		"ypos"														"4"
+		"zpos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
 		
-		//"font"					"CrosshairsOutline34"
-		"font"						"Crosshairs34"
-		"labelText"					"c"
-		"textAlignment"				"center"	
-				
-		"fgcolor"					"fog_crosshair"
+		//"font"													"CrosshairsOutline34"
+		"font"														"Crosshairs34"
+		"labelText"													"c"
+		"textAlignment"												"center"	
+		
+		"fgcolor"													"fog_crosshair"
 	}		
 			
 	Wings		
 	{		
-		"controlName"				"CExLabel"
-		"fieldName"	 				"Wings"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
+		"controlName"												"CExLabel"
+		"fieldName"	 												"Wings"
+		"visible"													"0"
+		"enabled"													"0"
 		
-		"xpos"						"c-100"
-		"ypos"						"c-97"
-		"wide"						"200"
-		"tall"						"200"
+		"xpos"														"0"
+		"ypos"														"4"
+		"zpos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
 		
-		//"font"					"CrosshairsOutline34"
-		"font"						"Crosshairs34"
-		"labelText"					"d"
-		"textAlignment"				"center"	
-				
-		"fgcolor"					"fog_crosshair"
-	}		
-			
-	WingsSmallDot		
-	{		
-		"controlName"				"CExLabel"
-		"fieldName"	 				"WingsSmallDot"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
+		//"font"													"CrosshairsOutline34"
+		"font"														"Crosshairs34"
+		"labelText"													"d"
+		"textAlignment"												"center"	
 		
-		"xpos"						"c-100"
-		"ypos"						"c-97"
-		"wide"						"200"
-		"tall"						"200"
-		
-		//"font"					"CrosshairsOutline34"
-		"font"						"Crosshairs34"
-		"labelText"					"f"
-		"textAlignment"				"center"	
-				
-		"fgcolor"					"0 0 0 0"
+		"fgcolor"													"fog_crosshair"
 	}		
 			
 	WingsSmall		
 	{		
-		"controlName"				"CExLabel"
-		"fieldName"	 				"WingsSmall"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
+		"controlName"												"CExLabel"
+		"fieldName"	 												"WingsSmall"
+		"visible"													"0"
+		"enabled"													"0"
 		
-		"xpos"						"c-100"
-		"ypos"						"c-97"
-		"wide"						"200"
-		"tall"						"200"
+		"xpos"														"0"
+		"ypos"														"4"
+		"zpos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
 		
-		//"font"					"CrosshairsOutline34"
-		"font"						"Crosshairs34"
-		"labelText"					"g"
-		"textAlignment"				"center"	
-				
-		"fgcolor"					"fog_crosshair"
+		//"font"													"CrosshairsOutline34"
+		"font"														"Crosshairs34"
+		"labelText"													"g"
+		"textAlignment"												"center"	
+		
+		"fgcolor"													"fog_crosshair"
 	}		
 			
 	OpenCross		
 	{		
-		"controlName"				"CExLabel"
-		"fieldName"	 				"OpenCross"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
+		"controlName"												"CExLabel"
+		"fieldName"	 												"OpenCross"
+		"visible"													"0"
+		"enabled"													"0"
 		
-		"xpos"						"c-85"
-		"ypos"						"c-100"
-		"wide"						"199"
-		"tall"						"200"
+		"xpos"														"15"
+		"ypos"														"0"
+		"zpos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
 		
-		"font"						"CrosshairsOutline24"
-		"font"						"Crosshairs24"
-		"labelText"					"i"
-		"textAlignment"				"center"	
-				
-		"fgcolor"					"fog_crosshair"
+		"font"														"CrosshairsOutline24"
+		"font"														"Crosshairs24"
+		"labelText"													"i"
+		"textAlignment"												"center"	
+		
+		"fgcolor"													"fog_crosshair"
 	}
 	
 	OpenCrossDot
 	{
-		"controlName"				"CExLabel"
-		"fieldName"	 				"OpenCrossDot"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
+		"controlName"												"CExLabel"
+		"fieldName"	 												"OpenCrossDot"
+		"visible"													"0"
+		"enabled"													"0"
 		
-		"xpos"						"c-85"
-		"ypos"						"c-100"
-		"wide"						"199"
-		"tall"						"200"
+		"xpos"														"15"
+		"ypos"														"0"
+		"zpos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
 		
-		//"font"					"CrosshairsOutline24"
-		"font"						"Crosshairs24"
-		"labelText"					"h"
-		"textAlignment"				"center"	
-				
-		"fgcolor"					"fog_crosshair"
+		//"font"													"CrosshairsOutline24"
+		"font"														"Crosshairs24"
+		"labelText"													"h"
+		"textAlignment"												"center"	
+		
+		"fgcolor"													"fog_crosshair"
 	}
 	
 	ThinCross
 	{
-		"controlName"				"CExLabel"
-		"fieldName"	 				"ThinCross"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
+		"controlName"												"CExLabel"
+		"fieldName"	 												"ThinCross"
+		"visible"													"0"
+		"enabled"													"0"
 		
-		"xpos"						"c-100"
-		"ypos"						"c-103"
-		"wide"						"200"
-		"tall"						"200"
+		"xpos"														"0"
+		"ypos"														"-3"
+		"zpos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
 		
-		//"font"					"SymbolOutline24"
-		"font"						"Symbol24"
-		"labelText"					"+"
-		"textAlignment"				"center"	
-				
-		"fgcolor"					"fog_crosshair"
+		//"font"													"SymbolOutline24"
+		"font"														"Symbol24"
+		"labelText"													"+"
+		"textAlignment"												"center"	
+		
+		"fgcolor"													"fog_crosshair"
 	}
 	
 	KonrWings
 	{
-		"controlName"				"CExLabel"
-		"fieldName"	 				"KonrWings"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
+		"controlName"												"CExLabel"
+		"fieldName"	 												"KonrWings"
+		"visible"													"0"
+		"enabled"													"0"
 		
-		"xpos"						"c-108"
-		"ypos"						"c-99"
-		"wide"						"200"
-		"tall"						"200"
+		"xpos"														"-8"
+		"ypos"														"2"
+		"zpos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
 		
-		//"font"					"KonrWingsOutline24"
+		//"font"													"KonrWingsOutline24"
+
+		"font"														"KonrWings24"
+		"labelText"													"i"
+		"textAlignment"												"center"	
 		
-		"font"						"KonrWings24"
-		"labelText"					"i"
-		"textAlignment"				"center"	
-				
-		"fgcolor"					"fog_crosshair"
+		"fgcolor"													"fog_crosshair"
 	}
 		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -428,81 +409,81 @@
 	
 	"PilotVertical"
 	{
-		"ControlName"				"ImagePanel"
-		"fieldName"					"VerticalLine"
-		"xpos"						"c"
-		"ypos"						"75"
-		"zpos"						"-5"
-		"wide"						"1"
-		"tall"						"154"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"0"
-		"enabled"					"0"
-		"fillcolor"					"255 255 255 50"
+		"ControlName"												"ImagePanel"
+		"fieldName"													"VerticalLine"
+		"xpos"														"c"
+		"ypos"														"75"
+		"zpos"														"-5"
+		"wide"														"1"
+		"tall"														"154"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"visible"													"0"
+		"enabled"													"0"
+		"fillcolor"													"255 255 255 50"
 	}		
 		
 	"PilotTop"		
 	{		
-		"ControlName"				"ImagePanel"
-		"fieldName"					"VerticalLine"
-		"xpos"						"c"
-		"ypos"						"190"
-		"zpos"						"-5"
-		"wide"						"1"
-		"tall"						"38"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"0"
-		"enabled"					"0"
-		"fillcolor"					"255 255 255 100"
+		"ControlName"												"ImagePanel"
+		"fieldName"													"VerticalLine"
+		"xpos"														"c"
+		"ypos"														"190"
+		"zpos"														"-5"
+		"wide"														"1"
+		"tall"														"38"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"visible"													"0"
+		"enabled"													"0"
+		"fillcolor"													"255 255 255 100"
 	}		
 	"PilotBottom"		
 	{		
-		"ControlName"				"ImagePanel"
-		"fieldName"					"VerticalLine"
-		"xpos"						"c"
-		"ypos"						"252"
-		"zpos"						"-5"
-		"wide"						"1"
-		"tall"						"38"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"0"
-		"enabled"					"0"
-		"fillcolor"					"255 255 255 150"
+		"ControlName"												"ImagePanel"
+		"fieldName"													"VerticalLine"
+		"xpos"														"c"
+		"ypos"														"252"
+		"zpos"														"-5"
+		"wide"														"1"
+		"tall"														"38"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"visible"													"0"
+		"enabled"													"0"
+		"fillcolor"													"255 255 255 150"
 	}		
 	"PilotLeft"		
 	{		
-		"ControlName"				"ImagePanel"
-		"fieldName"					"VerticalLine"
-		"xpos"						"c-62"
-		"ypos"						"240"
-		"zpos"						"-5"
-		"wide"						"50"
-		"tall"						"1"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"0"
-		"enabled"					"0"
-		"fillcolor"					"255 255 255 100"
+		"ControlName"												"ImagePanel"
+		"fieldName"													"VerticalLine"
+		"xpos"														"c-62"
+		"ypos"														"240"
+		"zpos"														"-5"
+		"wide"														"50"
+		"tall"														"1"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"visible"													"0"
+		"enabled"													"0"
+		"fillcolor"													"255 255 255 100"
 	}		
 			
 		
 	"PilotRight"		
 	{		
-		"ControlName"				"ImagePanel"
-		"fieldName"					"VerticalLine"
-		"xpos"						"c12"
-		"ypos"						"240"
-		"zpos"						"-5"
-		"wide"						"50"
-		"tall"						"1"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"0"
-		"enabled"					"0"
-		"fillcolor"					"255 255 255 100"
+		"ControlName"												"ImagePanel"
+		"fieldName"													"VerticalLine"
+		"xpos"														"c12"
+		"ypos"														"240"
+		"zpos"														"-5"
+		"wide"														"50"
+		"tall"														"1"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"visible"													"0"
+		"enabled"													"0"
+		"fillcolor"													"255 255 255 100"
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -513,34 +494,34 @@
 	
 	"PilotHorizontal1"
 	{
-		"ControlName"				"ImagePanel"
-		"fieldName"					"HorizontalLine"
-		"xpos"						"c-376"			//c-346
-		"ypos"						"240"
-		"zpos"						"-5"
-		"wide"						"364"			//334 for 16x10
-		"tall"						"1"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"0"
-		"enabled"					"0"
-		"fillcolor"					"255 255 255 50"
+		"ControlName"												"ImagePanel"
+		"fieldName"													"HorizontalLine"
+		"xpos"														"c-376"
+		"ypos"														"240"
+		"zpos"														"-5"
+		"wide"														"364"
+		"tall"														"1"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"visible"													"0"
+		"enabled"													"0"
+		"fillcolor"													"255 255 255 50"
 	}		
 			
 	"PilotHorizontal2"		
 	{		
-		"ControlName"				"ImagePanel"
-		"fieldName"					"HorizontalLine"
-		"xpos"						"c12"
-		"ypos"						"240"
-		"zpos"						"-5"
-		"wide"						"364"			//334 for 16x10
-		"tall"						"1"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"0"
-		"enabled"					"0"
-		"fillcolor"					"255 255 255 50"
+		"ControlName"												"ImagePanel"
+		"fieldName"													"HorizontalLine"
+		"xpos"														"c12"
+		"ypos"														"240"
+		"zpos"														"-5"
+		"wide"														"364"
+		"tall"														"1"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"visible"													"0"
+		"enabled"													"0"
+		"fillcolor"													"255 255 255 50"
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -551,34 +532,33 @@
 	
 	"PilotHorizontal3"
 	{
-		"ControlName"				"ImagePanel"
-		"fieldName"					"HorizontalLine"
-		"xpos"						"c-296"			
-		"ypos"						"240"
-		"zpos"						"-5"
-		"wide"						"284"			
-		"tall"						"1"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"0"
-		"enabled"					"0"
-		"fillcolor"					"255 255 255 50"
+		"ControlName"												"ImagePanel"
+		"fieldName"													"HorizontalLine"
+		"xpos"														"c-296"			
+		"ypos"														"240"
+		"zpos"														"-5"
+		"wide"														"284"			
+		"tall"														"1"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"visible"													"0"
+		"enabled"													"0"
+		"fillcolor"													"255 255 255 50"
 	}		
 			
 	"PilotHorizontal4"		
 	{		
-		"ControlName"				"ImagePanel"
-		"fieldName"					"HorizontalLine"
-		"xpos"						"c12"
-		"ypos"						"240"
-		"zpos"						"-5"
-		"wide"						"284"			
-		"tall"						"1"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"0"
-		"enabled"					"0"
-		"fillcolor"					"255 255 255 50"
+		"ControlName"												"ImagePanel"
+		"fieldName"													"HorizontalLine"
+		"xpos"														"c12"
+		"ypos"														"240"
+		"zpos"														"-5"
+		"wide"														"284"			
+		"tall"														"1"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"visible"													"0"
+		"enabled"													"0"
+		"fillcolor"													"255 255 255 50"
 	}
-
 }

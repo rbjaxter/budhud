@@ -5,6 +5,7 @@
 	// More will be added in the future
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	#base	"bh_Lato.res"
+//	#base	"bh_SGA.res"
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// User Customization
@@ -66,6 +67,12 @@ Scheme
 		{
 			"font"	"resource/fonts/Lato-Semibold.ttf"
 			"name"	"Lato Semibold"
+		}
+		
+		"15" // SGA Font
+		{
+			"font"	"resource/fonts/sga.ttf"
+			"name"	"Standard Galactic Alphabet"
 		}
 	}
 }

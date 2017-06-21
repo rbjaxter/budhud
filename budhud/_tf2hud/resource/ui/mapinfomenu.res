@@ -238,7 +238,7 @@
 		"PaintBackgroundType"	"0"
 	}	
 
-	"Footer" [$X360]
+	"Footer" [disabled]
 	{
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"

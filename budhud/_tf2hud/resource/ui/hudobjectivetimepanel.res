@@ -102,7 +102,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
+		"xpos"			"11"	[disabled]
 		"ypos"			"31"
 		"ypos_disabled"	"-100"	//off-screen
 		"ypos_disabled"	"-100"	//off-screen
@@ -166,7 +166,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
+		"xpos"			"11"	[disabled]
 		"ypos"			"31"
 		"ypos_disabled"	"-100"	//off-screen
 		"ypos_disabled"	"-100"	//off-screen
@@ -230,7 +230,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
+		"xpos"			"11"	[disabled]
 		"ypos"			"31"
 		"ypos_disabled"	"-100"	//off-screen
 		"ypos_disabled"	"-100"	//off-screen
@@ -295,7 +295,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
+		"xpos"			"11"	[disabled]
 		"ypos"			"31"
 		"ypos_disabled"	"-100"	//off-screen
 		"ypos_disabled"	"-100"	//off-screen
@@ -360,7 +360,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
+		"xpos"			"11"	[disabled]
 		"ypos"			"31"
 		"ypos_disabled"	"-100"	//off-screen
 		"ypos_disabled"	"-100"	//off-screen

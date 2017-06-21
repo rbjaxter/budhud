@@ -1904,20 +1904,25 @@
 				{
 					"0"
 					{
-						"item"		"Keyless Winter 2016 Case"
+						"item"		"Rainy Day Cosmetic Key" 
 						"show_market"	"0"
 					}
 					"1"
 					{
+						"item"		"Rainy Day Cosmetic Case"
+						"show_market"	"1"
+					}
+					"2"
+					{
 						"item"		"Taunt: The Table Tantrum"
 						"show_market"	"0"
 					}
-					"2"
+					"3"
 					{
 						"item"		"Taunt: Didgeridrongo"
 						"show_market"	"0"
 					}
-					"3"
+					"4"
 					{
 						"item"		"Taunt: Scotsmann's Stagger"
 						"show_market"	"0"

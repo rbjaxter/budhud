@@ -146,7 +146,7 @@ Scheme
 		}
 		"MenuLarge"
 		{
-			"1"	[$X360]
+			"1"	[disabled]
 			{
 				"tall_disabled"		"24"
 			}

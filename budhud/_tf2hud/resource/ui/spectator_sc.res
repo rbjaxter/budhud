@@ -109,10 +109,10 @@
 		"font_disabled"		"HudFontMedium"
 		"xpos"			"r260"	[$WIN32]
 		"ypos"			"16"	[$WIN32]
-		"xpos"			"r285"	[$X360]
-		"ypos"			"32"	[$X360]
+		"xpos"			"r285"	[disabled]
+		"ypos"			"32"	[disabled]
 		"wide"			"240"	[$WIN32]
-		"wide"			"220"	[$X360]
+		"wide"			"220"	[disabled]
 		"tall"			"20"
 		"tall_disabled"		"30"
 		"autoResize"		"0"
@@ -190,7 +190,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
 		"visible_disabled"		"0"
-		"visible"		"0"	[$X360]
+		"visible"		"0"	[disabled]
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_CycleTargetFwd"
 		"textAlignment"		"west"
@@ -254,7 +254,7 @@
 		"enabled"		"1"
 		"labelText"		"%tip%"
 		"textAlignment"		"center"	[$WIN32]
-		"textAlignment"		"north-west"	[$X360]
+		"textAlignment"		"north-west"	[disabled]
 		"font"			"SpectatorKeyHints"
 		"font_disabled"	"HudFontSmall"
 		"font_disabled"	"DefaultVerySmall"

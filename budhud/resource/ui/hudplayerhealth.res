@@ -1,4 +1,5 @@
-	#base	"..\..\#Customization\_Enabled\bh_HealthCross.res"
+	#base	"..\..\#customization\_enabled\bh_biggerhealth.res"
+	#base	"..\..\#customization\_enabled\bh_healthcross.res"
 	#base	"..\..\_stream\resource\ui\hudplayerhealth.res"
 	#base	"..\..\_budhud\resource\ui\hudplayerhealth.res"
 	#base	"..\..\_tf2hud\resource\ui\hudplayerhealth.res"

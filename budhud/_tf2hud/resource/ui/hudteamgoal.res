@@ -27,7 +27,7 @@
 		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"220"	[$WIN32]
-		"wide"			"180"	[$X360]
+		"wide"			"180"	[disabled]
 		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"

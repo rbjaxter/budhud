@@ -1,6 +1,3 @@
-	#base	"..\..\..\#users\dane\#customization\_enabled\bh_crosshairs.res"
-	#base	"..\..\..\#customization\_enabled\bh_crosshairs.res"
-
 "Resource/UI/HudPlayerClass.res"
 {
 	"PlayerStatusClassImageBG"
@@ -51,7 +48,7 @@
 		"allow_rot"													"1"
 
 		"disable_speak_event"										"1"
-				
+
 		"model"
 		{
 			"force_pos"												"1"

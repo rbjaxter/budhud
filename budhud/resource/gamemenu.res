@@ -10,24 +10,25 @@
 	// You can also set these up to create a locally-hosted server
 	// Example:
 	// "command"		"engine map tr_walkway_rc2"
-	// You can also set these up to place you into training mode
-	// Example:
-	// "command"		"engine play_training"
+	// You can also set these up to place you into training mode 
+	// Example: 
+	// "command"    "engine play_training" 
+	// Be sure to leave "label" blank
 	/////////////////////////////////////////////////////////////////////////
 
 	"bh_Favorite1"
 	{
-		"label"			""			// Leave blank
+		"label"			""
 		"command" 		"engine connect 66.151.138.88:27015"
 		"OnlyAtMenu" 	"0"
-		"tooltip" 		"jump.tf | Beginners (West)"	// Change if you'd like
+		"tooltip" 		"jump.tf | Beginners (West)"
 	}
 	"bh_Favorite2"
 	{
-		"label"			""			// Leave blank
+		"label"			""
 		"command" 		"engine connect 216.52.143.183:27015"
 		"OnlyAtMenu" 	"0"
-		"tooltip" 		"ReSurfed | Easy Maps"	// Change if you'd like
+		"tooltip" 		"ReSurfed | Easy Maps"
 	}
 	
 	"bh_TitleHover"
@@ -43,7 +44,7 @@
 						echo ======================================================;
 						echo ~ Thank you to everyone who actively uses my hud! ~~~~;
 						echo ======================================================;"
-		"tooltip"		"Updated 7 March 2017"
+		"tooltip"		"Updated 20 June 2017"
 	}
 	
 	"bh_Streams"
@@ -116,6 +117,22 @@
 		"command" 		"OpenAchievementsDialog"
 		"OnlyAtMenu" 	"0"
 		"tooltip" 		"#bh_Achievements"
+	}
+	
+	"bh_ConsoleButton"
+	{
+		"label"			""
+		"command" 		"engine toggleconsole"
+		"OnlyAtMenu" 	"0"
+		"tooltip" 		"#bh_Console"
+	}
+	
+	"bh_TrainingButton"
+	{
+		"label"			""
+		"command" 		"play_training"
+		"OnlyAtMenu" 	"0"
+		"tooltip" 		"#bh_TrainingMode"
 	}
 	
 	/////////////////////////////////////////////////////////////////////////

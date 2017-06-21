@@ -1765,7 +1765,7 @@
 		}
 	}
 
-	"ButtonLegendBG"		[$X360]
+	"ButtonLegendBG"		[disabled]
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ButtonLegendBG"
@@ -1783,7 +1783,7 @@
 		"PaintBackgroundType"	"0"
 	}
 	
-	"ButtonLegend"		[$X360]
+	"ButtonLegend"		[disabled]
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ButtonLegend"

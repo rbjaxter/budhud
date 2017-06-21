@@ -22,8 +22,8 @@
 		"xpos_disabled"	"15"	[$WIN32]
 		"ypos"			"r88"	[$WIN32]
 		"ypos_disabled"	"r54"	[$WIN32]
-		"xpos"			"57"	[$X360]
-		"ypos"			"r110"	[$X360]
+		"xpos"			"57"	[disabled]
+		"ypos"			"r110"	[disabled]
 		"zpos"			"2"
 		"wide"			"75"
 		"wide_disabled"	"37"
@@ -42,8 +42,8 @@
 		"xpos_disabled"	"-5"	[$WIN32]
 		"ypos"			"r67"	[$WIN32]
 		"ypos_disabled"	"r44"	[$WIN32]
-		"xpos"			"35"	[$X360]
-		"ypos"			"r89"	[$X360]
+		"xpos"			"35"	[disabled]
+		"ypos"			"r89"	[disabled]
 		"zpos"			"2"
 		"wide"			"55"
 		"wide_disabled"	"27"
@@ -64,8 +64,8 @@
 		"xpos_disabled"	"-5"	[$WIN32]
 		"ypos"			"r67"	[$WIN32]
 		"ypos_disabled"	"r44"	[$WIN32]
-		"xpos"			"35"	[$X360]
-		"ypos"			"r89"	[$X360]
+		"xpos"			"35"	[disabled]
+		"ypos"			"r89"	[disabled]
 		"zpos"			"7"
 		"wide"			"55"
 		"wide_disabled"	"27"
@@ -84,8 +84,8 @@
 		"xpos_disabled"	"-10"		[$WIN32]
 		"ypos"			"r60"	[$WIN32]
 		"ypos_disabled"		"r40"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
+		"xpos"			"41"	[disabled]
+		"ypos"			"r82"	[disabled]
 		"zpos"			"1"		
 		"wide"			"100"
 		"tall"			"50"
@@ -107,8 +107,8 @@
 		"xpos_disabled"	"-15"		[$WIN32]
 		"ypos"			"r60"	[$WIN32]
 		"ypos_disabled"		"r40"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
+		"xpos"			"41"	[disabled]
+		"ypos"			"r82"	[disabled]
 		"zpos"			"1"		
 		"wide"			"109"
 		"tall"			"50"

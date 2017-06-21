@@ -8,7 +8,7 @@
 		"screenshot_move_panel_to_corner"	"1"
 	}
 
-	"FreezePanelBase"	[$X360]
+	"FreezePanelBase"	[disabled]
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"

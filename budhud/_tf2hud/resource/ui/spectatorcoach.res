@@ -187,7 +187,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
-		"visible"		"0"	[$X360]
+		"visible"		"0"	[disabled]
 		"enabled"		"1"
 		"labelText"		"#TF_Coach_ControlView"
 		"textAlignment"		"west"

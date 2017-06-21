@@ -12,12 +12,12 @@
 
 	"CHudAccountPanel"
 	{
-		"delta_item_x"												"88"
-		"delta_item_start_y"										"23"
-		"delta_item_end_y"											"36"
+		"delta_item_x"												"120"
+		"delta_item_start_y"										"15"
+		"delta_item_end_y"											"25"
 		"PositiveColor"												"bh_orange"
 		"NegativeColor"												"bh_red"
-		"delta_lifetime"											".7"
+		"delta_lifetime"											".9"
 		"delta_item_font"											"bh_Font16"
 	}
 	

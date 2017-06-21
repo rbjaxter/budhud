@@ -279,7 +279,7 @@
 				"ypos_disabled"			"49"
 				"zpos"			"5"
 				"wide"			"150" [$WIN32]
-				"wide"			"170" [$X360]
+				"wide"			"170" [disabled]
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -1829,7 +1829,7 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"	[$WIN32]
-			"visible"		"0"	[$X360]
+			"visible"		"0"	[disabled]
 			"enabled"		"1"
 		}							
 		"RecordsSubBG1"
@@ -1872,7 +1872,7 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"	[$WIN32]
-			"visible"		"1"	[$X360]
+			"visible"		"1"	[disabled]
 			"enabled"		"1"
 		}	
 		"OverallRecord1Label"
@@ -2699,7 +2699,7 @@
 		"brighttext"	"0"
 		"Command"		"vguicancel"
 	}
-	"Footer" [$X360]
+	"Footer" [disabled]
 	{
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"
@@ -2734,7 +2734,7 @@
 			"icon"		"#GameUI_Icons_A_BUTTON"	
 		}
 	}		
-	"TitleBanner" [$X360]
+	"TitleBanner" [disabled]
 	{
 		"ControlName"	"ImagePanel"
 		"xpos"			"0"
