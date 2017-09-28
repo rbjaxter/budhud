@@ -399,11 +399,29 @@
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// "Waiting for teams to organize" message
+	// Controls countdown, don't remove!
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
 	
 	"TournamentLabel"
 	{
-		"ypos"														"r-6969"
+		"xpos"														"-147"
+		"ypos"														"-15"
+		"wide"														"200"
+		"tall"														"20"
+			
+		"pin_to_sibling" 											"TournamentInstructionsLabel"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		
+		if_readymode
+		{
+			"ypos"													"r-6969"
+		}
+		
+		if_competitive
+		{
+			"ypos"													"r-6969"
+		}
 	}
 	
 	"the_wang_who_peaks"
@@ -421,7 +439,7 @@
 		
 		if_readymode
 		{
-			"ypos"													"-1995"
+			"ypos"													"r-6969"
 		}
 		
 		if_competitive
@@ -446,6 +464,12 @@
 		{
 			"xpos"													"c-30"
 			"ypos"													"40"
+		}
+		
+		if_mvm
+		{
+			"xpos"													"c-30"
+			"ypos"													"0"
 		}
 	}
 	

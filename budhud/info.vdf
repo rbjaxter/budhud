@@ -2,21 +2,3 @@
 {
 	"ui_version"													"1"
 }
-
-"AHUDM" 
-{
-    "Main" 
-	{
-        "HUDName"													"budhud"
-        "HUDAuthor"													"Whisker"
-        "Source"													"GitHub"
-        "GitHubRepo"												"rbjaxter/budhud"
-        "HudsTFID"													"207"
-    }
-    
-    "Links" { 
-        "TeamFortressTV"											"tf.gg" // without http://
-        "HudsTF"													"huds.tf/forum/showthread.php?tid=207"
-    }
-
-}
