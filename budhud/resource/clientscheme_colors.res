@@ -23,6 +23,9 @@ Scheme
 		"bh_HealthLow"												"186 032 032 255"
 		"bh_HealthBuff"												"000 153 255 255"
 		"bh_HealthPickup"											"240 134 049 255"
+		"bh_HealthLow_t"											"186 032 032 125"
+		"bh_HealthBuff_t"											"000 153 255 125"
+		"bh_HealthBG_t"												"150 150 150 125"
 		
 	// Ammo
 		"bh_AmmoInClip"												"255 255 255 255"
