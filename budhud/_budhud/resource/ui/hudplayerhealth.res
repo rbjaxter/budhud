@@ -1,24 +1,75 @@
 "Resource/UI/HudPlayerHealth.res"
 {
-	"PlayerStatus_MedicSmalLBulletResistImage"
+	"bh_ResistNav2"
+	{	
+		"ControlName"												"Label"
+		"fieldName"													"bh_ResistNav2"
+		"xpos"														"50"
+		"ypos"														"50"
+		"zpos"														"0"
+		"wide"														"10"
+		"tall"														"0"
+		"visible"													"1"
+		"enabled"													"1"
+		"bgcolor_override"											"0 0 0 0"
+	}
+
+	"bh_HPBG"	
+	{
+		"ControlName"												"CExLabel"
+		"fieldName"													"bh_HPBG"
+		"xpos"														"61"
+		"ypos"														"28"
+		"zpos"														"-6969"
+		"wide"														"78"
+		"tall"														"44"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"labeltext"													""
+		"visible"													"1"
+		"enabled"													"1"
+		"defaultbgcolor_override"									"150 150 150 255"
+		"paintbackgroundtype"										"0"
+    }
+
+	"PlayerStatus_MedicUberBulletResistImage"
+	{
+	}
+	
+	"PlayerStatus_MedicUberBlastResistImage"
+	{
+	}
+
+	"PlayerStatus_MedicUberFireResistImage"
+	{
+	}	
+	
+	"PlayerStatus_MedicSmallBulletResistImage"
 	{
 		"ypos"														"r-6969"
+		"pin_to_sibling" 											"bh_ResistNav2"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
 	}
 	
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
-		"ypos"														"r-6969"
+		"pin_to_sibling" 											"bh_ResistNav2"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
 	}
 	
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
-		"ypos"														"r-6969"
+		"pin_to_sibling" 											"bh_ResistNav2"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
 	}
 	
 	"HudPlayerHealth"
 	{
 		"xpos"														"c-240"
-		"ypos"														"c60"
+		"ypos"														"c66"
 		"wide"														"160"
 		"tall"														"100"
 	}

@@ -52,10 +52,10 @@
 	{
 		"ControlName" 												"ImagePanel"
 		"fieldName" 												"bh_TargetBG"
-		"xpos" 														"0"
+		"xpos" 														"58"
 		"ypos" 														"15"
 		"zpos" 														"6"
-		"wide" 														"600"
+		"wide" 														"160"
 		"tall" 														"14"
 		"autoResize" 												"0"
 		"pinCorner" 												"0"
@@ -95,8 +95,9 @@
 	
 	"SpectatorGUIHealth"
 	{
-		"xpos"														"0"
+		"xpos"														"10"
 		"ypos"														"7"
+		"zpos"														"8"
 		"wide"														"48"
 		"tall"														"30"
 	}

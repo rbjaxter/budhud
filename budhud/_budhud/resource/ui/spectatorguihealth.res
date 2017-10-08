@@ -1,5 +1,35 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
+	"bh_HPBGSpec"	
+	{
+		"ControlName"												"CExLabel"
+		"fieldName"													"bh_HPBGSpec"
+		"xpos"														"23"
+		"ypos"														"8"
+		"zpos"														"-6969"
+		"wide"														"26"
+		"tall"														"14"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"labeltext"													""
+		"visible"													"1"
+		"enabled"													"1"
+		"bgcolor_override"											"150 150 150 255"
+		
+		"paintbackground"											"1"
+		"border"													"NoBorder"
+    }
+	
+	"PlayerStatusHealthImage"
+	{
+		"ypos"														"r-6969"
+	}
+	
+	"PlayerStatusHealthBonusImage"
+	{
+		"ypos"														"r-6969"
+	}
+
 	"BuildingStatusHealthImageBG"
 	{
 		"ypos"														"r-6969"
@@ -10,23 +40,6 @@
 		"ypos"														"r-6969"
 	}	
 
-	"PlayerStatusHealthImage"
-	{
-		"xpos"														"6"
-		"ypos"														"8"
-		"zpos"														"-500"
-		"wide"														"14"
-		"tall"														"14"
-	}
-	
-	"PlayerStatusHealthBonusImage"
-	{
-		"xpos"														"6"
-		"ypos"														"8"
-		"wide"														"14"
-		"tall"														"14"
-	}
-	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"												"Label"
