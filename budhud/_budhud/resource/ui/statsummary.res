@@ -206,7 +206,7 @@
 	"OnYourWayLabel"
 	{
 		"xpos"														"c-150"
-		"ypos"														"100"
+		"ypos"														"123"
 		"zpos"														"1995"
 		"font"														"bh_Font24"
 		"fgcolor_override"											"bh_orange"
@@ -217,7 +217,7 @@
 	"MapLabel"
 	{
 		"xpos"														"c-150"
-		"ypos"														"150"
+		"ypos"														"173"
 		"zpos"														"1995"
 		"font"														"bh_Font32"
 		"fgcolor_override"											"bh_white"
@@ -228,7 +228,7 @@
 	"MapType"
 	{
 		"xpos"														"c-150"
-		"ypos"														"200"
+		"ypos"														"223"
 		"zpos"														"1995"
 		"font"														"bh_Font24"
 		"fgcolor_override"											"bh_white"

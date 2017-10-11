@@ -14,8 +14,8 @@
 	{	
 		"ControlName"												"Label"
 		"fieldName"													"bh_ResistNav"
-		"xpos"														"406"
-		"ypos"														"r146"
+		"xpos"														"411"
+		"ypos"														"r137"
 		"zpos"														"0"
 		"wide"														"100"
 		"tall"														"0"
@@ -118,7 +118,7 @@
 		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
 		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
 		"zpos"														"6969"
-		"wide"														"40"
-		"tall"														"40"
+		"wide"														"32"
+		"tall"														"32"
 	}
 }

@@ -4,12 +4,10 @@
 	
 	event CompetitiveGame_LowerChatWindow
 	{
-		Animate 		HudChat								ypos 5			Accel 0 0
 	}
 	
 	event CompetitiveGame_RestoreChatWindow
 	{
-		Animate 		HudChat 							ypos 5 			Accel 0 0
 	}
 	
 	event HudTournament_MoveChatWindow
