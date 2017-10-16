@@ -122,5 +122,21 @@ Scheme
 		"Orange"													"240 134 049 255"		// Referenced in a few areas, saves lines keeping this
 
 		"FgColor"													"255 255 255 255"		// Controls color of HudHintKeyDisplay (surf/jump timer)
+		"BgColor"													"000 000 000 060"		// Does nothing
+		
+	// Saving for future consideration
+		"MenuBoxBg"													"0 0 0 100"
+		
+		// weapon selection colors
+		"SelectionNumberFg"		"251 235 202 255"
+		"SelectionTextFg"		"251 235 202 255"
+		"SelectionEmptyBoxBg" 	"0 0 0 80"
+		"SelectionBoxBg" 		"0 0 0 80"
+		"SelectionSelectedBoxBg" "0 0 0 190"
+
+		// Hint message colors
+		// Bottom center (surf timers/etc)
+		"HintMessageFg"			"255 255 255 255"
+		"HintMessageBg" 		"000 000 000 060"
 	}
 }

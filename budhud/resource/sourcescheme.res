@@ -1,6 +1,4 @@
 	#base	"sourcescheme_base.res"
-//	#base	"SourceSchemeBase.res"
-//	#base	"..\_tf2hud\resource\sourcescheme.res"
 	
 Scheme
 {

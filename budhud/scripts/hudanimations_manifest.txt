@@ -6,7 +6,6 @@ hudanimations_manifest
 {
 	"file"		"scripts/hudanimations.txt"
 	"file"		"scripts/bh_hudanimations/bh_general.txt"
-//	"file"		"scripts/bh_hudanimations/bh_hudhintkeydisplay.txt"
 	"file"		"scripts/bh_hudanimations/bh_menu.txt"
 	"file"		"scripts/bh_hudanimations/bh_ammo.txt"
 	"file"		"scripts/bh_hudanimations/bh_crosshairs.txt"

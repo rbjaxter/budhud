@@ -6,12 +6,7 @@
 
 event MMenu_PlayList_Expand
 {
-//	Animate ItemsContainer			ypos 420 Spline 0 0.3
 	Animate EventPromo				ypos 310 Spline 0 0.3
-//	Animate SafeMode				ypos 470 Spline 0 0.3
-//	Animate VRBGPanel				ypos 633 Spline 0 0.3
-//	Animate VRModeButton			ypos 639 Spline 0 0.3
-//	Animate ShowPromoCodesButton	ypos 639 Spline 0 0.3
 
 	Animate PlayListContainer Tall 325	 Spline	0.0 0.3
 
@@ -20,12 +15,7 @@ event MMenu_PlayList_Expand
 
 event MMenu_PlayList_Collapse
 {
-//	Animate ItemsContainer			ypos 160 Spline 0 0.3
 	Animate EventPromo				ypos 600 Spline 0 0.3
-//	Animate SafeMode				ypos 210 Spline 0 0.3
-//	Animate VRBGPanel				ypos 373 Spline	0 0.3
-//	Animate VRModeButton			ypos 379 Spline 0 0.3
-//	Animate ShowPromoCodesButton	ypos 379 Spline 0 0.3
 
 	Animate PlayListContainer Tall 0 Spline 0 0.3
 
@@ -34,11 +24,7 @@ event MMenu_PlayList_Collapse
 
 event MMenu_PlayList_Collapse_Immediate
 {
-//	Animate ItemsContainer			ypos 160 Spline 0 0
 	Animate EventPromo				ypos 600 Spline 0 0
-//	Animate VRBGPanel				ypos 373 Spline	0 0
-//	Animate VRModeButton			ypos 379 Spline 0 0
-//	Animate ShowPromoCodesButton	ypos 379 Spline 0 0
 
 	Animate PlayListContainer Tall 0 Spline 0 0
 }
