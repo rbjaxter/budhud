@@ -13,7 +13,7 @@
 	{
 		"ControlName"												"CExLabel"
 		"fieldName"													"DamageAccountValue"
-		"xpos"														"c-52"
+		"xpos"														"c-56"
 		"ypos"														"373"
 		"zpos"														"2"
 		"wide"														"100"
@@ -28,10 +28,14 @@
 	
 	"DamageAccountValueBG"
 	{
+		"pin_to_sibling" 											"DamageAccountValue"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
 		"ControlName"												"CExLabel"
-		"fieldName"													"DamageAccountValue"
-		"xpos"														"c-51"
-		"ypos"														"374"
+		"fieldName"													"DamageAccountValueBG"
+		"xpos"														"-1"
+		"ypos"														"-1"
 		"zpos"														"1"
 		"wide"														"100"
 		"tall"														"26"
