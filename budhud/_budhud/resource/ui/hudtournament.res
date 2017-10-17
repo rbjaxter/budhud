@@ -1,16 +1,5 @@
 "Resource/UI/HudTournament.res"
 {
-
-	"CountdownLabelShadow"
-	{
-		"ypos"														"r-6969"
-		
-		if_competitive
-		{
-			"ypos"													"r-6969"
-		}
-	}
-	
 	HudTournament
 	{
 		"xpos"														"0"
@@ -150,12 +139,16 @@
 	
 	"bh_TournamentConditionLabelShadow"
 	{	
+		"pin_to_sibling" 											"TournamentConditionLabel"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
 		"ControlName"												"Label"
 		"fieldName"													"bh_TournamentConditionLabelShadow"
 		"font"														"bh_Font10"
 		"fgcolor_override"											"bh_Shadow"
-		"xpos"														"c-249"
-		"ypos"														"69"
+		"xpos"														"-1"
+		"ypos"														"-1"
 		"zpos"														"1"
 		"wide"														"500"
 		"tall"														"20"
@@ -163,22 +156,6 @@
 		"enabled"													"1"
 		"labelText"													"%winconditions%"
 		"textAlignment"												"center"
-		"proportionaltoparent"										"1"
-		
-		if_mvm
-		{
-			"ypos"													"r-6969"
-		}
-
-		if_competitive
-		{
-			"ypos"													"r-6969"
-		}
-
-		if_readymode
-		{
-			"ypos"													"r-6969"
-		}
 	}
 	
 	"TournamentInstructionsLabel"
@@ -208,12 +185,16 @@
 	
 	"bh_TournamentInstructionsLabelShadow"
 	{	
+		"pin_to_sibling" 											"TournamentInstructionsLabel"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+
 		"ControlName"												"Label"
 		"fieldName"													"bh_TournamentInstructionsLabelShadow"
 		"font"														"bh_Font16"
 		"fgcolor_override"											"bh_Shadow"
-		"xpos"														"c-249"
-		"ypos"														"41"
+		"xpos"														"-1"
+		"ypos"														"-1"
 		"zpos"														"1"
 		"wide"														"500"
 		"tall"														"20"
@@ -221,22 +202,6 @@
 		"enabled"													"1"
 		"labelText"													"%readylabel%"
 		"textAlignment"												"center"
-		"proportionaltoparent"										"1"
-		
-		if_mvm
-		{
-			"ypos"													"37"
-		}
-
-		if_competitive
-		{
-			"ypos"													"41"
-		}
-		
-		if_readymode
-		{
-			"ypos"													"41"
-		}
 	}
 	
 	"HudTournamentBLUEBG"
@@ -428,6 +393,30 @@
 		}
 	}
 	
+	"bh_TournamentLabelShadow"
+	{	
+		"pin_to_sibling" 											"TournamentLabel"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
+		"ControlName"												"Label"
+		"fieldName"													"bh_TournamentLabelShadow"
+		"font"														"HudFontSmall"
+		"xpos"														"-1"
+		"ypos"														"-1"
+		"fgcolor_override"											"bh_Shadow"
+		"zpos"														"1"
+		"wide"														"200"
+		"tall"														"20"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"visible"													"1"
+		"enabled"													"1"
+		"wrap"														"0"
+		"labelText"													"%tournamentstatelabel%"
+		"textAlignment"												"center"
+	}
+	
 	"the_wang_who_peaks"
 	{
 		"ControlName"												"ScalableImagePanel"
@@ -444,11 +433,13 @@
 		if_readymode
 		{
 			"ypos"													"r-6969"
+			"wide"													"0"
 		}
 		
 		if_competitive
 		{
 			"ypos"													"r-6969"
+			"wide"													"0"
 		}
 	}
 	
@@ -476,19 +467,16 @@
 			"ypos"													"0"
 		}
 	}
-	
+
 	"CountdownLabelShadow"
 	{
-		"xpos"														"c-29"
-		"ypos"														"51"
-		"fgcolor_override"											"bh_Shadow"
+		"pin_to_sibling" 											"CountdownLabel"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"		
+		
+		"xpos"														"-1"
+		"ypos"														"-1"
 		"wide"														"60"
 		"tall"														"60"
-		
-		if_competitive
-		{
-			"xpos"													"c-29"
-			"ypos"													"41"
-		}
 	}
 }

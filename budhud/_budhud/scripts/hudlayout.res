@@ -83,7 +83,12 @@
 
 		"blue_active_xpos"											"40"
 		"red_active_xpos"											"110"
-	}			
+	}		
+
+	StatPanel
+	{
+		"ypos"														"r-6969"
+	}
 
 	HudItemEffectMeter
 	{

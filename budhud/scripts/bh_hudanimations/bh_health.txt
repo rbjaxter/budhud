@@ -42,13 +42,13 @@
 		Animate 		PlayerStatusHealthValue						fgcolor			"bh_Health"				Linear 0.0 0.3
 		Animate 		bh_HPBGSpec									BgColor			"bh_HealthLow_t"		Linear 0.0 0.3
 		
-		RunEvent 		HudHealthDyingPulseLoop	0.2
+		RunEvent 		HudHealthDyingPulseLoop						0.2
 	}
 	
 	// call to loop HudHealthDyingPulse
 	event HudHealthDyingPulseLoop
 	{
-		RunEvent 		HudHealthDyingPulse 0.0
+		RunEvent 		HudHealthDyingPulse							0.0
 	}
 	
 	event HudHealthDyingPulseStop

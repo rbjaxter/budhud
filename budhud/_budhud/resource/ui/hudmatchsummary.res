@@ -50,7 +50,7 @@
 					"tall"		"36"
 					"wide"		"p.215"
 					"border"		"bh_b_blue"
-					"bgcolor_override"	"79 111 134 255"
+					"bgcolor_override"	"bh_BGBlue"
 
 					if_large
 					{
@@ -231,7 +231,7 @@
 					"ypos"		"95"
 					"wide"		"p.215"
 					"border"		"bh_b_red"
-					"bgcolor_override"	"174 60 59 255"
+					"bgcolor_override"	"bh_BGRed"
 
 					if_large
 					{

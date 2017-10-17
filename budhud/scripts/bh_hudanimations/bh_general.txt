@@ -16,21 +16,99 @@
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Give TF2 a stern talking to and tell it "no, don't move my pinned countdown label shadow all over
+	// the place, please. PLEASE"
+	// Default animation files with "CountdownLabelShadow" lines removed.
+	////////////////////////////////////////////////////////////////////////////////////////////////////	
+	
+	event HudTournament_MoveTimerDown
+	{
+		Animate 		CountdownLabel						ypos 150				Linear		0 0
+	
+		SetVisible 		CountdownBG							0 5
+		SetVisible 		CountdownLabel						1 0
+		SetVisible 		CountdownLabelShadow				1 0
+	
+		Animate 		CountdownLabel 						ypos c-3 				Gain		0.75 0 0.4
+	
+		SetVisible		TournamentConditionLabel 			0 2
+	
+		SetVisible 		CountdownLabel 						0 3
+		SetVisible 		CountdownLabelShadow 				0 3
+	}
+	
+	event HudMatchStatus_ShowMatchStartDoors
+	{
+		SetVisible		MatchDoors							1 0
+		SetVisible		BlueTeamPanel						1 0
+		SetVisible		RedTeamPanel						1 0
+		SetVisible 		CountdownLabel						1 0
+		SetVisible 		CountdownLabelShadow				1 0
+		Animate 		CountdownLabel						ypos 150				Linear		0 0
+	
+		Animate 		CountdownLabel 						ypos c-3				Gain		0.75 0 0.4
+	
+		SetVisible		HudTournamentBG						0 2
+		RunEventChild 	MatchDoors 							PlayDoorCloseAnim		0
+		RunEventChild 	FrontParticlePanel					PlayDoorSlamParticles 	0.45
+		RunEventChild 	MatchDoors PlayDoorOpenAnim 		7
+	
+		RunEvent 		HudTournament_AnimateTeams_In		0.25
+		RunEvent 		HudTournament_AnimateTeams_Out		7.70
+	
+		SetVisible 		MatchDoors							0 9
+		SetVisible 		CountdownLabel						0 9.9
+		SetVisible 		CountdownLabelShadow				0 9.9
+	
+		RunEvent 		HudTournament_DoorsCleanup			10
+		
+		SetVisible 		CountdownBG							1 11
+	}
+
+	event HudMatchStatus_ShowCountdown
+	{
+		SetVisible 		CountdownLabel						1 0
+		SetVisible 		CountdownLabelShadow				1 0
+		Animate 		CountdownLabel						ypos 150				Linear		0 0
+		Animate 		CountdownLabel						ypos c-3				Gain		0.75 0 0.4
+		SetVisible 		CountdownLabel 						0 9.9
+		SetVisible 		CountdownLabelShadow 				0 9.9
+	}
+	
+	event HudTournament_ShowTimerCompetitive
+	{
+		Animate 		CountdownLabel						ypos 150				Linear		0 0
+	
+		SetVisible 		CountdownBG							1 0
+		SetVisible 		CountdownLabel						1 0
+		SetVisible 		CountdownLabelShadow				1 0
+	}
+	
+	event HudTournament_ShowTimerDefault
+	{
+		Animate 		CountdownLabel						ypos 425				Linear		0 0
+	
+		SetVisible 		CountdownBG							1 0
+		SetVisible 		CountdownLabel						1 0
+		SetVisible 		CountdownLabelShadow				1 0
+	}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// CTF Flag Pickup/Drop
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	event FlagOutline
 	{
-		RunEvent 		FlagOutlineHide 0.0
-		Animate 		OutlineImage		Alpha			"255"			Linear 0.1 0.2
+		RunEvent 		FlagOutlineHide						0.0
+		Animate 		OutlineImage						Alpha "255"				Linear 0.1 0.2
 		
-		Animate 		OutlineImage		Position		"c-50 r50"		Linear 0.1 0.2
-		Animate 		OutlineImage		Size			"100 50"		Linear 0.1 0.2
+		Animate 		OutlineImage						Position "c-50 r50"		Linear 0.1 0.2
+		Animate 		OutlineImage						Size "100 50"			Linear 0.1 0.2
 	
-		Animate 		OutlineImage		Position		"c-50 r100"		Linear 0.7 0.2
-		Animate 		OutlineImage		Size			"100 50"		Linear 0.7 0.2
+		Animate 		OutlineImage						Position "c-50 r100"	Linear 0.7 0.2
+		Animate 		OutlineImage						Size "100 50"			Linear 0.7 0.2
 		
-		Animate			OutlineImage		Alpha			"0"				Linear 0.6 0.3
+		Animate			OutlineImage						Alpha "0"				Linear 0.6 0.3
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -39,9 +117,9 @@
 	
 	event HudSnapShotReminderIn
 	{
-		RunEvent 		HudHealthDyingPulseStop 		0.0
-		RunEvent 		HudHealthBonusPulseStop 		0.0
-		RunEvent 		HudLowAmmoPulseStop 			0.0
-		RunEvent 		HudMedicChargedStop 			0.0
+		RunEvent 		HudHealthDyingPulseStop 			0.0
+		RunEvent 		HudHealthBonusPulseStop 			0.0
+		RunEvent 		HudLowAmmoPulseStop 				0.0
+		RunEvent 		HudMedicChargedStop 				0.0
 	}
 	
