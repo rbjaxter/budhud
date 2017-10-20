@@ -7,15 +7,15 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"260"
-		"tall"			"70"
+		"wide"			"200"
+		"tall"			"60"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"1"
 
 		"collapsed_height"	"0"
-		"expanded_height"	"70"
+		"expanded_height"	"60"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
@@ -103,6 +103,12 @@
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
+
+				disabled_queued
+				{
+					"visible"	"0"
+				}
+
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"font"			"HudFontSmallestBold"
@@ -111,10 +117,10 @@
 				"brighttext"	"0"
 				"Command"		"abandon_match"
 				"proportionaltoparent"	"1"
-				"labeltext"		"#TF_MM_Rejoin_Leave"
+				"labeltext"		"#TF_MM_Rejoin_Abandon"
 				"mouseinputenabled"	"1"
 				"keyboardinputenabled"	"0"
-				"actionsignallevel"	"1"
+				"actionsignallevel"	"2"
 				"paintbackground"	"1"
 
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -127,9 +133,16 @@
 				"fieldName"		"JoinNowButton"
 				"xpos"			"10"
 				"ypos"			"rs1-5"
+				"wide"			"90"
 				"zpos"			"100"
-				"wide"			"150"
 				"tall"			"15"
+
+				disabled_queued
+				{
+					"xpos"			"cs-0.5"
+					"wide"			"150"
+				}
+				
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
@@ -144,7 +157,7 @@
 				"labeltext"		"#TF_Matchmaking_RollingQueue_JoinNow"
 				"mouseinputenabled"	"1"
 				"keyboardinputenabled"	"0"
-				"actionsignallevel"	"1"
+				"actionsignallevel"	"2"
 
 				"armedBgColor_override"		"CreditsGreen"
 				"defaultBgColor_override"	"SaleGreen"
@@ -153,5 +166,5 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
 		}
-		}
+	}
 }

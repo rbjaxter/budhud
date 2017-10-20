@@ -12,13 +12,11 @@
 
 		"bar_gap"	"5"
 		"attrib_y_step"	"5"
-		"no_effects"	"1"
+		"map_view"	"1"
 
 		"item_attribute_res_file"			"resource/UI/quests/QuestObjectivePanel_QuestLog_Base.res"
 		"progress_bar_standard_loc_token"	"#QuestPoints_Standard"
 		"progress_bar_advanced_loc_token"	"#QuestPoints_Bonus"
-		"standard_glow_color"	"QuestStandardHighlight"
-		"bonus_glow_color"		"QuestBonusHighlight"
 	}
 
 	"ItemName"
@@ -67,10 +65,5 @@
 				"fgcolor_override"	"White"
 			}
 		}
-	}
-
-	"CompletedContainer"
-	{
-		"visible"		"0"
 	}
 }

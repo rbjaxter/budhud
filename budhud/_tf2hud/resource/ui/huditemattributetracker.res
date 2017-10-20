@@ -7,7 +7,7 @@
 		"enabled" 		"1"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"f5"
+		"wide"			"f0"
 		"tall"			"f0"
 		"PaintBackgroundType"	"0"
 
@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestsStatusContainer"
-		"xpos"			"rs1"
+		"xpos"			"rs1-10"
 		"ypos"			"120"
 		"wide"			"110"
 		"tall"			"20"

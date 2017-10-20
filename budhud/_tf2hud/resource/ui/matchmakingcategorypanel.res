@@ -90,8 +90,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"image_default"	"/pve/buy_disabled"
-			"image_armed"	"/pve/buy_selected"
+			"image_default"	"glyph_expand"
 
 			"button_activation_type"	"1"
 
@@ -151,7 +150,7 @@
 			"xpos"			"rs1-24"
 			"ypos"			"2"
 			"zpos"			"3"
-			"wide"			"120"
+			"wide"			"200"
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
@@ -167,7 +166,6 @@
 			"mouseinputenabled"	"0"
 
 			"fgcolor"		"TanLight"
-			"paintbackground"	"1"
 		}	
 
 		"TitleShadow"
@@ -177,7 +175,7 @@
 			"xpos"			"rs1-23"
 			"ypos"			"3"
 			"zpos"			"2"
-			"wide"			"120"
+			"wide"			"200"
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
@@ -193,7 +191,6 @@
 			"mouseinputenabled"	"0"
 
 			"fgcolor_override"		"Black"
-			"paintbackground"	"1"
 		}
 
 		"DescLabel"

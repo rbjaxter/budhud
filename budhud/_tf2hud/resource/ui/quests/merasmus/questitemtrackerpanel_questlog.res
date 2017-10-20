@@ -42,9 +42,4 @@
 			}
 		}
 	}
-
-	"CompletedContainer"
-	{
-		"visible"		"0"
-	}
 }

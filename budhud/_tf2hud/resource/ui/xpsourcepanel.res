@@ -1,13 +1,15 @@
 "Resource/UI/XPSourcePanel.res"
 {		
-	"XPSourcePanel"
+	"Indicator"
 	{
-		"fieldName"		"XPSourcePanel"
+		"fieldName"		"Indicator"
 
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"wide"			"200"
-		"tall"			"400"
+		"tall"			"25"
+		"zpos"			"9999"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 	}

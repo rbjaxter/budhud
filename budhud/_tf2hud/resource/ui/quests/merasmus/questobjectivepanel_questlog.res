@@ -2,7 +2,7 @@
 
 "Resource/UI/HudAchievementTrackerItem.res"
 {	
-	"ItemAttributeProgressPanel"
+	"QuestObjectiveTextPanel"
 	{
 		"enabled_text_color_override"		"Black"
 		"disabled_text_color_override"		"Black"

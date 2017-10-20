@@ -2,7 +2,7 @@
 
 "Resource/UI/HudAchievementTrackerItem.res"
 {	
-	"ItemAttributeProgressPanel"
+	"QuestObjectiveTextPanel"
 	{
 		"normal_token"		"#QuestObjective_Required"
 		"advanced_token"	"#QuestObjective_Optional"

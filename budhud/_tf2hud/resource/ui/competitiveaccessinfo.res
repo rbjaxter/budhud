@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MainContainer"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
+		"xpos"			"-15"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"350"
@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
-		"border"		"MainMenuBGBorder"
+		"paintborder"		"0"
 
 		"TitleLabel"
 		{
@@ -62,7 +62,7 @@
 			"labelText"		"#MMenu_CompetitiveAccessOption1"
 			"textAlignment"	"center"
 			"xpos"			"10"
-			"ypos"			"80"
+			"ypos"			"70"
 			"wide"			"f20"
 			"tall"			"15"
 			"autoResize"	"0"
@@ -81,9 +81,9 @@
 			"labelText"		"#MMenu_CompetitiveAccessOption1_Desc"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
-			"ypos"			"95"
+			"ypos"			"85"
 			"wide"			"f40"
-			"tall"			"40"
+			"tall"			"60"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -147,7 +147,7 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"10"
-				"wide"			"p0.5"
+				"wide"			"p0.3"
 				"tall"			"f0"
 				"autoResize"	"0"
 				"visible"		"1"
@@ -191,7 +191,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"PremiumCheckImage"
-				"xpos"			"p0.25-s0.5"
+				"xpos"			"p0.15-s0.5"
 				"ypos"			"p0.5-s0.5"
 				"zpos"			"100"
 				"wide"			"20"
@@ -204,16 +204,16 @@
 				"drawcolor_override"	"0 255 0 255"
 			}
 
-			"AndLabel"
+			"AndLabel1"
 			{
 				"ControlName"	"CExLabel"
-				"fieldName"		"AndLabel"
+				"fieldName"		"AndLabel1"
 				"font"			"HudFontMediumBigBold"
 				"labelText"		"+"
 				"textAlignment"	"center"
-				"xpos"			"0"
+				"xpos"			"p0.3"
 				"ypos"			"0"
-				"wide"			"f0"
+				"wide"			"p0.05"
 				"tall"			"f0"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -227,10 +227,10 @@
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"PhoneButton"
-				"xpos"			"p0.5"
+				"xpos"			"p0.35"
 				"ypos"			"0"
 				"zpos"			"10"
-				"wide"			"p0.5"
+				"wide"			"p0.3"
 				"tall"			"f0"
 				"autoResize"	"0"
 				"visible"		"1"
@@ -274,7 +274,93 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"PhoneCheckImage"
-				"xpos"			"p0.75-s0.5"
+				"xpos"			"p0.5-s0.5"
+				"ypos"			"p0.5-s0.5"
+				"zpos"			"100"
+				"wide"			"20"
+				"tall"			"20"
+				"visible"		"0"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+				"image"			"checkmark"
+				"drawcolor_override"	"0 255 0 255"
+			}
+
+			"AndLabel2"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"AndLabel2"
+				"font"			"HudFontMediumBigBold"
+				"labelText"		"+"
+				"textAlignment"	"center"
+				"xpos"			"p0.65"
+				"ypos"			"0"
+				"wide"			"p0.05"
+				"tall"			"f0"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"fgcolor_override" "TanLight"
+				"proportionaltoparent"	"1"
+			}
+
+			"RankImage"
+			{
+				"ControlName"	"CTFBadgePanel"
+				"fieldName"		"RankImage"
+				"xpos"			"p0.7"
+				"ypos"			"5"
+				"zpos"			"10"
+				"wide"			"p0.3"
+				"tall"			"f0"
+				"visible"		"1"
+				"enabled"		"1"
+				"proportionaltoparent"	"1"
+
+				"BadgePanel"
+				{
+					"ypos"		"10"
+				}
+			}
+
+			"RankButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"RankButton"
+				"xpos"			"p0.7"
+				"ypos"			"0"
+				"zpos"			"11"
+				"wide"			"p0.3"
+				"tall"			"f0"
+				"autoResize"	"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"default"		"1"
+				"labelText"		""
+				"command"		"open_casual"
+				"proportionaltoparent"	"1"
+				"actionsignallevel"	"3"
+			
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+			
+				"paintbackground"	"1"
+			
+				"defaultBgColor_override" "0 0 0 64"
+				"armedBgColor_override" "0 0 0 0"
+			
+				"image_drawcolor"	"200 200 200 255"
+				"image_armedcolor"	"255 255 255 255"
+			}
+
+			"RankCheckImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"RankCheckImage"
+				"xpos"			"p0.85-s0.5"
 				"ypos"			"p0.5-s0.5"
 				"zpos"			"100"
 				"wide"			"20"
@@ -352,92 +438,5 @@
 				}
 			}
 		}
-
-		"CloseButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"CloseButton"
-			"xpos"			"rs1.2"
-			"ypos"			"s.2"
-			"zpos"			"10"
-			"wide"			"14"
-			"tall"			"14"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"0"
-			"proportionaltoparent"	"1"
-			"actionsignallevel" "2"
-			"Command"		"close"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"paintbackground"	"0"
-			
-			//"defaultFgColor_override" "235 226 202 255"
-			//"armedFgColor_override" "46 43 42 255"
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"close_button"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}				
-		}
-	}
-
-	"FullScreenCloseButton"
-	{
-		"ControlName"	"Button"
-		"fieldName"		"FullScreenCloseButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labeltext"		""
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"0"
-		"proportionaltoparent"	"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"close"
-			
-		"paintbackground"	"1"
-		"defaultFgColor_override"		"0 0 0 0"
-		"armedFgColor_override"			"0 0 0 0"
-		"depressedFgColor_override"		"0 0 0 0"
-		"defaultBgColor_override"		"0 0 0 230"
-		"armedBgColor_override"			"0 0 0 230"
-		"depressedBgColor_override"		"0 0 0 230"
 	}
 }

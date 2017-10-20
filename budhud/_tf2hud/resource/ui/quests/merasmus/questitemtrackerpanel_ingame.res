@@ -10,11 +10,6 @@
 
 		"standard_glow_color"	"HalloweenThemeColor2015_Light"
 		"bonus_glow_color"		"HalloweenThemeColor2015_Light"
-
-		"standard_objective_tick_sound"		"Quest.StatusTick"
-		"standard_points_complete_sound"	"Quest.StatusTickCompleteHalloween"
-		"advanced_objective_sound_complete"	"Quest.StatusTickBonus"
-		"advanced_points_complete_sound"	"Quest.StatusTickBonusCompleteHalloween"
 	}
 
 	"ProgressBarBG"
