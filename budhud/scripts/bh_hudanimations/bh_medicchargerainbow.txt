@@ -6,21 +6,21 @@
 
 	event HudMedicCharged
 	{
-		Animate		ChargeLabel 		FgColor			"255 000 000 255"		Linear 0.2 0.2
-		Animate		ChargeLabel 		FgColor			"255 127 000 255"		Linear 0.4 0.2
-		Animate		ChargeLabel 		FgColor			"255 255 000 255"		Linear 0.6 0.2
-		Animate		ChargeLabel 		FgColor			"000 255 000 255"		Linear 0.8 0.2
-		Animate		ChargeLabel 		FgColor			"000 000 255 255"		Linear 0.10 0.2
-		Animate		ChargeLabel 		FgColor			"075 000 130 255"		Linear 0.12 0.2
-		Animate 	ChargeLabel			FgColor			"139 000 255 255"		Linear 0.14 0.2
+		Animate			ChargeLabel 		FgColor			"255 000 000 255"		Linear 0.2 0.2
+		Animate			ChargeLabel 		FgColor			"255 127 000 255"		Linear 0.4 0.2
+		Animate			ChargeLabel 		FgColor			"255 255 000 255"		Linear 0.6 0.2
+		Animate			ChargeLabel 		FgColor			"000 255 000 255"		Linear 0.8 0.2
+		Animate			ChargeLabel 		FgColor			"000 000 255 255"		Linear 0.10 0.2
+		Animate			ChargeLabel 		FgColor			"075 000 130 255"		Linear 0.12 0.2
+		Animate 		ChargeLabel			FgColor			"139 000 255 255"		Linear 0.14 0.2
 	
-		Animate		ChargeMeter 		FgColor			"255 000 000 255"		Linear 0.2 0.2
-		Animate		ChargeMeter 		FgColor			"255 127 000 255"		Linear 0.4 0.2
-		Animate		ChargeMeter 		FgColor			"255 255 000 255"		Linear 0.6 0.2
-		Animate		ChargeMeter 		FgColor			"000 255 000 255"		Linear 0.8 0.2
-		Animate		ChargeMeter 		FgColor			"000 000 255 255"		Linear 0.10 0.2
-		Animate		ChargeMeter 		FgColor			"075 000 130 255"		Linear 0.12 0.2
-		Animate 	ChargeMeter			FgColor			"139 000 255 255"		Linear 0.14 0.2
+		Animate			ChargeMeter 		FgColor			"255 000 000 255"		Linear 0.2 0.2
+		Animate			ChargeMeter 		FgColor			"255 127 000 255"		Linear 0.4 0.2
+		Animate			ChargeMeter 		FgColor			"255 255 000 255"		Linear 0.6 0.2
+		Animate			ChargeMeter 		FgColor			"000 255 000 255"		Linear 0.8 0.2
+		Animate			ChargeMeter 		FgColor			"000 000 255 255"		Linear 0.10 0.2
+		Animate			ChargeMeter 		FgColor			"075 000 130 255"		Linear 0.12 0.2
+		Animate 		ChargeMeter			FgColor			"139 000 255 255"		Linear 0.14 0.2
 		
 		// Increasing this value slows the speed of the animation down
 		RunEvent 		HudMedicChargedLoop	1.0
@@ -39,6 +39,6 @@
 		StopEvent 		HudMedicCharged 	0.0
 		StopEvent 		HudMedicChargedLoop 0.0
 		
-		Animate			ChargeLabel 		FgColor			"bh_chargemeter"	Linear 0.0 0.0001
-		Animate			ChargeMeter 		FgColor			"bh_chargemeter"	Linear 0.0 0.0001
+		Animate			ChargeLabel 		FgColor			"bh_chargemeter"		Linear 0.0 0.0001
+		Animate			ChargeMeter 		FgColor			"bh_chargemeter"		Linear 0.0 0.0001
 	}

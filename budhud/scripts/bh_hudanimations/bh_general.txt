@@ -1,18 +1,23 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Casual/Comp Chat Positioning
-	// Attempts to prevent chat from moving
+	// New item notification animations
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-	event CompetitiveGame_LowerChatWindow
+	event HasNotificationsBlink
 	{
+		Animate	Notifications_ShowButtonPanel_SB 			Alpha		"255"		Spline 		0.0 0.2
+		Animate	Notifications_ShowButtonPanel_SB 			Alpha		"0"			Spline		0.2 0.2
+		RunEvent HasNotificationsBlinkLoop					1.5
 	}
 	
-	event CompetitiveGame_RestoreChatWindow
+	event HasNotificationsBlinkLoop
 	{
+		RunEvent HasNotificationsBlink						0.0
 	}
 	
-	event HudTournament_MoveChatWindow
+	event HasNotificationsBlinkStop
 	{
+		StopEvent HasNotificationsBlink						0.0
+		StopEvent HasNotificationsBlinkLoop 				0.0
+		Animate	Notifications_ShowButtonPanel_SB 			Alpha		"255"		Linear		0.0 0.1
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -91,6 +96,23 @@
 		SetVisible 		CountdownBG							1 0
 		SetVisible 		CountdownLabel						1 0
 		SetVisible 		CountdownLabelShadow				1 0
+	}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Casual/Comp Chat Positioning
+	// Attempts to prevent chat from moving
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	event CompetitiveGame_LowerChatWindow
+	{
+	}
+	
+	event CompetitiveGame_RestoreChatWindow
+	{
+	}
+	
+	event HudTournament_MoveChatWindow
+	{
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////

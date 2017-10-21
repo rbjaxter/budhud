@@ -1,0 +1,114 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// You can safely delete this file.
+	// Used as a reference by me as I can be forgetful of how I do certain things within my hud.
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Formatting Guidelines / Todo
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+		1. Convert all RGBA values to three number format
+		2. 100 forward slashes. always
+		3. All charge meters: wide 100 tall 6
+		4. Convert PIN_TOPLEFT to PIN_TOPCENTER
+		5. Indent to column 69
+		6. Move off-screen to r-6969
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// budhud Defaults
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Buttons
+		"bh_ButtonDefault"
+		"bh_ButtonArmed"
+		"bh_ButtonDepressed"
+		"bh_ButtonBGDefault"
+		"bh_ButtonBGArmed"
+		"bh_ButtonBGDepressed"
+		
+	// Pins / Anchors
+	// Pin moves relative to anchor in the inverse. 5 pixels to the right with an anchor = xpos -5
+	"bh_AnchorTemplate"
+	{	
+		"ControlName"												"Label"
+		"fieldName"													"bh_AnchorTemplate"
+		"xpos"														"c0"
+		"ypos"														"10"
+		"zpos"														"0"
+		"wide"														"100"
+		"tall"														"0"
+		"visible"													"1"
+		"enabled"													"1"
+		"bgcolor_override"											"0 0 0 0"
+	}
+
+		"pin_to_sibling" 											"bh_AnchorTemplate"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+			
+	// Add element
+	"bh_ElementTemplate"	
+	{
+		"ControlName"												"CExLabel"
+		"fieldName"													"bh_ElementTemplate"
+		"xpos"														"c0"
+		"ypos"														"10"
+		"zpos"														"0"
+		"wide"														"100"
+		"tall"														"100"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"labeltext"													""
+		"visible"													"1"
+		"enabled"													"1"
+		"defaultbgcolor_override"									"150 150 150 255"
+		"paintbackgroundtype"										"0"
+    }
+		
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Animations
+	// From TF Team's hudanimations_tf.txt
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	event IsAnExample
+	{
+		Animate <panel name> <variable> <target value> <interpolator> <start time> <duration>
+	}
+	
+	variables:
+		FgColor
+		BgColor
+		Position
+		Size
+		Blur			(hud panels only)
+		TextColor		(hud panels only)
+		Ammo2Color		(hud panels only)
+		Alpha			(hud weapon selection only)
+		SelectionAlpha  (hud weapon selection only)
+		TextScan		(hud weapon selection only)
+	
+	Interpolator:
+		Linear
+		Accel 	- starts moving slow, ends fast
+		Deaccel - starts moving fast, ends slow
+		Spline 	- simple ease in/out curve
+		Pulse 	- < freq > over the duration, the value is pulsed (cosine) freq times ending at the dest value (assuming freq is integral)
+		Flicker - < randomness factor 0.0 to 1.0 > over duration, each frame if random # is less than factor, use end value, otherwise use prev value
+		Gain 	- < bias > Lower bias values bias towards 0.5 and higher bias values bias away from it.
+		Bias 	- < bias > Lower values bias the curve towards 0 and higher values bias it towards 1.
+	
+	RunEvent <event name> <start time>
+		starts another even running at the specified time
+	
+	StopEvent <event name> <start time>
+		stops another event that is current running at the specified time
+	
+	StopAnimation <panel name> <variable> <start time>
+		stops all animations refering to the specified variable in the specified panel
+	
+	StopPanelAnimations <panel name> <start time>
+		stops all active animations operating on the specified panel
+	
+	SetFont <panel name> <fontparameter> <fontname from scheme> <set time> 
+	
+	SetTexture <panel name> <textureidname> <texturefilename> <set time>
+	
+	SetString <panel name> <string varname> <stringvalue> <set time>

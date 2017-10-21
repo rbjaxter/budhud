@@ -7,9 +7,9 @@
 	{
 		Animate			PlayerStatusHealthBonusImage 				Alpha			"0"						Linear 0.0 0.2
 		Animate			PlayerStatusHealthBonusImage 				Alpha			"0"						Linear 0.2 0.4
-		Animate 		PlayerStatusHealthValue						fgcolor			"bh_white"				Linear 0.0 0.3
-		Animate 		PlayerStatusHealthValueSpectator 			fgcolor 		"bh_white" 				Linear 0.0 0.0 
-		Animate 		PlayerStatusHealthValueFreezePanel 			fgcolor 		"bh_white" 				Linear 0.0 0.0 
+		Animate 		PlayerStatusHealthValue						fgcolor			"bh_Health"				Linear 0.0 0.3
+		Animate 		PlayerStatusHealthValueSpectator 			fgcolor 		"bh_Health" 			Linear 0.0 0.0 
+		Animate 		PlayerStatusHealthValueFreezePanel 			fgcolor 		"bh_Health" 			Linear 0.0 0.0 
 		Animate 		bh_HPBG										BgColor			"bh_HealthBuff_t"		Linear 0.0 0.3
 		Animate 		bh_HPBG										Alpha			"255"					Linear 0.0 0.3
 		Animate 		bh_HPBGSpec									Alpha			"255"					Linear 0.0 0.3
@@ -42,7 +42,7 @@
 	{
 		Animate			PlayerStatusHealthBonusImage 				Alpha			"0"						Linear 0.0 0.075
 		Animate			PlayerStatusHealthBonusImage 				Alpha			"0"						Linear 0.125 0.075
-		Animate 		PlayerStatusHealthValue						fgcolor			"bh_white"				Linear 0.0 0.2
+		Animate 		PlayerStatusHealthValue						fgcolor			"bh_Health"				Linear 0.0 0.2
 		Animate 		bh_HPBG										BgColor			"bh_HealthLow_t"		Linear 0.0 0.3
 		Animate 		bh_HPBGSpec									BgColor			"bh_HealthLow_t"		Linear 0.0 0.3
 		

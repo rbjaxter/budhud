@@ -34,19 +34,27 @@
 
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
+		"pin_to_sibling" 											"bh_ResistNav2"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
 	}
 	
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
+		"pin_to_sibling" 											"bh_ResistNav2"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
 	}
 
 	"PlayerStatus_MedicUberFireResistImage"
 	{
-	}	
+		"pin_to_sibling" 											"bh_ResistNav2"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
 	
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
-		"ypos"														"r-6969"
 		"pin_to_sibling" 											"bh_ResistNav2"
 		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
 		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
@@ -83,6 +91,11 @@
 	{
 		"ypos"														"r-6969"
 	}
+	
+	"PlayerStatusMaxHealthValue"
+	{
+		"ypos"														"r-6969"
+	}	
 	
 	"PlayerStatusHealthValue"
 	{

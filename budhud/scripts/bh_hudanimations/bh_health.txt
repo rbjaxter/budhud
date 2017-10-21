@@ -7,9 +7,9 @@
 	{
 		Animate			PlayerStatusHealthBonusImage 				Alpha			"255"					Linear 0.0 0.2
 		Animate			PlayerStatusHealthBonusImage 				Alpha			"0"						Linear 0.2 0.4
-		Animate 		PlayerStatusHealthValue						fgcolor			"bh_white"				Linear 0.0 0.3
-		Animate 		PlayerStatusHealthValueSpectator 			fgcolor 		"bh_white" 				Linear 0.0 0.0 
-		Animate 		PlayerStatusHealthValueFreezePanel 			fgcolor 		"bh_white" 				Linear 0.0 0.0
+		Animate 		PlayerStatusHealthValue						fgcolor			"bh_Health"				Linear 0.0 0.3
+		Animate 		PlayerStatusHealthValueSpectator 			fgcolor 		"bh_Health" 			Linear 0.0 0.0 
+		Animate 		PlayerStatusHealthValueFreezePanel 			fgcolor 		"bh_Health" 			Linear 0.0 0.0
 		Animate 		bh_HPBGSpec									Alpha			"255"					Linear 0.0 0.3
 		Animate 		bh_HPBGSpec									BgColor			"bh_HealthBuff_t"		Linear 0.0 0.3
 
