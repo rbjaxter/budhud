@@ -1,5 +1,15 @@
 "Resource/UI/huditemeffectmeter_base_meters.res"
 {
+	"ItemEffectIcon"
+	{
+		"ypos"														"r-6969"
+	}
+	
+	"ItemEffectMeterBG"
+	{
+		"ypos"														"r-6969"
+	}
+
 	HudItemEffectMeter
 	{
 		"fieldName"													"HudItemEffectMeter"
@@ -13,8 +23,8 @@
 		"tall"														"6"
 		"MeterFG"													"bh_white"
 		"MeterBG"													"bh_gray"
-	}
-
+	}	
+	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"												"CExLabel"
@@ -48,5 +58,24 @@
 		"textAlignment"												"Left"
 		"dulltext"													"0"
 		"brighttext"												"0"
-	}					
+	}
+
+	"ItemEffectMeter2"
+	{	
+		"ControlName"												"ContinuousProgressBar"
+		"fieldName"													"ItemEffectMeter2"
+		"font"														"Default"
+		"xpos"														"0"
+		"ypos"														"0"
+		"zpos"														"2"
+		"wide"														"50"
+		"tall"														"f0"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"visible"													"1"
+		"enabled"													"1"
+		"textAlignment"												"Left"
+		"dulltext"													"0"
+		"brighttext"												"0"
+	}	
 }

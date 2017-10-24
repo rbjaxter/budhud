@@ -4,6 +4,14 @@
 
 "Resource/UI/HudAmmoWeapons.res"
 {
+	"bh_AmmoBG"	
+	{
+		"xpos"														"1"
+		"ypos"														"15"
+		"wide"														"100"
+		"tall"														"52"
+    }
+
 	"AmmoInClip"
 	{
 		"font"														"bh_Font50"

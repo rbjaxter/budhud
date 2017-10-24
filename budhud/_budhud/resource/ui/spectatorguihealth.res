@@ -1,9 +1,9 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
-	"bh_HPBGSpec"	
+	"bh_HealthBGSpec"	
 	{
 		"ControlName"												"CExLabel"
-		"fieldName"													"bh_HPBGSpec"
+		"fieldName"													"bh_HealthBGSpec"
 		"xpos"														"23"
 		"ypos"														"8"
 		"zpos"														"-6969"

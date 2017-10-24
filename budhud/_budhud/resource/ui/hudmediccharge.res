@@ -15,7 +15,7 @@
 		"ControlName"												"Label"
 		"fieldName"													"bh_ResistNav"
 		"xpos"														"411"
-		"ypos"														"r137"
+		"ypos"														"r140"
 		"zpos"														"0"
 		"wide"														"100"
 		"tall"														"0"

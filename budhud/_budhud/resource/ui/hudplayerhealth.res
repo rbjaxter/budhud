@@ -1,11 +1,19 @@
 "Resource/UI/HudPlayerHealth.res"
 {
-	"bh_ResistNav2"
+	"HudPlayerHealth"
+	{
+		"xpos"														"c-240"
+		"ypos"														"c56"
+		"wide"														"100"
+		"tall"														"100"
+	}
+
+	"bh_PlayerStatusAnchor"
 	{	
 		"ControlName"												"Label"
-		"fieldName"													"bh_ResistNav2"
-		"xpos"														"50"
-		"ypos"														"50"
+		"fieldName"													"bh_PlayerStatusAnchor"
+		"xpos"														"120"
+		"ypos"														"5"
 		"zpos"														"0"
 		"wide"														"10"
 		"tall"														"0"
@@ -14,15 +22,15 @@
 		"bgcolor_override"											"0 0 0 0"
 	}
 
-	"bh_HPBG"	
+	"bh_HealthBG"	
 	{
 		"ControlName"												"CExLabel"
-		"fieldName"													"bh_HPBG"
-		"xpos"														"61"
-		"ypos"														"28"
+		"fieldName"													"bh_HealthBG"
+		"xpos"														"10"
+		"ypos"														"20"
 		"zpos"														"-6969"
-		"wide"														"78"
-		"tall"														"44"
+		"wide"														"80"
+		"tall"														"42"
 		"autoResize"												"0"
 		"pinCorner"													"0"
 		"labeltext"													""
@@ -31,56 +39,6 @@
 		"defaultbgcolor_override"									"150 150 150 255"
 		"paintbackgroundtype"										"0"
     }
-
-	"PlayerStatus_MedicUberBulletResistImage"
-	{
-		"pin_to_sibling" 											"bh_ResistNav2"
-		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
-		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
-	}
-	
-	"PlayerStatus_MedicUberBlastResistImage"
-	{
-		"pin_to_sibling" 											"bh_ResistNav2"
-		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
-		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
-	}
-
-	"PlayerStatus_MedicUberFireResistImage"
-	{
-		"pin_to_sibling" 											"bh_ResistNav2"
-		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
-		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
-	}
-	
-	"PlayerStatus_MedicSmallBulletResistImage"
-	{
-		"pin_to_sibling" 											"bh_ResistNav2"
-		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
-		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
-	}
-	
-	"PlayerStatus_MedicSmallBlastResistImage"
-	{
-		"pin_to_sibling" 											"bh_ResistNav2"
-		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
-		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
-	}
-	
-	"PlayerStatus_MedicSmallFireResistImage"
-	{
-		"pin_to_sibling" 											"bh_ResistNav2"
-		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
-		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
-	}
-	
-	"HudPlayerHealth"
-	{
-		"xpos"														"c-240"
-		"ypos"														"c66"
-		"wide"														"160"
-		"tall"														"100"
-	}
 	
 	"PlayerStatusHealthImageBG"
 	{
@@ -99,10 +57,10 @@
 	
 	"PlayerStatusHealthValue"
 	{
-		"xpos"														"40"
+		"xpos"														"0"
 		"ypos"														"0"
 		"zpos"														"6"
-		"wide"														"120"
+		"wide"														"100"
 		"tall"														"100"
 		"font"														"bh_Font40"
 		"fgcolor"													"bh_Health"
@@ -113,10 +71,10 @@
 	{
 		"ControlName"												"CExLabel"
 		"fieldName"													"PlayerStatusHealthValueShadow"
-		"xpos"														"41"
+		"xpos"														"1"
 		"ypos"														"1"
 		"zpos"														"1"
-		"wide"														"120"
+		"wide"														"100"
 		"tall"														"100"
 		"visible"													"1"
 		"enabled"													"1"
@@ -128,10 +86,231 @@
 	
 	"PlayerStatusHealthBonusImage"
 	{
-		"xpos"														"84"
-		"ypos"														"34"
-		"zpos"														"0"
-		"wide"														"33"
-		"tall"														"33"
+		"xpos"														"33"
+		"ypos"														"35"
+		"zpos"														"-10"
+		"wide"														"34"
+		"tall"														"34"
+	}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// I had to add these due to the new dimensions of the health elements breaking the default positions
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	"PlayerStatusBleedImage"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatusHookBleedImage"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatusMilkImage"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatusGasImage"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatusMarkedForDeathImage"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatusMarkedForDeathSilentImage"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_MedicUberBulletResistImage"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+
+	"PlayerStatus_MedicUberBlastResistImage"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+
+	"PlayerStatus_MedicUberFireResistImage"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_MedicSmallBulletResistImage"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_MedicSmallBlastResistImage"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_MedicSmallFireResistImage"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_WheelOfDoom"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_SoldierOffenseBuff"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_SoldierDefenseBuff"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_SoldierHealOnHitBuff"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_SpyMarked"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_Parachute"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_RuneStrength"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_RuneHaste"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_RuneRegen"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_RuneResist"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+
+	"PlayerStatus_RuneVampire"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_RuneReflect"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_RunePrecision"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_RuneAgility"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_RuneKnockout"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_RuneKing"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_RunePlague"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatus_RuneSupernova"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+	}
+	
+	"PlayerStatusSlowed"
+	{
+		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
 	}
 }

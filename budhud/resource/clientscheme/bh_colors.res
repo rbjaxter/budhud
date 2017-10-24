@@ -28,9 +28,12 @@ Scheme
 		"bh_HealthBG_t"												"150 150 150 125"
 		
 	// Ammo
-		"bh_AmmoInClip"												"255 255 255 255"
-		"bh_AmmoReserve"											"255 255 255 255"
-		"bh_LowAmmoPulse"											"150 150 150 255" 	// Ammo color when ammo is low
+		"bh_Ammo"													"255 255 255 255"
+		"bh_AmmoLow"												"150 150 150 255"
+		"bh_AmmoLow_Shadow"											"186 032 032 255"
+		"bh_Ammo_t"													"255 255 255 125"
+		"bh_AmmoLow_t"												"150 150 150 125"
+		"bh_AmmoLow_Shadow_t"										"186 032 032 125"
 		
 	// Damage Done & Heals Given
 		"bh_DamageColor"											"255 255 255 255" 	// Damage done that appears above player
@@ -66,6 +69,7 @@ Scheme
 		"bh_BGBlue"													"070 130 180 090"
 		"bh_BGRed"													"205 050 050 090"
 		"bh_Shadow"													"000 000 000 255"
+		"bh_isError"												"254 002 209 255"	// Bright pink
 	
 	// Buttons
 		"bh_ButtonDefault"											"255 255 255 255"	// White
@@ -135,23 +139,73 @@ Scheme
 		"TFOrange"													"085 085 085 255"		// Backpack page number BG (selected page color)
 		"TanLight"													"255 255 255 255"		// Referenced in a few areas, saves lines keeping this
 		"Orange"													"240 134 049 255"		// Referenced in a few areas, saves lines keeping this
-
-		"FgColor"													"255 255 255 255"		// Controls color of HudHintKeyDisplay (surf/jump timer)
-		"BgColor"													"000 000 000 060"		// Does nothing
+	}
 		
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// BASE SETTINGS
+	// ============================================================================================== //
+	// Default settings for all panels
+	// Controls use these to determine their settings
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	BaseSettings
+	{
 	// Saving for future consideration
 		"MenuBoxBg"													"0 0 0 100"
 		
 		// weapon selection colors
-		"SelectionNumberFg"		"251 235 202 255"
-		"SelectionTextFg"		"251 235 202 255"
-		"SelectionEmptyBoxBg" 	"0 0 0 80"
-		"SelectionBoxBg" 		"0 0 0 80"
-		"SelectionSelectedBoxBg" "0 0 0 190"
+		"SelectionNumberFg"											"255 255 255 255"
+		"SelectionTextFg"											"255 255 255 255"
+		"SelectionEmptyBoxBg" 										"0 0 0 80"
+		"SelectionBoxBg" 											"0 0 0 80"
+		"SelectionSelectedBoxBg"									"0 0 0 190"
 
 		// Hint message colors
 		// Bottom center (surf timers/etc)
-		"HintMessageFg"			"255 255 255 255"
-		"HintMessageBg" 		"000 000 000 060"
+		"HintMessageFg"												"255 255 255 255"
+		"HintMessageBg" 											"000 000 000 060"
+
+		"FgColor"													"255 255 255 255"		// Controls color of HudHintKeyDisplay (surf/jump timer)
+		"BgColor"													"000 000 000 060"		// Does nothing		
+		
+		// vgui_controls color specifications
+		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"bh_orange"
+		Replay.RenderDialog.BgColor							"30 30 30 255"
+		
+	//	Econ.Button.BgColor									"bh_ButtonBGDefault"
+	//	Econ.Button.FgColor									"bh_ButtonDefault"
+	//	Econ.Button.ArmedBgColor							"bh_ButtonBGArmed"
+	//	Econ.Button.ArmedFgColor							"bh_ButtonArmed"
+	//	Econ.Button.DepressedBgColor						"bh_ButtonBGDepressed"
+	//	Econ.Button.DepressedFgColor						"bh_ButtonDepressed"
+	
+		// Loadout presets
+		Econ.Button.PresetDefaultColorBg					"150 150 150 255"
+		Econ.Button.PresetArmedColorBg						"50 50 50 255"
+		Econ.Button.PresetDepressedColorBg					"25 25 25 255"
+	
+		// Backpack page numbers
+		Button.TextColor									"bh_ButtonDefault"
+		Button.BgColor										"bh_MenuBG"
+		Button.ArmedTextColor								"bh_white"
+		Button.ArmedBgColor									"bh_ButtonBGArmed"
+		Button.SelectedTextColor							"bh_white"
+		Button.SelectedBgColor								"bh_MenuBG"
+		Button.DepressedTextColor							"bh_white"
+		Button.DepressedBgColor								"bh_ButtonBGDepressed"
+		
+		// Backpack "Stock Items" checkmark
+		CheckButton.TextColor								"bh_white"
+		CheckButton.SelectedTextColor						"bh_white"
+		CheckButton.BgColor									"bh_white"
+		CheckButton.Border1  								"bh_white"			// Left
+		CheckButton.Border2  								"bh_white"			// Right
+		CheckButton.Check									"bh_black"			// Color of the check itself
+		CheckButton.HighlightFgColor						"bh_white"
+
+		// Vote menu (center left)
+		// CHudMenu
+		"ItemColor"											"255 255 255 255"	// default 255 167 42 255
+		"MenuColor"											"255 255 255 255"
+		"MenuBoxBg"											"000 000 000 100"
 	}
 }

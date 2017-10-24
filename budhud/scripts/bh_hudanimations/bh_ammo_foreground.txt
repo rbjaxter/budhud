@@ -1,0 +1,37 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Ammo Animations - Foreground
+	//////////////////////////////////////////////////////////////////////////////////////////////////// 
+	// Ammo color changes based on ammo state
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	event HudLowAmmoPulse
+	{
+		Animate 		AmmoInClip									fgcolor			"bh_AmmoLow"			Linear 0.0 0.2
+		Animate 		AmmoNoClip									fgcolor			"bh_AmmoLow"			Linear 0.0 0.2
+		Animate 		AmmoInReserve								fgcolor			"bh_AmmoLow"			Linear 0.0 0.2
+		Animate 		AmmoInClipShadow							fgcolor			"bh_Shadow"				Linear 0.0 0.2
+		Animate 		AmmoNoClipShadow							fgcolor			"bh_Shadow"				Linear 0.0 0.2
+		Animate 		AmmoInReserveShadow							fgcolor			"bh_Shadow"				Linear 0.0 0.2
+		
+		Animate 		bh_AmmoBG									Alpha			"0"						Linear 0.0 0.0
+		
+		RunEvent 		HudLowAmmoPulseLoop							0.25
+	}
+	
+	event HudLowAmmoPulseLoop
+	{
+		RunEvent		HudLowAmmoPulse								0.0
+	}
+	
+	event HudLowAmmoPulseStop
+	{
+		StopEvent 		HudLowAmmoPulse 							0.0
+		StopEvent 		HudLowAmmoPulseLoop							0.0
+
+		Animate 		AmmoInClip									fgcolor			"bh_AmmoLow"			Linear 0.0 0.2
+		Animate 		AmmoNoClip									fgcolor			"bh_AmmoLow"			Linear 0.0 0.2
+		Animate 		AmmoInReserve								fgcolor			"bh_AmmoLow"			Linear 0.0 0.2
+		Animate 		AmmoInClipShadow							fgcolor			"bh_Shadow"				Linear 0.0 0.2
+		Animate 		AmmoNoClipShadow							fgcolor			"bh_Shadow"				Linear 0.0 0.2
+		Animate 		AmmoInReserveShadow							fgcolor			"bh_Shadow"				Linear 0.0 0.2
+	}

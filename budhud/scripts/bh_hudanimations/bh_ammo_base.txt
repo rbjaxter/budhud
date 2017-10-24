@@ -1,0 +1,38 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Ammo Animations - Base
+	//////////////////////////////////////////////////////////////////////////////////////////////////// 
+	// Loads defaults that are then modified by ammo customizations.
+	// If bh_isError color is displayed (bright pink), customization files aren't being read properly.
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	event HudLowAmmoPulse
+	{
+		Animate 		AmmoInClip									fgcolor			"bh_isError"			Linear 0.0 0.2
+		Animate 		AmmoNoClip									fgcolor			"bh_isError"			Linear 0.0 0.2
+		Animate 		AmmoInReserve								fgcolor			"bh_isError"			Linear 0.0 0.2
+		Animate 		AmmoInClipShadow							fgcolor			"bh_isError"			Linear 0.0 0.2
+		Animate 		AmmoNoClipShadow							fgcolor			"bh_isError"			Linear 0.0 0.2
+		Animate 		AmmoInReserveShadow							fgcolor			"bh_isError"			Linear 0.0 0.2
+		
+		Animate 		bh_AmmoBG									Alpha			"0"						Linear 0.0 0.0
+		
+		RunEvent 		HudLowAmmoPulseLoop							0.25
+	}
+	
+	event HudLowAmmoPulseLoop
+	{
+		RunEvent		HudLowAmmoPulse								0.0
+	}
+	
+	event HudLowAmmoPulseStop
+	{
+		StopEvent 		HudLowAmmoPulse 							0.0
+		StopEvent 		HudLowAmmoPulseLoop							0.0
+
+		Animate 		AmmoInClip									fgcolor			"bh_isError"			Linear 0.0 0.2
+		Animate 		AmmoNoClip									fgcolor			"bh_isError"			Linear 0.0 0.2
+		Animate 		AmmoInReserve								fgcolor			"bh_isError"			Linear 0.0 0.2
+		Animate 		AmmoInClipShadow							fgcolor			"bh_isError"			Linear 0.0 0.2
+		Animate 		AmmoNoClipShadow							fgcolor			"bh_isError"			Linear 0.0 0.2
+		Animate 		AmmoInReserveShadow							fgcolor			"bh_isError"			Linear 0.0 0.2
+	}

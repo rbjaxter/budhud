@@ -1,16 +1,16 @@
 "Resource/UI/HudItemEffectMeter_base_counters.res"
 {
+	"ItemEffectMeterBG"
+	{
+		"ypos"														"r-6969"
+	}
+	
 	"HudItemEffectMeter"
 	{
 		"xpos"														"r115"
 		"ypos"														"c80"
 		"wide"														"f0"
 		"tall"														"f0"
-	}
-	
-	"ItemEffectMeterBG"
-	{
-		"ypos"														"r-6969"
 	}
 	
 	"ItemEffectMeterLabel"

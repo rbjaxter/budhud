@@ -1,32 +1,19 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Health Animations
-	// Shadow is animated by buff/low HP
+	// Health Animations - Shadow
+	//////////////////////////////////////////////////////////////////////////////////////////////////// 
+	// Health shadow color changes based on buff/low health state
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	event HudHealthBonusPulse
 	{
-		Animate			PlayerStatusHealthBonusImage 				Alpha			"255"					Linear 0.0 0.2
-		Animate			PlayerStatusHealthBonusImage 				Alpha			"0"						Linear 0.2 0.4
+		Animate 		PlayerStatusHealthValue						fgcolor			"bh_Health"				Linear 0.0 0.3
 		Animate 		PlayerStatusHealthValueShadow				fgcolor			"bh_HealthBuff"			Linear 0.0 0.3
-		Animate 		PlayerStatusHealthValueSpectator 			fgcolor 		"bh_HealthBuff" 		Accel 0.0 0.0 
-		Animate 		PlayerStatusHealthValueFreezePanel 			fgcolor 		"bh_HealthBuff" 		Accel 0.0 0.0 
-	
-		RunEvent 		HudHealthBonusPulseLoop						0.4
 	}
-	
-	// call to loop HudHealthBonusPulse
-	event HudHealthBonusPulseLoop
-	{
-		RunEvent 		HudHealthBonusPulse 						0.0
-	}
-	
+
 	event HudHealthBonusPulseStop
 	{
-		StopEvent 		HudHealthBonusPulse							0.0
-		StopEvent 		HudHealthBonusPulseLoop 					0.0
+		Animate 		PlayerStatusHealthValue		 				fgcolor			"bh_Health"				Linear 0.0 0.0
 		Animate 		PlayerStatusHealthValueShadow 				fgcolor			"bh_HealthShadow"		Linear 0.0 0.0
-		Animate 		PlayerStatusHealthValueSpectator 			fgcolor 		"bh_HealthShadow" 		Accel 0.0 0.0 
-		Animate 		PlayerStatusHealthValueFreezePanel 			fgcolor 		"bh_HealthShadow"		Accel 0.0 0.0 
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -34,24 +21,14 @@
 	// Health Dying Pulse
 	event HudHealthDyingPulse
 	{
-		Animate			PlayerStatusHealthBonusImage 				Alpha			"255"					Linear 0.0 0.075
-		Animate			PlayerStatusHealthBonusImage 				Alpha			"0"						Linear 0.125 0.075
-		Animate 		PlayerStatusHealthValueShadow				fgcolor			"bh_HealthLow"			Linear 0.0 0.2
-		
-		RunEvent 		HudHealthDyingPulseLoop						0.01
-	}
-	
-	// call to loop HudHealthDyingPulse
-	event HudHealthDyingPulseLoop
-	{
-		RunEvent 		HudHealthDyingPulse							0.0
+		Animate 		PlayerStatusHealthValue						fgcolor			"bh_Health"				Linear 0.0 0.3
+		Animate 		PlayerStatusHealthValueShadow				fgcolor			"bh_HealthLow"			Linear 0.0 0.3
 	}
 	
 	event HudHealthDyingPulseStop
 	{
 		StopEvent 		HudHealthDyingPulse 						0.0
 		StopEvent 		HudHealthDyingPulseLoop 					0.0
+		Animate 		PlayerStatusHealthValue		 				fgcolor			"bh_Health"				Linear 0.0 0.0
 		Animate 		PlayerStatusHealthValueShadow 				fgcolor			"bh_HealthShadow"		Linear 0.0 0.0
-		Animate 		PlayerStatusHealthValueSpectator 			fgcolor 		"bh_HealthShadow" 		Accel 0.0 0.0 
-		Animate 		PlayerStatusHealthValueFreezePanel 			fgcolor 		"bh_HealthShadow"		Accel 0.0 0.0 
 	}

@@ -1,16 +1,12 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Appearance: http://i.imgur.com/8wVY0Ol.jpg
+	// You must enable the box animations in \budhud\scripts\hudanimations_manifest.txt for this
+	// to work properly!
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
 
 "Resource/UI/HudPlayerHealth.res"
 {
-	"PlayerStatusHealthValue"
+	"bh_HealthBG"	
 	{
-		"font"														"bh_Font50"
-	}
-	
-	"PlayerStatusHealthValueShadow"
-	{
-		"font"														"bh_Font50"
-	}
+		"bgcolor_override"											"bh_HealthBG_t"
+    }
 }

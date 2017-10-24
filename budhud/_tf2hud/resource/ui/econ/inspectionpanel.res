@@ -344,7 +344,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"PaintkitLabel"
 			"font"			"HudFontSmallest"
-			"labelText"		"Preview Paint Kit"
+			"labelText"		"#TF_ItemPreview_ItemPaintkit"
 			"textAlignment"	"west"
 			"xpos"			"8"
 			"ypos"			"10"
