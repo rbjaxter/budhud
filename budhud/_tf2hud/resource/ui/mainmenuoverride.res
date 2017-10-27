@@ -208,6 +208,10 @@
 		{	
 			"image"		"../console/title_team_halloween2015_widescreen"
 		}
+		disabled_halloween_5
+		{	
+			"image"		"../console/title_scream_fortress_2017_widescreen"
+		}
 		disabled_fullmoon
 		{
 			"image"		"../console/title_fullmoon_widescreen"
@@ -226,25 +230,40 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c-290"
-		"ypos"			"24"
-		"zpos"			"1"
-		"wide"			"256"
-		"tall"			"64"
+		"xpos"			"c-260"
+		"ypos"			"10"
+		"zpos"			"-53"
+		"wide"			"o2"
+		"tall"			"105"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../logo/new_tf2_logo"
+		"image"		"../logo/jungle_inferno_logo"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
-
-		disabled_operation
+		 
+		disabled_halloween_0
 		{
-			"xpos"			"c-260"
-			"ypos"			"10"
-			"zpos"			"-53"
-			"wide"			"o2"
-			"tall"			"105"
-			"image"		"../logo/jungle_inferno_logo"
+			"image"		"../logo/scream_fortress2017_logo"
+		}
+		disabled_halloween_1
+		{
+			"image"		"../logo/scream_fortress2017_logo"
+		}
+		disabled_halloween_2
+		{
+			"image"		"../logo/scream_fortress2017_logo"
+		}
+		disabled_halloween_3
+		{
+			"image"		"../logo/scream_fortress2017_logo"
+		}
+		disabled_halloween_4
+		{	
+			"image"		"../logo/scream_fortress2017_logo"
+		}
+		disabled_halloween_5
+		{	
+			"image"		"../logo/scream_fortress2017_logo"
 		}
 	}	
 
@@ -257,15 +276,35 @@
 		"zpos"			"1"
 		"wide"			"o4"
 		"tall"			"32"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"		"../logo/inferno_logo_anim"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 
-		disabled_operation
+		disabled_halloween_0
 		{
-			"visible"		"1"
+			"image"		"../logo/inferno_logo_green_anim"
+		}
+		disabled_halloween_1
+		{
+			"image"		"../logo/inferno_logo_green_anim"
+		}
+		disabled_halloween_2
+		{
+			"image"		"../logo/inferno_logo_green_anim"
+		}
+		disabled_halloween_3
+		{
+			"image"		"../logo/inferno_logo_green_anim"
+		}
+		disabled_halloween_4
+		{	
+			"image"		"../logo/inferno_logo_green_anim"
+		}
+		disabled_halloween_5
+		{	
+			"image"		"../logo/inferno_logo_green_anim"
 		}
 	}	
 	

@@ -73,7 +73,7 @@
 
 	"NameLabel"
 	{
-		"ControlName"	"Label"
+		"ControlName"	"CAutoFittingLabel"
 		"fieldName"		"NameLabel"
 		"labeltext"		"%name%"
 		"xpos"			"rs1"
@@ -89,15 +89,31 @@
 		"mouseinputenabled"		"0"
 		"fgcolor_override"	"TanLight"
 		"skip_autoresize"	"1"
+
+		"fonts"
+		{
+			"0"
+			{
+				"font"	"QuestMap_Large"
+			}
+			"1"
+			{
+				"font"	"QuestMap_Medium"
+			}
+			"2"
+			{
+				"font"	"QuestMap_Small"
+			}
+		}
 	}
 
 	"NameShadowLabel"
 	{
-		"ControlName"	"Label"
+		"ControlName"	"CAutoFittingLabel"
 		"fieldName"		"NameShadowLabel"
 		"labeltext"		"%name%"
-		"xpos"			"rs1"
-		"ypos"			"0"
+		"xpos"			"rs1+1"
+		"ypos"			"1"
 		"wide"			"f0"
 		"tall"			"20"
 		"zpos"			"1"
@@ -105,9 +121,25 @@
 		"TextAlignment"		"north-west"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"		"0"
-		"textinsetx"	"13"
-		"textinsety"	"7"
+		"textinsetx"	"10"
+		"textinsety"	"5"
 		"fgcolor_override"	"0 0 0 255"
+
+		"fonts"
+		{
+			"0"
+			{
+				"font"	"QuestMap_Large"
+			}
+			"1"
+			{
+				"font"	"QuestMap_Medium"
+			}
+			"2"
+			{
+				"font"	"QuestMap_Small"
+			}
+		}
 	}
 
 	"BGImageDarkener"

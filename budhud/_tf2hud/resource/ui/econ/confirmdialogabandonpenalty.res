@@ -101,7 +101,21 @@
 		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
 		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
 		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
-	}		
+	}
+	
+	"CancelButtonHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"CancelButtonHintIcon"
+		"xpos"			"195"
+		"ypos"			"165"
+		"zpos"			"25"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+		"actionSet"		"MenuControls"
+		"actionName"	"menu_cancel"
+	}
 
 	"ConfirmButton"
 	{
@@ -133,5 +147,19 @@
 		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
 		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
 		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
+	}
+	
+	"ConfirmButtonHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"ConfirmButtonHintIcon"
+		"xpos"			"15"
+		"ypos"			"165"
+		"zpos"			"25"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+		"actionSet"		"MenuControls"
+		"actionName"	"menu_select"
 	}			
 }

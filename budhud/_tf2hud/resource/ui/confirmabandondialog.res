@@ -80,6 +80,20 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 
+	"CancelButtonHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"CancelButtonHintIcon"
+		"xpos"			"195"
+		"ypos"			"165"
+		"zpos"			"25"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+		"actionSet"		"MenuControls"
+		"actionName"	"menu_cancel"
+	}
+
 	"ConfirmButton"
 	{
 		"ControlName"	"CExButton"
@@ -104,7 +118,21 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}			
+	}
+
+	"ConfirmButtonHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"ConfirmButtonHintIcon"
+		"xpos"			"15"
+		"ypos"			"165"
+		"zpos"			"25"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+		"actionSet"		"MenuControls"
+		"actionName"	"menu_select"
+	}
 	
 	"OptOutCheckbox"
 	{

@@ -7,9 +7,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r95"	[$WIN32]
-		"xpos_disabled"	"r85"	[$WIN32]
+		"xpos_disabled"	"r77"	[$WIN32]
 		"ypos"			"r105"	[$WIN32]
-		"ypos_disabled"	"r105"	[$WIN32]
+		"ypos_disabled"	"r120"	[$WIN32]
 		"wide"			"94"
 		"tall"			"45"
 	}
