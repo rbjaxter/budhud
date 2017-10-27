@@ -140,7 +140,7 @@ Scheme
 		"TanLight"													"255 255 255 255"		// Referenced in a few areas, saves lines keeping this
 		"Orange"													"240 134 049 255"		// Referenced in a few areas, saves lines keeping this
 	}
-		
+
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// BASE SETTINGS
 	// ============================================================================================== //
@@ -149,7 +149,7 @@ Scheme
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	BaseSettings
 	{
-	// Saving for future consideration
+		// Saving for future consideration
 		"MenuBoxBg"													"0 0 0 100"
 		
 		// weapon selection colors

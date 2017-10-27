@@ -3,6 +3,7 @@
 	//////////////////////////////////////////////////////////////////////////////////////////////////// 
 	// Ammo shadow color changes based on ammo state
 	////////////////////////////////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	event HudLowAmmoPulse
 	{
@@ -12,10 +13,16 @@
 		Animate 		AmmoInClipShadow							fgcolor			"bh_AmmoLow_Shadow"		Linear 0.0 0.2
 		Animate 		AmmoNoClipShadow							fgcolor			"bh_AmmoLow_Shadow"		Linear 0.0 0.2
 		Animate 		AmmoInReserveShadow							fgcolor			"bh_AmmoLow_Shadow"		Linear 0.0 0.2
+		Animate			AmmoInClipShadow 							Alpha			"255"					Linear 0.0 0.2
+		Animate			AmmoInClipShadow 							Alpha			"0"						Linear 0.2 0.4
+		Animate			AmmoNoClipShadow 							Alpha			"255"					Linear 0.0 0.2
+		Animate			AmmoNoClipShadow 							Alpha			"0"						Linear 0.2 0.4
+		Animate			AmmoInReserveShadow 						Alpha			"255"					Linear 0.0 0.2
+		Animate			AmmoInReserveShadow 						Alpha			"0"						Linear 0.2 0.4
 		
 		Animate 		bh_AmmoBG									Alpha			"0"						Linear 0.0 0.0
 		
-		RunEvent 		HudLowAmmoPulseLoop							0.25
+		RunEvent 		HudLowAmmoPulseLoop							0.4
 	}
 	
 	event HudLowAmmoPulseLoop

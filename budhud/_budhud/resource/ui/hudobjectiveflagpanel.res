@@ -23,10 +23,10 @@
 		"ControlName"												"ImagePanel"
 		"fieldName"													"bh_BlueBG"
 		"xpos"														"c-69"
-		"ypos"														"r36"
+		"ypos"														"r39"
 		"zpos"														"-1"
 		"wide"														"60"
-		"tall"														"24"
+		"tall"														"30"
 		"fillcolor"													"bh_blue_t"
 		
 		"if_hybrid"
@@ -36,10 +36,10 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"													"c-40"
-			"ypos"													"r36"
-			"wide"													"27"
-			"tall"													"23"
+			"xpos"													"c-60"
+			"ypos"													"r40"
+			"wide"													"60"
+			"tall"													"30"
 		}
 		
 		"if_mvm"
@@ -58,10 +58,10 @@
 		"ControlName"												"ImagePanel"
 		"fieldName"													"bh_RedBG"
 		"xpos"														"c12"
-		"ypos"														"r36"
+		"ypos"														"r39"
 		"zpos"														"-1"
 		"wide"														"60"
-		"tall"														"24"
+		"tall"														"30"
 		"fillcolor"													"bh_red_t"
 		
 		"if_hybrid"
@@ -71,10 +71,10 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"													"c14"
-			"ypos"													"r36"
-			"wide"													"27"
-			"tall"													"23"
+			"xpos"													"c0"
+			"ypos"													"r40"
+			"wide"													"60"
+			"tall"													"30"
 		}
 		
 		"if_mvm"
@@ -110,11 +110,11 @@
 	
 	"BlueScore"
 	{
-		"xpos"														"c-65"
-		"ypos"														"r43"
+		"xpos"														"c-60"
+		"ypos"														"r40"
 		"zpos"														"8"
-		"wide"														"50"
-		"tall"														"35"
+		"wide"														"40"
+		"tall"														"30"
 		"textAlignment"												"center"	
 		"labelText"													"%bluescore%"
 		"font"														"bh_Font36"
@@ -127,8 +127,8 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"													"c-53"
-			"ypos"													"r43"
+			"xpos"													"c-60"
+			"ypos"													"r40"
 		}
 		
 		"if_mvm"
@@ -165,11 +165,11 @@
 
 	"RedScore"
 	{
-		"xpos"														"c17"
-		"ypos"														"r43"
+		"xpos"														"c20"
+		"ypos"														"r40"
 		"zpos"														"8"
-		"wide"														"50"
-		"tall"														"35"
+		"wide"														"40"
+		"tall"														"30"
 		"textAlignment"												"center"	
 		"labelText"													"%redscore%"
 		"font"														"bh_Font36"
@@ -182,8 +182,8 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"													"c4"
-			"ypos"													"r43"
+			"xpos"													"c20"
+			"ypos"													"r40"
 		}
 		
 		"if_mvm"
@@ -250,9 +250,10 @@
 			"visible"												"0"
 		}
 		
+		// e.g. jump_jurf_a2
 		"if_hybrid_single"
 		{
-			"xpos"													"c-70"
+			"xpos"													"c-40"
 			"ypos"													"r72"
 		}
 		
@@ -295,7 +296,7 @@
 		
 	"BlueFlag"
 	{
-		"xpos"														"c-161"
+		"xpos"														"c-156"
 		"ypos"														"r72"
 		"zpos"														"2"
 		"wide"														"160"
@@ -311,8 +312,8 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"													"c-80"
-			"ypos"													"r73"
+			"xpos"													"c-81"
+			"ypos"													"r72"
 		}
 		
 		"if_hybrid_double"
@@ -334,7 +335,7 @@
 
 	"RedFlag"
 	{
-		"xpos"														"c4"
+		"xpos"														"c0"
 		"ypos"														"r72"
 		"zpos"														"5"
 		"wide"														"160"

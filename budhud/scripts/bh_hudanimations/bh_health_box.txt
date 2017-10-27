@@ -3,21 +3,38 @@
 	//////////////////////////////////////////////////////////////////////////////////////////////////// 
 	// Box appears behind health and changes based on buff/low health state
 	////////////////////////////////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	event HudHealthBonusPulse
 	{
 		Animate			PlayerStatusHealthBonusImage 				Alpha			"0"						Linear 0.0 0.0
 		Animate 		PlayerStatusHealthValue						fgcolor			"bh_Health"				Linear 0.0 0.3
 		Animate 		PlayerStatusHealthValueShadow				fgcolor			"bh_Shadow"				Linear 0.0 0.3
-		Animate 		bh_HealthBG									BgColor			"bh_HealthBuff_t"		Linear 0.0 0.3
-		Animate 		bh_HealthBG									Alpha			"255"					Linear 0.0 0.3
-	}
 
+		Animate 		bh_HealthBG									Alpha			"255"					Linear 0.0 0.3
+		Animate 		bh_HealthBGSpec								Alpha			"255"					Linear 0.0 0.3
+		Animate 		bh_HealthBG									BgColor			"bh_HealthBuff_t"		Linear 0.0 0.3
+		Animate 		bh_HealthBGSpec								BgColor			"bh_HealthBuff_t"		Linear 0.0 0.3
+
+		RunEvent 		HudHealthBonusPulseLoop						0.4
+	}
+	
+	// call to loop HudHealthBonusPulse
+	event HudHealthBonusPulseLoop
+	{
+		RunEvent 		HudHealthBonusPulse 						0.0
+	}
+	
 	event HudHealthBonusPulseStop
 	{
+		StopEvent 		HudHealthBonusPulse							0.0
+		StopEvent 		HudHealthBonusPulseLoop 					0.0
+
 		Animate 		PlayerStatusHealthValue		 				fgcolor			"bh_Health"				Linear 0.0 0.0
 		Animate 		PlayerStatusHealthValueShadow 				fgcolor			"bh_Shadow"				Linear 0.0 0.0
+
 		Animate 		bh_HealthBG									BgColor			"bh_HealthBG_t"			Linear 0.0 0.3
+		Animate 		bh_HealthBGSpec								BgColor			"bh_HealthBG_t"			Linear 0.0 0.0
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -28,7 +45,17 @@
 		Animate			PlayerStatusHealthBonusImage 				Alpha			"0"						Linear 0.0 0.0
 		Animate 		PlayerStatusHealthValue						fgcolor			"bh_Health"				Linear 0.0 0.3
 		Animate 		PlayerStatusHealthValueShadow				fgcolor			"bh_Shadow"				Linear 0.0 0.3
+
 		Animate 		bh_HealthBG									BgColor			"bh_HealthLow_t"		Linear 0.0 0.3
+		Animate 		bh_HealthBGSpec								BgColor			"bh_HealthLow_t"		Linear 0.0 0.3
+		
+		RunEvent 		HudHealthDyingPulseLoop						0.4
+	}
+	
+	// call to loop HudHealthDyingPulse
+	event HudHealthDyingPulseLoop
+	{
+		RunEvent 		HudHealthDyingPulse							0.0
 	}
 	
 	event HudHealthDyingPulseStop
@@ -37,5 +64,7 @@
 		StopEvent 		HudHealthDyingPulseLoop 					0.0
 		Animate 		PlayerStatusHealthValue		 				fgcolor			"bh_Health"				Linear 0.0 0.0
 		Animate 		PlayerStatusHealthValueShadow 				fgcolor			"bh_Shadow"				Linear 0.0 0.0
+		
 		Animate 		bh_HealthBG									BgColor			"bh_HealthBG_t"			Linear 0.0 0.3
+		Animate 		bh_HealthBGSpec								BgColor			"bh_HealthBG_t"			Linear 0.0 0.3
 	}
