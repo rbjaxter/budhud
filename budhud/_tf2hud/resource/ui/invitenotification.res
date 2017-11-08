@@ -36,12 +36,12 @@
 		disabled_incoming
 		{
 			"xpos"			"rs1-5"
+			"wide"			"f35"
 		}
 
 		"xpos"			"rs1-30"
-
 		"ypos"			"0"
-		"wide"			"f35"
+		"wide"			"f65"
 		"tall"			"17"
 		"labelText"		"%invite%"
 		"textAlignment"	"east"
@@ -69,6 +69,12 @@
 			{
 				"font"			"ItemFontAttribSmallest" // Secondary 7
 			}
+		}
+
+		"colors"
+		{
+			"1"		"Orange"
+			"2"		"TanLight"
 		}
 	}
 

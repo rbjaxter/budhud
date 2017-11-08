@@ -310,7 +310,7 @@
 	
 	"TFCharacterImage"
 	{
-		"ControlName"	"ImagePanel"
+		// "ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
 		"xpos"			"c-250"
 
