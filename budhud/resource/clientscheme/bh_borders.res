@@ -93,7 +93,6 @@ Scheme
 					"offset" "0 1"
 				}
 			}
-			
 		}		
 		
 		bh_b_NEW
@@ -249,7 +248,186 @@ Scheme
 					"offset" "0 1"
 				}
 			}
+		}
+		
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		// Attempt to set dialog option button borders to main budhud border
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		
+		Econ.Button.Border.Default
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"2"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"3"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"2"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"3"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+			}
 			
+			Top
+			{
+				"1"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"2"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"3"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+			}
+			
+			Bottom
+			{
+				"1"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"2"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"3"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+			}
+		}
+		
+		Econ.Button.Border.Armed
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"2"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"3"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"2"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"3"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+			}
+			
+			Top
+			{
+				"1"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"2"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"3"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+			}
+			
+			Bottom
+			{
+				"1"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"2"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"3"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+			}
 		}
 		
 		bh_b_Red

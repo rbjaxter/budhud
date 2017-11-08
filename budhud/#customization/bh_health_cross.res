@@ -8,15 +8,15 @@
 	// IMPORTANT:
 	// PlayerStatusHealthImage: To disable, set visible and enabled to 0. Do not 
 	// change x/ypos! This will cause various status effects to vanish.
-	// PlayerStatusHealthImageBG: Set xpos/ypos to 6969 to disable.
+	// PlayerStatusHealthImageBG: Set ypos to r-6969 to disable.
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"21"
-		"ypos"			"39"
+		"xpos"			"47"
+		"ypos"			"64"
 		"zpos"			"3"
 		"wide"			"25"
 		"tall"			"25"
@@ -29,11 +29,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"20"
-		"ypos"			"38"
+		"xpos"			"45"
+		"ypos"			"62"
 		"zpos"			"3"
-		"wide"			"27"
-		"tall"			"27"
+		"wide"			"29"
+		"tall"			"29"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
@@ -45,18 +45,17 @@
 	// >> PlayerStatusHealthBonusImage
 	// ============================================================================================== //
 	// Controls low health/buff over health cross
-	// Set xpos/ypos to 6969 to disable
-	// Set xpos to 88 to position behind player health
+	// Set ypos to r-6969 to disable
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"21"
-		"ypos"			"39"
+		"xpos"			"46"
+		"ypos"			"63"
 		"zpos"			"0"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"27"
+		"tall"			"27"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"

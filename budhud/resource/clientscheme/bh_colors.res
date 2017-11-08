@@ -16,7 +16,6 @@ Scheme
 {
 	Colors
 	{
-
 	// Health
 		"bh_Health"													"255 255 255 255"
 		"bh_HealthShadow"											"000 000 000 255"
@@ -64,6 +63,7 @@ Scheme
 		"bh_MouseOverBG"											"035 035 035 255"	// Item mouse-over BG color
 		"bh_border"													"150 150 150 255"	// Color of all budhud borders (buttons, etc)
 		"bh_BGStandard"												"000 000 000 100"
+		"bh_BGAverage"												"000 000 000 170"
 		"bh_BGDarker"												"000 000 000 240"
 		"bh_BGLighter"												"150 150 150 255"
 		"bh_BGBlue"													"070 130 180 090"
@@ -80,16 +80,16 @@ Scheme
 		"bh_ButtonBGDepressed"										"035 035 035 255"
 		
 	// Main Menu - Default
-	//	"bh_MainMenu1"												"240 134 049 255"	// Orange
-	//	"bh_MainMenu2"												"240 134 049 255"	// Orange
+		"bh_MainMenu1"												"240 134 049 255"	// Orange
+		"bh_MainMenu2"												"240 134 049 255"	// Orange
 	
 	// January
 	//	"bh_MainMenu1"												"186 085 211 255"	// Medium Orchid
 	//	"bh_MainMenu2"												"147 112 219 255"	// Medium Purple
 	
 	// October
-		"bh_MainMenu1"												"124 016 173 255"	// Spooky Purple
-		"bh_MainMenu2"												"241 088 002 255"	// Spooky Orange
+	//	"bh_MainMenu1"												"124 016 173 255"	// Spooky Purple
+	//	"bh_MainMenu2"												"241 088 002 255"	// Spooky Orange
 		
 	// December
 	//	"bh_MainMenu1"												"186 032 032 255"	// Red
@@ -139,6 +139,8 @@ Scheme
 		"TFOrange"													"085 085 085 255"		// Backpack page number BG (selected page color)
 		"TanLight"													"255 255 255 255"		// Referenced in a few areas, saves lines keeping this
 		"Orange"													"240 134 049 255"		// Referenced in a few areas, saves lines keeping this
+		"LightRed"													"255 255 255 255"		// Most often used in dialogs
+		"LighterRed"												"255 255 255 255"
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -171,12 +173,12 @@ Scheme
 		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"bh_orange"
 		Replay.RenderDialog.BgColor							"30 30 30 255"
 		
-	//	Econ.Button.BgColor									"bh_ButtonBGDefault"
-	//	Econ.Button.FgColor									"bh_ButtonDefault"
-	//	Econ.Button.ArmedBgColor							"bh_ButtonBGArmed"
-	//	Econ.Button.ArmedFgColor							"bh_ButtonArmed"
-	//	Econ.Button.DepressedBgColor						"bh_ButtonBGDepressed"
-	//	Econ.Button.DepressedFgColor						"bh_ButtonDepressed"
+		Econ.Button.BgColor									"bh_ButtonBGDefault"
+		Econ.Button.FgColor									"bh_ButtonDefault"
+		Econ.Button.ArmedBgColor							"bh_ButtonBGArmed"
+		Econ.Button.ArmedFgColor							"bh_ButtonArmed"
+		Econ.Button.DepressedBgColor						"bh_ButtonBGDepressed"
+		Econ.Button.DepressedFgColor						"bh_ButtonDepressed"
 	
 		// Loadout presets
 		Econ.Button.PresetDefaultColorBg					"150 150 150 255"
@@ -204,7 +206,7 @@ Scheme
 
 		// Vote menu (center left)
 		// CHudMenu
-		"ItemColor"											"255 255 255 255"	// default 255 167 42 255
+		"ItemColor"											"255 255 255 255"
 		"MenuColor"											"255 255 255 255"
 		"MenuBoxBg"											"000 000 000 100"
 	}

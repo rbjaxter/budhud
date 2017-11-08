@@ -1,26 +1,4 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// New item notification animations
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	event HasNotificationsBlink
-	{
-		Animate	Notifications_ShowButtonPanel_SB 			Alpha		"255"		Spline 		0.0 0.2
-		Animate	Notifications_ShowButtonPanel_SB 			Alpha		"0"			Spline		0.2 0.2
-		RunEvent HasNotificationsBlinkLoop					1.5
-	}
-	
-	event HasNotificationsBlinkLoop
-	{
-		RunEvent HasNotificationsBlink						0.0
-	}
-	
-	event HasNotificationsBlinkStop
-	{
-		StopEvent HasNotificationsBlink						0.0
-		StopEvent HasNotificationsBlinkLoop 				0.0
-		Animate	Notifications_ShowButtonPanel_SB 			Alpha		"255"		Linear		0.0 0.1
-	}
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Give TF2 a stern talking to and tell it "no, don't move my pinned countdown label shadow all over
 	// the place, please. PLEASE"
 	// Default animation files with "CountdownLabelShadow" lines removed.

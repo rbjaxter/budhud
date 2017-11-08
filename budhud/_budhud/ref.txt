@@ -17,15 +17,18 @@
 	// budhud Defaults
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Buttons
-		"bh_ButtonDefault"
-		"bh_ButtonArmed"
-		"bh_ButtonDepressed"
-		"bh_ButtonBGDefault"
-		"bh_ButtonBGArmed"
-		"bh_ButtonBGDepressed"
+		"defaultFgColor_override"									"bh_ButtonDefault"
+		"armedFgColor_override" 									"bh_ButtonArmed"
+		"depressedFgColor_override" 								"bh_ButtonDepressed"
+		"defaultBgColor_override"									"bh_ButtonBGDefault"
+		"armedBgColor_override"										"bh_ButtonBGArmed"
+		"depressedBgColor_override"									"bh_ButtonBGDepressed"
+		"border_default"											"bh_b_NESW"
+		"border_armed"												"bh_b_NESW"
 		
 	// Pins / Anchors
 	// Pin moves relative to anchor in the inverse. 5 pixels to the right with an anchor = xpos -5
+
 	"bh_AnchorTemplate"
 	{	
 		"ControlName"												"Label"
@@ -45,23 +48,55 @@
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
 			
 	// Add element
-	"bh_ElementTemplate"	
+	"bh_Template_Block"	
 	{
-		"ControlName"												"CExLabel"
-		"fieldName"													"bh_ElementTemplate"
-		"xpos"														"c0"
-		"ypos"														"10"
-		"zpos"														"0"
-		"wide"														"100"
-		"tall"														"100"
+		"ControlName"												"ImagePanel"
+		"fieldName"													"bh_Template_Block"
+		"xpos"														"0"
+		"ypos"														"420"
+		"zpos"														"-150"
+		"wide"														"f0"
+		"tall"														"60"
 		"autoResize"												"0"
 		"pinCorner"													"0"
 		"labeltext"													""
 		"visible"													"1"
 		"enabled"													"1"
-		"defaultbgcolor_override"									"150 150 150 255"
+		"fillcolor"													"bh_MenuBG"
+		"image"														""
 		"paintbackgroundtype"										"0"
     }
+	
+	// Add button
+	"bh_Template_Button"	
+	{
+		"ControlName"												"CExButton"
+		"fieldName"													"bh_Template_Button"
+		"xpos"														"30"
+		"ypos"														"75"
+		"zpos"														"6969"
+		"wide"														"100"
+		"tall"														"20"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"visible"													"1"
+		"enabled"													"1"
+		"paintbackgroundtype"										"0"
+
+		"labeltext"													"DRAWTREE 0/1"
+		"textalignment"												"center"
+		"font"														"bh_Font10"
+		"command"													"engine incrementvar vgui_drawtree 0 1 1"
+		
+		"defaultBgColor_override"									"bh_ButtonBGDefault"
+		"armedBgColor_override"										"bh_ButtonBGArmed"
+		"depressedBgColor_override"									"bh_ButtonBGDepressed"
+		"defaultFgColor_override"									"bh_ButtonDefault"
+		"armedFgColor_override" 									"bh_ButtonArmed"
+		"depressedFgColor_override" 								"bh_ButtonDepressed"
+		"border_default"											"bh_b_NESW"
+		"border_armed"												"bh_b_NESW"
+    }	
 		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Animations

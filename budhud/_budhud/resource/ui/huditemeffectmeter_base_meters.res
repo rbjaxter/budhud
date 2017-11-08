@@ -40,6 +40,27 @@
 		"fgcolor_override"											"bh_gray"
 		"font"														"bh_Font8"
 	}
+	
+	"ItemEffectMeterLabel2"
+	{
+		"ControlName"												"CExLabel"
+		"fieldName"													"ItemEffectMeterLabel2"
+		"xpos"														"0"
+		"ypos"														"0"
+		"zpos"														"3"
+		"wide"														"f0"
+		"tall"														"6"
+		"autoResize"												"1"
+		"pinCorner"													"2"
+		"visible"													"0"
+		"enabled"													"1"
+		"tabPosition"												"0"
+		"labelText"													"#TF_KILLCOMBO"
+		"textAlignment"												"center"
+		"dulltext"													"0"
+		"brighttext"												"0"
+		"font"														"TFFontSmall"
+	}
 
 	"ItemEffectMeter"
 	{	
