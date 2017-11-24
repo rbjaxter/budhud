@@ -4,6 +4,122 @@
 
 "Resource/UI/StorePage.res"
 {
+	"ClassFilterNavPanel"
+	{
+		"Buttons"
+		{
+			"all"
+			{
+				"image_default"										"replay\thumbnails\class_icons\leaderboard_all"
+				"image_armed"										"replay\thumbnails\class_icons\leaderboard_all"
+				"image_selected"									"replay\thumbnails\class_icons\leaderboard_all"
+				"SubImage"
+				{
+					"image"											"replay\thumbnails\class_icons\leaderboard_all"
+				}
+			}
+	
+			"scout"
+			{
+				"image_default"										"replay\thumbnails\class_icons\leaderboard_scout"
+				"image_armed"										"replay\thumbnails\class_icons\leaderboard_scout"
+				"image_selected"									"replay\thumbnails\class_icons\leaderboard_scout"
+				"SubImage"
+				{
+					"image"											"replay\thumbnails\class_icons\leaderboard_scout"
+				}
+			}
+			
+			"soldier"
+			{
+				"image_default"										"replay\thumbnails\class_icons\leaderboard_soldier"
+				"image_armed"										"replay\thumbnails\class_icons\leaderboard_soldier"
+				"image_selected"									"replay\thumbnails\class_icons\leaderboard_soldier"
+				"SubImage"
+				{
+					"image"											"replay\thumbnails\class_icons\leaderboard_soldier"
+				}
+			}
+			
+			"pyro"
+			{
+				"image_default"										"replay\thumbnails\class_icons\leaderboard_pyro"
+				"image_armed"										"replay\thumbnails\class_icons\leaderboard_pyro"
+				"image_selected"									"replay\thumbnails\class_icons\leaderboard_pyro"
+				"SubImage"
+				{
+					"image"											"replay\thumbnails\class_icons\leaderboard_pyro"
+				}
+			}
+			
+			"demoman"
+			{
+				"image_default"										"replay\thumbnails\class_icons\leaderboard_demoman"
+				"image_armed"										"replay\thumbnails\class_icons\leaderboard_demoman"
+				"image_selected"									"replay\thumbnails\class_icons\leaderboard_demoman"
+				"SubImage"
+				{
+					"image"											"replay\thumbnails\class_icons\leaderboard_demoman"
+				}
+			}
+			
+			"heavy"
+			{
+				"image_default"										"replay\thumbnails\class_icons\leaderboard_heavy"
+				"image_armed"										"replay\thumbnails\class_icons\leaderboard_heavy"
+				"image_selected"									"replay\thumbnails\class_icons\leaderboard_heavy"
+				"SubImage"
+				{
+					"image"											"replay\thumbnails\class_icons\leaderboard_heavy"
+				}
+			}
+			
+			"engineer"
+			{
+				"image_default"										"replay\thumbnails\class_icons\leaderboard_engineer"
+				"image_armed"										"replay\thumbnails\class_icons\leaderboard_engineer"
+				"image_selected"									"replay\thumbnails\class_icons\leaderboard_engineer"
+				"SubImage"
+				{
+					"image"											"replay\thumbnails\class_icons\leaderboard_engineer"
+				}
+			}
+			
+			"medic"
+			{
+				"image_default"										"replay\thumbnails\class_icons\leaderboard_medic"
+				"image_armed"										"replay\thumbnails\class_icons\leaderboard_medic"
+				"image_selected"									"replay\thumbnails\class_icons\leaderboard_medic"
+				"SubImage"
+				{
+					"image"											"replay\thumbnails\class_icons\leaderboard_medic"
+				}
+			}
+			
+			"sniper"
+			{
+				"image_default"										"replay\thumbnails\class_icons\leaderboard_sniper"
+				"image_armed"										"replay\thumbnails\class_icons\leaderboard_sniper"
+				"image_selected"									"replay\thumbnails\class_icons\leaderboard_sniper"
+				"SubImage"
+				{
+					"image"											"replay\thumbnails\class_icons\leaderboard_sniper"
+				}
+			}
+			
+			"spy"
+			{
+				"image_default"										"replay\thumbnails\class_icons\leaderboard_spy"
+				"image_armed"										"replay\thumbnails\class_icons\leaderboard_spy"
+				"image_selected"									"replay\thumbnails\class_icons\leaderboard_spy"
+				"SubImage"
+				{
+					"image"											"replay\thumbnails\class_icons\leaderboard_spy"
+				}
+			}
+		}
+	}
+
 	"CartImage"
 	{
 		"ypos"														"r-6969"
@@ -49,10 +165,10 @@
 		
 		"Button"
 		{
-			"defaultBgColor_override"								"bh_ButtonBGDefault"
-			"armedBgColor_override"									"bh_ButtonBGArmed"
-			"depressedBgColor_override"								"bh_ButtonBGDepressed"
-			"defaultFgColor_override"								"bh_ButtonDefault"
+			"defaultBgColor_override"								"bh_blank"
+			"armedBgColor_override"									"bh_blank"
+			"depressedBgColor_override"								"bh_blank"
+			"defaultFgColor_override"								"bh_gray"
 			"armedFgColor_override" 								"bh_ButtonArmed"
 			"depressedFgColor_override" 							"bh_ButtonDepressed"
 		}
@@ -60,10 +176,10 @@
 	
 	"SubcategoryFilterBox"
 	{
-		"defaultBgColor_override"									"bh_ButtonBGDefault"
-		"armedBgColor_override"										"bh_ButtonBGArmed"
-		"depressedBgColor_override"									"bh_ButtonBGDepressed"
-		"defaultFgColor_override"									"bh_ButtonDefault"
+		"defaultBgColor_override"									"bh_blank"
+		"armedBgColor_override"										"bh_blank"
+		"depressedBgColor_override"									"bh_blank"
+		"defaultFgColor_override"									"bh_gray"
 		"armedFgColor_override" 									"bh_ButtonArmed"
 		"depressedFgColor_override" 								"bh_ButtonDepressed"
 	}
@@ -75,10 +191,12 @@
 		
 		"Button"
 		{
-			"defaultBgColor_override"								"bh_ButtonBGDefault"
-			"armedBgColor_override"									"bh_ButtonBGArmed"
-			"defaultFgColor_override"								"bh_ButtonDefault"
+			"defaultBgColor_override"								"bh_blank"
+			"armedBgColor_override"									"bh_blank"
+			"depressedBgColor_override"								"bh_blank"
+			"defaultFgColor_override"								"bh_gray"
 			"armedFgColor_override" 								"bh_ButtonArmed"
+			"depressedFgColor_override" 							"bh_ButtonDepressed"
 		}
 	}
 	

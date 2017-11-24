@@ -3,6 +3,13 @@
 	// the place, please. PLEASE"
 	// Default animation files with "CountdownLabelShadow" lines removed.
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
+
+	event CompetitiveGame_ShowPvPRankPanel
+	{
+		Animate RankPanel ypos r0 Linear 0 0
+		Animate RankPanel ypos r150 Bias 0.90 0.2 0.3
+		RunEventChild RankPanel PvPRankPanelShowXPChange 0
+	}
 	
 	event HudTournament_MoveTimerDown
 	{

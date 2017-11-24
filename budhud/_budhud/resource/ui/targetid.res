@@ -70,20 +70,6 @@
 		"draw_corner_height" 										"0"	
 	}
 	
-	"bh_NameNav"
-	{	
-		"ControlName"												"Label"
-		"fieldName"													"bh_NameNav"
-		"xpos"														"120"
-		"ypos"														"14"
-		"zpos"														"0"
-		"wide"														"10"
-		"tall"														"0"
-		"visible"													"1"
-		"enabled"													"1"
-		"bgcolor_override"											"0 0 0 0"
-	}
-	
 	"TargetNameLabel"
 	{
 		"xpos"														"0"

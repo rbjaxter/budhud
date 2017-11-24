@@ -44,7 +44,7 @@
 						echo ======================================================;
 						echo ~ Thank you to everyone who actively uses my hud! ~~~~;
 						echo ======================================================;"
-		"tooltip"		"Updated 8 November 2017"
+		"tooltip"		"Updated 23 November 2017"
 	}
 
 	"bh_Streams"
@@ -130,7 +130,7 @@
 	"bh_TrainingButton"
 	{
 		"label"			""
-		"command" 		"play_training"
+		"command" 		"engine training_showdlg"
 		"OnlyAtMenu" 	"0"
 		"tooltip" 		"#bh_TrainingMode"
 	}

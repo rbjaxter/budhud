@@ -1,5 +1,4 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// You can safely delete this file.
 	// Used as a reference by me as I can be forgetful of how I do certain things within my hud.
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
@@ -11,11 +10,23 @@
 		3. All charge meters: wide 100 tall 6
 		4. Convert PIN_TOPLEFT to PIN_TOPCENTER
 		5. Indent to column 69
-		6. Move off-screen to r-6969
+		6. Move off-screen: y-pos r-6969
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// budhud Defaults
 	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Close buttons (no text)
+		"CloseButton"
+		{
+			"image_drawcolor"										"255 255 255 255"
+			"image_armedcolor"										"240 134 49 255"
+			
+			"SubImage"
+			{
+				"image"												"replay\thumbnails\close"
+			}
+		}
+
 	// Buttons
 		"defaultFgColor_override"									"bh_ButtonDefault"
 		"armedFgColor_override" 									"bh_ButtonArmed"
@@ -27,7 +38,7 @@
 		"border_armed"												"bh_b_NESW"
 		
 	// Pins / Anchors
-	// Pin moves relative to anchor in the inverse. 5 pixels to the right with an anchor = xpos -5
+	// Pinned element moves relative to anchor in the inverse.
 
 	"bh_AnchorTemplate"
 	{	
@@ -43,10 +54,10 @@
 		"bgcolor_override"											"0 0 0 0"
 	}
 
-		"pin_to_sibling" 											"bh_AnchorTemplate"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
-			
+	"pin_to_sibling" 												"bh_AnchorTemplate"
+	"pin_corner_to_sibling" 										"PIN_TOPCENTER"
+	"pin_to_sibling_corner" 										"PIN_TOPCENTER"	
+	
 	// Add element
 	"bh_Template_Block"	
 	{

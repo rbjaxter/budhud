@@ -80,8 +80,8 @@ Scheme
 		"bh_ButtonBGDepressed"										"035 035 035 255"
 		
 	// Main Menu - Default
-		"bh_MainMenu1"												"240 134 049 255"	// Orange
-		"bh_MainMenu2"												"240 134 049 255"	// Orange
+	//	"bh_MainMenu1"												"240 134 049 255"	// Orange
+	//	"bh_MainMenu2"												"240 134 049 255"	// Orange
 	
 	// January
 	//	"bh_MainMenu1"												"186 085 211 255"	// Medium Orchid
@@ -92,21 +92,10 @@ Scheme
 	//	"bh_MainMenu2"												"241 088 002 255"	// Spooky Orange
 		
 	// December
-	//	"bh_MainMenu1"												"186 032 032 255"	// Red
-	//	"bh_MainMenu2"												"000 215 000 255"	// Green
+		"bh_MainMenu1"												"194 023 023 255"	// Dark Red
+		"bh_MainMenu2"												"060 141 013 255"	// Dark Green
 
-	// Spooky statsummary colors
-		"bh_bar1"													"124 016 173 255"
-		"bh_bar2"													"027 165 044 255"
-		"bh_bar3"													"241 088 002 255"
-		"bh_bar4"													"124 016 173 255"
-		"bh_bar5"													"027 165 044 255"
-		"bh_bar6"													"241 088 002 255"
-		"bh_bar7"													"124 016 173 255"
-		"bh_bar8"													"027 165 044 255"
-		"bh_bar9"													"241 088 002 255"
-	
-	// statsummary colors
+	// Stats - Default
 	//	"bh_bar1"													"150 150 150 255"
 	//	"bh_bar2"													"140 140 140 255"
 	//	"bh_bar3"													"130 130 130 255"
@@ -115,8 +104,30 @@ Scheme
 	//	"bh_bar6"													"100 100 100 255"
 	//	"bh_bar7"													"090 090 090 255"
 	//	"bh_bar8"													"080 080 080 255"
-	//	"bh_bar9"													"070 070 070 255"
+	//	"bh_bar9"													"070 070 070 255"		
 		
+	// October
+	//	"bh_bar1"													"124 016 173 255"
+	//	"bh_bar2"													"027 165 044 255"
+	//	"bh_bar3"													"241 088 002 255"
+	//	"bh_bar4"													"124 016 173 255"
+	//	"bh_bar5"													"027 165 044 255"
+	//	"bh_bar6"													"241 088 002 255"
+	//	"bh_bar7"													"124 016 173 255"
+	//	"bh_bar8"													"027 165 044 255"
+	//	"bh_bar9"													"241 088 002 255"
+	
+	// December
+		"bh_bar1"													"060 141 013 255"		// Dark Green
+		"bh_bar2"													"194 023 023 255"		// Dark Red
+		"bh_bar3"													"060 141 013 255"		// Dark Green
+		"bh_bar4"													"194 023 023 255"		// Dark Red
+		"bh_bar5"													"060 141 013 255"		// Dark Green
+		"bh_bar6"													"194 023 023 255"		// Dark Red
+		"bh_bar7"													"060 141 013 255"		// Dark Green
+		"bh_bar8"													"194 023 023 255"		// Dark Red
+		"bh_bar9"													"060 141 013 255"		// Dark Green
+			
 	// budhud core colors
 		"bh_white"													"255 255 255 255"
 		"bh_black"													"000 000 000 255"
@@ -138,6 +149,7 @@ Scheme
 	// Defaults changed	
 		"TFOrange"													"085 085 085 255"		// Backpack page number BG (selected page color)
 		"TanLight"													"255 255 255 255"		// Referenced in a few areas, saves lines keeping this
+		"TanDark"													"025 025 025 255"		// MenuBG color		
 		"Orange"													"240 134 049 255"		// Referenced in a few areas, saves lines keeping this
 		"LightRed"													"255 255 255 255"		// Most often used in dialogs
 		"LighterRed"												"255 255 255 255"

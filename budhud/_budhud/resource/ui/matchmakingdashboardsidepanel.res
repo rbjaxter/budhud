@@ -23,6 +23,6 @@
 	"BGPanel"
 	{
 		"ypos"														"r-6969"
-		"bgcolor_override"											"bh_border"
+		"bgcolor_override"											"bh_BGAverage"
 	}
 }

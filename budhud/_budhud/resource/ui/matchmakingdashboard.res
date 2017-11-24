@@ -13,11 +13,23 @@
 	
 	"TopBar"
 	{
+		"ToggleChatButton"
+		{
+			"image_drawcolor"											"255 255 255 255"
+			"image_armedcolor"											"240 134 49 255"
+			"paintbackground"											"0"
+			
+			"SubImage"
+			{
+				"image"													"replay\thumbnails\chat"
+			}
+		}
+
 		"bh_PartyAnchor"
 		{	
 			"ControlName"												"Label"
 			"fieldName"													"bh_PartyAnchor"
-			"xpos"														"c0"
+			"xpos"														"114"
 			"ypos"														"10"
 			"zpos"														"0"
 			"wide"														"100"
