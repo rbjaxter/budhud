@@ -137,7 +137,7 @@
 		{	
 			"font"													"bh_Font8"		
 			"xpos"													"21"			
-			"ypos"													"52"		
+			"ypos"													"51"		
 			"zpos"													"2"
 				
 			"if_multiple_trains"
