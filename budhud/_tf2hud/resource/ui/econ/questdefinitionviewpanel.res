@@ -135,6 +135,23 @@
 		"border"		"CYOANodeViewBorder_Inactive"
 	}
 
+	"ExpireLabel"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"ExpireLabel"
+		"labeltext"		"%expire_time%"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"199"
+		"tall"			"10"
+		"zpos"			"1000"
+		"font"			"QuestMap_Small"
+		"fgcolor_override"		"RedSolid"
+		"TextAlignment"		"North"
+		"proportionaltoparent" "1"
+		"mouseinputenabled"		"0"
+	}
+
 	"ContentContainer"
 	{
 		"ControlName"	"EditablePanel"

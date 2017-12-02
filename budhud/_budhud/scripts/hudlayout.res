@@ -26,8 +26,6 @@
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// AMMO PLACEMENT CUSTOMIZATION
 	// Moves the entirety of the ammo elements
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -37,12 +35,41 @@
 		"fieldName" 												"HudWeaponAmmo"
 		"visible" 													"1"
 		"enabled" 													"1"
-		"xpos"														"c100"
-		"ypos"														"c66"
-		"wide"														"100"
-		"tall"														"80"
-	}		
+		"xpos"														"c50"
+		"ypos"														"c41"
+		"wide"														"250"
+		"tall"														"150"
+	}	
 	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// TEAM INDICATOR
+	// Appears as a bar across the bottom of your screen
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	"bh_TeamIndicator"
+	{
+		"ControlName"												"CTFImagePanel"
+		"fieldName"													"bh_TeamIndicator"
+		"xpos"														"0"
+		"ypos"														"r2"
+		"zpos"														"-1"
+		"wide"														"f0"
+		"tall"	 													"2"
+		"visible"													"0"
+		"enabled"													"0"
+		"image"														"../hud/color_panel_brown"
+		"scaleImage"												"1"
+		"teambg_1"													"../hud/color_panel_brown"
+		"teambg_2"													"../hud/color_panel_red"
+		"teambg_3"													"../hud/color_panel_blu"
+		
+		"src_corner_height"											"23"
+		"src_corner_width"											"23"
+			
+		"draw_corner_width"											"0"
+		"draw_corner_height" 										"0"	
+	}		
+
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Flag pickup notifs
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -100,8 +127,8 @@
 	
 	CHealthAccountPanel	
 	{	
-		"xpos"														"c-160"
-		"ypos"														"r190"
+		"xpos"														"c-150"
+		"ypos"														"r180"
 		"zpos"														"-1"
 		"wide"														"100"
 		"tall"														"100"
@@ -150,15 +177,14 @@
 		"tall"														"50"
 		"textAlignment"												"center"
 	}	
-			
+
 	CDamageAccountPanel	
 	{	
 		"xpos"														"2"
 		"ypos"														"10"
 		"tall"														"f0"
 	}
-	
-	
+		
 	DisguiseStatus
 	{
 		"xpos"														"53"
@@ -199,18 +225,6 @@
 		"priority" 													"35"
 	}
 	
-	BuildingStatus_Engineer
-	{
-		"xpos"														"0"
-		"ypos"														"0"
-		"wide"														"f0"
-		"tall"														"f0"
-		
-		"pin_to_sibling" 											"bh_BuildNav"
-		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
-		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
-	}
-	
 	"bh_BuildNav"
 	{	
 		"ControlName"												"Label"
@@ -223,6 +237,18 @@
 		"visible"													"1"
 		"enabled"													"1"
 		"bgcolor_override"											"0 0 0 0"
+	}	
+	
+	BuildingStatus_Engineer
+	{
+		"xpos"														"0"
+		"ypos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
+		
+		"pin_to_sibling" 											"bh_BuildNav"
+		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
+		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
 	}
 	
 	HudDeathNotice
@@ -252,9 +278,9 @@
 
 	HudCloseCaption
 	{
-		"xpos"														"c117"
-		"ypos"														"200"
-		"wide"														"415"
+		"xpos"														"c140"
+		"ypos"														"205"
+		"wide"														"300"
 
 		"BgAlpha"													"0"
 		"GrowTime"													"0.1"
@@ -300,13 +326,10 @@
 		"zpos"														"5"
 		"wide"														"480"
 		"tall"														"100"
+		
+		"TextColor"													"255 255 255 255"
 	}	
 
-	HudHintDisplay
-	{
-		"TextColor"													"255 255 255 255"
-	}
-	
 	HudHintKeyDisplay
 	{
 		"TextColor"													"255 255 255 255"

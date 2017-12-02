@@ -220,9 +220,13 @@
 		{
 			"image"		"../console/background_xmas2011_widescreen"
 		}
-		disabled_operation
+		disabled_jungle_inferno_0
 		{
 			"image"		"../console/title_team_jungle_inferno_2017_widescreen"
+		}
+		disabled_jungle_inferno_1
+		{
+			"image"		"../console/title_pyro_jungle_inferno_2017_widescreen"
 		}
 	}
 					
@@ -310,7 +314,7 @@
 	
 	"TFCharacterImage"
 	{
-		"ControlName"	"ImagePanel"
+		// "ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
 		"xpos"			"c-250"
 
