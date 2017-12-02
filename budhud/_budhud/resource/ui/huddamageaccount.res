@@ -17,7 +17,7 @@
 		"ypos"														"373"
 		"zpos"														"2"
 		"wide"														"100"
-		"tall"														"26"
+		"tall"														"28"
 		"visible"													"1"
 		"enabled"													"1"
 		"labelText"													"%metal%"

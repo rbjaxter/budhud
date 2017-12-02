@@ -22,8 +22,8 @@
 	{
 		"ControlName"												"ImagePanel"
 		"fieldName"													"bh_BlueBG"
-		"xpos"														"c-69"
-		"ypos"														"r39"
+		"xpos"														"c-68"
+		"ypos"														"r41"
 		"zpos"														"-1"
 		"wide"														"60"
 		"tall"														"30"
@@ -57,8 +57,8 @@
 	{
 		"ControlName"												"ImagePanel"
 		"fieldName"													"bh_RedBG"
-		"xpos"														"c12"
-		"ypos"														"r39"
+		"xpos"														"c8"
+		"ypos"														"r41"
 		"zpos"														"-1"
 		"wide"														"60"
 		"tall"														"30"
@@ -110,10 +110,14 @@
 	
 	"BlueScore"
 	{
-		"xpos"														"c-60"
-		"ypos"														"r40"
+		"pin_to_sibling" 											"bh_BlueBG"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+	
+		"xpos"														"0"
+		"ypos"														"0"
 		"zpos"														"8"
-		"wide"														"40"
+		"wide"														"60"
 		"tall"														"30"
 		"textAlignment"												"center"	
 		"labelText"													"%bluescore%"
@@ -165,10 +169,14 @@
 
 	"RedScore"
 	{
-		"xpos"														"c20"
-		"ypos"														"r40"
+		"pin_to_sibling" 											"bh_RedBG"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
+		"xpos"														"0"
+		"ypos"														"0"
 		"zpos"														"8"
-		"wide"														"40"
+		"wide"														"60"
 		"tall"														"30"
 		"textAlignment"												"center"	
 		"labelText"													"%redscore%"
@@ -296,8 +304,8 @@
 		
 	"BlueFlag"
 	{
-		"xpos"														"c-156"
-		"ypos"														"r72"
+		"xpos"														"c-160"
+		"ypos"														"r73"
 		"zpos"														"2"
 		"wide"														"160"
 		"tall"														"90"
@@ -336,7 +344,7 @@
 	"RedFlag"
 	{
 		"xpos"														"c0"
-		"ypos"														"r72"
+		"ypos"														"r73"
 		"zpos"														"5"
 		"wide"														"160"
 		"tall"														"90"
@@ -373,11 +381,11 @@
 
 	"CaptureFlag"
 	{
-		"xpos"														"c-30"
-		"ypos"														"r55"
+		"xpos"														"c-26"
+		"ypos"														"r51"
 		"zpos"														"6"
-		"wide"														"60"
-		"tall"														"60"
+		"wide"														"52"
+		"tall"														"52"
 		"visible"													"0"
 		"enabled"													"1"
 		

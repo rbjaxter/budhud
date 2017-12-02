@@ -4,7 +4,7 @@
 	{
 		"ypos"														"r-6969"
 	}
-	
+
 	"TargetIDBG_Spec_Blue"
 	{
 		"ypos"														"r-6969"
@@ -62,33 +62,21 @@
 		"visible" 													"1"
 		"enabled" 													"1"
 		"fillcolor" 												"bh_BGStandard"
-	}
-
-	"bh_NameNav"
-	{	
-		"ControlName"												"Label"
-		"fieldName"													"bh_NameNav"
-		"xpos"														"120"
-		"ypos"														"14"
-		"zpos"														"0"
-		"wide"														"10"
-		"tall"														"0"
-		"visible"													"1"
-		"enabled"													"1"
-		"bgcolor_override"											"0 0 0 0"
+		
+		"src_corner_height"											"0"
+		"src_corner_width"											"0"
+			
+		"draw_corner_width"											"0"
+		"draw_corner_height" 										"0"	
 	}
 	
 	"TargetNameLabel"
 	{
 		"xpos"														"0"
-		"ypos"														"0"
+		"ypos"														"15"
 		"zpos"														"10"
 		"wide"														"300"
 		"tall"														"15"
-		
-		"pin_to_sibling" 											"bh_NameNav"
-		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
-		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
 	}
 	
 	"TargetDataLabel"

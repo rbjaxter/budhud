@@ -2,4 +2,8 @@
 
 "Resource/UI/build_menu/tele_entrance_unavailable.res"
 {
+	"bh_ItemNameLabelShadow"
+	{	
+		"labelText"													"#TF_Object_Tele_Entrance_360"
+	}
 }

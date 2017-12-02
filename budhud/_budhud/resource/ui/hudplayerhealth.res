@@ -2,18 +2,18 @@
 {
 	"HudPlayerHealth"
 	{
-		"xpos"														"c-240"
-		"ypos"														"c56"
-		"wide"														"100"
-		"tall"														"100"
+		"xpos"														"c-300"
+		"ypos"														"c41"
+		"wide"														"250"
+		"tall"														"150"
 	}
-
+	
 	"bh_PlayerStatusAnchor"
 	{	
 		"ControlName"												"Label"
 		"fieldName"													"bh_PlayerStatusAnchor"
-		"xpos"														"120"
-		"ypos"														"0"
+		"xpos"														"196"
+		"ypos"														"23"
 		"zpos"														"0"
 		"wide"														"10"
 		"tall"														"0"
@@ -26,10 +26,10 @@
 	{
 		"ControlName"												"CExLabel"
 		"fieldName"													"bh_HealthBG"
-		"xpos"														"10"
-		"ypos"														"30"
+		"xpos"														"85"
+		"ypos"														"55"
 		"zpos"														"-6969"
-		"wide"														"80"
+		"wide"														"81"
 		"tall"														"42"
 		"autoResize"												"0"
 		"pinCorner"													"0"
@@ -60,8 +60,8 @@
 		"xpos"														"0"
 		"ypos"														"0"
 		"zpos"														"6"
-		"wide"														"100"
-		"tall"														"100"
+		"wide"														"250"
+		"tall"														"150"
 		"font"														"bh_Font40"
 		"fgcolor"													"bh_Health"
 		"textAlignment"												"center"
@@ -74,8 +74,8 @@
 		"xpos"														"1"
 		"ypos"														"1"
 		"zpos"														"1"
-		"wide"														"100"
-		"tall"														"100"
+		"wide"														"250"
+		"tall"														"150"
 		"visible"													"1"
 		"enabled"													"1"
 		"labelText"													"%Health%"
@@ -86,8 +86,8 @@
 	
 	"PlayerStatusHealthBonusImage"
 	{
-		"xpos"														"33"
-		"ypos"														"34"
+		"xpos"														"108"
+		"ypos"														"59"
 		"zpos"														"-10"
 		"wide"														"34"
 		"tall"														"34"

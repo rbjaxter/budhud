@@ -41,4 +41,9 @@
 		"border_default"											"bh_b_NESW"
 		"border_armed"												"bh_b_NESW"
 	}
+	
+	"ExplanationLabel"
+	{
+		"fgcolor_override"											"bh_white"
+	}
 }

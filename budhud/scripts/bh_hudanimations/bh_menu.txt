@@ -1,27 +1,26 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Main menu animations
 	// ============================================================================================== //
-	// New main menu animations
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
-event MMenu_PlayList_Expand
-{
-	Animate			EventPromo				ypos 310							Spline 0 0.3
-	Animate 		PlayListContainer		Tall 325							Spline 0.0 0.3
-
-	FireCommand		0						"soundentry Panel.SlideDown"
-}
-
-event MMenu_PlayList_Collapse
-{
-	Animate 		EventPromo				ypos 600							Spline 0 0.3
-	Animate			PlayListContainer		Tall 0								Spline 0 0.3
-
-	FireCommand 	0						"soundentry Panel.SlideUp"
-}
-
-event MMenu_PlayList_Collapse_Immediate
-{
-	Animate 		EventPromo				ypos 600							Spline 0 0
-	Animate			PlayListContainer		Tall 0								Spline 0 0
-}
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// New item notification animations
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	event HasNotificationsBlink
+	{
+		Animate	Notifications_ShowButtonPanel_SB 			Alpha		"255"		Spline 		0.0 0.2
+		Animate	Notifications_ShowButtonPanel_SB 			Alpha		"0"			Spline		0.2 0.2
+		RunEvent HasNotificationsBlinkLoop					0.5
+	}
+	
+	event HasNotificationsBlinkLoop
+	{
+		RunEvent HasNotificationsBlink						0.0
+	}
+	
+	event HasNotificationsBlinkStop
+	{
+		StopEvent HasNotificationsBlink						0.0
+		StopEvent HasNotificationsBlinkLoop 				0.0
+		Animate	Notifications_ShowButtonPanel_SB 			Alpha		"255"		Linear		0.0 0.1
+	}
