@@ -4,7 +4,8 @@
 {
 	"CasualCriteria"
 	{
-		"bgcolor_override"											"bh_BGDarker"
+		"bgcolor_override"											"bh_blank"
+		"border"													"ReplayGrayDialogBorder"
 	}
 	
 	"Title"

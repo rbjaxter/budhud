@@ -2,6 +2,12 @@
 
 "Resource/UI/MatchMakingPingPanel.res"
 {
+	"PingPanel"
+	{
+		"bgcolor_override"											"bh_blank"
+		"border"													"ReplayGrayDialogBorder"
+	}
+	
 	"Title"
 	{
 		"fgcolor_override"											"bh_white"

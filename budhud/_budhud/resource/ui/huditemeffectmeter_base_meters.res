@@ -11,7 +11,7 @@
 	}
 
 	HudItemEffectMeter
-	{
+	{	
 		"fieldName"													"HudItemEffectMeter"
 		"visible"													"1"
 		"enabled"													"1"

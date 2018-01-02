@@ -84,16 +84,16 @@ Scheme
 	//	"bh_MainMenu2"												"240 134 049 255"	// Orange
 	
 	// January
-	//	"bh_MainMenu1"												"186 085 211 255"	// Medium Orchid
-	//	"bh_MainMenu2"												"147 112 219 255"	// Medium Purple
+		"bh_MainMenu1"												"186 085 211 255"	// Medium Orchid
+		"bh_MainMenu2"												"070 130 180 255"	// Steel Blue
 	
 	// October
 	//	"bh_MainMenu1"												"124 016 173 255"	// Spooky Purple
 	//	"bh_MainMenu2"												"241 088 002 255"	// Spooky Orange
 		
 	// December
-		"bh_MainMenu1"												"194 023 023 255"	// Dark Red
-		"bh_MainMenu2"												"060 141 013 255"	// Dark Green
+	//	"bh_MainMenu1"												"194 023 023 255"	// Dark Red
+	//	"bh_MainMenu2"												"060 141 013 255"	// Dark Green
 
 	// Stats - Default
 	//	"bh_bar1"													"150 150 150 255"
@@ -118,15 +118,26 @@ Scheme
 	//	"bh_bar9"													"241 088 002 255"
 	
 	// December
-		"bh_bar1"													"060 141 013 255"		// Dark Green
-		"bh_bar2"													"194 023 023 255"		// Dark Red
-		"bh_bar3"													"060 141 013 255"		// Dark Green
-		"bh_bar4"													"194 023 023 255"		// Dark Red
-		"bh_bar5"													"060 141 013 255"		// Dark Green
-		"bh_bar6"													"194 023 023 255"		// Dark Red
-		"bh_bar7"													"060 141 013 255"		// Dark Green
-		"bh_bar8"													"194 023 023 255"		// Dark Red
-		"bh_bar9"													"060 141 013 255"		// Dark Green
+	//	"bh_bar1"													"060 141 013 255"
+	//	"bh_bar2"													"194 023 023 255"
+	//	"bh_bar3"													"060 141 013 255"
+	//	"bh_bar4"													"194 023 023 255"
+	//	"bh_bar5"													"060 141 013 255"
+	//	"bh_bar6"													"194 023 023 255"
+	//	"bh_bar7"													"060 141 013 255"
+	//	"bh_bar8"													"194 023 023 255"
+	//	"bh_bar9"													"060 141 013 255"
+		
+	// January
+		"bh_bar1"													"186 085 211 255"
+		"bh_bar2"													"070 130 180 255"
+		"bh_bar3"													"186 085 211 255"
+		"bh_bar4"													"070 130 180 255"
+		"bh_bar5"													"186 085 211 255"
+		"bh_bar6"													"070 130 180 255"
+		"bh_bar7"													"186 085 211 255"
+		"bh_bar8"													"070 130 180 255"
+		"bh_bar9"													"186 085 211 255"
 			
 	// budhud core colors
 		"bh_white"													"255 255 255 255"

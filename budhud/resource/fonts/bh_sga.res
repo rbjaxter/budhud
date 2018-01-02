@@ -45,12 +45,12 @@ Scheme
         {
             "1"
             {
-                "name"         "Standard Galactic Alphabet"
-                "tall"         "12"
-                "weight"     "0"
-                "outline"     "0"
-                "additive"     "0"
-                "antialias"  "1"
+                "name"												"Standard Galactic Alphabet"
+                "tall"												"12"
+                "weight"											"0"
+                "outline"											"0"
+                "additive"											"0"
+                "antialias"											"1"
             }
         }	
 	

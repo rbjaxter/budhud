@@ -1,8 +1,8 @@
 #base "MatchMakingDashboardSidePanel.res"
 
-"Resource/UI/MatchMakingDashboardMvMCriteria.res"
+"Resource/UI/MatchMakingDashboardCompAccess.res"
 {
-	"MVMCriteria"
+	"CompAccess"
 	{
 		"bgcolor_override"											"bh_blank"
 		"border"													"ReplayGrayDialogBorder"

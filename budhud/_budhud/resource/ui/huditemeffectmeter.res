@@ -6,8 +6,7 @@
 	// ============================================================================================== //
 	// Scout	-	Sandman, Wrap Assassin
 	// Soldier	-	Buff Banner, Battalion's Backup, Concheror
-	// Pyro		-	Phlogistinator
-	// Heavy	-	Sandvich, Buffalo Steak Sandvich,
+	// Heavy	-	Sandvich, Buffalo Steak Sandvich
 	// Sniper	-	Jarate
 	// Spy		-	Invis Watch, Clock and Dagger, Dead Ringer
 	////////////////////////////////////////////////////////////////////////////////////////////////////

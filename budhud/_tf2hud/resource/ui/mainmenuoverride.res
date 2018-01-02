@@ -218,7 +218,7 @@
 		}
 		disabled_christmas
 		{
-			"image"		"../console/background_xmas2011_widescreen"
+			"image"		"../console/title_team_smissmas_2017_widescreen"
 		}
 		disabled_jungle_inferno_0
 		{
@@ -269,6 +269,10 @@
 		{	
 			"image"		"../logo/scream_fortress2017_logo"
 		}
+		disabled_christmas
+		{	
+			"image"		"../logo/smissmas2017_logo"
+		}
 	}	
 
 	"JungleInfernoImage"
@@ -309,6 +313,10 @@
 		disabled_halloween_5
 		{	
 			"image"		"../logo/inferno_logo_green_anim"
+		}
+		disabled_christmas
+		{	
+			"image"		"../logo/inferno_logo_white_anim"
 		}
 	}	
 	
@@ -1688,67 +1696,52 @@
 					}
 					"1"
 					{
-						"item"		"Abominable Cosmetic Key"
+						"item"		"Winter 2017 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"2"
 					{
-						"item"		"Abominable Cosmetic Case"
+						"item"		"Winter 2017 Cosmetic Case"
 						"show_market"	"1"
 					}
 					"3"
 					{
-						"item"		"Unleash the Beast Cosmetic Key"
+						"item"		"Winter 2017 War Paint Key"
 						"show_market"	"0"
 					}
 					"4"
 					{
-						"item"		"Unleash the Beast Cosmetic Case"
+						"item"		"Winter 2017 War Paint Case"
 						"show_market"	"1"
 					}
 					"5"
 					{
-						"item"		"Jungle Jackpot War Paint Key"
+						"item"		"Taunt: The Bunnyhopper"
 						"show_market"	"0"
 					}
 					"6"
 					{
-						"item"		"Jungle Jackpot War Paint Case"
-						"show_market"	"1"
+						"item"		"Taunt: The Skating Scorcher"
+						"show_market"	"0"
 					}
 					"7"
 					{
-						"item"		"Infernal Reward War Paint Key"
+						"item"		"Taunt: Surgeon's Squeezebox"
 						"show_market"	"0"
 					}
 					"8"
 					{
-						"item"		"Infernal Reward War Paint Case"
-						"show_market"	"1"
+						"item"		"Taunt: The Trackman's Touchdown"
+						"show_market"	"0"
 					}
 					"9"
 					{
-						"item"		"Taunt: The Dueling Banjo"
+						"item"		"Taunt: Luxury Lounge"
 						"show_market"	"0"
 					}
 					"10"
 					{
-						"item"		"Taunt: The Russian Arms Race"
-						"show_market"	"0"
-					}
-					"11"
-					{
-						"item"		"Taunt: The Soviet Strongarm"
-						"show_market"	"0"
-					}
-					"12"
-					{
-						"item"		"Taunt: The Jumping Jack"
-						"show_market"	"0"
-					}
-					"13"
-					{
-						"item"		"Taunt: The Headcase"
+						"item"		"Taunt: Runner's Rhythm"
 						"show_market"	"0"
 					}
 				}

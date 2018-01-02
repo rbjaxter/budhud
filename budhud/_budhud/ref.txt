@@ -3,19 +3,10 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Formatting Guidelines / Todo
+	// "Close" Buttons
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-		1. Convert all RGBA values to three number format
-		2. 100 forward slashes. always
-		3. All charge meters: wide 100 tall 6
-		4. Convert PIN_TOPLEFT to PIN_TOPCENTER
-		5. Indent to column 69
-		6. Move off-screen: y-pos r-6969
-
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// budhud Defaults
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Close buttons (no text)
+	// No text
+		
 		"CloseButton"
 		{
 			"image_drawcolor"										"255 255 255 255"
@@ -26,8 +17,47 @@
 				"image"												"replay\thumbnails\close"
 			}
 		}
+		
+	// Text, standard button
+	
+	"bh_Back"
+	{
+		"ControlName"												"CExButton"
+		"fieldName"													"bh_Back"
+		"xpos"														"c-300"
+		"ypos"														"437"
+		"zpos"														"2"
+		"wide"														"100"
+		"tall"														"25"
+		"autoResize"												"0"
+		"pinCorner"													"3"
+		"visible"													"1"
+		"enabled"													"1"
+		"tabPosition"												"0"
+		"labelText"													"#bh_Back_QK"
+		"font"														"HudFontSmallBold"
+		"textAlignment"												"center"
+		"dulltext"													"0"
+		"brighttext"												"0"
+		"default"													"1"
+		"Command"													"close"
+		"sound_depressed"											"UI/buttonclick.wav"
+		"sound_released"											"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"									"bh_ButtonBGDefault"
+		"armedBgColor_override"										"bh_ButtonBGArmed"
+		"depressedBgColor_override"									"bh_ButtonBGDepressed"
+		"defaultFgColor_override"									"bh_ButtonDefault"
+		"armedFgColor_override" 									"bh_ButtonArmed"
+		"depressedFgColor_override" 								"bh_ButtonDepressed"
+		"border_default"											"bh_b_NESW"
+		"border_armed"												"bh_b_NESW"
+	}
 
-	// Buttons
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Button colors
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+		
 		"defaultFgColor_override"									"bh_ButtonDefault"
 		"armedFgColor_override" 									"bh_ButtonArmed"
 		"depressedFgColor_override" 								"bh_ButtonDepressed"
@@ -37,6 +67,11 @@
 		"border_default"											"bh_b_NESW"
 		"border_armed"												"bh_b_NESW"
 		
+		// Button Colors
+		"image_drawcolor"										"255 255 255 255"
+		"image_armedcolor"										"240 134 49 255"
+		
+	
 	// Pins / Anchors
 	// Pinned element moves relative to anchor in the inverse.
 

@@ -61,5 +61,5 @@
 	"TournamentConditionLabel"
 	{
 		"ypos"														"r-6969"
-	}	
+	}
 }

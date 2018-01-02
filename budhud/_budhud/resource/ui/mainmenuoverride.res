@@ -633,7 +633,7 @@
 			"paintbackground"										"0"
 			
 			"image_drawcolor"										"255 255 255 255"
-			"image_armedcolor"										"194 023 023 255"		// 240 134 49 255
+			"image_armedcolor"										"255 255 000 255"		// 240 134 49 255
 
 			"SubImage"
 			{
@@ -647,7 +647,7 @@
 				"visible"											"1"
 				"enabled"											"1"
 				"scaleImage"										"1"
-				"image"												"replay\thumbnails\present"
+				"image"												"replay\thumbnails\fireworks"
 			}
 		}
 	}	
@@ -694,7 +694,7 @@
 			"paintbackground"										"0"
 			
 			"image_drawcolor"										"255 255 255 255"
-			"image_armedcolor"										"060 141 013 255"		// 240 134 49 255
+			"image_armedcolor"										"255 255 000 255"		// 240 134 49 255
 
 			"SubImage"
 			{
@@ -708,7 +708,7 @@
 				"visible"											"1"
 				"enabled"											"1"
 				"scaleImage"										"1"
-				"image"												"replay\thumbnails\present"
+				"image"												"replay\thumbnails\fireworks"
 			}
 		}
 	}
