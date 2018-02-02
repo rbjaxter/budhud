@@ -19,26 +19,26 @@
 		
 		"MedalButton"
 		{
-			"xpos"													"c-75"
+			"xpos"													"c-50"
 			"ypos"													"70"
-			"wide"													"150"
+			"wide"													"100"
 			"tall"													"70"
 		}
 		
 		"AboveModelParticlePanel"
 		{
-			"xpos"													"c-75"
-			"ypos"													"70"
-			"wide"													"150"
-			"tall"													"70"
+			"xpos"													"c-150"
+			"ypos"													"38"
+			"wide"													"300"
+			"tall"													"140"
 		}
 		
 		"BelowModelParticlePanel"
 		{
-			"xpos"													"c-75"
-			"ypos"													"70"
-			"wide"													"150"
-			"tall"													"70"
+			"xpos"													"c-150"
+			"ypos"													"38"
+			"wide"													"300"
+			"tall"													"140"
 		}
 	}
 
@@ -58,7 +58,7 @@
 		"LevelLabel"
 		{
 			"xpos"													"c-75"
-			"ypos"													"120"
+			"ypos"													"125"
 			"wide"													"150"
 			"textalignment"											"center"
 		}

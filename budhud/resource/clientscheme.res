@@ -5,19 +5,18 @@
 	// More will be added in the future
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	#base	"fonts/bh_lato.res"
-//	#base	"fonts/bh_sga.res"
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// User Customization
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	#base	"clientscheme/#users/dane.res"
+	#base	"../#users/dane/resource/dane.res"
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Core HUD
 	////////////////////////////////////////////////////////////////////////////////////////////////////
+	#base	"../#customization/_enabled/bh_colors.res"
 	#base	"clientscheme/bh_crosshairs.res"
 	#base	"clientscheme/bh_borders.res"
-	#base	"clientscheme/bh_colors.res"
 	#base	"clientscheme/bh_general.res"
 	#base	"clientscheme_base.res"
 
@@ -31,8 +30,8 @@ Scheme
 	{
 		"8" // Fog's Crosshairs
 		{
-			"font" "resource/fonts/crosshairs.ttf"
-			"name" "Crosshairs"
+			"font" "resource/fonts/crosshairs-fog.ttf"
+			"name" "Crosshairs Regular"
 		}
 		
 		"9" // Thin Cross
@@ -43,19 +42,19 @@ Scheme
 		
 		"10" // Garm3n's Crosshairs
 		{
-			"font" "resource/fonts/Garm3nFont.ttf"
+			"font" "resource/fonts/crosshairs-garm3n.ttf"
 			"name" "Garm3nFont"
 		}
 		
 		"11" // whayay's Crosshairs
 		{
-			"font"	"resource/fonts/Crosshair.ttf"
+			"font"	"resource/fonts/crosshairs-whayay.ttf"
 			"name"	"Crosshair"
 		}
 		
 		"12" // Knuckle's Crosshairs
 		{
-			"font" "resource/fonts/KnucklesCrosses.ttf"
+			"font" "resource/fonts/crosshairs-knuckles.ttf"
 			"name" "KnucklesCrosses"
 		}
 		
@@ -69,12 +68,6 @@ Scheme
 		{
 			"font"	"resource/fonts/Lato-Semibold.ttf"
 			"name"	"Lato Semibold"
-		}
-		
-		"15" // SGA Font
-		{
-			"font"	"resource/fonts/sga.ttf"
-			"name"	"Standard Galactic Alphabet"
 		}
 	}
 }

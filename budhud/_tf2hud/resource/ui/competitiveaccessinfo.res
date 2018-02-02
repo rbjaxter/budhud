@@ -287,91 +287,91 @@
 				"drawcolor_override"	"0 255 0 255"
 			}
 
-			"AndLabel2"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"AndLabel2"
-				"font"			"HudFontMediumBigBold"
-				"labelText"		"+"
-				"textAlignment"	"center"
-				"xpos"			"p0.65"
-				"ypos"			"0"
-				"wide"			"p0.05"
-				"tall"			"f0"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"fgcolor_override" "TanLight"
-				"proportionaltoparent"	"1"
-			}
-
-			"RankImage"
-			{
-				"ControlName"	"CTFBadgePanel"
-				"fieldName"		"RankImage"
-				"xpos"			"p0.7"
-				"ypos"			"5"
-				"zpos"			"10"
-				"wide"			"p0.3"
-				"tall"			"f0"
-				"visible"		"1"
-				"enabled"		"1"
-				"proportionaltoparent"	"1"
-
-				"BadgePanel"
-				{
-					"ypos"		"10"
-				}
-			}
-
-			"RankButton"
-			{
-				"ControlName"	"CExImageButton"
-				"fieldName"		"RankButton"
-				"xpos"			"p0.7"
-				"ypos"			"0"
-				"zpos"			"11"
-				"wide"			"p0.3"
-				"tall"			"f0"
-				"autoResize"	"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"default"		"1"
-				"labelText"		""
-				"command"		"open_casual"
-				"proportionaltoparent"	"1"
-				"actionsignallevel"	"3"
-			
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-			
-				"paintbackground"	"1"
-			
-				"defaultBgColor_override" "0 0 0 64"
-				"armedBgColor_override" "0 0 0 0"
-			
-				"image_drawcolor"	"200 200 200 255"
-				"image_armedcolor"	"255 255 255 255"
-			}
-
-			"RankCheckImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"RankCheckImage"
-				"xpos"			"p0.85-s0.5"
-				"ypos"			"p0.5-s0.5"
-				"zpos"			"100"
-				"wide"			"20"
-				"tall"			"20"
-				"visible"		"0"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"checkmark"
-				"drawcolor_override"	"0 255 0 255"
-			}
+//			"AndLabel2"
+//			{
+//				"ControlName"	"CExLabel"
+//				"fieldName"		"AndLabel2"
+//				"font"			"HudFontMediumBigBold"
+//				"labelText"		"+"
+//				"textAlignment"	"center"
+//				"xpos"			"p0.65"
+//				"ypos"			"0"
+//				"wide"			"p0.05"
+//				"tall"			"f0"
+//				"autoResize"	"0"
+//				"pinCorner"		"0"
+//				"visible"		"1"
+//				"enabled"		"1"
+//				"fgcolor_override" "TanLight"
+//				"proportionaltoparent"	"1"
+//			}
+//
+//			"RankImage"
+//			{
+//				"ControlName"	"CTFBadgePanel"
+//				"fieldName"		"RankImage"
+//				"xpos"			"p0.7"
+//				"ypos"			"5"
+//				"zpos"			"10"
+//				"wide"			"p0.3"
+//				"tall"			"f0"
+//				"visible"		"1"
+//				"enabled"		"1"
+//				"proportionaltoparent"	"1"
+//
+//				"BadgePanel"
+//				{
+//					"ypos"		"10"
+//				}
+//			}
+//
+//			"RankButton"
+//			{
+//				"ControlName"	"CExImageButton"
+//				"fieldName"		"RankButton"
+//				"xpos"			"p0.7"
+//				"ypos"			"0"
+//				"zpos"			"11"
+//				"wide"			"p0.3"
+//				"tall"			"f0"
+//				"autoResize"	"0"
+//				"visible"		"1"
+//				"enabled"		"1"
+//				"tabPosition"	"0"
+//				"default"		"1"
+//				"labelText"		""
+//				"command"		"open_casual"
+//				"proportionaltoparent"	"1"
+//				"actionsignallevel"	"3"
+//			
+//				"sound_depressed"	"UI/buttonclick.wav"
+//				"sound_released"	"UI/buttonclickrelease.wav"
+//			
+//				"paintbackground"	"1"
+//			
+//				"defaultBgColor_override" "0 0 0 64"
+//				"armedBgColor_override" "0 0 0 0"
+//			
+//				"image_drawcolor"	"200 200 200 255"
+//				"image_armedcolor"	"255 255 255 255"
+//			}
+//
+//			"RankCheckImage"
+//			{
+//				"ControlName"	"ImagePanel"
+//				"fieldName"		"RankCheckImage"
+//				"xpos"			"p0.85-s0.5"
+//				"ypos"			"p0.5-s0.5"
+//				"zpos"			"100"
+//				"wide"			"20"
+//				"tall"			"20"
+//				"visible"		"0"
+//				"enabled"		"1"
+//				"scaleImage"	"1"
+//				"proportionaltoparent"	"1"
+//				"image"			"checkmark"
+//				"drawcolor_override"	"0 255 0 255"
+//			}
 		}
 
 		"Option2Label"

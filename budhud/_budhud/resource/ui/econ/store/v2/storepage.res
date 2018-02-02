@@ -52,7 +52,7 @@
 				}
 			}
 			
-			"demoman"
+			"demo"
 			{
 				"image_default"										"replay\thumbnails\class_icons\leaderboard_demoman"
 				"image_armed"										"replay\thumbnails\class_icons\leaderboard_demoman"
