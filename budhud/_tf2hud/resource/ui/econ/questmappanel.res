@@ -887,7 +887,7 @@
 					{
 						"0"
 						{
-							"item"		"Unused Campaign 3 Pass"
+							"item"		"Jungle Inferno Contracts Pass"
 							"show_market"	"0"
 						}
 					}

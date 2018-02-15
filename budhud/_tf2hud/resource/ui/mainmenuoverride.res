@@ -218,106 +218,24 @@
 		}
 		disabled_christmas
 		{
-			"image"		"../console/title_team_smissmas_2017_widescreen"
-		}
-		disabled_jungle_inferno_0
-		{
-			"image"		"../console/title_team_jungle_inferno_2017_widescreen"
-		}
-		disabled_jungle_inferno_1
-		{
-			"image"		"../console/title_pyro_jungle_inferno_2017_widescreen"
-		}
+			"image"		"../console/background_xmas2011_widescreen"
+		}		
 	}
 					
 	"TFLogoImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c-260"
-		"ypos"			"10"
-		"zpos"			"-53"
-		"wide"			"o2"
-		"tall"			"105"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"		"../logo/jungle_inferno_logo"
-		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
-		 
-		disabled_halloween_0
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		disabled_halloween_1
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		disabled_halloween_2
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		disabled_halloween_3
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		disabled_halloween_4
-		{	
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		disabled_halloween_5
-		{	
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		disabled_christmas
-		{	
-			"image"		"../logo/smissmas2017_logo"
-		}
-	}	
-
-	"JungleInfernoImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"JungleInfernoImage"
-		"xpos"			"c-290+64"
-		"ypos"			"64"
+		"xpos"			"c-290"
+		"ypos"			"32"
 		"zpos"			"1"
-		"wide"			"o4"
-		"tall"			"32"
+		"wide"			"256"
+		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"		"../logo/inferno_logo_anim"
+		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
-
-		disabled_halloween_0
-		{
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		disabled_halloween_1
-		{
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		disabled_halloween_2
-		{
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		disabled_halloween_3
-		{
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		disabled_halloween_4
-		{	
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		disabled_halloween_5
-		{	
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		disabled_christmas
-		{	
-			"image"		"../logo/inferno_logo_white_anim"
-		}
 	}	
 	
 	"TFCharacterImage"
@@ -325,15 +243,6 @@
 		// "ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
 		"xpos"			"c-250"
-
-		disabled_taller
-		{
-			disabled_operation
-			{
-				"xpos"		"c-300"
-			}
-		}
-
 		"ypos"			"-80"
 		"zpos"			"-99"
 		"wide"			"600"
@@ -1691,7 +1600,7 @@
 				{
 					"0"
 					{
-						"item"		"Unused Campaign 3 Pass"
+						"item"		"Jungle Inferno Contracts Pass"
 						"show_market"	"0"
 					}
 					"1"
@@ -1701,49 +1610,30 @@
 					}
 					"2"
 					{
-						"item"		"Winter 2017 Cosmetic Case"
-						"show_market"	"1"
-					}
+						"item"		"Winter 2017 War Paint Key"
+						"show_market"	"0"
+					}					
 					"3"
 					{
-						"item"		"Winter 2017 War Paint Key"
+						"item"		"Abominable Cosmetic Key"
 						"show_market"	"0"
 					}
 					"4"
 					{
-						"item"		"Winter 2017 War Paint Case"
-						"show_market"	"1"
+						"item"		"Unleash the Beast Cosmetic Key"
+						"show_market"	"0"
 					}
 					"5"
 					{
-						"item"		"Taunt: The Bunnyhopper"
+						"item"		"Jungle Jackpot War Paint Key"
 						"show_market"	"0"
-					}
+					}					
 					"6"
 					{
-						"item"		"Taunt: The Skating Scorcher"
+						"item"		"Infernal Reward War Paint Key"
 						"show_market"	"0"
-					}
-					"7"
-					{
-						"item"		"Taunt: Surgeon's Squeezebox"
-						"show_market"	"0"
-					}
-					"8"
-					{
-						"item"		"Taunt: The Trackman's Touchdown"
-						"show_market"	"0"
-					}
-					"9"
-					{
-						"item"		"Taunt: Luxury Lounge"
-						"show_market"	"0"
-					}
-					"10"
-					{
-						"item"		"Taunt: Runner's Rhythm"
-						"show_market"	"0"
-					}
+					}					
+
 				}
 			}
 

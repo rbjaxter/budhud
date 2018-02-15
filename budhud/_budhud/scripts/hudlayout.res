@@ -301,23 +301,25 @@
 		"wide" 														"145"
 		"tall" 														"400"
 
-		"item_wide"													"135"
+		"item_wide"													"110"
 		
 		"show_avatar"												"1"
-
+		"avatar_xpos"												"0"
+		
 		"show_dead_icon"											"1"
-		"dead_xpos"													"1"
+		"dead_xpos"													"83"		// 95
 		"dead_ypos"													"2"
 		"dead_wide"													"12"
 		"dead_tall"													"12"
 
 		"show_voice_icon"											"1"
 		"icon_ypos"													"2"
-		"icon_xpos"													"2"
+		"icon_xpos"													"95"
 		"icon_tall"													"12"
 		"icon_wide"													"12"
 
-		"text_xpos"													"45"
+		"text_xpos"													"30"
+		"text_wide"													"86"
 	}
 
 	HudHintDisplay
