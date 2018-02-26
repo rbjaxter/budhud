@@ -26,7 +26,10 @@
 	
 	"HTMLMessage"
 	{
-		"ypos"														"r-6969"
+		"xpos"														"c-201"
+		"ypos"														"c-175"
+		"wide"														"402"
+		"tall"														"286"
 	}
 	
 	"ok"
@@ -39,7 +42,7 @@
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_Continue"
 		"xpos"														"c-50"
-		"ypos"														"c150"
+		"ypos"														"c164"
 		"zpos"														"20"
 		"wide"														"100"
 		"tall"														"26"
