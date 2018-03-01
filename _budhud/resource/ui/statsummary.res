@@ -205,34 +205,34 @@
 
 	"OnYourWayLabel"
 	{
-		"xpos"														"c-150"
+		"xpos"														"c-250"
 		"ypos"														"123"
 		"zpos"														"1995"
 		"font"														"bh_Font24"
 		"fgcolor_override"											"bh_orange"
-		"wide"														"300"
+		"wide"														"500"
 		"tall"														"100"
 	}
 	
 	"MapLabel"
 	{
-		"xpos"														"c-150"
+		"xpos"														"c-250"
 		"ypos"														"173"
 		"zpos"														"1995"
 		"font"														"bh_Font32"
 		"fgcolor_override"											"bh_white"
-		"wide"														"300"
+		"wide"														"500"
 		"tall"														"100"
 	}
 	
 	"MapType"
 	{
-		"xpos"														"c-150"
+		"xpos"														"c-250"
 		"ypos"														"223"
 		"zpos"														"1995"
 		"font"														"bh_Font24"
 		"fgcolor_override"											"bh_white"
-		"wide"														"300"
+		"wide"														"500"
 		"tall"														"100"
 	}
 }
