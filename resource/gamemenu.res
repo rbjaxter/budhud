@@ -142,7 +142,7 @@
 		"label"			"Call Vote"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
-		"subimage" 		"replay/thumbnails/callvote"
+		"subimage" 		"replay/thumbnails/menu_icons/callvote"
 		"tooltip" 		"#MMenu_CallVote"
 	}
 
@@ -151,7 +151,7 @@
 		"label"			"Mute Idiots"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
-		"subimage"		"replay/thumbnails/muteplayers"
+		"subimage"		"replay/thumbnails/menu_icons/muteplayers"
 		"tooltip" 		"#MMenu_MutePlayers"
 	}
 
@@ -160,7 +160,7 @@
 		"label"			"Request Coach"
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
-		"subimage" 		"replay/thumbnails/callcoach"
+		"subimage" 		"replay/thumbnails/menu_icons/callcoach"
 		"tooltip" 		"#MMenu_RequestCoach"
 	}
 
@@ -169,7 +169,7 @@
 		"label"			"Report Player"
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
-		"subimage"		"replay/thumbnails/report"
+		"subimage"		"replay/thumbnails/menu_icons/reportplayer"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }
