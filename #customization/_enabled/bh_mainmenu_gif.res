@@ -1,6 +1,5 @@
 "Resource/UI/MainMenuOverride.res"
 {
-
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Excluding this breaks things
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -27,7 +26,7 @@
 		"visible"													"1"
 		"enabled"													"1"
 		"paintborder"												"0"
-		"image"														"replay\thumbnails\menugif"
+		"image"														"replay\thumbnails\menu_icons\menugif"
 		"scaleImage"												"1"
 	}
 }

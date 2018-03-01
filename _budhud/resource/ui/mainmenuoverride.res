@@ -300,7 +300,7 @@
 			
 			"SubImage"
 			{
-				"image"												"replay\thumbnails\close"
+				"image"												"replay\thumbnails\menu_icons\close"
 			}
 		}
 	}	
@@ -328,7 +328,7 @@
 			
 			"SubImage"
 			{
-				"image"												"replay\thumbnails\close"
+				"image"												"replay\thumbnails\menu_icons\close"
 			}
 		}
 		
@@ -378,7 +378,7 @@
 				"ypos"												"11"
 				"wide"												"10"
 				"tall"												"10"
-				"image"												"replay\thumbnails\newnotification"
+				"image"												"replay\thumbnails\menu_icons\newnotification"
 			}
 		}
 	}
@@ -445,7 +445,7 @@
 				"visible"											"1"
 				"enabled"											"1"
 				"scaleImage"										"1"
-				"image"												"replay\thumbnails\streams"
+				"image"												"replay\thumbnails\menu_icons\streams"
 				"scaleImage"										"1"
 			}				
 		}
@@ -513,7 +513,7 @@
 				"visible"											"1"
 				"enabled"											"1"
 				"scaleImage"										"1"
-				"image"												"replay\thumbnails\contracts"
+				"image"												"replay\thumbnails\menu_icons\contracts"
 				"scaleImage"										"1"
 			}				
 		}
@@ -581,7 +581,7 @@
 				"visible"											"1"
 				"enabled"											"1"
 				"scaleImage"										"1"
-				"image"												"replay\thumbnails\news"
+				"image"												"replay\thumbnails\menu_icons\news"
 				"scaleImage"										"1"
 			}				
 		}
@@ -647,7 +647,7 @@
 				"visible"											"1"
 				"enabled"											"1"
 				"scaleImage"										"1"
-				"image"												"replay\thumbnails\heart"
+				"image"												"replay\thumbnails\menu_icons\heart"
 			}
 		}
 	}	
@@ -708,7 +708,7 @@
 				"visible"											"1"
 				"enabled"											"1"
 				"scaleImage"										"1"
-				"image"												"replay\thumbnails\heart"
+				"image"												"replay\thumbnails\menu_icons\heart"
 			}
 		}
 	}
@@ -961,7 +961,7 @@
 				"tall"												"18"
 				"visible"											"1"
 				"enabled"											"1"
-				"image"												"replay\thumbnails\demoui"
+				"image"												"replay\thumbnails\menu_icons\demoui"
 				"scaleImage"										"1"
 			}				
 		}
@@ -1027,7 +1027,7 @@
 				"tall"												"18"
 				"visible"											"1"
 				"enabled"											"1"
-				"image"												"replay\thumbnails\createserver"
+				"image"												"replay\thumbnails\menu_icons\createserver"
 				"scaleImage"										"1"
 			}				
 		}
@@ -1069,7 +1069,7 @@
 				"ypos"												"4"
 				"wide"												"18"
 				"tall"												"18"
-				"image"												"replay\thumbnails\callcoach"
+				"image"												"replay\thumbnails\menu_icons\callcoach"
 			}				
 		}
 	}	
@@ -1110,7 +1110,7 @@
 				"ypos"												"4"
 				"wide"												"18"
 				"tall"												"18"
-				"image"												"replay\thumbnails\report"
+				"image"												"replay\thumbnails\menu_icons\reportplayer"
 			}				
 		}
 	}
@@ -1151,7 +1151,7 @@
 				"ypos"												"4"
 				"wide"												"18"
 				"tall"												"18"
-				"image"												"replay\thumbnails\callvote"
+				"image"												"replay\thumbnails\menu_icons\callvote"
 			}				
 		}
 	}
@@ -1192,7 +1192,7 @@
 				"ypos"												"4"
 				"wide"												"18"
 				"tall"												"18"
-				"image"												"replay\thumbnails\muteplayers"
+				"image"												"replay\thumbnails\menu_icons\muteplayers"
 			}				
 		}
 	}
@@ -1257,7 +1257,7 @@
 				"tall"												"18"
 				"visible"											"1"
 				"enabled"											"1"
-				"image"												"replay\thumbnails\achievements"
+				"image"												"replay\thumbnails\menu_icons\achievements"
 				"scaleImage"										"1"
 			}				
 		}
@@ -1323,7 +1323,7 @@
 				"tall"												"18"
 				"visible"											"1"
 				"enabled"											"1"
-				"image"												"replay\thumbnails\beacoach"
+				"image"												"replay\thumbnails\menu_icons\beacoach"
 				"scaleImage"										"1"
 			}				
 		}
@@ -1389,7 +1389,7 @@
 				"tall"												"18"
 				"visible"											"1"
 				"enabled"											"1"
-				"image"												"replay\thumbnails\training"
+				"image"												"replay\thumbnails\menu_icons\training"
 				"scaleImage"										"1"
 			}				
 		}
@@ -1455,7 +1455,7 @@
 				"tall"												"18"
 				"visible"											"1"
 				"enabled"											"1"
-				"image"												"replay\thumbnails\workshop"
+				"image"												"replay\thumbnails\menu_icons\workshop"
 				"scaleImage"										"1"
 			}				
 		}
@@ -1521,7 +1521,7 @@
 				"tall"												"18"
 				"visible"											"1"
 				"enabled"											"1"
-				"image"												"replay\thumbnails\console"
+				"image"												"replay\thumbnails\menu_icons\console"
 				"scaleImage"										"1"
 			}				
 		}
@@ -1587,7 +1587,7 @@
 				"tall"												"18"
 				"visible"											"1"
 				"enabled"											"1"
-				"image"												"replay\thumbnails\taunts"
+				"image"												"replay\thumbnails\menu_icons\taunts"
 				"scaleImage"										"1"
 			}				
 		}

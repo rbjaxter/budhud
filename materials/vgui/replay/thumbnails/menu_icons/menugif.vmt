@@ -1,0 +1,19 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	"$baseTexture" "vgui\replay\thumbnails\menu_icons\menugif"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	
+	"Proxies"
+		{
+			"AnimatedTexture"
+			{
+				"animatedtexturevar" "$basetexture"
+				"animatedtextureframenumvar" "$frame"
+				"animatedtextureframerate" 12
+			}
+		}
+}

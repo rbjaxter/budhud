@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
 	"$translucent" 1
-	"$baseTexture" "vgui\replay\thumbnails\fireworks"
+	"$baseTexture" "vgui\replay\thumbnails\menu_icons\callcoach"
    	"$vertexcolor" 		1 
   	"$vertexalpha" 		1 
    	"$nolod" 			1

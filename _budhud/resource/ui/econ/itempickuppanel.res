@@ -149,7 +149,7 @@
 		
 		"SubImage"
 		{
-			"image"													"replay\thumbnails\close"
+			"image"													"replay\thumbnails\menu_icons\close"
 		}
 	}
 	

@@ -29,7 +29,7 @@
 		{
 			"xpos"													"15"
 			"ypos"													"13"
-			"image"													"replay\thumbnails\report"
+			"image"													"replay\thumbnails\menu_icons\reportplayer"
 		}
 	}
 	

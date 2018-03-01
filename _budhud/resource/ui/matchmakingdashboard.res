@@ -21,7 +21,7 @@
 			
 			"SubImage"
 			{
-				"image"													"replay\thumbnails\chat"
+				"image"													"replay\thumbnails\menu_icons\chat"
 			}
 		}
 
