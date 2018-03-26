@@ -2,19 +2,22 @@
 
 "GameMenu" [$WIN32]
 {
-	/////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Add your own favorite servers here.
 	// To do so, you must put a connect string
 	// Example: 
 	// "command"		"engine connect 192.223.26.43:27015; password butts"
+	// ============================================================================================== //
 	// You can also set these up to create a locally-hosted server
 	// Example:
 	// "command"		"engine map tr_walkway_rc2"
+	// ============================================================================================== //
 	// You can also set these up to place you into training mode 
 	// Example: 
-	// "command"    "engine play_training" 
-	// Be sure to leave "label" blank
-	/////////////////////////////////////////////////////////////////////////
+	// "command"    	"engine play_training" 
+	// ============================================================================================== //
+	// NOTE: Be sure to leave "label" blank
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	"bh_Favorite1"
 	{
@@ -23,6 +26,7 @@
 		"OnlyAtMenu" 	"0"
 		"tooltip" 		"jump.tf | Beginners (West)"
 	}
+	
 	"bh_Favorite2"
 	{
 		"label"			""
@@ -44,7 +48,7 @@
 						echo ======================================================;
 						echo ~ Thank you to everyone who actively uses my hud! ~~~~;
 						echo ======================================================;"
-		"tooltip"		"Updated 01 February 2018"
+		"tooltip"		"Updated 01 April 2018"
 	}
 
 	"bh_Streams"
@@ -135,7 +139,9 @@
 		"tooltip" 		"#bh_TrainingMode"
 	}
 	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// In-game Buttons
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	"CallVoteButton"
 	{

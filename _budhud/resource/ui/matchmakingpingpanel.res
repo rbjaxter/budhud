@@ -21,9 +21,9 @@
 	
 	"InviteModeComboBox"
 	{
-		"defaultBgColor_override"									"bh_blank"
-		"armedBgColor_override"										"bh_blank"
-		"depressedBgColor_override"									"bh_blank"
+		"defaultBgColor_override"									"bh_ButtonBlank"
+		"armedBgColor_override"										"bh_ButtonBlank"
+		"depressedBgColor_override"									"bh_ButtonBlank"
 		"defaultFgColor_override"									"bh_gray"
 		"armedFgColor_override" 									"bh_ButtonArmed"
 		"depressedFgColor_override" 								"bh_ButtonDepressed"	
