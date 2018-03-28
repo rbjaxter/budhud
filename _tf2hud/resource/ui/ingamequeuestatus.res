@@ -28,7 +28,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
-		"radius"		"9"
+		"radius"		"8"
 		"velocity"		"100"
 
 		"fgcolor_override"	"TFOrange"

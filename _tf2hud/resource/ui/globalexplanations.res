@@ -60,12 +60,12 @@
 			"border"		"MainMenuHighlightBorder"
 		
 			"force_close"	"1"
-			"end_x"			"r515"
-			"end_y"			"140"
+			"end_x"			"r280"
+			"end_y"			"100"
 			"end_wide"		"250"
 			"end_tall"		"240"
-			"callout_inparents_x"	"c100"
-			"callout_inparents_y"	"c-000"
+			"callout_inparents_x"	"r200"
+			"callout_inparents_y"	"c-175"
 		
 			"res_file_controls"	"1"
 			"explanation_title"	"#TF_Casual_Explanation_Rank_Title"
@@ -117,11 +117,11 @@
 		
 			"force_close"	"1"
 			"end_x"			"r280"
-			"end_y"			"140"
+			"end_y"			"150"
 			"end_wide"		"250"
 			"end_tall"		"240"
 			"callout_inparents_x"	"r60"
-			"callout_inparents_y"	"c-162"
+			"callout_inparents_y"	"c-135"
 		
 			"res_file_controls"	"1"
 			"explanation_title"	"#TF_Casual_Explanation_SaveMaps_Title"
@@ -210,6 +210,34 @@
 			"res_file_controls"	"1"
 			"explanation_title"	"#TF_Competitive_Welcome_Title"
 			"explanation_body"	"#TF_Competitive_Welcome_SectionOne_Text"	
+			"next_explanation"		"CompVsCasual"	
+		}	
+
+		"EventPlaceholderIntro"
+		{
+			"ControlName"	"CExplanationPopup"
+			"fieldName"		"EventPlaceholderIntro"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"10000"
+			"wide"			"250"
+			"tall"			"20"
+			"visible"		"0"
+			"PaintBackgroundType"	"2"
+			"paintbackground" "0"
+			"border"		"MainMenuHighlightBorder"
+		
+			"force_close"	"1"
+			"end_x"			"r515"
+			"end_y"			"140"
+			"end_wide"		"250"
+			"end_tall"		"240"
+			"callout_inparents_x"	"c100"
+			"callout_inparents_y"	"c-000"
+		
+			"res_file_controls"	"1"
+			"explanation_title"	"#TF_Competitive_Welcome_Title"
+			"explanation_body"	"#TF_EventPlaceholder_Welcome_SectionOne_Text"	
 			"next_explanation"		"CompVsCasual"	
 		}	
 
@@ -1047,4 +1075,60 @@
 		"explanation_title"	"#TF_FindMatchTip_Title"
 		"explanation_body"	"#TF_FindMatchTip_Body"		
 	}	
+
+	"SpecialEvents"
+	{
+		"ControlName"	"CExplanationPopup"
+		"fieldName"		"SpecialEvents"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10000"
+		"wide"			"250"
+		"tall"			"260"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"paintbackground" "0"
+		"border"		"MainMenuHighlightBorder"
+		
+		"force_close"	"0"
+		"end_x"			"r450"
+		"end_y"			"40"
+		"end_wide"		"250"
+		"end_tall"		"240"
+		"callout_inparents_x"	"r140"
+		"callout_inparents_y"	"70"
+
+		"res_file_controls"	"1"
+		"explanation_title"	"#TF_SpecialEvent_Title"
+		"explanation_body"	"#TF_SpecialEvent_Body"		
+
+		"next_explanation"		"SpecialEventsExpiration"	
+	}
+
+	"SpecialEventsExpiration"
+	{
+		"ControlName"	"CExplanationPopup"
+		"fieldName"		"SpecialEventsExpiration"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10000"
+		"wide"			"250"
+		"tall"			"260"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"paintbackground" "0"
+		"border"		"MainMenuHighlightBorder"
+		
+		"force_close"	"0"
+		"end_x"			"r600"
+		"end_y"			"40"
+		"end_wide"		"250"
+		"end_tall"		"240"
+		"callout_inparents_x"	"r270"
+		"callout_inparents_y"	"70"
+
+		"res_file_controls"	"1"
+		"explanation_title"	"#TF_SpecialEventExpiration_Title"
+		"explanation_body"	"#TF_SpecialEventExpiration_Body"		
+	}
 }

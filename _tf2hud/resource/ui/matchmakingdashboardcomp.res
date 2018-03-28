@@ -59,6 +59,23 @@
 		"proportionaltoparent"	"1"
 	}
 
+	"RankTooltipPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankTooltipPanel"
+		"xpos"			"5"
+		"ypos"			"40"
+		"zpos"			"1000"
+		"wide"			"8"
+		"tall"			"8"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+		"image"			"info"
+		"scaleImage"	"1"	
+		"alpha"			"75"
+	}
+
 	"stats"
 	{
 		"fieldName"		"stats"
@@ -69,6 +86,23 @@
 		"tall"			"f80"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
+	}
+
+	"ToolTipButtonHack"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ToolTipButtonHack"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1-8"
+		"zpos"			"101"
+		"wide"			"f20"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"1"
+		"mouseinputenabled"	"1"
+		"eatmouseinput"	"0"	
+		"showtooltipswhenmousedisabled"	"1"
+		"proportionaltoparent" "1"
 	}
 
 	"QueueButton"

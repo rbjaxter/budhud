@@ -1493,6 +1493,24 @@ event HudMatchStatus_ShowMatchStartDoors
 	SetVisible CountdownBG 1 11
 }
 
+event HudMatchStatus_ShowRankMatch
+{
+	// Reset
+	Animate RankUpLabel			ypos 95 Linear 0 0
+	Animate RankUpShadowLabel	ypos 97 Linear 0 0
+	Animate RankUpLabel			alpha 0 Linear 0 0
+	Animate RankUpShadowLabel	alpha 0 Linear 0 0
+
+	Animate RankUpLabel			ypos 80 Deaccel 1 0.2
+	Animate RankUpShadowLabel	ypos 82 Deaccel 1 0.2
+
+	Animate RankUpLabel			alpha 255 Linear 1 0.4
+	Animate RankUpShadowLabel	alpha 255 Linear 1 0.4
+
+	Animate RankUpLabel			alpha 0 Linear 7 0.2
+	Animate RankUpShadowLabel	alpha 0 Linear 7 0.2
+}
+
 event HudMatchStatus_ShowCountdown
 {
 	SetVisible CountdownLabel 1 0
@@ -1712,9 +1730,16 @@ event PvPRankLevelDownModel
 
 event CompetitiveGame_ShowPvPRankPanel
 {
+	Animate RankBorder ypos r0 Linear 0 0
+	Animate RankBorder ypos r65 Bias 0.90 0.2 0.3
+
 	Animate RankPanel ypos r0 Linear 0 0
 	Animate RankPanel ypos r285 Bias 0.90 0.2 0.3
 	RunEventChild RankPanel PvPRankPanelShowXPChange 0
+
+	Animate RankModelPanel ypos r0 Linear 0 0
+	Animate RankModelPanel ypos r1095 Bias 0.90 0.2 0.3
+	RunEventChild RankModelPanel PvPRankPanelShowXPChange 0
 }
 
 event PvPRankPanelShowXPChange

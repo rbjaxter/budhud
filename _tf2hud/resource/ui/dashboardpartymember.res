@@ -64,6 +64,56 @@
 		"drawcolor"	"255 0 0 255"
 	}
 
+	"OutOfDateIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"OutOfDateIcon"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"105"
+		"wide"			"p0.75"
+		"tall"			"p0.75"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"glyph_alert"
+		"scaleImage"	"1"
+		"mouseinputenabled"	"0"
+		"proportionaltoparent"	"1"
+		"drawcolor"	"OrangeDim"
+	}
+
+	"OfflineIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"OfflineIcon"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"105"
+		"wide"			"p0.65"
+		"tall"			"p0.65"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"gc_dc"
+		"scaleImage"	"1"
+		"mouseinputenabled"	"0"
+		"proportionaltoparent"	"1"
+		"drawcolor"	"OrangeDim"
+	}
+
+	"StatusDimmer"
+	{
+		"ControlName"	"Panel"
+		"fieldName"		"StatusDimmer"
+		"xpos"			"1"
+		"ypos"			"1"
+		"zpos"			"104"
+		"wide"			"f2"
+		"tall"			"f2"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"	"0 0 0 240"
+	}
+
 	"InteractButton"
 	{
 		"ControlName"	"CExImageButton"

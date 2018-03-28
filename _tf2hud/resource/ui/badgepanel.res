@@ -25,7 +25,7 @@
 			"angles_x"	"0"
 			"angles_y"	"180"
 			"angles_z"	"0"
-			"origin_x"		"28"
+			"origin_x"		"40"
 			"origin_y"		"0"
 			"origin_z"		"2"
 			"spotlight"	"1"

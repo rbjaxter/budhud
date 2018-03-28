@@ -36,6 +36,32 @@
 		"AnimBlueTeamLabel12v12YPos"		"47"
 		"AnimRedTeamLabel12v12YPos"			"47"
 		"AnimStatsContainer12v12YPos"		"-20"
+
+		disabled_large
+		{
+			"AnimBlueMedalsYPos"				"50"
+			"AnimRedMedalsYPos"					"50"
+		}
+	}
+
+	"RankBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RankBorder"
+		"xpos"			"cs-0.5"
+		"ypos"			"r0"
+		"zpos"			"9000"
+		"wide"			"510"
+		"tall"			"43"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
+		"proportionaltoparent"	"1"
+
+		disabled_uses_xp
+		{
+			"visible"		"1"
+		}
 	}
 
 	"RankPanel"
@@ -44,7 +70,7 @@
 		"fieldName"		"RankPanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"r0"
-		"zpos"			"9999"
+		"zpos"			"9001"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
@@ -52,7 +78,40 @@
 		"mouseinputenabled"	"1"
 
 		"matchgroup"	"MatchGroup_Ladder_6v6"
-		"xp_source_notification_center_x"	"250"
+		"show_name"		"0"
+		"show_sources_when_hidden"	"1"
+		"instantly_update"	"0"
+
+		disabled_uses_placement
+		{
+			"show_model"	"0"
+		}
+
+	}
+
+	"RankModelPanel"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankModelPanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"r1"
+
+		"zpos"			"9002"
+		"wide"			"2000"
+		"tall"			"2000"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+
+		"show_progress"	"0"
+		"instantly_update"	"0"
+
+		disabled_uses_xp
+		{
+			"visible"		"0"
+		}
 	}
 
 	"StatsBgPanel"
@@ -75,7 +134,7 @@
 		"ControlName"			"CDrawingPanel"
 		"fieldName"				"DrawingPanel"
 		"xpos"			"c-320"
-		"ypos"			"c-240"
+		"ypos"			"35"
 		"wide"			"640"
 		"tall"			"480"
 		"zpos"					"60"
