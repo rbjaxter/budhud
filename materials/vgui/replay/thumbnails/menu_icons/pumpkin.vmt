@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	"$baseTexture" "vgui\replay\thumbnails\menu_icons\pumpkin"
+   	"$vertexcolor" 		1 
+  	"$vertexalpha" 		1 
+   	"$nolod" 			1
+}

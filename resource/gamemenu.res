@@ -2,19 +2,22 @@
 
 "GameMenu" [$WIN32]
 {
-	/////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Add your own favorite servers here.
 	// To do so, you must put a connect string
 	// Example: 
 	// "command"		"engine connect 192.223.26.43:27015; password butts"
+	// ============================================================================================== //
 	// You can also set these up to create a locally-hosted server
 	// Example:
 	// "command"		"engine map tr_walkway_rc2"
+	// ============================================================================================== //
 	// You can also set these up to place you into training mode 
 	// Example: 
-	// "command"    "engine play_training" 
-	// Be sure to leave "label" blank
-	/////////////////////////////////////////////////////////////////////////
+	// "command"    	"engine play_training" 
+	// ============================================================================================== //
+	// NOTE: Be sure to leave "label" blank
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	"bh_Favorite1"
 	{
@@ -23,6 +26,7 @@
 		"OnlyAtMenu" 	"0"
 		"tooltip" 		"jump.tf | Beginners (West)"
 	}
+	
 	"bh_Favorite2"
 	{
 		"label"			""
@@ -44,7 +48,7 @@
 						echo ======================================================;
 						echo ~ Thank you to everyone who actively uses my hud! ~~~~;
 						echo ======================================================;"
-		"tooltip"		"Updated 01 February 2018"
+		"tooltip"		"Updated 01 April 2018"
 	}
 
 	"bh_Streams"
@@ -135,14 +139,16 @@
 		"tooltip" 		"#bh_TrainingMode"
 	}
 	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// In-game Buttons
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	"CallVoteButton"
 	{
 		"label"			"Call Vote"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
-		"subimage" 		"replay/thumbnails/callvote"
+		"subimage" 		"replay/thumbnails/menu_icons/callvote"
 		"tooltip" 		"#MMenu_CallVote"
 	}
 
@@ -151,7 +157,7 @@
 		"label"			"Mute Idiots"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
-		"subimage"		"replay/thumbnails/muteplayers"
+		"subimage"		"replay/thumbnails/menu_icons/muteplayers"
 		"tooltip" 		"#MMenu_MutePlayers"
 	}
 
@@ -160,7 +166,7 @@
 		"label"			"Request Coach"
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
-		"subimage" 		"replay/thumbnails/callcoach"
+		"subimage" 		"replay/thumbnails/menu_icons/callcoach"
 		"tooltip" 		"#MMenu_RequestCoach"
 	}
 
@@ -169,7 +175,7 @@
 		"label"			"Report Player"
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
-		"subimage"		"replay/thumbnails/report"
+		"subimage"		"replay/thumbnails/menu_icons/reportplayer"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }

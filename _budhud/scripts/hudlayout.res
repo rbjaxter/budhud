@@ -306,13 +306,13 @@
 		"show_avatar"												"1"
 		"avatar_xpos"												"0"
 		
-		"show_dead_icon"											"1"
+		"show_dead_icon"											"0"
 		"dead_xpos"													"83"		// 95
 		"dead_ypos"													"2"
 		"dead_wide"													"12"
 		"dead_tall"													"12"
 
-		"show_voice_icon"											"1"
+		"show_voice_icon"											"0"
 		"icon_ypos"													"2"
 		"icon_xpos"													"95"
 		"icon_tall"													"12"

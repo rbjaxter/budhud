@@ -262,13 +262,84 @@
 		"zpos"			"-51"
 		"wide"			"1000"
 		"tall"			"1000"
-		"visible"		"1"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
 
 		"show_progress"	"0"
+	}
+
+	"CycleRankTypeButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CycleRankTypeButton"
+		"xpos"			"cs-0.5-44"
+		"ypos"			"cs-0.5-134"
+		"wide"			"15"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"textinsetx"	"25"
+		"labelText"		""
+		"use_proportional_insets" "1"
+		"font"			"HudFontSmallBold"
+		"command"		"open_rank_type_menu"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"vo/null.mp3"
+		"actionsignallevel" "1"
+		"proportionaltoparent"	"1"
+				
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		"paintborder"		"0"
+		"image_drawcolor"	"235 226 202 255"
+		"image_armedcolor"	"255 255 255 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"f2"
+			"tall"			"f2"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+			"keyboardinputenabled" "0"
+		}		
+	}
+
+	"RankTooltipPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankTooltipPanel"
+		"xpos"			"c-285"
+		"ypos"			"99"
+		"zpos"			"-1"
+		"wide"			"8"
+		"tall"			"8"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+		"image"			"info"
+		"scaleImage"	"1"	
+		"alpha"			"75"
 	}
 	
 	"RankPanel"
@@ -280,14 +351,68 @@
 		"zpos"			"-52"
 		"wide"			"320"
 		"tall"			"100"
-		"visible"		"1"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
-		"xp_source_notification_center_x"	"350"
 
 		"show_model"	"0"
+		"show_type"		"1"
+	}
+
+	"NoGCMessage"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"NoGCMessage"
+		"xpos"			"c-290"
+		"ypos"			"94"
+		"zpos"			"-99"
+		"wide"			"260"
+		"tall"			"100"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+		"wrap"			"1"
+		"textinsetx"	"40"
+		"textinsety"	"10"
+
+		"font"			"HudFontSmallestBold"
+		"fgcolor_override"	"TanLight"
+		"labelText"		"#TF_MM_NoGC_Rank"
+		"textAlignment"	"north-west"
+		"use_proportional_insets"	"1"
+	}
+
+	"NoGCImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"NoGCImage"
+		"xpos"			"c-285"
+		"ypos"			"107"
+		"zpos"			"-99"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"gc_dc"
+		"scaleImage"	"1"
+		"proportionaltoparent" "1"
+	}	
+
+	"RankBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RankBorder"
+		"xpos"			"c-290"
+		"ypos"			"94"
+		"zpos"			"-100"
+		"wide"			"260"
+		"tall"			"60"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
+		"proportionaltoparent"	"1"
 	}
 	
 	"TooltipPanel"
@@ -1304,7 +1429,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-10"
 			"zpos"			"501"
-			"wide"			"f20"
+			"wide"			"f10"
 			"tall"			"110"
 			"visible"		"1"	
 			"PaintBackgroundType"	"0"
@@ -1322,7 +1447,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-10"
 			"zpos"			"500"
-			"wide"			"f20"
+			"wide"			"f10"
 			"tall"			"110"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
@@ -1331,12 +1456,12 @@
 			"inset_x"		"10"
 			"inset_y"		"5"
 			"row_gap"		"5"
-			"column_gap"	"20"
+			"column_gap"	"10"
 			"restrict_width"	"0"
 
 			"friendpanel_kv"
 			{
-				"wide"		"100"
+				"wide"		"110"
 				"tall"		"20"
 			}
 
@@ -1380,7 +1505,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-10"
 			"zpos"			"499"
-			"wide"			"f20"
+			"wide"			"f10"
 			"tall"			"110"
 			"visible"		"1"	
 			"PaintBackgroundType"	"0"
@@ -1600,40 +1725,24 @@
 				{
 					"0"
 					{
-						"item"		"Jungle Inferno Contracts Pass"
+						"item"		"Blue Moon Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Winter 2017 Cosmetic Key"
+						"item"		"Jungle Inferno Contracts Pass"
 						"show_market"	"0"
 					}
 					"2"
 					{
+						"item"		"Winter 2017 Cosmetic Key"
+						"show_market"	"0"
+					}
+					"3"
+					{
 						"item"		"Winter 2017 War Paint Key"
 						"show_market"	"0"
 					}					
-					"3"
-					{
-						"item"		"Abominable Cosmetic Key"
-						"show_market"	"0"
-					}
-					"4"
-					{
-						"item"		"Unleash the Beast Cosmetic Key"
-						"show_market"	"0"
-					}
-					"5"
-					{
-						"item"		"Jungle Jackpot War Paint Key"
-						"show_market"	"0"
-					}					
-					"6"
-					{
-						"item"		"Infernal Reward War Paint Key"
-						"show_market"	"0"
-					}					
-
 				}
 			}
 
@@ -1841,11 +1950,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"c-116"
-		"ypos"			"113"
-		"zpos"			"12"
-		"wide"			"26"
-		"tall"			"26"
+		"xpos"			"c-47"
+		"ypos"			"437"
+		"zpos"			"11"
+		"wide"			"30"
+		"tall"			"25"
 		"visible"		"1"
 
 		"navLeft"		"ResumeGameButton"
@@ -1859,8 +1968,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"20"
-			"tall"			"20"
+			"wide"			"p1"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1875,10 +1984,9 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"RoundedCorners"	"5"
 			
-			"border_default"	"MainMenuMiniButtonDefault"
-			"border_armed"		"MainMenuMiniButtonArmed"
-			"paintbackground"	"0"
+			"paintbackground"	"1"
 			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
@@ -1886,20 +1994,23 @@
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
+
+			"proportionaltoparent"	"1"
 			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"4"
-				"ypos"			"4"
+				"xpos"			"5"
+				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
+				"wide"			"15"
+				"tall"			"15"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"glyph_create"
 				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
 			}				
 		}
 	}
@@ -1908,11 +2019,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"c-96"
-		"ypos"			"113"
+		"xpos"			"c-24"
+		"ypos"			"437"
 		"zpos"			"12"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"25"
+		"tall"			"25"
 		"visible"		"1"
 
 		"navLeft"		"ReportPlayerButton"
@@ -1926,8 +2037,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"20"
-			"tall"			"20"
+			"wide"			"p1"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1943,9 +2054,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuMiniButtonDefault"
-			"border_armed"		"MainMenuMiniButtonArmed"
-			"paintbackground"	"0"
+			"border_default"	"MainMenuSubButtonBorder"
+			"paintbackground"	"1"
 			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
@@ -1953,20 +2063,22 @@
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
+			"proportionaltoparent"	"1"
 			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"4"
-				"ypos"			"4"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
+				"wide"			"15"
+				"tall"			"15"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"glyph_create"
 				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
 			}				
 		}
 	}
@@ -1974,11 +2086,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"c-76"
-		"ypos"			"113"
+		"xpos"			"c-1"
+		"ypos"			"437"
 		"zpos"			"12"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"25"
+		"tall"			"25"
 		"visible"		"1"
 
 		"navLeft"		"CallVoteButton"
@@ -1992,8 +2104,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"20"
-			"tall"			"20"
+			"wide"			"p1"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2009,9 +2121,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuMiniButtonDefault"
-			"border_armed"		"MainMenuMiniButtonArmed"
-			"paintbackground"	"0"
+			"border_default"	"MainMenuSubButtonBorder"
+			"paintbackground"	"1"
 			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
@@ -2019,20 +2130,22 @@
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
+			"proportionaltoparent"	"1"
 			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"4"
-				"ypos"			"4"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
+				"wide"			"15"
+				"tall"			"15"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"glyph_create"
 				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
 			}				
 		}
 	}
@@ -2041,11 +2154,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"c-56"
-		"ypos"			"113"
+		"xpos"			"c22"
+		"ypos"			"437"
 		"zpos"			"12"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"25"
+		"tall"			"25"
 		"visible"		"1"
 
 		"navLeft"		"MutePlayersButton"
@@ -2059,8 +2172,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"20"
-			"tall"			"20"
+			"wide"			"p1"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2076,9 +2189,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuMiniButtonDefault"
-			"border_armed"		"MainMenuMiniButtonArmed"
-			"paintbackground"	"0"
+			
+			"paintbackground"	"1"
 			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
@@ -2086,20 +2198,22 @@
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
+			"proportionaltoparent"	"1"
 			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"4"
-				"ypos"			"4"
+				"xpos"			"rs1-5"
+				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
+				"wide"			"15"
+				"tall"			"15"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"glyph_create"
 				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
 			}				
 		}
 	}
@@ -2137,7 +2251,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"c-295"
+		"xpos"			"c-288"
 		"ypos"			"rs1-18"
 		"wide"			"100"
 		"tall"			"26"
@@ -2182,7 +2296,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StoreHasNewItemsImage"
-		"xpos"			"c-100"
+		"xpos"			"c-85"
 		"ypos"			"r50"
 		"zpos"			"13"
 		"wide"			"32"
@@ -2198,7 +2312,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
-		"xpos"			"c-180"
+		"xpos"			"c-165"
 		"ypos"			"rs1-18"
 		"wide"			"100"
 		"tall"			"26"

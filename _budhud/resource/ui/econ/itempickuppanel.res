@@ -140,16 +140,16 @@
 		"xpos"														"c228"
 		"ypos"														"112"
 	
-		"defaultBgColor_override"									"bh_blank"
-		"armedBgColor_override"										"bh_blank"
-		"depressedBgColor_override"									"bh_blank"
+		"defaultBgColor_override"									"bh_ButtonBlank"
+		"armedBgColor_override"										"bh_ButtonBlank"
+		"depressedBgColor_override"									"bh_ButtonBlank"
 		
 		"image_drawcolor"											"255 255 255 255"
 		"image_armedcolor"											"240 134 49 255"		
 		
 		"SubImage"
 		{
-			"image"													"replay\thumbnails\close"
+			"image"													"replay\thumbnails\menu_icons\close"
 		}
 	}
 	

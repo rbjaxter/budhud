@@ -214,6 +214,7 @@ Scheme
 		"bh_isError"												"254 002 209 255"		// Bright pink
 
 		"bh_ButtonDefault"											"255 255 255 255"		// White
+		"bh_ButtonBlank"											"000 000 000 000"
 		"bh_ButtonArmed"											"240 134 049 255"		// Orange
 		"bh_ButtonDepressed"										"255 255 255 255"		// White
 		"bh_ButtonBGDefault"										"015 015 015 255"

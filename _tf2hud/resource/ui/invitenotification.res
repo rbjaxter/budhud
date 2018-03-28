@@ -3,7 +3,7 @@
 	"InviteNotification"
 	{
 		"fieldName"		"InviteNotification"
-		"zpos"			"1"
+		"zpos"			"1001"
 		"wide"			"200"
 		"tall"			"35"
 		"visible"		"1"

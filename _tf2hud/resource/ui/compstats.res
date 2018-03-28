@@ -12,12 +12,53 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
+		"RankImage"
+		{
+			"ControlName"	"CTFLocalPlayerBadgePanel"
+			"fieldName"		"RankImage"
+			"xpos"			"-8"
+			"ypos"			"-15"
+			"zpos"			"110"
+			"wide"			"o1"
+			"tall"			"70"
+			"visible"		"1"
+			"enabled"		"1"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+
+			"matchgroup"	"MatchGroup_Ladder_6v6"
+		}
+	
+		"RankPanel"
+		{
+			"ControlName"	"CPvPRankPanel"
+			"fieldName"		"RankPanel"
+			"xpos"			"-75"
+			"ypos"			"-35"
+			"zpos"			"100"
+			"wide"			"320"
+			"tall"			"100"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+
+			"matchgroup"	"MatchGroup_Ladder_6v6"
+
+			"show_model"	"0"
+			"show_name"		"0"
+
+			"BGBorder"
+			{
+				"visible"	"0"
+			}
+		}
+
 		"ShowLeaderboardsButton"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"ShowLeaderboardsButton"
 			"xpos"			"rs1-10"
-			"ypos"			"6"
+			"ypos"			"40"
 			"zpos"			"0"
 			"wide"			"p0.45"
 			"tall"			"15"
@@ -41,7 +82,7 @@
 			"ControlName"	"Button"
 			"fieldName"		"ShowMatchHistoryButton"
 			"xpos"			"10"
-			"ypos"			"6"
+			"ypos"			"40"
 			"zpos"			"0"
 			"wide"			"p0.45"
 			"tall"			"15"
@@ -59,16 +100,15 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 
-
 		"PlaylistBGPanel"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"PlaylistBGPanel"
 			"xpos"			"cs-0.5"
-			"ypos"			"0"
+			"ypos"			"35"
 			"zpos"			"-1"
 			"wide"			"p0.98"
-			"tall"			"p1"
+			"tall"			"p1-200"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			//"border"		"MainMenuBGBorder"
@@ -283,7 +323,7 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"40"
 				"wide"			"p0.95"
-				"tall"			"p0.84"
+				"tall"			"p0.78"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"restrict_width" "0"
@@ -327,7 +367,7 @@
 				"ControlName"	"CLadderLobbyLeaderboard"
 				"fieldName"		"Leaderboard"
 				"xpos"			"cs-0.5"
-				"ypos"			"25"
+				"ypos"			"7"
 				"wide"			"p0.95"
 				"tall"			"p0.89"
 				"tall"			"f20"
