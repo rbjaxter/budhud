@@ -2,7 +2,7 @@
 {
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// TRANSPARENT VIEWMODELS (only works for dx9 users)
-	// See:  for instructions
+	// See: https://github.com/rbjaxter/budhud/wiki/Customization#transparent-viewmodels for instructions
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	"TransparentViewmodelMask"
@@ -16,7 +16,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/#transparentviewmodels_windows"
+		"image"			"replay/thumbnails/overlays/transparentviewmodels_windows"
 		"scaleImage"	"1"
 	}
 }
