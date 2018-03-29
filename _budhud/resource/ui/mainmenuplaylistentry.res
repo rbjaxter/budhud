@@ -1,5 +1,10 @@
 "Resource/UI/MainMenuPlayListEntry.res"
 {
+	"PlayListDropShadow"
+	{
+		"ypos"														"r-6969"
+	}
+
 	"DescLabel"
 	{
 		"ypos"														"r-6969"

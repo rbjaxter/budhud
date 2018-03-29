@@ -49,12 +49,30 @@
 		"wide"														"f0"
 		"tall"														"f0"
 		"border"													"NoBorder"
-		
+
 		"NameLabel"
 		{
 			"ypos"													"r-6969"
-		}
+		}		
 		
+		"DescLine1"
+		{
+			"xpos"													"c-250"
+			"ypos"													"125"
+			"wide"													"500"
+			"tall"													"20"
+			"textalignment"											"center"
+		}		
+		
+		"DescLine2"
+		{
+			"xpos"													"c-250"
+			"ypos"													"135"
+			"wide"													"500"
+			"tall"													"20"
+			"textalignment"											"center"
+		}
+
 		"LevelLabel"
 		{
 			"xpos"													"c-75"
