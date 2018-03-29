@@ -2,6 +2,16 @@
 {
 	"PlaylistBGPanel"
 	{
+		"RankImage"
+		{
+			"ypos"													"r-6969"
+		}
+		
+		"RankPanel"
+		{
+			"ypos"													"r-6969"
+		}
+		
 		"Title"
 		{
 			"ypos"													"3"

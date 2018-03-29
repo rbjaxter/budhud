@@ -8,6 +8,11 @@
 	MainMenuOverride
 	{
 	}
+	
+	"RankTooltipPanel"
+	{
+		"ypos"														"r-6969"
+	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Anchors
@@ -60,7 +65,7 @@
 		"ControlName"												"Label"
 		"fieldName"													"bh_CenterNav"
 		"xpos"														"c-125"
-		"ypos"														"144"
+		"ypos"														"150"
 		"zpos"														"0"
 		"wide"														"250"
 		"tall"														"0"
@@ -901,6 +906,17 @@
 	//					Report Player (-170) | Call Vote (-210)
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
+	"CycleRankTypeButton"
+	{
+		"xpos"														"c32"
+		"ypos"														"85"
+		"wide"														"12"
+		"tall"														"12"
+		"paintbackground"											"0"
+		"image_drawcolor"											"255 255 255 0"
+		"image_armedcolor"											"240 134 49 255"
+	}	
+	
 	"bh_DemoUI"
 	{
 		"pin_to_sibling" 											"bh_BottomNav"
@@ -1701,5 +1717,15 @@
 	"MOTD_ShowButtonPanel"
 	{
 		"ypos"														"r-6969"
-	}	
+	}
+	
+	"StoreHasNewItemsImage"
+	{
+		"ypos"														"r-6969"
+	}
+	
+	"RankBorder"
+	{
+		"ypos"														"r-6969"
+	}
 }
