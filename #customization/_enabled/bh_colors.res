@@ -51,7 +51,15 @@ Scheme
 	// Damage Done & Heals Given
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-		"bh_DamageColor"											"255 255 255 255" 	// Damage done that appears above player
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		// "bh_DamageColor"											"255 255 255 255" 	// Damage done that appears above player	
+			// This is now controlled by the following console commands:
+			// hud_combattext_red
+			// hud_combattext_green
+			// hud_combattext_blue
+		////////////////////////////////////////////////////////////////////////////////////////////////////	
+		
+		
 		"bh_hudDMGDisplay"											"243 157 048 255" 	// Damage done that appears below ammo
 		"bh_HealColor"												"000 153 255 255" 	// Medigun/arrow heals
 		"bh_UberDrop"												"255 105 180 255"	// Uber drop color

@@ -1915,9 +1915,9 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ShowPromoCodesButton"
-		"xpos"			"c-285"
-		"ypos"			"379"
-		"zpos"			"-60"
+		"xpos"			"c30"
+		"ypos"			"385"
+		"zpos"			"5"
 		"wide"			"250"
 		"tall"			"26"
 		"autoResize"	"0"

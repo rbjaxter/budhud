@@ -1,17 +1,3 @@
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// BUDHUD COLORS
-	// ============================================================================================== //
-	// Change colors using RGBA values to customize your hud
-	// TF2 will have to be restarted for these changes to take effect
-	// Example of RGBA values: http://www.colorspire.com/
-	// The fourth number in an RGBA value controls opacity; 255 = fully visible, 0 = fully invisible
-	////////////////////////////////////////////////////////////////////////////////////////////////////	
-	// MAC / OTHER USERS
-	// ============================================================================================== //
-	// Ensure that your text editor doesn't turn quotation marks (") into other variations such as a
-	// left double quotation mark (“).
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-
 Scheme
 {
 	Colors
