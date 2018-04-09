@@ -6,7 +6,7 @@
 		"ypos"														"0"
 		"wide"														"f0"
 		"tall"														"f0"
-		"team2_player_delta_x"										"55"
+		"team2_player_delta_x"										"61"
 	
 		if_competitive
 		{
@@ -14,12 +14,8 @@
 			"ypos"													"0"
 			"wide"													"f0"
 			"tall"													"f0"
-			"team1_player_delta_x"									"59"
-			"team1_player_delta_y"									"40"
-			"team1_player_base_offset_x"							"-75"
-			"team2_player_delta_x"									"59"
-			"team2_player_delta_y"									"52"
-			"team2_player_base_offset_x"							"25"
+			"team1_player_base_y"									"30"
+			"team2_player_delta_x"									"55"
 		}
 
 		if_readymode
@@ -27,8 +23,8 @@
 			"xpos"													"0"
 			"ypos"													"0"
 			"wide"													"f0"
-			"tall"													"f0"		
-			"team1_player_base_y"									"4"
+			"tall"													"f0"
+			"team1_player_base_y"									"30"
 			"team2_player_delta_x"									"55"
 		}
 		
@@ -129,6 +125,7 @@
 		
 		if_readymode
 		{
+			"ypos"													"80"
 		}
 		
 		if_mvm
@@ -169,12 +166,12 @@
 		
 		if_competitive
 		{
-			"ypos"													"40"
+			"ypos"													"65"
 		}
 		
 		if_readymode
 		{
-			"ypos"													"40"
+			"ypos"													"65"
 		}
 		
 		if_mvm
@@ -207,7 +204,7 @@
 	"HudTournamentBLUEBG"
 	{
 		"xpos"														"c-60"
-		"ypos"														"20"
+		"ypos"														"28"
 		"wide"														"60"
 	
 		"draw_corner_width"											"0"
@@ -252,7 +249,7 @@
 	"HudTournamentREDBG"
 	{
 		"xpos"														"c0"
-		"ypos"														"20"
+		"ypos"														"28"
 		"wide"														"60"	
 	
 		"draw_corner_width"											"0"
@@ -277,7 +274,7 @@
 	"TournamentBLUEStateLabel"
 	{
 		"xpos"														"c-60"
-		"ypos"														"20"
+		"ypos"														"28"
 		"wide"														"60"
 		"textAlignment"												"center"
 		
@@ -300,7 +297,7 @@
 	"TournamentREDStateLabel"
 	{
 		"xpos"														"c0"
-		"ypos"														"20"
+		"ypos"														"28"
 		"wide"														"60"	
 		"textAlignment"												"center"
 		
@@ -323,7 +320,7 @@
 	"TournamentREDLabel"
 	{
 		"xpos"														"c62"
-		"ypos"														"20"
+		"ypos"														"28"
 		"wide"														"60"	
 		"textAlignment"												"west"
 		
@@ -346,7 +343,7 @@
 	"TournamentBLUELabel"
 	{
 		"xpos"														"c-122"
-		"ypos"														"20"
+		"ypos"														"28"
 		"wide"														"60"	
 		"textAlignment"												"east"
 		

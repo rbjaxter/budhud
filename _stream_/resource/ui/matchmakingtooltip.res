@@ -1,12 +1,12 @@
-"Resource/UI/VoteHud.res"
-{	
-	"VoteActive"
+"Resource/UI/MatchMakingTooltip.res"
+{
+	"TooltipPanel"
 	{
-		"Header"		
+		"TipLabel"
 		{
 			"ypos"													"r-6969"
 			"wide"													"0"
 			"tall"													"0"
 		}
-	}
+	}	
 }

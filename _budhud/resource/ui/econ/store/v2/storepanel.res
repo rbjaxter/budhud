@@ -5,11 +5,6 @@
 		"ypos"														"r-6969"
 	}
 	
-	"SupportCommunityMapMakersCheckButton"
-	{
-		"ypos"														"r-6969"
-	}	
-	
 	"CloseButton"
 	{
 		"ypos"														"r-6969"
@@ -17,7 +12,15 @@
 	
 	"CheckoutButton"
 	{
-		"ypos"														"r-6969"
+		"labeltext"													"#bh_Checkout_QK"
+		"defaultBgColor_override"									"bh_ButtonBGDefault"
+		"armedBgColor_override"										"bh_ButtonBGArmed"
+		"depressedBgColor_override"									"bh_ButtonBGDepressed"
+		"defaultFgColor_override"									"bh_ButtonDefault"
+		"armedFgColor_override" 									"bh_ButtonArmed"
+		"depressedFgColor_override" 								"bh_ButtonDepressed"
+		"border_default"											"bh_b_NESW"
+		"border_armed"												"bh_b_NESW"
 	}	
 	
 	"store_panel"
@@ -77,40 +80,6 @@
 		"brighttext"												"0"
 		"default"													"1"
 		"Command"													"close"
-		"sound_depressed"											"UI/buttonclick.wav"
-		"sound_released"											"UI/buttonclickrelease.wav"
-		
-		"defaultBgColor_override"									"bh_ButtonBGDefault"
-		"armedBgColor_override"										"bh_ButtonBGArmed"
-		"depressedBgColor_override"									"bh_ButtonBGDepressed"
-		"defaultFgColor_override"									"bh_ButtonDefault"
-		"armedFgColor_override" 									"bh_ButtonArmed"
-		"depressedFgColor_override" 								"bh_ButtonDepressed"
-		"border_default"											"bh_b_NESW"
-		"border_armed"												"bh_b_NESW"
-	}
-	
-	"bh_CheckoutButton"
-	{
-		"ControlName"												"CExButton"
-		"fieldName"													"bh_CheckoutButton"
-		"xpos"														"c200"
-		"ypos"														"437"
-		"zpos"														"2"
-		"wide"														"100"
-		"tall"														"25"
-		"autoResize"												"0"
-		"pinCorner"													"3"
-		"visible"													"1"
-		"enabled"													"1"
-		"tabPosition"												"0"
-		"labelText"													"#bh_Checkout_QK"
-		"font"														"HudFontSmallBold"
-		"textAlignment"												"center"
-		"dulltext"													"0"
-		"brighttext"												"0"
-		"default"													"1"
-		"Command"													"checkout"
 		"sound_depressed"											"UI/buttonclick.wav"
 		"sound_released"											"UI/buttonclickrelease.wav"
 		

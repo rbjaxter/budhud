@@ -1,3 +1,4 @@
+	#base	"..\..\#users\truktruk\resource\ui\hudplayerhealth.res"
 	#base	"..\..\#customization\_enabled\bh_health_bigger.res"
 	#base	"..\..\#customization\_enabled\bh_health_cross.res"
 	#base	"..\..\#customization\_enabled\bh_health_box.res"
