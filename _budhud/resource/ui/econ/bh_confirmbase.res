@@ -3,6 +3,7 @@
 	"TitleLabel"
 	{
 		"fgcolor_override"											"bh_orange"
+		"title"														"60"
 	}
 
 	"CloseButton"
