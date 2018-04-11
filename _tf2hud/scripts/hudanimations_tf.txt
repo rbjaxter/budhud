@@ -1418,12 +1418,12 @@ event QuestItem_Highlight_Off_Halloween
 //--------------------------------------------------------------------------
 event CompetitiveGame_LowerChatWindow
 {
-	// Animate HudChat ypos r140 Accel 0 0
+	Animate HudChat ypos r140 Accel 0 0
 }
 
 event CompetitiveGame_RestoreChatWindow
 {
-	// Animate HudChat ypos 275 Accel 0 0
+	Animate HudChat ypos 275 Accel 0 0
 }
 
 event HudTournament_MoveChatWindow
