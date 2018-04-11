@@ -6,7 +6,20 @@
 		"ypos"														"0"
 		"wide"														"f0"
 		"tall"														"f0"
-		"team2_player_delta_x"										"61"
+		
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		// Controls comp mode team xpos
+		// delta xpos 49 leaves a pixel gap with playerpanel wide 48
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		"teams_player_delta_x_comp"									"49"
+	
+		"ModeImage"
+		{
+			"ypos"													"36"
+			"wide"													"40"
+			"tall"													"40"
+		}
 	
 		if_competitive
 		{
@@ -14,8 +27,7 @@
 			"ypos"													"0"
 			"wide"													"f0"
 			"tall"													"f0"
-			"team1_player_base_y"									"30"
-			"team2_player_delta_x"									"55"
+			"team1_player_base_y"									"40"
 		}
 
 		if_readymode
@@ -25,7 +37,7 @@
 			"wide"													"f0"
 			"tall"													"f0"
 			"team1_player_base_y"									"30"
-			"team2_player_delta_x"									"55"
+			"team2_player_delta_x"									"48"
 		}
 		
 		if_mvm
@@ -36,7 +48,7 @@
 		
 		playerpanels_kv
 		{
-			"wide"													"48"
+			"wide"													"49"
 			"tall"													"33"
 
 			"HealthIcon"
@@ -76,6 +88,12 @@
 			
 			"playername"
 			{
+				if_competitive
+				{
+					"xpos"											"1"
+					"wide"											"45"
+				}
+			
 				if_readymode
 				{
 					"xpos"											"1"
@@ -166,7 +184,7 @@
 		
 		if_competitive
 		{
-			"ypos"													"65"
+			"ypos"													"75"
 		}
 		
 		if_readymode
