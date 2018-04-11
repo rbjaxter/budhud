@@ -5,7 +5,7 @@
 	event CompetitiveGame_ShowPvPRankPanel
 	{
 		Animate 		RankPanel 							ypos 0						Linear		0 0
-		Animate 		ModelContainer 						ypos r150					Linear		0 0
+		Animate 		ModelContainer 						ypos r150					Linear		0.2 0.3
 		Animate 		RankPanel 							ypos 0						Bias 		0.90 0.2 0.3
 		RunEventChild 	RankPanel 							PvPRankPanelShowXPChange 	0
 	}
