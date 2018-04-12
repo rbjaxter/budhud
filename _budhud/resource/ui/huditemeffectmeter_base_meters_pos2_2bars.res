@@ -13,8 +13,7 @@
 	
 	"ItemEffectMeter2"
 	{	
-		"xpos"														"50"
-		"wide"														"50"
-		"tall"														"f0"
+		"visible"													"1"
+		"enabled"													"1"
 	}	
 }

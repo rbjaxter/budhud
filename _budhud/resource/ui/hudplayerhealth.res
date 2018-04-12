@@ -73,7 +73,7 @@
 		"fieldName"													"PlayerStatusHealthValueShadow"
 		"xpos"														"1"
 		"ypos"														"1"
-		"zpos"														"1"
+		"zpos"														"6"
 		"wide"														"250"
 		"tall"														"150"
 		"visible"													"1"
