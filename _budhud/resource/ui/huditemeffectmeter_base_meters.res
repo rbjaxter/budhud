@@ -21,8 +21,8 @@
 		"ypos"														"c110"
 		"wide"														"100"
 		"tall"														"6"
-		"MeterFG"													"bh_white"
-		"MeterBG"													"bh_gray"
+		"MeterFG"													"bh_meterfg"
+		"MeterBG"													"bh_meterbg"
 	}	
 	
 	"ItemEffectMeterLabel"
@@ -37,8 +37,9 @@
 		"tall"														"6"
 		"labelText"													"#TF_Ball"
 		"textAlignment"												"center"
-		"fgcolor_override"											"bh_gray"
-		"font"														"bh_Font8"
+		"font"														"bh_Font6Shadow"
+		"fgcolor_override"											"bh_metertext"
+		"defaultFgColor_override"									"bh_metertext"
 	}
 	
 	"ItemEffectMeterLabel2"

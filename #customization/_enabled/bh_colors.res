@@ -74,6 +74,14 @@ Scheme
 		"bh_chargemeterBG"											"150 150 150 255"	// Uber chargemeter background
 		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Item Charge Meters
+	// Currently, these colors cannot be changed. They're set to bright pink so it's obvious if it's fixed.
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+		"bh_meterfg"												"254 002 209 255"
+		"bh_meterbg"												"254 002 209 255"
+		"bh_metertext"												"254 002 209 255"
+		
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Crosshair Colors
 	// ============================================================================================== //
 	// These crosshair colors are kept separated just in case you use multiple crosshairs and want to
@@ -107,32 +115,47 @@ Scheme
 		//////////
 		// Default
 		//////////
-		"bh_MainMenu1"												"240 134 049 255"	// Orange
-		"bh_MainMenu2"												"240 134 049 255"	// Orange
+		"bh_menu_foreground1"											"255 255 255 255" 	// White
+		"bh_menu_foreground2"											"255 255 255 255"	// White
+		"bh_menu_background1"											"240 134 049 255"	// Orange
+		"bh_menu_background2"											"240 134 049 255"	// Orange
 	
 		//////////
 		// January
 		//////////
-		// "bh_MainMenu1"											"186 085 211 255"	// Medium Orchid
-		// "bh_MainMenu2"											"070 130 180 255"	// Steel Blue
+		// "bh_menu_foreground1"										"255 255 255 255"	// White
+		// "bh_menu_foreground2"										"255 255 255 255"	// White
+		// "bh_menu_background1"										"186 085 211 255"	// Medium Orchid
+		// "bh_menu_background2"										"070 130 180 255"	// Steel Blue
 	
 		//////////
 		// October
 		//////////
-		// "bh_MainMenu1"											"124 016 173 255"	// Spooky Purple
-		// "bh_MainMenu2"											"241 088 002 255"	// Spooky Orange
+		// "bh_menu_foreground1"										"255 255 255 255"	// White
+		// "bh_menu_foreground2"										"255 255 255 255"	// White
+		// "bh_menu_background1"										"124 016 173 255"	// Spooky Purple
+		// "bh_menu_background2"										"241 088 002 255"	// Spooky Orange
 		
 		///////////
 		// December
 		///////////
-		// "bh_MainMenu1"											"194 023 023 255"	// Dark Red
-		// "bh_MainMenu2"											"060 141 013 255"	// Dark Green
+		// "bh_menu_foreground1"										"255 255 255 255"	// White
+		// "bh_menu_foreground2"										"255 255 255 255"	// White
+		// "bh_menu_background1"										"194 023 023 255"	// Dark Red
+		// "bh_menu_background2"										"060 141 013 255"	// Dark Green
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Stats Colors
 	// ============================================================================================== //
 	// Controls the color of the stats in your stats page and "loading map" screen
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
+	
+		/////////////////////////////
+		// Loading Screen Text Colors
+		/////////////////////////////
+		"bh_onyourway"												"240 134 049 255"
+		"bh_mapname"												"255 255 255 255"
+		"bh_maptype"												"255 255 255 255"
 	
 		//////////
 		// Default

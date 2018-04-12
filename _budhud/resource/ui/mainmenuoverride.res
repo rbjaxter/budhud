@@ -130,8 +130,8 @@
 		"tall"														"30"
 		"textAlignment"												"center"			
 		
-		"defaultFgColor_override" 									"bh_white"
-		"armedFgColor_override" 									"bh_MainMenu1"
+		"defaultFgColor_override" 									"bh_menu_foreground1"
+		"armedFgColor_override" 									"bh_menu_background1"
 		"paintbackground"											"0"
 		"Command"													"engine open_charinfo"
 
@@ -156,8 +156,8 @@
 		"tall"														"30"
 		"textAlignment"												"center"			
 		
-		"defaultFgColor_override" 									"bh_white"
-		"armedFgColor_override" 									"bh_MainMenu2"
+		"defaultFgColor_override" 									"bh_menu_foreground2"
+		"armedFgColor_override" 									"bh_menu_background2"
 		"paintbackground"											"0"
 		"Command"													"engine open_store"
 
@@ -182,8 +182,8 @@
 		"tall"														"30"
 		"textAlignment"												"center"			
 		
-		"defaultFgColor_override" 									"bh_white"
-		"armedFgColor_override" 									"bh_MainMenu1"
+		"defaultFgColor_override" 									"bh_menu_foreground1"
+		"armedFgColor_override" 									"bh_menu_background1"
 		"paintbackground"											"0"
 		"Command"													"OpenOptionsDialog"
 
@@ -208,8 +208,8 @@
 		"tall"														"30"
 		"textAlignment"												"center"			
 		
-		"defaultFgColor_override" 									"bh_white"
-		"armedFgColor_override" 									"bh_MainMenu2"
+		"defaultFgColor_override" 									"bh_menu_foreground2"
+		"armedFgColor_override" 									"bh_menu_background2"
 		"paintbackground"											"0"
 		"Command"													"opentf2options"
 
@@ -234,8 +234,8 @@
 //		"tall"														"30"
 //		"textAlignment"												"center"			
 //		
-//		"defaultFgColor_override" 									"bh_white"
-//		"armedFgColor_override" 									"bh_MainMenu1"
+//		"defaultFgColor_override" 									"bh_menu_foreground1"
+//		"armedFgColor_override" 									"bh_menu_background1"
 //		"paintbackground"											"0"
 //		"Command"													"engine quit"
 //
