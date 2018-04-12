@@ -1,3 +1,7 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Loading screen/map switching
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
 "Resource/UI/winpanel.res"
 {
 	"NextTipButton"
@@ -20,15 +24,18 @@
 		"bgcolor_override"											"bh_MenuBG"	
 	}
 	
-	"MainBackground"
-	{
-		"fillcolor"													"bh_MenuBG"
-	}	
+	////////////////////////////////////////////////////////////////////////////////////////////////////	
+	// MainBackground controls the initial loading bg
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	"LoadingBackground"
+	"MainBackground"
+	{	
+	}
+
+	"bh_LoadingBackground"
 	{
 		"ControlName"												"ImagePanel"
-		"fieldName"													"LoadingBackground"
+		"fieldName"													"bh_LoadingBackground"
 		"xpos"														"0"
 		"ypos"														"0"
 		"zpos"														"10"
@@ -162,6 +169,10 @@
 		}
 	}
 	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// MapInfo takes over once the map begins loading
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
 	"MapInfo"
 	{
 		"bgcolor_override"											"bh_MenuBG"	
@@ -209,7 +220,7 @@
 		"ypos"														"123"
 		"zpos"														"1995"
 		"font"														"bh_Font24"
-		"fgcolor_override"											"bh_orange"
+		"fgcolor_override"											"bh_onyourway"
 		"wide"														"500"
 		"tall"														"100"
 	}
@@ -220,7 +231,7 @@
 		"ypos"														"173"
 		"zpos"														"1995"
 		"font"														"bh_Font32"
-		"fgcolor_override"											"bh_white"
+		"fgcolor_override"											"bh_mapname"
 		"wide"														"500"
 		"tall"														"100"
 	}
@@ -231,7 +242,7 @@
 		"ypos"														"223"
 		"zpos"														"1995"
 		"font"														"bh_Font24"
-		"fgcolor_override"											"bh_white"
+		"fgcolor_override"											"bh_maptype"
 		"wide"														"500"
 		"tall"														"100"
 	}
