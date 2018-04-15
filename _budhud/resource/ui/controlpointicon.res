@@ -4,13 +4,8 @@
 	// CPTimerBG: 
 	// ControlPointIcon: Control point size
 	// OverlayImage:
-	// CPTimerLabbel: cp_degrootkeep CP C countdown
+	// CPTimerLabel: cp_degrootkeep CP C countdown
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-
-	"CPTimerBG"
-	{
-		"wide"														"0"
-	}
 
 	"ControlPointIcon"
 	{

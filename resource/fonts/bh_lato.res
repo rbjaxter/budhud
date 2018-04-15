@@ -65,19 +65,6 @@ Scheme
 			}
 		}
 		
-
-		"bh_Font6Shadow"
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"6"
-				"weight"											"500"
-				"shadow"											"1"
-				"antialias"											"1"
-			}
-		}		
-		
 		bh_Font8
 		{
 			"1"
@@ -120,18 +107,6 @@ Scheme
 				"tall"												"12"
 				"weight"											"500"
 				"antialias"											"1"
-			}
-		}
-		
-		bh_Font12Drop
-		{
-			"1"
-			{
-				"name"												"Lato Semibold"
-				"tall"												"12"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
 			}
 		}
 		

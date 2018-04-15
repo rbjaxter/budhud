@@ -62,6 +62,7 @@
 	
 	"item_pickup"
 	{
+		"zpos"														"6969"
 		"bgcolor_override"											"bh_MenuBG"
 		"infocus_bgcolor_override" 									"bh_MenuBG"
 		"outoffocus_bgcolor_override" 								"bh_MenuBG"

@@ -37,7 +37,7 @@
 		"tall"														"6"
 		"labelText"													"#TF_Ball"
 		"textAlignment"												"center"
-		"font"														"bh_Font6Shadow"
+		"font"														"bh_Font6"
 		"fgcolor_override"											"bh_metertext"
 		"defaultFgColor_override"									"bh_metertext"
 	}
