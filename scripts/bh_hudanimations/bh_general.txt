@@ -19,7 +19,7 @@
 	
 	event ActiveTimerDim
 	{
-		Animate 			TimePanelValue					FgColor						"bh_gray"	Linear 0.0 0.4
+		Animate 			TimePanelValue					FgColor						"bh_white_t"	Linear 0.0 0.4
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////

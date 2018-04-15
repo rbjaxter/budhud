@@ -10,7 +10,7 @@
 		
 		if_match
 		{
-			"ypos"													"20"
+			"ypos"													"15"
 			"bgcolor_override"										"bh_blue_t"
 		}
 		
@@ -33,7 +33,7 @@
 
 		if_match
 		{
-			"ypos"													"20"
+			"ypos"													"15"
 			"bgcolor_override"										"bh_red_t"
 		}
 		
@@ -50,14 +50,5 @@
 				"fgcolor_override"									"bh_white"
 			}
 		}
-	}
-	
-	"ActiveTimerBG"
-	{
-		"ypos"														"20"
-		"wide"														"50"
-		"tall"														"1"
-		"fillcolor"													"bh_orange"
-		"image"														""
 	}
 }
