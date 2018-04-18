@@ -6,7 +6,7 @@
 		
 		"if_high_priority"
 		{
-			"fgcolor_override"										"BrightYellow"
+			"fgcolor_override"										"bh_IsError"		// Attempting to see where this is used
 		}
 	}
 }
