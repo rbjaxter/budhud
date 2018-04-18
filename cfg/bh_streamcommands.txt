@@ -7,6 +7,9 @@
 	// Disable carried items while spectating
 	cl_spec_carrieditems											0
 	
+	// Disable killstreak notifications
+	cl_hud_killstreak_display_time									0
+	
 	echo /////////////////////////////////////////////////
 	echo Stream commands set
 	echo /////////////////////////////////////////////////
