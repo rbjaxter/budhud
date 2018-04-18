@@ -13,6 +13,24 @@
 	
 	"TopBar"
 	{
+		"QueueContainer"
+		{
+			"MultiQueuesManageButton"
+			{
+				"xpos"													"0"
+				"ypos"													"0"
+				"wide"													"10"
+				"tall"													"10"
+				"image_drawcolor"										"255 255 255 255"
+				"image_armedcolor"										"240 134 49 255"
+				
+				"SubImage"
+				{
+					"image"												"replay\thumbnails\menu_icons\cog"
+				}
+			}
+		}
+	
 		"ToggleChatButton"
 		{
 			"image_drawcolor"											"255 255 255 255"

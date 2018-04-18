@@ -194,7 +194,7 @@
 		
 		if_mvm
 		{
-			"ypos"													"36"
+			"ypos"													"32"
 		}
 	}
 	
@@ -219,14 +219,23 @@
 		"textAlignment"												"center"
 	}
 	
-	"HudTournamentBLUEBG"
+	"bh_tournamentbg_blue"
 	{
+		"ControlName"												"ImagePanel"
+		"fieldName"													"bh_tournamentbg_blue"
 		"xpos"														"c-60"
 		"ypos"														"28"
+		"zpos"														"0"
 		"wide"														"60"
-	
-		"draw_corner_width"											"0"
-		"draw_corner_height" 										"0"
+		"tall"														"16"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"labeltext"													""
+		"visible"													"1"
+		"enabled"													"1"
+		"fillcolor"													"bh_blue"
+		"image"														""
+		"paintbackgroundtype"										"0"
 		
 		if_competitive
 		{
@@ -242,36 +251,55 @@
 		{
 			"ypos"													"r-6969"
 		}
+    }
+	
+	"bh_tournamentbg_red"
+	{
+		"ControlName"												"ImagePanel"
+		"fieldName"													"bh_tournamentbg_red"
+		"xpos"														"c0"
+		"ypos"														"28"
+		"zpos"														"0"
+		"wide"														"60"
+		"tall"														"16"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"labeltext"													""
+		"visible"													"1"
+		"enabled"													"1"
+		"fillcolor"													"bh_red"
+		"image"														""
+		"paintbackgroundtype"										"0"
+		
+		if_competitive
+		{
+			"ypos"													"r-6969"
+		}
+		
+		if_readymode
+		{
+			"ypos"													"r-6969"
+		}
+		
+		if_mvm
+		{
+			"ypos"													"r-6969"
+		}
+    }
+	
+	"HudTournamentBLUEBG"
+	{
+		"ypos"														"r-6969"
+	}
+	
+	"HudTournamentREDBG"
+	{
+		"ypos"														"r-6969"
 	}
 	
 	"CountdownBG"
 	{
 		"ypos"														"r-6969"
-		
-		if_competitive
-		{
-			"ypos"													"r-6969"
-		}
-		
-		if_readymode
-		{
-			"ypos"													"r-6969"
-		}
-		
-		if_mvm
-		{
-			"ypos"													"r-6969"
-		}
-	}
-	
-	"HudTournamentREDBG"
-	{
-		"xpos"														"c0"
-		"ypos"														"28"
-		"wide"														"60"	
-	
-		"draw_corner_width"											"0"
-		"draw_corner_height" 										"0"
 		
 		if_competitive
 		{
@@ -338,9 +366,10 @@
 	"TournamentREDLabel"
 	{
 		"xpos"														"c62"
-		"ypos"														"28"
-		"wide"														"60"	
+		"ypos"														"29"
+		"wide"														"100"	
 		"textAlignment"												"west"
+		"font"														"bh_Font12"
 		
 		if_competitive
 		{
@@ -358,29 +387,112 @@
 		}
 	}
 	
-	"TournamentBLUELabel"
-	{
-		"xpos"														"c-122"
-		"ypos"														"28"
-		"wide"														"60"	
-		"textAlignment"												"east"
+	"bh_TournamentREDLabelShadow"
+	{	
+		"pin_to_sibling" 											"TournamentREDLabel"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+	
+	
+		"ControlName"												"Label"
+		"fieldName"													"bh_TournamentREDLabelShadow"
+		"font"														"bh_Font12"
+		"xpos"														"-1"
+		"ypos"														"-1"
+		"zpos"														"1"
+		"wide"														"100"
+		"tall"														"15"
+		"visible"													"1"
+		"enabled"													"1"
+		"labelText"													"%rednamelabel%"
+		"textAlignment"												"west"
+		"fgcolor_override"											"bh_shadow"
 		
 		if_competitive
 		{
+			"wide"													"0"
 			"ypos"													"r-6969"
 		}
 		
 		if_readymode
 		{
+			"wide"													"0"
 			"ypos"													"r-6969"
 		}
 		
 		if_mvm
 		{
+			"wide"													"0"
 			"ypos"													"r-6969"
 		}
-	}	
-
+	}
+	
+	"TournamentBLUELabel"
+	{
+		"xpos"														"c-162"
+		"ypos"														"29"
+		"wide"														"100"	
+		"textAlignment"												"east"
+		"font"														"bh_Font12"
+		
+		if_competitive
+		{
+			"wide"													"0"
+			"ypos"													"r-6969"
+		}
+		
+		if_readymode
+		{
+			"wide"													"0"
+			"ypos"													"r-6969"
+		}
+		
+		if_mvm
+		{
+			"wide"													"0"
+			"ypos"													"r-6969"
+		}
+	}
+	
+	"bh_TournamentBLUELabelShadow"
+	{	
+		"pin_to_sibling" 											"TournamentBLUELabel"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
+		"ControlName"												"Label"
+		"fieldName"													"bh_TournamentBLUELabelShadow"
+		"font"														"bh_Font12"
+		"xpos"														"-1"
+		"ypos"														"-1"
+		"zpos"														"1"
+		"wide"														"100"
+		"tall"														"15"
+		"visible"													"1"
+		"enabled"													"1"
+		"labelText"													"%bluenamelabel%"
+		"textAlignment"												"east"
+		"fgcolor_override"											"bh_shadow"
+		
+		if_competitive
+		{
+			"wide"													"0"
+			"ypos"													"r-6969"
+		}
+		
+		if_readymode
+		{
+			"wide"													"0"
+			"ypos"													"r-6969"
+		}
+		
+		if_mvm
+		{
+			"wide"													"0"
+			"ypos"													"r-6969"
+		}
+	}
+	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// "Waiting for teams to organize" message
 	// Controls countdown, don't remove!
@@ -406,6 +518,16 @@
 		{
 			"ypos"													"r-6969"
 		}
+		
+		if_mvm
+		{
+			"pin_to_sibling" 										""
+			"pin_corner_to_sibling" 								""
+			"pin_to_sibling_corner" 								""
+			"xpos"													"c-150"
+			"ypos"													"50"
+			"wide"													"300"
+		}
 	}
 	
 	"bh_TournamentLabelShadow"
@@ -430,6 +552,11 @@
 		"wrap"														"0"
 		"labelText"													"%tournamentstatelabel%"
 		"textAlignment"												"center"
+		
+		if_mvm
+		{
+			"wide"													"300"
+		}
 	}
 	
 	"the_wang_who_peaks"
