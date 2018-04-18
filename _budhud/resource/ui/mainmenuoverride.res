@@ -2,7 +2,7 @@
 {
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Excluding this breaks things
+	// Excluding MainMenuOverride breaks things
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	MainMenuOverride
@@ -65,7 +65,7 @@
 		"ControlName"												"Label"
 		"fieldName"													"bh_CenterNav"
 		"xpos"														"c-125"
-		"ypos"														"150"
+		"ypos"														"170"
 		"zpos"														"0"
 		"wide"														"250"
 		"tall"														"0"
@@ -371,6 +371,7 @@
 	
 		"Notifications_ShowButtonPanel_SB"
 		{
+			"zpos"													"6969"
 			"wide"													"28"
 			"tall"													"28"
 
@@ -895,6 +896,23 @@
 		"tall"														"f0"
 	}
 	
+	"NoGCMessage"
+	{
+		"xpos"														"5"
+		"ypos"														"30"
+		"wide"														"500"
+		"textinsetx"												"0"
+		"textinsety"												"0"
+	}
+	
+	"NoGCImage"
+	{
+		"xpos"														"c-30"
+		"ypos"														"100"
+		"wide"														"60"
+		"tall"														"60"
+	}
+	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// LowerNav Buttons
 	// Left: Add 40 | Right: Add -40
@@ -913,8 +931,13 @@
 		"wide"														"12"
 		"tall"														"12"
 		"paintbackground"											"0"
-		"image_drawcolor"											"255 255 255 0"
-		"image_armedcolor"											"240 134 49 255"
+		"image_drawcolor"											"255 255 255 001"
+		"image_armedcolor"											"255 255 255 255"
+	
+		"SubImage"
+		{	
+			"image"													"replay\thumbnails\menu_icons\cog"
+		}
 	}	
 	
 	"bh_DemoUI"
