@@ -1,15 +1,19 @@
 "Resource/UI/HudTournament.res"
 {
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Excluding HudTournament breaks things
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	HudTournament
 	{
 	}
 	
-	"HudTournamentBLUEBG"
+	"bh_tournamentbg_red"
 	{
 		"ypos"														"r-6969"
 	}
 	
-	"HudTournamentREDBG"
+	"bh_tournamentbg_blue"
 	{
 		"ypos"														"r-6969"
 	}
