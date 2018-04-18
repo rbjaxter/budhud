@@ -3,7 +3,7 @@
 	"TitleLabel"
 	{
 		"fgcolor_override"											"bh_orange"
-		"title"														"60"
+		"tall"														"60"
 	}
 
 	"CloseButton"
@@ -57,15 +57,18 @@
 	"ExplanationLabel"
 	{
 		"fgcolor_override"											"bh_white"
+		"tall"														"60"
 	}
 
 	"DurationLabel"
 	{
 		"fgcolor_override"											"bh_white"
+		"tall"														"60"
 	}
 	
 	"EllipsesLabel"
 	{
 		"fgcolor_override"											"bh_white"
+		"tall"														"60"
 	}
 }
