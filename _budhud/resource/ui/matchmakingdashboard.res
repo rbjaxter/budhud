@@ -17,10 +17,10 @@
 		{
 			"MultiQueuesManageButton"
 			{
-				"xpos"													"0"
-				"ypos"													"0"
-				"wide"													"10"
-				"tall"													"10"
+				"xpos"													"r20"
+				"ypos"													"11"
+				"wide"													"15"
+				"tall"													"15"
 				"image_drawcolor"										"255 255 255 255"
 				"image_armedcolor"										"240 134 49 255"
 				
