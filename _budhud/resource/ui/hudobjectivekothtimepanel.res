@@ -51,4 +51,13 @@
 			}
 		}
 	}
+	
+	"ActiveTimerBG"	
+	{	
+		"ypos"														"20"	
+		"wide"														"50"	
+		"tall"														"1"	
+		"fillcolor"													"bh_orange"	
+		"image"														""	
+	}
 }
