@@ -23,14 +23,33 @@
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Overtime Label
+	////////////////////////////////////////////////////////////////////////////////////////////////////		
+	
+	event OvertimeLabelPulseRed
+	{
+		Animate				OvertimeLabel 					FgColor		bh_white		Linear 0.0 0.3
+		Animate				OvertimeLabel 					FgColor		bh_orange		Linear 0.3 0.3
+	
+		RunEvent			OvertimeLabelPulseRed 			0.6
+	}
+	
+	event SuddenDeathLabelPulseRed
+	{
+		Animate				SuddenDeathLabel 				FgColor		bh_white		Linear 0.0 0.3
+		Animate				SuddenDeathLabel 				FgColor		bh_orange		Linear 0.3 0.3
+	
+		RunEvent SuddenDeathLabelPulseRed 					0.2
+	}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Moves pvprankpanel.res to avoid end of screen missing elements
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
 	
 	event CompetitiveGame_ShowPvPRankPanel
 	{
-		Animate 		RankPanel 							ypos 0						Linear		0 0
-		Animate 		ModelContainer 						ypos r150					Linear		0.2 0.3
-		Animate 		RankPanel							ypos 0						Bias 		0.90 0.2 0.3
+		Animate 		RankPanel 							ypos -80					Linear		0 0
+		Animate 		ModelContainer 						ypos r150					Linear		0 0
 		RunEventChild 	RankPanel 							PvPRankPanelShowXPChange 	0
 	}
 
@@ -152,9 +171,4 @@
 	
 	event HudSnapShotReminderIn
 	{
-		RunEvent 		HudHealthDyingPulseStop 			0.0
-		RunEvent 		HudHealthBonusPulseStop 			0.0
-		RunEvent 		HudLowAmmoPulseStop 				0.0
-		RunEvent 		HudMedicChargedStop 				0.0
 	}
-	
