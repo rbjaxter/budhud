@@ -55,6 +55,7 @@
 		"xpos"														"326"
 		"ypos"														"r150"
 		"textalignment"												"east"
+		"fgcolor"													"bh_white"
 		
 		if_mvm
 		{
@@ -87,7 +88,7 @@
 	{
 		"xpos"														"463"
 		"ypos"														"376"
-		"fgcolor"													"bh_white"
+		"fgcolor"													"bh_orange"
 		"textAlignment" 											"east"
 		"wide"														"100"
 		
@@ -733,6 +734,7 @@
 		"tall"														"45"
 		"textAlignment"												"Center"
 		"font"														"bh_Font24"
+		"fgcolor"													"bh_blue"
 		
 		"xpos_minmode"												"34"
 		"ypos_minmode"												"18"
@@ -746,6 +748,7 @@
 		"tall"														"45"
 		"textAlignment"												"center"
 		"font"														"bh_Font24"
+		"fgcolor"													"bh_red"
 		
 		"xpos_minmode"												"266"
 		"ypos_minmode"												"18"
@@ -816,7 +819,7 @@
 		"labelText"													"%servertime%"
 		"textAlignment"												"center"
 		"xpos"														"220"
-		"ypos"														"-4"
+		"ypos"														"-1"
 		"zpos"														"2"
 		"wide"														"160"
 		"tall"														"16"
@@ -906,6 +909,7 @@
 		"xpos"														"10"
 		"ypos"														"327"
 		"wide"														"280"
+		"fgcolor"													"bh_white"
 	}
 	
 	"SpectatorsInQueue"
