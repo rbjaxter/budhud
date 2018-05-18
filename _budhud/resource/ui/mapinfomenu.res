@@ -2,6 +2,7 @@
 {
 	"MenuBG"
 	{
+		"wide"	"0"
 		"ypos"														"r-6969"
 	}
 	
@@ -24,13 +25,47 @@
 	{
 		"ypos"														"r-6969"
 	}
+		
+	"MapImage"
+	{
+		"ypos"														"r-6969"
+	}
+	
+	"MapInfoTitle"
+	{
+		"xpos"														"c-250"
+		"ypos"														"50"
+		"wide"														"500"
+		"textalignment"												"center"
+		"fgcolor"													"bh_orange"
+		"font"														"bh_Font32"
+	}
+	
+	"MapInfoType"
+	{
+		"xpos"														"c-250"
+		"ypos"														"75"
+		"wide"														"500"
+		"textalignment"												"center"
+		"fgcolor"													"bh_white"
+		"font"														"bh_Font20"
+	}
+	
+	"MapInfoText"
+	{
+		"xpos"														"c-250"
+		"ypos"														"150"
+		"wide"														"500"
+		"tall"														"250"
+		"fgcolor"													"bh_white"
+	}
 	
 	"bh_Continue"
 	{
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_Continue"
 		"xpos"														"c100"
-		"ypos"														"c150"
+		"ypos"														"c164"
 		"zpos"														"20"
 		"wide"														"100"
 		"tall"														"26"
@@ -59,7 +94,7 @@
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_Back"
 		"xpos"														"c-200"
-		"ypos"														"c150"
+		"ypos"														"c164"
 		"zpos"														"20"
 		"wide"														"100"
 		"tall"														"26"
@@ -88,7 +123,7 @@
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_WatchMovie"
 		"xpos"														"c-50"
-		"ypos"														"c150"
+		"ypos"														"c164"
 		"zpos"														"20"
 		"wide"														"100"
 		"tall"														"26"

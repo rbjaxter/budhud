@@ -31,13 +31,29 @@
 		"tall"														"224"
 	}
 	
+	"bh_MOTDBG"
+	{
+		"ControlName"												"CModelPanel"
+		"fieldName"													"bh_MOTDBG"
+		"xpos"														"0"
+		"ypos"														"0"
+		"zpos"														"0"		
+		"wide"														"f0"
+		"tall"														"f0"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"visible"													"1"
+		"enabled"													"1"
+		"bgcolor_override"											"bh_BGAverage"
+	}
+	
 	"VideoCaption"
 	{
 		"xpos"														"c-420"
 		"ypos"														"c-160"
 		"wide"														"f0"
 		"tall"														"50"
-		"textAlignment"												"center"
+		"textAlignment"												"west"
 	}
 	
 	"bh_Skip"
@@ -45,7 +61,7 @@
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_Skip"
 		"xpos"														"c100"
-		"ypos"														"c150"
+		"ypos"														"c164"
 		"zpos"														"20"
 		"wide"														"100"
 		"tall"														"26"
@@ -75,7 +91,7 @@
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_Back"
 		"xpos"														"c-200"
-		"ypos"														"c150"
+		"ypos"														"c164"
 		"zpos"														"20"
 		"wide"														"100"
 		"tall"														"26"
@@ -105,7 +121,7 @@
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_ReplayVideo"
 		"xpos"														"c-50"
-		"ypos"														"c150"
+		"ypos"														"c164"
 		"zpos"														"20"
 		"wide"														"100"
 		"tall"														"26"
