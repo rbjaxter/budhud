@@ -48,7 +48,7 @@
 						echo ======================================================;
 						echo ~ Thank you to everyone who actively uses my hud! ~~~~;
 						echo ======================================================;"
-		"tooltip"		"Updated 18 April 2018"
+		"tooltip"		"Updated 17 May 2018"
 	}
 	
 	"bh_Streams"
@@ -138,6 +138,14 @@
 		"OnlyAtMenu" 	"0"
 		"tooltip" 		"#bh_TrainingMode"
 	}
+
+	"bh_BugButton"
+	{
+		"label"			""
+		"command" 		"engine bug"
+		"OnlyAtMenu" 	"0"
+		"tooltip" 		"#bh_ReportBug"
+	}	
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// In-game Buttons
