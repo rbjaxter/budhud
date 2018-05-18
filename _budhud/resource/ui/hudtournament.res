@@ -12,7 +12,7 @@
 		// delta xpos 49 leaves a pixel gap with playerpanel wide 48
 		////////////////////////////////////////////////////////////////////////////////////////////////////
 
-		"teams_player_delta_x_comp"									"49"
+		"teams_player_delta_x_comp"									"50"
 	
 		"ModeImage"
 		{
@@ -125,7 +125,7 @@
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Win condition
-	////////////////////////////////////////////////////////////////////////////////////////////////////	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	"TournamentConditionLabel"
 	{
@@ -219,10 +219,10 @@
 		"textAlignment"												"center"
 	}
 	
-	"bh_tournamentbg_blue"
+	"bh_TournamentBG_Blue"
 	{
 		"ControlName"												"ImagePanel"
-		"fieldName"													"bh_tournamentbg_blue"
+		"fieldName"													"bh_TournamentBG_Blue"
 		"xpos"														"c-60"
 		"ypos"														"28"
 		"zpos"														"0"
@@ -253,10 +253,10 @@
 		}
     }
 	
-	"bh_tournamentbg_red"
+	"bh_TournamentBG_Red"
 	{
 		"ControlName"												"ImagePanel"
-		"fieldName"													"bh_tournamentbg_red"
+		"fieldName"													"bh_TournamentBG_Red"
 		"xpos"														"c0"
 		"ypos"														"28"
 		"zpos"														"0"
@@ -608,6 +608,12 @@
 			"xpos"													"c-30"
 			"ypos"													"0"
 		}
+		
+		if_readymode
+		{
+			"xpos"													"c-30"
+			"ypos"													"0"
+		}
 	}
 
 	"CountdownLabelShadow"
@@ -620,5 +626,23 @@
 		"ypos"														"-1"
 		"wide"														"60"
 		"tall"														"60"
+		
+		if_competitive
+		{
+			"xpos"													"-1"
+			"ypos"													"-1"
+		}
+		
+		if_mvm
+		{
+			"xpos"													"-1"
+			"ypos"													"-1"
+		}
+		
+		if_readymode
+		{
+			"xpos"													"-1"
+			"ypos"													"-1"
+		}
 	}
 }

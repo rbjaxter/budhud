@@ -4,5 +4,10 @@
 {
 	"ConfirmDialog"
 	{
+		"ExplanationLabel"
+		{
+			"xpos"													"5"
+			"textalignment"											"west"
+		}
 	}
 }

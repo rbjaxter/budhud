@@ -71,4 +71,9 @@
 		"fgcolor_override"											"bh_white"
 		"tall"														"60"
 	}
+	
+	"AbandonIcon"
+	{
+		"ypos"														"r-6969"
+	}
 }

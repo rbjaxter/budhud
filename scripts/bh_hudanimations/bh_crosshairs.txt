@@ -12,8 +12,8 @@
 	
 	event HitMarker
 	{
-		Animate 		whayay_crosshair 		FgColor 		"ya_crosshairflash" 		Linear 0.00 0.00001
-		Animate 		whayay_crosshair 		FgColor 		"ya_crosshair" 				Linear 0.10 0.10001
-		Animate 		knuckles_crosshair		FgColor			"knuckles_crosshairflash"	Linear 0.00 0.00001
-		Animate 		knuckles_crosshair		FgColor			"knuckles_crosshair"		Linear 0.00 0.20001
+		Animate 		whayay_crosshair 		FgColor 		"ya_crosshairflash" 		Linear 0.00 0.00000
+		Animate 		whayay_crosshair 		FgColor 		"ya_crosshair" 				Linear 0.10 0.10000
+		Animate 		knuckles_crosshair		FgColor			"knuckles_crosshairflash"	Linear 0.00 0.00000
+		Animate 		knuckles_crosshair		FgColor			"knuckles_crosshair"		Linear 0.10 0.10000
 	}
