@@ -9,6 +9,23 @@
 	{
 		"ypos"														"r-6969"
 	}
+		
+	"SupportCommunityMapMakersCheckButton"
+	{
+	// FOR TESTING //
+	//	"ControlName"												"CheckButton"
+	//	"fieldName"													"SupportCommunityMapMakersCheckButton"
+	//	"xpos"														"c-12"
+	//	"ypos"														"438"
+	//	"zpos"														"5"
+	//	"wide"														"25"
+	//	"tall"														"25"
+	//	"font"														""
+	//	"labelText"													""
+	//	"visible"													"0"
+		
+		"ypos"														"r-6969"
+	}
 	
 	"CheckoutButton"
 	{
