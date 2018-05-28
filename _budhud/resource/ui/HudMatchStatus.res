@@ -5,6 +5,17 @@
 		"xpos"														"cs-0.5"
 		"wide"														"80"
 		
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		// The following section controls the time that is shown added to the round timer when capping
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		"delta_item_x"												"18"
+		"delta_item_start_y"										"43"
+		"delta_item_end_y"											"53"
+		"PositiveColor"												"bh_orange"
+		"NegativeColor"												"bh_red"
+		"delta_lifetime"											"0.8"
+		"delta_item_font"											"bh_Font18"
+		
 		"TimePanelValue"
 		{
 			"pin_to_sibling" 										"bh_TimePanelAnchor"
