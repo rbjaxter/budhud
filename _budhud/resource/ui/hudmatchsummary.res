@@ -1,6 +1,5 @@
 // Graciously stolen from WietHUD -- https://raw.githubusercontent.com/Wiethoofd/WietHUD/master/resource/ui/HudMatchSummary.res
 
-#base "../../../_tf2hud/resource/ui/hudmatchsummary.res"
 // (Casual) Matchmaking end of round stats
 
 "Resource/UI/HudMatchSummary.res"
