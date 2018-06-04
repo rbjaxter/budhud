@@ -13,6 +13,12 @@
 	// The current ping bars are comparatively arbitrary
 	tf_scoreboard_ping_as_text 										1
 	
+	// Improves appearance of backpack icons (and other misc things)
+	mat_picmip														-1
+	
+	// When spectating, hides cycling info about the spectated person's items
+	cl_spec_carrieditems											0
+	
 	echo /////////////////////////////////////////////////
 	echo Recommended commands set
 	echo /////////////////////////////////////////////////

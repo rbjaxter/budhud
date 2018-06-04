@@ -22,7 +22,17 @@
 	"ItemCountLabel"
 	{
 		"ypos"														"r-6969"
-	}	
+	}
+	
+	"classimage"
+	{
+		"ypos"														"r-6969"
+	}
+	
+	"classimageoutline"
+	{
+		"ypos"														"r-6969"
+	}
 
 	"DiscardButtonTooltip"
 	{
@@ -66,6 +76,16 @@
 		"bgcolor_override"											"bh_MenuBG"
 		"infocus_bgcolor_override" 									"bh_MenuBG"
 		"outoffocus_bgcolor_override" 								"bh_MenuBG"
+		
+		"modelpanelskv"	
+		{
+			"itemmodelpanel"
+			{
+				"antialias"											"1"
+				"inventory_image_type"								"1"
+				"use_item_rendertarget"								"0"
+			}
+		}
 	}
 	
 	"bh_Continue"

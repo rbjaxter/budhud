@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
 	"$translucent" 1
-	"$baseTexture" "vgui\replay\thumbnails\reportbug"
+	"$baseTexture" "vgui\replay\thumbnails\skull"
    	"$vertexcolor" 		1 
   	"$vertexalpha" 		1 
    	"$nolod" 			1

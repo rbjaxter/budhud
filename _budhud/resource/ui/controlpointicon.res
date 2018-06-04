@@ -1,12 +1,17 @@
 "Resource/UI/ControlPointIcon.res"
 {
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// CPTimerBG: 
+	// CPTimerBG: Removes background for countdown timer (degroot)
 	// ControlPointIcon: Control point size
 	// OverlayImage:
 	// CPTimerLabel: cp_degrootkeep CP C countdown
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
+	"CPTimerBG"
+	{
+		"wide"														"0"
+	}
+	
 	"ControlPointIcon"
 	{
 		"wide"														"28"
@@ -21,6 +26,7 @@
 	
 	"CPTimerLabel"
 	{
-		"wide"														"14"
+		"font"														"bh_Font10Drop"
+		"wide"														"15"
 	}
 }

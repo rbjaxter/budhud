@@ -1,12 +1,12 @@
 // Graciously stolen from WietHUD -- https://raw.githubusercontent.com/Wiethoofd/WietHUD/master/resource/ui/HudMatchSummary.res
 
-#base "../../../_tf2hud/resource/ui/hudmatchsummary.res"
 // (Casual) Matchmaking end of round stats
 
 "Resource/UI/HudMatchSummary.res"
 {
 	MatchSummary
 	{
+		"ypos"							"80"
 		"AnimBluePlayerListParent"		"p.49"
 		"AnimBlueTeamScore"			"100"
 		"AnimBlueTeamScoreXPos"			"0"
@@ -37,6 +37,10 @@
 		"xp_source_notification_center_x"	"290"
 	}
 
+	"RankModelPanel"
+	{
+	}
+	
 	"MainStatsContainer"
 	{
 		"TeamScoresPanel"

@@ -23,6 +23,11 @@
 		}
 	}
 	
+	"OvertimeLabel"
+	{
+		"ypos"														"0"
+	}
+	
 	"RedTimer"
 	{
 		"xpos"														"110"

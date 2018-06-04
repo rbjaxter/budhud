@@ -79,6 +79,6 @@
 		"pinCorner"													"0"
 		"visible"													"1"
 		"enabled"													"1"
-		"bgcolor_override"											"0 0 0 195"
+		"bgcolor_override"											"bh_BGAverage"
 	}
 }

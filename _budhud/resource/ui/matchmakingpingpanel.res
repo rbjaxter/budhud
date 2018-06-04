@@ -10,8 +10,10 @@
 	
 	"Title"
 	{
+		"ypos"														"5"
 		"fgcolor_override"											"bh_white"
 		"wide"														"200"
+		"tall"														"60"
 	}	
 
 	"InviteModeLabel"

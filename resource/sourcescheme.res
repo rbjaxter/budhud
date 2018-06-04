@@ -1,3 +1,7 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////	
+	// https://imgur.com/a/kRyiWE2
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
 	#base	"sourcescheme_base.res"
 	
 Scheme
@@ -26,5 +30,14 @@ Scheme
 		
 	    "QuickListBGDeselected"		"255 192 203 090"		// Unknown
 	    "QuickListBGSelected"       "255 192 203 090"		// Unknown
+		"Blank"						"000 000 000 000"		// 
+	    
+	    // background colors
+		"ControlBG"					"76 88 68 255"			// background color of controls
+		"ControlDarkBG"				"90 106 80 255"			// darker background color; used for background of scrollbars
+		"WindowBG"					"62 70 55 255"			// background color of text edit panes (chat, text entries, etc.)
+		"SelectionBG"				"90 84 75 255"			// background color of any selected text or menu item
+		"SelectionBG2"				"69 64 57 255"			// selection background in window w/o focus
+		"ListBG"					"39 36 34 255"			// background of server browser, buddy list, etc.
 	}
 }

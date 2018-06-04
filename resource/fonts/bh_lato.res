@@ -9,13 +9,13 @@
 	// Occurences (replaced)
 	// ============================================================================================== //
 	// Verdana: 81
-	// TF2 Secondary: 47
-	// TF2 Build: 31
-	// TF2: 30
+	// TF2 Secondary: 48
+	// TF2 Build: 32
+	// TF2: 31
 	// ocra: 12
 	// Tahoma: 7
 	// Arial: 5
-	// TF2 Professor: 5
+	// TF2 Professor: 6
 	// Trebuchet MS: 5
 	// Courier New: 2
 	// Arial Black: 1

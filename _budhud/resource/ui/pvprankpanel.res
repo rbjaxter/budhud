@@ -62,6 +62,11 @@
 			"wide"													"500"
 			"tall"													"20"
 			"textalignment"											"center"
+			
+			if_mini
+			{
+				"ypos"												"r20"
+			}
 		}		
 		
 		"DescLine2"

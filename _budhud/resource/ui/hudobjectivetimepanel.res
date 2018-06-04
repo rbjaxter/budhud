@@ -30,63 +30,83 @@
 		"ypos"														"r-6969"
 	}
 	
+	// Placement issues (koth placement vs cp/pl placement)
+	"OvertimeLabel"
+	{
+		"ypos"														"r-6969"
+	}
+
+	"bh_TimePanelAnchor"
+	{	
+		"ControlName"												"Label"
+		"fieldName"													"bh_TimePanelAnchor"
+		"xpos"														"cs-0.5"
+		"ypos"														"33"
+		"zpos"														"0"
+		"wide"														"f0"
+		"tall"														"0"
+		"visible"													"1"
+		"enabled"													"1"
+		"bgcolor_override"											"0 0 0 0"
+	}
+	
 	"ServerTimeLimitLabel"
 	{
-		"font"														"bh_Font12"
-		"xpos"														"20"
-		"ypos"														"36"
-		"wide"														"68"
+		"pin_to_sibling" 											"bh_TimePanelAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
+		"font"														"bh_Font16"
+		"xpos"														"cs-0.5"
+		"ypos"														"5"
+		"wide"														"f0"
 		"tall"														"20"
+		"proportionalToParent"										"1"
+		"textalignment"												"center"
 		
 		if_match
 		{
-			"xpos"													"30"
-			"ypos"													"24"
+			"ypos"													"8"
 		}
 	}
 	
 	"WaitingForPlayersLabel"
 	{
+		"pin_to_sibling" 											"bh_TimePanelAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
 		"font"														"bh_Font10"
-		"xpos"														"30"
-		"ypos"														"36"
-		"wide"														"50"
+		"xpos"														"cs-0.5"
+		"ypos"														"5"
+		"wide"														"f0"
 		"tall"														"20"
+		"proportionalToParent"										"1"
+		"textalignment"												"center"
 		
 		if_match
 		{
-			"xpos"													"30"
-			"ypos"													"24"
+			"ypos"													"8"
 		}
 	}
 	
 	"SetupLabel"
 	{
-		"font"														"bh_Font10"
-		"xpos"														"30"
-		"ypos"														"36"
-		"wide"														"50"
-		"tall"														"20"
-		
-		if_match
-		{
-			"xpos"													"30"
-			"ypos"													"24"
-		}
-	}
+		"pin_to_sibling" 											"bh_TimePanelAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
 	
-	"OvertimeLabel"
-	{
-		"font"														"bh_Font10"
-		"xpos"														"30"
-		"ypos"														"36"
-		"wide"														"50"
+		"font"														"bh_Font14"
+		"xpos"														"cs-0.5"
+		"ypos"														"5"
+		"wide"														"f0"
 		"tall"														"20"
+		"proportionalToParent"										"1"
+		"textalignment"												"center"
 		
 		if_match
 		{
-			"xpos"													"30"
-			"ypos"													"24"
+			"ypos"													"8"
 		}
 	}
 }

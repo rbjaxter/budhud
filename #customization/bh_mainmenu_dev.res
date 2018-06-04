@@ -227,6 +227,40 @@
 		"border_armed"												"bh_b_NESW"
     }
 	
+	"bh_Dev_Cheats"	
+	{
+		"pin_to_sibling" 											"bh_Dev_Anchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		
+		"ControlName"												"CExButton"
+		"fieldName"													"bh_Dev_Cheats"
+		"xpos"														"0"
+		"ypos"														"-120"
+		"zpos"														"6969"
+		"wide"														"100"
+		"tall"														"20"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"visible"													"1"
+		"enabled"													"1"
+		"paintbackgroundtype"										"0"
+
+		"labeltext"													"CHEATS 1/1"
+		"textalignment"												"center"
+		"font"														"bh_Font10"
+		"command"													"engine sv_cheats 1"
+		
+		"defaultBgColor_override"									"bh_ButtonBGDefault"
+		"armedBgColor_override"										"bh_ButtonBGArmed"
+		"depressedBgColor_override"									"bh_ButtonBGDepressed"
+		"defaultFgColor_override"									"bh_ButtonDefault"
+		"armedFgColor_override" 									"bh_ButtonArmed"
+		"depressedFgColor_override" 								"bh_ButtonDepressed"
+		"border_default"											"bh_b_NESW"
+		"border_armed"												"bh_b_NESW"
+    }
+	
 	"bh_Dev_Quit"	
 	{
 		"pin_to_sibling" 											"bh_Dev_Anchor"
@@ -236,7 +270,7 @@
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_Dev_Quit"
 		"xpos"														"0"
-		"ypos"														"-120"
+		"ypos"														"-140"
 		"zpos"														"6969"
 		"wide"														"100"
 		"tall"														"20"

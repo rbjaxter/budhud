@@ -228,9 +228,9 @@ Scheme
 		"bh_orange_t"												"240 134 049 064"
 		"bh_green"													"077 116 085 255"
 		"bh_red"													"159 055 055 255"
-		"bh_red_t"													"159 055 055 064"
+		"bh_red_t"													"159 055 055 128"
 		"bh_blue"													"101 122 140 255"
-		"bh_blue_t"													"101 122 140 064"
+		"bh_blue_t"													"101 122 140 128"
 		"bh_blank"													"000 000 000 000"
 
 		"bh_MenuBG"													"025 025 025 255"		// Color of all menu backgrounds
