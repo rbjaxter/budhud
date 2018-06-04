@@ -155,13 +155,13 @@
 	"NameFilterTextEntry"
 	{
 		"bgcolor_override"											"bh_white"
-		"selectionColor_override"									"bh_white"
+		"selectionColor_override"									"bh_orange"
 	}
 	
 	"SortFilterComboBox"
 	{
 		"bgcolor_override"											"bh_white"
-		"selectionColor_override"									"bh_white"
+		"selectionColor_override"									"bh_orange"
 		
 		"Button"
 		{
@@ -187,7 +187,7 @@
 	"SubcategoryFilterComboBox"
 	{
 		"bgcolor_override"											"bh_white"
-		"selectionColor_override"									"bh_white"
+		"selectionColor_override"									"bh_orange"
 		
 		"Button"
 		{
