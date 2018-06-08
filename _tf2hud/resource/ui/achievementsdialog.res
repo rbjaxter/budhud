@@ -42,6 +42,28 @@
 		"Command"		"Close"
 		"Default"		"0"
 	}
+
+	"ResetAchievements"
+	{
+		"ControlName"		"Button"
+		"fieldName"		"ResetAchievements"
+		"xpos"		"25"
+		"ypos"		"410"
+		"wide"		"200"
+		"tall"		"24"
+		"autoResize"		"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"#TF_ConfirmResetAchievements_Title"
+		"textAlignment"		"west"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"		"0"
+		"Command"		"ResetAchievements"
+		"Default"		"0"
+	}
 	
 	"listpanel_achievements"
 	{
