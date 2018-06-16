@@ -38,7 +38,7 @@
 	"bh_TitleHover"
 	{
 		"label"			""
-		"command"		"engine con_enable 1;showconsole;clear;
+		"command"		"engine con_enable 1;showconsole;
 						echo ======================================================;
 						echo ~~~~~~~~~~~~~~~~~ budhud, by Whisker ~~~~~~~~~~~~~~~~~;
 						echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
@@ -48,7 +48,7 @@
 						echo ======================================================;
 						echo ~ Thank you to everyone who actively uses my hud! ~~~~;
 						echo ======================================================;"
-		"tooltip"		"Updated 04 June 2018"
+		"tooltip"		"Updated 16 June 2018"
 	}
 	
 	"bh_Streams"
