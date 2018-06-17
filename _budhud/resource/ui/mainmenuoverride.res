@@ -15,6 +15,203 @@
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Preload cp icons so that they work in casual/comp
+	// Idea courtesy of Sevin and Wiethoofd
+	////////////////////////////////////////////////////////////////////////////////////////////////////	
+	
+	"bh_p_icon_obj_blu"
+	{
+		"ControlName"												"CExImageButton"
+		"fieldName"													"bh_p_icon_obj_blu_locked"
+		"xpos"														"0"
+		"ypos"														"r-6969"
+		"wide"														"15"
+		"tall"														"15"
+		"visible"													"1"
+		"enabled"													"1"
+
+		"SubImage"
+		{
+			"ControlName"											"ImagePanel"
+			"fieldName"												"SubImage"
+			"xpos"													"0"
+			"ypos"													"0"
+			"zpos"													"1"
+			"visible"												"1"
+			"enabled"												"1"
+			"image"													"..\sprites\obj_icons\icon_obj_blu"
+		}		
+	}
+	
+	"bh_p_icon_obj_blu_locked"
+	{
+		"ControlName"												"CExImageButton"
+		"fieldName"													"bh_p_icon_obj_blu_locked"
+		"xpos"														"0"
+		"ypos"														"r-6969"
+		"wide"														"15"
+		"tall"														"15"
+		"visible"													"1"
+		"enabled"													"1"
+
+		"SubImage"
+		{
+			"ControlName"											"ImagePanel"
+			"fieldName"												"SubImage"
+			"xpos"													"0"
+			"ypos"													"0"
+			"zpos"													"1"
+			"visible"												"1"
+			"enabled"												"1"
+			"image"													"..\sprites\obj_icons\icon_obj_blu_locked"
+		}		
+	}
+	
+	"bh_p_icon_obj_cap_blue"
+	{
+		"ControlName"												"CExImageButton"
+		"fieldName"													"bh_p_icon_obj_cap_blue"
+		"xpos"														"0"
+		"ypos"														"r-6969"
+		"wide"														"15"
+		"tall"														"15"
+		"visible"													"1"
+		"enabled"													"1"
+
+		"SubImage"
+		{
+			"ControlName"											"ImagePanel"
+			"fieldName"												"SubImage"
+			"xpos"													"0"
+			"ypos"													"0"
+			"zpos"													"1"
+			"visible"												"1"
+			"enabled"												"1"
+			"image"													"..\sprites\obj_icons\icon_obj_cap_blue"
+		}		
+	}
+	
+	"bh_p_icon_obj_cap_red"
+	{
+		"ControlName"												"CExImageButton"
+		"fieldName"													"bh_p_icon_obj_cap_red"
+		"xpos"														"0"
+		"ypos"														"r-6969"
+		"wide"														"15"
+		"tall"														"15"
+		"visible"													"1"
+		"enabled"													"1"
+
+		"SubImage"
+		{
+			"ControlName"											"ImagePanel"
+			"fieldName"												"SubImage"
+			"xpos"													"0"
+			"ypos"													"0"
+			"zpos"													"1"
+			"visible"												"1"
+			"enabled"												"1"
+			"image"													"..\sprites\obj_icons\icon_obj_cap_red"
+		}		
+	}
+	
+	"bh_p_icon_obj_neutral"
+	{
+		"ControlName"												"CExImageButton"
+		"fieldName"													"bh_p_icon_obj_neutral"
+		"xpos"														"0"
+		"ypos"														"r-6969"
+		"wide"														"15"
+		"tall"														"15"
+		"visible"													"1"
+		"enabled"													"1"
+
+		"SubImage"
+		{
+			"ControlName"											"ImagePanel"
+			"fieldName"												"SubImage"
+			"xpos"													"0"
+			"ypos"													"0"
+			"zpos"													"1"
+			"visible"												"1"
+			"enabled"												"1"
+			"image"													"..\sprites\obj_icons\icon_obj_neutral"
+		}		
+	}
+	
+	"bh_p_icon_obj_neutral_locked"
+	{
+		"ControlName"												"CExImageButton"
+		"fieldName"													"bh_p_icon_obj_neutral_locked"
+		"xpos"														"0"
+		"ypos"														"r-6969"
+		"wide"														"15"
+		"tall"														"15"
+		"visible"													"1"
+		"enabled"													"1"
+
+		"SubImage"
+		{
+			"ControlName"											"ImagePanel"
+			"fieldName"												"SubImage"
+			"xpos"													"0"
+			"ypos"													"0"
+			"zpos"													"1"
+			"visible"												"1"
+			"enabled"												"1"
+			"image"													"..\sprites\obj_icons\icon_obj_neutral_locked"
+		}		
+	}
+	
+	"bh_p_icon_obj_red"
+	{
+		"ControlName"												"CExImageButton"
+		"fieldName"													"bh_p_icon_obj_red"
+		"xpos"														"0"
+		"ypos"														"r-6969"
+		"wide"														"15"
+		"tall"														"15"
+		"visible"													"1"
+		"enabled"													"1"
+
+		"SubImage"
+		{
+			"ControlName"											"ImagePanel"
+			"fieldName"												"SubImage"
+			"xpos"													"0"
+			"ypos"													"0"
+			"zpos"													"1"
+			"visible"												"1"
+			"enabled"												"1"
+			"image"													"..\sprites\obj_icons\icon_obj_red"
+		}		
+	}
+	
+	"bh_p_icon_obj_red_locked"
+	{
+		"ControlName"												"CExImageButton"
+		"fieldName"													"bh_p_icon_obj_red_locked"
+		"xpos"														"0"
+		"ypos"														"r-6969"
+		"wide"														"15"
+		"tall"														"15"
+		"visible"													"1"
+		"enabled"													"1"
+
+		"SubImage"
+		{
+			"ControlName"											"ImagePanel"
+			"fieldName"												"SubImage"
+			"xpos"													"0"
+			"ypos"													"0"
+			"zpos"													"1"
+			"visible"												"1"
+			"enabled"												"1"
+			"image"													"..\sprites\obj_icons\icon_obj_red_locked"
+		}		
+	}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Anchors
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
