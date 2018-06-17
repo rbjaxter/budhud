@@ -16,14 +16,13 @@
 		"delta_lifetime"											"0.8"
 		"delta_item_font"											"bh_Font18"
 		
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		// Using an anchor here requires a reloadscheme every game start up. else, overlapping occurs
+		////////////////////////////////////////////////////////////////////////////////////////////////////		
 		"TimePanelValue"
 		{
-			"pin_to_sibling" 										"bh_TimePanelAnchor"
-			"pin_corner_to_sibling" 								"PIN_TOPCENTER"
-			"pin_to_sibling_corner" 								"PIN_TOPCENTER"	
-			
 			"xpos"													"cs-0.5"
-			"ypos"													"25"
+			"ypos"													"7"
 			"wide"													"f0"
 			"tall"													"20"
 			"bgcolor_override"										"bh_gray_t"
@@ -31,7 +30,7 @@
 			
 			if_match
 			{
-				"ypos"												"25"
+				"ypos"												"8"
 				"bgcolor_override"									"0 0 0 0"
 			}
 		}
