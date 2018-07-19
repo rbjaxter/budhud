@@ -2,7 +2,7 @@
 {
 	"HudItemEffectMeter"
 	{
-		"ypos"														"c124"
-		"ypos_minmode"												"c124"
+		"ypos"														"c114"
+		"ypos_minmode"												"c114"
 	}
 }
