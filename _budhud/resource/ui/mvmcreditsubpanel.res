@@ -23,7 +23,7 @@
 		"ypos"														"12"
 		"wide"														"70"
 		"textalignment"												"east"
-		"fgcolor"													"bh_green"
+		"fgcolor"													"bh_bgreen"
 	}
 	
 	"CreditMissedCountLabel"
@@ -32,7 +32,7 @@
 		"ypos"														"24"
 		"wide"														"70"
 		"textalignment"												"east"
-		"fgcolor"													"bh_red"
+		"fgcolor"													"bh_bred"
 	}
 	
 	"CreditBonusCountLabel"

@@ -8,7 +8,7 @@
 		"ypos"														"12"
 		"wide"														"70"
 		"textalignment"												"east"
-		"fgcolor"													"bh_green"
+		"fgcolor"													"bh_bgreen"
 	}
 
 	"BuyBackCountLabel"
@@ -17,7 +17,7 @@
 		"ypos"														"24"
 		"wide"														"70"
 		"textalignment"												"east"
-		"fgcolor"													"bh_red"
+		"fgcolor"													"bh_bred"
 	}
 	
 	"BottleCountLabel"

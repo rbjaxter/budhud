@@ -13,7 +13,7 @@
 			{
 				"PriceLabel"
 				{
-					"fgcolor_override"								"bh_green"
+					"fgcolor_override"								"bh_bgreen"
 				}
 				
 				"AttributesLabel"

@@ -68,7 +68,7 @@
 	"CurrencyGood"
 	{
 		"font"														"bh_Font14"
-		"fgcolor"													"bh_green"
+		"fgcolor"													"bh_bgreen"
 		"xpos"														"45"
 		"ypos"														"0"
 		"wide"														"50"
@@ -79,7 +79,7 @@
 	"CurrencyBad"
 	{
 		"font"														"bh_Font14"
-		"fgcolor"													"bh_red"
+		"fgcolor"													"bh_bred"
 		"xpos"														"45"
 		"ypos"														"0"
 		"wide"														"50"

@@ -122,8 +122,8 @@
 		{
 			"color_portrait_bg_red"									"bh_red_t"
 			"color_portrait_bg_blue"								"bh_blue_t"
-			"color_portrait_bg_red_dead"							"bh_black"
-			"color_portrait_bg_blue_dead"							"bh_black"
+			"color_portrait_bg_red_dead"							"bh_gray_t"
+			"color_portrait_bg_blue_dead"							"bh_gray_t"
 			"color_bar_health_high"									"bh_green"
 			"color_bar_health_med"									"bh_orange"
 			"percentage_health_med"									"0.5"

@@ -232,6 +232,7 @@ Scheme
 		"bh_blue"													"101 122 140 255"
 		"bh_blue_t"													"101 122 140 128"
 		"bh_blank"													"000 000 000 000"
+		"bh_yellow"													"231 181 059 255"
 
 		"bh_MenuBG"													"025 025 025 255"		// Color of all menu backgrounds
 		"bh_MouseOverBG"											"035 035 035 255"		// Item mouse-over BG color
@@ -244,6 +245,8 @@ Scheme
 		"bh_BGRed"													"205 050 050 090"
 		"bh_Shadow"													"000 000 000 255"
 		"bh_isError"												"254 002 209 255"		// Bright pink
+		"bh_bgreen"													"050 205 050 255"
+		"bh_bred"													"245 050 041 255"
 
 		"bh_ButtonDefault"											"255 255 255 255"		// White
 		"bh_ButtonBlank"											"000 000 000 000"

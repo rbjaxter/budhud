@@ -108,6 +108,6 @@
 		"textAlignment"												"center"
 		"xpos"														"175"
 		"ypos"														"194"
-		"fgcolor_override"											"bh_green"
+		"fgcolor_override"											"bh_bgreen"
 	}
 }
