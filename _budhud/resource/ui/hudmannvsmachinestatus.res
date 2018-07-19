@@ -4,7 +4,6 @@
 	{
 		"wide"														"600"
 		"tall"														"67"
-
 	}
 	
 	"CurrencyStatusPanel"

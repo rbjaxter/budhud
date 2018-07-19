@@ -23,7 +23,7 @@
         
 		"labeltext"													"f"           						// Change this to use a different crosshair
         
-        "font"														"CrosshairOLsmall"	    			// Use "CrosshairOL" for a crosshair with an outline
+        "font"														"CrosshairOLSmall"	    			// Use "CrosshairOL" for a crosshair with an outline
 																										// or "CrosshairAA" for a smooth crosshair w/o an outline 
                                      
 																										// You can add "Small" or "Big" at the end to change the size

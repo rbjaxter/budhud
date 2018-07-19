@@ -69,7 +69,7 @@
 		"draw_corner_width"											"0"
 		"draw_corner_height" 										"0"	
 	}
-	
+
 	"TargetNameLabel"
 	{
 		"xpos"														"0"
