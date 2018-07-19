@@ -6,5 +6,5 @@
 	"$refractblur"													"0.0"
 
 	"$scale"														"[1 1]"
-	"$normalmap"													"vgui/replay/thumbnails/overlays/transparentviewmodels_windows"
+	"$normalmap"													"vgui/replay/thumbnails/overlays/bh_transparentviewmodels"
 }
