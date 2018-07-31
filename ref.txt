@@ -24,6 +24,8 @@
 		"TF_ItemPresetName2"	"<name>"
 		"TF_ItemPresetName3"	"<name>"
 	(will probably muck up the quickswitch menu)
+	- showschemevisualizer
+	- cl_panelanimation
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Borders

@@ -51,16 +51,7 @@ Scheme
 	// Damage Done & Heals Given
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-		////////////////////////////////////////////////////////////////////////////////////////////////////
-		// "bh_DamageColor"											"255 255 255 255" 	// Damage done that appears above player	
-			// This is now controlled by the following console commands:
-			// hud_combattext_red
-			// hud_combattext_green
-			// hud_combattext_blue
-		////////////////////////////////////////////////////////////////////////////////////////////////////	
-		
-		
-		"bh_hudDMGDisplay"											"243 157 048 255" 	// Damage done that appears below ammo
+		"bh_hudDMGDisplay"											"243 157 048 255" 	// Damage done and regen health that appears below ammo
 		"bh_HealColor"												"000 153 255 255" 	// Medigun/arrow heals
 		"bh_UberDrop"												"255 105 180 255"	// Uber drop color
 
@@ -255,13 +246,13 @@ Scheme
 		"bh_ButtonBGDefault"										"015 015 015 255"
 		"bh_ButtonBGArmed"											"035 035 035 255"
 		"bh_ButtonBGDepressed"										"035 035 035 255"		
-			
+
 		"TFOrange"													"085 085 085 255"		// Backpack page number BG (selected page color)
-		"TanLight"													"255 255 255 255"		// Referenced in a few areas, saves lines keeping this
-		"TanDark"													"025 025 025 255"		// MenuBG color		
-		"Orange"													"240 134 049 255"		// Referenced in a few areas, saves lines keeping this
-		"LightRed"													"255 255 255 255"		// Most often used in dialogs
+		"Orange"													"240 134 049 255"
+		"LightRed"													"255 255 255 255"
 		"LighterRed"												"255 255 255 255"
+		"TanLight"													"255 255 255 255"
+		"TanDark"													"150 150 150 255"		// Used in Adv. Options, backpack context menu (text color), and dropbox text color (when highlighted)
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
