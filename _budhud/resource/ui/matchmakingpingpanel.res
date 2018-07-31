@@ -4,8 +4,8 @@
 {
 	"PingPanel"
 	{
-		"bgcolor_override"											"bh_blank"
-		"border"													"ReplayGrayDialogBorder"
+		"bgcolor_override"											"bh_MenuBG"
+		"border"													"bh_b_E"
 	}
 	
 	"Title"
