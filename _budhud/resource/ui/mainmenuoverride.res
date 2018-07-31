@@ -769,6 +769,7 @@
 		"visible"													"1"
 		"enabled"													"1"
 		"fillcolor"													"bh_MenuBG"
+		"border"													"bh_b_N"
 		"image"														""
 		"paintbackgroundtype"										"0"
     }
