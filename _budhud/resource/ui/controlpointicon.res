@@ -29,4 +29,10 @@
 		"font"														"bh_Font10Drop"
 		"wide"														"15"
 	}
+	
+	"CapNumPlayers"
+	{
+		"xpos"														"14"
+		"ypos"														"-2"
+	}
 }

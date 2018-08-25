@@ -1,19 +1,19 @@
 "Resource/UI/HudArenaPlayerCount.res"
 {
-		"bh_playerimage"
-		{
-			"ControlName"											"ImagePanel"		
-			"fieldName"												"playerimage"
-			"xpos"													"c-5"
-			"ypos"													"28"
-			"zpos"													"3"
-			"wide"													"10"
-			"tall"													"20"
-			"visible"												"1"
-			"enabled"												"1"
-			"image"													"capture_icon_white"
-			"scaleImage"											"1"
-		}
+	"bh_playerimage"
+	{
+		"ControlName"												"ImagePanel"		
+		"fieldName"													"playerimage"
+		"xpos"														"c-5"
+		"ypos"														"28"
+		"zpos"														"3"
+		"wide"														"10"
+		"tall"														"20"
+		"visible"													"1"
+		"enabled"													"1"
+		"image"														"capture_icon_white"
+		"scaleImage"												"1"
+	}
 
 	"blueteam"
 	{

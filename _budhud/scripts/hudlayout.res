@@ -134,6 +134,11 @@
 		"tall"														"100"
 	}	
 
+	HudArenaCapPointCountdown
+	{
+		"ypos"														"r34"
+	}
+	
 	HudItemEffectMeter
 	{
 		"xpos"														"0"
