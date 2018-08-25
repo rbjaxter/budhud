@@ -138,7 +138,9 @@
 			"BGPanel"
 			{
 				"bgcolor_override"									"bh_MenuBG"
-				"border"											"bh_blank"
+				"border"											"bh_b_NESW"
+				"wide"												"f0"
+				"tall"												"f0"
 			}
 			
 			"QueueText"
