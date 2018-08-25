@@ -42,4 +42,15 @@
 		"textalignment"												"center"
 		"fgcolor_override"											"bh_orange"
 	}
+	
+	"NumberLabel"
+	{
+		"font"														"bh_Font12"
+		"fgcolor_override"											"bh_white"
+	}
+	
+	"NumberBG"
+	{
+		"ypos"														"r-6969"
+	}
 }

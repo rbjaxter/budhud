@@ -5,6 +5,6 @@
 	"CantBuildReason"
 	{
 		"labeltext"													"#bh_Built"
-		"fgcolor_override"											"bh_HealthBuff"
+		"fgcolor_override"											"bh_blue"
 	}
 }

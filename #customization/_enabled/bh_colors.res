@@ -253,6 +253,19 @@ Scheme
 		"LighterRed"												"255 255 255 255"
 		"TanLight"													"255 255 255 255"
 		"TanDark"													"150 150 150 255"		// Used in Adv. Options, backpack context menu (text color), and dropbox text color (when highlighted)
+	
+		// Engineer HUD Specific
+		"LowHealthRed"												"159 055 055 255"		// When building is low health or is in first stage of building
+		"ProgressOffWhite"											"255 255 255 255"		// Right build progress and ammo bars
+		"ProgressBackground"										"150 150 150 255"		// Right "Building..." Progress color BG
+		"HealthBgGrey"												"150 150 150 255"		// Left build progress bar
+		
+		"ProgressOffWhiteTransparent"								"0 0 255 255"			// Unknown
+		
+		"LabelDark"													"000 000 000 255"		// Blog text
+		"LabelTransparent"											"255 000 255 255"		// Unknown
+		
+		"BuildMenuActive"											"000 255 255 255"		// Unknown
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -26,7 +26,7 @@
 		"ypos"														"40"
 		"wide"														"410"
 		"tall"														"130"
-		"bgcolor_override"											"bh_BGStandard"
+		"bgcolor_override"											"000 000 000 200"
 		"icon"														""
 	}
 	
@@ -36,6 +36,11 @@
 	}
 	
 	"TitleLabelDropShadow"
+	{
+		"ypos"														"r-6969"
+	}
+	
+	"NumberBG"
 	{
 		"ypos"														"r-6969"
 	}
