@@ -116,7 +116,7 @@
 	
 		"xpos"														"0"
 		"ypos"														"0"
-		"zpos"														"8"
+		"zpos"														"4"
 		"wide"														"60"
 		"tall"														"30"
 		"textAlignment"												"center"	
@@ -175,7 +175,7 @@
 	
 		"xpos"														"0"
 		"ypos"														"0"
-		"zpos"														"8"
+		"zpos"														"4"
 		"wide"														"60"
 		"tall"														"30"
 		"textAlignment"												"center"	
