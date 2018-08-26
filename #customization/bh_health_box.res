@@ -7,6 +7,6 @@
 {
 	"bh_HealthBG"	
 	{
-		"bgcolor_override"											"bh_HealthBG_t"
+		"bgcolor_override"											"bh_HealthBox_Base"
     }
 }

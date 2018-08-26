@@ -26,9 +26,6 @@ Scheme
 		"bh_HealthLow"												"186 032 032 255"
 		"bh_HealthBuff"												"000 153 255 255"
 		"bh_HealthPickup"											"240 134 049 255"
-		"bh_HealthLow_t"											"186 032 032 125"
-		"bh_HealthBuff_t"											"000 153 255 125"
-		"bh_HealthBG_t"												"150 150 150 125"
 		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Ammo
@@ -39,13 +36,14 @@ Scheme
 		"bh_AmmoLow_Shadow"											"186 032 032 255"
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Ammo - Translucent
-	// Used for the "Ammo Box" customization option
+	// Customization: Ammo and Health Box
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
-	
-		"bh_Ammo_t"													"255 255 255 125"
-		"bh_AmmoLow_t"												"150 150 150 125"
-		"bh_AmmoLow_Shadow_t"										"186 032 032 125"
+		// These two should match
+		"bh_AmmoBox_Base"											"150 150 150 125"
+		"bh_HealthBox_Base"											"150 150 150 125"
+		
+		"bh_HealthBox_Low"											"186 032 032 125"
+		"bh_HealthBox_Buff"											"000 153 255 125"
 		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Damage Done & Heals Given

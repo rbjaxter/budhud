@@ -7,6 +7,6 @@
 {
 	"bh_AmmoBG"	
 	{
-		"bgcolor_override"											"bh_HealthBG_t"
+		"bgcolor_override"											"bh_AmmoBox_Base"
     }
 }
