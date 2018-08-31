@@ -23,8 +23,8 @@
 		"xpos"														"65"
 		"ypos"														"31"
 		"zpos"														"3"
-		"wide"														"0"
-		"tall"														"0"
+		"wide"														"32"
+		"tall"														"32"
 		
 		"if_mvm"
 		{
