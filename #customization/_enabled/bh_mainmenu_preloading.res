@@ -15,9 +15,43 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Engineer
-	// Icons cannot be preloaded
-	////////////////////////////////////////////////////////////////////////////////////////////////////	
+	// CTF - Base
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	"objectives_flagpanel_compass_blue"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\objectives_flagpanel_compass_blue"
+	}
+	
+	"objectives_flagpanel_compass_blue_noarrow"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\objectives_flagpanel_compass_blue_noarrow"
+	}
+
+	"objectives_flagpanel_compass_grey"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\objectives_flagpanel_compass_grey"
+	}
+
+	"objectives_flagpanel_compass_red"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\objectives_flagpanel_compass_red"
+	}
+	
+	"objectives_flagpanel_compass_red_noarrow"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\objectives_flagpanel_compass_red_noarrow"
+	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Payload - General
@@ -172,7 +206,7 @@
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Control Points
+	// Control Points - Base
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
 	
 	"icon_obj_neutral"
@@ -229,5 +263,156 @@
 		"ControlName"												"ImagePanel"
 		"ypos"														"r-6969"
 		"image"														"..\sprites\obj_icons\icon_obj_red_locked"
+	}
+	
+	"icon_obj_cap_mask"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_cap_mask"
+	}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Control Points - Numbered
+	////////////////////////////////////////////////////////////////////////////////////////////////////	
+	
+	"icon_obj_1_blu"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_1_blu"
+	}
+	
+	"icon_obj_1_blu_locked"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_1_blu_locked"
+	}
+	
+	"icon_obj_1_red"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_1_red"
+	}
+	
+	"icon_obj_1_red_locked"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_1_red_locked"
+	}
+	
+	"icon_obj_2_blu"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_2_blu"
+	}
+	
+	"icon_obj_2_blu_locked"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_2_blu_locked"
+	}
+	
+	"icon_obj_2_red"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_2_red"
+	}
+	
+	"icon_obj_2_red_locked"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_2_red_locked"
+	}
+	
+	"icon_obj_3_blu"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_3_blu"
+	}
+	
+	"icon_obj_3_blu_locked"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_3_blu_locked"
+	}
+	
+	"icon_obj_3_red"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_3_red"
+	}
+	
+	"icon_obj_3_red_locked"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_3_red_locked"
+	}
+	
+	"icon_obj_4_blu"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_4_blu"
+	}
+	
+	"icon_obj_4_blu_locked"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_4_blu_locked"
+	}
+	
+	"icon_obj_4_red"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_4_red"
+	}
+	
+	"icon_obj_4_red_locked"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_4_red_locked"
+	}
+	
+	"icon_obj_5_blu"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_5_blu"
+	}
+	
+	"icon_obj_5_blu_locked"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_5_blu_locked"
+	}
+	
+	"icon_obj_5_red"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_5_red"
+	}
+	
+	"icon_obj_5_red_locked"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_5_red_locked"
 	}
 }
