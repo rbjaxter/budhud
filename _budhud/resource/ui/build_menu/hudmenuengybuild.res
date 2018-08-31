@@ -20,16 +20,6 @@
 		"ypos"														"r-6969"
 	}
 	
-	"MainBackground"	
-	{
-		"xpos"														"20"
-		"ypos"														"40"
-		"wide"														"410"
-		"tall"														"130"
-		"bgcolor_override"											"000 000 000 200"
-		"icon"														""
-	}
-	
 	"TitleLabel"
 	{
 		"ypos"														"r-6969"
@@ -43,5 +33,258 @@
 	"NumberBG"
 	{
 		"ypos"														"r-6969"
+	}
+	
+	"bh_PDAAnchor"
+	{	
+		"ControlName"												"Label"
+		"fieldName"													"bh_PDAAnchor"
+		"xpos"														"cs-0.5"
+		"ypos"														"c-20"
+		"zpos"														"0"
+		"wide"														"400"
+		"tall"														"0"
+		"visible"													"1"
+		"enabled"													"1"
+		"bgcolor_override"											"0 0 0 0"
+	}	
+	
+	"MainBackground"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+	
+		"xpos"														"0"
+		"ypos"														"0"
+		"wide"														"400"
+		"tall"														"120"
+		"bgcolor_override"											"000 000 000 200"
+		"icon"														""
+	}
+	
+	"bh_TeamIndicator"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
+		"ControlName"												"CTFImagePanel"
+		"fieldName"													"bh_TeamIndicator"
+		"xpos"														"0"
+		"ypos"														"-120"
+		"zpos"														"0"
+		"wide"														"400"
+		"tall"	 													"2"
+		"visible"													"1"
+		"enabled"													"1"
+		"image"														"replay\thumbnails\tid_gray"
+		"teambg_1"													"replay\thumbnails\tid_gray"
+		"teambg_2"													"replay\thumbnails\tid_red"
+		"teambg_3"													"replay\thumbnails\tid_blue"
+	}
+	
+	"active_item_1"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"ControlName"												"EditablePanel"
+		"xpos"														"0"
+		"ypos"														"0"
+		"tall"														"120"
+	}
+	
+	"active_item_2"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"ControlName"												"EditablePanel"
+		"xpos"														"-100"
+		"ypos"														"0"
+		"tall"														"120"
+	}
+	
+	"active_item_3"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"xpos"														"-200"
+		"ypos"														"0"
+		"tall"														"120"
+	}
+	
+	"active_item_4"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"xpos"														"-300"
+		"ypos"														"0"
+		"tall"														"120"
+	}
+
+	"inactive_item_1"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"ControlName"												"EditablePanel"
+		"xpos"														"0"
+		"ypos"														"0"
+		"tall"														"120"
+	}
+	
+	"inactive_item_2"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"ControlName"												"EditablePanel"
+		"xpos"														"-100"
+		"ypos"														"0"
+		"tall"														"120"
+	}
+	
+	"inactive_item_3"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"xpos"														"-200"
+		"ypos"														"0"
+		"tall"														"120"
+	}
+	
+	"inactive_item_4"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"xpos"														"-300"
+		"ypos"														"0"
+		"tall"														"120"
+	}	
+	
+	"already_built_item_1"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"xpos"														"0"
+		"ypos"														"0"
+		"tall"														"120"
+	}
+	
+	"already_built_item_2"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"xpos"														"-100"
+		"ypos"														"0"
+		"tall"														"120"
+	}
+	
+	"already_built_item_3"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"xpos"														"-200"
+		"ypos"														"0"
+		"tall"														"120"
+	}
+	
+	"already_built_item_4"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"xpos"														"-300"
+		"ypos"														"0"
+		"tall"														"120"
+	}
+	
+	"cant_afford_item_1"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"xpos"														"0"
+		"ypos"														"0"
+		"tall"														"120"
+	}
+	
+	"cant_afford_item_2"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"xpos"														"-100"
+		"ypos"														"0"
+		"tall"														"120"
+	}
+	
+	"cant_afford_item_3"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"xpos"														"-200"
+		"ypos"														"0"
+		"tall"														"120"
+	}
+	
+	"cant_afford_item_4"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"xpos"														"-300"
+		"ypos"														"0"
+		"tall"														"120"
+	}
+
+	"unavailable_item_1"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"xpos"														"0"
+		"ypos"														"0"
+		"tall"														"120"
+	}
+	
+	"unavailable_item_2"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"xpos"														"-100"
+		"ypos"														"0"
+		"tall"														"120"
+	}
+	
+	"unavailable_item_3"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"xpos"														"-200"
+		"ypos"														"0"
+		"tall"														"120"
+	}
+	
+	"unavailable_item_4"
+	{
+		"pin_to_sibling" 											"bh_PDAAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"xpos"														"-300"
+		"ypos"														"0"
+		"tall"														"120"
 	}
 }

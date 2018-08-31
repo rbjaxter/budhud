@@ -2,4 +2,8 @@
 
 "Resource/UI/build_menu/base.res"
 {
+	"BuildingIcon"
+	{
+		"ypos"														"c-20"
+	}
 }
