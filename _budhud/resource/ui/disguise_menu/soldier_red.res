@@ -1,0 +1,1 @@
+	#base	"class_base.res"
