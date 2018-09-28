@@ -9,4 +9,8 @@
 	
 "Resource/UI/huditemeffectmeter_sapper.res"
 {
+	"== huditemeffectmeter_sapper =="
+	{
+		"ControlName"												"ImagePanel"
+	}
 }

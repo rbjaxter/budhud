@@ -9,4 +9,8 @@
 	
 "Resource/UI/huditemeffectmeter_killstreak.res"
 {
+	"== huditemeffectmeter_killstreak =="
+	{
+		"ControlName"												"ImagePanel"
+	}
 }

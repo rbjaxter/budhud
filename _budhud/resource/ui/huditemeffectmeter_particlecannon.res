@@ -9,4 +9,8 @@
 	
 "Resource/UI/huditemeffectmeter_particlecannon.res"
 {
+	"== huditemeffectmeter_organs =="
+	{
+		"ControlName"												"ImagePanel"
+	}
 }

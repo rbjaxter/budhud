@@ -9,4 +9,8 @@
 	
 "Resource/UI/huditemeffectmeter_kartcharge.res"
 {
+	"== huditemeffectmeter_kartcharge =="
+	{
+		"ControlName"												"ImagePanel"
+	}
 }
