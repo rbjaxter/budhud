@@ -9,28 +9,105 @@
 		}
 	}
 	
+	"bh_trackextender_left"		// you're an idiot for thinking of doing this
+	{
+		"ControlName"												"CExImageButton"
+		"fieldName"													"bh_trackextender_left"
+		"xpos"														"69"
+		"ypos"														"119"
+		"zpos"														"0"
+		"wide"														"4"
+		"tall"														"12"
+		"visible"													"1"
+		"enabled"													"1"
+		"labeltext"													""
+		
+		"SubImage"
+		{
+			"ControlName"											"ImagePanel"
+			"fieldName"												"SubImage"
+			"xpos"													"0"
+			"ypos"													"0"
+			"zpos"													"1"
+			"wide"													"f0"
+			"tall"													"12"
+			"visible"												"1"
+			"enabled"												"1"
+			"image"													"..\hud\cart_track"
+			"scaleImage"											"1"
+		}
+
+		"if_multiple_trains"
+		{
+			"ypos"													"r-6969"
+		}
+		
+		"if_single_with_hills"
+		{
+			"ypos"													"119"
+		}		
+	}
+	
+	"bh_trackextender_right"
+	{
+		"ControlName"												"CExImageButton"
+		"fieldName"													"bh_trackextender_right"
+		"xpos"														"327"
+		"ypos"														"119"
+		"zpos"														"0"
+		"wide"														"2"
+		"tall"														"12"
+		"visible"													"1"
+		"enabled"													"1"
+		"labeltext"													""
+		
+		"SubImage"
+		{
+			"ControlName"											"ImagePanel"
+			"fieldName"												"SubImage"
+			"xpos"													"0"
+			"ypos"													"0"
+			"zpos"													"1"
+			"wide"													"f0"
+			"tall"													"12"
+			"visible"												"1"
+			"enabled"												"1"
+			"image"													"..\hud\cart_track"
+			"scaleImage"											"1"
+		}
+
+		"if_multiple_trains"
+		{
+			"ypos"													"r-6969"
+		}
+		
+		"if_single_with_hills"
+		{
+			"ypos"													"119"
+		}
+	}	
+	
 	"LevelBar"
 	{
-		"xpos"														"73"
-		"ypos"														"123"
+		"xpos"														"72"
+		"ypos"														"119"
 		"zpos"														"0"
-		"wide"														"254"
-		"tall"														"4"
+		"wide"														"255"
+		"tall"														"12"
 		
 		"if_multiple_trains"
 		{
 			"ypos"													"114"
-			"zpos"													"3"
+			"zpos"													"0"
 			"tall"													"12"
 			"image"													"../hud/cart_track_neutral_opaque"
 		}
 		
 		"if_single_with_hills"
 		{
-			"ypos"													"120"
-			"ypos_minmode"											"120"
+			"ypos"													"119"
+			"zpos"													"0"
 			"tall"													"12"
-			"tall_minmode"											"12"
 			"image"													"../hud/cart_track_neutral_opaque"
 		}		
 	}	
@@ -40,7 +117,7 @@
 		"if_multiple_trains"
 		{
 			"ypos"													"114"
-			"zpos"													"6"
+			"zpos"													"4"
 			"tall"													"12"
 			"visible"												"1"
 		}
@@ -48,10 +125,10 @@
 	
 	"HomeCPIcon"
 	{
-		"xpos"														"64"
+		"xpos"														"62"
 		"ypos"														"116"
 		"zpos"														"1"
-		"wide"														"18"
+		"wide"														"20"
 		"tall"														"18"
 		
 		"if_team_red"
@@ -71,21 +148,12 @@
 		
 		"if_multiple_trains"
 		{
-			"xpos"													"61"
+			"xpos"													"60"
+			"ypos"													"113"
 			"zpos"													"5"
-			"wide"													"12"
-			"tall"													"12"
+			"wide"													"14"
+			"tall"													"14"
 			"image"													"../hud/cart_track_neutral_opaque"
-		}
-		
-		"if_multiple_trains_top"
-		{
-			"ypos"													"114"
-		}
-		
-		"if_multiple_trains_bottom"
-		{
-			"ypos"													"114"
 		}
 		
 		"if_multiple_trains_red"
@@ -137,7 +205,7 @@
 		{	
 			"font"													"bh_Font8"		
 			"xpos"													"21"			
-			"ypos"													"51"		
+			"ypos"													"54"		
 			"zpos"													"2"
 				
 			"if_multiple_trains"
@@ -227,10 +295,10 @@
 		"Speed_Backwards"
 		{
 			"xpos"													"23"
-			"ypos"													"53"
+			"ypos"													"56"
 			"zpos"													"2"
 			"wide"													"7"
-			"tall"													"7"
+			"tall"													"6"
 		
 			"if_multiple_trains"
 			{
@@ -241,12 +309,12 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"												"46"
+				"ypos"												"49"
 			}	
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"												"83"
+				"ypos"												"86"
 			}	
 		}
 		
@@ -259,7 +327,7 @@
 		{	
 			"font"													"bh_Font8"
 			"xpos"													"22"
-			"ypos"													"52"
+			"ypos"													"55"
 			"zpos"													"4"
 			"wide"													"20"
 			"tall"													"7"
@@ -268,29 +336,31 @@
 			{
 				"font"												"ItemFontAttribSmall"
 				"xpos"												"22"
-				"ypos"												"52"
+				"ypos"												"54"
 				"wide"												"30"
 				"tall"												"10"
 			}			
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"												"45"
+				"font"												"bh_Font10"
+				"ypos"												"48"
 			}										
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"												"81"
+				"font"												"bh_Font10"
+				"ypos"												"84"
 			}	
 		}
 		
 		"Blocked"
 		{
-			"xpos"													"23"
-			"ypos"													"53"
+			"xpos"													"22"
+			"ypos"													"55"
 			"zpos"													"2"
-			"wide"													"7"
-			"tall"													"7"
+			"wide"													"8"
+			"tall"													"8"
 			
 			"if_multiple_trains"
 			{

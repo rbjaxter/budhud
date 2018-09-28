@@ -24,7 +24,7 @@
 		"labeltext"													""
 		"visible"													"1"
 		"enabled"													"1"
-		"defaultbgcolor_override"									"150 150 150 255"
+		"defaultbgcolor_override"									"bh_AmmoBox_Base"
 		"paintbackgroundtype"										"0"
     }
 	

@@ -2,6 +2,7 @@
 	// Users
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
 
+	#base	"..\..\#users\dane\#customization\_enabled\bh_mainmenu_gif.res"			// Disables gif
 	#base	"..\..\#users\truktruk\#customization\_enabled\bh_mainmenu_gif.res"		// Disables gif
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -11,6 +12,7 @@
 	#base	"..\..\#customization\_enabled\bh_mainmenu_preloading.res"
 	#base	"..\..\#customization\_enabled\bh_mainmenu_dev.res"
 	#base	"..\..\#customization\_enabled\bh_mainmenu_hidefriends.res"
+	#base	"..\..\#customization\_enabled\bh_mainmenu_hidemotd.res"
 	#base	"..\..\#customization\_enabled\bh_mainmenu_gif.res"
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////

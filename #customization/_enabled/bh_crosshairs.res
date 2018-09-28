@@ -8,29 +8,22 @@
 
 	"whayay_crosshair"
 	{
-        "controlname"												"CExLabel"
+		// Change these
+		"enabled"													"0"
+		"visible"													"0"
+		"labeltext"													"f"
+		"font"														"CrosshairOLSmall"
+		"fgcolor"													"ya_crosshair"
+		
+		// Defaults
+		"controlname"												"CExLabel"
 		"fieldname"													"whayay_crosshair"
-        "textAlignment"												"center"
+		"textAlignment"												"center"
 		"xpos"														"0"
 		"ypos"														"0"
 		"zpos"														"0"
 		"wide"														"f0"
-		"tall"														"f0"
-
-
-		"enabled"													"0"									// Set both to "1"
-		"visible"													"0"			  						// to enable
-        
-		"labeltext"													"f"           						// Change this to use a different crosshair
-        
-        "font"														"CrosshairOLSmall"	    			// Use "CrosshairOL" for a crosshair with an outline
-																										// or "CrosshairAA" for a smooth crosshair w/o an outline 
-                                     
-																										// You can add "Small" or "Big" at the end to change the size
-																										// e.g. "CrosshairOLSmall"
-        
-        "fgcolor"													"ya_crosshair"      				// Color is changed via the clientscheme
-																										// in the "/resource/" folder
+		"tall"														"f0"        
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -42,6 +35,14 @@
 	
 	"knuckles_crosshair"
 	{
+		// Change these
+		"visible"													"0"
+		"enabled"													"0"
+		"font"														"size:30,outline:off"
+		"labelText"													"a"
+		"fgcolor"													"knuckles_crosshair"
+	
+		// Defaults
 		"controlName"												"CExLabel"
 		"fieldName"													"knuckles_crosshair"
 		"textAlignment"												"center"		
@@ -49,23 +50,43 @@
 		"ypos"														"1"
 		"zpos"														"1"
 		"wide"														"f0"
-		"tall"														"f0"
-		
-		"visible"													"0"							// Set both to "1"
-		"enabled"													"0"							// to enable
-		
-		"font"														"size:30,outline:off"
-		
-		"labelText"													"a"							// Change this to use a different crosshair		
-		
-		"fgcolor"													"knuckles_crosshair"
+		"tall"														"f0"		
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Fog's Crosshairs
 	// ============================================================================================== //
 	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Customization#crosshairs
+	// The size of the following crosshair can be changed by modifying the 
+	// number following "Crosshairs", across from "font"	
+	// Valid font sizes: even numbers between 8 and 40
+	//
+	// To add an outline to a crosshair, uncomment the "font" line of text
+	// and add "//" to the "font" line of text below it.
+	// Valid font sizes for outlined crosshairs: 18, 24, 26, 32, 34
 	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	// WIP (required font centering)
+	fog_crosshair
+	{
+		// Change these
+		"visible"													"0"
+		"enabled"													"0"
+		"font"														"Crosshairs32"
+		"labelText"													"2"
+		"fgcolor"													"fog_crosshair"
+		"outline"													"1"
+	
+		// Defaults
+		"controlName"												"CExLabel"
+		"fieldName"	 												"fog_crosshair"
+		"xpos"														"-4"
+		"ypos"														"2"
+		"zpos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
+		"textAlignment"												"center"
+	}	
 	
 	xHairCircle
 	{
@@ -122,8 +143,8 @@
 		"outline"													"1"
 			
 		"fgcolor"													"fog_crosshair"
-	}		
-			
+	}
+
 	BasicCross		
 	{		
 		"controlName"												"CExLabel"

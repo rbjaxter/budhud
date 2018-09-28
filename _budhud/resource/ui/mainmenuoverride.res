@@ -747,9 +747,9 @@
 		{
 			"columns_count"											"3"
 			"inset_x"												"10"
-			"inset_y"												"5"
+			"inset_y"												"0"
 			"row_gap"												"5"
-			"column_gap"											"20"
+			"column_gap"											"10"
 			"restrict_width"										"0"
 		}
 	}
@@ -769,6 +769,7 @@
 		"visible"													"1"
 		"enabled"													"1"
 		"fillcolor"													"bh_MenuBG"
+		"border"													"bh_b_N"
 		"image"														""
 		"paintbackgroundtype"										"0"
     }

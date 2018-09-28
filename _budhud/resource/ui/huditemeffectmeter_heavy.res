@@ -9,4 +9,8 @@
 	
 "Resource/UI/huditemeffectmeter_heavy.res"
 {
+	"== huditemeffectmeter_heavy =="
+	{
+		"ControlName"												"ImagePanel"
+	}
 }

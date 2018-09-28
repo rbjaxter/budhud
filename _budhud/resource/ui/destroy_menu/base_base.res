@@ -1,41 +1,7 @@
+	#base	"..\build_menu\base_base.res"
+
 "Resource/UI/destroy_menu/base_base.res"
 {
-	"ItemBackground"
-	{
-		"ypos"														"r-6969"
-		"icon"														""
-	}
-	
-	"CostLabel"
-	{
-		"xpos"														"8"
-		"textalignment"												"center"
-		"fgcolor_override"											"bh_white"
-	}
-	
-	"MetalIcon"
-	{
-		"ypos"														"r-6969"
-		"iconColor"													"bh_white"
-	}
-	
-	"ItemNameLabel"
-	{
-		"xpos"														"8"
-		"textalignment"												"center"
-		"font"														"bh_Font16"
-	}
-	
-	"DestroyIcon"
-	{
-		"zpos"														"5"
-	}
-	
-	"BuildingIcon"
-	{
-		"zpos"														"10"
-	}	
-	
 	"NotBuiltLabel"
 	{
 		"xpos"														"21"
@@ -45,5 +11,23 @@
 		"labeltext"													"#bh_NotBuilt"
 		"textalignment"												"center"
 		"fgcolor_override"											"bh_gray"
+	}
+	
+	"BuildingIcon"
+	{
+		"xpos"														"c-30"
+		"ypos"														"c-30"
+		"wide"														"60"
+		"tall"														"60"
+		"proportionaltoparent"										"1"
+	}
+	
+	"DestroyIcon"
+	{
+		"xpos"														"c-30"
+		"ypos"														"c-30"
+		"wide"														"60"
+		"tall"														"60"
+		"proportionaltoparent"										"1"
 	}
 }

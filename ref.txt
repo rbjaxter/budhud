@@ -24,6 +24,22 @@
 		"TF_ItemPresetName2"	"<name>"
 		"TF_ItemPresetName3"	"<name>"
 	(will probably muck up the quickswitch menu)
+	- showschemevisualizer
+	- cl_panelanimation
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Payload Icon Notes
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	Used in PLR:
+		- cart_home_<team>_square
+		- cart_<team>, cart_<team>_bottom
+		- cart_track_<team>_opaque
+		- cart_point_<team>
+		
+	Used in PL:
+		- cart_<team>
+		- cart_home_<team>_opaque
+		- cart_point_<team>_opaque
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Borders
@@ -118,9 +134,9 @@
 		"bgcolor_override"											"0 0 0 0"
 	}
 
-	"pin_to_sibling" 												"bh_AnchorTemplate"
-	"pin_corner_to_sibling" 										"PIN_TOPCENTER"
-	"pin_to_sibling_corner" 										"PIN_TOPCENTER"
+		"pin_to_sibling" 											"bh_AnchorTemplate"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 	
 	// Add element
 	"bh_Template_Block"	

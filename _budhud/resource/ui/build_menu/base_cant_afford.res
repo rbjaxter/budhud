@@ -4,6 +4,7 @@
 {
 	"CantBuildReason"
 	{
+		"ypos"														"c-1"
 		"fgcolor_override"											"bh_HealthLow"
 	}
 }
