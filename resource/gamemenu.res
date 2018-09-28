@@ -48,16 +48,16 @@
 						echo ======================================================;
 						echo ~ Thank you to everyone who actively uses my hud! ~~~~;
 						echo ======================================================;"
-		"tooltip"		"Updated 31 June 2018"
+		"tooltip"		"Updated 25 September 2018"
 	}
-	
+
 	"bh_Streams"
 	{
 		"label"			""
 		"command" 		"watch_stream"
 		"OnlyAtMenu" 	"0"
 		"tooltip" 		"#bh_TwitchStreams"
-	}	
+	}
 	
 	"bh_Contracts"
 	{
@@ -73,7 +73,7 @@
 		"command" 		"motd_show"
 		"OnlyAtMenu" 	"0"
 		"tooltip" 		"#bh_News"
-	}	
+	}
 	
 	"bh_DemoUI"
 	{
@@ -145,7 +145,7 @@
 		"command" 		"engine bug"
 		"OnlyAtMenu" 	"0"
 		"tooltip" 		"#bh_ReportBug"
-	}	
+	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// In-game Buttons
