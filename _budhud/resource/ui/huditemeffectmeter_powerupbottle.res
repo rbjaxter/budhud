@@ -8,7 +8,12 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 "Resource/UI/huditemeffectmeter_powerupbottle.res"
-{	
+{
+	"== huditemeffectmeter_powerupbottle =="
+	{
+		"ControlName"												"ImagePanel"
+	}
+	
 	"HudItemEffectMeter"
 	{
 		"ypos"														"r45"
