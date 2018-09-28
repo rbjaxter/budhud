@@ -102,10 +102,10 @@
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	"bh_DisguiseAnchor"
+	"bh_MenuAnchor"
 	{	
 		"ControlName"												"Label"
-		"fieldName"													"bh_DisguiseAnchor"
+		"fieldName"													"bh_MenuAnchor"
 		"xpos"														"cs-0.5"
 		"ypos"														"c-20"
 		"zpos"														"0"
@@ -118,7 +118,7 @@
 	
 	"class_item_red_1"
 	{
-		"pin_to_sibling" 											"bh_DisguiseAnchor"
+		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		"xpos"														"0"
@@ -129,7 +129,7 @@
 	
 	"class_item_red_2"
 	{
-		"pin_to_sibling" 											"bh_DisguiseAnchor"
+		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		"xpos"														"-44"
@@ -140,7 +140,7 @@
 	
 	"class_item_red_3"
 	{
-		"pin_to_sibling" 											"bh_DisguiseAnchor"
+		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		"xpos"														"-88"
@@ -151,7 +151,7 @@
 
 	"class_item_red_4"
 	{
-		"pin_to_sibling" 											"bh_DisguiseAnchor"
+		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		"xpos"														"-132"
@@ -162,7 +162,7 @@
 	
 	"class_item_red_5"
 	{
-		"pin_to_sibling" 											"bh_DisguiseAnchor"
+		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		"xpos"														"-176"
@@ -173,7 +173,7 @@
 	
 	"class_item_red_6"
 	{
-		"pin_to_sibling" 											"bh_DisguiseAnchor"
+		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		"xpos"														"-220"
@@ -184,7 +184,7 @@
 	
 	"class_item_red_7"
 	{
-		"pin_to_sibling" 											"bh_DisguiseAnchor"
+		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		"xpos"														"-264"
@@ -195,7 +195,7 @@
 	
 	"class_item_red_8"
 	{
-		"pin_to_sibling" 											"bh_DisguiseAnchor"
+		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		"xpos"														"-308"
@@ -206,7 +206,7 @@
 	
 	"class_item_red_9"
 	{
-		"pin_to_sibling" 											"bh_DisguiseAnchor"
+		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		"xpos"														"-352"
@@ -217,7 +217,7 @@
 	
 	"class_item_blue_1"
 	{
-		"pin_to_sibling" 											"bh_DisguiseAnchor"
+		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		"xpos"														"0"
@@ -228,7 +228,7 @@
 	
 	"class_item_blue_2"
 	{
-		"pin_to_sibling" 											"bh_DisguiseAnchor"
+		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		"xpos"														"-44"
@@ -239,7 +239,7 @@
 	
 	"class_item_blue_3"
 	{
-		"pin_to_sibling" 											"bh_DisguiseAnchor"
+		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		"xpos"														"-88"
@@ -250,7 +250,7 @@
 
 	"class_item_blue_4"
 	{
-		"pin_to_sibling" 											"bh_DisguiseAnchor"
+		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		"xpos"														"-132"
@@ -261,7 +261,7 @@
 	
 	"class_item_blue_5"
 	{
-		"pin_to_sibling" 											"bh_DisguiseAnchor"
+		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		"xpos"														"-176"
@@ -272,7 +272,7 @@
 	
 	"class_item_blue_6"
 	{
-		"pin_to_sibling" 											"bh_DisguiseAnchor"
+		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		"xpos"														"-220"
@@ -283,7 +283,7 @@
 	
 	"class_item_blue_7"
 	{
-		"pin_to_sibling" 											"bh_DisguiseAnchor"
+		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		"xpos"														"-264"
@@ -294,7 +294,7 @@
 	
 	"class_item_blue_8"
 	{
-		"pin_to_sibling" 											"bh_DisguiseAnchor"
+		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		"xpos"														"-308"
@@ -305,7 +305,7 @@
 	
 	"class_item_blue_9"
 	{
-		"pin_to_sibling" 											"bh_DisguiseAnchor"
+		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		"xpos"														"-352"
