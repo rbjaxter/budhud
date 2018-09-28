@@ -9,8 +9,4 @@
 
 "Resource/UI/huditemeffectmeter_demoman.res"
 {
-	"== huditemeffectmeter_demoman =="
-	{
-		"ControlName"												"ImagePanel"
-	}
 }

@@ -9,8 +9,4 @@
 	
 "Resource/UI/huditemeffectmeter_organs.res"
 {
-	"== huditemeffectmeter_organs =="
-	{
-		"ControlName"												"ImagePanel"
-	}
 }

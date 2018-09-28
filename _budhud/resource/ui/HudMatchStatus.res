@@ -36,62 +36,6 @@
 		}
 	}
 	
-	"BlueTeamPanel"
-	{
-		"ypos"														"10"
-		"tall"														"400"
-		
-		"BlueTeamBG"
-		{
-			"ypos"													"r-6969"
-		}
-		
-		"BluePlayerListBG"
-		{
-			"ypos"													"r-6969"
-			"wide"													"0"
-			"tall"													"0"
-		}
-		
-		"BlueTeamImage"
-		{
-			"ypos"													"r-6969"
-		}
-
-		"BluePlayerList"
-		{
-			"tall"													"400"
-		}
-	}
-	
-	"RedTeamPanel"
-	{
-		"ypos"														"10"
-		"tall"														"400"
-		
-		"RedTeamBG"
-		{
-			"ypos"													"r-6969"
-			"wide"													"0"
-			"tall"													"0"
-		}
-		
-		"RedPlayerListBG"
-		{
-			"ypos"													"r-6969"
-		}
-		
-		"RedTeamImage"
-		{
-			"ypos"													"r-6969"
-		}
-		
-		"RedPlayerList"
-		{
-			"tall"													"400"
-		}
-	}
-	
 	"RoundCounter"
 	{
 		"Background"
@@ -122,11 +66,6 @@
 		{
 			"visible"												"1"
 		}
-		
-		if_mvm
-		{
-			"ypos"													"r-6969"
-		}
 	}
 	
 	"bh_tournamentbg_red"
@@ -151,11 +90,6 @@
 		{
 			"visible"												"1"
 		}
-		
-		if_mvm
-		{
-			"ypos"													"r-6969"
-		}
     }
 	
 	"bh_tournamentbg_gray"
@@ -179,11 +113,6 @@
 		if_match
 		{
 			"visible"												"1"
-		}
-		
-		if_mvm
-		{
-			"ypos"													"r-6969"
 		}
     }
 	

@@ -9,8 +9,4 @@
 	
 "Resource/UI/huditemeffectmeter_cleaver.res"
 {
-	"== huditemeffectmeter_cleaver =="
-	{
-		"ControlName"												"ImagePanel"
-	}
 }

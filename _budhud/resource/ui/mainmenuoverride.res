@@ -747,9 +747,9 @@
 		{
 			"columns_count"											"3"
 			"inset_x"												"10"
-			"inset_y"												"0"
+			"inset_y"												"5"
 			"row_gap"												"5"
-			"column_gap"											"10"
+			"column_gap"											"20"
 			"restrict_width"										"0"
 		}
 	}

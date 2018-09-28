@@ -9,8 +9,4 @@
 	
 "Resource/UI/huditemeffectmeter_pomson.res"
 {
-	"== huditemeffectmeter_pomson =="
-	{
-		"ControlName"												"ImagePanel"
-	}
 }

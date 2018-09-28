@@ -9,8 +9,4 @@
 	
 "Resource/UI/huditemeffectmeter_raygun.res"
 {
-	"== huditemeffectmeter_raygun =="
-	{
-		"ControlName"												"ImagePanel"
-	}
 }
