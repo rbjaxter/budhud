@@ -4,14 +4,14 @@
 	{
 		"ypos"														"r-6969"
 	}
-	
+
 	"ItemEffectMeterBG"
 	{
 		"ypos"														"r-6969"
 	}
 
 	HudItemEffectMeter
-	{	
+	{
 		"fieldName"													"HudItemEffectMeter"
 		"visible"													"1"
 		"enabled"													"1"
@@ -23,8 +23,8 @@
 		"tall"														"6"
 		"MeterFG"													"bh_meterfg"
 		"MeterBG"													"bh_meterbg"
-	}	
-	
+	}
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"												"CExLabel"
@@ -38,12 +38,12 @@
 		"labelText"													"#TF_Ball"
 		"textAlignment"												"center"
 		"font"														"bh_Font6"
-		"fgcolor_override"											"bh_metertext"
-		"defaultFgColor_override"									"bh_metertext"
+		"fgcolor_override"								"060 060 060 230"
+		"defaultFgColor_override"					"bh_metertext"
 	}
-	
+
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"												"ContinuousProgressBar"
 		"fieldName"													"ItemEffectMeter"
 		"font"														"Default"
@@ -62,7 +62,7 @@
 	}
 
 	"ItemEffectMeter2"
-	{	
+	{
 		"ControlName"												"ContinuousProgressBar"
 		"fieldName"													"ItemEffectMeter2"
 		"font"														"Default"
@@ -78,5 +78,5 @@
 		"textAlignment"												"Left"
 		"dulltext"													"0"
 		"brighttext"												"0"
-	}	
+	}
 }
