@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$translucent" 1
-	"$baseTexture" "vgui/logos/engineer_icons/obj_status_sentrygun_3"
-	"$vertexcolor" 1
-	"$no_fullbright" 1
-	"$ignorez" 1
-}

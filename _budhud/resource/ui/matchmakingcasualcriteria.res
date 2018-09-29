@@ -14,18 +14,12 @@
 		
 		"Title"
 		{
-			"xpos"													"cs-0.5"
-			"wide"													"f0"
-			"textalignment"											"center"
-			"ypos"													"2"
+			"ypos"													"3"
 			"fgcolor"												"bh_white"
 		}
 		
 		"SelectedCount"
 		{
-			"xpos"													"cs-0.5"
-			"wide"													"f0"
-			"textalignment"											"center"
 			"ypos"													"15"
 			"fgcolor_override"										"bh_white"
 		}

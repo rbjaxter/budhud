@@ -1,3 +1,0 @@
-	#base	"..\_budhud\scripts\mod_textures.txt"
-	#base	"..\_stream\scripts\mod_textures.txt"
-	#base	"..\_tf2hud\scripts\mod_textures.txt"

@@ -9,57 +9,7 @@
 	{
 		"ypos"														"r-6969"
 	}
-	
-	"BackgroundHeader"
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"BackgroundFooter"
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"bh_BackgroundFooter"	
-	{
-		"ControlName"												"ImagePanel"
-		"fieldName"													"bh_BackgroundFooter"
-		"xpos"														"0"
-		"ypos"														"420"
-		"zpos"														"1"
-		"wide"														"f0"
-		"tall"														"60"
-		"autoResize"												"0"
-		"pinCorner"													"0"
-		"labeltext"													""
-		"visible"													"1"
-		"enabled"													"1"
-		"fillcolor"													"bh_MenuBG"
-		"border"													"bh_b_N"
-		"image"														""
-		"paintbackgroundtype"										"0"
-    }
-	
-	"bh_BackgroundHeader"	
-	{
-		"ControlName"												"ImagePanel"
-		"fieldName"													"bh_BackgroundHeader"
-		"xpos"														"0"
-		"ypos"														"0"
-		"zpos"														"-2"
-		"wide"														"f0"
-		"tall"														"120"
-		"autoResize"												"0"
-		"pinCorner"													"0"
-		"labeltext"													""
-		"visible"													"1"
-		"enabled"													"1"
-		"fillcolor"													"bh_MenuBG"
-		"border"													"bh_b_S"
-		"image"														""
-		"paintbackgroundtype"										"0"
-    }	
-
+		
 	"SupportCommunityMapMakersCheckButton"
 	{
 	// FOR TESTING //

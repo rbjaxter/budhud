@@ -68,12 +68,12 @@
 	"ShowRarityComboBox"
 	{
 		"fgcolor_override"											"bh_white"
-		"bgcolor_override"											"bh_blank"
+		"bgcolor_override"											"0 0 0 0"
 		"disabledFgColor_override" 									"bh_white"
-	//	"disabledBgColor_override" 									"bh_blank"
-		"selectionColor_override"									"bh_blank"
-		"selectionTextColor_override"								"bh_orange"
-	//	"defaultSelectionBG2Color_override"							"bh_blank"
+		"disabledBgColor_override" 									"0 0 0 0"
+		"selectionColor_override"									"0 0 0 0"
+		"selectionTextColor_override"								"bh_white"
+		"defaultSelectionBG2Color_override"							"0 0 0 0"
 	}
 	
 	"NameFilterLabel"

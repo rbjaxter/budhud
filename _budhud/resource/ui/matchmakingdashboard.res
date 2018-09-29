@@ -10,186 +10,34 @@
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
-
+	
 	"TopBar"
 	{
-		"OuterShadow"
-		{
-			"ypos"													"r-6969"
-		}
-	
-		"FindAGameButton"
-		{
-			"wide"													"50"
-			"tall"													"28"
-			"textalignment"											"center"
-			"font"													"bh_Font24"
-			"labeltext"												"◂"
-		
-			"defaultBgColor_override"								"bh_blank"
-			"armedBgColor_override"									"bh_blank"
-			"depressedBgColor_override"								"bh_ButtonBGDepressed"
-			"defaultFgColor_override"								"bh_white"
-			"armedFgColor_override" 								"bh_bgreen"
-			"depressedFgColor_override" 							"bh_ButtonDepressed"
-			
-			"roundedcorners"										"0"
-			"textinsety"											"4"
-			"textinsetx"											"0"
-			"use_proportional_insets"								"0"
-			
-			"SubImage"
-			{
-				"ypos"												"r-6969"
-			}
-		}
-		
-		"ResumeButton"
-		{
-			"wide"													"50"
-			"tall"													"28"
-			"textalignment"											"center"
-			"font"													"bh_Font24"
-			"labeltext"												"▴"
-		
-			"defaultBgColor_override"								"bh_blank"
-			"armedBgColor_override"									"bh_blank"
-			"depressedBgColor_override"								"bh_ButtonBGDepressed"
-			"defaultFgColor_override"								"bh_white"
-			"armedFgColor_override" 								"bh_blue"
-			"depressedFgColor_override" 							"bh_ButtonDepressed"
-			
-			"roundedcorners"										"0"
-			"textinsety"											"5"
-			"textinsetx"											"0"
-			"use_proportional_insets"								"0"
-			
-			"SubImage"
-			{
-				"ypos"												"r-6969"
-			}
-		}
-		
-		"QuitButton"
-		{
-			"wide"													"50"
-			"tall"													"28"
-			"textalignment"											"center"
-			"font"													"bh_Font24"
-			"labeltext"												"▸"
-		
-			"defaultBgColor_override"								"bh_blank"
-			"armedBgColor_override"									"bh_blank"
-			"depressedBgColor_override"								"bh_ButtonBGDepressed"
-			"defaultFgColor_override"								"bh_white"
-			"armedFgColor_override" 								"bh_bred"
-			"depressedFgColor_override" 							"bh_ButtonDepressed"
-			
-			"roundedcorners"										"0"
-			"textinsety"											"4"
-			"textinsetx"											"0"
-			"use_proportional_insets"								"0"
-			
-			"SubImage"
-			{
-				"ypos"												"r-6969"
-			}
-		}
-		
-		"DisconnectButton"
-		{
-			"wide"													"50"
-			"tall"													"28"
-			"textalignment"											"center"
-			"font"													"bh_Font24"
-			"labeltext"												"▸"
-		
-			"defaultBgColor_override"								"bh_blank"
-			"armedBgColor_override"									"bh_blank"
-			"depressedBgColor_override"								"bh_ButtonBGDepressed"
-			"defaultFgColor_override"								"bh_white"
-			"armedFgColor_override" 								"bh_bred"
-			"depressedFgColor_override" 							"bh_ButtonDepressed"
-			
-			"roundedcorners"										"0"
-			"textinsety"											"4"
-			"textinsetx"											"0"
-			"use_proportional_insets"								"0"
-			
-			"SubImage"
-			{
-				"ypos"												"r-6969"
-			}
-		}
-	
-		"BGPanel"
-		{
-			"bgcolor_override"										"bh_MenuBG"
-			"border"												"bh_b_S"
-		}
-		
-		"OuterShadow"
-		{
-			"ypos"													"r-6969"
-		}
-	
 		"QueueContainer"
 		{
-			"BGPanel"
-			{
-				"bgcolor_override"									"bh_MenuBG"
-				"border"											"bh_b_NESW"
-				"wide"												"f0"
-				"tall"												"f0"
-			}
-			
-			"QueueText"
-			{
-				"xpos"												"cs-0.5"
-				"wide"												"f0"
-				"ypos"												"2"
-				"font"												"bh_Font18"
-				"textalignment"										"center"
-			}
-			
-			"OuterShadow"
-			{
-				"ypos"												"r-6969"
-			}
-		
 			"CloseButton"
 			{
-				"xpos"												"0"
-				"ypos"												"0"
-				"wide"												"f0"
-				"tall"												"f0"
-				"paintbackground"									"0"
+				"image_drawcolor"										"255 255 255 255"
+				"image_armedcolor"										"240 134 49 255"
 				
 				"SubImage"
 				{
-					"ypos"											"r-6969"
+					"image"												"replay\thumbnails\menu_icons\close"
 				}
-			}
-			
-			"CTFLogoPanel"
-			{
-				"xpos"												"cs-0.5"
-				"wide"												"f0"
-				"velocity"											"20"
-				"radius"											"290"
 			}
 		
 			"MultiQueuesManageButton"
 			{
-				"xpos"												"0"
-				"ypos"												"0"
-				"wide"												"f0"
-				"tall"												"f0"
-				"paintbackground"									"0"
+				"xpos"													"r20"
+				"ypos"													"11"
+				"wide"													"15"
+				"tall"													"15"
+				"image_drawcolor"										"255 255 255 255"
+				"image_armedcolor"										"240 134 49 255"
 				
 				"SubImage"
 				{
-					"ypos"											"r-6969"
+					"image"												"replay\thumbnails\menu_icons\cog"
 				}
 			}
 		}

@@ -51,68 +51,24 @@
 		"ControlName"												"CTFImagePanel"
 		"fieldName"													"bh_TeamIndicator"
 		"xpos"														"0"
-		"ypos"														"r1"
-		"zpos"														"-50"
+		"ypos"														"r2"
+		"zpos"														"-1"
 		"wide"														"f0"
-		"tall"	 													"1"
+		"tall"	 													"2"
 		"visible"													"0"
 		"enabled"													"0"
-		"image"														"replay\thumbnails\tid_gray"
-		"teambg_1"													"replay\thumbnails\tid_gray"
-		"teambg_2"													"replay\thumbnails\tid_red"
-		"teambg_3"													"replay\thumbnails\tid_blue"
-	}
-	
-	"bh_TeamIndicator2"
-	{
-		"ControlName"												"CTFImagePanel"
-		"fieldName"													"bh_TeamIndicator2"
-		"xpos"														"0"
-		"ypos"														"0"
-		"zpos"														"-50"
-		"wide"														"f0"
-		"tall"	 													"1"
-		"visible"													"0"
-		"enabled"													"0"
-		"image"														"replay\thumbnails\tid_gray"
-		"teambg_1"													"replay\thumbnails\tid_gray"
-		"teambg_2"													"replay\thumbnails\tid_red"
-		"teambg_3"													"replay\thumbnails\tid_blue"
-	}
-	
-	"bh_TeamIndicator3"
-	{
-		"ControlName"												"CTFImagePanel"
-		"fieldName"													"bh_TeamIndicator3"
-		"xpos"														"0"
-		"ypos"														"0"
-		"zpos"														"-50"
-		"wide"														"1"
-		"tall"	 													"f0"
-		"visible"													"0"
-		"enabled"													"0"
-		"image"														"replay\thumbnails\tid_gray"
-		"teambg_1"													"replay\thumbnails\tid_gray"
-		"teambg_2"													"replay\thumbnails\tid_red"
-		"teambg_3"													"replay\thumbnails\tid_blue"
-	}
-	
-	"bh_TeamIndicator4"
-	{
-		"ControlName"												"CTFImagePanel"
-		"fieldName"													"bh_TeamIndicator4"
-		"xpos"														"r1"
-		"ypos"														"0"
-		"zpos"														"-50"
-		"wide"														"1"
-		"tall"	 													"f0"
-		"visible"													"0"
-		"enabled"													"0"
-		"image"														"replay\thumbnails\tid_gray"
-		"teambg_1"													"replay\thumbnails\tid_gray"
-		"teambg_2"													"replay\thumbnails\tid_red"
-		"teambg_3"													"replay\thumbnails\tid_blue"
-	}
+		"image"														"../hud/color_panel_brown"
+		"scaleImage"												"1"
+		"teambg_1"													"../hud/color_panel_brown"
+		"teambg_2"													"../hud/color_panel_red"
+		"teambg_3"													"../hud/color_panel_blu"
+		
+		"src_corner_height"											"23"
+		"src_corner_width"											"23"
+			
+		"draw_corner_width"											"0"
+		"draw_corner_height" 										"0"	
+	}		
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Flag pickup notifs
@@ -178,78 +134,6 @@
 		"tall"														"100"
 	}	
 
-	"HudMenuEngyBuild"
-	{
-		"visible" 													"1"
-		"enabled" 													"1"
-		"xpos"														"0"
-		"ypos"														"0"
-		"wide"														"f0"
-		"tall"														"f0"
-		"PaintBackgroundType"										"0"
-	}
-	
-	"HudMenuEngyDestroy"
-	{
-		"visible" 													"1"
-		"enabled" 													"1"
-		"xpos"														"0"
-		"ypos"														"0"
-		"wide"														"f0"
-		"tall"														"f0"
-		"PaintBackgroundType"										"0"
-	}
-
-	"HudEurekaEffectTeleportMenu"
-	{
-		"visible" 													"1"
-		"enabled" 													"1"
-		"xpos"														"0"
-		"ypos"														"0"
-		"wide"														"f0"
-		"tall"														"f0"
-		"PaintBackgroundType"										"0"
-	}
-	
-	"HudMenuSpyDisguise"
-	{
-		"visible" 													"1"
-		"enabled" 													"1"
-		"xpos"														"0"
-		"ypos"														"0"
-		"wide"														"f0"
-		"tall"														"f0"
-		"PaintBackgroundType"										"0"
-	}
-
-	BuildingStatus_Spy
-	{
-		"visible" 													"1"
-		"enabled" 													"1"
-		"xpos"														"0"
-		"ypos"														"0"
-		"wide"														"f0"
-		"tall"														"f0"
-		"PaintBackgroundType"										"0"
-	}
-	
-	HudMenuTauntSelection
-	{
-		"visible" 													"1"
-		"enabled" 													"1"
-		"xpos"														"0"
-		"ypos"														"0"
-		"zpos"														"6969"
-		"wide"														"f0"
-		"tall"														"f0"
-		"PaintBackgroundType"										"0"
-	}
-	
-	HudArenaCapPointCountdown
-	{
-		"ypos"														"r34"
-	}
-	
 	HudItemEffectMeter
 	{
 		"xpos"														"0"

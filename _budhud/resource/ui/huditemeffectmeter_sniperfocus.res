@@ -9,8 +9,4 @@
 	
 "Resource/UI/huditemeffectmeter_sniperfocus.res"
 {
-	"== huditemeffectmeter_sniperfocus =="
-	{
-		"ControlName"												"ImagePanel"
-	}
 }

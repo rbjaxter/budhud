@@ -9,8 +9,4 @@
 	
 "Resource/UI/huditemeffectmeter_spy.res"
 {
-	"== huditemeffectmeter_spy =="
-	{
-		"ControlName"												"ImagePanel"
-	}
 }

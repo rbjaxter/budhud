@@ -23,6 +23,7 @@
 	"BGPanel"
 	{
 		"ypos"														"r-6969"
+		"bgcolor_override"											"bh_BGAverage"
 	}
 	
 	"ReturnButton"
@@ -34,12 +35,8 @@
 	
 	"CloseButton"
 	{
-		"image_drawcolor"											"000 000 000 000"
-		"image_armedcolor"											"240 134 049 255"
-		
-		"SubImage"
-		{
-			"image"													"replay\thumbnails\menu_icons\close"
-		}
+		"defaultFgColor_override"									"bh_blank"
+		"armedFgColor_override" 									"bh_ButtonArmed"
+		"depressedFgColor_override" 								"bh_ButtonDepressed"
 	}
 }
