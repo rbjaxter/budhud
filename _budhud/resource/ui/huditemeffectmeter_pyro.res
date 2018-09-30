@@ -9,8 +9,4 @@
 	
 "Resource/UI/HudItemEffectMeter_Pyro.res"
 {
-	"== HudItemEffectMeter_Pyro =="
-	{
-		"ControlName"												"ImagePanel"
-	}
 }

@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$translucent" 1
-	"$baseTexture" "vgui/replay/thumbnails/payload_icons/cart_track_blue_opaque"
-	"$vertexcolor" 1
-	"$no_fullbright" 1
-	"$ignorez" 1
-}

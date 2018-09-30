@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$translucent" 1
-	"$baseTexture" "vgui/replay/thumbnails/ctf_icons/objectives_flagpanel_compass_blue"
-	"$vertexcolor" 1
-	"$no_fullbright" 1
-	"$ignorez" 1
-}

@@ -9,8 +9,4 @@
 	
 "Resource/UI/huditemeffectmeter_sniper.res"
 {
-	"== huditemeffectmeter_sniper =="
-	{
-		"ControlName"												"ImagePanel"
-	}
 }

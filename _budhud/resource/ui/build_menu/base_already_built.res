@@ -4,8 +4,7 @@
 {
 	"CantBuildReason"
 	{
-		"ypos"														"c-1"
 		"labeltext"													"#bh_Built"
-		"fgcolor_override"											"bh_bgreen"
+		"fgcolor_override"											"bh_HealthBuff"
 	}
 }

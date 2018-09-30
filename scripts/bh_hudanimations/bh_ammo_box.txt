@@ -16,7 +16,7 @@
 		Animate			bh_AmmoBG 									Alpha			"255"					Linear 0.0 0.2
 		Animate			bh_AmmoBG 									Alpha			"0"						Linear 0.2 0.4		
 		Animate 		bh_AmmoBG									Alpha			"255"					Linear 0.0 0.3
-		Animate 		bh_AmmoBG									BgColor			"bh_AmmoBox_Base"		Linear 0.0 0.3
+		Animate 		bh_AmmoBG									BgColor			"bh_AmmoLow_t"			Linear 0.0 0.3
 		
 		RunEvent 		HudLowAmmoPulseLoop							0.4
 	}
@@ -38,5 +38,5 @@
 		Animate 		AmmoNoClipShadow							fgcolor			"bh_Shadow"				Linear 0.0 0.2
 		Animate 		AmmoInReserveShadow							fgcolor			"bh_Shadow"				Linear 0.0 0.2
 
-		Animate 		bh_AmmoBG									BgColor			"bh_AmmoBox_Base"		Linear 0.0 0.3
+		Animate 		bh_AmmoBG									BgColor			"bh_AmmoLow_t"			Linear 0.0 0.3
 	}

@@ -15,20 +15,6 @@
 		"ControlName"												"Label"
 		"fieldName"													"bh_ResistNav"
 		"xpos"														"c-16"
-		"ypos"														"r136"
-		"zpos"														"0"
-		"wide"														"100"
-		"tall"														"0"
-		"visible"													"1"
-		"enabled"													"1"
-		"bgcolor_override"											"0 0 0 0"
-	}
-	
-	"bh_ChargeNav"
-	{	
-		"ControlName"												"Label"
-		"fieldName"													"bh_ChargeNav"
-		"xpos"														"c-50"
 		"ypos"														"r140"
 		"zpos"														"0"
 		"wide"														"100"
@@ -37,7 +23,7 @@
 		"enabled"													"1"
 		"bgcolor_override"											"0 0 0 0"
 	}
-
+	
 	"ChargeMeter"
 	{
 		"xpos"														"c-50"
@@ -50,12 +36,9 @@
 	
 	"ChargeMeter1"
 	{
-		"pin_to_sibling" 											"bh_ChargeNav"
-		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
-		"pin_to_sibling_corner" 									"PIN_CENTERTOP"	
-	
-		"xpos"														"0"
-		"ypos"														"-13"
+		"font"														"Default"
+		"xpos"														"c-65"
+		"ypos"														"c109"
 		"zpos"														"2"
 		"wide"														"48"
 		"tall"														"6"			
@@ -65,12 +48,11 @@
 	
 	"ChargeMeter2"
 	{	
-		"pin_to_sibling" 											"bh_ChargeNav"
-		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
-		"pin_to_sibling_corner" 									"PIN_CENTERTOP"	
-	
-		"xpos"														"-52"
-		"ypos"														"-13"
+		"ControlName"												"ContinuousProgressBar"
+		"fieldName"													"ChargeMeter2"
+		"font"														"Default"
+		"xpos"														"c17"
+		"ypos"														"c109"
 		"zpos"														"2"
 		"wide"														"48"
 		"tall"														"6"				
@@ -80,12 +62,11 @@
 
 	"ChargeMeter3"
 	{	
-		"pin_to_sibling" 											"bh_ChargeNav"
-		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
-		"pin_to_sibling_corner" 									"PIN_CENTERTOP"	
-	
-		"xpos"														"0"
-		"ypos"														"-22"
+		"ControlName"												"ContinuousProgressBar"
+		"fieldName"													"ChargeMeter3"
+		"font"														"Default"
+		"xpos"														"c-65"
+		"ypos"														"c119"
 		"zpos"														"2"
 		"wide"														"48"
 		"tall"														"6"			
@@ -95,12 +76,11 @@
 
 	"ChargeMeter4"
 	{	
-		"pin_to_sibling" 											"bh_ChargeNav"
-		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
-		"pin_to_sibling_corner" 									"PIN_CENTERTOP"	
-	
-		"xpos"														"-52"
-		"ypos"														"-22"
+		"ControlName"												"ContinuousProgressBar"
+		"fieldName"													"ChargeMeter4"
+		"font"														"Default"
+		"xpos"														"c17"
+		"ypos"														"c119"
 		"zpos"														"2"
 		"wide"														"48"
 		"tall"														"6"

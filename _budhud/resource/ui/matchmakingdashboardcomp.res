@@ -17,15 +17,12 @@
 	
 	"CompStats"
 	{
-		"bgcolor_override"											"bh_MenuBG"
-		"border"													"bh_b_W"
+		"bgcolor_override"											"bh_blank"
+		"border"													"ReplayGrayDialogBorder"
 	}
 	
 	"Title"
 	{
-		"xpos"														"cs-0.5"
-		"wide"														"f0"
-		"textalignment"												"center"
 		"ypos"														"18"
 		"tall"														"30"
 		"font"														"bh_Font24"

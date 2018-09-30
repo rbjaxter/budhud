@@ -99,12 +99,6 @@
 					"xpos"											"1"
 					"font"											"bh_Font8"
 				}
-				
-				if_mvm
-				{
-					"xpos"											"1"
-					"wide"											"45"
-				}
 			}
 		}
 	}

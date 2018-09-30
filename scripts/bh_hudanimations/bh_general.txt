@@ -1,32 +1,19 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Use deathcam to clear low health/buffed health color
-	// Credit: degu
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-	event HudSnapShotReminderIn
-	{
-		RunEvent 			HudHealthDyingPulseStop			10.0
-		RunEvent 			HudHealthBonusPulseStop			10.0
-		RunEvent 			HudLowAmmoPulseStop				10.0
-		RunEvent 			HudMedicChargedStop				10.0
-	}
-
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Change colors of KotH timers
+	// Changes colors of KotH timers
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	event ActiveTimerHighlight
 	{
-		Animate 			TimePanelValue 					FgColor						"bh_white"		Linear 0.1 0.1
-		Animate 			TimePanelValue 					FgColor						"bh_gray"		Linear 0.3 0.1
+		Animate 			TimePanelValue 					FgColor						"bh_white"	Linear 0.1 0.1
+		Animate 			TimePanelValue 					FgColor						"bh_gray"	Linear 0.3 0.1
 	
-		Animate 			TimePanelValue 					FgColor						"bh_white"		Linear 0.5 0.1
-		Animate 			TimePanelValue 					FgColor						"bh_gray"		Linear 0.7 0.1
+		Animate 			TimePanelValue 					FgColor						"bh_white"	Linear 0.5 0.1
+		Animate 			TimePanelValue 					FgColor						"bh_gray"	Linear 0.7 0.1
 	
-		Animate 			TimePanelValue 					FgColor						"bh_white"		Linear 0.9 0.1
-		Animate 			TimePanelValue 					FgColor						"bh_gray"		Linear 1.1 0.1
+		Animate 			TimePanelValue 					FgColor						"bh_white"	Linear 0.9 0.1
+		Animate 			TimePanelValue 					FgColor						"bh_gray"	Linear 1.1 0.1
 	
-		Animate 			TimePanelValue 					FgColor						"bh_white"		Linear 1.3 0.3
+		Animate 			TimePanelValue 					FgColor						"bh_white"	Linear 1.3 0.3
 		
 	}
 	
@@ -41,16 +28,16 @@
 	
 	event OvertimeLabelPulseRed
 	{
-		Animate				OvertimeLabel 					FgColor						bh_white		Linear 0.0 0.3
-		Animate				OvertimeLabel 					FgColor						bh_orange		Linear 0.3 0.3
+		Animate				OvertimeLabel 					FgColor		bh_white		Linear 0.0 0.3
+		Animate				OvertimeLabel 					FgColor		bh_orange		Linear 0.3 0.3
 	
 		RunEvent			OvertimeLabelPulseRed 			0.6
 	}
 	
 	event SuddenDeathLabelPulseRed
 	{
-		Animate				SuddenDeathLabel 				FgColor						bh_white		Linear 0.0 0.3
-		Animate				SuddenDeathLabel 				FgColor						bh_orange		Linear 0.3 0.3
+		Animate				SuddenDeathLabel 				FgColor		bh_white		Linear 0.0 0.3
+		Animate				SuddenDeathLabel 				FgColor		bh_orange		Linear 0.3 0.3
 	
 		RunEvent SuddenDeathLabelPulseRed 					0.2
 	}
@@ -61,9 +48,9 @@
 	
 	event CompetitiveGame_ShowPvPRankPanel
 	{
-		Animate 			RankPanel 						ypos -80									Linear		0 0
-		Animate 			ModelContainer 					ypos r150									Linear		0 0
-		RunEventChild 		RankPanel 						PvPRankPanelShowXPChange 					0
+		Animate 		RankPanel 							ypos -80					Linear		0 0
+		Animate 		ModelContainer 						ypos r150					Linear		0 0
+		RunEventChild 	RankPanel 							PvPRankPanelShowXPChange 	0
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -73,13 +60,13 @@
 	
 	event HudTournament_MoveTimerDown
 	{
-		Animate 		CountdownLabel						ypos 150									Linear		0 0
+		Animate 		CountdownLabel						ypos 150					Linear		0 0
 	
 		SetVisible 		CountdownBG							0 5
 		SetVisible 		CountdownLabel						1 0
 		SetVisible 		CountdownLabelShadow				1 0
 	
-		Animate 		CountdownLabel 						ypos c-3 									Gain		0.75 0 0.4
+		Animate 		CountdownLabel 						ypos c-3 					Gain		0.75 0 0.4
 	
 		SetVisible		TournamentConditionLabel 			0 2
 	
@@ -94,13 +81,13 @@
 		SetVisible		RedTeamPanel						1 0
 		SetVisible 		CountdownLabel						1 0
 		SetVisible 		CountdownLabelShadow				1 0
-		Animate 		CountdownLabel						ypos 150									Linear		0 0
+		Animate 		CountdownLabel						ypos 150					Linear		0 0
 	
-		Animate 		CountdownLabel 						ypos c-3									Gain		0.75 0 0.4
+		Animate 		CountdownLabel 						ypos c-3					Gain		0.75 0 0.4
 	
 		SetVisible		HudTournamentBG						0 2
-		RunEventChild 	MatchDoors 							PlayDoorCloseAnim							0
-		RunEventChild 	FrontParticlePanel					PlayDoorSlamParticles 						0.45
+		RunEventChild 	MatchDoors 							PlayDoorCloseAnim			0
+		RunEventChild 	FrontParticlePanel					PlayDoorSlamParticles 		0.45
 		RunEventChild 	MatchDoors PlayDoorOpenAnim 		7
 	
 		RunEvent 		HudTournament_AnimateTeams_In		0.25
@@ -119,15 +106,15 @@
 	{
 		SetVisible 		CountdownLabel						1 0
 		SetVisible 		CountdownLabelShadow				1 0
-		Animate 		CountdownLabel						ypos 150									Linear		0 0
-		Animate 		CountdownLabel						ypos c-3									Gain		0.75 0 0.4
+		Animate 		CountdownLabel						ypos 150					Linear		0 0
+		Animate 		CountdownLabel						ypos c-3					Gain		0.75 0 0.4
 		SetVisible 		CountdownLabel 						0 9.9
 		SetVisible 		CountdownLabelShadow 				0 9.9
 	}
 	
 	event HudTournament_ShowTimerCompetitive
 	{
-		Animate 		CountdownLabel						ypos 150									Linear		0 0
+		Animate 		CountdownLabel						ypos 150					Linear		0 0
 	
 		SetVisible 		CountdownBG							1 0
 		SetVisible 		CountdownLabel						1 0
@@ -136,7 +123,7 @@
 	
 	event HudTournament_ShowTimerDefault
 	{
-		Animate 		CountdownLabel						ypos 425									Linear		0 0
+		Animate 		CountdownLabel						ypos 425					Linear		0 0
 	
 		SetVisible 		CountdownBG							1 0
 		SetVisible 		CountdownLabel						1 0
@@ -145,7 +132,7 @@
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Casual/Comp Chat Positioning
-	// Prevent chat from moving
+	// Prevents chat from moving
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	event CompetitiveGame_LowerChatWindow
@@ -167,13 +154,21 @@
 	event FlagOutline
 	{
 		RunEvent 		FlagOutlineHide						0.0
-		Animate 		OutlineImage						Alpha "255"									Linear 		0.1 0.2
+		Animate 		OutlineImage						Alpha "255"					Linear 		0.1 0.2
 		
-		Animate 		OutlineImage						Position "c-50 r50"							Linear 		0.1 0.2
-		Animate 		OutlineImage						Size "100 50"								Linear 		0.1 0.2
+		Animate 		OutlineImage						Position "c-50 r50"			Linear 		0.1 0.2
+		Animate 		OutlineImage						Size "100 50"				Linear 		0.1 0.2
 	
-		Animate 		OutlineImage						Position "c-50 r100"						Linear 		0.7 0.2
-		Animate 		OutlineImage						Size "100 50"								Linear 		0.7 0.2
+		Animate 		OutlineImage						Position "c-50 r100"		Linear 		0.7 0.2
+		Animate 		OutlineImage						Size "100 50"				Linear 		0.7 0.2
 		
-		Animate			OutlineImage						Alpha "0"									Linear		0.6 0.3
+		Animate			OutlineImage						Alpha "0"					Linear		0.6 0.3
+	}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Death Camera Screenshot Animation
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	event HudSnapShotReminderIn
+	{
 	}

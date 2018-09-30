@@ -4,10 +4,6 @@
 	{
 		"BGPanel"
 		{
-			"bgcolor_override"										"bh_MenuBG"
-			"border"												"bh_blank"
-
-		
 			"AbandonButton"
 			{
 				"defaultFgColor_override"							"bh_ButtonDefault"
@@ -42,12 +38,6 @@
 				"depressedBgColor_override"							"bh_ButtonBGDepressed"
 				"border_default"									"bh_b_NESW"
 				"border_armed"										"bh_b_NESW"
-			}
-		
-			"Spinner"
-			{
-				"xpos"												"c+10"
-				"ypos"												"rs1-13"
 			}
 		}
 	}
