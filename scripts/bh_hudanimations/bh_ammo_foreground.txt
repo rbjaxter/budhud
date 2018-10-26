@@ -9,13 +9,19 @@
 		Animate 		AmmoInClip									fgcolor			"bh_AmmoLow"			Linear 0.0 0.2
 		Animate 		AmmoNoClip									fgcolor			"bh_AmmoLow"			Linear 0.0 0.2
 		Animate 		AmmoInReserve								fgcolor			"bh_AmmoLow"			Linear 0.0 0.2
-		Animate 		AmmoInClipShadow							fgcolor			"bh_Shadow"				Linear 0.0 0.2
-		Animate 		AmmoNoClipShadow							fgcolor			"bh_Shadow"				Linear 0.0 0.2
-		Animate 		AmmoInReserveShadow							fgcolor			"bh_Shadow"				Linear 0.0 0.2
+		Animate 		AmmoInClipShadow							fgcolor			"bh_AmmoShadow"			Linear 0.0 0.2
+		Animate 		AmmoNoClipShadow							fgcolor			"bh_AmmoShadow"			Linear 0.0 0.2
+		Animate 		AmmoInReserveShadow							fgcolor			"bh_AmmoShadow"			Linear 0.0 0.2
+		Animate			AmmoInClip									Alpha			"255"					Linear 0.0 0.2
+		Animate			AmmoInClip 									Alpha			"0"						Linear 0.2 0.4
+		Animate			AmmoNoClip 									Alpha			"255"					Linear 0.0 0.2
+		Animate			AmmoNoClip 									Alpha			"0"						Linear 0.2 0.4
+		Animate			AmmoInReserve 								Alpha			"255"					Linear 0.0 0.2
+		Animate			AmmoInReserve								Alpha			"0"						Linear 0.2 0.4
 		
 		Animate 		bh_AmmoBG									Alpha			"0"						Linear 0.0 0.0
 		
-		RunEvent 		HudLowAmmoPulseLoop							0.25
+		RunEvent 		HudLowAmmoPulseLoop							0.4
 	}
 	
 	event HudLowAmmoPulseLoop
@@ -28,10 +34,10 @@
 		StopEvent 		HudLowAmmoPulse 							0.0
 		StopEvent 		HudLowAmmoPulseLoop							0.0
 
-		Animate 		AmmoInClip									fgcolor			"bh_Ammo"				Linear 0.0 0.2
-		Animate 		AmmoNoClip									fgcolor			"bh_Ammo"				Linear 0.0 0.2
-		Animate 		AmmoInReserve								fgcolor			"bh_Ammo"				Linear 0.0 0.2
-		Animate 		AmmoInClipShadow							fgcolor			"bh_Shadow"				Linear 0.0 0.2
-		Animate 		AmmoNoClipShadow							fgcolor			"bh_Shadow"				Linear 0.0 0.2
-		Animate 		AmmoInReserveShadow							fgcolor			"bh_Shadow"				Linear 0.0 0.2
+		Animate 		AmmoInClip									fgcolor			"bh_AmmoMain"			Linear 0.0 0.2
+		Animate 		AmmoNoClip									fgcolor			"bh_AmmoMain"			Linear 0.0 0.2
+		Animate 		AmmoInReserve								fgcolor			"bh_AmmoReserve"		Linear 0.0 0.2
+		Animate 		AmmoInClipShadow							fgcolor			"bh_AmmoShadow"			Linear 0.0 0.2
+		Animate 		AmmoNoClipShadow							fgcolor			"bh_AmmoShadow"			Linear 0.0 0.2
+		Animate 		AmmoInReserveShadow							fgcolor			"bh_AmmoShadow"			Linear 0.0 0.2
 	}

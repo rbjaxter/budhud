@@ -394,8 +394,12 @@
 
 	HudCloseCaption
 	{
-		"xpos"														"c140"
-		"ypos"														"205"
+		"pin_to_sibling" 											"HudWeaponAmmo"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
+		"xpos"														"-80"
+		"ypos"														"70"
 		"wide"														"300"
 
 		"BgAlpha"													"0"
