@@ -15,6 +15,6 @@
 	"Background"
 	{
 		"fieldName"													"Background"
-		"image"														"replay/thumbnails/dane/background_dane"
+		"image"														"replay/thumbnails/#users/dane/background_dane"
 	}
 }
