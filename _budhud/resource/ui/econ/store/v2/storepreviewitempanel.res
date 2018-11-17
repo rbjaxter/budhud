@@ -1,5 +1,65 @@
 "Resource/UI/StorePreviewItemPanel.res"
 {
+	"PreviewItemModelPanel"
+	{
+		"itemmodelpanel"
+		{
+			"allow_rot"												"0"
+			"inventory_image_type"									"1"
+			"use_item_rendertarget" 								"0"		
+		}
+	}
+	
+	"ItemIcon1"
+	{
+		"itemmodelpanel"
+		{
+			"allow_rot"												"0"
+			"inventory_image_type"									"1"
+			"use_item_rendertarget" 								"0"		
+		}
+	}	
+	
+	"ItemIcon2"
+	{
+		"itemmodelpanel"
+		{
+			"allow_rot"												"0"
+			"inventory_image_type"									"1"
+			"use_item_rendertarget" 								"0"		
+		}
+	}	
+	
+	"ItemIcon3"
+	{
+		"itemmodelpanel"
+		{
+			"allow_rot"												"0"
+			"inventory_image_type"									"1"
+			"use_item_rendertarget" 								"0"		
+		}
+	}	
+	
+	"ItemIcon4"
+	{
+		"itemmodelpanel"
+		{
+			"allow_rot"												"0"
+			"inventory_image_type"									"1"
+			"use_item_rendertarget" 								"0"		
+		}
+	}	
+	
+	"ItemIcon5"
+	{
+		"itemmodelpanel"
+		{
+			"allow_rot"												"0"
+			"inventory_image_type"									"1"
+			"use_item_rendertarget" 								"0"		
+		}
+	}	
+
 	"DialogFrame"
 	{
 		"ItemNameLabel"

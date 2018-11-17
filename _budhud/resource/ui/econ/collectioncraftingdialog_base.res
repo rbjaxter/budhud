@@ -1,5 +1,25 @@
 "Resource/UI/econ/StrangeCountTransferDialog.res"
 {
+	"ItemName"
+	{
+		"itemmodelpanel"
+		{
+			"allow_rot"												"0"
+			"inventory_image_type"									"1"
+			"use_item_rendertarget" 								"0"		
+		}
+	}
+
+	"CosmeticResultItemModelPanel"
+	{
+		"itemmodelpanel"
+		{
+			"allow_rot"												"0"
+			"inventory_image_type"									"1"
+			"use_item_rendertarget" 								"0"		
+		}
+	}
+	
 	"ShowExplanationsButton1"
 	{
 		"ypos"														"r-6969"

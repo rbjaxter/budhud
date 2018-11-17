@@ -1,8 +1,21 @@
 "Resource/UI/HudUpgradePanel.res"
 {
+	"HudUpgradePanel"
+	{
+		"modelpanels_kv"
+		{
+			"itemmodelpanel"
+			{
+				"allow_rot"											"0"
+				"inventory_image_type"								"1"
+				"use_item_rendertarget" 							"0"
+			}
+		}
+	}
+
 	"TipPanel"
 	{
-		"ypos"													"r-6969"
+		"ypos"														"r-6969"
 	}
 	
 	"SelectWeaponPanel"
@@ -15,7 +28,6 @@
 		"InnerPanelRim"
 		{
 			"bgcolor_override"										"bh_MenuBG"
-			//"ypos"													"r-6969"
 		}
 
 		"InnerBGPanel"

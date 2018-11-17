@@ -4,40 +4,21 @@
 
 "Resource/UI/ItemSelectionPanel.res"
 {
-	"CaratLabel"
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"NameFilterLabel"
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"ClassLabel"
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"BottomLine"
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"TopLine"
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"ItemSlotLabel"
-	{
-		"ypos"														"r-6969"
-	}	
 	"ItemSelectionPanel"
 	{
 		"bgcolor_override"											"bh_MenuBG"
 		"infocus_bgcolor_override" 									"bh_MenuBG"
 		"outoffocus_bgcolor_override" 								"bh_MenuBG"
+		
+		"modelpanels_kv"
+		{
+			"itemmodelpanel"
+			{
+				"allow_rot"											"0"
+				"inventory_image_type"								"1"
+				"use_item_rendertarget" 							"0"
+			}
+		}
 	}
 	
 	"NameFilterTextEntry"
@@ -175,5 +156,35 @@
 		"xpos"														"c-100"
 		"textalignment"												"center"
 		"wide"														"200"
+	}
+	
+	"CaratLabel"
+	{
+		"ypos"														"r-6969"
+	}
+	
+	"NameFilterLabel"
+	{
+		"ypos"														"r-6969"
+	}
+	
+	"ClassLabel"
+	{
+		"ypos"														"r-6969"
+	}
+	
+	"BottomLine"
+	{
+		"ypos"														"r-6969"
+	}
+	
+	"TopLine"
+	{
+		"ypos"														"r-6969"
+	}
+	
+	"ItemSlotLabel"
+	{
+		"ypos"														"r-6969"
 	}
 }

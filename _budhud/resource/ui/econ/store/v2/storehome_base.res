@@ -4,6 +4,29 @@
 
 "Resource/UI/StoreHome_Base.res"
 {
+	"StorePage"
+	{
+		"modelpanels_kv"
+		{
+			"itemmodelpanel"
+			{
+				"allow_rot"											"0"
+				"inventory_image_type"								"1"
+				"use_item_rendertarget" 							"0"		
+			}
+		}
+		
+		"cart_modelpanels_kv"
+		{
+			"itemmodelpanel"
+			{
+				"allow_rot"											"0"
+				"inventory_image_type"								"1"
+				"use_item_rendertarget" 							"0"		
+			}
+		}
+	}
+
 	"StoreBackgroundPanel"
 	{
 		"ypos"														"r-6969"

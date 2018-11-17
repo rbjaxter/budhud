@@ -4,6 +4,23 @@
 
 "Resource/UI/StorePage.res"
 {
+	"StorePage"
+	{
+		"bgcolor_override"											"bh_MenuBG"
+		"infocus_bgcolor_override" 									"bh_MenuBG"
+		"outoffocus_bgcolor_override" 								"bh_MenuBG"
+		
+		"modelpanels_kv"
+		{
+			"itemmodelpanel"
+			{
+				"allow_rot"											"0"
+				"inventory_image_type"								"1"
+				"use_item_rendertarget" 							"0"		
+			}
+		}
+	}
+
 	"ClassFilterNavPanel"
 	{
 		"Buttons"
@@ -144,13 +161,6 @@
 	{
 		"ypos"														"r-6969"
 	}	
-	
-	"StorePage"
-	{
-		"bgcolor_override"											"bh_MenuBG"
-		"infocus_bgcolor_override" 									"bh_MenuBG"
-		"outoffocus_bgcolor_override" 								"bh_MenuBG"
-	}
 	
 	"NameFilterTextEntry"
 	{

@@ -1,6 +1,5 @@
 "Resource/UI/StoreViewCartPanel.res"
 {
-
 	"CloseButton"
 	{
 		"ypos"														"r-6969"
@@ -19,6 +18,16 @@
 		
 		"item_entry_kv"
 		{
+			"itempanel"
+			{
+				"itemmodelpanel"
+				{
+					"allow_rot"												"0"
+					"inventory_image_type"									"1"
+					"use_item_rendertarget" 								"0"		
+				}
+			}
+		
 			"RemoveButton"
 			{
 				"defaultBgColor_override"							"bh_ButtonBGDefault"
