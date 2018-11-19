@@ -44,9 +44,9 @@
 	
 	"ModeButton"
 	{
-		"xpos"														"40"
+		"xpos"														"c-115"
 		"ypos"														"4"
-		"wide"														"200"
+		"wide"														"180"
 		"tall"														"32"
 		"textalignment"												"center"
 	
@@ -64,14 +64,10 @@
 	"DisabledIcon"
 	// No longer appears to do anything
 	{
-		"image_drawcolor"											"255 255 255 255"
-		"image_armedcolor"											"240 134 49 255"
-		
 		"SubImage"
 		{
-			"xpos"													"15"
-			"ypos"													"13"
-			"image"													"replay\thumbnails\menu_icons\reportplayer"
+			"visible"												"0"
+			"enabled"												"0"
 		}
 	}
 }

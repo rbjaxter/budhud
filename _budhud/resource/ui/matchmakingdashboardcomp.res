@@ -2,6 +2,14 @@
 
 "Resource/UI/MatchMakingDashboardComp.res"
 {
+	"CompStats"
+	{
+		"wide"														"280"
+		"zpos"														"2000"		// BackgroundDimmer zpos is locked to 1000 (lol)
+		"bgcolor_override"											"bh_MenuBG"
+		"border"													"bh_b_W"
+	}
+
 	"ShowExplanationsButton"
 	{
 		"ypos"														"r-6969"
@@ -13,12 +21,6 @@
 		"ypos"														"18"
 		"wide"														"6"
 		"tall"														"6"
-	}
-	
-	"CompStats"
-	{
-		"bgcolor_override"											"bh_MenuBG"
-		"border"													"bh_b_W"
 	}
 	
 	"Title"
