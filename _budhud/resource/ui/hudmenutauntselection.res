@@ -1,4 +1,4 @@
-	#base	"build_menu\hudmenuengybuild.res"
+	#base	"bh_popupbase.res"
 
 "Resource/UI/HudMenuTauntSelection.res"
 {
