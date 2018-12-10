@@ -48,11 +48,10 @@
 			"fgcolor"												"bh_white"
 		}	
 		
-		"paint_icon"
-		{
-			"wide"													"11"
-			"tall"													"11"
-		}
+		// Changing this through #base breaks sign images
+		// "paint_icon"
+		// {
+		// }
 		
 		"vision_restriction_icon"
 		{
