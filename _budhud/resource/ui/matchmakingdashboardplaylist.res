@@ -51,4 +51,15 @@
 			"border_armed"											"bh_b_NESW"
 		}
 	}
+	
+	"CloseButton"
+	{
+		"image_drawcolor"											"000 000 000 000"
+		"image_armedcolor"											"240 134 049 255"
+		
+		"SubImage"
+		{
+			"image"													"replay\thumbnails\menu_icons\close"
+		}
+	}
 }
