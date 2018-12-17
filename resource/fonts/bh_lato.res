@@ -211,6 +211,17 @@ Scheme
 			}
 		}
 		
+		bh_Font31
+		{
+			"1"
+			{
+				"name"												"Lato Semibold"
+				"tall"												"32"
+				"weight"											"500"
+				"antialias"											"1"
+			}
+		}		
+		
 		bh_Font32
 		{
 			"1"
@@ -267,6 +278,28 @@ Scheme
 			}
 		}
 		
+		bh_Font41
+		{
+			"1"
+			{
+				"name"												"Lato Semibold"
+				"tall"												"41"
+				"weight"											"500"
+				"antialias"											"1"
+			}
+		}		
+		
+		bh_Font46
+		{
+			"1"
+			{
+				"name"												"Lato Semibold"
+				"tall"												"46"
+				"weight"											"500"
+				"antialias"											"1"
+			}
+		}		
+		
 		bh_Font48
 		{
 			"1"
@@ -295,6 +328,98 @@ Scheme
 			{
 				"name"												"Lato Semibold"
 				"tall"												"50"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+			}
+		}
+		
+		bh_Font55
+		{
+			"1"
+			{
+				"name"												"Lato Semibold"
+				"tall"												"55"
+				"weight"											"500"
+				"antialias"											"1"
+			}
+		}
+		
+		bh_Font55Drop
+		{
+			"1"
+			{
+				"name"												"Lato Semibold"
+				"tall"												"55"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+			}
+		}
+		
+		bh_Font60
+		{
+			"1"
+			{
+				"name"												"Lato Semibold"
+				"tall"												"60"
+				"weight"											"500"
+				"antialias"											"1"
+			}
+		}
+		
+		bh_Font60Drop
+		{
+			"1"
+			{
+				"name"												"Lato Semibold"
+				"tall"												"60"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+			}
+		}
+	
+		bh_Font65
+		{
+			"1"
+			{
+				"name"												"Lato Semibold"
+				"tall"												"65"
+				"weight"											"500"
+				"antialias"											"1"
+			}
+		}
+		
+		bh_Font65Drop
+		{
+			"1"
+			{
+				"name"												"Lato Semibold"
+				"tall"												"65"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+			}
+		}		
+		
+		bh_Font70
+		{
+			"1"
+			{
+				"name"												"Lato Semibold"
+				"tall"												"70"
+				"weight"											"500"
+				"antialias"											"1"
+			}
+		}
+		
+		bh_Font70Drop
+		{
+			"1"
+			{
+				"name"												"Lato Semibold"
+				"tall"												"70"
 				"weight"											"500"
 				"antialias"											"1"
 				"dropshadow"										"1"
