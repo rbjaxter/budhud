@@ -101,13 +101,14 @@
 	
 	"AmmoIcon"
 	{
-		"xpos"														"0"
-		"ypos"														"32"
+		"xpos"														"55"
+		"ypos"														"17"
 	}
 	
 	"KillstreakIcon"
 	{
-		"ypos"														"0"
+		"xpos"														"-3"
+		"ypos"														"18"
 		"wide"														"5"
 		"tall"														"5"
 	}
