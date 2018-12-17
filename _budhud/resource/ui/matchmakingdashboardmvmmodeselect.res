@@ -4,6 +4,8 @@
 {
 	"MVMModeSelect"
 	{
+		"wide"														"280"
+		"zpos"														"2000"		// BackgroundDimmer zpos is locked to 1000 (lol)
 		"bgcolor_override"											"bh_MenuBG"
 		"border"													"bh_b_W"
 	}
@@ -18,8 +20,8 @@
 			"defaultFgColor_override"								"bh_ButtonDefault"
 			"armedFgColor_override" 								"bh_ButtonArmed"
 			"depressedFgColor_override" 							"bh_ButtonDepressed"
-			"border_default"										"bh_b_NESW"
-			"border_armed"											"bh_b_NESW"
+			// "border_default"										"bh_b_NESW"
+			// "border_armed"										"bh_b_NESW"
 		}
 	}
 	
@@ -33,8 +35,8 @@
 			"defaultFgColor_override"								"bh_ButtonDefault"
 			"armedFgColor_override" 								"bh_ButtonArmed"
 			"depressedFgColor_override" 							"bh_ButtonDepressed"
-			"border_default"										"bh_b_NESW"
-			"border_armed"											"bh_b_NESW"
+			// "border_default"										"bh_b_NESW"
+			// "border_armed"										"bh_b_NESW"
 		}
 	}
 }

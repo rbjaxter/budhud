@@ -11,33 +11,33 @@
 
 	"AmmoInClip"
 	{
-		"font"														"bh_Font50"
+		"font"														"bh_Font60"
 	}
 	
 	"AmmoInClipShadow"
 	{
-		"font"														"bh_Font50"
+		"font"														"bh_Font60"
 	}	
 	
 	"AmmoInReserve"
 	{
-		"xpos"														"25"
-		"font"														"bh_Font26"
+		"xpos"														"35"
+		"font"														"bh_Font36"
 	}
 	
 	"AmmoInReserveShadow"
 	{
-		"xpos"														"26"
-		"font"														"bh_Font26"
+		"xpos"														"36"
+		"font"														"bh_Font36"
 	}
 	
 	"AmmoNoClip"
 	{
-		"font"														"bh_Font50"
+		"font"														"bh_Font60"
 	}
 	
 	"AmmoNoClipShadow"
 	{
-		"font"														"bh_Font50"
+		"font"														"bh_Font60"
 	}
 }

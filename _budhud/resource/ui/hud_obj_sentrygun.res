@@ -47,27 +47,10 @@
 	{
 		"AlertTray"
 		{
-			"ControlName"											"CBuildingStatusAlertTray"
-			"fieldName"												"AlertTray"
-			"xpos"													"-12"
-			"ypos"													"11"
-			"zpos"													"-8"
-			"wide"													"20"
-			"tall"													"40"
-			"visible"												"1"
-			"enabled"												"1"	
-			"icon"													"obj_status_alert_background"
-		}
-		
-		"SapperIcon"
-		{
-			"xpos"													"120"
-			"ypos"													"20"
-			"wide"													"20"
-			"tall"													"20"
-			"iconColor"												"bh_gray"
-			"bgcolor_override"										"bh_red"
-			"border"												"BackpackItemGrayedOut"
+			"xpos"													"22"
+			"ypos"													"50"
+			"wide"													"35"
+			"tall"													"1"
 		}
 	}
 }

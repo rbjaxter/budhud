@@ -1,8 +1,9 @@
 "Resource/UI/HealthIconPanel.res"
 {
+	// Use spectatorguihealth bh_HealthBGSpec value
 	"HealthIcon"
 	{
-		"wide"														"50"
-		"tall"														"50"
+		"wide"														"40"
+		"tall"														"14"
 	}
 }

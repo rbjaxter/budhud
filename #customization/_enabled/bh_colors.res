@@ -225,6 +225,20 @@ Scheme
 		"bh_yellow"													"231 181 059 255"
 
 		"bh_MenuBG"													"025 025 025 255"		// Color of all menu backgrounds
+		
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Themes - Experimental
+	// ============================================================================================== //
+	// This is a WIP. Will replace `bh_MenuBG`
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+		
+		// Standard
+		"bh_Theme_DD"												""
+		"bh_Theme_D"												"005 005 005 255"												
+		"bh_Theme"													"025 025 025 255"		// Other values should deviate from this +/-											
+		"bh_Theme_L"												"045 045 045 255"												
+		"bh_Theme_LL"												"065 065 065 255"												
+		
 		"bh_MouseOverBG"											"035 035 035 255"		// Item mouse-over BG color
 		"bh_border"													"150 150 150 255"		// Color of all budhud borders (buttons, etc)
 		"bh_BGStandard"												"000 000 000 100"

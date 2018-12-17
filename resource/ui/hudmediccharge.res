@@ -1,6 +1,6 @@
 	#base	"..\..\#customization\_enabled\bh_uber_longmeter.res"
 	#base	"..\..\#customization\_enabled\bh_uber_nearcrosshair.res"
-	#base	"..\..\#customization\_enabled\bh_uber_bigger.res"
+	#base	"..\..\#customization\_enabled\bh_uber_size.res"
 	#base	"..\..\_stream\resource\ui\hudmediccharge.res"
 	#base	"..\..\_budhud\resource\ui\hudmediccharge.res"
 	#base	"..\..\_tf2hud\resource\ui\hudmediccharge.res"

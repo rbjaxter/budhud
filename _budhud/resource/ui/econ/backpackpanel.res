@@ -21,14 +21,24 @@
 		"infocus_bgcolor_override" 									"bh_MenuBG"
 		"outoffocus_bgcolor_override" 								"bh_MenuBG"
 		
+		"page_button_y"												"285"
+		"page_button_x_delta"										"0"
+		"page_button_y_delta"										"5"
+		"page_button_per_row"										"20"
+		"page_button_height"										"12"		
+		
 		"pagebuttons_kv"
 		{
+			"wide"													"10"
+			"tall"													"10"
+			
 			"Button"
 			{
-				"wide"												"26"
-				"tall"												"14"
+				"xpos"												"0"
+				"ypos"												"-4"
+				"wide"												"30"
+				"tall"												"20"
 				"bgcolor_override"									"0 0 0 0"
-				"noitem_textcolor"									"bh_orange"
 				"PaintBackgroundType"								"2"
 				"paintborder"										"1"
 				"border_default"									"bh_b_PageNumbers"
@@ -51,9 +61,9 @@
 		{
 			"itemmodelpanel"
 			{
-				"antialias"											"1"
+				"allow_rot"											"0"
 				"inventory_image_type"								"1"
-				"use_item_rendertarget"								"0"
+				"use_item_rendertarget" 							"0"
 			}
 			
 			"New"

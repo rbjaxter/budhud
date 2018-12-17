@@ -55,7 +55,7 @@
 		"xpos"														"327"
 		"ypos"														"119"
 		"zpos"														"0"
-		"wide"														"2"
+		"wide"														"1"
 		"tall"														"12"
 		"visible"													"1"
 		"enabled"													"1"
@@ -78,12 +78,13 @@
 
 		"if_multiple_trains"
 		{
-			"ypos"													"r-6969"
+			"wide"													"2"
+			"ypos"													"114"
 		}
 		
 		"if_single_with_hills"
 		{
-			"ypos"													"119"
+		//	"ypos"													"119"
 		}
 	}	
 	
@@ -99,6 +100,7 @@
 		{
 			"ypos"													"114"
 			"zpos"													"0"
+			"wide"													"255"
 			"tall"													"12"
 			"image"													"../hud/cart_track_neutral_opaque"
 		}
@@ -107,10 +109,11 @@
 		{
 			"ypos"													"119"
 			"zpos"													"0"
+			"wide"													"255"
 			"tall"													"12"
 			"image"													"../hud/cart_track_neutral_opaque"
-		}		
-	}	
+		}
+	}
 	
 	"ProgressBar"
 	{
@@ -125,11 +128,12 @@
 	
 	"HomeCPIcon"
 	{
-		"xpos"														"62"
-		"ypos"														"116"
+		"xpos"														"69"
+		"ypos"														"119"
 		"zpos"														"1"
-		"wide"														"20"
-		"tall"														"18"
+		"wide"														"4"
+		"tall"														"12"
+		"scaleImage"												"1"
 		
 		"if_team_red"
 		{
@@ -149,10 +153,10 @@
 		"if_multiple_trains"
 		{
 			"xpos"													"60"
-			"ypos"													"113"
+			"ypos"													"114"
 			"zpos"													"5"
-			"wide"													"14"
-			"tall"													"14"
+			"wide"													"12"
+			"tall"													"12"
 			"image"													"../hud/cart_track_neutral_opaque"
 		}
 		
@@ -169,18 +173,16 @@
 	
 	"SimpleControlPointTemplate"
 	{
-		"xpos"														"65"
-		"ypos"														"116"
+		"ypos"														"119"
 		"zpos"														"1"
-		"wide"														"18"
-		"tall"														"18"
+		"wide"														"4"
+		"tall"														"12"
 
 		"if_multiple_trains"
 		{
-			"xpos"													"61"
 			"ypos"													"114"
 			"zpos"													"5"	
-			"wide"													"12"
+			"wide"													"4"
 			"tall"													"12"
 		}
 	}

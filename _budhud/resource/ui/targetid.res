@@ -1,10 +1,5 @@
 "Resource/UI/TargetID.res"
 {
-	"TargetIDBG"
-	{
-		"ypos"														"r-6969"
-	}
-
 	"TargetIDBG_Spec_Blue"
 	{
 		"ypos"														"r-6969"
@@ -18,6 +13,48 @@
 	"AvatarImage"
 	{
 		"ypos"														"r-6969"
+	}
+
+	//Name dependent
+	"TargetIDBG"
+	{
+		"ControlName"												"CTFImagePanel"
+		"fieldName"													"TargetIDBG"
+		"xpos"														"0"
+		"ypos"														"-29"
+
+		"src_corner_height"											"0"
+		"src_corner_width"											"0"
+
+		"draw_corner_width"											"0"
+		"draw_corner_height" 										"0"
+		
+		"image"														"replay\thumbnails\tid_gray"
+		"teambg_1"													"replay\thumbnails\tid_gray"
+		"teambg_2"													"replay\thumbnails\tid_red"
+		"teambg_3"													"replay\thumbnails\tid_blue"
+	}
+	
+	"bh_TargetNameBG"
+	{
+		"ControlName" 												"ImagePanel"
+		"fieldName"													"bh_TargetNameBG"
+		"xpos"														"0"
+		"ypos"														"1"
+		"zpos"														"-1"
+		"wide"														"600"
+		"tall"														"14"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"visible"													"1"
+		"enabled"													"1"
+		"fillcolor"													"bh_BGStandard"
+
+		"src_corner_height"											"0"
+		"src_corner_width"											"0"
+
+		"draw_corner_width"											"0"
+		"draw_corner_height" 										"0"	
 	}
 	
 	"MoveableSubPanel"
@@ -46,66 +83,41 @@
 			"fgcolor"												"bh_white"
 		}
 		
-	}	
-	
-	"bh_TargetIDBG"
-	{
-		"ControlName" 												"ImagePanel"
-		"fieldName" 												"bh_TargetIDBG"
-		"xpos" 														"58"
-		"ypos" 														"15"
-		"zpos" 														"6"
-		"wide" 														"600"
-		"tall" 														"14"
-		"autoResize" 												"0"
-		"pinCorner" 												"0"
-		"visible" 													"1"
-		"enabled" 													"1"
-		"fillcolor" 												"bh_BGStandard"
-		
-		"src_corner_height"											"0"
-		"src_corner_width"											"0"
-			
-		"draw_corner_width"											"0"
-		"draw_corner_height" 										"0"	
 	}
 
 	"TargetNameLabel"
 	{
-		"xpos"														"0"
-		"ypos"														"15"
-		"zpos"														"10"
+		"ypos"														"1"
 		"wide"														"300"
-		"tall"														"15"
+		"tall"														"14"
 	}
 	
 	"TargetDataLabel"
 	{
-		"xpos"														"45"
-		"ypos"														"28"
+		"ypos"														"14"
 		"wide"														"300"
-		"tall"														"15"
+		"tall"														"14"
 	}
 	
 	"AmmoIcon"
 	{
-		"xpos"														"55"
+		"xpos"														"0"
 		"ypos"														"32"
 	}
 	
 	"KillstreakIcon"
 	{
-		"ypos"														"33"
+		"ypos"														"0"
 		"wide"														"5"
 		"tall"														"5"
 	}
 	
 	"SpectatorGUIHealth"
 	{
-		"xpos"														"10"
-		"ypos"														"7"
+		"xpos"														"0"
+		"ypos"														"0"
 		"zpos"														"8"
 		"wide"														"48"
-		"tall"														"30"
+		"tall"														"28"
 	}
 }

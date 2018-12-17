@@ -11,11 +11,11 @@
 
 	"PlayerStatusHealthValue"
 	{
-		"font"														"bh_Font50"
+		"font"														"bh_Font60"
 	}
 	
 	"PlayerStatusHealthValueShadow"
 	{
-		"font"														"bh_Font50"
+		"font"														"bh_Font60"
 	}
 }

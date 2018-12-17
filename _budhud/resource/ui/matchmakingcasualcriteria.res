@@ -51,5 +51,20 @@
 			"armedFgColor_override" 								"bh_ButtonArmed"
 			"depressedFgColor_override" 							"bh_ButtonDepressed"
 		}
+		
+		"PlayListDropShadow"
+		{
+			"ypos"													"r-6969"
+		}
+		
+		"GameModesList"
+		{
+			"border"												"NoBorder"
+		
+			"ScrollBar"
+			{
+				"ypos"												"r-6969"
+			}
+		}
 	}
 }

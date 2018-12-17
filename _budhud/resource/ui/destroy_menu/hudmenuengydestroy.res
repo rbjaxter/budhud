@@ -1,14 +1,5 @@
-	#base	"..\build_menu\hudmenuengybuild.res"
+	#base	"..\bh_popupbase.res"
 
-"Resource/UI/destroy_menu/hudmenuengydestroy.res"
+"Resource/UI/build_menu/HudMenuEngyBuild.res"
 {
-	"DestroyIcon"			
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"DestroyIconShadow"
-	{
-		"ypos"														"r-6969"
-	}
 }
