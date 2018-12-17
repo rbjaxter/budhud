@@ -313,7 +313,7 @@
 		"xpos"														"c-100"
 		"ypos"														"c25"
 		"wide"	 													"600"
-		"tall"	 													"40"
+		"tall"	 													"30"
 		"zpos"														"1"
 		"priority"													"40"
 	}
@@ -324,7 +324,7 @@
 		"ypos"														"c100"
 		"zpos"														"1"
 		"wide"	 													"600"
-		"tall"	 													"45"
+		"tall"	 													"30"
 		"priority"													"40"
 		
 		"x_offset" 													"20"
@@ -337,7 +337,7 @@
 		"ypos" 														"c55"
 		"zpos"														"6"
 		"wide" 														"600"
-		"tall" 														"45"
+		"tall" 														"30"
 		"priority" 													"35"
 	}
 	
