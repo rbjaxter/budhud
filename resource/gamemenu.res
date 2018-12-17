@@ -48,7 +48,7 @@
 						echo ======================================================;
 						echo ~ Thank you to everyone who actively uses my hud! ~~~~;
 						echo ======================================================;"
-		"tooltip"		"Updated 28 September 2018"
+		"tooltip"		"Updated 16 December 2018"
 	}
 
 	"bh_Streams"
