@@ -2,6 +2,7 @@
 {
 	"NotificationToastControl"
 	{
+		"wide"														"220"
 		"border"													"bh_b_NESW"
 	}
 

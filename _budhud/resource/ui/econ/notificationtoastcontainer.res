@@ -2,11 +2,10 @@
 {
 	"NotificationToastContainer"
 	{
-		"wide"														"142"		// 150
+		"wide"														"150"
 		"border"													"bh_b_NESW"
 		"bgcolor_override"											"bh_MenuBG"
 	}
-
 
 	"HelpTextLabel"
 	{	
@@ -14,5 +13,4 @@
 		"font"														"bh_Font8"
 		"textinsety"												"8"
 	}
-
 }

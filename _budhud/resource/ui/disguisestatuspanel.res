@@ -31,8 +31,8 @@
 	
 	"SpectatorGUIHealth"
 	{
-		"xpos"														"9"
-		"ypos"														"31"
+		"xpos"														"16"
+		"ypos"														"39"
 		"wide"														"50"
 	}
 }

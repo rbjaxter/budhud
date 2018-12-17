@@ -55,7 +55,7 @@
 		"xpos"														"327"
 		"ypos"														"119"
 		"zpos"														"0"
-		"wide"														"2"
+		"wide"														"1"
 		"tall"														"12"
 		"visible"													"1"
 		"enabled"													"1"
@@ -78,6 +78,7 @@
 
 		"if_multiple_trains"
 		{
+			"wide"													"2"
 			"ypos"													"114"
 		}
 		
