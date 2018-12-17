@@ -1,4 +1,4 @@
-	#base	"..\..\#customization\_enabled\bh_ammo_bigger.res"
+	#base	"..\..\#customization\_enabled\bh_ammo_size.res"
 	#base	"..\..\#customization\_enabled\bh_ammo_box.res"
 	#base	"..\..\_stream\resource\ui\hudammoweapons.res"
 	#base	"..\..\_budhud\resource\ui\hudammoweapons.res"
