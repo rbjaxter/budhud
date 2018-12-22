@@ -759,10 +759,10 @@
 		"ControlName"												"ImagePanel"
 		"fieldName"													"bh_BackgroundFooter"
 		"xpos"														"0"
-		"ypos"														"420"
-		"zpos"														"3000"		// BackgroundDimmer zpos is locked to 1000 (lol)
+		"ypos"														"421"
+		"zpos"														"-52"		// XPBar zpos is -51/-52 and not changeable
 		"wide"														"f0"
-		"tall"														"60"
+		"tall"														"59"
 		"autoResize"												"0"
 		"pinCorner"													"0"
 		"labeltext"													""
