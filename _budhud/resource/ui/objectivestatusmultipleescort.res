@@ -2,33 +2,38 @@
 {	
 	"ObjectiveStatusMultipleEscort"
 	{
-		"ypos"														"10"
+		"xpos"														"0"
+		"ypos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
 	}
 	
 	"BlueEscortPanel"
 	{
-		"ypos"														"r157"
+		"xpos"														"0"
+		"ypos"														"0"
 		"zpos"														"8"
-		"wide"														"400"
-		"tall"														"200"
+		"wide"														"f0"
+		"tall"														"f0"
 		
 		"if_blue_is_top"
 		{
-			"ypos"													"r157"
+			"ypos"													"0"
 			"zpos"													"10"
 		}
 	}
 
 	"RedEscortPanel"
 	{
-		"ypos"														"r157"
-		"zpos"														"6"
-		"wide"														"400"
-		"tall"														"200"
+		"xpos"														"0"
+		"ypos"														"0"
+		"zpos"														"8"
+		"wide"														"f0"
+		"tall"														"f0"
 		
 		"if_red_is_top"
 		{
-			"ypos"													"r157"
+			"ypos"													"0"
 			"zpos"													"10"
 		}
 	}

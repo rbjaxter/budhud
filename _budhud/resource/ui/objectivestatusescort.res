@@ -2,10 +2,17 @@
 {	
 	"ObjectiveStatusEscort"
 	{
+		"xpos"														"0"
+		"ypos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
+		
 		"if_multiple_trains"
 		{
-			"ypos"													"r200"
-			"tall"													"200"
+			"xpos"													"0"
+			"ypos"													"0"
+			"wide"													"f0"
+			"tall"													"f0"
 		}
 	}
 	
@@ -13,10 +20,10 @@
 	{
 		"ControlName"												"CExImageButton"
 		"fieldName"													"bh_trackextender_left"
-		"xpos"														"69"
-		"ypos"														"119"
+		"xpos"														"c-127"
+		"ypos"														"r40"
 		"zpos"														"0"
-		"wide"														"4"
+		"wide"														"3"
 		"tall"														"12"
 		"visible"													"1"
 		"enabled"													"1"
@@ -44,7 +51,7 @@
 		
 		"if_single_with_hills"
 		{
-			"ypos"													"119"
+			"ypos"													"r40"
 		}		
 	}
 	
@@ -52,10 +59,10 @@
 	{
 		"ControlName"												"CExImageButton"
 		"fieldName"													"bh_trackextender_right"
-		"xpos"														"327"
-		"ypos"														"119"
+		"xpos"														"c127"
+		"ypos"														"r40"
 		"zpos"														"0"
-		"wide"														"1"
+		"wide"														"3"
 		"tall"														"12"
 		"visible"													"1"
 		"enabled"													"1"
@@ -78,38 +85,37 @@
 
 		"if_multiple_trains"
 		{
-			"wide"													"2"
-			"ypos"													"114"
+			"wide"													"3"
+			"ypos"													"r40"
 		}
 		
 		"if_single_with_hills"
 		{
-		//	"ypos"													"119"
 		}
 	}	
 	
 	"LevelBar"
 	{
-		"xpos"														"72"
-		"ypos"														"119"
+		"xpos"														"c-127"
+		"ypos"														"r40"
 		"zpos"														"0"
-		"wide"														"255"
+		"wide"														"254"
 		"tall"														"12"
 		
 		"if_multiple_trains"
 		{
-			"ypos"													"114"
+			"ypos"													"r40"
 			"zpos"													"0"
-			"wide"													"255"
+			"wide"													"254"
 			"tall"													"12"
 			"image"													"../hud/cart_track_neutral_opaque"
 		}
 		
 		"if_single_with_hills"
 		{
-			"ypos"													"119"
+			"ypos"													"r40"
 			"zpos"													"0"
-			"wide"													"255"
+			"wide"													"254"
 			"tall"													"12"
 			"image"													"../hud/cart_track_neutral_opaque"
 		}
@@ -119,7 +125,8 @@
 	{
 		"if_multiple_trains"
 		{
-			"ypos"													"114"
+			"xpos"													"c-127"
+			"ypos"													"r40"
 			"zpos"													"4"
 			"tall"													"12"
 			"visible"												"1"
@@ -128,8 +135,8 @@
 	
 	"HomeCPIcon"
 	{
-		"xpos"														"69"
-		"ypos"														"119"
+		"xpos"														"c-127"
+		"ypos"														"r40"
 		"zpos"														"1"
 		"wide"														"4"
 		"tall"														"12"
@@ -152,8 +159,8 @@
 		
 		"if_multiple_trains"
 		{
-			"xpos"													"60"
-			"ypos"													"114"
+			"xpos"													"c-139"
+			"ypos"													"r40"
 			"zpos"													"5"
 			"wide"													"12"
 			"tall"													"12"
@@ -162,25 +169,29 @@
 		
 		"if_multiple_trains_red"
 		{
+			"xpos"													"c-139"
+			"ypos"													"r40"
 			"image"													"../hud/cart_home_red_square"
 		}
 		
 		"if_multiple_trains_blue"
 		{
+			"xpos"													"c-139"
+			"ypos"													"r40"
 			"image"													"../hud/cart_home_blue_square"
 		}
 	}
 	
 	"SimpleControlPointTemplate"
 	{
-		"ypos"														"119"
+		"ypos"														"r40"
 		"zpos"														"1"
 		"wide"														"4"
 		"tall"														"12"
 
 		"if_multiple_trains"
 		{
-			"ypos"													"114"
+			"ypos"													"r40"
 			"zpos"													"5"	
 			"wide"													"4"
 			"tall"													"12"
@@ -189,15 +200,14 @@
 
 	"EscortItemPanel"
 	{
-		"xpos"														"0"
-		"ypos"														"48"
+		"ypos"														"r110"
 		"zpos"														"2"
 		"wide"														"52"
 		"tall"														"75"
 
 		"if_multiple_trains"
 		{
-			"ypos"													"48"	
+			"ypos"													"r106"	
 			"zpos"													"8"
 			"wide"													"52"
 			"tall"													"170"
