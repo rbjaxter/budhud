@@ -12,6 +12,7 @@
 
 	"DeleteButton"
 	{
+		"xpos"														"171"
 		"border_default"											"NoBorder"
 		"border_armed"												"NoBorder"
 		"paintbackground"											"0"
@@ -20,6 +21,8 @@
 		
 		"SubImage"
 		{
+			"wide"													"14"
+			"tall"													"14"
 			"image"													"replay\thumbnails\menu_icons\close"
 		}
 	}

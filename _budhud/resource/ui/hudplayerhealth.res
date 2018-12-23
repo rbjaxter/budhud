@@ -69,10 +69,14 @@
 	
 	"PlayerStatusHealthValueShadow"
 	{
+		"pin_to_sibling" 											"PlayerStatusHealthValue"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
 		"ControlName"												"CExLabel"
 		"fieldName"													"PlayerStatusHealthValueShadow"
-		"xpos"														"1"
-		"ypos"														"1"
+		"xpos"														"-1"
+		"ypos"														"-1"
 		"zpos"														"6"
 		"wide"														"250"
 		"tall"														"150"
