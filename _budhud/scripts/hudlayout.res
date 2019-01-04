@@ -311,7 +311,7 @@
 	CMainTargetID				
 	{				
 		"xpos"														"c-100"
-		"ypos"														"c55"
+		"ypos"														"c50"
 		"wide"	 													"600"
 		"tall"	 													"30"
 		"zpos"														"1"
@@ -334,7 +334,7 @@
 	CSecondaryTargetID
 	{
 		"xpos" 														"c-100"
-		"ypos" 														"c85"
+		"ypos" 														"c80"
 		"zpos"														"6"
 		"wide" 														"600"
 		"tall" 														"30"
