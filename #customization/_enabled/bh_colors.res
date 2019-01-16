@@ -271,7 +271,7 @@ Scheme
 		"LowHealthRed"												"159 055 055 255"		// When building is low health or is in first stage of building
 		"ProgressOffWhite"											"255 255 255 255"		// Right build progress and ammo bars
 		"ProgressBackground"										"150 150 150 255"		// Right "Building..." Progress color BG, ItemEffectMeter BG
-		"HealthBgGrey"												"150 150 150 255"		// Left build progress bar
+		"HealthBgGrey"												"080 080 080 255"		// Left build progress bar
 		
 		"ProgressOffWhiteTransparent"								"0 0 255 255"			// Unknown
 		
