@@ -39,9 +39,9 @@
 		"fieldName"													"classmodelpanel"
 		
 		"xpos"														"0"
-		"ypos"														"r160"	
+		"ypos"														"r180"	
 		"zpos"														"2"		
-		"wide"														"300"
+		"wide"														"200"
 		"tall"														"300"
 		"autoResize"												"0"
 		"pinCorner"													"0"
@@ -49,20 +49,20 @@
 		"enabled"													"1"
 		
 		"render_texture"											"0"
-		"fov"														"90"
+		"fov"														"30"		// Higher FoV causes distortion
 		"allow_rot"													"0"
 
 		"model"
 		{
 			"force_pos"												"1"
 
-			"angles_x" 												"5"
-			"angles_y" 												"190"
+			"angles_x" 												"0"
+			"angles_y" 												"170"		// 180 faces directly at user
 			"angles_z" 												"0"
 		
-			"origin_x" 												"100"		// Move towards and away relative to user
-			"origin_y" 												"40"		// Move left/right relative to user (center: 0)
-			"origin_z" 												"-40"		// Move up/down relative to user (center: 40ish)
+			"origin_x" 												"200"		// Move towards and away relative to user
+			"origin_y" 												"000"		// Move left/right relative to user (center: 0)
+			"origin_z" 												"-50"		// Move up/down relative to user (center: 40ish)
 		}
 	}
 }
