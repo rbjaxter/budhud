@@ -9,19 +9,19 @@
 	
 	event CasualCategory_Selected
 	{
-		Animate 											Shade				BgColor		"bh_Theme_L"		Deaccel 0 0.2
-		Animate 											Title				FgColor		"bh_white"			Deaccel 0 0.2
-		Animate 											TitleShadow			FgColor		"bh_shadow"			Deaccel 0 0.2
-		Animate 											DescLabel			FgColor		"bh_white"			Deaccel 0 0.2
+		Animate 											Shade				BgColor		"bh_Theme_BG20"			Deaccel 0 0.2
+		Animate 											Title				FgColor		"bh_Theme_TextTitle"	Deaccel 0 0.2
+		Animate 											TitleShadow			FgColor		"bh_shadow"				Deaccel 0 0.2
+		Animate 											DescLabel			FgColor		"bh_Theme_TextBody"		Deaccel 0 0.2
 	}
 	
 	event CasualCategory_NotSelected
 	{
-		Animate 											Shade				BgColor 	"15 15 15 255"		Deaccel 0 0.2
-		Animate 											Title				FgColor		"bh_gray"			Deaccel 0 0.2
-		Animate 											DescLabel			FgColor		"bh_gray"			Deaccel 0 0.2
-		Animate 											TitleShadow			FgColor		"0"					Deaccel 0 0.2
-		Animate 											DescLabelShadow		FgColor		"0"					Deaccel 0 0.2
+		Animate 											Shade				BgColor 	"bh_Theme_BG-10"		Deaccel 0 0.2
+		Animate 											Title				FgColor		"bh_gray"				Deaccel 0 0.2
+		Animate 											DescLabel			FgColor		"bh_gray"				Deaccel 0 0.2
+		Animate 											TitleShadow			FgColor		"0"						Deaccel 0 0.2
+		Animate 											DescLabelShadow		FgColor		"0"						Deaccel 0 0.2
 	}	
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////

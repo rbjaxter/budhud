@@ -6,11 +6,7 @@
 		
 		"TipLabel"
 		{
-			"fgcolor_override"										"bh_white"
-		}
-		
-		"TipSubLabel"
-		{
+			"textalignment"											"center"
 			"fgcolor_override"										"bh_white"
 		}
 	}	

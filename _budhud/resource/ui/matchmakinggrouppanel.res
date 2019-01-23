@@ -29,7 +29,7 @@
 		"labeltext"													""
 		"visible"													"1"
 		"enabled"													"1"
-		"fillcolor"													"bh_Theme_LL"
+		"fillcolor"													"bh_Theme_BG40"
 		"image"														""
 		"paintbackgroundtype"										"0"
     }

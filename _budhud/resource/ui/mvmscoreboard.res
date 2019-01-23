@@ -19,7 +19,7 @@
 		"ypos"														"r128"
 		"wide"														"300"
 		"tall"														"30"
-		"fgcolor"													"bh_orange"
+		"fgcolor"													"bh_Theme_TextMain"
 	}
 
 	"DifficultyContainer"

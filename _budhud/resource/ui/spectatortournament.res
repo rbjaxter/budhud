@@ -114,7 +114,7 @@
 				"visible"											"1"
 				"labelText"											"%respawntime%"
 				"textAlignment"										"west"
-				"fgcolor"											"15 15 15 255"
+				"fgcolor"											"bh_Theme_BG-10"
 			}
 			"chargeamount"
 			{
@@ -126,7 +126,7 @@
 				"tall"												"13"
 				"labelText"											"%chargeamount%"
 				"textAlignment"										"east"
-				"fgcolor"											"bh_orange"
+				"fgcolor"											"bh_Theme_TextMain"
 			}
 			"chargeamountBG"
 			{

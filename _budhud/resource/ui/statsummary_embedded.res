@@ -26,13 +26,13 @@
 		"AveragesBG"
 		{
 			"wide"													"0"
-			"bgcolor_override"										"15 15 15 255"
+			"bgcolor_override"										"bh_Theme_BG-10"
 		}
 		
 		"RecordsBG"
 		{
 			"wide"													"0"
-			"bgcolor_override"										"15 15 15 255"
+			"bgcolor_override"										"bh_Theme_BG-10"
 		}
 		
 		"AveragesLabel"
@@ -140,7 +140,7 @@
 		
 	"TFStatsSummary"
 	{
-		"bgcolor_override"											"bh_MenuBG"	
+		"bgcolor_override"											"bh_Theme_BG00"	
 	}
 	
 	"bh_ResetStatsButton"

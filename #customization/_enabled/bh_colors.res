@@ -224,8 +224,6 @@ Scheme
 		"bh_blank"													"000 000 000 000"
 		"bh_yellow"													"231 181 059 255"
 
-		"bh_MenuBG"													"025 025 025 255"		// Color of all menu backgrounds
-		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Themes - Experimental
 	// ============================================================================================== //
@@ -233,12 +231,25 @@ Scheme
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 		
 		// Standard
-		"bh_Theme_DD"												""
-		"bh_Theme_D"												"005 005 005 255"												
-		"bh_Theme"													"025 025 025 255"		// Other values should deviate from this +/-											
-		"bh_Theme_L"												"045 045 045 255"												
-		"bh_Theme_LL"												"065 065 065 255"												
+		"bh_Theme_TextMain"											"240 134 049 255"
+		"bh_Theme_TextTitle"										"255 255 255 255"
+		"bh_Theme_TextBody"											"255 255 255 255"
 		
+		"bh_Theme_BG-10"											"015 015 015 255"
+		"bh_Theme_BG00"												"025 025 025 255"										
+		"bh_Theme_BG20"												"045 045 045 255"
+		"bh_Theme_BG40"												"065 065 065 255"
+		
+		"bh_ButtonDefault"											"255 255 255 255"		// White
+		"bh_ButtonBlank"											"000 000 000 000"
+		"bh_ButtonArmed"											"240 134 049 255"		// Match to "bh_Theme_TextMain"
+		"bh_ButtonDepressed"										"255 255 255 255"		// White
+		"bh_ButtonBGDefault"										"025 025 025 255"
+		"bh_ButtonBGArmed"											"035 035 035 255"
+		"bh_ButtonBGDepressed"										"035 035 035 255"
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
 		"bh_MouseOverBG"											"035 035 035 255"		// Item mouse-over BG color
 		"bh_border"													"150 150 150 255"		// Color of all budhud borders (buttons, etc)
 		"bh_BGStandard"												"000 000 000 100"
@@ -250,15 +261,7 @@ Scheme
 		"bh_Shadow"													"000 000 000 255"
 		"bh_isError"												"254 002 209 255"		// Bright pink
 		"bh_bgreen"													"050 205 050 255"
-		"bh_bred"													"245 050 041 255"
-
-		"bh_ButtonDefault"											"255 255 255 255"		// White
-		"bh_ButtonBlank"											"000 000 000 000"
-		"bh_ButtonArmed"											"240 134 049 255"		// Orange
-		"bh_ButtonDepressed"										"255 255 255 255"		// White
-		"bh_ButtonBGDefault"										"015 015 015 255"
-		"bh_ButtonBGArmed"											"035 035 035 255"
-		"bh_ButtonBGDepressed"										"035 035 035 255"		
+		"bh_bred"													"245 050 041 255"		
 
 		"TFOrange"													"085 085 085 255"		// Backpack page number BG (selected page color)
 		"Orange"													"240 134 049 255"
@@ -310,7 +313,7 @@ Scheme
 		"BgColor"													"000 000 000 060"		// Does nothing		
 		
 		// vgui_controls color specifications
-		ReplayBrowser.Details.TitleEdit.Carat.FgColor				"bh_orange"
+		ReplayBrowser.Details.TitleEdit.Carat.FgColor				"bh_Theme_TextMain"
 		Replay.RenderDialog.BgColor									"30 30 30 255"
 		
 		Econ.Button.BgColor											"bh_ButtonBGDefault"
@@ -327,11 +330,11 @@ Scheme
 	
 		// Backpack page numbers
 		Button.TextColor											"bh_ButtonDefault"
-		Button.BgColor												"bh_MenuBG"
+		Button.BgColor												"bh_Theme_BG00"
 		Button.ArmedTextColor										"bh_white"
 		Button.ArmedBgColor											"bh_ButtonBGArmed"
 		Button.SelectedTextColor									"bh_white"
-		Button.SelectedBgColor										"bh_MenuBG"
+		Button.SelectedBgColor										"bh_Theme_BG00"
 		Button.DepressedTextColor									"bh_white"
 		Button.DepressedBgColor										"bh_ButtonBGDepressed"
 		

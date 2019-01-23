@@ -9,13 +9,13 @@
 	// Occurences (replaced)
 	// ============================================================================================== //
 	// Verdana: 81
-	// TF2 Secondary: 47
-	// TF2 Build: 31
-	// TF2: 30
-	// ocra: 7
+	// TF2 Secondary: 48
+	// TF2 Build: 32
+	// TF2: 31
+	// ocra: 12
 	// Tahoma: 7
 	// Arial: 5
-	// TF2 Professor: 5
+	// TF2 Professor: 6
 	// Trebuchet MS: 5
 	// Courier New: 2
 	// Arial Black: 1
@@ -40,7 +40,7 @@ Scheme
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// BUDHUD FONTS
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-
+	
         "DefaultFixedOutline"
         {
             "1"
@@ -107,18 +107,6 @@ Scheme
 				"tall"												"12"
 				"weight"											"500"
 				"antialias"											"1"
-			}
-		}
-		
-		bh_Font12Drop
-		{
-			"1"
-			{
-				"name"												"Standard Galactic Alphabet"
-				"tall"												"12"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
 			}
 		}
 		
@@ -223,16 +211,38 @@ Scheme
 			}
 		}
 		
+		bh_Font31
+		{
+			"1"
+			{
+				"name"												"Standard Galactic Alphabet"
+				"tall"												"32"
+				"weight"											"500"
+				"antialias"											"1"
+			}
+		}		
+		
 		bh_Font32
 		{
 			"1"
 			{
 				"name"												"Standard Galactic Alphabet"
-				"tall"												"36"
+				"tall"												"32"
 				"weight"											"500"
 				"antialias"											"1"
 			}
 		}
+		
+		bh_Font34
+		{
+			"1"
+			{
+				"name"												"Standard Galactic Alphabet"
+				"tall"												"34"
+				"weight"											"500"
+				"antialias"											"1"
+			}
+		}		
 		
 		bh_Font36
 		{
@@ -268,6 +278,28 @@ Scheme
 			}
 		}
 		
+		bh_Font41
+		{
+			"1"
+			{
+				"name"												"Standard Galactic Alphabet"
+				"tall"												"41"
+				"weight"											"500"
+				"antialias"											"1"
+			}
+		}		
+		
+		bh_Font46
+		{
+			"1"
+			{
+				"name"												"Standard Galactic Alphabet"
+				"tall"												"46"
+				"weight"											"500"
+				"antialias"											"1"
+			}
+		}		
+		
 		bh_Font48
 		{
 			"1"
@@ -278,6 +310,121 @@ Scheme
 				"antialias"											"1"
 			}
 		}	
+		
+		bh_Font50
+		{
+			"1"
+			{
+				"name"												"Standard Galactic Alphabet"
+				"tall"												"50"
+				"weight"											"500"
+				"antialias"											"1"
+			}
+		}	
+		
+		bh_Font50Drop
+		{
+			"1"
+			{
+				"name"												"Standard Galactic Alphabet"
+				"tall"												"50"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+			}
+		}
+		
+		bh_Font55
+		{
+			"1"
+			{
+				"name"												"Standard Galactic Alphabet"
+				"tall"												"55"
+				"weight"											"500"
+				"antialias"											"1"
+			}
+		}
+		
+		bh_Font55Drop
+		{
+			"1"
+			{
+				"name"												"Standard Galactic Alphabet"
+				"tall"												"55"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+			}
+		}
+		
+		bh_Font60
+		{
+			"1"
+			{
+				"name"												"Standard Galactic Alphabet"
+				"tall"												"60"
+				"weight"											"500"
+				"antialias"											"1"
+			}
+		}
+		
+		bh_Font60Drop
+		{
+			"1"
+			{
+				"name"												"Standard Galactic Alphabet"
+				"tall"												"60"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+			}
+		}
+	
+		bh_Font65
+		{
+			"1"
+			{
+				"name"												"Standard Galactic Alphabet"
+				"tall"												"65"
+				"weight"											"500"
+				"antialias"											"1"
+			}
+		}
+		
+		bh_Font65Drop
+		{
+			"1"
+			{
+				"name"												"Standard Galactic Alphabet"
+				"tall"												"65"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+			}
+		}		
+		
+		bh_Font70
+		{
+			"1"
+			{
+				"name"												"Standard Galactic Alphabet"
+				"tall"												"70"
+				"weight"											"500"
+				"antialias"											"1"
+			}
+		}
+		
+		bh_Font70Drop
+		{
+			"1"
+			{
+				"name"												"Standard Galactic Alphabet"
+				"tall"												"70"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+			}
+		}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Default clientscheme + replace-all
@@ -300,7 +447,7 @@ Scheme
 			{
 				"name"		"Standard Galactic Alphabet"
 				"tall"		"13"	[$WIN32]
-				"tall"		"20"	[$X360]
+				"tall"		"20"	[disabled]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
@@ -566,7 +713,7 @@ Scheme
 			{
 				"name"		"Standard Galactic Alphabet"
 				"tall"		"13"	[$WIN32]
-				"tall"		"23"	[$X360]
+				"tall"		"23"	[disabled]
 				"weight"	"700"
 				"yres"	"600 767"
 			}
@@ -945,7 +1092,7 @@ Scheme
 		}
 		GameUIButtons
 		{
-			"1"	//[$X360]
+			"1"	//[disabled]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -957,7 +1104,7 @@ Scheme
 		}
 		GameUIButtonsSmall
 		{
-			"1"	[$X360]
+			"1"	[disabled]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -967,7 +1114,7 @@ Scheme
 		}
 		GameUIButtonsSmallest
 		{
-			"1"	[$X360]
+			"1"	[disabled]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -1096,7 +1243,7 @@ Scheme
 			{
 				"name"		"Standard Galactic Alphabet"
 				"tall"		"15"	[$WIN32]
-				"tall"		"21"	[$X360]
+				"tall"		"21"	[disabled]
 				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"600 767"
@@ -1141,7 +1288,7 @@ Scheme
 				"outline"	"1"
 				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
-			"1"	[$X360]
+			"1"	[disabled]
 			{
 				"name"		"Standard Galactic Alphabet"
 				"tall"		"18"
@@ -2771,6 +2918,67 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 				"dropshadow"	"1"
+			}
+		}
+
+		"QuestMap_Small_Blur"
+		{
+			"1"
+			{
+				"name"		"Standard Galactic Alphabet"
+				"tall"		"7"
+				"weight"	"0"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
+			}
+		}
+
+		"QuestMap_Small"
+		{
+			"1"
+			{
+				"name"		"Standard Galactic Alphabet"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Medium"
+		{
+			"1"
+			{
+				"name"		"Standard Galactic Alphabet"
+				"tall"		"10"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Large"
+		{
+			"1"
+			{
+				"name"		"Standard Galactic Alphabet"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Huge"
+		{
+			"1"
+			{
+				"name"		"Standard Galactic Alphabet"
+				"tall"		"30"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 	}

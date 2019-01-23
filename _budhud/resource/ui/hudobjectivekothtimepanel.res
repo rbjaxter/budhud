@@ -62,7 +62,7 @@
 		"ypos"														"20"	
 		"wide"														"50"	
 		"tall"														"1"	
-		"fillcolor"													"bh_orange"	
+		"fillcolor"													"bh_Theme_TextMain"	
 		"image"														""	
 	}
 }

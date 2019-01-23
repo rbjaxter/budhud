@@ -6,7 +6,7 @@
 	{
 		"wide"														"280"
 		"zpos"														"2500"		// BackgroundDimmer zpos is locked to 1000 (lol)
-		"bgcolor_override"											"bh_MenuBG"
+		"bgcolor_override"											"bh_Theme_BG00"
 		"border"													"bh_b_W"
 	}
 
@@ -31,6 +31,6 @@
 		"ypos"														"18"
 		"tall"														"30"
 		"font"														"bh_Font24"
-		"fgcolor_override"											"bh_orange"
+		"fgcolor_override"											"bh_Theme_TextMain"
 	}
 }

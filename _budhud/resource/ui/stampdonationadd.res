@@ -6,7 +6,7 @@
 	
 	"TitleLabel"
 	{
-		"fgcolor_override"											"bh_orange"
+		"fgcolor_override"											"bh_Theme_TextMain"
 	}
 	
 	"ExplanationLabel"

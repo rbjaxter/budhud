@@ -105,7 +105,7 @@
 		"pinCorner"													"0"
 		"visible" 													"1"
 		"enabled" 													"1"
-		"fillcolor" 												"bh_MenuBG"
+		"fillcolor" 												"bh_Theme_BG00"
 		"draw_corner_width"											"5"
 		"draw_corner_height"										"5"
 	}

@@ -27,7 +27,7 @@
 		
 		"InnerPanelRim"
 		{
-			"bgcolor_override"										"bh_MenuBG"
+			"bgcolor_override"										"bh_Theme_BG00"
 		}
 
 		"InnerBGPanel"
@@ -42,32 +42,32 @@
 		
 		"InactiveTabPanel1"
 		{
-			"bgcolor_override"										"bh_MenuBG"
+			"bgcolor_override"										"bh_Theme_BG00"
 		}
 		
 		"InactiveTabPanel2"
 		{
-			"bgcolor_override"										"bh_MenuBG"
+			"bgcolor_override"										"bh_Theme_BG00"
 		}
 		
 		"InactiveTabPanel3"
 		{
-			"bgcolor_override"										"bh_MenuBG"
+			"bgcolor_override"										"bh_Theme_BG00"
 		}
 		
 		"InactiveTabPanel4"
 		{
-			"bgcolor_override"										"bh_MenuBG"
+			"bgcolor_override"										"bh_Theme_BG00"
 		}
 		
 		"InactiveTabPanel5"
 		{
-			"bgcolor_override"										"bh_MenuBG"
+			"bgcolor_override"										"bh_Theme_BG00"
 		}
 		
 		"InactiveTabPanel6"
 		{
-			"bgcolor_override"										"bh_MenuBG"
+			"bgcolor_override"										"bh_Theme_BG00"
 		}
 		
 		"ActiveTabPanel"
@@ -77,12 +77,12 @@
 		
 		"MouseOverTabPanel"
 		{
-			"bgcolor_override"										"bh_orange"
+			"bgcolor_override"										"bh_Theme_TextMain"
 		}
 		
 		"MouseOverUpgradePanel"
 		{
-			"bgcolor_override"										"bh_orange"
+			"bgcolor_override"										"bh_Theme_TextMain"
 		}
 		
 		"CancelButton"

@@ -19,7 +19,7 @@
 		"EntryToggleButton"
 		{
 			"tall"													"15"
-			"defaultBgColor_override"								"bh_Theme"
+			"defaultBgColor_override"								"bh_Theme_BG00"
 			"armedBgColor_override"									"65 65 065 255"
 			"textAlignment"											"center"
 			"textinsetx"											"0"

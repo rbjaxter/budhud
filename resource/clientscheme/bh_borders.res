@@ -273,19 +273,19 @@ Scheme
 			{
 				"1"
 				{
-					"color" "bh_MenuBG"
+					"color" "bh_Theme_BG00"
 					"offset" "0 1"
 				}
 
 				"2"
 				{
-					"color" "bh_MenuBG"
+					"color" "bh_Theme_BG00"
 					"offset" "0 1"
 				}
 
 				"3"
 				{
-					"color" "bh_MenuBG"
+					"color" "bh_Theme_BG00"
 					"offset" "0 1"
 				}
 			}
@@ -294,19 +294,19 @@ Scheme
 			{
 				"1"
 				{
-					"color" "bh_MenuBG"
+					"color" "bh_Theme_BG00"
 					"offset" "0 1"
 				}
 
 				"2"
 				{
-					"color" "bh_MenuBG"
+					"color" "bh_Theme_BG00"
 					"offset" "0 1"
 				}
 
 				"3"
 				{
-					"color" "bh_MenuBG"
+					"color" "bh_Theme_BG00"
 					"offset" "0 1"
 				}
 			}
@@ -315,19 +315,19 @@ Scheme
 			{
 				"1"
 				{
-					"color" "bh_MenuBG"
+					"color" "bh_Theme_BG00"
 					"offset" "0 1"
 				}
 
 				"2"
 				{
-					"color" "bh_MenuBG"
+					"color" "bh_Theme_BG00"
 					"offset" "0 1"
 				}
 
 				"3"
 				{
-					"color" "bh_MenuBG"
+					"color" "bh_Theme_BG00"
 					"offset" "0 1"
 				}
 			}
@@ -336,19 +336,19 @@ Scheme
 			{
 				"1"
 				{
-					"color" "bh_MenuBG"
+					"color" "bh_Theme_BG00"
 					"offset" "0 1"
 				}
 
 				"2"
 				{
-					"color" "bh_MenuBG"
+					"color" "bh_Theme_BG00"
 					"offset" "0 1"
 				}
 
 				"3"
 				{
-					"color" "bh_MenuBG"
+					"color" "bh_Theme_BG00"
 					"offset" "0 1"
 				}
 			}

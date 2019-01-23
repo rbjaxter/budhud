@@ -2,10 +2,10 @@
 {
 	"bh_AmmoBG"	
 	{
-		"xpos"														"82"
+		"xpos"														"79"
 		"ypos"														"55"
 		"zpos"														"-6969"
-		"wide"														"88"
+		"wide"														"100"
 		"tall"														"42"
     }
 
@@ -27,7 +27,6 @@
 	
 	"AmmoInReserveShadow"
 	{
-		"xpos"														"36"
 		"font"														"bh_Font36"
 	}
 	

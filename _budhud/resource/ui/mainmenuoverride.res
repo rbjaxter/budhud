@@ -340,7 +340,7 @@
 		"Notifications_TitleLabel"
 		{
 			"ypos"													"6"
-			"fgcolor_override"										"bh_orange"
+			"fgcolor_override"										"bh_Theme_TextMain"
 		}
 	}	
 	
@@ -762,13 +762,13 @@
 		"ypos"														"421"
 		"zpos"														"-52"		// XPBar zpos is -51/-52 and not changeable
 		"wide"														"f0"
-		"tall"														"59"
+		"tall"														"60"
 		"autoResize"												"0"
 		"pinCorner"													"0"
 		"labeltext"													""
 		"visible"													"1"
 		"enabled"													"1"
-		"fillcolor"													"bh_MenuBG"
+		"fillcolor"													"bh_Theme_BG00"
 		"border"													"bh_b_N"
 		"image"														""
 		"paintbackgroundtype"										"0"
@@ -797,7 +797,7 @@
 		"border_armed"												"NoBorder"
 		"paintbackground"											"0"
 		"defaultFgColor_override" 									"bh_white"
-		"armedFgColor_override" 									"bh_orange"
+		"armedFgColor_override" 									"bh_Theme_TextMain"
 		"image_drawcolor"											"255 255 255 255"
 		"image_armedcolor"											"240 134 49 255"
 		"use_proportional_insets"									"1"

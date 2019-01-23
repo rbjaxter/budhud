@@ -8,7 +8,7 @@
 	"HeaderLabel"
 	{
 		"font"														"bh_Font12"
-		"fgcolor"													"bh_orange"
+		"fgcolor"													"bh_Theme_TextMain"
 	}
 	
 	"TableBackground"

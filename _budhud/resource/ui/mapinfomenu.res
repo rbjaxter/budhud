@@ -37,7 +37,7 @@
 		"ypos"														"50"
 		"wide"														"500"
 		"textalignment"												"center"
-		"fgcolor"													"bh_orange"
+		"fgcolor"													"bh_Theme_TextMain"
 		"font"														"bh_Font32"
 	}
 	

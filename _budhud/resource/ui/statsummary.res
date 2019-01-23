@@ -21,7 +21,7 @@
 	
 	"TFStatsSummary"
 	{
-		"bgcolor_override"											"bh_MenuBG"	
+		"bgcolor_override"											"bh_Theme_BG00"	
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
@@ -46,7 +46,7 @@
 		"image"														""
 		"scaleImage"												"1"
 		
-		"fillcolor"													"bh_MenuBG"
+		"fillcolor"													"bh_Theme_BG00"
 	}
 	
 	"StatData"
@@ -57,13 +57,13 @@
 		"AveragesBG"
 		{
 			"wide"													"0"
-			"bgcolor_override"										"15 15 15 255"
+			"bgcolor_override"										"bh_Theme_BG-10"
 		}
 		
 		"RecordsBG"
 		{
 			"wide"													"0"
-			"bgcolor_override"										"15 15 15 255"
+			"bgcolor_override"										"bh_Theme_BG-10"
 		}
 		
 		"AveragesLabel"
@@ -175,7 +175,7 @@
 	
 	"MapInfo"
 	{
-		"bgcolor_override"											"bh_MenuBG"	
+		"bgcolor_override"											"bh_Theme_BG00"	
 		"zpos"														"12"
 		
 		"Background"

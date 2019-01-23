@@ -7,9 +7,9 @@
 	
 	"crafting_panel"
 	{
-		"bgcolor_override"											"bh_MenuBG"
-		"infocus_bgcolor_override" 									"bh_MenuBG"
-		"outoffocus_bgcolor_override" 								"bh_MenuBG"
+		"bgcolor_override"											"bh_Theme_BG00"
+		"infocus_bgcolor_override" 									"bh_Theme_BG00"
+		"outoffocus_bgcolor_override" 								"bh_Theme_BG00"
 		
 		"modelpanels_kv"
 		{

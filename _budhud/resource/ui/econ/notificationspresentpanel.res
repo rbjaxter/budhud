@@ -18,6 +18,6 @@
 		"tall"														"f0"
 		"labeltext"													"#bh_PendingAlerts"
 		"font"														"bh_Font10"
-		"fgcolor_override"											"bh_orange"
+		"fgcolor_override"											"bh_Theme_TextMain"
 	}
 }

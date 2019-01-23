@@ -24,7 +24,7 @@
 		"wide"														"230"
 		"tall"														"64"
 		"textAlignment"												"west"
-		"fgcolor_override"											"bh_orange"
+		"fgcolor_override"											"bh_Theme_TextMain"
 	}
 
 	"BalanceLabelTip"

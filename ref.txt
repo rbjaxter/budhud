@@ -153,7 +153,7 @@
 		"labeltext"													""
 		"visible"													"1"
 		"enabled"													"1"
-		"fillcolor"													"bh_MenuBG"
+		"fillcolor"													"bh_Theme_BG00"
 		"image"														""
 		"paintbackgroundtype"										"0"
     }

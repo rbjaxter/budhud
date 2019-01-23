@@ -4,7 +4,7 @@
 {
 	"PingPanel"
 	{
-		"bgcolor_override"											"bh_MenuBG"
+		"bgcolor_override"											"bh_Theme_BG00"
 		"border"													"bh_b_E"
 	}
 	

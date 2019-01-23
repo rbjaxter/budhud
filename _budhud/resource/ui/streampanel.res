@@ -80,7 +80,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"bh_orange"
+		"fgcolor"		"bh_Theme_TextMain"
 	}
 
 	"TextDescriptionLabel"
