@@ -20,12 +20,17 @@
 		"ypos"														"r-6969"
 	}
 	
+	"FooterLine"
+	{
+		"ypos"														"r-6969"
+	}
+	
 	"bh_BackgroundFooter"	
 	{
 		"ControlName"												"ImagePanel"
 		"fieldName"													"bh_BackgroundFooter"
 		"xpos"														"0"
-		"ypos"														"420"
+		"ypos"														"421"
 		"zpos"														"1"
 		"wide"														"f0"
 		"tall"														"60"
@@ -38,7 +43,7 @@
 		"border"													"bh_b_N"
 		"image"														""
 		"paintbackgroundtype"										"0"
-    }
+	}
 	
 	"bh_BackgroundHeader"	
 	{
@@ -95,14 +100,6 @@
 		"bgcolor_override"											"bh_Theme_BG00"
 		"infocus_bgcolor_override" 									"bh_Theme_BG00"
 		"outoffocus_bgcolor_override" 								"bh_Theme_BG00"
-	}
-		
-	"FooterLine"
-	{
-		"ControlName"												"EditablePanel"
-		"image"														""
-		"tall"														"2"
-		"bgcolor_override"											"bh_border"
 	}
 	
 	"Sheet"

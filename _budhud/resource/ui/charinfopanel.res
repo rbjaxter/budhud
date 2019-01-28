@@ -18,13 +18,18 @@
 	{
 		"ypos"														"r-6969"
 	}
+	
+	"FooterLine"
+	{
+		"ypos"														"r-6969"
+	}
 
 	"bh_BackgroundFooter"	
 	{
 		"ControlName"												"ImagePanel"
 		"fieldName"													"bh_BackgroundFooter"
 		"xpos"														"0"
-		"ypos"														"420"
+		"ypos"														"421"
 		"zpos"														"1"
 		"wide"														"f0"
 		"tall"														"60"
@@ -65,16 +70,15 @@
 		"titlebardisabledfgcolor_override"							"bh_white"
 	}
 	
-	"FooterLine"
-	{
-		"ControlName"												"EditablePanel"
-		"image"														""
-		"tall"														"2"
-		"bgcolor_override"											"bh_border"
-	}
-	
 	"Sheet"
 	{
+		"tabxindent"												"80"		// Tab left/right position
+		"tabxdelta"													"10"		// Gap between tabs
+		"tabwidth"													"240"		// Tab width
+		"tabheight"													"20"		// Tab height
+		"transition_time" 											"0"			// Fade in between tabs 
+		"yoffset"													"14"		// Tab distance from top of screen
+		
 		"HeaderLine"
 		{
 			"ControlName"											"EditablePanel"
