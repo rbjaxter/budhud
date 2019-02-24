@@ -22,7 +22,7 @@
 	
 	"PlayerStatusClassImage"
 	{
-		"xpos"														"0"
+		"xpos"														"50"
 		"ypos"														"r50"
 		"wide"														"50"
 		"tall"														"50"
@@ -49,7 +49,7 @@
 		"enabled"													"1"
 		
 		"render_texture"											"0"
-		"fov"														"30"		// Higher FoV causes distortion
+		"fov"														"35"		// Higher FoV causes distortion
 		"allow_rot"													"0"
 
 		"model"
@@ -57,7 +57,7 @@
 			"force_pos"												"1"
 
 			"angles_x" 												"0"
-			"angles_y" 												"170"		// 180 faces directly at user
+			"angles_y" 												"210"		// 180 faces directly at user
 			"angles_z" 												"0"
 		
 			"origin_x" 												"200"		// Move towards and away relative to user
