@@ -22,9 +22,7 @@
 		{
 			"wide"													"50"
 			"tall"													"28"
-			"textalignment"											"center"
-			"font"													"bh_Font24"
-			"labeltext"												"◂"
+			"labeltext"												""
 		
 			"defaultBgColor_override"								"bh_blank"
 			"armedBgColor_override"									"bh_blank"
@@ -33,6 +31,9 @@
 			"armedFgColor_override" 								"bh_bgreen"
 			"depressedFgColor_override" 							"bh_ButtonDepressed"
 			
+			"image_drawcolor"										"255 255 255 255"
+			"image_armedcolor"										"050 205 050 255"
+			
 			"roundedcorners"										"0"
 			"textinsety"											"4"
 			"textinsetx"											"0"
@@ -40,7 +41,11 @@
 			
 			"SubImage"
 			{
-				"ypos"												"r-6969"
+				"xpos"												"20"
+				"ypos"												"12"
+				"wide"												"10"
+				"tall"												"10"
+				"image"												"replay\thumbnails\menu_icons\arrowleft"
 			}
 		}
 		
@@ -48,25 +53,30 @@
 		{
 			"wide"													"50"
 			"tall"													"28"
-			"textalignment"											"center"
-			"font"													"bh_Font24"
-			"labeltext"												"▴"
+			"labeltext"												""
 		
 			"defaultBgColor_override"								"bh_blank"
 			"armedBgColor_override"									"bh_blank"
 			"depressedBgColor_override"								"bh_ButtonBGDepressed"
 			"defaultFgColor_override"								"bh_white"
-			"armedFgColor_override" 								"bh_blue"
+			"armedFgColor_override" 								"bh_bgreen"
 			"depressedFgColor_override" 							"bh_ButtonDepressed"
 			
+			"image_drawcolor"										"255 255 255 255"
+			"image_armedcolor"										"000 153 255 255"
+			
 			"roundedcorners"										"0"
-			"textinsety"											"5"
+			"textinsety"											"4"
 			"textinsetx"											"0"
 			"use_proportional_insets"								"0"
 			
 			"SubImage"
 			{
-				"ypos"												"r-6969"
+				"xpos"												"20"
+				"ypos"												"12"
+				"wide"												"10"
+				"tall"												"10"
+				"image"												"replay\thumbnails\menu_icons\arrowup"
 			}
 		}
 		
@@ -74,16 +84,17 @@
 		{
 			"wide"													"50"
 			"tall"													"28"
-			"textalignment"											"center"
-			"font"													"bh_Font24"
-			"labeltext"												"▸"
+			"labeltext"												""
 		
 			"defaultBgColor_override"								"bh_blank"
 			"armedBgColor_override"									"bh_blank"
 			"depressedBgColor_override"								"bh_ButtonBGDepressed"
 			"defaultFgColor_override"								"bh_white"
-			"armedFgColor_override" 								"bh_bred"
+			"armedFgColor_override" 								"bh_bgreen"
 			"depressedFgColor_override" 							"bh_ButtonDepressed"
+			
+			"image_drawcolor"										"255 255 255 255"
+			"image_armedcolor"										"245 050 041 255"
 			
 			"roundedcorners"										"0"
 			"textinsety"											"4"
@@ -92,7 +103,11 @@
 			
 			"SubImage"
 			{
-				"ypos"												"r-6969"
+				"xpos"												"20"
+				"ypos"												"12"
+				"wide"												"10"
+				"tall"												"10"
+				"image"												"replay\thumbnails\menu_icons\arrowright"
 			}
 		}
 		
@@ -100,16 +115,17 @@
 		{
 			"wide"													"50"
 			"tall"													"28"
-			"textalignment"											"center"
-			"font"													"bh_Font24"
-			"labeltext"												"▸"
+			"labeltext"												""
 		
 			"defaultBgColor_override"								"bh_blank"
 			"armedBgColor_override"									"bh_blank"
 			"depressedBgColor_override"								"bh_ButtonBGDepressed"
 			"defaultFgColor_override"								"bh_white"
-			"armedFgColor_override" 								"bh_bred"
+			"armedFgColor_override" 								"bh_bgreen"
 			"depressedFgColor_override" 							"bh_ButtonDepressed"
+			
+			"image_drawcolor"										"255 255 255 255"
+			"image_armedcolor"										"245 050 041 255"
 			
 			"roundedcorners"										"0"
 			"textinsety"											"4"
@@ -118,7 +134,11 @@
 			
 			"SubImage"
 			{
-				"ypos"												"r-6969"
+				"xpos"												"20"
+				"ypos"												"12"
+				"wide"												"10"
+				"tall"												"10"
+				"image"												"replay\thumbnails\menu_icons\arrowright"
 			}
 		}
 	
