@@ -706,7 +706,7 @@
 			"xpos"			"rs1-31-131"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"120"
+			"wide"			"90"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"

@@ -51,7 +51,7 @@
 		"pinCorner"				"2"
 		"visible"				"1"
 		"visible_disabled"		"1"
-		"ypos_disabled"			"0"
+		"ypos_disabled"			"1"
 		"xpos_disabled"			"0"
 		"textAlignment_disabled"			"west"
 		"enabled"				"1"
