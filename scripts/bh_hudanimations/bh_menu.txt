@@ -29,8 +29,8 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	event HasNotificationsBlink
 	{
-		Animate	Notifications_ShowButtonPanel_SB 			Alpha		"255"		Spline 		0.0 0.2
-		Animate	Notifications_ShowButtonPanel_SB 			Alpha		"0"			Spline		0.2 0.2
+		Animate	Notifications_ShowButtonPanel_SB 			Alpha				"255"		Spline 		0.0 0.2
+		Animate	Notifications_ShowButtonPanel_SB 			Alpha				"0"			Spline		0.2 0.2
 		RunEvent HasNotificationsBlinkLoop					0.5
 	}
 	
@@ -43,7 +43,7 @@
 	{
 		StopEvent HasNotificationsBlink						0.0
 		StopEvent HasNotificationsBlinkLoop 				0.0
-		Animate	Notifications_ShowButtonPanel_SB 			Alpha		"255"		Linear		0.0 0.1
+		Animate	Notifications_ShowButtonPanel_SB 			Alpha				"255"		Linear		0.0 0.1
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -51,8 +51,8 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	event NotificationsPresentBlink
 	{
-		Animate	NotificationsPresentPanel 					Alpha		"255"		Spline		0.0 0.2
-		Animate	NotificationsPresentPanel 					Alpha		"0"			Linear 		0.2 0.2
+		Animate	NotificationsPresentPanel 					Alpha				"255"		Spline		0.0 0.2
+		Animate	NotificationsPresentPanel 					Alpha				"0"			Linear 		0.2 0.2
 
 		RunEvent NotificationsPresentBlinkLoop				0.5
 	}
@@ -66,5 +66,5 @@
 	{
 		StopEvent NotificationsPresentBlink					0.0
 		StopEvent NotificationsPresentBlinkLoop 			0.0
-		Animate	NotificationsPresentPanel 					Alpha		"255"		Linear 		0.0 0.1
+		Animate	NotificationsPresentPanel 					Alpha				"255"		Linear 		0.0 0.1
 	}

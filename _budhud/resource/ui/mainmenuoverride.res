@@ -110,6 +110,37 @@
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Menu Particle System
+	// https://developer.valvesoftware.com/wiki/List_of_TF2_Particles
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	//"bh_MenuParticles"
+	//{
+	//	"ControlName"												"CTFParticlePanel"
+	//	"fieldName"													"bh_MenuParticles"
+	//	"xpos"														"0"
+	//	"ypos"														"0"
+	//	"zpos"														"0"
+	//	"wide"														"f0"
+	//	"tall"														"f0"
+	//	"visible"													"1"
+	//	"enabled"													"1"
+	//	"proportionaltoparent"										"1"
+	//	
+	//	"ParticleEffects"
+	//	{
+	//		"0"
+	//		{
+	//			"particle_xpos"										"c0"
+	//			"particle_ypos"										"c0"
+	//			"particle_scale"									"1"
+	//			"particlename"										""
+	//			"loop"												"1"
+	//		}
+	//	}
+	//}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Center Nav
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	

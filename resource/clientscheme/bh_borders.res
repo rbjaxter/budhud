@@ -658,18 +658,6 @@ Scheme
 			"draw_corner_height" 	"5"	
 		}
 		
-		EconItemBorder
-		{
-			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
-		}
-
-		LoadoutItemMouseOverBorder
-		{
-			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
-		}
-		
 		LoadoutItemPopupBorder
 		// Used in ui\econ\store\v2\storepage.res
 		// Used in ui\econ\store\v2\storepreviewitempanel.res
@@ -690,6 +678,21 @@ Scheme
 		{
 			"draw_corner_width"		"5"
 			"draw_corner_height" 	"5"	
+		}
+		
+		// Stock items
+		EconItemBorder
+		{
+			"image"					"loadout_rect"
+			"draw_corner_width"		"3"
+			"draw_corner_height" 	"3"	
+		}
+		
+		LoadoutItemMouseOverBorder
+		{
+			"image"					"loadout_rect_mouseover"
+			"draw_corner_width"		"3"
+			"draw_corner_height" 	"3"	
 		}
 		
 		// Standard ------------------------------------------------------------------------------------------------

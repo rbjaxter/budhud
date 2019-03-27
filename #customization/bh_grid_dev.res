@@ -16,7 +16,7 @@
 		"tall"						"f0"
 		"visible"					"1"
 		"enabled"					"1"
-		"fillcolor"					"150 150 150 120"
+		"fillcolor"					"150 0 150 120"
 	}
 	
 	"bh_dev_v_L1"
@@ -30,7 +30,7 @@
 		"tall"						"f0"
 		"visible"					"1"
 		"enabled"					"1"
-		"fillcolor"					"150 150 150 120"
+		"fillcolor"					"0 150 150 120"
 	}
 	
 	"bh_dev_v_L2"
@@ -44,7 +44,7 @@
 		"tall"						"f0"
 		"visible"					"1"
 		"enabled"					"1"
-		"fillcolor"					"150 150 150 120"
+		"fillcolor"					"150 150 0 120"
 	}
 	
 	"bh_dev_v_R1"
@@ -58,7 +58,7 @@
 		"tall"						"f0"
 		"visible"					"1"
 		"enabled"					"1"
-		"fillcolor"					"150 150 150 120"
+		"fillcolor"					"150 0 150 120"
 	}
 	
 	"bh_dev_v_R2"
@@ -72,7 +72,7 @@
 		"tall"						"f0"
 		"visible"					"1"
 		"enabled"					"1"
-		"fillcolor"					"150 150 150 120"
+		"fillcolor"					"150 0 150 120"
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
@@ -88,7 +88,7 @@
 		"tall"						"6"
 		"visible"					"1"
 		"enabled"					"1"
-		"fillcolor"					"150 150 150 120"
+		"fillcolor"					"150 150 0 120"
 	}
 	
 	"bh_dev_h_U1"
@@ -102,7 +102,7 @@
 		"tall"						"6"
 		"visible"					"1"
 		"enabled"					"1"
-		"fillcolor"					"150 150 150 120"
+		"fillcolor"					"150 0 150 120"
 	}
 	
 	"bh_dev_h_D1"
@@ -116,6 +116,6 @@
 		"tall"						"6"
 		"visible"					"1"
 		"enabled"					"1"
-		"fillcolor"					"150 150 150 120"
+		"fillcolor"					"150 150 0 120"
 	}
 }

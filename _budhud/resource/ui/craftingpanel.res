@@ -5,11 +5,36 @@
 		"ypos"														"r-6969"
 	}
 	
+	"TooltipPanel"
+	{
+		"border"													"ReplayGrayDialogBorder"
+		
+		"TipLabel"
+		{
+			"fgcolor_override"										"bh_white"
+		}
+		
+		"TipSubLabel"
+		{
+			"fgcolor_override"										"bh_white"
+		}
+	}
+	
 	"crafting_panel"
 	{
 		"bgcolor_override"											"bh_Theme_BG00"
 		"infocus_bgcolor_override" 									"bh_Theme_BG00"
 		"outoffocus_bgcolor_override" 								"bh_Theme_BG00"
+		
+		"recipebuttons_kv"
+		{
+			"defaultBgColor_override"								"bh_Blank"
+			"armedBgColor_override"									"bh_Blank"
+			"depressedBgColor_override"								"bh_Blank"
+			"defaultFgColor_override"								"bh_ButtonDefault"
+			"armedFgColor_override" 								"bh_ButtonArmed"
+			"depressedFgColor_override" 							"bh_ButtonArmed"
+		}
 		
 		"modelpanels_kv"
 		{
