@@ -3,7 +3,7 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// whayay's Crosshairs
 	// ============================================================================================== //
-	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Customization#crosshairs
+	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Crosshairs
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	"whayay_crosshair"
@@ -36,7 +36,7 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Knuckle's Crosshairs
 	// ============================================================================================== //
-	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Customization#crosshairs
+	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Crosshairs
 	// Valid font sizes: Any number between 10 - 50
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
@@ -64,7 +64,7 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Fog's Crosshairs
 	// ============================================================================================== //
-	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Customization#crosshairs
+	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Crosshairs
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	xHairCircle
