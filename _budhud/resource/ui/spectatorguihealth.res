@@ -15,7 +15,7 @@
 		"labeltext"													""
 		"visible"													"1"
 		"enabled"													"1"
-		"bgcolor_override"											"150 150 150 100"
+		"bgcolor_override"											"bh_TargetID_Base"
 		
 		"paintbackground"											"1"
 		"border"													"NoBorder"
@@ -54,7 +54,7 @@
 		"enabled"													"1"
 		"labeltext"													"%health%"
 		"textAlignment"												"center"
-		"fgcolor_override"											"bh_Health"
+		"fgcolor_override"											"bh_Health_Main"
 		"font"														"bh_Font20"
 	}
 	

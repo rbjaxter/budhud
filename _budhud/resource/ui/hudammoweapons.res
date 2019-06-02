@@ -39,7 +39,7 @@
 		"wide"														"250"
 		"tall"														"150"
 		"font"														"bh_Font40"
-		"fgcolor"													"bh_AmmoMain"
+		"fgcolor"													"bh_Ammo_Main"
 		"textAlignment"												"center"
 	}
 	
@@ -54,7 +54,7 @@
 		"wide"														"250"
 		"tall"														"150"
 		"font"														"bh_Font40"
-		"fgcolor"													"bh_AmmoShadow"
+		"fgcolor"													"bh_Ammo_Main_Shadow"
 		"textAlignment"												"center"
 	}	
 	
@@ -66,7 +66,7 @@
 		"wide"														"250"
 		"tall"														"150"
 		"font"														"bh_Font24"
-		"fgcolor"													"bh_AmmoReserve"
+		"fgcolor"													"bh_Ammo_Reserve"
 		"textAlignment"												"center"
 	}
 	
@@ -82,7 +82,7 @@
 		"wide"														"250"
 		"tall"														"150"
 		"font"														"bh_Font24"
-		"fgcolor"													"bh_AmmoShadow"
+		"fgcolor"													"bh_Ammo_Reserve_Shadow"
 		"textAlignment"												"center"
 	}
 	
@@ -97,7 +97,7 @@
 		"wide"														"250"
 		"tall"														"150"
 		"font"														"bh_Font40"
-		"fgcolor"													"bh_AmmoMain"
+		"fgcolor"													"bh_Ammo_Main"
 		"textAlignment"												"center"
 	}
 	
@@ -112,7 +112,7 @@
 		"wide"														"250"
 		"tall"														"150"
 		"font"														"bh_Font40"
-		"fgcolor"													"bh_AmmoShadow"
+		"fgcolor"													"bh_Ammo_Shadow"
 		"textAlignment"												"center"
 	}
 }

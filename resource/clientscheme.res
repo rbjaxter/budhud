@@ -1,8 +1,17 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// HUD Font
-	// ============================================================================================== //
-	// More will be added in the future
+	// NOTE: Please keep all backslashes (\) away from the clientscheme feeding area! The clientscheme
+	// has a *very* strict forward slash diet; any other food sources will bring serious harm to the
+	// clientscheme, and negatively impact its health (often resulting in mild headaches or death).
+	//
+	// This dietary restriction includes all variants of the backslash, including but not limited to: 
+	// Whacks, hacks, sloshes, bashes, escapes, downwhacks, reverse slashes, backwhacks, backslants,
+	// reverse slants, and reversed virgules. Thank you for your cooperation!
 	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// HUD Font
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// #base	"fonts/bh_toth.res"
 	#base	"fonts/bh_lato.res"
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////

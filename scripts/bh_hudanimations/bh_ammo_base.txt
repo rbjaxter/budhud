@@ -7,13 +7,21 @@
 
 	event HudLowAmmoPulse
 	{
+		// Main ammo
 		Animate 		AmmoInClip									fgcolor			"bh_isError"			Linear 0.0 0.2
 		Animate 		AmmoNoClip									fgcolor			"bh_isError"			Linear 0.0 0.2
+		
+		// Reserve Ammo
 		Animate 		AmmoInReserve								fgcolor			"bh_isError"			Linear 0.0 0.2
+
+		// Main ammo shadow
 		Animate 		AmmoInClipShadow							fgcolor			"bh_isError"			Linear 0.0 0.2
 		Animate 		AmmoNoClipShadow							fgcolor			"bh_isError"			Linear 0.0 0.2
+		
+		// Reserve ammo shadow
 		Animate 		AmmoInReserveShadow							fgcolor			"bh_isError"			Linear 0.0 0.2
 		
+		// Hide ammo box background
 		Animate 		bh_AmmoBG									Alpha			"0"						Linear 0.0 0.0
 		
 		RunEvent 		HudLowAmmoPulseLoop							0.25

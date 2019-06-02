@@ -63,7 +63,7 @@
 		"wide"														"250"
 		"tall"														"150"
 		"font"														"bh_Font40"
-		"fgcolor"													"bh_Health"
+		"fgcolor"													"bh_Health_Main"
 		"textAlignment"												"center"
 	}
 	
