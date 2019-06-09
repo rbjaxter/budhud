@@ -112,7 +112,7 @@
 		"wide"														"250"
 		"tall"														"150"
 		"font"														"bh_Font40"
-		"fgcolor"													"bh_Ammo_Shadow"
+		"fgcolor"													"bh_Ammo_Main_Shadow"
 		"textAlignment"												"center"
 	}
 }

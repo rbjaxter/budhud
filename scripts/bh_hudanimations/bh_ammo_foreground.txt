@@ -3,32 +3,32 @@
 	//////////////////////////////////////////////////////////////////////////////////////////////////// 
 	// Ammo main color changes based on ammo state
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-
+	
 	event HudLowAmmoPulse
 	{
 		// Main ammo
 		Animate 		AmmoInClip									fgcolor			"bh_Ammo_Low"				Linear 0.0 0.2
 		Animate 		AmmoNoClip									fgcolor			"bh_Ammo_Low"				Linear 0.0 0.2
-		
+
 		// Reserve ammo
 		Animate 		AmmoInReserve								fgcolor			"bh_Ammo_Low"				Linear 0.0 0.2
-
+		
 		// Main ammo shadow
 		Animate 		AmmoInClipShadow							fgcolor			"bh_Ammo_Main_Shadow"		Linear 0.0 0.2
 		Animate 		AmmoNoClipShadow							fgcolor			"bh_Ammo_Main_Shadow"		Linear 0.0 0.2
 		
 		// Reserve ammo shadow
 		Animate 		AmmoInReserveShadow							fgcolor			"bh_Ammo_Reserve_Shadow"	Linear 0.0 0.2
-
+		
 		// Flash ammo main
-		Animate			AmmoInClip									Alpha			"255"						Linear 0.0 0.2
-		Animate			AmmoInClip 									Alpha			"0"							Linear 0.2 0.4
-		Animate			AmmoNoClip 									Alpha			"255"						Linear 0.0 0.2
-		Animate			AmmoNoClip 									Alpha			"0"							Linear 0.2 0.4
+		Animate			AmmoInClip 									Alpha			"255"						Linear 0.0 0.2
+		Animate			AmmoInClip		 							Alpha			"0"							Linear 0.2 0.4
+		Animate			AmmoNoClip		 							Alpha			"255"						Linear 0.0 0.2
+		Animate			AmmoNoClip		 							Alpha			"0"							Linear 0.2 0.4
 		
 		// Flash ammo reserve
-		Animate			AmmoInReserve 								Alpha			"255"						Linear 0.0 0.2
-		Animate			AmmoInReserve								Alpha			"0"							Linear 0.2 0.4
+		Animate			AmmoInReserve		 						Alpha			"255"						Linear 0.0 0.2
+		Animate			AmmoInReserve		 						Alpha			"0"							Linear 0.2 0.4
 		
 		// Hide ammo box background
 		Animate 		bh_AmmoBG									Alpha			"0"							Linear 0.0 0.0
@@ -47,16 +47,16 @@
 		StopEvent 		HudLowAmmoPulseLoop							0.0
 
 		// Main ammo
-		Animate 		AmmoInClip									fgcolor			"bh_Ammo_Main"				Linear 0.0 0.2
-		Animate 		AmmoNoClip									fgcolor			"bh_Ammo_Main"				Linear 0.0 0.2
+		Animate 		AmmoInClip									fgcolor			"bh_Ammo_Main"				Accel 0.0 0.2
+		Animate 		AmmoNoClip									fgcolor			"bh_Ammo_Main"				Accel 0.0 0.2
 		
 		// Reserve ammo
-		Animate 		AmmoInReserve								fgcolor			"bh_Ammo_Reserve"			Linear 0.0 0.2
+		Animate 		AmmoInReserve								fgcolor			"bh_Ammo_Reserve"			Accel 0.0 0.2
 		
 		// Main ammo shadow
-		Animate 		AmmoInClipShadow							fgcolor			"bh_Ammo_Main_Shadow"		Linear 0.0 0.2
-		Animate 		AmmoNoClipShadow							fgcolor			"bh_Ammo_Main_Shadow"		Linear 0.0 0.2
+		Animate 		AmmoInClipShadow							fgcolor			"bh_Ammo_Main_Shadow"		Accel 0.0 0.2
+		Animate 		AmmoNoClipShadow							fgcolor			"bh_Ammo_Main_Shadow"		Accel 0.0 0.2
 		
 		// Reserve ammo shadow
-		Animate 		AmmoInReserveShadow							fgcolor			"bh_Ammo_Reserve_Shadow"	Linear 0.0 0.2
+		Animate 		AmmoInReserveShadow							fgcolor			"bh_Ammo_Reserve_Shadow"	Accel 0.0 0.2
 	}
