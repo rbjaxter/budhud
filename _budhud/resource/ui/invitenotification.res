@@ -2,10 +2,7 @@
 {
 	"Spinner"
 	{
-		if_incoming
-		{
-			"visible"												"0"
-		}	
+		"ypos"														"r-6969"
 	}
 
 	"InviteNotification"

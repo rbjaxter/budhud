@@ -21,28 +21,30 @@ Scheme
 	// Health
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
-		"bh_Health"													"255 255 255 255"
-		"bh_HealthShadow"											"000 000 000 255"
-		"bh_HealthLow"												"186 032 032 255"
-		"bh_HealthBuff"												"000 153 255 255"
-		"bh_HealthPickup"											"240 134 049 255"
+		"bh_Health_Main"											"255 255 255 255"
+		"bh_Health_Shadow"											"000 000 000 255"
+		"bh_Health_Low"												"186 032 032 255"
+		"bh_Health_Buff"											"000 153 255 255"
+		"bh_Health_Pickup"											"240 134 049 255"
 		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Ammo
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-		"bh_AmmoMain"												"255 255 255 255"
-		"bh_AmmoReserve"											"255 255 255 255"
-		"bh_AmmoLow"												"186 032 032 255"
-		"bh_AmmoShadow"												"000 000 000 255"
+		"bh_Ammo_Main"												"255 255 255 255"
+		"bh_Ammo_Reserve"											"255 255 255 255"
+		"bh_Ammo_Low"												"186 032 032 255"
+		"bh_Ammo_Main_Shadow"										"000 000 000 255"
+		"bh_Ammo_Reserve_Shadow"									"000 000 000 255"
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Customization: Ammo and Health Box
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
-		// These two should match
+
 		"bh_AmmoBox_Base"											"150 150 150 125"
-		"bh_HealthBox_Base"											"150 150 150 125"
+		"bh_AmmoBox_Low"											"186 032 032 255"
 		
+		"bh_HealthBox_Base"											"150 150 150 125"
 		"bh_HealthBox_Low"											"186 032 032 125"
 		"bh_HealthBox_Buff"											"000 153 255 125"
 		
@@ -50,10 +52,20 @@ Scheme
 	// Damage Done & Heals Given
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-		"bh_hudDMGDisplay"											"243 157 048 255" 	// Damage done and regen health that appears below ammo
-		"bh_HealColor"												"000 153 255 255" 	// Medigun/arrow heals
+		"bh_hudDMGDisplay"											"243 157 048 255" 	// Static damage number that appears bottom center of screen
+		"bh_HealColor"												"000 153 255 255" 	// Medigun/arrow heal color
 		"bh_UberDrop"												"255 105 180 255"	// Uber drop color
 
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// TargetIDs
+	// These affect the health colors of the TargetID health background boxes
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		"bh_TargetID_Base"											"150 150 150 125"
+		"bh_TargetID_Low"											"186 032 032 125"
+		"bh_TargetID_Buff"											"000 153 255 125"
+		"bh_TargetID_NameBG"										"000 000 000 125"	// Color of background behind player's name
+		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Uber Charge Meter
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -67,6 +79,7 @@ Scheme
 	// Item Charge Meters
 	// Currently, these colors cannot be changed. They're set to bright pink so it's obvious if it's fixed.
 	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
 		"bh_meterfg"												"254 002 209 255"
 		"bh_meterbg"												"254 002 209 255"
 		"bh_metertext"												"254 002 209 255"
@@ -75,31 +88,35 @@ Scheme
 	// Crosshair Colors
 	// ============================================================================================== //
 	// These crosshair colors are kept separated just in case you use multiple crosshairs and want to
-	// have different colors for each
+	// have different colors for each. You don't need to change every crosshair's color, just the one
+	// you're using.
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 		//////////////////////
 		// whayay's Crosshairs
 		//////////////////////
+
 		"ya_crosshair"												"255 255 255 255" 	// Crosshair color
 		"ya_crosshairflash"											"240 134 049 255"	// Flash on damage done
 		
 		///////////////////
 		// Fog's Crosshairs
 		///////////////////
+
 		"fog_crosshair"												"255 255 255 255"	// Crosshair color
 		"fog_crosshairflash"										"240 134 049 255"	// Flash on damage done
 	
 		///////////////////////
 		// knuckles' Crosshairs
 		///////////////////////
+
 		"knuckles_crosshair"										"255 255 255 255" 	// Crosshair color
 		"knuckles_crosshairflash"									"240 134 049 255"	// Flash on damage done
 		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Menu Colors
 	// ============================================================================================== //
-	// Controls the color of the text on the main menu
+	// Controls the color of the text on the main menu.
 	////////////////////////////////////////////////////////////////////////////////////////////////////		
 	
 		//////////
@@ -137,7 +154,7 @@ Scheme
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Stats Colors
 	// ============================================================================================== //
-	// Controls the color of the stats in your stats page and "loading map" screen
+	// Controls the color of the stat bars on your stats page and the "loading map" screen.
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
 	
 		/////////////////////////////

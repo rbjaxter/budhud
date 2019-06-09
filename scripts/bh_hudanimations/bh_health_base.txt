@@ -14,7 +14,7 @@
 
 		Animate 		bh_HealthBG									Alpha			"0"						Linear 0.0 0.0
 		Animate 		bh_HealthBGSpec								Alpha			"255"					Linear 0.0 0.3
-		Animate 		bh_HealthBGSpec								BgColor			"bh_HealthBox_Buff"		Linear 0.0 0.3
+		Animate 		bh_HealthBGSpec								BgColor			"bh_TargetID_Buff"		Linear 0.0 0.3
 
 		RunEvent 		HudHealthBonusPulseLoop						0.4
 	}
@@ -33,7 +33,7 @@
 		Animate 		PlayerStatusHealthValue		 				fgcolor			"bh_isError"			Linear 0.0 0.3
 		Animate 		PlayerStatusHealthValueShadow 				fgcolor			"bh_isError"			Linear 0.0 0.3
 
-		Animate 		bh_HealthBGSpec								BgColor			"bh_HealthBox_Base"		Linear 0.0 0.3
+		Animate 		bh_HealthBGSpec								BgColor			"bh_TargetID_Base"		Linear 0.0 0.3
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -47,7 +47,7 @@
 		Animate 		PlayerStatusHealthValueShadow				fgcolor			"bh_isError"			Linear 0.0 0.3
 
 		Animate 		bh_HealthBG									Alpha			"0"						Linear 0.0 0.0
-		Animate 		bh_HealthBGSpec								BgColor			"bh_HealthBox_Low"		Linear 0.0 0.3
+		Animate 		bh_HealthBGSpec								BgColor			"bh_TargetID_Low"		Linear 0.0 0.3
 		
 		RunEvent 		HudHealthDyingPulseLoop						0.4
 	}
@@ -65,5 +65,5 @@
 		Animate 		PlayerStatusHealthValue		 				fgcolor			"bh_isError"				Linear 0.0 0.3
 		Animate 		PlayerStatusHealthValueShadow 				fgcolor			"bh_isError"				Linear 0.0 0.3
 
-		Animate 		bh_HealthBGSpec								BgColor			"bh_HealthBox_Base"			Linear 0.0 0.3
+		Animate 		bh_HealthBGSpec								BgColor			"bh_TargetID_Base"			Linear 0.0 0.3
 	}

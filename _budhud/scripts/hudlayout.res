@@ -368,9 +368,10 @@
 	}
 	
 	HudDeathNotice
+	// ADDING A ZPOS VALUE TO THIS CAUSES THE ENTIRE GAME TO NOT LOAD????????????
 	{
 		"xpos"	 													"r638"
-		"ypos"	 													"10"
+		"ypos"	 													"18"
 		"wide"	 													"628"
 		"tall"	 													"468"
 	

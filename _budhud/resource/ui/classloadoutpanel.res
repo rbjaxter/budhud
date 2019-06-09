@@ -41,6 +41,21 @@
 		"infocus_bgcolor_override"									"bh_Theme_BG00"
 		"outoffocus_bgcolor_override" 								"bh_Theme_BG00"
 		
+		"item_xpos_offcenter_a"										"-310"		// Left panel x position
+		"item_xpos_offcenter_b"										"165"		// Right Panel x position
+		"item_ypos"													"60"		// Left + right panel y position
+		"item_ydelta"												"75"		// Panel box spacing
+		"item_mod_wide"												"40"		// ???
+		
+		"item_backpack_offcenter_x"									"-288"		// ???
+		"item_backpack_xdelta"										"4"			// ???
+		"item_backpack_ydelta"										"3"			// ???
+
+		"button_xpos_offcenter"										"175"		// ???
+		"button_ypos"												"85"		// ???
+		"button_ydelta"												"80"		// ???
+		"button_override_delete_xpos"								"0"			// ???
+		
 		"modelpanels_kv"
 		{
 			"itemmodelpanel"
@@ -70,8 +85,31 @@
 	
 	"classmodelpanel"
 	{
-		"allow_manip"												"1"
+		"xpos"														"0"
+		"ypos"														"0"	
+
+		"wide"														"f0"
+		"tall"														"f0"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"visible"													"1"
+		"enabled"													"1"
+		
 		"render_texture"											"0"
+		"fov"														"35"		// Higher FoV causes distortion
+		"allow_manip"												"1"
+		
+		"model"
+		{
+			"force_pos"												"1"
+
+			"angles_x" 												"0"
+			"angles_y" 												"170"
+			
+			"origin_x" 												"440"		// Move towards and away relative to user
+			"origin_y" 												"000"		// Move left/right relative to user
+			"origin_z" 												"-35"		// Move up/down relative to user
+		}
 	}
 	
 	"CharacterLoadoutButton"

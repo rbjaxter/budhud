@@ -48,7 +48,7 @@
 		"pinCorner"													"0"
 		"visible"													"1"
 		"enabled"													"1"
-		"fillcolor"													"bh_BGStandard"
+		"fillcolor"													"bh_TargetID_NameBG"
 
 		"src_corner_height"											"0"
 		"src_corner_width"											"0"
