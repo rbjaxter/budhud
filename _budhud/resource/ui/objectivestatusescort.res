@@ -21,7 +21,7 @@
 		"ControlName"												"CExImageButton"
 		"fieldName"													"bh_trackextender_left"
 		"xpos"														"c-127"
-		"ypos"														"r40"
+		"ypos"														"r-6969"
 		"zpos"														"0"
 		"wide"														"3"
 		"tall"														"12"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"												"CExImageButton"
 		"fieldName"													"bh_trackextender_right"
-		"xpos"														"c127"
+		"xpos"														"c126"
 		"ypos"														"r40"
 		"zpos"														"0"
 		"wide"														"3"

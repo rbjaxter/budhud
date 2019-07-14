@@ -2,7 +2,7 @@
 {
 	"MenuBG"
 	{
-		"wide"	"0"
+		"wide"														"0"
 		"ypos"														"r-6969"
 	}
 	

@@ -1,7 +1,7 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Medic Rainbow Uber Flash (slight potential epilepsy warning?)
 	// ============================================================================================== //
-	// See instructions here: https://github.com/rbjaxter/budhud/wiki/Medic-Rainbow-Ubercharge
+	// See instructions here: https://github.com/rbjaxter/budhud/wiki/Customization#medic-rainbow-ubercharge
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	event HudMedicCharged
