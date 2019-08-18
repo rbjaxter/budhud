@@ -27,7 +27,7 @@ Scheme
 			"1"
 			{
 				"name"												"Verdana"
-				"tall"												"20"
+				"tall"												"15"
 				"weight"											"500"
 				"yres"												"480 599"
 				"antialias"											"1"
@@ -35,7 +35,7 @@ Scheme
 			"2"
 			{
 				"name"												"Verdana"
-				"tall"												"20"
+				"tall"												"17"
 				"weight"											"500"
 				"yres"												"600 767"
 				"antialias"											"1"
@@ -43,7 +43,7 @@ Scheme
 			"3"
 			{
 				"name"												"Verdana"
-				"tall"												"20"
+				"tall"												"18"
 				"weight"											"500"
 				"yres"												"768 1023"
 				"antialias"											"1"
@@ -59,7 +59,7 @@ Scheme
 			"5"
 			{
 				"name"												"Verdana"
-				"tall"												"20"
+				"tall"												"25"
 				"weight"											"500"
 				"yres"												"1200 10000"
 				"antialias"											"1"
