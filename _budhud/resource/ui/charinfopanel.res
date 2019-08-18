@@ -102,8 +102,8 @@
 	{
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_Back"
-		"xpos"														"c-300"
-		"ypos"														"437"
+		"xpos"														"17"
+		"ypos"														"r42"
 		"zpos"														"2"
 		"wide"														"100"
 		"tall"														"25"
