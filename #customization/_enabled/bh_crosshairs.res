@@ -3,7 +3,7 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// whayay's Crosshairs
 	// ============================================================================================== //
-	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Customization#crosshairs
+	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Customization#whayays-crosshair
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	"whayay_crosshair"
@@ -29,7 +29,7 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Knuckle's Crosshairs
 	// ============================================================================================== //
-	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Customization#crosshairs
+	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Customization#knuckles-crosshair
 	// Valid font sizes: Any number between 10 - 50
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
@@ -56,7 +56,7 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Fog's Crosshairs
 	// ============================================================================================== //
-	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Customization#crosshairs
+	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Customization#fogs-crosshair
 	// The size of the following crosshair can be changed by modifying the 
 	// number following "Crosshairs", across from "font"	
 	// Valid font sizes: even numbers between 8 and 40
@@ -165,7 +165,7 @@
 		
 		"fgcolor"													"fog_crosshair"
 	}		
-			
+
 	BasicCrossSmall		
 	{		
 		"controlName"												"CExLabel"

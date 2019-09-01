@@ -1725,12 +1725,12 @@
 				{
 					"0"
 					{
-						"item"		"Winter 2018 Cosmetic Key"
+						"item"		"Summer 2019 Cosmetic Key" 
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Winter 2018 Cosmetic Case"
+						"item"		"Summer 2019 Cosmetic Case"
 						"show_market"	"1"
 					}
 				}

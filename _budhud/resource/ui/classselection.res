@@ -129,7 +129,7 @@
 		"pinCorner"													"0"
 		"visible" 													"1"
 		"enabled" 													"1"
-		"fillcolor" 												"25 25 25 230"
+		"fillcolor" 												"bh_BGAverage"
 		"draw_corner_width"											"5"
 		"draw_corner_height"										"5"
 	}
@@ -137,103 +137,329 @@
 	"TFPlayerModel"
 	{
 		"xpos"														"c-125"
-		"ypos"														"30"
-		"wide"														"250"
-		"tall"														"250"
+		"ypos"														"35"
+		"wide"														"300"
+		"tall"														"300"
+		
+		"model"
+		{
+			"force_pos"												"1"
+
+			"angles_x" 												"0"
+			"angles_y" 												"170"
+			"angles_z" 												"0"
+		}
+	}
+
+	"bh_ClassAnchor"
+	{	
+		"ControlName"												"Label"
+		"fieldName"													"bh_ClassAnchor"
+		"xpos"														"c0"
+		"ypos"														"c70"
+		"zpos"														"0"
+		"wide"														"100"
+		"tall"														"0"
+		"visible"													"1"
+		"enabled"													"1"
+		"bgcolor_override"											"0 0 0 0"
 	}
 
 	"scout"
 	{
-		"ypos"														"c50"
-	}
-	
-	"soldier"
-	{
-		"ypos"														"c50"
-	}	
-	
-	"pyro"
-	{
-		"ypos"														"c50"
-	}
-	
-	"demoman"
-	{
-		"ypos"														"c50"
-	}	
-	
-	"heavyweapons"
-	{
-		"ypos"														"c50"
-	}
-	
-	"engineer"
-	{
-		"ypos"														"c50"
-	}
-	
-	"medic"
-	{
-		"ypos"														"c50"
-	}
-	
-	"sniper"
-	{
-		"ypos"														"c50"
-	}
-	
-	"spy"
-	{
-		"ypos"														"c50"
-	}
-	
-	"random"
-	{
-		"ypos"														"c50"
+		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"350"
+		"ypos"														"0"
 	}
 	
 	"numscout"
 	{
-		"ypos"														"300"
+		"pin_to_sibling" 											"scout"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+
+		"xpos"														"0"
+		"ypos"														"-10"
+		"font"														"bh_Font12"
 	}
 	
+	"MvMUpgradeImageScout"
+	{
+		"pin_to_sibling" 											"scout"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
+		"xpos"														"-20"
+		"ypos"														"-23"
+		"zpos"														"-5"
+	}
+	
+	"soldier"
+	{
+		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"280"
+		"ypos"														"0"
+	}
+
 	"numsoldier"
 	{
-		"ypos"														"300"
+		"pin_to_sibling" 											"soldier"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+
+		"xpos"														"0"
+		"ypos"														"-10"
+		"font"														"bh_Font12"
+	}
+	
+	"MvMUpgradeImageSolider"
+	{
+		"pin_to_sibling" 											"soldier"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
+		"xpos"														"-20"
+		"ypos"														"-23"
+		"zpos"														"-5"
+	}
+	
+	"pyro"
+	{
+		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"210"
+		"ypos"														"0"
 	}
 	
 	"numpyro"
 	{
-		"ypos"														"300"
+		"pin_to_sibling" 											"pyro"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+
+		"xpos"														"0"
+		"ypos"														"-10"
+		"font"														"bh_Font12"
+	}
+	
+	"MvMUpgradeImagePyro"
+	{
+		"pin_to_sibling" 											"pyro"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
+		"xpos"														"-20"
+		"ypos"														"-23"
+		"zpos"														"-5"
+	}
+	
+	"demoman"
+	{
+		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"140"
+		"ypos"														"0"
 	}
 
 	"numdemoman"
 	{
-		"ypos"														"300"
+		"pin_to_sibling" 											"demoman"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+
+		"xpos"														"0"
+		"ypos"														"-10"
+		"font"														"bh_Font12"
+	}
+	
+	"MvMUpgradeImageDemo"
+	{
+		"pin_to_sibling" 											"demoman"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
+		"xpos"														"-20"
+		"ypos"														"-23"
+		"zpos"														"-5"
+	}
+	
+	"heavyweapons"
+	{
+		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"70"
+		"ypos"														"0"
 	}
 	
 	"numheavy"
 	{
-		"ypos"														"300"
+		"pin_to_sibling" 											"heavyweapons"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+
+		"xpos"														"0"
+		"ypos"														"-10"
+		"font"														"bh_Font12"
+	}
+	
+	"MvMUpgradeImageHeavy"
+	{
+		"pin_to_sibling" 											"heavyweapons"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
+		"xpos"														"-20"
+		"ypos"														"-23"
+		"zpos"														"-5"
+	}
+	
+	"engineer"
+	{
+		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"0"
+		"ypos"														"0"
 	}
 	
 	"numengineer"
 	{
-		"ypos"														"300"
+		"pin_to_sibling" 											"engineer"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+
+		"xpos"														"0"
+		"ypos"														"-10"
+		"font"														"bh_Font12"
+	}
+	
+	"MvMUpgradeImageEngineer"
+	{
+		"pin_to_sibling" 											"engineer"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
+		"xpos"														"-20"
+		"ypos"														"-23"
+		"zpos"														"-5"
+	}
+	
+	"medic"
+	{
+		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"-70"
+		"ypos"														"0"
 	}
 	
 	"nummedic"
 	{
-		"ypos"														"300"
+		"pin_to_sibling" 											"medic"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+
+		"xpos"														"0"
+		"ypos"														"-10"
+		"font"														"bh_Font12"
+	}
+	
+	"MvMUpgradeImageMedic"
+	{
+		"pin_to_sibling" 											"medic"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
+		"xpos"														"-20"
+		"ypos"														"-23"
+		"zpos"														"-5"
+	}
+	
+	"sniper"
+	{
+		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"-140"
+		"ypos"														"0"
 	}
 	
 	"numsniper"
 	{
-		"ypos"														"300"
+		"pin_to_sibling" 											"sniper"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+
+		"xpos"														"0"
+		"ypos"														"-10"
+		"font"														"bh_Font12"
+	}
+	
+	"MvMUpgradeImageSniper"
+	{
+		"pin_to_sibling" 											"sniper"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
+		"xpos"														"-20"
+		"ypos"														"-23"
+		"zpos"														"-5"
+	}
+	
+	"spy"
+	{
+		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"-210"
+		"ypos"														"0"
 	}
 	
 	"numspy"
 	{
-		"ypos"														"300"
+		"pin_to_sibling" 											"spy"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+
+		"xpos"														"0"
+		"ypos"														"-10"
+		"font"														"bh_Font12"
+	}
+	
+	"MvMUpgradeImageSpy"
+	{
+		"pin_to_sibling" 											"spy"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
+		"xpos"														"-20"
+		"ypos"														"-23"
+		"zpos"														"-5"
+	}
+	
+	"random"
+	{
+		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"-280"
+		"ypos"														"0"
 	}
 }

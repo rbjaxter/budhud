@@ -10,4 +10,16 @@
 	"MatchmakingCategoryMapPanel"
 	{
 	}
+	
+	"MapNameLabel"
+	{
+		"xpos"														"2"
+		"ypos"														"-3"
+	}
+	
+	"HealthProgressBar"
+	{
+		"ypos"														"r5"
+		"tall"														"2"
+	}
 }

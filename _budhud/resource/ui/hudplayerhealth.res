@@ -22,7 +22,7 @@
 		"bgcolor_override"											"0 0 0 0"
 	}
 
-	"bh_HealthBG"	
+	"bh_HealthBG"
 	{
 		"ControlName"												"CExLabel"
 		"fieldName"													"bh_HealthBG"

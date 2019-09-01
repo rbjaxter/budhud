@@ -2,8 +2,7 @@
 {
 	"QuestMap"
 	{
-		"zpos"														"4000"
-		
+		"ypos"														"20"
 		"Dimmer"
 		{
 			"ypos"													"r-6969"

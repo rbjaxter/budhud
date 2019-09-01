@@ -41,6 +41,7 @@ Scheme
 	// BUDHUD FONTS
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
+		// Floating health bar name text
         "DefaultFixedOutline"
         {
             "1"
@@ -52,8 +53,8 @@ Scheme
                 "additive"											"0"
                 "antialias"											"1"
             }
-        }	
-	
+        }
+		
 		bh_Font6
 		{
 			"1"
