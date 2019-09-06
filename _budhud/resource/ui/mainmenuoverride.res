@@ -65,7 +65,7 @@
 		"ControlName"												"Label"
 		"fieldName"													"bh_CenterNav"
 		"xpos"														"c-125"
-		"ypos"														"170"
+		"ypos"														"164"
 		"zpos"														"0"
 		"wide"														"250"
 		"tall"														"0"
@@ -752,11 +752,12 @@
 	
 	"FriendsContainer"
 	{
-		"xpos"														"c-190"
-		"ypos"														"r175"
+		"xpos"														"c-212"
+		"ypos"														"r190"
 		"zpos"														"0"
-		"wide"														"380"
-		"tall"														"120"
+		"wide"														"425"
+		"tall"														"80"
+	//	"border"													"bh_b_NESW"
 		"border"													"NoBorder"
 		
 		"InnerShadow"
@@ -776,12 +777,22 @@
 		
 		"SteamFriendsList"
 		{
-			"columns_count"											"3"
-			"inset_x"												"10"
-			"inset_y"												"0"
+			"xpos"													"0"
+			"ypos"													"0"
+			"wide"													"f0"
+			"tall"													"f0"
+			"columns_count"											"4"
+			"inset_x"												"5"
+			"inset_y"												"5"
 			"row_gap"												"5"
-			"column_gap"											"10"
+			"column_gap"											"5"
 			"restrict_width"										"0"
+			
+			"friendpanel_kv"
+			{
+				"wide"												"100"
+				"tall"												"20"
+			}
 		}
 	}
 	
@@ -983,7 +994,7 @@
 		"fieldname"													"bh_DemoUI"
 		"xpos"														"-170"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 		"visible"													"1"
@@ -1049,7 +1060,7 @@
 		"fieldname"													"bh_CreateServer"
 		"xpos"														"193"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 		"visible"													"1"
@@ -1113,7 +1124,7 @@
 		
 		"xpos"														"233"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 
@@ -1155,7 +1166,7 @@
 		
 		"xpos"														"-210"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 
@@ -1197,7 +1208,7 @@
 		
 		"xpos"														"-250"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 
@@ -1239,7 +1250,7 @@
 		
 		"xpos"														"273"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 	
@@ -1283,7 +1294,7 @@
 		"fieldname"													"bh_AchievementsButton"
 		"xpos"														"153"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 		"visible"													"1"
@@ -1349,7 +1360,7 @@
 		"fieldname"													"bh_CoachButton"
 		"xpos"														"-90"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 		"visible"													"1"
@@ -1415,7 +1426,7 @@
 		"fieldname"													"bh_TrainingButton"
 		"xpos"														"-50"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 		"visible"													"1"
@@ -1481,7 +1492,7 @@
 		"fieldname"													"bh_WorkshopButton"
 		"xpos"														"113"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 		"visible"													"1"
@@ -1547,7 +1558,7 @@
 		"fieldname"													"bh_BugButton"
 		"xpos"														"73"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 		"visible"													"1"
@@ -1613,7 +1624,7 @@
 		"fieldname"													"bh_ConsoleButton"
 		"xpos"														"13"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 		"visible"													"1"
@@ -1679,7 +1690,7 @@
 		"fieldname"													"bh_ReplaysButton"
 		"xpos"														"-130"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 		"visible"													"1"

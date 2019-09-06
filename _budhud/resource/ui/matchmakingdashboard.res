@@ -146,6 +146,10 @@
 		{
 			"bgcolor_override"										"bh_Theme_BG00"
 			"border"												"bh_b_S"
+			"xpos"													"0"
+			"ypos"													"r-6969"
+			"wide"													"186"
+			"tall"													"30"
 		}
 		
 		"OuterShadow"

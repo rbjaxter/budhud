@@ -5,60 +5,88 @@
 		"ypos"														"r-6969"
 	}
 
-	"WaveStatusPanel"
-	{
-		"xpos"														"0"
-		"ypos"														"-3"
+	"bh_LocalStatsAnchor"
+	{	
+		"ControlName"												"Label"
+		"fieldName"													"bh_LocalStatsAnchor"
+		"xpos"														"c-300"
+		"ypos"														"r50"
+		"zpos"														"0"
+		"wide"														"300"
+		"tall"														"0"
+		"visible"													"1"
+		"enabled"													"1"
+		"bgcolor_override"											"0 0 0 0"
 	}
 	
 	"PopFileLabel"
 	{
-		"font"														"bh_Font16"
-		"textAlignment"												"center"
-		"xpos"														"150"
-		"ypos"														"r128"
-		"wide"														"300"
-		"tall"														"30"
+		"pin_to_sibling" 											"bh_LocalStatsAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"		
+	
+		"xpos"														"-448"
+		"ypos"														"-30"
 		"fgcolor"													"bh_Theme_TextMain"
+		"font"														"bh_Font8"
+		"textAlignment" 											"east"
+		"wide"														"100"
 	}
-
-	"DifficultyContainer"
-	{
-		"xpos"														"225"
-		"ypos"														"r131"
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	"bh_MvMAnchor"
+	{	
+		"ControlName"												"Label"
+		"fieldName"													"bh_MvMAnchor"
+		"xpos"														"c-300"
+		"ypos"														"0"
+		"zpos"														"0"
 		"wide"														"300"
-		"tall"														"50"
-		
-		"DifficultyLabel"
-		{
-			"ypos"													"r-6969"
-		}
-		
-		"DifficultyValue"
-		{
-			"font"													"bh_Font12"
-			"ypos"													"20"
-			"wide"													"150"
-			"tall"													"20"
-			"fgcolor"												"bh_white"
-		}
+		"tall"														"0"
+		"visible"													"1"
+		"enabled"													"1"
+		"bgcolor_override"											"0 0 0 0"
 	}
+	
+	"WaveStatusPanel"
+	{
+		"pin_to_sibling" 											"bh_MvMAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"		
 		
+		"xpos"														"0"
+		"ypos"														"0"
+	}	
+	
 	"MvMPlayerList"
 	{
-		"xpos"														"39"
-		"ypos"														"79"
-		"wide"														"520"
-		"tall"														"150"
+		"pin_to_sibling" 											"bh_MvMAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+	
+		"xpos"														"0"
+		"ypos"														"-100"
+		"wide"														"600"
+		"tall"														"140"
 		"font"														"bh_Font24"
+	}
+	
+	"DifficultyContainer"
+	{
+		"ypos"														"r-6969"
 	}
 	
 	"CreditStatsContainer"
 	{
-		"xpos"														"95"
-		"ypos"														"220"
-		"wide"														"450"
-		"tall"														"205"
+		"pin_to_sibling" 											"bh_MvMAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"0"
+		"ypos"														"-220"
+		"wide"														"600"
+		"tall"														"200"
 		
 		"CreditStatsBackground"
 		{
@@ -72,26 +100,30 @@
 		
 		"PreviousWaveCreditInfoPanel"
 		{
-			"xpos"													"34"
+			"xpos"													"150"
 			"ypos"													"30"
+			"wide"													"140"
 		}
 		
 		"TotalGameCreditInfoPanel"
 		{
-			"xpos"													"234"
+			"xpos"													"305"
 			"ypos"													"30"
+			"wide"													"140"
 		}
 		
 		"PreviousWaveCreditSpendPanel"
 		{
-			"xpos"													"34"
-			"ypos"													"85"
+			"xpos"													"150"
+			"ypos"													"90"
+			"wide"													"140"
 		}
 		
 		"TotalGameCreditSpendPanel"
 		{
-			"xpos"													"234"
-			"ypos"													"85"
+			"xpos"													"305"
+			"ypos"													"90"
+			"wide"													"140"
 		}
 		
 		"RespecStatusLabel"
