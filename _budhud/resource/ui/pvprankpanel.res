@@ -115,35 +115,37 @@
 			"wide"													"f0"
 			"tall"													"f0"
 
-		"bh_YourStats"
-		{
-			"ControlName"											"CExButton"
-			"fieldName"												"bh_YourStats"
-			"xpos"													"c-200"
-			"ypos"													"r119"
-			"zpos"													"2"
-			"wide"													"400"
-			"tall"													"20"
-			"autoResize"											"0"
-			"pinCorner"												"3"
-			"visible"												"1"
-			"enabled"												"1"
-			"tabPosition"											"0"
-			"labelText"												"MATCHMAKING STATISTICS"
-			"font"													"HudFontSmallBold"
-			"textAlignment"											"center"
-			"dulltext"												"0"
-			"brighttext"											"0"
-			"default"												"1"
-			"Command"												"close"
-			"sound_depressed"										"UI/buttonclick.wav"
-			"sound_released"										"UI/buttonclickrelease.wav"
-			"paintbackground"										"0"
+			"bh_YourStats"
+			{
+				"ControlName"											"CExButton"
+				"fieldName"												"bh_YourStats"
+				"xpos"													"c-200"
+				"ypos"													"r118"
+				"zpos"													"3"
+				"wide"													"400"
+				"tall"													"20"
+				"autoResize"											"0"
+				"pinCorner"												"2"
+				"visible"												"1"
+				"enabled"												"1"
+				"tabPosition"											"0"
+				"labelText"												"MATCHMAKING STATISTICS"
+				"font"													"HudFontSmallBold"
+				"textAlignment"											"center"
+				"dulltext"												"0"
+				"brighttext"											"0"
+				"default"												"1"
+				"Command"												"close"
+				"sound_depressed"										"UI/buttonclick.wav"
+				"sound_released"										"UI/buttonclickrelease.wav"
+				"paintbackground"										"0"
+				
 				if_mini
 				{
 					"ypos"												"r-6969"
 				}
-
+			}
+	
 			"Stats"
 			{
 				"ControlName"										"EditablePanel"
@@ -166,7 +168,7 @@
 				{
 					"ypos"											"r-6969"
 				}
-
+	
 				// First column
 				"GamesLabel"
 				{
@@ -174,14 +176,14 @@
 					"ypos"											"2"
 					"textAlignment"									"center"
 				}
-
+	
 				"DamageLabel"
 				{
 					"xpos"											"c-150"
 					"ypos"											"18"
 					"textAlignment"									"center"
 				}
-
+	
 				// Second column
 				"KillsLabel"
 				{
@@ -196,7 +198,7 @@
 					"ypos"											"18"
 					"textAlignment"									"center"
 				}
-
+	
 				// Third column
 				"HealingLabel"
 				{
@@ -204,14 +206,14 @@
 					"ypos"											"2"
 					"textAlignment"									"center"
 				}
-
+	
 				"SupportLabel"
 				{
 					"xpos"											"c50"
 					"ypos"											"18"
 					"textAlignment"									"center"
 				}
-
+	
 				// Third column
 				"ScoreLabel"
 				{
