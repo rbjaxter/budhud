@@ -139,7 +139,10 @@
 			"sound_depressed"										"UI/buttonclick.wav"
 			"sound_released"										"UI/buttonclickrelease.wav"
 			"paintbackground"										"0"
-		}
+				if_mini
+				{
+					"ypos"												"r-6969"
+				}
 
 			"Stats"
 			{
@@ -153,7 +156,12 @@
 				"proportionaltoparent"								"0"
 				"border"											"bh_b_NEW"
 				"bgcolor_override"									"0 0 0 0"
-
+				
+				if_mini
+				{
+					"ypos"											"r-6969"
+				}
+	
 				"Frame"
 				{
 					"ypos"											"r-6969"
