@@ -12,12 +12,7 @@
 	
 	"HudStopWatchBG"
 	{
-		"xpos"														"0"
 		"ypos"														"r-6969"
-		"draw_corner_width"											"0"
-		"draw_corner_height"										"0"
-		"wide"														"200"
-		"tall"														"30"
 	}
 	
 	"StopWatchImageCaptureTime"
@@ -27,21 +22,52 @@
 	
 	"StopWatchLabel"
 	{
+		"ypos"														"r-6969"
+	}	
+	
+	"ObjectiveStatusTimePanel"
+	{	
+		"xpos"														"0"
+		"ypos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
+		
+		"TimePanelValue"
+		{
+			"xpos"													"cs-0.50"
+			"ypos"													"r30"
+			"wide"													"200"
+			"tall"													"30"
+			"bgcolor_override"										"bh_blank"
+			"fgcolor"												"bh_white_t"
+			"proportionalToParent"									"1"
+			"textalignment"											"center"
+			"font"													"bh_Font16"
+			
+			if_match
+			{
+				"ypos"												"8"
+				"bgcolor_override"									"0 0 0 0"
+			}
+		}
+	}
+	
+	"StopWatchScoreToBeat"
+	{
+		"xpos"														"c-115"
+		"ypos"														"38"
 		"textalignment"												"center"
-		"xpos"														"30"
-		"ypos"														"5"
+		"font"														"bh_Font24"
 		"wide"														"200"
 		"tall"														"30"
 	}
 	
 	"StopWatchPointsLabel"
 	{
-		"xpos"														"10"
-		"ypos"														"6"
-	}
-	
-	"StopWatchScoreToBeat"
-	{
-		"xpos"														"10"
+		"xpos"														"c-85"
+		"ypos"														"38"
+		"textalignment"												"center"
+		"wide"														"200"
+		"tall"														"30"
 	}
 }
