@@ -188,7 +188,22 @@
     }
 	
 	"TeamStatus"
-	{	
+	{
+		"tall"														"25"
+	
+		"max_size"													"14"
+
+		"6v6_gap"													"2"
+		"12v12_gap"													"2"
+
+		"team1_grow_dir"											"west"
+		"team1_base_x"												"c-50"
+		"team1_max_expand"											"150"
+
+		"team2_grow_dir"											"east"
+		"team2_base_x"												"c50"
+		"team2_max_expand"											"150"
+		
 		"playerpanels_kv"
 		{
 			"color_portrait_bg_red"									"bh_red_t"
@@ -202,15 +217,31 @@
 			"percentage_health_low"									"0.35"
 			"color_portrait_blend_dead_red"							"bh_white"
 			"color_portrait_blend_dead_blue"						"bh_white"
-			
+
 			"healthbar"
 			{
-				"tall"												"7"
+				"ypos"												"0"
+				"zpos"												"1"
+				"tall"												"f0"
 			}
 			
 			"overhealbar"
 			{
-				"tall"												"7"
+				"ypos"												"0"
+				"zpos"												"2"
+			//	"wide"												"28"		// Breaks over 12v12
+				"tall"												"f0"
+			}
+			
+			"classimagebg"
+			{
+				"zpos"												"0"
+			}	
+			
+			"classimage"
+			{
+				"ypos"												"0"
+				"zpos"												"3"
 			}
 			
 			"DeathPanel"
@@ -223,6 +254,10 @@
 			"SkullPanel"
 			{
 				"image"												"replay\thumbnails\skull"
+				
+				"zpos"												"0"
+				"wide"												"6"
+				"tall"												"6"
 			}
 		}
 	}

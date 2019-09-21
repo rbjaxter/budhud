@@ -90,22 +90,6 @@
 			"wide"													"150"
 			"textalignment"											"center"
 		}
-
-		"bh_BGPanel"
-		{
-			"ControlName"											"EditablePanel"
-			"fieldName"												"bh_BGPanel"
-			"xpos"													"0"
-			"ypos"													"0"
-			"zpos"													"-1"
-			"wide"													"f0"
-			"tall"													"25"
-			"visible"												"1"
-			"PaintBackgroundType"									"2"
-			"border"												"bh_b_S"
-			"proportionaltoparent"									"1"
-			"bgcolor_override"										"bh_Theme_BG00"
-		}	
 	
 		"StatsContainer"
 		{
@@ -117,32 +101,32 @@
 
 			"bh_YourStats"
 			{
-				"ControlName"											"CExButton"
-				"fieldName"												"bh_YourStats"
-				"xpos"													"c-200"
-				"ypos"													"r118"
-				"zpos"													"3"
-				"wide"													"400"
-				"tall"													"20"
-				"autoResize"											"0"
-				"pinCorner"												"2"
-				"visible"												"1"
-				"enabled"												"1"
-				"tabPosition"											"0"
-				"labelText"												"MATCHMAKING STATISTICS"
-				"font"													"HudFontSmallBold"
-				"textAlignment"											"center"
-				"dulltext"												"0"
-				"brighttext"											"0"
-				"default"												"1"
-				"Command"												"close"
-				"sound_depressed"										"UI/buttonclick.wav"
-				"sound_released"										"UI/buttonclickrelease.wav"
-				"paintbackground"										"0"
+				"ControlName"										"CExButton"
+				"fieldName"											"bh_YourStats"
+				"xpos"												"c-200"
+				"ypos"												"r116"
+				"zpos"												"3"
+				"wide"												"400"
+				"tall"												"20"
+				"autoResize"										"0"
+				"pinCorner"											"2"
+				"visible"											"1"
+				"enabled"											"1"
+				"tabPosition"										"0"
+				"labelText"											"MATCHMAKING STATISTICS"
+				"font"												"HudFontSmallBold"
+				"textAlignment"										"center"
+				"dulltext"											"0"
+				"brighttext"										"0"
+				"default"											"1"
+				"Command"											"close"
+				"sound_depressed"									"UI/buttonclick.wav"
+				"sound_released"									"UI/buttonclickrelease.wav"
+				"paintbackground"									"0"
 				
 				if_mini
 				{
-					"ypos"												"r-6969"
+					"ypos"											"r-6969"
 				}
 			}
 	
@@ -151,7 +135,7 @@
 				"ControlName"										"EditablePanel"
 				"fieldName"											"Stats"
 				"xpos"												"c-150"
-				"ypos"												"r99"		// r111 places it right up against the friend's list
+				"ypos"												"r99"
 				"wide"												"300"
 				"tall"												"40"
 				"visible"											"1"
