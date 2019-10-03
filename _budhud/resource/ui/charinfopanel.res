@@ -24,13 +24,13 @@
 		"ypos"														"r-6969"
 	}
 
-	"bh_BackgroundFooter"	
+	"bh_BackgroundFooter"	// Solely used to block menu buttons
 	{
 		"ControlName"												"ImagePanel"
 		"fieldName"													"bh_BackgroundFooter"
 		"xpos"														"0"
-		"ypos"														"421"
-		"zpos"														"1"
+		"ypos"														"r44"
+		"zpos"														"-30"
 		"wide"														"f0"
 		"tall"														"60"
 		"autoResize"												"0"
@@ -42,7 +42,7 @@
 		"border"													"bh_b_N"
 		"image"														""
 		"paintbackgroundtype"										"0"
-    }
+	}
 	
 	"bh_BackgroundHeader"	
 	{
@@ -66,6 +66,10 @@
 
 	"character_info"
 	{
+		"xpos"														"0"
+		"ypos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
 		"titlebarfgcolor_override"									"bh_white"
 		"titlebardisabledfgcolor_override"							"bh_white"
 	}
