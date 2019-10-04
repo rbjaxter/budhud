@@ -187,9 +187,8 @@
 	
 	"PlayerStatus_WheelOfDoom"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
-		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
-		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+		"xpos"														"40"
+		"ypos"														"60"
 	}
 	
 	"PlayerStatus_SoldierOffenseBuff"
