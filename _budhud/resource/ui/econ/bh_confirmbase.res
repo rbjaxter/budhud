@@ -10,12 +10,6 @@
 		}
 	}
 
-	"TitleLabel"
-	{
-		"fgcolor_override"											"bh_Theme_TextMain"
-		"tall"														"60"
-	}
-
 	"CloseButton"
 	{
 		"defaultBgColor_override"									"bh_ButtonBGDefault"
@@ -64,21 +58,27 @@
 		"border_armed"												"bh_b_NESW"
 	}
 	
+	"TitleLabel"
+	{
+		"fgcolor_override"											"bh_Theme_TextMain"
+		"tall"														"60"
+	}
+	
 	"ExplanationLabel"
 	{
-		"fgcolor_override"											"bh_white"
+		"fgcolor_override"											"bh_Theme_TextBody"
 		"tall"														"60"
 	}
 
 	"DurationLabel"
 	{
-		"fgcolor_override"											"bh_white"
+		"fgcolor_override"											"bh_Theme_TextBody"
 		"tall"														"60"
 	}
 	
 	"EllipsesLabel"
 	{
-		"fgcolor_override"											"bh_white"
+		"fgcolor_override"											"bh_Theme_TextBody"
 		"tall"														"60"
 	}
 	

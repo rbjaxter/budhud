@@ -104,7 +104,7 @@
 		"ControlName"												"ImagePanel"
 		"ypos"														"r-6969"
 		"image"														"..\hud\cart_point_neutral_opaque"
-	}	
+	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Payload - PLR
@@ -270,6 +270,34 @@
 		"ControlName"												"ImagePanel"
 		"ypos"														"r-6969"
 		"image"														"..\sprites\obj_icons\icon_obj_cap_mask"
+	}
+	
+	"icon_obj_cap_blu"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_cap_blu"
+	}
+	
+	"icon_obj_cap_blu_up"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_cap_blu_up"
+	}
+	
+	"icon_obj_cap_red"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_cap_red"
+	}
+	
+	"icon_obj_cap_red_up"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\sprites\obj_icons\icon_obj_cap_red_up"
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////

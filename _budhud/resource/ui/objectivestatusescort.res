@@ -16,44 +16,44 @@
 		}
 	}
 	
-	"bh_trackextender_left"		// you're an idiot for thinking of doing this
-	{
-		"ControlName"												"CExImageButton"
-		"fieldName"													"bh_trackextender_left"
-		"xpos"														"c-127"
-		"ypos"														"r-6969"
-		"zpos"														"0"
-		"wide"														"3"
-		"tall"														"12"
-		"visible"													"1"
-		"enabled"													"1"
-		"labeltext"													""
-		
-		"SubImage"
-		{
-			"ControlName"											"ImagePanel"
-			"fieldName"												"SubImage"
-			"xpos"													"0"
-			"ypos"													"0"
-			"zpos"													"1"
-			"wide"													"f0"
-			"tall"													"12"
-			"visible"												"1"
-			"enabled"												"1"
-			"image"													"..\hud\cart_track"
-			"scaleImage"											"1"
-		}
-
-		"if_multiple_trains"
-		{
-			"ypos"													"r-6969"
-		}
-		
-		"if_single_with_hills"
-		{
-			"ypos"													"r40"
-		}		
-	}
+//	"bh_trackextender_left"		// you're an idiot for thinking of doing this
+//	{
+//		"ControlName"												"CExImageButton"
+//		"fieldName"													"bh_trackextender_left"
+//		"xpos"														"c-127"
+//		"ypos"														"r-6969"
+//		"zpos"														"0"
+//		"wide"														"3"
+//		"tall"														"12"
+//		"visible"													"1"
+//		"enabled"													"1"
+//		"labeltext"													""
+//		
+//		"SubImage"
+//		{
+//			"ControlName"											"ImagePanel"
+//			"fieldName"												"SubImage"
+//			"xpos"													"0"
+//			"ypos"													"0"
+//			"zpos"													"1"
+//			"wide"													"f0"
+//			"tall"													"12"
+//			"visible"												"1"
+//			"enabled"												"1"
+//			"image"													"..\hud\cart_track"
+//			"scaleImage"											"1"
+//		}
+//
+//		"if_multiple_trains"
+//		{
+//			"ypos"													"r-6969"
+//		}
+//		
+//		"if_single_with_hills"
+//		{
+//			"ypos"													"r40"
+//		}		
+//	}
 	
 	"bh_trackextender_right"
 	{

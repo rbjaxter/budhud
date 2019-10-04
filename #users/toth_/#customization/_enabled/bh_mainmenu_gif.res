@@ -15,6 +15,6 @@
 	"Background"
 	{
 		"fieldName"													"Background"
-		"image"														"replay/thumbnails/#users/toth/background_toth"
+		"image"														"replay/thumbnails/#users/background_toth"
 	}
 }

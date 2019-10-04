@@ -285,8 +285,9 @@ Scheme
 		"bh_BGBlue"													"070 130 180 090"
 		"bh_BGRed"													"205 050 050 090"
 		"bh_Shadow"													"000 000 000 255"
-		"bh_isError"												"254 002 209 255"		// Bright pink
+		"bh_isError"												"254 002 209 255"		// Bright pink to locate
 
+		"Yellow"													"254 002 209 255"		// Bright pink to locate
 		"TFOrange"													"085 085 085 255"		// Backpack page number BG (selected page color)
 		"Orange"													"240 134 049 255"
 		"LightRed"													"255 255 255 255"
