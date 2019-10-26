@@ -1,3 +1,4 @@
+	#base	"..\..\#users\toth\resource\ui\hudplayerclass.res"
 	#base	"..\..\#users\dane\resource\ui\hudplayerclass.res"
 	#base	"..\..\#customization\_enabled\bh_hudplayerclass_hideclass.res"
 	#base	"..\..\#customization\_enabled\bh_crosshairs.res"
