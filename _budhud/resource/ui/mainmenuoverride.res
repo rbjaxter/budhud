@@ -65,7 +65,7 @@
 		"ControlName"												"Label"
 		"fieldName"													"bh_CenterNav"
 		"xpos"														"c-125"
-		"ypos"														"170"
+		"ypos"														"164"
 		"zpos"														"0"
 		"wide"														"250"
 		"tall"														"0"
@@ -110,6 +110,58 @@
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Seasonal / Periodical Backgrounds
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	//	"Background"
+	//	{
+	//		if_wider
+	//		{
+	//			"wide"			"f0"
+	//			"tall"			"o0.628"
+	//		}
+	//
+	//		if_taller
+	//		{
+	//			"wide"			"o1.6"
+	//			"tall"			"f0"
+	//		}
+	//	
+	//		if_halloween_0
+	//		{
+	//			"image"		"../console/title_team_halloween2011_widescreen"
+	//		}
+	//		if_halloween_1
+	//		{
+	//			"image"		"../console/title_team_halloween2012_widescreen"
+	//		}
+	//		if_halloween_2
+	//		{
+	//			"image"		"../console/title_team_halloween2013_widescreen"
+	//		}
+	//		if_halloween_3
+	//		{
+	//			"image"		"../console/title_team_halloween2014_widescreen"
+	//		}
+	//		if_halloween_4
+	//		{	
+	//			"image"		"../console/title_team_halloween2015_widescreen"
+	//		}
+	//		if_halloween_5
+	//		{	
+	//			"image"		"../console/title_scream_fortress_2017_widescreen"
+	//		}
+	//		if_fullmoon
+	//		{
+	//			"image"		"../console/title_fullmoon_widescreen"
+	//		}
+	//		if_christmas
+	//		{
+	//			"image"		"../console/background_xmas2011_widescreen"
+	//		}
+	//	}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Menu Particle System
 	// https://developer.valvesoftware.com/wiki/List_of_TF2_Particles
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -120,7 +172,7 @@
 	//	"fieldName"													"bh_MenuParticles"
 	//	"xpos"														"0"
 	//	"ypos"														"0"
-	//	"zpos"														"0"
+	//	"zpos"														"-50"
 	//	"wide"														"f0"
 	//	"tall"														"f0"
 	//	"visible"													"1"
@@ -134,7 +186,10 @@
 	//			"particle_xpos"										"c0"
 	//			"particle_ypos"										"c0"
 	//			"particle_scale"									"1"
-	//			"particlename"										""
+	//			"particlename"										"env_snow_stormfront_001"
+	//				// cauldron_embers | scale 3 | fire sputters
+	//				// hammer_souls_rising | scale 2 | ghosts rising
+	//				// env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
 	//			"loop"												"1"
 	//		}
 	//	}
@@ -752,11 +807,12 @@
 	
 	"FriendsContainer"
 	{
-		"xpos"														"c-190"
-		"ypos"														"r175"
+		"xpos"														"c-212"
+		"ypos"														"r190"
 		"zpos"														"0"
-		"wide"														"380"
-		"tall"														"120"
+		"wide"														"425"
+		"tall"														"76"
+	//	"border"													"bh_b_NESW"
 		"border"													"NoBorder"
 		
 		"InnerShadow"
@@ -776,12 +832,22 @@
 		
 		"SteamFriendsList"
 		{
-			"columns_count"											"3"
-			"inset_x"												"10"
-			"inset_y"												"0"
+			"xpos"													"0"
+			"ypos"													"0"
+			"wide"													"f0"
+			"tall"													"f0"
+			"columns_count"											"4"
+			"inset_x"												"5"
+			"inset_y"												"5"
 			"row_gap"												"5"
-			"column_gap"											"10"
+			"column_gap"											"5"
 			"restrict_width"										"0"
+			
+			"friendpanel_kv"
+			{
+				"wide"												"100"
+				"tall"												"20"
+			}
 		}
 	}
 	
@@ -928,6 +994,22 @@
 		"tall"														"f0"
 	}
 	
+	"CycleRankTypeButton"
+	{
+		"xpos"														"c32"
+		"ypos"														"85"
+		"wide"														"12"
+		"tall"														"12"
+		"paintbackground"											"0"
+		"image_drawcolor"											"255 255 255 001"
+		"image_armedcolor"											"255 255 255 255"
+	
+		"SubImage"
+		{	
+			"image"													"replay\thumbnails\menu_icons\cog"
+		}
+	}
+	
 	"NoGCMessage"
 	{
 		"xpos"														"5"
@@ -955,23 +1037,7 @@
 	// ============================================================================================== //
 	// Right Main Menu: Training (-10) | Coach (-50) | Replays (-90) | DemoUI (-130)
 	//					Report Player (-170) | Call Vote (-210)
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-
-	"CycleRankTypeButton"
-	{
-		"xpos"														"c32"
-		"ypos"														"85"
-		"wide"														"12"
-		"tall"														"12"
-		"paintbackground"											"0"
-		"image_drawcolor"											"255 255 255 001"
-		"image_armedcolor"											"255 255 255 255"
-	
-		"SubImage"
-		{	
-			"image"													"replay\thumbnails\menu_icons\cog"
-		}
-	}	
+	////////////////////////////////////////////////////////////////////////////////////////////////////	
 	
 	"bh_DemoUI"
 	{
@@ -983,7 +1049,6 @@
 		"fieldname"													"bh_DemoUI"
 		"xpos"														"-170"
 		"ypos"														"0"
-		"zpos"														"4000"
 		"wide"														"26"
 		"tall"														"26"
 		"visible"													"1"
@@ -1049,7 +1114,7 @@
 		"fieldname"													"bh_CreateServer"
 		"xpos"														"193"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 		"visible"													"1"
@@ -1113,7 +1178,7 @@
 		
 		"xpos"														"233"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 
@@ -1155,7 +1220,7 @@
 		
 		"xpos"														"-210"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 
@@ -1197,7 +1262,7 @@
 		
 		"xpos"														"-250"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 
@@ -1239,7 +1304,7 @@
 		
 		"xpos"														"273"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 	
@@ -1283,7 +1348,7 @@
 		"fieldname"													"bh_AchievementsButton"
 		"xpos"														"153"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 		"visible"													"1"
@@ -1349,7 +1414,7 @@
 		"fieldname"													"bh_CoachButton"
 		"xpos"														"-90"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 		"visible"													"1"
@@ -1415,7 +1480,7 @@
 		"fieldname"													"bh_TrainingButton"
 		"xpos"														"-50"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 		"visible"													"1"
@@ -1481,7 +1546,7 @@
 		"fieldname"													"bh_WorkshopButton"
 		"xpos"														"113"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 		"visible"													"1"
@@ -1547,7 +1612,7 @@
 		"fieldname"													"bh_BugButton"
 		"xpos"														"73"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 		"visible"													"1"
@@ -1613,7 +1678,7 @@
 		"fieldname"													"bh_ConsoleButton"
 		"xpos"														"13"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 		"visible"													"1"
@@ -1679,7 +1744,7 @@
 		"fieldname"													"bh_ReplaysButton"
 		"xpos"														"-130"
 		"ypos"														"0"
-		"zpos"														"4000"
+		"zpos"														"0"
 		"wide"														"26"
 		"tall"														"26"
 		"visible"													"1"

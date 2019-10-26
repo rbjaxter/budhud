@@ -162,6 +162,119 @@ Scheme
 			}
 		}
 		
+		bh_b_ESW
+		{
+			"inset" "0 0 1 1"
+			Right
+			{
+				"1"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"2"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"3"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"2"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"3"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+			}
+
+			Left
+			{
+				"1"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"2"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"3"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+			}
+		}
+		
+		bh_b_EW
+		{
+			"inset" "0 0 1 1"
+			Right
+			{
+				"1"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"2"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"3"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+			}
+
+			Left
+			{
+				"1"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"2"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+
+				"3"
+				{
+					"color" "bh_border"
+					"offset" "0 1"
+				}
+			}
+		}
+		
 		bh_b_N
 		{
 			"inset" "0 0 1 1"

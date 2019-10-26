@@ -528,10 +528,10 @@
 	
 	HudStopWatch	
 	{	
-		"xpos"														"c-79"
-		"ypos"														"43"
-		"wide"														"160"
-		"tall"														"55"
+		"xpos"														"0"
+		"ypos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"
 	}	
 
 	"HudAchievementTracker"

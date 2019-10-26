@@ -150,19 +150,17 @@
 
 	"ReinforcementsLabel"
 	{
-		"xpos"														"c-300"
-		"ypos"														"84"
-		"wide"														"600"
+		"xpos"														"c-200"
+		"ypos"														"70"
+		"wide"														"400"
 		"tall"														"24"
-		"labelText"													"#game_respawntime_in_secs"
 		"textAlignment"												"center"
-		"font"														"bh_Font16"
+		"font"														"bh_Font14"
 		
 		if_mvm
 		{
 			"ypos"													"85"
 		}
-		
 	}
 
 	"BuyBackLabel"

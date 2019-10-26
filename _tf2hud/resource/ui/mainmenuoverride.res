@@ -1725,13 +1725,33 @@
 				{
 					"0"
 					{
-						"item"		"Summer 2019 Cosmetic Key" 
+						"item"		"Halloween 2019 Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Summer 2019 Cosmetic Case"
+						"item"		"Halloween 2019 Case"
 						"show_market"	"1"
+					}
+					"2"
+					{
+						"item"		"Map Token Laughter"
+						"show_market"	"0"
+					}
+					"3"
+					{
+						"item"		"Map Token Precipice"
+						"show_market"	"0"
+					}
+					"4"
+					{
+						"item"		"Strange Filter: Laughter (Community)"
+						"show_market"	"0"
+					}
+					"5"
+					{
+						"item"		"Strange Filter: Precipice (Community)"
+						"show_market"	"0"
 					}
 				}
 			}
