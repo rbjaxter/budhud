@@ -107,7 +107,7 @@
 				"ypos"												"12"
 				"wide"												"10"
 				"tall"												"10"
-				"image"												"replay\thumbnails\menu_icons\arrowright"
+				"image"												"replay\thumbnails\menu_icons\x"
 			}
 		}
 		
@@ -138,7 +138,7 @@
 				"ypos"												"12"
 				"wide"												"10"
 				"tall"												"10"
-				"image"												"replay\thumbnails\menu_icons\arrowright"
+				"image"												"replay\thumbnails\menu_icons\x"
 			}
 		}
 	
@@ -146,6 +146,9 @@
 		{
 			"bgcolor_override"										"bh_Theme_BG00"
 			"border"												"bh_b_S"
+			"xpos"													"0"
+			"wide"													"f0"
+			"tall"													"30"
 		}
 		
 		"OuterShadow"
