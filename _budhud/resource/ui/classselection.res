@@ -136,10 +136,10 @@
 	
 	"TFPlayerModel"
 	{
-		"xpos"														"c-125"
-		"ypos"														"35"
-		"wide"														"300"
-		"tall"														"300"
+		"xpos"														"c-106"
+		"ypos"														"0"
+		"wide"														"260"
+		"tall"														"260"
 		
 		"model"
 		{
@@ -156,7 +156,7 @@
 		"ControlName"												"Label"
 		"fieldName"													"bh_ClassAnchor"
 		"xpos"														"c0"
-		"ypos"														"c70"
+		"ypos"														"c0"
 		"zpos"														"0"
 		"wide"														"100"
 		"tall"														"0"
@@ -171,8 +171,98 @@
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		
-		"xpos"														"350"
+		"xpos"														"295"
 		"ypos"														"0"
+	}
+	
+	"soldier"
+	{
+		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"235"
+		"ypos"														"0"
+	}
+	
+	"pyro"
+	{
+		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"175"
+		"ypos"														"0"
+	}
+	
+	"demoman"
+	{
+		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"115"
+		"ypos"														"0"
+	}
+	
+	"heavyweapons"
+	{
+		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"55"
+		"ypos"														"0"
+	}
+	
+	"engineer"
+	{
+		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"-5"
+		"ypos"														"0"
+	}
+	
+	"medic"
+	{
+		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"-65"
+		"ypos"														"0"
+	}
+	
+	"sniper"
+	{
+		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"-125"
+		"ypos"														"0"
+	}
+	
+	"spy"
+	{
+		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"-185"
+		"ypos"														"0"
+	}
+	
+	"random"
+	{
+		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"xpos"														"-245"
+		"ypos"														"-13"
 	}
 	
 	"numscout"
@@ -195,16 +285,6 @@
 		"xpos"														"-20"
 		"ypos"														"-23"
 		"zpos"														"-5"
-	}
-	
-	"soldier"
-	{
-		"pin_to_sibling" 											"bh_ClassAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
-		
-		"xpos"														"280"
-		"ypos"														"0"
 	}
 
 	"numsoldier"
@@ -229,16 +309,6 @@
 		"zpos"														"-5"
 	}
 	
-	"pyro"
-	{
-		"pin_to_sibling" 											"bh_ClassAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
-		
-		"xpos"														"210"
-		"ypos"														"0"
-	}
-	
 	"numpyro"
 	{
 		"pin_to_sibling" 											"pyro"
@@ -259,16 +329,6 @@
 		"xpos"														"-20"
 		"ypos"														"-23"
 		"zpos"														"-5"
-	}
-	
-	"demoman"
-	{
-		"pin_to_sibling" 											"bh_ClassAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
-		
-		"xpos"														"140"
-		"ypos"														"0"
 	}
 
 	"numdemoman"
@@ -293,16 +353,6 @@
 		"zpos"														"-5"
 	}
 	
-	"heavyweapons"
-	{
-		"pin_to_sibling" 											"bh_ClassAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
-		
-		"xpos"														"70"
-		"ypos"														"0"
-	}
-	
 	"numheavy"
 	{
 		"pin_to_sibling" 											"heavyweapons"
@@ -323,16 +373,6 @@
 		"xpos"														"-20"
 		"ypos"														"-23"
 		"zpos"														"-5"
-	}
-	
-	"engineer"
-	{
-		"pin_to_sibling" 											"bh_ClassAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
-		
-		"xpos"														"0"
-		"ypos"														"0"
 	}
 	
 	"numengineer"
@@ -357,16 +397,6 @@
 		"zpos"														"-5"
 	}
 	
-	"medic"
-	{
-		"pin_to_sibling" 											"bh_ClassAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
-		
-		"xpos"														"-70"
-		"ypos"														"0"
-	}
-	
 	"nummedic"
 	{
 		"pin_to_sibling" 											"medic"
@@ -387,16 +417,6 @@
 		"xpos"														"-20"
 		"ypos"														"-23"
 		"zpos"														"-5"
-	}
-	
-	"sniper"
-	{
-		"pin_to_sibling" 											"bh_ClassAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
-		
-		"xpos"														"-140"
-		"ypos"														"0"
 	}
 	
 	"numsniper"
@@ -421,16 +441,6 @@
 		"zpos"														"-5"
 	}
 	
-	"spy"
-	{
-		"pin_to_sibling" 											"bh_ClassAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
-		
-		"xpos"														"-210"
-		"ypos"														"0"
-	}
-	
 	"numspy"
 	{
 		"pin_to_sibling" 											"spy"
@@ -451,15 +461,5 @@
 		"xpos"														"-20"
 		"ypos"														"-23"
 		"zpos"														"-5"
-	}
-	
-	"random"
-	{
-		"pin_to_sibling" 											"bh_ClassAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
-		
-		"xpos"														"-280"
-		"ypos"														"0"
 	}
 }
