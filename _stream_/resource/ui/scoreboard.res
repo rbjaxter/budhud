@@ -2,13 +2,17 @@
 {
 	"ServerLabelNew"
 	{
-		"xpos"														"326"
 		"ypos"														"r-6969"
 		
 		if_mvm
 		{
-			"ypos"													"r105"
+			"ypos"													"r-6969"
 		}
+	}
+	
+	"bh_ServerTimeLeftValue"
+	{
+		"ypos"														"50"
 	}
 	
 	"scores"
@@ -28,8 +32,14 @@
 		
 	"LocalPlayerStatsPanel"
 	{
-		"xpos"														"23"
-		"ypos"														"60"
+		"xpos"														"140"
+		"ypos"														"62"
+		
+		if_mvm
+		{
+			"xpos"													"140"
+			"ypos"													"62"
+		}
 	}
 
 	"redplayerlist"
@@ -46,22 +56,15 @@
 
 	"bh_LocalStatsBG1"
 	{
-		"ControlName"												"ImagePanel"
-		"fieldName"													"bh_LocalStatsBG1"
-		"xpos"														"4"
-		"ypos"														"r138"
+		"ypos"														"r135"
 		"zpos"														"-2"
-		"wide"														"591"
-		"tall"														"50"
-		"autoResize"												"0"
-		"pinCorner"													"0"
-		"visible"													"1"
-		"enabled"													"1"
-		"border"													"BackpackItemGrayedOut"
-		
+		"tall"														"44"
+
 		if_mvm
 		{
-			"ypos"													"r94"
+			"ypos"													"r135"
+			"zpos"													"-2"
+			"tall"													"44"
 		}
 	}
 	
