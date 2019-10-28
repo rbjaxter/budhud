@@ -1,3 +1,4 @@
+	#base	"..\..\#users\ly_dee\resource\ui\hudammoweapons.res"
 	#base	"..\..\#customization\_enabled\bh_size_ammo.res"
 	#base	"..\..\#customization\_enabled\bh_ammo_box.res"
 	#base	"..\..\_stream\resource\ui\hudammoweapons.res"
