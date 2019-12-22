@@ -20,7 +20,7 @@
 		"bgcolor_override"											"bh_Theme_BG00"
 		"infocus_bgcolor_override" 									"bh_Theme_BG00"
 		"outoffocus_bgcolor_override" 								"bh_Theme_BG00"
-		"zpos"														"0"
+//		"zpos"														"0"
 		
 		"page_button_y"												"285"
 		"page_button_x_delta"										"0"

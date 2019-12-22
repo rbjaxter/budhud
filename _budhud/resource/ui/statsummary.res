@@ -19,18 +19,18 @@
 		"ypos"														"r-6969"
 	}
 	
-	"TFStatsSummary"
-	{
-		"bgcolor_override"											"bh_Theme_BG00"	
-	}
+//	"TFStatsSummary"
+//	{
+//		"bgcolor_override"											"bh_Theme_BG00"	
+//	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
 	// MainBackground controls the initial loading bg
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	"MainBackground"
-	{	
-	}
+//	"MainBackground"
+//	{	
+//	}
 
 	"bh_LoadingBackground"
 	{
@@ -218,7 +218,6 @@
 	{
 		"xpos"														"c-250"
 		"ypos"														"123"
-		"zpos"														"1995"
 		"font"														"bh_Font24"
 		"fgcolor_override"											"bh_onyourway"
 		"wide"														"500"
@@ -229,7 +228,6 @@
 	{
 		"xpos"														"c-250"
 		"ypos"														"173"
-		"zpos"														"1995"
 		"font"														"bh_Font32"
 		"fgcolor_override"											"bh_mapname"
 		"wide"														"500"
@@ -240,7 +238,6 @@
 	{
 		"xpos"														"c-250"
 		"ypos"														"223"
-		"zpos"														"1995"
 		"font"														"bh_Font24"
 		"fgcolor_override"											"bh_maptype"
 		"wide"														"500"
