@@ -38,7 +38,7 @@
 		"enabled"													"1"
 		"defaultbgcolor_override"									"bh_HealthBox_Base"
 		"paintbackgroundtype"										"0"
-    }
+	}
 	
 	"PlayerStatusHealthImageBG"
 	{

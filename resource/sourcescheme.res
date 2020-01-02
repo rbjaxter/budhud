@@ -58,7 +58,7 @@ Scheme
 	
 	BaseSettings
 	{
-		Console.TextColor											"bh_bgreen"				// Color of entered console commands
+		Console.TextColor											"bh_yellow"				// Color of entered console commands
 		Console.DevTextColor										"bh_IsError"			// Unknown
 		
 		// Arrow Buttons
@@ -71,7 +71,7 @@ Scheme
 
 		// Scroll Bars
 		// ScrollBarSlider.FgColor									"bh_blank"				// nob color
-		// ScrollBarSlider.BgColor									"255 0 255 64"		// slider background color
+		// ScrollBarSlider.BgColor									"255 0 255 64"			// slider background color
 
 		// SectionedListPanel.HeaderTextColor						"bh_white"
 		// SectionedListPanel.HeaderBgColor							"bh_blank"

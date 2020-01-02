@@ -856,10 +856,10 @@
 		"ControlName"												"ImagePanel"
 		"fieldName"													"bh_BackgroundFooter"
 		"xpos"														"0"
-		"ypos"														"421"
+		"ypos"														"420"
 		"zpos"														"-52"		// XPBar zpos is -51/-52 and not changeable
 		"wide"														"f0"
-		"tall"														"60"
+		"tall"														"61"
 		"autoResize"												"0"
 		"pinCorner"													"0"
 		"labeltext"													""

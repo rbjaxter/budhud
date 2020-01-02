@@ -1725,33 +1725,23 @@
 				{
 					"0"
 					{
-						"item"		"Halloween 2019 Key"
+						"item"		"Winter 2019 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Halloween 2019 Case"
+						"item"		"Winter 2019 Cosmetic Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Map Token Laughter"
+						"item"		"Winter 2019 War Paint Key"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Map Token Precipice"
-						"show_market"	"0"
-					}
-					"4"
-					{
-						"item"		"Strange Filter: Laughter (Community)"
-						"show_market"	"0"
-					}
-					"5"
-					{
-						"item"		"Strange Filter: Precipice (Community)"
-						"show_market"	"0"
+						"item"		"Winter 2019 War Paint Case"
+						"show_market"	"1"
 					}
 				}
 			}
