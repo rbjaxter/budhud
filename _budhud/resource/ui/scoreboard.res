@@ -121,7 +121,7 @@
 		"labelText"													"%servertime%"
 		"textAlignment"												"center"
 		"xpos"														"c-100"
-		"ypos"														"54"
+		"ypos"														"3"
 		"zpos"														"2"
 		"wide"														"200"
 		"tall"														"16"
@@ -141,7 +141,7 @@
 	"blueplayerlist"
 	{
 		"xpos"														"c-300"
-		"ypos"														"70"
+		"ypos"														"65"
 		"linespacing"												"16"
 		"linegap"													"0"
 		"wide"														"300"
@@ -151,7 +151,7 @@
 	"redplayerlist"
 	{
 		"xpos"														"c0"
-		"ypos"														"70"
+		"ypos"														"65"
 		"linespacing"												"16"
 		"linegap"													"0"
 		"wide"														"300"
@@ -191,17 +191,19 @@
 	
 	"BlueTeamLabel"
 	{
-		"pin_to_sibling" 											"bh_BlueAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
-	
-		"xpos"														"0"
-		"ypos"														"7"
-		"wide"														"300"
-		"tall"														"30"
-		"textAlignment"												"Center"
-		"font"														"bh_Font18"
-		"fgcolor"													"bh_blue"
+		//"pin_to_sibling" 											"bh_BlueAnchor"
+		//"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		//"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		//
+		//"xpos"													"0"
+		//"ypos"													"7"
+		//"wide"													"300"
+		//"tall"													"30"
+		//"textAlignment"											"center"
+		//"font"													"bh_Font18"
+		//"fgcolor"													"bh_blue"
+		
+		"ypos"														"r-6969"
 	}
 	
 	"BlueTeamPlayerCount"
@@ -211,7 +213,7 @@
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		
 		"xpos"														"0"
-		"ypos"														"-7"
+		"ypos"														"0"
 		"wide"														"300"
 		"tall"														"30"
 		"textAlignment"												"center"
@@ -272,17 +274,19 @@
 	
 	"RedTeamLabel"
 	{
-		"pin_to_sibling" 											"bh_RedAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
-		
-		"xpos"														"0"
-		"ypos"														"7"
-		"wide"														"300"
-		"tall"														"30"
-		"textAlignment"												"center"
-		"font"														"bh_Font18"
-		"fgcolor"													"bh_red"
+	//	"pin_to_sibling" 											"bh_RedAnchor"
+	//	"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+	//	"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+	//	
+	//	"xpos"														"0"
+	//	"ypos"														"7"
+	//	"wide"														"300"
+	//	"tall"														"30"
+	//	"textAlignment"												"center"
+	//	"font"														"bh_Font18"
+	//	"fgcolor"													"bh_red"
+	
+		"ypos"														"r-6969"
 	}
 	
 	"RedTeamPlayerCount"
@@ -292,7 +296,7 @@
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		
 		"xpos"														"0"
-		"ypos"														"-7"
+		"ypos"														"0"
 		"wide"														"300"
 		"tall"														"30"
 		"textAlignment"												"center"

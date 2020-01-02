@@ -68,11 +68,11 @@
 	"ReinforcementsLabel"
 	{
 		"xpos"														"c-200"
-		"ypos"														"70"
+		"ypos"														"48"
 		"wide"														"400"
 		"tall"														"24"
 		"textAlignment"												"center"
-		"font"														"bh_Font14"
+		"font"														"bh_Font14Drop"
 	}
 
 	"itempanel"
