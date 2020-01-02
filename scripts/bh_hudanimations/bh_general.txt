@@ -4,34 +4,40 @@
 
 	event TeamStatus_PlayerDead
 	{
-		SetVisible SkullPanel  1 0
-		SetVisible respawntime  1 0
+		SetVisible 			SkullPanel						1 0
+		SetVisible 			respawntime						1 0
 	
-		Animate SkullPanel ypos 20 Accel 0 0.2
-		Animate respawntime ypos 21 Accel 0 0.2
+		Animate 			SkullPanel						ypos 20 Accel 0 0.2
+		Animate 			respawntime						ypos 3 Accel 0 0.2
 	}
 	
 	event TeamStatus_PlayerAlive
 	{
-		Animate SkullPanel ypos 15 Accel 0 0.2
-		Animate respawntime ypos 15 Accel 0 0.2
+		Animate 			SkullPanel						ypos 15 Accel 0 0.2
+		Animate 			respawntime						ypos 0 Accel 0 0.2
 	
-		SetVisible SkullPanel  0 0.2
-		SetVisible respawntime 0 0.2
+		SetVisible 			SkullPanel						0 0.2
+		SetVisible 			respawntime						0 0.2
 	}
 
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Use deathcam to clear low health/buffed health color
-	// Credit: degu
+	// Credit: mastercomms
+	// https://www.teamfortress.tv/43786/fix-for-lingering-hud-animations-on-death
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	event HudSnapShotReminderIn
 	{
-		RunEvent 			HudHealthDyingPulseStop			10.0
-		RunEvent 			HudHealthBonusPulseStop			10.0
-		RunEvent 			HudLowAmmoPulseStop				10.0
-		RunEvent 			HudMedicChargedStop				10.0
+	// Default animation
+	//	Animate 			ScreenshotPanel 				Position 					"c-83 -50" 				Linear 0.0 0.001
+	//	Animate 			ScreenshotPanel 				Position 					"c-83 13" 				Spline 0.001 0.2
+		
+	// Attempts to clear animation	
+		RunEvent 			HudHealthDyingPulseStop 		10.0
+		RunEvent 			HudHealthBonusPulseStop 		10.0
+		RunEvent 			HudLowAmmoPulseStop 			10.0
+		RunEvent 			HudMedicChargedStop 			10.0
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////

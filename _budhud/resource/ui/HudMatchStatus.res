@@ -187,6 +187,12 @@
 		}
     }
 	
+	///////////////////////////////////////////////////////////////////////////////////////////////
+	// You can hud_reloadscheme through these changes on first launch *until* a team swap happens. 
+	// Then, you have to restart the game for changes to take.
+	// May also have to do with changing zpos of things
+	///////////////////////////////////////////////////////////////////////////////////////////////
+	
 	"TeamStatus"
 	{
 		"tall"														"25"
@@ -220,17 +226,16 @@
 
 			"healthbar"
 			{
-				"ypos"												"0"
+				"ypos"												"19"
 				"zpos"												"1"
-				"tall"												"f0"
+				"tall"												"7"
 			}
 			
 			"overhealbar"
 			{
-				"ypos"												"0"
+				"ypos"												"19"
 				"zpos"												"2"
-			//	"wide"												"28"		// Breaks over 12v12
-				"tall"												"f0"
+				"tall"												"7"
 			}
 			
 			"classimagebg"
@@ -246,9 +251,7 @@
 			
 			"DeathPanel"
 			{
-				"image"												""
 				"tall"												"0"
-				"fillcolor"											"bh_black"
 			}
 			
 			"SkullPanel"
@@ -258,6 +261,16 @@
 				"zpos"												"0"
 				"wide"												"6"
 				"tall"												"6"
+			}
+			
+			"respawntime"
+			{
+				"ypos"												"3"
+				"zpos"												"4"
+				"font"												"bh_Font10Drop"
+				"fgcolor_override"									"bh_white"
+				"wide"												"12"
+				"tall"												"12"
 			}
 		}
 	}
