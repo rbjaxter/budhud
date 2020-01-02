@@ -15,27 +15,54 @@
 		"visible"													"0"
 	}
 
+	"itempanel"
+	{
+		"model_ypos"												"14"
+		"padding_height"											"3"
+		"text_forcesize"											"2"
+		
+		"attriblabel"
+		{
+			"ypos"													"r-6969"
+		}		
+		
+		"itemmodelpanel"
+		{
+			"useparentbg"											"0"
+			"allow_rot"												"0"
+			"inventory_image_type"									"1"
+			"use_item_rendertarget" 								"0"
+		}
+	}
+
 	"specgui"
 	{
-		"team1_player_base_offset_x"								"c0"
-		"team1_player_base_y"										"120"
+		"team1_player_base_offset_x"								"c2"
+		"team2_player_base_offset_x"								"c2"	
+		"team1_player_base_y"										"111" // 6v6: 144 | HL: 112
+		"team2_player_base_y"										"257" // 6v6: 240 | HL: 256
 		"team1_player_delta_x"										"0"
-		"team1_player_delta_y"										"14"
-		"team2_player_base_offset_x"								"c0"	
-		"team2_player_base_y"										"275"
 		"team2_player_delta_x"										"0"
-		"team2_player_delta_y"										"14"
+		"team1_player_delta_y"										"16"
+		"team2_player_delta_y"										"16"
 		
 		"playerpanels_kv"
 		{
 			"visible"												"0"
-			"wide"													"137"
-			"tall"													"14"
+			"wide"													"130"
+			"tall"													"16"
 			"zpos"													"1"
 	
 			"classimagebg"
 			{
-				"ypos"												"r-6969"
+				"xpos"												"0"
+				"ypos"												"0"
+				"zpos"												"3"
+				"wide"												"16"
+				"tall"												"16"
+				"visible"											"1"
+				"enabled"											"1"
+				"bgcolor_override"									"bh_Theme_BG00"
 			}
 
 			"specindex"
@@ -48,10 +75,10 @@
 				"ControlName"										"CExLabel"
 				"fieldName"											"playername"
 				"font"												"bh_Font10"
-				"xpos"												"40"
-				"ypos"												"-1"
+				"xpos"												"45"
+				"ypos"												"0"
 				"zpos"												"5"
-				"wide"												"67"
+				"wide"												"61"
 				"tall"												"16"
 				"textAlignment"										"west"
 				"fgcolor"											"bh_white"
@@ -61,21 +88,21 @@
 			{
 				"xpos"												"0"
 				"ypos"												"1"
-				"zpos"												"2"
-				"wide"												"15"
-				"tall"												"15"
+				"zpos"												"4"
+				"wide"												"16"
+				"tall"												"16"
 			}
 			
 			"HealthIcon"
-				{
-					"xpos"											"10"
-					"ypos" 											"-6"
-					"zpos" 											"3"
-					"wide" 											"50"
-					"tall" 											"50"
-					"visible" 										"1"
-					"enabled" 										"1"
-				}
+			{
+				"xpos"												"11"
+				"ypos" 												"-5"
+				"zpos" 												"2"
+				"wide" 												"34"
+				"tall" 												"21"
+				"visible" 											"1"
+				"enabled" 											"1"
+			}
 			
 			"ReadyBG"
 			{
@@ -88,15 +115,15 @@
 			
 			"respawntime"
 			{
-				"font"												"bh_Font12"
-				"xpos"												"12"
-				"ypos"												"-8"
+				"font"												"bh_Font14"
+				"xpos"												"13"
+				"ypos"												"-7"
 				"zpos"												"5"
 				"wide"												"31"
 				"tall"												"30"
 				"labelText"											"%respawntime%"
 				"textAlignment"										"center"
-				"fgcolor"											"bh_dorange"
+				"fgcolor"											"bh_white"
 			}
 			
 			"healthcover"
@@ -104,23 +131,23 @@
 				"ControlName"										"CExLabel"
 				"fieldName"											"healthcover"
 				"font"												"Blocks48"
-				"xpos"												"18"
+				"xpos"												"16"
 				"ypos"												"0"
 				"zpos"												"5"
-				"wide"												"20"
-				"tall"												"14"
+				"wide"												"26"
+				"tall"												"16"
 				"autoResize"										"0"
 				"pinCorner"											"0"
 				"visible"											"1"
 				"labelText"											"%respawntime%"
 				"textAlignment"										"west"
-				"fgcolor"											"bh_Theme_BG-10"
+				"fgcolor"											"bh_Theme_BG00"
 			}
 			"chargeamount"
 			{
 				"font"												"bh_Font14"
-				"xpos"												"105"
-				"ypos"												"0"
+				"xpos"												"98"
+				"ypos"												"1"
 				"zpos"												"6"
 				"wide"												"30"
 				"tall"												"13"
@@ -133,8 +160,8 @@
 				"ControlName"										"CExLabel"
 				"fieldName"											"chargeamountBG"
 				"font"												"bh_Font14"
-				"xpos"												"105"
-				"ypos"												"1"
+				"xpos"												"99"
+				"ypos"												"2"
 				"zpos"												"6"
 				"wide"												"30"
 				"tall"												"13"

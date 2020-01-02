@@ -321,7 +321,7 @@
 	CSpectatorTargetID
 	{
 		"xpos"														"c-100"
-		"ypos"														"c130"
+		"ypos"														"r100"
 		"zpos"														"1"
 		"wide"	 													"600"
 		"tall"	 													"30"

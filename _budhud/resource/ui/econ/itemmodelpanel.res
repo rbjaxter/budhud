@@ -19,6 +19,18 @@
 
 	"MainContentsContainer"
 	{
+		"bgcolor_override"												"bh_Theme_BG00"
+		
+		"contained_item_panel"
+		{
+			"itemmodelpanel"
+			{
+				"antialias"											"1"
+				"inventory_image_type"								"1"
+				"use_item_rendertarget"								"0"
+			}
+		}	
+	
 		"serieslabel"
 		{	
 			"wide"													"18"
@@ -75,16 +87,6 @@
 		{
 			"wide"													"11"
 			"tall"													"11"
-		}	
-
-		"contained_item_panel"
-		{
-			"itemmodelpanel"
-			{
-				"antialias"											"1"
-				"inventory_image_type"								"1"
-				"use_item_rendertarget"								"0"
-			}
 		}
 	}
 }
