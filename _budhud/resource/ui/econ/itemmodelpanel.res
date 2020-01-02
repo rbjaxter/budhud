@@ -19,8 +19,6 @@
 
 	"MainContentsContainer"
 	{
-		"bgcolor_override"												"bh_Theme_BG00"
-		
 		"contained_item_panel"
 		{
 			"itemmodelpanel"
