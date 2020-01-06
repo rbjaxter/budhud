@@ -1,5 +1,20 @@
 "Resource/UI/HudPlayerHealth.res"
 {
+	"PlayerStatusHealthImageBG"
+	{
+		"ypos"														"r-6969"
+	}
+	
+	"PlayerStatusHealthImage"
+	{
+		"ypos"														"r-6969"
+	}
+	
+	"PlayerStatusMaxHealthValue"
+	{
+		"ypos"														"r-6969"
+	}
+
 	"HudPlayerHealth"
 	{
 		"xpos"														"c-300"
@@ -39,21 +54,6 @@
 		"defaultbgcolor_override"									"bh_HealthBox_Base"
 		"paintbackgroundtype"										"0"
 	}
-	
-	"PlayerStatusHealthImageBG"
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"PlayerStatusHealthImage"
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"PlayerStatusMaxHealthValue"
-	{
-		"ypos"														"r-6969"
-	}	
 	
 	"PlayerStatusHealthValue"
 	{

@@ -145,7 +145,7 @@
 		"fieldName"													"bh_Template_Block"
 		"xpos"														"0"
 		"ypos"														"420"
-		"zpos"														"-150"
+		"zpos"														"0"
 		"wide"														"f0"
 		"tall"														"60"
 		"autoResize"												"0"
