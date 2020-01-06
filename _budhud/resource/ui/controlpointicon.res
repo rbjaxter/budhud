@@ -32,7 +32,9 @@
 	
 	"CapNumPlayers"
 	{
-		"xpos"														"14"
+		"xpos"														"-10"
 		"ypos"														"-2"
+		"wide"														"35"
+		"textalignment"												"east"
 	}
 }

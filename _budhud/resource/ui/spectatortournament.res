@@ -39,8 +39,8 @@
 	{
 		"team1_player_base_offset_x"								"c2"
 		"team2_player_base_offset_x"								"c2"	
-		"team1_player_base_y"										"111" // 6v6: 144 | HL: 112
-		"team2_player_base_y"										"257" // 6v6: 240 | HL: 256
+		"team1_player_base_y"										"103"
+		"team2_player_base_y"										"265"
 		"team1_player_delta_x"										"0"
 		"team2_player_delta_x"										"0"
 		"team1_player_delta_y"										"16"
@@ -52,18 +52,6 @@
 			"wide"													"130"
 			"tall"													"16"
 			"zpos"													"1"
-	
-			"classimagebg"
-			{
-				"xpos"												"0"
-				"ypos"												"0"
-				"zpos"												"3"
-				"wide"												"16"
-				"tall"												"16"
-				"visible"											"1"
-				"enabled"											"1"
-				"bgcolor_override"									"bh_Theme_BG00"
-			}
 
 			"specindex"
 			{
@@ -75,7 +63,7 @@
 				"ControlName"										"CExLabel"
 				"fieldName"											"playername"
 				"font"												"bh_Font10"
-				"xpos"												"45"
+				"xpos"												"42"
 				"ypos"												"0"
 				"zpos"												"5"
 				"wide"												"61"
@@ -93,15 +81,66 @@
 				"tall"												"16"
 			}
 			
+			"classimagebg"
+			{
+				"xpos"												"0"
+				"ypos"												"0"
+				"zpos"												"3"
+				"wide"												"16"
+				"tall"												"16"
+				"visible"											"1"
+				"enabled"											"1"
+				"bgcolor_override"									"bh_Theme_BG00"
+			}
+			
 			"HealthIcon"
 			{
-				"xpos"												"11"
+				"xpos"												"10"
 				"ypos" 												"-5"
 				"zpos" 												"2"
-				"wide" 												"34"
+				"wide" 												"29"
 				"tall" 												"21"
 				"visible" 											"1"
 				"enabled" 											"1"
+				"HealthBonusPosAdj"									"1000"
+			}
+			
+			"bh_HealthBlock"	
+			{
+				"ControlName"										"ImagePanel"
+				"fieldName"											"bh_HealthBlock"
+				"xpos"												"16"
+				"ypos"												"0"
+				"zpos"												"0"
+				"wide"												"23"
+				"tall"												"16"
+				"autoResize"										"0"
+				"pinCorner"											"0"
+				"labeltext"											""
+				"visible"											"1"
+				"enabled"											"1"
+				"fillcolor"											"bh_Theme_BG00"
+				"image"												""
+				"paintbackgroundtype"								"0"
+			}			
+
+			"bh_VerticalLine"	
+			{
+				"ControlName"										"ImagePanel"
+				"fieldName"											"bh_VerticalLine"
+				"xpos"												"0"
+				"ypos"												"0"
+				"zpos"												"500"
+				"wide"												"1"
+				"tall"												"f0"
+				"autoResize"										"0"
+				"pinCorner"											"0"
+				"labeltext"											""
+				"visible"											"1"
+				"enabled"											"1"
+				"fillcolor"											"bh_orange"
+				"image"												""
+				"paintbackgroundtype"								"0"
 			}
 			
 			"ReadyBG"
@@ -115,34 +154,17 @@
 			
 			"respawntime"
 			{
-				"font"												"bh_Font14"
-				"xpos"												"13"
+				"font"												"bh_Font12"
+				"xpos"												"12"
 				"ypos"												"-7"
 				"zpos"												"5"
 				"wide"												"31"
 				"tall"												"30"
 				"labelText"											"%respawntime%"
 				"textAlignment"										"center"
-				"fgcolor"											"bh_white"
+				"fgcolor"											"bh_dgray"
 			}
 			
-			"healthcover"
-			{
-				"ControlName"										"CExLabel"
-				"fieldName"											"healthcover"
-				"font"												"Blocks48"
-				"xpos"												"16"
-				"ypos"												"0"
-				"zpos"												"5"
-				"wide"												"26"
-				"tall"												"16"
-				"autoResize"										"0"
-				"pinCorner"											"0"
-				"visible"											"1"
-				"labelText"											"%respawntime%"
-				"textAlignment"										"west"
-				"fgcolor"											"bh_Theme_BG00"
-			}
 			"chargeamount"
 			{
 				"font"												"bh_Font14"
