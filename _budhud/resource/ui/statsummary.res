@@ -19,19 +19,10 @@
 		"ypos"														"r-6969"
 	}
 	
-//	"TFStatsSummary"
-//	{
-//		"bgcolor_override"											"bh_Theme_BG00"	
-//	}
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////	
-	// MainBackground controls the initial loading bg
 	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// First UI that appears until the map starts loading
+	////////////////////////////////////////////////////////////////////////////////////////////////////	
 	
-//	"MainBackground"
-//	{	
-//	}
-
 	"bh_LoadingBackground"
 	{
 		"ControlName"												"ImagePanel"
@@ -52,7 +43,7 @@
 	"StatData"
 	{
 		"ypos"														"-50"
-		"zpos"														"12"
+		"zpos"														"11"
 		
 		"AveragesBG"
 		{
@@ -170,13 +161,13 @@
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// MapInfo takes over once the map begins loading
+	// Second UI that appears once the map begins loading
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	"MapInfo"
 	{
 		"bgcolor_override"											"bh_Theme_BG00"	
-		"zpos"														"12"
+		"zpos"														"20"
 		
 		"Background"
 		{
@@ -214,33 +205,52 @@
 		}
 	}
 
+	"bh_TextAnchor"
+	{	
+		"ControlName"												"Label"
+		"fieldName"													"bh_TextAnchor"
+		"xpos"														"4"
+		"ypos"														"0"
+		"zpos"														"0"
+		"wide"														"500"
+		"tall"														"0"
+		"visible"													"1"
+		"enabled"													"1"
+		"bgcolor_override"											"0 0 0 0"
+	}
+
 	"OnYourWayLabel"
 	{
-		"xpos"														"c-250"
-		"ypos"														"123"
-		"font"														"bh_Font24"
-		"fgcolor_override"											"bh_onyourway"
-		"wide"														"500"
-		"tall"														"100"
+		"ypos"														"r-6969"
 	}
 	
 	"MapLabel"
 	{
-		"xpos"														"c-250"
-		"ypos"														"173"
+		"pin_to_sibling" 											"bh_TextAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
+		"xpos"														"0"
+		"ypos"														"0"
 		"font"														"bh_Font32"
 		"fgcolor_override"											"bh_mapname"
 		"wide"														"500"
-		"tall"														"100"
+		"tall"														"80"
+		"textalignment"												"west"
 	}
 	
 	"MapType"
 	{
-		"xpos"														"c-250"
-		"ypos"														"223"
+		"pin_to_sibling" 											"bh_TextAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
+		"xpos"														"0"
+		"ypos"														"-30"
 		"font"														"bh_Font24"
 		"fgcolor_override"											"bh_maptype"
 		"wide"														"500"
-		"tall"														"100"
+		"tall"														"80"
+		"textalignment"												"west"
 	}
 }
