@@ -1,8 +1,8 @@
 "UnlitGeneric"
 {
-	"$translucent" 1
+	"$translucent" 		0
 	"$baseTexture" "vgui\replay\thumbnails\tid_gray"
-   	"$vertexcolor" 		1 
-  	"$vertexalpha" 		1 
+   	"$vertexcolor" 		0 
+  	"$vertexalpha" 		0 
    	"$nolod" 			1
 }

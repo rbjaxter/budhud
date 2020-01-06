@@ -306,7 +306,12 @@
 		"xpos"														"53"
 		"ypos"														"r70"
 		"zpos"														"5"
-	}				
+	}
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// CMainTargetID, CSecondaryTargetID, CSpectatorTargetID
+	// should all have matching wide/tall values
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	CMainTargetID				
 	{				
@@ -316,6 +321,16 @@
 		"tall"	 													"30"
 		"zpos"														"1"
 		"priority"													"40"
+	}
+	
+	CSecondaryTargetID
+	{
+		"xpos" 														"c-100"
+		"ypos" 														"c80"
+		"zpos"														"6"
+		"wide" 														"600"
+		"tall" 														"30"
+		"priority" 													"35"
 	}
 	
 	CSpectatorTargetID
@@ -329,16 +344,6 @@
 		
 		"x_offset" 													"20"
 		"y_offset" 													"100"
-	}
-	
-	CSecondaryTargetID
-	{
-		"xpos" 														"c-100"
-		"ypos" 														"c80"
-		"zpos"														"6"
-		"wide" 														"600"
-		"tall" 														"30"
-		"priority" 													"35"
 	}
 	
 	"bh_BuildNav"

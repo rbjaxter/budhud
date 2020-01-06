@@ -1,26 +1,5 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
-	"bh_HealthBGSpec"	
-	{
-		"ControlName"												"CExLabel"
-		"fieldName"													"bh_HealthBGSpec"
-		"xpos"														"0"
-		"ypos"														"1"
-		"zpos"														"-6969"
-		"zpos"														"5"
-		"wide"														"40"
-		"tall"														"14"
-		"autoResize"												"0"
-		"pinCorner"													"0"
-		"labeltext"													""
-		"visible"													"1"
-		"enabled"													"1"
-		"bgcolor_override"											"bh_TargetID_Base"
-		
-		"paintbackground"											"1"
-		"border"													"NoBorder"
-	}
-	
 	"PlayerStatusHealthImage"
 	{
 		"ypos"														"r-6969"
@@ -39,17 +18,65 @@
 	"PlayerStatusHealthImageBG"
 	{
 		"ypos"														"r-6969"
+	}
+
+	"bh_TargetIDHealthAnchor"
+	{	
+		"ControlName"												"Label"
+		"fieldName"													"bh_TargetIDHealthAnchor"
+		"xpos"														"0"
+		"ypos"														"0"
+		"zpos"														"0"
+		"wide"														"100"
+		"tall"														"0"
+		"visible"													"1"
+		"enabled"													"1"
+		"bgcolor_override"											"0 0 0 0"
+	}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Wide and tall value of the following elements should match SpectatorGUIHealth in targetid.res:
+	// bh_HealthBGSpec, PlayerStatusHealthValue, PlayerStatusHealthValueShadow
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	"bh_HealthBGSpec"	
+	{
+		"pin_to_sibling" 											"bh_TargetIDHealthAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+	
+		"ControlName"												"CExLabel"
+		"fieldName"													"bh_HealthBGSpec"
+		"xpos"														"0"
+		"ypos"														"0"
+		"zpos"														"-6969"
+		"zpos"														"5"
+		"wide"														"40"
+		"tall"														"16"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"labeltext"													""
+		"visible"													"1"
+		"enabled"													"1"
+		"bgcolor_override"											"bh_TargetID_Base"
+		
+		"paintbackground"											"1"
+		"border"													"NoBorder"
 	}	
 
 	"PlayerStatusHealthValue"
 	{
+		"pin_to_sibling" 											"bh_TargetIDHealthAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"		
+	
 		"ControlName"												"Label"
 		"fieldName"													"PlayerStatusHealthValue"
-		"xpos"														"-5"
-		"ypos"														"-7"
+		"xpos"														"1"
+		"ypos"														"1"
 		"zpos"														"5"
-		"wide"														"48"
-		"tall"														"28"
+		"wide"														"40"
+		"tall"														"16"
 		"visible"													"1"
 		"enabled"													"1"
 		"labeltext"													"%health%"
@@ -60,13 +87,17 @@
 	
 	"PlayerStatusHealthValueShadow"
 	{
+		"pin_to_sibling" 											"bh_TargetIDHealthAnchor"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"		
+	
 		"ControlName"												"Label"
 		"fieldName"													"PlayerStatusHealthValueShadow"
-		"xpos"														"-4"
-		"ypos"														"-6"
+		"xpos"														"0"
+		"ypos"														"0"
 		"zpos"														"5"
-		"wide"														"48"
-		"tall"														"28"
+		"wide"														"40"
+		"tall"														"16"
 		"visible"													"1"
 		"enabled"													"1"
 		"labeltext"													"%health%"
