@@ -1,9 +1,9 @@
 "Resource/UI/HudMannVsMachineStatus.res"
 {
+	// "tall" and "tall_minmode" hard-coded
 	"WaveStatusPanel"
 	{
 		"wide"														"600"
-		"tall"														"67"
 	}
 	
 	"CurrencyStatusPanel"
