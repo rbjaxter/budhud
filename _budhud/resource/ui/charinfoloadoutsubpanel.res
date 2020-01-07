@@ -12,6 +12,15 @@
 		"outoffocus_bgcolor_override" 								"bh_Theme_BG00"
 		"itemcountcolor"											"bh_Theme_TextMain"
 		"itemcountcolor_noitems"									"bh_gray"
+		
+		"class_ypos"												"40"
+		"class_xdelta"												"5"
+		"class_wide_min"											"60"
+		"class_wide_max"											"70"
+		"class_tall_min"											"120"
+		"class_tall_max"											"140"
+		"class_distance_min"										"7"
+		"class_distance_max"										"100"
 	}
 
 	"LoadoutChangesLabel"
@@ -39,11 +48,6 @@
 		"fgcolor"													"bh_white"
 	}
 
-	"ItemsLabel"
-	{
-		"fgcolor"													"bh_white"
-	}
-	
 	"ShowArmoryLabel"
 	{
 		"fgcolor"													"bh_white"
@@ -56,7 +60,14 @@
 	
 	"ClassLabel"
 	{
+		"ypos"														"185"
 		"fgcolor_override"											"bh_white"
+	}
+	
+	"ItemsLabel"
+	{
+		"ypos"														"200"	
+		"fgcolor"													"bh_white"
 	}
 	
 	"NoSteamLabel"
