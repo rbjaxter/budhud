@@ -147,13 +147,13 @@
 	
 	HudKothTimeStatus		
 	{		
-		"xpos"														"0"
+		"xpos"														"c-55"
 		"ypos"														"0"
-		"wide"														"f0"
-		"tall"														"f0"
+		"wide"														"110"
+		"tall"														"110"
 
-		"blue_active_xpos"											"40"
-		"red_active_xpos"											"10"
+		"blue_active_xpos"											"0"
+		"red_active_xpos"											"60"
 	}		
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////

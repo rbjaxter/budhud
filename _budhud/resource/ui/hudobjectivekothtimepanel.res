@@ -2,7 +2,7 @@
 {
 	"BlueTimer"
 	{
-		"xpos"														"c-55"
+		"xpos"														"0"
 		"ypos"														"32"
 		"wide"														"50"
 		"tall"														"20"
@@ -20,7 +20,7 @@
 	
 	"RedTimer"
 	{
-		"xpos"														"c5"
+		"xpos"														"60"
 		"ypos"														"32"
 		"wide"														"50"
 		"tall"														"20"
@@ -42,10 +42,10 @@
 		"ypos"														"0"
 	}
 	
-	"ActiveTimerBG"		// Set active timer ypos here?
+	"ActiveTimerBG"
 	{	
 		"xpos"														"0"
-		"ypos"														"20"	
+		"ypos"														"52"	
 		"wide"														"50"	
 		"tall"														"1"	
 		"fillcolor"													"bh_Theme_TextMain"	
