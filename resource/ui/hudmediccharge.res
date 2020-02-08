@@ -1,3 +1,4 @@
+	#base	"..\..\#users\ly_dee\resource\ui\hudmediccharge.res"
 	#base	"..\..\#customization\_enabled\bh_uber_longmeter.res"
 	#base	"..\..\#customization\_enabled\bh_uber_nearcrosshair.res"
 	#base	"..\..\#customization\_enabled\bh_uber_size.res"
