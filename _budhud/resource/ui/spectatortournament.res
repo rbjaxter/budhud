@@ -49,7 +49,7 @@
 		"playerpanels_kv"
 		{
 			"visible"												"0"
-			"wide"													"130"
+			"wide"													"140"
 			"tall"													"16"
 			"zpos"													"1"
 
@@ -66,7 +66,7 @@
 				"xpos"												"42"
 				"ypos"												"0"
 				"zpos"												"5"
-				"wide"												"61"
+				"wide"												"73"
 				"tall"												"16"
 				"textAlignment"										"west"
 				"fgcolor"											"bh_white"
@@ -168,7 +168,7 @@
 			"chargeamount"
 			{
 				"font"												"bh_Font14"
-				"xpos"												"98"
+				"xpos"												"108"
 				"ypos"												"1"
 				"zpos"												"6"
 				"wide"												"30"
@@ -177,12 +177,13 @@
 				"textAlignment"										"east"
 				"fgcolor"											"bh_Theme_TextMain"
 			}
+			
 			"chargeamountBG"
 			{
 				"ControlName"										"CExLabel"
 				"fieldName"											"chargeamountBG"
 				"font"												"bh_Font14"
-				"xpos"												"99"
+				"xpos"												"109"
 				"ypos"												"2"
 				"zpos"												"6"
 				"wide"												"30"
