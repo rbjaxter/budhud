@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$translucent" 		1
+	"$baseTexture" 		"vgui/replay/thumbnails/menu_icons/mvm_logo"
+   	"$vertexcolor" 		0 
+  	"$vertexalpha" 		0 
+   	"$nolod" 			1
+}
