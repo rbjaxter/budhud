@@ -35,7 +35,7 @@
 		"TimePanelValue"
 		{
 			"xpos"													"cs-0.50"
-			"ypos"													"r30"
+			"ypos"													"56"
 			"wide"													"200"
 			"tall"													"30"
 			"bgcolor_override"										"bh_blank"
