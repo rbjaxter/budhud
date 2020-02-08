@@ -176,7 +176,7 @@
 		"zpos"														"-1"
 		"wide"														"100"
 		"tall"														"100"
-	}	
+	}
 
 	"HudMenuEngyBuild"
 	{
@@ -256,7 +256,7 @@
 		"ypos"														"0"
 		"wide"														"f0"
 		"tall"														"f0"
-	}		
+	}
 
 	HudMedicCharge		
 	{		
@@ -264,7 +264,7 @@
 		"ypos"														"0"
 		"wide"														"f0"
 		"tall"														"f0"
-	}			
+	}
 
 	HudDemomanCharge			
 	{			
@@ -272,18 +272,18 @@
 		"ypos"														"0"
 		"wide"														"f0"
 		"tall"														"f0"
-	}				
+	}
 
 	HudBowCharge			
 	{			
 		"ypos"														"r-6969"
-	}			
+	}
 
 	HudBossHealth			
 	{			
 		"wide"														"f0"
 		"tall"														"f0"
-	}		
+	}
 		
 	CHudAccountPanel
 	{
@@ -292,7 +292,7 @@
 		"wide"														"200"
 		"tall"														"50"
 		"textAlignment"												"center"
-	}	
+	}
 
 	CDamageAccountPanel	
 	{	
@@ -310,36 +310,31 @@
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// CMainTargetID, CSecondaryTargetID, CSpectatorTargetID
-	// should all have matching wide/tall values
+	// should all have matching tall values
+	// xpos/wide has no effect
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	CMainTargetID				
 	{				
-		"xpos"														"c-100"
 		"ypos"														"c50"
-		"wide"	 													"600"
-		"tall"	 													"30"
+		"tall"	 													"50"
 		"zpos"														"1"
 		"priority"													"40"
 	}
 	
 	CSecondaryTargetID
 	{
-		"xpos" 														"c-100"
 		"ypos" 														"c80"
 		"zpos"														"6"
-		"wide" 														"600"
-		"tall" 														"30"
+		"tall" 														"50"
 		"priority" 													"35"
 	}
 	
 	CSpectatorTargetID
 	{
-		"xpos"														"c-100"
 		"ypos"														"r100"
 		"zpos"														"1"
-		"wide"	 													"600"
-		"tall"	 													"30"
+		"tall"	 													"50"
 		"priority"													"40"
 		
 		"x_offset" 													"20"
@@ -351,7 +346,7 @@
 		"ControlName"												"Label"
 		"fieldName"													"bh_BuildNav"
 		"xpos"														"0"
-		"ypos"														"110"
+		"ypos"														"105"
 		"zpos"														"0"
 		"wide"														"100"
 		"tall"														"0"
@@ -373,7 +368,6 @@
 	}
 	
 	HudDeathNotice
-	// ADDING A ZPOS VALUE TO THIS CAUSES THE ENTIRE GAME TO NOT LOAD????????????
 	{
 		"xpos"	 													"r638"
 		"ypos"	 													"18"
@@ -388,7 +382,7 @@
 		"RightJustify"	 	 										"1"	// If 1, draw notices from the right
 
 		"TextFont"													"bh_Font12"
-			
+
 		"TeamBlue"													"HUDBlueTeamSolid"
 		"TeamRed"													"HUDRedTeamSolid"
 		"IconColor"													"bh_white"
@@ -507,7 +501,7 @@
 		"ypos"														"c-65"
 		"wide"														"500"
 		"tall"														"250"
-	}	
+	}
 	
 	HudDemomanPipes
 	{
@@ -515,12 +509,12 @@
 		"ypos"														"0"
 		"wide"														"f0"
 		"tall"														"f0"
-	}	
+	}
 
 	HudTeamGoal
 	{
 		"ypos"														"r-6969"
-	}	
+	}
 	
 	HudTeamGoalTournament	
 	{	
@@ -529,7 +523,7 @@
 		"ypos_lodef"												"75"
 		"wide"														"320"
 		"tall"														"245"
-	}	
+	}
 	
 	HudStopWatch	
 	{	
@@ -537,13 +531,13 @@
 		"ypos"														"0"
 		"wide"														"f0"
 		"tall"														"f0"
-	}	
+	}
 
 	"HudAchievementTracker"
 	{
-		"xpos"														"0"
-		"NormalY"													"0"
-		"EngineerY"													"290"
+		"xpos"														"17"
+		"NormalY"													"120"
+		"EngineerY"													"300"
 		"zpos"														"50"
 		"wide"														"200"
 		"tall"														"280"
