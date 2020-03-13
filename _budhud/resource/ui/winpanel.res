@@ -48,16 +48,28 @@
 	"Player1Badge"
 	{
 		"ypos"														"r-6969"
+		"wide"														"0"
+		"tall"														"0"
+		"visible"													"0"
+		"enabled"													"0"
 	}
 	
 	"Player2Badge"
 	{
 		"ypos"														"r-6969"
+		"wide"														"0"
+		"tall"														"0"
+		"visible"													"0"
+		"enabled"													"0"
 	}
 
 	"Player3Badge"
 	{
 		"ypos"														"r-6969"
+		"wide"														"0"
+		"tall"														"0"
+		"visible"													"0"
+		"enabled"													"0"
 	}
 	
 	"TeamScoresPanel"
