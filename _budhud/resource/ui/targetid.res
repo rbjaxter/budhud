@@ -22,7 +22,7 @@
 	"TargetNameLabel"
 	{
 		"ypos"														"1"
-		"wide"														"600"
+		"wide"														"280"
 		"tall"														"16"
 	}
 	
@@ -30,22 +30,22 @@
 	{
 		"font"														"bh_Font10Drop"
 		"xpos"														"0"
-		"ypos"														"14"
-		"wide"														"600"
-		"tall"														"14"
-		"textalignment"												"west"
+		"ypos"														"16"
+		"wide"														"250"
+		"tall"														"40"
+		"textalignment"												"north-west"
 	}
 
-	//Name dependent
+	// Name dependent. Wide/tall have no effect
 	"TargetIDBG"
 	{
 		"xpos"														"40"
-		"ypos"														"-29"
+		"ypos"														"-49"	//-29
 
-		"src_corner_height"											"0"
+		"src_corner_height"											"0"				// pixels inside the image
 		"src_corner_width"											"0"
 
-		"draw_corner_width"											"0"
+		"draw_corner_width"											"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 										"0"
 		
 		"image"														"replay\thumbnails\tid_gray"
@@ -54,10 +54,32 @@
 		"teambg_3"													"replay\thumbnails\tid_blue"
 	}
 	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// When the engineer "move gear" panel (MoveableSubPanel) opens, the TargetIDBG (team-colored bar)
+	// does not properly extend to the end of the TargetID element. This extends it out.
+	// This element cannot completely replace TargetIDBG because TargetIDBG is a name-dependent element;
+	// using TargetIDBG ensures the correct team colors will show in all situations (spies looking at
+	// enemy health, spectators looking at players, etc)
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+//	"bh_TargetIDBG_Extender"
+//	{
+//		"ControlName"												"CTFImagePanel"
+//		"fieldName"													"bh_TargetIDBG_Extender"
+//		"xpos"														"45"
+//		"ypos"														"0"
+//		"zpos"														"-500"
+//		"wide"														"f0"
+//		"tall"	 													"1"
+//		"image"														"replay\thumbnails\tid_gray"
+//		"teambg_1"													"replay\thumbnails\tid_gray"
+//		"teambg_2"													"replay\thumbnails\tid_red"
+//		"teambg_3"													"replay\thumbnails\tid_blue"
+//	}	
+	
 	"TargetIDBG_Spec_Blue"
 	{
 		"xpos"														"40"
-		"ypos"														"-29"
+		"ypos"														"-49"
 
 		"src_corner_height"											"0"
 		"src_corner_width"											"0"
@@ -71,7 +93,7 @@
 	"TargetIDBG_Spec_Red"
 	{
 		"xpos"														"40"
-		"ypos"														"-29"
+		"ypos"														"-49"
 
 		"src_corner_height"											"0"
 		"src_corner_width"											"0"
@@ -86,10 +108,10 @@
 	{
 		"ControlName" 												"ImagePanel"
 		"fieldName"													"bh_TargetNameBG"
-		"xpos"														"0"
+		"xpos"														"40"
 		"ypos"														"0"
 		"zpos"														"-1"
-		"wide"														"600"
+		"wide"														"f0"
 		"tall"														"16"
 		"autoResize"												"0"
 		"pinCorner"													"0"
@@ -105,7 +127,7 @@
 	}
 	
 	"MoveableSubPanel"
-	{
+	{	
 		"MoveableIconBG"
 		{
 			"ypos"													"r-6969"
@@ -123,13 +145,12 @@
 		
 		"MoveableKeyLabel"
 		{
-			"xpos"													"12"		
+			"xpos"													"0"		
 			"ypos"													"17"
 			"zpos"													"0"
 			"font"													"bh_Font10"
 			"fgcolor"												"bh_white"
 		}
-		
 	}
 	
 	"AmmoIcon"
