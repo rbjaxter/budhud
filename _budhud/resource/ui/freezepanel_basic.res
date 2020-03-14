@@ -10,7 +10,7 @@
 		"FreezePanelBG"
 		{
 			"ControlName"											"ImagePanel"
-			"fillcolor" 											"bh_BGStandard"
+			"fillcolor" 											"bh_ItemPanel"
 			"image"													""
 		}
 		
@@ -61,21 +61,23 @@
 		{
 			"allow_rot"												"0"
 			"inventory_image_type"									"1"
-			"use_item_rendertarget" 								"0"		
+			"use_item_rendertarget" 								"0"
+			"bgcolor_override"										"bh_ItemPanel"
+			"PaintBackgroundType"									"1"
 		}
 		
-		"bh_ItemBG"
-		{
-			"ControlName" 											"ImagePanel"
-			"fieldName" 											"bh_ItemBG"
-			"xpos" 													"0"
-			"ypos" 													"0"
-			"zpos" 													"-1"
-			"wide" 													"f0"
-			"tall" 													"f0"
-			"visible" 												"1"
-			"enabled" 												"1"
-			"fillcolor" 											"bh_MouseOverBG"
-		}
+	//	"bh_ItemBG"
+	//	{
+	//		"ControlName" 											"ImagePanel"
+	//		"fieldName" 											"bh_ItemBG"
+	//		"xpos" 													"0"
+	//		"ypos" 													"0"
+	//		"zpos" 													"-1"
+	//		"wide" 													"f0"
+	//		"tall" 													"f0"
+	//		"visible" 												"1"
+	//		"enabled" 												"1"
+	//		"fillcolor" 											"bh_MouseOverBG"
+	//	}
 	}
 }
