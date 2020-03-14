@@ -74,7 +74,7 @@
 //		"teambg_1"													"replay\thumbnails\tid_gray"
 //		"teambg_2"													"replay\thumbnails\tid_red"
 //		"teambg_3"													"replay\thumbnails\tid_blue"
-//	}	
+//	}
 	
 	"TargetIDBG_Spec_Blue"
 	{
