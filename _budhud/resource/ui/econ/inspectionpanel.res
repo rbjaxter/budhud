@@ -4,24 +4,23 @@
 
 "Resource/UI/econ/QuestEditorPanel.res"
 {
-	"ItemName"
+	"PaintkitPreviewContainer"
 	{
-		"itemmodelpanel"
-		{
-			"allow_rot"												"0"
-			"inventory_image_type"									"1"
-			"use_item_rendertarget" 								"0"		
-		}
-	}
-
-	"InspectionPanel"
-	{
-		"BGImage"
-		{
-			"ypos"													"r-6969"
-		}
+		"border"													"bh_blank"
+		"bgcolor_override"											"bh_Theme_BG00"
 	}
 	
+	"ModelInspectionPanel"
+	{
+		"use_item_rendertarget" 									"1"
+		"max_pitch"													"45"
+	}
+
+	"BGImage"
+	{
+		"ypos"														"r-6969"
+	}
+		
 	"CloseButton"
 	{
 		"ypos"														"r-6969"
