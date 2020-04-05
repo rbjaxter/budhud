@@ -100,65 +100,7 @@
 			"ypos"													"r-6969"
 		}
 	}
-	
-//	"bh_MatchTeam_Blue"
-//	{
-//		"ControlName"												"ImagePanel"
-//		"fieldName"													"bh_MatchTeam_Blue"
-//		"xpos"														"c-40"
-//		"ypos"														"0"
-//		"zpos"														"0"
-//		"wide"														"40"
-//		"tall"														"11"
-//		"autoResize"												"0"
-//		"pinCorner"													"0"
-//		"labeltext"													""
-//		"visible"													"0"
-//		"enabled"													"1"
-//		"fillcolor"													"bh_blue_t"
-//		"image"														""
-//		"paintbackgroundtype"										"0"
-//		
-//		if_match
-//		{
-//			"visible"												"1"
-//		}
-//		
-//		if_mvm
-//		{
-//			"ypos"													"r-6969"
-//		}
-//	}
-//	
-//	"bh_MatchTeamBG_Red"
-//	{
-//		"ControlName"												"ImagePanel"
-//		"fieldName"													"bh_MatchTeamBG_Red"
-//		"xpos"														"c0"
-//		"ypos"														"0"
-//		"zpos"														"0"
-//		"wide"														"40"
-//		"tall"														"11"
-//		"autoResize"												"0"
-//		"pinCorner"													"0"
-//		"labeltext"													""
-//		"visible"													"0"
-//		"enabled"													"1"
-//		"fillcolor"													"bh_red_t"
-//		"image"														""
-//		"paintbackgroundtype"										"0"
-//		
-//		if_match
-//		{
-//			"visible"												"1"
-//		}
-//		
-//		if_mvm
-//		{
-//			"ypos"													"r-6969"
-//		}
-//    }
-	
+
 	"bh_MatchTeamBG_Gray"
 	{
 		"ControlName"												"ImagePanel"
