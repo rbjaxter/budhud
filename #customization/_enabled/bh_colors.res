@@ -276,6 +276,7 @@ Scheme
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
+		"bh_ItemPanel"												"035 035 035 255"
 		"bh_MouseOverBG"											"035 035 035 255"		// Item mouse-over BG color
 		"bh_border"													"150 150 150 255"		// Color of all budhud borders (buttons, etc)
 		"bh_BGStandard"												"000 000 000 100"
@@ -301,12 +302,7 @@ Scheme
 		"ProgressBackground"										"150 150 150 255"		// Right "Building..." Progress color BG, ItemEffectMeter BG
 		"HealthBgGrey"												"080 080 080 255"		// Left build progress bar
 		
-		"ProgressOffWhiteTransparent"								"0 0 255 255"			// Unknown
-		
 		"LabelDark"													"000 000 000 255"		// Blog text
-		"LabelTransparent"											"255 000 255 255"		// Unknown
-		
-		"BuildMenuActive"											"000 255 255 255"		// Unknown
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////

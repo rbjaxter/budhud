@@ -58,7 +58,7 @@
 	
 		"font"														"bh_Font16"
 		"xpos"														"cs-0.5"
-		"ypos"														"5"
+		"ypos"														"15"
 		"wide"														"f0"
 		"tall"														"20"
 		"proportionalToParent"										"1"
@@ -78,7 +78,7 @@
 	
 		"font"														"bh_Font10"
 		"xpos"														"cs-0.5"
-		"ypos"														"5"
+		"ypos"														"15"
 		"wide"														"f0"
 		"tall"														"20"
 		"proportionalToParent"										"1"
@@ -98,7 +98,7 @@
 	
 		"font"														"bh_Font14"
 		"xpos"														"cs-0.5"
-		"ypos"														"5"
+		"ypos"														"15"
 		"wide"														"f0"
 		"tall"														"20"
 		"proportionalToParent"										"1"

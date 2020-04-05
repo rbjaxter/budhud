@@ -17,9 +17,8 @@
 
 	"itempanel"
 	{
-		"model_ypos"												"14"
-		"padding_height"											"3"
-		"text_forcesize"											"2"
+		"bgcolor_override"											"bh_ItemPanel"
+		"PaintBackground"											"1"	
 		
 		"attriblabel"
 		{

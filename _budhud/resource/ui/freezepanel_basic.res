@@ -10,7 +10,7 @@
 		"FreezePanelBG"
 		{
 			"ControlName"											"ImagePanel"
-			"fillcolor" 											"bh_BGStandard"
+			"fillcolor" 											"bh_MouseOverBG"
 			"image"													""
 		}
 		
@@ -61,7 +61,7 @@
 		{
 			"allow_rot"												"0"
 			"inventory_image_type"									"1"
-			"use_item_rendertarget" 								"0"		
+			"use_item_rendertarget" 								"0"
 		}
 		
 		"bh_ItemBG"

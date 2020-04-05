@@ -77,6 +77,9 @@
 
 	"itempanel"
 	{
+		"bgcolor_override"											"bh_ItemPanel"
+		"PaintBackground"											"1"
+	
 		"itemmodelpanel"
 		{
 			"allow_rot"												"0"

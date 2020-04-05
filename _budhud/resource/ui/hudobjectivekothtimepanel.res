@@ -2,10 +2,10 @@
 {
 	"BlueTimer"
 	{
-		"xpos"														"0"
-		"ypos"														"32"
-		"wide"														"50"
-		"tall"														"20"
+		"xpos"														"15"
+		"ypos"														"0"
+		"wide"														"40"
+		"tall"														"16"
 		"image"														""
 		"bgcolor_override"											"bh_blue_t"
 		
@@ -13,17 +13,22 @@
 		{
 			"xpos"													"0"
 			"ypos"													"0"
-			"wide"													"50"
-			"tall"													"20"
+			"wide"													"40"
+			"tall"													"15"
+		}
+		
+		if_match
+		{
+			"ypos"													"11"
 		}
 	}
 	
 	"RedTimer"
 	{
-		"xpos"														"60"
-		"ypos"														"32"
-		"wide"														"50"
-		"tall"														"20"
+		"xpos"														"55"
+		"ypos"														"0"
+		"wide"														"40"
+		"tall"														"16"
 		"image"														""
 		"bgcolor_override"											"bh_red_t"
 
@@ -31,11 +36,16 @@
 		{
 			"xpos"													"0"
 			"ypos"													"0"
-			"wide"													"50"
-			"tall"													"20"
+			"wide"													"40"
+			"tall"													"15"
 			"fgcolor_override"										"bh_white"
 		}
-	}	
+		
+		if_match
+		{
+			"ypos"													"11"
+		}
+	}
 	
 	"OvertimeLabel"
 	{
@@ -45,8 +55,8 @@
 	"ActiveTimerBG"
 	{	
 		"xpos"														"0"
-		"ypos"														"52"	
-		"wide"														"50"	
+		"ypos"														"16"	
+		"wide"														"40"	
 		"tall"														"1"	
 		"fillcolor"													"bh_Theme_TextMain"	
 		"image"														""	

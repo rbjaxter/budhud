@@ -13,7 +13,7 @@
 			"tall" 													"f0"
 			"visible" 												"1"
 			"enabled" 												"1"
-			"fillcolor" 											"bh_MouseOverBG"
+			"fillcolor" 											"bh_ItemPanel"
 		}
 	}
 
@@ -27,7 +27,7 @@
 				"inventory_image_type"								"1"
 				"use_item_rendertarget"								"0"
 			}
-		}	
+		}
 	
 		"serieslabel"
 		{	

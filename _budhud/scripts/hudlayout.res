@@ -145,15 +145,15 @@
 	// KotH Bounding + active timer 
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
 	
-	HudKothTimeStatus		
+	"HudKothTimeStatus"
 	{		
 		"xpos"														"c-55"
 		"ypos"														"0"
 		"wide"														"110"
 		"tall"														"110"
 
-		"blue_active_xpos"											"0"
-		"red_active_xpos"											"60"
+		"blue_active_xpos"											"15"
+		"red_active_xpos"											"55"
 	}		
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////

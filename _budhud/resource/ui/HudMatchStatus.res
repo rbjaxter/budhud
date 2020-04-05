@@ -22,7 +22,7 @@
 		"TimePanelValue"
 		{
 			"xpos"													"cs-0.5"
-			"ypos"													"7"
+			"ypos"													"0"
 			"wide"													"f0"
 			"tall"													"20"
 			"bgcolor_override"										"bh_gray_t"
@@ -30,8 +30,9 @@
 			
 			if_match
 			{
-				"ypos"												"8"
-				"bgcolor_override"									"0 0 0 0"
+				"ypos"												"11"
+				"tall"												"16"
+				"bgcolor_override"									"bh_gray_t"
 			}
 		}
 	}
@@ -99,80 +100,22 @@
 			"ypos"													"r-6969"
 		}
 	}
-	
-	"bh_tournamentbg_blue"
+
+	"bh_MatchTeamBG_Gray"
 	{
 		"ControlName"												"ImagePanel"
-		"fieldName"													"bh_tournamentbg_blue"
-		"xpos"														"c-37"
+		"fieldName"													"bh_MatchTeamBG_Gray"
+		"xpos"														"c-40"
 		"ypos"														"0"
 		"zpos"														"0"
-		"wide"														"37"
+		"wide"														"80"
 		"tall"														"11"
 		"autoResize"												"0"
 		"pinCorner"													"0"
 		"labeltext"													""
 		"visible"													"0"
 		"enabled"													"1"
-		"fillcolor"													"bh_blue_t"
-		"image"														""
-		"paintbackgroundtype"										"0"
-		
-		if_match
-		{
-			"visible"												"1"
-		}
-		
-		if_mvm
-		{
-			"ypos"													"r-6969"
-		}
-	}
-	
-	"bh_tournamentbg_red"
-	{
-		"ControlName"												"ImagePanel"
-		"fieldName"													"bh_tournamentbg_red"
-		"xpos"														"c0"
-		"ypos"														"0"
-		"zpos"														"0"
-		"wide"														"37"
-		"tall"														"11"
-		"autoResize"												"0"
-		"pinCorner"													"0"
-		"labeltext"													""
-		"visible"													"0"
-		"enabled"													"1"
-		"fillcolor"													"bh_red_t"
-		"image"														""
-		"paintbackgroundtype"										"0"
-		
-		if_match
-		{
-			"visible"												"1"
-		}
-		
-		if_mvm
-		{
-			"ypos"													"r-6969"
-		}
-    }
-	
-	"bh_tournamentbg_gray"
-	{
-		"ControlName"												"ImagePanel"
-		"fieldName"													"bh_tournamentbg_gray"
-		"xpos"														"c-37"
-		"ypos"														"11"
-		"zpos"														"0"
-		"wide"														"74"
-		"tall"														"15"
-		"autoResize"												"0"
-		"pinCorner"													"0"
-		"labeltext"													""
-		"visible"													"0"
-		"enabled"													"1"
-		"fillcolor"													"bh_gray_t"
+		"fillcolor"													"125 125 125 064"
 		"image"														""
 		"paintbackgroundtype"										"0"
 		
@@ -195,7 +138,7 @@
 	
 	"TeamStatus"
 	{
-		"tall"														"25"
+		"tall"														"40"
 	
 		"max_size"													"14"
 
@@ -226,14 +169,14 @@
 
 			"healthbar"
 			{
-				"ypos"												"19"
+				"ypos"												"20"
 				"zpos"												"1"
 				"tall"												"7"
 			}
 			
 			"overhealbar"
 			{
-				"ypos"												"19"
+				"ypos"												"20"
 				"zpos"												"2"
 				"tall"												"7"
 			}
@@ -246,6 +189,7 @@
 			"classimage"
 			{
 				"ypos"												"0"
+				"tall"												"20"
 				"zpos"												"3"
 			}
 			
