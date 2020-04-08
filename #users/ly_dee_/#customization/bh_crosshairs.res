@@ -2,8 +2,8 @@
 {
 	"knuckles_crosshair"
 	{
-		"visible"													"1"
-		"enabled"													"1"
+		"visible"													"0"
+		"enabled"													"0"
 		"font"														"size:10,outline:off"
 		"labelText"													"A"
 	}
