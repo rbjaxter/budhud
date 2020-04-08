@@ -9,15 +9,6 @@
 		"fgcolor_override"											"bh_Theme_TextMain"
 	}
 	
-	"ExplanationLabel"
-	{
-		"font"														"bh_Font40"
-		"labelText"													"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"		// Adjusting this increases/decreases the size of the whole element
-		"textAlignment"												"north-west"
-		"xpos"														"r-6969"																// Prevents text from drawing
-		"ypos"														"25"																	// Adjusting this moves the buttons' ypos (??)
-	}
-	
 	"bh_ExplanationLabel"
 	{
 		"ControlName"												"CExLabel"
