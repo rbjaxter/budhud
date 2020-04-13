@@ -5,7 +5,7 @@
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Casual category animations
-	// Not working
+	// Not working as intended
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	event PvPRankLevelUpXPBar
@@ -22,19 +22,19 @@
 	
 	event CasualCategory_Selected
 	{
-		Animate 											Shade				BgColor		"bh_Theme_BG20"			Deaccel 0 0.2
-		Animate 											Title				FgColor		"bh_Theme_TextTitle"	Deaccel 0 0.2
-		Animate 											TitleShadow			FgColor		"bh_shadow"				Deaccel 0 0.2
-		Animate 											DescLabel			FgColor		"bh_Theme_TextBody"		Deaccel 0 0.2
+		Animate				Shade								bgcolor						bh_Theme_BG40				Deaccel 0 0.2
+		Animate 			Title								fgcolor						bh_Theme_AccentPrimary		Deaccel 0 0.2
+		Animate 			TitleShadow							fgcolor						bh_shadow					Deaccel 0 0.2
+		Animate 			DescLabel							fgcolor						bh_Theme_TextSecondary		Deaccel 0 0.2
 	}
 	
 	event CasualCategory_NotSelected
 	{
-		Animate 											Shade				BgColor 	"bh_Theme_BG-10"		Deaccel 0 0.2
-		Animate 											Title				FgColor		"bh_gray"				Deaccel 0 0.2
-		Animate 											DescLabel			FgColor		"bh_gray"				Deaccel 0 0.2
-		Animate 											TitleShadow			FgColor		"0"						Deaccel 0 0.2
-		Animate 											DescLabelShadow		FgColor		"0"						Deaccel 0 0.2
+		Animate 			Shade								bgcolor 					bh_Theme_BG00				Deaccel 0 0.2
+		Animate 			Title								fgcolor						bh_gray						Deaccel 0 0.2
+		Animate 			DescLabel							fgcolor						bh_gray						Deaccel 0 0.2
+		Animate 			TitleShadow							fgcolor						0							Deaccel 0 0.2
+		Animate 			DescLabelShadow						fgcolor						0							Deaccel 0 0.2
 	}	
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -42,21 +42,21 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	event HasNotificationsBlink
 	{
-		Animate	Notifications_ShowButtonPanel_SB 			Alpha				"255"		Spline 		0.0 0.2
-		Animate	Notifications_ShowButtonPanel_SB 			Alpha				"0"			Spline		0.2 0.2
-		RunEvent HasNotificationsBlinkLoop					0.5
+		Animate				Notifications_ShowButtonPanel_SB 	alpha						255							Spline 0.0 0.2
+		Animate				Notifications_ShowButtonPanel_SB 	alpha						0							Spline 0.2 0.2
+		RunEvent 			HasNotificationsBlinkLoop										0.5
 	}
 	
 	event HasNotificationsBlinkLoop
 	{
-		RunEvent HasNotificationsBlink						0.0
+		RunEvent 			HasNotificationsBlink											0.0
 	}
 	
 	event HasNotificationsBlinkStop
 	{
-		StopEvent HasNotificationsBlink						0.0
-		StopEvent HasNotificationsBlinkLoop 				0.0
-		Animate	Notifications_ShowButtonPanel_SB 			Alpha				"255"		Linear		0.0 0.1
+		StopEvent 			HasNotificationsBlink											0.0
+		StopEvent 			HasNotificationsBlinkLoop 										0.0
+		Animate				Notifications_ShowButtonPanel_SB 	alpha						255							Linear 0.0 0.1
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -64,20 +64,20 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	event NotificationsPresentBlink
 	{
-		Animate	NotificationsPresentPanel 					Alpha				"255"		Spline		0.0 0.2
-		Animate	NotificationsPresentPanel 					Alpha				"0"			Linear 		0.2 0.2
+		Animate				NotificationsPresentPanel 			alpha						255							Spline 0.0 0.2
+		Animate				NotificationsPresentPanel 			alpha						0							Linear 0.2 0.2
 
-		RunEvent NotificationsPresentBlinkLoop				0.5
+		RunEvent			NotificationsPresentBlinkLoop									0.5
 	}
 	
 	event NotificationsPresentBlinkLoop
 	{
-		RunEvent NotificationsPresentBlink					0.0
+		RunEvent 			NotificationsPresentBlink										0.0
 	}
 	
 	event NotificationsPresentBlinkStop
 	{
-		StopEvent NotificationsPresentBlink					0.0
-		StopEvent NotificationsPresentBlinkLoop 			0.0
-		Animate	NotificationsPresentPanel 					Alpha				"255"		Linear 		0.0 0.1
+		StopEvent 			NotificationsPresentBlink										0.0
+		StopEvent			NotificationsPresentBlinkLoop 									0.0
+		Animate				NotificationsPresentPanel 			alpha						255							Linear 0.0 0.1
 	}
