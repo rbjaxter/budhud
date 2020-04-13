@@ -198,11 +198,11 @@
 		RunEvent 			FlagOutlineHide													0.0
 		Animate 			OutlineImage						alpha 						255							Linear 0.1 0.2
 		
-		Animate 			OutlineImage						position					c-50 r50					Linear 0.1 0.2
-		Animate 			OutlineImage						size 						100 50						Linear 0.1 0.2
+		Animate 			OutlineImage						position					"c-50 r50"					Linear 0.1 0.2
+		Animate 			OutlineImage						size 						"100 50"					Linear 0.1 0.2
 	
-		Animate 			OutlineImage						position					c-50 r100					Linear 0.7 0.2
-		Animate 			OutlineImage						size 						100 50						Linear 0.7 0.2
+		Animate 			OutlineImage						position					"c-50 r100"					Linear 0.7 0.2
+		Animate 			OutlineImage						size 						"100 50"					Linear 0.7 0.2
 		
 		Animate				OutlineImage						alpha 						0							Linear 0.6 0.3
 	}
