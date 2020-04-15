@@ -316,25 +316,23 @@
 
 	CMainTargetID				
 	{				
-		"ypos"														"c50"
-		"tall"	 													"50"
+		"ypos"														"c-10"
+		"tall"	 													"80"
 		"zpos"														"1"
 		"priority"													"40"
 	}
 	
 	CSecondaryTargetID
 	{
-		"ypos" 														"c80"
-		"zpos"														"6"
-		"tall" 														"50"
+		"ypos" 														"c20"
+		"tall" 														"80"
 		"priority" 													"35"
 	}
 	
 	CSpectatorTargetID
 	{
-		"ypos"														"r100"
-		"zpos"														"1"
-		"tall"	 													"50"
+		"ypos"														"r130"
+		"tall"	 													"80"
 		"priority"													"40"
 		
 		"x_offset" 													"20"

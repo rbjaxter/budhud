@@ -2,10 +2,7 @@
 {
 	"SpectatorGUIHealth"
 	{
-		"ypos"														"1"
-		"zpos"														"8"
-		"wide"														"55"
-		"tall"														"15"
+		"wide"														"60"
 	}
 
 	"TargetIDBG"

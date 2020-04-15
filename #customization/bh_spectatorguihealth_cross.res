@@ -9,8 +9,8 @@
 	{	
 		"ControlName"												"Label"
 		"fieldName"													"bh_TargetIDHealthAnchor"
-		"xpos"														"20"
-		"ypos"														"0"
+		"xpos"														"0"
+		"ypos"														"12"
 		"zpos"														"0"
 		"wide"														"100"
 		"tall"														"0"
@@ -21,8 +21,8 @@
 	
 	"PlayerStatusHealthImage"
 	{
-		"xpos"														"4"
-		"ypos"														"0"
+		"xpos"														"8"
+		"ypos"														"13"
 		"zpos"														"1"
 		"wide"														"15"
 		"tall"														"15"
@@ -30,8 +30,8 @@
 	
 	"PlayerStatusHealthBonusImage"
 	{
-		"xpos"														"4"
-		"ypos"														"0"
+		"xpos"														"8"
+		"ypos"														"13"
 		"zpos"														"0"
 		"wide"														"15"
 		"tall"														"15"
@@ -45,8 +45,8 @@
 	
 		"ControlName"												"Label"
 		"fieldName"													"PlayerStatusHealthValue"
-		"xpos"														"1"
-		"ypos"														"1"
+		"xpos"														"-24"
+		"ypos"														"0"
 		"zpos"														"5"
 		"wide"														"40"
 		"tall"														"16"
@@ -66,8 +66,8 @@
 	
 		"ControlName"												"Label"
 		"fieldName"													"PlayerStatusHealthValueShadow"
-		"xpos"														"0"
-		"ypos"														"0"
+		"xpos"														"-25"
+		"ypos"														"-1"
 		"zpos"														"5"
 		"wide"														"40"
 		"tall"														"16"
