@@ -22,9 +22,9 @@
 	
 	"crafting_panel"
 	{
-		"bgcolor_override"											"bh_Theme_BG00"
-		"infocus_bgcolor_override" 									"bh_Theme_BG00"
-		"outoffocus_bgcolor_override" 								"bh_Theme_BG00"
+		"bgcolor_override"											"bh_Theme_BG20"
+		"infocus_bgcolor_override" 									"bh_Theme_BG20"
+		"outoffocus_bgcolor_override" 								"bh_Theme_BG20"
 		
 		"recipebuttons_kv"
 		{

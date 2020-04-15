@@ -92,7 +92,7 @@
 				"tall"												"16"
 				"visible"											"1"
 				"enabled"											"1"
-				"bgcolor_override"									"bh_Theme_BG00"
+				"bgcolor_override"									"bh_Theme_BG20"
 			}
 			
 			"HealthIcon"
@@ -121,7 +121,7 @@
 				"labeltext"											""
 				"visible"											"1"
 				"enabled"											"1"
-				"fillcolor"											"bh_Theme_BG00"
+				"fillcolor"											"bh_Theme_BG20"
 				"image"												""
 				"paintbackgroundtype"								"0"
 			}			
@@ -140,7 +140,7 @@
 				"labeltext"											""
 				"visible"											"1"
 				"enabled"											"1"
-				"fillcolor"											"bh_orange"
+				"fillcolor"											"bh_Theme_AccentPrimary"
 				"image"												""
 				"paintbackgroundtype"								"0"
 			}
@@ -177,7 +177,7 @@
 				"tall"												"13"
 				"labelText"											"%chargeamount%"
 				"textAlignment"										"east"
-				"fgcolor"											"bh_Theme_TextMain"
+				"fgcolor"											"bh_Theme_AccentPrimary"
 			}
 			
 			"chargeamountBG"

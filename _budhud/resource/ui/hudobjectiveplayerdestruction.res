@@ -21,7 +21,7 @@
 			"labeltext"													""
 			"visible"													"1"
 			"enabled"													"1"
-			"fillcolor"													"bh_Theme_BG00"
+			"fillcolor"													"bh_Theme_BG20"
 			"image"														""
 			"paintbackgroundtype"										"0"
 		}

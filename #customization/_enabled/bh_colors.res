@@ -257,18 +257,17 @@ Scheme
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 		
 		// Standard
-		"bh_Theme_TextMain"											"240 134 049 255"
-		"bh_Theme_TextTitle"										"255 255 255 255"
-		"bh_Theme_TextBody"											"255 255 255 255"
+		"bh_Theme_AccentPrimary"									"240 134 049 255"
+		"bh_Theme_TextSecondary"									"255 255 255 255"
 		
-		"bh_Theme_BG-10"											"015 015 015 255"
-		"bh_Theme_BG00"												"025 025 025 255"										
-		"bh_Theme_BG20"												"045 045 045 255"
-		"bh_Theme_BG40"												"065 065 065 255"
+		"bh_Theme_BG00"												"015 015 015 255"
+		"bh_Theme_BG20"												"025 025 025 255"										
+		"bh_Theme_BG40"												"045 045 045 255"
+		"bh_Theme_BG60"												"065 065 065 255"
 		
 		"bh_ButtonDefault"											"255 255 255 255"		// White
 		"bh_ButtonBlank"											"000 000 000 000"
-		"bh_ButtonArmed"											"240 134 049 255"		// Match to "bh_Theme_TextMain"
+		"bh_ButtonArmed"											"240 134 049 255"		// Match to "bh_Theme_AccentPrimary"
 		"bh_ButtonDepressed"										"255 255 255 255"		// White
 		"bh_ButtonBGDefault"										"025 025 025 255"
 		"bh_ButtonBGArmed"											"035 035 035 255"
@@ -332,7 +331,7 @@ Scheme
 		"BgColor"													"000 000 000 060"		// Does nothing		
 		
 		// vgui_controls color specifications
-		ReplayBrowser.Details.TitleEdit.Carat.FgColor				"bh_Theme_TextMain"
+		ReplayBrowser.Details.TitleEdit.Carat.FgColor				"bh_Theme_AccentPrimary"
 		Replay.RenderDialog.BgColor									"30 30 30 255"
 		
 		Econ.Button.BgColor											"bh_ButtonBGDefault"
@@ -349,11 +348,11 @@ Scheme
 	
 		// Backpack page numbers
 		Button.TextColor											"bh_ButtonDefault"
-		Button.BgColor												"bh_Theme_BG00"
+		Button.BgColor												"bh_Theme_BG20"
 		Button.ArmedTextColor										"bh_white"
 		Button.ArmedBgColor											"bh_ButtonBGArmed"
 		Button.SelectedTextColor									"bh_white"
-		Button.SelectedBgColor										"bh_Theme_BG00"
+		Button.SelectedBgColor										"bh_Theme_BG20"
 		Button.DepressedTextColor									"bh_white"
 		Button.DepressedBgColor										"bh_ButtonBGDepressed"
 		

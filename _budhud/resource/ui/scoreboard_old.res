@@ -88,7 +88,7 @@
 	{
 		"xpos"														"463"
 		"ypos"														"376"
-		"fgcolor"													"bh_Theme_TextMain"
+		"fgcolor"													"bh_Theme_AccentPrimary"
 		"textAlignment" 											"east"
 		"wide"														"100"
 		

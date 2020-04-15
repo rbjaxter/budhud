@@ -6,9 +6,9 @@
 {
 	"ItemSelectionPanel"
 	{
-		"bgcolor_override"											"bh_Theme_BG00"
-		"infocus_bgcolor_override" 									"bh_Theme_BG00"
-		"outoffocus_bgcolor_override" 								"bh_Theme_BG00"
+		"bgcolor_override"											"bh_Theme_BG20"
+		"infocus_bgcolor_override" 									"bh_Theme_BG20"
+		"outoffocus_bgcolor_override" 								"bh_Theme_BG20"
 		
 		"modelpanels_kv"
 		{
@@ -35,11 +35,11 @@
 		"labeltext"													"#bh_Backpack"
 		"wide"														"100"
 		"tall"														"26"
-	 	"defaultBgColor_override"									"bh_Theme_BG-10"
+	 	"defaultBgColor_override"									"bh_Theme_BG00"
 		"armedBgColor_override"										"25 25 25 255"
 		"depressedBgColor_override"									"25 25 25 255"
 		"defaultFgColor_override"									"bh_white"
-		"armedFgColor_override" 									"bh_Theme_TextMain"
+		"armedFgColor_override" 									"bh_Theme_AccentPrimary"
 		"depressedFgColor_override" 								"bh_white"
 		"border_default"											"bh_b_NESW"
 		"border_armed"												"bh_b_NESW"

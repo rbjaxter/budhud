@@ -7,7 +7,7 @@
 	"PaintkitPreviewContainer"
 	{
 		"border"													"bh_blank"
-		"bgcolor_override"											"bh_Theme_BG00"
+		"bgcolor_override"											"bh_Theme_BG20"
 	}
 	
 	"ModelInspectionPanel"

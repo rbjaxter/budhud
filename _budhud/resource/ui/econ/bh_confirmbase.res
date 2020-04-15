@@ -60,25 +60,25 @@
 	
 	"TitleLabel"
 	{
-		"fgcolor_override"											"bh_Theme_TextMain"
+		"fgcolor_override"											"bh_Theme_AccentPrimary"
 		"tall"														"60"
 	}
 	
 	"ExplanationLabel"
 	{
-		"fgcolor_override"											"bh_Theme_TextBody"
+		"fgcolor_override"											"bh_Theme_TextSecondary"
 		"tall"														"60"
 	}
 
 	"DurationLabel"
 	{
-		"fgcolor_override"											"bh_Theme_TextBody"
+		"fgcolor_override"											"bh_Theme_TextSecondary"
 		"tall"														"60"
 	}
 	
 	"EllipsesLabel"
 	{
-		"fgcolor_override"											"bh_Theme_TextBody"
+		"fgcolor_override"											"bh_Theme_TextSecondary"
 		"tall"														"60"
 	}
 	

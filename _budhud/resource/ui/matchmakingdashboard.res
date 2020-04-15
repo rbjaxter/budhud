@@ -144,7 +144,7 @@
 	
 		"BGPanel"
 		{
-			"bgcolor_override"										"bh_Theme_BG00"
+			"bgcolor_override"										"bh_Theme_BG20"
 			"border"												"bh_b_S"
 			"xpos"													"0"
 			"wide"													"f0"
@@ -160,7 +160,7 @@
 		{
 			"BGPanel"
 			{
-				"bgcolor_override"									"bh_Theme_BG00"
+				"bgcolor_override"									"bh_Theme_BG20"
 				"border"											"bh_b_NESW"
 				"wide"												"f0"
 				"tall"												"f0"

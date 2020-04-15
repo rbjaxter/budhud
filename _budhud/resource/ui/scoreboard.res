@@ -409,7 +409,7 @@
 	
 		"xpos"														"-448"
 		"ypos"														"-35"
-		"fgcolor"													"bh_Theme_TextMain"
+		"fgcolor"													"bh_Theme_AccentPrimary"
 		"textAlignment" 											"east"
 		"wide"														"100"
 		

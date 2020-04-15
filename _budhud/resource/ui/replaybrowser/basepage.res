@@ -15,7 +15,7 @@
 		"tabPosition"												"0"
 		"settitlebarvisible"										"0"
 		"PaintBackgroundType"										"0"
-		"bgcolor_override"											"bh_Theme_BG00"
+		"bgcolor_override"											"bh_Theme_BG20"
 	}
 	"SearchTextEntry"
 	{

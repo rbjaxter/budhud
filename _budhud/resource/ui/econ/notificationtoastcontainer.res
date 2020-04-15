@@ -8,7 +8,7 @@
 	{
 		"wide"														"150"
 		"border"													"bh_b_NESW"
-		"bgcolor_override"											"bh_Theme_BG00"
+		"bgcolor_override"											"bh_Theme_BG20"
 	}
 
 	"HelpTextLabel"

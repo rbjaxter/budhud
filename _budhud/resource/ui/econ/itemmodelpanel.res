@@ -34,14 +34,14 @@
 			"wide"													"18"
 			"font"													"bh_Font8"
 			"fgcolor_override"										"bh_white"
-			"bgcolor_override"										"bh_Theme_BG00"
+			"bgcolor_override"										"bh_Theme_BG20"
 			"textalignment"											"center"
 			"PaintBackgroundType"									"0"
 		}
 		
 		"equippedlabel"
 		{
-			"bgcolor_override"										"bh_Theme_BG00"
+			"bgcolor_override"										"bh_Theme_BG20"
 			"textalignment"											"center"
 			"PaintBackgroundType"									"0"
 		}

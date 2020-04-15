@@ -7,7 +7,7 @@
 		
 		"BGPanel"
 		{
-			"bgcolor_override"										"bh_Theme_BG00"
+			"bgcolor_override"										"bh_Theme_BG20"
 			"border"												"bh_blank"
 		}
 	}

@@ -100,9 +100,9 @@
 		"textAlignment"												"center"
 		"font"														"bh_Font14"
 		"defaultFgColor_override" 									"bh_white"
-		"armedFgColor_override"										"bh_Theme_TextMain"
+		"armedFgColor_override"										"bh_Theme_AccentPrimary"
 		"depressedFgColor_override" 								"bh_white"
-		"selectedFgColor_override" 									"bh_Theme_TextMain"
+		"selectedFgColor_override" 									"bh_Theme_AccentPrimary"
 	}
 	
 	"teambutton3"
@@ -116,9 +116,9 @@
 		"textAlignment"												"center"
 		"font"														"bh_Font14"
 		"defaultFgColor_override" 									"bh_white"
-		"armedFgColor_override"										"bh_Theme_TextMain"
+		"armedFgColor_override"										"bh_Theme_AccentPrimary"
 		"depressedFgColor_override" 								"bh_white"
-		"selectedFgColor_override" 									"bh_Theme_TextMain"
+		"selectedFgColor_override" 									"bh_Theme_AccentPrimary"
 	}
 	
 	"CancelButton"

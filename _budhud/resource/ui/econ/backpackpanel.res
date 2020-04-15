@@ -17,9 +17,9 @@
 
 	"backpack_panel"
 	{
-		"bgcolor_override"											"bh_Theme_BG00"
-		"infocus_bgcolor_override" 									"bh_Theme_BG00"
-		"outoffocus_bgcolor_override" 								"bh_Theme_BG00"
+		"bgcolor_override"											"bh_Theme_BG20"
+		"infocus_bgcolor_override" 									"bh_Theme_BG20"
+		"outoffocus_bgcolor_override" 								"bh_Theme_BG20"
 //		"zpos"														"0"
 		
 		"page_button_y"												"285"
@@ -83,7 +83,7 @@
 		"disabledFgColor_override" 									"bh_white"
 	//	"disabledBgColor_override" 									"bh_blank"
 		"selectionColor_override"									"bh_blank"
-		"selectionTextColor_override"								"bh_Theme_TextMain"
+		"selectionTextColor_override"								"bh_Theme_AccentPrimary"
 	//	"defaultSelectionBG2Color_override"							"bh_blank"
 	}
 	
@@ -104,7 +104,7 @@
 	"NameFilterEntry"
 	{
 		"fgcolor_override"											"bh_white"
-		"bgcolor_override"											"bh_Theme_BG-10"
+		"bgcolor_override"											"bh_Theme_BG00"
 		"paintbackgroundtype" 										"0"
 		"border_default"											"bh_b_NESW"
 		"border_armed"												"bh_b_NESW"

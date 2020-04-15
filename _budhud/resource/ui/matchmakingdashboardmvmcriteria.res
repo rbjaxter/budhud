@@ -6,7 +6,7 @@
 	{
 		"wide"														"450"
 		"zpos"														"2500"		// BackgroundDimmer zpos is locked to 1000 (lol)
-		"bgcolor_override"											"bh_Theme_BG00"
+		"bgcolor_override"											"bh_Theme_BG20"
 		"border"													"bh_b_W"
 	}
 	

@@ -68,8 +68,8 @@ Scheme
 		TextEntry.DisabledTextColor									"bh_white"
 		TextEntry.DisabledBgColor									"025 025 025 255"
 		TextEntry.SelectedTextColor									"bh_black"
-		TextEntry.SelectedBgColor									"bh_orange"
-		TextEntry.OutOfFocusSelectedBgColor							"bh_orange"
+		TextEntry.SelectedBgColor									"bh_Theme_AccentPrimary"
+		TextEntry.OutOfFocusSelectedBgColor							"bh_Theme_AccentPrimary"
 		TextEntry.FocusEdgeColor									"0 0 0 196"
 		
 		// Console
