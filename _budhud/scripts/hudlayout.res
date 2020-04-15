@@ -39,81 +39,8 @@
 		"ypos"														"c41"
 		"wide"														"250"
 		"tall"														"150"
-	}	
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// TEAM INDICATOR
-	// Appears as a bar across the bottom of your screen
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-
-	"bh_TeamIndicator"
-	{
-		"ControlName"												"CTFImagePanel"
-		"fieldName"													"bh_TeamIndicator"
-		"xpos"														"0"
-		"ypos"														"r1"
-		"zpos"														"-50"
-		"wide"														"f0"
-		"tall"	 													"1"
-		"visible"													"0"
-		"enabled"													"0"
-		"image"														"replay\thumbnails\tid_gray"
-		"teambg_1"													"replay\thumbnails\tid_gray"
-		"teambg_2"													"replay\thumbnails\tid_red"
-		"teambg_3"													"replay\thumbnails\tid_blue"
 	}
 	
-	"bh_TeamIndicator2"
-	{
-		"ControlName"												"CTFImagePanel"
-		"fieldName"													"bh_TeamIndicator2"
-		"xpos"														"0"
-		"ypos"														"0"
-		"zpos"														"-50"
-		"wide"														"f0"
-		"tall"	 													"1"
-		"visible"													"0"
-		"enabled"													"0"
-		"image"														"replay\thumbnails\tid_gray"
-		"teambg_1"													"replay\thumbnails\tid_gray"
-		"teambg_2"													"replay\thumbnails\tid_red"
-		"teambg_3"													"replay\thumbnails\tid_blue"
-	}
-	
-	"bh_TeamIndicator3"
-	{
-		"ControlName"												"CTFImagePanel"
-		"fieldName"													"bh_TeamIndicator3"
-		"xpos"														"0"
-		"ypos"														"0"
-		"zpos"														"-50"
-		"wide"														"1"
-		"tall"	 													"f0"
-		"visible"													"0"
-		"enabled"													"0"
-		"image"														"replay\thumbnails\tid_gray"
-		"teambg_1"													"replay\thumbnails\tid_gray"
-		"teambg_2"													"replay\thumbnails\tid_red"
-		"teambg_3"													"replay\thumbnails\tid_blue"
-	}
-	
-	"bh_TeamIndicator4"
-	{
-		"ControlName"												"CTFImagePanel"
-		"fieldName"													"bh_TeamIndicator4"
-		"xpos"														"r1"
-		"ypos"														"0"
-		"zpos"														"-50"
-		"wide"														"1"
-		"tall"	 													"f0"
-		"visible"													"0"
-		"enabled"													"0"
-		"image"														"replay\thumbnails\tid_gray"
-		"teambg_1"													"replay\thumbnails\tid_gray"
-		"teambg_2"													"replay\thumbnails\tid_red"
-		"teambg_3"													"replay\thumbnails\tid_blue"
-	}
-
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Flag pickup notifs
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -364,6 +291,11 @@
 		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
 		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
 	}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// DO NOT ADD A ZPOS VALUE HERE
+	// IT CAUSES THE ENTIRE GAME NOT TO LOAD
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	HudDeathNotice
 	{
