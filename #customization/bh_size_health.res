@@ -7,7 +7,7 @@
 		"zpos"														"-6969"
 		"wide"														"81"
 		"tall"														"42"
-    }
+   	}
 
 	"PlayerStatusHealthValue"
 	{
@@ -17,5 +17,14 @@
 	"PlayerStatusHealthValueShadow"
 	{
 		"font"														"bh_Font60"
+	}
+	
+	"PlayerStatusHealthBonusImage"
+	{
+		"xpos"														"100"
+		"ypos"														"51"
+		"zpos"														"-10"
+		"wide"														"51"
+		"tall"														"51"
 	}
 }
