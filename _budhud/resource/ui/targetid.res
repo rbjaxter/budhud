@@ -159,7 +159,7 @@
 	
 	"AmmoIcon"
 	{
-		"xpos"														"48"
+		"xpos"														"45"
 		"ypos"														"50"
 	}
 	
