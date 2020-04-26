@@ -70,11 +70,27 @@ Scheme
 	// Uber Charge Meter
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
+		//////////////////////////////
+		// Default Charge Meter Colors
+		//////////////////////////////
+	
 		"bh_chargecolor1"											"243 157 048 255"	// When full, uber will change between these two values
 		"bh_chargecolor2"											"204 093 027 255"
 		"bh_chargemeter"											"255 255 255 255"	// Uber chargemeter fill color
 		"bh_chargemeterBG"											"150 150 150 255"	// Uber chargemeter background
-		
+
+		//////////////////////////////
+		// Rainbow Charge Meter Colors
+		//////////////////////////////
+	
+		"bh_rainbowcolor1"											"255 000 000 255"
+		"bh_rainbowcolor2"											"255 127 000 255"
+		"bh_rainbowcolor3"											"255 255 000 255"
+		"bh_rainbowcolor4"											"000 255 000 255"
+		"bh_rainbowcolor5"											"000 000 255 255"
+		"bh_rainbowcolor6"											"075 000 130 255"
+		"bh_rainbowcolor7"											"139 000 255 255"
+			
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Item Charge Meters
 	// Currently, these colors cannot be changed. They're set to bright pink so it's obvious if it's fixed.
