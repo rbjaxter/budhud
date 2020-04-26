@@ -6,9 +6,9 @@
 {
 	"StorePage"
 	{
-		"bgcolor_override"											"bh_Theme_BG00"
-		"infocus_bgcolor_override" 									"bh_Theme_BG00"
-		"outoffocus_bgcolor_override" 								"bh_Theme_BG00"
+		"bgcolor_override"											"bh_Theme_BG20"
+		"infocus_bgcolor_override" 									"bh_Theme_BG20"
+		"outoffocus_bgcolor_override" 								"bh_Theme_BG20"
 		
 		"modelpanels_kv"
 		{
@@ -165,13 +165,13 @@
 	"NameFilterTextEntry"
 	{
 		"bgcolor_override"											"bh_white"
-		"selectionColor_override"									"bh_Theme_TextMain"
+		"selectionColor_override"									"bh_Theme_AccentPrimary"
 	}
 	
 	"SortFilterComboBox"
 	{
 		"bgcolor_override"											"bh_white"
-		"selectionColor_override"									"bh_Theme_TextMain"
+		"selectionColor_override"									"bh_Theme_AccentPrimary"
 		
 		"Button"
 		{
@@ -197,7 +197,7 @@
 	"SubcategoryFilterComboBox"
 	{
 		"bgcolor_override"											"bh_white"
-		"selectionColor_override"									"bh_Theme_TextMain"
+		"selectionColor_override"									"bh_Theme_AccentPrimary"
 		
 		"Button"
 		{

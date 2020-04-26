@@ -78,7 +78,7 @@
 	{
 		"ypos"														"-53"
 		"font"														"bh_Font12"
-		"fgcolor_override"											"bh_orange"
+		"fgcolor_override"											"bh_Theme_AccentPrimary"
 	}
 	
 	"ProgressSelfPlayerIcon"

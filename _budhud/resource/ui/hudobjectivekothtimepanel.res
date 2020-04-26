@@ -58,7 +58,7 @@
 		"ypos"														"16"	
 		"wide"														"40"	
 		"tall"														"1"	
-		"fillcolor"													"bh_Theme_TextMain"	
+		"fillcolor"													"bh_Theme_AccentPrimary"	
 		"image"														""	
 	}
 }

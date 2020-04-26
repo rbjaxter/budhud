@@ -18,7 +18,7 @@
 			"wide"													"f0"
 			"textalignment"											"center"
 			"ypos"													"2"
-			"fgcolor"												"bh_white"
+			"fgcolor"												"bh_Theme_AccentPrimary"
 		}
 		
 		"SelectedCount"
@@ -27,7 +27,7 @@
 			"wide"													"f0"
 			"textalignment"											"center"
 			"ypos"													"15"
-			"fgcolor_override"										"bh_white"
+			"fgcolor_override"										"bh_Theme_TextSecondary"
 		}
 		
 		"RestoreCasualSearchCriteria"

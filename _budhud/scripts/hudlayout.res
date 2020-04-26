@@ -11,7 +11,7 @@
 	// Red indicator when getting hit
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	HudDamageIndicator
+	"HudDamageIndicator"
 	{
 		"fieldName" 												"HudDamageIndicator"		// Remove everything besides 
 		"visible" 													"1" 	                    //
@@ -30,7 +30,7 @@
 	// Moves the entirety of the ammo elements
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	HudWeaponAmmo		
+	"HudWeaponAmmo"
 	{		
 		"fieldName" 												"HudWeaponAmmo"
 		"visible" 													"1"
@@ -39,86 +39,13 @@
 		"ypos"														"c41"
 		"wide"														"250"
 		"tall"														"150"
-	}	
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// TEAM INDICATOR
-	// Appears as a bar across the bottom of your screen
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-
-	"bh_TeamIndicator"
-	{
-		"ControlName"												"CTFImagePanel"
-		"fieldName"													"bh_TeamIndicator"
-		"xpos"														"0"
-		"ypos"														"r1"
-		"zpos"														"-50"
-		"wide"														"f0"
-		"tall"	 													"1"
-		"visible"													"0"
-		"enabled"													"0"
-		"image"														"replay\thumbnails\tid_gray"
-		"teambg_1"													"replay\thumbnails\tid_gray"
-		"teambg_2"													"replay\thumbnails\tid_red"
-		"teambg_3"													"replay\thumbnails\tid_blue"
 	}
 	
-	"bh_TeamIndicator2"
-	{
-		"ControlName"												"CTFImagePanel"
-		"fieldName"													"bh_TeamIndicator2"
-		"xpos"														"0"
-		"ypos"														"0"
-		"zpos"														"-50"
-		"wide"														"f0"
-		"tall"	 													"1"
-		"visible"													"0"
-		"enabled"													"0"
-		"image"														"replay\thumbnails\tid_gray"
-		"teambg_1"													"replay\thumbnails\tid_gray"
-		"teambg_2"													"replay\thumbnails\tid_red"
-		"teambg_3"													"replay\thumbnails\tid_blue"
-	}
-	
-	"bh_TeamIndicator3"
-	{
-		"ControlName"												"CTFImagePanel"
-		"fieldName"													"bh_TeamIndicator3"
-		"xpos"														"0"
-		"ypos"														"0"
-		"zpos"														"-50"
-		"wide"														"1"
-		"tall"	 													"f0"
-		"visible"													"0"
-		"enabled"													"0"
-		"image"														"replay\thumbnails\tid_gray"
-		"teambg_1"													"replay\thumbnails\tid_gray"
-		"teambg_2"													"replay\thumbnails\tid_red"
-		"teambg_3"													"replay\thumbnails\tid_blue"
-	}
-	
-	"bh_TeamIndicator4"
-	{
-		"ControlName"												"CTFImagePanel"
-		"fieldName"													"bh_TeamIndicator4"
-		"xpos"														"r1"
-		"ypos"														"0"
-		"zpos"														"-50"
-		"wide"														"1"
-		"tall"	 													"f0"
-		"visible"													"0"
-		"enabled"													"0"
-		"image"														"replay\thumbnails\tid_gray"
-		"teambg_1"													"replay\thumbnails\tid_gray"
-		"teambg_2"													"replay\thumbnails\tid_red"
-		"teambg_3"													"replay\thumbnails\tid_blue"
-	}
-
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Flag pickup notifs
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	NotificationPanel
+	"NotificationPanel"
 	{
 		"ypos"														"r-6969"
 	}
@@ -127,7 +54,7 @@
 	// Overhead player health bar/name when spectating/dead
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
 	
-	HudSpectatorExtras
+	"HudSpectatorExtras"
 	{
 		"player_name_font"											"bh_Font10Drop"
 	}	
@@ -160,7 +87,7 @@
 	// Shows when you get close to beating a record you set (dominations, revenges, etc)
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	StatPanel
+	"StatPanel"
 	{
 		"ypos"														"r-6969"
 	}
@@ -169,7 +96,7 @@
 	// Health pickup
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	CHealthAccountPanel	
+	"CHealthAccountPanel"	
 	{	
 		"xpos"														"c-150"
 		"ypos"														"r180"
@@ -222,7 +149,7 @@
 		"PaintBackgroundType"										"0"
 	}
 
-	BuildingStatus_Spy
+	"BuildingStatus_Spy"
 	{
 		"visible" 													"1"
 		"enabled" 													"1"
@@ -233,7 +160,7 @@
 		"PaintBackgroundType"										"0"
 	}
 	
-	HudMenuTauntSelection
+	"HudMenuTauntSelection"
 	{
 		"visible" 													"1"
 		"enabled" 													"1"
@@ -245,12 +172,12 @@
 		"PaintBackgroundType"										"0"
 	}
 	
-	HudArenaCapPointCountdown
+	"HudArenaCapPointCountdown"
 	{
 		"ypos"														"r34"
 	}
 	
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"xpos"														"0"
 		"ypos"														"0"
@@ -258,7 +185,7 @@
 		"tall"														"f0"
 	}
 
-	HudMedicCharge		
+	"HudMedicCharge"
 	{		
 		"xpos"														"0"
 		"ypos"														"0"
@@ -266,7 +193,7 @@
 		"tall"														"f0"
 	}
 
-	HudDemomanCharge			
+	"HudDemomanCharge"	
 	{			
 		"xpos"														"0"
 		"ypos"														"0"
@@ -274,18 +201,18 @@
 		"tall"														"f0"
 	}
 
-	HudBowCharge			
+	"HudBowCharge"
 	{			
 		"ypos"														"r-6969"
 	}
 
-	HudBossHealth			
+	"HudBossHealth"
 	{			
 		"wide"														"f0"
 		"tall"														"f0"
 	}
-		
-	CHudAccountPanel
+
+	"CHudAccountPanel"
 	{
 		"xpos"														"c-100"
 		"ypos"														"c110"
@@ -294,14 +221,14 @@
 		"textAlignment"												"center"
 	}
 
-	CDamageAccountPanel	
+	"CDamageAccountPanel"
 	{	
 		"xpos"														"2"
 		"ypos"														"10"
 		"tall"														"f0"
 	}
-		
-	DisguiseStatus
+
+	"DisguiseStatus"
 	{
 		"xpos"														"53"
 		"ypos"														"r70"
@@ -314,27 +241,25 @@
 	// xpos/wide has no effect
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	CMainTargetID				
+	"CMainTargetID"	
 	{				
-		"ypos"														"c50"
-		"tall"	 													"50"
+		"ypos"														"c15"
+		"tall"	 													"80"
 		"zpos"														"1"
 		"priority"													"40"
 	}
 	
-	CSecondaryTargetID
+	"CSecondaryTargetID"
 	{
-		"ypos" 														"c80"
-		"zpos"														"6"
-		"tall" 														"50"
+		"ypos" 														"c45"
+		"tall" 														"80"
 		"priority" 													"35"
 	}
 	
-	CSpectatorTargetID
+	"CSpectatorTargetID"
 	{
-		"ypos"														"r100"
-		"zpos"														"1"
-		"tall"	 													"50"
+		"ypos"														"r130"
+		"tall"	 													"80"
 		"priority"													"40"
 		
 		"x_offset" 													"20"
@@ -355,7 +280,7 @@
 		"bgcolor_override"											"0 0 0 0"
 	}	
 	
-	BuildingStatus_Engineer
+	"BuildingStatus_Engineer"
 	{
 		"xpos"														"0"
 		"ypos"														"0"
@@ -367,7 +292,12 @@
 		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
 	}
 	
-	HudDeathNotice
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// DO NOT ADD A ZPOS VALUE HERE
+	// IT CAUSES THE ENTIRE GAME NOT TO LOAD
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	"HudDeathNotice"
 	{
 		"xpos"	 													"r638"
 		"ypos"	 													"18"
@@ -392,7 +322,7 @@
 		"LocalBackgroundColor"										"200 200 200 200"
 	}
 
-	HudCloseCaption
+	"HudCloseCaption"
 	{
 		"pin_to_sibling" 											"HudWeaponAmmo"
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
@@ -410,13 +340,13 @@
 		"topoffset"													"0"
 	}
 
-	HudVoiceSelfStatus
+	"HudVoiceSelfStatus"
 	{
 		"wide" 														"25"
 		"tall" 														"25"
 	}
 
-	HudVoiceStatus
+	"HudVoiceStatus"
 	{
 		"wide" 														"145"
 		"tall" 														"400"
@@ -443,7 +373,7 @@
 		"text_wide"													"88"
 	}
 
-	HudHintDisplay
+	"HudHintDisplay"
 	{
 		"ypos"														"c100"
 		"zpos"														"5"
@@ -453,24 +383,24 @@
 		"TextColor"													"255 255 255 255"
 	}	
 
-	HudHintKeyDisplay
+	"HudHintKeyDisplay"
 	{
 		"TextColor"													"255 255 255 255"
 	}
 	
-	HudControlPointIcons
+	"HudControlPointIcons"
 	{
 		"separator_width"											"5"	// distance between the icons (including their backgrounds)
 		"separator_height"											"3"
 		"height_offset"												"2" // distance from the bottom of the panel
 	}
 	
-	HUDAutoAim
+	"HUDAutoAim"
 	{
 		"justin_danford"											"1"
 	}	
 	
-	WinPanel
+	"WinPanel"
 	{
 		"xpos"														"c-112"
 		"ypos"														"270"
@@ -478,7 +408,7 @@
 		"tall"														"300"
 	}
 	
-	ArenaWinPanel	
+	"ArenaWinPanel"
 	{	
 		"xpos"														"c-225"
 		"ypos"														"260"
@@ -486,7 +416,7 @@
 		"tall"														"300"
 	}	
 	
-	"HudChat"			
+	"HudChat"
 	{			
 		"xpos"														"50"
 		"ypos"														"275"
@@ -503,7 +433,7 @@
 		"tall"														"250"
 	}
 	
-	HudDemomanPipes
+	"HudDemomanPipes"
 	{
 		"xpos"														"0"
 		"ypos"														"0"
@@ -511,12 +441,12 @@
 		"tall"														"f0"
 	}
 
-	HudTeamGoal
+	"HudTeamGoal"
 	{
 		"ypos"														"r-6969"
 	}
 	
-	HudTeamGoalTournament	
+	"HudTeamGoalTournament"
 	{	
 		"xpos"														"c-160"
 		"ypos"														"15"
@@ -525,7 +455,7 @@
 		"tall"														"245"
 	}
 	
-	HudStopWatch	
+	"HudStopWatch"
 	{	
 		"xpos"														"0"
 		"ypos"														"0"
@@ -543,11 +473,11 @@
 		"tall"														"280"
 	}
 	
-	HudInspectPanel
+	"HudInspectPanel"
 	{
 		"xpos"														"0"
 		"ypos"														"0"
-		"wide"														"270"
+		"wide"														"f0"
 		"tall"														"f0"
 	}
 }

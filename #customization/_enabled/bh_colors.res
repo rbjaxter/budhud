@@ -70,11 +70,27 @@ Scheme
 	// Uber Charge Meter
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
+		//////////////////////////////
+		// Default Charge Meter Colors
+		//////////////////////////////
+	
 		"bh_chargecolor1"											"243 157 048 255"	// When full, uber will change between these two values
 		"bh_chargecolor2"											"204 093 027 255"
 		"bh_chargemeter"											"255 255 255 255"	// Uber chargemeter fill color
 		"bh_chargemeterBG"											"150 150 150 255"	// Uber chargemeter background
-		
+
+		//////////////////////////////
+		// Rainbow Charge Meter Colors
+		//////////////////////////////
+	
+		"bh_rainbowcolor1"											"255 000 000 255"
+		"bh_rainbowcolor2"											"255 127 000 255"
+		"bh_rainbowcolor3"											"255 255 000 255"
+		"bh_rainbowcolor4"											"000 255 000 255"
+		"bh_rainbowcolor5"											"000 000 255 255"
+		"bh_rainbowcolor6"											"075 000 130 255"
+		"bh_rainbowcolor7"											"139 000 255 255"
+			
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Item Charge Meters
 	// Currently, these colors cannot be changed. They're set to bright pink so it's obvious if it's fixed.
@@ -257,18 +273,17 @@ Scheme
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 		
 		// Standard
-		"bh_Theme_TextMain"											"240 134 049 255"
-		"bh_Theme_TextTitle"										"255 255 255 255"
-		"bh_Theme_TextBody"											"255 255 255 255"
+		"bh_Theme_AccentPrimary"									"240 134 049 255"
+		"bh_Theme_TextSecondary"									"255 255 255 255"
 		
-		"bh_Theme_BG-10"											"015 015 015 255"
-		"bh_Theme_BG00"												"025 025 025 255"										
-		"bh_Theme_BG20"												"045 045 045 255"
-		"bh_Theme_BG40"												"065 065 065 255"
+		"bh_Theme_BG00"												"015 015 015 255"
+		"bh_Theme_BG20"												"025 025 025 255"										
+		"bh_Theme_BG40"												"045 045 045 255"
+		"bh_Theme_BG60"												"065 065 065 255"
 		
 		"bh_ButtonDefault"											"255 255 255 255"		// White
 		"bh_ButtonBlank"											"000 000 000 000"
-		"bh_ButtonArmed"											"240 134 049 255"		// Match to "bh_Theme_TextMain"
+		"bh_ButtonArmed"											"240 134 049 255"		// Match to "bh_Theme_AccentPrimary"
 		"bh_ButtonDepressed"										"255 255 255 255"		// White
 		"bh_ButtonBGDefault"										"025 025 025 255"
 		"bh_ButtonBGArmed"											"035 035 035 255"
@@ -332,7 +347,7 @@ Scheme
 		"BgColor"													"000 000 000 060"		// Does nothing		
 		
 		// vgui_controls color specifications
-		ReplayBrowser.Details.TitleEdit.Carat.FgColor				"bh_Theme_TextMain"
+		ReplayBrowser.Details.TitleEdit.Carat.FgColor				"bh_Theme_AccentPrimary"
 		Replay.RenderDialog.BgColor									"30 30 30 255"
 		
 		Econ.Button.BgColor											"bh_ButtonBGDefault"
@@ -349,11 +364,11 @@ Scheme
 	
 		// Backpack page numbers
 		Button.TextColor											"bh_ButtonDefault"
-		Button.BgColor												"bh_Theme_BG00"
+		Button.BgColor												"bh_Theme_BG20"
 		Button.ArmedTextColor										"bh_white"
 		Button.ArmedBgColor											"bh_ButtonBGArmed"
 		Button.SelectedTextColor									"bh_white"
-		Button.SelectedBgColor										"bh_Theme_BG00"
+		Button.SelectedBgColor										"bh_Theme_BG20"
 		Button.DepressedTextColor									"bh_white"
 		Button.DepressedBgColor										"bh_ButtonBGDepressed"
 		

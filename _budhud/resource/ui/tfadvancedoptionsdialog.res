@@ -14,7 +14,7 @@
 	
 	"TooltipPanel"
 	{
-		"fgcolor_override"											"bh_Theme_TextMain"
+		"fgcolor_override"											"bh_Theme_AccentPrimary"
 		"border"													"ReplayGrayDialogBorder"
 		
 		"TipLabel"
@@ -35,7 +35,7 @@
 	
 	"TitleLabel"
 	{
-		"fgcolor_override"											"bh_Theme_TextMain"
+		"fgcolor_override"											"bh_Theme_AccentPrimary"
 	}
 	
 	"bh_Cancel"
@@ -62,7 +62,7 @@
 		"sound_depressed"											"UI/buttonclick.wav"
 		"sound_released"											"UI/buttonclickrelease.wav"
 		"defaultFgColor_override"									"bh_white"
-		"armedFgColor_override" 									"bh_Theme_TextMain"
+		"armedFgColor_override" 									"bh_Theme_AccentPrimary"
 		"depressedFgColor_override" 								"bh_white"
 		"border_default"											"bh_b_NESW"
 		"border_armed"												"bh_b_NESW"
@@ -92,7 +92,7 @@
 		"sound_depressed"											"UI/buttonclick.wav"
 		"sound_released"											"UI/buttonclickrelease.wav"
 		"defaultFgColor_override"									"bh_white"
-		"armedFgColor_override" 									"bh_Theme_TextMain"
+		"armedFgColor_override" 									"bh_Theme_AccentPrimary"
 		"depressedFgColor_override" 								"bh_white"
 		"border_default"											"bh_b_NESW"
 		"border_armed"												"bh_b_NESW"

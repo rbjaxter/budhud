@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$translucent" 		1
+	"$baseTexture" 		"vgui\replay\thumbnails\team_colors\bh_targetid_red"
+   	"$nolod" 			1
+}

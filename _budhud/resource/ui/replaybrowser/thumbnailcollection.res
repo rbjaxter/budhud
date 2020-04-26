@@ -84,7 +84,7 @@
 		"visible"													"0"
 		"enabled"													"1"
 		"wide"														"f0"
-		"fgcolor_override"											"bh_Theme_TextMain"
+		"fgcolor_override"											"bh_Theme_AccentPrimary"
 	}
 	"WarningLabel"
 	{
@@ -97,7 +97,7 @@
 		"pinCorner"													"0"
 		"visible"													"0"
 		"enabled"													"1"
-		"fgcolor_override"											"bh_Theme_TextMain"
+		"fgcolor_override"											"bh_Theme_AccentPrimary"
 		"wrap"														"1"
 	}
 	"Line"
@@ -127,7 +127,7 @@
 		"visible"													"0"
 		"enabled"													"0"
 		"wide"														"0"
-		"fgcolor_override"											"bh_Theme_TextMain"
+		"fgcolor_override"											"bh_Theme_AccentPrimary"
 	}
 	"UnconvertedBg"
 	{

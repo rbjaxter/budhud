@@ -2,6 +2,7 @@
 {	
 	"itempanel"
 	{
+		"xpos"														"r200"
 		"bgcolor_override"											"bh_ItemPanel"
 		"PaintBackgroundType"										"1"
 	

@@ -3,6 +3,7 @@
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Excluding MainMenuOverride breaks things
+	// April 8th 2020 - it used to? doesn't seem to anymore
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	MainMenuOverride
@@ -426,7 +427,7 @@
 		"Notifications_TitleLabel"
 		{
 			"ypos"													"6"
-			"fgcolor_override"										"bh_Theme_TextMain"
+			"fgcolor_override"										"bh_Theme_AccentPrimary"
 		}
 	}	
 	
@@ -865,7 +866,7 @@
 		"labeltext"													""
 		"visible"													"1"
 		"enabled"													"1"
-		"fillcolor"													"bh_Theme_BG00"
+		"fillcolor"													"bh_Theme_BG20"
 		"border"													"bh_b_N"
 		"image"														""
 		"paintbackgroundtype"										"0"
@@ -894,7 +895,7 @@
 		"border_armed"												"NoBorder"
 		"paintbackground"											"0"
 		"defaultFgColor_override" 									"bh_white"
-		"armedFgColor_override" 									"bh_Theme_TextMain"
+		"armedFgColor_override" 									"bh_Theme_AccentPrimary"
 		"image_drawcolor"											"255 255 255 255"
 		"image_armedcolor"											"240 134 49 255"
 		"use_proportional_insets"									"1"
@@ -1666,7 +1667,7 @@
 				"scaleImage"										"1"
 			}				
 		}
-	}	
+	}
 	
 	"bh_ConsoleButton"
 	{

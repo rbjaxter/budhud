@@ -37,7 +37,7 @@
 		"image"														""
 		"scaleImage"												"1"
 		
-		"fillcolor"													"bh_Theme_BG00"
+		"fillcolor"													"bh_Theme_BG20"
 	}
 	
 	"StatData"
@@ -48,13 +48,13 @@
 		"AveragesBG"
 		{
 			"wide"													"0"
-			"bgcolor_override"										"bh_Theme_BG-10"
+			"bgcolor_override"										"bh_Theme_BG00"
 		}
 		
 		"RecordsBG"
 		{
 			"wide"													"0"
-			"bgcolor_override"										"bh_Theme_BG-10"
+			"bgcolor_override"										"bh_Theme_BG00"
 		}
 		
 		"AveragesLabel"
@@ -166,7 +166,7 @@
 	
 	"MapInfo"
 	{
-		"bgcolor_override"											"bh_Theme_BG00"	
+		"bgcolor_override"											"bh_Theme_BG20"	
 		"zpos"														"20"
 		
 		"Background"

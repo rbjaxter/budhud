@@ -61,29 +61,6 @@ Scheme
 		Console.TextColor											"bh_yellow"				// Color of entered console commands
 		Console.DevTextColor										"bh_IsError"			// Unknown
 		
-		// Arrow Buttons
-		// ScrollBarButton.FgColor									"bh_white"
-		// ScrollBarButton.BgColor									"bh_blank"
-		// ScrollBarButton.ArmedFgColor								"bh_white"
-		// ScrollBarButton.ArmedBgColor								"bh_blank"
-		// ScrollBarButton.DepressedFgColor							"bh_white"
-		// ScrollBarButton.DepressedBgColor							"bh_blank"
-
-		// Scroll Bars
-		// ScrollBarSlider.FgColor									"bh_blank"				// nob color
-		// ScrollBarSlider.BgColor									"255 0 255 64"			// slider background color
-
-		// SectionedListPanel.HeaderTextColor						"bh_white"
-		// SectionedListPanel.HeaderBgColor							"bh_blank"
-		// SectionedListPanel.DividerColor							"bh_black"
-		// SectionedListPanel.TextColor								"bh_white"
-		// SectionedListPanel.BrightTextColor						"bh_white"
-		// SectionedListPanel.BgColor								"bh_black"
-		// SectionedListPanel.SelectedTextColor						"bh_black"
-		// SectionedListPanel.SelectedBgColor						"bh_orange"
-		// SectionedListPanel.OutOfFocusSelectedTextColor			"bh_black"
-		// SectionedListPanel.OutOfFocusSelectedBgColor				"bh_white"
-		
 		// All boxes you can type into
 		TextEntry.TextColor											"bh_white"
 		TextEntry.BgColor											"025 025 025 255"
@@ -91,8 +68,8 @@ Scheme
 		TextEntry.DisabledTextColor									"bh_white"
 		TextEntry.DisabledBgColor									"025 025 025 255"
 		TextEntry.SelectedTextColor									"bh_black"
-		TextEntry.SelectedBgColor									"bh_orange"
-		TextEntry.OutOfFocusSelectedBgColor							"bh_orange"
+		TextEntry.SelectedBgColor									"bh_Theme_AccentPrimary"
+		TextEntry.OutOfFocusSelectedBgColor							"bh_Theme_AccentPrimary"
 		TextEntry.FocusEdgeColor									"0 0 0 196"
 		
 		// Console

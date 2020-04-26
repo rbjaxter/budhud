@@ -65,7 +65,7 @@
 		"font"														"bh_Font12"
 		"labeltext"													"#bh_LowAmmo"
 		"textalignment"												"center"
-		"fgcolor_override"											"bh_Theme_TextMain"
+		"fgcolor_override"											"bh_Theme_AccentPrimary"
 		"proportionaltoparent"										"1"
 	}
 	

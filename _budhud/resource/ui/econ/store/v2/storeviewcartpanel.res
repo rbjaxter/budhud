@@ -12,9 +12,9 @@
 
 	"store_viewcart_panel"
 	{
-		"bgcolor_override"											"bh_Theme_BG00"
-		"infocus_bgcolor_override" 									"bh_Theme_BG00"
-		"outoffocus_bgcolor_override" 								"bh_Theme_BG00"
+		"bgcolor_override"											"bh_Theme_BG20"
+		"infocus_bgcolor_override" 									"bh_Theme_BG20"
+		"outoffocus_bgcolor_override" 								"bh_Theme_BG20"
 		
 		"item_entry_kv"
 		{
@@ -49,7 +49,7 @@
 	
 	"ClientArea"
 	{
-		"bgcolor_override"											"bh_Theme_BG00"
+		"bgcolor_override"											"bh_Theme_BG20"
 		
 		"ItemListContainerScroller"
 		{

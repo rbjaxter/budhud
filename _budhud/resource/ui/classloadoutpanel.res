@@ -37,9 +37,9 @@
 	
 	"class_loadout_panel"
 	{
-		"bgcolor_override"											"bh_Theme_BG00"
-		"infocus_bgcolor_override"									"bh_Theme_BG00"
-		"outoffocus_bgcolor_override" 								"bh_Theme_BG00"
+		"bgcolor_override"											"bh_Theme_BG20"
+		"infocus_bgcolor_override"									"bh_Theme_BG20"
+		"outoffocus_bgcolor_override" 								"bh_Theme_BG20"
 		
 		"item_xpos_offcenter_a"										"-310"		// Left panel x position
 		"item_xpos_offcenter_b"										"165"		// Right Panel x position
@@ -75,7 +75,7 @@
 			"PaintBackground"										"0"
 			
 			"defaultFgColor_override" 								"bh_white"
-			"armedFgColor_override" 								"bh_Theme_TextMain"
+			"armedFgColor_override" 								"bh_Theme_AccentPrimary"
 
 			"border_default"										"NoBorder"
 			"border_armed"											"NoBorder"
@@ -165,7 +165,7 @@
 		"command"													"sv_cheats 1;r_skin 0;r_eyes 1"
 		
 		"defaultFgColor_override" 									"bh_red"
-		"armedFgColor_override" 									"bh_Theme_TextMain"
+		"armedFgColor_override" 									"bh_Theme_AccentPrimary"
 		
 		"sound_depressed"											"UI/buttonclick.wav"
 		"sound_released"											"UI/buttonclickrelease.wav"
@@ -196,7 +196,7 @@
 		"command"													"sv_cheats 1;r_skin 1;r_eyes 1"
 		
 		"defaultFgColor_override" 									"bh_blue"
-		"armedFgColor_override" 									"bh_Theme_TextMain"
+		"armedFgColor_override" 									"bh_Theme_AccentPrimary"
 		
 		"sound_depressed"											"UI/buttonclick.wav"
 		"sound_released"											"UI/buttonclickrelease.wav"

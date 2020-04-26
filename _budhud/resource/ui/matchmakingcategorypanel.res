@@ -19,7 +19,7 @@
 		"EntryToggleButton"
 		{
 			"tall"													"15"
-			"defaultBgColor_override"								"bh_Theme_BG00"
+			"defaultBgColor_override"								"bh_Theme_BG20"
 			"armedBgColor_override"									"65 65 065 255"
 			"textAlignment"											"center"
 			"textinsetx"											"0"
@@ -35,6 +35,7 @@
 			"textinsetx"											"0"
 			"textAlignment"											"center"
 			"font"													"bh_Font14"
+			"fgcolor"												"bh_Theme_AccentPrimary"
 		}
 		
 		"TitleShadow"
@@ -42,6 +43,7 @@
 			"textinsetx"											"0"
 			"textAlignment"											"center"
 			"font"													"bh_Font14"
+			"fgcolor"												"bh_Shadow"
 		}
 		
 		"DescLabel"
@@ -51,6 +53,7 @@
 			"wide"													"250"
 			"textinsetx"											"0"
 			"textAlignment"											"center"
+			"fgcolor"												"bh_Theme_TextSecondary"
 		}
 		
 		"DescLabelShadow"
@@ -60,6 +63,7 @@
 			"wide"													"250"
 			"textinsetx"											"0"
 			"textAlignment"											"center"
+			"fgcolor"												"bh_Shadow"
 		}
 		
 		"Checkbutton"

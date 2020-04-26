@@ -25,7 +25,7 @@
 		"ControlName"												"Label"
 		"fieldName"													"bh_TargetIDHealthAnchor"
 		"xpos"														"0"
-		"ypos"														"0"
+		"ypos"														"12"
 		"zpos"														"0"
 		"wide"														"100"
 		"tall"														"0"

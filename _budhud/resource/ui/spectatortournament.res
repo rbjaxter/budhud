@@ -36,14 +36,17 @@
 
 	"specgui"
 	{
-		"team1_player_base_offset_x"								"c2"
-		"team2_player_base_offset_x"								"c2"	
-		"team1_player_base_y"										"103"
-		"team2_player_base_y"										"265"
+		// BLU
+		"team1_player_delta_y"										"-16"
+		"team1_player_base_y"										"206"
 		"team1_player_delta_x"										"0"
-		"team2_player_delta_x"										"0"
-		"team1_player_delta_y"										"16"
+		"team1_player_base_offset_x"								"0"
+		
+		// RED
 		"team2_player_delta_y"										"16"
+		"team2_player_base_y"										"258"
+		"team2_player_delta_x"										"0"
+		"team2_player_base_offset_x"								"0"	
 		
 		"playerpanels_kv"
 		{
@@ -89,7 +92,7 @@
 				"tall"												"16"
 				"visible"											"1"
 				"enabled"											"1"
-				"bgcolor_override"									"bh_Theme_BG00"
+				"bgcolor_override"									"bh_Theme_BG20"
 			}
 			
 			"HealthIcon"
@@ -118,7 +121,7 @@
 				"labeltext"											""
 				"visible"											"1"
 				"enabled"											"1"
-				"fillcolor"											"bh_Theme_BG00"
+				"fillcolor"											"bh_Theme_BG20"
 				"image"												""
 				"paintbackgroundtype"								"0"
 			}			
@@ -137,7 +140,7 @@
 				"labeltext"											""
 				"visible"											"1"
 				"enabled"											"1"
-				"fillcolor"											"bh_orange"
+				"fillcolor"											"bh_Theme_AccentPrimary"
 				"image"												""
 				"paintbackgroundtype"								"0"
 			}
@@ -174,7 +177,7 @@
 				"tall"												"13"
 				"labelText"											"%chargeamount%"
 				"textAlignment"										"east"
-				"fgcolor"											"bh_Theme_TextMain"
+				"fgcolor"											"bh_Theme_AccentPrimary"
 			}
 			
 			"chargeamountBG"

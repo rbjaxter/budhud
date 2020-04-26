@@ -39,7 +39,7 @@
 		"labeltext"													""
 		"visible"													"1"
 		"enabled"													"1"
-		"fillcolor"													"bh_Theme_BG00"
+		"fillcolor"													"bh_Theme_BG20"
 		"border"													"bh_b_N"
 		"image"														""
 		"paintbackgroundtype"										"0"
@@ -59,7 +59,7 @@
 		"labeltext"													""
 		"visible"													"1"
 		"enabled"													"1"
-		"fillcolor"													"bh_Theme_BG00"
+		"fillcolor"													"bh_Theme_BG20"
 		"border"													"bh_b_S"
 		"image"														""
 		"paintbackgroundtype"										"0"
@@ -97,9 +97,9 @@
 	
 	"store_panel"
 	{
-		"bgcolor_override"											"bh_Theme_BG00"
-		"infocus_bgcolor_override" 									"bh_Theme_BG00"
-		"outoffocus_bgcolor_override" 								"bh_Theme_BG00"
+		"bgcolor_override"											"bh_Theme_BG20"
+		"infocus_bgcolor_override" 									"bh_Theme_BG20"
+		"outoffocus_bgcolor_override" 								"bh_Theme_BG20"
 	}
 	
 	"Sheet"
@@ -116,7 +116,7 @@
 			"textAlignment"											"center"
 			"selectedcolor"											"bh_white"
 			"unselectedcolor"										"bh_gray"	
-			"defaultBgColor_override"								"bh_Theme_BG00"
+			"defaultBgColor_override"								"bh_Theme_BG20"
 			"paintbackground"										"1"
 			"activeborder_override"									"bh_b_NEW"
 			"normalborder_override"									"bh_b_NEW"
