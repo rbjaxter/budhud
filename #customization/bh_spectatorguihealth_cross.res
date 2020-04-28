@@ -45,7 +45,7 @@
 	
 		"ControlName"												"Label"
 		"fieldName"													"PlayerStatusHealthValue"
-		"xpos"														"-24"
+		"xpos"														"-22"
 		"ypos"														"0"
 		"zpos"														"5"
 		"wide"														"40"
@@ -66,7 +66,7 @@
 	
 		"ControlName"												"Label"
 		"fieldName"													"PlayerStatusHealthValueShadow"
-		"xpos"														"-25"
+		"xpos"														"-23"
 		"ypos"														"-1"
 		"zpos"														"5"
 		"wide"														"40"
