@@ -2434,6 +2434,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
@@ -2443,6 +2444,7 @@ Scheme
 			}
 			"2"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"400"
@@ -2452,7 +2454,8 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"ocra"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"	
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2465,6 +2468,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"800"
@@ -2474,6 +2478,7 @@ Scheme
 			}
 			"2"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"800"
@@ -2483,6 +2488,7 @@ Scheme
 			}
 			"3"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"18"
 				"weight"	"800"
@@ -2496,6 +2502,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"16"
 				"weight"	"400"
@@ -2960,6 +2967,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"7"
 				"weight"	"0"
@@ -2973,7 +2981,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"ocra"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"		
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2985,6 +2994,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
@@ -2997,6 +3007,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"400"
@@ -3009,6 +3020,7 @@ Scheme
 		{
 			"1"
 			{
+				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"30"
 				"weight"	"400"
