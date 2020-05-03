@@ -2,9 +2,9 @@
 {
 	"DisguiseStatusBG"
 	{
-		"xpos"														"68"
-		"ypos"														"64"
-		"wide"														"40"
+		"xpos"														"76"
+		"ypos"														"r-6969"		// 68
+		"wide"														"60"
 		"tall"														"2"
 		"src_corner_height"											"50"
 		"src_corner_width"											"50"
@@ -15,8 +15,8 @@
 	"DisguiseNameLabel"
 	{
 		"textalignment"												"west"
-		"xpos"														"68"
-		"ypos"														"26"
+		"xpos"														"76"
+		"ypos"														"27"
 		"wide"														"100"
 		"tall"														"16"
 		"font"														"bh_Font14"
@@ -25,8 +25,8 @@
 	"WeaponNameLabel"
 	{
 		"textalignment"												"west"
-		"xpos"														"68"
-		"ypos"														"37"
+		"xpos"														"76"
+		"ypos"														"38"
 		"wide"														"100"
 		"tall"														"16"
 		"font"														"bh_Font12"
@@ -34,8 +34,8 @@
 	
 	"SpectatorGUIHealth"
 	{
-		"xpos"														"68"
-		"ypos"														"50"
-		"wide"														"50"
+		"xpos"														"76"
+		"ypos"														"40"
+		"wide"														"60"
 	}
 }
