@@ -23,7 +23,7 @@
 	event CasualCategory_Selected
 	{
 		Animate				Shade								bgcolor						bh_Theme_BG40				Deaccel 0 0.2
-		Animate 			Title								fgcolor						bh_Theme_AccentPrimary		Deaccel 0 0.2
+		Animate 			Title								fgcolor						bh_Theme_TextSecondary		Deaccel 0 0.2
 		Animate 			TitleShadow							fgcolor						bh_shadow					Deaccel 0 0.2
 		Animate 			DescLabel							fgcolor						bh_Theme_TextSecondary		Deaccel 0 0.2
 	}
