@@ -6,6 +6,7 @@
 
 	event HudMedicCharged
 	{
+		// Uber Percentage
 		Animate			ChargeLabel 							fgcolor						bh_rainbowcolor1			Linear 0.2 0.2
 		Animate			ChargeLabel 							fgcolor						bh_rainbowcolor2			Linear 0.4 0.2
 		Animate			ChargeLabel 							fgcolor						bh_rainbowcolor3			Linear 0.6 0.2
@@ -13,6 +14,15 @@
 		Animate			ChargeLabel 							fgcolor						bh_rainbowcolor5			Linear 1.0 0.2
 		Animate			ChargeLabel 							fgcolor						bh_rainbowcolor6			Linear 1.2 0.2
 		Animate 		ChargeLabel								fgcolor						bh_rainbowcolor7			Linear 1.4 0.2
+		
+		// Uber Meter
+		Animate			ChargeMeter 							fgcolor						bh_rainbowcolor1			Linear 0.2 0.2
+		Animate			ChargeMeter 							fgcolor						bh_rainbowcolor2			Linear 0.4 0.2
+		Animate			ChargeMeter 							fgcolor						bh_rainbowcolor3			Linear 0.6 0.2
+		Animate			ChargeMeter 							fgcolor						bh_rainbowcolor4			Linear 0.8 0.2
+		Animate			ChargeMeter 							fgcolor						bh_rainbowcolor5			Linear 1.0 0.2
+		Animate			ChargeMeter 							fgcolor						bh_rainbowcolor6			Linear 1.2 0.2
+		Animate 		ChargeMeter								fgcolor						bh_rainbowcolor7			Linear 1.4 0.2
 		
 		// Increasing this value slows the speed of the animation down
 		RunEvent 		HudMedicChargedLoop													1.6
