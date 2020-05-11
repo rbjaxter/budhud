@@ -260,7 +260,7 @@
 	
 	"CSpectatorTargetID"
 	{
-		"ypos"														"r130"
+		"ypos"														"r170"
 		"tall"	 													"80"
 		"priority"													"40"
 		
