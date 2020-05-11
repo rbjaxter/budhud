@@ -59,11 +59,13 @@ Scheme
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// TargetIDs
 	// These affect the health colors of the TargetID health background boxes
+	// Alpha value is set to 255 for the first three to allow TargetID team bar to appear behind
+	// specgui health. This allows `tf_hud_target_id_disable_floating_health 0` to work.
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
-		"bh_TargetID_Base"											"150 150 150 125"
-		"bh_TargetID_Low"											"186 032 032 125"
-		"bh_TargetID_Buff"											"000 153 255 125"
+		"bh_TargetID_Base"											"150 150 150 255"
+		"bh_TargetID_Low"											"186 032 032 255"
+		"bh_TargetID_Buff"											"000 153 255 255"
 		"bh_TargetID_NameBG"										"000 000 000 125"	// Color of background behind player's name
 		
 	////////////////////////////////////////////////////////////////////////////////////////////////////

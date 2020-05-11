@@ -29,7 +29,7 @@
 	{
 		"ControlName" 												"ImagePanel"
 		"fieldName"													"bh_TargetNameBG"
-		"xpos"														"40"
+		"xpos"														"0"
 		"ypos"														"32"
 		"zpos"														"-1"
 		"wide"														"f0"
@@ -60,7 +60,7 @@
 	// Name dependent. Wide/tall have no effect
 	"TargetIDBG"
 	{
-		"xpos"														"40"
+		"xpos"														"0"
 		"ypos"														"-47"
 		"zpos"														"-1"			// Hard-coded to -1. Keep here or it will appear in casual.
 
@@ -106,7 +106,7 @@
 	
 	"TargetIDBG_Spec_Blue"
 	{
-		"xpos"														"40"
+		"xpos"														"0"
 		"ypos"														"-47"
 
 		"src_corner_height"											"4"
@@ -119,7 +119,7 @@
 	
 	"TargetIDBG_Spec_Red"
 	{
-		"xpos"														"40"
+		"xpos"														"0"
 		"ypos"														"-47"
 
 		"src_corner_height"											"4"
@@ -166,7 +166,7 @@
 	"KillstreakIcon"
 	{
 		"xpos"														"0" // Does nothing
-		"ypos"														"19"
+		"ypos"														"50"
 		"wide"														"5"
 		"tall"														"5"
 	}

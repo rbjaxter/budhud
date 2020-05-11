@@ -4,6 +4,6 @@
 	"HealthIcon"
 	{
 		"wide"														"40"
-		"tall"														"14"
+		"tall"														"40"
 	}
 }
