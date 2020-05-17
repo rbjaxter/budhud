@@ -88,11 +88,11 @@
 	{
 		"ControlName"												"CTFImagePanel"
 		"fieldName"													"bh_TargetIDBG_Extender"
-		"xpos"														"-47"
-		"ypos"														"0"
+		"xpos"														"50"
+		"ypos"														"-15"
 		"zpos"														"-2"		// Hide it behind the OG TargetID
 		"wide"														"f0"
-		"tall"	 													"1"
+		"tall"	 													"48"		// This doesn't match tall value of TargetID (50) because finagling was required
 
 		"src_corner_height"											"4"
 		"src_corner_width"											"4"
@@ -130,8 +130,14 @@
 		"image"														"replay\thumbnails\team_colors\bh_targetid_red"
 	}
 	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// You really can't change much when it comes to this element. A lot of hard-coded values.
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
 	"MoveableSubPanel"
-	{	
+	{
+		"zpos"														"0"
+	
 		"MoveableIconBG"
 		{
 			"ypos"													"r-6969"
@@ -149,8 +155,8 @@
 		
 		"MoveableKeyLabel"
 		{
-			"xpos"													"0"		
-			"ypos"													"17"
+			"xpos"													"13"
+			"ypos"													"35"
 			"zpos"													"0"
 			"font"													"bh_Font10"
 			"fgcolor"												"bh_white"
@@ -165,7 +171,6 @@
 	
 	"KillstreakIcon"
 	{
-		"xpos"														"0" // Does nothing
 		"ypos"														"50"
 		"wide"														"5"
 		"tall"														"5"
