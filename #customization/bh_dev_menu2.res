@@ -1,4 +1,4 @@
-	#base	bh_mainmenu_dev.res
+	#base	bh_dev_menu1.res
 
 "Resource/UI/FullLoadoutPanel.res"
 {

@@ -1,9 +1,10 @@
 	#base	"..\..\#users\truktruk\resource\ui\hudplayerhealth.res"
 	#base	"..\..\#users\ly_dee\resource\ui\hudplayerhealth.res"
-	#base	"..\..\#customization\_enabled\bh_size_health.res"
-	#base	"..\..\#customization\_enabled\bh_health_cross_inset.res"
-	#base	"..\..\#customization\_enabled\bh_health_cross.res"
+	#base	"..\..\#customization\_enabled\bh_player_largehealth.res"
+	#base	"..\..\#customization\_enabled\bh_player_healthcross.res"
 	#base	"..\..\#customization\_enabled\bh_health_box.res"
+
+	#base	"..\..\_openfortress\resource\ui\hudplayerhealth.res"
 	#base	"..\..\_stream\resource\ui\hudplayerhealth.res"
 	#base	"..\..\_budhud\resource\ui\hudplayerhealth.res"
 	#base	"..\..\_tf2hud\resource\ui\hudplayerhealth.res"

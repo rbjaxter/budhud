@@ -10,11 +10,11 @@
 	// Base Customization
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
 	#base	"..\..\#customization\_enabled\bh_mainmenu_preloading.res"
-	#base	"..\..\#customization\_enabled\bh_mainmenu_dev.res"
-	#base	"..\..\#customization\_enabled\bh_mainmenu_hidefavorites.res"
-	#base	"..\..\#customization\_enabled\bh_mainmenu_hidefriends.res"
-	#base	"..\..\#customization\_enabled\bh_mainmenu_hidemotd.res"
-	#base	"..\..\#customization\_enabled\bh_mainmenu_gif.res"
+	#base	"..\..\#customization\_enabled\bh_dev_menu1.res"
+	#base	"..\..\#customization\_enabled\bh_menu_hidefavorites.res"
+	#base	"..\..\#customization\_enabled\bh_menu_hidefriends.res"
+	#base	"..\..\#customization\_enabled\bh_menu_hidemotd.res"
+	#base	"..\..\#customization\_enabled\bh_menu_gif.res"
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Core HUD
