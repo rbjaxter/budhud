@@ -218,7 +218,7 @@
 	"BuyBackLabel"
 	{
 		"xpos"														"c-190"
-		"ypos"														"200"
+		"ypos"														"190"
 		"wide"														"380"
 		"tall"														"400"
 		"textAlignment"												"center"

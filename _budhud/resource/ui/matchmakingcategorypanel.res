@@ -35,7 +35,7 @@
 			"textinsetx"											"0"
 			"textAlignment"											"center"
 			"font"													"bh_Font14"
-			"fgcolor"												"bh_Theme_AccentPrimary"
+			"fgcolor"												"bh_Theme_TextSecondary"
 		}
 		
 		"TitleShadow"

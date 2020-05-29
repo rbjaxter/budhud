@@ -18,7 +18,7 @@
 			"wide"													"f0"
 			"textalignment"											"center"
 			"ypos"													"2"
-			"fgcolor"												"bh_Theme_AccentPrimary"
+			"fgcolor"												"bh_Theme_TextSecondary"
 		}
 		
 		"SelectedCount"
