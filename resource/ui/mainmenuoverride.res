@@ -1,10 +1,10 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// User Customization
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
-	#base	"..\..\#users\toth\#customization\bh_mainmenu_gif.res"
-	#base	"..\..\#users\dane\#customization\bh_mainmenu_gif.res"
-	#base	"..\..\#users\truktruk\#customization\bh_mainmenu_gif.res"
-	#base	"..\..\#users\ly_dee\#customization\bh_mainmenu_gif.res"
+	#base	"..\..\#users\toth\#customization\bh_menu_gif.res"
+	#base	"..\..\#users\dane\#customization\bh_menu_gif.res"
+	#base	"..\..\#users\truktruk\#customization\bh_menu_gif.res"
+	#base	"..\..\#users\ly_dee\#customization\bh_menu_gif.res"
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Base Customization
