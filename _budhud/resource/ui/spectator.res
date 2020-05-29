@@ -72,7 +72,7 @@
 		"wide"														"400"
 		"tall"														"24"
 		"textAlignment"												"center"
-		"font"														"bh_Font14Drop"
+		"font"														"bh_Font14DropShadow"
 	}
 
 	"itempanel"

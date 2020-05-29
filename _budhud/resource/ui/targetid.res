@@ -49,7 +49,7 @@
 	
 	"TargetDataLabel"
 	{
-		"font"														"bh_Font10Drop"
+		"font"														"bh_Font10DropShadow"
 		"xpos"														"0"
 		"ypos"														"48"
 		"wide"														"250"

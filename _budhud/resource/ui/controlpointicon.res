@@ -26,7 +26,7 @@
 	
 	"CPTimerLabel"
 	{
-		"font"														"bh_Font10Drop"
+		"font"														"bh_Font10DropShadow"
 		"wide"														"15"
 	}
 	
