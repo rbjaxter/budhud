@@ -9,7 +9,7 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Base Customization
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
-	#base	"..\..\#customization\_enabled\bh_mainmenu_preloading.res"
+	#base	"..\..\#customization\_enabled\bh_menu_preloading.res"
 	#base	"..\..\#customization\_enabled\bh_dev_menu1.res"
 	#base	"..\..\#customization\_enabled\bh_menu_hidefavorites.res"
 	#base	"..\..\#customization\_enabled\bh_menu_hidefriends.res"
