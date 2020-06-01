@@ -117,7 +117,7 @@
 	{
 		"ControlName"												"CExLabel"
 		"fieldName"													"bh_ServerTimeLeftValue"
-		"font"														"bh_Font14Drop"
+		"font"														"bh_Font14DropShadow"
 		"labelText"													"%servertime%"
 		"textAlignment"												"center"
 		"xpos"														"c-100"

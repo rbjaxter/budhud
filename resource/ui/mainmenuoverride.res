@@ -1,15 +1,15 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// User Customization
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
-	#base	"..\..\#users\toth\#customization\bh_mainmenu_gif.res"
-	#base	"..\..\#users\dane\#customization\bh_mainmenu_gif.res"
-	#base	"..\..\#users\truktruk\#customization\bh_mainmenu_gif.res"
-	#base	"..\..\#users\ly_dee\#customization\bh_mainmenu_gif.res"
+	#base	"..\..\#users\toth\#customization\bh_menu_gif.res"
+	#base	"..\..\#users\dane\#customization\bh_menu_gif.res"
+	#base	"..\..\#users\truktruk\#customization\bh_menu_gif.res"
+	#base	"..\..\#users\ly_dee\#customization\bh_menu_gif.res"
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Base Customization
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
-	#base	"..\..\#customization\_enabled\bh_mainmenu_preloading.res"
+	#base	"..\..\#customization\_enabled\bh_menu_preloading.res"
 	#base	"..\..\#customization\_enabled\bh_dev_menu1.res"
 	#base	"..\..\#customization\_enabled\bh_menu_hidefavorites.res"
 	#base	"..\..\#customization\_enabled\bh_menu_hidefriends.res"

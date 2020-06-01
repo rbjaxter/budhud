@@ -49,7 +49,7 @@
 	
 	"TargetDataLabel"
 	{
-		"font"														"bh_Font10Drop"
+		"font"														"bh_Font10DropShadow"
 		"xpos"														"0"
 		"ypos"														"48"
 		"wide"														"250"
@@ -90,7 +90,7 @@
 		"fieldName"													"bh_TargetIDBG_Extender"
 		"xpos"														"50"
 		"ypos"														"-15"
-		"zpos"														"-2"		// Hide it behind the OG TargetID
+		"zpos"														"-1"		// -2 places it behind TargetNameBG (no bueno)
 		"wide"														"f0"
 		"tall"	 													"48"		// This doesn't match tall value of TargetID (50) because finagling was required
 
@@ -171,7 +171,7 @@
 	
 	"KillstreakIcon"
 	{
-		"ypos"														"50"
+		"ypos"														"51"
 		"wide"														"5"
 		"tall"														"5"
 	}

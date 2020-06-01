@@ -211,7 +211,7 @@
 			{
 				"ypos"												"3"
 				"zpos"												"4"
-				"font"												"bh_Font10Drop"
+				"font"												"bh_Font10DropShadow"
 				"fgcolor_override"									"bh_white"
 				"wide"												"12"
 				"tall"												"12"

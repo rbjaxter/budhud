@@ -207,7 +207,7 @@
 		"wide"														"400"
 		"tall"														"24"
 		"textAlignment"												"center"
-		"font"														"bh_Font14Drop"
+		"font"														"bh_Font14DropShadow"
 		
 		if_mvm
 		{
@@ -218,7 +218,7 @@
 	"BuyBackLabel"
 	{
 		"xpos"														"c-190"
-		"ypos"														"200"
+		"ypos"														"190"
 		"wide"														"380"
 		"tall"														"400"
 		"textAlignment"												"center"
