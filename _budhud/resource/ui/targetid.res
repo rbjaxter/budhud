@@ -171,7 +171,7 @@
 	
 	"KillstreakIcon"
 	{
-		"ypos"														"50"
+		"ypos"														"51"
 		"wide"														"5"
 		"tall"														"5"
 	}
