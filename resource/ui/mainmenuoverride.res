@@ -14,6 +14,7 @@
 	#base	"..\..\#customization\_enabled\bh_menu_hidefavorites.res"
 	#base	"..\..\#customization\_enabled\bh_menu_hidefriends.res"
 	#base	"..\..\#customization\_enabled\bh_menu_hidemotd.res"
+	#base	"..\..\#customization\_enabled\bh_menu_hidestats.res"
 	#base	"..\..\#customization\_enabled\bh_menu_gif.res"
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
