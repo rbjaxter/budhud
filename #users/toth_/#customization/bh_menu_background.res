@@ -3,10 +3,9 @@
 	MainMenuOverride
 	{
 	}
-	
+
 	"Background"
 	{
-		"wide"														"0"
-		"tall"														"0"
+		"image"														"replay/thumbnails/#users/background_toth"
 	}
 }
