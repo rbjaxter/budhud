@@ -19,10 +19,10 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Crosshairs
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	#base	"clientscheme/crosshairs/bh_crosshairs_fog.res"
-	#base	"clientscheme/crosshairs/bh_crosshairs_garm3n.res"
-	#base	"clientscheme/crosshairs/bh_crosshairs_knuckles.res"
-	#base	"clientscheme/crosshairs/bh_crosshairs_whayay.res"
+	#base	"../#customization/_enabled/bh_crosshairs_fog.res"
+	#base	"../#customization/_enabled/bh_crosshairs_garm3n.res"
+	#base	"../#customization/_enabled/bh_crosshairs_knuckles.res"
+	#base	"../#customization/_enabled/bh_crosshairs_whayay.res"
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Core HUD
