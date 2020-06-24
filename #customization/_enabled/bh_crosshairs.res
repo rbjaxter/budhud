@@ -4,7 +4,7 @@
 	// whayay's Crosshairs
 	// ============================================================================================== //
 	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Crosshairs#whayays-crosshair
-	// Valid font sizes: Any number between 10 - 25
+	// Valid font sizes: Any number between 15 - 20
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	"whayay_crosshair"
@@ -13,7 +13,7 @@
 		"enabled"													"0"
 		"visible"													"0"
 		"labeltext"													"f"
-		"font"														"Crosshair: whayay | Size: 15 | Outline: On"
+		"font"														"Crosshair: whayay | Size: 16 | Outline: On"
 		"fgcolor"													"ya_crosshair"
 		
 		// Defaults
@@ -31,7 +31,7 @@
 	// Knuckles' Crosshairs
 	// ============================================================================================== //
 	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Crosshairs#knuckles-crosshair
-	// Valid font sizes: Any number between 10 - 25
+	// Valid font sizes: Any number between 15 - 20
 	//
 	// NOTE: Some crosshairs do not appear to be centered correctly within the font themselves, so you
 	// may need to mess with the x/ypos to correctly center certain crosshairs
@@ -61,7 +61,7 @@
 	// Fog's Crosshairs
 	// ============================================================================================== //
 	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Crosshairs#fogs-crosshairs
-	// Valid font sizes: Any number between 10 - 25
+	// Valid font sizes: Any number between 15 - 20
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	"fog_crosshair"
@@ -69,7 +69,7 @@
 		// Change these
 		"visible"													"0"
 		"enabled"													"0"
-		"font"														"Crosshair: fog | Size: 30 | Outline: Off"
+		"font"														"Crosshair: fog | Size: 16 | Outline: Off"
 		"labelText"													"a"
 		"fgcolor"													"fog_crosshair"
 	
