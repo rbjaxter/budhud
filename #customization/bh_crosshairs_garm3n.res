@@ -1,5 +1,5 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// HUD CROSSHAIRS - Knuckles
+	// HUD CROSSHAIRS - Garm3n
 	////////////////////////////////////////////////////////////////////////////////////////////////////				
 	// You should not need to make any changes to this file unless you want to change the size of a
 	// crosshair.
@@ -16,11 +16,11 @@ Scheme
 		// No Outline
 		////////////////////////////////////////////////////////////////////////////////////////////////////
 		
-		"Crosshair: Knuckles | Size: 16 | Outline: Off"
+		"Crosshair: Garm3n | Size: 16 | Outline: Off"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"16"
 				"antialias" 	"1"
 				"additive"		"0"
@@ -28,11 +28,11 @@ Scheme
 			}
 		}
 		
-		"Crosshair: Knuckles | Size: 18 | Outline: Off"
+		"Crosshair: Garm3n | Size: 18 | Outline: Off"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"18"
 				"antialias" 	"1"
 				"additive"		"0"
@@ -40,11 +40,11 @@ Scheme
 			}
 		}
 		
-		"Crosshair: Knuckles | Size: 20 | Outline: Off"
+		"Crosshair: Garm3n | Size: 20 | Outline: Off"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"20"
 				"antialias" 	"1"
 				"additive"		"0"
@@ -52,11 +52,11 @@ Scheme
 			}
 		}
 		
-		"Crosshair: Knuckles | Size: 22 | Outline: Off"
+		"Crosshair: Garm3n | Size: 22 | Outline: Off"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"22"
 				"antialias" 	"1"
 				"additive"		"0"
@@ -64,11 +64,11 @@ Scheme
 			}
 		}
 		
-		"Crosshair: Knuckles | Size: 24 | Outline: Off"
+		"Crosshair: Garm3n | Size: 24 | Outline: Off"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"24"
 				"antialias" 	"1"
 				"additive"		"0"
@@ -76,11 +76,11 @@ Scheme
 			}
 		}
 		
-		"Crosshair: Knuckles | Size: 26 | Outline: Off"
+		"Crosshair: Garm3n | Size: 26 | Outline: Off"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"26"
 				"antialias" 	"1"
 				"additive"		"0"
@@ -88,11 +88,11 @@ Scheme
 			}
 		}
 		
-		"Crosshair: Knuckles | Size: 28 | Outline: Off"
+		"Crosshair: Garm3n | Size: 28 | Outline: Off"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"28"
 				"antialias" 	"1"
 				"additive"		"0"
@@ -100,11 +100,11 @@ Scheme
 			}
 		}
 		
-		"Crosshair: Knuckles | Size: 30 | Outline: Off"
+		"Crosshair: Garm3n | Size: 30 | Outline: Off"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"30"
 				"antialias" 	"1"
 				"additive"		"0"
@@ -112,11 +112,11 @@ Scheme
 			}
 		}
 		
-		"Crosshair: Knuckles | Size: 32 | Outline: Off"
+		"Crosshair: Garm3n | Size: 32 | Outline: Off"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"32"
 				"antialias" 	"1"
 				"additive"		"0"
@@ -124,11 +124,11 @@ Scheme
 			}
 		}
 		
-		"Crosshair: Knuckles | Size: 34 | Outline: Off"
+		"Crosshair: Garm3n | Size: 34 | Outline: Off"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"34"
 				"antialias" 	"1"
 				"additive"		"0"
@@ -140,11 +140,11 @@ Scheme
 		// Outline
 		////////////////////////////////////////////////////////////////////////////////////////////////////
 		
-		"Crosshair: Knuckles | Size: 16 | Outline: On"
+		"Crosshair: Garm3n | Size: 16 | Outline: On"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"16"
 				"antialias" 	"1"
 				"additive"		"0"
@@ -152,11 +152,11 @@ Scheme
 			}
 		}
 		
-		"Crosshair: Knuckles | Size: 18 | Outline: On"
+		"Crosshair: Garm3n | Size: 18 | Outline: On"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"18"
 				"antialias" 	"1"
 				"additive"		"0"
@@ -164,11 +164,11 @@ Scheme
 			}
 		}
 		
-		"Crosshair: Knuckles | Size: 20 | Outline: On"
+		"Crosshair: Garm3n | Size: 20 | Outline: On"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"20"
 				"antialias" 	"1"
 				"additive"		"0"
@@ -176,11 +176,11 @@ Scheme
 			}
 		}
 		
-		"Crosshair: Knuckles | Size: 22 | Outline: On"
+		"Crosshair: Garm3n | Size: 22 | Outline: On"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"22"
 				"antialias" 	"1"
 				"additive"		"0"
@@ -188,11 +188,11 @@ Scheme
 			}
 		}
 		
-		"Crosshair: Knuckles | Size: 24 | Outline: On"
+		"Crosshair: Garm3n | Size: 24 | Outline: On"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"24"
 				"antialias" 	"1"
 				"additive"		"0"
@@ -200,11 +200,11 @@ Scheme
 			}
 		}
 		
-		"Crosshair: Knuckles | Size: 26 | Outline: On"
+		"Crosshair: Garm3n | Size: 26 | Outline: On"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"26"
 				"antialias" 	"1"
 				"additive"		"0"
@@ -212,11 +212,11 @@ Scheme
 			}
 		}
 		
-		"Crosshair: Knuckles | Size: 28 | Outline: On"
+		"Crosshair: Garm3n | Size: 28 | Outline: On"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"28"
 				"antialias" 	"1"
 				"additive"		"0"
@@ -224,11 +224,11 @@ Scheme
 			}
 		}
 		
-		"Crosshair: Knuckles | Size: 30 | Outline: On"
+		"Crosshair: Garm3n | Size: 30 | Outline: On"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"30"
 				"antialias" 	"1"
 				"additive"		"0"
@@ -236,11 +236,11 @@ Scheme
 			}
 		}
 		
-		"Crosshair: Knuckles | Size: 32 | Outline: On"
+		"Crosshair: Garm3n | Size: 32 | Outline: On"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"32"
 				"antialias" 	"1"
 				"additive"		"0"
@@ -248,11 +248,11 @@ Scheme
 			}
 		}
 		
-		"Crosshair: Knuckles | Size: 34 | Outline: On"
+		"Crosshair: Garm3n | Size: 34 | Outline: On"
 		{
 			"1"
 			{
-				"name"			"KnucklesCrosses"
+				"name"			"Garm3nFont"
 				"tall"			"34"
 				"antialias" 	"1"
 				"additive"		"0"

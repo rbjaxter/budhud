@@ -4,7 +4,7 @@
 	{
 		"visible"													"0"
 		"enabled"													"0"
-		"font"														"Crosshair: Knuckles | Size: 10 | Outline: Off"
+		"font"														"Crosshair: Knuckles | Size: 16 | Outline: Off"
 		"labelText"													"A"
 	}
 }
