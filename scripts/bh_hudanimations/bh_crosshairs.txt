@@ -12,8 +12,12 @@
 	
 	event HitMarker
 	{
-		Animate 			whayay_crosshair 					fgcolor 					ya_crosshairflash 			Linear 0.0 0.0
-		Animate 			whayay_crosshair 					fgcolor 					ya_crosshair 				Linear 0.1 0.1
+		Animate 			whayay_crosshair 					fgcolor 					whayay_crosshairflash 		Linear 0.0 0.0
+		Animate 			whayay_crosshair 					fgcolor 					whayay_crosshair 			Linear 0.1 0.1
 		Animate				knuckles_crosshair					fgcolor						knuckles_crosshairflash		Linear 0.0 0.0
 		Animate 			knuckles_crosshair					fgcolor						knuckles_crosshair			Linear 0.1 0.1
+		Animate				fog_crosshair						fgcolor						fog_crosshairflash			Linear 0.0 0.0
+		Animate 			fog_crosshair						fgcolor						fog_crosshair				Linear 0.1 0.1
+		Animate				garm3n_crosshair					fgcolor						garm3n_crosshairflash		Linear 0.0 0.0
+		Animate 			garm3n_crosshair					fgcolor						garm3n_crosshair			Linear 0.1 0.1
 	}
