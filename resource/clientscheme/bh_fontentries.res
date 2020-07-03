@@ -7,38 +7,44 @@ Scheme
 	{
 		"8" // budhud Font
 		{
-			"font"	"resource/fonts/Lato-Semibold.ttf"
-			"name"	"Lato Semibold"
+			"font"		"resource/fonts/Lato-Semibold.ttf"
+			"name"		"Lato Semibold"
 		}
+		
+		"9" // TF2 Crosshairs
+		{
+			"font"		"resource/fonts/TF2Crosshairs.otf"
+			"name"		"TF2Crosshairs"
+		}		
 
-		"9" // Fog's Crosshairs
+		"10" // Fog's Crosshairs
 		{
-			"font" "resource/fonts/crosshairs-fog.ttf"
-			"name" "Crosshairs Regular"
+			"font"		"resource/fonts/crosshairs-fog.ttf"
+			"name"		"Crosshairs Regular"
 		}
 		
-		"10" // Thin Cross
+		"11" // Thin Cross
 		{
-			"font" "resource/fonts/crosshairs-thincross.ttf"
-			"name" "Symbol"
+			"font"		"resource/fonts/crosshairs-thincross.ttf"
+			"name"		"Symbol"
 		}
 		
-		"11" // Garm3n's Crosshairs
+		"12" // Garm3n's Crosshairs
 		{
-			"font" "resource/fonts/crosshairs-garm3n.ttf"
-			"name" "Garm3nFont"
+			"font"		"resource/fonts/crosshairs-garm3n.ttf"
+			"name"		"Garm3nFont"
 		}
 		
-		"12" // whayay's Crosshairs
+		"13" // whayay's Crosshairs
 		{
-			"font"	"resource/fonts/crosshairs-whayay.ttf"
-			"name"	"Crosshair"
+			"font"		"resource/fonts/crosshairs-whayay.ttf"
+			"name"		"Crosshair"
 		}
 		
-		"13" // Knuckle's Crosshairs
+		"14" // Knuckle's Crosshairs
 		{
-			"font" "resource/fonts/crosshairs-knuckles.ttf"
-			"name" "KnucklesCrosses"
+			"font"		"resource/fonts/crosshairs-knuckles.ttf"
+			"name"		"KnucklesCrosses"
 		}
 	}
 }

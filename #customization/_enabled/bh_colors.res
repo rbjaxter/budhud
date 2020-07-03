@@ -109,6 +109,13 @@ Scheme
 	// have different colors for each. You don't need to change every crosshair's color, just the one
 	// you're using.
 	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		//////////////////////
+		// HUD Crosshair
+		//////////////////////
+
+		"hud_crosshair"												"255 255 255 255" 	// Crosshair color
+		"hud_crosshairflash"										"240 134 049 255"	// Flash on damage done
 	
 		//////////////////////
 		// whayay's Crosshairs
