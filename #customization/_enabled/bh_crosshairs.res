@@ -1,6 +1,34 @@
 "Resource/UI/HudPlayerClass.res"
 {
 	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// HUD Crosshairs
+	// ============================================================================================== //
+	// Crosshair Types & Instructions: 
+	// 
+	// Valid font sizes: Any number between 10 - 30
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	"hud_crosshair"
+	{
+		// Change these
+		"enabled"													"0"
+		"visible"													"0"
+		"labeltext"													"F"
+		"font"														"Crosshair: TF2Crosshairs | Size: 18 | Outline: On"
+		"fgcolor"													"hud_crosshair"
+		
+		// Defaults
+		"xpos"														"0"
+		"ypos"														"1"
+		"controlname"												"CExLabel"
+		"fieldname"													"hud_crosshair"
+		"textAlignment"												"center"
+		"zpos"														"0"
+		"wide"														"f0"
+		"tall"														"f0"  
+	}
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// whayay's Crosshairs
 	// ============================================================================================== //
 	// Crosshair instructions: https://github.com/rbjaxter/budhud/wiki/Crosshairs#whayays-crosshair

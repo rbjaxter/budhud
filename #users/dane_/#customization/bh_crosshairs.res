@@ -1,9 +1,10 @@
 "Resource/UI/HudPlayerClass.res"
 {
-	"whayay_crosshair"
+	"hud_crosshair"
 	{
 		"enabled"													"1"
 		"visible"													"1"
-		"labeltext"													"t"
+		"labeltext"													"#"
+		"font"														"Crosshair: TF2Crosshairs | Size: 12 | Outline: On"
 	}
 }
