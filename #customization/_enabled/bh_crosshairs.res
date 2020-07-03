@@ -42,8 +42,8 @@
 	"knuckles_crosshair"
 	{
 		// Change these
-		"visible"													"1"
-		"enabled"													"1"
+		"visible"													"0"
+		"enabled"													"0"
 		"font"														"Crosshair: Knuckles | Size: 24 | Outline: On"
 		"labelText"													"a"
 		"fgcolor"													"knuckles_crosshair"
