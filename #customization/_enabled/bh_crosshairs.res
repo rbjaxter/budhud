@@ -14,7 +14,7 @@
 		"enabled"													"0"
 		"visible"													"0"
 		"labeltext"													"F"
-		"font"														"Crosshair: TF2Crosshairs | Size: 18 | Outline: On"
+		"font"														"Crosshair: TF2Crosshairs | Size: 17 | Outline: On"
 		"fgcolor"													"hud_crosshair"
 		
 		// Defaults

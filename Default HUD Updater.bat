@@ -178,48 +178,50 @@ ECHO ===========================================================================
 ECHO.
 ECHO.
 
-ECHO %ESC%[33m====================================================================================================
-ECHO Setting hidden attributes to prevent file deletion...
-ECHO ====================================================================================================%ESC%[0m
-ATTRIB /s "%default_tf2hud_folder%\resource\roundinfo\*" +h
-ATTRIB /s "%default_tf2hud_folder%\resource\ui\*" +h
-ATTRIB /s "%default_tf2hud_folder%\resource\chatscheme.res" +h
-ATTRIB /s "%default_tf2hud_folder%\resource\clientscheme.res" +h
-ATTRIB /s "%default_tf2hud_folder%\resource\gamemenu.res" +h
-ATTRIB /s "%default_tf2hud_folder%\resource\sourcescheme.res" +h
-ECHO %ESC%[32m====================================================================================================%
-ECHO Done.
-ECHO ====================================================================================================%ESC%[0m
+:: This will delete any new files not "whitelisted" by hidden attrib and it doesn't save much file size to do this
+:: ECHO %ESC%[33m====================================================================================================
+:: ECHO Setting hidden attributes to prevent file deletion...
+:: ECHO ====================================================================================================%ESC%[0m
+:: ATTRIB /s "%default_tf2hud_folder%\resource\roundinfo\*" +h
+:: ATTRIB /s "%default_tf2hud_folder%\resource\ui\*" +h
+:: ATTRIB /s "%default_tf2hud_folder%\resource\chatscheme.res" +h
+:: ATTRIB /s "%default_tf2hud_folder%\resource\clientscheme.res" +h
+:: ATTRIB /s "%default_tf2hud_folder%\resource\gamemenu.res" +h
+:: ATTRIB /s "%default_tf2hud_folder%\resource\sourcescheme.res" +h
+:: ATTRIB /s "%default_tf2hud_folder%\resource\muteplayerdialog.res" +h
+:: ECHO %ESC%[32m====================================================================================================%
+:: ECHO Done.
+:: ECHO ====================================================================================================%ESC%[0m
+:: 
+:: ECHO.
+:: ECHO.
+:: 
+:: ECHO %ESC%[33m====================================================================================================
+:: ECHO Deleting more unused default hud files...
+:: ECHO ====================================================================================================%ESC%[0m
+:: DEL /s /q "%default_tf2hud_folder%\resource\*"
+:: ECHO %ESC%[32m====================================================================================================%
+:: ECHO Done.
+:: ECHO ====================================================================================================%ESC%[0m
+:: 
+:: ECHO.
+:: ECHO.
+:: 
+:: ECHO %ESC%[33m====================================================================================================
+:: ECHO Setting attributes back to defaults...
+:: ECHO ====================================================================================================%ESC%[0m
+:: ATTRIB /s "%default_tf2hud_folder%\resource\roundinfo\*" -r -s -h
+:: ATTRIB /s "%default_tf2hud_folder%\resource\ui\*" -r -s -h
+:: ATTRIB /s "%default_tf2hud_folder%\resource\chatscheme.res" -r -s -h
+:: ATTRIB /s "%default_tf2hud_folder%\resource\clientscheme.res" -r -s -h
+:: ATTRIB /s "%default_tf2hud_folder%\resource\gamemenu.res" -r -s -h
+:: ATTRIB /s "%default_tf2hud_folder%\resource\sourcescheme.res" -r -s -h
+:: ECHO %ESC%[32m====================================================================================================%
+:: ECHO Done.
+:: ECHO ====================================================================================================%ESC%[0m
 
-ECHO.
-ECHO.
-
-ECHO %ESC%[33m====================================================================================================
-ECHO Deleting more unused default hud files...
-ECHO ====================================================================================================%ESC%[0m
-DEL /s /q "%default_tf2hud_folder%\resource\*"
-ECHO %ESC%[32m====================================================================================================%
-ECHO Done.
-ECHO ====================================================================================================%ESC%[0m
-
-ECHO.
-ECHO.
-
-ECHO %ESC%[33m====================================================================================================
-ECHO Setting attributes back to defaults...
-ECHO ====================================================================================================%ESC%[0m
-ATTRIB /s "%default_tf2hud_folder%\resource\roundinfo\*" -r -s -h
-ATTRIB /s "%default_tf2hud_folder%\resource\ui\*" -r -s -h
-ATTRIB /s "%default_tf2hud_folder%\resource\chatscheme.res" -r -s -h
-ATTRIB /s "%default_tf2hud_folder%\resource\clientscheme.res" -r -s -h
-ATTRIB /s "%default_tf2hud_folder%\resource\gamemenu.res" -r -s -h
-ATTRIB /s "%default_tf2hud_folder%\resource\sourcescheme.res" -r -s -h
-ECHO %ESC%[32m====================================================================================================%
-ECHO Done.
-ECHO ====================================================================================================%ESC%[0m
-
-ECHO.
-ECHO.
+:: ECHO.
+:: ECHO.
 
 ECHO %ESC%[33m====================================================================================================
 ECHO Copying stubborn default files over to core directory...
@@ -227,6 +229,7 @@ ECHO ===========================================================================
 COPY /y "%default_tf2hud_folder%\resource\clientscheme.res" "%core_resource%\clientscheme_base.res"
 COPY /y "%default_tf2hud_folder%\resource\sourcescheme.res" "%core_resource%\sourcescheme_base.res"
 COPY /y "%default_tf2hud_folder%\resource\gamemenu.res" "%core_resource%\gamemenu_base.res"
+COPY /y "%default_tf2hud_folder%\resource\muteplayerdialog.res" "%core_resource%\muteplayerdialog_base.res"
 COPY /y "%update_files%\confirmdialog.res" "%default_tf2hud_folder%\resource\ui\econ\confirmdialog.res"
 ECHO %ESC%[32m====================================================================================================%
 ECHO Done.
