@@ -163,7 +163,7 @@
 	"MutePlayersButton"
 	{
 		"label"			"Mute Idiots"
-		"command"		"OpenPlayerListDialog"
+		"command"		"OpenMutePlayerDialog"
 		"OnlyInGame"	"1"
 		"subimage"		"replay/thumbnails/menu_icons/muteplayers"
 		"tooltip" 		"#MMenu_MutePlayers"

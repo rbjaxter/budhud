@@ -1,0 +1,1 @@
+	#base	"muteplayerdialog_base.res"
