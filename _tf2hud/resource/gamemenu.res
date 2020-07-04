@@ -21,7 +21,7 @@
 	"MutePlayersButton"
 	{
 		"label"			""
-		"command"		"OpenPlayerListDialog"
+		"command"		"OpenMutePlayerDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
 		"tooltip" "#MMenu_MutePlayers"
