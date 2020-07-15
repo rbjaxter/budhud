@@ -33,7 +33,8 @@
 	//	Animate 			ScreenshotPanel 					Position 					c-83 -50 					Linear 0.0 0.001
 	//	Animate 			ScreenshotPanel 					Position 					c-83 13 					Spline 0.001 0.2
 		
-	// Attempts to clear animation	
+	// Attempts to clear animation
+		RunEvent			DefaultAnimHudSnapShotReminderIn								0.0
 		RunEvent 			HudHealthDyingPulseStop 										10.0
 		RunEvent 			HudHealthBonusPulseStop 										10.0
 		RunEvent 			HudLowAmmoPulseStop 											10.0

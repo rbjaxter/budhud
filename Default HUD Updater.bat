@@ -1,7 +1,6 @@
 @ECHO OFF
 SETLOCAL ENABLEDELAYEDEXPANSION
 TITLE Default HUD File Updater
-SET LOGFILE=#updatefiles\extractlog.log
 CALL :setESC
 
 :: Make sure people know what this is actually for
