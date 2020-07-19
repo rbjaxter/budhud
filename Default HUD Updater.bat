@@ -9,10 +9,11 @@ ECHO budhud Default TF2 HUD Updater
 ECHO ====================================================================================================%ESC%[0m
 ECHO %ESC%[33mNOTE: THIS DOES NOT UPDATE YOUR HUD TO THE LATEST VERSION OF BUDHUD%ESC%[0m
 ECHO    This bat file's sole purpose is to extract TF2's latest default hud files and modify them to work with
-ECHO    budhud. This means that you can run this file whenever there's a TF2 update (lol) to make the
-ECHO    hud work on the newest version of TF2.
+ECHO    budhud. 
+ECHO    This means that you can run this file whenever there's a TF2 update (lol) to make the hud usable.
+ECHO    Please note that this will not grab the latest files if your game own game files are not updated.
 ECHO.
-ECHO    Please note that this will not grab the latest files if your game itself is not updated.
+ECHO    You can also use this bat to troubleshoot your budhud install.
 timeout /t -1
 
 :: Make sure we have what we need first
@@ -78,14 +79,21 @@ GOTO :NOERROR
 
 :NOERROR
 ECHO %ESC%[92m====================================================================================================
-ECHO Check passed. You appear to have the necessary files.
-ECHO Starting default hud extraction...
+ECHO Check passed. The hud appears to be located in the correct place and not missing any necessary files.
 ECHO ====================================================================================================%ESC%[0m
-TIMEOUT /t 3
+ECHO How would you like to proceed?
+ECHO 1. Update default hud files
+ECHO 2. Close bat file
+
+CHOICE /C 12 /M "Please enter your choice."
+
+IF ERRORLEVEL 2 GOTO END
+IF ERRORLEVEL 1 GOTO DEFUPDATER
 
 ECHO.
 ECHO.
 
+:DEFUPDATER
 ECHO %ESC%[33m====================================================================================================
 ECHO Setting default directories...
 ECHO ====================================================================================================%ESC%[0m
