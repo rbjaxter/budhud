@@ -1,6 +1,6 @@
 "Resource/UI/HudPlayerClass.res"
 {
-	"whayay_crosshair"
+	"crosshair_1"
 	{
 		"enabled"													"1"
 		"visible"													"1"
