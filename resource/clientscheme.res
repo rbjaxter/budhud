@@ -31,7 +31,7 @@
 	#base	"../#customization/_enabled/bh_colors.res"
 	#base	"clientscheme/bh_fontentries.res"
 	#base	"clientscheme/bh_borders.res"
-	#base	"clientscheme/clientscheme_base.res"
+	#base	"clientscheme_base.res"
 
 Scheme
 {
