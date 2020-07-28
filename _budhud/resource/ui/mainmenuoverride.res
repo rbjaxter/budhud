@@ -225,8 +225,8 @@
 	"bh_Backpack"
 	{
 		"pin_to_sibling" 											"bh_CenterNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 		
 		"ControlName"												"CExImageButton"
 		"fieldName"													"bh_Backpack"
@@ -251,8 +251,8 @@
 	"bh_Store"
 	{
 		"pin_to_sibling" 											"bh_CenterNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 		
 		"ControlName"												"CExImageButton"
 		"fieldName"													"bh_Store"
@@ -277,8 +277,8 @@
 	"bh_Options"
 	{
 		"pin_to_sibling" 											"bh_CenterNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 		
 		"ControlName"												"CExImageButton"
 		"fieldName"													"bh_Options"
@@ -303,8 +303,8 @@
 	"bh_AdvOptions"
 	{
 		"pin_to_sibling" 											"bh_CenterNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 		
 		"ControlName"												"CExImageButton"
 		"fieldName"													"bh_AdvOptions"
@@ -329,8 +329,8 @@
 //	"bh_Quit"
 //	{
 //		"pin_to_sibling" 											"bh_CenterNav"
-//		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-//		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+//		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+//		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 //		
 //		"ControlName"												"CExImageButton"
 //		"fieldName"													"bh_Quit"
@@ -359,8 +359,8 @@
 	"StreamListPanel"
 	{
 		"pin_to_sibling" 											"bh_InfoDisplay"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 		
 		"xpos"														"0"
 		"ypos"														"0"
@@ -375,8 +375,8 @@
 	"MOTD_Panel"
 	{
 		"pin_to_sibling" 											"bh_InfoDisplay"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 
 		"xpos"														"0"
 		"ypos"														"0"
@@ -426,8 +426,8 @@
 	"Notifications_Panel"
 	{
 		"pin_to_sibling" 											"bh_InfoDisplay"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 		
 		"xpos"														"-45"
 		"ypos"														"-3"
@@ -460,8 +460,8 @@
 	"Notifications_ShowButtonPanel"
 	{
 		"pin_to_sibling" 											"bh_TopNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 
 		"xpos"														"15"
 		"ypos"														"-3"
@@ -501,8 +501,8 @@
 	"bh_Streams"
 	{
 		"pin_to_sibling" 											"bh_TopNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 		
 		"ControlName"												"EditablePanel"
 		"fieldname"													"bh_Streams"
@@ -569,8 +569,8 @@
 	"bh_Contracts"
 	{
 		"pin_to_sibling" 											"bh_TopNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 		
 		"ControlName"												"EditablePanel"
 		"fieldname"													"bh_Contracts"
@@ -637,8 +637,8 @@
 	"bh_News"
 	{
 		"pin_to_sibling" 											"bh_TopNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 		
 		"ControlName"												"EditablePanel"
 		"fieldname"													"bh_News"
@@ -709,8 +709,8 @@
 	"bh_Favorite1"
 	{
 		"pin_to_sibling" 											"bh_TopNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 	
 		"ControlName"												"EditablePanel"
 		"fieldname"													"bh_Favorite1"
@@ -770,8 +770,8 @@
 	"bh_Favorite2"
 	{
 		"pin_to_sibling" 											"bh_TopNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 
 		"ControlName"												"EditablePanel"
 		"fieldname"													"bh_Favorite2"
@@ -897,8 +897,8 @@
 	"bh_budhud"
 	{
 		"pin_to_sibling" 											"bh_BelowTopNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 	
 		"ControlName"												"CExImageButton"
 		"fieldName"													"budhud"
@@ -944,8 +944,8 @@
 	"bh_TitleHover"
 	{
 		"pin_to_sibling" 											"bh_BelowTopNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 	
 		"ControlName"												"EditablePanel"
 		"fieldname"													"bh_TitleHover"
@@ -1065,8 +1065,8 @@
 	"bh_DemoUI"
 	{
 		"pin_to_sibling" 											"bh_BottomNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 		
 		"ControlName"												"EditablePanel"
 		"fieldname"													"bh_DemoUI"
@@ -1130,8 +1130,8 @@
 	"bh_CreateServer"
 	{
 		"pin_to_sibling" 											"bh_BottomNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 		
 		"ControlName"												"EditablePanel"
 		"fieldname"													"bh_CreateServer"
@@ -1196,8 +1196,8 @@
 	"RequestCoachButton"
 	{
 		"pin_to_sibling" 											"bh_BottomNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 		
 		"xpos"														"233"
 		"ypos"														"0"
@@ -1238,8 +1238,8 @@
 	"ReportPlayerButton"
 	{
 		"pin_to_sibling" 											"bh_BottomNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 		
 		"xpos"														"-210"
 		"ypos"														"0"
@@ -1280,8 +1280,8 @@
 	"CallVoteButton"
 	{
 		"pin_to_sibling" 											"bh_BottomNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 		
 		"xpos"														"-250"
 		"ypos"														"0"
@@ -1322,8 +1322,8 @@
 	"MutePlayersButton"
 	{
 		"pin_to_sibling" 											"bh_BottomNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 		
 		"xpos"														"273"
 		"ypos"														"0"
@@ -1364,8 +1364,8 @@
 	"bh_AchievementsButton"
 	{
 		"pin_to_sibling" 											"bh_BottomNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 		
 		"ControlName"												"EditablePanel"
 		"fieldname"													"bh_AchievementsButton"
@@ -1430,8 +1430,8 @@
 	"bh_CoachButton"
 	{
 		"pin_to_sibling" 											"bh_BottomNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 		
 		"ControlName"												"EditablePanel"
 		"fieldname"													"bh_CoachButton"
@@ -1496,8 +1496,8 @@
 	"bh_TrainingButton"
 	{
 		"pin_to_sibling" 											"bh_BottomNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 		
 		"ControlName"												"EditablePanel"
 		"fieldname"													"bh_TrainingButton"
@@ -1562,8 +1562,8 @@
 	"bh_WorkshopButton"
 	{
 		"pin_to_sibling" 											"bh_BottomNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 		
 		"ControlName"												"EditablePanel"
 		"fieldname"													"bh_WorkshopButton"
@@ -1628,8 +1628,8 @@
 	"bh_BugButton"
 	{
 		"pin_to_sibling" 											"bh_BottomNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 		
 		"ControlName"												"EditablePanel"
 		"fieldname"													"bh_BugButton"
@@ -1694,8 +1694,8 @@
 	"bh_ConsoleButton"
 	{
 		"pin_to_sibling" 											"bh_BottomNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 		
 		"ControlName"												"EditablePanel"
 		"fieldname"													"bh_ConsoleButton"
@@ -1760,8 +1760,8 @@
 	"bh_ReplaysButton"
 	{
 		"pin_to_sibling" 											"bh_BottomNav"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 		
 		"ControlName"												"EditablePanel"
 		"fieldname"													"bh_ReplaysButton"

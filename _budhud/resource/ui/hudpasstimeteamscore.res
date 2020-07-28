@@ -27,8 +27,8 @@
 	"BlueScore"
 	{
 		"pin_to_sibling" 											"bh_BlueBG"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 	
 		"xpos"														"0"
 		"ypos"														"0"
@@ -86,8 +86,8 @@
 	"RedScore"
 	{
 		"pin_to_sibling" 											"bh_RedBG"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 	
 		"xpos"														"0"
 		"ypos"														"0"
