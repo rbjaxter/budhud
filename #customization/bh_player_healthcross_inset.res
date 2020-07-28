@@ -2,7 +2,8 @@
 {
 	"bh_PlayerStatusAnchor"
 	{
-		"xpos"														"c-332"
+		"xpos"														"c-211"
+		"ypos"														"10"
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -11,21 +12,21 @@
 
 	"PlayerStatusHealthBonusImage"
 	{
-		"xpos"														"40"
-		"ypos"														"60"
-		"wide"														"34"
-		"tall"														"34"
+		"xpos"														"95"
+		"ypos"														"46"
+		"wide"														"60"
+		"tall"														"60"
 	}
 	
 	"PlayerStatusHealthImage"
 	{
-		"xpos"														"42"
-		"ypos"														"62"
-		"wide"														"30"
-		"tall"														"30"
+		"xpos"														"95"
+		"ypos"														"46"
+		"wide"														"60"
+		"tall"														"60"
 		"visible"													"1"
 		"enabled"													"1"
-	}
+	}	
 	
 	"PlayerStatusHealthImageBG"
 	{
@@ -35,9 +36,19 @@
 	
 		"xpos"														"2"
 		"ypos"														"2"
-		"wide"														"34"
-		"tall"														"34"
+		"wide"														"64"
+		"tall"														"64"
 		"visible"													"1"
 		"enabled"													"1"
+	}
+	
+	"PlayerStatusHealthValue"
+	{
+		"font"														"bh_Font26"
+	}
+	
+	"PlayerStatusHealthValueShadow"
+	{
+		"font"														"bh_Font26"
 	}
 }
