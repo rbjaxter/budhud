@@ -7,13 +7,14 @@ CALL :setESC
 ECHO %ESC%[96m====================================================================================================
 ECHO budhud Default TF2 HUD Updater
 ECHO ====================================================================================================%ESC%[0m
-ECHO %ESC%[33mNOTE: THIS DOES NOT UPDATE YOUR HUD TO THE LATEST VERSION OF BUDHUD%ESC%[0m
-ECHO    This bat file's sole purpose is to extract TF2's latest default hud files and modify them to work with
-ECHO    budhud. 
+ECHO %ESC%[33mNOTE: THIS DOES NOT UPDATE OR DOWNLOAD BUDHUD%ESC%[0m
+ECHO    This bat file only does two things:
+ECHO    - Determines if your hud is installed correctly
+ECHO    - Extracts and modifies the default TF2's hud files
 ECHO    This means that you can run this file whenever there's a TF2 update (lol) to make the hud usable.
-ECHO    Please note that this will not grab the latest files if your game own game files are not updated.
-ECHO.
 ECHO    You can also use this bat to troubleshoot your budhud install.
+ECHO.
+ECHO    Please note that this will not grab the latest files if your own game files are not updated.
 timeout /t -1
 
 :: Make sure we have what we need first
@@ -22,6 +23,7 @@ ECHO Checking directory for necessary files...
 ECHO ====================================================================================================%ESC%[0m
 tasklist /FI "IMAGENAME eq hl2.exe" /NH | find /I /N "hl2.exe" >NUL
 if "%ERRORLEVEL%"=="0" goto :ERROR_tf2open
+IF NOT EXIST "..\..\..\hl2.exe" (goto :ERROR_duplicatefolder)
 IF NOT EXIST "..\..\tf2_misc_dir.vpk" (goto :ERROR_tf2_misc_dir)
 IF NOT EXIST "#updatefiles" (goto :ERROR_updatefiles)
 IF NOT EXIST "#updatefiles\_Modifier.exe" (goto :ERROR_modifier)
@@ -31,6 +33,16 @@ IF NOT EXIST "materials\vgui\replay\thumbnails\melancholy.vtf" (goto :ERROR_wang
 
 :: Error messages
 GOTO :NOERROR
+
+:ERROR_duplicatefolder
+ECHO %ESC%[91mERROR: Could not find %ESC%[93mhl2.exe%ESC%[91m by moving up three directories.
+ECHO    - Verify that there are not two "budhud-master" folders inside of each other
+ECHO.
+ECHO      %ESC%[91mWRONG: ..\tf\custom\budhud-master\budhud-master\
+ECHO             Containing #customization, #updatefiles, #users, etc
+ECHO      %ESC%[92mRIGHT: ..\tf\custom\budhud-master\
+ECHO             Containing #customization, #updatefiles, #users, etc
+goto :ERROR_support
 
 :ERROR_tf2open
 ECHO %ESC%[91mERROR: %ESC%[93mhl2.exe%ESC%[91m process is running. 
@@ -46,19 +58,19 @@ goto :ERROR_support
 :ERROR_updatefiles
 ECHO %ESC%[91mERROR: Can't find the %ESC%[93m#updatefiles%ESC%[91m folder.
 ECHO    - Verify that the %ESC%[93m#updatefiles%ESC%[91m folder was not deleted.
-ECHO        Location: ..\custom\budhud\#updatefiles%ESC%
+ECHO        Location: ..\custom\budhud\#updatefiles
 goto :ERROR_support
 
 :ERROR_modifier
 ECHO %ESC%[91mERROR: Can't find %ESC%[93m_Modifier.exe%ESC%[91m in the %ESC%[93m#updatefiles%ESC%[91m folder.
 ECHO    - Verify that %ESC%[93m_Modifier.exe%ESC%[91m was not deleted.
-ECHO        Location: ..\custom\budhud\#updatefiles\_Modifier.exe%ESC%
+ECHO        Location: ..\custom\budhud\#updatefiles\_Modifier.exe
 goto :ERROR_support
 
 :ERROR_hlextract
 ECHO %ESC%[91mERROR: Can't find %ESC%[93mHLExtract.exe%ESC%[91m in the %ESC%[93m#updatefiles%ESC%[91m folder. 
 ECHO    - Verify that %ESC%[93mHLExtract.exe%ESC%[91m was not deleted.
-ECHO        Location: ..\custom\budhud\#updatefiles\HLExtract.exe%ESC%
+ECHO        Location: ..\custom\budhud\#updatefiles\HLExtract.exe
 goto :ERROR_support
 
 :ERROR_support
@@ -81,14 +93,7 @@ GOTO :NOERROR
 ECHO %ESC%[92m====================================================================================================
 ECHO Check passed. The hud appears to be located in the correct place and not missing any necessary files.
 ECHO ====================================================================================================%ESC%[0m
-ECHO How would you like to proceed?
-ECHO 1. Update default hud files
-ECHO 2. Close bat file
-
-CHOICE /C 12 /M "Please enter your choice."
-
-IF ERRORLEVEL 2 GOTO END
-IF ERRORLEVEL 1 GOTO DEFUPDATER
+TIMEOUT /t 3
 
 ECHO.
 ECHO.
@@ -184,51 +189,6 @@ ECHO ===========================================================================
 
 ECHO.
 ECHO.
-
-:: This will delete any new files not "whitelisted" by hidden attrib and it doesn't save much file size to do this
-:: ECHO %ESC%[33m====================================================================================================
-:: ECHO Setting hidden attributes to prevent file deletion...
-:: ECHO ====================================================================================================%ESC%[0m
-:: ATTRIB /s "%default_tf2hud_folder%\resource\roundinfo\*" +h
-:: ATTRIB /s "%default_tf2hud_folder%\resource\ui\*" +h
-:: ATTRIB /s "%default_tf2hud_folder%\resource\chatscheme.res" +h
-:: ATTRIB /s "%default_tf2hud_folder%\resource\clientscheme.res" +h
-:: ATTRIB /s "%default_tf2hud_folder%\resource\gamemenu.res" +h
-:: ATTRIB /s "%default_tf2hud_folder%\resource\sourcescheme.res" +h
-:: ATTRIB /s "%default_tf2hud_folder%\resource\muteplayerdialog.res" +h
-:: ECHO %ESC%[32m====================================================================================================%
-:: ECHO Done.
-:: ECHO ====================================================================================================%ESC%[0m
-:: 
-:: ECHO.
-:: ECHO.
-:: 
-:: ECHO %ESC%[33m====================================================================================================
-:: ECHO Deleting more unused default hud files...
-:: ECHO ====================================================================================================%ESC%[0m
-:: DEL /s /q "%default_tf2hud_folder%\resource\*"
-:: ECHO %ESC%[32m====================================================================================================%
-:: ECHO Done.
-:: ECHO ====================================================================================================%ESC%[0m
-:: 
-:: ECHO.
-:: ECHO.
-:: 
-:: ECHO %ESC%[33m====================================================================================================
-:: ECHO Setting attributes back to defaults...
-:: ECHO ====================================================================================================%ESC%[0m
-:: ATTRIB /s "%default_tf2hud_folder%\resource\roundinfo\*" -r -s -h
-:: ATTRIB /s "%default_tf2hud_folder%\resource\ui\*" -r -s -h
-:: ATTRIB /s "%default_tf2hud_folder%\resource\chatscheme.res" -r -s -h
-:: ATTRIB /s "%default_tf2hud_folder%\resource\clientscheme.res" -r -s -h
-:: ATTRIB /s "%default_tf2hud_folder%\resource\gamemenu.res" -r -s -h
-:: ATTRIB /s "%default_tf2hud_folder%\resource\sourcescheme.res" -r -s -h
-:: ECHO %ESC%[32m====================================================================================================%
-:: ECHO Done.
-:: ECHO ====================================================================================================%ESC%[0m
-
-:: ECHO.
-:: ECHO.
 
 ECHO %ESC%[33m====================================================================================================
 ECHO Copying stubborn default files over to core directory...
