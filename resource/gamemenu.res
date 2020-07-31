@@ -48,7 +48,7 @@
 						echo ======================================================;
 						echo ~ Thank you to everyone who actively uses my hud! ~~~~;
 						echo ======================================================;"
-		"tooltip"		"Updated 30 June 2020"
+		"tooltip"		"Updated 27 July 2020"
 	}
 
 	"bh_Streams"
@@ -163,7 +163,7 @@
 	"MutePlayersButton"
 	{
 		"label"			"Mute Idiots"
-		"command"		"OpenPlayerListDialog"
+		"command"		"OpenMutePlayerDialog"
 		"OnlyInGame"	"1"
 		"subimage"		"replay/thumbnails/menu_icons/muteplayers"
 		"tooltip" 		"#MMenu_MutePlayers"

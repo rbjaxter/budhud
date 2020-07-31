@@ -163,8 +163,8 @@
 	"bh_BGscoreBlue"
 	{
 		"pin_to_sibling" 											"bh_BlueAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 	
 		"ControlName" 												"ImagePanel"
 		"fieldName" 												"bh_BGscoreBlue"
@@ -192,8 +192,8 @@
 	"BlueTeamLabel"
 	{
 		//"pin_to_sibling" 											"bh_BlueAnchor"
-		//"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		//"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		//"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		//"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 		//
 		//"xpos"													"0"
 		//"ypos"													"7"
@@ -209,8 +209,8 @@
 	"BlueTeamPlayerCount"
 	{
 		"pin_to_sibling" 											"bh_BlueAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 		
 		"xpos"														"0"
 		"ypos"														"0"
@@ -227,8 +227,8 @@
 	"BlueTeamScore"
 	{
 		"pin_to_sibling" 											"bh_BlueAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 		
 		"xpos"														"0"
 		"ypos"														"1"
@@ -247,8 +247,8 @@
 	"bh_BGscoreRed"
 	{
 		"pin_to_sibling" 											"bh_RedAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 		
 		"ControlName" 												"ImagePanel"
 		"fieldName" 												"bh_BGscoreRed"
@@ -275,8 +275,8 @@
 	"RedTeamLabel"
 	{
 	//	"pin_to_sibling" 											"bh_RedAnchor"
-	//	"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-	//	"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+	//	"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+	//	"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 	//	
 	//	"xpos"														"0"
 	//	"ypos"														"7"
@@ -292,8 +292,8 @@
 	"RedTeamPlayerCount"
 	{
 		"pin_to_sibling" 											"bh_RedAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 		
 		"xpos"														"0"
 		"ypos"														"0"
@@ -310,8 +310,8 @@
 	"RedTeamScore"
 	{
 		"pin_to_sibling" 											"bh_RedAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
 		
 		"xpos"														"0"
 		"ypos"														"1"
@@ -374,8 +374,8 @@
 	"bh_LocalStatsBG1"
 	{
 		"pin_to_sibling" 											"bh_LocalStatsAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"		
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"		
 	
 		"ControlName"												"ImagePanel"
 		"fieldName"													"bh_LocalStatsBG1"
@@ -394,8 +394,8 @@
 	"LocalPlayerDuelStatsPanel"
 	{
 		"pin_to_sibling" 											"bh_LocalStatsAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 		
 		"xpos"														"0"
 		"ypos"														"0"
@@ -404,8 +404,8 @@
 	"mapname"
 	{
 		"pin_to_sibling" 											"bh_LocalStatsAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"		
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"		
 	
 		"xpos"														"-448"
 		"ypos"														"-35"
@@ -422,8 +422,8 @@
 	"ServerLabelNew"
 	{
 		"pin_to_sibling" 											"bh_LocalStatsAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"		
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"		
 	
 		"xpos"														"-1"
 		"ypos"														"12"
@@ -436,8 +436,8 @@
 	"Spectators"
 	{
 		"pin_to_sibling" 											"bh_LocalStatsAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 		
 		"xpos"														"-300"
 		"ypos"														"12"
@@ -450,8 +450,8 @@
 	"LocalPlayerStatsPanel"
 	{
 		"pin_to_sibling" 											"bh_LocalStatsAnchor"
-		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
-		"pin_to_sibling_corner" 									"PIN_TOPCENTER"	
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 		
 		"xpos"														"0"
 		"ypos"														"0"

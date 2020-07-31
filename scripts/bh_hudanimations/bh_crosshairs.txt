@@ -1,5 +1,5 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// whayay's and Knuckles' Crosshairs: Flash
+	// Crosshair Damage Flash
 	// ============================================================================================== //
 	// This can be controlled in ..\budhud\#customization\_enabled\bh_colors.res
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -12,12 +12,10 @@
 	
 	event HitMarker
 	{
-		Animate 			whayay_crosshair 					fgcolor 					whayay_crosshairflash 		Linear 0.0 0.0
-		Animate 			whayay_crosshair 					fgcolor 					whayay_crosshair 			Linear 0.1 0.1
-		Animate				knuckles_crosshair					fgcolor						knuckles_crosshairflash		Linear 0.0 0.0
-		Animate 			knuckles_crosshair					fgcolor						knuckles_crosshair			Linear 0.1 0.1
-		Animate				fog_crosshair						fgcolor						fog_crosshairflash			Linear 0.0 0.0
-		Animate 			fog_crosshair						fgcolor						fog_crosshair				Linear 0.1 0.1
-		Animate				garm3n_crosshair					fgcolor						garm3n_crosshairflash		Linear 0.0 0.0
-		Animate 			garm3n_crosshair					fgcolor						garm3n_crosshair			Linear 0.1 0.1
+		Animate 			hud_crosshair_1 					fgcolor 					hud_crosshair_1_flash 		Linear 0.0 0.0
+		Animate 			hud_crosshair_1 					fgcolor 					hud_crosshair_1 			Linear 0.1 0.1
+		Animate 			hud_crosshair_2 					fgcolor 					hud_crosshair_2_flash		Linear 0.0 0.0
+		Animate 			hud_crosshair_2 					fgcolor 					hud_crosshair_2		 		Linear 0.1 0.1
+		Animate 			hud_crosshair_3 					fgcolor 					hud_crosshair_3_flash		Linear 0.0 0.0
+		Animate 			hud_crosshair_3 					fgcolor 					hud_crosshair_3		 		Linear 0.1 0.1
 	}

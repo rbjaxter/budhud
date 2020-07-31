@@ -1,6 +1,7 @@
 	#base	"..\..\#users\truktruk\resource\ui\hudplayerhealth.res"
 	#base	"..\..\#users\ly_dee\resource\ui\hudplayerhealth.res"
 	#base	"..\..\#customization\_enabled\bh_player_largehealth.res"
+	#base	"..\..\#customization\_enabled\bh_player_healthcross_inset.res"
 	#base	"..\..\#customization\_enabled\bh_player_healthcross.res"
 	#base	"..\..\#customization\_enabled\bh_health_box.res"
 

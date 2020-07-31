@@ -246,8 +246,8 @@
 		"PartySlot0"
 		{
 			"pin_to_sibling" 										"bh_PartyAnchor"
-			"pin_corner_to_sibling" 								"PIN_TOPCENTER"
-			"pin_to_sibling_corner" 								"PIN_TOPCENTER"
+			"pin_corner_to_sibling" 								"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 								"PIN_TOPLEFT"
 			
 			"xpos"													"72"
 			"wide"													"24"
@@ -257,8 +257,8 @@
 		"PartySlot1"
 		{
 			"pin_to_sibling" 										"bh_PartyAnchor"
-			"pin_corner_to_sibling" 								"PIN_TOPCENTER"
-			"pin_to_sibling_corner" 								"PIN_TOPCENTER"
+			"pin_corner_to_sibling" 								"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 								"PIN_TOPLEFT"
 			
 			"xpos"													"48"
 			"wide"													"24"
@@ -268,8 +268,8 @@
 		"PartySlot2"
 		{
 			"pin_to_sibling" 										"bh_PartyAnchor"
-			"pin_corner_to_sibling" 								"PIN_TOPCENTER"
-			"pin_to_sibling_corner" 								"PIN_TOPCENTER"
+			"pin_corner_to_sibling" 								"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 								"PIN_TOPLEFT"
 			
 			"xpos"													"24"
 			"wide"													"24"
@@ -279,8 +279,8 @@
 		"PartySlot3"
 		{
 			"pin_to_sibling" 										"bh_PartyAnchor"
-			"pin_corner_to_sibling" 								"PIN_TOPCENTER"
-			"pin_to_sibling_corner" 								"PIN_TOPCENTER"
+			"pin_corner_to_sibling" 								"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 								"PIN_TOPLEFT"
 			
 			"xpos"													"0"
 			"wide"													"24"
@@ -290,8 +290,8 @@
 		"PartySlot4"
 		{
 			"pin_to_sibling" 										"bh_PartyAnchor"
-			"pin_corner_to_sibling" 								"PIN_TOPCENTER"
-			"pin_to_sibling_corner" 								"PIN_TOPCENTER"
+			"pin_corner_to_sibling" 								"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 								"PIN_TOPLEFT"
 			
 			"xpos"													"-24"
 			"wide"													"24"
@@ -301,8 +301,8 @@
 		"PartySlot5"
 		{
 			"pin_to_sibling" 										"bh_PartyAnchor"
-			"pin_corner_to_sibling" 								"PIN_TOPCENTER"
-			"pin_to_sibling_corner" 								"PIN_TOPCENTER"
+			"pin_corner_to_sibling" 								"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 								"PIN_TOPLEFT"
 			
 			"xpos"													"-48"
 			"wide"													"24"

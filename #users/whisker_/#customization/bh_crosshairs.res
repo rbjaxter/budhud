@@ -1,6 +1,6 @@
 "Resource/UI/HudPlayerClass.res"
 {
-	"whayay_crosshair"
+	"hud_crosshair_1"
 	{
 		// Change these
 		"enabled"													"1"

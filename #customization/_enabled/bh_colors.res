@@ -18,7 +18,30 @@ Scheme
 	{
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Crosshair Colors
+	// ============================================================================================== //
+	// These crosshair colors are kept separated just in case you use multiple crosshairs and want to
+	// have different colors for each. Most will only use `hud_crosshair_1`
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		//////////////////////
+		// HUD Crosshair
+		//////////////////////
+
+		"hud_crosshair_1"											"255 255 255 255" 	// Crosshair color
+		"hud_crosshair_1_flash"										"240 134 049 255"	// Flash on damage done
+		
+		"hud_crosshair_2"											"255 255 255 255" 	// Crosshair color
+		"hud_crosshair_2_flash"										"240 134 049 255"	// Flash on damage done
+		
+		"hud_crosshair_3"											"255 255 255 255" 	// Crosshair color
+		"hud_crosshair_3_flash"										"240 134 049 255"	// Flash on damage done
+
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Health
+	// ============================================================================================== //
+	// Health animations are controlled in `\budhud\scripts\hudanimations_manifest.txt`
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		"bh_Health_Main"											"255 255 255 255"
@@ -29,6 +52,8 @@ Scheme
 		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Ammo
+	// ============================================================================================== //
+	// Ammo animations are controlled in `\budhud\scripts\hudanimations_manifest.txt`
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 		"bh_Ammo_Main"												"255 255 255 255"
@@ -103,42 +128,6 @@ Scheme
 		"bh_metertext"												"254 002 209 255"
 		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Crosshair Colors
-	// ============================================================================================== //
-	// These crosshair colors are kept separated just in case you use multiple crosshairs and want to
-	// have different colors for each. You don't need to change every crosshair's color, just the one
-	// you're using.
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-		//////////////////////
-		// whayay's Crosshairs
-		//////////////////////
-
-		"whayay_crosshair"											"255 255 255 255" 	// Crosshair color
-		"whayay_crosshairflash"										"240 134 049 255"	// Flash on damage done
-		
-		///////////////////
-		// Fog's Crosshairs
-		///////////////////
-
-		"fog_crosshair"												"255 255 255 255"	// Crosshair color
-		"fog_crosshairflash"										"240 134 049 255"	// Flash on damage done
-	
-		///////////////////////
-		// knuckles' Crosshairs
-		///////////////////////
-
-		"knuckles_crosshair"										"255 255 255 255" 	// Crosshair color
-		"knuckles_crosshairflash"									"240 134 049 255"	// Flash on damage done
-		
-		///////////////////////
-		// Garm3n's Crosshairs
-		///////////////////////
-
-		"garm3n_crosshair"											"255 255 255 255" 	// Crosshair color
-		"garm3n_crosshairflash"										"240 134 049 255"	// Flash on damage done
-		
-	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Menu Colors
 	// ============================================================================================== //
 	// Controls the color of the text on the main menu.
@@ -163,10 +152,10 @@ Scheme
 		//////////
 		// October
 		//////////
-		//"bh_menu_foreground1"										"255 255 255 255"	// White
-		//"bh_menu_foreground2"										"255 255 255 255"	// White
-		//"bh_menu_background1"										"124 016 173 255"	// Spooky Purple
-		//"bh_menu_background2"										"241 088 002 255"	// Spooky Orange
+		// "bh_menu_foreground1"									"255 255 255 255"	// White
+		// "bh_menu_foreground2"									"255 255 255 255"	// White
+		// "bh_menu_background1"									"124 016 173 255"	// Spooky Purple
+		// "bh_menu_background2"									"241 088 002 255"	// Spooky Orange
 		
 		///////////
 		// December
@@ -205,15 +194,15 @@ Scheme
 		//////////
 		// October
 		//////////
-		//"bh_bar1"													"124 016 173 255"
-		//"bh_bar2"													"027 165 044 255"
-		//"bh_bar3"													"241 088 002 255"
-		//"bh_bar4"													"124 016 173 255"
-		//"bh_bar5"													"027 165 044 255"
-		//"bh_bar6"													"241 088 002 255"
-		//"bh_bar7"													"124 016 173 255"
-		//"bh_bar8"													"027 165 044 255"
-		//"bh_bar9"													"241 088 002 255"
+		// "bh_bar1"												"124 016 173 255"
+		// "bh_bar2"												"027 165 044 255"
+		// "bh_bar3"												"241 088 002 255"
+		// "bh_bar4"												"124 016 173 255"
+		// "bh_bar5"												"027 165 044 255"
+		// "bh_bar6"												"241 088 002 255"
+		// "bh_bar7"												"124 016 173 255"
+		// "bh_bar8"												"027 165 044 255"
+		// "bh_bar9"												"241 088 002 255"
 	
 		///////////
 		// December
