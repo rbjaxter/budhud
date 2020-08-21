@@ -645,24 +645,6 @@
 		}
 	}
 
-	"StreamListPanel"
-	{
-		"ControlName"	"CTFStreamListPanel"
-		"fieldName"		"StreamListPanel"
-		"xpos"			"c5"
-		"ypos"			"65"
-		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"350"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
-
-		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
-	}
-
 	"QuestLogButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1725,22 +1707,12 @@
 				{
 					"0"
 					{
-						"item"		"Winter 2019 Cosmetic Key"
+						"item"		"Summer 2020 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Winter 2019 Cosmetic Case"
-						"show_market"	"1"
-					}
-					"2"
-					{
-						"item"		"Winter 2019 War Paint Key"
-						"show_market"	"0"
-					}
-					"3"
-					{
-						"item"		"Winter 2019 War Paint Case"
+						"item"		"Summer 2020 Cosmetic Case"
 						"show_market"	"1"
 					}
 				}
