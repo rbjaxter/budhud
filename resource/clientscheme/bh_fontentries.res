@@ -7,14 +7,32 @@ Scheme
 	{
 		"8" // budhud Font
 		{
-			"font"		"resource/fonts/Lato-Semibold.ttf"
+			"font"		"resource/fonts/font-lato-semibold.ttf"
 			"name"		"Lato Semibold"
 		}
 		
-		"9" // TF2 Crosshairs
+		"9" // Unified TF2 Crosshairs
 		{
-			"font"		"resource/fonts/TF2Crosshairs.otf"
+			"font"		"resource/fonts/crosshairs-unified.otf"
 			"name"		"TF2Crosshairs"
-		}		
+		}
+		
+		"10" // whayay's Crosshairs
+		{
+			"font"		"resource/fonts/crosshairs-whayay.ttf"
+			"name"		"Crosshair"
+		}
+		
+		"11" // Knuckles' Crosshairs
+		{
+			"font"		"resource/fonts/crosshairs-knuckles.ttf"
+			"name"		"KnucklesCrosses"
+		}
+		
+		"12" // Fog's Crosshairs
+		{
+			"font"		"resource/fonts/crosshairs-fog.ttf"
+			"name"		"Crosshairs Regular"
+		}
 	}
 }

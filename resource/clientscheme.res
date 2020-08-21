@@ -21,7 +21,6 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	#base	"../#customization/_enabled/bh_crosshairs_tf2crosshairs.res"
 	#base	"../#customization/_enabled/bh_crosshairs_fog.res"
-	#base	"../#customization/_enabled/bh_crosshairs_garm3n.res"
 	#base	"../#customization/_enabled/bh_crosshairs_knuckles.res"
 	#base	"../#customization/_enabled/bh_crosshairs_whayay.res"
 	
