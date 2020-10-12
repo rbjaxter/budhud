@@ -1707,13 +1707,63 @@
 				{
 					"0"
 					{
-						"item"		"Summer 2020 Cosmetic Key"
+						"item"		"Halloween 2020 Key" 
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Summer 2020 Cosmetic Case"
+						"item"		"Halloween 2020 Case"
 						"show_market"	"1"
+					}
+					"2"
+					{
+						"item"		"Scream Fortress 2020 War Paint Key"
+						"show_market"	"0"
+					}
+					"3"
+					{
+						"item"		"Scream Fortress 2020 War Paint Case"
+						"show_market"	"1"
+					}
+					"4"
+					{
+						"item"		"Map Token Megalo"
+						"show_market"	"0"
+					}
+					"5"
+					{
+						"item"		"Strange Filter: Megalo (Community)"
+						"show_market"	"0"
+					}					
+					"6"
+					{
+						"item"		"Map Token Hassle Castle"
+						"show_market"	"0"
+					}
+					"7"
+					{
+						"item"		"Strange Filter: Hassle Castle (Community)"
+						"show_market"	"0"
+					}
+					"8"
+					{
+						"item"		"Map Token Bloodwater"
+						"show_market"	"0"
+					}
+					"9"
+					{
+						"item"		"Strange Filter: Bloodwater (Community)"
+						"show_market"	"0"
+					}
+					"10"
+					{
+						"item"		"Map Token Undergrove Event"
+						"show_market"	"0"
+					}
+					"11"
+					{
+						"item"		"Strange Filter: Undergrove Event (Community)"
+						"show_market"	"0"
 					}
 				}
 			}

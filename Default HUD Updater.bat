@@ -8,7 +8,7 @@ ECHO %ESC%[96m==================================================================
 ECHO budhud Default TF2 HUD Updater
 ECHO ====================================================================================================%ESC%[0m
 ECHO %ESC%[33mNOTE: THIS DOES NOT UPDATE OR DOWNLOAD BUDHUD%ESC%[0m
-ECHO    This bat file only does two things:
+ECHO    This bat file only does one of two things:
 ECHO    - Determines if your hud is installed correctly
 ECHO    - Extracts and modifies the default TF2's hud files
 ECHO    This means that you can run this file whenever there's a TF2 update (lol) to make the hud usable.
@@ -23,8 +23,8 @@ ECHO Checking directory for necessary files...
 ECHO ====================================================================================================%ESC%[0m
 tasklist /FI "IMAGENAME eq hl2.exe" /NH | find /I /N "hl2.exe" >NUL
 if "%ERRORLEVEL%"=="0" goto :ERROR_tf2open
-IF NOT EXIST "..\..\..\hl2.exe" (goto :ERROR_duplicatefolder)
 IF NOT EXIST "..\..\tf2_misc_dir.vpk" (goto :ERROR_tf2_misc_dir)
+IF NOT EXIST "..\..\..\hl2.exe" (goto :ERROR_duplicatefolder)
 IF NOT EXIST "#updatefiles" (goto :ERROR_updatefiles)
 IF NOT EXIST "#updatefiles\_Modifier.exe" (goto :ERROR_modifier)
 IF NOT EXIST "#updatefiles\HLExtract.exe" (goto :ERROR_hlextract)
@@ -34,6 +34,11 @@ IF NOT EXIST "materials\vgui\replay\thumbnails\melancholy.vtf" (goto :ERROR_wang
 :: Error messages
 GOTO :NOERROR
 
+:ERROR_tf2open
+ECHO %ESC%[91mERROR: %ESC%[93mhl2.exe%ESC%[91m process is running. 
+ECHO    - You cannot update the default hud files with Team Fortress 2 open.
+goto :ERROR_support
+
 :ERROR_duplicatefolder
 ECHO %ESC%[91mERROR: Could not find %ESC%[93mhl2.exe%ESC%[91m by moving up three directories.
 ECHO    - Verify that there are not two "budhud-master" folders inside of each other
@@ -42,11 +47,6 @@ ECHO      %ESC%[91mWRONG: ..\tf\custom\budhud-master\budhud-master\
 ECHO             Containing #customization, #updatefiles, #users, etc
 ECHO      %ESC%[92mRIGHT: ..\tf\custom\budhud-master\
 ECHO             Containing #customization, #updatefiles, #users, etc
-goto :ERROR_support
-
-:ERROR_tf2open
-ECHO %ESC%[91mERROR: %ESC%[93mhl2.exe%ESC%[91m process is running. 
-ECHO    - You cannot update the default hud files with Team Fortress 2 open.
 goto :ERROR_support
 
 :ERROR_tf2_misc_dir
@@ -93,7 +93,8 @@ GOTO :NOERROR
 ECHO %ESC%[92m====================================================================================================
 ECHO Check passed. The hud appears to be located in the correct place and not missing any necessary files.
 ECHO ====================================================================================================%ESC%[0m
-TIMEOUT /t 3
+
+TIMEOUT /t 5
 
 ECHO.
 ECHO.
