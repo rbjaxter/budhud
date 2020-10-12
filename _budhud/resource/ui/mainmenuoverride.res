@@ -326,6 +326,29 @@
 		"sound_released"											"UI/buttonclickrelease.wav"
 	}
 	
+	"VRModeButton"
+	{
+		"pin_to_sibling" 											"bh_CenterNav"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+
+		"labelText"													"#bh_VirtualReality"
+		"font"														"bh_Font20"
+		
+		"xpos"														"0"
+		"ypos"														"-120"
+		"wide"														"250"
+		"tall"														"30"
+		"textAlignment"												"center"			
+		
+		"defaultFgColor_override" 									"bh_menu_foreground2"
+		"armedFgColor_override" 									"bh_menu_background2"
+		"paintbackground"											"0"
+
+		"sound_depressed"											"UI/buttonclick.wav"
+		"sound_released"											"UI/buttonclickrelease.wav"
+	}
+	
 //	"bh_Quit"
 //	{
 //		"pin_to_sibling" 											"bh_CenterNav"
