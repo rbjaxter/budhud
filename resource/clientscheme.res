@@ -28,6 +28,7 @@
 	// Core HUD
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	#base	"../#customization/_enabled/bh_colors.res"
+	#base	"../#users/custom/_enabled/bh_colors.res"
 	#base	"clientscheme/bh_fontentries.res"
 	#base	"clientscheme/bh_borders.res"
 	#base	"clientscheme_base.res"
