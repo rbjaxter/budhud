@@ -245,7 +245,7 @@
 
 	"CMainTargetID"	
 	{				
-		"ypos"														"c15"
+		"ypos"														"c5"
 		"tall"	 													"80"
 		"zpos"														"1"
 		"priority"													"40"
@@ -253,7 +253,7 @@
 	
 	"CSecondaryTargetID"
 	{
-		"ypos" 														"c45"
+		"ypos" 														"c40"
 		"tall" 														"80"
 		"priority" 													"35"
 	}

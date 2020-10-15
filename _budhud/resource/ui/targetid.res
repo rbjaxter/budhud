@@ -20,9 +20,10 @@
 	
 	"TargetNameLabel"
 	{
-		"ypos"														"33"
-		"wide"														"280"
-		"tall"														"16"
+		"ypos"														"37"
+		"wide"														"f0"
+		"tall"														"17"
+		"font"														"bh_Font14"
 	}
 	
 	"bh_TargetNameBG"
@@ -30,10 +31,10 @@
 		"ControlName" 												"ImagePanel"
 		"fieldName"													"bh_TargetNameBG"
 		"xpos"														"0"
-		"ypos"														"32"
+		"ypos"														"34"
 		"zpos"														"-2"
 		"wide"														"f0"
-		"tall"														"16"
+		"tall"														"20"
 		"autoResize"												"0"
 		"pinCorner"													"0"
 		"visible"													"1"
@@ -49,12 +50,26 @@
 	
 	"TargetDataLabel"
 	{
-		"font"														"bh_Font10DropShadow"
-		"xpos"														"0"
-		"ypos"														"48"
-		"wide"														"250"
-		"tall"														"16"
-		"textalignment"												"north-west"
+		"font"														"bh_Font12DropShadow"
+		"ypos"														"54"
+		"wide"														"f0"
+		"tall"														"14"
+		"textalignment"												"west"
+	}
+	
+	"AmmoIcon"
+	{
+		"xpos"														"47"
+		"ypos"														"56"
+		"wide"														"9"
+		"tall"														"9"
+	}
+	
+	"KillstreakIcon"
+	{
+		"ypos"														"55"
+		"wide"														"12"
+		"tall"														"12"
 	}
 
 	"TargetIDBG"
@@ -64,13 +79,13 @@
 		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 	
 		"xpos"														"0"
-		"ypos"														"65"
+		"ypos"														"63"
 		"zpos"														"-1"			// Hard-coded to -1. Keep here or it will appear in casual.
 
-		"src_corner_height"											"0"
-		"src_corner_width"											"0"
-		"draw_corner_width"											"0"
-		"draw_corner_height" 										"0"
+		"src_corner_height"											"2"
+		"src_corner_width"											"2"
+		"draw_corner_width"											"2"
+		"draw_corner_height" 										"2"
 		
 		"teambg_1"													"replay\thumbnails\team_colors\bh_targetid_gray"
 		"teambg_2"													"replay\thumbnails\team_colors\bh_targetid_red"
@@ -79,26 +94,34 @@
 	
 	"TargetIDBG_Spec_Blue"
 	{
+		"pin_to_sibling" 											"SpectatorGUIHealth"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+	
 		"xpos"														"0"
-		"ypos"														"65"
+		"ypos"														"63"
 
-		"src_corner_height"											"0"
-		"src_corner_width"											"0"
-		"draw_corner_width"											"0"
-		"draw_corner_height" 										"0"
+		"src_corner_height"											"2"
+		"src_corner_width"											"2"
+		"draw_corner_width"											"2"
+		"draw_corner_height" 										"2"
 		
 		"image"														"replay\thumbnails\team_colors\bh_targetid_blue"
 	}
 	
 	"TargetIDBG_Spec_Red"
 	{
+		"pin_to_sibling" 											"SpectatorGUIHealth"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+	
 		"xpos"														"0"
-		"ypos"														"65"
+		"ypos"														"63"
 
-		"src_corner_height"											"0"
-		"src_corner_width"											"0"
-		"draw_corner_width"											"0"
-		"draw_corner_height" 										"0"
+		"src_corner_height"											"2"
+		"src_corner_width"											"2"
+		"draw_corner_width"											"2"
+		"draw_corner_height" 										"2"
 		
 		"image"														"replay\thumbnails\team_colors\bh_targetid_red"
 	}
@@ -132,18 +155,5 @@
 		{
 			"ypos"													"r-6969"
 		}
-	}
-	
-	"AmmoIcon"
-	{
-		"xpos"														"48"
-		"ypos"														"50"
-	}
-	
-	"KillstreakIcon"
-	{
-		"ypos"														"51"
-		"wide"														"5"
-		"tall"														"5"
 	}
 }
