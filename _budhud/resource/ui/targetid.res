@@ -34,7 +34,7 @@
 		"ypos"														"34"
 		"zpos"														"-2"
 		"wide"														"f0"
-		"tall"														"20"
+		"tall"														"18"
 		"autoResize"												"0"
 		"pinCorner"													"0"
 		"visible"													"1"
@@ -67,9 +67,10 @@
 	
 	"KillstreakIcon"
 	{
-		"ypos"														"55"
-		"wide"														"12"
-		"tall"														"12"
+		"xpos"														"45"
+		"ypos"														"57"
+		"wide"														"9"
+		"tall"														"9"
 	}
 
 	"TargetIDBG"
@@ -79,13 +80,13 @@
 		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 	
 		"xpos"														"0"
-		"ypos"														"63"
+		"ypos"														"-14"
 		"zpos"														"-1"			// Hard-coded to -1. Keep here or it will appear in casual.
 
-		"src_corner_height"											"2"
-		"src_corner_width"											"2"
-		"draw_corner_width"											"2"
-		"draw_corner_height" 										"2"
+		"src_corner_height"											"0"
+		"src_corner_width"											"0"
+		"draw_corner_width"											"0"
+		"draw_corner_height" 										"0"
 		
 		"teambg_1"													"replay\thumbnails\team_colors\bh_targetid_gray"
 		"teambg_2"													"replay\thumbnails\team_colors\bh_targetid_red"
@@ -99,12 +100,12 @@
 		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 	
 		"xpos"														"0"
-		"ypos"														"63"
+		"ypos"														"-14"
 
-		"src_corner_height"											"2"
-		"src_corner_width"											"2"
-		"draw_corner_width"											"2"
-		"draw_corner_height" 										"2"
+		"src_corner_height"											"0"
+		"src_corner_width"											"0"
+		"draw_corner_width"											"0"
+		"draw_corner_height" 										"0"
 		
 		"image"														"replay\thumbnails\team_colors\bh_targetid_blue"
 	}
@@ -116,12 +117,12 @@
 		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
 	
 		"xpos"														"0"
-		"ypos"														"63"
+		"ypos"														"-14"
 
-		"src_corner_height"											"2"
-		"src_corner_width"											"2"
-		"draw_corner_width"											"2"
-		"draw_corner_height" 										"2"
+		"src_corner_height"											"0"
+		"src_corner_width"											"0"
+		"draw_corner_width"											"0"
+		"draw_corner_height" 										"0"
 		
 		"image"														"replay\thumbnails\team_colors\bh_targetid_red"
 	}
@@ -135,7 +136,7 @@
 	"MoveableSubPanel"
 	{
 		"fieldName"													"bh_MoveableSubPanel"
-			
+
 		"MoveableIconBG"
 		{
 			"ypos"													"r-6969"

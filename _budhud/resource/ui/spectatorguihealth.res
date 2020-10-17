@@ -35,7 +35,7 @@
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Wide and tall value of the following elements should match SpectatorGUIHealth in targetid.res:
+	// Tall value of the following elements should match bh_TargetNameBG in targetid.res:
 	// bh_HealthBGSpec, PlayerStatusHealthValue, PlayerStatusHealthValueShadow
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -52,7 +52,7 @@
 		"zpos"														"-6969"
 		"zpos"														"5"
 		"wide"														"40"
-		"tall"														"20"
+		"tall"														"18"
 		"autoResize"												"0"
 		"pinCorner"													"0"
 		"labeltext"													""
@@ -76,7 +76,7 @@
 		"ypos"														"0"
 		"zpos"														"5"
 		"wide"														"40"
-		"tall"														"20"
+		"tall"														"18"
 		"visible"													"1"
 		"enabled"													"1"
 		"labeltext"													"%health%"
@@ -97,7 +97,7 @@
 		"ypos"														"-1"
 		"zpos"														"5"
 		"wide"														"40"
-		"tall"														"20"
+		"tall"														"18"
 		"visible"													"1"
 		"enabled"													"1"
 		"labeltext"													"%health%"

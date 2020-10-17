@@ -22,19 +22,19 @@
 	"PlayerStatusHealthImage"
 	{
 		"xpos"														"6"
-		"ypos"														"16"
+		"ypos"														"17"
 		"zpos"														"1"
-		"wide"														"17"
-		"tall"														"17"
+		"wide"														"15"
+		"tall"														"15"
 	}	
 	
 	"PlayerStatusHealthBonusImage"
 	{
 		"xpos"														"6"
-		"ypos"														"16"
+		"ypos"														"17"
 		"zpos"														"0"
-		"wide"														"17"
-		"tall"														"17"
+		"wide"														"15"
+		"tall"														"15"
 	}
 
 	"PlayerStatusHealthValue"

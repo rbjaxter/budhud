@@ -13,5 +13,6 @@
 	"AmmoIcon"
 	{
 		"xpos"														"68"
+		"ypos"														"57"
 	}
 }
