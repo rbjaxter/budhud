@@ -48,27 +48,51 @@
 		"draw_corner_height" 										"0"	
 	}
 	
+	
+	// Can't pin
 	"TargetDataLabel"
 	{
-		"font"														"bh_Font12DropShadow"
-		"ypos"														"54"
+		"font"														"bh_Font10DropShadow"
+		"ypos"														"51"
 		"wide"														"f0"
 		"tall"														"14"
 		"textalignment"												"west"
 	}
 	
+	"bh_AmmoKSPin"
+	{	
+		"ControlName"												"Label"
+		"fieldName"													"bh_AmmoKSPin"
+		"xpos"														"45"
+		"ypos"														"54"
+		"zpos"														"0"
+		"wide"														"100"
+		"tall"														"0"
+		"visible"													"1"
+		"enabled"													"1"
+		"bgcolor_override"											"0 0 0 0"
+	}
+	
 	"AmmoIcon"
 	{
-		"xpos"														"47"
-		"ypos"														"56"
-		"wide"														"9"
+		"pin_to_sibling" 											"bh_AmmoKSPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+	
+		"xpos"														"0"
+		"ypos"														"0"
+		"wide"														"9"		// 7 best solution if can't pin
 		"tall"														"9"
 	}
 	
 	"KillstreakIcon"
 	{
-		"xpos"														"45"
-		"ypos"														"57"
+		"pin_to_sibling" 											"bh_AmmoKSPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+	
+		"xpos"														"0"
+		"ypos"														"0"
 		"wide"														"9"
 		"tall"														"9"
 	}
