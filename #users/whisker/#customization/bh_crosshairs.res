@@ -5,5 +5,6 @@
 		// Change these
 		"enabled"													"1"
 		"visible"													"1"
+		"xpos"														"0"
 	}
 }

@@ -13,7 +13,7 @@ Scheme
 		
 		"9" // Unified TF2 Crosshairs
 		{
-			"font"		"resource/fonts/crosshairs-unified.otf"
+			"font"		"resource/fonts/crosshairs-unified.ttf"
 			"name"		"TF2Crosshairs"
 		}
 		

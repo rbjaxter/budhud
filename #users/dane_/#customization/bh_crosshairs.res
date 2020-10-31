@@ -2,7 +2,6 @@
 {
 	"hud_crosshair_1"
 	{
-		"ypos"														"0"
 		"enabled"													"1"
 		"visible"													"1"
 		"labeltext"													"#"
