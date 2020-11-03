@@ -164,7 +164,7 @@
 	{
 		"pin_to_sibling" 											"bh_BlueAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"ControlName" 												"ImagePanel"
 		"fieldName" 												"bh_BGscoreBlue"
@@ -193,7 +193,7 @@
 	{
 		//"pin_to_sibling" 											"bh_BlueAnchor"
 		//"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		//"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		//"pin_to_sibling_corner" 									"0"	
 		//
 		//"xpos"													"0"
 		//"ypos"													"7"
@@ -210,7 +210,7 @@
 	{
 		"pin_to_sibling" 											"bh_BlueAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"0"
 		"ypos"														"0"
@@ -228,7 +228,7 @@
 	{
 		"pin_to_sibling" 											"bh_BlueAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"0"
 		"ypos"														"1"
@@ -248,7 +248,7 @@
 	{
 		"pin_to_sibling" 											"bh_RedAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"ControlName" 												"ImagePanel"
 		"fieldName" 												"bh_BGscoreRed"
@@ -276,7 +276,7 @@
 	{
 	//	"pin_to_sibling" 											"bh_RedAnchor"
 	//	"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-	//	"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+	//	"pin_to_sibling_corner" 									"0"
 	//	
 	//	"xpos"														"0"
 	//	"ypos"														"7"
@@ -293,7 +293,7 @@
 	{
 		"pin_to_sibling" 											"bh_RedAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"0"
 		"ypos"														"0"
@@ -311,7 +311,7 @@
 	{
 		"pin_to_sibling" 											"bh_RedAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"0"
 		"ypos"														"1"
@@ -375,7 +375,7 @@
 	{
 		"pin_to_sibling" 											"bh_LocalStatsAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"		
+		"pin_to_sibling_corner" 									"0"		
 	
 		"ControlName"												"ImagePanel"
 		"fieldName"													"bh_LocalStatsBG1"
@@ -395,7 +395,7 @@
 	{
 		"pin_to_sibling" 											"bh_LocalStatsAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 		
 		"xpos"														"0"
 		"ypos"														"0"
@@ -405,7 +405,7 @@
 	{
 		"pin_to_sibling" 											"bh_LocalStatsAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"		
+		"pin_to_sibling_corner" 									"0"		
 	
 		"xpos"														"-448"
 		"ypos"														"-35"
@@ -423,7 +423,7 @@
 	{
 		"pin_to_sibling" 											"bh_LocalStatsAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"		
+		"pin_to_sibling_corner" 									"0"		
 	
 		"xpos"														"-1"
 		"ypos"														"12"
@@ -437,7 +437,7 @@
 	{
 		"pin_to_sibling" 											"bh_LocalStatsAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 		
 		"xpos"														"-300"
 		"ypos"														"12"
@@ -451,7 +451,7 @@
 	{
 		"pin_to_sibling" 											"bh_LocalStatsAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 		
 		"xpos"														"0"
 		"ypos"														"0"

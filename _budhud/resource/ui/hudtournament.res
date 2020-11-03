@@ -162,7 +162,7 @@
 	{	
 		"pin_to_sibling" 											"TournamentConditionLabel"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"ControlName"												"Label"
 		"fieldName"													"bh_TournamentConditionLabelShadow"
@@ -208,7 +208,7 @@
 	{	
 		"pin_to_sibling" 											"TournamentInstructionsLabel"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 
 		"ControlName"												"Label"
 		"fieldName"													"bh_TournamentInstructionsLabelShadow"
@@ -397,7 +397,7 @@
 	{	
 		"pin_to_sibling" 											"TournamentREDLabel"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 	
 	
 		"ControlName"												"Label"
@@ -464,7 +464,7 @@
 	{	
 		"pin_to_sibling" 											"TournamentBLUELabel"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"ControlName"												"Label"
 		"fieldName"													"bh_TournamentBLUELabelShadow"
@@ -513,7 +513,7 @@
 			
 		"pin_to_sibling" 											"TournamentInstructionsLabel"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		if_readymode
 		{
@@ -540,7 +540,7 @@
 	{	
 		"pin_to_sibling" 											"TournamentLabel"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"ControlName"												"Label"
 		"fieldName"													"bh_TournamentLabelShadow"
@@ -626,7 +626,7 @@
 	{
 		"pin_to_sibling" 											"CountdownLabel"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"		
+		"pin_to_sibling_corner" 									"0"		
 		
 		"xpos"														"-1"
 		"ypos"														"-1"

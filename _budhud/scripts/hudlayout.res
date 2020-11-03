@@ -290,8 +290,8 @@
 		"tall"														"f0"
 		
 		"pin_to_sibling" 											"bh_BuildNav"
-		"pin_corner_to_sibling" 									"PIN_CENTERTOP"
-		"pin_to_sibling_corner" 									"PIN_CENTERTOP"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -328,7 +328,7 @@
 	{
 		"pin_to_sibling" 											"HudWeaponAmmo"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"xpos"														"-80"
 		"ypos"														"70"

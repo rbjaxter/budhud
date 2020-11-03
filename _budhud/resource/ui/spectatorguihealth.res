@@ -43,7 +43,7 @@
 	{
 		"pin_to_sibling" 											"bh_TargetIDHealthAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"ControlName"												"CExLabel"
 		"fieldName"													"bh_HealthBGSpec"
@@ -68,7 +68,7 @@
 	{
 		"pin_to_sibling" 											"bh_TargetIDHealthAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"		
+		"pin_to_sibling_corner" 									"0"		
 	
 		"ControlName"												"Label"
 		"fieldName"													"PlayerStatusHealthValue"
@@ -89,7 +89,7 @@
 	{
 		"pin_to_sibling" 											"bh_TargetIDHealthAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"		
+		"pin_to_sibling_corner" 									"0"		
 	
 		"ControlName"												"Label"
 		"fieldName"													"PlayerStatusHealthValueShadow"
