@@ -54,7 +54,7 @@
 	{
 		"pin_to_sibling" 											"bh_TimePanelAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"font"														"bh_Font16"
 		"xpos"														"cs-0.5"
@@ -74,7 +74,7 @@
 	{
 		"pin_to_sibling" 											"bh_TimePanelAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"font"														"bh_Font10"
 		"xpos"														"cs-0.5"
@@ -94,7 +94,7 @@
 	{
 		"pin_to_sibling" 											"bh_TimePanelAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"font"														"bh_Font14"
 		"xpos"														"cs-0.5"

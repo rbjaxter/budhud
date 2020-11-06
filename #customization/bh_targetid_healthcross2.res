@@ -9,9 +9,10 @@
 	{
 		"xpos"														"0"
 	}
-
+	
 	"AmmoIcon"
 	{
-		"xpos"														"65"
+		"xpos"														"68"
+		"ypos"														"57"
 	}
 }

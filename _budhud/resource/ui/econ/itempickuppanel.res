@@ -63,7 +63,7 @@
 	{
 		"pin_to_sibling" 											"ItemsFoundLabel"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"xpos"														"0"
 		"ypos"														"-30"
@@ -176,11 +176,12 @@
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Borders aren't drawn for some reason
+	// Also quick keys need their own entries
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	"NextButton"
 	{
-		"labelText"													"#bh_Next"
+		"labelText"													"#bh_Next_QK"
 		"defaultBgColor_override"									"bh_ButtonBGDefault"
 		"armedBgColor_override"										"bh_ButtonBGArmed"
 		"depressedBgColor_override"									"bh_ButtonBGDepressed"
@@ -191,9 +192,19 @@
 		"border_armed"												"bh_b_NESW"
 	}
 	
+    "bh_NextButton_QK"
+    {
+        "ControlName"												"CExButton"
+        "fieldName"													"bh_NextButton_QK"
+        "ypos"														"r-6969"
+        "labelText"													"&D"
+        "Command"													"nextitem"
+        "visible"													"1"
+    }
+	
 	"PrevButton"
 	{
-		"labelText"													"#bh_Previous"
+		"labelText"													"#bh_Previous_QK"
 		"defaultBgColor_override"									"bh_ButtonBGDefault"
 		"armedBgColor_override"										"bh_ButtonBGArmed"
 		"depressedBgColor_override"									"bh_ButtonBGDepressed"
@@ -203,4 +214,14 @@
 		"border_default"											"bh_b_NESW"
 		"border_armed"												"bh_b_NESW"
 	}
+	
+    "bh_PrevButton_QK"
+    {
+        "ControlName"												"CExButton"
+        "fieldName"													"bh_PrevButton_QK"
+        "ypos"														"r-6969"
+        "labelText"													"&A"
+        "Command"													"previtem"
+        "visible"													"1"
+    }
 }

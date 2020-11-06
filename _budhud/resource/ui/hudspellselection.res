@@ -33,7 +33,7 @@
 	{
 		"pin_to_sibling" 											"SpellIcon"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"font"														"bh_Font20"
 		"xpos"														"-22"
@@ -48,7 +48,7 @@
 	{
 		"pin_to_sibling" 											"CountText"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"font"														"bh_Font20"
 		"xpos"														"-1"

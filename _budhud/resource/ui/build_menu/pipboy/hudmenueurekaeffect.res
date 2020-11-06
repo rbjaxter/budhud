@@ -6,7 +6,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"ypos"														"0"
 		"wide"														"200"

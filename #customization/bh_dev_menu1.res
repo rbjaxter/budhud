@@ -25,7 +25,7 @@
 	{
 		"pin_to_sibling" 											"bh_Dev_Anchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 		
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_Dev_Label"
@@ -59,7 +59,7 @@
 	{
 		"pin_to_sibling" 											"bh_Dev_Anchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 		
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_Dev_Motivation"
@@ -93,7 +93,7 @@
 	{
 		"pin_to_sibling" 											"bh_Dev_Anchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 		
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_Dev_Reload"
@@ -127,7 +127,7 @@
 	{
 		"pin_to_sibling" 											"bh_Dev_Anchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 		
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_Dev_Drawtree"
@@ -161,7 +161,7 @@
 	{
 		"pin_to_sibling" 											"bh_Dev_Anchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 		
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_Dev_ShowConsole"
@@ -195,7 +195,7 @@
 	{
 		"pin_to_sibling" 											"bh_Dev_Anchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 		
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_Dev_Settings"
@@ -229,7 +229,7 @@
 	{
 		"pin_to_sibling" 											"bh_Dev_Anchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 		
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_Dev_Cheats"
@@ -263,7 +263,7 @@
 	{
 		"pin_to_sibling" 											"bh_Dev_Anchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 		
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_Dev_Quit"
