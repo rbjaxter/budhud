@@ -23,7 +23,7 @@
 	{
 		"pin_to_sibling" 											"bh_LocalStatsAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"		
+		"pin_to_sibling_corner" 									"0"		
 	
 		"xpos"														"-448"
 		"ypos"														"-30"
@@ -53,7 +53,7 @@
 	{
 		"pin_to_sibling" 											"bh_MvMAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"		
+		"pin_to_sibling_corner" 									"0"		
 		
 		"xpos"														"0"
 		"ypos"														"0"
@@ -63,7 +63,7 @@
 	{
 		"pin_to_sibling" 											"bh_MvMAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 	
 		"xpos"														"0"
 		"ypos"														"-100"
@@ -81,7 +81,7 @@
 	{
 		"pin_to_sibling" 											"bh_MvMAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"0"
 		"ypos"														"-220"

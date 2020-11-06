@@ -25,7 +25,7 @@
 		"ControlName"												"Label"
 		"fieldName"													"bh_TargetIDHealthAnchor"
 		"xpos"														"0"
-		"ypos"														"12"
+		"ypos"														"14"
 		"zpos"														"0"
 		"wide"														"100"
 		"tall"														"0"
@@ -35,7 +35,7 @@
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Wide and tall value of the following elements should match SpectatorGUIHealth in targetid.res:
+	// Tall value of the following elements should match bh_TargetNameBG in targetid.res:
 	// bh_HealthBGSpec, PlayerStatusHealthValue, PlayerStatusHealthValueShadow
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -43,7 +43,7 @@
 	{
 		"pin_to_sibling" 											"bh_TargetIDHealthAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"ControlName"												"CExLabel"
 		"fieldName"													"bh_HealthBGSpec"
@@ -52,7 +52,7 @@
 		"zpos"														"-6969"
 		"zpos"														"5"
 		"wide"														"40"
-		"tall"														"16"
+		"tall"														"18"
 		"autoResize"												"0"
 		"pinCorner"													"0"
 		"labeltext"													""
@@ -68,15 +68,15 @@
 	{
 		"pin_to_sibling" 											"bh_TargetIDHealthAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"		
+		"pin_to_sibling_corner" 									"0"		
 	
 		"ControlName"												"Label"
 		"fieldName"													"PlayerStatusHealthValue"
 		"xpos"														"1"
-		"ypos"														"1"
+		"ypos"														"0"
 		"zpos"														"5"
 		"wide"														"40"
-		"tall"														"16"
+		"tall"														"18"
 		"visible"													"1"
 		"enabled"													"1"
 		"labeltext"													"%health%"
@@ -89,15 +89,15 @@
 	{
 		"pin_to_sibling" 											"bh_TargetIDHealthAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"		
+		"pin_to_sibling_corner" 									"0"		
 	
 		"ControlName"												"Label"
 		"fieldName"													"PlayerStatusHealthValueShadow"
 		"xpos"														"0"
-		"ypos"														"0"
+		"ypos"														"-1"
 		"zpos"														"5"
 		"wide"														"40"
-		"tall"														"16"
+		"tall"														"18"
 		"visible"													"1"
 		"enabled"													"1"
 		"labeltext"													"%health%"

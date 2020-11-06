@@ -22,17 +22,17 @@
 	"bh_Favorite1"
 	{
 		"label"			""
-		"command" 		"engine connect 66.151.138.88:27015"
+		"command" 		"engine connect 162.248.93.239:27015"
 		"OnlyAtMenu" 	"0"
-		"tooltip" 		"jump.tf | Beginners (West)"
+		"tooltip" 		"jump.tf | Beginners (Los Angeles)"
 	}
 	
 	"bh_Favorite2"
 	{
 		"label"			""
-		"command" 		"engine connect 216.52.143.183:27015"
+		"command" 		"engine connect 74.91.113.87:27025"
 		"OnlyAtMenu" 	"0"
-		"tooltip" 		"ReSurfed | Easy Maps"
+		"tooltip" 		"jumpacademy.tf | Beginners (Chicago)"
 	}
 
 	"bh_TitleHover"

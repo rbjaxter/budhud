@@ -72,7 +72,7 @@
 
 					"pin_to_sibling" 	"BlueTeamScoreBG"
 					"pin_corner_to_sibling" "PIN_TOPRIGHT"
-					"pin_to_sibling_corner" "PIN_TOPRIGHT"
+					"pin_to_sibling_corner" "0"
 
 					if_large
 					{
@@ -90,7 +90,7 @@
 
 					"pin_to_sibling" 	"BlueTeamScore"
 					"pin_corner_to_sibling" "PIN_TOPLEFT"
-					"pin_to_sibling_corner" "PIN_TOPLEFT"
+					"pin_to_sibling_corner" "0"
 
 					if_large
 					{
@@ -107,7 +107,7 @@
 
 					"pin_to_sibling" 	"BlueTeamScoreBG"
 					"pin_corner_to_sibling" "PIN_TOPRIGHT"
-					"pin_to_sibling_corner" "PIN_TOPRIGHT"
+					"pin_to_sibling_corner" "0"
 
 					if_large
 					{
@@ -124,7 +124,7 @@
 
 					"pin_to_sibling" 	"BlueTeamWinner"
 					"pin_corner_to_sibling" "PIN_TOPLEFT"
-					"pin_to_sibling_corner" "PIN_TOPLEFT"
+					"pin_to_sibling_corner" "0"
 
 					if_large
 					{
@@ -141,7 +141,7 @@
 
 					"pin_to_sibling" 	"BlueTeamScoreBG"
 					"pin_corner_to_sibling" "PIN_TOPLEFT"
-					"pin_to_sibling_corner" "PIN_TOPLEFT"
+					"pin_to_sibling_corner" "0"
 
 					if_large
 					{
@@ -158,7 +158,7 @@
 
 					"pin_to_sibling" 	"BlueTeamScoreBG"
 					"pin_corner_to_sibling" "PIN_TOPRIGHT"
-					"pin_to_sibling_corner" "PIN_TOPRIGHT"
+					"pin_to_sibling_corner" "0"
 				}
 				"BlueLeaderAvatar"
 				{
@@ -172,7 +172,7 @@
 
 					"pin_to_sibling" 	"BlueTeamScoreBG"
 					"pin_corner_to_sibling" "PIN_TOPLEFT"
-					"pin_to_sibling_corner" "PIN_TOPLEFT"
+					"pin_to_sibling_corner" "0"
 
 					if_large
 					{
@@ -253,7 +253,7 @@
 
 					"pin_to_sibling" 	"RedTeamScoreBG"
 					"pin_corner_to_sibling" "PIN_TOPLEFT"
-					"pin_to_sibling_corner" "PIN_TOPLEFT"
+					"pin_to_sibling_corner" "0"
 
 					if_large
 					{
@@ -271,7 +271,7 @@
 
 					"pin_to_sibling" 	"RedTeamScore"
 					"pin_corner_to_sibling" "PIN_TOPLEFT"
-					"pin_to_sibling_corner" "PIN_TOPLEFT"
+					"pin_to_sibling_corner" "0"
 
 					if_large
 					{
@@ -288,7 +288,7 @@
 
 					"pin_to_sibling" 	"RedTeamScoreBG"
 					"pin_corner_to_sibling" "PIN_TOPLEFT"
-					"pin_to_sibling_corner" "PIN_TOPLEFT"
+					"pin_to_sibling_corner" "0"
 
 					if_large
 					{
@@ -305,7 +305,7 @@
 
 					"pin_to_sibling" 	"RedTeamWinner"
 					"pin_corner_to_sibling" "PIN_TOPLEFT"
-					"pin_to_sibling_corner" "PIN_TOPLEFT"
+					"pin_to_sibling_corner" "0"
 
 					if_large
 					{
@@ -322,7 +322,7 @@
 
 					"pin_to_sibling" 	"RedTeamScoreBG"
 					"pin_corner_to_sibling" "PIN_TOPRIGHT"
-					"pin_to_sibling_corner" "PIN_TOPRIGHT"
+					"pin_to_sibling_corner" "0"
 
 					if_large
 					{
@@ -339,7 +339,7 @@
 
 					"pin_to_sibling" 	"RedTeamScoreBG"
 					"pin_corner_to_sibling" "PIN_TOPLEFT"
-					"pin_to_sibling_corner" "PIN_TOPLEFT"
+					"pin_to_sibling_corner" "0"
 				}
 				"RedLeaderAvatar"
 				{
@@ -352,7 +352,7 @@
 
 					"pin_to_sibling" 	"RedTeamScoreBG"
 					"pin_corner_to_sibling" "PIN_TOPRIGHT"
-					"pin_to_sibling_corner" "PIN_TOPRIGHT"
+					"pin_to_sibling_corner" "0"
 
 					if_large
 					{

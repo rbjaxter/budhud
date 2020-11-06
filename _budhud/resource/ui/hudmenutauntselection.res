@@ -86,7 +86,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"font"														"bh_Font20"
 		"fgcolor"													"bh_white"
@@ -102,7 +102,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"font"														"bh_Font20"
 		"fgcolor"													"bh_white"
@@ -118,7 +118,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"font"														"bh_Font20"
 		"fgcolor"													"bh_white"
@@ -134,7 +134,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"font"														"bh_Font20"
 		"fgcolor"													"bh_white"
@@ -150,7 +150,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"font"														"bh_Font20"
 		"fgcolor"													"bh_white"
@@ -166,7 +166,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"font"														"bh_Font20"
 		"fgcolor"													"bh_white"
@@ -182,7 +182,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"font"														"bh_Font20"
 		"fgcolor"													"bh_white"
@@ -198,7 +198,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"font"														"bh_Font20"
 		"fgcolor"													"bh_white"
@@ -214,7 +214,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"0"
 		"ypos"														"0"
@@ -233,7 +233,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"-50"
 		"ypos"														"0"
@@ -252,7 +252,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"-100"
 		"ypos"														"0"
@@ -271,7 +271,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"-150"
 		"ypos"														"0"
@@ -290,7 +290,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"-200"
 		"ypos"														"0"
@@ -309,7 +309,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"-250"
 		"ypos"														"0"
@@ -328,7 +328,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"-300"
 		"ypos"														"0"
@@ -347,7 +347,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"-350"
 		"ypos"														"0"

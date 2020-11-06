@@ -169,7 +169,7 @@
 	{
 		"pin_to_sibling" 											"bh_ClassAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"295"
 		"ypos"														"0"
@@ -180,7 +180,7 @@
 	{
 		"pin_to_sibling" 											"bh_ClassAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"235"
 		"ypos"														"0"
@@ -191,7 +191,7 @@
 	{
 		"pin_to_sibling" 											"bh_ClassAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"175"
 		"ypos"														"0"
@@ -202,7 +202,7 @@
 	{
 		"pin_to_sibling" 											"bh_ClassAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"115"
 		"ypos"														"0"
@@ -213,7 +213,7 @@
 	{
 		"pin_to_sibling" 											"bh_ClassAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"55"
 		"ypos"														"0"
@@ -224,7 +224,7 @@
 	{
 		"pin_to_sibling" 											"bh_ClassAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"-5"
 		"ypos"														"0"
@@ -235,7 +235,7 @@
 	{
 		"pin_to_sibling" 											"bh_ClassAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"-65"
 		"ypos"														"0"
@@ -246,7 +246,7 @@
 	{
 		"pin_to_sibling" 											"bh_ClassAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"-125"
 		"ypos"														"0"
@@ -257,7 +257,7 @@
 	{
 		"pin_to_sibling" 											"bh_ClassAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"-185"
 		"ypos"														"0"
@@ -268,7 +268,7 @@
 	{
 		"pin_to_sibling" 											"bh_ClassAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"xpos"														"-245"
 		"ypos"														"-13"
@@ -279,7 +279,7 @@
 	{
 		"pin_to_sibling" 											"scout"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 
 		"xpos"														"0"
 		"ypos"														"-10"
@@ -290,7 +290,7 @@
 	{
 		"pin_to_sibling" 											"scout"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"xpos"														"-20"
 		"ypos"														"-23"
@@ -301,7 +301,7 @@
 	{
 		"pin_to_sibling" 											"soldier"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 
 		"xpos"														"0"
 		"ypos"														"-10"
@@ -312,7 +312,7 @@
 	{
 		"pin_to_sibling" 											"soldier"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"xpos"														"-20"
 		"ypos"														"-23"
@@ -323,7 +323,7 @@
 	{
 		"pin_to_sibling" 											"pyro"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 
 		"xpos"														"0"
 		"ypos"														"-10"
@@ -334,7 +334,7 @@
 	{
 		"pin_to_sibling" 											"pyro"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"xpos"														"-20"
 		"ypos"														"-23"
@@ -345,7 +345,7 @@
 	{
 		"pin_to_sibling" 											"demoman"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 
 		"xpos"														"0"
 		"ypos"														"-10"
@@ -356,7 +356,7 @@
 	{
 		"pin_to_sibling" 											"demoman"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"xpos"														"-20"
 		"ypos"														"-23"
@@ -367,7 +367,7 @@
 	{
 		"pin_to_sibling" 											"heavyweapons"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 
 		"xpos"														"0"
 		"ypos"														"-10"
@@ -378,7 +378,7 @@
 	{
 		"pin_to_sibling" 											"heavyweapons"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"xpos"														"-20"
 		"ypos"														"-23"
@@ -389,7 +389,7 @@
 	{
 		"pin_to_sibling" 											"engineer"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 
 		"xpos"														"0"
 		"ypos"														"-10"
@@ -400,7 +400,7 @@
 	{
 		"pin_to_sibling" 											"engineer"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"xpos"														"-20"
 		"ypos"														"-23"
@@ -411,7 +411,7 @@
 	{
 		"pin_to_sibling" 											"medic"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 
 		"xpos"														"0"
 		"ypos"														"-10"
@@ -422,7 +422,7 @@
 	{
 		"pin_to_sibling" 											"medic"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"xpos"														"-20"
 		"ypos"														"-23"
@@ -433,7 +433,7 @@
 	{
 		"pin_to_sibling" 											"sniper"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 
 		"xpos"														"0"
 		"ypos"														"-10"
@@ -444,7 +444,7 @@
 	{
 		"pin_to_sibling" 											"sniper"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"xpos"														"-20"
 		"ypos"														"-23"
@@ -455,7 +455,7 @@
 	{
 		"pin_to_sibling" 											"spy"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 
 		"xpos"														"0"
 		"ypos"														"-10"
@@ -466,7 +466,7 @@
 	{
 		"pin_to_sibling" 											"spy"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"	
+		"pin_to_sibling_corner" 									"0"	
 	
 		"xpos"														"-20"
 		"ypos"														"-23"

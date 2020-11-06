@@ -56,7 +56,7 @@
 	{
 		"pin_to_sibling" 											"class_item_red_3"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"font"														"bh_Font20"
 		"fgcolor"													"bh_white"
@@ -72,7 +72,7 @@
 	{
 		"pin_to_sibling" 											"class_item_red_5"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"font"														"bh_Font20"
 		"fgcolor"													"bh_white"
@@ -88,7 +88,7 @@
 	{
 		"pin_to_sibling" 											"class_item_red_7"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		
 		"font"														"bh_Font20"
 		"fgcolor"													"bh_white"
@@ -120,7 +120,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		"xpos"														"0"
 		"ypos"														"0"
 		"wide"														"44"
@@ -131,7 +131,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		"xpos"														"-44"
 		"ypos"														"0"
 		"wide"														"44"
@@ -142,7 +142,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		"xpos"														"-88"
 		"ypos"														"0"
 		"wide"														"44"
@@ -153,7 +153,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		"xpos"														"-132"
 		"ypos"														"0"
 		"wide"														"44"
@@ -164,7 +164,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		"xpos"														"-176"
 		"ypos"														"0"
 		"wide"														"44"
@@ -175,7 +175,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		"xpos"														"-220"
 		"ypos"														"0"
 		"wide"														"44"
@@ -186,7 +186,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		"xpos"														"-264"
 		"ypos"														"0"
 		"wide"														"44"
@@ -197,7 +197,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		"xpos"														"-308"
 		"ypos"														"0"
 		"wide"														"44"
@@ -208,7 +208,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		"xpos"														"-352"
 		"ypos"														"0"
 		"wide"														"44"
@@ -219,7 +219,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		"xpos"														"0"
 		"ypos"														"0"
 		"wide"														"44"
@@ -230,7 +230,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		"xpos"														"-44"
 		"ypos"														"0"
 		"wide"														"44"
@@ -241,7 +241,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		"xpos"														"-88"
 		"ypos"														"0"
 		"wide"														"44"
@@ -252,7 +252,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		"xpos"														"-132"
 		"ypos"														"0"
 		"wide"														"44"
@@ -263,7 +263,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		"xpos"														"-176"
 		"ypos"														"0"
 		"wide"														"44"
@@ -274,7 +274,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		"xpos"														"-220"
 		"ypos"														"0"
 		"wide"														"44"
@@ -285,7 +285,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		"xpos"														"-264"
 		"ypos"														"0"
 		"wide"														"44"
@@ -296,7 +296,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		"xpos"														"-308"
 		"ypos"														"0"
 		"wide"														"44"
@@ -307,7 +307,7 @@
 	{
 		"pin_to_sibling" 											"bh_MenuAnchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
 		"xpos"														"-352"
 		"ypos"														"0"
 		"wide"														"44"
