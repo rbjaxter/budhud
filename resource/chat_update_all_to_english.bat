@@ -23,7 +23,6 @@ copy "chat_english.txt" "chat_czech.txt"
 copy "chat_english.txt" "chat_danish.txt"
 copy "chat_english.txt" "chat_dutch.txt"
 copy "chat_english.txt" "chat_finnish.txt"
-copy "chat_english.txt" "chat_german.txt"
 copy "chat_english.txt" "chat_greek.txt"
 copy "chat_english.txt" "chat_hungarian.txt"
 copy "chat_english.txt" "chat_italian.txt"
@@ -43,6 +42,7 @@ copy "chat_english.txt" "chat_turkish.txt"
 copy "chat_english.txt" "chat_pirate.txt"
 :: Skip translated languages
 :: copy "chat_english.txt" "chat_french.txt"
+:: copy "chat_english.txt" "chat_german.txt"
 :: copy "chat_english.txt" "chat_portuguese.txt"
 
 ECHO %ESC%[32m====================================================================================================%
