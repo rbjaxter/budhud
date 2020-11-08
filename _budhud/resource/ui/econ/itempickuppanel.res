@@ -200,6 +200,8 @@
         "labelText"													"&D"
         "Command"													"nextitem"
         "visible"													"1"
+		"sound_depressed"											"UI/buttonclick.wav"
+		"sound_released"											"UI/buttonclickrelease.wav"
     }
 	
 	"PrevButton"
@@ -223,5 +225,7 @@
         "labelText"													"&A"
         "Command"													"previtem"
         "visible"													"1"
+		"sound_depressed"											"UI/buttonclick.wav"
+		"sound_released"											"UI/buttonclickrelease.wav"
     }
 }
