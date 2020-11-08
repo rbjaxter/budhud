@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$translucent" 		0
-	"$baseTexture" 		"vgui\replay\thumbnails\team_colors\bh_team_gray"
-   	"$vertexcolor" 		0 
-  	"$vertexalpha" 		0 
-   	"$nolod" 			1
-}

@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$translucent"													1
-	"$baseTexture" 													"vgui\replay\thumbnails\class_icons\leaderboard_medic"
-   	"$vertexcolor" 													1 
-  	"$vertexalpha" 													1 
-   	"$nolod" 														1
-}

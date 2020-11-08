@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
 	"$translucent" 1
-	"$baseTexture" "vgui/replay/thumbnails/class_icons/leaderboard_dom11"
+	"$baseTexture" "vgui/replay/thumbnails/improved_icons/leaderboard_dom11"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1

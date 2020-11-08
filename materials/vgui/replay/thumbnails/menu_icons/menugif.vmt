@@ -1,19 +1,18 @@
 "UnlitGeneric"
 {
-	"$translucent" 1
-	"$baseTexture" "vgui\replay\thumbnails\menu_icons\menugif"
-	"$vertexcolor" 1
-	"$no_fullbright" 1
-	"$ignorez" 1
-	"%keywords" "tf"
+	"$baseTexture"		"vgui\replay\thumbnails\menu_icons\menugif"
+	"$translucent"		"1"
+	"$vertexalpha"		"1"
+	"$vertexcolor"		"1"
+	"$ignorez"		"1"
 	
 	"Proxies"
+	{
+		"AnimatedTexture"
 		{
-			"AnimatedTexture"
-			{
-				"animatedtexturevar" "$basetexture"
-				"animatedtextureframenumvar" "$frame"
-				"animatedtextureframerate" 12
-			}
+			"animatedtexturevar"		"$basetexture"
+			"animatedtextureframenumvar"	"$frame"
+			"animatedtextureframerate" 		"12"
 		}
+	}
 }

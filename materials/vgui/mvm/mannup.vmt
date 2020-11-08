@@ -1,8 +1,8 @@
 "UnlitGeneric"
 {
-	"$translucent" 1
-	"$baseTexture" "vgui/replay/thumbnails/menu_icons/mannup"
-	"$vertexcolor" 1
-	"$no_fullbright" 1
-	"$ignorez" 1
+	"$baseTexture"		"vgu\replay\thumbnails\improved_icons\mannup"
+	"$translucent"		"1"
+	"$vertexalpha"		"1"
+	"$vertexcolor"		"1"
+	"$ignorez"		"1"
 }

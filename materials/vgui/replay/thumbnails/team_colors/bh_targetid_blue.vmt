@@ -1,6 +1,8 @@
 "UnlitGeneric"
 {
-	"$translucent" 		1
-	"$baseTexture" 		"vgui\replay\thumbnails\team_colors\bh_targetid_blue"
-   	"$nolod" 			1
+	"$baseTexture"		"vgui\replay\thumbnails\team_colors\bh_targetid_blue"
+	"$translucent"		"1"
+	"$vertexalpha"		"1"
+	"$vertexcolor"		"1"
+	"$ignorez"		"1"
 }
