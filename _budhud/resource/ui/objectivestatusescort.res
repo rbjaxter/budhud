@@ -28,21 +28,8 @@
 //		"visible"													"1"
 //		"enabled"													"1"
 //		"labeltext"													""
-//		
-//		"SubImage"
-//		{
-//			"ControlName"											"ImagePanel"
-//			"fieldName"												"SubImage"
-//			"xpos"													"0"
-//			"ypos"													"0"
-//			"zpos"													"1"
-//			"wide"													"f0"
-//			"tall"													"12"
-//			"visible"												"1"
-//			"enabled"												"1"
-//			"image"													"..\hud\cart_track"
-//			"scaleImage"											"1"
-//		}
+//		"image"														"..\hud\cart_track"
+//		"scaleImage"												"1"
 //
 //		"if_multiple_trains"
 //		{
@@ -57,31 +44,18 @@
 	
 	"bh_trackextender_right"
 	{
-		"ControlName"												"CExImageButton"
+		"ControlName"												"ImagePanel"
 		"fieldName"													"bh_trackextender_right"
-		"xpos"														"c126"
+		"xpos"														"c127"
 		"ypos"														"r40"
 		"zpos"														"0"
-		"wide"														"3"
+		"wide"														"6"
 		"tall"														"12"
 		"visible"													"1"
 		"enabled"													"1"
 		"labeltext"													""
-		
-		"SubImage"
-		{
-			"ControlName"											"ImagePanel"
-			"fieldName"												"SubImage"
-			"xpos"													"0"
-			"ypos"													"0"
-			"zpos"													"1"
-			"wide"													"f0"
-			"tall"													"12"
-			"visible"												"1"
-			"enabled"												"1"
-			"image"													"..\hud\cart_track"
-			"scaleImage"											"1"
-		}
+		"image"														"..\hud\cart_track_extender"
+		"scaleImage"												"1"
 
 		"if_multiple_trains"
 		{

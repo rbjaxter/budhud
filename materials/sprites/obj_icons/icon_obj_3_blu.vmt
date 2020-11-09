@@ -1,8 +1,8 @@
 "UnlitGeneric"
 {
-	"$translucent" 1
-	"$baseTexture" "vgui/replay/thumbnails/obj_icons/icon_obj_3_blu"
-	"$vertexcolor" 1
-	"$no_fullbright" 1
-	"$ignorez" 1
+	"$baseTexture"		"vgui/replay/thumbnails/obj_icons/icon_obj_3_blu"
+	"$translucent"		"1"
+	"$vertexalpha"		"1"
+	"$vertexcolor"		"1"
+	"$ignorez"		"1"
 }
