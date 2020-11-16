@@ -103,7 +103,7 @@ SET "core_resource=resource"
 SET "core_scripts=scripts"
 SET "update_files=#updatefiles"
 ECHO %ESC%[32m====================================================================================================%
-ECHO Done.
+ECHO Setting default directories... complete.
 ECHO ====================================================================================================%ESC%[0m
 
 ECHO.
@@ -114,7 +114,7 @@ ECHO Deleting _tf2hud directory...
 ECHO ====================================================================================================%ESC%[0m
 RD /s /q "%default_tf2hud_folder%"
 ECHO %ESC%[32m====================================================================================================%
-ECHO Done.
+ECHO Deleting _tf2hud directory... complete.
 ECHO ====================================================================================================%ESC%[0m
 
 ECHO.
@@ -130,43 +130,7 @@ IF NOT EXIST "%default_tf2hud_folder%\scripts" (mkdir "%default_tf2hud_folder%\s
 #UpdateFiles\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "%default_tf2hud_folder%\scripts" -e "root\scripts\HudAnimations_tf.txt" -m -v -s
 #UpdateFiles\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "%default_tf2hud_folder%\scripts" -e "root\scripts\mod_textures.txt" -m -v -s
 ECHO %ESC%[32m====================================================================================================%
-ECHO Done.
-ECHO ====================================================================================================%ESC%[0m
-
-ECHO.
-ECHO.
-
-ECHO %ESC%[33m====================================================================================================
-ECHO Removing minmode, [$OSX], and [$X360] lines from basehud...
-ECHO ====================================================================================================%ESC%[0m
-#UpdateFiles\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* _minmode _disabled
-#UpdateFiles\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* [$OSX] [disabled]
-#UpdateFiles\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* [$X360] [disabled]
-ECHO %ESC%[32m====================================================================================================%
-ECHO Done.
-ECHO ====================================================================================================%ESC%[0m
-
-ECHO.
-ECHO.
-
-ECHO %ESC%[33m====================================================================================================
-ECHO Removing lodef and hidef lines from basehud...
-ECHO ====================================================================================================%ESC%[0m
-#UpdateFiles\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* _lodef _disabled
-#UpdateFiles\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* _hidef _disabled
-ECHO %ESC%[32m====================================================================================================%
-ECHO Done.
-ECHO ====================================================================================================%ESC%[0m
-
-ECHO.
-ECHO.
-
-ECHO %ESC%[33m====================================================================================================
-ECHO Removing if_ lines from basehud...
-ECHO ====================================================================================================%ESC%[0m
-#UpdateFiles\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* if_ disabled_
-ECHO %ESC%[32m====================================================================================================%
-ECHO Done.
+ECHO Extracting default HUD files... complete.
 ECHO ====================================================================================================%ESC%[0m
 
 ECHO.
@@ -179,8 +143,26 @@ RD /s /q "%default_tf2hud_folder%\resource\ui\disguise_menu_360"
 RD /s /q "%default_tf2hud_folder%\resource\ui\disguise_menu_sc"
 RD /s /q "%default_tf2hud_folder%\resource\ui\build_menu_360"
 RD /s /q "%default_tf2hud_folder%\resource\ui\build_menu_sc"
+
+
 ECHO %ESC%[32m====================================================================================================%
-ECHO Done.
+ECHO Deleting unused default hud folders and files... complete.
+ECHO ====================================================================================================%ESC%[0m
+
+ECHO.
+ECHO.
+
+ECHO %ESC%[33m====================================================================================================
+ECHO Removing various modifiers from basehud...
+ECHO ====================================================================================================%ESC%[0m
+#UpdateFiles\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* [$OSX] [disabled]
+#UpdateFiles\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* [$X360] [disabled]
+#UpdateFiles\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* _minmode _disabled
+#UpdateFiles\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* _lodef _disabled
+#UpdateFiles\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* _hidef _disabled
+#UpdateFiles\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* if_ disabled_
+ECHO %ESC%[32m====================================================================================================%
+ECHO Removing various modifiers from basehud... complete.
 ECHO ====================================================================================================%ESC%[0m
 
 ECHO.
@@ -195,7 +177,7 @@ COPY /y "%default_tf2hud_folder%\resource\gamemenu.res" "%core_resource%\gamemen
 COPY /y "%default_tf2hud_folder%\resource\muteplayerdialog.res" "%core_resource%\muteplayerdialog_base.res"
 COPY /y "%update_files%\confirmdialog.res" "%default_tf2hud_folder%\resource\ui\econ\confirmdialog.res"
 ECHO %ESC%[32m====================================================================================================%
-ECHO Done.
+ECHO Copying stubborn default files over to core directory... complete.
 ECHO ====================================================================================================%ESC%[0m
 
 ECHO.
