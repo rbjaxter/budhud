@@ -1,3 +1,4 @@
+	#base	"..\..\#users\custom\resource\ui\hudplayerclass.res"
 	#base	"..\..\#users\dane\#customization\bh_crosshairs.res"
 	#base	"..\..\#users\whisker\#customization\bh_crosshairs.res"
 	#base	"..\..\#users\ly_dee\#customization\bh_crosshairs.res"
@@ -6,7 +7,6 @@
 	#base	"..\..\#customization\_enabled\bh_player_hideclassmodel.res"
 	#base	"..\..\#customization\_enabled\bh_player_teamindicator.res"
 	#base	"..\..\#customization\_enabled\bh_crosshairs.res"
-	#base	"..\..\#users\custom\resource\ui\hudplayerclass.res"
 	#base	"..\..\_stream\resource\ui\hudplayerclass.res"
 	#base	"..\..\_budhud\resource\ui\hudplayerclass.res"
 	#base	"..\..\_tf2hud\resource\ui\hudplayerclass.res"

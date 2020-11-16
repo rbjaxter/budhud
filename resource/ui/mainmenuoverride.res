@@ -1,3 +1,4 @@
+	#base	"..\..\#users\custom\resource\ui\mainmenuoverride.res"
 	#base	"..\..\#users\toth\#customization\bh_menu_background.res"
 	#base	"..\..\#users\dane\#customization\bh_menu_background.res"
 	#base	"..\..\#users\truktruk\#customization\bh_menu_background.res"
@@ -8,7 +9,6 @@
 	#base	"..\..\#customization\_enabled\bh_menu_hidefriends.res"
 	#base	"..\..\#customization\_enabled\bh_menu_hidemotd.res"
 	#base	"..\..\#customization\_enabled\bh_menu_hidegif.res"
-	#base	"..\..\#users\custom\resource\ui\mainmenuoverride.res"
 	#base	"..\..\_stream\resource\ui\mainmenuoverride.res"
 	#base	"..\..\_budhud\resource\ui\mainmenuoverride.res"
 	#base	"..\..\_tf2hud\resource\ui\mainmenuoverride.res"
