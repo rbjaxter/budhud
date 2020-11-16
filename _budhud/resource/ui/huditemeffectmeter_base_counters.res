@@ -8,6 +8,7 @@
 	"HudItemEffectMeter"
 	{
 		"xpos"														"r115"
+		"x_offset"													"0"
 		"ypos"														"c80"
 		"wide"														"f0"
 		"tall"														"f0"

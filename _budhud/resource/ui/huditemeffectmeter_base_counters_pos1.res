@@ -2,7 +2,6 @@
 {
 	"HudItemEffectMeter"
 	{
-		"xpos"														"r145"
-		"xpos_minmode"												"r145"
+		"xpos"														"r75"
 	}
 }

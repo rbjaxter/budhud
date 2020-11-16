@@ -17,7 +17,6 @@
 		"enabled"													"1"
 		"xpos"														"c-50"
 		"x_offset"													"0"
-		"x_offset_minmode"											"0"
 		"ypos"														"c110"
 		"wide"														"100"
 		"tall"														"6"

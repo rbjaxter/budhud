@@ -1,4 +1,4 @@
-	#base	"huditemeffectmeter_base_counters_pos3.res"
+	#base	"huditemeffectmeter_base_counters_pos1.res"
 	#base	"huditemeffectmeter_base_counters.res"
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
