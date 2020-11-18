@@ -6,8 +6,12 @@
 	// Crosshair Types & Instructions: 
 	// https://github.com/rbjaxter/budhud/wiki/Crosshairs
 	// Valid font sizes: Any number between 10 - 30
-	//
-	// More crosshairs can be enabled if desired (`hud_crosshair_2` & `hud_crosshair_3`)
+	// Make sure you keep the same formatting when changing crosshair size (including spaces)
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// huddev note: stop trying to pin crosshairs you moron, you try every time forgetting that
+	// changing the size of the crosshair breaks it
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	"hud_crosshair_1"
@@ -20,14 +24,14 @@
 		"fgcolor"													"hud_crosshair_1"
 		
 		// Defaults
-		"xpos"														"0"
-		"ypos"														"1"
+		"xpos"														"cs-0.5000"
+		"ypos"														"cs-0.4988"
 		"controlname"												"CExLabel"
 		"fieldname"													"hud_crosshair_1"
 		"textAlignment"												"center"
 		"zpos"														"0"
 		"wide"														"f0"
-		"tall"														"f0"  
+		"tall"														"f0"
 	}
 
 	"hud_crosshair_2"
@@ -40,14 +44,14 @@
 		"fgcolor"													"hud_crosshair_2"
 		
 		// Defaults
-		"xpos"														"0"
-		"ypos"														"1"
+		"xpos"														"cs-0.4999"
+		"ypos"														"cs-0.4980"
 		"controlname"												"CExLabel"
 		"fieldname"													"hud_crosshair_2"
 		"textAlignment"												"center"
 		"zpos"														"0"
 		"wide"														"f0"
-		"tall"														"f0"  
+		"tall"														"f0"
 	}
 	
 	"hud_crosshair_3"
@@ -91,8 +95,8 @@
 		"fgcolor"													"hud_crosshair_whayay"
 		
 		// Defaults
-		"xpos"														"0"
-		"ypos"														"1"
+		"xpos"														"cs-0.4999"
+		"ypos"														"cs-0.5"
 		"controlname"												"CExLabel"
 		"fieldname"													"hud_crosshair_whayay"
 		"textAlignment"												"center"
@@ -111,8 +115,8 @@
 		"fgcolor"													"hud_crosshair_knuckles"
 		
 		// Defaults
-		"xpos"														"0"
-		"ypos"														"1"
+		"xpos"														"cs-0.4999"
+		"ypos"														"cs-0.4999"
 		"controlname"												"CExLabel"
 		"fieldname"													"hud_crosshair_knuckles"
 		"textAlignment"												"center"
@@ -131,8 +135,8 @@
 		"fgcolor"													"hud_crosshair_fog"
 		
 		// Defaults
-		"xpos"														"0"
-		"ypos"														"1"
+		"xpos"														"cs-0.4999"
+		"ypos"														"cs-0.4955"
 		"controlname"												"CExLabel"
 		"fieldname"													"hud_crosshair_fog"
 		"textAlignment"												"center"
