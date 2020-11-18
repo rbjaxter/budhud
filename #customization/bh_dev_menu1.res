@@ -108,10 +108,10 @@
 		"enabled"													"1"
 		"paintbackgroundtype"										"0"
 		
-		"labeltext"													"MAT_ANTIALIAS 0/1"
+		"labeltext"													"MAT_AAQUALITY 0/1"
 		"textalignment"												"center"
 		"font"														"bh_Font10"
-		"command"													"engine incrementvar mat_antialias 0 1 1"
+		"command"													"engine incrementvar mat_aaquality 0 1 1"
 		
 		"defaultBgColor_override"									"bh_ButtonBGDefault"
 		"armedBgColor_override"										"bh_ButtonBGArmed"
@@ -191,14 +191,14 @@
 		"border_armed"												"bh_b_NESW"
     }
 	
-	"bh_Dev_Settings"	
+	"bh_Dev_Cheats"	
 	{
 		"pin_to_sibling" 											"bh_Dev_Anchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		
 		"ControlName"												"CExButton"
-		"fieldName"													"bh_Dev_Settings"
+		"fieldName"													"bh_Dev_Cheats"
 		"xpos"														"0"
 		"ypos"														"-100"
 		"zpos"														"6969"
@@ -210,10 +210,10 @@
 		"enabled"													"1"
 		"paintbackgroundtype"										"0"
 
-		"labeltext"													"SETTINGS 1/1"
+		"labeltext"													"CHEATS 0/1"
 		"textalignment"												"center"
 		"font"														"bh_Font10"
-		"command"													"OpenOptionsDialog"
+		"command"													"engine incrementvar sv_cheats 0 1 1"
 		
 		"defaultBgColor_override"									"bh_ButtonBGDefault"
 		"armedBgColor_override"										"bh_ButtonBGArmed"
@@ -225,14 +225,14 @@
 		"border_armed"												"bh_b_NESW"
     }
 	
-	"bh_Dev_Cheats"	
+	"bh_Dev_MatReload"	
 	{
 		"pin_to_sibling" 											"bh_Dev_Anchor"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		
 		"ControlName"												"CExButton"
-		"fieldName"													"bh_Dev_Cheats"
+		"fieldName"													"bh_Dev_MatReload"
 		"xpos"														"0"
 		"ypos"														"-120"
 		"zpos"														"6969"
@@ -244,10 +244,10 @@
 		"enabled"													"1"
 		"paintbackgroundtype"										"0"
 
-		"labeltext"													"CHEATS 1/1"
+		"labeltext"													"RELOAD TEXTURES (VTFS)"
 		"textalignment"												"center"
 		"font"														"bh_Font10"
-		"command"													"engine sv_cheats 1"
+		"command"													"engine mat_reloadallmaterials"
 		
 		"defaultBgColor_override"									"bh_ButtonBGDefault"
 		"armedBgColor_override"										"bh_ButtonBGArmed"
@@ -257,7 +257,7 @@
 		"depressedFgColor_override" 								"bh_ButtonDepressed"
 		"border_default"											"bh_b_NESW"
 		"border_armed"												"bh_b_NESW"
-    }
+    }	
 	
 	"bh_Dev_Quit"	
 	{
@@ -278,7 +278,7 @@
 		"enabled"													"1"
 		"paintbackgroundtype"										"0"
 
-		"labeltext"													"END SUFFERING 1/1"
+		"labeltext"													"END SUFFERING"
 		"textalignment"												"center"
 		"font"														"bh_Font10"
 		"command"													"engine quit"

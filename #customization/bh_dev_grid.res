@@ -5,117 +5,61 @@
 	// Used to check the placement of elements.
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
 	
-	"bh_dev_v_center"
+	"bh_dev_rightcenter"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"bh_dev"
-		"xpos"						"c-3"
+		"xpos"						"cs2.99"
 		"ypos"						"f0"
 		"zpos"						"0"
-		"wide"						"6"
+		"wide"						"1"
 		"tall"						"f0"
 		"visible"					"1"
 		"enabled"					"1"
-		"fillcolor"					"150 0 150 120"
+		"fillcolor"					"000 255 000 120"
 	}
 	
-	"bh_dev_v_L1"
+	"bh_dev_leftcenter"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"bh_dev"
-		"xpos"						"c-150"
+		"xpos"						"cs-3"
 		"ypos"						"f0"
 		"zpos"						"0"
-		"wide"						"6"
+		"wide"						"1"
 		"tall"						"f0"
 		"visible"					"1"
 		"enabled"					"1"
-		"fillcolor"					"0 150 150 120"
-	}
-	
-	"bh_dev_v_L2"
-	{
-		"ControlName"				"ImagePanel"
-		"fieldName"					"bh_dev"
-		"xpos"						"c-295"
-		"ypos"						"f0"
-		"zpos"						"0"
-		"wide"						"6"
-		"tall"						"f0"
-		"visible"					"1"
-		"enabled"					"1"
-		"fillcolor"					"150 150 0 120"
-	}
-	
-	"bh_dev_v_R1"
-	{
-		"ControlName"				"ImagePanel"
-		"fieldName"					"bh_dev"
-		"xpos"						"c140"
-		"ypos"						"f0"
-		"zpos"						"0"
-		"wide"						"6"
-		"tall"						"f0"
-		"visible"					"1"
-		"enabled"					"1"
-		"fillcolor"					"150 0 150 120"
-	}
-	
-	"bh_dev_v_R2"
-	{
-		"ControlName"				"ImagePanel"
-		"fieldName"					"bh_dev"
-		"xpos"						"c290"
-		"ypos"						"f0"
-		"zpos"						"0"
-		"wide"						"6"
-		"tall"						"f0"
-		"visible"					"1"
-		"enabled"					"1"
-		"fillcolor"					"150 0 150 120"
+		"fillcolor"					"000 255 000 120"
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
 	
-	"bh_dev_h_center"
+	"bh_dev_upcenter"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"bh_dev"
 		"xpos"						"f0"
-		"ypos"						"c-3"
+		"ypos"						"cs-3.0"
 		"zpos"						"0"
 		"wide"						"f0"
-		"tall"						"6"
+		"tall"						"1"
 		"visible"					"1"
 		"enabled"					"1"
-		"fillcolor"					"150 150 0 120"
+		"fillcolor"					"255 000 000 120"
 	}
 	
-	"bh_dev_h_U1"
+	"bh_dev_downcenter"
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"bh_dev"
 		"xpos"						"f0"
-		"ypos"						"c-150"
+		"ypos"						"cs2.9"
 		"zpos"						"0"
 		"wide"						"f0"
-		"tall"						"6"
+		"tall"						"1"
 		"visible"					"1"
 		"enabled"					"1"
-		"fillcolor"					"150 0 150 120"
-	}
-	
-	"bh_dev_h_D1"
-	{
-		"ControlName"				"ImagePanel"
-		"fieldName"					"bh_dev"
-		"xpos"						"f0"
-		"ypos"						"c145"
-		"zpos"						"0"
-		"wide"						"f0"
-		"tall"						"6"
-		"visible"					"1"
-		"enabled"					"1"
-		"fillcolor"					"150 150 0 120"
+		"fillcolor"					"255 000 000 120"
 	}
 }
