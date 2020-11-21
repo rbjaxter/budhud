@@ -1,0 +1,7 @@
+# These eclared files will always have CRLF line endings on checkout
+*.res eol=crlf
+*.txt eol=crlf
+
+# Keep these files binary
+*.png binary
+*.jpg binary
