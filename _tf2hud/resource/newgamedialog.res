@@ -130,7 +130,7 @@
 	}
 }
 
-"Resource/NewGameDialog.res"	[disabled]
+"Resource/NewGameDialog.res"	[$X360]
 {
 	"NewGameDialog"
 	{

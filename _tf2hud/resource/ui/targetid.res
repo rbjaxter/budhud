@@ -104,8 +104,8 @@
 		"xpos_disabled"	"30"
 		"ypos"			"17"	[$WIN32]
 		"ypos_disabled"	"12"	[$WIN32]
-		"ypos"			"22"	[disabled]
-		"ypos_disabled"		"25"	[disabled]
+		"ypos"			"22"	[$X360]
+		"ypos_disabled"		"25"	[$X360]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
@@ -258,7 +258,7 @@
 		"xpos"			"6"
 		"xpos_disabled"	"6"
 		"ypos"			"6"	[$WIN32]
-		"ypos"			"0"	[disabled]
+		"ypos"			"0"	[$X360]
 		"zpos"			"99"
 		"wide"			"11"
 		"tall"			"11"

@@ -47,18 +47,18 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
 		"font"			"HudFontMediumBigBold" [$WIN32]
-		"font"			"HudFontMediumBold" [disabled]
+		"font"			"HudFontMediumBold" [$X360]
 		"labelText"		"%maplabel%"
 		"textAlignment"		"center" [$WIN32]
-		"textAlignment"		"west" [disabled]
+		"textAlignment"		"west" [$X360]
 		"xpos"			"5" [$WIN32]
-		"xpos"			"60" [disabled]
+		"xpos"			"60" [$X360]
 		"ypos"			"92"
 		"ypos_disabled"		"425"
 		"ypos_disabled"		"425"
 		"zpos"			"50"
 		"wide"			"350" [$WIN32]
-		"wide"			"600" [disabled]
+		"wide"			"600" [$X360]
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -122,7 +122,7 @@
 				"ypos_disabled"			"49"
 				"zpos"			"5"
 				"wide"			"150" [!$X360]
-				"wide"			"170" [disabled]
+				"wide"			"170" [$X360]
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -283,7 +283,7 @@
 			"xpos_disabled"			"c-193"
 			"xpos_disabled"			"c-193"
 			"ypos"			"170" [!$OSX]
-			"ypos"			"185" [disabled]
+			"ypos"			"185" [$OSX]
 			"ypos_disabled"			"32"
 			"ypos_disabled"			"32"
 			"wide"			"300"
@@ -1664,13 +1664,13 @@
 			"textAlignment"		"west"
 			"xpos"			"c+124"
 			"ypos"			"170" [!$OSX]
-			"ypos"			"180" [disabled]
+			"ypos"			"180" [$OSX]
 			"wide"			"300"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"	[$WIN32]
-			"visible"		"0"	[disabled]
+			"visible"		"0"	[$X360]
 			"enabled"		"1"
 		}							
 		"RecordsSubBG1"
@@ -1713,7 +1713,7 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"	[$WIN32]
-			"visible"		"1"	[disabled]
+			"visible"		"1"	[$X360]
 			"enabled"		"1"
 		}	
 		"OverallRecord1Label"
@@ -2540,7 +2540,7 @@
 		"brighttext"	"0"
 		"Command"		"vguicancel"
 	}
-	"Footer" [disabled]
+	"Footer" [$X360]
 	{
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"
@@ -2575,7 +2575,7 @@
 			"icon"		"#GameUI_Icons_A_BUTTON"	
 		}
 	}		
-	"TitleBanner" [disabled]
+	"TitleBanner" [$X360]
 	{
 		"ControlName"	"ImagePanel"
 		"xpos"			"0"

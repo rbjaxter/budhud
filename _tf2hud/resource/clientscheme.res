@@ -274,8 +274,8 @@ Scheme
 		Frame.OutOfFocusBgColor			"TransparentBlack"
 		Frame.FocusTransitionEffectTime	"0.0"	[$WIN32] // time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.0"	[$WIN32] // time it takes for a window to fade in/out on open/close
-		Frame.FocusTransitionEffectTime	"0.15"	[disabled] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.15"	[disabled] // time it takes for a window to fade in/out on open/close
+		Frame.FocusTransitionEffectTime	"0.15"	[$X360] // time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0.15"	[$X360] // time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"Blank"
 		FrameGrip.Color2				"Blank"
@@ -482,7 +482,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"13"	[$WIN32]
-				"tall"		"20"	[disabled]
+				"tall"		"20"	[$X360]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
@@ -716,7 +716,7 @@ Scheme
 			"1"
 			{
 				"name"		"Trebuchet MS" [!$OSX]
-				"name"		"Helvetica" [disabled]
+				"name"		"Helvetica" [$OSX]
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" "1"
@@ -748,7 +748,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"13"	[$WIN32]
-				"tall"		"23"	[disabled]
+				"tall"		"23"	[$X360]
 				"weight"	"700"
 				"yres"	"600 767"
 			}
@@ -1127,7 +1127,7 @@ Scheme
 		}
 		GameUIButtons
 		{
-			"1"	//[disabled]
+			"1"	//[$X360]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -1139,7 +1139,7 @@ Scheme
 		}
 		GameUIButtonsSmall
 		{
-			"1"	[disabled]
+			"1"	[$X360]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -1149,7 +1149,7 @@ Scheme
 		}
 		GameUIButtonsSmallest
 		{
-			"1"	[disabled]
+			"1"	[$X360]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -1278,7 +1278,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"15"	[$WIN32]
-				"tall"		"21"	[disabled]
+				"tall"		"21"	[$X360]
 				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"600 767"
@@ -1323,7 +1323,7 @@ Scheme
 				"outline"	"1"
 				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
-			"1"	[disabled]
+			"1"	[$X360]
 			{
 				"name"		"Tahoma"
 				"tall"		"18"
@@ -1522,7 +1522,7 @@ Scheme
 				"tall_disabled"	"48"
 				"tall_disabled"	"48"
 				"antialias"		"1" 
-				"custom"		"1" [disabled]
+				"custom"		"1" [$OSX]
 				"weight"		"500"
 				"weight_disabled"	"800"
 				"weight_disabled"	"1000"
@@ -1537,7 +1537,7 @@ Scheme
 				"tall_disabled"	"48"
 				"tall_disabled"	"48"
 				"antialias"		"1"
-				"custom"		"1" [disabled]
+				"custom"		"1" [$OSX]
 				"weight"		"500"
 				"weight_disabled"	"800"
 				"weight_disabled"	"1000"
@@ -1552,7 +1552,7 @@ Scheme
 				"tall_disabled"	"36"
 				"tall_disabled"	"36"
 				"antialias" "1"
-				"custom"		"1" [disabled]
+				"custom"		"1" [$OSX]
 				"weight"	"500"
 			}
 		}
@@ -1562,11 +1562,11 @@ Scheme
 			{
 				"name"			"TF2 Professor"
 				"tall"			"14" [!$OSX]
-				"tall"			"15" [disabled]
+				"tall"			"15" [$OSX]
 				"tall_disabled"	"32"
 				"tall_disabled"	"32"
 				"antialias"		"1"
-				"custom"		"1" [disabled]
+				"custom"		"1" [$OSX]
 				"weight"		"500"
 			}
 		}
@@ -2042,7 +2042,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"11"  [!$OSX]
-				"tall"		"9"  [disabled]
+				"tall"		"9"  [$OSX]
 				"weight"	"800"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2518,7 +2518,7 @@ Scheme
 				"name"		"TF2 Professor"
 				"tall"		"20"
 				"antialias" "1"
-				"custom"		"1" [disabled]
+				"custom"		"1" [$OSX]
 				"weight"	"500"
 			}
 		}

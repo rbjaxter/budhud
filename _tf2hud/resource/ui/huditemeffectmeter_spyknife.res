@@ -11,8 +11,8 @@
 		"xpos_disabled"	"r52"	[$WIN32]
 		"ypos_disabled"	"r68"	[$WIN32]
 		"x_offset_disabled"		"0"	[$WIN32]
-		"xpos"			"r194"	[disabled]
-		"ypos"			"r124"	[disabled]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r124"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"

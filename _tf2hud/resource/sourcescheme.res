@@ -146,7 +146,7 @@ Scheme
 		}
 		"MenuLarge"
 		{
-			"1"	[disabled]
+			"1"	[$X360]
 			{
 				"tall_disabled"		"24"
 			}
@@ -165,7 +165,7 @@ Scheme
 			}
 		}
 
-		"Default" [disabled]
+		"Default" [$OSX]
 		{
 			"1"
 			{
@@ -228,10 +228,10 @@ Scheme
 			"1"
 			{
 				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [disabled]
+				"name"		"Verdana Bold" [$OSX]
 				"weight"		"1500"
 				"tall"			"16" [!$OSX]
-				"tall"			"18" [disabled]
+				"tall"			"18" [$OSX]
 				"antialias"		"1"
 			}
 		}
@@ -241,10 +241,10 @@ Scheme
 			"1"
 			{
 				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [disabled]
+				"name"		"Verdana Bold" [$OSX]
 				"weight"		"1500"
 				"tall"			"18" [!$OSX]
-				"tall"			"19" [disabled]
+				"tall"			"19" [$OSX]
 				"antialias"		"1"
 			}
 		}
@@ -254,10 +254,10 @@ Scheme
 			"1"
 			{
 				"name"		"Arial" [!$OSX]
-				"name"		"Verdana" [disabled]
+				"name"		"Verdana" [$OSX]
 				"weight"		"1000"
 				"tall"			"14" [!$OSX]
-				"tall"			"12" [disabled]
+				"tall"			"12" [$OSX]
 				"antialias"		"1" [!$OSX]
 			}
 		}
