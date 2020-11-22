@@ -56,6 +56,82 @@ function Check_TF2
 }
 
 	##############
+	# Check_TF2
+	##############
+
+function Check_UpdateFiles
+{
+	#########
+	# Check 1
+	#########
+	Write-Host -foregroundcolor "White" -NoNewLine "Checking for #dev folder... "
+	
+	If
+	(
+		Test-Path -Path "#dev"
+	)
+	
+	{
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found."
+	} 
+	
+	Else 
+	{
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate #dev folder"
+		Write-Host -foregroundcolor "White" "- Verify that the #dev folder was not deleted."
+		Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#dev"
+		Write-Host ""
+		Break
+	}
+	
+	#########
+	# Check 2
+	#########
+	Write-Host -foregroundcolor "White" -NoNewLine "Checking for HLExtract.exe... "
+	
+	If
+	(
+		Test-Path -Path "#dev\HLExtract.exe"
+	)
+	
+	{
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found."
+	} 
+	
+	Else 
+	{
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red"	"Could not locate HLExtract.exe"
+		Write-Host -foregroundcolor "White" "- Verify that HLExtract.exe was not deleted."
+		Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#dev\HLExtract.exe"
+		Write-Host ""
+		Break
+	}
+	
+	#########
+	# Check 3
+	#########
+	Write-Host -foregroundcolor "White" -NoNewLine "Checking for _Modifier.exe... "
+	
+	If
+	(
+		Test-Path -Path "#dev\_Modifier.exe"
+	)
+	
+	{
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found."
+	} 
+	
+	Else 
+	{
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate _Modifier.exe"
+		Write-Host -foregroundcolor "White" "- Verify that _Modifier.exe was not deleted."
+		Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#dev\_Modifier.exe"
+		Write-Host ""
+		Break
+	}
+}
+
+	##############
 	# Check_Shared
 	##############
 
@@ -154,7 +230,7 @@ function Check_ValidateInstall
 	Write-Host -foregroundcolor "White" -backgroundcolor "Blue"	"====================="
 	Write-Host -foregroundcolor "White" -backgroundcolor "Blue"	"Checking Installation"
 	Write-Host -foregroundcolor "White" -backgroundcolor "Blue"	"====================="
-	Write-Host -foregroundcolor "White" "This function will check for common installation problems and report a potential solution"
+	Write-Host -foregroundcolor "White" "This function will check for common installation problems and provide a potential solution"
 	Write-Host ""
 	Write-Host ""
 
@@ -203,10 +279,10 @@ function Pass_ExtractDefaultHUD
 	
 	# Extract from game hud files
 	Write-Host -foregroundcolor "White" -NoNewLine "Extracting default game files..."
-	.\#updatefiles\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "_tf2hud" -e "root\resource" -m -v -s
-	.\#updatefiles\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "_tf2hud\scripts" -e "root\scripts\HudLayout.res" -m -v -s
-	.\#updatefiles\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "_tf2hud\scripts" -e "root\scripts\HudAnimations_tf.txt" -m -v -s
-	.\#updatefiles\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "_tf2hud\scripts" -e "root\scripts\mod_textures.txt" -m -v -s
+	.\#dev\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "_tf2hud" -e "root\resource" -m -v -s
+	.\#dev\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "_tf2hud\scripts" -e "root\scripts\HudLayout.res" -m -v -s
+	.\#dev\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "_tf2hud\scripts" -e "root\scripts\HudAnimations_tf.txt" -m -v -s
+	.\#dev\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "_tf2hud\scripts" -e "root\scripts\mod_textures.txt" -m -v -s
 	Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"	
 	
 	# Delete unused folders
@@ -219,22 +295,22 @@ function Pass_ExtractDefaultHUD
 	
 	# Remove various modifiers
 	Write-Host -foregroundcolor "White" "Removing various modifiers."
-	.\#updatefiles\_Modifier.exe -i -r -c -- _tf2hud\* $OSX disabled > $null
+	.\#dev\_Modifier.exe -i -r -c -- _tf2hud\* $OSX disabled > $null
 	Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Removed OSX lines."
 	
-	.\#updatefiles\_Modifier.exe -i -r -c -- _tf2hud\* $X360 disabled > $null
+	.\#dev\_Modifier.exe -i -r -c -- _tf2hud\* $X360 disabled > $null
 	Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Removed X360 lines."
 	
-	.\#updatefiles\_Modifier.exe -i -r -c -- _tf2hud\* _minmode _disabled > $null
+	.\#dev\_Modifier.exe -i -r -c -- _tf2hud\* _minmode _disabled > $null
 	Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Removed _minmode lines."
 	
-	.\#updatefiles\_Modifier.exe -i -r -c -- _tf2hud\* _lodef _disabled > $null
+	.\#dev\_Modifier.exe -i -r -c -- _tf2hud\* _lodef _disabled > $null
 	Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Removed _lodef lines."
 	
-	.\#updatefiles\_Modifier.exe -i -r -c -- _tf2hud\* _hidef _disabled > $null
+	.\#dev\_Modifier.exe -i -r -c -- _tf2hud\* _hidef _disabled > $null
 	Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Removed _hidef lines."
 	
-	.\#updatefiles\_Modifier.exe -i -r -c -- _tf2hud\* if_ disabled_ > $null
+	.\#dev\_Modifier.exe -i -r -c -- _tf2hud\* if_ disabled_ > $null
 	Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Removed _if lines."
 	
 	Write-Host -foregroundcolor "White" -NoNewLine "Copying over stubborn files..."
@@ -242,7 +318,7 @@ function Pass_ExtractDefaultHUD
 	Copy-Item "$PSScriptRoot\_tf2hud\resource\sourcescheme.res" -Destination "$PSScriptRoot\resource\sourcescheme_base.res"
 	Copy-Item "$PSScriptRoot\_tf2hud\resource\gamemenu.res" -Destination "$PSScriptRoot\resource\gamemenu_base.res"
 	Copy-Item "$PSScriptRoot\_tf2hud\resource\muteplayerdialog.res" -Destination "$PSScriptRoot\resource\muteplayerdialog_base.res"
-	Copy-Item "$PSScriptRoot\#updatefiles\confirmdialog.res" -Destination "$PSScriptRoot\_tf2hud\resource\ui\econ\confirmdialog.res"
+	Copy-Item "$PSScriptRoot\#dev\confirmdialog.res" -Destination "$PSScriptRoot\_tf2hud\resource\ui\econ\confirmdialog.res"
 	Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete."
 	
 	Write-Host ""
@@ -266,88 +342,51 @@ function Check_ExtractDefaultHUD
 	Write-Host -foregroundcolor "White" -backgroundcolor "Blue"	"=================="
 	Write-Host -foregroundcolor "White" -backgroundcolor "Blue"	"Checking For Files"
 	Write-Host -foregroundcolor "White" -backgroundcolor "Blue"	"=================="
-	Write-Host -foregroundcolor "White" "This will be an explanation. Eventually."
 	Write-Host ""
 	Write-Host ""
 
-	#########
-	# Check 1
-	#########
-	Check_Shared
-
-	#########
-	# Check 2
-	#########
-	Check_TF2
-	
-	#########
-	# Check 3
-	#########
-	Write-Host -foregroundcolor "White" -NoNewLine "Checking for #updatefiles folder... "
-	
+	# Surely there's a better way to do this
+	# this feels wrong
 	If
 	(
-		Test-Path -Path "#updatefiles"
+		Check_Shared
 	)
 	
 	{
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found."
-	} 
-	
-	Else 
-	{
-		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate #updatefiles folder"
-		Write-Host -foregroundcolor "White" "- Verify that the #updatefiles folder was not deleted."
-		Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#updatefiles"
-		Write-Host ""
 		Break
 	}
 	
-	#########
-	# Check 1
-	#########
-	Write-Host -foregroundcolor "White" -NoNewLine "Checking for HLExtract.exe... "
+	Else
+	{
+		Check_TF2
+	}
 	
 	If
 	(
-		Test-Path -Path "#updatefiles\HLExtract.exe"
+		Check_TF2
 	)
 	
 	{
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found."
-	} 
-	
-	Else 
-	{
-		Write-Host -foregroundcolor "White" -backgroundcolor "Red"	"Could not locate HLExtract.exe"
-		Write-Host -foregroundcolor "White" "- Verify that HLExtract.exe was not deleted."
-		Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#updatefiles\HLExtract.exe"
-		Write-Host ""
 		Break
 	}
 	
-	#########
-	# Check 2
-	#########
-	Write-Host -foregroundcolor "White" -NoNewLine "Checking for _Modifier.exe... "
+	Else
+	{
+		Check_UpdateFiles
+	}
 	
 	If
 	(
-		Test-Path -Path "#updatefiles\_Modifier.exe"
+		Check_UpdateFiles
 	)
 	
 	{
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found."
+		Break
+	}
+	
+	Else
+	{
 		Pass_ExtractDefaultHUD
-	} 
-	
-	Else 
-	{
-		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate _Modifier.exe"
-		Write-Host -foregroundcolor "White" "- Verify that _Modifier.exe was not deleted."
-		Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#updatefiles\_Modifier.exe"
-		Write-Host ""
-		Break
 	}
 }
 
@@ -357,37 +396,33 @@ function Check_ExtractDefaultHUD
 
 function Pass_UpdateFromGithub
 {
-	# Download zip from github
-	#.\#updatefiles\wget.exe https://github.com/rbjaxter/budhud/archive/master.zip --no-check-certificate
+
+	Write-Host -foregroundcolor "White" -NoNewLine "Downloading files from GitHub..."
+	.\#dev\wget.exe https://github.com/rbjaxter/budhud/archive/master.zip --no-check-certificate -q
+	Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 	
-	# Extract zip
-	#.\#updatefiles\unzip.exe master.zip
+	Write-Host -foregroundcolor "White" -NoNewLine "Unzipping files..."
+	.\#dev\unzip.exe master.zip > $null
+	Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 	
-	#Rename-Item .\budhud-master .\budhud
+	Write-Host -foregroundcolor "White" -NoNewLine "Moving folders and files out of extracted zip..."
+	Copy-Item -Path .\budhud-master\* -Destination $PSScriptRoot -Force -Recurse
+	Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 	
-	# Move folders and files out of budhud-master
-	#Copy-Item -Path .\budhud -Destination "..\" -Force -Recurse -Verbose
-	
-	# Remove folders and files used in the process
-	# Remove-Item ".\budhud" -ErrorAction SilentlyContinue -recurse
-	# Remove-Item ".\master.zip" -ErrorAction SilentlyContinue -recurse
+	Write-Host -foregroundcolor "White" -NoNewLine "Removing folders and files used in the process.."
+	Remove-Item ".\budhud-master" -ErrorAction SilentlyContinue -Recurse
+	Remove-Item ".\master.zip" -ErrorAction SilentlyContinue -Recurse
+	Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
 	Write-Host ""
 	Write-Host ""
 	
-	Write-Host -foregroundcolor "White" -backgroundcolor "Yellow" "============="
-	Write-Host -foregroundcolor "White" -backgroundcolor "Yellow" "Temporarily Disabled"
-	Write-Host -foregroundcolor "White" -backgroundcolor "Yellow" "============="
-	Write-Host -foregroundcolor "White" "This action is temporarily disabled until more thorough testing can be done on it."
+	Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
+	Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Task Complete"
+	Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
+	Write-Host -foregroundcolor "White" "Latest hud files from GitHub have been downloaded and extracted."
 	Write-Host ""
-	Write-Host ""	
-	
-	#Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
-	#Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Task Complete"
-	#Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
-	#Write-Host -foregroundcolor "White" "Latest hud files from GitHub have been downloaded and extracted."
-	#Write-Host ""
-	#Write-Host ""
+	Write-Host ""
 }
 
 	######################
@@ -416,7 +451,7 @@ function Check_UpdateFromGithub
 	
 	If
 	(
-		Test-Path -Path "#updatefiles\wget.exe"
+		Test-Path -Path "#dev\wget.exe"
 	)
 	
 	{
@@ -427,7 +462,7 @@ function Check_UpdateFromGithub
 	{
 		Write-Host -foregroundcolor "White" -backgroundcolor "Red"	"Could not locate wget.exe"
 		Write-Host -foregroundcolor "White" "- Verify that wget.exe was not deleted."
-		Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#updatefiles\wget.exe"
+		Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#dev\wget.exe"
 		Write-Host ""
 		Break
 	}
@@ -439,7 +474,7 @@ function Check_UpdateFromGithub
 	
 	If
 	(
-		Test-Path -Path "#updatefiles\unzip.exe"
+		Test-Path -Path "#dev\unzip.exe"
 	)
 	
 	{
@@ -450,7 +485,7 @@ function Check_UpdateFromGithub
 	{
 		Write-Host -foregroundcolor "White" -backgroundcolor "Red"	"Could not locate unzip.exe"
 		Write-Host -foregroundcolor "White" "- Verify that unzip.exe was not deleted."
-		Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#updatefiles\unzip.exe"
+		Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#dev\unzip.exe"
 		Write-Host ""
 		Break
 	}
@@ -466,10 +501,9 @@ function Check_UpdateFromGithub
 	Write-Host ""
 	Write-Host ""
 	
-	Write-Host -foregroundcolor "Red" "Please note that any changes you have made to budhud will be over-written!"
 	Write-Host -foregroundcolor "Red" "If you have EDITED any fies, they will be OVERWRITTEN."
-	Write-Host -foregroundcolor "Red" "If you have ADDED any files, they will NOT be OVERWRITTEN."
-	Write-Host -foregroundcolor "Red" "This script is best used by those using #users/custom."
+	Write-Host -foregroundcolor "Green" "If you have ADDED any files, they will NOT be OVERWRITTEN."
+	Write-Host -foregroundcolor "Blue" "This script is best used by those using #users/custom."
 	
 	Write-Host ""
 	
@@ -525,8 +559,8 @@ do
 		"?"
 		{
 			Write-Host ""
-			Write-Host "Explain Check_ValidateInstall"
-			Write-Host "Explain Check_ExtractDefaultHUD"
+			Write-Host "Explain ValidateInstall"
+			Write-Host "Explain ExtractDefaultHUD"
 			Write-Host "Explain UpdateFromGithub"
 			Write-Host ""
 		}
