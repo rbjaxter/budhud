@@ -32,9 +32,9 @@ ECHO Checking directory for necessary files...
 ECHO ====================================================================================================%ESC%[0m
 IF NOT EXIST "..\..\tf2_misc_dir.vpk" (goto :ERROR_tf2_misc_dir)
 IF NOT EXIST "..\..\..\hl2.exe" (goto :ERROR_duplicatefolder)
-IF NOT EXIST "#updatefiles" (goto :ERROR_updatefiles)
-IF NOT EXIST "#updatefiles\_Modifier.exe" (goto :ERROR_modifier)
-IF NOT EXIST "#updatefiles\HLExtract.exe" (goto :ERROR_hlextract)
+IF NOT EXIST "#dev" (goto :ERROR_updatefiles)
+IF NOT EXIST "#dev\_Modifier.exe" (goto :ERROR_modifier)
+IF NOT EXIST "#dev\HLExtract.exe" (goto :ERROR_hlextract)
 
 :: Error messages
 GOTO :NOERROR
@@ -49,9 +49,9 @@ ECHO %ESC%[91mERROR: Could not find %ESC%[93mhl2.exe%ESC%[91m by moving up three
 ECHO    - Verify that there are not two "budhud-master" folders inside of each other
 ECHO.
 ECHO      %ESC%[91mWRONG: ..\tf\custom\budhud-master\budhud-master\
-ECHO             Containing #customization, #updatefiles, #users, etc
+ECHO             Containing #customization, #dev, #users, etc
 ECHO      %ESC%[92mRIGHT: ..\tf\custom\budhud-master\
-ECHO             Containing #customization, #updatefiles, #users, etc
+ECHO             Containing #customization, #dev, #users, etc
 goto :ERROR_support
 
 :ERROR_tf2_misc_dir
@@ -61,21 +61,21 @@ ECHO    - Verify that you do not have multiple custom folders.
 goto :ERROR_support
 
 :ERROR_updatefiles
-ECHO %ESC%[91mERROR: Can't find the %ESC%[93m#updatefiles%ESC%[91m folder.
-ECHO    - Verify that the %ESC%[93m#updatefiles%ESC%[91m folder was not deleted.
-ECHO        Location: ..\custom\budhud\#updatefiles
+ECHO %ESC%[91mERROR: Can't find the %ESC%[93m#dev%ESC%[91m folder.
+ECHO    - Verify that the %ESC%[93m#dev%ESC%[91m folder was not deleted.
+ECHO        Location: ..\custom\budhud\#dev
 goto :ERROR_support
 
 :ERROR_modifier
-ECHO %ESC%[91mERROR: Can't find %ESC%[93m_Modifier.exe%ESC%[91m in the %ESC%[93m#updatefiles%ESC%[91m folder.
+ECHO %ESC%[91mERROR: Can't find %ESC%[93m_Modifier.exe%ESC%[91m in the %ESC%[93m#dev%ESC%[91m folder.
 ECHO    - Verify that %ESC%[93m_Modifier.exe%ESC%[91m was not deleted.
-ECHO        Location: ..\custom\budhud\#updatefiles\_Modifier.exe
+ECHO        Location: ..\custom\budhud\#dev\_Modifier.exe
 goto :ERROR_support
 
 :ERROR_hlextract
-ECHO %ESC%[91mERROR: Can't find %ESC%[93mHLExtract.exe%ESC%[91m in the %ESC%[93m#updatefiles%ESC%[91m folder. 
+ECHO %ESC%[91mERROR: Can't find %ESC%[93mHLExtract.exe%ESC%[91m in the %ESC%[93m#dev%ESC%[91m folder. 
 ECHO    - Verify that %ESC%[93mHLExtract.exe%ESC%[91m was not deleted.
-ECHO        Location: ..\custom\budhud\#updatefiles\HLExtract.exe
+ECHO        Location: ..\custom\budhud\#dev\HLExtract.exe
 goto :ERROR_support
 
 :ERROR_support
@@ -101,7 +101,7 @@ ECHO ===========================================================================
 SET "default_tf2hud_folder=_tf2hud"
 SET "core_resource=resource"
 SET "core_scripts=scripts"
-SET "update_files=#updatefiles"
+SET "update_files=#dev"
 ECHO %ESC%[32m====================================================================================================%
 ECHO Setting default directories... complete.
 ECHO ====================================================================================================%ESC%[0m
@@ -125,10 +125,10 @@ ECHO Extracting default HUD files...
 ECHO ====================================================================================================%ESC%[0m
 IF NOT EXIST "%default_tf2hud_folder%\resource\ui" (mkdir "%default_tf2hud_folder%\resource\ui")
 IF NOT EXIST "%default_tf2hud_folder%\scripts" (mkdir "%default_tf2hud_folder%\scripts")
-#UpdateFiles\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "%default_tf2hud_folder%" -e "root\resource" -m -v -s
-#UpdateFiles\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "%default_tf2hud_folder%\scripts" -e "root\scripts\HudLayout.res" -m -v -s
-#UpdateFiles\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "%default_tf2hud_folder%\scripts" -e "root\scripts\HudAnimations_tf.txt" -m -v -s
-#UpdateFiles\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "%default_tf2hud_folder%\scripts" -e "root\scripts\mod_textures.txt" -m -v -s
+#dev\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "%default_tf2hud_folder%" -e "root\resource" -m -v -s
+#dev\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "%default_tf2hud_folder%\scripts" -e "root\scripts\HudLayout.res" -m -v -s
+#dev\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "%default_tf2hud_folder%\scripts" -e "root\scripts\HudAnimations_tf.txt" -m -v -s
+#dev\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "%default_tf2hud_folder%\scripts" -e "root\scripts\mod_textures.txt" -m -v -s
 ECHO %ESC%[32m====================================================================================================%
 ECHO Extracting default HUD files... complete.
 ECHO ====================================================================================================%ESC%[0m
@@ -155,12 +155,12 @@ ECHO.
 ECHO %ESC%[33m====================================================================================================
 ECHO Removing various modifiers from basehud...
 ECHO ====================================================================================================%ESC%[0m
-#UpdateFiles\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* [$OSX] [disabled]
-#UpdateFiles\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* [$X360] [disabled]
-#UpdateFiles\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* _minmode _disabled
-#UpdateFiles\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* _lodef _disabled
-#UpdateFiles\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* _hidef _disabled
-#UpdateFiles\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* if_ disabled_
+#dev\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* [$OSX] [disabled]
+#dev\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* [$X360] [disabled]
+#dev\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* _minmode _disabled
+#dev\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* _lodef _disabled
+#dev\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* _hidef _disabled
+#dev\_Modifier.exe -i -r -c -- %default_tf2hud_folder%\* if_ disabled_
 ECHO %ESC%[32m====================================================================================================%
 ECHO Removing various modifiers from basehud... complete.
 ECHO ====================================================================================================%ESC%[0m
