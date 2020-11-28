@@ -9,8 +9,8 @@
 		"ypos"			"r92"	[$WIN32]
 		"xpos_disabled"	"r70"	[$WIN32]
 		"ypos_disabled"	"r74"	[$WIN32]
-		"xpos"			"r194"	[disabled]
-		"ypos"			"r74"	[disabled]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"

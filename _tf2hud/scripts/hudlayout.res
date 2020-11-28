@@ -20,8 +20,8 @@
 		"xpos_disabled"	"r85"	[$WIN32]
 		"ypos"	"r55"	[$WIN32]
 		"ypos_disabled"	"r36"	[$WIN32]
-		"xpos"	"r131"	[disabled]
-		"ypos"	"r77"	[disabled]
+		"xpos"	"r131"	[$X360]
+		"ypos"	"r77"	[$X360]
 		"wide"	"94"
 		"tall"	"45"
 	}
@@ -63,8 +63,8 @@
 		"xpos_disabled"	"r52"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
 		"ypos_disabled"	"r50"	[$WIN32]
-		"xpos"			"r194"	[disabled]
-		"ypos"			"r74"	[disabled]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -80,8 +80,8 @@
 		"xpos_disabled"	"r100"	[$WIN32]
 		"ypos"			"r69"	[$WIN32]
 		"ypos_disabled"	"r34"	[$WIN32]
-		"xpos"			"r174"	[disabled]
-		"ypos"			"r90"	[disabled]
+		"xpos"			"r174"	[$X360]
+		"ypos"			"r90"	[$X360]
 		"wide"			"200"
 		"tall"			"100"
 	}
@@ -95,8 +95,8 @@
 		"xpos_disabled"	"r52"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
 		"ypos_disabled"	"r40"	[$WIN32]
-		"xpos"			"r112"	[disabled]
-		"ypos"			"r45"	[disabled]
+		"xpos"			"r112"	[$X360]
+		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
 		"wide_disabled"	"50"
@@ -114,8 +114,8 @@
 		"xpos_disabled"	"r52"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
 		"ypos_disabled"	"r40"	[$WIN32]
-		"xpos"			"r112"	[disabled]
-		"ypos"			"r45"	[disabled]
+		"xpos"			"r112"	[$X360]
+		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
 		"wide_disabled"	"50"
@@ -133,8 +133,8 @@
 		"xpos_disabled"	"r52"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
 		"ypos_disabled"	"r40"	[$WIN32]
-		"xpos"			"r112"	[disabled]
-		"ypos"			"r45"	[disabled]
+		"xpos"			"r112"	[$X360]
+		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
 		"wide_disabled"	"50"
@@ -177,13 +177,13 @@
 		"LargeBoxWide" "110"
 		"LargeBoxTall" "77"
 		"BoxGap" "4"	[$WIN32]
-		"BoxGap" "4"	[disabled]
+		"BoxGap" "4"	[$X360]
 		"SelectionNumberXPos" "12"
 		"SelectionNumberYPos" "4"
 		"IconXPos" "8"
 		"IconYPos" "0"
 		"TextYPos" "70"		[$WIN32]
-		"TextYPos" "65"		[disabled]
+		"TextYPos" "65"		[$X360]
 		"ErrorYPos" "48"
 		"TextColor" "SelectionTextFg"
 		"MaxSlots"	"6"
@@ -202,8 +202,8 @@
 		"xpos"					"r162"	[$WIN32]
 		"ypos"					"r152"	[$WIN32]
 		"ypos_disabled"			"r134"	[$WIN32]
-		"xpos"					"r194"	[disabled]
-		"ypos"					"r174"	[disabled]
+		"xpos"					"r194"	[$X360]
+		"ypos"					"r174"	[$X360]
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -245,11 +245,11 @@
 		"enabled"	"1"
 		"xpos"		"10"	[$WIN32]
 		"ypos"		"r70"	[$WIN32]
-		"xpos"		"50"	[disabled]
-		"ypos"		"330"	[disabled]
+		"xpos"		"50"	[$X360]
+		"ypos"		"330"	[$X360]
 		"wide"		"500"
 		"tall"		"200"
-		"TextFont"	"Default"	[disabled]
+		"TextFont"	"Default"	[$X360]
 	}
 
 	CMainTargetID
@@ -316,8 +316,8 @@
 		"enabled"	"1"
 		"xpos"		"0"	[$WIN32]
 		"ypos"		"0"	[$WIN32]
-		"xpos"		"32"	[disabled]
-		"ypos"		"16"	[disabled]		
+		"xpos"		"32"	[$X360]
+		"ypos"		"16"	[$X360]		
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -486,8 +486,8 @@
 		"enabled" "1"
 		"xpos"	 "r640"	[$WIN32]
 		"ypos"	 "18"	[$WIN32]
-		"xpos"	 "r672"	[disabled]
-		"ypos"	 "35"	[disabled]
+		"xpos"	 "r672"	[$X360]
+		"ypos"	 "35"	[$X360]
 		"wide"	 "628"
 		"tall"	 "468"
 
@@ -507,8 +507,8 @@
 
 		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
 		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[disabled]
-		"LocalBackgroundColor"	"0 0 0 255"		[disabled]
+		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
+		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
 	}
 
 	HudVehicle
@@ -602,10 +602,10 @@
 		"enabled"	"1"
 		"xpos"		"c-250"
 		"ypos"		"276"	[$WIN32]
-		"ypos"		"236"	[disabled]
+		"ypos"		"236"	[$X360]
 		"wide"		"500"
 		"tall"		"136"	[$WIN32]
-		"tall"		"176"	[disabled]
+		"tall"		"176"	[$X360]
 
 		"BgAlpha"	"128"
 
@@ -622,7 +622,7 @@
 		"visible" "0"
 		"enabled" "0"
 		"xpos"	 "r640"	[$WIN32]
-		"xpos"	 "r672"	[disabled]
+		"xpos"	 "r672"	[$X360]
 		"wide"	 "640"
 		"tall"	 "330"
 		"history_gap" "55"
@@ -728,8 +728,8 @@
 		"enabled" "1"
 		"xpos" "r42" 	[$WIN32]
 		"ypos" "355"	[$WIN32]
-		"xpos" "r75"	[disabled]
-		"ypos" "375"	[disabled]
+		"xpos" "r75"	[$X360]
+		"ypos" "375"	[$X360]
 		"wide" "32"
 		"tall" "32"
 	}
@@ -741,8 +741,8 @@
 		"enabled" "1"
 		"xpos" "r145" [$WIN32]
 		"ypos" "0" [$WIN32]
-		"xpos" "r210" [disabled]
-		"ypos" "0" [disabled]
+		"xpos" "r210" [$X360]
+		"ypos" "0" [$X360]
 		"wide" "145"
 		"tall" "400"
 
@@ -831,7 +831,7 @@
 		"separator_width"		"9"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
 		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[disabled]
+		"height_offset"			"26"	[$X360]
 	}
 
 	HudCapturePanel
@@ -973,7 +973,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[disabled]
+		"xpos"			"42"	[$X360]
 		"ypos"			"275"
 		"wide"	 		"320"
 		"tall"	 		"120"
@@ -1027,7 +1027,7 @@
 		"ypos_disabled"	"c-42"
 		"wide"			"470"
 		"tall"			"200"	[$WIN32]
-		"tall"			"180"	[disabled]
+		"tall"			"180"	[$X360]
 		"PaintBackgroundType"	"0"
 	}	
 	
@@ -1040,8 +1040,8 @@
 		"xpos_disabled"	"r110"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
 		"ypos_disabled"	"r30"	[$WIN32]
-		"xpos"			"r194"	[disabled]
-		"ypos"			"r74"	[disabled]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 	}	
@@ -1177,7 +1177,7 @@
 		"xpos"					"0"
 		"ypos"					"180"
 		"wide"					"f10"	[$WIN32]
-		"wide"					"f60"	[disabled]
+		"wide"					"f60"	[$X360]
 		"tall"					"100"
 	}
 

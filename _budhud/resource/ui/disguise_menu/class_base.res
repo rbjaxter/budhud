@@ -29,6 +29,8 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Spy Concise Disguise Menu
 	// Full game restart required for below changes to take effect
+	// Visible and enabled are set because the `medic_red` default hud file incorrectly has
+	// enabled set to 0
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
 	
 	"NewNumberLabel"
@@ -40,6 +42,8 @@
 		"wide"														"30"
 		"tall"														"16"
 		"textalignment"												"center"
+		"visible"													"0"
+		"enabled"													"1"
 		"proportionaltoparent"										"1"
 	}
 	

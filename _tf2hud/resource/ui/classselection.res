@@ -138,7 +138,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"1"	[$WIN32]
-		"labelText"			""		[disabled]
+		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 1"
 		"Default"			"0"
@@ -202,7 +202,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"2"	[$WIN32]
-		"labelText"			""		[disabled]
+		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 3"
 		"Default"			"0"
@@ -266,7 +266,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"3"	[$WIN32]
-		"labelText"			""		[disabled]
+		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 7"
 		"Default"			"0"
@@ -355,7 +355,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"4"	[$WIN32]
-		"labelText"			""		[disabled]
+		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 4"
 		"Default"			"0"
@@ -417,7 +417,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"5"	[$WIN32]
-		"labelText"			""		[disabled]
+		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 6"
 		"Default"			"0"
@@ -478,7 +478,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"6"	[$WIN32]
-		"labelText"			""		[disabled]
+		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 9"
 		"Default"			"0"
@@ -568,7 +568,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"7"	[$WIN32]
-		"labelText"			""		[disabled]
+		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 5"
 		"Default"			"0"
@@ -631,7 +631,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"8"	[$WIN32]
-		"labelText"			""		[disabled]
+		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 2"
 		"Default"			"0"
@@ -694,7 +694,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"9"	[$WIN32]
-		"labelText"			""		[disabled]
+		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 8"
 		"Default"			"0"
@@ -905,7 +905,7 @@
 		"PaintBackgroundType"	"0"
 	}		
 	
-	"Footer" [disabled]
+	"Footer" [$X360]
 	{
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"

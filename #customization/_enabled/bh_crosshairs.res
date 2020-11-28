@@ -24,8 +24,8 @@
 		"fgcolor"													"hud_crosshair_1"
 		
 		// Defaults
-		"xpos"														"cs-0.5000"
-		"ypos"														"cs-0.4988"
+		"xpos"														"cs-0.4999"
+		"ypos"														"cs-0.4990"
 		"controlname"												"CExLabel"
 		"fieldname"													"hud_crosshair_1"
 		"textAlignment"												"center"

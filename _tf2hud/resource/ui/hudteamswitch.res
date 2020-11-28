@@ -49,7 +49,7 @@
 		"ypos_disabled"	"20"
 		"zpos"			"1"
 		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[disabled]
+		"wide"			"180"	[$X360]
 		"tall"			"55"
 		"autoResize"		"0"
 		"pinCorner"		"0"
