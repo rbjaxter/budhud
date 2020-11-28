@@ -12,7 +12,8 @@ function Options_Initial
 	Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================================"
 	Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "budhud Updater and Error Checker"
 	Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================================"
-	Write-Host -foregroundcolor "White" "This will be an explanation. Eventually."
+	Write-Host -foregroundcolor "White" "This PowerShell script can be used to perform a few different tasks seen below."
+	Write-Host -foregroundcolor "White" "For an explanation of what these tasks do, type ?."
 	Write-Host ""
 	Write-Host ""
 
@@ -199,22 +200,6 @@ function Pass_ValidateInstall
 	Write-Host -foregroundcolor "White" "If you continue to have problems, post in our Discord for additional help:"
 	Write-Host -foregroundcolor "White" "https://discord.gg/TkxNKU2"
 	Write-Host ""
-	
-	# Probably should get rid of this tbh
-	# I believe pulling default browser (for compatibility) would involve going into registry
-	# not worth
-	Do
-	{
-		Write-Host "Would you like to open the above link in Chrome?" -foregroundcolor "Yellow"
-		$result = Read-Host "[Type Yes or No]" 
-	}
-	
-	Until ($result -eq "Yes" -or $result -eq "No")
-	
-	if($result -eq "Yes")
-	{
-		Start-Process "chrome.exe" "https://discord.gg/TkxNKU2"
-	}
 	
 	Write-Host ""
 	Write-Host ""
@@ -491,12 +476,14 @@ function Check_UpdateFromGithub
 	}
 	
 	Write-Host ""
-	Write-Host ""	
+	Write-Host ""
 	
 	Write-Host -foregroundcolor "White" -backgroundcolor "Red" "===================="
 	Write-Host -foregroundcolor "White" -backgroundcolor "Red" "IMPORTANT DISCLAIMER"
 	Write-Host -foregroundcolor "White" -backgroundcolor "Red" "====DON'T IGNORE===="
 	Write-Host -foregroundcolor "White" -backgroundcolor "Red" "===================="
+	[console]::beep(100,300)
+	[console]::beep(100,300)
 	
 	Write-Host ""
 	Write-Host ""
@@ -559,9 +546,17 @@ do
 		"?"
 		{
 			Write-Host ""
-			Write-Host "Explain ValidateInstall"
-			Write-Host "Explain ExtractDefaultHUD"
-			Write-Host "Explain UpdateFromGithub"
+			Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Check Installation"
+			Write-Host "This will check for common installation issues and provide a potential solution if one exists."
+			Write-Host ""
+			Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Extract Default HUD"
+			Write-Host "This will update your _tf2hud files with TF2's latest default hud files."
+			Write-Host "Please note that this will only work if you launched your game after TF2 updated."
+			Write-Host "Any changes you made in _tf2hud will be deleted. This is why you should never edit anything in _tf2hud."
+			Write-Host ""
+			Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Update Files to Latest"
+			Write-Host "This will download the latest version of budhud from Github and add/overwrite any files that are changed/added."
+			Write-Host "Please note the warnings that are provided when you choose this option if you have made customizations to the hud."
 			Write-Host ""
 		}
     }
