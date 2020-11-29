@@ -133,20 +133,7 @@
 				}
 				BlueTeamImage
 				{
-					"xpos"		"-1"
-					"ypos"		"-1"
-					"wide"		"54"
-					"tall"		"54"
-					"image"		"store/store_blueteam"
-
-					"pin_to_sibling" 	"BlueTeamScoreBG"
-					"pin_corner_to_sibling" "PIN_TOPLEFT"
-					"pin_to_sibling_corner" "0"
-
-					if_large
-					{
-						"ypos"		"-1"
-					}
+					"ypos"		"r-6969"
 				}
 				"BlueTeamLabel"
 				{
@@ -314,20 +301,7 @@
 				}
 				RedTeamImage
 				{
-					"xpos"		"-1"
-					"ypos"		"-1"
-					"wide"		"54"
-					"tall"		"54"
-					"image"		"store/store_redteam"
-
-					"pin_to_sibling" 	"RedTeamScoreBG"
-					"pin_corner_to_sibling" "PIN_TOPRIGHT"
-					"pin_to_sibling_corner" "0"
-
-					if_large
-					{
-						"ypos"		"-1"
-					}
+					"ypos"		"r-6969"
 				}
 				"RedTeamLabel"
 				{
