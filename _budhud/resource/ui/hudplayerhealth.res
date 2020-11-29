@@ -49,10 +49,9 @@
 		"autoResize"												"0"
 		"pinCorner"													"0"
 		"labeltext"													""
-		"visible"													"1"
-		"enabled"													"1"
-		"defaultbgcolor_override"									"bh_HealthBox_Base"
-		"paintbackgroundtype"										"0"
+		"visible"													"0"
+		"enabled"													"0"
+		"bgcolor_override"											"bh_HealthBox_Base"
 	}
 	
 	"PlayerStatusHealthValue"
