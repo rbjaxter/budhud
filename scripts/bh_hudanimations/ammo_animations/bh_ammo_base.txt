@@ -37,10 +37,22 @@
 		StopEvent 			HudLowAmmoPulse 												0.0
 		StopEvent 			HudLowAmmoPulseLoop												0.0
 
+		// Main ammo
+		Animate				AmmoInClip 							alpha						255							Linear 0.0 0.2
 		Animate 			AmmoInClip							fgcolor						bh_isError					Linear 0.0 0.2
 		Animate 			AmmoNoClip							fgcolor						bh_isError					Linear 0.0 0.2
-		Animate 			AmmoInReserve						fgcolor						bh_isError					Linear 0.0 0.2
-		Animate 			AmmoInClipShadow					fgcolor						bh_isError					Linear 0.0 0.2
-		Animate 			AmmoNoClipShadow					fgcolor						bh_isError					Linear 0.0 0.2
+		
+		// Reserve ammo
+		Animate				AmmoInReserve 						alpha						255							Linear 0.0 0.2
+		Animate				AmmoInReserve						fgcolor						bh_isError					Linear 0.0 0.2
+		
+		// Main ammo shadow
+		Animate				AmmoInClipShadow 					alpha						255							Linear 0.0 0.2
+		Animate				AmmoInClipShadow					fgcolor						bh_isError					Linear 0.0 0.2
+		Animate				AmmoNoClipShadow 					alpha						255							Linear 0.0 0.2
+		Animate				AmmoNoClipShadow					fgcolor						bh_isError					Linear 0.0 0.2
+		
+		// Reserve ammo shadow
+		Animate				AmmoInReserveShadow 				alpha						255							Linear 0.0 0.2
 		Animate 			AmmoInReserveShadow					fgcolor						bh_isError					Linear 0.0 0.2
 	}

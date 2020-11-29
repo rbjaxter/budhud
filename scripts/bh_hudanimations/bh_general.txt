@@ -35,10 +35,10 @@
 		
 	// Attempts to clear animation
 		RunEvent			DefaultAnimHudSnapShotReminderIn								0.0
-		RunEvent 			HudHealthDyingPulseStop 										10.0
-		RunEvent 			HudHealthBonusPulseStop 										10.0
-		RunEvent 			HudLowAmmoPulseStop 											10.0
-		RunEvent 			HudMedicChargedStop 											10.0
+		RunEvent 			HudHealthDyingPulseStop 										0.0
+		RunEvent 			HudHealthBonusPulseStop 										0.0
+		RunEvent 			HudLowAmmoPulseStop 											0.0
+		RunEvent 			HudMedicChargedStop 											0.0
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -206,4 +206,117 @@
 		Animate 			OutlineImage						size 						"100 50"					Linear 0.7 0.2
 		
 		Animate				OutlineImage						alpha 						0							Linear 0.6 0.3
+	}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Spy Animations
+	// ============================================================================================== //
+	// Disables spy disguise outline
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	event HudSpyDisguiseChanged
+	{
+	}
+	
+	event HudSpyDisguiseHide
+	{
+	}
+
+	event HudSpyDisguiseFadeIn
+	{
+	}
+
+	event HudSpyDisguiseFadeOut
+	{
+	}
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Wang Animations
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	event HudTournamentSetupPanelOpen
+	{
+		Animate 			HudTournamentSetup					position					"c-90 -70"					Linear 0.0 0.001
+		Animate 			HudTournamentSetup					position					"c-90 70"					Spline 0.001 0.2
+		Animate 			the_wang_who_peaks					position					"c-50 435"					Spline 0.001 0.2
+		Animate 			the_wang_who_peaks					position					"c-50 435"					Linear 0.0 0.001
+	}
+	
+	event HudTournamentSetupPanelClose
+	{
+		Animate 			HudTournamentSetup					position					"c-90 70"					Linear 0.0 0.001
+		Animate 			HudTournamentSetup					position					"c-90 -70"					Spline 0.001 0.2
+		Animate 			the_wang_who_peaks					position					"c-50 435"					Linear 0.0 0.001
+		Animate 			the_wang_who_peaks					position					"c-50 500"					Spline 0.001 0.2
+	}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Main menu animations
+	// ============================================================================================== //
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Casual category animations
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	event CasualCategory_Selected
+	{
+		Animate				Shade								bgcolor						bh_Theme_BG40				Deaccel 0 0.2
+		Animate 			Title								fgcolor						bh_Theme_TextSecondary		Deaccel 0 0.2
+		Animate 			TitleShadow							fgcolor						bh_shadow					Deaccel 0 0.2
+		Animate 			DescLabel							fgcolor						bh_Theme_TextSecondary		Deaccel 0 0.2
+	}
+	
+	event CasualCategory_NotSelected
+	{
+		Animate 			Shade								bgcolor 					bh_Theme_BG00				Deaccel 0 0.2
+		Animate 			Title								fgcolor						bh_gray						Deaccel 0 0.2
+		Animate 			DescLabel							fgcolor						bh_gray						Deaccel 0 0.2
+		Animate 			TitleShadow							fgcolor						0							Deaccel 0 0.2
+		Animate 			DescLabelShadow						fgcolor						0							Deaccel 0 0.2
+	}	
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// New item notification animations
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	event HasNotificationsBlink
+	{
+		Animate				Notifications_ShowButtonPanel_SB 	alpha						255							Spline 0.0 0.2
+		Animate				Notifications_ShowButtonPanel_SB 	alpha						0							Spline 0.2 0.2
+		RunEvent 			HasNotificationsBlinkLoop										0.5
+	}
+	
+	event HasNotificationsBlinkLoop
+	{
+		RunEvent 			HasNotificationsBlink											0.0
+	}
+	
+	event HasNotificationsBlinkStop
+	{
+		StopEvent 			HasNotificationsBlink											0.0
+		StopEvent 			HasNotificationsBlinkLoop 										0.0
+		Animate				Notifications_ShowButtonPanel_SB 	alpha						255							Linear 0.0 0.1
+	}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// New notification animations
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	event NotificationsPresentBlink
+	{
+		Animate				NotificationsPresentPanel 			alpha						255							Spline 0.0 0.2
+		Animate				NotificationsPresentPanel 			alpha						0							Linear 0.2 0.2
+
+		RunEvent			NotificationsPresentBlinkLoop									0.5
+	}
+	
+	event NotificationsPresentBlinkLoop
+	{
+		RunEvent 			NotificationsPresentBlink										0.0
+	}
+	
+	event NotificationsPresentBlinkStop
+	{
+		StopEvent 			NotificationsPresentBlink										0.0
+		StopEvent			NotificationsPresentBlinkLoop 									0.0
+		Animate				NotificationsPresentPanel 			alpha						255							Linear 0.0 0.1
 	}

@@ -25,7 +25,7 @@
 		Animate				bh_AmmoBG 							alpha						0							Linear 0.2 0.4		
 		
 		// Show ammo box background
-		Animate 			bh_AmmoBG							bgcolor						bh_AmmoBox_Low				Linear 0.0 0.3
+		Animate 			bh_AmmoBG							bgcolor						bh_AmmoBox_Low				Linear 0.0 0.2
 		
 		RunEvent 			HudLowAmmoPulseLoop												0.4
 	}
@@ -54,5 +54,7 @@
 		// Reserve ammo shadow
 		Animate 			AmmoInReserveShadow					fgcolor						bh_Ammo_Reserve_Shadow		Linear 0.0 0.2
 
-		Animate 			bh_AmmoBG							bgcolor						bh_AmmoBox_Base				Linear 0.0 0.3
+		// Ammo box customization
+		Animate				bh_AmmoBG 							alpha						255							Linear 0.0 0.2
+		Animate 			bh_AmmoBG							bgcolor						bh_AmmoBox_Base				Linear 0.0 0.2
 	}
