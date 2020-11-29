@@ -1,5 +1,3 @@
-	#base	"..\..\#users\custom\resource\ui\huditemeffectmeter_base_meters_pos3.res"
-	#base	"..\..\#users\custom\resource\ui\huditemeffectmeter_base_meters.res"
 	#base 	"huditemeffectmeter_base_meters_pos3.res"
 	#base	"huditemeffectmeter_base_meters.res"
 
