@@ -9,6 +9,7 @@
 	#base	"..\..\#customization\_enabled\bh_menu_hidefriends.res"
 	#base	"..\..\#customization\_enabled\bh_menu_hidemotd.res"
 	#base	"..\..\#customization\_enabled\bh_menu_hidegif.res"
+	#base	"..\..\#customization\_enabled\bh_feeling_festive.res"
 	#base	"..\..\_stream\resource\ui\mainmenuoverride.res"
 	#base	"..\..\_budhud\resource\ui\mainmenuoverride.res"
 	#base	"..\..\_tf2hud\resource\ui\mainmenuoverride.res"

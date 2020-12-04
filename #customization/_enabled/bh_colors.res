@@ -173,10 +173,10 @@ Scheme
 		///////////
 		// December
 		///////////
-		// "bh_menu_foreground1"									"255 255 255 255"	// White
-		// "bh_menu_foreground2"									"255 255 255 255"	// White
-		// "bh_menu_background1"									"194 023 023 255"	// Dark Red
-		// "bh_menu_background2"									"060 141 013 255"	// Dark Green
+		"bh_menu_foreground_december1"								"255 255 255 255"	// White
+		"bh_menu_foreground_december2"								"255 255 255 255"	// White
+		"bh_menu_background_december1"								"194 023 023 255"	// Dark Red
+		"bh_menu_background_december2"								"060 141 013 255"	// Dark Green
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Stats Colors
