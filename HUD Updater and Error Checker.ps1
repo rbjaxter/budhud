@@ -1,11 +1,15 @@
-# Clumsily written by Whisker for budhud
+# Professionally™ written by Whisker for budhud
 # Started November 18th 2020
-# hrs +6+7
-# lost work -4
 
-	###############
-	# Options_Initial
-	###############
+##########################
+##########################
+## SUPPORTING FUNCTIONS ##
+##########################
+##########################
+
+#################
+# Options_Initial
+#################
 function Options_Initial
 {
 	Clear-Host
@@ -27,15 +31,12 @@ function Options_Initial
 	Write-Host ""
 }
 
-	##############
-	# Check_TF2
-	##############
-
+###########
+# Check_TF2
+###########
 function Check_TF2
 {
-	#########
-	# Check 1
-	#########
+	# Check for hl2.exe process
 	Write-Host -foregroundcolor "White" -NoNewLine "Checking if TF2 is running... "
 	
 	If
@@ -44,27 +45,30 @@ function Check_TF2
 	)
 	
 	{
-		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "hl2.exe detected."
-		Write-Host -foregroundcolor "White" "Default hud files cannot be updated with TF2 running."
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "hl2.exe detected"
 		Write-Host ""
+		
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
+		Write-Host -foregroundcolor "White" "Default hud files cannot be updated with TF2 running"
+		Write-Host ""
+		
+		Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
+		Write-Host -foregroundcolor "White" "Close TF2 before using this script again"
 		Break
 	}
 	
 	Else 
 	{
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "TF2 not running."
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "TF2 not running"
 	}
 }
 
-	##############
-	# Check_TF2
-	##############
-
-function Check_UpdateFiles
+#################
+# Check_DevFolder
+#################
+function Check_DevFolder
 {
-	#########
-	# Check 1
-	#########
+	# Check for #dev folder
 	Write-Host -foregroundcolor "White" -NoNewLine "Checking for #dev folder... "
 	
 	If
@@ -73,21 +77,32 @@ function Check_UpdateFiles
 	)
 	
 	{
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found."
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
 	} 
 	
 	Else 
 	{
 		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate #dev folder"
-		Write-Host -foregroundcolor "White" "- Verify that the #dev folder was not deleted."
+		Write-Host ""
+		
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
+		Write-Host -foregroundcolor "White" "The script will not be able to do anything!"
+		Write-Host ""
+		
+		Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
+		Write-Host -foregroundcolor "White" "Verify that the #dev folder was not deleted when you installed the hud"
 		Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#dev"
 		Write-Host ""
 		Break
 	}
-	
-	#########
-	# Check 2
-	#########
+}
+
+##############################
+# Check_UpdateFiles_DefaultHUD
+##############################
+function Check_UpdateFiles_DefaultHUD
+{
+	# Check for HLExtract.exe file
 	Write-Host -foregroundcolor "White" -NoNewLine "Checking for HLExtract.exe... "
 	
 	If
@@ -96,21 +111,26 @@ function Check_UpdateFiles
 	)
 	
 	{
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found."
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
 	} 
 	
 	Else 
 	{
 		Write-Host -foregroundcolor "White" -backgroundcolor "Red"	"Could not locate HLExtract.exe"
-		Write-Host -foregroundcolor "White" "- Verify that HLExtract.exe was not deleted."
+		Write-Host ""
+		
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
+		Write-Host -foregroundcolor "White" "The script will not be able to extract the default hud from your game files"
+		Write-Host ""
+		
+		Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
+		Write-Host -foregroundcolor "White" "Verify that HLExtract.exe was not deleted when you installed the hud"
 		Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#dev\HLExtract.exe"
 		Write-Host ""
 		Break
 	}
 	
-	#########
-	# Check 3
-	#########
+	# Check for _Modifier.exe file
 	Write-Host -foregroundcolor "White" -NoNewLine "Checking for _Modifier.exe... "
 	
 	If
@@ -119,28 +139,94 @@ function Check_UpdateFiles
 	)
 	
 	{
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found."
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
 	} 
 	
 	Else 
 	{
 		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate _Modifier.exe"
-		Write-Host -foregroundcolor "White" "- Verify that _Modifier.exe was not deleted."
+		Write-Host ""
+		
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
+		Write-Host -foregroundcolor "White" "The script will not be able to properly adjust default hud values"
+		Write-Host ""
+		
+		Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
+		Write-Host -foregroundcolor "White" "Verify that _Modifier.exe was not deleted when you installed the hud"
 		Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#dev\_Modifier.exe"
 		Write-Host ""
 		Break
 	}
 }
 
-	##############
-	# Check_Shared
-	##############
+##########################
+# Check_UpdateFiles_Github
+##########################
+function Check_UpdateFiles_Github
+{
+	# Check for wget.exe
+	Write-Host -foregroundcolor "White" -NoNewLine "Checking for wget.exe... "
+	
+	If
+	(
+		Test-Path -Path "#dev\wget.exe"
+	)
+	
+	{
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found."
+	} 
+	
+	Else 
+	{
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red"	"Could not locate wget.exe"
+		Write-Host ""
+		
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Additional Information"
+		Write-Host -foregroundcolor "White" "wget is used to download the hud file from Github"
+		Write-Host ""
+		
+		Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
+		Write-Host -foregroundcolor "White" "Verify that wget.exe was not deleted"
+		Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#dev\wget.exe"
+		Write-Host ""
+		Break
+	}
+	
+	# Check for unzip.exe
+	Write-Host -foregroundcolor "White" -NoNewLine "Checking for unzip.exe... "
+	
+	If
+	(
+		Test-Path -Path "#dev\unzip.exe"
+	)
+	
+	{
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found."
+	} 
+	
+	Else 
+	{
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red"	"Could not locate unzip.exe"
+		Write-Host ""
+		
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Additional Information"
+		Write-Host -foregroundcolor "White" "Unzip is used to extract the compressed hud file"
+		Write-Host ""
+		
+		Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
+		Write-Host -foregroundcolor "White" "Verify that unzip.exe was not deleted"
+		Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#dev\unzip.exe"
+		Write-Host ""
+		Break
+	}
+}
 
+##############
+# Check_Shared
+##############
 function Check_Shared
 {
-	#########
-	# Check 1
-	#########
+	# Check for tf2_misc_dir.vpk file
 	Write-Host -foregroundcolor "White" -NoNewLine "Checking for tf2_misc_dir.vpk... "
 	
 	If
@@ -149,22 +235,27 @@ function Check_Shared
 	)
 	
 	{
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found."
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
 	}
 	
 	Else 
 	{
 		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate tf2_misc_dir.vpk"
-		Write-Host -foregroundcolor "White" "Verify that there are not two "budhud-master" folders inside of each other"
+		Write-Host ""
+		
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
+		Write-Host -foregroundcolor "White" "Default hud will load instead of budhud"
+		Write-Host ""
+
+		Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
+		Write-Host -foregroundcolor "White" "Verify that there are not two `budhud-master` folders inside of each other"
 		Write-Host -foregroundcolor "Red" "WRONG: ..\tf\custom\budhud-master\budhud-master\"
 		Write-Host -foregroundcolor "Green" "RIGHT: ..\tf\custom\budhud-master\"
 		Write-Host ""
 		Break
 	}
 	
-	#########
-	# Check 2
-	#########
+	# Check for hl2.exe file
 	Write-Host -foregroundcolor "White" -NoNewLine "Checking for hl2.exe... "
 	
 	If
@@ -173,23 +264,89 @@ function Check_Shared
 	)
 	
 	{
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found."
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
 	} 
 	
 	Else 
 	{
-		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate hl2.exe."
-		Write-Host -foregroundcolor "White" "- Verify that TF2 is not installed on a separate drive."
-		Write-Host -foregroundcolor "White" "- Verify that you do not have multiple custom folders."
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate hl2.exe"
+		Write-Host ""
+		
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
+		Write-Host -foregroundcolor "White" "Default hud will load instead of budhud"
+		Write-Host ""
+		
+		Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
+		Write-Host -foregroundcolor "White" "Verify that TF2 is not installed on a separate drive"
+		Write-Host -foregroundcolor "White" "Verify that you do not have multiple custom folders"
+		Write-Host ""
+		Break
+	}
+	
+	# Check for info.vdf file
+	Write-Host -foregroundcolor "White" -NoNewLine "Checking for info.vdf... "
+	
+	If
+	(
+		Test-Path -Path "info.vdf"
+	)
+	
+	{
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
+	} 
+	
+	Else 
+	{
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate info.vdf"
+		Write-Host ""
+
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
+		Write-Host -foregroundcolor "White" "Default hud will load with only bits of custom hud loading (custom font, misplaced XP bar in main menu, etc)"
+		Write-Host ""
+		
+		Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
+		Write-Host -foregroundcolor "White" "Verify that info.vdf was not deleted when you installed the hud"
+		Write-Host ""
+		Break
+	}
+	
+	# Check for _tf2hud folder
+	Write-Host -foregroundcolor "White" -NoNewLine "Checking for _tf2hud folder... "
+	
+	If
+	(
+		Test-Path -Path "_tf2hud\*"
+	)
+	
+	{
+		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
+	} 
+	
+	Else 
+	{
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate _tf2hud folder"
+		Write-Host ""
+		
+		Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
+		Write-Host -foregroundcolor "White" "TF2 will crash on startup"
+		Write-Host ""
+		
+		Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
+		Write-Host -foregroundcolor "White" "Verify that the _tf2hud folder was not deleted when you installed the hud"
 		Write-Host ""
 		Break
 	}
 }
 
-	#####################
-	# Pass_ValidateInstall
-	#####################
+#######################
+#######################
+## PRIMARY FUNCTIONS ##
+#######################
+#######################
 
+######################
+# Pass_ValidateInstall
+######################
 function Pass_ValidateInstall
 {
 	Write-Host ""
@@ -205,10 +362,9 @@ function Pass_ValidateInstall
 	Write-Host ""
 }
 
-	######################
-	# Check_ValidateInstall
-	######################
-
+#######################
+# Check_ValidateInstall
+#######################
 function Check_ValidateInstall
 {
 	Clear-Host
@@ -219,9 +375,6 @@ function Check_ValidateInstall
 	Write-Host ""
 	Write-Host ""
 
-	#########
-	# Check 1
-	#########
 	If
 	(
 		Check_Shared
@@ -237,10 +390,9 @@ function Check_ValidateInstall
 	}
 }
 
-	#######################
-	# Pass_ExtractDefaultHUD
-	#######################
-
+########################
+# Pass_ExtractDefaultHUD
+########################
 function Pass_ExtractDefaultHUD
 {
 	Write-Host -foregroundcolor "White" -backgroundcolor "Green" "=================="
@@ -317,10 +469,9 @@ function Pass_ExtractDefaultHUD
 	Write-Host ""
 }
 
-	########################
-	# Check_ExtractDefaultHUD
-	########################
-
+#########################
+# Check_ExtractDefaultHUD
+#########################
 function Check_ExtractDefaultHUD
 {
 	Clear-Host
@@ -330,55 +481,19 @@ function Check_ExtractDefaultHUD
 	Write-Host ""
 	Write-Host ""
 
-	# Surely there's a better way to do this
-	# this feels wrong
-	If
-	(
-		Check_Shared
-	)
+	# Perform all Checks
+	Check_TF2
+	Check_DevFolder
+	Check_Shared
+	Check_UpdateFiles_DefaultHUD
 	
-	{
-		Break
-	}
-	
-	Else
-	{
-		Check_TF2
-	}
-	
-	If
-	(
-		Check_TF2
-	)
-	
-	{
-		Break
-	}
-	
-	Else
-	{
-		Check_UpdateFiles
-	}
-	
-	If
-	(
-		Check_UpdateFiles
-	)
-	
-	{
-		Break
-	}
-	
-	Else
-	{
-		Pass_ExtractDefaultHUD
-	}
+	# Pass
+	Pass_ExtractDefaultHUD
 }
 
-	######################
-	# Pass_UpdateFromGithub
-	######################
-
+#######################
+# Pass_UpdateFromGithub
+#######################
 function Pass_UpdateFromGithub
 {
 
@@ -410,10 +525,9 @@ function Pass_UpdateFromGithub
 	Write-Host ""
 }
 
-	######################
-	# Check_UpdateFromGithub
-	######################
-
+########################
+# Check_UpdateFromGithub
+########################
 function Check_UpdateFromGithub
 {
 	Clear-Host
@@ -424,56 +538,10 @@ function Check_UpdateFromGithub
 	Write-Host ""
 	Write-Host ""
 
-	#########
-	# Check 1
-	#########
+	# Perform all Checks
 	Check_TF2
-
-	#########
-	# Check 2
-	#########
-	Write-Host -foregroundcolor "White" -NoNewLine "Checking for wget.exe... "
-	
-	If
-	(
-		Test-Path -Path "#dev\wget.exe"
-	)
-	
-	{
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found."
-	} 
-	
-	Else 
-	{
-		Write-Host -foregroundcolor "White" -backgroundcolor "Red"	"Could not locate wget.exe"
-		Write-Host -foregroundcolor "White" "- Verify that wget.exe was not deleted."
-		Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#dev\wget.exe"
-		Write-Host ""
-		Break
-	}
-	
-	#########
-	# Check 3
-	#########
-	Write-Host -foregroundcolor "White" -NoNewLine "Checking for unzip.exe... "
-	
-	If
-	(
-		Test-Path -Path "#dev\unzip.exe"
-	)
-	
-	{
-		Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found."
-	} 
-	
-	Else 
-	{
-		Write-Host -foregroundcolor "White" -backgroundcolor "Red"	"Could not locate unzip.exe"
-		Write-Host -foregroundcolor "White" "- Verify that unzip.exe was not deleted."
-		Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#dev\unzip.exe"
-		Write-Host ""
-		Break
-	}
+	Check_DevFolder
+	Check_UpdateFiles_Github
 	
 	Write-Host ""
 	Write-Host ""
@@ -517,10 +585,9 @@ function Check_UpdateFromGithub
 	}
 }
 
-	##############
-	# Initial Menu
-	##############
-
+##############
+# Initial Menu
+##############
 do
 {
 	Options_Initial
