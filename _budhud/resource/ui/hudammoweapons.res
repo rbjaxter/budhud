@@ -29,6 +29,7 @@
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Scout, Soldier, Demoman, Engineer, Medic, Spy
+	// I'd recommend not using auto_wide or auto_tall (forces textAlignment west) here
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	"AmmoInClip"
@@ -55,18 +56,18 @@
 		"font"														"bh_Font40"
 		"fgcolor"													"bh_Ammo_Main_Shadow"
 		"textAlignment"												"center"
-	}	
+	}
 	
 	"AmmoInReserve"
 	{
-		"xpos"														"19"
+		"xpos"														"140"
 		"ypos"														"0"
 		"zpos"														"6"
 		"wide"														"250"
 		"tall"														"150"
 		"font"														"bh_Font24"
 		"fgcolor"													"bh_Ammo_Reserve"
-		"textAlignment"												"center"
+		"textAlignment"												"west"
 	}
 	
 	"AmmoInReserveShadow"
@@ -82,7 +83,7 @@
 		"tall"														"150"
 		"font"														"bh_Font24"
 		"fgcolor"													"bh_Ammo_Reserve_Shadow"
-		"textAlignment"												"center"
+		"textAlignment"												"west"
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////

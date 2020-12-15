@@ -21,7 +21,7 @@
 	
 	"AmmoInReserve"
 	{
-		"xpos"														"35"
+		"xpos"														"150"
 		"font"														"bh_Font36"
 	}
 	
