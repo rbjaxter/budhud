@@ -238,3 +238,11 @@
 	SetTexture <panel name> <textureidname> <texturefilename> <set time>
 	
 	SetString <panel name> <string varname> <stringvalue> <set time>
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// paintbackgroundtypes (info courtesy of Hypnotize)
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	0 - Straight edges
+	1 - Burnt paper edges
+	2 - Round edge
+	3 - Gradient edges

@@ -32,6 +32,7 @@
 		"font"														"bh_Font24"
 		"fgcolor_override"											"bh_white"
 	}
+	
 	"AccountValueShadow"
 	{
 		"ControlName"												"CExLabel"
