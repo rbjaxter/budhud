@@ -229,10 +229,10 @@
 			}
 		}
 
-		"bh_PartyAnchor"
+		"bh_PartyPin"
 		{	
 			"ControlName"												"Label"
-			"fieldName"													"bh_PartyAnchor"
+			"fieldName"													"bh_PartyPin"
 			"xpos"														"114"
 			"ypos"														"10"
 			"zpos"														"0"
@@ -245,7 +245,7 @@
 		
 		"PartySlot0"
 		{
-			"pin_to_sibling" 										"bh_PartyAnchor"
+			"pin_to_sibling" 										"bh_PartyPin"
 			"pin_corner_to_sibling" 								"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 								"0"
 			
@@ -256,7 +256,7 @@
 		
 		"PartySlot1"
 		{
-			"pin_to_sibling" 										"bh_PartyAnchor"
+			"pin_to_sibling" 										"bh_PartyPin"
 			"pin_corner_to_sibling" 								"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 								"0"
 			
@@ -267,7 +267,7 @@
 		
 		"PartySlot2"
 		{
-			"pin_to_sibling" 										"bh_PartyAnchor"
+			"pin_to_sibling" 										"bh_PartyPin"
 			"pin_corner_to_sibling" 								"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 								"0"
 			
@@ -278,7 +278,7 @@
 		
 		"PartySlot3"
 		{
-			"pin_to_sibling" 										"bh_PartyAnchor"
+			"pin_to_sibling" 										"bh_PartyPin"
 			"pin_corner_to_sibling" 								"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 								"0"
 			
@@ -289,7 +289,7 @@
 		
 		"PartySlot4"
 		{
-			"pin_to_sibling" 										"bh_PartyAnchor"
+			"pin_to_sibling" 										"bh_PartyPin"
 			"pin_corner_to_sibling" 								"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 								"0"
 			
@@ -300,7 +300,7 @@
 		
 		"PartySlot5"
 		{
-			"pin_to_sibling" 										"bh_PartyAnchor"
+			"pin_to_sibling" 										"bh_PartyPin"
 			"pin_corner_to_sibling" 								"PIN_TOPLEFT"
 			"pin_to_sibling_corner" 								"0"
 			

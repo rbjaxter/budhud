@@ -23,10 +23,10 @@
 		"tall"														"150"
 	}
 	
-	"bh_PlayerStatusAnchor"
+	"bh_PlayerStatusPin"
 	{	
 		"ControlName"												"Label"
-		"fieldName"													"bh_PlayerStatusAnchor"
+		"fieldName"													"bh_PlayerStatusPin"
 		"xpos"														"196"
 		"ypos"														"23"
 		"zpos"														"0"
@@ -102,84 +102,84 @@
 	
 	"PlayerStatusBleedImage"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatusHookBleedImage"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatusMilkImage"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatusGasImage"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatusMarkedForDeathImage"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 
 	"PlayerStatus_MedicUberFireResistImage"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
@@ -192,126 +192,126 @@
 	
 	"PlayerStatus_SoldierOffenseBuff"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatus_SoldierDefenseBuff"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatus_SoldierHealOnHitBuff"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatus_SpyMarked"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatus_Parachute"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatus_RuneStrength"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatus_RuneHaste"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatus_RuneRegen"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatus_RuneResist"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 
 	"PlayerStatus_RuneVampire"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatus_RuneReflect"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatus_RunePrecision"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatus_RuneAgility"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatus_RuneKnockout"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatus_RuneKing"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatus_RunePlague"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatus_RuneSupernova"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
 	
 	"PlayerStatusSlowed"
 	{
-		"pin_to_sibling" 											"bh_PlayerStatusAnchor"
+		"pin_to_sibling" 											"bh_PlayerStatusPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}

@@ -10,10 +10,10 @@
 		"ypos"														"r-6969"
 	}
 	
-	"bh_ResistNav"
+	"bh_ResistPin"
 	{	
 		"ControlName"												"Label"
-		"fieldName"													"bh_ResistNav"
+		"fieldName"													"bh_ResistPin"
 		"xpos"														"c-16"
 		"ypos"														"r136"
 		"zpos"														"0"
@@ -24,10 +24,10 @@
 		"bgcolor_override"											"0 0 0 0"
 	}
 	
-	"bh_ChargeNav"
+	"bh_ChargePin"
 	{	
 		"ControlName"												"Label"
-		"fieldName"													"bh_ChargeNav"
+		"fieldName"													"bh_ChargePin"
 		"xpos"														"c-50"
 		"ypos"														"r140"
 		"zpos"														"0"
@@ -50,7 +50,7 @@
 	
 	"ChargeMeter1"
 	{
-		"pin_to_sibling" 											"bh_ChargeNav"
+		"pin_to_sibling" 											"bh_ChargePin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 	
@@ -65,7 +65,7 @@
 	
 	"ChargeMeter2"
 	{	
-		"pin_to_sibling" 											"bh_ChargeNav"
+		"pin_to_sibling" 											"bh_ChargePin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 	
@@ -80,7 +80,7 @@
 
 	"ChargeMeter3"
 	{	
-		"pin_to_sibling" 											"bh_ChargeNav"
+		"pin_to_sibling" 											"bh_ChargePin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 	
@@ -95,7 +95,7 @@
 
 	"ChargeMeter4"
 	{	
-		"pin_to_sibling" 											"bh_ChargeNav"
+		"pin_to_sibling" 											"bh_ChargePin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 	
@@ -135,7 +135,7 @@
 	
 	"ResistIcon"
 	{
-		"pin_to_sibling" 											"bh_ResistNav"
+		"pin_to_sibling" 											"bh_ResistPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		"zpos"														"6969"

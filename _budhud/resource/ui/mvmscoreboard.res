@@ -5,10 +5,10 @@
 		"ypos"														"r-6969"
 	}
 
-	"bh_LocalStatsAnchor"
+	"bh_LocalStatsPin"
 	{	
 		"ControlName"												"Label"
-		"fieldName"													"bh_LocalStatsAnchor"
+		"fieldName"													"bh_LocalStatsPin"
 		"xpos"														"c-300"
 		"ypos"														"r50"
 		"zpos"														"0"
@@ -21,7 +21,7 @@
 	
 	"PopFileLabel"
 	{
-		"pin_to_sibling" 											"bh_LocalStatsAnchor"
+		"pin_to_sibling" 											"bh_LocalStatsPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"		
 	
@@ -35,10 +35,10 @@
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	"bh_MvMAnchor"
+	"bh_MvMPin"
 	{	
 		"ControlName"												"Label"
-		"fieldName"													"bh_MvMAnchor"
+		"fieldName"													"bh_MvMPin"
 		"xpos"														"c-300"
 		"ypos"														"0"
 		"zpos"														"0"
@@ -51,7 +51,7 @@
 	
 	"WaveStatusPanel"
 	{
-		"pin_to_sibling" 											"bh_MvMAnchor"
+		"pin_to_sibling" 											"bh_MvMPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"		
 		
@@ -61,7 +61,7 @@
 	
 	"MvMPlayerList"
 	{
-		"pin_to_sibling" 											"bh_MvMAnchor"
+		"pin_to_sibling" 											"bh_MvMPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	
@@ -79,7 +79,7 @@
 	
 	"CreditStatsContainer"
 	{
-		"pin_to_sibling" 											"bh_MvMAnchor"
+		"pin_to_sibling" 											"bh_MvMPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		

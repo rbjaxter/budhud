@@ -17,13 +17,13 @@
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Anchors
+	// Pins
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	"bh_TopNav"
+	"bh_TopPin"
 	{	
 		"ControlName"												"Label"
-		"fieldName"													"bh_TopNav"
+		"fieldName"													"bh_TopPin"
 		"xpos"														"c0"
 		"ypos"														"28"
 		"zpos"														"0"
@@ -34,10 +34,10 @@
 		"bgcolor_override"											"0 0 0 0"
 	}
 	
-	"bh_BelowTopNav"
+	"bh_BelowTopPin"
 	{	
 		"ControlName"												"Label"
-		"fieldName"													"bh_BelowTopNav"
+		"fieldName"													"bh_BelowTopPin"
 		"xpos"														"c0"
 		"ypos"														"55"
 		"zpos"														"0"
@@ -62,10 +62,10 @@
 		"bgcolor_override"											"0 0 0 0"
 	}
 	
-	"bh_CenterNav"
+	"bh_CenterPin"
 	{	
 		"ControlName"												"Label"
-		"fieldName"													"bh_CenterNav"
+		"fieldName"													"bh_CenterPin"
 		"xpos"														"c-125"
 		"ypos"														"164"
 		"zpos"														"0"
@@ -76,10 +76,10 @@
 		"bgcolor_override"											"0 0 0 0"
 	}
 
-	"bh_BottomNav"
+	"bh_BottomPin"
 	{	
 		"ControlName"												"Label"
-		"fieldName"													"bh_BottomNav"
+		"fieldName"													"bh_BottomPin"
 		"xpos"														"c0"
 		"ypos"														"r45"
 		"zpos"														"0"
@@ -224,7 +224,7 @@
 	
 	"bh_Backpack"
 	{
-		"pin_to_sibling" 											"bh_CenterNav"
+		"pin_to_sibling" 											"bh_CenterPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -250,7 +250,7 @@
 	
 	"bh_Store"
 	{
-		"pin_to_sibling" 											"bh_CenterNav"
+		"pin_to_sibling" 											"bh_CenterPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -276,7 +276,7 @@
 	
 	"bh_Options"
 	{
-		"pin_to_sibling" 											"bh_CenterNav"
+		"pin_to_sibling" 											"bh_CenterPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -302,7 +302,7 @@
 	
 	"bh_AdvOptions"
 	{
-		"pin_to_sibling" 											"bh_CenterNav"
+		"pin_to_sibling" 											"bh_CenterPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -328,7 +328,7 @@
 	
 	"VRModeButton"
 	{
-		"pin_to_sibling" 											"bh_CenterNav"
+		"pin_to_sibling" 											"bh_CenterPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 
@@ -351,7 +351,7 @@
 	
 //	"bh_Quit"
 //	{
-//		"pin_to_sibling" 											"bh_CenterNav"
+//		"pin_to_sibling" 											"bh_CenterPin"
 //		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 //		"pin_to_sibling_corner" 									"0"
 //		
@@ -482,7 +482,7 @@
 
 	"Notifications_ShowButtonPanel"
 	{
-		"pin_to_sibling" 											"bh_TopNav"
+		"pin_to_sibling" 											"bh_TopPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 
@@ -523,7 +523,7 @@
 	
 	"bh_Streams"
 	{
-		"pin_to_sibling" 											"bh_TopNav"
+		"pin_to_sibling" 											"bh_TopPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -591,7 +591,7 @@
 	
 	"bh_Contracts"
 	{
-		"pin_to_sibling" 											"bh_TopNav"
+		"pin_to_sibling" 											"bh_TopPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -659,7 +659,7 @@
 	
 	"bh_News"
 	{
-		"pin_to_sibling" 											"bh_TopNav"
+		"pin_to_sibling" 											"bh_TopPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -731,7 +731,7 @@
 	
 	"bh_Favorite1"
 	{
-		"pin_to_sibling" 											"bh_TopNav"
+		"pin_to_sibling" 											"bh_TopPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 	
@@ -792,7 +792,7 @@
 	
 	"bh_Favorite2"
 	{
-		"pin_to_sibling" 											"bh_TopNav"
+		"pin_to_sibling" 											"bh_TopPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 
@@ -919,7 +919,7 @@
 	
 	"bh_budhud"
 	{
-		"pin_to_sibling" 											"bh_BelowTopNav"
+		"pin_to_sibling" 											"bh_BelowTopPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 	
@@ -966,7 +966,7 @@
 	
 	"bh_TitleHover"
 	{
-		"pin_to_sibling" 											"bh_BelowTopNav"
+		"pin_to_sibling" 											"bh_BelowTopPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 	
@@ -1087,7 +1087,7 @@
 	
 	"bh_DemoUI"
 	{
-		"pin_to_sibling" 											"bh_BottomNav"
+		"pin_to_sibling" 											"bh_BottomPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -1152,7 +1152,7 @@
 
 	"bh_CreateServer"
 	{
-		"pin_to_sibling" 											"bh_BottomNav"
+		"pin_to_sibling" 											"bh_BottomPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -1218,7 +1218,7 @@
 	
 	"RequestCoachButton"
 	{
-		"pin_to_sibling" 											"bh_BottomNav"
+		"pin_to_sibling" 											"bh_BottomPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		
@@ -1260,7 +1260,7 @@
 	
 	"ReportPlayerButton"
 	{
-		"pin_to_sibling" 											"bh_BottomNav"
+		"pin_to_sibling" 											"bh_BottomPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		
@@ -1302,7 +1302,7 @@
 	
 	"CallVoteButton"
 	{
-		"pin_to_sibling" 											"bh_BottomNav"
+		"pin_to_sibling" 											"bh_BottomPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		
@@ -1344,7 +1344,7 @@
 	
 	"MutePlayersButton"
 	{
-		"pin_to_sibling" 											"bh_BottomNav"
+		"pin_to_sibling" 											"bh_BottomPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		
@@ -1386,7 +1386,7 @@
 	
 	"bh_AchievementsButton"
 	{
-		"pin_to_sibling" 											"bh_BottomNav"
+		"pin_to_sibling" 											"bh_BottomPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		
@@ -1452,7 +1452,7 @@
 	
 	"bh_CoachButton"
 	{
-		"pin_to_sibling" 											"bh_BottomNav"
+		"pin_to_sibling" 											"bh_BottomPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		
@@ -1518,7 +1518,7 @@
 
 	"bh_TrainingButton"
 	{
-		"pin_to_sibling" 											"bh_BottomNav"
+		"pin_to_sibling" 											"bh_BottomPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		
@@ -1584,7 +1584,7 @@
 	
 	"bh_WorkshopButton"
 	{
-		"pin_to_sibling" 											"bh_BottomNav"
+		"pin_to_sibling" 											"bh_BottomPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		
@@ -1650,7 +1650,7 @@
 	
 	"bh_BugButton"
 	{
-		"pin_to_sibling" 											"bh_BottomNav"
+		"pin_to_sibling" 											"bh_BottomPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		
@@ -1716,7 +1716,7 @@
 	
 	"bh_ConsoleButton"
 	{
-		"pin_to_sibling" 											"bh_BottomNav"
+		"pin_to_sibling" 											"bh_BottomPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		
@@ -1782,7 +1782,7 @@
 	
 	"bh_ReplaysButton"
 	{
-		"pin_to_sibling" 											"bh_BottomNav"
+		"pin_to_sibling" 											"bh_BottomPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		

@@ -151,10 +151,10 @@
 		}
 	}
 
-	"bh_ClassAnchor"
+	"bh_ClassPin"
 	{	
 		"ControlName"												"Label"
-		"fieldName"													"bh_ClassAnchor"
+		"fieldName"													"bh_ClassPin"
 		"xpos"														"c0"
 		"ypos"														"c0"
 		"zpos"														"0"
@@ -167,7 +167,7 @@
 
 	"scout"
 	{
-		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_to_sibling" 											"bh_ClassPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -178,7 +178,7 @@
 	
 	"soldier"
 	{
-		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_to_sibling" 											"bh_ClassPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -189,7 +189,7 @@
 	
 	"pyro"
 	{
-		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_to_sibling" 											"bh_ClassPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -200,7 +200,7 @@
 	
 	"demoman"
 	{
-		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_to_sibling" 											"bh_ClassPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -211,7 +211,7 @@
 	
 	"heavyweapons"
 	{
-		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_to_sibling" 											"bh_ClassPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -222,7 +222,7 @@
 	
 	"engineer"
 	{
-		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_to_sibling" 											"bh_ClassPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -233,7 +233,7 @@
 	
 	"medic"
 	{
-		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_to_sibling" 											"bh_ClassPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -244,7 +244,7 @@
 	
 	"sniper"
 	{
-		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_to_sibling" 											"bh_ClassPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -255,7 +255,7 @@
 	
 	"spy"
 	{
-		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_to_sibling" 											"bh_ClassPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -266,7 +266,7 @@
 	
 	"random"
 	{
-		"pin_to_sibling" 											"bh_ClassAnchor"
+		"pin_to_sibling" 											"bh_ClassPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		

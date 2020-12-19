@@ -7,7 +7,7 @@
 	
 	"WaveStatusPanel"
 	{
-		"pin_to_sibling" 											"bh_MvMAnchor"
+		"pin_to_sibling" 											"bh_MvMPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"		
 		

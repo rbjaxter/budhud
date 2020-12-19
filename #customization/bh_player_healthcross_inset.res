@@ -1,6 +1,6 @@
 "Resource/UI/HudPlayerHealth.res"
 {
-	"bh_PlayerStatusAnchor"
+	"bh_PlayerStatusPin"
 	{
 		"xpos"														"c-211"
 		"ypos"														"10"

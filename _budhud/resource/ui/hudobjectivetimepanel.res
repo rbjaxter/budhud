@@ -36,10 +36,10 @@
 		"ypos"														"r-6969"
 	}
 
-	"bh_TimePanelAnchor"
+	"bh_TimePanelPin"
 	{	
 		"ControlName"												"Label"
-		"fieldName"													"bh_TimePanelAnchor"
+		"fieldName"													"bh_TimePanelPin"
 		"xpos"														"cs-0.5"
 		"ypos"														"33"
 		"zpos"														"0"
@@ -52,7 +52,7 @@
 	
 	"ServerTimeLimitLabel"
 	{
-		"pin_to_sibling" 											"bh_TimePanelAnchor"
+		"pin_to_sibling" 											"bh_TimePanelPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 	
@@ -72,7 +72,7 @@
 	
 	"WaitingForPlayersLabel"
 	{
-		"pin_to_sibling" 											"bh_TimePanelAnchor"
+		"pin_to_sibling" 											"bh_TimePanelPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 	
@@ -92,7 +92,7 @@
 	
 	"SetupLabel"
 	{
-		"pin_to_sibling" 											"bh_TimePanelAnchor"
+		"pin_to_sibling" 											"bh_TimePanelPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 	

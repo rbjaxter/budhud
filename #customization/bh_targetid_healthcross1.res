@@ -5,10 +5,10 @@
 		"ypos"														"r-6969"
 	}
 
-	"bh_TargetIDHealthAnchor"
+	"bh_TargetIDHealthPin"
 	{	
 		"ControlName"												"Label"
-		"fieldName"													"bh_TargetIDHealthAnchor"
+		"fieldName"													"bh_TargetIDHealthPin"
 		"xpos"														"0"
 		"ypos"														"16"
 		"zpos"														"0"
@@ -39,7 +39,7 @@
 
 	"PlayerStatusHealthValue"
 	{
-		"pin_to_sibling" 											"bh_TargetIDHealthAnchor"
+		"pin_to_sibling" 											"bh_TargetIDHealthPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	
@@ -60,7 +60,7 @@
 	
 	"PlayerStatusHealthValueShadow"
 	{
-		"pin_to_sibling" 											"bh_TargetIDHealthAnchor"
+		"pin_to_sibling" 											"bh_TargetIDHealthPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"		
 	

@@ -205,10 +205,10 @@
 		}
 	}
 
-	"bh_TextAnchor"
+	"bh_TextPin"
 	{	
 		"ControlName"												"Label"
-		"fieldName"													"bh_TextAnchor"
+		"fieldName"													"bh_TextPin"
 		"xpos"														"4"
 		"ypos"														"0"
 		"zpos"														"0"
@@ -226,7 +226,7 @@
 	
 	"MapLabel"
 	{
-		"pin_to_sibling" 											"bh_TextAnchor"
+		"pin_to_sibling" 											"bh_TextPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 	
@@ -241,7 +241,7 @@
 	
 	"MapType"
 	{
-		"pin_to_sibling" 											"bh_TextAnchor"
+		"pin_to_sibling" 											"bh_TextPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 	

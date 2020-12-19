@@ -85,10 +85,10 @@
 		}
 	}
 	
-	"bh_RedAnchor"
+	"bh_RedPin"
 	{
 		"ControlName"												"Label"
-		"fieldName"													"bh_RedAnchor"
+		"fieldName"													"bh_RedPin"
 		"xpos"														"c0"
 		"ypos"														"20"
 		"zpos"														"0"
@@ -99,10 +99,10 @@
 		"bgcolor_override"											"0 0 0 0"
 	}
 	
-	"bh_BlueAnchor"
+	"bh_BluePin"
 	{	
 		"ControlName"												"Label"
-		"fieldName"													"bh_BlueAnchor"
+		"fieldName"													"bh_BluePin"
 		"xpos"														"c-300"
 		"ypos"														"20"
 		"zpos"														"0"
@@ -162,7 +162,7 @@
 	
 	"bh_BGscoreBlue"
 	{
-		"pin_to_sibling" 											"bh_BlueAnchor"
+		"pin_to_sibling" 											"bh_BluePin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 	
@@ -191,7 +191,7 @@
 	
 	"BlueTeamLabel"
 	{
-		//"pin_to_sibling" 											"bh_BlueAnchor"
+		//"pin_to_sibling" 											"bh_BluePin"
 		//"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		//"pin_to_sibling_corner" 									"0"	
 		//
@@ -208,7 +208,7 @@
 	
 	"BlueTeamPlayerCount"
 	{
-		"pin_to_sibling" 											"bh_BlueAnchor"
+		"pin_to_sibling" 											"bh_BluePin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -226,7 +226,7 @@
 	
 	"BlueTeamScore"
 	{
-		"pin_to_sibling" 											"bh_BlueAnchor"
+		"pin_to_sibling" 											"bh_BluePin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -246,7 +246,7 @@
 	
 	"bh_BGscoreRed"
 	{
-		"pin_to_sibling" 											"bh_RedAnchor"
+		"pin_to_sibling" 											"bh_RedPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -274,7 +274,7 @@
 	
 	"RedTeamLabel"
 	{
-	//	"pin_to_sibling" 											"bh_RedAnchor"
+	//	"pin_to_sibling" 											"bh_RedPin"
 	//	"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 	//	"pin_to_sibling_corner" 									"0"
 	//	
@@ -291,7 +291,7 @@
 	
 	"RedTeamPlayerCount"
 	{
-		"pin_to_sibling" 											"bh_RedAnchor"
+		"pin_to_sibling" 											"bh_RedPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -309,7 +309,7 @@
 	
 	"RedTeamScore"
 	{
-		"pin_to_sibling" 											"bh_RedAnchor"
+		"pin_to_sibling" 											"bh_RedPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -357,10 +357,10 @@
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	"bh_LocalStatsAnchor"
+	"bh_LocalStatsPin"
 	{	
 		"ControlName"												"Label"
-		"fieldName"													"bh_LocalStatsAnchor"
+		"fieldName"													"bh_LocalStatsPin"
 		"xpos"														"c-300"
 		"ypos"														"r70"
 		"zpos"														"0"
@@ -373,7 +373,7 @@
 	
 	"bh_LocalStatsBG1"
 	{
-		"pin_to_sibling" 											"bh_LocalStatsAnchor"
+		"pin_to_sibling" 											"bh_LocalStatsPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"		
 	
@@ -393,7 +393,7 @@
 	
 	"LocalPlayerDuelStatsPanel"
 	{
-		"pin_to_sibling" 											"bh_LocalStatsAnchor"
+		"pin_to_sibling" 											"bh_LocalStatsPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		
@@ -403,7 +403,7 @@
 	
 	"mapname"
 	{
-		"pin_to_sibling" 											"bh_LocalStatsAnchor"
+		"pin_to_sibling" 											"bh_LocalStatsPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"		
 	
@@ -421,7 +421,7 @@
 	
 	"ServerLabelNew"
 	{
-		"pin_to_sibling" 											"bh_LocalStatsAnchor"
+		"pin_to_sibling" 											"bh_LocalStatsPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"		
 	
@@ -435,7 +435,7 @@
 	
 	"Spectators"
 	{
-		"pin_to_sibling" 											"bh_LocalStatsAnchor"
+		"pin_to_sibling" 											"bh_LocalStatsPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		
@@ -449,7 +449,7 @@
 	
 	"LocalPlayerStatsPanel"
 	{
-		"pin_to_sibling" 											"bh_LocalStatsAnchor"
+		"pin_to_sibling" 											"bh_LocalStatsPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		

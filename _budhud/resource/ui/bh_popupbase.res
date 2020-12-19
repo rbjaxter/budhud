@@ -50,10 +50,10 @@
 		"ypos"														"r-6969"
 	}
 	
-	"bh_MenuAnchor"
+	"bh_MenuPin"
 	{	
 		"ControlName"												"Label"
-		"fieldName"													"bh_MenuAnchor"
+		"fieldName"													"bh_MenuPin"
 		"xpos"														"cs-0.5"
 		"ypos"														"c-20"
 		"zpos"														"0"
@@ -66,7 +66,7 @@
 	
 	"MainBackground"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	
@@ -81,7 +81,7 @@
 	// Pipboy
 	"ItemBackground"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -98,7 +98,7 @@
 	
 	"bh_TeamIndicator"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 	
@@ -119,7 +119,7 @@
 	
 	"active_item_1"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"ControlName"												"EditablePanel"
@@ -130,7 +130,7 @@
 	
 	"active_item_2"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"ControlName"												"EditablePanel"
@@ -141,7 +141,7 @@
 	
 	"active_item_3"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"xpos"														"-200"
@@ -151,7 +151,7 @@
 	
 	"active_item_4"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"xpos"														"-300"
@@ -161,7 +161,7 @@
 
 	"inactive_item_1"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"ControlName"												"EditablePanel"
@@ -172,7 +172,7 @@
 	
 	"inactive_item_2"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"ControlName"												"EditablePanel"
@@ -183,7 +183,7 @@
 	
 	"inactive_item_3"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"xpos"														"-200"
@@ -193,7 +193,7 @@
 	
 	"inactive_item_4"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"xpos"														"-300"
@@ -203,7 +203,7 @@
 	
 	"already_built_item_1"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"xpos"														"0"
@@ -213,7 +213,7 @@
 	
 	"already_built_item_2"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"xpos"														"-100"
@@ -223,7 +223,7 @@
 	
 	"already_built_item_3"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"xpos"														"-200"
@@ -233,7 +233,7 @@
 	
 	"already_built_item_4"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"xpos"														"-300"
@@ -243,7 +243,7 @@
 	
 	"cant_afford_item_1"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"xpos"														"0"
@@ -253,7 +253,7 @@
 	
 	"cant_afford_item_2"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"xpos"														"-100"
@@ -263,7 +263,7 @@
 	
 	"cant_afford_item_3"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"xpos"														"-200"
@@ -273,7 +273,7 @@
 	
 	"cant_afford_item_4"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"xpos"														"-300"
@@ -283,7 +283,7 @@
 
 	"unavailable_item_1"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"xpos"														"0"
@@ -293,7 +293,7 @@
 	
 	"unavailable_item_2"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"xpos"														"-100"
@@ -303,7 +303,7 @@
 	
 	"unavailable_item_3"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"xpos"														"-200"
@@ -313,7 +313,7 @@
 	
 	"unavailable_item_4"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"	
 		"xpos"														"-300"

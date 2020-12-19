@@ -34,7 +34,7 @@
 		"wide"														"400"
 	}
 	
-	"bh_MenuAnchor"
+	"bh_MenuPin"
 	{	
 		"xpos"														"cs-0.5"
 		"ypos"														"c20"
@@ -84,7 +84,7 @@
 	
 	"NumberLabel1"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -100,7 +100,7 @@
 	
 	"NumberLabel2"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -116,7 +116,7 @@
 	
 	"NumberLabel3"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -132,7 +132,7 @@
 	
 	"NumberLabel4"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -148,7 +148,7 @@
 	
 	"NumberLabel5"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -164,7 +164,7 @@
 	
 	"NumberLabel6"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -180,7 +180,7 @@
 	
 	"NumberLabel7"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -196,7 +196,7 @@
 	
 	"NumberLabel8"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -212,7 +212,7 @@
 	
 	"TauntModelPanel1"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -231,7 +231,7 @@
 	
 	"TauntModelPanel2"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -250,7 +250,7 @@
 	
 	"TauntModelPanel3"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -269,7 +269,7 @@
 	
 	"TauntModelPanel4"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -288,7 +288,7 @@
 	
 	"TauntModelPanel5"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -307,7 +307,7 @@
 
 	"TauntModelPanel6"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -326,7 +326,7 @@
 	
 	"TauntModelPanel7"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		
@@ -345,7 +345,7 @@
 	
 	"TauntModelPanel8"
 	{
-		"pin_to_sibling" 											"bh_MenuAnchor"
+		"pin_to_sibling" 											"bh_MenuPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 		

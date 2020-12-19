@@ -268,10 +268,10 @@
 		"y_offset" 													"100"
 	}
 	
-	"bh_BuildNav"
+	"bh_BuildPin"
 	{	
 		"ControlName"												"Label"
-		"fieldName"													"bh_BuildNav"
+		"fieldName"													"bh_BuildPin"
 		"xpos"														"0"
 		"ypos"														"105"
 		"zpos"														"0"
@@ -289,7 +289,7 @@
 		"wide"														"f0"
 		"tall"														"f0"
 		
-		"pin_to_sibling" 											"bh_BuildNav"
+		"pin_to_sibling" 											"bh_BuildPin"
 		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 									"0"
 	}
