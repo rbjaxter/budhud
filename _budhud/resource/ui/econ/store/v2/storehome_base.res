@@ -132,7 +132,7 @@
 	
 	"CartButton"
 	{
-		"font"														"HudFontSmallBold"
+		"font"														"bh_Font12"
 		"textAlignment"												"center"
 		"xpos"														"c-230"
 		"ypos"														"251"
@@ -145,7 +145,7 @@
 	{
 		"xpos"														"c-60"
 		"ypos"														"320"
-		"wide"														"120"
+		"wide"														"100"
 		"tall"														"26"
 		"labelText"													"#bh_SteamMarket"
 		"defaultBgColor_override"									"bh_ButtonBGDefault"

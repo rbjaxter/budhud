@@ -162,6 +162,7 @@
 		"dulltext"													"0"
 		"brighttext"												"0"
 		"Command"													"resetstatsbutton"
+		"font"														"bh_Font12"
 		
 		"defaultBgColor_override"									"bh_ButtonBGDefault"
 		"armedBgColor_override"										"bh_ButtonBGArmed"

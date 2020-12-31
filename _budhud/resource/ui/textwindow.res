@@ -52,7 +52,7 @@
 		"enabled"													"1"
 		"tabPosition"												"0"
 		"labelText"													"#bh_Continue_QK"
-		"font"														"HudFontSmallBold"
+		"font"														"bh_Font12"
 		"textAlignment"												"center"
 		"Command"													"okay"
 		

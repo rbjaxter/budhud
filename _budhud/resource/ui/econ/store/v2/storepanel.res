@@ -84,6 +84,10 @@
 	
 	"CheckoutButton"
 	{
+		"wide"														"100"
+		"tall"														"26"
+	
+		"font"														"bh_Font12"
 		"labeltext"													"#bh_Checkout_QK"
 		"defaultBgColor_override"									"bh_ButtonBGDefault"
 		"armedBgColor_override"										"bh_ButtonBGArmed"
@@ -131,14 +135,14 @@
 		"ypos"														"437"
 		"zpos"														"2"
 		"wide"														"100"
-		"tall"														"25"
+		"tall"														"26"
 		"autoResize"												"0"
 		"pinCorner"													"3"
 		"visible"													"1"
 		"enabled"													"1"
 		"tabPosition"												"0"
 		"labelText"													"#bh_Back_QK"
-		"font"														"HudFontSmallBold"
+		"font"														"bh_Font12"
 		"textAlignment"												"center"
 		"dulltext"													"0"
 		"brighttext"												"0"

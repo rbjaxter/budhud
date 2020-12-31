@@ -75,7 +75,7 @@
 		"enabled"													"1"
 		"tabPosition"												"0"
 		"labelText"													"#bh_Continue_QK"
-		"font"														"HudFontSmallBold"
+		"font"														"bh_Font12"
 		"textAlignment"												"center"
 		"Command"													"continue"
 		
@@ -104,7 +104,7 @@
 		"enabled"													"1"
 		"tabPosition"												"0"
 		"labelText"													"#bh_Back_QK"
-		"font"														"HudFontSmallBold"
+		"font"														"bh_Font12"
 		"textAlignment"												"center"
 		"Command"													"back"
 		
@@ -133,7 +133,7 @@
 		"enabled"													"1"
 		"tabPosition"												"0"
 		"labelText"													"#bh_WatchMovie"
-		"font"														"HudFontSmallBold"
+		"font"														"bh_Font12"
 		"textAlignment"												"center"
 		"Command"													"intro"
 		

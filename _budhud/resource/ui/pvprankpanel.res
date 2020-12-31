@@ -114,7 +114,7 @@
 				"enabled"											"1"
 				"tabPosition"										"0"
 				"labelText"											"MATCHMAKING STATISTICS"
-				"font"												"HudFontSmallBold"
+				"font"												"bh_Font12"
 				"textAlignment"										"center"
 				"dulltext"											"0"
 				"brighttext"										"0"

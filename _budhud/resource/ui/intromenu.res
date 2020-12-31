@@ -71,7 +71,7 @@
 		"enabled"													"1"
 		"tabPosition"												"0"
 		"labelText"													"#bh_Skip_QK"
-		"font"														"HudFontSmallBold"
+		"font"														"bh_Font12"
 		"textAlignment"												"center"
 		"Command"													"skip"
 		
@@ -101,7 +101,7 @@
 		"enabled"													"1"
 		"tabPosition"												"0"
 		"labelText"													"#bh_Back_QK"
-		"font"														"HudFontSmallBold"
+		"font"														"bh_Font12"
 		"textAlignment"												"center"
 		"Command"													"back"
 		
@@ -131,7 +131,7 @@
 		"enabled"													"1"
 		"tabPosition"												"0"
 		"labelText"													"#bh_ReplayVideo"
-		"font"														"HudFontSmallBold"
+		"font"														"bh_Font12"
 		"textAlignment"												"center"
 		"Command"													"replayVideo"
 		

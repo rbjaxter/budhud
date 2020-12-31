@@ -212,7 +212,7 @@
 	
 	"CartButton"
 	{
-		"font"														"HudFontSmallBold"
+		"font"														"bh_Font12"
 		"textAlignment"												"center"
 		"xpos"														"c-292"
 		"ypos"														"280"
