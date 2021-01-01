@@ -25,6 +25,8 @@
 	#base	"../#users/dane/#customization/bh_colors.res"
 	#base	"../#users/ly_dee/#customization/bh_colors.res"
 	#base	"../#users/truktruk/#customization/bh_colors.res"
+	#base	"../#users/jayhyunpae/#customization/_enabled/bh_crosshairs_tf2crosshairs.res"
+	#base	"../#users/jayhyunpae/#customization/_enabled/bh_colors.res"
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Crosshairs

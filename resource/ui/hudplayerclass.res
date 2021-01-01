@@ -4,6 +4,8 @@
 	#base	"..\..\#users\ly_dee\#customization\bh_crosshairs.res"
 	#base	"..\..\#users\truktruk\#customization\bh_crosshairs.res"
 	#base	"..\..\#users\toth\#customization\bh_crosshairs.res"
+	#base	"..\..\#users\jayhyunpae\#customization\_enabled\bh_crosshairs.res"
+	#base	"..\..\#users\jayhyunpae\#customization\_enabled\bh_player_hideclassmodel.res"
 	#base	"..\..\#customization\_enabled\bh_player_hideclassmodel.res"
 	#base	"..\..\#customization\_enabled\bh_player_teamindicator.res"
 	#base	"..\..\#customization\_enabled\bh_crosshairs.res"
