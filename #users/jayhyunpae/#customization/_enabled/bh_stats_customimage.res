@@ -6,7 +6,7 @@
 	
 	"bh_LoadingBackground"
 	{
-		"image"														"../console/background_upward_widescreen"
+		"image"														"replay/thumbnails/#users/background_jayhyunpae"
 		"fillcolor"													"bh_blank"
 	}
 	
@@ -25,7 +25,7 @@
 		"tall"														"f0"
 		"visible"													"1"
 		"enabled"													"1"
-		"image"														"../console/background_upward_widescreen"
+		"image"														"replay/thumbnails/#users/background_jayhyunpae"
 		"scaleImage"												"1"
 	}
 }
