@@ -6,11 +6,11 @@
 	// #users/custom
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	#base	"fonts/bh_custom.res"
-	#base	"../#users/custom/_enabled/bh_colors.res"
-	#base	"../#users/custom/_enabled/bh_crosshairs_tf2crosshairs.res"
-	#base	"../#users/custom/_enabled/bh_crosshairs_fog.res"
-	#base	"../#users/custom/_enabled/bh_crosshairs_knuckles.res"
-	#base	"../#users/custom/_enabled/bh_crosshairs_whayay.res"
+	#base	"../#users/custom/#customization/_enabled/bh_colors.res"
+	#base	"../#users/custom/#customization/_enabled/bh_crosshairs_tf2crosshairs.res"
+	#base	"../#users/custom/#customization/_enabled/bh_crosshairs_fog.res"
+	#base	"../#users/custom/#customization/_enabled/bh_crosshairs_knuckles.res"
+	#base	"../#users/custom/#customization/_enabled/bh_crosshairs_whayay.res"
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// HUD Font
@@ -22,9 +22,9 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// User Customization
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	#base	"../#users/dane/#customization/bh_colors.res"
-	#base	"../#users/ly_dee/#customization/bh_colors.res"
-	#base	"../#users/truktruk/#customization/bh_colors.res"
+	#base	"../#users/dane/#customization/_enabled/bh_colors.res"
+	#base	"../#users/ly_dee/#customization/_enabled/bh_colors.res"
+	#base	"../#users/truktruk/#customization/_enabled/bh_colors.res"
 	#base	"../#users/jayhyunpae/#customization/_enabled/bh_crosshairs_tf2crosshairs.res"
 	#base	"../#users/jayhyunpae/#customization/_enabled/bh_colors.res"
 	
