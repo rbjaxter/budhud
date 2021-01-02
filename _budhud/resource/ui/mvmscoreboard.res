@@ -68,7 +68,7 @@
 		"xpos"														"0"
 		"ypos"														"-100"
 		"wide"														"600"
-		"tall"														"140"
+		"tall"														"150"
 		"font"														"bh_Font24"
 	}
 	

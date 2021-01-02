@@ -1,4 +1,5 @@
 	#base	"..\..\#users\custom\resource\ui\basechat.res"
+	#base	"..\..\#users\jayhyunpae\#customization\_enabled\bh_chat_upperleft.res"
 	#base	"..\..\#customization\_enabled\bh_chat_lowerleft.res"
 	#base	"..\..\#customization\_enabled\bh_chat_upperleft.res"
 	#base	"..\..\_stream\resource\ui\basechat.res"
