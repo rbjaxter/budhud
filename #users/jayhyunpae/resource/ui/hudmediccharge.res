@@ -1,15 +1,15 @@
 "Resource/UI/HudMedicCharge.res"
 {
-	"bh_ResistNav"
+	"bh_ResistPin"
 	{	
-		"fieldName"													"bh_ResistNav"
-		"ypos"														"r165"
+		"fieldName"													"bh_ResistPin"
+		"ypos"														"r170"
 	}
 	
-	"bh_ChargeNav"
+	"bh_ChargePin"
 	{	
-		"fieldName"													"bh_ChargeNav"
-		"ypos"														"r155"
+		"fieldName"													"bh_ChargePin"
+		"ypos"														"r162"
 	}
 
 	"ChargeMeter"
@@ -19,25 +19,25 @@
 	
 	"ChargeMeter1"
 	{
-		"pin_to_sibling" 											"bh_ChargeNav"
+		"pin_to_sibling" 											"bh_ChargePin"
 		"ypos"														"0"
 	}
 	
 	"ChargeMeter2"
 	{	
-		"pin_to_sibling" 											"bh_ChargeNav"
+		"pin_to_sibling" 											"bh_ChargePin"
 		"ypos"														"0"
 	}
 
 	"ChargeMeter3"
 	{	
-		"pin_to_sibling" 											"bh_ChargeNav"
+		"pin_to_sibling" 											"bh_ChargePin"
 		"ypos"														"-10"
 	}
 
 	"ChargeMeter4"
 	{	
-		"pin_to_sibling" 											"bh_ChargeNav"
+		"pin_to_sibling" 											"bh_ChargePin"
 		"ypos"														"-10"
 	}
 
@@ -57,6 +57,6 @@
 	
 	"ResistIcon"
 	{
-		"pin_to_sibling" 											"bh_ResistNav"
+		"pin_to_sibling" 											"bh_ResistPin"
 	}
 }
