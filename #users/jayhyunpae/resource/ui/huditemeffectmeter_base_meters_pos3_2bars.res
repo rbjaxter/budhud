@@ -1,8 +1,8 @@
-"Resource/UI/huditemeffectmeter_base_meters_pos2_2bars.res"
+"Resource/UI/huditemeffectmeter_base_meters_pos3_2bars.res"
 {
 	"HudItemEffectMeter"
 	{
-		"ypos"														"c124"
+		"ypos"														"c93"
 	}
 
 	"ItemEffectMeter"
