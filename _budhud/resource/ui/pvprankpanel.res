@@ -116,6 +116,11 @@
 				"pinCorner"											"0"
 				"visible"											"1"
 				"enabled"											"1"
+				
+				if_mini
+				{
+					"ypos"											"r-6969"
+				}
 			}
 			
 			"bh_YourStatsShadow"
@@ -139,6 +144,11 @@
 				"pinCorner"											"0"
 				"visible"											"1"
 				"enabled"											"1"
+				
+				if_mini
+				{
+					"ypos"											"r-6969"
+				}
 			}
 	
 			"Stats"
