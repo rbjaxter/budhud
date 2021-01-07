@@ -19,4 +19,15 @@
 	{
 		"font"														"bh_Font26"
 	}
+	
+	"AmmoInReserve"
+	{
+		"xpos"														"120"
+		"font"														"bh_Font18"
+	}
+	
+	"AmmoInReserveShadow"
+	{
+		"font"														"bh_Font18"
+	}
 }
