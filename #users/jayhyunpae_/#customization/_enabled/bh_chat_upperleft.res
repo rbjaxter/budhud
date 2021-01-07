@@ -1,7 +1,1 @@
-"Resource/UI/BaseChat.res"
-{
-	"HudChat"
-	{
-		"ypos"			          									"5"
-	}
-}
+	#base	"..\..\..\..\#customization\bh_chat_upperleft.res"

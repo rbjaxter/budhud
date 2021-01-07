@@ -2,7 +2,7 @@
 {
 	"bh_LoadingBackground"
 	{
-		"image"														"replay/thumbnails/#users/background_jayhyunpae"
+		"image"														"replay/thumbnails/#users/background_ly_dee"
 		"fillcolor"													"bh_blank"
 	}
 	
@@ -21,7 +21,7 @@
 		"tall"														"f0"
 		"visible"													"1"
 		"enabled"													"1"
-		"image"														"replay/thumbnails/#users/background_jayhyunpae"
+		"image"														"replay/thumbnails/#users/background_ly_dee"
 		"scaleImage"												"1"
 	}
 }

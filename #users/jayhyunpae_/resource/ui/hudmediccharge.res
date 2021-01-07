@@ -3,18 +3,18 @@
 	"bh_ResistPin"
 	{	
 		"fieldName"													"bh_ResistPin"
-		"ypos"														"r170"
+		"ypos"														"r165"
 	}
 	
 	"bh_ChargePin"
 	{	
 		"fieldName"													"bh_ChargePin"
-		"ypos"														"r162"
+		"ypos"														"r158"
 	}
 
 	"ChargeMeter"
 	{
-		"ypos"														"c84"
+		"ypos"														"c83"
 	}
 	
 	"ChargeMeter1"

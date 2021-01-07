@@ -1,5 +1,1 @@
-	#base	"..\..\..\#customization\bh_mainmenu_hidestats.res"
-
-"Resource/UI/PvPRankPanel.res"
-{
-}
+	#base	"..\..\..\..\#customization\bh_menu_hidestats.res"

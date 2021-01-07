@@ -101,33 +101,44 @@
 
 			"bh_YourStats"
 			{
-				"ControlName"										"CExButton"
+				"ControlName"										"CExLabel"
 				"fieldName"											"bh_YourStats"
+				"font"												"bh_Font12"
+				"fgcolor_override"									"bh_white"
+				"labelText"											"#bh_MatchmakingStatistics"
+				"textAlignment"										"center"
 				"xpos"												"c-200"
 				"ypos"												"r116"
-				"zpos"												"3"
+				"zpos"												"1"
 				"wide"												"400"
 				"tall"												"20"
 				"autoResize"										"0"
-				"pinCorner"											"2"
+				"pinCorner"											"0"
 				"visible"											"1"
 				"enabled"											"1"
-				"tabPosition"										"0"
-				"labelText"											"MATCHMAKING STATISTICS"
+			}
+			
+			"bh_YourStatsShadow"
+			{
+				"pin_to_sibling" 									"bh_YourStats"
+				"pin_corner_to_sibling" 							"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 							"0"			
+			
+				"ControlName"										"CExLabel"
+				"fieldName"											"bh_YourStatsShadow"
 				"font"												"bh_Font12"
+				"fgcolor_override"									"bh_shadow"
+				"labelText"											"#bh_MatchmakingStatistics"
 				"textAlignment"										"center"
-				"dulltext"											"0"
-				"brighttext"										"0"
-				"default"											"1"
-				"Command"											"close"
-				"sound_depressed"									"UI/buttonclick.wav"
-				"sound_released"									"UI/buttonclickrelease.wav"
-				"paintbackground"									"0"
-				
-				if_mini
-				{
-					"ypos"											"r-6969"
-				}
+				"xpos"												"-1"
+				"ypos"												"-1"
+				"zpos"												"0"
+				"wide"												"400"
+				"tall"												"20"
+				"autoResize"										"0"
+				"pinCorner"											"0"
+				"visible"											"1"
+				"enabled"											"1"
 			}
 	
 			"Stats"
@@ -141,7 +152,7 @@
 				"visible"											"1"
 				"proportionaltoparent"								"0"
 				"border"											"bh_b_NEW"
-				"bgcolor_override"									"0 0 0 0"
+				"bgcolor_override"									"bh_BGStandard"
 				
 				if_mini
 				{
@@ -160,12 +171,56 @@
 					"ypos"											"2"
 					"textAlignment"									"center"
 				}
+				
+				"bh_GamesLabelShadow"
+				{
+					"pin_to_sibling" 								"GamesLabel"
+					"pin_corner_to_sibling" 						"PIN_TOPLEFT"
+					"pin_to_sibling_corner" 						"0"
+				
+					"ControlName"									"Label"
+					"fieldName"										"bh_GamesLabelShadow"
+					"xpos"											"-1"
+					"ypos"											"-1"
+					"zpos"											"-1"
+					"wide"											"100"
+					"tall"											"20"
+					"visible"										"1"
+					"enabled"										"1"
+					"font"											"HudFontSmallest"
+					"fgcolor_override"								"bh_shadow"
+					"textAlignment"									"center"
+					"labelText"										"%stat_games%"
+					"proportionaltoparent"							"1"
+				}
 	
 				"DamageLabel"
 				{
 					"xpos"											"c-150"
 					"ypos"											"18"
 					"textAlignment"									"center"
+				}
+				
+				"bh_DamageLabelShadow"
+				{
+					"pin_to_sibling" 								"DamageLabel"
+					"pin_corner_to_sibling" 						"PIN_TOPLEFT"
+					"pin_to_sibling_corner" 						"0"
+				
+					"ControlName"									"Label"
+					"fieldName"										"bh_DamageLabelShadow"
+					"xpos"											"-1"
+					"ypos"											"-1"
+					"zpos"											"-1"
+					"wide"											"100"
+					"tall"											"20"
+					"visible"										"1"
+					"enabled"										"1"
+					"font"											"HudFontSmallest"
+					"fgcolor_override"								"bh_shadow"
+					"textAlignment"									"center"
+					"labelText"										"%stat_damage%"
+					"proportionaltoparent"							"1"
 				}
 	
 				// Second column
@@ -176,11 +231,55 @@
 					"textAlignment"									"center"
 				}
 				
+				"bh_KillsLabelShadow"
+				{
+					"pin_to_sibling" 								"KillsLabel"
+					"pin_corner_to_sibling" 						"PIN_TOPLEFT"
+					"pin_to_sibling_corner" 						"0"
+				
+					"ControlName"									"Label"
+					"fieldName"										"bh_KillsLabelShadow"
+					"xpos"											"-1"
+					"ypos"											"-1"
+					"zpos"											"-1"
+					"wide"											"100"
+					"tall"											"20"
+					"visible"										"1"
+					"enabled"										"1"
+					"font"											"HudFontSmallest"
+					"fgcolor_override"								"bh_shadow"
+					"textAlignment"									"center"
+					"labelText"										"%stat_kills%"
+					"proportionaltoparent"							"1"
+				}
+				
 				"DeathsLabel"
 				{
 					"xpos"											"c-50"
 					"ypos"											"18"
 					"textAlignment"									"center"
+				}
+				
+				"bh_DeathsLabelShadow"
+				{
+					"pin_to_sibling" 								"DeathsLabel"
+					"pin_corner_to_sibling" 						"PIN_TOPLEFT"
+					"pin_to_sibling_corner" 						"0"
+				
+					"ControlName"									"Label"
+					"fieldName"										"bh_DeathsLabelShadow"
+					"xpos"											"-1"
+					"ypos"											"-1"
+					"zpos"											"-1"
+					"wide"											"100"
+					"tall"											"20"
+					"visible"										"1"
+					"enabled"										"1"
+					"font"											"HudFontSmallest"
+					"fgcolor_override"								"bh_shadow"
+					"textAlignment"									"center"
+					"labelText"										"%stat_deaths%"
+					"proportionaltoparent"							"1"
 				}
 	
 				// Third column
@@ -190,12 +289,56 @@
 					"ypos"											"2"
 					"textAlignment"									"center"
 				}
+				
+				"bh_HealingLabelShadow"
+				{
+					"pin_to_sibling" 								"HealingLabel"
+					"pin_corner_to_sibling" 						"PIN_TOPLEFT"
+					"pin_to_sibling_corner" 						"0"
+				
+					"ControlName"									"Label"
+					"fieldName"										"bh_HealingLabelShadow"
+					"xpos"											"-1"
+					"ypos"											"-1"
+					"zpos"											"-1"
+					"wide"											"100"
+					"tall"											"20"
+					"visible"										"1"
+					"enabled"										"1"
+					"font"											"HudFontSmallest"
+					"fgcolor_override"								"bh_shadow"
+					"textAlignment"									"center"
+					"labelText"										"%stat_healing%"
+					"proportionaltoparent"							"1"
+				}
 	
 				"SupportLabel"
 				{
 					"xpos"											"c50"
 					"ypos"											"18"
 					"textAlignment"									"center"
+				}
+				
+				"bh_SupportLabelShadow"
+				{
+					"pin_to_sibling" 								"SupportLabel"
+					"pin_corner_to_sibling" 						"PIN_TOPLEFT"
+					"pin_to_sibling_corner" 						"0"
+				
+					"ControlName"									"Label"
+					"fieldName"										"bh_SupportLabelShadow"
+					"xpos"											"-1"
+					"ypos"											"-1"
+					"zpos"											"-1"
+					"wide"											"100"
+					"tall"											"20"
+					"visible"										"1"
+					"enabled"										"1"
+					"font"											"HudFontSmallest"
+					"fgcolor_override"								"bh_shadow"
+					"textAlignment"									"center"
+					"labelText"										"%stat_support%"
+					"proportionaltoparent"							"1"
 				}
 	
 				// Third column
