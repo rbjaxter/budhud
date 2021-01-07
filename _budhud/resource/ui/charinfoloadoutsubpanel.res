@@ -22,6 +22,15 @@
 		"class_distance_min"										"7"
 		"class_distance_max"										"100"
 	}
+	
+	"InspectionPanel"
+	{
+		"xpos"														"0"
+		"ypos"														"0"
+		"wide"														"f0"
+		"tall"														"380"
+		"bgcolor_override"											"bh_BGStandard"
+	}
 
 	"LoadoutChangesLabel"
 	{
