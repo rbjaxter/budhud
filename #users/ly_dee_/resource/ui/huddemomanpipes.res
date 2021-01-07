@@ -2,14 +2,14 @@
 {
 	"ChargeMeter"
 	{
-		"ypos"														"c90"
+		"ypos"														"c120"
 	}
 	
 	"PipesPresentPanel"
 	{
 		"NumPipesLabel"
 		{
-			"ypos"													"c90"
+			"ypos"													"c120"
 		}
 	}
 	
@@ -17,7 +17,7 @@
 	{
 		"NumPipesLabel"
 		{
-			"ypos"													"c90"
+			"ypos"													"c120"
 		}
 	}
 }

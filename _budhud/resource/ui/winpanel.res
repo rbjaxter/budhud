@@ -75,7 +75,7 @@
 	"TeamScoresPanel"
 	{
 		"xpos"														"0"
-		"ypos"														"61"
+		"ypos"														"50"
 		"wide"														"500"
 		"tall"														"100"
 
@@ -104,9 +104,9 @@
 			"ControlName" 											"ImagePanel"
 			"fieldName" 											"bh_BGscoreBlue"
 			"xpos"													"0"
-			"ypos"													"15"
+			"ypos"													"10"
 			"wide"													"112"
-			"tall"													"25"
+			"tall"													"27"
 			"visible" 												"1"
 			"enabled" 												"1"
 			"fillcolor" 											""
@@ -120,9 +120,9 @@
 			"ControlName" 											"ImagePanel"
 			"fieldName" 											"bh_BGscoreRed"
 			"xpos"													"112"
-			"ypos"													"15"
+			"ypos"													"10"
 			"wide"													"112"
-			"tall"													"25"
+			"tall"													"27"
 			"border"												"bh_b_Red"
 			"visible" 												"1"
 			"enabled" 												"1"
@@ -154,16 +154,17 @@
 		{
 			"font"													"bh_Font24"
 			"xpos"													"4"
-			"ypos"													"13"
+			"ypos"													"9"
 			"zpos"													"10"
 			"wide"													"75"
 			"tall"													"28"
-		}							
+		}			
+		
 		"BlueTeamScore"
 		{
-			"font"													"bh_Font40"
+			"font"													"bh_Font36"
 			"xpos"													"29"
-			"ypos"													"-9"
+			"ypos"													"-13"
 			"zpos"													"3"
 			"wide"													"80"
 			"tall"													"70"
@@ -171,10 +172,14 @@
 		
 		"BlueTeamScoreDropshadow"
 		{
-			"font"													"bh_Font40"
+			"pin_to_sibling" 										"BlueTeamScore"
+			"pin_corner_to_sibling" 								"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 								"0"
+		
+			"font"													"bh_Font36"
 			"textAlignment"											"east"
-			"xpos"													"30"
-			"ypos"													"-9"
+			"xpos"													"1"
+			"ypos"													"-1"
 			"zpos"													"3"
 			"wide"													"80"
 			"tall"													"70"
@@ -185,7 +190,7 @@
 		{
 			"font"													"bh_Font24"
 			"xpos"													"145"
-			"ypos"													"13"
+			"ypos"													"9"
 			"zpos"													"1"
 			"wide"													"75"
 			"tall"													"28"
@@ -193,9 +198,9 @@
 		
 		"RedTeamScore"
 		{
-			"font"													"bh_Font40"
+			"font"													"bh_Font36"
 			"xpos"													"117"
-			"ypos"													"-9"
+			"ypos"													"-13"
 			"zpos"													"3"
 			"wide"													"80"
 			"tall"													"70"
@@ -203,9 +208,13 @@
 		
 		"RedTeamScoreDropShadow"
 		{
-			"font"													"bh_Font40"
-			"xpos"													"118"
-			"ypos"													"-8"
+			"pin_to_sibling" 										"RedTeamScore"
+			"pin_corner_to_sibling" 								"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 								"0"
+			
+			"font"													"bh_Font36"
+			"xpos"													"-1"
+			"ypos"													"-1"
 			"zpos"													"2"
 			"wide"													"80"
 			"tall"													"70"
@@ -218,7 +227,7 @@
 		"ControlName"												"ImagePanel"
 		"fieldName"													"bh_Background"
 		"xpos"														"0"
-		"ypos"														"100"
+		"ypos"														"89"
 		"zpos"														"0"
 		"wide"														"224"
 		"tall"														"107"
@@ -237,7 +246,7 @@
 	{	
 		"font"														"bh_Font10"
 		"xpos"														"15"
-		"ypos"														"100"
+		"ypos"														"90"
 		"zpos"														"3"
 		"wide"														"200"
 		"tall"														"20"
@@ -247,7 +256,7 @@
 	{	
 		"font"														"bh_Font10"
 		"xpos"														"66"
-		"ypos"														"100"
+		"ypos"														"90"
 		"zpos"														"3"
 		"wide"														"140"
 		"tall"														"20"
@@ -256,7 +265,7 @@
 	"HorizontalLine"
 	{
 		"xpos"														"15"
-		"ypos"														"115"
+		"ypos"														"105"
 		"zpos"														"3"
 		"wide"														"195"
 		"tall"														"1"
@@ -266,7 +275,7 @@
 	"Player1Avatar"
 	{
 		"xpos"														"22"
-		"ypos"														"120"
+		"ypos"														"110"
 		"zpos"														"3"
 		"wide"														"14"
 		"tall"														"14"
@@ -275,7 +284,7 @@
 	"Player2Avatar"
 	{
 		"xpos"														"22"
-		"ypos"														"136"
+		"ypos"														"126"
 		"zpos"														"3"
 		"wide"														"14"
 		"tall"														"14"
@@ -284,7 +293,7 @@
 	"Player3Avatar"
 	{
 		"xpos"														"22"
-		"ypos"														"152"
+		"ypos"														"142"
 		"zpos"														"3"
 		"wide"														"14"
 		"tall"														"14"
@@ -293,7 +302,7 @@
 	"Player1Name"
 	{	
 		"xpos"														"48"
-		"ypos"														"117"
+		"ypos"														"107"
 		"zpos"														"3"
 		"wide"														"75"
 		"tall"														"20"
@@ -302,7 +311,7 @@
 	"Player2Name"
 	{	
 		"xpos"														"48"
-		"ypos"														"133"
+		"ypos"														"123"
 		"zpos"														"3"
 		"wide"														"75"
 		"tall"														"20"
@@ -311,7 +320,7 @@
 	"Player3Name"
 	{	
 		"xpos"														"48"
-		"ypos"														"149"
+		"ypos"														"139"
 		"zpos"														"3"
 		"wide"														"75"
 		"tall"														"20"
@@ -320,7 +329,7 @@
 	"Player1Class"
 	{	
 		"xpos"														"125"
-		"ypos"														"117"
+		"ypos"														"107"
 		"zpos"														"3"
 		"wide"														"45"
 		"tall"														"20"
@@ -329,7 +338,7 @@
 	"Player2Class"
 	{	
 		"xpos"														"125"
-		"ypos"														"133"
+		"ypos"														"123"
 		"zpos"														"3"
 		"wide"														"45"
 		"tall"														"20"
@@ -338,7 +347,7 @@
 	"Player3Class"
 	{	
 		"xpos"														"125"
-		"ypos"														"149"
+		"ypos"														"139"
 		"zpos"														"3"
 		"wide"														"45"
 		"tall"														"20"
@@ -347,7 +356,7 @@
 	"Player1Score"
 	{	
 		"xpos"														"170"
-		"ypos"														"117"
+		"ypos"														"107"
 		"zpos"														"3"
 		"wide"														"30"
 		"tall"														"20"
@@ -356,7 +365,7 @@
 	"Player2Score"
 	{	
 		"xpos"														"170"
-		"ypos"														"133"
+		"ypos"														"123"
 		"zpos"														"3"
 		"wide"														"30"
 		"tall"														"20"
@@ -365,7 +374,7 @@
 	"Player3Score"
 	{	
 		"xpos"														"170"
-		"ypos"														"149"
+		"ypos"														"139"
 		"zpos"														"3"
 		"wide"														"30"
 		"tall"														"20"
@@ -375,7 +384,7 @@
 	{	
 		"font"														"bh_Font8"
 		"xpos"														"15"
-		"ypos"														"164"
+		"ypos"														"154"
 		"zpos"														"3"
 		"wide"														"200"
 		"tall"														"20"
@@ -387,7 +396,7 @@
 		"ControlName"												"ImagePanel"
 		"fieldName"													"HorizontalLine2"
 		"xpos"														"15"
-		"ypos"														"179"
+		"ypos"														"169"
 		"zpos"														"3"
 		"wide"														"195"
 		"tall"														"1"
@@ -397,7 +406,7 @@
 	"KillStreakPlayer1Avatar"
 	{
 		"xpos"														"22"
-		"ypos"														"186"
+		"ypos"														"176"
 		"zpos"														"3"
 		"wide"														"14"
 		"tall"														"14"
@@ -406,7 +415,7 @@
 	"KillStreakPlayer1Name"
 	{	
 		"xpos"														"48"
-		"ypos"														"183"
+		"ypos"														"173"
 		"zpos"														"3"
 		"wide"														"75"
 		"tall"														"20"
@@ -415,7 +424,7 @@
 	"KillStreakPlayer1Class"
 	{	
 		"xpos"														"125"
-		"ypos"														"183"
+		"ypos"														"173"
 		"zpos"														"3"
 		"wide"														"45"
 		"tall"														"20"
@@ -424,7 +433,7 @@
 	"KillStreakPlayer1Score"
 	{	
 		"xpos"														"170"
-		"ypos"														"183"
+		"ypos"														"173"
 		"zpos"														"3"
 		"wide"														"30"
 		"tall"														"20"
