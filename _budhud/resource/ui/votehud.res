@@ -85,12 +85,10 @@
 		"ComboBox"
 		{
 			"fgcolor_override"										"bh_white"
-			"bgcolor_override"										"bh_gray"
+			"bgcolor_override"										"bh_blank"
 			"disabledFgColor_override" 								"bh_white"
-			"disabledBgColor_override" 								"bh_gray"
-			"selectionColor_override"								"bh_gray"
+			"selectionColor_override"								"bh_blank"
 			"selectionTextColor_override"							"bh_white"
-			"defaultSelectionBG2Color_override"						"bh_gray"
 		}
 	}
 }

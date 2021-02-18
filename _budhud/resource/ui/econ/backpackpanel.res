@@ -80,10 +80,8 @@
 		"fgcolor_override"											"bh_white"
 		"bgcolor_override"											"bh_blank"
 		"disabledFgColor_override" 									"bh_white"
-	//	"disabledBgColor_override" 									"bh_blank"
 		"selectionColor_override"									"bh_blank"
-		"selectionTextColor_override"								"bh_Theme_AccentPrimary"
-	//	"defaultSelectionBG2Color_override"							"bh_blank"
+		"selectionTextColor_override"								"bh_white"
 	}
 	
 	"NameFilterLabel"
@@ -118,12 +116,10 @@
 	"SortByComboBox"
 	{
 		"fgcolor_override"											"bh_white"
-		"bgcolor_override"											"0 0 0 0"
+		"bgcolor_override"											"bh_blank"
 		"disabledFgColor_override" 									"bh_white"
-		"disabledBgColor_override"									"0 0 0 0"
-		"selectionColor_override"									"0 0 0 0"
+		"selectionColor_override"									"bh_blank"
 		"selectionTextColor_override"								"bh_white"
-		"defaultSelectionBG2Color_override"							"0 0 0 0"
 	}
 	
 	"CancelApplyToolButton"

@@ -23,12 +23,11 @@
 	
 	"InviteModeComboBox"
 	{
-		"defaultBgColor_override"									"bh_ButtonBlank"
-		"armedBgColor_override"										"bh_ButtonBlank"
-		"depressedBgColor_override"									"bh_ButtonBlank"
-		"defaultFgColor_override"									"bh_gray"
-		"armedFgColor_override" 									"bh_ButtonArmed"
-		"depressedFgColor_override" 								"bh_ButtonDepressed"	
+		"fgcolor_override"											"bh_white"
+		"bgcolor_override"											"bh_blank"
+		"disabledFgColor_override" 									"bh_white"
+		"selectionColor_override"									"bh_blank"
+		"selectionTextColor_override"								"bh_white"
 	}	
 	
 	"KeepPartyOnSameTeamLabel"
