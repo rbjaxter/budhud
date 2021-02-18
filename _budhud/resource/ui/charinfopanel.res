@@ -24,15 +24,15 @@
 		"ypos"														"r-6969"
 	}
 
-	"bh_BackgroundFooter"	// Solely used to block menu buttons
+	"bh_BackgroundFooter"
 	{
 		"ControlName"												"ImagePanel"
 		"fieldName"													"bh_BackgroundFooter"
 		"xpos"														"0"
-		"ypos"														"r44"
-		"zpos"														"-30"
+		"ypos"														"420"
+		"zpos"														"1"
 		"wide"														"f0"
-		"tall"														"60"
+		"tall"														"61"
 		"autoResize"												"0"
 		"pinCorner"													"0"
 		"labeltext"													""
