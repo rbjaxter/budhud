@@ -48,28 +48,16 @@
 	"Player1Badge"
 	{
 		"ypos"														"r-6969"
-		"wide"														"0"
-		"tall"														"0"
-		"visible"													"0"
-		"enabled"													"0"
 	}
 	
 	"Player2Badge"
 	{
 		"ypos"														"r-6969"
-		"wide"														"0"
-		"tall"														"0"
-		"visible"													"0"
-		"enabled"													"0"
 	}
 
 	"Player3Badge"
 	{
 		"ypos"														"r-6969"
-		"wide"														"0"
-		"tall"														"0"
-		"visible"													"0"
-		"enabled"													"0"
 	}
 	
 	"TeamScoresPanel"
@@ -160,6 +148,16 @@
 			"tall"													"28"
 		}			
 		
+		"RedTeamLabel"
+		{
+			"font"													"bh_Font24"
+			"xpos"													"145"
+			"ypos"													"9"
+			"zpos"													"1"
+			"wide"													"75"
+			"tall"													"28"
+		}
+		
 		"BlueTeamScore"
 		{
 			"font"													"bh_Font36"
@@ -184,17 +182,7 @@
 			"wide"													"80"
 			"tall"													"70"
 			"fgcolor"												"bh_Shadow"
-		}	
-			
-		"RedTeamLabel"
-		{
-			"font"													"bh_Font24"
-			"xpos"													"145"
-			"ypos"													"9"
-			"zpos"													"1"
-			"wide"													"75"
-			"tall"													"28"
-		}	
+		}
 		
 		"RedTeamScore"
 		{
@@ -221,13 +209,31 @@
 			"fgcolor"												"bh_Shadow"
 		}	
 	}
+
+	"bh_MVPPanelPin"
+	{	
+		"ControlName"												"Label"
+		"fieldName"													"bh_MVPPanelPin"
+		"xpos"														"0"
+		"ypos"														"89"
+		"zpos"														"0"
+		"wide"														"100"
+		"tall"														"0"
+		"visible"													"1"
+		"enabled"													"1"
+		"bgcolor_override"											"0 0 0 255"
+	}
 	
 	"bh_Background"
 	{
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+	
 		"ControlName"												"ImagePanel"
 		"fieldName"													"bh_Background"
 		"xpos"														"0"
-		"ypos"														"89"
+		"ypos"														"0"
 		"zpos"														"0"
 		"wide"														"224"
 		"tall"														"107"
@@ -243,20 +249,28 @@
 	}
 	
 	"TopPlayersLabel"
-	{	
+	{
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+	
 		"font"														"bh_Font10"
-		"xpos"														"15"
-		"ypos"														"90"
+		"xpos"														"-15"
+		"ypos"														"-1"
 		"zpos"														"3"
 		"wide"														"200"
 		"tall"														"20"
 	}
 	
 	"PointsThisRoundLabel"
-	{	
+	{
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
 		"font"														"bh_Font10"
-		"xpos"														"66"
-		"ypos"														"90"
+		"xpos"														"-66"
+		"ypos"														"-1"
 		"zpos"														"3"
 		"wide"														"140"
 		"tall"														"20"
@@ -264,8 +278,12 @@
 	
 	"HorizontalLine"
 	{
-		"xpos"														"15"
-		"ypos"														"105"
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
+		"xpos"														"-15"
+		"ypos"														"-16"
 		"zpos"														"3"
 		"wide"														"195"
 		"tall"														"1"
@@ -274,8 +292,12 @@
 	
 	"Player1Avatar"
 	{
-		"xpos"														"22"
-		"ypos"														"110"
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
+		"xpos"														"-22"
+		"ypos"														"-21"
 		"zpos"														"3"
 		"wide"														"14"
 		"tall"														"14"
@@ -283,8 +305,12 @@
 	
 	"Player2Avatar"
 	{
-		"xpos"														"22"
-		"ypos"														"126"
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
+		"xpos"														"-22"
+		"ypos"														"-37"
 		"zpos"														"3"
 		"wide"														"14"
 		"tall"														"14"
@@ -292,99 +318,143 @@
 	
 	"Player3Avatar"
 	{
-		"xpos"														"22"
-		"ypos"														"142"
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
+		"xpos"														"-22"
+		"ypos"														"-53"
 		"zpos"														"3"
 		"wide"														"14"
 		"tall"														"14"
 	}
 	
 	"Player1Name"
-	{	
-		"xpos"														"48"
-		"ypos"														"107"
+	{
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
+		"xpos"														"-48"
+		"ypos"														"-18"
 		"zpos"														"3"
 		"wide"														"75"
 		"tall"														"20"
 	}
 	
 	"Player2Name"
-	{	
-		"xpos"														"48"
-		"ypos"														"123"
+	{
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
+		"xpos"														"-48"
+		"ypos"														"-34"
 		"zpos"														"3"
 		"wide"														"75"
 		"tall"														"20"
 	}	
 	
 	"Player3Name"
-	{	
-		"xpos"														"48"
-		"ypos"														"139"
+	{
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
+		"xpos"														"-48"
+		"ypos"														"-50"
 		"zpos"														"3"
 		"wide"														"75"
 		"tall"														"20"
 	}
 	
 	"Player1Class"
-	{	
-		"xpos"														"125"
-		"ypos"														"107"
+	{
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
+		"xpos"														"-125"
+		"ypos"														"-18"
 		"zpos"														"3"
 		"wide"														"45"
 		"tall"														"20"
 	}
 	
 	"Player2Class"
-	{	
-		"xpos"														"125"
-		"ypos"														"123"
+	{
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
+		"xpos"														"-125"
+		"ypos"														"-34"
 		"zpos"														"3"
 		"wide"														"45"
 		"tall"														"20"
 	}
 	
 	"Player3Class"
-	{	
-		"xpos"														"125"
-		"ypos"														"139"
+	{
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
+		"xpos"														"-125"
+		"ypos"														"-50"
 		"zpos"														"3"
 		"wide"														"45"
 		"tall"														"20"
 	}	
 	
 	"Player1Score"
-	{	
-		"xpos"														"170"
-		"ypos"														"107"
+	{
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
+		"xpos"														"-170"
+		"ypos"														"-18"
 		"zpos"														"3"
 		"wide"														"30"
 		"tall"														"20"
 	}
-		
+	
 	"Player2Score"
-	{	
-		"xpos"														"170"
-		"ypos"														"123"
+	{
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
+		"xpos"														"-170"
+		"ypos"														"-34"
 		"zpos"														"3"
 		"wide"														"30"
 		"tall"														"20"
 	}
 		
 	"Player3Score"
-	{	
-		"xpos"														"170"
-		"ypos"														"139"
+	{
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
+		"xpos"														"-170"
+		"ypos"														"-50"
 		"zpos"														"3"
 		"wide"														"30"
 		"tall"														"20"
 	}
 	
 	"KillStreakLeaderLabel"
-	{	
+	{
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
 		"font"														"bh_Font8"
-		"xpos"														"15"
-		"ypos"														"154"
+		"xpos"														"-15"
+		"ypos"														"-65"
 		"zpos"														"3"
 		"wide"														"200"
 		"tall"														"20"
@@ -393,10 +463,14 @@
 	
 	"HorizontalLine2"
 	{
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
 		"ControlName"												"ImagePanel"
 		"fieldName"													"HorizontalLine2"
-		"xpos"														"15"
-		"ypos"														"169"
+		"xpos"														"-15"
+		"ypos"														"-80"
 		"zpos"														"3"
 		"wide"														"195"
 		"tall"														"1"
@@ -405,35 +479,51 @@
 	
 	"KillStreakPlayer1Avatar"
 	{
-		"xpos"														"22"
-		"ypos"														"176"
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
+		"xpos"														"-22"
+		"ypos"														"-87"
 		"zpos"														"3"
 		"wide"														"14"
 		"tall"														"14"
 	}
 	
 	"KillStreakPlayer1Name"
-	{	
-		"xpos"														"48"
-		"ypos"														"173"
+	{
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
+		"xpos"														"-48"
+		"ypos"														"-84"
 		"zpos"														"3"
 		"wide"														"75"
 		"tall"														"20"
 	}
 	
 	"KillStreakPlayer1Class"
-	{	
-		"xpos"														"125"
-		"ypos"														"173"
+	{
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
+		"xpos"														"-125"
+		"ypos"														"-84"
 		"zpos"														"3"
 		"wide"														"45"
 		"tall"														"20"
 	}
 	
 	"KillStreakPlayer1Score"
-	{	
-		"xpos"														"170"
-		"ypos"														"173"
+	{
+		"pin_to_sibling" 											"bh_MVPPanelPin"
+		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 									"0"
+		
+		"xpos"														"-170"
+		"ypos"														"-84"
 		"zpos"														"3"
 		"wide"														"30"
 		"tall"														"20"
