@@ -31,7 +31,7 @@
 		"labelText"													"#TF_Ball"
 		"textAlignment"												"center"
 		"font"														"bh_Font10"
-		"fgcolor_override"											"bh_white"
+		"fgcolor_override"											"bh_white"		// Hardcoded
 	}
 
 	"ItemEffectMeter"

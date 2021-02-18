@@ -6,6 +6,8 @@
 {
 	"PanelListPanel"
 	{
+		"bgcolor_override"											"bh_BGAverage"
+
 		"HatUseHeadCheckButton"
 		{
 			"xpos"													"-45"
@@ -25,15 +27,18 @@
 
 		"SetStyleButton"
 		{
+			"tall"													"20"
 			"labeltext"												"#bh_SetStyle"
 			"font"													"bh_Font14"
-			"PaintBackground"										"0"
-			"defaultBgColor_override"								"bh_ButtonBGDefault"
-			"armedBgColor_override"									"bh_ButtonBGArmed"
-			"depressedBgColor_override"								"bh_ButtonBGDepressed"
+			"PaintBackground"										"1"
 			"defaultFgColor_override"								"bh_ButtonDefault"
 			"armedFgColor_override" 								"bh_ButtonArmed"
 			"depressedFgColor_override" 							"bh_ButtonDepressed"
+			"defaultBgColor_override"								"bh_ButtonBGDefault"
+			"armedBgColor_override"									"bh_ButtonBGArmed"
+			"depressedBgColor_override"								"bh_ButtonBGDepressed"
+			"border_default"										"bh_b_NESW"
+			"border_armed"											"bh_b_NESW"
 		}
 	}
 }

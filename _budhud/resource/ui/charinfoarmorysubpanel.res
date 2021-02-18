@@ -8,6 +8,11 @@
 	{
 		"ypos"														"r-6969"
 	}
+
+	"DataPanel"
+	{
+		"border"													"bh_b_NESW"
+	}
 	
 	"armory_panel"
 	{

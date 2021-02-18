@@ -5,20 +5,18 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Wishlist
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-
 	- Center ammo pickup that appears in the lower center of the screen (can't center for all three digit place possibilities)
 	- Adjust wide value of text in Voice UI (adjusting it now doesn't appear to do anything)
-	- Ability to change color of itemeffectmeters
+	- Ability to change colors of itemeffectmeters
 	- Ability to use directional arrows in `vgui_drawtree` again (pls)
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Random useful info
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	- Context menu in backpack controlled by 
 	- Scoreboard font: resource\clientscheme -> ScoreboardVerySmall (or ScoreboardSmall)
 	- Scoreboard name/ping/score/etc font -> "DefaultVerySmall" (set to "" to disable)
 	- Killfeed font: \scripts\hudlayout.res -> "font" under "HudDeathNotice"
-	- Change Item Preset names by adding the following to chat_english.txt:
+	- Change Item Preset names (A, B, C, D) by adding the following to chat_english.txt:
 		"TF_ItemPresetName0"	"<name>"
 		"TF_ItemPresetName1"	"<name>"
 		"TF_ItemPresetName2"	"<name>"
@@ -44,8 +42,15 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Borders
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	bh_b_NESW				-	Standard budhud border
-	ReplayGrayDialogBorder	-	Used a lot for tooltips
+	bh_b_NESW				- Borders on NORTH, EAST, SOUTH, and WEST side of element
+	bh_b_NEW				- Borders on NORTH, EAST, and WEST side of element
+	bh_b_ESW				- Borders on EAST, SOUTH, and WEST side of element
+	bh_b_EW					- Borders on EAST and WEST side of element
+	bh_b_N					- Border on NORTH side of element
+	bh_b_E					- Border on EAST side of element
+	bh_b_S					- Border on SOUTH side of element
+	bh_b_W					- Border on WEST side of element
+	ReplayGrayDialogBorder	- Used a lot for tooltips
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// "Close" Buttons
@@ -62,44 +67,10 @@
 				"image"												"replay\thumbnails\menu_icons\close"
 			}
 		}
-		
-	// Text, standard button
-	
-	"bh_Back"
-	{
-		"ControlName"												"CExButton"
-		"fieldName"													"bh_Back"
-		"xpos"														"c-300"
-		"ypos"														"437"
-		"zpos"														"2"
-		"wide"														"100"
-		"tall"														"26"
-		"autoResize"												"0"
-		"pinCorner"													"3"
-		"visible"													"1"
-		"enabled"													"1"
-		"tabPosition"												"0"
-		"labelText"													"#bh_Back_QK"
-		"font"														"bh_Font12"
-		"textAlignment"												"center"
-		"dulltext"													"0"
-		"brighttext"												"0"
-		"default"													"1"
-		"Command"													"close"
-		"sound_depressed"											"UI/buttonclick.wav"
-		"sound_released"											"UI/buttonclickrelease.wav"
-		
-		"defaultBgColor_override"									"bh_ButtonBGDefault"
-		"armedBgColor_override"										"bh_ButtonBGArmed"
-		"depressedBgColor_override"									"bh_ButtonBGDepressed"
-		"defaultFgColor_override"									"bh_ButtonDefault"
-		"armedFgColor_override" 									"bh_ButtonArmed"
-		"depressedFgColor_override" 								"bh_ButtonDepressed"
-		"border_default"											"bh_b_NESW"
-		"border_armed"												"bh_b_NESW"
-	}
-	
-	// Add element
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Element Template
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	"bh_Template_Block"	
 	{
 		"ControlName"												"ImagePanel"
@@ -119,16 +90,18 @@
 		"paintbackgroundtype"										"0"
     }
 	
-	// Add button
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Button Template
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 	"bh_Template_Button"	
 	{
 		"ControlName"												"CExButton"
 		"fieldName"													"bh_Template_Button"
 		"xpos"														"30"
 		"ypos"														"75"
-		"zpos"														"6969"
+		"zpos"														"0"
 		"wide"														"100"
-		"tall"														"20"
+		"tall"														"26"
 		"autoResize"												"0"
 		"pinCorner"													"0"
 		"visible"													"1"
@@ -137,7 +110,7 @@
 
 		"labeltext"													"DRAWTREE 0/1"
 		"textalignment"												"center"
-		"font"														"bh_Font10"
+		"font"														"bh_Font12"
 		"command"													"engine incrementvar vgui_drawtree 0 1 1"
 		
 		"defaultBgColor_override"									"bh_ButtonBGDefault"
@@ -148,10 +121,10 @@
 		"depressedFgColor_override" 								"bh_ButtonDepressed"
 		"border_default"											"bh_b_NESW"
 		"border_armed"												"bh_b_NESW"
-    }	
+    }
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Button colors
+	// Button Colors
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 		
 		"defaultFgColor_override"									"bh_ButtonDefault"
@@ -166,10 +139,47 @@
 		// Button Colors
 		"image_drawcolor"											"255 255 255 255"
 		"image_armedcolor"											"240 134 49 255"
-		
 	
-	// Pins / Pins
-	// Pinned element moves relative to Pin in the inverse.
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// "Combobox" Colors
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+		"fgcolor_override"											"bh_white"
+		"bgcolor_override"											"bh_blank"
+		"disabledFgColor_override" 									"bh_white"
+		"selectionColor_override"									"bh_blank"
+		"selectionTextColor_override"								"bh_white"
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Background footer used in menus
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	"bh_BackgroundFooter"	
+	{
+		"ControlName"												"ImagePanel"
+		"fieldName"													"bh_BackgroundFooter"
+		"xpos"														"0"
+		"ypos"														"420"
+		"zpos"														"0"
+		"wide"														"f0"
+		"tall"														"61"
+		"autoResize"												"0"
+		"pinCorner"													"0"
+		"labeltext"													""
+		"visible"													"1"
+		"enabled"													"1"
+		"fillcolor"													"bh_Theme_BG20"
+		"border"													"bh_b_N"
+		"image"														""
+		"paintbackgroundtype"										"0"
+    }
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Pins
+	// A pinned element will always move relative to their parent element
+	// Good for things like shadows, etc. 
+	// Bear in mind x/y values move the pinned element oppositely as they usually do
+	// xpos 100 will move it 100 units to the LEFT instead of RIGHT, etc
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	"bh_PinTemplate"
 	{	

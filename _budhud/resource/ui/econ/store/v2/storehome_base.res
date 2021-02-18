@@ -143,8 +143,9 @@
 	
 	"MarketPlaceButton"
 	{
-		"xpos"														"c-60"
+		"xpos"														"c-50"
 		"ypos"														"320"
+		"font"														"bh_Font12"
 		"wide"														"100"
 		"tall"														"26"
 		"labelText"													"#bh_SteamMarket"
@@ -160,8 +161,8 @@
 	
 	"BackpackSpaceLabel"
 	{
-		"xpos"														"c-80"
-		"ypos"														"291"
-		"textAlignment"												"center"
+		"xpos"														"190"
+		"ypos"														"280"
+		"wide"														"160"
 	}
 }

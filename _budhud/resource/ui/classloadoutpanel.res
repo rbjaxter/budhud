@@ -164,15 +164,14 @@
 		"scaleImage"												"1"
 		"command"													"sv_cheats 1;r_skin 0;r_eyes 1"
 		
-		"defaultFgColor_override" 									"bh_red"
-		"armedFgColor_override" 									"bh_Theme_AccentPrimary"
+		"defaultFgColor_override" 									"bh_white"
+		"armedFgColor_override" 									"bh_red"
 		
 		"sound_depressed"											"UI/buttonclick.wav"
 		"sound_released"											"UI/buttonclickrelease.wav"
 		
 		"keyboardinputenabled"										"0"
 		"paintbackground"											"0"
-		"border"													"ReplayGrayDialogBorder"
 	}
 	
 	"bh_BLU"
@@ -195,14 +194,13 @@
 		"scaleImage"												"1"
 		"command"													"sv_cheats 1;r_skin 1;r_eyes 1"
 		
-		"defaultFgColor_override" 									"bh_blue"
-		"armedFgColor_override" 									"bh_Theme_AccentPrimary"
+		"defaultFgColor_override" 									"bh_white"
+		"armedFgColor_override" 									"bh_blue"
 		
 		"sound_depressed"											"UI/buttonclick.wav"
 		"sound_released"											"UI/buttonclickrelease.wav"
 		
 		"keyboardinputenabled"										"0"
 		"paintbackground"											"0"
-		"border"													"ReplayGrayDialogBorder"
 	}
 }
