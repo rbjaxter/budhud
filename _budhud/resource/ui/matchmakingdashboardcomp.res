@@ -31,6 +31,6 @@
 		"ypos"														"18"
 		"tall"														"30"
 		"font"														"bh_Font24"
-		"fgcolor_override"											"bh_Theme_AccentPrimary"
+		"fgcolor_override"											"bh_Theme_TextAccent"
 	}
 }

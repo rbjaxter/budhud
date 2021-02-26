@@ -38,7 +38,7 @@
 		"ypos"														"0"
 		"wide"														"250"
 		"tall"														"150"
-		"font"														"bh_Font40"
+		"font"														"bh_Font_HealthAmmoMain"
 		"fgcolor"													"bh_Ammo_Main"
 		"textAlignment"												"center"
 	}
@@ -53,7 +53,7 @@
 		"ypos"														"-1"
 		"wide"														"250"
 		"tall"														"150"
-		"font"														"bh_Font40"
+		"font"														"bh_Font_HealthAmmoMain"
 		"fgcolor"													"bh_Ammo_Main_Shadow"
 		"textAlignment"												"center"
 	}
@@ -65,7 +65,7 @@
 		"zpos"														"6"
 		"wide"														"250"
 		"tall"														"150"
-		"font"														"bh_Font24"
+		"font"														"bh_Font_AmmoReserve"
 		"fgcolor"													"bh_Ammo_Reserve"
 		"textAlignment"												"west"
 	}
@@ -81,7 +81,7 @@
 		"zpos"														"4"
 		"wide"														"250"
 		"tall"														"150"
-		"font"														"bh_Font24"
+		"font"														"bh_Font_AmmoReserve"
 		"fgcolor"													"bh_Ammo_Reserve_Shadow"
 		"textAlignment"												"west"
 	}
@@ -96,7 +96,7 @@
 		"ypos"														"0"
 		"wide"														"250"
 		"tall"														"150"
-		"font"														"bh_Font40"
+		"font"														"bh_Font_HealthAmmoMain"
 		"fgcolor"													"bh_Ammo_Main"
 		"textAlignment"												"center"
 	}
@@ -111,7 +111,7 @@
 		"ypos"														"-1"
 		"wide"														"250"
 		"tall"														"150"
-		"font"														"bh_Font40"
+		"font"														"bh_Font_HealthAmmoMain"
 		"fgcolor"													"bh_Ammo_Main_Shadow"
 		"textAlignment"												"center"
 	}

@@ -26,7 +26,7 @@
 		
 			"defaultBgColor_override"								"bh_blank"
 			"armedBgColor_override"									"bh_blank"
-			"depressedBgColor_override"								"bh_ButtonBGDepressed"
+			"depressedBgColor_override"								"bh_Theme_BG30"
 			"defaultFgColor_override"								"bh_white"
 			"armedFgColor_override" 								"bh_bgreen"
 			"depressedFgColor_override" 							"bh_ButtonDepressed"
@@ -57,7 +57,7 @@
 		
 			"defaultBgColor_override"								"bh_blank"
 			"armedBgColor_override"									"bh_blank"
-			"depressedBgColor_override"								"bh_ButtonBGDepressed"
+			"depressedBgColor_override"								"bh_Theme_BG30"
 			"defaultFgColor_override"								"bh_white"
 			"armedFgColor_override" 								"bh_bgreen"
 			"depressedFgColor_override" 							"bh_ButtonDepressed"
@@ -88,7 +88,7 @@
 		
 			"defaultBgColor_override"								"bh_blank"
 			"armedBgColor_override"									"bh_blank"
-			"depressedBgColor_override"								"bh_ButtonBGDepressed"
+			"depressedBgColor_override"								"bh_Theme_BG30"
 			"defaultFgColor_override"								"bh_white"
 			"armedFgColor_override" 								"bh_bgreen"
 			"depressedFgColor_override" 							"bh_ButtonDepressed"
@@ -119,7 +119,7 @@
 		
 			"defaultBgColor_override"								"bh_blank"
 			"armedBgColor_override"									"bh_blank"
-			"depressedBgColor_override"								"bh_ButtonBGDepressed"
+			"depressedBgColor_override"								"bh_Theme_BG30"
 			"defaultFgColor_override"								"bh_white"
 			"armedFgColor_override" 								"bh_bgreen"
 			"depressedFgColor_override" 							"bh_ButtonDepressed"

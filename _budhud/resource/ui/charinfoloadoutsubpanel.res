@@ -10,7 +10,7 @@
 		"bgcolor_override"											"bh_Theme_BG20"
 		"infocus_bgcolor_override" 									"bh_Theme_BG20"
 		"outoffocus_bgcolor_override" 								"bh_Theme_BG20"
-		"itemcountcolor"											"bh_Theme_AccentPrimary"
+		"itemcountcolor"											"bh_Theme_TextAccent"
 		"itemcountcolor_noitems"									"bh_gray"
 		
 		"class_ypos"												"40"

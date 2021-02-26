@@ -61,7 +61,7 @@
 		"zpos"														"6"
 		"wide"														"250"
 		"tall"														"150"
-		"font"														"bh_Font40"
+		"font"														"bh_Font_HealthAmmoMain"
 		"fgcolor"													"bh_Health_Main"
 		"textAlignment"												"center"
 	}
@@ -83,7 +83,7 @@
 		"enabled"													"1"
 		"labelText"													"%Health%"
 		"textAlignment"												"center"	
-		"font"														"bh_Font40"
+		"font"														"bh_Font_HealthAmmoMain"
 		"fgcolor"													"bh_Shadow"
 	}
 	

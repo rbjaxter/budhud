@@ -28,7 +28,7 @@
 	"ReturnButton"
 	{
 		"defaultFgColor_override"									"bh_blank"
-		"armedFgColor_override" 									"bh_ButtonArmed"
+		"armedFgColor_override" 									"bh_Theme_TextAccent"
 		"depressedFgColor_override" 								"bh_ButtonDepressed"
 	}
 	
@@ -36,7 +36,7 @@
 	{
 		"ypos"														"0"
 		"defaultFgColor_override"									"bh_blank"
-		"armedFgColor_override" 									"bh_ButtonArmed"
+		"armedFgColor_override" 									"bh_Theme_TextAccent"
 		"depressedFgColor_override" 								"bh_ButtonDepressed"
 	}
 }

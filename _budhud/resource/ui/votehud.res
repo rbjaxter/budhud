@@ -1,9 +1,35 @@
 "Resource/UI/VoteHud.res"
 {	
+	"VoteActive"
+	{
+		"bgcolor_override"											"bh_ItemPanel"
+		"border"													"bh_b_NESW"
+	}
+
+	"VotePassed"
+	{
+		"bgcolor_override"											"bh_ItemPanel"
+		"border"													"bh_b_NESW"
+	}
+	
+	"CallVoteFailed"
+	{
+		"bgcolor_override"											"bh_ItemPanel"
+		"border"													"bh_b_NESW"
+	}	
+	
+	"VoteFailed"
+	{
+		"bgcolor_override"											"bh_ItemPanel"
+		"border"													"bh_b_NESW"
+	}
+
 	"VoteSetupDialog"
 	{
-		"border"													"ReplayGrayDialogBorder"
-			
+		"bgcolor_override"											"bh_ItemPanel"
+		"border"													"bh_b_NESW"
+		"PaintBackground"											"1"
+
 		"CallVoteButton"
 		{
 			"ypos"													"r-6969"
@@ -38,11 +64,11 @@
 			"sound_depressed"										"UI/buttonclick.wav"
 			"sound_released"										"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"								"bh_ButtonBGDefault"
-			"armedBgColor_override"									"bh_ButtonBGArmed"
-			"depressedBgColor_override"								"bh_ButtonBGDepressed"
-			"defaultFgColor_override"								"bh_ButtonDefault"
-			"armedFgColor_override" 								"bh_ButtonArmed"
+			"defaultBgColor_override"								"bh_Theme_BG20"
+			"armedBgColor_override"									"bh_Theme_BG30"
+			"depressedBgColor_override"								"bh_Theme_BG30"
+			"defaultFgColor_override"								"bh_Theme_TextSecondary"
+			"armedFgColor_override" 								"bh_Theme_TextAccent"
 			"depressedFgColor_override" 							"bh_ButtonDepressed"
 			"border_default"										"bh_b_NESW"
 			"border_armed"											"bh_b_NESW"
@@ -72,11 +98,11 @@
 			"sound_depressed"										"UI/buttonclick.wav"
 			"sound_released"										"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"								"bh_ButtonBGDefault"
-			"armedBgColor_override"									"bh_ButtonBGArmed"
-			"depressedBgColor_override"								"bh_ButtonBGDepressed"
-			"defaultFgColor_override"								"bh_ButtonDefault"
-			"armedFgColor_override" 								"bh_ButtonArmed"
+			"defaultBgColor_override"								"bh_Theme_BG20"
+			"armedBgColor_override"									"bh_Theme_BG30"
+			"depressedBgColor_override"								"bh_Theme_BG30"
+			"defaultFgColor_override"								"bh_Theme_TextSecondary"
+			"armedFgColor_override" 								"bh_Theme_TextAccent"
 			"depressedFgColor_override" 							"bh_ButtonDepressed"
 			"border_default"										"bh_b_NESW"
 			"border_armed"											"bh_b_NESW"

@@ -72,7 +72,7 @@
 	event OvertimeLabelPulseRed
 	{
 		Animate				OvertimeLabel 						fgcolor						bh_white					Linear 0.0 0.3
-		Animate				OvertimeLabel 						fgcolor						bh_Theme_AccentPrimary		Linear 0.3 0.3
+		Animate				OvertimeLabel 						fgcolor						bh_Theme_TextAccent			Linear 0.3 0.3
 	
 		RunEvent			OvertimeLabelPulseRed 											0.6
 	}
@@ -80,7 +80,7 @@
 	event SuddenDeathLabelPulseRed
 	{
 		Animate				SuddenDeathLabel 					fgcolor						bh_white					Linear 0.0 0.3
-		Animate				SuddenDeathLabel 					fgcolor						bh_Theme_AccentPrimary		Linear 0.3 0.3
+		Animate				SuddenDeathLabel 					fgcolor						bh_Theme_TextAccent			Linear 0.3 0.3
 	
 		RunEvent 			SuddenDeathLabelPulseRed 										0.2
 	}

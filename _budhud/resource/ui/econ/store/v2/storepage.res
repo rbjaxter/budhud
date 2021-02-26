@@ -165,13 +165,13 @@
 	"NameFilterTextEntry"
 	{
 		"bgcolor_override"											"bh_white"
-		"selectionColor_override"									"bh_Theme_AccentPrimary"
+		"selectionColor_override"									"bh_Theme_TextAccent"
 	}
 	
 	"SortFilterComboBox"
 	{
 		"bgcolor_override"											"bh_white"
-		"selectionColor_override"									"bh_Theme_AccentPrimary"
+		"selectionColor_override"									"bh_Theme_TextAccent"
 		
 		"Button"
 		{
@@ -179,7 +179,7 @@
 			"armedBgColor_override"									"bh_ButtonBlank"
 			"depressedBgColor_override"								"bh_ButtonBlank"
 			"defaultFgColor_override"								"bh_gray"
-			"armedFgColor_override" 								"bh_ButtonArmed"
+			"armedFgColor_override" 								"bh_Theme_TextAccent"
 			"depressedFgColor_override" 							"bh_ButtonDepressed"
 		}
 	}
@@ -190,7 +190,7 @@
 		"armedBgColor_override"										"bh_ButtonBlank"
 		"depressedBgColor_override"									"bh_ButtonBlank"
 		"defaultFgColor_override"									"bh_gray"
-		"armedFgColor_override" 									"bh_ButtonArmed"
+		"armedFgColor_override" 									"bh_Theme_TextAccent"
 		"depressedFgColor_override" 								"bh_ButtonDepressed"
 	}
 	
@@ -208,7 +208,7 @@
 			"armedBgColor_override"									"bh_ButtonBlank"
 			"depressedBgColor_override"								"bh_ButtonBlank"
 			"defaultFgColor_override"								"bh_gray"
-			"armedFgColor_override" 								"bh_ButtonArmed"
+			"armedFgColor_override" 								"bh_Theme_TextAccent"
 			"depressedFgColor_override" 							"bh_ButtonDepressed"
 		}
 	}
@@ -239,8 +239,8 @@
 		"defaultBgColor_override"									"bh_ButtonBlank"
 		"armedBgColor_override"										"bh_ButtonBlank"
 		"depressedBgColor_override"									"bh_ButtonBlank"
-		"defaultFgColor_override"									"bh_ButtonDefault"
-		"armedFgColor_override" 									"bh_ButtonArmed"
+		"defaultFgColor_override"									"bh_Theme_TextSecondary"
+		"armedFgColor_override" 									"bh_Theme_TextAccent"
 		"depressedFgColor_override" 								"bh_ButtonDepressed"
 	}
 	
@@ -259,8 +259,8 @@
 		"defaultBgColor_override"									"bh_ButtonBlank"
 		"armedBgColor_override"										"bh_ButtonBlank"
 		"depressedBgColor_override"									"bh_ButtonBlank"
-		"defaultFgColor_override"									"bh_ButtonDefault"
-		"armedFgColor_override" 									"bh_ButtonArmed"
+		"defaultFgColor_override"									"bh_Theme_TextSecondary"
+		"armedFgColor_override" 									"bh_Theme_TextAccent"
 		"depressedFgColor_override" 								"bh_ButtonDepressed"
 	}
 	

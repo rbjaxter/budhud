@@ -75,7 +75,7 @@
 			"PaintBackground"										"0"
 			
 			"defaultFgColor_override" 								"bh_white"
-			"armedFgColor_override" 								"bh_Theme_AccentPrimary"
+			"armedFgColor_override" 								"bh_Theme_TextAccent"
 
 			"border_default"										"NoBorder"
 			"border_armed"											"NoBorder"

@@ -62,7 +62,7 @@
 		"tall"														"80"
 		"textAlignment"												"north-west"
 		"font"														"bh_Font10"
-		"armedfgcolor_override"										"bh_Theme_AccentPrimary"
+		"armedfgcolor_override"										"bh_Theme_TextAccent"
 		"defaultfgcolor_override"									"bh_white"
 	}
 	
@@ -109,7 +109,7 @@
 		"tall"														"80"
 		"textAlignment"												"north-east"
 		"font"														"bh_Font10"
-		"armedfgcolor_override"										"bh_Theme_AccentPrimary"
+		"armedfgcolor_override"										"bh_Theme_TextAccent"
 		"defaultfgcolor_override"									"bh_white"
 	}	
 	
@@ -156,7 +156,7 @@
 		"tall"														"80"
 		"textAlignment"												"south-east"
 		"font"														"bh_Font10"
-		"armedfgcolor_override"										"bh_Theme_AccentPrimary"
+		"armedfgcolor_override"										"bh_Theme_TextAccent"
 		"defaultfgcolor_override"									"bh_white"
 		"labeltext"													"&R"
 	}
@@ -183,7 +183,7 @@
 		"command"													"jointeam auto"
 		"associated_model"											"autodoor"
 		"font"														"bh_Font16"
-		"armedfgcolor_override"										"bh_Theme_AccentPrimary"
+		"armedfgcolor_override"										"bh_Theme_TextAccent"
 		"defaultfgcolor_override"									"bh_white"
 	}
 	
@@ -217,7 +217,7 @@
 		"tall"														"80"
 		"textAlignment"												"south-west"
 		"font"														"bh_Font10"
-		"armedfgcolor_override"										"bh_Theme_AccentPrimary"
+		"armedfgcolor_override"										"bh_Theme_TextAccent"
 		"defaultfgcolor_override"									"bh_white"
 		"labeltext"													"&E"
 	}
@@ -244,7 +244,7 @@
 		"command"													"jointeam spectate"
 		"associated_model"											"spectate"	
 		"font"														"bh_Font16"
-		"armedfgcolor_override"										"bh_Theme_AccentPrimary"
+		"armedfgcolor_override"										"bh_Theme_TextAccent"
 		"defaultfgcolor_override"									"bh_white"
 	}
 	
@@ -285,7 +285,7 @@
 		"Command"													"cancelmenu"
 		"font"														"bh_Font12"
 		"paintbackground"											"0"
-		"armedfgcolor_override"										"bh_Theme_AccentPrimary"
+		"armedfgcolor_override"										"bh_Theme_TextAccent"
 		"defaultfgcolor_override"									"bh_white"
 	}
 

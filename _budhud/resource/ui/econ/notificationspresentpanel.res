@@ -2,10 +2,10 @@
 {
 	"NotificationsPresentPanel"
 	{
-		"xpos"														"r70"
-		"ypos"														"c-214"
-		"wide"														"70"
-		"tall"														"10"
+		"xpos"														"r95"
+		"ypos"														"c-228"
+		"wide"														"100"
+		"tall"														"50"
 		"bgcolor_override"											"bh_blank"
 		"border"													"NoBorder"
 	}
@@ -17,7 +17,7 @@
 		"wide"														"f0"
 		"tall"														"f0"
 		"labeltext"													"#bh_PendingAlerts"
-		"font"														"bh_Font10"
-		"fgcolor_override"											"bh_Theme_AccentPrimary"
+		"font"														"bh_Font14"
+		"fgcolor_override"											"bh_Theme_TextAccent"
 	}
 }

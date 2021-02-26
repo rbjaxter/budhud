@@ -47,8 +47,8 @@
 		"ShowExplanationsButton"
 		{
 			"paintbackground"										"0"
-			"defaultFgColor_override"								"bh_ButtonDefault"
-			"armedFgColor_override" 								"bh_ButtonArmed"
+			"defaultFgColor_override"								"bh_Theme_TextSecondary"
+			"armedFgColor_override" 								"bh_Theme_TextAccent"
 			"depressedFgColor_override" 							"bh_ButtonDepressed"
 		}
 		

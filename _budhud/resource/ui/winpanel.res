@@ -67,6 +67,16 @@
 		"wide"														"500"
 		"tall"														"100"
 
+		"BlueScoreBG"
+		{
+			"ypos"													"r-6969"
+		}
+		
+		"RedScoreBG"
+		{
+			"ypos"													"r-6969"
+		}
+
 		"BlueLeaderAvatar"
 		{
 			"ypos"													"r-6969"
@@ -111,30 +121,11 @@
 			"ypos"													"10"
 			"wide"													"112"
 			"tall"													"27"
-			"border"												"bh_b_Red"
 			"visible" 												"1"
 			"enabled" 												"1"
 			"fillcolor" 											""
 			"draw_corner_width"										"0"
 			"draw_corner_height"									"0"
-			"border"												"bh_b_Red"
-		}		
-		
-		"BlueScoreBG"
-		{
-			"xpos"													"0"
-			"ypos"													"r-6969"
-			"wide"													"112"
-			"tall"													"25"
-			"border"												"bh_b_Blue"
-		}
-		
-		"RedScoreBG"
-		{
-			"xpos"													"112"
-			"ypos"													"r-6969"
-			"wide"													"112"
-			"tall"													"25"
 			"border"												"bh_b_Red"
 		}
 		

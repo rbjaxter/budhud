@@ -140,7 +140,7 @@
 				"labeltext"											""
 				"visible"											"1"
 				"enabled"											"1"
-				"fillcolor"											"bh_Theme_AccentPrimary"
+				"fillcolor"											"bh_Theme_TextAccent"
 				"image"												""
 				"paintbackgroundtype"								"0"
 			}
@@ -177,7 +177,7 @@
 				"tall"												"13"
 				"labelText"											"%chargeamount%"
 				"textAlignment"										"east"
-				"fgcolor"											"bh_Theme_AccentPrimary"
+				"fgcolor"											"bh_Theme_TextAccent"
 			}
 			
 			"chargeamountBG"

@@ -284,24 +284,18 @@ Scheme
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 		
 		// Standard
-		"bh_Theme_AccentPrimary"									"240 134 049 255"
+		"bh_Theme_TextAccent"										"240 134 049 255"
 		"bh_Theme_TextSecondary"									"255 255 255 255"
 		
 		"bh_Theme_BG00"												"015 015 015 255"
 		"bh_Theme_BG20"												"025 025 025 255"										
+		"bh_Theme_BG30"												"035 035 035 255"										
 		"bh_Theme_BG40"												"045 045 045 255"
 		"bh_Theme_BG60"												"065 065 065 255"
 		
-		"bh_ButtonDefault"											"255 255 255 255"		// White
 		"bh_ButtonBlank"											"000 000 000 000"
-		"bh_ButtonArmed"											"240 134 049 255"		// Match to "bh_Theme_AccentPrimary"
-		"bh_ButtonDepressed"										"255 255 255 255"		// White
-		"bh_ButtonBGDefault"										"025 025 025 255"
-		"bh_ButtonBGArmed"											"035 035 035 255"
-		"bh_ButtonBGDepressed"										"035 035 035 255"
-
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
+		"bh_ButtonDepressed"										"255 255 255 255"
+		
 		"bh_ItemPanel"												"035 035 035 255"
 		"bh_MouseOverBG"											"035 035 035 255"		// Item mouse-over BG color
 		"bh_border"													"150 150 150 255"		// Color of all budhud borders (buttons, etc)
@@ -311,6 +305,9 @@ Scheme
 		"bh_BGLighter"												"150 150 150 255"
 		"bh_BGBlue"													"070 130 180 090"
 		"bh_BGRed"													"205 050 050 090"
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
 		"bh_Shadow"													"000 000 000 255"
 		"bh_isError"												"254 002 209 255"		// Bright pink to locate
 
@@ -358,14 +355,14 @@ Scheme
 		"BgColor"													"000 000 000 060"		// Does nothing		
 		
 		// vgui_controls color specifications
-		ReplayBrowser.Details.TitleEdit.Carat.FgColor				"bh_Theme_AccentPrimary"
+		ReplayBrowser.Details.TitleEdit.Carat.FgColor				"bh_Theme_TextAccent"
 		Replay.RenderDialog.BgColor									"30 30 30 255"
 		
-		Econ.Button.BgColor											"bh_ButtonBGDefault"
-		Econ.Button.FgColor											"bh_ButtonDefault"
-		Econ.Button.ArmedBgColor									"bh_ButtonBGArmed"
-		Econ.Button.ArmedFgColor									"bh_ButtonArmed"
-		Econ.Button.DepressedBgColor								"bh_ButtonBGDepressed"
+		Econ.Button.BgColor											"bh_Theme_BG20"
+		Econ.Button.FgColor											"bh_Theme_TextSecondary"
+		Econ.Button.ArmedBgColor									"bh_Theme_BG30"
+		Econ.Button.ArmedFgColor									"bh_Theme_TextAccent"
+		Econ.Button.DepressedBgColor								"bh_Theme_BG30"
 		Econ.Button.DepressedFgColor								"bh_ButtonDepressed"
 	
 		// Loadout presets
@@ -374,14 +371,14 @@ Scheme
 		Econ.Button.PresetDepressedColorBg							"25 25 25 255"
 	
 		// Backpack page numbers
-		Button.TextColor											"bh_ButtonDefault"
+		Button.TextColor											"bh_Theme_TextSecondary"
 		Button.BgColor												"bh_Theme_BG20"
 		Button.ArmedTextColor										"bh_white"
-		Button.ArmedBgColor											"bh_ButtonBGArmed"
+		Button.ArmedBgColor											"bh_Theme_BG30"
 		Button.SelectedTextColor									"bh_white"
 		Button.SelectedBgColor										"bh_Theme_BG20"
 		Button.DepressedTextColor									"bh_white"
-		Button.DepressedBgColor										"bh_ButtonBGDepressed"
+		Button.DepressedBgColor										"bh_Theme_BG30"
 		
 		// Backpack "Stock Items" checkmark
 		CheckButton.TextColor										"bh_white"
