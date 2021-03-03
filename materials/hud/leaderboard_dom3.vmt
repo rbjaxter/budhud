@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture"		"vgui/replay/thumbnails/improved_icons/leaderboard_dom3"
-	"$translucent"		"1"
-	"$vertexalpha"		"1"
-	"$vertexcolor"		"1"
-	"$ignorez"		"1"
-}
