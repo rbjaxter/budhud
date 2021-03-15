@@ -50,7 +50,7 @@
 		"tall"														"32"
 		"textalignment"												"center"
 	
-		"font"														"bh_Font20"
+		"font"														"bh_Font16"
 		"defaultFgColor_override"									"bh_Theme_TextSecondary"
 		"armedFgColor_override" 									"bh_Theme_TextAccent"
 		"depressedFgColor_override" 								"bh_ButtonDepressed"

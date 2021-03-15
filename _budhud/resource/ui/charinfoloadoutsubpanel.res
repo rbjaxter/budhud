@@ -55,6 +55,7 @@
 	"ShowCraftingLabel"
 	{
 		"fgcolor"													"bh_white"
+		"labeltext"													"#bh_Crafting"
 	}
 
 	"ShowArmoryLabel"
@@ -65,6 +66,7 @@
 	"ShowTradeLabel"
 	{
 		"fgcolor"													"bh_white"
+		"labeltext"													"#bh_MannCoCatalog"
 	}
 	
 	"ClassLabel"

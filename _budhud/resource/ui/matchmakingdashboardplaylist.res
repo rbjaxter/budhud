@@ -8,9 +8,6 @@
 		"wide"														"220"
 		"tall"														"f0"
 		"zpos"														"2000"		// BackgroundDimmer zpos is locked to 1000 (lol)
-		
-		"bgcolor_override"											"bh_blank"
-		"border"													"NoBorder"
 	}
 	
 	"playlist"

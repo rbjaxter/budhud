@@ -113,6 +113,9 @@
 		"font"														"bh_Font12"
 		"command"													"engine incrementvar vgui_drawtree 0 1 1"
 		
+		"sound_depressed"											"UI/buttonclick.wav"
+		"sound_released"											"UI/buttonclickrelease.wav"
+		
 		"defaultBgColor_override"									"bh_Theme_BG20"
 		"armedBgColor_override"										"bh_Theme_BG30"
 		"depressedBgColor_override"									"bh_Theme_BG30"
