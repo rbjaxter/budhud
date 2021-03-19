@@ -36,22 +36,22 @@
 
 	"specgui"
 	{
-		// BLU
-		"team1_player_delta_y"										"-16"
-		"team1_player_base_y"										"206"
+		// BLU (RED in MvM)
+		"team1_player_delta_y"										"-16"	// Match to playerpanels_kv tall
+		"team1_player_base_y"										"300"
 		"team1_player_delta_x"										"0"
-		"team1_player_base_offset_x"								"0"
+		"team1_player_base_offset_x"								"-569"	// idk why this number's this lul
 		
 		// RED
-		"team2_player_delta_y"										"16"
-		"team2_player_base_y"										"258"
+		"team2_player_delta_y"										"-16"
+		"team2_player_base_y"										"300"
 		"team2_player_delta_x"										"0"
-		"team2_player_base_offset_x"								"0"	
+		"team2_player_base_offset_x"								"269"	// idk why this number's this either
 		
 		"playerpanels_kv"
 		{
 			"visible"												"0"
-			"wide"													"140"
+			"wide"													"300"	// 150 for each side of the playerpanel
 			"tall"													"16"
 			"zpos"													"1"
 
@@ -65,18 +65,43 @@
 				"ControlName"										"CExLabel"
 				"fieldName"											"playername"
 				"font"												"bh_Font10"
-				"xpos"												"42"
+				"xpos"												"34"	// 0(left center)-8(classimage)-23(HealthIcon)-4(padding)+69(150-wide)
 				"ypos"												"0"
 				"zpos"												"5"
-				"wide"												"73"
+				"wide"												"81"	// 150(playerpanelwide)-33(offsetxpos)-30(chargeamount)-4(padding)
 				"tall"												"16"
+				"textAlignment"										"east"
+				"fgcolor"											"bh_white"
+			}
+			
+			"bh_playername_right"
+			{
+				"ControlName"										"CExLabel"
+				"fieldName"											"bh_playername_right"
+				"font"												"bh_Font10"
+				"xpos"												"185"	// 150(right center)+8(classimage)+23(HealthIcon)+4(padding)
+				"ypos"												"0"
+				"zpos"												"5"
+				"wide"												"81"	// 150(playerpanelwide)-33(offsetxpos)-30(chargeamount)-4(padding)
+				"tall"												"16"
+				"autoResize"										"0"
+				"pinCorner"											"0"
+				"visible"											"1"
+				"labelText"											"%playername%"
 				"textAlignment"										"west"
 				"fgcolor"											"bh_white"
 			}
 			
+			////////////////////////////////////////////////////////////////////////////////////////////////////
+			// Match the following wide/tall values to whatever HealthIcon becomes
+			// - (this file) > bh_HealthBlock
+			// - healthiconpanel.res > HealthIcon
+			// - spectatortournamentguihealth > PlayerStatusHealthValue
+			////////////////////////////////////////////////////////////////////////////////////////////////////
+
 			"classimage"
 			{
-				"xpos"												"0"
+				"xpos"												"142"
 				"ypos"												"1"
 				"zpos"												"4"
 				"wide"												"16"
@@ -85,7 +110,7 @@
 			
 			"classimagebg"
 			{
-				"xpos"												"0"
+				"xpos"												"142"
 				"ypos"												"0"
 				"zpos"												"3"
 				"wide"												"16"
@@ -95,26 +120,26 @@
 				"bgcolor_override"									"bh_Theme_BG20"
 			}
 			
-			"HealthIcon"
+			"HealthIcon"	// Cannot be duplicated
 			{
-				"xpos"												"10"
-				"ypos" 												"-5"
+				"xpos"												"118"	// 150(right center)-8(classimage)-24(healthblock)
+				"ypos" 												"0"
 				"zpos" 												"2"
-				"wide" 												"29"
-				"tall" 												"21"
+				"wide"												"64"	// 48(x2original)+8(classimage)+8(4padding)
+				"tall" 												"16"	// playerpanels_kv tall
 				"visible" 											"1"
 				"enabled" 											"1"
 				"HealthBonusPosAdj"									"1000"
 			}
 			
-			"bh_HealthBlock"	
+			"bh_HealthBlock_Left"
 			{
 				"ControlName"										"ImagePanel"
-				"fieldName"											"bh_HealthBlock"
-				"xpos"												"16"
+				"fieldName"											"bh_HealthBlock_Left"
+				"xpos"												"118"	// 150(right center)-8(classimage)-24(healthblock)
 				"ypos"												"0"
 				"zpos"												"0"
-				"wide"												"23"
+				"wide"												"24"
 				"tall"												"16"
 				"autoResize"										"0"
 				"pinCorner"											"0"
@@ -125,25 +150,63 @@
 				"image"												""
 				"paintbackgroundtype"								"0"
 			}			
-
-			"bh_VerticalLine"	
+			
+			"bh_HealthBlock_Right"
 			{
 				"ControlName"										"ImagePanel"
-				"fieldName"											"bh_VerticalLine"
-				"xpos"												"0"
+				"fieldName"											"bh_HealthBlock_Right"
+				"xpos"												"158"	// 150(right center)+8(classimage)
 				"ypos"												"0"
-				"zpos"												"500"
-				"wide"												"1"
-				"tall"												"f0"
+				"zpos"												"0"
+				"wide"												"24"
+				"tall"												"16"
 				"autoResize"										"0"
 				"pinCorner"											"0"
 				"labeltext"											""
 				"visible"											"1"
 				"enabled"											"1"
-				"fillcolor"											"bh_Theme_TextAccent"
+				"fillcolor"											"bh_Theme_BG20"
 				"image"												""
 				"paintbackgroundtype"								"0"
 			}
+
+			//"bh_VerticalLine_Left"	
+			//{
+			//	"ControlName"										"ImagePanel"
+			//	"fieldName"											"bh_VerticalLine_Left"
+			//	"xpos"												"142"
+			//	"ypos"												"0"
+			//	"zpos"												"500"
+			//	"wide"												"1"
+			//	"tall"												"f0"
+			//	"autoResize"										"0"
+			//	"pinCorner"											"0"
+			//	"labeltext"											""
+			//	"visible"											"1"
+			//	"enabled"											"1"
+			//	"fillcolor"											"bh_Theme_TextAccent"
+			//	"image"												""
+			//	"paintbackgroundtype"								"0"
+			//}
+			//
+			//"bh_VerticalLine_Right"	
+			//{
+			//	"ControlName"										"ImagePanel"
+			//	"fieldName"											"bh_VerticalLine_Right"
+			//	"xpos"												"157"
+			//	"ypos"												"0"
+			//	"zpos"												"500"
+			//	"wide"												"1"
+			//	"tall"												"f0"
+			//	"autoResize"										"0"
+			//	"pinCorner"											"0"
+			//	"labeltext"											""
+			//	"visible"											"1"
+			//	"enabled"											"1"
+			//	"fillcolor"											"bh_Theme_TextAccent"
+			//	"image"												""
+			//	"paintbackgroundtype"								"0"
+			//}
 			
 			"ReadyBG"
 			{
@@ -170,33 +233,77 @@
 			"chargeamount"
 			{
 				"font"												"bh_Font14"
-				"xpos"												"108"
-				"ypos"												"1"
+				"xpos"												"4"		// 0(base)+4(padding)
+				"ypos"												"0"
 				"zpos"												"6"
 				"wide"												"30"
-				"tall"												"13"
+				"tall"												"16"
+				"labelText"											"%chargeamount%"
+				"textAlignment"										"west"
+				"fgcolor"											"bh_Theme_TextAccent"
+			}
+
+			"bh_ChargeAmountShadow_Left"
+			{
+				"pin_to_sibling" 									"chargeamount"
+				"pin_corner_to_sibling" 							"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 							"0"
+
+				"ControlName"										"CExLabel"
+				"fieldName"											"chargeamountBG"
+				"font"												"bh_Font14"
+				"xpos"												"-1"
+				"ypos"												"-1"
+				"zpos"												"6"
+				"wide"												"30"
+				"tall"												"16"
+				"autoResize"										"0"
+				"pinCorner"											"0"
+				"visible"											"1"
+				"labelText"											"%chargeamount%"
+				"textAlignment"										"west"
+				"fgcolor"											"bh_black"
+			}
+			
+			"bh_ChargeAmount_Right"
+			{
+				"ControlName"										"CExLabel"
+				"fieldName"											"bh_ChargeAmount_Right"
+				"font"												"bh_Font14"
+				"xpos"												"266"	// 270(base)-4(padding)
+				"ypos"												"0"
+				"zpos"												"6"
+				"wide"												"30"
+				"tall"												"16"
+				"autoResize"										"0"
+				"pinCorner"											"0"
+				"visible"											"1"
 				"labelText"											"%chargeamount%"
 				"textAlignment"										"east"
 				"fgcolor"											"bh_Theme_TextAccent"
 			}
-			
-			"chargeamountBG"
+
+			"bh_ChargeAmountShadow_Right"
 			{
+				"pin_to_sibling" 									"bh_ChargeAmount_Right"
+				"pin_corner_to_sibling" 							"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 							"0"
+
 				"ControlName"										"CExLabel"
-				"fieldName"											"chargeamountBG"
+				"fieldName"											"bh_ChargeAmountShadow_Right"
 				"font"												"bh_Font14"
-				"xpos"												"109"
-				"ypos"												"2"
+				"xpos"												"-1"
+				"ypos"												"-1"
 				"zpos"												"6"
 				"wide"												"30"
-				"tall"												"13"
+				"tall"												"16"
 				"autoResize"										"0"
 				"pinCorner"											"0"
 				"visible"											"1"
 				"labelText"											"%chargeamount%"
 				"textAlignment"										"east"
 				"fgcolor"											"bh_black"
-			}			
+			}
 		}	
 	}
 
