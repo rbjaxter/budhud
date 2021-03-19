@@ -63,7 +63,8 @@
 		
 			"ScrollBar"
 			{
-				"ypos"												"r-6969"
+				"xpos"												"r5"
+				"wide"												"6"
 			}
 		}
 	}

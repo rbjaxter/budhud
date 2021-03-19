@@ -27,14 +27,12 @@
 	
 	"ReturnButton"
 	{
-		"defaultFgColor_override"									"bh_blank"
-		"armedFgColor_override" 									"bh_Theme_TextAccent"
-		"depressedFgColor_override" 								"bh_ButtonDepressed"
+		"ypos"														"r-6969"
 	}
 	
 	"CloseButton"
 	{
-		"ypos"														"0"
+		"ypos"														"r-6969"
 		"defaultFgColor_override"									"bh_blank"
 		"armedFgColor_override" 									"bh_Theme_TextAccent"
 		"depressedFgColor_override" 								"bh_ButtonDepressed"
