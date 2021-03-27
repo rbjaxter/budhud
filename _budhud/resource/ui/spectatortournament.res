@@ -37,16 +37,18 @@
 	"specgui"
 	{
 		// BLU (RED in MvM)
-		"team1_player_delta_y"										"-16"	// Match to playerpanels_kv tall
-		"team1_player_base_y"										"300"
+		"team1_player_base_x"										"-140"	//-140 Needed to make panels work in MvM. This line isn't used anywhere in def hud btw lol
 		"team1_player_delta_x"										"0"
+		"team1_player_delta_y"										"-16"	// Match to playerpanels_kv tall
 		"team1_player_base_offset_x"								"-569"	// idk why this number's this lul
+		"team1_player_base_y"										"300"
 		
 		// RED
-		"team2_player_delta_y"										"-16"
-		"team2_player_base_y"										"300"
+		"team2_player_base_x"										"0"
 		"team2_player_delta_x"										"0"
+		"team2_player_delta_y"										"-16"
 		"team2_player_base_offset_x"								"269"	// idk why this number's this either
+		"team2_player_base_y"										"300"
 		
 		"playerpanels_kv"
 		{
@@ -124,7 +126,7 @@
 			{
 				"xpos"												"118"	// 150(right center)-8(classimage)-24(healthblock)
 				"ypos" 												"0"
-				"zpos" 												"2"
+				"zpos" 												"1"
 				"wide"												"64"	// 48(x2original)+8(classimage)+8(4padding)
 				"tall" 												"16"	// playerpanels_kv tall
 				"visible" 											"1"
@@ -132,10 +134,10 @@
 				"HealthBonusPosAdj"									"1000"
 			}
 			
-			"bh_HealthBlock_Left"
+			"bh_HealthRespawnBlock_Left"
 			{
 				"ControlName"										"ImagePanel"
-				"fieldName"											"bh_HealthBlock_Left"
+				"fieldName"											"bh_HealthRespawnBlock_Left"
 				"xpos"												"118"	// 150(right center)-8(classimage)-24(healthblock)
 				"ypos"												"0"
 				"zpos"												"0"
@@ -151,10 +153,10 @@
 				"paintbackgroundtype"								"0"
 			}			
 			
-			"bh_HealthBlock_Right"
+			"bh_HealthRespawnBlock_Right"
 			{
 				"ControlName"										"ImagePanel"
-				"fieldName"											"bh_HealthBlock_Right"
+				"fieldName"											"bh_HealthRespawnBlock_Right"
 				"xpos"												"158"	// 150(right center)+8(classimage)
 				"ypos"												"0"
 				"zpos"												"0"
@@ -168,6 +170,132 @@
 				"fillcolor"											"bh_Theme_BG20"
 				"image"												""
 				"paintbackgroundtype"								"0"
+			}
+			
+			"respawntime"
+			{
+				"ypos"												"r-6969"	// Hiding & duplicating this (below) just to keep name consistency
+			}
+			
+			"bh_RespawnTime_Left"	// Match all values to bh_HealthBlock_Left
+			{
+				"ControlName"										"CExLabel"
+				"fieldName"											"bh_RespawnTime_Left"
+				"font"												"bh_Font14"
+				"xpos"												"118"	
+				"ypos"												"0"
+				"zpos"												"1"
+				"wide"												"24"
+				"tall"												"16"
+				"autoResize"										"0"
+				"pinCorner"											"0"
+				"visible"											"1"
+				"labelText"											"%respawntime%"
+				"textAlignment"										"center"
+				"fgcolor"											"bh_dgray"
+			}
+			
+			"bh_RespawnTime_Right"	// Match all values to bh_HealthBlock_Right
+			{
+				"ControlName"										"CExLabel"
+				"fieldName"											"bh_RespawnTime_Right"
+				"font"												"bh_Font14"
+				"xpos"												"158"
+				"ypos"												"0"
+				"zpos"												"1"
+				"wide"												"24"
+				"tall"												"16"
+				"autoResize"										"0"
+				"pinCorner"											"0"
+				"visible"											"1"
+				"labelText"											"%respawntime%"
+				"textAlignment"										"center"
+				"fgcolor"											"bh_dgray"
+			}
+			
+			"chargeamount"
+			{
+				"ypos"												"r-6969"	// Hiding & duplicating this just to keep name consistency
+			}
+
+			"bh_ChargeAmount_Left"
+			{
+				"ControlName"										"CExLabel"
+				"fieldName"											"bh_ChargeAmount_Left"
+				"font"												"bh_Font14"
+				"xpos"												"4"		// 0(base)+4(padding)
+				"ypos"												"0"
+				"zpos"												"1"
+				"wide"												"30"
+				"tall"												"16"
+				"autoResize"										"0"
+				"pinCorner"											"0"
+				"visible"											"1"
+				"labelText"											"%chargeamount%"
+				"textAlignment"										"west"
+				"fgcolor"											"bh_Theme_TextAccent"
+			}
+
+			"bh_ChargeAmountShadow_Left"
+			{
+				"pin_to_sibling" 									"bh_ChargeAmount_Left"
+				"pin_corner_to_sibling" 							"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 							"0"
+
+				"ControlName"										"CExLabel"
+				"fieldName"											"bh_ChargeAmountShadow_Left"
+				"font"												"bh_Font14"
+				"xpos"												"-1"
+				"ypos"												"-1"
+				"zpos"												"0"
+				"wide"												"30"
+				"tall"												"16"
+				"autoResize"										"0"
+				"pinCorner"											"0"
+				"visible"											"1"
+				"labelText"											"%chargeamount%"
+				"textAlignment"										"west"
+				"fgcolor"											"bh_black"
+			}
+			
+			"bh_ChargeAmount_Right"
+			{
+				"ControlName"										"CExLabel"
+				"fieldName"											"bh_ChargeAmount_Right"
+				"font"												"bh_Font14"
+				"xpos"												"266"	// 270(base)-4(padding)
+				"ypos"												"0"
+				"zpos"												"1"
+				"wide"												"30"
+				"tall"												"16"
+				"autoResize"										"0"
+				"pinCorner"											"0"
+				"visible"											"1"
+				"labelText"											"%chargeamount%"
+				"textAlignment"										"east"
+				"fgcolor"											"bh_Theme_TextAccent"
+			}
+
+			"bh_ChargeAmountShadow_Right"
+			{
+				"pin_to_sibling" 									"bh_ChargeAmount_Right"
+				"pin_corner_to_sibling" 							"PIN_TOPLEFT"
+				"pin_to_sibling_corner" 							"0"
+
+				"ControlName"										"CExLabel"
+				"fieldName"											"bh_ChargeAmountShadow_Right"
+				"font"												"bh_Font14"
+				"xpos"												"-1"
+				"ypos"												"-1"
+				"zpos"												"0"
+				"wide"												"30"
+				"tall"												"16"
+				"autoResize"										"0"
+				"pinCorner"											"0"
+				"visible"											"1"
+				"labelText"											"%chargeamount%"
+				"textAlignment"										"east"
+				"fgcolor"											"bh_black"
 			}
 
 			//"bh_VerticalLine_Left"	
@@ -216,95 +344,7 @@
 				"wide"												"16"
 				"tall"												"16"
 			}
-			
-			"respawntime"
-			{
-				"font"												"bh_Font12"
-				"xpos"												"12"
-				"ypos"												"-7"
-				"zpos"												"5"
-				"wide"												"31"
-				"tall"												"30"
-				"labelText"											"%respawntime%"
-				"textAlignment"										"center"
-				"fgcolor"											"bh_dgray"
-			}
-			
-			"chargeamount"
-			{
-				"font"												"bh_Font14"
-				"xpos"												"4"		// 0(base)+4(padding)
-				"ypos"												"0"
-				"zpos"												"6"
-				"wide"												"30"
-				"tall"												"16"
-				"labelText"											"%chargeamount%"
-				"textAlignment"										"west"
-				"fgcolor"											"bh_Theme_TextAccent"
-			}
-
-			"bh_ChargeAmountShadow_Left"
-			{
-				"pin_to_sibling" 									"chargeamount"
-				"pin_corner_to_sibling" 							"PIN_TOPLEFT"
-				"pin_to_sibling_corner" 							"0"
-
-				"ControlName"										"CExLabel"
-				"fieldName"											"chargeamountBG"
-				"font"												"bh_Font14"
-				"xpos"												"-1"
-				"ypos"												"-1"
-				"zpos"												"6"
-				"wide"												"30"
-				"tall"												"16"
-				"autoResize"										"0"
-				"pinCorner"											"0"
-				"visible"											"1"
-				"labelText"											"%chargeamount%"
-				"textAlignment"										"west"
-				"fgcolor"											"bh_black"
-			}
-			
-			"bh_ChargeAmount_Right"
-			{
-				"ControlName"										"CExLabel"
-				"fieldName"											"bh_ChargeAmount_Right"
-				"font"												"bh_Font14"
-				"xpos"												"266"	// 270(base)-4(padding)
-				"ypos"												"0"
-				"zpos"												"6"
-				"wide"												"30"
-				"tall"												"16"
-				"autoResize"										"0"
-				"pinCorner"											"0"
-				"visible"											"1"
-				"labelText"											"%chargeamount%"
-				"textAlignment"										"east"
-				"fgcolor"											"bh_Theme_TextAccent"
-			}
-
-			"bh_ChargeAmountShadow_Right"
-			{
-				"pin_to_sibling" 									"bh_ChargeAmount_Right"
-				"pin_corner_to_sibling" 							"PIN_TOPLEFT"
-				"pin_to_sibling_corner" 							"0"
-
-				"ControlName"										"CExLabel"
-				"fieldName"											"bh_ChargeAmountShadow_Right"
-				"font"												"bh_Font14"
-				"xpos"												"-1"
-				"ypos"												"-1"
-				"zpos"												"6"
-				"wide"												"30"
-				"tall"												"16"
-				"autoResize"										"0"
-				"pinCorner"											"0"
-				"visible"											"1"
-				"labelText"											"%chargeamount%"
-				"textAlignment"										"east"
-				"fgcolor"											"bh_black"
-			}
-		}	
+		}
 	}
 
 	"ReinforcementsLabel"
