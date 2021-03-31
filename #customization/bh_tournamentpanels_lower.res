@@ -1,8 +1,13 @@
+	#base	"..\..\_budhud\resource\ui\spectatortournament_custom.res"
+
 "Resource/UI/SpectatorTournament.res"
 {
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Move tournament player panels to bottom of screen
 	// https://imgur.com/a/Yup0DWb
+	// Note: This only works on 16:9 resolutions
+	// Other aspect ratios require different values and I'm not sure how I want to handle providing
+	// those customizations yet
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	"specgui"
