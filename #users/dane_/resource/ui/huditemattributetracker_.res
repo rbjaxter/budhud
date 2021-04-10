@@ -1,7 +1,7 @@
 "Resource/UI/HudAchievementTrackerItem.res"
-{	
-	"QuestsStatusContainer"
-	{
-		"ypos"														"r-6969"
-	}
+{
+    "QuestsStatusContainer"
+    {
+        "ypos"                                                      "r-6969"
+    }
 }

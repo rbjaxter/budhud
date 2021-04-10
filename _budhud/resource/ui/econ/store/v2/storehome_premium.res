@@ -2,8 +2,8 @@
 
 "Resource/UI/StoreHome_Premium.res"
 {
-	"PremiumCallout"
-	{
-		"ypos"			"r-6969"
-	}
+    "PremiumCallout"
+    {
+        "ypos"          "r-6969"
+    }
 }

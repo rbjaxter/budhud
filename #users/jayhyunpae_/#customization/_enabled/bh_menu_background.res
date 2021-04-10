@@ -1,11 +1,11 @@
 "Resource/UI/MainMenuOverride.res"
 {
-	MainMenuOverride
-	{
-	}
+    MainMenuOverride
+    {
+    }
 
-	"Background"
-	{
-		"image"														"replay/thumbnails/#users/background_jayhyunpae"
-	}
+    "Background"
+    {
+        "image"                                                     "replay/thumbnails/#users/background_jayhyunpae"
+    }
 }

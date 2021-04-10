@@ -1,7 +1,7 @@
 "Resource/UI/HudDemomanCharge.res"
-{	
-	"ChargeMeter"
-	{	
-		"ypos"														"c108"
-	}					
+{
+    "ChargeMeter"
+    {
+        "ypos"                                                      "c108"
+    }
 }

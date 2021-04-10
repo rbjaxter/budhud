@@ -1,1 +1,1 @@
-	#base	"..\..\..\..\#customization\bh_chat_upperleft.res"
+    #base   "..\..\..\..\#customization\bh_chat_upperleft.res"

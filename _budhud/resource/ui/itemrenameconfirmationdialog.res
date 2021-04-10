@@ -1,5 +1,5 @@
-	#base	"itemrenamedialog.res"
-	
+    #base   "itemrenamedialog.res"
+
 "Resource/UI/ItemRenameConfirmationDialog.res"
 {
 }

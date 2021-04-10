@@ -1,90 +1,90 @@
 "Resource/UI/Spectator.res"
 {
-	"specgui"
-	{
-	}
+    "specgui"
+    {
+    }
 
-	"TopBar"
-	{
-		"ypos"														"r-6969"
-		"tall"														"0"
-	}
+    "TopBar"
+    {
+        "ypos"                                                      "r-6969"
+        "tall"                                                      "0"
+    }
 
-	"BottomBar"
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"bottombarblank"
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"MapLabel"
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"CycleTargetFwdLabel"
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"CycleTargetFwdKeyLabel"
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"CycleTargetRevLabel"
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"CycleTargetRevKeyLabel"
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"SwitchCamModeKeyLabel"
-	{
-		"ypos"														"r-6969"
-	}	
-	
-	"SwitchCamModeLabel"
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"TipLabel"
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"ClassOrTeamLabel"
-	{
-		"ypos"														"r-6969"
-	}
+    "BottomBar"
+    {
+        "ypos"                                                      "r-6969"
+    }
 
-	"ReinforcementsLabel"
-	{
-		"xpos"														"c-200"
-		"ypos"														"48"
-		"wide"														"400"
-		"tall"														"24"
-		"textAlignment"												"center"
-		"font"														"bh_Font14DropShadow"
-	}
+    "bottombarblank"
+    {
+        "ypos"                                                      "r-6969"
+    }
 
-	"itempanel"
-	{
-		"bgcolor_override"											"bh_ItemPanel"
-		"PaintBackground"											"1"
-	
-		"itemmodelpanel"
-		{
-			"allow_rot"												"0"
-			"inventory_image_type"									"1"
-			"use_item_rendertarget" 								"0"
-		}
-	}
+    "MapLabel"
+    {
+        "ypos"                                                      "r-6969"
+    }
+
+    "CycleTargetFwdLabel"
+    {
+        "ypos"                                                      "r-6969"
+    }
+
+    "CycleTargetFwdKeyLabel"
+    {
+        "ypos"                                                      "r-6969"
+    }
+
+    "CycleTargetRevLabel"
+    {
+        "ypos"                                                      "r-6969"
+    }
+
+    "CycleTargetRevKeyLabel"
+    {
+        "ypos"                                                      "r-6969"
+    }
+
+    "SwitchCamModeKeyLabel"
+    {
+        "ypos"                                                      "r-6969"
+    }
+
+    "SwitchCamModeLabel"
+    {
+        "ypos"                                                      "r-6969"
+    }
+
+    "TipLabel"
+    {
+        "ypos"                                                      "r-6969"
+    }
+
+    "ClassOrTeamLabel"
+    {
+        "ypos"                                                      "r-6969"
+    }
+
+    "ReinforcementsLabel"
+    {
+        "xpos"                                                      "c-200"
+        "ypos"                                                      "48"
+        "wide"                                                      "400"
+        "tall"                                                      "24"
+        "textAlignment"                                             "center"
+        "font"                                                      "bh_Font14DropShadow"
+    }
+
+    "itempanel"
+    {
+        "bgcolor_override"                                          "bh_ItemPanel"
+        "PaintBackground"                                           "1"
+
+        "itemmodelpanel"
+        {
+            "allow_rot"                                             "0"
+            "inventory_image_type"                                  "1"
+            "use_item_rendertarget"                                 "0"
+        }
+    }
 }

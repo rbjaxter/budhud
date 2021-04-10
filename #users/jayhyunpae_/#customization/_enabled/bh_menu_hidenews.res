@@ -1,1 +1,1 @@
-	#base	"..\..\..\..\#customization\bh_menu_hidenews.res"
+    #base   "..\..\..\..\#customization\bh_menu_hidenews.res"

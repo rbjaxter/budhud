@@ -1,7 +1,7 @@
 "Resource/UI/HudArenaCapPointCountdown.res"
 {
-	"CapCountdownLabel"
-	{	
-		"fgcolor"													"bh_white"
-	}
+    "CapCountdownLabel"
+    {
+        "fgcolor"                                                   "bh_white"
+    }
 }

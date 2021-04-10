@@ -1,17 +1,17 @@
 "Resource/UI/HudAlert.res"
 {
-	"HudAlertBG"
-	{
-		"ypos"														"r-6969"
-	}
-	
-	"AlertImage"
-	{
-		"ypos"														"r-6969"
-	}
+    "HudAlertBG"
+    {
+        "ypos"                                                      "r-6969"
+    }
 
-	"AlertLabel"
-	{
-		"xpos"														"86"
-	}
+    "AlertImage"
+    {
+        "ypos"                                                      "r-6969"
+    }
+
+    "AlertLabel"
+    {
+        "xpos"                                                      "86"
+    }
 }
