@@ -95,16 +95,16 @@
 				"bgcolor_override"									"bh_Theme_BG20"
 			}
 			
-			"HealthIcon"
+			"HealthIcon"	// Cannot be duplicated
 			{
-				"xpos"												"10"
-				"ypos" 												"-5"
-				"zpos" 												"2"
-				"wide" 												"29"
-				"tall" 												"21"
+				"xpos"												"16"
+				"ypos" 												"0"
+				"zpos" 												"1"
+				"wide"												"24"
+				"tall" 												"16"
 				"visible" 											"1"
 				"enabled" 											"1"
-				"HealthBonusPosAdj"									"1000"
+				"HealthBonusPosAdj"									"1500"
 			}
 			
 			"bh_HealthBlock"	
@@ -114,7 +114,7 @@
 				"xpos"												"16"
 				"ypos"												"0"
 				"zpos"												"0"
-				"wide"												"23"
+				"wide"												"24"
 				"tall"												"16"
 				"autoResize"										"0"
 				"pinCorner"											"0"
