@@ -1,322 +1,322 @@
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// HudMatchStatus Skull Location
-	////////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // HudMatchStatus Skull Location
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	event TeamStatus_PlayerDead
-	{
-		SetVisible 			SkullPanel														1 0
-		SetVisible			respawntime														1 0
-	
-		Animate 			SkullPanel							ypos						20 							Accel 0 0.2
-		Animate 			respawntime							ypos 						3 							Accel 0 0.2
-	}
-	
-	event TeamStatus_PlayerAlive
-	{
-		Animate 			SkullPanel							ypos 						15 							Accel 0 0.2
-		Animate 			respawntime							ypos 						0 							Accel 0 0.2
-	
-		SetVisible 			SkullPanel														0 0.2
-		SetVisible 			respawntime														0 0.2
-	}
+    event TeamStatus_PlayerDead
+    {
+        SetVisible          SkullPanel                                                      1 0
+        SetVisible          respawntime                                                     1 0
+
+        Animate             SkullPanel                          ypos                        20                          Accel 0 0.2
+        Animate             respawntime                         ypos                        3                           Accel 0 0.2
+    }
+
+    event TeamStatus_PlayerAlive
+    {
+        Animate             SkullPanel                          ypos                        15                          Accel 0 0.2
+        Animate             respawntime                         ypos                        0                           Accel 0 0.2
+
+        SetVisible          SkullPanel                                                      0 0.2
+        SetVisible          respawntime                                                     0 0.2
+    }
 
 
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Use deathcam to clear low health/buffed health color
-	// Credit: mastercomms
-	// https://www.teamfortress.tv/43786/fix-for-lingering-hud-animations-on-death
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-	event HudSnapShotReminderIn
-	{
-	// Default animation
-	//	Animate 			ScreenshotPanel 					Position 					c-83 -50 					Linear 0.0 0.001
-	//	Animate 			ScreenshotPanel 					Position 					c-83 13 					Spline 0.001 0.2
-		
-	// Attempts to clear animation
-		RunEvent			DefaultAnimHudSnapShotReminderIn								0.0
-		RunEvent 			HudHealthDyingPulseStop 										0.0
-		RunEvent 			HudHealthBonusPulseStop 										0.0
-		RunEvent 			HudLowAmmoPulseStop 											0.0
-		RunEvent 			HudMedicChargedStop 											0.0
-	}
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Use deathcam to clear low health/buffed health color
+    // Credit: mastercomms
+    // https://www.teamfortress.tv/43786/fix-for-lingering-hud-animations-on-death
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Change colors of KotH timers
-	////////////////////////////////////////////////////////////////////////////////////////////////////
+    event HudSnapShotReminderIn
+    {
+    // Default animation
+    //  Animate             ScreenshotPanel                     Position                    c-83 -50                    Linear 0.0 0.001
+    //  Animate             ScreenshotPanel                     Position                    c-83 13                     Spline 0.001 0.2
 
-	event ActiveTimerHighlight
-	{
-		Animate 			TimePanelValue 						fgcolor						bh_white					Linear 0.1 0.1
-		Animate 			TimePanelValue 						fgcolor						bh_gray						Linear 0.3 0.1
-	
-		Animate 			TimePanelValue 						fgcolor						bh_white					Linear 0.5 0.1
-		Animate 			TimePanelValue 						fgcolor						bh_gray						Linear 0.7 0.1
-	
-		Animate 			TimePanelValue 						fgcolor						bh_white					Linear 0.9 0.1
-		Animate 			TimePanelValue 						fgcolor						bh_gray						Linear 1.1 0.1
-	
-		Animate 			TimePanelValue 						fgcolor						bh_white					Linear 1.3 0.3
-		
-	}
-	
-	event ActiveTimerDim
-	{
-		Animate 			TimePanelValue						fgcolor						bh_white_t					Linear 0.0 0.4
-	}
+    // Attempts to clear animation
+        RunEvent            DefaultAnimHudSnapShotReminderIn                                0.0
+        RunEvent            HudHealthDyingPulseStop                                         0.0
+        RunEvent            HudHealthBonusPulseStop                                         0.0
+        RunEvent            HudLowAmmoPulseStop                                             0.0
+        RunEvent            HudMedicChargedStop                                             0.0
+    }
 
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Overtime Label
-	////////////////////////////////////////////////////////////////////////////////////////////////////		
-	
-	event OvertimeLabelPulseRed
-	{
-		Animate				OvertimeLabel 						fgcolor						bh_white					Linear 0.0 0.3
-		Animate				OvertimeLabel 						fgcolor						bh_Theme_TextAccent			Linear 0.3 0.3
-	
-		RunEvent			OvertimeLabelPulseRed 											0.6
-	}
-	
-	event SuddenDeathLabelPulseRed
-	{
-		Animate				SuddenDeathLabel 					fgcolor						bh_white					Linear 0.0 0.3
-		Animate				SuddenDeathLabel 					fgcolor						bh_Theme_TextAccent			Linear 0.3 0.3
-	
-		RunEvent 			SuddenDeathLabelPulseRed 										0.2
-	}
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Moves pvprankpanel.res to avoid end of screen missing elements
-	////////////////////////////////////////////////////////////////////////////////////////////////////	
-	
-	event CompetitiveGame_ShowPvPRankPanel
-	{
-		Animate 			RankPanel 							ypos						-80							Linear 0 0
-		Animate 			ModelContainer 						ypos						r150						Linear 0 0
-		RunEventChild 		RankPanel 							PvPRankPanelShowXPChange	0
-	}
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Change colors of KotH timers
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Give TF2 a stern talking to and tell it no, don't move my pinned countdown label shadow all over
-	// the place, please. PLEASE
-	////////////////////////////////////////////////////////////////////////////////////////////////////	
-	
-	event HudTournament_MoveTimerDown
-	{
-		Animate 			CountdownLabel						ypos						150							Linear 0 0
-	
-		SetVisible 			CountdownBG														0 5
-		SetVisible 			CountdownLabel													1 0
-		SetVisible 			CountdownLabelShadow											1 0
-	
-		Animate 			CountdownLabel 						ypos						c-3 						Gain 0.75 0 0.4
-	
-		SetVisible			TournamentConditionLabel 										0 2
-	
-		SetVisible 			CountdownLabel 													0 3
-		SetVisible 			CountdownLabelShadow 											0 3
-	}
-	
-	event HudMatchStatus_ShowMatchStartDoors
-	{
-		SetVisible			MatchDoors														1 0
-		SetVisible			BlueTeamPanel													1 0
-		SetVisible			RedTeamPanel													1 0
-		SetVisible 			CountdownLabel													1 0
-		SetVisible 			CountdownLabelShadow											1 0
-		Animate 			CountdownLabel						ypos 						150							Linear 0 0
-	
-		Animate 			CountdownLabel 						ypos						c-3							Gain 0.75 0 0.4
-	
-		SetVisible			HudTournamentBG													0 2
-		RunEventChild		MatchDoors 							PlayDoorCloseAnim			0
-		RunEventChild 		FrontParticlePanel					PlayDoorSlamParticles 		0.45
-		RunEventChild 		MatchDoors							PlayDoorOpenAnim 			7
-	
-		RunEvent 			HudTournament_AnimateTeams_In									0.25
-		RunEvent 			HudTournament_AnimateTeams_Out									7.70
-	
-		SetVisible 			MatchDoors														0 9
-		SetVisible 			CountdownLabel													0 9.9
-		SetVisible 			CountdownLabelShadow											0 9.9
-	
-		RunEvent 			HudTournament_DoorsCleanup										10
-		
-		SetVisible 			CountdownBG														1 11
-	}
+    event ActiveTimerHighlight
+    {
+        Animate             TimePanelValue                      fgcolor                     bh_white                    Linear 0.1 0.1
+        Animate             TimePanelValue                      fgcolor                     bh_gray                     Linear 0.3 0.1
 
-	event HudMatchStatus_ShowCountdown
-	{
-		SetVisible 			CountdownLabel													1 0
-		SetVisible 			CountdownLabelShadow											1 0
-		Animate 			CountdownLabel						ypos						150							Linear 0 0
-		Animate 			CountdownLabel						ypos						c-3							Gain 0.75 0 0.4
-		SetVisible 			CountdownLabel 													0 9.9
-		SetVisible 			CountdownLabelShadow 											0 9.9
-	}
-	
-	event HudTournament_ShowTimerCompetitive
-	{
-		Animate 			CountdownLabel						ypos						150							Linear 0 0
-	
-		SetVisible 			CountdownBG														1 0
-		SetVisible 			CountdownLabel													1 0
-		SetVisible 			CountdownLabelShadow											1 0
-	}
-	
-	event HudTournament_ShowTimerDefault
-	{
-		Animate 			CountdownLabel						ypos						425							Linear 0 0
-	
-		SetVisible 			CountdownBG														1 0
-		SetVisible 			CountdownLabel													1 0
-		SetVisible 			CountdownLabelShadow											1 0
-	}
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Casual/Comp Chat Positioning
-	// Prevent chat from moving
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-	event CompetitiveGame_LowerChatWindow
-	{
-	}
-	
-	event CompetitiveGame_RestoreChatWindow
-	{
-	}
-	
-	event HudTournament_MoveChatWindow
-	{
-	}
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// CTF Flag Pickup/Drop
-	////////////////////////////////////////////////////////////////////////////////////////////////////
+        Animate             TimePanelValue                      fgcolor                     bh_white                    Linear 0.5 0.1
+        Animate             TimePanelValue                      fgcolor                     bh_gray                     Linear 0.7 0.1
 
-	event FlagOutline
-	{
-		RunEvent 			FlagOutlineHide													0.0
-		Animate 			OutlineImage						alpha 						255							Linear 0.1 0.2
-		
-		Animate 			OutlineImage						position					"c-50 r125"					Linear 0.1 0.2
-		Animate 			OutlineImage						size 						"100 50"					Linear 0.1 0.2
-	
-		Animate 			OutlineImage						position					"c-50 r0"					Linear 0.7 0.2
-		Animate 			OutlineImage						size 						"100 50"					Linear 0.7 0.2
-		
-		Animate				OutlineImage						alpha 						0							Linear 0.6 0.3
-	}
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Spy Animations
-	// ============================================================================================== //
-	// Disables spy disguise outline
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-	event HudSpyDisguiseChanged
-	{
-	}
-	
-	event HudSpyDisguiseHide
-	{
-	}
+        Animate             TimePanelValue                      fgcolor                     bh_white                    Linear 0.9 0.1
+        Animate             TimePanelValue                      fgcolor                     bh_gray                     Linear 1.1 0.1
 
-	event HudSpyDisguiseFadeIn
-	{
-	}
+        Animate             TimePanelValue                      fgcolor                     bh_white                    Linear 1.3 0.3
 
-	event HudSpyDisguiseFadeOut
-	{
-	}
+    }
 
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Wang Animations
-	////////////////////////////////////////////////////////////////////////////////////////////////////
+    event ActiveTimerDim
+    {
+        Animate             TimePanelValue                      fgcolor                     bh_white_t                  Linear 0.0 0.4
+    }
 
-	event HudTournamentSetupPanelOpen
-	{
-		Animate 			HudTournamentSetup					position					"c-90 -70"					Linear 0.0 0.001
-		Animate 			HudTournamentSetup					position					"c-90 70"					Spline 0.001 0.2
-		Animate 			the_wang_who_peaks					position					"c-50 435"					Spline 0.001 0.2
-		Animate 			the_wang_who_peaks					position					"c-50 435"					Linear 0.0 0.001
-	}
-	
-	event HudTournamentSetupPanelClose
-	{
-		Animate 			HudTournamentSetup					position					"c-90 70"					Linear 0.0 0.001
-		Animate 			HudTournamentSetup					position					"c-90 -70"					Spline 0.001 0.2
-		Animate 			the_wang_who_peaks					position					"c-50 435"					Linear 0.0 0.001
-		Animate 			the_wang_who_peaks					position					"c-50 500"					Spline 0.001 0.2
-	}
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Main menu animations
-	// ============================================================================================== //
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Casual category animations
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-	event CasualCategory_Selected
-	{
-		Animate				Shade								bgcolor						bh_Theme_BG40				Deaccel 0 0.2
-		Animate 			Title								fgcolor						bh_Theme_TextSecondary		Deaccel 0 0.2
-		Animate 			TitleShadow							fgcolor						bh_shadow					Deaccel 0 0.2
-		Animate 			DescLabel							fgcolor						bh_Theme_TextSecondary		Deaccel 0 0.2
-	}
-	
-	event CasualCategory_NotSelected
-	{
-		Animate 			Shade								bgcolor 					bh_Theme_BG00				Deaccel 0 0.2
-		Animate 			Title								fgcolor						bh_gray						Deaccel 0 0.2
-		Animate 			DescLabel							fgcolor						bh_gray						Deaccel 0 0.2
-		Animate 			TitleShadow							fgcolor						0							Deaccel 0 0.2
-		Animate 			DescLabelShadow						fgcolor						0							Deaccel 0 0.2
-	}	
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// New item notification animations
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	event HasNotificationsBlink
-	{
-		Animate				Notifications_ShowButtonPanel_SB 	alpha						255							Spline 0.0 0.2
-		Animate				Notifications_ShowButtonPanel_SB 	alpha						0							Spline 0.2 0.2
-		RunEvent 			HasNotificationsBlinkLoop										0.5
-	}
-	
-	event HasNotificationsBlinkLoop
-	{
-		RunEvent 			HasNotificationsBlink											0.0
-	}
-	
-	event HasNotificationsBlinkStop
-	{
-		StopEvent 			HasNotificationsBlink											0.0
-		StopEvent 			HasNotificationsBlinkLoop 										0.0
-		Animate				Notifications_ShowButtonPanel_SB 	alpha						255							Linear 0.0 0.1
-	}
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// New notification animations
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	event NotificationsPresentBlink
-	{
-		Animate				NotificationsPresentPanel 			alpha						255							Spline 0.0 0.2
-		Animate				NotificationsPresentPanel 			alpha						0							Linear 0.2 0.2
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Overtime Label
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-		RunEvent			NotificationsPresentBlinkLoop									0.5
-	}
-	
-	event NotificationsPresentBlinkLoop
-	{
-		RunEvent 			NotificationsPresentBlink										0.0
-	}
-	
-	event NotificationsPresentBlinkStop
-	{
-		StopEvent 			NotificationsPresentBlink										0.0
-		StopEvent			NotificationsPresentBlinkLoop 									0.0
-		Animate				NotificationsPresentPanel 			alpha						255							Linear 0.0 0.1
-	}
+    event OvertimeLabelPulseRed
+    {
+        Animate             OvertimeLabel                       fgcolor                     bh_white                    Linear 0.0 0.3
+        Animate             OvertimeLabel                       fgcolor                     bh_Theme_TextAccent         Linear 0.3 0.3
+
+        RunEvent            OvertimeLabelPulseRed                                           0.6
+    }
+
+    event SuddenDeathLabelPulseRed
+    {
+        Animate             SuddenDeathLabel                    fgcolor                     bh_white                    Linear 0.0 0.3
+        Animate             SuddenDeathLabel                    fgcolor                     bh_Theme_TextAccent         Linear 0.3 0.3
+
+        RunEvent            SuddenDeathLabelPulseRed                                        0.2
+    }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Moves pvprankpanel.res to avoid end of screen missing elements
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    event CompetitiveGame_ShowPvPRankPanel
+    {
+        Animate             RankPanel                           ypos                        -80                         Linear 0 0
+        Animate             ModelContainer                      ypos                        r150                        Linear 0 0
+        RunEventChild       RankPanel                           PvPRankPanelShowXPChange    0
+    }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Give TF2 a stern talking to and tell it no, don't move my pinned countdown label shadow all over
+    // the place, please. PLEASE
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    event HudTournament_MoveTimerDown
+    {
+        Animate             CountdownLabel                      ypos                        150                         Linear 0 0
+
+        SetVisible          CountdownBG                                                     0 5
+        SetVisible          CountdownLabel                                                  1 0
+        SetVisible          CountdownLabelShadow                                            1 0
+
+        Animate             CountdownLabel                      ypos                        c-3                         Gain 0.75 0 0.4
+
+        SetVisible          TournamentConditionLabel                                        0 2
+
+        SetVisible          CountdownLabel                                                  0 3
+        SetVisible          CountdownLabelShadow                                            0 3
+    }
+
+    event HudMatchStatus_ShowMatchStartDoors
+    {
+        SetVisible          MatchDoors                                                      1 0
+        SetVisible          BlueTeamPanel                                                   1 0
+        SetVisible          RedTeamPanel                                                    1 0
+        SetVisible          CountdownLabel                                                  1 0
+        SetVisible          CountdownLabelShadow                                            1 0
+        Animate             CountdownLabel                      ypos                        150                         Linear 0 0
+
+        Animate             CountdownLabel                      ypos                        c-3                         Gain 0.75 0 0.4
+
+        SetVisible          HudTournamentBG                                                 0 2
+        RunEventChild       MatchDoors                          PlayDoorCloseAnim           0
+        RunEventChild       FrontParticlePanel                  PlayDoorSlamParticles       0.45
+        RunEventChild       MatchDoors                          PlayDoorOpenAnim            7
+
+        RunEvent            HudTournament_AnimateTeams_In                                   0.25
+        RunEvent            HudTournament_AnimateTeams_Out                                  7.70
+
+        SetVisible          MatchDoors                                                      0 9
+        SetVisible          CountdownLabel                                                  0 9.9
+        SetVisible          CountdownLabelShadow                                            0 9.9
+
+        RunEvent            HudTournament_DoorsCleanup                                      10
+
+        SetVisible          CountdownBG                                                     1 11
+    }
+
+    event HudMatchStatus_ShowCountdown
+    {
+        SetVisible          CountdownLabel                                                  1 0
+        SetVisible          CountdownLabelShadow                                            1 0
+        Animate             CountdownLabel                      ypos                        150                         Linear 0 0
+        Animate             CountdownLabel                      ypos                        c-3                         Gain 0.75 0 0.4
+        SetVisible          CountdownLabel                                                  0 9.9
+        SetVisible          CountdownLabelShadow                                            0 9.9
+    }
+
+    event HudTournament_ShowTimerCompetitive
+    {
+        Animate             CountdownLabel                      ypos                        150                         Linear 0 0
+
+        SetVisible          CountdownBG                                                     1 0
+        SetVisible          CountdownLabel                                                  1 0
+        SetVisible          CountdownLabelShadow                                            1 0
+    }
+
+    event HudTournament_ShowTimerDefault
+    {
+        Animate             CountdownLabel                      ypos                        425                         Linear 0 0
+
+        SetVisible          CountdownBG                                                     1 0
+        SetVisible          CountdownLabel                                                  1 0
+        SetVisible          CountdownLabelShadow                                            1 0
+    }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Casual/Comp Chat Positioning
+    // Prevent chat from moving
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    event CompetitiveGame_LowerChatWindow
+    {
+    }
+
+    event CompetitiveGame_RestoreChatWindow
+    {
+    }
+
+    event HudTournament_MoveChatWindow
+    {
+    }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // CTF Flag Pickup/Drop
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    event FlagOutline
+    {
+        RunEvent            FlagOutlineHide                                                 0.0
+        Animate             OutlineImage                        alpha                       255                         Linear 0.1 0.2
+
+        Animate             OutlineImage                        position                    "c-50 r125"                 Linear 0.1 0.2
+        Animate             OutlineImage                        size                        "100 50"                    Linear 0.1 0.2
+
+        Animate             OutlineImage                        position                    "c-50 r0"                   Linear 0.7 0.2
+        Animate             OutlineImage                        size                        "100 50"                    Linear 0.7 0.2
+
+        Animate             OutlineImage                        alpha                       0                           Linear 0.6 0.3
+    }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Spy Animations
+    // ============================================================================================== //
+    // Disables spy disguise outline
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    event HudSpyDisguiseChanged
+    {
+    }
+
+    event HudSpyDisguiseHide
+    {
+    }
+
+    event HudSpyDisguiseFadeIn
+    {
+    }
+
+    event HudSpyDisguiseFadeOut
+    {
+    }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Wang Animations
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    event HudTournamentSetupPanelOpen
+    {
+        Animate             HudTournamentSetup                  position                    "c-90 -70"                  Linear 0.0 0.001
+        Animate             HudTournamentSetup                  position                    "c-90 70"                   Spline 0.001 0.2
+        Animate             the_wang_who_peaks                  position                    "c-50 435"                  Spline 0.001 0.2
+        Animate             the_wang_who_peaks                  position                    "c-50 435"                  Linear 0.0 0.001
+    }
+
+    event HudTournamentSetupPanelClose
+    {
+        Animate             HudTournamentSetup                  position                    "c-90 70"                   Linear 0.0 0.001
+        Animate             HudTournamentSetup                  position                    "c-90 -70"                  Spline 0.001 0.2
+        Animate             the_wang_who_peaks                  position                    "c-50 435"                  Linear 0.0 0.001
+        Animate             the_wang_who_peaks                  position                    "c-50 500"                  Spline 0.001 0.2
+    }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Main menu animations
+    // ============================================================================================== //
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Casual category animations
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    event CasualCategory_Selected
+    {
+        Animate             Shade                               bgcolor                     bh_Theme_BG40               Deaccel 0 0.2
+        Animate             Title                               fgcolor                     bh_Theme_TextSecondary      Deaccel 0 0.2
+        Animate             TitleShadow                         fgcolor                     bh_shadow                   Deaccel 0 0.2
+        Animate             DescLabel                           fgcolor                     bh_Theme_TextSecondary      Deaccel 0 0.2
+    }
+
+    event CasualCategory_NotSelected
+    {
+        Animate             Shade                               bgcolor                     bh_Theme_BG00               Deaccel 0 0.2
+        Animate             Title                               fgcolor                     bh_gray                     Deaccel 0 0.2
+        Animate             DescLabel                           fgcolor                     bh_gray                     Deaccel 0 0.2
+        Animate             TitleShadow                         fgcolor                     0                           Deaccel 0 0.2
+        Animate             DescLabelShadow                     fgcolor                     0                           Deaccel 0 0.2
+    }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // New item notification animations
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    event HasNotificationsBlink
+    {
+        Animate             Notifications_ShowButtonPanel_SB    alpha                       255                         Spline 0.0 0.2
+        Animate             Notifications_ShowButtonPanel_SB    alpha                       0                           Spline 0.2 0.2
+        RunEvent            HasNotificationsBlinkLoop                                       0.5
+    }
+
+    event HasNotificationsBlinkLoop
+    {
+        RunEvent            HasNotificationsBlink                                           0.0
+    }
+
+    event HasNotificationsBlinkStop
+    {
+        StopEvent           HasNotificationsBlink                                           0.0
+        StopEvent           HasNotificationsBlinkLoop                                       0.0
+        Animate             Notifications_ShowButtonPanel_SB    alpha                       255                         Linear 0.0 0.1
+    }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // New notification animations
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    event NotificationsPresentBlink
+    {
+        Animate             NotificationsPresentPanel           alpha                       255                         Spline 0.0 0.2
+        Animate             NotificationsPresentPanel           alpha                       0                           Linear 0.2 0.2
+
+        RunEvent            NotificationsPresentBlinkLoop                                   0.5
+    }
+
+    event NotificationsPresentBlinkLoop
+    {
+        RunEvent            NotificationsPresentBlink                                       0.0
+    }
+
+    event NotificationsPresentBlinkStop
+    {
+        StopEvent           NotificationsPresentBlink                                       0.0
+        StopEvent           NotificationsPresentBlinkLoop                                   0.0
+        Animate             NotificationsPresentPanel           alpha                       255                         Linear 0.0 0.1
+    }

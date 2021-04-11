@@ -1,16 +1,16 @@
-	#base	"huditemeffectmeter_base_counters_pos2.res"
-	#base	"huditemeffectmeter_base_counters.res"
+    #base   "huditemeffectmeter_base_counters_pos2.res"
+    #base   "huditemeffectmeter_base_counters.res"
 
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Affected Elements / Weapons
-	// ============================================================================================== //
-	// Engineer - Revenge Crits (Frontier Justice)
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Affected Elements / Weapons
+    // ============================================================================================== //
+    // Engineer - Revenge Crits (Frontier Justice)
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
 "Resource/UI/huditemeffectmeter_engineer.res"
 {
-	"== huditemeffectmeter_engineer =="
-	{
-		"ControlName"												"ImagePanel"
-	}
+    "== huditemeffectmeter_engineer =="
+    {
+        "ControlName"                                               "ImagePanel"
+    }
 }

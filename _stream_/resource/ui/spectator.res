@@ -1,14 +1,16 @@
 "Resource/UI/Spectator.res"
 {
-	"specgui"
-	{
-	}
+    "specgui"
+    {
+    }
 
-	"itempanel"
-	{
-		"ItemLabel"
-		{
-			"ypos"													"r-6969"
-		}
-	}
+    "itempanel"
+    {
+        "ItemLabel"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
+        }
+    }
 }

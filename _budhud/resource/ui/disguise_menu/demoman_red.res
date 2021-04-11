@@ -1,1 +1,1 @@
-	#base	"class_base.res"
+    #base   "class_base.res"

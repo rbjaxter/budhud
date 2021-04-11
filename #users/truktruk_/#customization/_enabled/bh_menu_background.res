@@ -1,7 +1,7 @@
 "Resource/UI/MainMenuOverride.res"
 {
-	"Background"
-	{
-		"ypos"														"r-6969"
-	}
+    "Background"
+    {
+        "ypos"                                                      "r-6969"
+    }
 }

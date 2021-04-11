@@ -1,7 +1,7 @@
 "Resource/UI/BaseChat.res"
 {
-	"HudChat"
-	{
-		"ypos"			          									"r180"
-	}
+    "HudChat"
+    {
+        "ypos"                                                      "r180"
+    }
 }

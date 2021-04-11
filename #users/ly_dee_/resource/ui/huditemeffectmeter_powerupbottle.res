@@ -1,27 +1,27 @@
-	#base	"huditemeffectmeter_base_counters_pos3.res"
-	#base	"huditemeffectmeter_base_counters.res"
+    #base   "huditemeffectmeter_base_counters_pos3.res"
+    #base   "huditemeffectmeter_base_counters.res"
 
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Affected Elements / Weapons
-	// ============================================================================================== //
-	// MvM Canteen
-	////////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Affected Elements / Weapons
+    // ============================================================================================== //
+    // MvM Canteen
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 "Resource/UI/huditemeffectmeter_powerupbottle.res"
 {
-	"== huditemeffectmeter_powerupbottle =="
-	{
-		"ControlName"												"ImagePanel"
-	}
-	
-	"HudItemEffectMeter"
-	{
-		"ypos"														"r45"
-	}
-		
-	"ItemEffectMeterCount"
-	{
-		"xpos"														"24"
-		"ypos"														"11"
-	}
+    "== huditemeffectmeter_powerupbottle =="
+    {
+        "ControlName"                                               "ImagePanel"
+    }
+
+    "HudItemEffectMeter"
+    {
+        "ypos"                                                      "r45"
+    }
+
+    "ItemEffectMeterCount"
+    {
+        "xpos"                                                      "24"
+        "ypos"                                                      "11"
+    }
 }

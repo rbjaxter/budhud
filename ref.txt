@@ -1,261 +1,261 @@
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Used as a reference by me as I can be forgetful of how I do certain things within my hud.
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Wishlist
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	- Center ammo pickup that appears in the lower center of the screen (can't center for all three digit place possibilities)
-	- Adjust wide value of text in Voice UI (adjusting it now doesn't appear to do anything)
-	- Ability to change colors of itemeffectmeters
-	- Ability to use directional arrows in `vgui_drawtree` again (pls)
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Random useful info
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	- Scoreboard font: resource\clientscheme -> ScoreboardVerySmall (or ScoreboardSmall)
-	- Scoreboard name/ping/score/etc font -> "DefaultVerySmall" (set to "" to disable)
-	- Killfeed font: \scripts\hudlayout.res -> "font" under "HudDeathNotice"
-	- Change Item Preset names (A, B, C, D) by adding the following to chat_english.txt:
-		"TF_ItemPresetName0"	"<name>"
-		"TF_ItemPresetName1"	"<name>"
-		"TF_ItemPresetName2"	"<name>"
-		"TF_ItemPresetName3"	"<name>"
-	(will probably muck up the quickswitch menu)
-	- showschemevisualizer
-	- cl_panelanimation
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Payload Icon Notes
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	Used in PLR:
-		- cart_home_<team>_square
-		- cart_<team>, cart_<team>_bottom
-		- cart_track_<team>_opaque
-		- cart_point_<team>
-		
-	Used in PL:
-		- cart_<team>
-		- cart_home_<team>_opaque
-		- cart_point_<team>_opaque
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Borders
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	bh_b_NESW				- Borders on NORTH, EAST, SOUTH, and WEST side of element
-	bh_b_NEW				- Borders on NORTH, EAST, and WEST side of element
-	bh_b_ESW				- Borders on EAST, SOUTH, and WEST side of element
-	bh_b_EW					- Borders on EAST and WEST side of element
-	bh_b_N					- Border on NORTH side of element
-	bh_b_E					- Border on EAST side of element
-	bh_b_S					- Border on SOUTH side of element
-	bh_b_W					- Border on WEST side of element
-	ReplayGrayDialogBorder	- Used a lot for tooltips
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// "Close" Buttons
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// No text, just image
-		
-		"CloseButton"
-		{
-			"image_drawcolor"										"255 255 255 255"
-			"image_armedcolor"										"240 134 49 255"
-			
-			"SubImage"
-			{
-				"image"												"replay\thumbnails\menu_icons\close"
-			}
-		}
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Used as a reference by me as I can be forgetful of how I do certain things within my hud.
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Element Template
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	"bh_Template_Block"	
-	{
-		"ControlName"												"ImagePanel"
-		"fieldName"													"bh_Template_Block"
-		"xpos"														"0"
-		"ypos"														"420"
-		"zpos"														"0"
-		"wide"														"f0"
-		"tall"														"60"
-		"autoResize"												"0"
-		"pinCorner"													"0"
-		"labeltext"													""
-		"visible"													"1"
-		"enabled"													"1"
-		"fillcolor"													"bh_Theme_BG20"
-		"image"														""
-		"paintbackgroundtype"										"0"
-    }
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Button Template
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	"bh_Template_Button"	
-	{
-		"ControlName"												"CExButton"
-		"fieldName"													"bh_Template_Button"
-		"xpos"														"30"
-		"ypos"														"75"
-		"zpos"														"0"
-		"wide"														"100"
-		"tall"														"26"
-		"autoResize"												"0"
-		"pinCorner"													"0"
-		"visible"													"1"
-		"enabled"													"1"
-		"paintbackgroundtype"										"0"
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Wishlist
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    - Center ammo pickup that appears in the lower center of the screen (can't center for all three digit place possibilities)
+    - Adjust wide value of text in Voice UI (adjusting it now doesn't appear to do anything)
+    - Ability to change colors of itemeffectmeters
+    - Ability to use directional arrows in `vgui_drawtree` again (pls)
 
-		"labeltext"													"DRAWTREE 0/1"
-		"textalignment"												"center"
-		"font"														"bh_Font12"
-		"command"													"engine incrementvar vgui_drawtree 0 1 1"
-		
-		"sound_depressed"											"UI/buttonclick.wav"
-		"sound_released"											"UI/buttonclickrelease.wav"
-		
-		"defaultBgColor_override"									"bh_Theme_BG20"
-		"armedBgColor_override"										"bh_Theme_BG30"
-		"depressedBgColor_override"									"bh_Theme_BG30"
-		"defaultFgColor_override"									"bh_Theme_TextSecondary"
-		"armedFgColor_override" 									"bh_Theme_TextAccent"
-		"depressedFgColor_override" 								"bh_ButtonDepressed"
-		"border_default"											"bh_b_NESW"
-		"border_armed"												"bh_b_NESW"
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Random useful info
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    - Scoreboard font: resource\clientscheme -> ScoreboardVerySmall (or ScoreboardSmall)
+    - Scoreboard name/ping/score/etc font -> "DefaultVerySmall" (set to "" to disable)
+    - Killfeed font: \scripts\hudlayout.res -> "font" under "HudDeathNotice"
+    - Change Item Preset names (A, B, C, D) by adding the following to chat_english.txt:
+        "TF_ItemPresetName0"    "<name>"
+        "TF_ItemPresetName1"    "<name>"
+        "TF_ItemPresetName2"    "<name>"
+        "TF_ItemPresetName3"    "<name>"
+    (will probably muck up the quickswitch menu)
+    - showschemevisualizer
+    - cl_panelanimation
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Payload Icon Notes
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    Used in PLR:
+        - cart_home_<team>_square
+        - cart_<team>, cart_<team>_bottom
+        - cart_track_<team>_opaque
+        - cart_point_<team>
+
+    Used in PL:
+        - cart_<team>
+        - cart_home_<team>_opaque
+        - cart_point_<team>_opaque
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Borders
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    bh_b_NESW               - Borders on NORTH, EAST, SOUTH, and WEST side of element
+    bh_b_NEW                - Borders on NORTH, EAST, and WEST side of element
+    bh_b_ESW                - Borders on EAST, SOUTH, and WEST side of element
+    bh_b_EW                 - Borders on EAST and WEST side of element
+    bh_b_N                  - Border on NORTH side of element
+    bh_b_E                  - Border on EAST side of element
+    bh_b_S                  - Border on SOUTH side of element
+    bh_b_W                  - Border on WEST side of element
+    ReplayGrayDialogBorder  - Used a lot for tooltips
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // "Close" Buttons
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // No text, just image
+
+        "CloseButton"
+        {
+            "image_drawcolor"                                       "255 255 255 255"
+            "image_armedcolor"                                      "240 134 49 255"
+
+            "SubImage"
+            {
+                "image"                                             "replay\thumbnails\menu_icons\close"
+            }
+        }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Element Template
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    "bh_Template_Block"
+    {
+        "ControlName"                                               "ImagePanel"
+        "fieldName"                                                 "bh_Template_Block"
+        "xpos"                                                      "0"
+        "ypos"                                                      "420"
+        "zpos"                                                      "0"
+        "wide"                                                      "f0"
+        "tall"                                                      "60"
+        "autoResize"                                                "0"
+        "pinCorner"                                                 "0"
+        "labeltext"                                                 ""
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "fillcolor"                                                 "bh_Theme_BG20"
+        "image"                                                     ""
+        "paintbackgroundtype"                                       "0"
     }
 
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Button Colors
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-		
-		"defaultFgColor_override"									"bh_Theme_TextSecondary"
-		"armedFgColor_override" 									"bh_Theme_TextAccent"
-		"depressedFgColor_override" 								"bh_ButtonDepressed"
-		"defaultBgColor_override"									"bh_Theme_BG20"
-		"armedBgColor_override"										"bh_Theme_BG30"
-		"depressedBgColor_override"									"bh_Theme_BG30"
-		"border_default"											"bh_b_NESW"
-		"border_armed"												"bh_b_NESW"
-		
-		// Button Colors
-		"image_drawcolor"											"255 255 255 255"
-		"image_armedcolor"											"240 134 49 255"
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// "Combobox" Colors
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-		"fgcolor_override"											"bh_white"
-		"bgcolor_override"											"bh_blank"
-		"disabledFgColor_override" 									"bh_white"
-		"selectionColor_override"									"bh_blank"
-		"selectionTextColor_override"								"bh_white"
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Background footer used in menus
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	"bh_BackgroundFooter"	
-	{
-		"ControlName"												"ImagePanel"
-		"fieldName"													"bh_BackgroundFooter"
-		"xpos"														"0"
-		"ypos"														"420"
-		"zpos"														"0"
-		"wide"														"f0"
-		"tall"														"61"
-		"autoResize"												"0"
-		"pinCorner"													"0"
-		"labeltext"													""
-		"visible"													"1"
-		"enabled"													"1"
-		"fillcolor"													"bh_Theme_BG20"
-		"border"													"bh_b_N"
-		"image"														""
-		"paintbackgroundtype"										"0"
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Button Template
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    "bh_Template_Button"
+    {
+        "ControlName"                                               "CExButton"
+        "fieldName"                                                 "bh_Template_Button"
+        "xpos"                                                      "30"
+        "ypos"                                                      "75"
+        "zpos"                                                      "0"
+        "wide"                                                      "100"
+        "tall"                                                      "26"
+        "autoResize"                                                "0"
+        "pinCorner"                                                 "0"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "paintbackgroundtype"                                       "0"
+
+        "labeltext"                                                 "DRAWTREE 0/1"
+        "textalignment"                                             "center"
+        "font"                                                      "bh_Font12"
+        "command"                                                   "engine incrementvar vgui_drawtree 0 1 1"
+
+        "sound_depressed"                                           "UI/buttonclick.wav"
+        "sound_released"                                            "UI/buttonclickrelease.wav"
+
+        "defaultBgColor_override"                                   "bh_Theme_BG20"
+        "armedBgColor_override"                                     "bh_Theme_BG30"
+        "depressedBgColor_override"                                 "bh_Theme_BG30"
+        "defaultFgColor_override"                                   "bh_Theme_TextSecondary"
+        "armedFgColor_override"                                     "bh_Theme_TextAccent"
+        "depressedFgColor_override"                                 "bh_ButtonDepressed"
+        "border_default"                                            "bh_b_NESW"
+        "border_armed"                                              "bh_b_NESW"
     }
 
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Pins
-	// A pinned element will always move relative to their parent element
-	// Good for things like shadows, etc. 
-	// Bear in mind x/y values move the pinned element oppositely as they usually do
-	// xpos 100 will move it 100 units to the LEFT instead of RIGHT, etc
-	////////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Button Colors
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	"bh_PinTemplate"
-	{	
-		"ControlName"												"Label"
-		"fieldName"													"bh_PinTemplate"
-		"xpos"														"c0"
-		"ypos"														"10"
-		"zpos"														"0"
-		"wide"														"100"
-		"tall"														"0"
-		"visible"													"1"
-		"enabled"													"1"
-		"bgcolor_override"											"0 0 0 0"
-	}
+        "defaultFgColor_override"                                   "bh_Theme_TextSecondary"
+        "armedFgColor_override"                                     "bh_Theme_TextAccent"
+        "depressedFgColor_override"                                 "bh_ButtonDepressed"
+        "defaultBgColor_override"                                   "bh_Theme_BG20"
+        "armedBgColor_override"                                     "bh_Theme_BG30"
+        "depressedBgColor_override"                                 "bh_Theme_BG30"
+        "border_default"                                            "bh_b_NESW"
+        "border_armed"                                              "bh_b_NESW"
 
-		"pin_to_sibling" 											"bh_PinTemplate"
-		"pin_corner_to_sibling" 									"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 									"0"
-		
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Animations
-	// From TF Team's hudanimations_tf.txt
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
-	event IsAnExample
-	{
-		Animate <panel name> <variable> <target value> <interpolator> <start time> <duration>
-	}
-	
-	variables:
-		FgColor
-		BgColor
-		Position
-		Size
-		Blur			(hud panels only)
-		TextColor		(hud panels only)
-		Ammo2Color		(hud panels only)
-		Alpha			(hud weapon selection only)
-		SelectionAlpha  (hud weapon selection only)
-		TextScan		(hud weapon selection only)
-	
-	Interpolator:
-		Linear
-		Accel 	- starts moving slow, ends fast
-		Deaccel - starts moving fast, ends slow
-		Spline 	- simple ease in/out curve
-		Pulse 	- < freq > over the duration, the value is pulsed (cosine) freq times ending at the dest value (assuming freq is integral)
-		Flicker - < randomness factor 0.0 to 1.0 > over duration, each frame if random # is less than factor, use end value, otherwise use prev value
-		Gain 	- < bias > Lower bias values bias towards 0.5 and higher bias values bias away from it.
-		Bias 	- < bias > Lower values bias the curve towards 0 and higher values bias it towards 1.
-	
-	RunEvent <event name> <start time>
-		starts another even running at the specified time
-	
-	StopEvent <event name> <start time>
-		stops another event that is current running at the specified time
-	
-	StopAnimation <panel name> <variable> <start time>
-		stops all animations refering to the specified variable in the specified panel
-	
-	StopPanelAnimations <panel name> <start time>
-		stops all active animations operating on the specified panel
-	
-	SetFont <panel name> <fontparameter> <fontname from scheme> <set time> 
-	
-	SetTexture <panel name> <textureidname> <texturefilename> <set time>
-	
-	SetString <panel name> <string varname> <stringvalue> <set time>
-	
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	// paintbackgroundtypes (info courtesy of Hypnotize)
-	////////////////////////////////////////////////////////////////////////////////////////////////////
-	0 - Straight edges
-	1 - Burnt paper edges
-	2 - Round edge
-	3 - Gradient edges
+        // Button Colors
+        "image_drawcolor"                                           "255 255 255 255"
+        "image_armedcolor"                                          "240 134 49 255"
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // "Combobox" Colors
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        "fgcolor_override"                                          "bh_white"
+        "bgcolor_override"                                          "bh_blank"
+        "disabledFgColor_override"                                  "bh_white"
+        "selectionColor_override"                                   "bh_blank"
+        "selectionTextColor_override"                               "bh_white"
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Background footer used in menus
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    "bh_BackgroundFooter"
+    {
+        "ControlName"                                               "ImagePanel"
+        "fieldName"                                                 "bh_BackgroundFooter"
+        "xpos"                                                      "0"
+        "ypos"                                                      "420"
+        "zpos"                                                      "0"
+        "wide"                                                      "f0"
+        "tall"                                                      "61"
+        "autoResize"                                                "0"
+        "pinCorner"                                                 "0"
+        "labeltext"                                                 ""
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "fillcolor"                                                 "bh_Theme_BG20"
+        "border"                                                    "bh_b_N"
+        "image"                                                     ""
+        "paintbackgroundtype"                                       "0"
+    }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Pins
+    // A pinned element will always move relative to their parent element
+    // Good for things like shadows, etc.
+    // Bear in mind x/y values move the pinned element oppositely as they usually do
+    // xpos 100 will move it 100 units to the LEFT instead of RIGHT, etc
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    "bh_PinTemplate"
+    {
+        "ControlName"                                               "Label"
+        "fieldName"                                                 "bh_PinTemplate"
+        "xpos"                                                      "c0"
+        "ypos"                                                      "10"
+        "zpos"                                                      "0"
+        "wide"                                                      "100"
+        "tall"                                                      "0"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "bgcolor_override"                                          "0 0 0 0"
+    }
+
+        "pin_to_sibling"                                            "bh_PinTemplate"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Animations
+    // From TF Team's hudanimations_tf.txt
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    event IsAnExample
+    {
+        Animate <panel name> <variable> <target value> <interpolator> <start time> <duration>
+    }
+
+    variables:
+        FgColor
+        BgColor
+        Position
+        Size
+        Blur            (hud panels only)
+        TextColor       (hud panels only)
+        Ammo2Color      (hud panels only)
+        Alpha           (hud weapon selection only)
+        SelectionAlpha  (hud weapon selection only)
+        TextScan        (hud weapon selection only)
+
+    Interpolator:
+        Linear
+        Accel   - starts moving slow, ends fast
+        Deaccel - starts moving fast, ends slow
+        Spline  - simple ease in/out curve
+        Pulse   - < freq > over the duration, the value is pulsed (cosine) freq times ending at the dest value (assuming freq is integral)
+        Flicker - < randomness factor 0.0 to 1.0 > over duration, each frame if random # is less than factor, use end value, otherwise use prev value
+        Gain    - < bias > Lower bias values bias towards 0.5 and higher bias values bias away from it.
+        Bias    - < bias > Lower values bias the curve towards 0 and higher values bias it towards 1.
+
+    RunEvent <event name> <start time>
+        starts another even running at the specified time
+
+    StopEvent <event name> <start time>
+        stops another event that is current running at the specified time
+
+    StopAnimation <panel name> <variable> <start time>
+        stops all animations refering to the specified variable in the specified panel
+
+    StopPanelAnimations <panel name> <start time>
+        stops all active animations operating on the specified panel
+
+    SetFont <panel name> <fontparameter> <fontname from scheme> <set time>
+
+    SetTexture <panel name> <textureidname> <texturefilename> <set time>
+
+    SetString <panel name> <string varname> <stringvalue> <set time>
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // paintbackgroundtypes (info courtesy of Hypnotize)
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    0 - Straight edges
+    1 - Burnt paper edges
+    2 - Round edge
+    3 - Gradient edges
