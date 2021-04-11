@@ -3,21 +3,29 @@
     "PlayerStatusHealthImage"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "PlayerStatusHealthBonusImage"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "BuildingStatusHealthImageBG"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "PlayerStatusHealthImageBG"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "bh_TargetIDHealthPin"
@@ -25,7 +33,7 @@
         "ControlName"                                               "Label"
         "fieldName"                                                 "bh_TargetIDHealthPin"
         "xpos"                                                      "0"
-        "ypos"                                                      "14"
+        "ypos"                                                      "0"
         "zpos"                                                      "0"
         "wide"                                                      "100"
         "tall"                                                      "0"

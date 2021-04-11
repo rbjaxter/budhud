@@ -15,7 +15,7 @@
     "SpectatorGUIHealth"
     {
         "xpos"                                                      "0"
-        "ypos"                                                      "20"
+        "ypos"                                                      "34"
         "wide"                                                      "40"
         "tall"                                                      "40"
     }
@@ -106,7 +106,7 @@
         "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "0"
-        "ypos"                                                      "-14"
+        "ypos"                                                      "0"
         "zpos"                                                      "-1"            // Hard-coded to -1. Keep here or it will appear in casual.
 
         "src_corner_height"                                         "0"
@@ -126,7 +126,8 @@
         "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "0"
-        "ypos"                                                      "-14"
+        "ypos"                                                      "0"
+        "zpos"                                                      "-1"            // Hard-coded to -1. Keep here or it will appear in casual.
 
         "src_corner_height"                                         "0"
         "src_corner_width"                                          "0"
@@ -143,7 +144,8 @@
         "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "0"
-        "ypos"                                                      "-14"
+        "ypos"                                                      "0"
+        "zpos"                                                      "-1"            // Hard-coded to -1. Keep here or it will appear in casual.
 
         "src_corner_height"                                         "0"
         "src_corner_width"                                          "0"

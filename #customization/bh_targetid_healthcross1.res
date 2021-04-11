@@ -12,7 +12,7 @@
         "ControlName"                                               "Label"
         "fieldName"                                                 "bh_TargetIDHealthPin"
         "xpos"                                                      "0"
-        "ypos"                                                      "16"
+        "ypos"                                                      "2"
         "zpos"                                                      "0"
         "wide"                                                      "100"
         "tall"                                                      "0"
@@ -23,20 +23,33 @@
 
     "PlayerStatusHealthImage"
     {
-        "xpos"                                                      "6"
-        "ypos"                                                      "17"
-        "zpos"                                                      "1"
-        "wide"                                                      "15"
-        "tall"                                                      "15"
+        "xpos"                                                      "4"
+        "ypos"                                                      "4"
+        "zpos"                                                      "2"
+        "wide"                                                      "12"
+        "tall"                                                      "12"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+    }
+
+    "PlayerStatusHealthImageBG"
+    {
+        "xpos"                                                      "3"
+        "ypos"                                                      "3"
+        "zpos"                                                      "0"
+        "wide"                                                      "14"
+        "tall"                                                      "14"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
     }
 
     "PlayerStatusHealthBonusImage"
     {
-        "xpos"                                                      "6"
-        "ypos"                                                      "17"
+        "xpos"                                                      "4"
+        "ypos"                                                      "4"
         "zpos"                                                      "0"
-        "wide"                                                      "15"
-        "tall"                                                      "15"
+        "wide"                                                      "12"
+        "tall"                                                      "12"
     }
 
     "PlayerStatusHealthValue"
@@ -47,7 +60,7 @@
 
         "ControlName"                                               "Label"
         "fieldName"                                                 "PlayerStatusHealthValue"
-        "xpos"                                                      "-22"
+        "xpos"                                                      "-15"
         "ypos"                                                      "1"
         "zpos"                                                      "5"
         "wide"                                                      "40"
@@ -68,7 +81,7 @@
 
         "ControlName"                                               "Label"
         "fieldName"                                                 "PlayerStatusHealthValueShadow"
-        "xpos"                                                      "-23"
+        "xpos"                                                      "-15"
         "ypos"                                                      "0"
         "zpos"                                                      "5"
         "wide"                                                      "40"

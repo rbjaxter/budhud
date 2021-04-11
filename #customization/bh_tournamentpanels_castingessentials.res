@@ -6,9 +6,15 @@
     // Hide charge amounts for use with CastingEssentials
     // Not much to this file really since I've never personally used CastingEssentials, but I assume
     // it might eventually help those that do
-    // Note: This only works on 16:9 resolutions
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // NOTE: THIS ONLY WORKS ON 16:9 RESOLUTIONS
+    // =========================================
     // Other aspect ratios require different values and I'm not sure how I want to handle providing
     // those customizations yet
+    //
+    // NOTE: REQUIRES MATERIAL RELOAD IF CUSTOMIZATION IS ADDED IN-GAME
+    // ================================================================
+    // Enter in console: `toggle mat_aaquality`
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     "specgui"
