@@ -3,11 +3,15 @@
     "background"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "ChargeLabel"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "ChargeMeter"
@@ -27,6 +31,8 @@
         "PipeIcon"
         {
             "ypos"                                                  "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
         }
 
         "NumPipesLabel"
@@ -58,6 +64,8 @@
         "PipeIcon"
         {
             "ypos"                                                  "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
         }
 
         "NumPipesLabel"

@@ -3,36 +3,50 @@
     "CaratLabel"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "ClassLabel"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "CurrentlyEquippedLabel"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "TopLine"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "TauntHintLabel"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "TauntLabel"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "TauntCaratLabel"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "class_loadout_panel"

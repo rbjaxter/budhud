@@ -271,6 +271,8 @@
         "EscortItemImageAlert"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
 
             "if_multiple_trains_bottom"
             {
@@ -307,6 +309,8 @@
         "CapPlayerImage"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "CapNumPlayers"
@@ -369,10 +373,14 @@
         "EscortTeardrop"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
 
             "ProgressText"
             {
                 "ypos"                                              "r-6969"
+                "visible"                                           "0"
+                "enabled"                                           "0"
             }
 
             "Blocked"

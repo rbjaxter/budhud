@@ -66,20 +66,28 @@
     {
         "fgcolor_override"                                          "bh_Shadow"
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
 
         "if_hybrid"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "if_mvm"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "if_specialdelivery"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 
@@ -102,23 +110,30 @@
 
     "RedScoreShadow"
     {
-        "fgcolor_override"                                          "bh_Shadow"
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "LeftSideBG"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "RightSideBG"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "OutlineBG"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "PlayingToCluster"
@@ -126,6 +141,8 @@
         "PlayingToBG"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "PlayingTo"

@@ -5,21 +5,29 @@
     "SpyIcon"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "TitleLabel"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "TitleLabelDropShadow"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "ToggleLabel"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "MainBackground"
@@ -40,16 +48,22 @@
     "NumberBg1"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "NumberBg2"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "NumberBg3"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "NumberLabel1"

@@ -48,6 +48,8 @@
     "NotificationPanel"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -90,6 +92,8 @@
     "StatPanel"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -204,6 +208,8 @@
     "HudBowCharge"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "HudBossHealth"
@@ -446,6 +452,8 @@
     "HudTeamGoal"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "HudTeamGoalTournament"

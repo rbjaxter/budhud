@@ -3,66 +3,92 @@
     "ClassImage"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "classmodelpanel"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "BlueScoreBG"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "RedScoreBG"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "PlayerNameBG"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "PlayerNameLabel"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "MainBG"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "ShadedBar"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "RedTeamScoreDropshadow"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "BlueTeamScoreDropshadow"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "BlueTeamImage"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "RedTeamImage"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "RedTeamScoreDropshadow"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "MvMScoreboard"
@@ -135,6 +161,8 @@
         if_mvm
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 
@@ -204,6 +232,8 @@
         //"fgcolor"                                                 "bh_blue"
 
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "BlueTeamPlayerCount"
@@ -221,6 +251,8 @@
         if_mvm
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 
@@ -239,6 +271,8 @@
         if_mvm
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 
@@ -287,6 +321,8 @@
     //  "fgcolor"                                                   "bh_red"
 
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "RedTeamPlayerCount"
@@ -416,6 +452,8 @@
         if_mvm
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 
@@ -468,6 +506,8 @@
         "Kills"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "bh_Kills"
@@ -500,6 +540,8 @@
         "Assists"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "bh_Assists"
@@ -532,6 +574,8 @@
         "Deaths"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "bh_Deaths"
@@ -574,6 +618,8 @@
         "Damage"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "bh_Damage"
@@ -604,6 +650,8 @@
         "Healing"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "bh_Healing"
@@ -826,25 +874,35 @@
     "ServerTimeLeftInsetBG"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "TimerBG"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "ServerTimeLeftLabel"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "ServerTimeLeftValue"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
 
         if_mvm
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 

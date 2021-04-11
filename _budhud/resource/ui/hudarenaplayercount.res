@@ -25,6 +25,8 @@
         "playerimage"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "background"
@@ -52,6 +54,8 @@
         "countshadow"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 
@@ -65,6 +69,9 @@
         "playerimage"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
+
         }
 
         "background"
@@ -92,6 +99,8 @@
         "countshadow"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 }

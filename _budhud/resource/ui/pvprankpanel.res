@@ -53,6 +53,8 @@
         "NameLabel"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "DescLine1"
@@ -148,6 +150,8 @@
                 if_mini
                 {
                     "ypos"                                          "r-6969"
+                    "visible"                                       "0"
+                    "enabled"                                       "0"
                 }
             }
 
@@ -167,11 +171,15 @@
                 if_mini
                 {
                     "ypos"                                          "r-6969"
+                    "visible"                                       "0"
+                    "enabled"                                       "0"
                 }
 
                 "Frame"
                 {
                     "ypos"                                          "r-6969"
+                    "visible"                                       "0"
+                    "enabled"                                       "0"
                 }
 
                 // First column
@@ -355,6 +363,8 @@
                 "ScoreLabel"
                 {
                     "ypos"                                          "r-6969"
+                    "visible"                                       "0"
+                    "enabled"                                       "0"
                 }
             }
 

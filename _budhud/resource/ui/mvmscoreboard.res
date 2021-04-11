@@ -3,6 +3,8 @@
     "PlayerListBackground"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "bh_LocalStatsPin"
@@ -75,6 +77,8 @@
     "DifficultyContainer"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "CreditStatsContainer"
@@ -91,11 +95,15 @@
         "CreditStatsBackground"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "CreditsLabel"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "PreviousWaveCreditInfoPanel"

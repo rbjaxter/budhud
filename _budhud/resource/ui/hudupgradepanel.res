@@ -16,6 +16,8 @@
     "TipPanel"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "SelectWeaponPanel"
@@ -23,6 +25,8 @@
         "OutterPanelBG"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "InnerPanelRim"
@@ -33,11 +37,15 @@
         "InnerBGPanel"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "InactiveSeparatorPanel"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "InactiveTabPanel1"

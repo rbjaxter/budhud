@@ -25,6 +25,8 @@
                 "BlueTeamImage"
                 {
                     "ypos"                                          "r-6969"
+                    "visible"                                       "0"
+                    "enabled"                                       "0"
                 }
 
                 "BlueTeamScoreBG"
@@ -55,6 +57,8 @@
                 "BluePlayerListBG"
                 {
                     "ypos"                                          "r-6969"
+                    "visible"                                       "0"
+                    "enabled"                                       "0"
                 }
             }
 
@@ -63,6 +67,8 @@
                 "RedTeamImage"
                 {
                     "ypos"                                          "r-6969"
+                    "visible"                                       "0"
+                    "enabled"                                       "0"
                 }
 
                 "RedTeamScoreBG"
@@ -95,6 +101,8 @@
                 "RedPlayerListBG"
                 {
                     "ypos"                                          "r-6969"
+                    "visible"                                       "0"
+                    "enabled"                                       "0"
                 }
             }
         }

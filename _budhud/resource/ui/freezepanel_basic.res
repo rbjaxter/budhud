@@ -3,6 +3,8 @@
     "ScreenshotPanel"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "FreezePanelBase"
@@ -17,11 +19,15 @@
         "FreezeLabel"
         {
             "ypos"                                                  "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
         }
 
         "FreezeLabelKiller"
         {
             "ypos"                                                  "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
         }
 
         "FreezeLabelKiller2"
@@ -52,6 +58,8 @@
         "NemesisSubPanel"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 

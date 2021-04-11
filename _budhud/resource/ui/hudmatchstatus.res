@@ -45,6 +45,8 @@
         "BlueTeamBG"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "BluePlayerListBG"
@@ -57,6 +59,8 @@
         "BlueTeamImage"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "BluePlayerList"
@@ -80,11 +84,15 @@
         "RedPlayerListBG"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "RedTeamImage"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "RedPlayerList"
@@ -98,6 +106,8 @@
         "Background"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 
@@ -127,6 +137,8 @@
         if_mvm
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 

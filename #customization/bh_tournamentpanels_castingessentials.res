@@ -18,6 +18,8 @@
             "bh_ChargeAmount_Left"
             {
                 "ypos"                                                  "r-6969"
+                "visible"                                               "0"
+                "enabled"                                               "0"
             }
 
             "bh_ChargeAmountShadow_Left"
@@ -29,6 +31,8 @@
             "bh_ChargeAmountShadow_Right"
             {
                 "ypos"                                                  "r-6969"
+                "visible"                                               "0"
+                "enabled"                                               "0"
             }
 
             "bh_ChargeAmount_Right"

@@ -11,6 +11,8 @@
     "ItemEffectMeterBG"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "ItemEffectMeterLabel"

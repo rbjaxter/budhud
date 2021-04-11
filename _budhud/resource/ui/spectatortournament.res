@@ -23,6 +23,8 @@
         "attriblabel"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "itemmodelpanel"
@@ -58,6 +60,8 @@
             "specindex"
             {
                 "ypos"                                              "r-6969"
+                "visible"                                           "0"
+                "enabled"                                           "0"
             }
 
             "playername"

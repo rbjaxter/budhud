@@ -65,13 +65,9 @@
 
         "WrenchIcon"
         {
-            "xpos"                                                  "120"
             "ypos"                                                  "r-6969"
-            "wide"                                                  "20"
-            "tall"                                                  "20"
-            "iconColor"                                             "bh_gray"
-            "bgcolor_override"                                      "bh_red"
-            "border"                                                "BackpackItemGrayedOut"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "SapperIcon"

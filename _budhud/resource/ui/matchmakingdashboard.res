@@ -16,6 +16,8 @@
         "OuterShadow"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "FindAGameButton"
@@ -154,6 +156,8 @@
         "OuterShadow"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "QueueContainer"
@@ -178,6 +182,8 @@
             "OuterShadow"
             {
                 "ypos"                                              "r-6969"
+                "visible"                                           "0"
+                "enabled"                                           "0"
             }
 
             "CloseButton"
@@ -191,6 +197,8 @@
                 "SubImage"
                 {
                     "ypos"                                          "r-6969"
+                    "visible"                                       "0"
+                    "enabled"                                       "0"
                 }
             }
 
@@ -213,6 +221,8 @@
                 "SubImage"
                 {
                     "ypos"                                          "r-6969"
+                    "visible"                                       "0"
+                    "enabled"                                       "0"
                 }
             }
         }

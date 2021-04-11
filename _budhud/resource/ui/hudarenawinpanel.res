@@ -10,6 +10,8 @@
         "BlueScoreBG"
         {
             "ypos"                                                  "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
         }
 
         "bh_BlueScoreBG"
@@ -32,6 +34,8 @@
         "RedScoreBG"
         {
             "ypos"                                                  "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
         }
 
         "bh_RedScoreBG"
@@ -117,6 +121,8 @@
         "ArenaStreaksBG"
         {
             "ypos"                                                  "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
         }
 
         "ArenaStreakLabel"
@@ -134,6 +140,8 @@
     "WinPanelBG"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "bh_WinPanelBG"
@@ -200,6 +208,8 @@
     "WinReasonLabel"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "DetailsLabel"
@@ -215,6 +225,8 @@
     "ShadedBar"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "TopPlayersLabel"

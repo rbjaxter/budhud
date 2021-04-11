@@ -4,24 +4,28 @@
     {
         "FreezeLabel"
         {
-            "ypos"                                              "r-6969"
-            "wide"                                              "0"
+            "ypos"                                                  "r-6969"
+            "wide"                                                  "0"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "FreezeLabelKiller2"
         {
-            "ypos"                                              "r-6969"
-            "wide"                                              "r-6969"
+            "ypos"                                                  "r-6969"
+            "wide"                                                  "r-6969"
         }
     }
 
     "itempanel"
     {
-        "wide"                                                  "0"
+        "wide"                                                      "0"
 
         "ItemLabel"
         {
-            "ypos"                                              "r-6969"
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 }

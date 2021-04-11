@@ -41,22 +41,11 @@
 
     "CaratLabel"
     {
-        "ControlName"                                               "CExLabel"
-        "fieldName"                                                 "CaratLabel"
-        "font"                                                      "HudFontSmallestBold"
-        "textAlignment"                                             "west"
-        "labelText"                                                 ">>"
-        "auto_wide_tocontents"                                      "0"
-        "tall"                                                      "15"
         "ypos"                                                      "r-6969"
-        "zpos"                                                      "2"
-        "autoResize"                                                "0"
-        "pinCorner"                                                 "0"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "wide"                                                      "0"
-        "fgcolor"                                                   "255 0 0 255"
     }
+
     "TitleLabel"
     {
         "ControlName"                                               "CExLabel"

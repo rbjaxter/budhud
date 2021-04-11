@@ -29,6 +29,8 @@
         "attriblabel"
         {
             "ypos"                                                  "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
         }
 
         "itemmodelpanel"
@@ -66,6 +68,8 @@
             "specindex"
             {
                 "ypos"                                              "r-6969"
+                "visible"                                           "0"
+                "enabled"                                           "0"
             }
 
             "playername"
@@ -181,6 +185,8 @@
             "respawntime"
             {
                 "ypos"                                              "r-6969"    // Hiding & duplicating this (below) just to keep name consistency
+                "visible"                                           "0"
+                "enabled"                                           "0"
             }
 
             "bh_RespawnTime_Left"   // Match all values to bh_HealthBlock_Left
@@ -222,6 +228,8 @@
             "chargeamount"
             {
                 "ypos"                                              "r-6969"    // Hiding & duplicating this just to keep name consistency
+                "visible"                                           "0"
+                "enabled"                                           "0"
             }
 
             "bh_ChargeAmount_Left"

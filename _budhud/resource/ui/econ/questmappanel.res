@@ -3,9 +3,12 @@
     "QuestMap"
     {
         "ypos"                                                      "20"
+
         "Dimmer"
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "MainContainer"

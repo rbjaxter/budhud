@@ -60,6 +60,8 @@
             "specindex"
             {
                 "ypos"                                              "r-6969"
+                "visible"                                           "0"
+                "enabled"                                           "0"
             }
 
             "ReadyBG"
@@ -112,20 +114,28 @@
     "HudTournamentBG"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
 
         if_competitive
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_readymode
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_mvm
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 
@@ -145,6 +155,8 @@
         if_competitive
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_readymode
@@ -155,6 +167,8 @@
         if_mvm
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 
@@ -246,16 +260,22 @@
         if_competitive
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_readymode
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_mvm
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 
@@ -280,46 +300,64 @@
         if_competitive
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_readymode
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_mvm
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 
     "HudTournamentBLUEBG"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "HudTournamentREDBG"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "CountdownBG"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
 
         if_competitive
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_readymode
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_mvm
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 
@@ -333,16 +371,22 @@
         if_competitive
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_readymode
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_mvm
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 
@@ -356,16 +400,22 @@
         if_competitive
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_readymode
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_mvm
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 
@@ -380,16 +430,22 @@
         if_competitive
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_readymode
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_mvm
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 
@@ -416,20 +472,26 @@
 
         if_competitive
         {
-            "wide"                                                  "0"
             "ypos"                                                  "r-6969"
+            "wide"                                                  "0"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_readymode
         {
-            "wide"                                                  "0"
             "ypos"                                                  "r-6969"
+            "wide"                                                  "0"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_mvm
         {
-            "wide"                                                  "0"
             "ypos"                                                  "r-6969"
+            "wide"                                                  "0"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 
@@ -443,20 +505,26 @@
 
         if_competitive
         {
-            "wide"                                                  "0"
             "ypos"                                                  "r-6969"
+            "wide"                                                  "0"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_readymode
         {
-            "wide"                                                  "0"
             "ypos"                                                  "r-6969"
+            "wide"                                                  "0"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_mvm
         {
-            "wide"                                                  "0"
             "ypos"                                                  "r-6969"
+            "wide"                                                  "0"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 
@@ -482,20 +550,26 @@
 
         if_competitive
         {
-            "wide"                                                  "0"
             "ypos"                                                  "r-6969"
+            "wide"                                                  "0"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_readymode
         {
-            "wide"                                                  "0"
             "ypos"                                                  "r-6969"
+            "wide"                                                  "0"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_mvm
         {
-            "wide"                                                  "0"
             "ypos"                                                  "r-6969"
+            "wide"                                                  "0"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 
@@ -518,11 +592,15 @@
         if_readymode
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_competitive
         {
             "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_mvm
@@ -582,18 +660,24 @@
         {
             "ypos"                                                  "r-6969"
             "wide"                                                  "0"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         if_competitive
         {
             "ypos"                                                  "r-6969"
             "wide"                                                  "0"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
     }
 
     "HudTournamentBGHelp"
     {
         "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
     }
 
     "CountdownLabel"
