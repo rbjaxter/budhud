@@ -3,7 +3,7 @@
     "DisguiseStatusBG"
     {
         "xpos"                                                      "76"
-        "ypos"                                                      "67"        // 68
+        "ypos"                                                      "67"
         "zpos"                                                      "-1"
         "wide"                                                      "40"
         "tall"                                                      "2"
@@ -78,7 +78,7 @@
     "SpectatorGUIHealth"
     {
         "xpos"                                                      "76"
-        "ypos"                                                      "36"
+        "ypos"                                                      "49"
         "wide"                                                      "60"
     }
 }
