@@ -4,6 +4,27 @@
     {
         "bgcolor_override"                                          "bh_ItemPanel"
         "border"                                                    "bh_b_NESW"
+
+        "Header"
+        {
+            "xpos"                                                  "5"
+            "ypos"                                                  "5"
+            "wide"                                                  "143"
+            "tall"                                                  "20"
+            "font"                                                  "bh_Font10"
+            "textalignment"                                         "north-west"
+        }
+
+		"Issue"
+		{
+
+			"xpos"			                                        "5"
+			"ypos"			                                        "20"
+			"wide"			                                        "143"
+			"tall"			                                        "30"
+			"textAlignment"	                                        "north-west"
+			"font"			                                        "bh_Font10"
+		}
     }
 
     "VotePassed"
