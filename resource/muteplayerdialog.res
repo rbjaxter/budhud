@@ -1,1 +1,1 @@
-	#base	"muteplayerdialog_base.res"
+    #base   "muteplayerdialog_base.res"

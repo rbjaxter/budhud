@@ -1,4 +1,3 @@
-
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Don't edit unless you know what you're doing!
 	// ============================================================================================== //
@@ -21,7 +20,7 @@
 	// Arial Black: 1
 	// Helvetica: 1
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
+
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Occurences (not replaced)
 	// ============================================================================================== //
@@ -51,12 +50,12 @@ Scheme
                 "antialias"											"1"
             }
         }
-		
+
 		////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Specific Fonts
 		// Used by specific HUD elements
-		////////////////////////////////////////////////////////////////////////////////////////////////////		
-		
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+
 		bh_Font_HealthAmmoMain
 		{
 			"1"
@@ -69,7 +68,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font_AmmoReserve
 		{
 			"1"
@@ -82,16 +81,16 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		////////////////////////////////////////////////////////////////////////////////////////////////////
 		// General Fonts
 		// Font entries shared by multiple HUD elements
 		////////////////////////////////////////////////////////////////////////////////////////////////////
-		
+
 		////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Font w/ antialias only
 		////////////////////////////////////////////////////////////////////////////////////////////////////
-		
+
 		bh_Font6
 		{
 			"1"
@@ -104,7 +103,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font8
 		{
 			"1"
@@ -117,7 +116,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font10
 		{
 			"1"
@@ -130,7 +129,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font12
 		{
 			"1"
@@ -143,7 +142,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font14
 		{
 			"1"
@@ -156,7 +155,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font16
 		{
 			"1"
@@ -169,7 +168,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font18
 		{
 			"1"
@@ -182,7 +181,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font20
 		{
 			"1"
@@ -195,7 +194,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font22
 		{
 			"1"
@@ -208,7 +207,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font24
 		{
 			"1"
@@ -221,7 +220,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font26
 		{
 			"1"
@@ -234,7 +233,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font28
 		{
 			"1"
@@ -247,7 +246,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font30
 		{
 			"1"
@@ -259,8 +258,8 @@ Scheme
 				"dropshadow"										"0"
 				"outline"											"0"
 			}
-		}		
-		
+		}
+
 		bh_Font32
 		{
 			"1"
@@ -273,7 +272,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font36
 		{
 			"1"
@@ -286,7 +285,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font40
 		{
 			"1"
@@ -298,8 +297,8 @@ Scheme
 				"dropshadow"										"0"
 				"outline"											"0"
 			}
-		}	
-		
+		}
+
 		bh_Font48
 		{
 			"1"
@@ -312,7 +311,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font50
 		{
 			"1"
@@ -324,8 +323,8 @@ Scheme
 				"dropshadow"										"0"
 				"outline"											"0"
 			}
-		}		
-		
+		}
+
 		bh_Font60
 		{
 			"1"
@@ -338,11 +337,11 @@ Scheme
 				"outline"											"0"
 			}
 		}
-	
+
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Font w/ Drop Shadow
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
+
 		bh_Font6DropShadow
 		{
 			"1"
@@ -355,7 +354,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font8DropShadow
 		{
 			"1"
@@ -368,7 +367,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font10DropShadow
 		{
 			"1"
@@ -381,7 +380,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font12DropShadow
 		{
 			"1"
@@ -394,7 +393,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font14DropShadow
 		{
 			"1"
@@ -407,7 +406,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font16DropShadow
 		{
 			"1"
@@ -420,7 +419,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font18DropShadow
 		{
 			"1"
@@ -433,7 +432,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font20DropShadow
 		{
 			"1"
@@ -446,7 +445,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font22DropShadow
 		{
 			"1"
@@ -459,7 +458,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font24DropShadow
 		{
 			"1"
@@ -472,7 +471,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font26DropShadow
 		{
 			"1"
@@ -485,7 +484,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font28DropShadow
 		{
 			"1"
@@ -498,7 +497,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font30DropShadow
 		{
 			"1"
@@ -510,8 +509,8 @@ Scheme
 				"dropshadow"										"1"
 				"outline"											"0"
 			}
-		}		
-		
+		}
+
 		bh_Font32DropShadow
 		{
 			"1"
@@ -524,7 +523,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font36DropShadow
 		{
 			"1"
@@ -537,7 +536,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font40DropShadow
 		{
 			"1"
@@ -549,8 +548,8 @@ Scheme
 				"dropshadow"										"1"
 				"outline"											"0"
 			}
-		}	
-		
+		}
+
 		bh_Font48DropShadow
 		{
 			"1"
@@ -563,7 +562,7 @@ Scheme
 				"outline"											"0"
 			}
 		}
-		
+
 		bh_Font50DropShadow
 		{
 			"1"
@@ -593,7 +592,7 @@ Scheme
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Font w/ Outline
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
+
 		bh_Font6Outline
 		{
 			"1"
@@ -606,7 +605,7 @@ Scheme
 				"outline"											"1"
 			}
 		}
-		
+
 		bh_Font8Outline
 		{
 			"1"
@@ -619,7 +618,7 @@ Scheme
 				"outline"											"1"
 			}
 		}
-		
+
 		bh_Font10Outline
 		{
 			"1"
@@ -632,7 +631,7 @@ Scheme
 				"outline"											"1"
 			}
 		}
-		
+
 		bh_Font12Outline
 		{
 			"1"
@@ -645,7 +644,7 @@ Scheme
 				"outline"											"1"
 			}
 		}
-		
+
 		bh_Font14Outline
 		{
 			"1"
@@ -658,7 +657,7 @@ Scheme
 				"outline"											"1"
 			}
 		}
-		
+
 		bh_Font16Outline
 		{
 			"1"
@@ -671,7 +670,7 @@ Scheme
 				"outline"											"1"
 			}
 		}
-		
+
 		bh_Font18Outline
 		{
 			"1"
@@ -684,7 +683,7 @@ Scheme
 				"outline"											"1"
 			}
 		}
-		
+
 		bh_Font20Outline
 		{
 			"1"
@@ -697,7 +696,7 @@ Scheme
 				"outline"											"1"
 			}
 		}
-		
+
 		bh_Font22Outline
 		{
 			"1"
@@ -710,7 +709,7 @@ Scheme
 				"outline"											"1"
 			}
 		}
-		
+
 		bh_Font24Outline
 		{
 			"1"
@@ -723,7 +722,7 @@ Scheme
 				"outline"											"1"
 			}
 		}
-		
+
 		bh_Font26Outline
 		{
 			"1"
@@ -736,7 +735,7 @@ Scheme
 				"outline"											"1"
 			}
 		}
-		
+
 		bh_Font28Outline
 		{
 			"1"
@@ -749,7 +748,7 @@ Scheme
 				"outline"											"1"
 			}
 		}
-		
+
 		bh_Font30Outline
 		{
 			"1"
@@ -761,8 +760,8 @@ Scheme
 				"dropshadow"										"0"
 				"outline"											"1"
 			}
-		}		
-		
+		}
+
 		bh_Font32Outline
 		{
 			"1"
@@ -775,7 +774,7 @@ Scheme
 				"outline"											"1"
 			}
 		}
-		
+
 		bh_Font36Outline
 		{
 			"1"
@@ -788,7 +787,7 @@ Scheme
 				"outline"											"1"
 			}
 		}
-		
+
 		bh_Font40Outline
 		{
 			"1"
@@ -800,8 +799,8 @@ Scheme
 				"dropshadow"										"0"
 				"outline"											"1"
 			}
-		}	
-		
+		}
+
 		bh_Font48Outline
 		{
 			"1"
@@ -814,7 +813,7 @@ Scheme
 				"outline"											"1"
 			}
 		}
-		
+
 		bh_Font50Outline
 		{
 			"1"
@@ -826,8 +825,8 @@ Scheme
 				"dropshadow"										"0"
 				"outline"											"1"
 			}
-		}	
-		
+		}
+
 		bh_Font60Outline
 		{
 			"1"
@@ -840,11 +839,11 @@ Scheme
 				"outline"											"1"
 			}
 		}
-		
+
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Default clientscheme + replace-all
 	////////////////////////////////////////////////////////////////////////////////////////////////////
-	
+
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
@@ -909,7 +908,7 @@ Scheme
 				"weight"		"800"
 			}
 
-			
+
 		}
 		"DefaultUnderline"
 		{
@@ -1252,7 +1251,7 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}	
+		}
 		"HudFontMediumBigBold"
 		{
 			"1"
@@ -1263,7 +1262,7 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}		
+		}
 		"HudFontMedium"
 		{
 			"1"
@@ -1346,7 +1345,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
 		"HudFontSmallishBold"
 		{
 			"1"
@@ -1710,7 +1709,7 @@ Scheme
 				"weight"	"200"
 				"outline"	"1"
 			}
-		}		
+		}
 		TFTypeDeath
 		{
 			"1"
@@ -1722,7 +1721,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		Icons
 		{
 			"1"
@@ -1878,7 +1877,7 @@ Scheme
 				"weight"	"500"
 			}
 		}
-		
+
 		"GoalText"
 		{
 			"1"
@@ -1891,8 +1890,8 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
-		
+		}
+
 		"ChalkboardTitle"
 		{
 			"1"
@@ -1901,7 +1900,7 @@ Scheme
 				"tall"			"28"
 				"tall_disabled"	"48"
 				"tall_disabled"	"48"
-				"antialias"		"1" 
+				"antialias"		"1"
 				"custom"		"1" [disabled]
 				"weight"		"500"
 				"weight_disabled"	"800"
@@ -2207,7 +2206,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+
 		"TargetID"
 		{
 			"1"
@@ -2349,8 +2348,8 @@ Scheme
 				"weight"		"300"
 				"antialias"		"1"
 			}
-		}	
-		
+		}
+
 		MenuSmallFont
 		{
 			"1"
@@ -2363,7 +2362,7 @@ Scheme
 				"weight_disabled"	"600"
 				"antialias"		"1"
 			}
-		}			
+		}
 		CapPlayerFont
 		{
 			"1"
@@ -2401,7 +2400,7 @@ Scheme
 				"additive"	"1"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		TFFontMedium
 		{
 			"1"
@@ -2414,8 +2413,8 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
-		
+		}
+
 		InstructionalText
 		{
 			"1"
@@ -2427,8 +2426,8 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
-		
+		}
+
 		MatchmakingDialogTitle
 		{
 			"1"
@@ -2476,7 +2475,7 @@ Scheme
 				"tall"		"18"
 				"weight"	"900"
 			}
-		}		
+		}
 		MatchmakingDialogMenuMedium
 		{
 			"1"
@@ -2524,7 +2523,7 @@ Scheme
 				"weight"	"900"
 			}
 		}
-		
+
 		"TeamMenuBold"
 		{
 			"1"
@@ -2546,7 +2545,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		"IntroMenuCaption"
 		{
 			"1"
@@ -2557,7 +2556,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}			
+		}
 		"AchievementNotification"
 		{
 			"1"
@@ -2632,7 +2631,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
+
 		"ItemFontNameSmallest"
 		{
 			"1"
@@ -2719,7 +2718,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
 		"ItemFontAttribLarger"
 		{
 			"1"
@@ -2731,7 +2730,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"AchievementTracker_Name"
 		{
 			"1"
@@ -2871,7 +2870,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
+
 		"QuestLargeText"
 		{
 			"1"
@@ -3003,7 +3002,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+
 		"QuestLargeText_Merasmus"
 		{
 			"1"
@@ -3027,7 +3026,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+
 		"AdFont_AdText"
 		{
 			"1"
@@ -3074,7 +3073,7 @@ Scheme
 				"italic"	"1"
 			}
 		}
-		
+
 		//
 		//////////////////// REPLAY FONTS //////////////////////////////
 		//
@@ -3247,7 +3246,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+
 		//
 		//////////////////// ECON FONTS //////////////////////////////
 		//
