@@ -168,6 +168,7 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Animated GIF
     ////////////////////////////////////////////////////////////////////////////////////////////////////
+
     "Background"
     {
         "ControlName"                                               "ScalableImagePanel"
@@ -945,7 +946,7 @@
         "tall"                                                      "35"
         "visible"                                                   "1"
         "enabled"                                                   "1"
-        "labelText"                                                 "——— budhud ———"
+        "labelText"                                                 "— budhud —"
         "font"                                                      "bh_Font26"
         "textAlignment"                                             "Center"
         "fillcolor"                                                 "bh_gray"

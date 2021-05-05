@@ -13,6 +13,14 @@ Scheme
             {
                 "range" "0x021 0xFFFF"
             }
+            "french"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "portuguese"
+            {
+                "range" "0x021 0xFFFF"
+            }
 		}
 
 		"9" // Unified TF2 Crosshairs
