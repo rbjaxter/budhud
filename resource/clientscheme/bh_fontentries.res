@@ -9,7 +9,31 @@ Scheme
 		{
 			"font"		"resource/fonts/font-lato-semibold.ttf"
 			"name"		"Lato Semibold"
+            "brazilian"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "bulgarian"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "czech"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "danish"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "dutch"
+            {
+                "range" "0x021 0xFFFF"
+            }
             "english"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "finnish"
             {
                 "range" "0x021 0xFFFF"
             }
@@ -17,7 +41,79 @@ Scheme
             {
                 "range" "0x021 0xFFFF"
             }
+            "german"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "greek"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "hungarian"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "italian"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "japanese"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "korean"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "koreana"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "norwegian"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "pirate"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "polish"
+            {
+                "range" "0x021 0xFFFF"
+            }
             "portuguese"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "romanian"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "russian"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "schinese"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "spanish"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "swedish"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "tchinese"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "thai"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "turkish"
             {
                 "range" "0x021 0xFFFF"
             }
