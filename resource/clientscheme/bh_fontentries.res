@@ -9,6 +9,10 @@ Scheme
 		{
 			"font"		"resource/fonts/font-lato-semibold.ttf"
 			"name"		"Lato Semibold"
+            "arabic"
+            {
+                "range" "0x021 0xFFFF"
+            }
             "brazilian"
             {
                 "range" "0x021 0xFFFF"
@@ -49,6 +53,10 @@ Scheme
             {
                 "range" "0x021 0xFFFF"
             }
+            "hebrew"
+            {
+                "range" "0x021 0xFFFF"
+            }
             "hungarian"
             {
                 "range" "0x021 0xFFFF"
@@ -66,6 +74,14 @@ Scheme
                 "range" "0x021 0xFFFF"
             }
             "koreana"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "latvian"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "lithuanian"
             {
                 "range" "0x021 0xFFFF"
             }
@@ -93,7 +109,11 @@ Scheme
             {
                 "range" "0x021 0xFFFF"
             }
-            "schinese"
+            //"schinese"
+            //{
+            //    "range" "0x021 0xFFFF"
+            //}
+            "slovak"
             {
                 "range" "0x021 0xFFFF"
             }
@@ -105,15 +125,19 @@ Scheme
             {
                 "range" "0x021 0xFFFF"
             }
-            "tchinese"
-            {
-                "range" "0x021 0xFFFF"
-            }
+            //"tchinese"
+            //{
+            //    "range" "0x021 0xFFFF"
+            //}
             "thai"
             {
                 "range" "0x021 0xFFFF"
             }
             "turkish"
+            {
+                "range" "0x021 0xFFFF"
+            }
+            "ukrainian"
             {
                 "range" "0x021 0xFFFF"
             }
