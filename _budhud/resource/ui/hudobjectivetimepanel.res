@@ -50,6 +50,13 @@
         "enabled"                                                   "0"
     }
 
+    "SuddenDeathLabel"
+    {
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+    }
+
     "bh_TimePanelPin"
     {
         "ControlName"                                               "Label"
