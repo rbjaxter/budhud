@@ -27,10 +27,12 @@
         "enabled"                                                   "0"
     }
 
+    // Unbox close button
+    //
     "CloseButton"
     {
-        "xpos"                                                      "c226"
-        "ypos"                                                      "69"
+        "xpos"                                                      "r25"
+        "ypos"                                                      "30"
 
         "image_drawcolor"                                           "255 255 255 255"
         "image_armedcolor"                                          "240 134 49 255"
