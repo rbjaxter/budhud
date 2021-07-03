@@ -6,38 +6,31 @@
     // If you're looking for font definitions, you can find them by following the path in the #base
     // entries below.
     //
-    // Primary Font Definitions: resource/clientscheme/bh_lato.res
-    // Font Entries: resource/clientscheme/bh_fontentries.res
+    // Primary Font Definitions:    budhud/_budhud/resource/clientscheme_lato.res
+    // Font Entries:                budhud/_budhud/resource/clientscheme_fontentries.res
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // #users/custom
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    #base   "fonts/bh_custom.res"
-    #base   "../#users/custom/#customization/_enabled/bh_colors.res"
+    #base   "../#users/custom/resource/bh_custom.res"
+    #base   "../#users/custom/resource/clientscheme_colors.res"
     #base   "../#users/custom/#customization/_enabled/bh_crosshairs_tf2crosshairs.res"
     #base   "../#users/custom/#customization/_enabled/bh_crosshairs_fog.res"
     #base   "../#users/custom/#customization/_enabled/bh_crosshairs_knuckles.res"
     #base   "../#users/custom/#customization/_enabled/bh_crosshairs_whayay.res"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // HUD Font
+    // #users Customization
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // #base    "clientscheme/bh_toth.res"
-    // #base    "clientscheme/bh_tf2.res"
-    #base   "clientscheme/bh_lato.res"
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // User Customization
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    #base   "../#users/dane/#customization/_enabled/bh_colors.res"
-    #base   "../#users/ly_dee/#customization/_enabled/bh_colors.res"
-    #base   "../#users/truktruk/#customization/_enabled/bh_colors.res"
+    #base   "../#users/dane/resource/clientscheme_colors.res"
+    #base   "../#users/ly_dee/resource/clientscheme_colors.res"
+    #base   "../#users/truktruk/resource/clientscheme_colors.res"
     #base   "../#users/jayhyunpae/#customization/_enabled/bh_crosshairs_tf2crosshairs.res"
-    #base   "../#users/jayhyunpae/#customization/_enabled/bh_colors.res"
+    #base   "../#users/jayhyunpae/resource/clientscheme_colors.res"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Crosshairs
+    // budhud - Crosshairs
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     #base   "../#customization/_enabled/bh_crosshairs_tf2crosshairs.res"
     #base   "../#customization/_enabled/bh_crosshairs_fog.res"
@@ -45,11 +38,17 @@
     #base   "../#customization/_enabled/bh_crosshairs_whayay.res"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Core HUD
+    // budhud - Fonts
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    #base   "../#customization/_enabled/bh_colors.res"
-    #base   "clientscheme/bh_fontentries.res"
-    #base   "clientscheme/bh_borders.res"
+    // #base    "../_budhud/resource/bh_toth.res"
+    #base   "../_budhud/resource/clientscheme_lato.res"
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // budhud - Core
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    #base   "../_budhud/resource/clientscheme_fontentries.res"
+    #base   "../_budhud/resource/clientscheme_colors.res"
+    #base   "../_budhud/resource/clientscheme_borders.res"
     #base   "clientscheme_base.res"
 
 Scheme
