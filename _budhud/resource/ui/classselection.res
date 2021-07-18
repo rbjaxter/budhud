@@ -1,12 +1,5 @@
 "Resource/UI/notifications/base_notification.res"
 {
-    "CancelButton"
-    {
-        "ypos"                                                      "r-6969"
-        "visible"                                                   "0"
-        "enabled"                                                   "0"
-    }
-
     "EditLoadoutButton"
     {
         "ypos"                                                      "r-6969"
@@ -158,6 +151,14 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
+    }
+
+    "CancelButton"
+    {
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "1"
+        "labeltext"                                                 "&Q"
     }
 
     "bh_ClassBG"
