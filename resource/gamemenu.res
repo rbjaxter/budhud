@@ -37,7 +37,7 @@
 
     "bh_TitleHover"
     {
-        "label"         ""
+        "label"         "— budhud —"
         "command"       "engine con_enable 1;showconsole;clear;
                         echo ======================================================;
                         echo ~~~~~~~~~~~~~~~~~ budhud, by Whisker ~~~~~~~~~~~~~~~~~;
@@ -48,6 +48,7 @@
                         echo ======================================================;
                         echo ~ Thank you to everyone who actively uses my hud! ~~~~;
                         echo ======================================================;"
+        "tooltip"       "Updated August 26th, 2021"
     }
 
     "bh_Streams"
@@ -152,7 +153,7 @@
 
     "CallVoteButton"
     {
-        "label"         "Call Vote"
+        "label"         ""
         "command"       "callvote"
         "OnlyInGame"    "1"
         "subimage"      "replay/thumbnails/menu_icons/callvote"
@@ -161,7 +162,7 @@
 
     "MutePlayersButton"
     {
-        "label"         "Mute Idiots"
+        "label"         ""
         "command"       "OpenMutePlayerDialog"
         "OnlyInGame"    "1"
         "subimage"      "replay/thumbnails/menu_icons/muteplayers"
@@ -170,7 +171,7 @@
 
     "RequestCoachButton"
     {
-        "label"         "Request Coach"
+        "label"         ""
         "command"       "engine cl_coach_find_coach"
         "OnlyInGame"    "1"
         "subimage"      "replay/thumbnails/menu_icons/callcoach"
@@ -179,7 +180,7 @@
 
     "ReportPlayerButton"
     {
-        "label"         "Report Player"
+        "label"         ""
         "command"       "OpenReportPlayerDialog"
         "OnlyInGame"    "1"
         "subimage"      "replay/thumbnails/menu_icons/reportplayer"

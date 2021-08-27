@@ -932,53 +932,6 @@
         "paintbackgroundtype"                                       "0"
     }
 
-    "bh_budhud"
-    {
-        "pin_to_sibling"                                            "bh_BelowTopPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
-
-        "ControlName"                                               "CExImageButton"
-        "fieldName"                                                 "budhud"
-        "xpos"                                                      "125"
-        "ypos"                                                      "0"
-        "wide"                                                      "250"
-        "tall"                                                      "35"
-        "visible"                                                   "1"
-        "enabled"                                                   "1"
-        "labelText"                                                 "— budhud —"
-        "font"                                                      "bh_Font26"
-        "textAlignment"                                             "Center"
-        "fillcolor"                                                 "bh_gray"
-
-        "border_default"                                            "NoBorder"
-        "border_armed"                                              "NoBorder"
-        "paintbackground"                                           "0"
-        "defaultFgColor_override"                                   "bh_white"
-        "armedFgColor_override"                                     "bh_Theme_TextAccent"
-        "image_drawcolor"                                           "255 255 255 255"
-        "image_armedcolor"                                          "240 134 49 255"
-        "use_proportional_insets"                                   "1"
-
-        "sound_depressed"                                           "UI/buttonclick.wav"
-        "sound_released"                                            "UI/buttonclickrelease.wav"
-
-        "SubImage"
-        {
-            "ControlName"                                           "ImagePanel"
-            "fieldName"                                             "SubImage"
-            "xpos"                                                  "4"
-            "ypos"                                                  "4"
-            "zpos"                                                  "1"
-            "wide"                                                  "18"
-            "tall"                                                  "18"
-            "visible"                                               "1"
-            "enabled"                                               "1"
-            "image"                                                 ""
-            "scaleImage"                                            "1"
-        }
-    }
-
     "bh_TitleHover"
     {
         "pin_to_sibling"                                            "bh_BelowTopPin"
@@ -995,48 +948,26 @@
         "visible"                                                   "1"
         "PaintBackgroundType"                                       "0"
 
-        "SubButton"
-        {
-            "ControlName"                                           "CExImageButton"
-            "fieldName"                                             "SubButton"
-            "xpos"                                                  "0"
-            "ypos"                                                  "0"
-            "wide"                                                  "250"
-            "tall"                                                  "35"
-            "autoResize"                                            "0"
-            "pinCorner"                                             "3"
-            "visible"                                               "1"
-            "enabled"                                               "1"
-            "tabPosition"                                           "0"
-            "textinsetx"                                            "25"
-            "use_proportional_insets"                               "1"
-            "textAlignment"                                         "center"
-            "dulltext"                                              "0"
-            "brighttext"                                            "0"
-            "default"                                               "1"
-            "sound_depressed"                                       "UI/buttonclick.wav"
-            "sound_released"                                        "UI/buttonclickrelease.wav"
-
+		"SubButton"
+		{
+			"ControlName"	                                        "CExImageButton"
+			"fieldName"		                                        "SubButton"
+			"font"			                                        "bh_Font26"
+			"labelText"		                                        ""
+			"textAlignment"	                                        "center"
+			"xpos"			                                        "0"
+			"ypos"			                                        "0"
+			"zpos"			                                        "1"
+			"wide"			                                        "250"
+			"tall"			                                        "35"
+			"autoResize"	                                        "0"
+			"pinCorner"		                                        "0"
+			"visible"		                                        "1"
+			"enabled"		                                        "1"
+            "defaultFgColor_override"                               "bh_menu_foreground1"
+            "armedFgColor_override"                                 "bh_menu_background1"
             "paintbackground"                                       "0"
-
-            "image_drawcolor"                                       "255 255 255 255"
-            "image_armedcolor"                                      "240 134 49 255"
-
-            "SubImage"
-            {
-                "ControlName"                                       "ImagePanel"
-                "fieldName"                                         "SubImage"
-                "xpos"                                              "0"
-                "ypos"                                              "0"
-                "zpos"                                              "1"
-                "wide"                                              "250"
-                "tall"                                              "35"
-                "visible"                                           "1"
-                "enabled"                                           "1"
-                "scaleImage"                                        "1"
-                "image"                                             ""
-            }
-        }
+		}
     }
 
     "RankPanel"
