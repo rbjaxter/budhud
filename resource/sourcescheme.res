@@ -61,6 +61,10 @@ Scheme
         Console.TextColor                                           "bh_yellow"             // Color of entered console commands
         Console.DevTextColor                                        "bh_IsError"            // Unknown
 
+        // Game join loading bar
+        Frame.BgColor                                               "bh_Theme_BG30"
+        Frame.OutOfFocusBGColor                                     "bh_Theme_BG30"
+
         // All boxes you can type into
         TextEntry.TextColor                                         "bh_white"
         TextEntry.BgColor                                           "025 025 025 255"
