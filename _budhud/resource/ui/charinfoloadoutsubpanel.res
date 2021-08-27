@@ -73,7 +73,7 @@
     "ShowTradeLabel"
     {
         "fgcolor"                                                   "bh_white"
-        "labeltext"                                                 "#bh_MannCoCatalog"
+        "labeltext"                                                 "#bh_Trading"
     }
 
     "ClassLabel"
