@@ -35,6 +35,35 @@ Scheme
         "bh_blank"                                                  "000 000 000 000"
         "bh_yellow"                                                 "231 181 059 255"
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Themes - Experimental
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        // Standard
+        "bh_Theme_TextAccent"                                       "240 134 049 255"
+        "bh_Theme_TextSecondary"                                    "255 255 255 255"
+
+        "bh_Theme_BG00"                                             "015 015 015 255"
+        "bh_Theme_BG20"                                             "025 025 025 255"
+        "bh_Theme_BG30"                                             "035 035 035 255"
+        "bh_Theme_BG40"                                             "045 045 045 255"
+        "bh_Theme_BG60"                                             "065 065 065 255"
+
+        "bh_ButtonBlank"                                            "000 000 000 000"
+        "bh_ButtonDepressed"                                        "255 255 255 255"
+
+        "bh_ItemPanel"                                              "035 035 035 255"
+        "bh_MouseOverBG"                                            "035 035 035 255"       // Item mouse-over BG color
+        "bh_border"                                                 "150 150 150 255"       // Color of all budhud borders (buttons, etc)
+        "bh_BGStandard"                                             "000 000 000 100"
+        "bh_BGAverage"                                              "000 000 000 170"
+        "bh_BGDarker"                                               "000 000 000 240"
+        "bh_BGLighter"                                              "150 150 150 255"
+        "bh_BGBlue"                                                 "070 130 180 090"
+        "bh_BGRed"                                                  "205 050 050 090"
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
         "TFDarkBrown"                                               "040 040 040 250"       // Background color (focus)
         "TFDarkBrownTransparent"                                    "040 040 040 250"       // Background color (out of focus)
         "TFTanBright"                                               "255 255 255 255"       // Console/server browser title
@@ -67,17 +96,17 @@ Scheme
 
         // All boxes you can type into
         TextEntry.TextColor                                         "bh_white"
-        TextEntry.BgColor                                           "025 025 025 255"
+        TextEntry.BgColor                                           "bh_Theme_BG20"
         TextEntry.CursorColor                                       "bh_white"
         TextEntry.DisabledTextColor                                 "bh_white"
-        TextEntry.DisabledBgColor                                   "025 025 025 255"
+        TextEntry.DisabledBgColor                                   "bh_Theme_BG20"
         TextEntry.SelectedTextColor                                 "bh_black"
         TextEntry.SelectedBgColor                                   "bh_Theme_TextAccent"
         TextEntry.OutOfFocusSelectedBgColor                         "bh_Theme_TextAccent"
         TextEntry.FocusEdgeColor                                    "0 0 0 196"
 
         // Console
-        RichText.BgColor                                            "025 025 025 255"
+        RichText.BgColor                                            "bh_Theme_BG20"
         RichText.SelectedTextColor                                  "bh_black"
         RichText.SelectedBgColor                                    "bh_white"
     }
