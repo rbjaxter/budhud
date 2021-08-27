@@ -15,7 +15,7 @@
     "TooltipPanel"
     {
         "fgcolor_override"                                          "bh_Theme_TextAccent"
-        "border"                                                    "ReplayGrayDialogBorder"
+        "border"                                                    "bh_TooltipBG"
 
         "TipLabel"
         {

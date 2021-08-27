@@ -6,6 +6,6 @@
     {
         "zpos"                                                      "2500"
         "bgcolor_override"                                          "bh_blank"
-        "border"                                                    "ReplayGrayDialogBorder"
+        "border"                                                    "bh_TooltipBG"
     }
 }

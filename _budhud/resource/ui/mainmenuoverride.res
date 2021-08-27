@@ -100,7 +100,7 @@
 
     "TooltipPanel"
     {
-        "border"                                                    "ReplayGrayDialogBorder"
+        "border"                                                    "bh_TooltipBG"
 
         "TipLabel"
         {
@@ -459,7 +459,7 @@
 
         "xpos"                                                      "-45"
         "ypos"                                                      "-3"
-        "border"                                                    "ReplayGrayDialogBorder"
+        "border"                                                    "bh_TooltipBG"
 
         "Notifications_CloseButton"
         {

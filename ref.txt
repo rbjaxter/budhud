@@ -51,6 +51,7 @@
     bh_b_S                  - Border on SOUTH side of element
     bh_b_W                  - Border on WEST side of element
     ReplayGrayDialogBorder  - Used a lot for tooltips
+    bh_TooltipBG            - To replace ReplayGrayDialogBorder
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // "Close" Buttons

@@ -2,7 +2,7 @@
 {
     "TooltipPanel"
     {
-        "border"                                                    "ReplayGrayDialogBorder"
+        "border"                                                    "bh_TooltipBG"
 
         "TipLabel"
         {
