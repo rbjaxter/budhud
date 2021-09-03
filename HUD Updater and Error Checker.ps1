@@ -1,4 +1,4 @@
-# Professionallyâ„¢ written by Whisker for budhud
+# Professionally™ written by Whisker for budhud
 # Started November 18th 2020
 
 ##########################
@@ -7,12 +7,89 @@
 ##########################
 ##########################
 
+# Maybe_Path
+# return the canonical representation of a path if possible, $null otherwise.
+function Maybe_Path
+{
+    param(
+        [string]$Path,
+        [string]$ChildPath
+    )
+    if ([String]::IsNullOrEmpty($Path) -or [String]::IsNullOrEmpty($ChildPath)) {
+        return $null
+    }
+    $joined = Join-Path $Path $ChildPath
+    if (Test-Path $joined) {
+        return Resolve-Path $joined
+    }
+    return $null
+}
+
+# shared paths
+# budhud (this script's folder)
+$budhud = Resolve-Path "$PSScriptRoot"
+# ..\Team Fortress 2\tf
+$tf = Maybe_Path $budhud "..\.."
+# vpk.exe shipped with TF2 (used for unpacking the game's default hud)
+$vpk = Maybe_Path $tf "..\bin\vpk.exe"
+
+# in case someone typed out the script name from a prompt, cd to budhud's folder
+Set-Location "$budhud"
+
+# https://docs.microsoft.com/en-us/troubleshoot/windows-client/shell-experience/command-line-string-limitation
+# although these docs are for cmd.exe, they seem to apply to powershell as well.
+$max_cmd_len = 8192
+
+# Extract_VPK_Files
+# use vpk.exe to extract file(s) to the current directory
+# note that vpk.exe preserves pathnames from the VPK, but will not create directories.
+function Extract_VPK_Files
+{
+    param (
+        [string][Parameter(Mandatory=$true, Position=0)]$VpkPath,
+        [string[]][Parameter(Position=1, ValueFromRemainingArguments)]$FileNames
+    )
+    # create all directories beforehand so vpk doesn't fail
+    $FileNames | Split-Path | Sort-Object | Get-Unique |
+    ForEach-Object { New-Item -ItemType Directory -Force -Path $_ | Out-Null }
+    # since each filename must be specified on the command line, it's easy to go above the command line length limit.
+    # this loop will run infinitely if a single filename would go over the limit. let's hope that doesn't happen.
+    $i = 0
+    $batch = [System.Collections.ArrayList]::new()
+    while ($i -lt $FileNames.Count) {
+        $batch.Clear()
+        $len_left = $max_cmd_len - $vpk.Length - $VpkPath.Length - 3  # this 3 includes the x and spaces
+        while (($i -lt $FileNames.Count) -and ($FileNames[$i].Length -le $len_left)) {
+            $batch.Add($FileNames[$i]) | Out-Null
+            $len_left -= $FileNames[0].Length
+            $len_left -= 3  # each filename requires a space and may need quotation marks
+            $i += 1
+        }
+        & $vpk x $VpkPath @batch >$null
+    }
+}
+
+# Extract_VPK_Directory
+# use vpk.exe to extract all files in a given directory to the current directory
+# vpk requires you to specify every file name you want extracted, so we have to do filtering ourselves.
+function Extract_VPK_Directory
+{
+    param (
+        [string]$VpkPath,
+        [string]$Directory
+    )
+    # vpk.exe uses forward slash, like all right-thinking programs do.
+    $pattern = "^" + $Directory -replace "\\", "/"
+    $files = & $vpk l $VpkPath | Select-String $pattern
+    Extract_VPK_Files $VpkPath @files
+}
+
 #################
 # Options_Initial
 #################
 function Options_Initial
 {
-    Clear-Host
+    #Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================================"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "budhud Updater and Error Checker"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================================"
@@ -63,51 +140,18 @@ function Check_TF2
     }
 }
 
-#################
-# Check_DevFolder
-#################
-function Check_DevFolder
-{
-    # Check for #dev folder
-    Write-Host -foregroundcolor "White" -NoNewLine "Checking for #dev folder... "
-
-    If
-    (
-        Test-Path -Path "#dev"
-    )
-
-    {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
-    }
-
-    Else
-    {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate #dev folder"
-        Write-Host ""
-
-        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
-        Write-Host -foregroundcolor "White" "The script will not be able to do anything!"
-        Write-Host ""
-
-        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
-        Write-Host -foregroundcolor "White" "Verify that the #dev folder was not deleted when you installed the hud"
-        Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#dev"
-        Write-Host ""
-        Break
-    }
-}
 
 ##############################
 # Check_UpdateFiles_DefaultHUD
 ##############################
 function Check_UpdateFiles_DefaultHUD
 {
-    # Check for HLExtract.exe file
-    Write-Host -foregroundcolor "White" -NoNewLine "Checking for HLExtract.exe... "
+    # Check for vpk.exe file
+    Write-Host -foregroundcolor "White" -NoNewLine "Checking for vpk.exe... "
 
     If
     (
-        Test-Path -Path "#dev\HLExtract.exe"
+        ![String]::IsNullOrEmpty($vpk)
     )
 
     {
@@ -116,7 +160,7 @@ function Check_UpdateFiles_DefaultHUD
 
     Else
     {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Red"  "Could not locate HLExtract.exe"
+        Write-Host -foregroundcolor "White" -backgroundcolor "Red"  "Could not locate vpk.exe"
         Write-Host ""
 
         Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
@@ -124,36 +168,8 @@ function Check_UpdateFiles_DefaultHUD
         Write-Host ""
 
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
-        Write-Host -foregroundcolor "White" "Verify that HLExtract.exe was not deleted when you installed the hud"
-        Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#dev\HLExtract.exe"
-        Write-Host ""
-        Break
-    }
-
-    # Check for _Modifier.exe file
-    Write-Host -foregroundcolor "White" -NoNewLine "Checking for _Modifier.exe... "
-
-    If
-    (
-        Test-Path -Path "#dev\_Modifier.exe"
-    )
-
-    {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
-    }
-
-    Else
-    {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate _Modifier.exe"
-        Write-Host ""
-
-        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
-        Write-Host -foregroundcolor "White" "The script will not be able to properly adjust default hud values"
-        Write-Host ""
-
-        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
-        Write-Host -foregroundcolor "White" "Verify that _Modifier.exe was not deleted when you installed the hud"
-        Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#dev\_Modifier.exe"
+        Write-Host -foregroundcolor "White" "Verify that the hud is installed correctly."
+        Write-Host -foregroundcolor "White" "Expected location: ..\Team Fortress 2\custom\budhud\HUD Updater and Error Checker.ps1"
         Write-Host ""
         Break
     }
@@ -164,58 +180,29 @@ function Check_UpdateFiles_DefaultHUD
 ##########################
 function Check_UpdateFiles_Github
 {
-    # Check for wget.exe
-    Write-Host -foregroundcolor "White" -NoNewLine "Checking for wget.exe... "
+    # Check for invoke-webrequest support
+    Write-Host -foregroundcolor "White" -NoNewLine "Checking for Invoke-WebRequest... "
 
     If
     (
-        Test-Path -Path "#dev\wget.exe"
+        Get-Command -Name "Invoke-WebRequest" -ErrorAction SilentlyContinue
     )
 
     {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found."
+        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Invoke-WebRequest found."
     }
 
     Else
     {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Red"  "Could not locate wget.exe"
+        Write-Host -foregroundcolor "White" -backgroundcolor "Red"  "Could not locate Invoke-WebRequest"
         Write-Host ""
 
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Additional Information"
-        Write-Host -foregroundcolor "White" "wget is used to download the hud file from Github"
+        Write-Host -foregroundcolor "White" "Invoke-WebRequest is used to download the hud file from Github"
         Write-Host ""
 
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
-        Write-Host -foregroundcolor "White" "Verify that wget.exe was not deleted"
-        Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#dev\wget.exe"
-        Write-Host ""
-        Break
-    }
-
-    # Check for unzip.exe
-    Write-Host -foregroundcolor "White" -NoNewLine "Checking for unzip.exe... "
-
-    If
-    (
-        Test-Path -Path "#dev\unzip.exe"
-    )
-
-    {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found."
-    }
-
-    Else
-    {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Red"  "Could not locate unzip.exe"
-        Write-Host ""
-
-        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Additional Information"
-        Write-Host -foregroundcolor "White" "Unzip is used to extract the compressed hud file"
-        Write-Host ""
-
-        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
-        Write-Host -foregroundcolor "White" "Verify that unzip.exe was not deleted"
-        Write-Host -foregroundcolor "White" "Location: ..\custom\budhud\#dev\unzip.exe"
+        Write-Host -foregroundcolor "White" "Update your operating system to at least Windows 8"
         Write-Host ""
         Break
     }
@@ -228,10 +215,11 @@ function Check_Shared
 {
     # Check for tf2_misc_dir.vpk file
     Write-Host -foregroundcolor "White" -NoNewLine "Checking for tf2_misc_dir.vpk... "
+    $misc_dir = Maybe_Path $tf "tf2_misc_dir.vpk"
 
     If
     (
-        Test-Path -Path "..\..\tf2_misc_dir.vpk"
+        ![String]::IsNullOrEmpty($misc_dir)
     )
 
     {
@@ -257,10 +245,11 @@ function Check_Shared
 
     # Check for hl2.exe file
     Write-Host -foregroundcolor "White" -NoNewLine "Checking for hl2.exe... "
+    $hl2 = Maybe_Path $tf "..\hl2.exe"
 
     If
     (
-        Test-Path -Path "..\..\..\hl2.exe"
+        ![String]::IsNullOrEmpty($hl2)
     )
 
     {
@@ -414,12 +403,15 @@ function Pass_ExtractDefaultHUD
     New-Item -Path $PSScriptRoot\_tf2hud -Name "scripts" -ItemType "Directory" > $null
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
+    $misc_dir = Resolve-Path "..\..\tf2_misc_dir.vpk"
+
     # Extract from game hud files
     Write-Host -foregroundcolor "White" -NoNewLine "Extracting default game files..."
-    .\#dev\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "_tf2hud" -e "root\resource" -m -v -s
-    .\#dev\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "_tf2hud\scripts" -e "root\scripts\HudLayout.res" -m -v -s
-    .\#dev\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "_tf2hud\scripts" -e "root\scripts\HudAnimations_tf.txt" -m -v -s
-    .\#dev\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "_tf2hud\scripts" -e "root\scripts\mod_textures.txt" -m -v -s
+    # since vpk extracts to the current directory, change directory before extracting
+    Push-Location "_tf2hud"
+    Extract_VPK_Directory "$misc_dir" "resource/"
+    Extract_VPK_Files "$misc_dir" "scripts/HudLayout.res" "scripts/HudAnimations_tf.txt" "scripts/mod_textures.txt"
+    Pop-Location
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
     # Delete unused folders
@@ -432,23 +424,15 @@ function Pass_ExtractDefaultHUD
 
     # Remove various modifiers
     Write-Host -foregroundcolor "White" "Removing various modifiers."
-    .\#dev\_Modifier.exe -i -r -c -- _tf2hud\* $OSX disabled > $null
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Removed OSX lines."
+    foreach ($file in Get-ChildItem -File -Recurse -Path _tf2hud) {
+        # get-content splits into lines. parens cause the entire file to be read into memory
+        (Get-Content $file.FullName) |
+        # string replace operators use regular expression matching
+        ForEach-Object {$_ -ireplace '\$OSX|\$X360|_minmode|_lodef|_hidef|if_', '_disabled_'} |
+        Set-Content $file.FullName
+    }
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Removed OSX, X360, _minmode, _lodef, _hidef, and _if lines."
 
-    .\#dev\_Modifier.exe -i -r -c -- _tf2hud\* $X360 disabled > $null
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Removed X360 lines."
-
-    .\#dev\_Modifier.exe -i -r -c -- _tf2hud\* _minmode _disabled > $null
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Removed _minmode lines."
-
-    .\#dev\_Modifier.exe -i -r -c -- _tf2hud\* _lodef _disabled > $null
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Removed _lodef lines."
-
-    .\#dev\_Modifier.exe -i -r -c -- _tf2hud\* _hidef _disabled > $null
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Removed _hidef lines."
-
-    .\#dev\_Modifier.exe -i -r -c -- _tf2hud\* if_ disabled_ > $null
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Removed _if lines."
 
     Write-Host -foregroundcolor "White" -NoNewLine "Copying over stubborn files..."
     Copy-Item "$PSScriptRoot\_tf2hud\resource\clientscheme.res" -Destination "$PSScriptRoot\resource\clientscheme_base.res"
@@ -464,7 +448,7 @@ function Pass_ExtractDefaultHUD
     Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
     Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Task Complete"
     Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
-    Write-Host -foregroundcolor "White" "Latest default hud files have been downloaded and modified to work with budhud."
+    Write-Host -foregroundcolor "White" "Latest default hud files have been extracted and modified to work with budhud."
     Write-Host ""
     Write-Host ""
 }
@@ -483,7 +467,6 @@ function Check_ExtractDefaultHUD
 
     # Perform all Checks
     Check_TF2
-    Check_DevFolder
     Check_Shared
     Check_UpdateFiles_DefaultHUD
 
@@ -496,14 +479,22 @@ function Check_ExtractDefaultHUD
 #######################
 function Pass_UpdateFromGithub
 {
+    # Load zipfile support
+    Add-Type -Assembly System.IO.Compression
+    Add-Type -Assembly System.IO.Compression.FileSystem
 
     Write-Host -foregroundcolor "White" -NoNewLine "Downloading files from GitHub..."
-    .\#dev\wget.exe https://github.com/rbjaxter/budhud/archive/master.zip --no-check-certificate -q
+    $zip = [System.IO.Compression.ZipArchive]::new(
+        [System.IO.MemoryStream]::new(
+            (Invoke-WebRequest https://github.com/rbjaxter/budhud/archive/master.zip).Content),
+        [System.IO.Compression.ZipArchiveMode]::Read)
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
     Write-Host -foregroundcolor "White" -NoNewLine "Unzipping files..."
-    .\#dev\unzip.exe master.zip > $null
+    [System.IO.Compression.ZipFileExtensions]::ExtractToDirectory($zip, ".")
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+    $zip.Dispose()
+    Remove-Variable "zip"
 
     Write-Host -foregroundcolor "White" -NoNewLine "Moving folders and files out of extracted zip..."
     Copy-Item -Path .\budhud-master\* -Destination $PSScriptRoot -Force -Recurse
@@ -511,7 +502,6 @@ function Pass_UpdateFromGithub
 
     Write-Host -foregroundcolor "White" -NoNewLine "Removing folders and files used in the process.."
     Remove-Item ".\budhud-master" -ErrorAction SilentlyContinue -Recurse
-    Remove-Item ".\master.zip" -ErrorAction SilentlyContinue -Recurse
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
     Write-Host ""
@@ -540,7 +530,6 @@ function Check_UpdateFromGithub
 
     # Perform all Checks
     Check_TF2
-    Check_DevFolder
     Check_UpdateFiles_Github
 
     Write-Host ""
