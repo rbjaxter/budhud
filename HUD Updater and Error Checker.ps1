@@ -1,4 +1,5 @@
 # Professionally™ written by Whisker for budhud
+# Modified to remove dependencies by sheybey
 # Started November 18th 2020
 
 ##########################
