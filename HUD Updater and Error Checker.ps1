@@ -50,13 +50,21 @@ function Extract_VPK_Files
         [string][Parameter(Mandatory=$true, Position=0)]$VpkPath,
         [string[]][Parameter(Position=1, ValueFromRemainingArguments)]$FileNames
     )
+    $activity =  "Extracting from " + (Split-Path $VpkPath -Leaf)
     # create all directories beforehand so vpk doesn't fail
-    $FileNames | Split-Path | Sort-Object | Get-Unique |
-    ForEach-Object { New-Item -ItemType Directory -Force -Path $_ | Out-Null }
+    $i = 0
+    $dirs = $FileNames | Split-Path | Sort-Object | Get-Unique
+    foreach ($dir in $dirs) {
+        New-Item -ItemType Directory -Force -Path $dir | Out-Null
+        $i += 1
+        Write-Progress -Activity $activity -Status "Creating $dir" -PercentComplete (100*($i/$dirs.Length))
+    }
+
     # since each filename must be specified on the command line, it's easy to go above the command line length limit.
     # this loop will run infinitely if a single filename would go over the limit. let's hope that doesn't happen.
     $i = 0
     $batch = [System.Collections.ArrayList]::new()
+    Write-Progress -Activity $activity -Status "Extracting" -PercentComplete 0 
     while ($i -lt $FileNames.Count) {
         $batch.Clear()
         $len_left = $max_cmd_len - $vpk.Length - $VpkPath.Length - 3  # this 3 includes the x and spaces
@@ -67,7 +75,9 @@ function Extract_VPK_Files
             $i += 1
         }
         & $vpk x $VpkPath @batch >$null
+        Write-Progress -Activity $activity -Status "Extracting" -PercentComplete (100*($i/($FileNames.Length)))
     }
+    Write-Progress -Activity $activity -Completed
 }
 
 # Extract_VPK_Directory
@@ -425,13 +435,18 @@ function Pass_ExtractDefaultHUD
 
     # Remove various modifiers
     Write-Host -foregroundcolor "White" "Removing various modifiers."
-    foreach ($file in Get-ChildItem -File -Recurse -Path _tf2hud) {
+    $files = Get-ChildItem -File -Recurse -Path _tf2hud
+    $i = 0
+    foreach ($file in $files) {
+        Write-Progress -Activity "Modifying files" -Status $file -PercentComplete (100*($i/$files.Length))
         # get-content splits into lines. parens cause the entire file to be read into memory
         (Get-Content $file.FullName) |
         # string replace operators use regular expression matching
         ForEach-Object {$_ -ireplace '\$OSX|\$X360|_minmode|_lodef|_hidef|if_', '_disabled_'} |
         Set-Content $file.FullName
+        $i += 1
     }
+    Write-Progress -Activity "Modifying files" -Completed
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Removed OSX, X360, _minmode, _lodef, _hidef, and if_ lines."
 
 
