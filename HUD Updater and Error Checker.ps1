@@ -62,7 +62,7 @@ function Extract_VPK_Files
         $len_left = $max_cmd_len - $vpk.Length - $VpkPath.Length - 3  # this 3 includes the x and spaces
         while (($i -lt $FileNames.Count) -and ($FileNames[$i].Length -le $len_left)) {
             $batch.Add($FileNames[$i]) | Out-Null
-            $len_left -= $FileNames[0].Length
+            $len_left -= $FileNames[$i].Length
             $len_left -= 3  # each filename requires a space and may need quotation marks
             $i += 1
         }
@@ -90,7 +90,7 @@ function Extract_VPK_Directory
 #################
 function Options_Initial
 {
-    #Clear-Host
+    Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================================"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "budhud Updater and Error Checker"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================================"
@@ -432,7 +432,7 @@ function Pass_ExtractDefaultHUD
         ForEach-Object {$_ -ireplace '\$OSX|\$X360|_minmode|_lodef|_hidef|if_', '_disabled_'} |
         Set-Content $file.FullName
     }
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Removed OSX, X360, _minmode, _lodef, _hidef, and _if lines."
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Removed OSX, X360, _minmode, _lodef, _hidef, and if_ lines."
 
 
     Write-Host -foregroundcolor "White" -NoNewLine "Copying over stubborn files..."
