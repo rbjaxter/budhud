@@ -64,7 +64,7 @@ function Extract_VPK_Files
     # this loop will run infinitely if a single filename would go over the limit. let's hope that doesn't happen.
     $i = 0
     $batch = [System.Collections.ArrayList]::new()
-    Write-Progress -Activity $activity -Status "Extracting" -PercentComplete 0 
+    Write-Progress -Activity $activity -Status "Extracting" -PercentComplete 0
     while ($i -lt $FileNames.Count) {
         $batch.Clear()
         $len_left = $max_cmd_len - $vpk.Length - $VpkPath.Length - 3  # this 3 includes the x and spaces
