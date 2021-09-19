@@ -12,7 +12,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 
-		disabled_comp
+		_disabled_comp
 		{
 			"ypos"	"120"
 		}
@@ -151,7 +151,7 @@
 		"enabled"		"1"
 		"image"			"../HUD/arrow_big"
 
-		disabled_comp
+		_disabled_comp
 		{
 			"ypos"	"45"
 		}

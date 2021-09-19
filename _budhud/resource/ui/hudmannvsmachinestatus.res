@@ -6,9 +6,19 @@
         "wide"                                                      "600"
     }
 
+    "WaveCompleteSummaryPanel"
+    {
+        "ypos"                                                      "150"
+    }
+
+    "BossStatusPanel"
+    {
+        "ypos"                                                      "5"
+    }
+
     "CurrencyStatusPanel"
     {
-        "xpos"                                                      "c-200"
+        "xpos"                                                      "c-225"
         "ypos"                                                      "r19"
         "wide"                                                      "100"
         "tall"                                                      "19"
@@ -16,7 +26,7 @@
 
     "InWorldCurrencyPanel"
     {
-        "xpos"                                                      "c68"
+        "xpos"                                                      "c125"
         "ypos"                                                      "r19"
         "wide"                                                      "100"
         "tall"                                                      "19"

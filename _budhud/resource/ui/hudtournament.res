@@ -36,20 +36,39 @@
             "ypos"                                                  "0"
             "wide"                                                  "f0"
             "tall"                                                  "f0"
-            "team1_player_base_y"                                   "30"
-            "team2_player_delta_x"                                  "48"
+            "team1_player_base_y"                                   "32"
+            "team2_player_delta_x"                                  "55"
         }
 
         if_mvm
         {
-            "ypos"                                                  "74"
+            "ypos"                                                  "70"
             "team2_player_delta_x"                                  "55"
         }
 
-        playerpanels_kv
+        "playerpanels_kv"
         {
-            "wide"                                                  "49"
+            "wide"                                                  "50"
             "tall"                                                  "33"
+
+            "bh_Template_Block"
+            {
+                "ControlName"                                       "ImagePanel"
+                "fieldName"                                         "bh_Template_Block"
+                "xpos"                                              "0"
+                "ypos"                                              "1"
+                "zpos"                                              "-2"
+                "wide"                                              "f0"
+                "tall"                                              "60"
+                "autoResize"                                        "0"
+                "pinCorner"                                         "0"
+                "labeltext"                                         ""
+                "visible"                                           "1"
+                "enabled"                                           "1"
+                "fillcolor"                                         "bh_Theme_BG20"
+                "image"                                             ""
+                "paintbackgroundtype"                               "0"
+            }
 
             "HealthIcon"
             {

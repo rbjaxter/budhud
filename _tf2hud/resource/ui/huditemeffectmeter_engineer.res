@@ -7,10 +7,10 @@
 		"enabled"		"1"
 		"xpos"			"r162"	[$WIN32]
 		"ypos"			"r92"	[$WIN32]
-		"xpos_disabled"	"r70"	[$WIN32]
-		"ypos_disabled"	"r74"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"xpos_disabled_"	"r70"	[$WIN32]
+		"ypos_disabled_"	"r74"	[$WIN32]
+		"xpos"			"r194"	[_disabled_]
+		"ypos"			"r74"	[_disabled_]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -27,14 +27,14 @@
 		"wide"			"76"
 		"tall"			"44"
 		"visible"		"1"
-		"visible_disabled"	"0"
+		"visible_disabled_"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_2_disabled"	"../hud/misc_ammo_area_red_disabled"
+		"teambg_2_disabled_"	"../hud/misc_ammo_area_red_disabled_"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_disabled"	"../hud/misc_ammo_area_blue_disabled"				
+		"teambg_3_disabled_"	"../hud/misc_ammo_area_blue_disabled_"				
 	}
 	
 	"ItemEffectMeterLabel"
@@ -65,11 +65,11 @@
 		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
-		"ypos_disabled"			"0"
-		"xpos_disabled"			"0"
+		"ypos_disabled_"			"0"
+		"xpos_disabled_"			"0"
 		"zpos"					"2"
 		"wide"					"40"
-		"wide_disabled"			"50"
+		"wide_disabled_"			"50"
 		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"

@@ -139,7 +139,7 @@
 				"zpos"			"100"
 				"tall"			"15"
 
-				disabled_expected
+				_disabled_expected
 				{
 					"xpos"			"cs-0.5"
 					"wide"			"150"

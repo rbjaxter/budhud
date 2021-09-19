@@ -91,6 +91,26 @@
         "enabled"                                                   "0"
     }
 
+//    // Refract used to cover up medal appearing in top left when scoreboard is opened during killcam
+//    // Actual refract VTF & VMT materials borrowed from JarateKing
+//    "bh_MedalRefract"
+//    {
+//        "ControlName"                                               "ImagePanel"
+//        "fieldName"                                                 "bh_BackgroundFooter"
+//        "xpos"                                                      "0"
+//        "ypos"                                                      "0"
+//        "zpos"                                                      "0"
+//        "wide"                                                      "18"
+//        "tall"                                                      "16"
+//        "autoResize"                                                "0"
+//        "pinCorner"                                                 "0"
+//        "labeltext"                                                 ""
+//        "visible"                                                   "1"
+//        "enabled"                                                   "1"
+//        "image"                                                     "replay\thumbnails\overlays\refract_square"
+//        "paintbackgroundtype"                                       "0"
+//    }
+
     "MvMScoreboard"
     {
         "ControlName"                                               "CTFHudMannVsMachineScoreboard"
@@ -398,7 +418,7 @@
         "ControlName"                                               "Label"
         "fieldName"                                                 "bh_LocalStatsPin"
         "xpos"                                                      "c-300"
-        "ypos"                                                      "r70"
+        "ypos"                                                      "r75"
         "zpos"                                                      "0"
         "wide"                                                      "300"
         "tall"                                                      "0"
@@ -517,10 +537,10 @@
             "font"                                                  "bh_Font16"
             "labelText"                                             "%kills%"
             "textAlignment"                                         "center"
-            "xpos"                                                  "84"
+            "xpos"                                                  "88"
             "ypos"                                                  "2"
             "zpos"                                                  "3"
-            "wide"                                                  "35"
+            "wide"                                                  "41"
             "tall"                                                  "20"
             "autoResize"                                            "0"
             "pinCorner"                                             "0"
@@ -551,10 +571,10 @@
             "font"                                                  "bh_Font16"
             "labelText"                                             "%assists%"
             "textAlignment"                                         "center"
-            "xpos"                                                  "84"
+            "xpos"                                                  "88"
             "ypos"                                                  "16"
             "zpos"                                                  "3"
-            "wide"                                                  "35"
+            "wide"                                                  "41"
             "tall"                                                  "20"
             "autoResize"                                            "0"
             "pinCorner"                                             "0"
@@ -585,10 +605,10 @@
             "font"                                                  "bh_Font16"
             "labelText"                                             "%deaths%"
             "textAlignment"                                         "center"
-            "xpos"                                                  "84"
+            "xpos"                                                  "88"
             "ypos"                                                  "30"
             "zpos"                                                  "3"
-            "wide"                                                  "35"
+            "wide"                                                  "41"
             "tall"                                                  "20"
             "autoResize"                                            "0"
             "pinCorner"                                             "0"
@@ -610,7 +630,7 @@
 
         "DamageLabel"
         {
-            "xpos"                                                  "76"
+            "xpos"                                                  "82"
             "ypos"                                                  "6"
             "font"                                                  "bh_Font14"
         }
@@ -629,7 +649,7 @@
             "font"                                                  "bh_Font14"
             "labelText"                                             "%damage%"
             "textAlignment"                                         "west"
-            "xpos"                                                  "177"
+            "xpos"                                                  "183"
             "ypos"                                                  "6"
             "zpos"                                                  "3"
             "wide"                                                  "55"
@@ -642,7 +662,7 @@
 
         "HealingLabel"
         {
-            "xpos"                                                  "76"
+            "xpos"                                                  "82"
             "ypos"                                                  "26"
             "font"                                                  "bh_Font14"
         }
@@ -661,7 +681,7 @@
             "font"                                                  "bh_Font14"
             "labelText"                                             "%healing%"
             "textAlignment"                                         "west"
-            "xpos"                                                  "177"
+            "xpos"                                                  "183"
             "ypos"                                                  "26"
             "zpos"                                                  "3"
             "wide"                                                  "55"

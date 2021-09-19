@@ -169,7 +169,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/objectives_flagpanel_bg_playingto"
-			"image_disabled"	"../hud/objectives_flagpanel_bg_playingto_disabled"
+			"image_disabled_"	"../hud/objectives_flagpanel_bg_playingto_disabled_"
 			"scaleImage"	"1"	
 		}
 	}

@@ -6,11 +6,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r174"	[$WIN32]
-		"xpos_disabled"	"r52"	[$WIN32]
+		"xpos_disabled_"	"r52"	[$WIN32]
 		"ypos"			"r62"	[$WIN32]
-		"ypos_disabled"	"r54"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"ypos_disabled_"	"r54"	[$WIN32]
+		"xpos"			"r194"	[_disabled_]
+		"ypos"			"r74"	[_disabled_]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -27,14 +27,14 @@
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
-		"visible_disabled"	"0"
+		"visible_disabled_"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz1_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
-		"teambg_2_disabled"	"../hud/misc_ammo_area_red_disabled"
+		"teambg_2_disabled_"	"../hud/misc_ammo_area_red_disabled_"
 		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"
-		"teambg_3_disabled"	"../hud/misc_ammo_area_blue_disabled"				
+		"teambg_3_disabled_"	"../hud/misc_ammo_area_blue_disabled_"				
 	}
 	
 	"ItemEffectMeterLabel"
@@ -49,10 +49,10 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"visible_disabled"		"1"
-		"ypos_disabled"			"1"
-		"xpos_disabled"			"0"
-		"textAlignment_disabled"			"west"
+		"visible_disabled_"		"1"
+		"ypos_disabled_"			"1"
+		"xpos_disabled_"			"0"
+		"textAlignment_disabled_"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
@@ -69,11 +69,11 @@
 		"font"					"Default"
 		"xpos"					"47"
 		"ypos"					"28"
-		"ypos_disabled"			"0"
-		"xpos_disabled"			"0"
+		"ypos_disabled_"			"0"
+		"xpos_disabled_"			"0"
 		"zpos"					"2"
 		"wide"					"30"
-		"wide_disabled"			"50"
+		"wide_disabled_"			"50"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"

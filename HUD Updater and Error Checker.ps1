@@ -1,6 +1,6 @@
-# Professionally™ written by Whisker for budhud
-# Modified to remove dependencies by sheybey
-# Started November 18th 2020
+# budhud HUD Updater and Error Checker
+# Made by Whisker to learn PS with MAJOR assistance from sheybey & Revan
+# (9/2/21) Modified by sheybey to remove dependencies
 
 ##########################
 ##########################
@@ -427,10 +427,10 @@ function Pass_ExtractDefaultHUD
 
     # Delete unused folders
     Write-Host -foregroundcolor "White" -NoNewLine "Deleting unused folders..."
-    Remove-Item "$PSScriptRoot\_tf2hud\resource\ui\disguise_menu_360" -ErrorAction SilentlyContinue -recurse
-    Remove-Item "$PSScriptRoot\_tf2hud\resource\ui\disguise_menu_sc" -ErrorAction SilentlyContinue -recurse
-    Remove-Item "$PSScriptRoot\_tf2hud\resource\ui\build_menu_360" -ErrorAction SilentlyContinue -recurse
-    Remove-Item "$PSScriptRoot\_tf2hud\resource\ui\build_menu_sc" -ErrorAction SilentlyContinue -recurse
+    #Remove-Item "$PSScriptRoot\_tf2hud\resource\ui\disguise_menu_360" -ErrorAction SilentlyContinue -recurse
+    #Remove-Item "$PSScriptRoot\_tf2hud\resource\ui\disguise_menu_sc" -ErrorAction SilentlyContinue -recurse
+    #Remove-Item "$PSScriptRoot\_tf2hud\resource\ui\build_menu_360" -ErrorAction SilentlyContinue -recurse
+    #Remove-Item "$PSScriptRoot\_tf2hud\resource\ui\build_menu_sc" -ErrorAction SilentlyContinue -recurse
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
     # Remove various modifiers
@@ -455,7 +455,6 @@ function Pass_ExtractDefaultHUD
     Copy-Item "$PSScriptRoot\_tf2hud\resource\sourcescheme.res" -Destination "$PSScriptRoot\resource\sourcescheme_base.res"
     Copy-Item "$PSScriptRoot\_tf2hud\resource\gamemenu.res" -Destination "$PSScriptRoot\resource\gamemenu_base.res"
     Copy-Item "$PSScriptRoot\_tf2hud\resource\muteplayerdialog.res" -Destination "$PSScriptRoot\resource\muteplayerdialog_base.res"
-    Copy-Item "$PSScriptRoot\#dev\confirmdialog.res" -Destination "$PSScriptRoot\_tf2hud\resource\ui\econ\confirmdialog.res"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete."
 
     Write-Host ""
@@ -561,9 +560,9 @@ function Check_UpdateFromGithub
     Write-Host ""
     Write-Host ""
 
-    Write-Host -foregroundcolor "Red" "If you have EDITED any fies, they will be OVERWRITTEN."
-    Write-Host -foregroundcolor "Green" "If you have ADDED any files, they will NOT be OVERWRITTEN."
-    Write-Host -foregroundcolor "Blue" "This script is best used by those using #users/custom."
+    Write-Host -foregroundcolor "Red" "If you have EDITED any ORIGINAL fies, they will be OVERWRITTEN."
+    Write-Host -foregroundcolor "Green" "If you have ADDED any NEW files, they will NOT be OVERWRITTEN."
+    Write-Host -foregroundcolor "Blue" "This script is best used by those making use of #users/custom."
 
     Write-Host ""
 

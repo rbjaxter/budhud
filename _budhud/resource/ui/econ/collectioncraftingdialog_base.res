@@ -28,7 +28,6 @@
     }
 
     // Unbox close button
-    //
     "CloseButton"
     {
         "xpos"                                                      "r25"

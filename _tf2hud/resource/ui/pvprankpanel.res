@@ -24,7 +24,7 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
-			disabled_mini
+			_disabled_mini
 			{
 				"xpos"		"cs-0.5-228"
 			}
@@ -61,7 +61,7 @@
 			"fov"			"70"
 			"proportionaltoparent"	"1"
 
-			disabled_mini
+			_disabled_mini
 			{
 				"xpos"		"cs-0.5-228"
 				"ypos"		"cs-0.5"
@@ -86,7 +86,7 @@
 				"origin_z"		"0"
 				"spotlight"	"1"
 
-				disabled_mini
+				_disabled_mini
 				{
 					"origin_x"		"55"
 				}
@@ -123,7 +123,7 @@
 
 			"paintbackground"	"0"
 
-			disabled_mini
+			_disabled_mini
 			{
 				"xpos"		"cs-0.5-228"
 			}
@@ -194,7 +194,7 @@
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
 
-		disabled_mini
+		_disabled_mini
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
@@ -219,7 +219,7 @@
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
 
-			disabled_mini
+			_disabled_mini
 			{
 				"visible"	"0"
 			}
@@ -242,7 +242,7 @@
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
-			disabled_mini
+			_disabled_mini
 			{
 				"xpos"	"67"
 				"ypos"	"4"
@@ -273,7 +273,7 @@
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
 
-			disabled_mini
+			_disabled_mini
 			{
 				"xpos"	"67"
 				"ypos"	"4"
@@ -303,7 +303,7 @@
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
-			disabled_mini
+			_disabled_mini
 			{
 				"xpos"			"rs1-10"
 				"ypos"			"0"
@@ -425,7 +425,7 @@
 				"proportionaltoparent"	"1"
 				"bgcolor_override"	"0 0 0 150"
 
-				"disabled_mini"
+				"_disabled_mini"
 				{
 					"visible"		"0"
 				}

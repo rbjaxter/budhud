@@ -9,7 +9,7 @@
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
-		"ypos_disabled"		"-7"
+		"ypos_disabled_"		"-7"
 		"visible"			"1"
 		"enabled"			"1"
 	}
@@ -52,8 +52,8 @@
 		"ypos"				"r100"
 		"wide"				"100"
 		"tall"				"100"
-		"xpos_disabled"		"65"
-		"ypos_disabled"		"r88"
+		"xpos_disabled_"		"65"
+		"ypos_disabled_"		"r88"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
@@ -66,8 +66,8 @@
 		"ypos"				"r15"
 		"wide"				"100"
 		"tall"				"100"
-		"xpos_disabled"		"145"
-		"ypos_disabled"		"r12"
+		"xpos_disabled_"		"145"
+		"ypos_disabled_"		"r12"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}

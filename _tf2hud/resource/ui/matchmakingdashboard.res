@@ -553,7 +553,7 @@
 				"zpos"			"100"
 				"tall"			"15"
 
-				disabled_queued
+				_disabled_queued
 				{
 					"xpos"			"cs-0.5"
 					"wide"			"150"

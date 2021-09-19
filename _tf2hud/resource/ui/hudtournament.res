@@ -26,7 +26,7 @@
 		"name_width"	"57"
 		"horiz_inset"	"2"
 
-		disabled_mvm
+		_disabled_mvm
 		{
 			"xpos"					"c-250"
 			"ypos"					"0"
@@ -38,7 +38,7 @@
 			"team2_player_delta_x"			"52"
 		}
 		
-		disabled_competitive
+		_disabled_competitive
 		{
 			"xpos"							"cs-0.5"
 			"ypos"							"0"
@@ -50,7 +50,7 @@
 			"team2_player_base_offset_x"	"5"
 		}
 		
-		disabled_readymode
+		_disabled_readymode
 		{
 			"xpos"							"c-320"
 			"ypos"							"0"
@@ -80,7 +80,7 @@
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 
-			disabled_competitive
+			_disabled_competitive
 			{
 				"visible"		"1"
 			}
@@ -96,19 +96,19 @@
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 			
-			disabled_mvm
+			_disabled_mvm
 			{
 				"wide"		"55"
 				"tall"		"35"
 			}
 						
-			disabled_competitive
+			_disabled_competitive
 			{
 				"wide"		"45"
 				"tall"		"29"
 			}
 
-			disabled_readymode
+			_disabled_readymode
 			{
 				"wide"		"55"
 				"tall"		"35"
@@ -131,7 +131,7 @@
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
 					
-				disabled_mvm
+				_disabled_mvm
 				{
 					"xpos"				"4"
 					"ypos"				"25"
@@ -140,7 +140,7 @@
 					"font"				"PlayerPanelPlayerName"
 				}
 
-				disabled_competitive
+				_disabled_competitive
 				{
 					"xpos"				"4"
 					"ypos"				"21"
@@ -151,7 +151,7 @@
 					"proportionaltoparent" "1"
 				}
 
-				disabled_readymode
+				_disabled_readymode
 				{
 					"xpos"				"4"
 					"ypos"				"25"
@@ -175,7 +175,7 @@
 				"image"			"../hud/class_scoutred"
 				"scaleImage"	"1"	
 				
-				disabled_mvm
+				_disabled_mvm
 				{
 					"xpos"			"5"
 					"ypos"			"4"
@@ -184,7 +184,7 @@
 					"image"			"../vgui/hud_connecting"
 				}
 
-				disabled_competitive
+				_disabled_competitive
 				{
 					"xpos"			"4"
 					"ypos"			"4"
@@ -194,7 +194,7 @@
 					"proportionaltoparent" "1"
 				}
 
-				disabled_readymode
+				_disabled_readymode
 				{
 					"xpos"			"5"
 					"ypos"			"4"
@@ -218,12 +218,12 @@
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
 				
-				disabled_mvm
+				_disabled_mvm
 				{
 					"visible"		"1"
 				}
 
-				disabled_competitive
+				_disabled_competitive
 				{
 					"xpos"			"4"
 					"ypos"			"4"
@@ -233,7 +233,7 @@
 					"proportionaltoparent" "1"
 				}
 
-				disabled_readymode
+				_disabled_readymode
 				{
 					"visible"		"1"
 				}
@@ -256,7 +256,7 @@
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
 				
-				disabled_competitive
+				_disabled_competitive
 				{
 					"wide"			"p0.64"
 					"tall"			"p0.96"
@@ -286,12 +286,12 @@
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
 				
-				disabled_mvm
+				_disabled_mvm
 				{
 					"visible"		"1"
 				}
 				
-				disabled_competitive
+				_disabled_competitive
 				{
 					"xpos"			"28"
 					"ypos"			"5"
@@ -301,7 +301,7 @@
 					"visible"		"1"
 				}
 				
-				disabled_readymode
+				_disabled_readymode
 				{
 					"visible"		"1"
 				}		
@@ -323,12 +323,12 @@
 				"image"			"hud/checkmark"
 				"scaleImage"	"1"
 
-				disabled_mvm
+				_disabled_mvm
 				{
 					"visible"		"1"
 				}
 
-				disabled_competitive
+				_disabled_competitive
 				{
 					"xpos"			"30"
 					"ypos"			"7"
@@ -338,7 +338,7 @@
 					"visible"		"1"
 				}
 
-				disabled_readymode
+				_disabled_readymode
 				{
 					"visible"		"1"
 				}
@@ -361,7 +361,7 @@
 				"textAlignment"	"west"
 				//"fgcolor"		"235 226 202 255"
 				
-				disabled_competitive
+				_disabled_competitive
 				{
 					"xpos"			"6"
 					"ypos"			"7.5"
@@ -389,12 +389,12 @@
 				"textAlignment"	"north"
 				"fgcolor"		"0 255 0 255"
 				
-				disabled_mvm
+				_disabled_mvm
 				{	
 					"visible"		"0"
 				}
 				
-				disabled_competitive
+				_disabled_competitive
 				{
 					"xpos"			"22"
 					"ypos"			"15"
@@ -421,7 +421,7 @@
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
 				
-				disabled_competitive
+				_disabled_competitive
 				{
 					"wide"			"p0.9"
 					"tall"			"p0.22"
@@ -453,12 +453,12 @@
 		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"8"	
 		
-		disabled_mvm
+		_disabled_mvm
 		{
 			"visible"		"0"
 		}
 		
-		disabled_competitive
+		_disabled_competitive
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"12"
@@ -466,7 +466,7 @@
 			"visible"		"1"
 		}
 		
-		disabled_readymode
+		_disabled_readymode
 		{
 			"xpos"			"195"
 			"visible"		"1"
@@ -491,18 +491,18 @@
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
 		
-		disabled_mvm
+		_disabled_mvm
 		{
 			"visible"		"0"
 		}
 
-		disabled_competitive
+		_disabled_competitive
 		{
 			"xpos"			"cs-0.5"
 			"visible"		"0"
 		}
 
-		disabled_readymode
+		_disabled_readymode
 		{
 			"xpos"			"200"
 			"visible"		"0"
@@ -531,18 +531,18 @@
 		"draw_corner_width"	"4"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"4"	
 		
-		disabled_mvm
+		_disabled_mvm
 		{
 			"visible"		"0"
 		}
 
-		disabled_competitive
+		_disabled_competitive
 		{
 			"xpos"			"cs-0.5"
 			"visible"		"0"
 		}
 
-		disabled_readymode
+		_disabled_readymode
 		{
 			"xpos"			"200"
 			"visible"		"0"
@@ -567,18 +567,18 @@
 		"textAlignment"		"west"
 		"proportionaltoparent"	"1"
 		
-		disabled_mvm
+		_disabled_mvm
 		{
 			"visible"		"0"
 		}
 
-		disabled_competitive
+		_disabled_competitive
 		{
 			"xpos"			"cs-0.5"
 			"visible"		"0"
 		}
 
-		disabled_readymode
+		_disabled_readymode
 		{
 			"xpos"			"207"
 			"visible"		"0"
@@ -603,18 +603,18 @@
 		"textAlignment"		"east"
 		"proportionaltoparent"	"1"
 		
-		disabled_mvm
+		_disabled_mvm
 		{
 			"visible"		"0"
 		}
 
-		disabled_competitive
+		_disabled_competitive
 		{
 			"xpos"			"cs-0.5"
 			"visible"		"0"
 		}
 
-		disabled_readymode
+		_disabled_readymode
 		{
 			"xpos"			"251"
 			"visible"		"0"
@@ -643,18 +643,18 @@
 		"draw_corner_height" 	"4"	
 		"proportionaltoparent"	"1"
 		
-		disabled_mvm
+		_disabled_mvm
 		{
 			"visible"		"0"
 		}
 
-		disabled_competitive
+		_disabled_competitive
 		{
 			"xpos"			"cs-0.5"
 			"visible"		"0"
 		}
 
-		disabled_readymode
+		_disabled_readymode
 		{
 			"xpos"			"320"
 			"visible"		"0"
@@ -678,18 +678,18 @@
 		"labelText"		"%rednamelabel%"
 		"textAlignment"		"east"
 		
-		disabled_mvm
+		_disabled_mvm
 		{
 			"visible"		"0"
 		}
 
-		disabled_competitive
+		_disabled_competitive
 		{
 			"xpos"			"370"
 			"visible"		"0"
 		}
 
-		disabled_readymode
+		_disabled_readymode
 		{
 			"xpos"			"370"
 			"visible"		"0"
@@ -713,18 +713,18 @@
 		"labelText"		"%redstate%"
 		"textAlignment"		"west"
 		
-		disabled_mvm
+		_disabled_mvm
 		{
 			"visible"		"0"
 		}
 
-		disabled_competitive
+		_disabled_competitive
 		{
 			"xpos"			"325"
 			"visible"		"0"
 		}
 
-		disabled_readymode
+		_disabled_readymode
 		{
 			"xpos"			"325"
 			"visible"		"0"
@@ -749,12 +749,12 @@
 		"labelText"		"%winconditions%"
 		"textAlignment"		"north-west"
 		
-		disabled_mvm
+		_disabled_mvm
 		{
 			"visible"		"0"
 		}
 
-		disabled_competitive
+		_disabled_competitive
 		{
 			"xpos"			"c-45"
 			"ypos"			"18"
@@ -763,7 +763,7 @@
 			"font"			"TFFontMedium"
 		}
 
-		disabled_readymode
+		_disabled_readymode
 		{
 			"xpos"			"285"
 			"ypos"			"26"
@@ -794,17 +794,17 @@
 		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"8"	
 		
-		disabled_mvm
+		_disabled_mvm
 		{
 			"visible"		"0"
 		}
 
-		disabled_competitive
+		_disabled_competitive
 		{
 			"visible"		"0"
 		}
 
-		disabled_readymode
+		_disabled_readymode
 		{
 			"visible"		"0"
 		}
@@ -828,7 +828,7 @@
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
 		
-		disabled_mvm
+		_disabled_mvm
 		{
 			"font"			"HudFontSmallishBold"
 			"xpos"			"155"
@@ -838,7 +838,7 @@
 			"zpos"			"3"
 		}
 
-		disabled_competitive
+		_disabled_competitive
 		{
 			"font"			"HudFontSmallishBold"
 			"xpos"			"cs-0.5"
@@ -848,7 +848,7 @@
 			"zpos"			"3"
 		}
 
-		disabled_readymode
+		_disabled_readymode
 		{
 			"font"			"HudFontSmallishBold"
 			"xpos"			"225"
@@ -878,7 +878,7 @@
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
 		
-		disabled_mvm
+		_disabled_mvm
 		{
 			"font"			"HudFontSmallishBold"
 			"xpos"			"156"
@@ -889,7 +889,7 @@
 			"fgcolor"		"Black"
 		}
 
-		disabled_competitive
+		_disabled_competitive
 		{
 			"font"			"HudFontSmallishBold"
 			"xpos"			"cs-0.5"
@@ -900,7 +900,7 @@
 			"fgcolor"		"Black"
 		}
 
-		disabled_readymode
+		_disabled_readymode
 		{
 			"font"			"HudFontSmallishBold"
 			"xpos"			"226"
@@ -929,7 +929,7 @@
 		"labelText"		"Y"
 		"textAlignment"	"left"
 
-		disabled_mvm
+		_disabled_mvm
 		{
 			"xpos"			"166"
 			"ypos"			"101"
@@ -937,7 +937,7 @@
 			"tall"			"22"
 		}
 
-		disabled_competitive
+		_disabled_competitive
 		{
 			"xpos"			"236"
 			"ypos"			"106"
@@ -945,7 +945,7 @@
 			"tall"			"22"
 		}
 
-		disabled_readymode
+		_disabled_readymode
 		{
 			"xpos"			"236"
 			"ypos"			"106"
@@ -976,13 +976,13 @@
 		"draw_corner_height" 	"5"	
 		"proportionaltoparent"	"1"
 
-		disabled_competitive
+		_disabled_competitive
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"150"
 		}
 
-		disabled_readymode
+		_disabled_readymode
 		{
 			"xpos"			"300"
 			"ypos"			"130"
@@ -1008,7 +1008,7 @@
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
 
-		disabled_competitive
+		_disabled_competitive
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.1"
@@ -1016,7 +1016,7 @@
 			"font"			"HudFontGiant"
 		}
 
-		disabled_readymode
+		_disabled_readymode
 		{
 			"xpos"			"300"
 			"ypos"			"130"
@@ -1043,14 +1043,14 @@
 		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
 
-		disabled_competitive
+		_disabled_competitive
 		{
 			"xpos"			"cs-0.48"
 			"ypos"			"cs-0.08"
 			"font"			"HudFontGiant"
 		}
 
-		disabled_readymode
+		_disabled_readymode
 		{
 			"xpos"			"300"
 			"ypos"			"130"

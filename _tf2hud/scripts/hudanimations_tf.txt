@@ -326,7 +326,7 @@ event FlagOutline
 	Animate OutlineImage	Size		"400 200"		Linear 0.1 0.2
 
 	Animate OutlineImage	Position	"c-50 r137"		Linear 0.7 0.2	[$WIN32]
-	Animate OutlineImage	Position	"c-50 r158"		Linear 0.7 0.2	[$X360]
+	Animate OutlineImage	Position	"c-50 r158"		Linear 0.7 0.2	[_disabled_]
 	Animate OutlineImage	Size		"100 50"		Linear 0.7 0.2
 	
 	Animate OutlineImage	Alpha		"0"				Linear 0.9 0.1
@@ -1065,7 +1065,7 @@ event CollectionCrafting_ItemRecieved
 	FireCommand 2.1 "playcratesequence2"
 //	RunEventChild BehindItemParticlePanel PlayNewItemParticles 1.5
 	
-	FireCommand	1.0 "playsound ../player/taunt_medic_heroic.wav"
+	FireCommand	1.0 "playsound player/taunt_medic_heroic.wav"
 }
 
 event CollectionCrafting_OKBlink_Repeatable

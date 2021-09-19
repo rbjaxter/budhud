@@ -21,6 +21,18 @@
         }
     }
 
+    // Even though this is on a sheet below the primary "back" button, having this quickkey &Q here
+    // allows us to go back to the crafting window, instead of all the way back to the loadout screen
+	"CancelButton"
+	{
+        "xpos"                                                      "r-6969"
+        "ypos"                                                      "r-6969"
+        "zpos"                                                      "0"
+        "wide"                                                      "0"
+        "tall"                                                      "0"
+        "labeltext"                                                 "&Q"
+    }
+
     "NameFilterTextEntry"
     {
         "xpos"                                                      "c-43"

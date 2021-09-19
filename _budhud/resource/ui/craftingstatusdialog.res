@@ -8,5 +8,7 @@
 {
     "CraftingStatusDialog"
     {
+        "border"                                                    "bh_b_NESW"
+        "bgcolor_override"                                          "bh_Theme_BG20"
     }
 }

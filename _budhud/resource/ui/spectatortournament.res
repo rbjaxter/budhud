@@ -40,20 +40,20 @@
     {
         // BLU
         "team1_player_delta_y"                                      "-16"
-        "team1_player_base_y"                                       "206"
+        "team1_player_base_y"                                       "216"
         "team1_player_delta_x"                                      "0"
         "team1_player_base_offset_x"                                "0"
 
         // RED
         "team2_player_delta_y"                                      "16"
-        "team2_player_base_y"                                       "258"
+        "team2_player_base_y"                                       "268"
         "team2_player_delta_x"                                      "0"
         "team2_player_base_offset_x"                                "0"
 
         "playerpanels_kv"
         {
             "visible"                                               "0"
-            "wide"                                                  "140"
+            "wide"                                                  "158"
             "tall"                                                  "16"
             "zpos"                                                  "1"
 
@@ -69,10 +69,10 @@
                 "ControlName"                                       "CExLabel"
                 "fieldName"                                         "playername"
                 "font"                                              "bh_Font10"
-                "xpos"                                              "42"
+                "xpos"                                              "44"
                 "ypos"                                              "0"
                 "zpos"                                              "5"
-                "wide"                                              "73"
+                "wide"                                              "80"
                 "tall"                                              "16"
                 "textAlignment"                                     "west"
                 "fgcolor"                                           "bh_white"
@@ -104,7 +104,7 @@
                 "xpos"                                              "16"
                 "ypos"                                              "0"
                 "zpos"                                              "1"
-                "wide"                                              "24"
+                "wide"                                              "26"
                 "tall"                                              "16"
                 "visible"                                           "1"
                 "enabled"                                           "1"
@@ -118,7 +118,7 @@
                 "xpos"                                              "16"
                 "ypos"                                              "0"
                 "zpos"                                              "0"
-                "wide"                                              "24"
+                "wide"                                              "26"
                 "tall"                                              "16"
                 "autoResize"                                        "0"
                 "pinCorner"                                         "0"
@@ -161,7 +161,7 @@
             "respawntime"
             {
                 "font"                                              "bh_Font12"
-                "xpos"                                              "12"
+                "xpos"                                              "14"
                 "ypos"                                              "-7"
                 "zpos"                                              "5"
                 "wide"                                              "31"
@@ -174,7 +174,7 @@
             "chargeamount"
             {
                 "font"                                              "bh_Font14"
-                "xpos"                                              "108"
+                "xpos"                                              "125"
                 "ypos"                                              "1"
                 "zpos"                                              "6"
                 "wide"                                              "30"
@@ -186,11 +186,16 @@
 
             "chargeamountBG"
             {
+
+                "pin_to_sibling"                                    "chargeamount"
+                "pin_corner_to_sibling"                             "PIN_TOPLEFT"
+                "pin_to_sibling_corner"                             "0"
+
                 "ControlName"                                       "CExLabel"
                 "fieldName"                                         "chargeamountBG"
                 "font"                                              "bh_Font14"
-                "xpos"                                              "109"
-                "ypos"                                              "2"
+                "xpos"                                              "-1"
+                "ypos"                                              "-1"
                 "zpos"                                              "6"
                 "wide"                                              "30"
                 "tall"                                              "13"

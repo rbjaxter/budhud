@@ -42,13 +42,16 @@
                         echo ======================================================;
                         echo ~~~~~~~~~~~~~~~~~ budhud, by Whisker ~~~~~~~~~~~~~~~~~;
                         echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
+                        echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
                         echo ======================================================;
                         echo ~~~~~~~~~~~~ github.com/rbjaxter/budhud ~~~~~~~~~~~~~~;
                         echo ~~~~~~~~~ steamcommunity.com/groups/budhud ~~~~~~~~~~~;
+                        echo ~~~~~~~~ https://discord.com/invite/TkxNKU2 ~~~~~~~~~~;
                         echo ======================================================;
+                        echo ~~~~~~~~ Please report bugs in the Discord! ~~~~~~~~~~;
                         echo ~ Thank you to everyone who actively uses my hud! ~~~~;
                         echo ======================================================;"
-        "tooltip"       "Updated August 26th, 2021"
+        "tooltip"       "Updated September 19th, 2021"
     }
 
     "bh_Streams"

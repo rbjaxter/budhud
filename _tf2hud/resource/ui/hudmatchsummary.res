@@ -37,7 +37,7 @@
 		"AnimRedTeamLabel12v12YPos"			"47"
 		"AnimStatsContainer12v12YPos"		"-20"
 
-		disabled_large
+		_disabled_large
 		{
 			"AnimBlueMedalsYPos"				"50"
 			"AnimRedMedalsYPos"					"50"
@@ -58,7 +58,7 @@
 		"border"		"MainMenuBGBorder"
 		"proportionaltoparent"	"1"
 
-		disabled_uses_xp
+		_disabled_uses_xp
 		{
 			"visible"		"1"
 		}
@@ -82,7 +82,7 @@
 		"show_sources_when_hidden"	"1"
 		"instantly_update"	"0"
 
-		disabled_uses_placement
+		_disabled_uses_placement
 		{
 			"show_model"	"0"
 		}
@@ -108,7 +108,7 @@
 		"show_progress"	"0"
 		"instantly_update"	"0"
 
-		disabled_uses_xp
+		_disabled_uses_xp
 		{
 			"visible"		"0"
 		}
@@ -260,7 +260,7 @@
 					"enabled"		"1"
 					"border"		"TFFatLineBorderBlueBGOpaque"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"39"
 					}
@@ -282,7 +282,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"43"
 					}
@@ -306,7 +306,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"44"
 					}
@@ -328,7 +328,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"43"
 					}
@@ -351,7 +351,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"44"
 					}
@@ -370,7 +370,7 @@
 					"image"			"../hud/team_blue"
 					"scaleImage"		"1"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"29"
 					}
@@ -407,7 +407,7 @@
 					"scaleImage"	"1"	
 					"color_outline"	"52 48 45 255"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"40"
 					}
@@ -425,7 +425,7 @@
 					"PaintBackgroundType"	"2"
 					"bgcolor_override"	"117 107 94 255"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"38"
 					}
@@ -442,7 +442,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"77"
 						"tall"			"340"
@@ -474,7 +474,7 @@
 						"stats_width"	"s.08"
 						"horiz_inset"	"5"
 
-						disabled_large
+						_disabled_large
 						{
 							"tall"			"340"
 							"linegap"		"1"
@@ -496,7 +496,7 @@
 					"enabled"		"1"
 					"border"		"TFFatLineBorderClearBG"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"57"
 						"tall"			"360"
@@ -530,7 +530,7 @@
 					"enabled"		"1"
 					"border"		"TFFatLineBorderRedBGOpaque"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"39"
 					}
@@ -552,7 +552,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"43"
 					}
@@ -575,7 +575,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"44"
 					}
@@ -597,7 +597,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"43"
 					}
@@ -620,7 +620,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"44"
 					}
@@ -639,7 +639,7 @@
 					"image"			"../hud/team_red"
 					"scaleImage"		"1"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"20"
 					}
@@ -676,7 +676,7 @@
 					"scaleImage"	"1"	
 					"color_outline"	"52 48 45 255"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"40"
 					}
@@ -694,7 +694,7 @@
 					"PaintBackgroundType"	"2"
 					"bgcolor_override"	"117 107 94 255"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"38"
 					}
@@ -711,7 +711,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"77"
 						"tall"			"340"
@@ -743,7 +743,7 @@
 						"stats_width"	"s.08"
 						"horiz_inset"	"5"
 
-						disabled_large
+						_disabled_large
 						{
 							"tall"			"340"
 							"linegap"		"1"
@@ -765,7 +765,7 @@
 					"enabled"		"1"
 					"border"		"TFFatLineBorderClearBG"
 
-					disabled_large
+					_disabled_large
 					{
 						"ypos"			"57"
 						"tall"			"360"
@@ -784,7 +784,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 
-				disabled_large
+				_disabled_large
 				{
 					"visible"		"0"
 				}
@@ -895,7 +895,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 
-				disabled_large
+				_disabled_large
 				{
 					"visible"		"0"
 				}

@@ -1,9 +1,14 @@
 "Resource/UI/WaveStatusPanel.res"
 {
+    // This probably also dynamically changes based on number of bottos
     "Background"
     {
-        "draw_corner_width"                                         "0"
-        "draw_corner_height"                                        "0"
+        "image"                                                     "replay\thumbnails\obj_icons\scalable_dgray"
+		"src_corner_height"                                         "24"
+		"src_corner_width"                                          "24"
+
+		"draw_corner_width"                                         "5"
+		"draw_corner_height"                                        "5"
     }
 
     "WaveCountLabel"
@@ -14,25 +19,38 @@
 
     "ProgressBar"
     {
+        "xpos"                                                      "211"
         "ypos"                                                      "18"
         "wide"                                                      "178"
         "tall"                                                      "12"
-
-        "xpos_minmode"                                              "211"
-        "ypos_minmode"                                              "6"
-        "wide_minmode"                                              "178"
-        "tall_minmode"                                              "12"
+		"image"			                                            "replay\thumbnails\team_colors\bh_fill_blue"
     }
 
     "ProgressBarBG"
     {
-        "ypos"                                                      "17"
+        "xpos"                                                      "210"
+        "ypos"                                                      "r-6969" //17
         "wide"                                                      "180"
         "tall"                                                      "14"
+        "image"                                                     "replay\thumbnails\team_colors\bh_fill_gray"
+    }
 
-        "xpos_minmode"                                              "210"
-        "ypos_minmode"                                              "5"
-        "wide_minmode"                                              "180"
-        "tall_minmode"                                              "14"
+    "bh_ProgressBarBG"
+    {
+        "ControlName"                                               "ImagePanel"
+        "fieldName"                                                 "bh_Template_Block"
+        "xpos"                                                      "211"
+        "ypos"                                                      "18"
+        "zpos"                                                      "0"
+        "wide"                                                      "178"
+        "tall"                                                      "12"
+        "autoResize"                                                "0"
+        "pinCorner"                                                 "0"
+        "labeltext"                                                 ""
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "fillcolor"                                                 "bh_gray"
+        "image"                                                     ""
+        "paintbackgroundtype"                                       "0"
     }
 }

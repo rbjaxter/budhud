@@ -27,7 +27,7 @@
 		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"220"	[$WIN32]
-		"wide"			"180"	[$X360]
+		"wide"			"180"	[_disabled_]
 		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -46,10 +46,10 @@
 		"ypos"			"35"
 		"zpos"			"1"
 		"wide"			"220"
-		"wide_disabled"	"200"
-		"wide_disabled"		"230"
+		"wide_disabled_"	"200"
+		"wide_disabled_"		"230"
 		"tall"			"55"
-		"tall_disabled"	"60"
+		"tall_disabled_"	"60"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"

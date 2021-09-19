@@ -31,7 +31,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Empty_Slot"
-		"labelText_disabled"		"#TF_Empty_Slot"
+		"labelText_disabled_"		"#TF_Empty_Slot"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"

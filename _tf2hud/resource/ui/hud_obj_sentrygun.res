@@ -100,7 +100,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_sentry_not_built"
-			"labelText_disabled"		"#Building_hud_sentry_not_built_360"
+			"labelText_disabled_"		"#Building_hud_sentry_not_built_360"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"

@@ -2,8 +2,8 @@
 {
     "HudPlayerHealth"
     {
-        "xpos"                                                      "190"
-        "ypos"                                                      "250"
+        "xpos"                                                      "c-235"
+        "ypos"                                                      "c10"
     }
 
     "bh_PlayerStatusPin"

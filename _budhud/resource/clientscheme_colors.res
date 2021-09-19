@@ -309,13 +309,12 @@ Scheme
         "bh_Shadow"                                                 "000 000 000 255"
         "bh_isError"                                                "254 002 209 255"       // Bright pink to locate
 
-        "Yellow"                                                    "254 002 209 255"       // Bright pink to locate
         "TFOrange"                                                  "085 085 085 255"       // Backpack page number BG (selected page color)
-        "Orange"                                                    "240 134 049 255"
-        "LightRed"                                                  "255 255 255 255"
-        "LighterRed"                                                "255 255 255 255"
-        "TanLight"                                                  "255 255 255 255"
-        "TanDark"                                                   "150 150 150 255"       // Used in Adv. Options, backpack context menu (text color), and dropbox text color (when highlighted)
+        "Orange"                                                    "240 134 049 255"       // Used in vote menu headers (I believe)
+        "LightRed"                                                  "254 002 209 255"       // Bright pink to locate
+        "LighterRed"                                                "254 002 209 255"       // Bright pink to locate
+        "TanLight"                                                  "255 255 255 255"       // Used in far too many places to want to do anything but change it here
+        "TanDark"                                                   "150 150 150 255"       // Used in advanced options, backpack context menu (text color), and dropbox text color (when highlighted)
 
         // Engineer HUD Specific
         "LowHealthRed"                                              "159 055 055 255"       // When building is low health or is in first stage of building

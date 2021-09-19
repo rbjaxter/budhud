@@ -176,47 +176,47 @@
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 
-		disabled_wider
+		_disabled_wider
 		{
 			"wide"			"f0"
 			"tall"			"o0.628"
 		}
 
-		disabled_taller
+		_disabled_taller
 		{
 			"wide"			"o1.6"
 			"tall"			"f0"
 		}
 		
-		disabled_halloween_0
+		_disabled_halloween_0
 		{
 			"image"		"../console/title_team_halloween2011_widescreen"
 		}
-		disabled_halloween_1
+		_disabled_halloween_1
 		{
 			"image"		"../console/title_team_halloween2012_widescreen"
 		}
-		disabled_halloween_2
+		_disabled_halloween_2
 		{
 			"image"		"../console/title_team_halloween2013_widescreen"
 		}
-		disabled_halloween_3
+		_disabled_halloween_3
 		{
 			"image"		"../console/title_team_halloween2014_widescreen"
 		}
-		disabled_halloween_4
+		_disabled_halloween_4
 		{	
 			"image"		"../console/title_team_halloween2015_widescreen"
 		}
-		disabled_halloween_5
+		_disabled_halloween_5
 		{	
 			"image"		"../console/title_scream_fortress_2017_widescreen"
 		}
-		disabled_fullmoon
+		_disabled_fullmoon
 		{
 			"image"		"../console/title_fullmoon_widescreen"
 		}
-		disabled_christmas
+		_disabled_christmas
 		{
 			"image"		"../console/background_xmas2020_widescreen"
 		}		

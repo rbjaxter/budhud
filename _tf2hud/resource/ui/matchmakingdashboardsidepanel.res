@@ -43,7 +43,7 @@
 		"xpos"		"3"
 		"rotation"		"2"
 
-		disabled_left
+		_disabled_left
 		{
 			"xpos"	"rs1-3"
 			"rotation"		"1"
@@ -70,7 +70,7 @@
 		"xpos"		"rs1"
 		"rotation"		"1"
 
-		disabled_left
+		_disabled_left
 		{
 			"xpos"	"0"
 			"rotation"		"2"
@@ -99,7 +99,7 @@
 		"xpos"			"rs1"
 		"labelText"		">"
 
-		disabled_left
+		_disabled_left
 		{
 			"xpos"		"0"
 			"labelText"		"<"
@@ -129,7 +129,7 @@
 		"xpos"			"3"
 		"labelText"		"<"
 
-		disabled_left
+		_disabled_left
 		{
 			"xpos"	"rs1-3"
 			"labelText"		">"

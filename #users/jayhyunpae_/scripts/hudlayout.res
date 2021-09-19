@@ -5,6 +5,12 @@
         "ypos"                                                      "c80"
     }
 
+    "HudWeaponAmmo"
+    {
+        "xpos"                                                      "c-15"
+        "ypos"                                                      "c10"
+    }
+
     "CMainTargetID"
     {
         "ypos"                                                      "c10"

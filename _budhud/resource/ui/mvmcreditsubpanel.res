@@ -9,9 +9,28 @@
 
     "HeaderLabel"
     {
+        "zpos"                                                      "1"
         "font"                                                      "bh_Font12"
         "fgcolor"                                                   "bh_Theme_TextAccent"
     }
+
+	"bh_HeaderLabelShadow"
+	{
+        "pin_to_sibling"                                            "HeaderLabel"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+		"ControlName"	                                            "CExLabel"
+		"fieldName"		                                            "bh_HeaderLabelShadow"
+		"font"			                                            "bh_Font12"
+		"labelText"		                                            "%header%"
+		"textAlignment"                                             "north-west"
+		"xpos"			                                            "-1"
+		"ypos"			                                            "-1"
+		"wide"			                                            "300"
+		"tall"			                                            "15"
+		"fgcolor"		                                            "bh_shadow"
+	}
 
     "TableBackground"
     {

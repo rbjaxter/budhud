@@ -7,7 +7,7 @@ ECHO %ESC%[96m==================================================================
 ECHO JarateKing's Localization Copier
 ECHO ====================================================================================================%ESC%[0m
 ECHO This is a simple bat file used to copy over the `chat_english.txt` file to other languages to prevent players
-ECHO with TF2 set to a different language from seeing broken shiz
+ECHO with TF2 set to a different language from seeing broken language tokens
 ECHO.
 ECHO %ESC%[36mBorrowed from JarateKing's BaseHud:
 ECHO https://github.com/JarateKing/BaseHud%ESC%[0m

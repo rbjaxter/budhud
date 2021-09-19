@@ -46,7 +46,7 @@
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
 					
-				disabled_mvm
+				_disabled_mvm
 				{
 					"xpos"				"0"
 					"ypos"				"25"
@@ -70,7 +70,7 @@
 				"image"			"../hud/class_scoutred"
 				"scaleImage"	"1"	
 				
-				disabled_mvm
+				_disabled_mvm
 				{
 					"xpos"			"5"
 					"ypos"			"4"
@@ -94,7 +94,7 @@
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
 				
-				disabled_mvm
+				_disabled_mvm
 				{
 					"visible"		"1"
 				}
@@ -139,7 +139,7 @@
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
 				
-				disabled_mvm
+				_disabled_mvm
 				{
 					"visible"		"1"
 				}	
@@ -161,7 +161,7 @@
 				"image"			"hud/checkmark"
 				"scaleImage"		"1"
 
-				disabled_mvm
+				_disabled_mvm
 				{
 					"visible"		"1"
 				}
@@ -184,7 +184,7 @@
 				"textAlignment"	"west"
 				//"fgcolor"		"235 226 202 255"
 				
-				disabled_mvm
+				_disabled_mvm
 				{
 					"ypos"			"17"
 				}
@@ -226,14 +226,14 @@
 				//"fgcolor"		"235 226 202 255"
 			}
 			
-			disabled_mvm
+			_disabled_mvm
 			{
 				"wide"		"55"
 				"tall"		"35"
 			}
 		}
 		
-		disabled_mvm
+		_disabled_mvm
 		{
 			"xpos"					"c-250"
 			"ypos"					"6"
@@ -282,7 +282,7 @@
 		"textAlignment"		"center"
 		"font"			"HudFontSmall"
 		
-		disabled_mvm
+		_disabled_mvm
 		{
 			"xpos"			"c-190"
 			"ypos"			"1"
@@ -308,7 +308,7 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 	
-		disabled_mvm
+		_disabled_mvm
 		{
 			"visible"		"1"
 		}	

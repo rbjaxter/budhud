@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"NotificationDefault"
-		"disabled_high_priority"
+		"_disabled_high_priority"
 		{
 			"border"		"NotificationHighPriority"
 		}
@@ -78,7 +78,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TriggerButton"
 		"xpos"			"144"
-		"disabled_one_button"
+		"_disabled_one_button"
 		{
 			"xpos"	"165"
 		}
@@ -133,7 +133,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AcceptButton"
 		"xpos"			"144"
-		"disabled_one_button"
+		"_disabled_one_button"
 		{
 			"xpos"	"165"
 		}

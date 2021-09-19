@@ -25,11 +25,11 @@
 		"font"			"HudFontSmallBold"
 		"xpos"			"80"
 		"ypos"			"70"
-		//"ypos_disabled"	"23"
-		//"ypos_disabled"	"20"
+		//"ypos_disabled_"	"23"
+		//"ypos_disabled_"	"20"
 		"zpos"			"1"
 		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
+		"wide"			"180"	[_disabled_]
 		"tall"			"55"
 		"autoResize"		"0"
 		"pinCorner"		"0"

@@ -1,4 +1,28 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // MvM tournament toggle ready pulse
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    event HudReadyPulse
+    {
+        Animate             TournamentInstructionsLabel     fgcolor     "bh_white"      Spline 0.0 0.4
+        Animate             TournamentInstructionsLabel     fgcolor     "bh_bred"       Spline 0.4 0.8
+
+        RunEvent            HudReadyPulseLoop               1.2
+    }
+
+    event HudReadyPulseLoop
+    {
+        RunEvent            HudReadyPulse                   0.0
+    }
+
+    event HudReadyPulseEnd
+    {
+        Animate             TournamentInstructionsLabel     fgcolor     "bh_bgreen"     Linear 0.0 0.2
+
+        StopEvent           HudReadyPulse                   0.0
+        StopEvent           HudReadyPulseLoop               0.0
+    }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
     // HudMatchStatus Skull Location
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -281,9 +305,9 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     event HasNotificationsBlink
     {
-        Animate             Notifications_ShowButtonPanel_SB    alpha                       255                         Spline 0.0 0.2
-        Animate             Notifications_ShowButtonPanel_SB    alpha                       0                           Spline 0.2 0.2
-        RunEvent            HasNotificationsBlinkLoop                                       0.5
+        Animate             Notifications_ShowButtonPanel_SB    alpha                       255                         Spline 0.0 0.4
+        Animate             Notifications_ShowButtonPanel_SB    alpha                       0                           Spline 0.4 0.8
+        RunEvent            HasNotificationsBlinkLoop                                       1.2
     }
 
     event HasNotificationsBlinkLoop
@@ -295,7 +319,7 @@
     {
         StopEvent           HasNotificationsBlink                                           0.0
         StopEvent           HasNotificationsBlinkLoop                                       0.0
-        Animate             Notifications_ShowButtonPanel_SB    alpha                       255                         Linear 0.0 0.1
+        Animate             Notifications_ShowButtonPanel_SB    alpha                       255                         Linear 0.0 0.4
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -303,10 +327,10 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     event NotificationsPresentBlink
     {
-        Animate             NotificationsPresentPanel           alpha                       255                         Spline 0.0 0.2
-        Animate             NotificationsPresentPanel           alpha                       0                           Linear 0.2 0.2
+        Animate             NotificationsPresentPanel           alpha                       255                         Spline 0.0 0.4
+        Animate             NotificationsPresentPanel           alpha                       0                           Linear 0.4 0.8
 
-        RunEvent            NotificationsPresentBlinkLoop                                   0.5
+        RunEvent            NotificationsPresentBlinkLoop                                   1.2
     }
 
     event NotificationsPresentBlinkLoop

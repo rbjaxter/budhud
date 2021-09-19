@@ -20,17 +20,17 @@
 			"fieldName"		"TipLabel"
 
 
-			disabled_small
+			_disabled_small
 			{
 				"font"	"FontStoreOriginalPrice"
 			}
 
-			disabled_medium
+			_disabled_medium
 			{
 				"font"	"HudFontSmall"
 			}
 
-			disabled_large
+			_disabled_large
 			{
 				"font"	"HudFontSmallBold"
 			}

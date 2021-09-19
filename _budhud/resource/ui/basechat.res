@@ -1,3 +1,9 @@
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+    // This file does not exist in tf2hud files because it cannot be extracted from TF2's base hud
+    // Therefore, you should not remove any lines that remain unchanged from the default hud
+    // as you traditionally would with budhud.
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+
 "Resource/UI/BaseChat.res"
 {
     "ChatFiltersButton"

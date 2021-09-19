@@ -42,31 +42,31 @@
 //      }
 //  }
 
-    "bh_trackextender_right"
-    {
-        "ControlName"                                               "ImagePanel"
-        "fieldName"                                                 "bh_trackextender_right"
-        "xpos"                                                      "c127"
-        "ypos"                                                      "r40"
-        "zpos"                                                      "0"
-        "wide"                                                      "6"
-        "tall"                                                      "12"
-        "visible"                                                   "1"
-        "enabled"                                                   "1"
-        "labeltext"                                                 ""
-        "image"                                                     "..\hud\cart_track_extender"
-        "scaleImage"                                                "1"
-
-        "if_multiple_trains"
-        {
-            "wide"                                                  "3"
-            "ypos"                                                  "r40"
-        }
-
-        "if_single_with_hills"
-        {
-        }
-    }
+//    "bh_trackextender_right"
+//    {
+//        "ControlName"                                               "ImagePanel"
+//        "fieldName"                                                 "bh_trackextender_right"
+//        "xpos"                                                      "c127"
+//        "ypos"                                                      "r-6969"
+//        "zpos"                                                      "0"
+//        "wide"                                                      "3"
+//        "tall"                                                      "12"
+//        "visible"                                                   "1"
+//        "enabled"                                                   "1"
+//        "labeltext"                                                 ""
+//        "image"                                                     "..\hud\cart_track_extender"
+//        "scaleImage"                                                "1"
+//
+//        "if_multiple_trains"
+//        {
+//            "wide"                                                  "3"
+//            "ypos"                                                  "r40"
+//        }
+//
+//        "if_single_with_hills"
+//        {
+//        }
+//    }
 
     "LevelBar"
     {

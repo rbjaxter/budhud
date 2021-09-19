@@ -1,5 +1,15 @@
 "Resource/UI/StoreViewCartPanel.res"
 {
+	"BackgroundHeader"
+	{
+        "ypos"                                                      "r-6969"
+    }
+
+	"BackgroundFooter"
+	{
+        "ypos"                                                      "r-6969"
+    }
+
     "CloseButton"
     {
         "ypos"                                                      "r-6969"
@@ -55,13 +65,17 @@
     {
         "bgcolor_override"                                          "bh_Theme_BG20"
 
+        "SeparatorLine"
+        {
+            "ypos"                                                  "r-6969"
+        }
+
         "ItemListContainerScroller"
         {
             "ItemListContainer"
             {
                 "PurchaseFooter"
                 {
-
                     "TotalPriceLabel"
                     {
                         "fgcolor_override"                          "bh_white"
