@@ -51,7 +51,7 @@
                         echo ~~~~~~~~ Please report bugs in the Discord! ~~~~~~~~~~;
                         echo ~ Thank you to everyone who actively uses my hud! ~~~~;
                         echo ======================================================;"
-        "tooltip"       "Updated September 19th, 2021"
+        "tooltip"       "Updated September 21st, 2021"
     }
 
     "bh_Streams"

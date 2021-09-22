@@ -60,13 +60,13 @@
 
     "bh_LocalStatsBG1"
     {
-        "ypos"                                                      "r135"
+        "ypos"                                                      "r140"
         "zpos"                                                      "-2"
         "tall"                                                      "44"
 
         if_mvm
         {
-            "ypos"                                                  "r135"
+            "ypos"                                                  "r140"
             "zpos"                                                  "-2"
             "tall"                                                  "44"
         }
