@@ -7,9 +7,9 @@
     // Pyro - Phlogistinator
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-"Resource/UI/HudItemEffectMeter_Pyro.res"
+"Resource/UI/huditemeffectmeter_pyro.res"
 {
-    "== HudItemEffectMeter_Pyro =="
+    "== huditemeffectmeter_pyro =="
     {
         "ControlName"                                               "ImagePanel"
     }

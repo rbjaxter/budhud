@@ -9,7 +9,7 @@
 
 "Resource/UI/huditemeffectmeter_particlecannon.res"
 {
-    "== huditemeffectmeter_organs =="
+    "== huditemeffectmeter_particlecannon =="
     {
         "ControlName"                                               "ImagePanel"
     }

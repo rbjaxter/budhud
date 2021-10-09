@@ -5,7 +5,7 @@
     // Affected Elements / Weapons
     // ============================================================================================== //
     // Scout - Bonk! Atomic Punch, Crit-a-Cola, Mad Milk
-    // MvM - Medic shield
+    // Medic - (MvM) Medic shield
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 "Resource/UI/huditemeffectmeter_scout.res"

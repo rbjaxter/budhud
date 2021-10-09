@@ -9,4 +9,8 @@
 
 "Resource/UI/HudRocketPack.res"
 {
+    "== hudrocketpack =="
+    {
+        "ControlName"                                               "ImagePanel"
+    }
 }

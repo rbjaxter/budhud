@@ -13,4 +13,8 @@
 
 "Resource/UI/HudItemEffectMeter.res"
 {
+    "== huditemeffectmeter =="
+    {
+        "ControlName"                                               "ImagePanel"
+    }
 }
