@@ -1,6 +1,6 @@
 ﻿"lang"
 {
-    "Language"                                                      "Norsk"
+    "Language"                                                      "Norwegian"
 
     "Tokens"
     {
