@@ -44,7 +44,7 @@
 
         // Quick Keys
         "bh_Back_QK"                                                "Tilbake (&Q)"
-        "bh_Skip_QK"                                                "Hoppe over (&E)"
+        "bh_Skip_QK"                                                "Hopp over (&E)"
         "bh_Close_QK"                                               "Lukk (&Q)"
         "bh_Arena_Fight_QK"                                         "Slåss (&1)"
         "bh_OpenBP_QK"                                              "Åpne ryggsekk (&Q)"
@@ -80,7 +80,7 @@
         // Game Menu
         "bh_PendingAlerts"                                          "Ventende varsler"
         "bh_TwitchStreams"                                          "Twitch Streams"
-        "bh_Contracts"                                              "Contracts"
+        "bh_Contracts"                                              "Kontrakter"
         "bh_News"                                                   "Nyheter"
         "bh_DemoUI"                                                 "DemoUI"
         "bh_CreateServer"                                           "Lag server"
