@@ -40,18 +40,22 @@
         "label"         "— budhud —"
         "command"       "engine con_enable 1;showconsole;clear;
                         echo ======================================================;
-                        echo ~~~~~~~~~~~~~~~~~ budhud, by Whisker ~~~~~~~~~~~~~~~~~;
                         echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
+                        echo ~~~~~~~~~~~~~~~~~ budhud, by Whisker ~~~~~~~~~~~~~~~~~;
                         echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
                         echo ======================================================;
                         echo ~~~~~~~~~~~~ github.com/rbjaxter/budhud ~~~~~~~~~~~~~~;
                         echo ~~~~~~~~~ steamcommunity.com/groups/budhud ~~~~~~~~~~~;
-                        echo ~~~~~~~~ https://discord.com/invite/TkxNKU2 ~~~~~~~~~~;
+                        echo ~~~~~~~~~~~~~ discord.com/invite/TkxNKU2 ~~~~~~~~~~~~~;
                         echo ======================================================;
                         echo ~~~~~~~~ Please report bugs in the Discord! ~~~~~~~~~~;
                         echo ~ Thank you to everyone who actively uses my hud! ~~~~;
+                        echo ======================================================;
+                        echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
+                        echo *~*~*~*~*~*~*~ ad astra per alas porci *~*~*~*~*~*~*~*;
+                        echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
                         echo ======================================================;"
-        "tooltip"       "Updated September 21st, 2021"
+        "tooltip"       "Updated March 12, 2022"
     }
 
     "bh_Streams"

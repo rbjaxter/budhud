@@ -248,6 +248,7 @@
 		"team"				"byte"		// which team should hear the broadcast. 0 will make everyone hear it.
 		"sound"				"string"	// sound to play
 		"additional_flags"	"short"		// additional sound flags to pass through to sound system
+		"player"			"short"		// entindex of the player source or -1
 	}
 
 	"teamplay_timer_flash"
@@ -1729,6 +1730,16 @@
 	"halloween_skeleton_killed"
 	{
 		"player"	"short"		// userid of the player that killed the skeleton
+	}
+
+	"skeleton_killed_quest"
+	{
+		"player"		"short"		// userid of the player that killed the skeleton
+	}
+	
+	"skeleton_king_killed_quest"
+	{
+		"player"		"short"		// userid of the player that killed the skeleton
 	}
 
 	"escape_hell"

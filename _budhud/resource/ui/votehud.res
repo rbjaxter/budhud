@@ -2,7 +2,7 @@
 {
     "VoteActive"
     {
-        "tall"                                                      "160"
+        "tall"                                                      "165"
         "bgcolor_override"                                          "bh_ItemPanel"
         "border"                                                    "bh_b_NESW"
 

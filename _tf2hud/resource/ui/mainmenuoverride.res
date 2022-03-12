@@ -1707,13 +1707,88 @@
 				{
 					"0"
 					{
-						"item"		"Summer 2021 Cosmetic Key" 
+						"item"		"Winter 2021 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Summer 2021 Cosmetic Case"
+						"item"		"Winter 2021 Cosmetic Case"
 						"show_market"	"1"
+					}
+					"2"
+					{
+						"item"		"Taunt: Doctor's Defibrillators"
+						"show_market"	"0"
+					}
+					"3"
+					{
+						"item"		"Taunt: Shooter's Stakeout"
+						"show_market"	"0"
+					}
+					"4"
+					{
+						"item"		"Taunt: The Hot Wheeler"
+						"show_market"	"0"
+					}
+					"5"
+					{
+						"item"		"Map Token Polar"
+						"show_market"	"0"
+					}
+					"6"
+					{
+						"item"		"Map Token Bread Space"
+						"show_market"	"0"
+					}
+					"7"
+					{
+						"item"		"Map Token Chilly"
+						"show_market"	"0"
+					}
+					"8"
+					{
+						"item"		"Map Token Cascade"
+						"show_market"	"0"
+					}
+					"9"
+					{
+						"item"		"Map Token Altitude"
+						"show_market"	"0"
+					}
+					"10"
+					{
+						"item"		"Map Token Doublefrost"
+						"show_market"	"0"
+					}
+					"11"
+					{
+						"item"		"Strange Filter: Polar (Community)"
+						"show_market"	"0"
+					}
+					"12"
+					{
+						"item"		"Strange Filter: Bread Space (Community)"
+						"show_market"	"0"
+					}
+					"13"
+					{
+						"item"		"Strange Filter: Chilly (Community)"
+						"show_market"	"0"
+					}
+					"14"
+					{
+						"item"		"Strange Filter: Cascade (Community)"
+						"show_market"	"0"
+					}
+					"15"
+					{
+						"item"		"Strange Filter: Altitude (Community)"
+						"show_market"	"0"
+					}
+					"16"
+					{
+						"item"		"Strange Filter: Doublefrost (Community)"
+						"show_market"	"0"
 					}
 				}
 			}
