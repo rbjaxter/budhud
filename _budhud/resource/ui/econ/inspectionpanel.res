@@ -1,5 +1,5 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Decorated item inspection in backpack
+    // War paint inspect UI
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 "Resource/UI/econ/QuestEditorPanel.res"
@@ -11,10 +11,10 @@
         "enabled"                                                   "0"
     }
 
-    "bh_Template_Block"
+    "bh_FullBackground"
     {
         "ControlName"                                               "ImagePanel"
-        "fieldName"                                                 "bh_Template_Block"
+        "fieldName"                                                 "bh_FullBackground"
         "xpos"                                                      "0"
         "ypos"                                                      "0"
         "zpos"                                                      "0"
@@ -47,10 +47,56 @@
         "enabled"                                                   "0"
     }
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // This controls the war paint preview item/seed/view on market UI
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
     "PaintkitPreviewContainer"
     {
         "border"                                                    "bh_blank"
         "bgcolor_override"                                          "bh_Theme_BG30"
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        // consume_mode is specifically for the UI that appears when you're redeeming a war paint
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        "consume_mode"
+        {
+            "border"                                                "bh_blank"
+            "bgcolor_override"                                      "bh_Theme_BG30"
+        }
+
+        "bh_PaintQualityTip"
+        {
+            "ControlName"	                                        "Label"
+            "fieldName"		                                        "bh_PaintQualityTip"
+            "font"			                                        "bh_Font10"
+            "labelText"		                                        "Use mat_picmip -1 in console to improve skin appearance (has performance impact)"
+            "textAlignment"	                                        "west"
+            "xpos"			                                        "10"
+            "ypos"			                                        "17"
+            "zpos"			                                        "10"
+            "wide"			                                        "200"
+            "tall"			                                        "50"
+            "wrap"                                                  "1"
+            "visible"		                                        "0"
+            "enabled"		                                        "0"
+            "fgcolor_override"                                      "bh_orange"
+            "proportionaltoparent"                                  "1"
+
+            // "Inspect Item" UI (maybe, idk it keeps crashing on me)
+            "fixed_paintkit"
+            {
+                "visible"                                           "0"
+                "enabled"                                           "0"
+            }
+
+            // "Use" UI
+            "consume_mode"
+            {
+                "visible"                                           "1"
+                "enabled"                                           "1"
+            }
+        }
 
         "ComboBoxValidPaintkits"
         {
