@@ -13,7 +13,7 @@
         "ControlName"                                               "Frame"
         "fieldName"                                                 "ConfirmDialog"
         "xpos"                                                      "c-162"
-        "ypos"                                                      "140"
+        "ypos"                                                      "1"
         "zpos"                                                      "0"
         "wide"                                                      "324"
         "tall"                                                      "200"
