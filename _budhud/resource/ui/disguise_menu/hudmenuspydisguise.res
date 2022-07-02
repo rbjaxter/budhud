@@ -2,6 +2,14 @@
 
 "Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
 {
+    // Hide active selection for non-controller players
+	"active_selection_bg"
+    {
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+    }
+
     "SpyIcon"
     {
         "ypos"                                                      "r-6969"
@@ -327,4 +335,34 @@
         "wide"                                                      "44"
         "tall"                                                      "120"
     }
+
+    // Spy Controller Selection UI
+    // This is kept separate because it solely relates to controller use, and the engineer UI selection uses the same element with different positioning
+	"active_selection_bg"
+	{
+        "pin_to_sibling"                                            "bh_MenuPin"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "xpos"                                                      "0"
+        "ypos"                                                      "0"
+
+		"ControlName"	                                            "EditablePanel" // Removing ControlName breaks this
+		"zpos"			                                            "1"
+		"wide"			                                            "55"
+		"tall"			                                            "200"
+
+		"selection_image"
+		{
+
+			"ControlName"	                                        "CIconPanel"    // Removing ControlName breaks this
+			"xpos"			                                        "5"
+			"ypos"			                                        "10"
+			"wide"			                                        "40"
+			"tall"			                                        "75"
+			"icon"			                                        ""
+			"iconColor"		                                        ""
+			"border"		                                        "bh_TooltipBG"
+		}
+	}
 }

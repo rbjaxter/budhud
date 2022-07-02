@@ -1,9 +1,9 @@
     #base   "..\bh_popupbase.res"
-    #base   "..\build_menu\hudmenuengybuild.res"
+    #base   "..\disguise_menu\hudmenuspydisguise.res"
 
-"Resource/UI/build_menu/HudMenuEngyBuild.res"
+"Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
 {
-    // Engineer Controller Selection UI
+    // Spy Controller Selection UI
     // We #base this to its own 360 folder so this active selection doesn't also show up for those not using a controller
 	"active_selection_bg"
 	{
@@ -14,16 +14,23 @@
         "xpos"                                                      "0"
         "ypos"                                                      "0"
 
-		"ControlName"                                               "CIconPanel"
-		"fieldName"                                                 "active_selection_bg"
-		"zpos"                                                      "1"
-		"wide"                                                      "90"
-		"tall"			                                            "88"
-		"visible"		                                            "1"
-		"enabled"		                                            "1"
-		"scaleImage"	                                            "1"
-		"icon"			                                            ""
-        "border"                                                    "bh_TooltipBG"
+		"ControlName"	                                            "EditablePanel" // Removing ControlName breaks this
+		"zpos"			                                            "1"
+		"wide"			                                            "55"
+		"tall"			                                            "200"
+
+		"selection_image"
+		{
+
+			"ControlName"	                                        "CIconPanel"    // Removing ControlName breaks this
+			"xpos"			                                        "5"
+			"ypos"			                                        "10"
+			"wide"			                                        "40"
+			"tall"			                                        "75"
+			"icon"			                                        ""
+			"iconColor"		                                        ""
+			"border"		                                        "bh_TooltipBG"
+		}
 	}
 
     "bh_ControllerTipPin"
@@ -31,7 +38,7 @@
         "ControlName"                                               "Label"
         "fieldName"                                                 "bh_ControllerTipPin"
         "xpos"                                                      "cs-0.5"
-        "ypos"                                                      "c68"
+        "ypos"                                                      "c62"
         "zpos"                                                      "0"
         "wide"                                                      "400"
         "tall"                                                      "0"
@@ -62,7 +69,7 @@
 		"zpos"                                                      "5"
 	}
 
-	"DestroyHintIcon"
+	"TeamToggleHintIcon"
 	{
         "pin_to_sibling"                                            "bh_ControllerTipPin"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
@@ -73,9 +80,9 @@
 		"zpos"                                                      "5"
 	}
 
-	"DestroyHintLabel_Bright"
+	"TeamToggleHintLabel"
 	{
-        "pin_to_sibling"                                            "DestroyHintIcon"
+        "pin_to_sibling"                                            "TeamToggleHintIcon"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
 
@@ -84,18 +91,7 @@
 		"zpos"                                                      "5"
 	}
 
-	"DestroyHintLabel_Dim"
-	{
-        "pin_to_sibling"                                            "DestroyHintIcon"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
-
-        "xpos"                                                      "-18"
-        "ypos"                                                      "1"
-		"zpos"                                                      "5"
-	}
-
-	"BuildHintIcon"
+	"DisguiseHintIcon"
 	{
         "pin_to_sibling"                                            "bh_ControllerTipPin"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
@@ -106,20 +102,9 @@
 		"zpos"                                                      "5"
 	}
 
-	"BuildHintLabel_Bright"
+	"DisguiseHintLabel"
 	{
-        "pin_to_sibling"                                            "BuildHintIcon"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
-
-        "xpos"                                                      "-18"
-        "ypos"                                                      "1"
-		"zpos"                                                      "5"
-	}
-
-	"BuildHintLabel_Dim"
-	{
-        "pin_to_sibling"                                            "BuildHintIcon"
+        "pin_to_sibling"                                            "DisguiseHintIcon"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
 

@@ -1,3 +1,5 @@
+// Now THIS is #base pod racing!
+
 "Resource/UI/bh_popupbase.res"
 {
     "BuildIcon"
@@ -64,6 +66,20 @@
     }
 
     "BackgroundEngineer"
+    {
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+    }
+
+    "ButtonLegendBG"
+    {
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+    }
+
+    "ShadedBar"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
