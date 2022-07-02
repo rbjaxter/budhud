@@ -18,6 +18,8 @@
 		"zpos"			                                            "1"
 		"wide"			                                            "55"
 		"tall"			                                            "200"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
 
 		"selection_image"
 		{
