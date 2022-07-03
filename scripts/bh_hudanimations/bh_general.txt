@@ -110,17 +110,6 @@
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Moves pvprankpanel.res to avoid end of screen missing elements
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    event CompetitiveGame_ShowPvPRankPanel
-    {
-        Animate             RankPanel                           ypos                        -80                         Linear 0 0
-        Animate             ModelContainer                      ypos                        r150                        Linear 0 0
-        RunEventChild       RankPanel                           PvPRankPanelShowXPChange    0
-    }
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Give TF2 a stern talking to and tell it no, don't move my pinned countdown label shadow all over
     // the place, please. PLEASE
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -272,75 +261,4 @@
         Animate             HudTournamentSetup                  position                    "c-90 -70"                  Spline 0.001 0.2
         Animate             the_wang_who_peaks                  position                    "c-50 435"                  Linear 0.0 0.001
         Animate             the_wang_who_peaks                  position                    "c-50 500"                  Spline 0.001 0.2
-    }
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Main menu animations
-    // ============================================================================================== //
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Casual category animations
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    event CasualCategory_Selected
-    {
-        Animate             Shade                               bgcolor                     bh_Theme_BG40               Deaccel 0 0.2
-        Animate             Title                               fgcolor                     bh_Theme_TextSecondary      Deaccel 0 0.2
-        Animate             TitleShadow                         fgcolor                     bh_shadow                   Deaccel 0 0.2
-        Animate             DescLabel                           fgcolor                     bh_Theme_TextSecondary      Deaccel 0 0.2
-    }
-
-    event CasualCategory_NotSelected
-    {
-        Animate             Shade                               bgcolor                     bh_Theme_BG00               Deaccel 0 0.2
-        Animate             Title                               fgcolor                     bh_gray                     Deaccel 0 0.2
-        Animate             DescLabel                           fgcolor                     bh_gray                     Deaccel 0 0.2
-        Animate             TitleShadow                         fgcolor                     0                           Deaccel 0 0.2
-        Animate             DescLabelShadow                     fgcolor                     0                           Deaccel 0 0.2
-    }
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // New item notification animations
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    event HasNotificationsBlink
-    {
-        Animate             Notifications_ShowButtonPanel_SB    alpha                       255                         Spline 0.0 0.4
-        Animate             Notifications_ShowButtonPanel_SB    alpha                       0                           Spline 0.4 0.8
-        RunEvent            HasNotificationsBlinkLoop                                       1.2
-    }
-
-    event HasNotificationsBlinkLoop
-    {
-        RunEvent            HasNotificationsBlink                                           0.0
-    }
-
-    event HasNotificationsBlinkStop
-    {
-        StopEvent           HasNotificationsBlink                                           0.0
-        StopEvent           HasNotificationsBlinkLoop                                       0.0
-        Animate             Notifications_ShowButtonPanel_SB    alpha                       255                         Linear 0.0 0.4
-    }
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // New notification animations
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    event NotificationsPresentBlink
-    {
-        Animate             NotificationsPresentPanel           alpha                       255                         Spline 0.0 0.4
-        Animate             NotificationsPresentPanel           alpha                       0                           Linear 0.4 0.8
-
-        RunEvent            NotificationsPresentBlinkLoop                                   1.2
-    }
-
-    event NotificationsPresentBlinkLoop
-    {
-        RunEvent            NotificationsPresentBlink                                       0.0
-    }
-
-    event NotificationsPresentBlinkStop
-    {
-        StopEvent           NotificationsPresentBlink                                       0.0
-        StopEvent           NotificationsPresentBlinkLoop                                   0.0
-        Animate             NotificationsPresentPanel           alpha                       255                         Linear 0.0 0.1
     }

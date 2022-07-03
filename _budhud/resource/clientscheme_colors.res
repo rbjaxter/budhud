@@ -270,6 +270,9 @@ Scheme
         "bh_blank"                                                  "000 000 000 000"
         "bh_yellow"                                                 "231 181 059 255"
 
+        "bh_Shadow"                                                 "000 000 000 255"
+        "bh_isError"                                                "254 002 209 255"       // Bright pink to locate
+
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Themes - Experimental
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -297,18 +300,7 @@ Scheme
         "bh_BGBlue"                                                 "070 130 180 090"
         "bh_BGRed"                                                  "205 050 050 090"
 
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Item Rarity Colors
-    // ============================================================================================== //
-    // Item quality colors in backpack
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-        "QualityColorNormal"                                        "150 150 150 255"   // Stock item color (item is selected)
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-        "bh_Shadow"                                                 "000 000 000 255"
-        "bh_isError"                                                "254 002 209 255"       // Bright pink to locate
-
+        "QualityColorNormal"                                        "150 150 150 255"       // Stock item color (item is selected)
         "TFOrange"                                                  "085 085 085 255"       // Backpack page number BG (selected page color)
         "Orange"                                                    "240 134 049 255"       // Used in vote menu headers (I believe)
         "LightRed"                                                  "254 002 209 255"       // Bright pink to locate
@@ -333,6 +325,9 @@ Scheme
 
     BaseSettings
     {
+        // TargetDataLabel color when enabled 0/visible 1
+        "disabledfgcolor2_override"                                 "255 255 255 255"
+
         // Saving for future consideration
         "MenuBoxBg"                                                 "0 0 0 100"
 
