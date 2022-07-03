@@ -379,22 +379,6 @@
 //  }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Stream List Panel
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    "StreamListPanel"
-    {
-        "pin_to_sibling"                                            "bh_InfoDisplay"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
-
-        "xpos"                                                      "0"
-        "ypos"                                                      "0"
-        "wide"                                                      "300"
-        "tall"                                                      "350"
-    }
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
     // News screen
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -484,17 +468,58 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Stream, contracts, news, new items buttons
     ////////////////////////////////////////////////////////////////////////////////////////////////////
+// Old "New Items" notification (in tv)
+//    "Notifications_ShowButtonPanel"
+//    {
+//        "pin_to_sibling"                                            "bh_TopPin"
+//        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+//        "pin_to_sibling_corner"                                     "0"
+//
+//        "xpos"                                                      "15"
+//        "ypos"                                                      "-3"
+//        "wide"                                                      "30"
+//        "tall"                                                      "30"
+//
+//        "SubImage"
+//        {
+//            "ypos"                                                  "r-6969"
+//            "visible"                                               "0"
+//            "enabled"                                               "0"
+//        }
+//
+//        "Notifications_CountLabel"
+//        {
+//            "ypos"                                                  "r-6969"
+//            "visible"                                               "0"
+//            "enabled"                                               "0"
+//        }
+//
+//        "Notifications_ShowButtonPanel_SB"
+//        {
+//            "zpos"                                                  "6969"
+//            "wide"                                                  "28"
+//            "tall"                                                  "28"
+//
+//            "image_drawcolor"                                       "255 255 255 255"
+//            "image_armedcolor"                                      "240 134 49 255"
+//
+//            "SubImage"
+//            {
+//                "xpos"                                              "10"
+//                "ypos"                                              "11"
+//                "wide"                                              "10"
+//                "tall"                                              "10"
+//                "image"                                             "replay\thumbnails\menu_icons\newnotification"
+//            }
+//        }
+//    }
 
     "Notifications_ShowButtonPanel"
     {
-        "pin_to_sibling"                                            "bh_TopPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
-
-        "xpos"                                                      "15"
-        "ypos"                                                      "-3"
-        "wide"                                                      "30"
-        "tall"                                                      "30"
+        "xpos"                                                      "2"
+        "ypos"                                                      "27"
+        "wide"                                                      "252"
+        "tall"                                                      "18"
 
         "SubImage"
         {
@@ -505,26 +530,34 @@
 
         "Notifications_CountLabel"
         {
-            "ypos"                                                  "r-6969"
+            "xpos"                                                  "14"
+            "ypos"                                                  "r-6969" // -5
             "visible"                                               "0"
             "enabled"                                               "0"
         }
 
         "Notifications_ShowButtonPanel_SB"
         {
+            "xpos"                                                  "0"
+            "textinsetx"                                            "45"
+            "ypos"                                                  "0"
             "zpos"                                                  "6969"
-            "wide"                                                  "28"
-            "tall"                                                  "28"
-
-            "image_drawcolor"                                       "255 255 255 255"
-            "image_armedcolor"                                      "240 134 49 255"
+            "wide"                                                  "252"
+            "tall"                                                  "18"
+            "labeltext"                                             "#bh_PendingAlerts"
+            "textalignment"                                         "west"
+            "font"                                                  "bh_Font14"
+            "defaultFgColor_override"                               "bh_menu_foreground1"
+            "armedFgColor_override"                                 "bh_menu_background1"
+            "image_drawcolor"                                       "231 181 059 255"
+            "image_armedcolor"                                      "231 181 059 255"
 
             "SubImage"
             {
-                "xpos"                                              "10"
-                "ypos"                                              "11"
-                "wide"                                              "10"
-                "tall"                                              "10"
+                "xpos"                                              "2"
+                "ypos"                                              "2"
+                "wide"                                              "15"
+                "tall"                                              "15"
                 "image"                                             "replay\thumbnails\menu_icons\newnotification"
             }
         }
@@ -539,7 +572,7 @@
         "ControlName"                                               "EditablePanel"
         "fieldname"                                                 "bh_Streams"
         "xpos"                                                      "15"
-        "ypos"                                                      "0"
+        "ypos"                                                      "r-6969" // 0
         "wide"                                                      "30"
         "tall"                                                      "30"
         "textAlignment"                                             "Center"
@@ -606,7 +639,7 @@
 
         "ControlName"                                               "EditablePanel"
         "fieldname"                                                 "bh_Contracts"
-        "xpos"                                                      "60"
+        "xpos"                                                      "45"
         "ypos"                                                      "0"
         "wide"                                                      "30"
         "tall"                                                      "30"
@@ -674,7 +707,7 @@
 
         "ControlName"                                               "EditablePanel"
         "fieldname"                                                 "bh_News"
-        "xpos"                                                      "-30"
+        "xpos"                                                      "-15"
         "ypos"                                                      "-1"
         "wide"                                                      "30"
         "tall"                                                      "30"
@@ -746,7 +779,7 @@
 
         "ControlName"                                               "EditablePanel"
         "fieldname"                                                 "bh_Favorite1"
-        "xpos"                                                      "105"
+        "xpos"                                                      "90"
         "ypos"                                                      "0"
         "zpos"                                                      "11"
         "wide"                                                      "30"
@@ -807,7 +840,7 @@
 
         "ControlName"                                               "EditablePanel"
         "fieldname"                                                 "bh_Favorite2"
-        "xpos"                                                      "-75"
+        "xpos"                                                      "-60"
         "ypos"                                                      "0"
         "zpos"                                                      "11"
         "wide"                                                      "30"
