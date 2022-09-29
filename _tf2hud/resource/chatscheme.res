@@ -42,7 +42,7 @@ Scheme
 		Button.BgColor					"Blank"
 		Button.ArmedTextColor			"White"
 		Button.ArmedBgColor				"Blank"				[$WIN32]
-		Button.ArmedBgColor				"190 115 0 255"		[_disabled_]
+		Button.ArmedBgColor				"190 115 0 255"		[$_disabled_]
 		Button.DepressedTextColor		"White"
 		Button.DepressedBgColor			"Blank"
 		Button.FocusBorderColor			"Black"
@@ -65,9 +65,9 @@ Scheme
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
 		Frame.BgColor					"160 160 160 128"	[$WIN32]
-		Frame.BgColor					"80 80 80 192"		[_disabled_]
+		Frame.BgColor					"80 80 80 192"		[$_disabled_]
 		Frame.OutOfFocusBgColor			"160 160 160 32"	[$WIN32]
-		Frame.OutOfFocusBgColor			"80 80 80 192"		[_disabled_]
+		Frame.OutOfFocusBgColor			"80 80 80 192"		[$_disabled_]
 		Frame.FocusTransitionEffectTime	"0.3"	// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.3"	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
@@ -181,12 +181,12 @@ Scheme
 
 		// scheme-specific colors
 		MainMenu.TextColor			"White"				[$WIN32]
-		MainMenu.TextColor			"200 200 200 255"	[_disabled_]
+		MainMenu.TextColor			"200 200 200 255"	[$_disabled_]
 		MainMenu.ArmedTextColor		"200 200 200 255"	[$WIN32]
-		MainMenu.ArmedTextColor		"White"				[_disabled_]
+		MainMenu.ArmedTextColor		"White"				[$_disabled_]
 		MainMenu.DepressedTextColor	"192 186 80 255"
 		MainMenu.MenuItemHeight		"16"	[$WIN32]
-		MainMenu.MenuItemHeight		"32"	[_disabled_]
+		MainMenu.MenuItemHeight		"32"	[$_disabled_]
 		MainMenu.Inset				"32"
 		MainMenu.Backdrop			"0 0 0 156"
 
@@ -196,7 +196,7 @@ Scheme
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
 		NewGame.SelectionColor		"Orange"	[$WIN32]
-		NewGame.SelectionColor		"0 0 0 255"	[_disabled_]
+		NewGame.SelectionColor		"0 0 0 255"	[$_disabled_]
 		NewGame.DisabledColor		"128 128 128 196"
 
 		TFColors.ChatTextYellow		"251 235 202 255"
@@ -362,7 +362,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"12"	[$WIN32]
-				"tall"		"15"	[_disabled_]
+				"tall"		"15"	[$_disabled_]
 				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"1"
@@ -371,7 +371,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"14"	[$WIN32]
-				"tall"		"17"	[_disabled_]
+				"tall"		"17"	[$_disabled_]
 				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"1"
@@ -380,7 +380,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"15"	[$WIN32]
-				"tall"		"18"	[_disabled_]
+				"tall"		"18"	[$_disabled_]
 				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
@@ -389,7 +389,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"17"	[$WIN32]
-				"tall"		"20"	[_disabled_]
+				"tall"		"20"	[$_disabled_]
 				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
@@ -398,7 +398,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"22"	[$WIN32]
-				"tall"		"25"	[_disabled_]
+				"tall"		"25"	[$_disabled_]
 				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"

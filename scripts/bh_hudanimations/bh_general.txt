@@ -49,6 +49,7 @@
     // Use deathcam to clear low health/buffed health color
     // Credit: mastercomms
     // https://www.teamfortress.tv/43786/fix-for-lingering-hud-animations-on-death
+    // Doesn't work 100% of the time
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     event HudSnapShotReminderIn
@@ -58,11 +59,11 @@
     //  Animate             ScreenshotPanel                     Position                    c-83 13                     Spline 0.001 0.2
 
     // Attempts to clear animation
-        RunEvent            DefaultAnimHudSnapShotReminderIn                                0.0
-        RunEvent            HudHealthDyingPulseStop                                         0.0
-        RunEvent            HudHealthBonusPulseStop                                         0.0
-        RunEvent            HudLowAmmoPulseStop                                             0.0
-        RunEvent            HudMedicChargedStop                                             0.0
+        RunEvent            DefaultAnimHudSnapShotReminderIn                                20.0
+        RunEvent            HudHealthDyingPulseStop                                         20.0
+        RunEvent            HudHealthBonusPulseStop                                         20.0
+        RunEvent            HudLowAmmoPulseStop                                             20.0
+        RunEvent            HudMedicChargedStop                                             20.0
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////

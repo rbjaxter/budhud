@@ -442,7 +442,7 @@ function Pass_ExtractDefaultHUD
         # get-content splits into lines. parens cause the entire file to be read into memory
         (Get-Content $file.FullName) |
         # string replace operators use regular expression matching
-        ForEach-Object {$_ -ireplace '\$OSX|\$X360|_minmode|_lodef|_hidef|if_', '_disabled_'} |
+        ForEach-Object {$_ -ireplace '\$OSX|\$X360|_minmode|_lodef|_hidef|if_', '$$_disabled_'} |
         Set-Content $file.FullName
         $i += 1
     }
@@ -451,6 +451,7 @@ function Pass_ExtractDefaultHUD
 
 
     Write-Host -foregroundcolor "White" -NoNewLine "Copying over stubborn files..."
+    Copy-Item "$PSScriptRoot\_tf2hud\resource\chatscheme.res" -Destination "$PSScriptRoot\resource\chatscheme_base.res"
     Copy-Item "$PSScriptRoot\_tf2hud\resource\clientscheme.res" -Destination "$PSScriptRoot\resource\clientscheme_base.res"
     Copy-Item "$PSScriptRoot\_tf2hud\resource\sourcescheme.res" -Destination "$PSScriptRoot\resource\sourcescheme_base.res"
     Copy-Item "$PSScriptRoot\_tf2hud\resource\gamemenu.res" -Destination "$PSScriptRoot\resource\gamemenu_base.res"

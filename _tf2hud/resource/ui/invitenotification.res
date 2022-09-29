@@ -33,7 +33,7 @@
 		"fieldName"		"Text"
 		
 
-		_disabled_incoming
+		$_disabled_incoming
 		{
 			"xpos"			"rs1-5"
 			"wide"			"f35"
@@ -89,7 +89,7 @@
 		"tall"			"20"
 		"visible"		"1"
 
-		_disabled_incoming
+		$_disabled_incoming
 		{
 			"visible"		"0"
 		}
@@ -141,7 +141,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"DeclineButton"
 		
-		_disabled_incoming
+		$_disabled_incoming
 		{
 			"xpos"			"rs1-5"
 		}

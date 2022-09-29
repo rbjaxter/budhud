@@ -45,7 +45,7 @@
 
         // Defaults
         "xpos"                                                      "cs-0.4999"
-        "ypos"                                                      "cs-0.4980"
+        "ypos"                                                      "cs-0.4990"
         "controlname"                                               "CExLabel"
         "fieldname"                                                 "hud_crosshair_2"
         "textAlignment"                                             "center"

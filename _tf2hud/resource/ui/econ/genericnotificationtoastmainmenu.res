@@ -71,7 +71,7 @@
 		"fieldName"		"TextLabel"
 		"fgcolor"		"56 47 29 255"
 		"fgcolor_override" "56 47 29 255"
-		"_disabled_high_priority"
+		"$_disabled_high_priority"
 		{
 			"fgcolor"			"BrightYellow"
 			"fgcolor_override"	"BrightYellow"

@@ -176,47 +176,47 @@
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 
-		_disabled_wider
+		$_disabled_wider
 		{
 			"wide"			"f0"
 			"tall"			"o0.628"
 		}
 
-		_disabled_taller
+		$_disabled_taller
 		{
 			"wide"			"o1.6"
 			"tall"			"f0"
 		}
 		
-		_disabled_halloween_0
+		$_disabled_halloween_0
 		{
 			"image"		"../console/title_team_halloween2011_widescreen"
 		}
-		_disabled_halloween_1
+		$_disabled_halloween_1
 		{
 			"image"		"../console/title_team_halloween2012_widescreen"
 		}
-		_disabled_halloween_2
+		$_disabled_halloween_2
 		{
 			"image"		"../console/title_team_halloween2013_widescreen"
 		}
-		_disabled_halloween_3
+		$_disabled_halloween_3
 		{
 			"image"		"../console/title_team_halloween2014_widescreen"
 		}
-		_disabled_halloween_4
+		$_disabled_halloween_4
 		{	
 			"image"		"../console/title_team_halloween2015_widescreen"
 		}
-		_disabled_halloween_5
+		$_disabled_halloween_5
 		{	
 			"image"		"../console/title_scream_fortress_2017_widescreen"
 		}
-		_disabled_fullmoon
+		$_disabled_fullmoon
 		{
 			"image"		"../console/title_fullmoon_widescreen"
 		}
-		_disabled_christmas
+		$_disabled_christmas
 		{
 			"image"		"../console/background_xmas2020_widescreen"
 		}		
@@ -1707,12 +1707,12 @@
 				{
 					"0"
 					{
-						"item"		"Winter 2021 Cosmetic Key"
+						"item"		"Summer 2022 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Winter 2021 Cosmetic Case"
+						"item"		"Summer 2022 Cosmetic Case"
 						"show_market"	"1"
 					}
 					"2"
@@ -1728,66 +1728,6 @@
 					"4"
 					{
 						"item"		"Taunt: The Hot Wheeler"
-						"show_market"	"0"
-					}
-					"5"
-					{
-						"item"		"Map Token Polar"
-						"show_market"	"0"
-					}
-					"6"
-					{
-						"item"		"Map Token Bread Space"
-						"show_market"	"0"
-					}
-					"7"
-					{
-						"item"		"Map Token Chilly"
-						"show_market"	"0"
-					}
-					"8"
-					{
-						"item"		"Map Token Cascade"
-						"show_market"	"0"
-					}
-					"9"
-					{
-						"item"		"Map Token Altitude"
-						"show_market"	"0"
-					}
-					"10"
-					{
-						"item"		"Map Token Doublefrost"
-						"show_market"	"0"
-					}
-					"11"
-					{
-						"item"		"Strange Filter: Polar (Community)"
-						"show_market"	"0"
-					}
-					"12"
-					{
-						"item"		"Strange Filter: Bread Space (Community)"
-						"show_market"	"0"
-					}
-					"13"
-					{
-						"item"		"Strange Filter: Chilly (Community)"
-						"show_market"	"0"
-					}
-					"14"
-					{
-						"item"		"Strange Filter: Cascade (Community)"
-						"show_market"	"0"
-					}
-					"15"
-					{
-						"item"		"Strange Filter: Altitude (Community)"
-						"show_market"	"0"
-					}
-					"16"
-					{
-						"item"		"Strange Filter: Doublefrost (Community)"
 						"show_market"	"0"
 					}
 				}

@@ -23,7 +23,7 @@
 		"color_blue"			"84 111 127 255"
 		"color_red"				"171 59 59 255"
 
-		"_disabled_hybrid"
+		"$_disabled_hybrid"
 		{
 			"zpos"			"-1"
 		}
@@ -49,12 +49,12 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
-		"xpos"			"c-60"	[_disabled_]
+		"xpos"			"c-60"	[$_disabled_]
 		"ypos"			"r28"	[$WIN32]
-		"ypos"			"r48"	[_disabled_]
+		"ypos"			"r48"	[$_disabled_]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
-		"wide"			"120"	[_disabled_]
+		"wide"			"120"	[$_disabled_]
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -65,17 +65,17 @@
 		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"
 		
-		"_disabled_hybrid"
+		"$_disabled_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"_disabled_mvm"
+		"$_disabled_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"_disabled_specialdelivery"
+		"$_disabled_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -86,31 +86,31 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
 		"xpos"			"c-75"	[$WIN32]
-		"xpos"			"c-70"	[_disabled_]
+		"xpos"			"c-70"	[$_disabled_]
 		"ypos"			"r31"	[$WIN32]
-		"ypos"			"r51"	[_disabled_]
+		"ypos"			"r51"	[$_disabled_]
 		"zpos"			"3"
 		"wide"			"150"	[$WIN32]
-		"wide"			"140"	[_disabled_]
+		"wide"			"140"	[$_disabled_]
 		"tall"			"38"	[$WIN32]
-		"tall"			"35"	[_disabled_]
+		"tall"			"35"	[$_disabled_]
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"image_disabled_"	"../hud/objectives_flagpanel_bg_playingto_disabled_"
+		"image$_disabled_"	"../hud/objectives_flagpanel_bg_playingto$_disabled_"
 		"scaleImage"	"1"	
 		
-		"_disabled_hybrid"
+		"$_disabled_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"_disabled_mvm"
+		"$_disabled_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"_disabled_specialdelivery"
+		"$_disabled_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -177,15 +177,15 @@
 			"zpos"			"11"
 			"wide"			"100"
 			"tall"			"35"
-			"tall_disabled_"	"100"
-			"tall_disabled_"	"75"
+			"tall$_disabled_"	"100"
+			"tall$_disabled_"	"75"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
 			"font"			"HudFontMediumBold"
-			"font_disabled_"	"HudFontGiant"
-			"font_disabled_"	"HudFontGiant"
+			"font$_disabled_"	"HudFontGiant"
+			"font$_disabled_"	"HudFontGiant"
 			"fgcolor"		"TanLight"	
 			"proportionalToParent"	"1"	
 		}	
@@ -199,15 +199,15 @@
 			"zpos"			"11"
 			"wide"			"100"
 			"tall"			"35"
-			"tall_disabled_"	"100"
-			"tall_disabled_"	"75"
+			"tall$_disabled_"	"100"
+			"tall$_disabled_"	"75"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
 			"font"			"HudFontMediumBold"
-			"font_disabled_"	"HudFontGiant"
-			"font_disabled_"	"HudFontGiant"
+			"font$_disabled_"	"HudFontGiant"
+			"font$_disabled_"	"HudFontGiant"
 			"fgcolor"		"Black"	
 			"proportionalToParent"	"1"	
 		}
@@ -572,8 +572,8 @@
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"font_disabled_"	"HudFontGiant"
-				"font_disabled_"	"HudFontGiant"
+				"font$_disabled_"	"HudFontGiant"
+				"font$_disabled_"	"HudFontGiant"
 				"fgcolor"		"TanLight"		
 				"proportionalToParent"	"1"
 			}	
@@ -592,8 +592,8 @@
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"font_disabled_"	"HudFontGiant"
-				"font_disabled_"	"HudFontGiant"
+				"font$_disabled_"	"HudFontGiant"
+				"font$_disabled_"	"HudFontGiant"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}
@@ -627,8 +627,8 @@
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"font_disabled_"	"HudFontGiant"
-				"font_disabled_"	"HudFontGiant"
+				"font$_disabled_"	"HudFontGiant"
+				"font$_disabled_"	"HudFontGiant"
 				"fgcolor"		"TanLight"	
 				"proportionalToParent"	"1"	
 			}	
@@ -647,8 +647,8 @@
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"font_disabled_"	"HudFontGiant"
-				"font_disabled_"	"HudFontGiant"
+				"font$_disabled_"	"HudFontGiant"
+				"font$_disabled_"	"HudFontGiant"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}

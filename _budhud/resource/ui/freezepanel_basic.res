@@ -9,25 +9,32 @@
 
     "FreezePanelBase"
     {
-        "FreezePanelBG"
-        {
-            "ControlName"                                           "ImagePanel"
-            "fillcolor"                                             "bh_MouseOverBG"
-            "image"                                                 ""
-        }
-
         "FreezeLabel"
         {
             "ypos"                                                  "r-6969"
-        "visible"                                                   "0"
-        "enabled"                                                   "0"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "FreezeLabelKiller"
         {
             "ypos"                                                  "r-6969"
-        "visible"                                                   "0"
-        "enabled"                                                   "0"
+            "visible"                                               "0"
+            "enabled"                                               "0"
+        }
+
+        "AvatarImage"
+        {
+            "ypos"                                                  "r-6969"
+            "wide"                                                  "0"
+            "tall"                                                  "0"
+        }
+
+        "NemesisSubPanel"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "FreezeLabelKiller2"
@@ -48,18 +55,11 @@
             "textAlignment"                                         "Left"
         }
 
-        "AvatarImage"
+        "FreezePanelBG"
         {
-            "ypos"                                                  "r-6969"
-            "wide"                                                  "0"
-            "tall"                                                  "0"
-        }
-
-        "NemesisSubPanel"
-        {
-            "ypos"                                                  "r-6969"
-            "visible"                                               "0"
-            "enabled"                                               "0"
+            "ControlName"                                           "ImagePanel"
+            "fillcolor"                                             "bh_MouseOverBG"
+            "image"                                                 ""
         }
     }
 

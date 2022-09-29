@@ -77,7 +77,7 @@
 		"enabled"		"1"
 		"tabPosition"	"1"
 		"labelText"		"&1"	[$WIN32]
-		"labelText"		""		[_disabled_]
+		"labelText"		""		[$_disabled_]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -103,7 +103,7 @@
 		"enabled"		"1"
 		"tabPosition"	"2"
 		"labelText"		"&2"	[$WIN32]
-		"labelText"		""		[_disabled_]
+		"labelText"		""		[$_disabled_]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -119,10 +119,10 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"r190"
-		"xpos_disabled_"			"r200"
+		"xpos$_disabled_"			"r200"
 		"ypos"			"r40"
-		"ypos_disabled_"			"r64"
-		"ypos_disabled_"			"r54"
+		"ypos$_disabled_"			"r64"
+		"ypos$_disabled_"			"r54"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -144,15 +144,15 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
 		"xpos"			"c-280" [$WIN32] 
-		"xpos"			"c-276" [_disabled_]
-		"xpos_disabled_"			"c-255"
-		"xpos_disabled_"			"c-260"
+		"xpos"			"c-276" [$_disabled_]
+		"xpos$_disabled_"			"c-255"
+		"xpos$_disabled_"			"c-260"
 		"ypos"			"55"
-		"ypos_disabled_"			"72"
-		"ypos_disabled_"			"65"
+		"ypos$_disabled_"			"72"
+		"ypos$_disabled_"			"65"
 		"zpos"			"1"
 		"wide"			"102" [$WIN32] 
-		"wide"			"94" [_disabled_]
+		"wide"			"94" [$_disabled_]
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -172,13 +172,13 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectate"
 		"xpos"			"c-112"
-		"xpos_disabled_"			"c-125"
-		"xpos_disabled_"			"c-109"
+		"xpos$_disabled_"			"c-125"
+		"xpos$_disabled_"			"c-109"
 		"ypos"			"255"
-		"ypos_disabled_"	"292"
+		"ypos$_disabled_"	"292"
 		"zpos"			"1"
 		"wide"			"44"
-		"wide_disabled_"	"70"
+		"wide$_disabled_"	"70"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -190,7 +190,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"MenuSmallestFont"
-		"font_disabled_"	"MenuSmallFont"
+		"font$_disabled_"	"MenuSmallFont"
 		"fgcolor"		"white"
 	}
 
@@ -217,8 +217,8 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_disabled_" "305"
-			"origin_x_disabled_" "320"
+			"origin_x$_disabled_" "305"
+			"origin_x$_disabled_" "320"
 			"origin_y" "0"
 			"origin_z" "-34"
 		}
@@ -232,13 +232,13 @@
 		"fieldName"		"ShadedBar"
 		"xpos"			"0"
 		"ypos"			"r50"
-		"ypos_disabled_"			"r74"
-		"ypos_disabled_"			"r65"
+		"ypos$_disabled_"			"r74"
+		"ypos$_disabled_"			"r65"
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"50"
-		"tall_disabled_"			"74"
-		"tall_disabled_"			"65"
+		"tall$_disabled_"			"74"
+		"tall$_disabled_"			"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -271,8 +271,8 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_disabled_" "320"
-			"origin_x_disabled_" "305"
+			"origin_x$_disabled_" "320"
+			"origin_x$_disabled_" "305"
 			"origin_y" "0"
 			"origin_z" "-34"
 			
@@ -320,8 +320,8 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_disabled_" "320"
-			"origin_x_disabled_" "305"
+			"origin_x$_disabled_" "320"
+			"origin_x$_disabled_" "305"
 			"origin_y" "0"
 			"origin_z" "-34"
 			
@@ -346,26 +346,26 @@
 		}
 	}			
 	
-	"Footer" [_disabled_]
+	"Footer" [$_disabled_]
 	{
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"
 		"zpos"				"6"
 		"tall"				"80"
 		"button_separator"	"10"
-		"button_separator_disabled_"	"5"
+		"button_separator$_disabled_"	"5"
 		"buttongap"			"50"
-		"buttongap_disabled_"		"35"
-		"buttongap_disabled_"			"18"
+		"buttongap$_disabled_"		"35"
+		"buttongap$_disabled_"			"18"
 		"textadjust"		"3"
-		"textadjust_disabled_"		"0"
+		"textadjust$_disabled_"		"0"
 		"buttonoffsety"		"20"
-		"buttonoffsety_disabled_"		"0"
-		"buttonoffsety_disabled_"		"18"
+		"buttonoffsety$_disabled_"		"0"
+		"buttonoffsety$_disabled_"		"18"
 		"center"			"0"
-		"button_pin_right_disabled_"	"55"
+		"button_pin_right$_disabled_"	"55"
 		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fonttext_disabled_"			"MatchmakingDialogMenuSmall"
+		"fonttext$_disabled_"			"MatchmakingDialogMenuSmall"
 		"fgcolor"			"HudOffWhite" 	
 		
 		"button"

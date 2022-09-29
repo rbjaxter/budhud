@@ -130,7 +130,7 @@
 	}
 }
 
-"Resource/NewGameDialog.res"	[_disabled_]
+"Resource/NewGameDialog.res"	[$_disabled_]
 {
 	"NewGameDialog"
 	{

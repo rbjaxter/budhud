@@ -6,7 +6,7 @@
 	{
 		"RankModel"
 		{
-			_disabled_mini
+			$_disabled_mini
 			{
 				"xpos"		"cs-0.5-120"
 			}
@@ -22,7 +22,7 @@
 
 	"BGPanel"
 	{
-		_disabled_mini
+		$_disabled_mini
 		{
 			"wide"			"270"
 			"tall"			"60"
@@ -30,7 +30,7 @@
 
 		"PlacementLabel"
 		{
-			_disabled_mini
+			$_disabled_mini
 			{
 				"ypos"			"17"
 			}
@@ -38,7 +38,7 @@
 
 		"DescLine1"
 		{
-			_disabled_mini
+			$_disabled_mini
 			{
 				"xpos"			"cs-0.5"
 				"ypos"			"35"
@@ -58,7 +58,7 @@
 		{
 			"visible"		"1"
 
-			_disabled_mini
+			$_disabled_mini
 			{
 				"xpos"	"cs-0.5"
 				"ypos"	"25"
@@ -73,7 +73,7 @@
 				{
 					"visible"		"1"
 
-					_disabled_mini
+					$_disabled_mini
 					{
 						"xpos"			"cs-0.5"
 						"textAlignment"	"center"

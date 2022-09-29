@@ -167,10 +167,10 @@
 			"scaleImage"	"1"
 		}
 
-		"ToorLootTitle"
+		"TourLootTitle"
 		{
 			"ControlName"	"Label"
-			"fieldName"		"ToorLootTitle"
+			"fieldName"		"TourLootTitle"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_MvM_TourLootTitle"
 			"textAlignment"	"west"
@@ -181,10 +181,10 @@
 			"tall"			"30"
 		}
 
-		"ToorLootDetailLabel"
+		"TourLootDetailLabel"
 		{
 			"ControlName"	"Label"
-			"fieldName"		"ToorLootDetailLabel"
+			"fieldName"		"TourLootDetailLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"%tour_loot_detail%"
 			"textAlignment"	"west"
@@ -193,7 +193,7 @@
 			"ypos"			"30"
 			"zpos"			"0"
 			"wide"			"280"
-			"tall"			"50"
+			"tall"			"85"
 		}
 	}
 

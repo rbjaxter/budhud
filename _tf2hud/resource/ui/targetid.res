@@ -17,9 +17,9 @@
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_disabled_"	"../hud/color_panel_red"
+		"teambg_2$_disabled_"	"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_disabled_"	"../hud/color_panel_blu"
+		"teambg_3$_disabled_"	"../hud/color_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -41,7 +41,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
-		"image_disabled_"	"../hud/color_panel_blu"
+		"image$_disabled_"	"../hud/color_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -63,7 +63,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
-		"image_disabled_"	"../hud/color_panel_red"
+		"image$_disabled_"	"../hud/color_panel_red"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -77,11 +77,11 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"HudFontSmall"
-		"font_disabled_"	"TFFontLarge"
+		"font$_disabled_"	"TFFontLarge"
 		"xpos"			"8"
-		"xpos_disabled_"	"30"
+		"xpos$_disabled_"	"30"
 		"ypos"			"5"
-		"ypos_disabled_"	"5"
+		"ypos$_disabled_"	"5"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
@@ -99,13 +99,13 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"FontStoreOriginalPrice"
-		"font_disabled_"	"DefaultVerySmall"
+		"font$_disabled_"	"DefaultVerySmall"
 		"xpos"			"8"
-		"xpos_disabled_"	"30"
+		"xpos$_disabled_"	"30"
 		"ypos"			"17"	[$WIN32]
-		"ypos_disabled_"	"12"	[$WIN32]
-		"ypos"			"22"	[_disabled_]
-		"ypos_disabled_"		"25"	[_disabled_]
+		"ypos$_disabled_"	"12"	[$WIN32]
+		"ypos"			"22"	[$_disabled_]
+		"ypos$_disabled_"		"25"	[$_disabled_]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
@@ -123,9 +123,9 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"3"
-		"xpos_disabled_"	"0"
+		"xpos$_disabled_"	"0"
 		"ypos"			"2"
-		"ypos_disabled_"	"0"
+		"ypos$_disabled_"	"0"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"0"
@@ -142,9 +142,9 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
 		"xpos"			"40"
-		"xpos_disabled_"	"38"
+		"xpos$_disabled_"	"38"
 		"ypos"			"20"
-		"ypos_disabled_"	"16"
+		"ypos$_disabled_"	"16"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -159,9 +159,9 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"10"
-		"xpos_disabled_"	"30"
+		"xpos$_disabled_"	"30"
 		"ypos"			"20"
-		"ypos_disabled_"	"16"
+		"ypos$_disabled_"	"16"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -235,7 +235,7 @@
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"TFFontMedium"
-			"font_disabled_"	"DefaultVerySmall"
+			"font$_disabled_"	"DefaultVerySmall"
 			"xpos"			"0"
 			"ypos"			"22"
 			"zpos"			"1"
@@ -256,9 +256,9 @@
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
 		"xpos"			"6"
-		"xpos_disabled_"	"6"
+		"xpos$_disabled_"	"6"
 		"ypos"			"6"	[$WIN32]
-		"ypos"			"0"	[_disabled_]
+		"ypos"			"0"	[$_disabled_]
 		"zpos"			"99"
 		"wide"			"11"
 		"tall"			"11"

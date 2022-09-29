@@ -4,8 +4,8 @@
 
     event CompetitiveGame_ShowPvPRankPanel
     {
-        Animate             RankPanel                           ypos                        -80                         Linear 0 0
-        Animate             ModelContainer                      ypos                        r150                        Linear 0 0
+        Animate             RankPanel                           ypos                        r100                         Linear 0 0
+        Animate             ModelContainer                      ypos                        r80                        Linear 0 0
         RunEventChild       RankPanel                           PvPRankPanelShowXPChange    0
     }
 
@@ -37,6 +37,8 @@
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // New item notification animations
+    // The animation is moved to the loop so we can try forcing the alpha to 255 first
+    // My hope is that this will prevent those instances where you get a new item but can't see the notif
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     event HasNotificationsBlink
     {
@@ -49,14 +51,15 @@
         //Animate         Notifications_ShowButtonPanel_SB                             fgcolor                     bh_rainbowcolor6            Linear 1.2 0.1
         //Animate         Notifications_ShowButtonPanel_SB                             fgcolor                     bh_rainbowcolor7            Linear 1.4 0.1
 
-        Animate             Notifications_ShowButtonPanel_SB    alpha                       255                         Linear 0.0 0.4
-        Animate             Notifications_ShowButtonPanel_SB    alpha                       0                           Linear 0.4 0.4
-        RunEvent            HasNotificationsBlinkLoop                                       1.2
+        Animate             Notifications_ShowButtonPanel_SB    alpha                       255                         Linear 0.0 0.0
+        RunEvent            HasNotificationsBlinkLoop           0.0
     }
 
     event HasNotificationsBlinkLoop
     {
-        RunEvent            HasNotificationsBlink                                           0.0
+        Animate             Notifications_ShowButtonPanel_SB    alpha                       255                         Spline 0.0 0.4
+        Animate             Notifications_ShowButtonPanel_SB    alpha                       0                           Spline 0.4 0.4
+        RunEvent            HasNotificationsBlinkLoop                                       1.2
     }
 
     event HasNotificationsBlinkStop
@@ -68,23 +71,26 @@
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // New notification animations
+    // This one appears in the backpack
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     event NotificationsPresentBlink
     {
-        Animate             NotificationsPresentPanel           alpha                       255                         Spline 0.0 0.4
-        Animate             NotificationsPresentPanel           alpha                       0                           Linear 0.4 0.8
+        Animate             NotificationsPresentPanel           alpha                       255                         Linear 0.0 0.0
 
-        RunEvent            NotificationsPresentBlinkLoop                                   1.2
+        RunEvent            NotificationsPresentBlinkLoop                                   0.0
     }
 
     event NotificationsPresentBlinkLoop
     {
-        RunEvent            NotificationsPresentBlink                                       0.0
+        Animate             NotificationsPresentPanel           alpha                       255                         Spline 0.0 0.4
+        Animate             NotificationsPresentPanel           alpha                       0                           Spline 0.4 0.4
+
+        RunEvent            NotificationsPresentBlinkLoop                                   1.2
     }
 
     event NotificationsPresentBlinkStop
     {
         StopEvent           NotificationsPresentBlink                                       0.0
         StopEvent           NotificationsPresentBlinkLoop                                   0.0
-        Animate             NotificationsPresentPanel           alpha                       255                         Linear 0.0 0.1
+        Animate             NotificationsPresentPanel           alpha                       255                         Linear 0.0 0.0
     }

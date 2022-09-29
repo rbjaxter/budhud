@@ -331,7 +331,7 @@ Scheme
         // Saving for future consideration
         "MenuBoxBg"                                                 "0 0 0 100"
 
-        // weapon selection colors
+        // Weapon Selection Colors
         "SelectionNumberFg"                                         "255 255 255 255"
         "SelectionTextFg"                                           "255 255 255 255"
         "SelectionEmptyBoxBg"                                       "0 0 0 80"
@@ -343,8 +343,14 @@ Scheme
         "HintMessageFg"                                             "255 255 255 255"
         "HintMessageBg"                                             "000 000 000 060"
 
-        "FgColor"                                                   "255 255 255 255"       // Controls color of HudHintKeyDisplay (surf/jump timer)
-        "BgColor"                                                   "000 000 000 060"       // Does nothing
+        // Controls color of HudHintKeyDisplay (surf/jump timer)
+        "FgColor"                                                   "255 255 255 255"
+
+        // Vote menu (center left)
+        // CHudMenu
+        "ItemColor"                                                 "255 255 255 255"
+        "MenuColor"                                                 "255 255 255 255"
+        "MenuBoxBg"                                                 "000 000 000 100"
 
         // vgui_controls color specifications
         ReplayBrowser.Details.TitleEdit.Carat.FgColor               "bh_Theme_TextAccent"
@@ -358,6 +364,9 @@ Scheme
         Econ.Button.DepressedFgColor                                "bh_ButtonDepressed"
 
         // Loadout presets
+        Econ.Button.PresetDefaultColorFg                            "bh_Theme_TextSecondary"
+        Econ.Button.PresetArmedColorFg                              "bh_Theme_TextSecondary"
+        Econ.Button.PresetDepressedColorFg                          "bh_Theme_TextSecondary"
         Econ.Button.PresetDefaultColorBg                            "150 150 150 255"
         Econ.Button.PresetArmedColorBg                              "50 50 50 255"
         Econ.Button.PresetDepressedColorBg                          "25 25 25 255"
@@ -380,11 +389,5 @@ Scheme
         CheckButton.Border2                                         "bh_white"          // Right
         CheckButton.Check                                           "bh_black"          // Color of the check itself
         CheckButton.HighlightFgColor                                "bh_white"
-
-        // Vote menu (center left)
-        // CHudMenu
-        "ItemColor"                                                 "255 255 255 255"
-        "MenuColor"                                                 "255 255 255 255"
-        "MenuBoxBg"                                                 "000 000 000 100"
     }
 }

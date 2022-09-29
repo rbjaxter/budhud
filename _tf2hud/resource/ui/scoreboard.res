@@ -39,7 +39,7 @@
 		"image"			"../hud/score_panel_blue_bg_solid"
 		"scaleImage"		"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -58,7 +58,7 @@
 		"image"			"../hud/team_blue"
 		"scaleImage"		"1"
 
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -106,7 +106,7 @@
 		"image"			"../hud/score_panel_red_bg_solid"
 		"scaleImage"		"1"
 
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -126,7 +126,7 @@
 		"image"			"../hud/team_red"
 		"scaleImage"		"1"
 
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -174,7 +174,7 @@
 		"enabled"		"1"
 		"border"		"TFThinLineBorder"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"ypos"			"0"
 			"tall"			"448"
@@ -197,7 +197,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -219,7 +219,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -242,7 +242,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -263,7 +263,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -285,7 +285,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -307,7 +307,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -330,7 +330,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -351,7 +351,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -364,9 +364,9 @@
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"			"11"
-		"xpos_disabled_"	"31"
+		"xpos$_disabled_"	"31"
 		"ypos"			"60"
-		"ypos_disabled_"	"62"
+		"ypos$_disabled_"	"62"
 		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -374,7 +374,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"ypos"			"0"
 			"visible"		"1"
@@ -395,7 +395,7 @@
 		"enabled"		"1"
 		"border"		"TFThinLineBorder"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -415,7 +415,7 @@
 		"enabled"		"1"
 		"border"		"TFFatLineBorderOpaque"
 
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -437,7 +437,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -461,7 +461,7 @@
 		"fgcolor"		"BrightYellow"
 		"centerwrap"	"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -482,7 +482,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"ypos"			"0"
 			"visible"		"1"
@@ -507,7 +507,7 @@
 		"fgcolor"		"blue"
 		//"show_columns"	"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -531,7 +531,7 @@
 		"fgcolor"		"red"
 		//"show_columns"	"1"
 
- 		_disabled_mvm
+ 		$_disabled_mvm
  		{
  			"visible"		"0"
  		}
@@ -553,7 +553,7 @@
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -575,7 +575,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"ypos"		"428"
 		}
@@ -597,7 +597,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -619,7 +619,7 @@
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"1"
 		}
@@ -629,7 +629,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ClassImage"
 		"xpos"			"22"
-		"xpos_disabled_"	"12"
+		"xpos$_disabled_"	"12"
 		"ypos"			"350"
 		"zpos"			"3"
 		"wide"			"92"
@@ -639,7 +639,7 @@
 		"image"			"../hud/class_scoutred"
 		"scaleImage"		"1"	
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"1"
 		}
@@ -665,7 +665,7 @@
 
 		"disable_speak_event"	"1"
 
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -800,7 +800,7 @@
 		"enabled"		"1"
 		"border"		"TFThinLineBorder"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -822,7 +822,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"1"
 			"wide"			"175"
@@ -845,7 +845,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -868,7 +868,7 @@
 		"enabled"		"1"
 		"fgcolor"		"236 227 203 255"
 
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -890,7 +890,7 @@
 		"fillcolor"		"127 127 127 153"
 		"PaintBackgroundType"	"0"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"1"
 		}
@@ -912,7 +912,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -932,7 +932,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"0"
 		}
@@ -1143,7 +1143,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"1"
 		}
@@ -1713,7 +1713,7 @@
 		}
 	}
 
-	"ButtonLegendBG"		[_disabled_]
+	"ButtonLegendBG"		[$_disabled_]
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ButtonLegendBG"
@@ -1731,7 +1731,7 @@
 		"PaintBackgroundType"	"0"
 	}
 	
-	"ButtonLegend"		[_disabled_]
+	"ButtonLegend"		[$_disabled_]
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ButtonLegend"
@@ -1877,7 +1877,7 @@
 		
 		"verbose"			"1"
 		
-		_disabled_mvm
+		$_disabled_mvm
 		{
 			"visible"		"1"
 		}

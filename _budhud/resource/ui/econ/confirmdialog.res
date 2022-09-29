@@ -13,7 +13,7 @@
         "ControlName"                                               "Frame"
         "fieldName"                                                 "ConfirmDialog"
         "xpos"                                                      "c-162"
-        "ypos"                                                      "1"
+        "ypos"                                                      "c-70"     // Delete item confirmation UI is affected by this value
         "zpos"                                                      "0"
         "wide"                                                      "324"
         "tall"                                                      "200"

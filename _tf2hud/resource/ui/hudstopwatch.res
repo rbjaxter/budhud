@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"
 
-		_disabled_comp
+		$_disabled_comp
 		{
 			"ypos"	"20"
 		}
@@ -44,7 +44,7 @@
 		//"teambg_2"		"../hud/objectives_timepanel_red_bg"
 		//"teambg_3"		"../hud/objectives_timepanel_blue_bg"		
 
-		_disabled_comp
+		$_disabled_comp
 		{
 			"ypos"	"27"
 		}
@@ -62,7 +62,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 
-		_disabled_comp
+		$_disabled_comp
 		{
 			"ypos"	"11"
 		}
@@ -72,20 +72,20 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmall"
-			"font_disabled_"		"HudFontMediumSmall"
-			"font_disabled_"		"HudFontMedium"
+			"font$_disabled_"		"HudFontMediumSmall"
+			"font$_disabled_"		"HudFontMedium"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
-			"xpos_disabled_"		"23"
-			"xpos_disabled_"		"114"
-			"xpos_disabled_"		"114"
+			"xpos$_disabled_"		"23"
+			"xpos$_disabled_"		"114"
+			"xpos$_disabled_"		"114"
 			"ypos"			"11"
-			"ypos_disabled_"		"11"
-			"ypos_disabled_"		"15"
-			"ypos_disabled_"		"18"
+			"ypos$_disabled_"		"11"
+			"ypos$_disabled_"		"15"
+			"ypos$_disabled_"		"18"
 			"zpos"			"3"
 			"wide"			"45"
-			"wide_disabled_"		"45"
+			"wide$_disabled_"		"45"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
@@ -110,7 +110,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 
-		_disabled_comp
+		$_disabled_comp
 		{
 			"ypos"	"21"
 		}
@@ -133,7 +133,7 @@
 		"enabled"		"1"
 		"wrap"			"0"
 
-		_disabled_comp
+		$_disabled_comp
 		{
 			"ypos"	"24"
 		}
@@ -157,7 +157,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 
-		_disabled_comp
+		$_disabled_comp
 		{
 			"ypos"	"20"
 		}
@@ -185,7 +185,7 @@
 		"draw_corner_width"	"2"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"2"	
 
-		_disabled_comp
+		$_disabled_comp
 		{
 			"ypos"	"42"
 		}
@@ -209,7 +209,7 @@
 		"enabled"		"1"
 		"wrap"			"0"
 
-		_disabled_comp
+		$_disabled_comp
 		{
 			"ypos"	"38"
 		}
