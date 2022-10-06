@@ -1,6 +1,7 @@
 # budhud HUD Updater and Error Checker
 # Made by Whisker to learn PS with MAJOR assistance from sheybey & Revan
 # (9/2/21) Modified by sheybey to remove dependencies
+# (10/6/22) HUD compiler created by Lange
 
 ##########################
 ##########################
@@ -153,7 +154,6 @@ function Check_TF2
     }
 }
 
-
 ##############################
 # Check_UpdateFiles_DefaultHUD
 ##############################
@@ -249,7 +249,7 @@ function Check_Shared
         Write-Host ""
 
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
-        Write-Host -foregroundcolor "White" "Verify that there are not two `budhud-master` folders inside of each other"
+        Write-Host -foregroundcolor "White" "Verify that there are not two budhud-master folders inside of each other"
         Write-Host -foregroundcolor "Red" "WRONG: ..\tf\custom\budhud-master\budhud-master\"
         Write-Host -foregroundcolor "Green" "RIGHT: ..\tf\custom\budhud-master\"
         Write-Host ""
@@ -347,27 +347,9 @@ function Check_Shared
 #######################
 
 ######################
-# Pass_ValidateInstall
+# Run_ValidateInstall
 ######################
-function Pass_ValidateInstall
-{
-    Write-Host ""
-    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "====================="
-    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Install Checks Passed"
-    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "====================="
-    Write-Host -foregroundcolor "White" "No common issues with installation detected."
-    Write-Host -foregroundcolor "White" "If you continue to have problems, post in our Discord for additional help:"
-    Write-Host -foregroundcolor "White" "https://discord.gg/TkxNKU2"
-    Write-Host ""
-
-    Write-Host ""
-    Write-Host ""
-}
-
-#######################
-# Check_ValidateInstall
-#######################
-function Check_ValidateInstall
+function Run_ValidateInstall
 {
     Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "====================="
@@ -388,15 +370,35 @@ function Check_ValidateInstall
 
     Else
     {
-        Pass_ValidateInstall
+		Write-Host ""
+		Write-Host -foregroundcolor "White" -backgroundcolor "Green" "====================="
+		Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Install Checks Passed"
+		Write-Host -foregroundcolor "White" -backgroundcolor "Green" "====================="
+		Write-Host -foregroundcolor "White" "No common issues with installation detected."
+		Write-Host -foregroundcolor "White" "If you continue to have problems, post in our Discord for additional help:"
+		Write-Host -foregroundcolor "White" "https://discord.gg/TkxNKU2"
+		Write-Host ""
+		Write-Host ""
     }
 }
 
 ########################
-# Pass_ExtractDefaultHUD
+# Run_ExtractDefaultHUD
 ########################
-function Pass_ExtractDefaultHUD
+function Run_ExtractDefaultHUD
 {
+    Clear-Host
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==================="
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Extract Default HUD"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==================="
+    Write-Host ""
+    Write-Host ""
+
+    # Perform all Checks
+    Check_TF2
+    Check_Shared
+    Check_UpdateFiles_DefaultHUD
+
     Write-Host ""
     Write-Host ""
 
@@ -494,82 +496,20 @@ function Pass_ExtractDefaultHUD
     Write-Host ""
 }
 
-#########################
-# Check_ExtractDefaultHUD
-#########################
-function Check_ExtractDefaultHUD
-{
-    Clear-Host
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Checking For Files"
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
-    Write-Host ""
-    Write-Host ""
-
-    # Perform all Checks
-    Check_TF2
-    Check_Shared
-    Check_UpdateFiles_DefaultHUD
-
-    # Pass
-    Pass_ExtractDefaultHUD
-}
-
-#######################
-# Pass_UpdateFromGithub
-#######################
-function Pass_UpdateFromGithub
-{
-    # Load zipfile support
-    Add-Type -Assembly System.IO.Compression
-    Add-Type -Assembly System.IO.Compression.FileSystem
-
-    Write-Host -foregroundcolor "White" -NoNewLine "Downloading files from GitHub..."
-    $zip = [System.IO.Compression.ZipArchive]::new(
-        [System.IO.MemoryStream]::new(
-            (Invoke-WebRequest https://github.com/rbjaxter/budhud/archive/master.zip).Content),
-        [System.IO.Compression.ZipArchiveMode]::Read)
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
-
-    Write-Host -foregroundcolor "White" -NoNewLine "Unzipping files..."
-    [System.IO.Compression.ZipFileExtensions]::ExtractToDirectory($zip, ".")
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
-    $zip.Dispose()
-    Remove-Variable "zip"
-
-    Write-Host -foregroundcolor "White" -NoNewLine "Moving folders and files out of extracted zip..."
-    Copy-Item -Path .\budhud-master\* -Destination $PSScriptRoot -Force -Recurse
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
-
-    Write-Host -foregroundcolor "White" -NoNewLine "Removing folders and files used in the process.."
-    Remove-Item ".\budhud-master" -ErrorAction SilentlyContinue -Recurse
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
-
-    Write-Host ""
-    Write-Host ""
-
-    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
-    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Task Complete"
-    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
-    Write-Host -foregroundcolor "White" "Latest hud files from GitHub have been downloaded and extracted."
-    Write-Host ""
-    Write-Host ""
-}
-
 ########################
-# Check_UpdateFromGithub
+# Run_UpdateFromGitHub
 ########################
-function Check_UpdateFromGithub
+function Run_UpdateFromGitHub
 {
     Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Update from Github"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
-    Write-Host -foregroundcolor "White" ""
+
     Write-Host ""
     Write-Host ""
 
-    # Perform all Checks
+    # Perform all necessary checks
     Check_TF2
     Check_UpdateFiles_Github
 
@@ -602,7 +542,40 @@ function Check_UpdateFromGithub
     {
         "r-6969"
         {
-            Pass_UpdateFromGithub
+			# Load zipfile support
+			Add-Type -Assembly System.IO.Compression
+			Add-Type -Assembly System.IO.Compression.FileSystem
+		
+			Write-Host -foregroundcolor "White" -NoNewLine "Downloading files from GitHub..."
+			$zip = [System.IO.Compression.ZipArchive]::new(
+				[System.IO.MemoryStream]::new(
+					(Invoke-WebRequest https://github.com/rbjaxter/budhud/archive/master.zip).Content),
+				[System.IO.Compression.ZipArchiveMode]::Read)
+			Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+		
+			Write-Host -foregroundcolor "White" -NoNewLine "Unzipping files..."
+			[System.IO.Compression.ZipFileExtensions]::ExtractToDirectory($zip, ".")
+			Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+			$zip.Dispose()
+			Remove-Variable "zip"
+		
+			Write-Host -foregroundcolor "White" -NoNewLine "Moving folders and files out of extracted zip..."
+			Copy-Item -Path .\budhud-master\* -Destination $PSScriptRoot -Force -Recurse
+			Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+		
+			Write-Host -foregroundcolor "White" -NoNewLine "Removing folders and files used in the process.."
+			Remove-Item ".\budhud-master" -ErrorAction SilentlyContinue -Recurse
+			Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+		
+			Write-Host ""
+			Write-Host ""
+		
+			Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
+			Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Task Complete"
+			Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
+			Write-Host -foregroundcolor "White" "Latest hud files from GitHub have been downloaded and extracted."
+			Write-Host ""
+			Write-Host ""
         }
 
         "anything else"
@@ -616,107 +589,143 @@ function Check_UpdateFromGithub
 }
 
 ########################
-# Check_SetHUDLanguage
+# Run_SetHUDLanguage
 ########################
-function Check_SetHUDLanguage
+function Run_SetHUDLanguage
 {
     Clear-Host
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================"
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Set HUD Language"
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================"
-    Write-Host -foregroundcolor "White" ""
-    Write-Host ""
-
-    Write-Host "Brazilian"
-    Write-Host "English"
-    Write-Host "French"
-    Write-Host "German"
-    Write-Host "Italian"
-    Write-Host "Norwegian"
-    Write-Host "Romanian"
-    Write-Host "Russian"
-    Write-Host "Simplified Chinese"
-    Write-Host "Spanish"
-    Write-Host "Traditional Chinese"
-
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "============================="
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Checking for chat_default.txt"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "============================="
     Write-Host ""
     Write-Host ""
 
-    $selection = Read-Host "Please type the language you'd like to use"
+	# Check for chat_default.txt file
+	$chat_default = Maybe_Path $budhud "resource\chat_default.txt"
 
-    switch ($selection)
+    If
+    (
+        ![String]::IsNullOrEmpty($chat_default)
+    )
+
     {
-        "Brazilian"
-        {
-            Copy-Item "$PSScriptRoot\resource\chat_brazilian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Pass_SetLanguage
-        }
-
-        "English"
-        {
-            Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Pass_SetLanguage
-        }
-
-        "French"
-        {
-            Copy-Item "$PSScriptRoot\resource\chat_french.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Pass_SetLanguage
-        }
-
-        "German"
-        {
-            Copy-Item "$PSScriptRoot\resource\chat_german.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Pass_SetLanguage
-        }
-
-        "Italian"
-        {
-            Copy-Item "$PSScriptRoot\resource\chat_italian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Pass_SetLanguage
-        }
-
-        "Norwegian"
-        {
-            Copy-Item "$PSScriptRoot\resource\chat_norwegian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Pass_SetLanguage
-        }
-
-        "Romanian"
-        {
-            Copy-Item "$PSScriptRoot\resource\chat_romanian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Pass_SetLanguage
-        }
-
-        "Russian"
-        {
-            Copy-Item "$PSScriptRoot\resource\chat_russian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Pass_SetLanguage
-        }
-
-        "Simplified Chinese"
-        {
-            Copy-Item "$PSScriptRoot\resource\chat_schinese.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Pass_SetLanguage
-        }
-
-        "Spanish"
-        {
-            Copy-Item "$PSScriptRoot\resource\chat_spanish.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Pass_SetLanguage
-        }
-
-        "Traditional Chinese"
-        {
-            Copy-Item "$PSScriptRoot\resource\chat_tchinese.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Pass_SetLanguage
-        }
+        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
     }
+
+    Else
+    {
+        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate chat_default.txt"
+        Write-Host ""
+
+        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
+        Write-Host -foregroundcolor "White" "An important chat file appears to be missing"
+        Write-Host ""
+
+        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
+        Write-Host -foregroundcolor "White" "Please ensure you have all of the chat_ language files located in budhud\resource before proceeding"
+        Write-Host -foregroundcolor "White" "chat_default.txt, chat_english.txt, etc"
+        Write-Host ""
+        Break
+	}
+
+	Clear-Host
+	Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================"
+	Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Set HUD Language"
+	Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================"
+	
+	Write-Host ""
+	Write-Host ""
+	
+	Write-Host "Brazilian"
+	Write-Host "English"
+	Write-Host "French"
+	Write-Host "German"
+	Write-Host "Italian"
+	Write-Host "Norwegian"
+	Write-Host "Romanian"
+	Write-Host "Russian"
+	Write-Host "Simplified Chinese"
+	Write-Host "Spanish"
+	Write-Host "Traditional Chinese"
+	
+	Write-Host ""
+	Write-Host ""
+	
+	$selection = Read-Host "Please type the language you'd like to use"
+	
+	switch ($selection)
+	{
+		"Brazilian"
+		{
+			Copy-Item "$PSScriptRoot\resource\chat_brazilian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+			Complete_SetLanguage
+		}
+	
+		"English"
+		{
+			Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+			Complete_SetLanguage
+		}
+	
+		"French"
+		{
+			Copy-Item "$PSScriptRoot\resource\chat_french.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+			Complete_SetLanguage
+		}
+	
+		"German"
+		{
+			Copy-Item "$PSScriptRoot\resource\chat_german.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+			Complete_SetLanguage
+		}
+	
+		"Italian"
+		{
+			Copy-Item "$PSScriptRoot\resource\chat_italian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+			Complete_SetLanguage
+		}
+	
+		"Norwegian"
+		{
+			Copy-Item "$PSScriptRoot\resource\chat_norwegian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+			Complete_SetLanguage
+		}
+	
+		"Romanian"
+		{
+			Copy-Item "$PSScriptRoot\resource\chat_romanian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+			Complete_SetLanguage
+		}
+	
+		"Russian"
+		{
+			Copy-Item "$PSScriptRoot\resource\chat_russian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+			Complete_SetLanguage
+		}
+	
+		"Simplified Chinese"
+		{
+			Copy-Item "$PSScriptRoot\resource\chat_schinese.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+			Complete_SetLanguage
+		}
+	
+		"Spanish"
+		{
+			Copy-Item "$PSScriptRoot\resource\chat_spanish.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+			Complete_SetLanguage
+		}
+	
+		"Traditional Chinese"
+		{
+			Copy-Item "$PSScriptRoot\resource\chat_tchinese.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+			Complete_SetLanguage
+		}
+	}
 }
 ########################
-# Pass_SetLanguage
+# Complete_SetLanguage
 ########################
-function Pass_SetLanguage
+function Complete_SetLanguage
 {
     Write-Host ""
     Write-Host ""
@@ -730,57 +739,76 @@ function Pass_SetLanguage
 }
 
 ########################
-# Check_HUDCompiler
+# Run_HUDCompiler
 ########################
-#function Check_HUDCompiler
-#{
-#    Clear-Host
-#    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "========================="
-#    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "HUD Compiler, by a friend"
-#    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "========================="
-#    Write-Host -foregroundcolor "White" ""
-#    Write-Host ""
-#
-## Remove existing compiled output
-#Remove-Item -LiteralPath "resource_compiled" -Force -Recurse -ErrorAction Ignore
-#Remove-Item -LiteralPath "scripts_compiled" -Force -Recurse -ErrorAction Ignore
-#
-## Process all *.res files in the resource folder
-#Get-ChildItem -Path resource -Filter *.res -Recurse -File -Name| ForEach-Object {
-#    # Get the directory of the file to output
-#    $outputPath = Split-Path -Path "resource_compiled/$_"
-#
-#    # Make the full path (including all intermediate directories) if they don't exist
-#    mkdir $outputPath -ea 0  > $null
-#
-#    Write-Output "Compiling $_"
-#
-#    # Run the compiler on the file
-#    .\budhud-compiler.exe -s -i "resource/$_" -o "resource_compiled/$_"
-#
-#    if ($lastexitcode -ne 0) {
-#        Read-Host -Prompt "Compilation failed, press Enter to exit"
-#        exit
-#    }
-#}
-#
-## Process the two files in the scripts folder that need it
-#mkdir "scripts_compiled" -ea 0  > $null
-#Write-Output "Compiling scripts/hudlayout.res"
-#.\budhud-compiler.exe -s -i "scripts/hudlayout.res" -o "scripts_compiled/hudlayout.res"
-#if ($lastexitcode -ne 0) {
-#    Read-Host -Prompt "Compilation failed, press Enter to exit"
-#    exit
-#}
-#Write-Output "Compiling scripts/mod_textures.res"
-#.\budhud-compiler.exe -s -i "scripts/mod_textures.txt" -o "scripts_compiled/mod_textures.txt"
-#if ($lastexitcode -ne 0) {
-#    Read-Host -Prompt "Compilation failed, press Enter to exit"
-#    exit
-#}
-#
-#Read-Host -Prompt "Compilation complete, press Enter to exit"
-#}
+function Run_HUDCompiler
+{
+    Clear-Host
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "========================="
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "HUD Compiler, by a friend"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "========================="
+    Write-Host -foregroundcolor "White" ""
+    Write-Host ""
+
+# Remove existing compiled output
+Remove-Item -LiteralPath "resource_compiled" -Force -Recurse -ErrorAction Ignore
+Remove-Item -LiteralPath "scripts_compiled" -Force -Recurse -ErrorAction Ignore
+
+# Process all files in the resource folder
+Get-ChildItem -Path resource -Recurse -File -Name| ForEach-Object {
+    # Get the directory of the file to output
+    $outputDir = Split-Path -Path "resource_compiled/$_"
+
+    # Make the full path (including all intermediate directories) if they don't exist
+    mkdir $outputDir -ea 0  > $null
+
+    # If the file is a .res file, compile it. Else, copy it.
+    $extn = [IO.Path]::GetExtension($_)
+    if ($extn -eq ".res") {
+        Write-Output "Compiling resource\$_"
+
+        # Run the compiler on the file
+        .\budhud-compiler.exe -s -i "resource/$_" -o "resource_compiled/$_"
+
+        if ($lastexitcode -ne 0) {
+            Read-Host -Prompt "Compilation failed, press Enter to exit"
+            exit
+        }
+    } else {
+        Write-Output "Copying resource\$_"
+
+        Copy-Item "resource/$_" -Destination "resource_compiled/$_"
+    }
+}
+
+# Process all files in the scripts folder
+Get-ChildItem -Path scripts -Recurse -File -Name| ForEach-Object {
+    # Get the directory of the file to output
+    $outputDir = Split-Path -Path "scripts_compiled/$_"
+
+    # Make the full path (including all intermediate directories) if they don't exist
+    mkdir $outputDir -ea 0  > $null
+
+    # Compile the two files in the scripts folder that need it. All other files are copied.
+    if ($_.EndsWith("hudlayout.res") -or $_.EndsWith("mod_textures.txt")) {
+        Write-Output "Compiling scripts\$_"
+
+        # Run the compiler on the file
+        .\budhud-compiler.exe -s -i "scripts/$_" -o "scripts_compiled/$_"
+
+        if ($lastexitcode -ne 0) {
+            Read-Host -Prompt "Compilation failed, press Enter to exit"
+            exit
+        }
+    } else {
+        Write-Output "Copying scripts\$_"
+
+        Copy-Item "scripts/$_" -Destination "scripts_compiled/$_"
+    }
+}
+
+Read-Host -Prompt "Compilation complete, press Enter to exit"
+}
 
 ##############
 # Initial Menu
@@ -794,27 +822,27 @@ do
     {
         "1"
         {
-            Check_ValidateInstall
+            Run_ValidateInstall
         }
 
         "2"
         {
-            Check_ExtractDefaultHUD
+            Run_ExtractDefaultHUD
         }
 
         "3"
         {
-            Check_UpdateFromGithub
+            Run_UpdateFromGitHub
         }
 
         "4"
         {
-            Check_SetHUDLanguage
+            Run_SetHUDLanguage
         }
 
         "5"
         {
-            Check_HUDCompiler
+            Run_HUDCompiler
         }
 
         "?"
