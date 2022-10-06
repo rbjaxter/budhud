@@ -105,14 +105,16 @@ function Options_Initial
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "budhud Updater and Error Checker"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================================"
     Write-Host -foregroundcolor "White" "This PowerShell script can be used to perform a few different tasks seen below."
-    Write-Host -foregroundcolor "White" "For an explanation of what these tasks do, type ?."
+    Write-Host -foregroundcolor "White" "Please type ? for an explanation of these options if you're not certain!"
     Write-Host ""
     Write-Host ""
 
     Write-Host -foregroundcolor "Yellow" "What would you like to do?"
-    Write-Host "1: Check installation"
-    Write-Host "2: Extract default HUD"
-    Write-Host "3: Update files to latest"
+    Write-Host "1: Check HUD installation"
+    Write-Host "2: Update & Modify Default HUD Files"
+    Write-Host "3: Download latest files from Github"
+    Write-Host "4: Set HUD language"
+    Write-Host "5: HUD Compiler"
     Write-Host "?: Help with these options"
     Write-Host "Q: Quit"
     Write-Host ""
@@ -305,7 +307,7 @@ function Check_Shared
         Write-Host ""
 
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
-        Write-Host -foregroundcolor "White" "Verify that info.vdf was not deleted when you installed the hud"
+        Write-Host -foregroundcolor "White" "Verify that info.vdf (located in ..\custom\budhud) was not deleted when you installed the hud"
         Write-Host ""
         Break
     }
@@ -319,7 +321,7 @@ function Check_Shared
     )
 
     {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
+        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Folder found"
     }
 
     Else
@@ -395,6 +397,9 @@ function Check_ValidateInstall
 ########################
 function Pass_ExtractDefaultHUD
 {
+    Write-Host ""
+    Write-Host ""
+
     Write-Host -foregroundcolor "White" -backgroundcolor "Green" "=================="
     Write-Host -foregroundcolor "White" -backgroundcolor "Green" "File Checks Passed"
     Write-Host -foregroundcolor "White" -backgroundcolor "Green" "=================="
@@ -425,16 +430,13 @@ function Pass_ExtractDefaultHUD
     Pop-Location
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
-    # Delete unused folders
-    Write-Host -foregroundcolor "White" -NoNewLine "Deleting unused folders..."
-    #Remove-Item "$PSScriptRoot\_tf2hud\resource\ui\disguise_menu_360" -ErrorAction SilentlyContinue -recurse
-    #Remove-Item "$PSScriptRoot\_tf2hud\resource\ui\disguise_menu_sc" -ErrorAction SilentlyContinue -recurse
-    #Remove-Item "$PSScriptRoot\_tf2hud\resource\ui\build_menu_360" -ErrorAction SilentlyContinue -recurse
-    #Remove-Item "$PSScriptRoot\_tf2hud\resource\ui\build_menu_sc" -ErrorAction SilentlyContinue -recurse
+    # Copy files that cannot be extracted from TF2 core files
+    Write-Host -foregroundcolor "White" -NoNewLine "Copy necessary platform files..."
+    Copy-Item "$PSScriptRoot\#dev\sourceschemebase.res" -Destination "$PSScriptRoot\_tf2hud\resource\sourceschemebase.res"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
-    # Remove various modifiers
-    Write-Host -foregroundcolor "White" "Removing various modifiers."
+    # Remove various modifiers (OSX, X360, _minmode, _lodef, _hidef, and if_ lines.)
+    Write-Host -foregroundcolor "White" "Removing various conditional modifiers..."
     $files = Get-ChildItem -File -Recurse -Path _tf2hud
     $i = 0
     foreach ($file in $files) {
@@ -447,16 +449,39 @@ function Pass_ExtractDefaultHUD
         $i += 1
     }
     Write-Progress -Activity "Modifying files" -Completed
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Removed OSX, X360, _minmode, _lodef, _hidef, and if_ lines."
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
+    # Update all non-translated language files to chat_default.txt to prevent users of those languages from seeing broken language tokens
+    Write-Host -foregroundcolor "White" -NoNewLine "Updating language files..."
+    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_bulgarian.txt"
+    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_czech.txt"
+    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_danish.txt"
+    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_dutch.txt"
+    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_finnish.txt"
+    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_greek.txt"
+    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_hungarian.txt"
+    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_japanese.txt"
+    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_korean.txt"
+    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_polish.txt"
+    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_portuguese.txt"
+    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_swedish.txt"
+    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_thai.txt"
+    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_turkish.txt"
+    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_ukrainian.txt"
 
-    Write-Host -foregroundcolor "White" -NoNewLine "Copying over stubborn files..."
-    Copy-Item "$PSScriptRoot\_tf2hud\resource\chatscheme.res" -Destination "$PSScriptRoot\resource\chatscheme_base.res"
-    Copy-Item "$PSScriptRoot\_tf2hud\resource\clientscheme.res" -Destination "$PSScriptRoot\resource\clientscheme_base.res"
-    Copy-Item "$PSScriptRoot\_tf2hud\resource\sourcescheme.res" -Destination "$PSScriptRoot\resource\sourcescheme_base.res"
-    Copy-Item "$PSScriptRoot\_tf2hud\resource\gamemenu.res" -Destination "$PSScriptRoot\resource\gamemenu_base.res"
-    Copy-Item "$PSScriptRoot\_tf2hud\resource\muteplayerdialog.res" -Destination "$PSScriptRoot\resource\muteplayerdialog_base.res"
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete."
+    # The below files have been translated, but this code is left here for reference
+    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_brazilian.txt"
+    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_french.txt"
+    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_german.txt"
+    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_italian.txt"
+    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_norwegian.txt"
+    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_romanian.txt"
+    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_russian.txt"
+    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_schinese.txt"
+    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_spanish.txt"
+    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_tchinese.txt"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
     Write-Host ""
     Write-Host ""
@@ -590,13 +615,180 @@ function Check_UpdateFromGithub
     }
 }
 
+########################
+# Check_SetHUDLanguage
+########################
+function Check_SetHUDLanguage
+{
+    Clear-Host
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Set HUD Language"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================"
+    Write-Host -foregroundcolor "White" ""
+    Write-Host ""
+
+    Write-Host "Brazilian"
+    Write-Host "English"
+    Write-Host "French"
+    Write-Host "German"
+    Write-Host "Italian"
+    Write-Host "Norwegian"
+    Write-Host "Romanian"
+    Write-Host "Russian"
+    Write-Host "Simplified Chinese"
+    Write-Host "Spanish"
+    Write-Host "Traditional Chinese"
+
+    Write-Host ""
+    Write-Host ""
+
+    $selection = Read-Host "Please type the language you'd like to use"
+
+    switch ($selection)
+    {
+        "Brazilian"
+        {
+            Copy-Item "$PSScriptRoot\resource\chat_brazilian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+            Pass_SetLanguage
+        }
+
+        "English"
+        {
+            Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+            Pass_SetLanguage
+        }
+
+        "French"
+        {
+            Copy-Item "$PSScriptRoot\resource\chat_french.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+            Pass_SetLanguage
+        }
+
+        "German"
+        {
+            Copy-Item "$PSScriptRoot\resource\chat_german.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+            Pass_SetLanguage
+        }
+
+        "Italian"
+        {
+            Copy-Item "$PSScriptRoot\resource\chat_italian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+            Pass_SetLanguage
+        }
+
+        "Norwegian"
+        {
+            Copy-Item "$PSScriptRoot\resource\chat_norwegian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+            Pass_SetLanguage
+        }
+
+        "Romanian"
+        {
+            Copy-Item "$PSScriptRoot\resource\chat_romanian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+            Pass_SetLanguage
+        }
+
+        "Russian"
+        {
+            Copy-Item "$PSScriptRoot\resource\chat_russian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+            Pass_SetLanguage
+        }
+
+        "Simplified Chinese"
+        {
+            Copy-Item "$PSScriptRoot\resource\chat_schinese.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+            Pass_SetLanguage
+        }
+
+        "Spanish"
+        {
+            Copy-Item "$PSScriptRoot\resource\chat_spanish.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+            Pass_SetLanguage
+        }
+
+        "Traditional Chinese"
+        {
+            Copy-Item "$PSScriptRoot\resource\chat_tchinese.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
+            Pass_SetLanguage
+        }
+    }
+}
+########################
+# Pass_SetLanguage
+########################
+function Pass_SetLanguage
+{
+    Write-Host ""
+    Write-Host ""
+
+    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
+    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Task Complete"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
+    Write-Host -foregroundcolor "White" "Language set."
+    Write-Host ""
+    Write-Host ""
+}
+
+########################
+# Check_HUDCompiler
+########################
+#function Check_HUDCompiler
+#{
+#    Clear-Host
+#    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "========================="
+#    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "HUD Compiler, by a friend"
+#    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "========================="
+#    Write-Host -foregroundcolor "White" ""
+#    Write-Host ""
+#
+## Remove existing compiled output
+#Remove-Item -LiteralPath "resource_compiled" -Force -Recurse -ErrorAction Ignore
+#Remove-Item -LiteralPath "scripts_compiled" -Force -Recurse -ErrorAction Ignore
+#
+## Process all *.res files in the resource folder
+#Get-ChildItem -Path resource -Filter *.res -Recurse -File -Name| ForEach-Object {
+#    # Get the directory of the file to output
+#    $outputPath = Split-Path -Path "resource_compiled/$_"
+#
+#    # Make the full path (including all intermediate directories) if they don't exist
+#    mkdir $outputPath -ea 0  > $null
+#
+#    Write-Output "Compiling $_"
+#
+#    # Run the compiler on the file
+#    .\budhud-compiler.exe -s -i "resource/$_" -o "resource_compiled/$_"
+#
+#    if ($lastexitcode -ne 0) {
+#        Read-Host -Prompt "Compilation failed, press Enter to exit"
+#        exit
+#    }
+#}
+#
+## Process the two files in the scripts folder that need it
+#mkdir "scripts_compiled" -ea 0  > $null
+#Write-Output "Compiling scripts/hudlayout.res"
+#.\budhud-compiler.exe -s -i "scripts/hudlayout.res" -o "scripts_compiled/hudlayout.res"
+#if ($lastexitcode -ne 0) {
+#    Read-Host -Prompt "Compilation failed, press Enter to exit"
+#    exit
+#}
+#Write-Output "Compiling scripts/mod_textures.res"
+#.\budhud-compiler.exe -s -i "scripts/mod_textures.txt" -o "scripts_compiled/mod_textures.txt"
+#if ($lastexitcode -ne 0) {
+#    Read-Host -Prompt "Compilation failed, press Enter to exit"
+#    exit
+#}
+#
+#Read-Host -Prompt "Compilation complete, press Enter to exit"
+#}
+
 ##############
 # Initial Menu
 ##############
 do
 {
     Options_Initial
-    $selection = Read-Host "[Type 1, 2, 3, ?, or Q]"
+    $selection = Read-Host "[Type 1, 2, 3, 4, 5, ?, or Q]"
 
     switch ($selection)
     {
@@ -615,20 +807,36 @@ do
             Check_UpdateFromGithub
         }
 
+        "4"
+        {
+            Check_SetHUDLanguage
+        }
+
+        "5"
+        {
+            Check_HUDCompiler
+        }
+
         "?"
         {
             Write-Host ""
-            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Check Installation"
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Check HUD Installation"
             Write-Host "This will check for common installation issues and provide a potential solution if one exists."
             Write-Host ""
-            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Extract Default HUD"
-            Write-Host "This will update your _tf2hud files with TF2's latest default hud files."
-            Write-Host "Please note that this will only work if you launched your game after TF2 updated."
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Update & Modify Default HUD Files"
+            Write-Host "This will update your _tf2hud files with TF2's latest default hud files, as well as make a few HUD file modifications."
+            Write-Host "This is handy in case there's a TF2 option, though it will require you to have launched the game after having the update patch downloaded."
+            Write-Host "I run this script before I push commits/changes to the HUD. It's nifty :)"
+            Write-Host "There will be no risk of losing HUD changes doing this option unless you've modified files within the _tf2hud folder"
             Write-Host "Any changes you made in _tf2hud will be deleted. This is why you should never edit anything in _tf2hud."
             Write-Host ""
-            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Update Files to Latest"
-            Write-Host "This will download the latest version of budhud from Github and add/overwrite any files that are changed/added."
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Update Files from GitHub"
+            Write-Host "This will download the latest version of budhud from GitHub and add/overwrite any files that are changed/added."
             Write-Host "Please note the warnings that are provided when you choose this option if you have made customizations to the hud."
+            Write-Host ""
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Set HUD Language"
+            Write-Host "If an alternative language is supported, it will be in the list."
+            Write-Host "Type the name of the language and the appropriate file will be copied over."
             Write-Host ""
         }
     }

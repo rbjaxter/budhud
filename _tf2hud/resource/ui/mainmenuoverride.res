@@ -1707,27 +1707,107 @@
 				{
 					"0"
 					{
-						"item"		"Summer 2022 Cosmetic Key"
+						"item"		"Halloween 2022 Key" 
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Summer 2022 Cosmetic Case"
+						"item"		"Halloween 2022 Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Taunt: Doctor's Defibrillators"
+						"item"		"Scream Fortress 2022 War Paint Key"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Taunt: Shooter's Stakeout"
-						"show_market"	"0"
+						"item"		"Scream Fortress 2022 War Paint Case"
+						"show_market"	"1"
 					}
 					"4"
 					{
-						"item"		"Taunt: The Hot Wheeler"
+						"item"		"Taunt: Texas Twirl 'Em"
+						"show_market"	"0"
+					}
+					"5"
+					{
+						"item"		"Taunt: The Travel Agent"
+						"show_market"	"0"
+					}
+					"6"
+					{
+						"item"		"Taunt: Drunk Mann's Cannon"
+						"show_market"	"0"
+					}
+					"7"
+					{
+						"item"		"Taunt: Shanty Shipmate"
+						"show_market"	"0"
+					}
+					"8"
+					{
+						"item"		"Taunt: The Scaredy-cat!"
+						"show_market"	"0"
+					}
+					"9"
+					{
+						"item"		"Map Token Soul Mill"
+						"show_market"	"0"
+					}
+					"10"
+					{
+						"item"		"Map Token Helltrain"
+						"show_market"	"0"
+					}
+					"11"
+					{
+						"item"		"Map Token Bonesaw"
+						"show_market"	"0"
+					}
+					"12"
+					{
+						"item"		"Map Token Crasher"
+						"show_market"	"0"
+					}
+					"13"
+					{
+						"item"		"Map Token Ghoulpit"
+						"show_market"	"0"
+					}
+					"14"
+					{
+						"item"		"Map Token Spookeyridge"
+						"show_market"	"0"
+					}
+					"15"
+					{
+						"item"		"Strange Filter: Soul Mill (Community)"
+						"show_market"	"0"
+					}
+					"16"
+					{
+						"item"		"Strange Filter: Helltrain (Community)"
+						"show_market"	"0"
+					}
+					"17"
+					{
+						"item"		"Strange Filter: Bonesaw (Community)"
+						"show_market"	"0"
+					}
+					"18"
+					{
+						"item"		"Strange Filter: Crasher (Community)"
+						"show_market"	"0"
+					}
+					"19"
+					{
+						"item"		"Strange Filter: Ghoulpit (Community)"
+						"show_market"	"0"
+					}
+					"20"
+					{
+						"item"		"Strange Filter: Spookeyridge (Community)"
 						"show_market"	"0"
 					}
 				}
