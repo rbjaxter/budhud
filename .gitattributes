@@ -1,7 +1,7 @@
 # These filetypes should always have CRLF line endings on checkout
 *.res eol=crlf
 * text=auto
-
 # Keep these filetypes binary
 *.png binary
 *.jpg binary
+*.exe filter=lfs diff=lfs merge=lfs -text
