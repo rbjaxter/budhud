@@ -1,53 +1,14 @@
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Loads all hud animation files.
-    // The order these lines are in is important.
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-hudanimations_manifest
+"hudanimations_manifest"
 {
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Don't touch these
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    "file"      "scripts/hudanimations.txt"
-    "file"      "scripts/bh_hudanimations/bh_general.txt"
-    "file"      "scripts/bh_hudanimations/bh_crosshairs.txt"
-    "file"      "scripts/bh_hudanimations/bh_mainmenu.txt"
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Ammo Customizations
-    // Only uncomment one line!
-    // ============================================================================================== //
-    // NOTE:
-    // To enable the ammo box, be sure you also move the `bh_player_ammobox.res` file in
-    // `#customization` into the `_enabled` folder
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    "file"      "scripts/bh_hudanimations/ammo_animations/bh_ammo_shadow.txt"
-//  "file"      "scripts/bh_hudanimations/ammo_animations/bh_ammo_foreground.txt"
-//  "file"      "scripts/bh_hudanimations/ammo_animations/bh_ammo_box.txt"
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Health Customizations
-    // Only uncomment one line!
-    // ============================================================================================== //
-    // NOTE:
-    // To enable the health box, be sure you also move the `bh_player_healthbox.res` file in
-    // `#customization` into the `_enabled` folder
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    "file"      "scripts/bh_hudanimations/health_animations/bh_health_shadow.txt"
-//  "file"      "scripts/bh_hudanimations/health_animations/bh_health_foreground.txt"
-//  "file"      "scripts/bh_hudanimations/health_animations/bh_health_box.txt"
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Medic Customizations
-    // Only uncomment one line!
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    "file"      "scripts/bh_hudanimations/medic_animations/bh_medic_charge.txt"
-//  "file"      "scripts/bh_hudanimations/medic_animations/bh_medic_chargerainbow.txt"
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Don't touch these
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    "file"      "scripts/bh_hudanimations/health_animations/bh_health_base.txt"
-    "file"      "scripts/bh_hudanimations/ammo_animations/bh_ammo_base.txt"
-    "file"      "scripts/hudanimations_tf.txt"
+    "file"                                                          "scripts/hudanimations.txt"
+    "file"                                                          "scripts/bh_hudanimations/bh_general.txt"
+    "file"                                                          "scripts/bh_hudanimations/bh_crosshairs.txt"
+    "file"                                                          "scripts/bh_hudanimations/bh_mainmenu.txt"
+    "file"                                                          "scripts/bh_hudanimations/ammo_animations/bh_ammo_shadow.txt"
+    "file"                                                          "scripts/bh_hudanimations/health_animations/bh_health_shadow.txt"
+    "file"                                                          "scripts/bh_hudanimations/medic_animations/bh_medic_charge.txt"
+    "file"                                                          "scripts/bh_hudanimations/health_animations/bh_health_base.txt"
+    "file"                                                          "scripts/bh_hudanimations/ammo_animations/bh_ammo_base.txt"
+    "file"                                                          "scripts/hudanimations_tf.txt"
 }

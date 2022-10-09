@@ -1,7 +1,7 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Crosshair Damage Flash
     // ============================================================================================== //
-    // This can be controlled in ..\budhud\#customization\_enabled\bh_colors.res
+    // This can be controlled in ../budhud/#customization/_enabled/bh_colors.res
     // Animating too many crosshairs negatively affects FPS when playing classes like pyro or heavy
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
