@@ -23,7 +23,7 @@ function Options_Menu
     Write-Host "2: Update & Modify Default HUD Files"
     Write-Host "3: Download latest files from Github"
     Write-Host "4: Set HUD language"
-    Write-Host "5: HUD Compiler"
+    Write-Host "5: HUD Compiler (Dev)"
     Write-Host "?: Help with these options"
     Write-Host "Q: Quit"
     Write-Host ""
@@ -363,7 +363,6 @@ function Run_InstallTroubleshooter
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "====================="
     Write-Host -foregroundcolor "White" "This function will check for common installation problems and provide a potential solution"
     Write-Host ""
-    Write-Host ""
 
     If
     (
@@ -457,7 +456,6 @@ function Run_ExtractDefaultHUD
         Set-Content $file.FullName
         $i += 1
     }
-    Write-Progress -Activity "Modifying files" -Completed
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
     # Update all non-translated language files to chat_default.txt to prevent users of those languages from seeing broken language tokens
@@ -491,6 +489,8 @@ function Run_ExtractDefaultHUD
     # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_spanish.txt"
     # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_tchinese.txt"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+
+    Write-Progress -Activity "Modifying files" -Completed
 
     Write-Host ""
     Write-Host ""
@@ -656,6 +656,8 @@ function Run_SetHUDLanguage
     Write-Host "Simplified Chinese"
     Write-Host "Spanish"
     Write-Host "Traditional Chinese"
+    Write-Host ""
+    Write-Host "Quit"
 
     Write-Host ""
     Write-Host ""
@@ -667,76 +669,64 @@ function Run_SetHUDLanguage
         "Brazilian"
         {
             Copy-Item "$PSScriptRoot\resource\chat_brazilian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
         }
 
         "English"
         {
             Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
         }
 
         "French"
         {
             Copy-Item "$PSScriptRoot\resource\chat_french.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
         }
 
         "German"
         {
             Copy-Item "$PSScriptRoot\resource\chat_german.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
         }
 
         "Italian"
         {
             Copy-Item "$PSScriptRoot\resource\chat_italian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
         }
 
         "Norwegian"
         {
             Copy-Item "$PSScriptRoot\resource\chat_norwegian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
         }
 
         "Romanian"
         {
             Copy-Item "$PSScriptRoot\resource\chat_romanian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
         }
 
         "Russian"
         {
             Copy-Item "$PSScriptRoot\resource\chat_russian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
         }
 
         "Simplified Chinese"
         {
             Copy-Item "$PSScriptRoot\resource\chat_schinese.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
         }
 
         "Spanish"
         {
             Copy-Item "$PSScriptRoot\resource\chat_spanish.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
         }
 
         "Traditional Chinese"
         {
             Copy-Item "$PSScriptRoot\resource\chat_tchinese.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
+        }
+
+        "Quit"
+        {
+            Options_Menu
         }
     }
-}
-######################
-# Complete_SetLanguage
-######################
 
-function Complete_SetLanguage
-{
     Write-Host ""
     Write-Host ""
 
@@ -755,70 +745,35 @@ function Complete_SetLanguage
 function Run_HUDCompiler
 {
     Clear-Host
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "========================="
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "HUD Compiler, by a friend"
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "========================="
-    Write-Host -foregroundcolor "White" ""
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==========================="
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "HUD Compiler, by @alvancamp"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==========================="
     Write-Host ""
 
+# Start the stopwatch so we can report how long this script took
+$StopWatch = [System.Diagnostics.Stopwatch]::StartNew()
+
 # Remove existing compiled output
-Remove-Item -LiteralPath "resource_compiled" -Force -Recurse -ErrorAction Ignore
-Remove-Item -LiteralPath "scripts_compiled" -Force -Recurse -ErrorAction Ignore
+Remove-Item -LiteralPath "resource" -Force -Recurse -ErrorAction Ignore
+Remove-Item -LiteralPath "scripts" -Force -Recurse -ErrorAction Ignore
 
-# Process all files in the resource folder
-Get-ChildItem -Path resource -Recurse -File -Name| ForEach-Object {
-    # Get the directory of the file to output
-    $outputDir = Split-Path -Path "resource_compiled/$_"
-
-    # Make the full path (including all intermediate directories) if they don't exist
-    mkdir $outputDir -ea 0  > $null
-
-    # If the file is a .res file, compile it. Else, copy it.
-    $extn = [IO.Path]::GetExtension($_)
-    if ($extn -eq ".res") {
-        Write-Output "Compiling resource\$_"
-
-        # Run the compiler on the file
-        .\budhud-compiler.exe -s -i "resource/$_" -o "resource_compiled/$_"
-
-        if ($lastexitcode -ne 0) {
-            Read-Host -Prompt "Compilation failed, press Enter to exit"
-            exit
-        }
-    } else {
-        Write-Output "Copying resource\$_"
-
-        Copy-Item "resource/$_" -Destination "resource_compiled/$_"
-    }
+# Run the compiler on the resource folder
+Write-Output "Compiling resource & scripts..."
+.\budhud-compiler.exe -s -w -t "_budhud/resource","_budhud/scripts" -i "#dev/resource","#dev/scripts" -o "resource","scripts"
+if ($lastexitcode -ne 0) {
+    Read-Host -Prompt "Compilation failed, press Enter to exit"
+    exit
 }
 
-# Process all files in the scripts folder
-Get-ChildItem -Path scripts -Recurse -File -Name| ForEach-Object {
-    # Get the directory of the file to output
-    $outputDir = Split-Path -Path "scripts_compiled/$_"
+$StopWatch.Stop();
+    Write-Host ""
+    Write-Host ""
 
-    # Make the full path (including all intermediate directories) if they don't exist
-    mkdir $outputDir -ea 0  > $null
+    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "===================="
+    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Compilation Complete"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "===================="
 
-    # Compile the two files in the scripts folder that need it. All other files are copied.
-    if ($_.EndsWith("hudlayout.res") -or $_.EndsWith("mod_textures.txt")) {
-        Write-Output "Compiling scripts\$_"
-
-        # Run the compiler on the file
-        .\budhud-compiler.exe -s -i "scripts/$_" -o "scripts_compiled/$_"
-
-        if ($lastexitcode -ne 0) {
-            Read-Host -Prompt "Compilation failed, press Enter to exit"
-            exit
-        }
-    } else {
-        Write-Output "Copying scripts\$_"
-
-        Copy-Item "scripts/$_" -Destination "scripts_compiled/$_"
-    }
-}
-
-Read-Host -Prompt "Compilation complete, press Enter to exit"
+    Write-Host "Completed in $($StopWatch.Elapsed.TotalSeconds) seconds."
 }
 
 ##############
@@ -875,12 +830,22 @@ do
             Write-Host "Please note the warnings that are provided when you choose this option if you have made customizations to the hud."
             Write-Host ""
             Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Set HUD Language"
-            Write-Host "If an alternative language is supported, it will be in the list."
-            Write-Host "Type the name of the language and the appropriate file will be copied over."
+            Write-Host "If an alternative language is available, you can set the HUD to use this language instead."
+            Write-Host "Type the name of the language and the appropriate chat file will be automatically copied over."
+            Write-Host ""
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "HUD Compiler"
+            Write-Host "Created by @alvancamp on Github, the HUD compiler is used to compile as many #base directives in budhud as possible."
+            Write-Host "In simpler terms, this merges all _budhud and _tf2hud files into single files that are then placed in resource and scripts"
+            Write-Host "After initial compilation is complete, the script will then watch for changes made in _budhud and then recompile as necessary"
+            Write-Host "Please see his GitHub repository here for more information: https://github.com/alvancamp/budhud-compiler"
             Write-Host ""
         }
-    }
 
+        "Q"
+        {
+            Exit
+        }
+    }
     pause
 }
 until ($selection -eq 'q')
