@@ -1,4 +1,6 @@
-# budhud HUD Updater and Error Checker
+# To run this shell script, right click the file > select "Run with PowerShell"
+
+# budhud Updater
 # Made by Whisker to learn PS with MAJOR assistance from sheybey & Revan
 # (9/2/21) Modified by sheybey to remove dependencies
 # (10/6/22) HUD compiler created by Lange
@@ -10,9 +12,9 @@
 function Options_Menu
 {
     Clear-Host
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================================"
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "budhud Updater and Error Checker"
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================================"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=============="
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "budhud Updater"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=============="
     Write-Host -foregroundcolor "White" "This PowerShell script can be used to perform a few different tasks seen below."
     Write-Host -foregroundcolor "White" "Please type ? for an explanation of these options if you're not certain!"
     Write-Host ""
@@ -23,7 +25,7 @@ function Options_Menu
     Write-Host "2: Update & Modify Default HUD Files"
     Write-Host "3: Download latest files from Github"
     Write-Host "4: Set HUD language"
-    Write-Host "5: HUD Compiler (Dev)"
+    Write-Host "5: HUD Compiler"
     Write-Host "?: Help with these options"
     Write-Host "Q: Quit"
     Write-Host ""
@@ -815,25 +817,31 @@ do
         "?"
         {
             Write-Host ""
-            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Check HUD Installation"
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "1. Check HUD Installation"
+            Write-Host -foregroundcolor "Green" "No files will be deleted or replaced"
             Write-Host "This will check for common installation issues and provide a potential solution if one exists."
             Write-Host ""
-            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Update & Modify Default HUD Files"
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "2. Update & Modify Default HUD Files"
+            Write-Host -foregroundcolor "Yellow" "The _tf2hud folder will be deleted and replaced"
             Write-Host "This will update your _tf2hud files with TF2's latest default hud files, as well as make a few HUD file modifications."
             Write-Host "This is handy in case there's a TF2 option, though it will require you to have launched the game after having the update patch downloaded."
-            Write-Host "I run this script before I push commits/changes to the HUD. It's nifty :)"
-            Write-Host "There will be no risk of losing HUD changes doing this option unless you've modified files within the _tf2hud folder"
-            Write-Host "Any changes you made in _tf2hud will be deleted. This is why you should never edit anything in _tf2hud."
+            Write-Host "I run this script before I push commits/changes to the HUD. It's nifty :)."
+            Write-Host "There will be no risk of losing HUD changes doing this option unless you've modified files within the _tf2hud folder."
+            Write-Host "Any changes you made in _tf2hud will be deleted. This is why you should never edit anything in _tf2hud!"
             Write-Host ""
-            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Update Files from GitHub"
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "3. Update Files from GitHub"
+            Write-Host -foregroundcolor "Red" "Any file that originally existed in the HUD will be overwritten/replaced"
             Write-Host "This will download the latest version of budhud from GitHub and add/overwrite any files that are changed/added."
-            Write-Host "Please note the warnings that are provided when you choose this option if you have made customizations to the hud."
+            Write-Host "This is essentially like deleting your custom HUD and then manually downloading and extracting it from GitHub."
+            Write-Host "Please note, though, that this will not delete files you've added to the HUD yourself (such as to #users/custom)."
             Write-Host ""
-            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Set HUD Language"
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "4. Set HUD Language"
+            Write-Host -foregroundcolor "Green" "No files will be deleted or replaced"
             Write-Host "If an alternative language is available, you can set the HUD to use this language instead."
             Write-Host "Type the name of the language and the appropriate chat file will be automatically copied over."
             Write-Host ""
-            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "HUD Compiler"
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "5. HUD Compiler"
+            Write-Host -foregroundcolor "Yellow" "The resource and scripts folder will be replaced"
             Write-Host "Created by @alvancamp on Github, the HUD compiler is used to compile as many #base directives in budhud as possible."
             Write-Host "In simpler terms, this merges all _budhud and _tf2hud files into single files that are then placed in resource and scripts"
             Write-Host "After initial compilation is complete, the script will then watch for changes made in _budhud and then recompile as necessary"
