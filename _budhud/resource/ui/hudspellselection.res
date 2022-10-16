@@ -30,7 +30,7 @@
 
     "SpellIcon"
     {
-        "xpos"                                                      "c-60"
+        "xpos"                                                      "c-30"
         "ypos"                                                      "35"
         "zpos"                                                      "50"
         "wide"                                                      "20"
