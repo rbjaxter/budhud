@@ -53,7 +53,7 @@
                                                                     echo *~*~*~*~*~*~*~ ad astra per alas porci *~*~*~*~*~*~*~*;
                                                                     echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
                                                                     echo ======================================================;"
-        "tooltip"                                                   "Updated October 9th, 2022"
+        "tooltip"                                                   "Updated October 15th, 2022"
     }
 
     "bh_Streams"

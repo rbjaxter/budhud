@@ -4,6 +4,15 @@
 
 "Resource/UI/StorePage.res"
 {
+	"ClassFilterTooltipLabel"
+    {
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "wide"                                                      "0"
+        "tall"                                                      "0"
+    }
+
     "StorePage"
     {
         "bgcolor_override"                                          "bh_Theme_BG20"

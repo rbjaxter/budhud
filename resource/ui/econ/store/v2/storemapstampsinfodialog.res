@@ -72,12 +72,111 @@
         "fgcolor"                                                   "White"
     }
 
+    "dialogframe"
+    {
+
+        "footbottompanel"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
+            "ControlName"                                           "EditablePanel"
+            "fieldName"                                             "FootBottomPanel"
+            "xpos"                                                  "3"
+            "zpos"                                                  "1"
+            "wide"                                                  "235"
+            "tall"                                                  "58"
+            "paintborder"                                           "0"
+            "PaintBackgroundType"                                   "2"
+            "paintbackground"                                       "1"
+            "bgcolor_override"                                      "50 46 41 255"
+        }
+
+        "footertoppanel"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
+            "ControlName"                                           "EditablePanel"
+            "fieldName"                                             "FooterTopPanel"
+            "xpos"                                                  "3"
+            "zpos"                                                  "1"
+            "wide"                                                  "235"
+            "tall"                                                  "10"
+            "paintborder"                                           "0"
+            "PaintBackgroundType"                                   "0"
+            "paintbackground"                                       "1"
+            "bgcolor_override"                                      "50 46 41 255"
+        }
+        "ControlName"                                               "EditablePanel"
+        "fieldName"                                                 "DialogFrame"
+        "xpos"                                                      "c-120"
+        "ypos"                                                      "c-150"
+        "zpos"                                                      "0"
+        "wide"                                                      "240"
+        "tall"                                                      "300"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "paintbackground"                                           "0"
+        "border"                                                    "TFFatLineBorderOpaque"
+        "PaintBorder"                                               "1"
+
+        "previewviewportbg"
+        {
+            "ControlName"                                           "EditablePanel"
+            "fieldName"                                             "PreviewViewportBg"
+            "xpos"                                                  "10"
+            "ypos"                                                  "22"
+            "zpos"                                                  "1"
+            "wide"                                                  "220"
+            "tall"                                                  "209"
+            "visible"                                               "1"
+            "enabled"                                               "1"
+            "paintborder"                                           "1"
+            "border"                                                "StoreInnerShadowBorder"
+        }
+
+        "mapsdesclabel"
+        {
+            "ControlName"                                           "CExLabel"
+            "fieldName"                                             "MapsDescLabel"
+            "font"                                                  "HudFontSmallest"
+            "labelText"                                             "#Store_MapsDesc"
+            "textAlignment"                                         "north"
+            "xpos"                                                  "20"
+            "ypos"                                                  "29"
+            "zpos"                                                  "5"
+            "wide"                                                  "200"
+            "tall"                                                  "200"
+            "autoResize"                                            "1"
+            "pinCorner"                                             "0"
+            "visible"                                               "1"
+            "enabled"                                               "1"
+            "wrap"                                                  "1"
+        }
+
+        "promotionimage_hat"
+        {
+            "ControlName"                                           "ImagePanel"
+            "fieldName"                                             "PromotionImage_Hat"
+            "xpos"                                                  "90"
+            "ypos"                                                  "120"
+            "zpos"                                                  "2"
+            "wide"                                                  "150"
+            "tall"                                                  "150"
+            "visible"                                               "1"
+            "enabled"                                               "1"
+            "image"                                                 "../backpack/player/items/all_class/world_traveller_large"
+            "scaleImage"                                            "1"
+        }
+    }
+
     "bh_back"
     {
         "ControlName"                                               "CExButton"
         "fieldName"                                                 "bh_Back"
         "xpos"                                                      "c-110"
-        "ypos"                                                      "c108"
+        "ypos"                                                      "c55"
         "zpos"                                                      "2"
         "wide"                                                      "100"
         "tall"                                                      "26"
@@ -135,104 +234,5 @@
         "paintbackground"                                           "1"
         "PaintBackgroundType"                                       "0"
         "bgcolor_override"                                          "0 0 0 128"
-    }
-
-    "dialogframe"
-    {
-        "ControlName"                                               "EditablePanel"
-        "fieldName"                                                 "DialogFrame"
-        "xpos"                                                      "c-120"
-        "ypos"                                                      "c-150"
-        "zpos"                                                      "0"
-        "wide"                                                      "240"
-        "tall"                                                      "300"
-        "visible"                                                   "1"
-        "enabled"                                                   "1"
-        "paintbackground"                                           "0"
-        "border"                                                    "TFFatLineBorderOpaque"
-        "PaintBorder"                                               "1"
-
-        "previewviewportbg"
-        {
-            "ControlName"                                           "EditablePanel"
-            "fieldName"                                             "PreviewViewportBg"
-            "xpos"                                                  "10"
-            "ypos"                                                  "22"
-            "zpos"                                                  "1"
-            "wide"                                                  "220"
-            "tall"                                                  "209"
-            "visible"                                               "1"
-            "enabled"                                               "1"
-            "paintborder"                                           "1"
-            "border"                                                "StoreInnerShadowBorder"
-        }
-
-        "footertoppanel"
-        {
-            "ControlName"                                           "EditablePanel"
-            "fieldName"                                             "FooterTopPanel"
-            "xpos"                                                  "3"
-            "ypos"                                                  "240"
-            "zpos"                                                  "1"
-            "wide"                                                  "235"
-            "tall"                                                  "10"
-            "visible"                                               "1"
-            "enabled"                                               "1"
-            "paintborder"                                           "0"
-            "PaintBackgroundType"                                   "0"
-            "paintbackground"                                       "1"
-            "bgcolor_override"                                      "50 46 41 255"
-        }
-
-        "footbottompanel"
-        {
-            "ControlName"                                           "EditablePanel"
-            "fieldName"                                             "FootBottomPanel"
-            "xpos"                                                  "3"
-            "ypos"                                                  "240"
-            "zpos"                                                  "1"
-            "wide"                                                  "235"
-            "tall"                                                  "58"
-            "visible"                                               "1"
-            "enabled"                                               "1"
-            "paintborder"                                           "0"
-            "PaintBackgroundType"                                   "2"
-            "paintbackground"                                       "1"
-            "bgcolor_override"                                      "50 46 41 255"
-        }
-
-        "mapsdesclabel"
-        {
-            "ControlName"                                           "CExLabel"
-            "fieldName"                                             "MapsDescLabel"
-            "font"                                                  "HudFontSmallest"
-            "labelText"                                             "#Store_MapsDesc"
-            "textAlignment"                                         "north"
-            "xpos"                                                  "20"
-            "ypos"                                                  "29"
-            "zpos"                                                  "5"
-            "wide"                                                  "200"
-            "tall"                                                  "200"
-            "autoResize"                                            "1"
-            "pinCorner"                                             "0"
-            "visible"                                               "1"
-            "enabled"                                               "1"
-            "wrap"                                                  "1"
-        }
-
-        "promotionimage_hat"
-        {
-            "ControlName"                                           "ImagePanel"
-            "fieldName"                                             "PromotionImage_Hat"
-            "xpos"                                                  "90"
-            "ypos"                                                  "120"
-            "zpos"                                                  "2"
-            "wide"                                                  "150"
-            "tall"                                                  "150"
-            "visible"                                               "1"
-            "enabled"                                               "1"
-            "image"                                                 "../backpack/player/items/all_class/world_traveller_large"
-            "scaleImage"                                            "1"
-        }
     }
 }

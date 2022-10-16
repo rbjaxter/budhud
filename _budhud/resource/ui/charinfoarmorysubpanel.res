@@ -14,6 +14,21 @@
     "DataPanel"
     {
         "border"                                                    "bh_b_NESW"
+
+        "Data_TextRichText"
+        {
+			"highlight_color"                                       "bh_Theme_TextAccent"
+			"itemset_color"                                         "bh_red"
+			"link_color"                                            "bh_yellow"
+
+            // Scroll bar used in catalog for lengthy descriptions (in case I ever get bored and want to make it look less bad)
+            "image_up_arrow"                                        "scroll_up_off"
+			"image_up_arrow_mouseover"                              "scroll_up_on"
+			"image_down_arrow"                                      "scroll_down_off"
+			"image_down_arrow_mouseover"                            "scroll_down_on"
+			"image_line"                                            "ArmoryScrollbarWell"
+			"image_box"	                                            "ArmoryScrollbarBox"
+        }
     }
 
     "armory_panel"

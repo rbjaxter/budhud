@@ -81,15 +81,6 @@
         }
     }
 
-    "ShowRarityComboBox"
-    {
-        "fgcolor_override"                                          "bh_white"
-        "bgcolor_override"                                          "bh_blank"
-        "disabledFgColor_override"                                  "bh_white"
-        "selectionColor_override"                                   "bh_blank"
-        "selectionTextColor_override"                               "bh_white"
-    }
-
     "NameFilterLabel"
     {
         "ypos"                                                      "r-6969"
@@ -104,25 +95,90 @@
         "wide"                                                      "95"
         "tall"                                                      "15"
         "bgcolor_override"                                          "bh_white"
-    }
-
-    "NameFilterEntry"
-    {
-        "fgcolor_override"                                          "bh_white"
-        "bgcolor_override"                                          "bh_Theme_BG00"
-        "paintbackgroundtype"                                       "0"
-        "border_default"                                            "bh_b_NESW"
-        "border_armed"                                              "bh_b_NESW"
+        "fgcolor_override"                                          "bh_black"
     }
 
     "ShowBaseItemsCheckbox"
     {
-        "xpos"                                                      "c-185"
-        "ypos"                                                      "33"
+        "pin_to_sibling"                                            "NameFilterTextEntry"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "xpos"                                                      "-100"
+        "ypos"                                                      "3"
+
+        "wide"                                                      "100"
+        "font"                                                      "bh_Font10"
+    }
+
+    "bh_ImproveItemQuality"
+    {
+        "pin_to_sibling"                                            "NameFilterTextEntry"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "xpos"                                                      "-197"
+        "ypos"                                                      "0"
+
+        "ControlName"                                               "CExImageButton"
+        "fieldName"                                                 "bh_ImproveItemQuality"
+        "zpos"                                                      "1"
+        "wide"                                                      "100"
+        "tall"                                                      "15"
+        "autoResize"                                                "0"
+        "pinCorner"                                                 "0"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "paintbackgroundtype"                                       "0"
+        "keyboardinputenabled"                                      "0"
+        //"actionsignallevel"                                         "2"   // Crashes game when used here
+
+        "labeltext"                                                 "#bh_ImproveSkinQuality"
+        "textalignment"                                             "center"
+        "font"                                                      "bh_Font10"
+        "command"                                                   "mat_phong 1;mat_bumpmap 1;mat_picmip -1"
+
+        "sound_depressed"                                           "UI/buttonclick.wav"
+        "sound_released"                                            "UI/buttonclickrelease.wav"
+
+        "defaultBgColor_override"                                   "bh_Blank"
+        "armedBgColor_override"                                     "bh_Blank"
+        "depressedBgColor_override"                                 "bh_Blank"
+        "defaultFgColor_override"                                   "bh_Theme_TextSecondary"
+        "armedFgColor_override"                                     "bh_Theme_TextAccent"
+        "depressedFgColor_override"                                 "bh_ButtonDepressed"
+        "border_default"                                            "bh_b_NESW"
+        "border_armed"                                              "bh_b_NESW"
+    }
+
+    "ShowRarityComboBox"
+    {
+        "pin_to_sibling"                                            "NameFilterTextEntry"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "xpos"                                                      "-308"
+        "ypos"                                                      "0"
+
+        "wide"                                                      "150"
+        "font"                                                      "bh_Font10"
+        "fgcolor_override"                                          "bh_white"
+        "bgcolor_override"                                          "bh_blank"
+        "disabledFgColor_override"                                  "bh_white"
+        "selectionColor_override"                                   "bh_blank"
+        "selectionTextColor_override"                               "bh_white"
     }
 
     "SortByComboBox"
     {
+        "pin_to_sibling"                                            "NameFilterTextEntry"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "xpos"                                                      "-472"
+        "ypos"                                                      "0"
+
+        "wide"                                                      "100"
         "fgcolor_override"                                          "bh_white"
         "bgcolor_override"                                          "bh_blank"
         "disabledFgColor_override"                                  "bh_white"

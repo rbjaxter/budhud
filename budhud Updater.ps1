@@ -155,6 +155,7 @@ function Check_TF2Running
 
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
         Write-Host -foregroundcolor "White" "Close TF2 before using this script again"
+        Write-Host ""
         Break
     }
 

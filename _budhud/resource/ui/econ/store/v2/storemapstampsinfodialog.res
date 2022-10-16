@@ -14,12 +14,30 @@
         "enabled"                                                   "0"
     }
 
+	"DialogFrame"
+	{
+
+        "FootBottomPanel"
+        {
+            "ypos"                                                      "r-6969"
+            "visible"                                                   "0"
+            "enabled"                                                   "0"
+        }
+
+        "FooterTopPanel"
+        {
+            "ypos"                                                      "r-6969"
+            "visible"                                                   "0"
+            "enabled"                                                   "0"
+        }
+    }
+
     "bh_Back"
     {
         "ControlName"                                               "CExButton"
         "fieldName"                                                 "bh_Back"
         "xpos"                                                      "c-110"
-        "ypos"                                                      "c108"
+        "ypos"                                                      "c55"
         "zpos"                                                      "2"
         "wide"                                                      "100"
         "tall"                                                      "26"

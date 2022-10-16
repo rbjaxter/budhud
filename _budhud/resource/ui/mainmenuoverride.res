@@ -391,7 +391,7 @@
         "xpos"                                                      "0"
         "ypos"                                                      "0"
         "wide"                                                      "300"
-        "tall"                                                      "350"
+        "tall"                                                      "360"
 
         "MOTD_HeaderIcon"
         {

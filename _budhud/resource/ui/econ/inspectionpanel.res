@@ -30,6 +30,65 @@
         "paintbackgroundtype"                                       "0"
     }
 
+    "bh_ImproveQuality"
+    {
+        "ControlName"                                               "CExImageButton"
+        "fieldName"                                                 "bh_ImproveQuality"
+        "xpos"                                                      "5"
+        "ypos"                                                      "310"
+        "zpos"                                                      "50"
+        "wide"                                                      "125"
+        "tall"                                                      "20"
+        "autoResize"                                                "0"
+        "pinCorner"                                                 "0"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "paintbackgroundtype"                                       "0"
+        "keyboardinputenabled"                                      "0"
+        "actionsignallevel"                                         "2"
+
+        "labeltext"                                                 "IMPROVE SKIN QUALITY"
+        "textalignment"                                             "center"
+        "font"                                                      "bh_Font12"
+        "command"                                                   "mat_phong 1;mat_bumpmap 1;mat_picmip -1"
+
+        "sound_depressed"                                           "UI/buttonclick.wav"
+        "sound_released"                                            "UI/buttonclickrelease.wav"
+
+        "defaultBgColor_override"                                   "bh_Blank"
+        "armedBgColor_override"                                     "bh_Blank"
+        "depressedBgColor_override"                                 "bh_Blank"
+        "defaultFgColor_override"                                   "bh_Theme_TextSecondary"
+        "armedFgColor_override"                                     "bh_Theme_TextAccent"
+        "depressedFgColor_override"                                 "bh_ButtonDepressed"
+        "border_default"                                            "bh_b_NESW"
+        "border_armed"                                              "bh_b_NESW"
+    }
+
+    "bh_ExplainImproveQuality"
+    {
+        "pin_to_sibling"                                            "bh_ImproveQuality"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "ControlName"                                               "Label"
+        "fieldName"                                                 "bh_ExplainImproveQuality"
+        "xpos"                                                      "-4"
+        "ypos"                                                      "-15"
+        "zpos"                                                      "50"
+        "wide"                                                      "150"
+        "tall"                                                      "50"
+        "autoResize"                                                "0"
+        "pinCorner"                                                 "0"
+        "labeltext"                                                 "Sets the following commands: mat_phong 1, mat_bumpmap 1, mat_picmip -1"
+        "wrap"                                                      "1"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "fgcolor_override"                                          "bh_gray"
+        "image"                                                     ""
+        "paintbackgroundtype"                                       "0"
+    }
+
 	"ItemName"
 	{
         "ypos"                                                      "0"

@@ -77,59 +77,60 @@
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // The mere existence of DialogFrame causes the wiki button to not work for some reason
+    // probably maybe not true actually
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    //"DialogFrame"
-    //{
-    //    "tall"                                                      "250"
-    //
-    //    "ItemNameLabel"
-    //    {
-    //        "fgcolor_override"                                      "bh_white"
-    //    }
-    //
-    //    "FooterTopPanel"
-    //    {
-    //        "ypos"                                                  "r-6969"
-    //        "visible"                                               "0"
-    //        "enabled"                                               "0"
-    //    }
-    //
-    //    "FootBottomPanel"
-    //    {
-    //        "ypos"                                                  "r-6969"
-    //        "visible"                                               "0"
-    //        "enabled"                                               "0"
-    //    }
-    //
-    //    "DetailsView"
-    //    {
-    //        "ScrollableChild"
-    //        {
-    //            "PriceLabel"
-    //            {
-    //                "fgcolor_override"                              "bh_bgreen"
-    //            }
-    //
-    //            "AttributesLabel"
-    //            {
-    //                "fgcolor_override"                              "bh_white"
-    //            }
-    //
-    //            "ItemWikiPageButton"
-    //            {
-    //                "defaultFgColor_override"                       "bh_Theme_TextSecondary"
-    //                "armedFgColor_override"                         "bh_Theme_TextAccent"
-    //                "depressedFgColor_override"                     "bh_ButtonDepressed"
-    //                "defaultBgColor_override"                       "bh_Theme_BG20"
-    //                "armedBgColor_override"                         "bh_Theme_BG30"
-    //                "depressedBgColor_override"                     "bh_Theme_BG30"
-    //                "border_default"                                "bh_b_NESW"
-    //                "border_armed"                                  "bh_b_NESW"
-    //            }
-    //        }
-    //    }
-    //}
+    "DialogFrame"
+    {
+        "tall"                                                      "250"
+
+        "ItemNameLabel"
+        {
+            "fgcolor_override"                                      "bh_white"
+        }
+
+        "FooterTopPanel"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
+        }
+
+        "FootBottomPanel"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
+        }
+
+        "DetailsView"
+        {
+            "ScrollableChild"
+            {
+                "PriceLabel"
+                {
+                    "fgcolor_override"                              "bh_bgreen"
+                }
+
+                "AttributesLabel"
+                {
+                    "fgcolor_override"                              "bh_white"
+                }
+
+                "ItemWikiPageButton"
+                {
+                    "defaultFgColor_override"                       "bh_Theme_TextSecondary"
+                    "armedFgColor_override"                         "bh_Theme_TextAccent"
+                    "depressedFgColor_override"                     "bh_ButtonDepressed"
+                    "defaultBgColor_override"                       "bh_Theme_BG20"
+                    "armedBgColor_override"                         "bh_Theme_BG30"
+                    "depressedBgColor_override"                     "bh_Theme_BG30"
+                    "border_default"                                "bh_b_NESW"
+                    "border_armed"                                  "bh_b_NESW"
+                }
+            }
+        }
+    }
 
     "CloseButton"
     {

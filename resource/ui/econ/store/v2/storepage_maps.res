@@ -178,6 +178,30 @@
         "sound_released"                                            "UI/buttonclickrelease.wav"
     }
 
+    "classfiltertooltiplabel"
+    {
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "wide"                                                      "0"
+        "tall"                                                      "0"
+        "ControlName"                                               "CExLabel"
+        "fieldName"                                                 "ClassFilterTooltipLabel"
+        "font"                                                      "HudFontSmallBold"
+        "textAlignment"                                             "center"
+        "xpos"                                                      "36"
+        "zpos"                                                      "100"
+        "autoResize"                                                "1"
+        "pinCorner"                                                 "0"
+        "bgcolor_override"                                          "0 0 0 0"
+        "PaintBackgroundType"                                       "2"
+        "centerwrap"                                                "1"
+        "paintborder"                                               "1"
+        "textinsetx"                                                "100"
+        "border"                                                    "LoadoutItemPopupBorder"
+        "fgcolor"                                                   "243 234 216 255"
+    }
+
     "classfilternavpanel"
     {
 
@@ -807,30 +831,6 @@
             "fgcolor"                                               "117 107 94 255"
             "centerwrap"                                            "1"
         }
-    }
-
-    "classfiltertooltiplabel"
-    {
-        "ControlName"                                               "CExLabel"
-        "fieldName"                                                 "ClassFilterTooltipLabel"
-        "font"                                                      "HudFontSmallBold"
-        "textAlignment"                                             "center"
-        "xpos"                                                      "36"
-        "ypos"                                                      "170"
-        "zpos"                                                      "100"
-        "wide"                                                      "200"
-        "tall"                                                      "40"
-        "autoResize"                                                "1"
-        "pinCorner"                                                 "0"
-        "visible"                                                   "0"
-        "enabled"                                                   "1"
-        "bgcolor_override"                                          "0 0 0 0"
-        "PaintBackgroundType"                                       "2"
-        "centerwrap"                                                "1"
-        "paintborder"                                               "1"
-        "textinsetx"                                                "100"
-        "border"                                                    "LoadoutItemPopupBorder"
-        "fgcolor"                                                   "243 234 216 255"
     }
 
     "pricelabel"
