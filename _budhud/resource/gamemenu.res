@@ -33,7 +33,7 @@
         "tooltip"                                                   "jumpacademy.tf | Beginners (Chicago)"
     }
 
-    "bh_TitleHover"
+    "bh_budhudTitle"
     {
         "label"                                                     "— budhud —"
         "command"                                                   "engine con_enable 1;showconsole;clear;

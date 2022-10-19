@@ -165,10 +165,10 @@ Scheme
         //////////
         // October
         //////////
-        // "bh_menu_foreground1"                                    "255 255 255 255"   // White
-        // "bh_menu_foreground2"                                    "255 255 255 255"   // White
-        // "bh_menu_background1"                                    "124 016 173 255"   // Spooky Purple
-        // "bh_menu_background2"                                    "241 088 002 255"   // Spooky Orange
+        "bh_menu_foreground_october1"                               "255 255 255 255"   // White
+        "bh_menu_foreground_october2"                               "255 255 255 255"   // White
+        "bh_menu_background_october1"                               "124 016 173 255"   // Spooky Purple
+        "bh_menu_background_october2"                               "241 088 002 255"   // Spooky Orange
 
         ///////////
         // December
@@ -177,6 +177,14 @@ Scheme
         "bh_menu_foreground_december2"                              "255 255 255 255"   // White
         "bh_menu_background_december1"                              "194 023 023 255"   // Dark Red
         "bh_menu_background_december2"                              "060 141 013 255"   // Dark Green
+
+        ////////////
+        // Synthwave
+        ////////////
+        "bh_menu_foreground_synthwave1"                             "255 255 255 255"   // White
+        "bh_menu_foreground_synthwave2"                             "255 255 255 255"   // White
+        "bh_menu_background_synthwave1"                             "113 219 212 255"   // Andes Sky
+        "bh_menu_background_synthwave2"                             "088 167 175 255"   // Explorer Blue
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Stats Colors

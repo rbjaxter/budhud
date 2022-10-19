@@ -742,7 +742,7 @@ function Run_SetHUDLanguage
 }
 
 #################
-# Run_HUDCompiler
+# Run_DevHUDCompiler
 #################
 
 function Run_HUDCompiler
@@ -752,17 +752,17 @@ function Run_HUDCompiler
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "HUD Compiler, by @alvancamp"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==========================="
     Write-Host ""
+    Write-Host ""
 
 # Start the stopwatch so we can report how long this script took
 $StopWatch = [System.Diagnostics.Stopwatch]::StartNew()
 
 # Remove existing compiled output
-Remove-Item -LiteralPath "resource" -Force -Recurse -ErrorAction Ignore
-Remove-Item -LiteralPath "scripts" -Force -Recurse -ErrorAction Ignore
+Remove-Item -LiteralPath "_compiled" -Force -Recurse -ErrorAction Ignore
 
 # Run the compiler on the resource folder
 Write-Output "Compiling resource & scripts..."
-.\budhud-compiler.exe -s -w -t "_budhud/resource","_budhud/scripts" -i "#dev/resource","#dev/scripts" -o "resource","scripts"
+.\budhud-compiler.exe -s -w -t "_budhud/resource","_budhud/scripts" -i "resource","scripts" -o "_compiled/resource","_compiled/scripts"
 if ($lastexitcode -ne 0) {
     Read-Host -Prompt "Compilation failed, press Enter to exit"
     exit
@@ -815,6 +815,11 @@ do
             Run_HUDCompiler
         }
 
+        "6"
+        {
+            Run_DevHUDCompiler
+        }
+
         "?"
         {
             Write-Host ""
@@ -842,6 +847,13 @@ do
             Write-Host "Type the name of the language and the appropriate chat file will be automatically copied over."
             Write-Host ""
             Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "5. HUD Compiler"
+            Write-Host -foregroundcolor "Yellow" "The resource and scripts folder will be replaced"
+            Write-Host "Created by @alvancamp on Github, the HUD compiler is used to compile as many #base directives in budhud as possible."
+            Write-Host "In simpler terms, this merges all _budhud and _tf2hud files into single files that are then placed in resource and scripts"
+            Write-Host "After initial compilation is complete, the script will then watch for changes made in _budhud and then recompile as necessary"
+            Write-Host "Please see his GitHub repository here for more information: https://github.com/alvancamp/budhud-compiler"
+            Write-Host ""
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "6. HUD Compiler"
             Write-Host -foregroundcolor "Yellow" "The resource and scripts folder will be replaced"
             Write-Host "Created by @alvancamp on Github, the HUD compiler is used to compile as many #base directives in budhud as possible."
             Write-Host "In simpler terms, this merges all _budhud and _tf2hud files into single files that are then placed in resource and scripts"

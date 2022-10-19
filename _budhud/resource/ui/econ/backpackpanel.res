@@ -92,7 +92,7 @@
     {
         "xpos"                                                      "c-287"
         "ypos"                                                      "37"
-        "wide"                                                      "95"
+        "wide"                                                      "110"
         "tall"                                                      "15"
         "bgcolor_override"                                          "bh_white"
         "fgcolor_override"                                          "bh_black"
@@ -104,7 +104,7 @@
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
 
-        "xpos"                                                      "-100"
+        "xpos"                                                      "-117"
         "ypos"                                                      "3"
 
         "wide"                                                      "100"
@@ -117,7 +117,7 @@
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
 
-        "xpos"                                                      "-197"
+        "xpos"                                                      "-214"
         "ypos"                                                      "0"
 
         "ControlName"                                               "CExImageButton"
@@ -157,7 +157,7 @@
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
 
-        "xpos"                                                      "-308"
+        "xpos"                                                      "-318"
         "ypos"                                                      "0"
 
         "wide"                                                      "150"
