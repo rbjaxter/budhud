@@ -1,6 +1,0 @@
-	#base	"../../../#users/custom/resource/ui/huddemomanpipes.res"
-	#base	"../../../#users/ly_dee/resource/ui/huddemomanpipes.res"
-	#base	"../../../#users/jayhyunpae/resource/ui/huddemomanpipes.res"
-	#base	"../../../_stream/resource/ui/huddemomanpipes.res"
-	#base	"../../../_budhud/resource/ui/huddemomanpipes.res"
-	#base	"../../../_tf2hud/resource/ui/huddemomanpipes.res"
