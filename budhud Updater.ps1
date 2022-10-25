@@ -1,4 +1,6 @@
-# budhud HUD Updater and Error Checker
+# To run this shell script, right click the file > select "Run with PowerShell"
+
+# budhud Updater
 # Made by Whisker to learn PS with MAJOR assistance from sheybey & Revan
 # (9/2/21) Modified by sheybey to remove dependencies
 # (10/6/22) HUD compiler created by Lange
@@ -10,9 +12,9 @@
 function Options_Menu
 {
     Clear-Host
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================================"
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "budhud Updater and Error Checker"
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================================"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=============="
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "budhud Updater"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=============="
     Write-Host -foregroundcolor "White" "This PowerShell script can be used to perform a few different tasks seen below."
     Write-Host -foregroundcolor "White" "Please type ? for an explanation of these options if you're not certain!"
     Write-Host ""
@@ -24,6 +26,7 @@ function Options_Menu
     Write-Host "3: Download latest files from Github"
     Write-Host "4: Set HUD language"
     Write-Host "5: HUD Compiler"
+    Write-Host "6: Revert HUD Compile"
     Write-Host "?: Help with these options"
     Write-Host "Q: Quit"
     Write-Host ""
@@ -57,10 +60,10 @@ function Maybe_Path
 
 # budhud (this script's folder)
 $budhud = Resolve-Path "$PSScriptRoot"
-# ..\Team Fortress 2\tf
-$tf = Maybe_Path $budhud "..\.."
+# ../Team Fortress 2/tf
+$tf = Maybe_Path $budhud "../.."
 # vpk.exe shipped with TF2 (used for unpacking the game's default hud)
-$vpk = Maybe_Path $tf "..\bin\vpk.exe"
+$vpk = Maybe_Path $tf "../bin/vpk.exe"
 
 # in case someone typed out the script name from a prompt, cd to budhud's folder
 Set-Location "$budhud"
@@ -153,6 +156,7 @@ function Check_TF2Running
 
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
         Write-Host -foregroundcolor "White" "Close TF2 before using this script again"
+        Write-Host ""
         Break
     }
 
@@ -191,7 +195,7 @@ function Check_UpdateFiles_DefaultHUD
 
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
         Write-Host -foregroundcolor "White" "Verify that the hud is installed correctly."
-        Write-Host -foregroundcolor "White" "Expected location: ..\Team Fortress 2\custom\budhud\HUD Updater and Error Checker.ps1"
+        Write-Host -foregroundcolor "White" "Expected location: ../Team Fortress 2/custom/budhud/HUD Updater and Error Checker.ps1"
         Write-Host ""
         Break
     }
@@ -261,15 +265,15 @@ function Check_HUDFiles
 
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
         Write-Host -foregroundcolor "White" "Verify that there are not two budhud-master folders inside of each other"
-        Write-Host -foregroundcolor "Red" "WRONG: ..\tf\custom\budhud-master\budhud-master\"
-        Write-Host -foregroundcolor "Green" "RIGHT: ..\tf\custom\budhud-master\"
+        Write-Host -foregroundcolor "Red" "WRONG: ../tf/custom/budhud-master/budhud-master/"
+        Write-Host -foregroundcolor "Green" "RIGHT: ../tf/custom/budhud-master/"
         Write-Host ""
         Break
     }
 
     # Check for hl2.exe file
     Write-Host -foregroundcolor "White" -NoNewLine "Checking for hl2.exe... "
-    $hl2 = Maybe_Path $tf "..\hl2.exe"
+    $hl2 = Maybe_Path $tf "../hl2.exe"
 
     If
     (
@@ -318,7 +322,7 @@ function Check_HUDFiles
         Write-Host ""
 
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
-        Write-Host -foregroundcolor "White" "Verify that info.vdf (located in ..\custom\budhud) was not deleted when you installed the hud"
+        Write-Host -foregroundcolor "White" "Verify that info.vdf (located in ../custom/budhud) was not deleted when you installed the hud"
         Write-Host ""
         Break
     }
@@ -328,7 +332,7 @@ function Check_HUDFiles
 
     If
     (
-        Test-Path -Path "_tf2hud\*"
+        Test-Path -Path "_tf2hud/*"
     )
 
     {
@@ -362,7 +366,6 @@ function Run_InstallTroubleshooter
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Checking Installation"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "====================="
     Write-Host -foregroundcolor "White" "This function will check for common installation problems and provide a potential solution"
-    Write-Host ""
     Write-Host ""
 
     If
@@ -419,16 +422,16 @@ function Run_ExtractDefaultHUD
 
     # Delete old folder
     Write-Host -foregroundcolor "White" -NoNewLine "Deleting _tf2hud folder..."
-    Remove-Item $PSScriptRoot\_tf2hud -ErrorAction SilentlyContinue -recurse
+    Remove-Item $PSScriptRoot/_tf2hud -ErrorAction SilentlyContinue -recurse
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
     # Make new folders
     Write-Host -foregroundcolor "White" -NoNewLine "Making new _tf2hud folders..."
-    New-Item -Path $PSScriptRoot\_tf2hud\resource -Name "ui" -ItemType "Directory" > $null
-    New-Item -Path $PSScriptRoot\_tf2hud -Name "scripts" -ItemType "Directory" > $null
+    New-Item -Path $PSScriptRoot/_tf2hud/resource -Name "ui" -ItemType "Directory" > $null
+    New-Item -Path $PSScriptRoot/_tf2hud -Name "scripts" -ItemType "Directory" > $null
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
-    $misc_dir = Resolve-Path "..\..\tf2_misc_dir.vpk"
+    $misc_dir = Resolve-Path "../../tf2_misc_dir.vpk"
 
     # Extract from game hud files
     Write-Host -foregroundcolor "White" -NoNewLine "Extracting default game files..."
@@ -441,7 +444,7 @@ function Run_ExtractDefaultHUD
 
     # Copy files that cannot be extracted from TF2 core files
     Write-Host -foregroundcolor "White" -NoNewLine "Copy necessary platform files..."
-    Copy-Item "$PSScriptRoot\#dev\sourceschemebase.res" -Destination "$PSScriptRoot\_tf2hud\resource\sourceschemebase.res"
+    Copy-Item "$PSScriptRoot/#dev/sourceschemebase.res" -Destination "$PSScriptRoot/_tf2hud/resource/sourceschemebase.res"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
     # Remove various modifiers (OSX, X360, _minmode, _lodef, _hidef, and if_ lines.)
@@ -453,44 +456,45 @@ function Run_ExtractDefaultHUD
         # get-content splits into lines. parens cause the entire file to be read into memory
         (Get-Content $file.FullName) |
         # string replace operators use regular expression matching
-        ForEach-Object {$_ -ireplace '\$OSX|\$X360|_minmode|_lodef|_hidef|if_', '$$_disabled_'} |
+        ForEach-Object {$_ -ireplace '/$OSX|/$X360|_minmode|_lodef|_hidef|if_', '$$_disabled_'} |
         Set-Content $file.FullName
         $i += 1
     }
-    Write-Progress -Activity "Modifying files" -Completed
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
     # Update all non-translated language files to chat_default.txt to prevent users of those languages from seeing broken language tokens
     Write-Host -foregroundcolor "White" -NoNewLine "Updating language files..."
-    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_bulgarian.txt"
-    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_czech.txt"
-    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_danish.txt"
-    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_dutch.txt"
-    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_finnish.txt"
-    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_greek.txt"
-    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_hungarian.txt"
-    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_japanese.txt"
-    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_korean.txt"
-    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_polish.txt"
-    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_portuguese.txt"
-    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_swedish.txt"
-    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_thai.txt"
-    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_turkish.txt"
-    Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_ukrainian.txt"
+    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_bulgarian.txt"
+    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_czech.txt"
+    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_danish.txt"
+    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_dutch.txt"
+    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
+    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_finnish.txt"
+    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_greek.txt"
+    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_hungarian.txt"
+    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_japanese.txt"
+    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_korean.txt"
+    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_polish.txt"
+    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_portuguese.txt"
+    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_swedish.txt"
+    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_thai.txt"
+    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_turkish.txt"
+    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_ukrainian.txt"
 
     # The below files have been translated, but this code is left here for reference
-    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_brazilian.txt"
-    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_french.txt"
-    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_german.txt"
-    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_italian.txt"
-    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_norwegian.txt"
-    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_romanian.txt"
-    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_russian.txt"
-    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_schinese.txt"
-    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_spanish.txt"
-    # Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_tchinese.txt"
+    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_brazilian.txt"
+    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_french.txt"
+    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_german.txt"
+    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_italian.txt"
+    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_norwegian.txt"
+    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_romanian.txt"
+    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_russian.txt"
+    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_schinese.txt"
+    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_spanish.txt"
+    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_tchinese.txt"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+
+    Write-Progress -Activity "Modifying files" -Completed
 
     Write-Host ""
     Write-Host ""
@@ -568,11 +572,11 @@ function Run_UpdateFromGitHub
             Remove-Variable "zip"
 
             Write-Host -foregroundcolor "White" -NoNewLine "Moving folders and files out of extracted zip..."
-            Copy-Item -Path .\budhud-master\* -Destination $PSScriptRoot -Force -Recurse
+            Copy-Item -Path ./budhud-master/* -Destination $PSScriptRoot -Force -Recurse
             Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
             Write-Host -foregroundcolor "White" -NoNewLine "Removing folders and files used in the process.."
-            Remove-Item ".\budhud-master" -ErrorAction SilentlyContinue -Recurse
+            Remove-Item "./budhud-master" -ErrorAction SilentlyContinue -Recurse
             Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
             Write-Host ""
@@ -610,7 +614,7 @@ function Run_SetHUDLanguage
     Write-Host ""
 
     # Check for chat_default.txt file
-    $chat_default = Maybe_Path $budhud "resource\chat_default.txt"
+    $chat_default = Maybe_Path $budhud "resource/chat_default.txt"
 
     If
     (
@@ -631,7 +635,7 @@ function Run_SetHUDLanguage
         Write-Host ""
 
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
-        Write-Host -foregroundcolor "White" "Please ensure you have all of the chat_ language files located in budhud\resource before proceeding"
+        Write-Host -foregroundcolor "White" "Please ensure you have all of the chat_ language files located in budhud/resource before proceeding"
         Write-Host -foregroundcolor "White" "chat_default.txt, chat_english.txt, etc"
         Write-Host ""
         Break
@@ -656,6 +660,8 @@ function Run_SetHUDLanguage
     Write-Host "Simplified Chinese"
     Write-Host "Spanish"
     Write-Host "Traditional Chinese"
+    Write-Host ""
+    Write-Host "Or, type Quit"
 
     Write-Host ""
     Write-Host ""
@@ -666,77 +672,65 @@ function Run_SetHUDLanguage
     {
         "Brazilian"
         {
-            Copy-Item "$PSScriptRoot\resource\chat_brazilian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
+            Copy-Item "$PSScriptRoot/resource/chat_brazilian.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
         "English"
         {
-            Copy-Item "$PSScriptRoot\resource\chat_default.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
+            Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
         "French"
         {
-            Copy-Item "$PSScriptRoot\resource\chat_french.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
+            Copy-Item "$PSScriptRoot/resource/chat_french.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
         "German"
         {
-            Copy-Item "$PSScriptRoot\resource\chat_german.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
+            Copy-Item "$PSScriptRoot/resource/chat_german.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
         "Italian"
         {
-            Copy-Item "$PSScriptRoot\resource\chat_italian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
+            Copy-Item "$PSScriptRoot/resource/chat_italian.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
         "Norwegian"
         {
-            Copy-Item "$PSScriptRoot\resource\chat_norwegian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
+            Copy-Item "$PSScriptRoot/resource/chat_norwegian.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
         "Romanian"
         {
-            Copy-Item "$PSScriptRoot\resource\chat_romanian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
+            Copy-Item "$PSScriptRoot/resource/chat_romanian.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
         "Russian"
         {
-            Copy-Item "$PSScriptRoot\resource\chat_russian.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
+            Copy-Item "$PSScriptRoot/resource/chat_russian.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
         "Simplified Chinese"
         {
-            Copy-Item "$PSScriptRoot\resource\chat_schinese.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
+            Copy-Item "$PSScriptRoot/resource/chat_schinese.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
         "Spanish"
         {
-            Copy-Item "$PSScriptRoot\resource\chat_spanish.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
+            Copy-Item "$PSScriptRoot/resource/chat_spanish.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
         "Traditional Chinese"
         {
-            Copy-Item "$PSScriptRoot\resource\chat_tchinese.txt" -Destination "$PSScriptRoot\resource\chat_english.txt"
-            Complete_SetLanguage
+            Copy-Item "$PSScriptRoot/resource/chat_tchinese.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
+        }
+
+        "Quit"
+        {
+            Options_Menu
         }
     }
-}
-######################
-# Complete_SetLanguage
-######################
 
-function Complete_SetLanguage
-{
     Write-Host ""
     Write-Host ""
 
@@ -755,70 +749,139 @@ function Complete_SetLanguage
 function Run_HUDCompiler
 {
     Clear-Host
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "========================="
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "HUD Compiler, by a friend"
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "========================="
-    Write-Host -foregroundcolor "White" ""
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==========================="
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "HUD Compiler, by @alvancamp"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==========================="
+    Write-Host -foregroundcolor "White" "Please note after doing this that you must now either:"
+    Write-Host -foregroundcolor "White" "A. Make future hud changes directly in the resource and scripts folders"
+    Write-Host -foregroundcolor "White" "B. Run this compiler any time you make changes outside of the resource and scripts folders"
+    Write-Host -foregroundcolor "White" "Given this, compiling the hud is best suited for those who are happy with the current state of their HUD."
+    Write-Host ""
     Write-Host ""
 
-# Remove existing compiled output
-Remove-Item -LiteralPath "resource_compiled" -Force -Recurse -ErrorAction Ignore
-Remove-Item -LiteralPath "scripts_compiled" -Force -Recurse -ErrorAction Ignore
+# Start the stopwatch so we can report how long this script took
+$StopWatch = [System.Diagnostics.Stopwatch]::StartNew()
 
-# Process all files in the resource folder
-Get-ChildItem -Path resource -Recurse -File -Name| ForEach-Object {
-    # Get the directory of the file to output
-    $outputDir = Split-Path -Path "resource_compiled/$_"
+$resource_backup = "$PSScriptRoot/#dev/resource_backup"
+$scripts_backup = "$PSScriptRoot/#dev/scripts_backup"
 
-    # Make the full path (including all intermediate directories) if they don't exist
-    mkdir $outputDir -ea 0  > $null
+# Look for existing backup
+if ((Test-Path -LiteralPath $resource_backup) -or (Test-Path -LiteralPath $scripts_backup))
+    {
+        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Backup of resource and scripts found."
+        Write-Host -foregroundcolor "White" "These can be found in #dev/resource_backup and #dev/scripts_backup if you need to revert after compiling."
+        Write-Host -foregroundcolor "White" "There is also a script in this menu you can use instead."
+        Write-Host ""
 
-    # If the file is a .res file, compile it. Else, copy it.
-    $extn = [IO.Path]::GetExtension($_)
-    if ($extn -eq ".res") {
-        Write-Output "Compiling resource\$_"
-
-        # Run the compiler on the file
-        .\budhud-compiler.exe -s -i "resource/$_" -o "resource_compiled/$_"
-
-        if ($lastexitcode -ne 0) {
-            Read-Host -Prompt "Compilation failed, press Enter to exit"
-            exit
-        }
-    } else {
-        Write-Output "Copying resource\$_"
-
-        Copy-Item "resource/$_" -Destination "resource_compiled/$_"
+        # Copy backups to main directory due to relative base lines
+        Copy-Item -LiteralPath "$resource_backup" -Destination "$PSScriptRoot" -Force -Recurse
+        Copy-Item -LiteralPath "$scripts_backup" -Destination "$PSScriptRoot" -Force -Recurse
     }
+
+else
+    {
+        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Backup files not found, creating a backup."
+
+        # Create backup of resource and scripts files
+        New-Item -Path "$resource_backup" -itemType Directory
+        New-Item -Path "$scripts_backup" -itemType Directory
+        Copy-Item -Path "$PSScriptRoot/resource/*" -Destination "$resource_backup" -Force -Recurse
+        Copy-Item -Path "$PSScriptRoot/scripts/*" -Destination "$scripts_backup" -Force -Recurse
+
+        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Backup of resource and scripts created."
+        Write-Host -foregroundcolor "White" "These can be found in #dev/resource_backup and #dev/scripts_backup if you need to revert after compiling."
+        Write-Host ""
+
+        # Copy backups to main directory due to relative base lines
+        Copy-Item -Path "$resource_backup" -Destination "$PSScriptRoot" -Force -Recurse
+        Copy-Item -Path "$scripts_backup" -Destination "$PSScriptRoot" -Force -Recurse
+    }
+
+    # Remove existing compiled output
+    Remove-Item -LiteralPath "resource" -Force -Recurse -ErrorAction Ignore
+    Remove-Item -LiteralPath "scripts" -Force -Recurse -ErrorAction Ignore
+
+    # Run the compiler
+    Write-Output "Compiling resource & scripts..."
+    ./budhud-compiler.exe -s -i "resource_backup","scripts_backup" -o "resource","scripts"
+
+    # Compiler and file watcher
+    #./budhud-compiler.exe -s -w -t "_budhud/resource","_budhud/scripts" -i "resource_backup","scripts_backup" -o "resource","scripts"
+    if ($lastexitcode -ne 0) {
+        Read-Host -Prompt "Compilation failed, press Enter to exit"
+        exit
+    }
+
+    # Remove duplicate backup files after compiling is complete
+    Remove-Item -LiteralPath "$PSScriptRoot/resource_backup" -Force -Recurse -ErrorAction Ignore
+    Remove-Item -LiteralPath "$PSScriptRoot/scripts_backup" -Force -Recurse -ErrorAction Ignore
+
+$StopWatch.Stop();
+    Write-Host ""
+    Write-Host ""
+
+    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "===================="
+    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Compilation Complete"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "===================="
+
+    Write-Host "Completed in $($StopWatch.Elapsed.TotalSeconds) seconds."
 }
 
-# Process all files in the scripts folder
-Get-ChildItem -Path scripts -Recurse -File -Name| ForEach-Object {
-    # Get the directory of the file to output
-    $outputDir = Split-Path -Path "scripts_compiled/$_"
+######################
+# Run_RevertHUDCompile
+######################
 
-    # Make the full path (including all intermediate directories) if they don't exist
-    mkdir $outputDir -ea 0  > $null
+function Run_RevertHUDCompile
+{
+    Clear-Host
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Revert HUD Compile"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
+    Write-Host -foregroundcolor "White" "Please note that this will get rid of any customizations you've made"
+    Write-Host -foregroundcolor "White" "within your resource and scripts folders after compiling."
+    Write-Host -foregroundcolor "White" "Customizations made elsewhere (#customization, #users, _budhud, etc) will be unaffected."
+    Write-Host ""
+    Write-Host -foregroundcolor "White" -backgroundcolor "Yellow" "==================================="
+    Write-Host -foregroundcolor "White" "Would you like to continue? [Y / N]"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Yellow" "==================================="
+    Write-Host ""
+    Write-Host ""
 
-    # Compile the two files in the scripts folder that need it. All other files are copied.
-    if ($_.EndsWith("hudlayout.res") -or $_.EndsWith("mod_textures.txt")) {
-        Write-Output "Compiling scripts\$_"
-
-        # Run the compiler on the file
-        .\budhud-compiler.exe -s -i "scripts/$_" -o "scripts_compiled/$_"
-
-        if ($lastexitcode -ne 0) {
-            Read-Host -Prompt "Compilation failed, press Enter to exit"
-            exit
-        }
-    } else {
-        Write-Output "Copying scripts\$_"
-
-        Copy-Item "scripts/$_" -Destination "scripts_compiled/$_"
+    $response = Read-Host
+    if ($response -ne "Y")
+    {
+        Break
+        Options_Menu
     }
-}
 
-Read-Host -Prompt "Compilation complete, press Enter to exit"
+$resource_backup = "$PSScriptRoot/#dev/resource_backup"
+$scripts_backup = "$PSScriptRoot/#dev/scripts_backup"
+
+if ((Test-Path -Path $resource_backup) -or (Test-Path -Path $scripts_backup))
+    {
+        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Backup of resource and scripts found."
+
+        # Delete compiled files
+        Remove-Item -LiteralPath "$PSScriptRoot/resource" -Force -Recurse -ErrorAction Ignore
+        Remove-Item -LiteralPath "$PSScriptRoot/scripts" -Force -Recurse -ErrorAction Ignore
+
+        # Copy backups to main directory
+        Rename-Item -Path "$PSScriptRoot/#dev/resource_backup" -NewName "resource"
+        Rename-Item -Path "$PSScriptRoot/#dev/scripts_backup" -NewName "scripts"
+        Move-Item -Path "$PSScriptRoot/#dev/resource" -Destination "$PSScriptRoot" -Force
+        Move-Item -Path "$PSScriptRoot/#dev/scripts" -Destination "$PSScriptRoot" -Force
+    }
+
+else
+    {
+        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Backup files not found"
+        Write-Host -foregroundcolor "White" "The backup folders could not be found in #dev."
+        Write-Host -foregroundcolor "White" "You will need to download the latest resource and scripts folders"
+        Write-Host -foregroundcolor "White" "from Github: github.com/rbjaxter/budhud"
+        Write-Host -foregroundcolor "White" "Note that you should be able to just copy the latest resource and scripts"
+        Write-Host -foregroundcolor "White" "folders from GitHub with no issues."
+        Break
+    }
 }
 
 ##############
@@ -857,30 +920,56 @@ do
             Run_HUDCompiler
         }
 
+        "6"
+        {
+            Run_RevertHUDCompile
+        }
+
         "?"
         {
             Write-Host ""
-            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Check HUD Installation"
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "1. Check HUD Installation"
+            Write-Host -foregroundcolor "Green" "No files will be deleted or replaced"
             Write-Host "This will check for common installation issues and provide a potential solution if one exists."
             Write-Host ""
-            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Update & Modify Default HUD Files"
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "2. Update & Modify Default HUD Files"
+            Write-Host -foregroundcolor "Yellow" "The _tf2hud folder will be deleted and replaced"
             Write-Host "This will update your _tf2hud files with TF2's latest default hud files, as well as make a few HUD file modifications."
             Write-Host "This is handy in case there's a TF2 option, though it will require you to have launched the game after having the update patch downloaded."
-            Write-Host "I run this script before I push commits/changes to the HUD. It's nifty :)"
-            Write-Host "There will be no risk of losing HUD changes doing this option unless you've modified files within the _tf2hud folder"
-            Write-Host "Any changes you made in _tf2hud will be deleted. This is why you should never edit anything in _tf2hud."
+            Write-Host "I run this script before I push commits/changes to the HUD. It's nifty :)."
+            Write-Host "There will be no risk of losing HUD changes doing this option unless you've modified files within the _tf2hud folder."
+            Write-Host "Any changes you made in _tf2hud will be deleted. This is why you should never edit anything in _tf2hud!"
             Write-Host ""
-            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Update Files from GitHub"
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "3. Update Files from GitHub"
+            Write-Host -foregroundcolor "Red" "Any file that originally existed in the HUD will be overwritten/replaced"
             Write-Host "This will download the latest version of budhud from GitHub and add/overwrite any files that are changed/added."
-            Write-Host "Please note the warnings that are provided when you choose this option if you have made customizations to the hud."
+            Write-Host "This is essentially like deleting your custom HUD and then manually downloading and extracting it from GitHub."
+            Write-Host "Please note, though, that this will not delete files you've added to the HUD yourself (such as to #users/custom)."
             Write-Host ""
-            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Set HUD Language"
-            Write-Host "If an alternative language is supported, it will be in the list."
-            Write-Host "Type the name of the language and the appropriate file will be copied over."
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "4. Set HUD Language"
+            Write-Host -foregroundcolor "Green" "No files will be deleted or replaced"
+            Write-Host "If an alternative language is available, you can set the HUD to use this language instead."
+            Write-Host "Type the name of the language and the appropriate chat file will be automatically copied over."
+            Write-Host ""
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "5. HUD Compiler"
+            Write-Host -foregroundcolor "Yellow" "The resource and scripts folder will be replaced"
+            Write-Host "Created by @alvancamp on Github, the HUD compiler is used to compile as many #base directives in budhud as possible."
+            Write-Host "In simpler terms, this merges all _budhud and _tf2hud files (as well as any enabled customizations) into single files"
+            Write-Host "that are then placed in resource and scripts."
+            Write-Host "Please see his GitHub repository here for more information: https://github.com/alvancamp/budhud-compiler"
+            Write-Host ""
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "6. Revert HUD Compile"
+            Write-Host -foregroundcolor "Yellow" "The resource and scripts folder will be replaced"
+            Write-Host "This script replaces your compiled resource and scripts folders with the backups created when you originally compiled"
+            Write-Host "Effectively, this returns the HUD to where it was before compiling."
             Write-Host ""
         }
-    }
 
+        "Q"
+        {
+            Exit
+        }
+    }
     pause
 }
 until ($selection -eq 'q')

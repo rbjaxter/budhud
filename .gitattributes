@@ -4,4 +4,3 @@
 # Keep these filetypes binary
 *.png binary
 *.jpg binary
-*.exe filter=lfs diff=lfs merge=lfs -text

@@ -44,6 +44,9 @@
             "bgcolor_override"                                      "bh_Theme_BG20"
             "textalignment"                                         "center"
             "PaintBackgroundType"                                   "0"
+            "enabled"                                               "0"
+            "disabledfgcolor2_override"                             "bh_white"
+            "font"                                                  "bh_Font8"
         }
 
         "attriblabel"

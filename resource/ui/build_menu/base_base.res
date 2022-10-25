@@ -1,4 +1,4 @@
-	#base	"..\..\..\#users\custom\resource\ui\build_menu\base_base.res"
-	#base	"..\..\..\_stream\resource\ui\build_menu\base_base.res"
-	#base	"..\..\..\_budhud\resource\ui\build_menu\base_base.res"
-	#base	"..\..\..\_tf2hud\resource\ui\build_menu\base_base.res"
+	#base	"../../../#users/custom/resource/ui/build_menu/base_base.res"
+	#base	"../../../_stream/resource/ui/build_menu/base_base.res"
+	#base	"../../../_budhud/resource/ui/build_menu/base_base.res"
+	#base	"../../../_tf2hud/resource/ui/build_menu/base_base.res"
