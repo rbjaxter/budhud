@@ -76,13 +76,33 @@
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // The mere existence of DialogFrame causes the wiki button to not work for some reason
-    // probably maybe not true actually
+    // If you do not include BgPanel below, it will mask over your UI, effectively dimming everything
+    // and not allowing you to click the wiki page button
     ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    "BgPanel"
+    {
+    }
 
     "DialogFrame"
     {
+        "xpos"                                                      "cs-0.5"
+        "ypos"                                                      "cs-0.63"
+        "wide"                                                      "500"
         "tall"                                                      "250"
+        "border"                                                    "bh_b_NESW"
+        "bgcolor_override"                                          "bh_Theme_BG20"
+        "paintbackground"                                           "1"
+
+        "PreviewViewportBg"
+		{
+            "xpos"                                                  "20"
+            "ypos"                                                  "20"
+            "wide"                                                  "215"
+            "tall"                                                  "220"
+            "bgcolor_override"                                      "bh_Theme_BG00"
+            "paintborder"                                           "0"
+        }
 
         "ItemNameLabel"
         {
@@ -105,6 +125,8 @@
 
         "DetailsView"
         {
+            "zpos"                                                  "20"
+
             "ScrollableChild"
             {
                 "PriceLabel"
@@ -129,6 +151,159 @@
                     "border_armed"                                  "bh_b_NESW"
                 }
             }
+        }
+    }
+
+    "PreviewItemModelPanel"
+	{
+		"model_xpos"	"10"
+		"model_ypos"	"10"
+		"model_wide"	"200"
+		"model_tall"	"200"
+
+        "itemmodelpanel"
+		{
+            "antialias"                                             "1"
+            "inventory_image_type"                                  "1"
+            "use_item_rendertarget"                                 "0"
+        }
+    }
+
+    "ItemIcon1"
+	{
+        "panel_bgcolor"                                             "bh_gray"
+		"panel_bgcolor_mouseover"                                   "bh_orange"
+
+        "itempanel"
+        {
+            "itemmodelpanel"
+            {
+                "antialias"                                         "1"
+                "inventory_image_type"                              "1"
+                "use_item_rendertarget"                             "0"
+            }
+        }
+    }
+
+    "ItemIcon2"
+	{
+        "panel_bgcolor"                                             "bh_gray"
+		"panel_bgcolor_mouseover"                                   "bh_orange"
+
+        "itempanel"
+        {
+            "itemmodelpanel"
+            {
+                "antialias"                                         "1"
+                "inventory_image_type"                              "1"
+                "use_item_rendertarget"                             "0"
+            }
+        }
+    }
+
+    "ItemIcon3"
+	{
+        "panel_bgcolor"                                             "bh_gray"
+		"panel_bgcolor_mouseover"                                   "bh_orange"
+
+        "itempanel"
+        {
+            "itemmodelpanel"
+            {
+                "antialias"                                         "1"
+                "inventory_image_type"                              "1"
+                "use_item_rendertarget"                             "0"
+            }
+        }
+    }
+
+    "ItemIcon4"
+	{
+        "panel_bgcolor"                                             "bh_gray"
+		"panel_bgcolor_mouseover"                                   "bh_orange"
+
+        "itempanel"
+        {
+            "itemmodelpanel"
+            {
+                "antialias"                                         "1"
+                "inventory_image_type"                              "1"
+                "use_item_rendertarget"                             "0"
+            }
+        }
+    }
+
+    "ItemIcon5"
+	{
+        "itempanel"
+        {
+            "itemmodelpanel"
+            {
+                "antialias"                                         "1"
+                "inventory_image_type"                              "1"
+                "use_item_rendertarget"                             "0"
+            }
+        }
+    }
+
+    "ClassUsageImage1"
+	{
+        "panel_bgcolor"                                             "bh_gray"
+		"panel_bgcolor_mouseover"                                   "bh_orange"
+    }
+
+    "ClassUsageImage2"
+	{
+        "panel_bgcolor"                                             "bh_gray"
+		"panel_bgcolor_mouseover"                                   "bh_orange"
+    }
+
+    "ClassUsageImage3"
+	{
+        "panel_bgcolor"                                             "bh_gray"
+		"panel_bgcolor_mouseover"                                   "bh_orange"
+    }
+
+    "ClassUsageImage4"
+	{
+        "panel_bgcolor"                                             "bh_gray"
+		"panel_bgcolor_mouseover"                                   "bh_orange"
+    }
+
+    "ClassUsageImage5"
+	{
+        "panel_bgcolor"                                             "bh_gray"
+		"panel_bgcolor_mouseover"                                   "bh_orange"
+    }
+
+    "ClassUsageImage6"
+	{
+        "panel_bgcolor"                                             "bh_gray"
+		"panel_bgcolor_mouseover"                                   "bh_orange"
+    }
+
+    "RotLeftButton"
+	{
+        "font"                                                      "bh_Font20"
+        "defaultFgColor_override"                                   "bh_Theme_TextSecondary"
+        "armedFgColor_override"                                     "bh_Theme_TextAccent"
+        "depressedFgColor_override"                                 "bh_Theme_TextAccent"
+    }
+
+    "RotRightButton"
+	{
+        "font"                                                      "bh_Font20"
+        "defaultFgColor_override"                                   "bh_Theme_TextSecondary"
+        "armedFgColor_override"                                     "bh_Theme_TextAccent"
+        "depressedFgColor_override"                                 "bh_Theme_TextAccent"
+    }
+
+    "classmodelpanel"
+    {
+        "wide"                                                      "215"
+        "model"
+		{
+            "origin_z"                                              "-40"
         }
     }
 

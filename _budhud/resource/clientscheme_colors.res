@@ -138,7 +138,7 @@ Scheme
 
         "bh_meterfg"                                                "254 002 209 255"
         "bh_meterbg"                                                "254 002 209 255"
-        "bh_metertext"                                              "254 002 209 255"
+        "bh_metertext"                                              "000 000 000 255"   // disabledfgcolor2_override color
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Menu Colors
@@ -333,9 +333,6 @@ Scheme
 
     BaseSettings
     {
-        // TargetDataLabel color when enabled 0/visible 1
-        "disabledfgcolor2_override"                                 "255 255 255 255"
-
         // Saving for future consideration
         "MenuBoxBg"                                                 "0 0 0 100"
 
@@ -393,8 +390,8 @@ Scheme
         CheckButton.TextColor                                       "bh_white"
         CheckButton.SelectedTextColor                               "bh_white"
         CheckButton.BgColor                                         "bh_white"
-        CheckButton.Border1                                         "bh_white"          // Left
-        CheckButton.Border2                                         "bh_white"          // Right
+        CheckButton.Border1                                         "bh_black"          // Left
+        CheckButton.Border2                                         "bh_black"          // Right
         CheckButton.Check                                           "bh_black"          // Color of the check itself
         CheckButton.HighlightFgColor                                "bh_white"
     }

@@ -1109,9 +1109,8 @@
         "defaultFgColor_override"                                   "bh_shadow"
         "armedFgColor_override"                                     "bh_shadow"
         "paintbackground"                                           "0"
-
-        "sound_depressed"                                           "UI/buttonclick.wav"
-        "sound_released"                                            "UI/buttonclickrelease.wav"
+        "sound_depressed"                                           "ui/scored.wav"
+        "sound_released"                                            "ui/scored.wav"
     }
 
     "RankPanel"
@@ -1931,6 +1930,68 @@
                 "visible"                                           "1"
                 "enabled"                                           "1"
                 "image"                                             "replay\thumbnails\menu_icons\taunts"
+                "scaleImage"                                        "1"
+            }
+        }
+    }
+
+    "bh_badhud"
+    {
+        "ControlName"                                               "EditablePanel"
+        "fieldname"                                                 "bh_badhud"
+        "xpos"                                                      "r69"
+        "ypos"                                                      "r69"
+        "wide"                                                      "420"
+        "tall"                                                      "420"
+        "visible"                                                   "1"
+
+        "SubButton"
+        {
+            "ControlName"                                           "CExImageButton"
+            "fieldName"                                             "SubButton"
+            "xpos"                                                  "0"
+            "ypos"                                                  "0"
+            "wide"                                                  "2"
+            "tall"                                                  "2"
+            "autoResize"                                            "0"
+            "pinCorner"                                             "3"
+            "visible"                                               "1"
+            "enabled"                                               "1"
+            "tabPosition"                                           "0"
+            "textinsetx"                                            "100"
+            "use_proportional_insets"                               "1"
+            "font"                                                  "bh_Font12"
+            "textAlignment"                                         "west"
+            "dulltext"                                              "0"
+            "brighttext"                                            "0"
+            "default"                                               "1"
+            "sound_depressed"                                       "UI/scored.wav"
+            "sound_released"                                        "UI/scored.wav"
+            "sound_armed"                                           "UI/hint.wav"
+
+            "textAlignment"                                         "Center"
+            "fillcolor"                                             "bh_gray"
+
+            "border_default"                                        "NoBorder"
+            "border_armed"                                          "NoBorder"
+            "paintbackground"                                       "0"
+            "defaultFgColor_override"                               "bh_white"
+            "armedFgColor_override"                                 "bh_red"
+            "image_drawcolor"                                       "255 255 255 0"
+            "image_armedcolor"                                      "255 192 203 255"
+
+            "SubImage"
+            {
+                "ControlName"                                       "ImagePanel"
+                "fieldName"                                         "SubImage"
+                "xpos"                                              "0"
+                "ypos"                                              "0"
+                "zpos"                                              "2"
+                "wide"                                              "2"
+                "tall"                                              "1"
+                "visible"                                           "1"
+                "enabled"                                           "1"
+                "image"                                             "replay\thumbnails\menu_icons\heart"
                 "scaleImage"                                        "1"
             }
         }

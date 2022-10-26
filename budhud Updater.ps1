@@ -443,7 +443,7 @@ function Run_ExtractDefaultHUD
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
     # Copy files that cannot be extracted from TF2 core files
-    Write-Host -foregroundcolor "White" -NoNewLine "Copy necessary platform files..."
+    Write-Host -foregroundcolor "White" -NoNewLine "Copying necessary platform files..."
     Copy-Item "$PSScriptRoot/#dev/sourceschemebase.res" -Destination "$PSScriptRoot/_tf2hud/resource/sourceschemebase.res"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
@@ -456,7 +456,7 @@ function Run_ExtractDefaultHUD
         # get-content splits into lines. parens cause the entire file to be read into memory
         (Get-Content $file.FullName) |
         # string replace operators use regular expression matching
-        ForEach-Object {$_ -ireplace '/$OSX|/$X360|_minmode|_lodef|_hidef|if_', '$$_disabled_'} |
+        ForEach-Object {$_ -ireplace '\$OSX|\$X360|_minmode|_lodef|_hidef|if_', '$$_disabled_'} |
         Set-Content $file.FullName
         $i += 1
     }

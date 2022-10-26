@@ -89,8 +89,8 @@
         "paintbackgroundtype"                                       "0"
     }
 
-	"ItemName"
-	{
+    "ItemName"
+    {
         "ypos"                                                      "0"
         "tall"                                                      "60"
 
@@ -126,19 +126,19 @@
 
         "bh_PaintQualityTip"
         {
-            "ControlName"	                                        "Label"
-            "fieldName"		                                        "bh_PaintQualityTip"
-            "font"			                                        "bh_Font10"
-            "labelText"		                                        "Use mat_picmip -1 in console to improve skin appearance (has performance impact)"
-            "textAlignment"	                                        "west"
-            "xpos"			                                        "10"
-            "ypos"			                                        "17"
-            "zpos"			                                        "10"
-            "wide"			                                        "200"
-            "tall"			                                        "50"
+            "ControlName"                                           "Label"
+            "fieldName"                                             "bh_PaintQualityTip"
+            "font"                                                  "bh_Font10"
+            "labelText"                                             "Use mat_picmip -1 in console to improve skin appearance (has performance impact)"
+            "textAlignment"                                         "west"
+            "xpos"                                                  "10"
+            "ypos"                                                  "17"
+            "zpos"                                                  "10"
+            "wide"                                                  "200"
+            "tall"                                                  "50"
             "wrap"                                                  "1"
-            "visible"		                                        "0"
-            "enabled"		                                        "0"
+            "visible"                                               "0"
+            "enabled"                                               "0"
             "fgcolor_override"                                      "bh_orange"
             "proportionaltoparent"                                  "1"
 
@@ -198,21 +198,21 @@
         "tall"                                                      "225"
 
         "inventory_image_type"                                      "1"
-		"force_use_model"		                                    "1"
-		"use_item_rendertarget"                                     "1"
-		"allow_rot"				                                    "1"
-		"allow_pitch"			                                    "1"
-		"max_pitch"				                                    "75"
-		"use_pedestal"			                                    "1"
-		"use_particle"			                                    "1"
-		"fov"					                                    "125"
+        "force_use_model"                                           "1"
+        "use_item_rendertarget"                                     "1"
+        "allow_rot"                                                 "1"
+        "allow_pitch"                                               "1"
+        "max_pitch"                                                 "75"
+        "use_pedestal"                                              "1"
+        "use_particle"                                              "1"
+        "fov"                                                       "125"
         "model_rotate_yaw_speed"                                    "10"
 
-		"model"
-		{
-			"angles_x"                                              "0"
-			"angles_y"                                              "115"       // 180 starts item facing at user, intimidatingly
-			"angles_z"                                              "0"
-		}
+        "model"
+        {
+            "angles_x"                                              "0"
+            "angles_y"                                              "115"       // 180 starts item facing at user, intimidatingly
+            "angles_z"                                              "0"
+        }
     }
 }
