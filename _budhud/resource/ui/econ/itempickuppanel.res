@@ -189,11 +189,12 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Borders aren't drawn for some reason
     // Also quick keys need their own entries
+    // QK don't seem to work? at least in menu, not sure about in-game
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     "NextButton"
     {
-        "labelText"                                                 "#bh_Next_QK"
+        "labelText"                                                 "#bh_Next"
         "defaultBgColor_override"                                   "bh_Theme_BG20"
         "armedBgColor_override"                                     "bh_Theme_BG30"
         "depressedBgColor_override"                                 "bh_Theme_BG30"
@@ -218,7 +219,7 @@
 
     "PrevButton"
     {
-        "labelText"                                                 "#bh_Previous_QK"
+        "labelText"                                                 "#bh_Previous"
         "defaultBgColor_override"                                   "bh_Theme_BG20"
         "armedBgColor_override"                                     "bh_Theme_BG30"
         "depressedBgColor_override"                                 "bh_Theme_BG30"

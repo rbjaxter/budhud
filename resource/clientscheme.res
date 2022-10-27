@@ -13,8 +13,7 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // #users/custom
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    #base   "../#users/custom/resource/bh_custom.res"
-    #base   "../#users/custom/resource/clientscheme_colors.res"
+    #base   "../#users/custom/resource/clientscheme_custom.res"
     #base   "../#users/custom/#customization/_enabled/bh_crosshairs_tf2crosshairs.res"
     #base   "../#users/custom/#customization/_enabled/bh_crosshairs_fog.res"
     #base   "../#users/custom/#customization/_enabled/bh_crosshairs_knuckles.res"
@@ -40,7 +39,7 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // budhud - Fonts
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // #base    "../_budhud/resource/bh_toth.res"
+    // #base    "_budhud/resource/bh_toth.res"
     #base   "../_budhud/resource/clientscheme_lato.res"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -49,7 +48,7 @@
     #base   "../_budhud/resource/clientscheme_fontentries.res"
     #base   "../_budhud/resource/clientscheme_colors.res"
     #base   "../_budhud/resource/clientscheme_borders.res"
-    #base   "clientscheme_base.res"
+    #base   "../_tf2hud/resource/clientscheme.res"
 
 Scheme
 {

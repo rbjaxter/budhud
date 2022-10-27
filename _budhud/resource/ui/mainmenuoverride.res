@@ -238,6 +238,7 @@
 
         "xpos"                                                      "0"
         "ypos"                                                      "0"
+        "zpos"                                                      "1"
         "wide"                                                      "250"
         "tall"                                                      "30"
         "textAlignment"                                             "center"
@@ -246,6 +247,32 @@
         "armedFgColor_override"                                     "bh_menu_background1"
         "paintbackground"                                           "0"
         "Command"                                                   "engine open_charinfo"
+
+        "sound_depressed"                                           "UI/buttonclick.wav"
+        "sound_released"                                            "UI/buttonclickrelease.wav"
+    }
+
+    "bh_BackpackShadow"
+    {
+        "pin_to_sibling"                                            "bh_Backpack"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "ControlName"                                               "CExImageButton"
+        "fieldName"                                                 "bh_BackpackShadow"
+        "labelText"                                                 "#bh_Backpack"
+        "font"                                                      "bh_Font20"
+
+        "xpos"                                                      "-1"
+        "ypos"                                                      "-1"
+        "zpos"                                                      "0"
+        "wide"                                                      "250"
+        "tall"                                                      "30"
+        "textAlignment"                                             "center"
+
+        "defaultFgColor_override"                                   "bh_shadow"
+        "armedFgColor_override"                                     "bh_shadow"
+        "paintbackground"                                           "0"
 
         "sound_depressed"                                           "UI/buttonclick.wav"
         "sound_released"                                            "UI/buttonclickrelease.wav"
@@ -264,6 +291,7 @@
 
         "xpos"                                                      "0"
         "ypos"                                                      "-30"
+        "zpos"                                                      "1"
         "wide"                                                      "250"
         "tall"                                                      "30"
         "textAlignment"                                             "center"
@@ -272,6 +300,32 @@
         "armedFgColor_override"                                     "bh_menu_background2"
         "paintbackground"                                           "0"
         "Command"                                                   "engine open_store"
+
+        "sound_depressed"                                           "UI/buttonclick.wav"
+        "sound_released"                                            "UI/buttonclickrelease.wav"
+    }
+
+    "bh_StoreShadow"
+    {
+        "pin_to_sibling"                                            "bh_Store"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "ControlName"                                               "CExImageButton"
+        "fieldName"                                                 "bh_StoreShadow"
+        "labelText"                                                 "#bh_Store"
+        "font"                                                      "bh_Font20"
+
+        "xpos"                                                      "-1"
+        "ypos"                                                      "-1"
+        "zpos"                                                      "0"
+        "wide"                                                      "250"
+        "tall"                                                      "30"
+        "textAlignment"                                             "center"
+
+        "defaultFgColor_override"                                   "bh_shadow"
+        "armedFgColor_override"                                     "bh_shadow"
+        "paintbackground"                                           "0"
 
         "sound_depressed"                                           "UI/buttonclick.wav"
         "sound_released"                                            "UI/buttonclickrelease.wav"
@@ -290,6 +344,7 @@
 
         "xpos"                                                      "0"
         "ypos"                                                      "-60"
+        "zpos"                                                      "1"
         "wide"                                                      "250"
         "tall"                                                      "30"
         "textAlignment"                                             "center"
@@ -298,6 +353,32 @@
         "armedFgColor_override"                                     "bh_menu_background1"
         "paintbackground"                                           "0"
         "Command"                                                   "OpenOptionsDialog"
+
+        "sound_depressed"                                           "UI/buttonclick.wav"
+        "sound_released"                                            "UI/buttonclickrelease.wav"
+    }
+
+    "bh_OptionsShadow"
+    {
+        "pin_to_sibling"                                            "bh_Options"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "ControlName"                                               "CExImageButton"
+        "fieldName"                                                 "bh_OptionsShadow"
+        "labelText"                                                 "#bh_Options"
+        "font"                                                      "bh_Font20"
+
+        "xpos"                                                      "-1"
+        "ypos"                                                      "-1"
+        "zpos"                                                      "0"
+        "wide"                                                      "250"
+        "tall"                                                      "30"
+        "textAlignment"                                             "center"
+
+        "defaultFgColor_override"                                   "bh_shadow"
+        "armedFgColor_override"                                     "bh_shadow"
+        "paintbackground"                                           "0"
 
         "sound_depressed"                                           "UI/buttonclick.wav"
         "sound_released"                                            "UI/buttonclickrelease.wav"
@@ -316,6 +397,7 @@
 
         "xpos"                                                      "0"
         "ypos"                                                      "-90"
+        "zpos"                                                      "1"
         "wide"                                                      "250"
         "tall"                                                      "30"
         "textAlignment"                                             "center"
@@ -329,23 +411,26 @@
         "sound_released"                                            "UI/buttonclickrelease.wav"
     }
 
-    "VRModeButton"
+    "bh_AdvOptionsShadow"
     {
-        "pin_to_sibling"                                            "bh_CenterPin"
+        "pin_to_sibling"                                            "bh_AdvOptions"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
 
-        "labelText"                                                 "#bh_VirtualReality"
+        "ControlName"                                               "CExImageButton"
+        "fieldName"                                                 "bh_AdvOptionsShadow"
+        "labelText"                                                 "#bh_AdvOptions"
         "font"                                                      "bh_Font20"
 
-        "xpos"                                                      "0"
-        "ypos"                                                      "-120"
+        "xpos"                                                      "-1"
+        "ypos"                                                      "-1"
+        "zpos"                                                      "0"
         "wide"                                                      "250"
         "tall"                                                      "30"
         "textAlignment"                                             "center"
 
-        "defaultFgColor_override"                                   "bh_menu_foreground1"
-        "armedFgColor_override"                                     "bh_menu_background1"
+        "defaultFgColor_override"                                   "bh_shadow"
+        "armedFgColor_override"                                     "bh_shadow"
         "paintbackground"                                           "0"
 
         "sound_depressed"                                           "UI/buttonclick.wav"
@@ -391,7 +476,7 @@
         "xpos"                                                      "0"
         "ypos"                                                      "0"
         "wide"                                                      "300"
-        "tall"                                                      "350"
+        "tall"                                                      "360"
 
         "MOTD_HeaderIcon"
         {
@@ -965,17 +1050,17 @@
         "paintbackgroundtype"                                       "0"
     }
 
-    "bh_TitleHover"
+    "bh_budhudTitle"
     {
         "pin_to_sibling"                                            "bh_BelowTopPin"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "EditablePanel"
-        "fieldname"                                                 "bh_TitleHover"
+        "fieldname"                                                 "bh_budhudTitle"
         "xpos"                                                      "125"
         "ypos"                                                      "0"
-        "zpos"                                                      "0"
+        "zpos"                                                      "1"
         "wide"                                                      "250"
         "tall"                                                      "35"
         "visible"                                                   "1"
@@ -1001,6 +1086,31 @@
             "armedFgColor_override"                                 "bh_menu_background1"
             "paintbackground"                                       "0"
 		}
+    }
+
+    "bh_budhudTitleShadow"
+    {
+        "pin_to_sibling"                                            "bh_budhudTitle"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "ControlName"                                               "CExImageButton"
+        "fieldName"                                                 "bh_budhudTitleShadow"
+        "labelText"                                                 "— budhud —"
+        "font"                                                      "bh_Font26"
+
+        "xpos"                                                      "-1"
+        "ypos"                                                      "-1"
+        "zpos"                                                      "0"
+        "wide"                                                      "250"
+        "tall"                                                      "35"
+        "textAlignment"                                             "center"
+
+        "defaultFgColor_override"                                   "bh_shadow"
+        "armedFgColor_override"                                     "bh_shadow"
+        "paintbackground"                                           "0"
+        "sound_depressed"                                           "ui/scored.wav"
+        "sound_released"                                            "ui/scored.wav"
     }
 
     "RankPanel"
@@ -1825,6 +1935,68 @@
         }
     }
 
+    "bh_badhud"
+    {
+        "ControlName"                                               "EditablePanel"
+        "fieldname"                                                 "bh_badhud"
+        "xpos"                                                      "r69"
+        "ypos"                                                      "r69"
+        "wide"                                                      "420"
+        "tall"                                                      "420"
+        "visible"                                                   "1"
+
+        "SubButton"
+        {
+            "ControlName"                                           "CExImageButton"
+            "fieldName"                                             "SubButton"
+            "xpos"                                                  "0"
+            "ypos"                                                  "0"
+            "wide"                                                  "2"
+            "tall"                                                  "2"
+            "autoResize"                                            "0"
+            "pinCorner"                                             "3"
+            "visible"                                               "1"
+            "enabled"                                               "1"
+            "tabPosition"                                           "0"
+            "textinsetx"                                            "100"
+            "use_proportional_insets"                               "1"
+            "font"                                                  "bh_Font12"
+            "textAlignment"                                         "west"
+            "dulltext"                                              "0"
+            "brighttext"                                            "0"
+            "default"                                               "1"
+            "sound_depressed"                                       "UI/scored.wav"
+            "sound_released"                                        "UI/scored.wav"
+            "sound_armed"                                           "UI/hint.wav"
+
+            "textAlignment"                                         "Center"
+            "fillcolor"                                             "bh_gray"
+
+            "border_default"                                        "NoBorder"
+            "border_armed"                                          "NoBorder"
+            "paintbackground"                                       "0"
+            "defaultFgColor_override"                               "bh_white"
+            "armedFgColor_override"                                 "bh_red"
+            "image_drawcolor"                                       "255 255 255 0"
+            "image_armedcolor"                                      "255 192 203 255"
+
+            "SubImage"
+            {
+                "ControlName"                                       "ImagePanel"
+                "fieldName"                                         "SubImage"
+                "xpos"                                              "0"
+                "ypos"                                              "0"
+                "zpos"                                              "2"
+                "wide"                                              "2"
+                "tall"                                              "1"
+                "visible"                                           "1"
+                "enabled"                                           "1"
+                "image"                                             "replay\thumbnails\menu_icons\heart"
+                "scaleImage"                                        "1"
+            }
+        }
+    }
+
     "EventPromo"
     {
         "ypos"                                                      "r-6969"
@@ -1987,6 +2159,13 @@
     }
 
     "RankBorder"
+    {
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+    }
+
+    "VRModeButton"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"

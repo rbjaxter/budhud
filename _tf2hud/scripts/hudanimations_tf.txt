@@ -326,7 +326,7 @@ event FlagOutline
 	Animate OutlineImage	Size		"400 200"		Linear 0.1 0.2
 
 	Animate OutlineImage	Position	"c-50 r137"		Linear 0.7 0.2	[$WIN32]
-	Animate OutlineImage	Position	"c-50 r158"		Linear 0.7 0.2	[_disabled_]
+	Animate OutlineImage	Position	"c-50 r158"		Linear 0.7 0.2	[$_disabled_]
 	Animate OutlineImage	Size		"100 50"		Linear 0.7 0.2
 	
 	Animate OutlineImage	Alpha		"0"				Linear 0.9 0.1

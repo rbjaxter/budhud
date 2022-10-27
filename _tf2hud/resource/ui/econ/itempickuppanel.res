@@ -38,8 +38,8 @@
 			"model_wide"	"240"
 			
 			"text_forcesize"	"1"
-			"text_xpos"		"250"
-			"text_wide"		"225"
+			"text_xpos"		"245"
+			"text_wide"		"230"
 			"text_center"	"1"
 			"is_mouseover"		"1"
 			"hide_collection_panel" "1"

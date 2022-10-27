@@ -411,99 +411,99 @@
 					"scaleImage"	"1"	
 					"proportionaltoparent"	"1"	
 
-					_disabled_brazilian
+					$_disabled_brazilian
 					{
 						"image"			"contracts/accepted_brazilian"
 					}
-					_disabled_czech
+					$_disabled_czech
 					{
 						"image"			"contracts/accepted_czech"
 					}
-					_disabled_danish
+					$_disabled_danish
 					{
 						"image"			"contracts/accepted_danish"
 					}
-					_disabled_dutch
+					$_disabled_dutch
 					{
 						"image"			"contracts/accepted_dutch"
 					}
-					_disabled_finnish
+					$_disabled_finnish
 					{
 						"image"			"contracts/accepted_finnish"
 					}
-					_disabled_french
+					$_disabled_french
 					{
 						"image"			"contracts/accepted_french"
 					}
-					_disabled_german
+					$_disabled_german
 					{
 						"image"			"contracts/accepted_german"
 					}
-					_disabled_greek
+					$_disabled_greek
 					{
 						"image"			"contracts/accepted_greek"
 					}
-					_disabled_hungarian
+					$_disabled_hungarian
 					{
 						"image"			"contracts/accepted_hungarian"
 					}
-					_disabled_italian
+					$_disabled_italian
 					{
 						"image"			"contracts/accepted_italian"
 					}
-					_disabled_japanese
+					$_disabled_japanese
 					{
 						"image"			"contracts/accepted_japanese"
 					}
-					_disabled_korean
+					$_disabled_korean
 					{
 						"image"			"contracts/accepted_korean"
 					}
-					_disabled_koreana
+					$_disabled_koreana
 					{
 						"image"			"contracts/accepted_korean"
 					}
-					_disabled_norwegian
+					$_disabled_norwegian
 					{
 						"image"			"contracts/accepted_norwegian"
 					}
-					_disabled_polish
+					$_disabled_polish
 					{
 						"image"			"contracts/accepted_polish"
 					}
-					_disabled_portuguese
+					$_disabled_portuguese
 					{
 						"image"			"contracts/accepted_portuguese"
 					}
-					_disabled_romanian
+					$_disabled_romanian
 					{
 						"image"			"contracts/accepted_romanian"
 					}
-					_disabled_russian
+					$_disabled_russian
 					{
 						"image"			"contracts/accepted_russian"
 					}
-					_disabled_schinese
+					$_disabled_schinese
 					{
 						"image"			"contracts/accepted_schinese"
 					}
-					_disabled_spanish
+					$_disabled_spanish
 					{
 						"image"			"contracts/accepted_spanish"
 					}
-					_disabled_swedish
+					$_disabled_swedish
 					{
 						"image"			"contracts/accepted_swedish"
 					}
-					_disabled_tchinese
+					$_disabled_tchinese
 					{
 						"image"			"contracts/accepted_tchinese"
 					}
-					_disabled_turkish
+					$_disabled_turkish
 					{
 						"image"			"contracts/accepted_turkish"
 					}
-					_disabled_ukrainian
+					$_disabled_ukrainian
 					{
 						"image"			"contracts/accepted_ukrainian"
 					}

@@ -882,7 +882,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"13"	[$WIN32]
-				"tall"		"20"	[disabled]
+				"tall"		"20"	[$_disabled_]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
@@ -1116,7 +1116,7 @@ Scheme
 			"1"
 			{
 				"name"		"Lato Semibold" [!$OSX]
-				"name"		"Lato Semibold" [disabled]
+				"name"		"Lato Semibold" [$_disabled_]
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" "1"
@@ -1148,7 +1148,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"13"	[$WIN32]
-				"tall"		"23"	[disabled]
+				"tall"		"23"	[$_disabled_]
 				"weight"	"700"
 				"yres"	"600 767"
 			}
@@ -1527,7 +1527,7 @@ Scheme
 		}
 		GameUIButtons
 		{
-			"1"	//[disabled]
+			"1"	//[$_disabled_]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -1539,7 +1539,7 @@ Scheme
 		}
 		GameUIButtonsSmall
 		{
-			"1"	[disabled]
+			"1"	[$_disabled_]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -1549,7 +1549,7 @@ Scheme
 		}
 		GameUIButtonsSmallest
 		{
-			"1"	[disabled]
+			"1"	[$_disabled_]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
@@ -1678,7 +1678,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"15"	[$WIN32]
-				"tall"		"21"	[disabled]
+				"tall"		"21"	[$_disabled_]
 				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"600 767"
@@ -1723,7 +1723,7 @@ Scheme
 				"outline"	"1"
 				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
-			"1"	[disabled]
+			"1"	[$_disabled_]
 			{
 				"name"		"Lato Semibold"
 				"tall"		"18"
@@ -1922,7 +1922,7 @@ Scheme
 				"tall_disabled"	"48"
 				"tall_disabled"	"48"
 				"antialias"		"1"
-				"custom"		"1" [disabled]
+				"custom"		"1" [$_disabled_]
 				"weight"		"500"
 				"weight_disabled"	"800"
 				"weight_disabled"	"1000"
@@ -1937,7 +1937,7 @@ Scheme
 				"tall_disabled"	"48"
 				"tall_disabled"	"48"
 				"antialias"		"1"
-				"custom"		"1" [disabled]
+				"custom"		"1" [$_disabled_]
 				"weight"		"500"
 				"weight_disabled"	"800"
 				"weight_disabled"	"1000"
@@ -1952,7 +1952,7 @@ Scheme
 				"tall_disabled"	"36"
 				"tall_disabled"	"36"
 				"antialias" "1"
-				"custom"		"1" [disabled]
+				"custom"		"1" [$_disabled_]
 				"weight"	"500"
 			}
 		}
@@ -1962,11 +1962,11 @@ Scheme
 			{
 				"name"			"Lato Semibold"
 				"tall"			"14" [!$OSX]
-				"tall"			"15" [disabled]
+				"tall"			"15" [$_disabled_]
 				"tall_disabled"	"32"
 				"tall_disabled"	"32"
 				"antialias"		"1"
-				"custom"		"1" [disabled]
+				"custom"		"1" [$_disabled_]
 				"weight"		"500"
 			}
 		}
@@ -2442,7 +2442,7 @@ Scheme
 			{
 				"name"		"Lato Semibold"
 				"tall"		"11"  [!$OSX]
-				"tall"		"9"  [disabled]
+				"tall"		"9"  [$_disabled_]
 				"weight"	"800"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2911,7 +2911,7 @@ Scheme
 				"name"		"Lato Semibold"
 				"tall"		"20"
 				"antialias" "1"
-				"custom"		"1" [disabled]
+				"custom"		"1" [$_disabled_]
 				"weight"	"500"
 			}
 		}

@@ -172,11 +172,7 @@
 
             "QueueText"
             {
-                "xpos"                                              "cs-0.5"
-                "wide"                                              "f0"
-                "ypos"                                              "2"
-                "font"                                              "bh_Font18"
-                "textalignment"                                     "center"
+                "ypos"                                              "r-6969"
             }
 
             "OuterShadow"
@@ -188,11 +184,21 @@
 
             "CloseButton"
             {
-                "xpos"                                              "0"
-                "ypos"                                              "0"
+                "xpos"                                              "cs-0.5"
+                "ypos"                                              "2"
                 "wide"                                              "f0"
                 "tall"                                              "f0"
                 "paintbackground"                                   "0"
+                "labeltext"                                         "%queue_state%"
+                "font"                                              "bh_Font12"
+
+                "defaultFgColor_override"                           "bh_white"
+                "armedFgColor_override"                             "bh_bred"
+                "defaultBgColor_override"                           "bh_blank"
+                "armedBgColor_override"                             "bh_blank"
+                "depressedBgColor_override"                         "bh_blank"
+                "border_default"                                    "bh_blank"
+                "border_armed"                                      "bh_blank"
 
                 "SubImage"
                 {

@@ -6,6 +6,6 @@
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"xpos"			"r214"
-		"ypos_disabled_"	"r70"
+		"ypos$_disabled_"	"r70"
 	}
 }

@@ -1,4 +1,4 @@
-	#base	"..\..\..\#users\custom\resource\ui\econ\confirmspellbookpageapplicationdialog.res"
-	#base	"..\..\..\_stream\resource\ui\econ\confirmspellbookpageapplicationdialog.res"
-	#base	"..\..\..\_budhud\resource\ui\econ\confirmspellbookpageapplicationdialog.res"
-	#base	"..\..\..\_tf2hud\resource\ui\econ\confirmspellbookpageapplicationdialog.res"
+	#base	"../../../#users/custom/resource/ui/econ/confirmspellbookpageapplicationdialog.res"
+	#base	"../../../_stream/resource/ui/econ/confirmspellbookpageapplicationdialog.res"
+	#base	"../../../_budhud/resource/ui/econ/confirmspellbookpageapplicationdialog.res"
+	#base	"../../../_tf2hud/resource/ui/econ/confirmspellbookpageapplicationdialog.res"

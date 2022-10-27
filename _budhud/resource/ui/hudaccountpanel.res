@@ -39,10 +39,14 @@
 
     "AccountValueShadow"
     {
+        "pin_to_sibling"                                            "AccountValue"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
         "ControlName"                                               "CExLabel"
         "fieldName"                                                 "AccountValueShadow"
-        "xpos"                                                      "1"
-        "ypos"                                                      "1"
+        "xpos"                                                      "-1"
+        "ypos"                                                      "-1"
         "zpos"                                                      "2"
         "wide"                                                      "200"
         "tall"                                                      "50"
