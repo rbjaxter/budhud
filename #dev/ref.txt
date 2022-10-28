@@ -203,6 +203,39 @@
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
 
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Combobox (w/ dropdown arrow) Color Control
+    // "Button" is what controls the drop-down arrow's appearance in the dropdown box
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+        "fgcolor_override"                                          "bh_black"
+        "selectionColor_override"                                   "bh_Theme_TextAccent"
+		"selectionTextColor_override"                               "bh_white"
+        "bgcolor_override"                                          "bh_white"
+
+        "Button"
+        {
+            "defaultBgColor_override"                               "bh_ButtonBlank"
+            "armedBgColor_override"                                 "bh_ButtonBlank"
+            "depressedBgColor_override"                             "bh_ButtonBlank"
+            "defaultFgColor_override"                               "bh_gray"
+            "armedFgColor_override"                                 "bh_Theme_TextAccent"
+            "depressedFgColor_override"                             "bh_ButtonDepressed"
+        }
+
+        // For text entry box (border no worky)
+        "fgcolor_override"                                          "bh_black"
+        "selectionColor_override"                                   "bh_Theme_TextAccent"
+		"selectionTextColor_override"                               "bh_white"
+        "bgcolor_override"                                          "bh_white"
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // VTF File Compression
+    // Information courtesy of peaches
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    DXT1 - Use for images with no transparency
+    DXT5 - Use for images with transparency
+
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Animations
     // From TF Team's hudanimations_tf.txt

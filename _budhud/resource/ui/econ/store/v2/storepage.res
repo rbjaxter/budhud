@@ -183,14 +183,20 @@
 
     "NameFilterTextEntry"
     {
-        "bgcolor_override"                                          "bh_white"
+        "font"                                                      "bh_Font12"
+        "fgcolor_override"                                          "bh_black"
         "selectionColor_override"                                   "bh_Theme_TextAccent"
+		"selectionTextColor_override"                               "bh_white"
+        "bgcolor_override"                                          "bh_white"
     }
 
-    "SortFilterComboBox"
+    "SubcategoryFilterComboBox"
     {
-        "bgcolor_override"                                          "bh_white"
+        "border_override"                                           "bh_b_NESW"
+        "fgcolor_override"                                          "bh_white"
         "selectionColor_override"                                   "bh_Theme_TextAccent"
+		"selectionTextColor_override"                               "bh_white"
+        "bgcolor_override"                                          "bh_Theme_BG20"
 
         "Button"
         {
@@ -203,23 +209,13 @@
         }
     }
 
-    "SubcategoryFilterBox"
+    "SortFilterComboBox"
     {
-        "defaultBgColor_override"                                   "bh_ButtonBlank"
-        "armedBgColor_override"                                     "bh_ButtonBlank"
-        "depressedBgColor_override"                                 "bh_ButtonBlank"
-        "defaultFgColor_override"                                   "bh_gray"
-        "armedFgColor_override"                                     "bh_Theme_TextAccent"
-        "depressedFgColor_override"                                 "bh_ButtonDepressed"
-    }
-
-    "SubcategoryFilterComboBox"
-    {
+        "border_override"                                           "bh_b_NESW"
         "fgcolor_override"                                          "bh_white"
-        "bgcolor_override"                                          "bh_blank"
-        "disabledFgColor_override"                                  "bh_white"
-        "selectionColor_override"                                   "bh_blank"
-        "selectionTextColor_override"                               "bh_white"
+        "selectionColor_override"                                   "bh_Theme_TextAccent"
+		"selectionTextColor_override"                               "bh_white"
+        "bgcolor_override"                                          "bh_Theme_BG20"
 
         "Button"
         {
@@ -312,9 +308,9 @@
 
     "BackpackSpaceLabel"
     {
-        "xpos"                                                      "c-100"
+        "xpos"                                                      "cs-0.5"
         "ypos"                                                      "320"
-        "wide"                                                      "200"
+        "wide"                                                      "f0"
         "textAlignment"                                             "center"
     }
 }

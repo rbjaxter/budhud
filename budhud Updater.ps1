@@ -935,7 +935,7 @@ do
             Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "2. Update & Modify Default HUD Files"
             Write-Host -foregroundcolor "Yellow" "The _tf2hud folder will be deleted and replaced"
             Write-Host "This will update your _tf2hud files with TF2's latest default hud files, as well as make a few HUD file modifications."
-            Write-Host "This is handy in case there's a TF2 option, though it will require you to have launched the game after having the update patch downloaded."
+            Write-Host "This is handy in case there's a TF2 update, though it will require you to have launched the game after having the update patch downloaded."
             Write-Host "I run this script before I push commits/changes to the HUD. It's nifty :)."
             Write-Host "There will be no risk of losing HUD changes doing this option unless you've modified files within the _tf2hud folder."
             Write-Host "Any changes you made in _tf2hud will be deleted. This is why you should never edit anything in _tf2hud!"

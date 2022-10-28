@@ -94,8 +94,12 @@
         "ypos"                                                      "37"
         "wide"                                                      "110"
         "tall"                                                      "15"
-        "bgcolor_override"                                          "bh_white"
+
+        "font"                                                      "bh_Font12"
         "fgcolor_override"                                          "bh_black"
+        "selectionColor_override"                                   "bh_Theme_TextAccent"
+		"selectionTextColor_override"                               "bh_white"
+        "bgcolor_override"                                          "bh_white"
     }
 
     "ShowBaseItemsCheckbox"
@@ -159,14 +163,24 @@
 
         "xpos"                                                      "-318"
         "ypos"                                                      "0"
-
         "wide"                                                      "150"
         "font"                                                      "bh_Font10"
+
+        "border_override"                                           "bh_b_NESW"
         "fgcolor_override"                                          "bh_white"
-        "bgcolor_override"                                          "bh_blank"
-        "disabledFgColor_override"                                  "bh_white"
-        "selectionColor_override"                                   "bh_blank"
-        "selectionTextColor_override"                               "bh_white"
+        "selectionColor_override"                                   "bh_Theme_TextAccent"
+		"selectionTextColor_override"                               "bh_white"
+        "bgcolor_override"                                          "bh_Theme_BG20"
+
+        "Button"
+        {
+            "defaultBgColor_override"                               "bh_ButtonBlank"
+            "armedBgColor_override"                                 "bh_ButtonBlank"
+            "depressedBgColor_override"                             "bh_ButtonBlank"
+            "defaultFgColor_override"                               "bh_gray"
+            "armedFgColor_override"                                 "bh_Theme_TextAccent"
+            "depressedFgColor_override"                             "bh_ButtonDepressed"
+        }
     }
 
     "SortByComboBox"
@@ -177,13 +191,23 @@
 
         "xpos"                                                      "-472"
         "ypos"                                                      "0"
-
         "wide"                                                      "100"
+
+        "border_override"                                           "bh_b_NESW"
         "fgcolor_override"                                          "bh_white"
-        "bgcolor_override"                                          "bh_blank"
-        "disabledFgColor_override"                                  "bh_white"
-        "selectionColor_override"                                   "bh_blank"
-        "selectionTextColor_override"                               "bh_white"
+        "selectionColor_override"                                   "bh_Theme_TextAccent"
+		"selectionTextColor_override"                               "bh_white"
+        "bgcolor_override"                                          "bh_Theme_BG20"
+
+        "Button"
+        {
+            "defaultBgColor_override"                               "bh_ButtonBlank"
+            "armedBgColor_override"                                 "bh_ButtonBlank"
+            "depressedBgColor_override"                             "bh_ButtonBlank"
+            "defaultFgColor_override"                               "bh_gray"
+            "armedFgColor_override"                                 "bh_Theme_TextAccent"
+            "depressedFgColor_override"                             "bh_ButtonDepressed"
+        }
     }
 
     "CancelApplyToolButton"
