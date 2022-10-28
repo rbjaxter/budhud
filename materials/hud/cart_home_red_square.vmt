@@ -1,8 +1,8 @@
 "UnlitGeneric"
 {
-	"$baseTexture"		"vgui/replay/thumbnails/payload_icons/cart_home_red"
-	"$translucent"		"1"
-	"$vertexalpha"		"1"
-	"$vertexcolor"		"1"
-	"$ignorez"		"1"
+	"$baseTexture"                                                  "vgui/replay/thumbnails/payload_icons/cart_home_red"
+	"$translucent"                                                  "1"
+	"$vertexalpha"                                                  "1"
+	"$vertexcolor"                                                  "1"
+	"$ignorez"                                                      "1"
 }

@@ -1,8 +1,8 @@
 "UnlitGeneric"
 {
-	"$translucent" 													1
-	"$baseTexture" 													"vgui\replay\thumbnails\improved_icons\leaderboard_all"
-   	"$vertexcolor" 													1 
-  	"$vertexalpha" 													1 
-   	"$nolod" 														1
+    "$baseTexture"                                                  "vgui/replay/thumbnails/improved_icons/leaderboard_all"
+    "$translucent"                                                  "1"
+    "$vertexalpha"                                                  "1"
+    "$vertexcolor"                                                  "1"
+    "$ignorez"                                                      "1"
 }

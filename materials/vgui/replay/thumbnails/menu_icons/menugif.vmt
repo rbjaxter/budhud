@@ -1,18 +1,18 @@
 "UnlitGeneric"
 {
-	"$baseTexture"		"vgui\replay\thumbnails\menu_icons\menugif"
-	"$translucent"		"1"
-	"$vertexalpha"		"1"
-	"$vertexcolor"		"1"
-	"$ignorez"		"1"
-	
-	"Proxies"
-	{
-		"AnimatedTexture"
-		{
-			"animatedtexturevar"		"$basetexture"
-			"animatedtextureframenumvar"	"$frame"
-			"animatedtextureframerate" 		"12"
-		}
-	}
+    "$baseTexture"                                                  "vgui/replay/thumbnails/menu_icons/menugif"
+    "$translucent"                                                  "0"
+    "$vertexalpha"                                                  "1"
+    "$vertexcolor"                                                  "1"
+    "$ignorez"                                                      "1"
+
+    "Proxies"
+    {
+        "AnimatedTexture"
+        {
+            "animatedtexturevar"                                    "$basetexture"
+            "animatedtextureframenumvar"                            "$frame"
+            "animatedtextureframerate"                              "12"
+        }
+    }
 }
