@@ -151,7 +151,7 @@ function Check_TF2Running
         Write-Host ""
 
         Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
-        Write-Host -foregroundcolor "White" "Default hud files cannot be updated with TF2 running"
+        Write-Host -foregroundcolor "White" "The script cannot proceed with Team Fortress 2 open"
         Write-Host ""
 
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
@@ -521,7 +521,7 @@ function Run_UpdateFromGitHub
     Write-Host ""
     Write-Host ""
 
-    # Perform all necessary checks
+    # Perform any necessary checks
     Check_TF2Running
     Check_UpdateFiles_Github
 
@@ -612,6 +612,9 @@ function Run_SetHUDLanguage
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "============================="
     Write-Host ""
     Write-Host ""
+
+    # Perform any necessary checks
+    Check_TF2Running
 
     # Check for chat_default.txt file
     $chat_default = Maybe_Path $budhud "resource/chat_default.txt"
@@ -752,12 +755,55 @@ function Run_HUDCompiler
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==========================="
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "HUD Compiler, by @alvancamp"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==========================="
-    Write-Host -foregroundcolor "White" "Please note after doing this that you must now either:"
-    Write-Host -foregroundcolor "White" "A. Make future hud changes directly in the resource and scripts folders"
+    Write-Host ""
+    Write-Host ""
+
+    # Perform any necessary checks
+    Check_TF2Running
+
+    Write-Host -foregroundcolor "White" "Please note after doing this that, to edit your HUD going forward, you must either:"
+    Write-Host -foregroundcolor "White" "A. Make changes directly in the resource and scripts folders, or:"
     Write-Host -foregroundcolor "White" "B. Run this compiler any time you make changes outside of the resource and scripts folders"
-    Write-Host -foregroundcolor "White" "Given this, compiling the hud is best suited for those who are happy with the current state of their HUD."
+    Write-Host -foregroundcolor "White" "(such as in _budhud or #customizations)"
+    Write-Host -foregroundcolor "White" ""
     Write-Host ""
     Write-Host ""
+    Write-Host -foregroundcolor "White" -backgroundcolor "Yellow" "==================================="
+    Write-Host -foregroundcolor "White" "Would you like to continue? [Y / N]"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Yellow" "==================================="
+    Write-Host ""
+    Write-Host ""
+
+    $response = Read-Host
+    if ($response -ne "Y")
+    {
+        Break
+        Options_Menu
+    }
+
+    # Check for compiler file
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Checking for budhud-compiler.exe"
+
+    If
+    (
+        Test-Path -Path "budhud-compiler.exe"
+    )
+
+    {
+        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "budhud-compiler.exe found"
+    }
+
+    Else
+    {
+        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate budhud-compiler.exe"
+        Write-Host ""
+
+        # If not found, download from GitHub
+
+        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Downloading file..."
+        curl.exe -LO https://github.com/alvancamp/budhud-compiler/releases/latest/download/budhud-compiler.exe
+        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Download complete"
+    }
 
 # Start the stopwatch so we can report how long this script took
 $StopWatch = [System.Diagnostics.Stopwatch]::StartNew()
@@ -837,8 +883,12 @@ function Run_RevertHUDCompile
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Revert HUD Compile"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
+
+    # Perform any necessary checks
+    Check_TF2Running
+
     Write-Host -foregroundcolor "White" "Please note that this will get rid of any customizations you've made"
-    Write-Host -foregroundcolor "White" "within your resource and scripts folders after compiling."
+    Write-Host -foregroundcolor "White" "within your budhud/resource and budhud/scripts folders after compiling."
     Write-Host -foregroundcolor "White" "Customizations made elsewhere (#customization, #users, _budhud, etc) will be unaffected."
     Write-Host ""
     Write-Host -foregroundcolor "White" -backgroundcolor "Yellow" "==================================="
@@ -859,7 +909,7 @@ $scripts_backup = "$PSScriptRoot/#dev/scripts_backup"
 
 if ((Test-Path -Path $resource_backup) -or (Test-Path -Path $scripts_backup))
     {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Backup of resource and scripts found."
+        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Backup of resource and scripts found."
 
         # Delete compiled files
         Remove-Item -LiteralPath "$PSScriptRoot/resource" -Force -Recurse -ErrorAction Ignore
@@ -870,6 +920,7 @@ if ((Test-Path -Path $resource_backup) -or (Test-Path -Path $scripts_backup))
         Rename-Item -Path "$PSScriptRoot/#dev/scripts_backup" -NewName "scripts"
         Move-Item -Path "$PSScriptRoot/#dev/resource" -Destination "$PSScriptRoot" -Force
         Move-Item -Path "$PSScriptRoot/#dev/scripts" -Destination "$PSScriptRoot" -Force
+        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Backups have been restored."
     }
 
 else
