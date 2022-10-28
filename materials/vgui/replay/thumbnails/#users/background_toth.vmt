@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture"		"vgui\replay\thumbnails\#users\background_toth"
-	"$translucent"		"0"
-	"$vertexalpha"		"1"
-	"$vertexcolor"		"1"
-	"$ignorez"		"1"
-}
