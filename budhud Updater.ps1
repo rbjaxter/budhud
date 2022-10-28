@@ -9,8 +9,7 @@
 # Options Menu
 ##############
 
-function Options_Menu
-{
+function Options_Menu {
     Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=============="
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "budhud Updater"
@@ -38,8 +37,7 @@ function Options_Menu
 ############
 # return the canonical representation of a path if possible, $null otherwise.
 
-function Maybe_Path
-{
+function Maybe_Path {
     param(
         [string]$Path,
         [string]$ChildPath
@@ -78,20 +76,19 @@ $max_cmd_len = 8192
 # use vpk.exe to extract file(s) to the current directory
 # note that vpk.exe preserves pathnames from the VPK, but will not create directories.
 
-function Extract_VPK_Files
-{
+function Extract_VPK_Files {
     param (
-        [string][Parameter(Mandatory=$true, Position=0)]$VpkPath,
-        [string[]][Parameter(Position=1, ValueFromRemainingArguments)]$FileNames
+        [string][Parameter(Mandatory = $true, Position = 0)]$VpkPath,
+        [string[]][Parameter(Position = 1, ValueFromRemainingArguments)]$FileNames
     )
-    $activity =  "Extracting from " + (Split-Path $VpkPath -Leaf)
+    $activity = "Extracting from " + (Split-Path $VpkPath -Leaf)
     # create all directories beforehand so vpk doesn't fail
     $i = 0
     $dirs = $FileNames | Split-Path | Sort-Object | Get-Unique
     foreach ($dir in $dirs) {
         New-Item -ItemType Directory -Force -Path $dir | Out-Null
         $i += 1
-        Write-Progress -Activity $activity -Status "Creating $dir" -PercentComplete (100*($i/$dirs.Length))
+        Write-Progress -Activity $activity -Status "Creating $dir" -PercentComplete (100 * ($i / $dirs.Length))
     }
 
     # since each filename must be specified on the command line, it's easy to go above the command line length limit.
@@ -109,7 +106,7 @@ function Extract_VPK_Files
             $i += 1
         }
         & $vpk x $VpkPath @batch >$null
-        Write-Progress -Activity $activity -Status "Extracting" -PercentComplete (100*($i/($FileNames.Length)))
+        Write-Progress -Activity $activity -Status "Extracting" -PercentComplete (100 * ($i / ($FileNames.Length)))
     }
     Write-Progress -Activity $activity -Completed
 }
@@ -120,8 +117,7 @@ function Extract_VPK_Files
 # use vpk.exe to extract all files in a given directory to the current directory
 # vpk requires you to specify every file name you want extracted, so we have to do filtering ourselves.
 
-function Extract_VPK_Directory
-{
+function Extract_VPK_Directory {
     param (
         [string]$VpkPath,
         [string]$Directory
@@ -136,8 +132,7 @@ function Extract_VPK_Directory
 # Check_TF2Running
 ##################
 
-function Check_TF2Running
-{
+function Check_TF2Running {
     # Check for hl2.exe process
     Write-Host -foregroundcolor "White" -NoNewLine "Checking if TF2 is running... "
 
@@ -145,7 +140,6 @@ function Check_TF2Running
     (
         Get-Process hl2 -ErrorAction SilentlyContinue
     )
-
     {
         Write-Host -foregroundcolor "White" -backgroundcolor "Red" "hl2.exe detected"
         Write-Host ""
@@ -160,8 +154,7 @@ function Check_TF2Running
         Break
     }
 
-    Else
-    {
+    Else {
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "TF2 not running"
     }
 }
@@ -170,8 +163,7 @@ function Check_TF2Running
 # Check_UpdateFiles_DefaultHUD
 ##############################
 
-function Check_UpdateFiles_DefaultHUD
-{
+function Check_UpdateFiles_DefaultHUD {
     # Check for vpk.exe file
     Write-Host -foregroundcolor "White" -NoNewLine "Checking for vpk.exe... "
 
@@ -179,13 +171,11 @@ function Check_UpdateFiles_DefaultHUD
     (
         ![String]::IsNullOrEmpty($vpk)
     )
-
     {
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
     }
 
-    Else
-    {
+    Else {
         Write-Host -foregroundcolor "White" -backgroundcolor "Red"  "Could not locate vpk.exe"
         Write-Host ""
 
@@ -201,12 +191,11 @@ function Check_UpdateFiles_DefaultHUD
     }
 }
 
-##########################
-# Check_UpdateFiles_Github
-##########################
+#################################
+# Check_InvokeWebRequest
+#################################
 
-function Check_UpdateFiles_Github
-{
+function Check_InvokeWebRequest {
     # Check for invoke-webrequest support
     Write-Host -foregroundcolor "White" -NoNewLine "Checking for Invoke-WebRequest... "
 
@@ -214,13 +203,11 @@ function Check_UpdateFiles_Github
     (
         Get-Command -Name "Invoke-WebRequest" -ErrorAction SilentlyContinue
     )
-
     {
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Invoke-WebRequest found."
     }
 
-    Else
-    {
+    Else {
         Write-Host -foregroundcolor "White" -backgroundcolor "Red"  "Could not locate Invoke-WebRequest"
         Write-Host ""
 
@@ -239,8 +226,7 @@ function Check_UpdateFiles_Github
 # Check_HUDFiles
 ################
 
-function Check_HUDFiles
-{
+function Check_HUDFiles {
     # Check for tf2_misc_dir.vpk file
     Write-Host -foregroundcolor "White" -NoNewLine "Checking for tf2_misc_dir.vpk... "
     $misc_dir = Maybe_Path $tf "tf2_misc_dir.vpk"
@@ -249,13 +235,11 @@ function Check_HUDFiles
     (
         ![String]::IsNullOrEmpty($misc_dir)
     )
-
     {
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
     }
 
-    Else
-    {
+    Else {
         Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate tf2_misc_dir.vpk"
         Write-Host ""
 
@@ -279,13 +263,11 @@ function Check_HUDFiles
     (
         ![String]::IsNullOrEmpty($hl2)
     )
-
     {
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
     }
 
-    Else
-    {
+    Else {
         Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate hl2.exe"
         Write-Host ""
 
@@ -307,13 +289,11 @@ function Check_HUDFiles
     (
         Test-Path -Path "info.vdf"
     )
-
     {
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
     }
 
-    Else
-    {
+    Else {
         Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate info.vdf"
         Write-Host ""
 
@@ -334,13 +314,11 @@ function Check_HUDFiles
     (
         Test-Path -Path "_tf2hud/*"
     )
-
     {
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Folder found"
     }
 
-    Else
-    {
+    Else {
         Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate _tf2hud folder"
         Write-Host ""
 
@@ -359,8 +337,7 @@ function Check_HUDFiles
 # Run_InstallTroubleshooter
 ###########################
 
-function Run_InstallTroubleshooter
-{
+function Run_InstallTroubleshooter {
     Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "====================="
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Checking Installation"
@@ -372,13 +349,11 @@ function Run_InstallTroubleshooter
     (
         Check_HUDFiles
     )
-
     {
         Break
     }
 
-    Else
-    {
+    Else {
         Write-Host ""
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "====================="
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Install Checks Passed"
@@ -395,8 +370,7 @@ function Run_InstallTroubleshooter
 # Run_ExtractDefaultHUD
 #######################
 
-function Run_ExtractDefaultHUD
-{
+function Run_ExtractDefaultHUD {
     Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==================="
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Extract Default HUD"
@@ -452,11 +426,11 @@ function Run_ExtractDefaultHUD
     $files = Get-ChildItem -File -Recurse -Path _tf2hud
     $i = 0
     foreach ($file in $files) {
-        Write-Progress -Activity "Modifying files" -Status $file -PercentComplete (100*($i/$files.Length))
+        Write-Progress -Activity "Modifying files" -Status $file -PercentComplete (100 * ($i / $files.Length))
         # get-content splits into lines. parens cause the entire file to be read into memory
         (Get-Content $file.FullName) |
         # string replace operators use regular expression matching
-        ForEach-Object {$_ -ireplace '\$OSX|\$X360|_minmode|_lodef|_hidef|if_', '$$_disabled_'} |
+        ForEach-Object { $_ -ireplace '\$OSX|\$X360|_minmode|_lodef|_hidef|if_', '$$_disabled_' } |
         Set-Content $file.FullName
         $i += 1
     }
@@ -511,8 +485,7 @@ function Run_ExtractDefaultHUD
 # Run_UpdateFromGitHub
 ######################
 
-function Run_UpdateFromGitHub
-{
+function Run_UpdateFromGitHub {
     Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Update from Github"
@@ -523,7 +496,7 @@ function Run_UpdateFromGitHub
 
     # Perform any necessary checks
     Check_TF2Running
-    Check_UpdateFiles_Github
+    Check_InvokeWebRequest
 
     Write-Host ""
     Write-Host ""
@@ -532,8 +505,8 @@ function Run_UpdateFromGitHub
     Write-Host -foregroundcolor "White" -backgroundcolor "Red" "IMPORTANT DISCLAIMER"
     Write-Host -foregroundcolor "White" -backgroundcolor "Red" "====DON'T IGNORE===="
     Write-Host -foregroundcolor "White" -backgroundcolor "Red" "===================="
-    [console]::beep(100,300)
-    [console]::beep(100,300)
+    [console]::beep(100, 300)
+    [console]::beep(100, 300)
 
     Write-Host ""
     Write-Host ""
@@ -550,10 +523,8 @@ function Run_UpdateFromGitHub
 
     $selection = Read-Host "Please type your option"
 
-    switch ($selection)
-    {
-        "r-6969"
-        {
+    switch ($selection) {
+        "r-6969" {
             # Load zipfile support
             Add-Type -Assembly System.IO.Compression
             Add-Type -Assembly System.IO.Compression.FileSystem
@@ -590,8 +561,7 @@ function Run_UpdateFromGitHub
             Write-Host ""
         }
 
-        "anything else"
-        {
+        "anything else" {
             Write-Host ""
             Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Test failed succesfully"
             Write-Host ""
@@ -604,8 +574,7 @@ function Run_UpdateFromGitHub
 # Run_SetHUDLanguage
 ####################
 
-function Run_SetHUDLanguage
-{
+function Run_SetHUDLanguage {
     Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "============================="
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Checking for chat_default.txt"
@@ -623,13 +592,11 @@ function Run_SetHUDLanguage
     (
         ![String]::IsNullOrEmpty($chat_default)
     )
-
     {
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
     }
 
-    Else
-    {
+    Else {
         Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate chat_default.txt"
         Write-Host ""
 
@@ -671,65 +638,52 @@ function Run_SetHUDLanguage
 
     $selection = Read-Host "Please type the language you'd like to use"
 
-    switch ($selection)
-    {
-        "Brazilian"
-        {
+    switch ($selection) {
+        "Brazilian" {
             Copy-Item "$PSScriptRoot/resource/chat_brazilian.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
-        "English"
-        {
+        "English" {
             Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
-        "French"
-        {
+        "French" {
             Copy-Item "$PSScriptRoot/resource/chat_french.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
-        "German"
-        {
+        "German" {
             Copy-Item "$PSScriptRoot/resource/chat_german.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
-        "Italian"
-        {
+        "Italian" {
             Copy-Item "$PSScriptRoot/resource/chat_italian.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
-        "Norwegian"
-        {
+        "Norwegian" {
             Copy-Item "$PSScriptRoot/resource/chat_norwegian.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
-        "Romanian"
-        {
+        "Romanian" {
             Copy-Item "$PSScriptRoot/resource/chat_romanian.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
-        "Russian"
-        {
+        "Russian" {
             Copy-Item "$PSScriptRoot/resource/chat_russian.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
-        "Simplified Chinese"
-        {
+        "Simplified Chinese" {
             Copy-Item "$PSScriptRoot/resource/chat_schinese.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
-        "Spanish"
-        {
+        "Spanish" {
             Copy-Item "$PSScriptRoot/resource/chat_spanish.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
-        "Traditional Chinese"
-        {
+        "Traditional Chinese" {
             Copy-Item "$PSScriptRoot/resource/chat_tchinese.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
-        "Quit"
-        {
+        "Quit" {
             Options_Menu
         }
     }
@@ -749,8 +703,7 @@ function Run_SetHUDLanguage
 # Run_HUDCompiler
 #################
 
-function Run_HUDCompiler
-{
+function Run_HUDCompiler {
     Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==========================="
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "HUD Compiler, by @alvancamp"
@@ -775,8 +728,7 @@ function Run_HUDCompiler
     Write-Host ""
 
     $response = Read-Host
-    if ($response -ne "Y")
-    {
+    if ($response -ne "Y") {
         Break
         Options_Menu
     }
@@ -788,14 +740,12 @@ function Run_HUDCompiler
     (
         Test-Path -Path "budhud-compiler.exe"
     )
-
     {
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "budhud-compiler.exe found"
     }
 
     Else {
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Could not locate budhud-compiler.exe, attempting to download..."
-        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate budhud-compiler.exe"
         Write-Host ""
 
         # If not found, download from GitHub
@@ -803,6 +753,7 @@ function Run_HUDCompiler
 
         $URL = "https://github.com/alvancamp/budhud-compiler/releases/latest/download/budhud-compiler.exe"
         $Path = "$PSScriptRoot/budhud-compiler.exe"
+
         Invoke-WebRequest -URI $URL -OutFile $Path
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Download complete"
     }
@@ -810,12 +761,11 @@ function Run_HUDCompiler
     # Start the stopwatch so we can report how long this script took
     $StopWatch = [System.Diagnostics.Stopwatch]::StartNew()
 
-$resource_backup = "$PSScriptRoot/#dev/resource_backup"
-$scripts_backup = "$PSScriptRoot/#dev/scripts_backup"
+    $resource_backup = "$PSScriptRoot/#dev/resource_backup"
+    $scripts_backup = "$PSScriptRoot/#dev/scripts_backup"
 
-# Look for existing backup
-if ((Test-Path -LiteralPath $resource_backup) -or (Test-Path -LiteralPath $scripts_backup))
-    {
+    # Look for existing backup
+    if ((Test-Path -LiteralPath $resource_backup) -or (Test-Path -LiteralPath $scripts_backup)) {
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Backup of resource and scripts found."
         Write-Host -foregroundcolor "White" "These can be found in #dev/resource_backup and #dev/scripts_backup if you need to revert after compiling."
         Write-Host -foregroundcolor "White" "There is also a script in this menu you can use instead."
@@ -826,8 +776,7 @@ if ((Test-Path -LiteralPath $resource_backup) -or (Test-Path -LiteralPath $scrip
         Copy-Item -LiteralPath "$scripts_backup" -Destination "$PSScriptRoot" -Force -Recurse
     }
 
-else
-    {
+    else {
         Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Backup files not found, creating a backup."
 
         # Create backup of resource and scripts files
@@ -851,7 +800,7 @@ else
 
     # Run the compiler
     Write-Output "Compiling resource & scripts..."
-    ./budhud-compiler.exe -s -i "resource_backup","scripts_backup" -o "resource","scripts"
+    ./budhud-compiler.exe -s -i "resource_backup", "scripts_backup" -o "resource", "scripts"
 
     # Compiler and file watcher
     #./budhud-compiler.exe -s -w -t "_budhud/resource","_budhud/scripts" -i "resource_backup","scripts_backup" -o "resource","scripts"
@@ -864,7 +813,7 @@ else
     Remove-Item -LiteralPath "$PSScriptRoot/resource_backup" -Force -Recurse -ErrorAction Ignore
     Remove-Item -LiteralPath "$PSScriptRoot/scripts_backup" -Force -Recurse -ErrorAction Ignore
 
-$StopWatch.Stop();
+    $StopWatch.Stop();
     Write-Host ""
     Write-Host ""
 
@@ -879,8 +828,7 @@ $StopWatch.Stop();
 # Run_RevertHUDCompile
 ######################
 
-function Run_RevertHUDCompile
-{
+function Run_RevertHUDCompile {
     Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Revert HUD Compile"
@@ -900,17 +848,15 @@ function Run_RevertHUDCompile
     Write-Host ""
 
     $response = Read-Host
-    if ($response -ne "Y")
-    {
+    if ($response -ne "Y") {
         Break
         Options_Menu
     }
 
-$resource_backup = "$PSScriptRoot/#dev/resource_backup"
-$scripts_backup = "$PSScriptRoot/#dev/scripts_backup"
+    $resource_backup = "$PSScriptRoot/#dev/resource_backup"
+    $scripts_backup = "$PSScriptRoot/#dev/scripts_backup"
 
-if ((Test-Path -Path $resource_backup) -or (Test-Path -Path $scripts_backup))
-    {
+    if ((Test-Path -Path $resource_backup) -or (Test-Path -Path $scripts_backup)) {
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Backup of resource and scripts found."
 
         # Delete compiled files
@@ -925,8 +871,7 @@ if ((Test-Path -Path $resource_backup) -or (Test-Path -Path $scripts_backup))
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Backups have been restored."
     }
 
-else
-    {
+    else {
         Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Backup files not found"
         Write-Host -foregroundcolor "White" "The backup folders could not be found in #dev."
         Write-Host -foregroundcolor "White" "You will need to download the latest resource and scripts folders"
@@ -941,45 +886,36 @@ else
 # Initial Menu
 ##############
 
-do
-{
+do {
     Options_Menu
     $selection = Read-Host "[Type 1, 2, 3, 4, 5, ?, or Q]"
 
-    switch ($selection)
-    {
-        "1"
-        {
+    switch ($selection) {
+        "1" {
             Run_InstallTroubleshooter
         }
 
-        "2"
-        {
+        "2" {
             Run_ExtractDefaultHUD
         }
 
-        "3"
-        {
+        "3" {
             Run_UpdateFromGitHub
         }
 
-        "4"
-        {
+        "4" {
             Run_SetHUDLanguage
         }
 
-        "5"
-        {
+        "5" {
             Run_HUDCompiler
         }
 
-        "6"
-        {
+        "6" {
             Run_RevertHUDCompile
         }
 
-        "?"
-        {
+        "?" {
             Write-Host ""
             Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "1. Check HUD Installation"
             Write-Host -foregroundcolor "Green" "No files will be deleted or replaced"
@@ -1018,8 +954,7 @@ do
             Write-Host ""
         }
 
-        "Q"
-        {
+        "Q" {
             Exit
         }
     }
