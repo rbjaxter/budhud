@@ -793,20 +793,22 @@ function Run_HUDCompiler
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "budhud-compiler.exe found"
     }
 
-    Else
-    {
+    Else {
+        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Could not locate budhud-compiler.exe, attempting to download..."
         Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate budhud-compiler.exe"
         Write-Host ""
 
         # If not found, download from GitHub
+        Check_InvokeWebRequest
 
-        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Downloading file..."
-        curl.exe -LO https://github.com/alvancamp/budhud-compiler/releases/latest/download/budhud-compiler.exe
+        $URL = "https://github.com/alvancamp/budhud-compiler/releases/latest/download/budhud-compiler.exe"
+        $Path = "$PSScriptRoot/budhud-compiler.exe"
+        Invoke-WebRequest -URI $URL -OutFile $Path
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Download complete"
     }
 
-# Start the stopwatch so we can report how long this script took
-$StopWatch = [System.Diagnostics.Stopwatch]::StartNew()
+    # Start the stopwatch so we can report how long this script took
+    $StopWatch = [System.Diagnostics.Stopwatch]::StartNew()
 
 $resource_backup = "$PSScriptRoot/#dev/resource_backup"
 $scripts_backup = "$PSScriptRoot/#dev/scripts_backup"
