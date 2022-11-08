@@ -1,96 +1,82 @@
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Moves pvprankpanel.res to avoid end of screen missing elements
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    event CompetitiveGame_ShowPvPRankPanel
-    {
-        Animate             RankPanel                           ypos                        r100                         Linear 0 0
-        Animate             ModelContainer                      ypos                        r80                        Linear 0 0
-        RunEventChild       RankPanel                           PvPRankPanelShowXPChange    0
-    }
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Main menu animations
-    // ============================================================================================== //
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Casual category animations
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    event CasualCategory_Selected
-    {
-        Animate             Shade                               bgcolor                     bh_Theme_BG40               Deaccel 0 0.2
-        Animate             Title                               fgcolor                     bh_Theme_TextSecondary      Deaccel 0 0.2
-        Animate             TitleShadow                         fgcolor                     bh_shadow                   Deaccel 0 0.2
-        Animate             DescLabel                           fgcolor                     bh_Theme_TextSecondary      Deaccel 0 0.2
-    }
-
-    event CasualCategory_NotSelected
-    {
-        Animate             Shade                               bgcolor                     bh_Theme_BG00               Deaccel 0 0.2
-        Animate             Title                               fgcolor                     bh_gray                     Deaccel 0 0.2
-        Animate             DescLabel                           fgcolor                     bh_gray                     Deaccel 0 0.2
-        Animate             TitleShadow                         fgcolor                     0                           Deaccel 0 0.2
-        Animate             DescLabelShadow                     fgcolor                     0                           Deaccel 0 0.2
-    }
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // New item notification animations
-    // The animation is moved to the loop so we can try forcing the alpha to 255 first
-    // My hope is that this will prevent those instances where you get a new item but can't see the notif
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    event HasNotificationsBlink
-    {
-        // Unicorn Vomit
-        //Animate         Notifications_ShowButtonPanel_SB                             fgcolor                     bh_rainbowcolor1            Linear 0.2 0.1
-        //Animate         Notifications_ShowButtonPanel_SB                             fgcolor                     bh_rainbowcolor2            Linear 0.4 0.1
-        //Animate         Notifications_ShowButtonPanel_SB                             fgcolor                     bh_rainbowcolor3            Linear 0.6 0.1
-        //Animate         Notifications_ShowButtonPanel_SB                             fgcolor                     bh_rainbowcolor4            Linear 0.8 0.1
-        //Animate         Notifications_ShowButtonPanel_SB                             fgcolor                     bh_rainbowcolor5            Linear 1.0 0.1
-        //Animate         Notifications_ShowButtonPanel_SB                             fgcolor                     bh_rainbowcolor6            Linear 1.2 0.1
-        //Animate         Notifications_ShowButtonPanel_SB                             fgcolor                     bh_rainbowcolor7            Linear 1.4 0.1
-
-        Animate             Notifications_ShowButtonPanel_SB    alpha                       255                         Linear 0.0 0.0
-        RunEvent            HasNotificationsBlinkLoop           0.0
-    }
-
-    event HasNotificationsBlinkLoop
-    {
-        Animate             Notifications_ShowButtonPanel_SB    alpha                       255                         Spline 0.0 0.4
-        Animate             Notifications_ShowButtonPanel_SB    alpha                       0                           Spline 0.4 0.4
-        RunEvent            HasNotificationsBlinkLoop                                       1.2
-    }
-
-    event HasNotificationsBlinkStop
-    {
-        StopEvent           HasNotificationsBlink                                           0.0
-        StopEvent           HasNotificationsBlinkLoop                                       0.0
-        Animate             Notifications_ShowButtonPanel_SB    alpha                       255                         Linear 0.0 0.4
-    }
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // New notification animations
-    // This one appears in the backpack
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    event NotificationsPresentBlink
-    {
-        Animate             NotificationsPresentPanel           alpha                       255                         Linear 0.0 0.0
-
-        RunEvent            NotificationsPresentBlinkLoop                                   0.0
-    }
-
-    event NotificationsPresentBlinkLoop
-    {
-        Animate             NotificationsPresentPanel           alpha                       255                         Spline 0.0 0.4
-        Animate             NotificationsPresentPanel           alpha                       0                           Spline 0.4 0.4
-
-        RunEvent            NotificationsPresentBlinkLoop                                   1.2
-    }
-
-    event NotificationsPresentBlinkStop
-    {
-        StopEvent           NotificationsPresentBlink                                       0.0
-        StopEvent           NotificationsPresentBlinkLoop                                   0.0
-        Animate             NotificationsPresentPanel           alpha                       255                         Linear 0.0 0.0
-    }
+ //////////////////////////////////////////////////////////////////////////////////////////////////
+// Moves pvprankpanel.res to avoid end of screen missing elements
+ //////////////////////////////////////////////////////////////////////////////////////////////////
+event CompetitiveGame_ShowPvPRankPanel
+{
+    Animate                  RankPanel                                   ypos                                r100                              Linear             0              0
+    Animate                  ModelContainer                              ypos                                r80                               Linear             0              0
+    RunEventChild            RankPanel                                   PvPRankPanelShowXPChange            0
+}
+ //////////////////////////////////////////////////////////////////////////////////////////////////
+// Main menu animations
+// ============================================================================================== //
+ //////////////////////////////////////////////////////////////////////////////////////////////////
+ //////////////////////////////////////////////////////////////////////////////////////////////////
+// Casual category animations
+ //////////////////////////////////////////////////////////////////////////////////////////////////
+event CasualCategory_Selected
+{
+    Animate                  Shade                                       bgcolor                             bh_Theme_BG40                     Deaccel            0              0.2
+    Animate                  Title                                       fgcolor                             bh_Theme_TextSecondary            Deaccel            0              0.2
+    Animate                  TitleShadow                                 fgcolor                             bh_shadow                         Deaccel            0              0.2
+    Animate                  DescLabel                                   fgcolor                             bh_Theme_TextSecondary            Deaccel            0              0.2
+}
+event CasualCategory_NotSelected
+{
+    Animate                  Shade                                       bgcolor                             bh_Theme_BG00                     Deaccel            0              0.2
+    Animate                  Title                                       fgcolor                             bh_gray                           Deaccel            0              0.2
+    Animate                  DescLabel                                   fgcolor                             bh_gray                           Deaccel            0              0.2
+    Animate                  TitleShadow                                 fgcolor                             0                                 Deaccel            0              0.2
+    Animate                  DescLabelShadow                             fgcolor                             0                                 Deaccel            0              0.2
+}
+ //////////////////////////////////////////////////////////////////////////////////////////////////
+// New item notification animations
+// The animation is moved to the loop so we can try forcing the alpha to 255 first
+// My hope is that this will prevent those instances where you get a new item but can't see the notif
+ //////////////////////////////////////////////////////////////////////////////////////////////////
+event HasNotificationsBlink
+{
+    // Unicorn Vomit
+    // Animate         Notifications_ShowButtonPanel_SB                             fgcolor                     bh_rainbowcolor1            Linear 0.2 0.1
+    // Animate         Notifications_ShowButtonPanel_SB                             fgcolor                     bh_rainbowcolor2            Linear 0.4 0.1
+    // Animate         Notifications_ShowButtonPanel_SB                             fgcolor                     bh_rainbowcolor3            Linear 0.6 0.1
+    // Animate         Notifications_ShowButtonPanel_SB                             fgcolor                     bh_rainbowcolor4            Linear 0.8 0.1
+    // Animate         Notifications_ShowButtonPanel_SB                             fgcolor                     bh_rainbowcolor5            Linear 1.0 0.1
+    // Animate         Notifications_ShowButtonPanel_SB                             fgcolor                     bh_rainbowcolor6            Linear 1.2 0.1
+    // Animate         Notifications_ShowButtonPanel_SB                             fgcolor                     bh_rainbowcolor7            Linear 1.4 0.1
+    Animate                  Notifications_ShowButtonPanel_SB            alpha                               255                               Linear             0              0
+    RunEvent                 HasNotificationsBlinkLoop                   0
+}
+event HasNotificationsBlinkLoop
+{
+    Animate                  Notifications_ShowButtonPanel_SB            alpha                               255                               Spline             0              0.4
+    Animate                  Notifications_ShowButtonPanel_SB            alpha                               0                                 Spline             0.4            0.4
+    RunEvent                 HasNotificationsBlinkLoop                   1.2
+}
+event HasNotificationsBlinkStop
+{
+    StopEvent                HasNotificationsBlink                       0
+    StopEvent                HasNotificationsBlinkLoop                   0
+    Animate                  Notifications_ShowButtonPanel_SB            alpha                               255                               Linear             0              0.4
+}
+ //////////////////////////////////////////////////////////////////////////////////////////////////
+// New notification animations
+// This one appears in the backpack
+ //////////////////////////////////////////////////////////////////////////////////////////////////
+event NotificationsPresentBlink
+{
+    Animate                  NotificationsPresentPanel                   alpha                               255                               Linear             0              0
+    RunEvent                 NotificationsPresentBlinkLoop               0
+}
+event NotificationsPresentBlinkLoop
+{
+    Animate                  NotificationsPresentPanel                   alpha                               255                               Spline             0              0.4
+    Animate                  NotificationsPresentPanel                   alpha                               0                                 Spline             0.4            0.4
+    RunEvent                 NotificationsPresentBlinkLoop               1.2
+}
+event NotificationsPresentBlinkStop
+{
+    StopEvent                NotificationsPresentBlink                   0
+    StopEvent                NotificationsPresentBlinkLoop               0
+    Animate                  NotificationsPresentPanel                   alpha                               255                               Linear             0              0
+}

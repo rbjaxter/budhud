@@ -183,7 +183,7 @@
         "visible"                                                   "1"
         "enabled"                                                   "1"
         "paintborder"                                               "0"
-        "image"                                                     "replay\thumbnails\menu_icons\menugif"
+        "image"                                                     "replay/thumbnails/menu_icons/menugif"
         "scaleImage"                                                "1"
     }
 
@@ -511,7 +511,7 @@
 
             "SubImage"
             {
-                "image"                                             "replay\thumbnails\menu_icons\close"
+                "image"                                             "replay/thumbnails/menu_icons/close"
             }
         }
     }
@@ -539,7 +539,7 @@
 
             "SubImage"
             {
-                "image"                                             "replay\thumbnails\menu_icons\close"
+                "image"                                             "replay/thumbnails/menu_icons/close"
             }
         }
 
@@ -594,7 +594,7 @@
 //                "ypos"                                              "11"
 //                "wide"                                              "10"
 //                "tall"                                              "10"
-//                "image"                                             "replay\thumbnails\menu_icons\newnotification"
+//                "image"                                             "replay/thumbnails/menu_icons/newnotification"
 //            }
 //        }
 //    }
@@ -643,7 +643,7 @@
                 "ypos"                                              "2"
                 "wide"                                              "15"
                 "tall"                                              "15"
-                "image"                                             "replay\thumbnails\menu_icons\newnotification"
+                "image"                                             "replay/thumbnails/menu_icons/newnotification"
             }
         }
     }
@@ -710,7 +710,7 @@
                 "visible"                                           "1"
                 "enabled"                                           "1"
                 "scaleImage"                                        "1"
-                "image"                                             "replay\thumbnails\menu_icons\streams"
+                "image"                                             "replay/thumbnails/menu_icons/streams"
                 "scaleImage"                                        "1"
             }
         }
@@ -778,7 +778,7 @@
                 "visible"                                           "1"
                 "enabled"                                           "1"
                 "scaleImage"                                        "1"
-                "image"                                             "replay\thumbnails\menu_icons\contracts"
+                "image"                                             "replay/thumbnails/menu_icons/contracts"
                 "scaleImage"                                        "1"
             }
         }
@@ -846,7 +846,7 @@
                 "visible"                                           "1"
                 "enabled"                                           "1"
                 "scaleImage"                                        "1"
-                "image"                                             "replay\thumbnails\menu_icons\news"
+                "image"                                             "replay/thumbnails/menu_icons/news"
                 "scaleImage"                                        "1"
             }
         }
@@ -912,7 +912,7 @@
                 "visible"                                           "1"
                 "enabled"                                           "1"
                 "scaleImage"                                        "1"
-                "image"                                             "replay\thumbnails\menu_icons\heart"
+                "image"                                             "replay/thumbnails/menu_icons/heart"
             }
         }
     }
@@ -973,7 +973,7 @@
                 "visible"                                           "1"
                 "enabled"                                           "1"
                 "scaleImage"                                        "1"
-                "image"                                             "replay\thumbnails\menu_icons\heart"
+                "image"                                             "replay/thumbnails/menu_icons/heart"
             }
         }
     }
@@ -1141,7 +1141,7 @@
 
         "SubImage"
         {
-            "image"                                                 "replay\thumbnails\menu_icons\cog"
+            "image"                                                 "replay/thumbnails/menu_icons/cog"
         }
     }
 
@@ -1233,7 +1233,7 @@
                 "tall"                                              "18"
                 "visible"                                           "1"
                 "enabled"                                           "1"
-                "image"                                             "replay\thumbnails\menu_icons\demoui"
+                "image"                                             "replay/thumbnails/menu_icons/demoui"
                 "scaleImage"                                        "1"
             }
         }
@@ -1299,7 +1299,7 @@
                 "tall"                                              "18"
                 "visible"                                           "1"
                 "enabled"                                           "1"
-                "image"                                             "replay\thumbnails\menu_icons\createserver"
+                "image"                                             "replay/thumbnails/menu_icons/createserver"
                 "scaleImage"                                        "1"
             }
         }
@@ -1342,7 +1342,7 @@
                 "ypos"                                              "4"
                 "wide"                                              "18"
                 "tall"                                              "18"
-                "image"                                             "replay\thumbnails\menu_icons\callcoach"
+                "image"                                             "replay/thumbnails/menu_icons/callcoach"
             }
         }
     }
@@ -1384,7 +1384,7 @@
                 "ypos"                                              "4"
                 "wide"                                              "18"
                 "tall"                                              "18"
-                "image"                                             "replay\thumbnails\menu_icons\reportplayer"
+                "image"                                             "replay/thumbnails/menu_icons/reportplayer"
             }
         }
     }
@@ -1426,7 +1426,7 @@
                 "ypos"                                              "4"
                 "wide"                                              "18"
                 "tall"                                              "18"
-                "image"                                             "replay\thumbnails\menu_icons\callvote"
+                "image"                                             "replay/thumbnails/menu_icons/callvote"
             }
         }
     }
@@ -1468,7 +1468,7 @@
                 "ypos"                                              "4"
                 "wide"                                              "18"
                 "tall"                                              "18"
-                "image"                                             "replay\thumbnails\menu_icons\muteplayers"
+                "image"                                             "replay/thumbnails/menu_icons/muteplayers"
             }
         }
     }
@@ -1533,7 +1533,7 @@
                 "tall"                                              "18"
                 "visible"                                           "1"
                 "enabled"                                           "1"
-                "image"                                             "replay\thumbnails\menu_icons\achievements"
+                "image"                                             "replay/thumbnails/menu_icons/achievements"
                 "scaleImage"                                        "1"
             }
         }
@@ -1599,7 +1599,7 @@
                 "tall"                                              "18"
                 "visible"                                           "1"
                 "enabled"                                           "1"
-                "image"                                             "replay\thumbnails\menu_icons\beacoach"
+                "image"                                             "replay/thumbnails/menu_icons/beacoach"
                 "scaleImage"                                        "1"
             }
         }
@@ -1665,7 +1665,7 @@
                 "tall"                                              "18"
                 "visible"                                           "1"
                 "enabled"                                           "1"
-                "image"                                             "replay\thumbnails\menu_icons\training"
+                "image"                                             "replay/thumbnails/menu_icons/training"
                 "scaleImage"                                        "1"
             }
         }
@@ -1731,7 +1731,7 @@
                 "tall"                                              "18"
                 "visible"                                           "1"
                 "enabled"                                           "1"
-                "image"                                             "replay\thumbnails\menu_icons\workshop"
+                "image"                                             "replay/thumbnails/menu_icons/workshop"
                 "scaleImage"                                        "1"
             }
         }
@@ -1797,7 +1797,7 @@
                 "tall"                                              "18"
                 "visible"                                           "1"
                 "enabled"                                           "1"
-                "image"                                             "replay\thumbnails\menu_icons\bugreport"
+                "image"                                             "replay/thumbnails/menu_icons/bugreport"
                 "scaleImage"                                        "1"
             }
         }
@@ -1863,7 +1863,7 @@
                 "tall"                                              "18"
                 "visible"                                           "1"
                 "enabled"                                           "1"
-                "image"                                             "replay\thumbnails\menu_icons\console"
+                "image"                                             "replay/thumbnails/menu_icons/console"
                 "scaleImage"                                        "1"
             }
         }
@@ -1929,7 +1929,7 @@
                 "tall"                                              "18"
                 "visible"                                           "1"
                 "enabled"                                           "1"
-                "image"                                             "replay\thumbnails\menu_icons\taunts"
+                "image"                                             "replay/thumbnails/menu_icons/taunts"
                 "scaleImage"                                        "1"
             }
         }
@@ -1991,7 +1991,7 @@
                 "tall"                                              "1"
                 "visible"                                           "1"
                 "enabled"                                           "1"
-                "image"                                             "replay\thumbnails\menu_icons\heart"
+                "image"                                             "replay/thumbnails/menu_icons/heart"
                 "scaleImage"                                        "1"
             }
         }
