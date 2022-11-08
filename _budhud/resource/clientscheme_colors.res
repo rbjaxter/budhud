@@ -336,6 +336,14 @@ Scheme
         // Saving for future consideration
         "MenuBoxBg"                                                 "0 0 0 100"
 
+        // Context menu (backpack, medal select on main menu, etc)
+        // Font: HudFontMediumSecondary
+        Menu.TextColor					                            "bh_white"
+		Menu.BgColor					                            "bh_Theme_BG20"
+		Menu.ArmedTextColor				                            "bh_orange"
+		Menu.ArmedBgColor				                            "bh_Theme_BG40"
+		Menu.TextInset					                            "10"
+
         // Weapon Selection Colors
         "SelectionNumberFg"                                         "255 255 255 255"
         "SelectionTextFg"                                           "255 255 255 255"
