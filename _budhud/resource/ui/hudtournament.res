@@ -662,36 +662,6 @@
         }
     }
 
-    "the_wang_who_peaks"
-    {
-        "ControlName"                                               "ScalableImagePanel"
-        "fieldName"                                                 "the_wang_who_peaks"
-        "xpos"                                                      "c-50"
-        "ypos"                                                      "c6969"
-        "zpos"                                                      "-1"
-        "wide"                                                      "100"
-        "tall"                                                      "100"
-        "visible"                                                   "1"
-        "enabled"                                                   "1"
-        "image"                                                     "\replay\thumbnails\tyrone"
-
-        if_readymode
-        {
-            "ypos"                                                  "r-6969"
-            "wide"                                                  "0"
-            "visible"                                               "0"
-            "enabled"                                               "0"
-        }
-
-        if_competitive
-        {
-            "ypos"                                                  "r-6969"
-            "wide"                                                  "0"
-            "visible"                                               "0"
-            "enabled"                                               "0"
-        }
-    }
-
     "HudTournamentBGHelp"
     {
         "ypos"                                                      "r-6969"

@@ -1156,11 +1156,11 @@
 
     "NoGCImage"
     {
-        "xpos"                                                      "c-30"
+        "xpos"                                                      "c-22"
         "ypos"                                                      "100"
-        "wide"                                                      "60"
-        "tall"                                                      "60"
-        "image"                                                     "replay\thumbnails\melancholy"
+        "wide"                                                      "44"
+        "tall"                                                      "44"
+        "image"                                                     "replay/thumbnails/menu_icons/noconnection"
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
