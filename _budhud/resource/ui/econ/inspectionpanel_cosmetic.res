@@ -21,8 +21,21 @@
         }
     }
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // If you do not include BgPanel below, it will mask over your UI, effectively dimming everything
+    // and not allowing you to click the wiki page button
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    "BgPanel"
+    {
+    }
+
     "DialogFrame"
     {
+        "border"                                                    "bh_b_NESW"
+        "bgcolor_override"                                          "bh_Theme_BG20"
+        "paintbackground"                                           "1"
+
         "DetailsView"
         {
             "ScrollableChild"
