@@ -95,7 +95,7 @@
         "paintbackground"                                           "1"
 
         "PreviewViewportBg"
-		{
+        {
             "xpos"                                                  "20"
             "ypos"                                                  "20"
             "wide"                                                  "215"
@@ -155,14 +155,14 @@
     }
 
     "PreviewItemModelPanel"
-	{
-		"model_xpos"	"10"
-		"model_ypos"	"10"
-		"model_wide"	"200"
-		"model_tall"	"200"
+    {
+        "model_xpos"                                                "10"
+        "model_ypos"                                                "10"
+        "model_wide"                                                "200"
+        "model_tall"                                                "200"
 
         "itemmodelpanel"
-		{
+        {
             "antialias"                                             "1"
             "inventory_image_type"                                  "1"
             "use_item_rendertarget"                                 "0"
@@ -170,9 +170,9 @@
     }
 
     "ItemIcon1"
-	{
+    {
         "panel_bgcolor"                                             "bh_gray"
-		"panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_orange"
 
         "itempanel"
         {
@@ -186,9 +186,9 @@
     }
 
     "ItemIcon2"
-	{
+    {
         "panel_bgcolor"                                             "bh_gray"
-		"panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_orange"
 
         "itempanel"
         {
@@ -202,9 +202,9 @@
     }
 
     "ItemIcon3"
-	{
+    {
         "panel_bgcolor"                                             "bh_gray"
-		"panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_orange"
 
         "itempanel"
         {
@@ -218,9 +218,9 @@
     }
 
     "ItemIcon4"
-	{
+    {
         "panel_bgcolor"                                             "bh_gray"
-		"panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_orange"
 
         "itempanel"
         {
@@ -234,7 +234,7 @@
     }
 
     "ItemIcon5"
-	{
+    {
         "itempanel"
         {
             "itemmodelpanel"
@@ -247,43 +247,43 @@
     }
 
     "ClassUsageImage1"
-	{
+    {
         "panel_bgcolor"                                             "bh_gray"
-		"panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_orange"
     }
 
     "ClassUsageImage2"
-	{
+    {
         "panel_bgcolor"                                             "bh_gray"
-		"panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_orange"
     }
 
     "ClassUsageImage3"
-	{
+    {
         "panel_bgcolor"                                             "bh_gray"
-		"panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_orange"
     }
 
     "ClassUsageImage4"
-	{
+    {
         "panel_bgcolor"                                             "bh_gray"
-		"panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_orange"
     }
 
     "ClassUsageImage5"
-	{
+    {
         "panel_bgcolor"                                             "bh_gray"
-		"panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_orange"
     }
 
     "ClassUsageImage6"
-	{
+    {
         "panel_bgcolor"                                             "bh_gray"
-		"panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_orange"
     }
 
     "RotLeftButton"
-	{
+    {
         "font"                                                      "bh_Font20"
         "defaultFgColor_override"                                   "bh_Theme_TextSecondary"
         "armedFgColor_override"                                     "bh_Theme_TextAccent"
@@ -291,7 +291,7 @@
     }
 
     "RotRightButton"
-	{
+    {
         "font"                                                      "bh_Font20"
         "defaultFgColor_override"                                   "bh_Theme_TextSecondary"
         "armedFgColor_override"                                     "bh_Theme_TextAccent"
@@ -302,7 +302,7 @@
     {
         "wide"                                                      "215"
         "model"
-		{
+        {
             "origin_z"                                              "-40"
         }
     }
