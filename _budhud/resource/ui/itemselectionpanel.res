@@ -1,5 +1,6 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Item selection menu (within craft panel, etc)
+    // Item selection menu (within craft panel, loadout panel etc)
+    // Basically when you click on an item slot and it shows all the applicable items
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 "Resource/UI/ItemSelectionPanel.res"
@@ -9,6 +10,12 @@
         "bgcolor_override"                                          "bh_Theme_BG20"
         "infocus_bgcolor_override"                                  "bh_Theme_BG20"
         "outoffocus_bgcolor_override"                               "bh_Theme_BG20"
+
+        "modelpanels_selection_kv"
+		{
+            "model_tall"			                                "55"
+			"model_wide"			                                "82"
+        }
 
         "modelpanels_kv"
         {

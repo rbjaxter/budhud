@@ -1,3 +1,5 @@
+#base "hudinspectpanel.res"     // Base to hudinspectpanel to grab its itempanel
+
 "Resource/UI/SpectatorTournament.res"
 {
     "topbar"
@@ -15,25 +17,8 @@
         "visible"                                                   "0"
     }
 
-    "itempanel"
+    "itempanel" // Modified in hudinspectpanel
     {
-        "bgcolor_override"                                          "bh_ItemPanel"
-        "PaintBackground"                                           "1"
-
-        "attriblabel"
-        {
-            "ypos"                                                  "r-6969"
-            "visible"                                               "0"
-            "enabled"                                               "0"
-        }
-
-        "itemmodelpanel"
-        {
-            "useparentbg"                                           "0"
-            "allow_rot"                                             "0"
-            "inventory_image_type"                                  "1"
-            "use_item_rendertarget"                                 "0"
-        }
     }
 
     "specgui"
