@@ -1707,107 +1707,77 @@
 				{
 					"0"
 					{
-						"item"		"Halloween 2022 Key" 
+						"item"		"Winter 2022 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Halloween 2022 Case"
-						"show_market"	"1"
-					}
-					"2"
-					{
-						"item"		"Scream Fortress 2022 War Paint Key"
-						"show_market"	"0"
-					}
-					"3"
-					{
-						"item"		"Scream Fortress 2022 War Paint Case"
+						"item"		"Winter 2022 Cosmetic Case"
 						"show_market"	"1"
 					}
 					"4"
 					{
-						"item"		"Taunt: Texas Twirl 'Em"
+						"item"		"Taunt: Russian Rubdown"
 						"show_market"	"0"
 					}
 					"5"
 					{
-						"item"		"Taunt: The Travel Agent"
+						"item"		"Taunt: Tailored Terminal"
 						"show_market"	"0"
 					}
 					"6"
 					{
-						"item"		"Taunt: Drunk Mann's Cannon"
+						"item"		"Taunt: Roasty Toasty"
 						"show_market"	"0"
 					}
 					"7"
 					{
-						"item"		"Taunt: Shanty Shipmate"
+						"item"		"Map Token Frostwatch"
 						"show_market"	"0"
 					}
 					"8"
 					{
-						"item"		"Taunt: The Scaredy-cat!"
+						"item"		"Map Token Frostcliff"
 						"show_market"	"0"
 					}
 					"9"
 					{
-						"item"		"Map Token Soul Mill"
+						"item"		"Map Token Rumford"
 						"show_market"	"0"
 					}
 					"10"
 					{
-						"item"		"Map Token Helltrain"
+						"item"		"Map Token Frosty"
 						"show_market"	"0"
 					}
 					"11"
 					{
-						"item"		"Map Token Bonesaw"
+						"item"		"Map Token Coal Pit"
 						"show_market"	"0"
 					}
 					"12"
 					{
-						"item"		"Map Token Crasher"
+						"item"		"Strange Filter: Frostwatch (Community)"
 						"show_market"	"0"
 					}
 					"13"
 					{
-						"item"		"Map Token Ghoulpit"
+						"item"		"Strange Filter: Frostcliff (Community)"
 						"show_market"	"0"
 					}
 					"14"
 					{
-						"item"		"Map Token Spookeyridge"
+						"item"		"Strange Filter: Rumford (Community)"
 						"show_market"	"0"
 					}
 					"15"
 					{
-						"item"		"Strange Filter: Soul Mill (Community)"
+						"item"		"Strange Filter: Frosty (Community)"
 						"show_market"	"0"
 					}
 					"16"
 					{
-						"item"		"Strange Filter: Helltrain (Community)"
-						"show_market"	"0"
-					}
-					"17"
-					{
-						"item"		"Strange Filter: Bonesaw (Community)"
-						"show_market"	"0"
-					}
-					"18"
-					{
-						"item"		"Strange Filter: Crasher (Community)"
-						"show_market"	"0"
-					}
-					"19"
-					{
-						"item"		"Strange Filter: Ghoulpit (Community)"
-						"show_market"	"0"
-					}
-					"20"
-					{
-						"item"		"Strange Filter: Spookeyridge (Community)"
+						"item"		"Strange Filter: Coal Pit (Community)"
 						"show_market"	"0"
 					}
 				}

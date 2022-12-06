@@ -18,6 +18,11 @@
 
     "MainStatsContainer"
     {
+        "ParticlePanel"
+        {
+            "zpos"                                                  "1"
+        }
+
         "TeamScoresPanel"
         {
             "BlueTeamPanel"
@@ -37,6 +42,14 @@
                 "BlueTeamScore"
                 {
                     "ypos"                                          "100"
+                    "zpos"                                          "5"
+                }
+
+                "BlueTeamScoreDropshadow"
+                {
+                    "ypos"                                          "r-6969"
+                    "visible"                                       "0"
+                    "enabled"                                       "0"
                 }
 
                 "BluePlayerListParent"
@@ -79,6 +92,13 @@
                 "RedTeamScore"
                 {
                     "ypos"                                          "100"
+                }
+
+                "RedTeamScoreDropshadow"
+                {
+                    "ypos"                                          "r-6969"
+                    "visible"                                       "0"
+                    "enabled"                                       "0"
                 }
 
                 "RedPlayerListParent"

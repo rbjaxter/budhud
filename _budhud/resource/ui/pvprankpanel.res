@@ -73,38 +73,38 @@
         }
 
         "bh_DescLine1Shadow"
-		{
+        {
             "pin_to_sibling"                                        "DescLine1"
             "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
             "pin_to_sibling_corner"                                 "0"
 
-			"ControlName"	                                        "CAutoFittingLabel"
-			"fieldName"		                                        "bh_DescLine1Shadow"
+            "ControlName"                                           "CAutoFittingLabel"
+            "fieldName"                                             "bh_DescLine1Shadow"
             "xpos"                                                  "-1"
             "ypos"                                                  "-1"
             "zpos"                                                  "0"
             "wide"                                                  "500"
             "tall"                                                  "20"
             "textalignment"                                         "center"
-			"visible"		                                        "1"
-			"enabled"		                                        "1"
-			"font"			                                        "HudFontSmallestBold"
-			"fgcolor_override"                                      "bh_Shadow"
-			"labelText"		                                        "%desc1%"
-			"proportionaltoparent"                                  "1"
+            "visible"                                               "1"
+            "enabled"                                               "1"
+            "font"                                                  "HudFontSmallestBold"
+            "fgcolor_override"                                      "bh_Shadow"
+            "labelText"                                             "%desc1%"
+            "proportionaltoparent"                                  "1"
 
-			"fonts"
-			{
-				"0"		                                            "HudFontSmallestBold"
-				"1"		                                            "StorePromotionsTitle"
-				"2"		                                            "FontStorePrice"
-			}
+            "fonts"
+            {
+                "0"                                                 "HudFontSmallestBold"
+                "1"                                                 "StorePromotionsTitle"
+                "2"                                                 "FontStorePrice"
+            }
 
-			"colors"
-			{
-				"1"		                                            "bh_Shadow"
-			}
-		}
+            "colors"
+            {
+                "1"                                                 "bh_Shadow"
+            }
+        }
 
         "DescLine2"
         {
@@ -122,38 +122,38 @@
         }
 
         "bh_DescLine2Shadow"
-		{
+        {
             "pin_to_sibling"                                        "DescLine2"
             "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
             "pin_to_sibling_corner"                                 "0"
 
-			"ControlName"	                                        "CAutoFittingLabel"
-			"fieldName"		                                        "bh_DescLine2Shadow"
+            "ControlName"                                           "CAutoFittingLabel"
+            "fieldName"                                             "bh_DescLine2Shadow"
             "xpos"                                                  "-1"
             "ypos"                                                  "-1"
             "zpos"                                                  "0"
             "wide"                                                  "500"
             "tall"                                                  "20"
             "textalignment"                                         "center"
-			"visible"		                                        "1"
-			"enabled"		                                        "1"
-			"font"			                                        "HudFontSmallestBold"
-			"fgcolor_override"                                      "bh_Shadow"
-			"labelText"		                                        "%desc2%"
-			"proportionaltoparent"                                  "1"
+            "visible"                                               "1"
+            "enabled"                                               "1"
+            "font"                                                  "HudFontSmallestBold"
+            "fgcolor_override"                                      "bh_Shadow"
+            "labelText"                                             "%desc2%"
+            "proportionaltoparent"                                  "1"
 
-			"fonts"
-			{
-				"0"		                                            "HudFontSmallestBold"
-				"1"		                                            "StorePromotionsTitle"
-				"2"		                                            "FontStorePrice"
-			}
+            "fonts"
+            {
+                "0"                                                 "HudFontSmallestBold"
+                "1"                                                 "StorePromotionsTitle"
+                "2"                                                 "FontStorePrice"
+            }
 
-			"colors"
-			{
-				"1"		                                            "bh_Shadow"
-			}
-		}
+            "colors"
+            {
+                "1"                                                 "bh_Shadow"
+            }
+        }
 
         "LevelLabel"
         {

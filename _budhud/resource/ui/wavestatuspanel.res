@@ -4,11 +4,11 @@
     "Background"
     {
         "image"                                                     "replay\thumbnails\obj_icons\scalable_dgray"
-		"src_corner_height"                                         "24"
-		"src_corner_width"                                          "24"
+        "src_corner_height"                                         "24"
+        "src_corner_width"                                          "24"
 
-		"draw_corner_width"                                         "5"
-		"draw_corner_height"                                        "5"
+        "draw_corner_width"                                         "5"
+        "draw_corner_height"                                        "5"
     }
 
     "WaveCountLabel"
@@ -23,7 +23,7 @@
         "ypos"                                                      "18"
         "wide"                                                      "178"
         "tall"                                                      "12"
-		"image"			                                            "replay\thumbnails\team_colors\bh_fill_blue"
+        "image"                                                     "replay\thumbnails\team_colors\bh_fill_blue"
     }
 
     "ProgressBarBG"
@@ -38,7 +38,7 @@
     "bh_ProgressBarBG"
     {
         "ControlName"                                               "ImagePanel"
-        "fieldName"                                                 "bh_Template_Block"
+        "fieldName"                                                 "bh_ProgressBarBG"
         "xpos"                                                      "211"
         "ypos"                                                      "18"
         "zpos"                                                      "0"

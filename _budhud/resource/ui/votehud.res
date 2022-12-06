@@ -18,54 +18,54 @@
             "wrap"                                                  "0"
         }
 
-		"bh_Header"
-		{
-			"ControlName"	                                        "Label"
-			"fieldName"		                                        "bh_Header"
-			"xpos"			                                        "10"
-			"ypos"			                                        "15"
-			"wide"			                                        "138"
-			"tall"			                                        "10"
-			"visible"		                                        "1"
-			"enabled"		                                        "1"
-			"labelText"		                                        "%header%"
-			"textAlignment"                                         "west"
-			"dulltext"                                              "0"
-			"brighttext"                                            "0"
-			"font"                                                  "bh_Font8"
-			"wrap"                                                  "0"
-			"fgcolor_override"                                      "bh_gray"
-		}
+        "bh_Header"
+        {
+            "ControlName"                                           "Label"
+            "fieldName"                                             "bh_Header"
+            "xpos"                                                  "10"
+            "ypos"                                                  "15"
+            "wide"                                                  "138"
+            "tall"                                                  "10"
+            "visible"                                               "1"
+            "enabled"                                               "1"
+            "labelText"                                             "%header%"
+            "textAlignment"                                         "west"
+            "dulltext"                                              "0"
+            "brighttext"                                            "0"
+            "font"                                                  "bh_Font8"
+            "wrap"                                                  "0"
+            "fgcolor_override"                                      "bh_gray"
+        }
 
-		"Issue"
-		{
-			"xpos"			                                        "10"
-			"ypos"			                                        "30"
-			"wide"			                                        "138"
-			"tall"			                                        "30"
-			"textAlignment"	                                        "west"
-			"font"			                                        "bh_Font_BotChars10"
-		}
+        "Issue"
+        {
+            "xpos"                                                  "10"
+            "ypos"                                                  "30"
+            "wide"                                                  "138"
+            "tall"                                                  "30"
+            "textAlignment"                                         "west"
+            "font"                                                  "bh_Font_BotChars10"
+        }
 
-		"bh_Issue"
-		{
-			"ControlName"	                                        "Label"
-			"fieldName"		                                        "bh_Issue"
-			"xpos"			                                        "10"
-			"ypos"			                                        "66"
-			"wide"			                                        "138"
-			"tall"			                                        "8"
-			"visible"		                                        "1"
-			"enabled"		                                        "1"
-			"labelText"		                                        "%voteissue%"
-			"textAlignment"	                                        "north-west"
-			"dulltext"		                                        "0"
-			"brighttext"	                                        "0"
-			"font"			                                        "bh_Font8"
-			"fgcolor_override"                                      "bh_gray"
-			"wrap"                                                  "0"
-			"noshortcutsyntax"                                      "1"
-		}
+        "bh_Issue"
+        {
+            "ControlName"                                           "Label"
+            "fieldName"                                             "bh_Issue"
+            "xpos"                                                  "10"
+            "ypos"                                                  "66"
+            "wide"                                                  "138"
+            "tall"                                                  "8"
+            "visible"                                               "1"
+            "enabled"                                               "1"
+            "labelText"                                             "%voteissue%"
+            "textAlignment"                                         "north-west"
+            "dulltext"                                              "0"
+            "brighttext"                                            "0"
+            "font"                                                  "bh_Font8"
+            "fgcolor_override"                                      "bh_gray"
+            "wrap"                                                  "0"
+            "noshortcutsyntax"                                      "1"
+        }
 
         "Divider"
         {
@@ -80,7 +80,7 @@
 
         "Option1Background_Selected"
         {
-            "ypos"			                                        "84"
+            "ypos"                                                  "84"
         }
 
         "LabelOption2"
@@ -91,7 +91,7 @@
 
         "Option2Background_Selected"
         {
-            "ypos"			                                        "100"
+            "ypos"                                                  "100"
         }
 
         "LabelOption3"
@@ -102,7 +102,7 @@
 
         "Option3Background_Selected"
         {
-            "ypos"			                                        "116"
+            "ypos"                                                  "116"
         }
 
         "LabelOption4"
@@ -113,7 +113,7 @@
 
         "Option4Background_Selected"
         {
-            "ypos"			                                        "132"
+            "ypos"                                                  "132"
         }
 
         "LabelOption5"
@@ -124,7 +124,7 @@
 
         "Option5Background_Selected"
         {
-            "ypos"			                                        "148"
+            "ypos"                                                  "148"
         }
 
         "VoteCountLabel"
@@ -133,23 +133,23 @@
         }
 
         "Divider2"
-		{
+        {
             "ypos"                                                  "122"
         }
 
         "Option1CountLabel"
         {
-            "ypos"			                                        "135"
+            "ypos"                                                  "135"
         }
 
         "Option2CountLabel"
         {
-            "ypos"			                                        "135"
+            "ypos"                                                  "135"
         }
 
         "VoteBar"
         {
-            "ypos"			                                        "135"
+            "ypos"                                                  "135"
         }
     }
 

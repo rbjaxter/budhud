@@ -1,12 +1,12 @@
 "Resource/UI/StoreViewCartPanel.res"
 {
-	"BackgroundHeader"
-	{
+    "BackgroundHeader"
+    {
         "ypos"                                                      "r-6969"
     }
 
-	"BackgroundFooter"
-	{
+    "BackgroundFooter"
+    {
         "ypos"                                                      "r-6969"
     }
 

@@ -1,8 +1,8 @@
 "UnlitGeneric"
 {
-	"$baseTexture"		"vgui/replay/thumbnails/obj_icons/icon_obj_5_red_locked"
-	"$translucent"		"1"
-	"$vertexalpha"		"1"
-	"$vertexcolor"		"1"
-	"$ignorez"		"1"
+    "$baseTexture"        "vgui/replay/thumbnails/obj_icons/icon_obj_5_red_locked"
+    "$translucent"        "1"
+    "$vertexalpha"        "1"
+    "$vertexcolor"        "1"
+    "$ignorez"        "1"
 }

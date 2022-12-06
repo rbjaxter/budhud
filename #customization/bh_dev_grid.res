@@ -5,7 +5,7 @@
     // Used to check the placement of elements.
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    "bh_dev_rightcenter"
+    "bh_dev_centerright"
     {
         "ControlName"               "ImagePanel"
         "fieldName"                 "bh_dev"
@@ -19,7 +19,7 @@
         "fillcolor"                 "000 255 000 120"
     }
 
-    "bh_dev_leftcenter"
+    "bh_dev_centerleft"
     {
         "ControlName"               "ImagePanel"
         "fieldName"                 "bh_dev"
@@ -33,9 +33,7 @@
         "fillcolor"                 "000 255 000 120"
     }
 
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    "bh_dev_upcenter"
+    "bh_dev_centerup"
     {
         "ControlName"               "ImagePanel"
         "fieldName"                 "bh_dev"
@@ -49,7 +47,7 @@
         "fillcolor"                 "255 000 000 120"
     }
 
-    "bh_dev_downcenter"
+    "bh_dev_centerdown"
     {
         "ControlName"               "ImagePanel"
         "fieldName"                 "bh_dev"
@@ -61,5 +59,61 @@
         "visible"                   "1"
         "enabled"                   "1"
         "fillcolor"                 "255 000 000 120"
+    }
+
+    "bh_dev_upperleftright"
+    {
+        "ControlName"               "ImagePanel"
+        "fieldName"                 "bh_dev"
+        "xpos"                      "f0"
+        "ypos"                      "360"
+        "zpos"                      "0"
+        "wide"                      "f0"
+        "tall"                      "1"
+        "visible"                   "1"
+        "enabled"                   "1"
+        "fillcolor"                 "255 000 000 120"
+    }
+
+    "bh_dev_leftupdown"
+    {
+        "ControlName"               "ImagePanel"
+        "fieldName"                 "bh_dev"
+        "xpos"                      "cs-201"
+        "ypos"                      "f0"
+        "zpos"                      "0"
+        "wide"                      "1"
+        "tall"                      "f0"
+        "visible"                   "1"
+        "enabled"                   "1"
+        "fillcolor"                 "000 255 000 120"
+    }
+
+    "bh_dev_lowerleftright"
+    {
+        "ControlName"               "ImagePanel"
+        "fieldName"                 "bh_dev"
+        "xpos"                      "f0"
+        "ypos"                      "120"
+        "zpos"                      "0"
+        "wide"                      "f0"
+        "tall"                      "1"
+        "visible"                   "1"
+        "enabled"                   "1"
+        "fillcolor"                 "255 000 000 120"
+    }
+
+    "bh_dev_rightupdown"
+    {
+        "ControlName"               "ImagePanel"
+        "fieldName"                 "bh_dev"
+        "xpos"                      "cs200"
+        "ypos"                      "f0"
+        "zpos"                      "0"
+        "wide"                      "1"
+        "tall"                      "f0"
+        "visible"                   "1"
+        "enabled"                   "1"
+        "fillcolor"                 "000 255 000 120"
     }
 }

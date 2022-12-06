@@ -14,8 +14,8 @@
         "enabled"                                                   "0"
     }
 
-	"DialogFrame"
-	{
+    "DialogFrame"
+    {
 
         "FootBottomPanel"
         {

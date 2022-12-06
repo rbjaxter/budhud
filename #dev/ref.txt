@@ -210,7 +210,7 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
         "fgcolor_override"                                          "bh_black"
         "selectionColor_override"                                   "bh_Theme_TextAccent"
-		"selectionTextColor_override"                               "bh_white"
+        "selectionTextColor_override"                               "bh_white"
         "bgcolor_override"                                          "bh_white"
 
         "Button"
@@ -226,7 +226,7 @@
         // For text entry box (border no worky)
         "fgcolor_override"                                          "bh_black"
         "selectionColor_override"                                   "bh_Theme_TextAccent"
-		"selectionTextColor_override"                               "bh_white"
+        "selectionTextColor_override"                               "bh_white"
         "bgcolor_override"                                          "bh_white"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////

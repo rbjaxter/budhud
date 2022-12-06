@@ -1067,26 +1067,26 @@
         "visible"                                                   "1"
         "PaintBackgroundType"                                       "0"
 
-		"SubButton"
-		{
-			"ControlName"	                                        "CExImageButton"
-			"fieldName"		                                        "SubButton"
-			"font"			                                        "bh_Font26"
-			"labelText"		                                        ""
-			"textAlignment"	                                        "center"
-			"xpos"			                                        "0"
-			"ypos"			                                        "0"
-			"zpos"			                                        "1"
-			"wide"			                                        "250"
-			"tall"			                                        "35"
-			"autoResize"	                                        "0"
-			"pinCorner"		                                        "0"
-			"visible"		                                        "1"
-			"enabled"		                                        "1"
+        "SubButton"
+        {
+            "ControlName"                                           "CExImageButton"
+            "fieldName"                                             "SubButton"
+            "font"                                                  "bh_Font26"
+            "labelText"                                             ""
+            "textAlignment"                                         "center"
+            "xpos"                                                  "0"
+            "ypos"                                                  "0"
+            "zpos"                                                  "1"
+            "wide"                                                  "250"
+            "tall"                                                  "35"
+            "autoResize"                                            "0"
+            "pinCorner"                                             "0"
+            "visible"                                               "1"
+            "enabled"                                               "1"
             "defaultFgColor_override"                               "bh_menu_foreground1"
             "armedFgColor_override"                                 "bh_menu_background1"
             "paintbackground"                                       "0"
-		}
+        }
     }
 
     "bh_budhudTitleShadow"

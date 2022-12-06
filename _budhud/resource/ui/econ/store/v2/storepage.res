@@ -4,7 +4,7 @@
 
 "Resource/UI/StorePage.res"
 {
-	"ClassFilterTooltipLabel"
+    "ClassFilterTooltipLabel"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
@@ -186,7 +186,7 @@
         "font"                                                      "bh_Font12"
         "fgcolor_override"                                          "bh_black"
         "selectionColor_override"                                   "bh_Theme_TextAccent"
-		"selectionTextColor_override"                               "bh_white"
+        "selectionTextColor_override"                               "bh_white"
         "bgcolor_override"                                          "bh_white"
     }
 
@@ -195,7 +195,7 @@
         "border_override"                                           "bh_b_NESW"
         "fgcolor_override"                                          "bh_white"
         "selectionColor_override"                                   "bh_Theme_TextAccent"
-		"selectionTextColor_override"                               "bh_white"
+        "selectionTextColor_override"                               "bh_white"
         "bgcolor_override"                                          "bh_Theme_BG20"
 
         "Button"
@@ -214,7 +214,7 @@
         "border_override"                                           "bh_b_NESW"
         "fgcolor_override"                                          "bh_white"
         "selectionColor_override"                                   "bh_Theme_TextAccent"
-		"selectionTextColor_override"                               "bh_white"
+        "selectionTextColor_override"                               "bh_white"
         "bgcolor_override"                                          "bh_Theme_BG20"
 
         "Button"

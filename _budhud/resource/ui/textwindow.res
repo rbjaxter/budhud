@@ -27,6 +27,7 @@
         "ypos"                                                      "c-150"
         "wide"                                                      "500"
         "tall"                                                      "300"
+        "font"                                                      "bh_Font12"
         "fgcolor"                                                   "bh_white"
     }
 

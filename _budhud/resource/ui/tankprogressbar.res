@@ -6,28 +6,28 @@
 
 "Resource/UI/TankProgressBar.res"
 {
-	"ProgressBar"
-	{
-		"xpos"			                                            "30"
-		"ypos"			                                            "4"
-		"wide"			                                            "145"
-		"tall"			                                            "10"
-		"image"			                                            "replay\thumbnails\team_colors\bh_fill_blue"
-	}
+    "ProgressBar"
+    {
+        "xpos"                                                      "30"
+        "ypos"                                                      "4"
+        "wide"                                                      "145"
+        "tall"                                                      "10"
+        "image"                                                     "replay\thumbnails\team_colors\bh_fill_blue"
+    }
 
-	"ProgressBarBG"
-	{
-		"xpos"			                                            "29"
-		"ypos"			                                            "r-6969" //3
-		"wide"			                                            "147"
-		"tall"			                                            "12"
-		"image"			                                            "replay\thumbnails\team_colors\bh_fill_gray"
-	}
+    "ProgressBarBG"
+    {
+        "xpos"                                                      "29"
+        "ypos"                                                      "r-6969" //3
+        "wide"                                                      "147"
+        "tall"                                                      "12"
+        "image"                                                     "replay\thumbnails\team_colors\bh_fill_gray"
+    }
 
     "bh_ProgressBarBG"
     {
         "ControlName"                                               "ImagePanel"
-        "fieldName"                                                 "bh_Template_Block"
+        "fieldName"                                                 "bh_ProgressBarBG"
         "xpos"                                                      "30"
         "ypos"                                                      "4"
         "zpos"                                                      "0"

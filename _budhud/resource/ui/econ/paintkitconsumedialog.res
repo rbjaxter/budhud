@@ -4,18 +4,18 @@
 
 "Resource/UI/PaintkitConsumeDialog.res"
 {
-	"BGPanel"
-	{
+    "BGPanel"
+    {
         "ypos"                                                      "r-6969"
-	}
+    }
 
-	"Shade"
-	{
+    "Shade"
+    {
         "ypos"                                                      "r-6969"
-	}
+    }
 
     "PaintkitConsume"
-	{
+    {
         "xpos"                                                      "0"
         "ypos"                                                      "0"
         "wide"                                                      "f0"
@@ -41,8 +41,8 @@
         "paintbackgroundtype"                                       "0"
     }
 
-	"Title"
-	{
+    "Title"
+    {
         "xpos"                                                      "cs-0.5"
         "ypos"                                                      "30"
         "tall"                                                      "60"
@@ -50,7 +50,7 @@
     }
 
     "DescText"
-	{
+    {
         "xpos"                                                      "cs-0.5"
         "ypos"                                                      "55"
         "tall"                                                      "60"
@@ -59,7 +59,7 @@
     }
 
     "InspectionPanel"
-	{
+    {
         "xpos"                                                      "cs-0.5"
         "ypos"                                                      "90"
         "wide"                                                      "f0"
@@ -86,8 +86,8 @@
         "border"                                                    "bh_b_NESW"
     }
 
-	"CancelButton"
-	{
+    "CancelButton"
+    {
         "xpos"                                                      "c-300"
         "ypos"                                                      "r42"
         "wide"                                                      "100"
@@ -104,10 +104,10 @@
         "depressedBgColor_override"                                 "bh_Theme_BG30"
         "border_default"                                            "bh_b_NESW"
         "border_armed"                                              "bh_b_NESW"
-	}
+    }
 
-	"ConfirmButton"
-	{
+    "ConfirmButton"
+    {
         "xpos"                                                      "c200"
         "ypos"                                                      "r42"
         "wide"                                                      "100"
@@ -123,5 +123,5 @@
         "depressedBgColor_override"                                 "bh_Theme_BG30"
         "border_default"                                            "bh_b_NESW"
         "border_armed"                                              "bh_b_NESW"
-	}
+    }
 }
