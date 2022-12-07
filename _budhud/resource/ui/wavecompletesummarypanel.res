@@ -1,15 +1,15 @@
 "Resource/UI/WaveCompletePanel.res"
 {
-	"Background"
-	{
-		"tall"                                                      "85"
+    "Background"
+    {
+        "tall"                                                      "85"
         "image"                                                     "replay\thumbnails\obj_icons\scalable_dgray"
 
         "src_corner_height"                                         "24"
-		"src_corner_width"                                          "24"
-		"draw_corner_width"                                         "5"
-		"draw_corner_height"                                        "5"
-	}
+        "src_corner_width"                                          "24"
+        "draw_corner_width"                                         "5"
+        "draw_corner_height"                                        "5"
+    }
 
     "bh_DividingLine"
     {
@@ -30,31 +30,31 @@
         "paintbackgroundtype"                                       "0"
     }
 
-	"WaveCompleteContainer"
-	{
-		"WaveCompleteLabelShadow"
-		{
-			"fgcolor"                                               "bh_shadow"
-			"PaintBackgroundType"                                   "0"
-			"bgcolor_override"                                      "bh_blank"
-		}
-	}
+    "WaveCompleteContainer"
+    {
+        "WaveCompleteLabelShadow"
+        {
+            "fgcolor"                                               "bh_shadow"
+            "PaintBackgroundType"                                   "0"
+            "bgcolor_override"                                      "bh_blank"
+        }
+    }
 
-	"CreditContainer"
-	{
-		"CreditCollectedCountLabel"
-		{
-			"fgcolor"                                               "bh_bgreen"
-		}
+    "CreditContainer"
+    {
+        "CreditCollectedCountLabel"
+        {
+            "fgcolor"                                               "bh_bgreen"
+        }
 
-		"CreditMissedCountLabel"
-		{
-			"fgcolor"                                               "bh_bred"
-		}
+        "CreditMissedCountLabel"
+        {
+            "fgcolor"                                               "bh_bred"
+        }
 
-		"CreditBonusCountLabel"
-		{
-			"fgcolor"                                               "bh_lblue"
-		}
-	}
+        "CreditBonusCountLabel"
+        {
+            "fgcolor"                                               "bh_lblue"
+        }
+    }
 }

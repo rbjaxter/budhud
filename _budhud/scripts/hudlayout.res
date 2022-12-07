@@ -109,6 +109,17 @@
         "tall"                                                      "100"
     }
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Moved from hudmannvsmachinestatus.res to hudlayout.res in December 6th 2022 update
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    "CurrencyStatusPanel"
+    {
+        "xpos"                                                      "c-225"
+        "ypos"                                                      "r19"
+        "wide"                                                      "100"
+        "tall"                                                      "19"
+    }
+
     "HudMenuEngyBuild"
     {
         "visible"                                                   "1"

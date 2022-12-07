@@ -43,14 +43,6 @@
         "ypos"                                                      "5"
     }
 
-    "CurrencyStatusPanel"
-    {
-        "xpos"                                                      "c-225"
-        "ypos"                                                      "r19"
-        "wide"                                                      "100"
-        "tall"                                                      "19"
-    }
-
     "InWorldCurrencyPanel"
     {
         "xpos"                                                      "c125"

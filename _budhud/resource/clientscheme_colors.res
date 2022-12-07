@@ -314,7 +314,7 @@ Scheme
         "LightRed"                                                  "254 002 209 255"       // Bright pink to locate
         "LighterRed"                                                "254 002 209 255"       // Bright pink to locate
         "TanLight"                                                  "255 255 255 255"       // Used in far too many places to want to do anything but change it here
-        "TanDark"                                                   "150 150 150 255"       // Used in advanced options, backpack context menu (text color), and dropbox text color (when highlighted)
+        "TanDark"                                                   "255 255 255 255"       // Used in advanced options
 
         // Engineer HUD Specific
         "LowHealthRed"                                              "159 055 055 255"       // When building is low health or is in first stage of building
@@ -336,13 +336,17 @@ Scheme
         // Saving for future consideration
         "MenuBoxBg"                                                 "0 0 0 100"
 
+        // Scoreboard
+        // Highlighted player
+        "SectionedListPanel.OutOfFocusSelectedBgColor"              "065 065 065 25"
+
         // Context menu (backpack, medal select on main menu, etc)
         // Font: HudFontMediumSecondary
-        Menu.TextColor					                            "bh_white"
-		Menu.BgColor					                            "bh_Theme_BG20"
-		Menu.ArmedTextColor				                            "bh_orange"
-		Menu.ArmedBgColor				                            "bh_Theme_BG40"
-		Menu.TextInset					                            "10"
+        "Menu.TextColor"                                            "bh_white"
+        "Menu.BgColor"                                              "bh_Theme_BG20"
+        "Menu.ArmedTextColor"                                       "bh_orange"
+        "Menu.ArmedBgColor"                                         "bh_Theme_BG40"
+        "Menu.TextInset"                                            "10"
 
         // Weapon Selection Colors
         "SelectionNumberFg"                                         "255 255 255 255"

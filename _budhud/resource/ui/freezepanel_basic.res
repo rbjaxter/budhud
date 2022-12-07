@@ -65,12 +65,19 @@
 
     "itempanel"
     {
-        //"itemmodelpanel"
-        //{
-        //  "allow_rot"                                             "0"
-        //  "inventory_image_type"                                  "1"
-        //  "use_item_rendertarget"                                 "0"
-        //}
+        "model_center_y"                                            "1"
+        "model_center_x"                                            "1"
+        "model_wide"                                                "80"
+        "model_tall"                                                "50"
+        "noitem_use_fullpanel"                                      "0"
+
+        "itemmodelpanel"
+        {
+            "useparentbg"                                           "0"
+            "allow_rot"                                             "0"
+            "inventory_image_type"                                  "1"
+            "use_item_rendertarget"                                 "0"
+        }
 
         "bh_ItemBG"
         {

@@ -12,9 +12,9 @@
         "outoffocus_bgcolor_override"                               "bh_Theme_BG20"
 
         "modelpanels_selection_kv"
-		{
-            "model_tall"			                                "55"
-			"model_wide"			                                "82"
+        {
+            "model_tall"                                            "55"
+            "model_wide"                                            "82"
         }
 
         "modelpanels_kv"
@@ -31,8 +31,8 @@
     // Even though this is on a sheet below the primary "back" button, having this quickkey &Q here
     // allows us to go back to the crafting window, instead of all the way back to the loadout screen
     // edit: unfortunately this causes items to unequip if you have an item equipped -> select the slot -> go back
-	//"CancelButton"
-	//{
+    //"CancelButton"
+    //{
     //    "xpos"                                                      "r-6969"
     //    "ypos"                                                      "r-6969"
     //    "zpos"                                                      "0"

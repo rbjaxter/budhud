@@ -70,6 +70,7 @@
         "wide"                                                      "500"
         "tall"                                                      "250"
         "fgcolor"                                                   "bh_white"
+        "font"                                                      "bh_Font12"
     }
 
     "bh_Continue"

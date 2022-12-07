@@ -14,10 +14,10 @@
         "border"                                                    "bh_b_NESW"
     }
 
-	"StatePanel0"
-	{
-		"subbutton0"
-		{
+    "StatePanel0"
+    {
+        "subbutton0"
+        {
             "defaultFgColor_override"                               "bh_Theme_TextSecondary"
             "armedFgColor_override"                                 "bh_Theme_TextAccent"
             "depressedFgColor_override"                             "bh_ButtonDepressed"
@@ -28,8 +28,8 @@
             "border_armed"                                          "bh_b_NESW"
         }
 
-		"subbutton1"
-		{
+        "subbutton1"
+        {
             "defaultFgColor_override"                               "bh_Theme_TextSecondary"
             "armedFgColor_override"                                 "bh_Theme_TextAccent"
             "depressedFgColor_override"                             "bh_ButtonDepressed"
@@ -41,7 +41,7 @@
         }
 
         "subbutton2"
-		{
+        {
             "defaultFgColor_override"                               "bh_Theme_TextSecondary"
             "armedFgColor_override"                                 "bh_Theme_TextAccent"
             "depressedFgColor_override"                             "bh_ButtonDepressed"
@@ -54,19 +54,19 @@
     }
 
     "StatePanel3"
-	{
+    {
         "URLHelpLabel"
         {
             "fgcolor_override"                                      "bh_gray"
         }
 
         "URLEntry"
-		{
+        {
             "fgcolor_override"                                      "bh_white"
         }
 
         "URLSearchingLabel"
-		{
+        {
             "fgcolor_override"                                      "bh_Theme_TextAccent"
         }
 
@@ -76,7 +76,7 @@
         }
 
         "subbutton0"
-		{
+        {
             "defaultFgColor_override"                               "bh_Theme_TextSecondary"
             "armedFgColor_override"                                 "bh_Theme_TextAccent"
             "depressedFgColor_override"                             "bh_ButtonDepressed"

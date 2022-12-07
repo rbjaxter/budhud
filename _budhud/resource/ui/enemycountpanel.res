@@ -1,12 +1,12 @@
 "Resource/UI/EnemyCountPanel.res"
 {
-	"EnemyCountPanel"
-	{
+    "EnemyCountPanel"
+    {
         "ypos"                                                      "5"
     }
 
-	"EnemyCount"
-	{
-        "font"			                                            "bh_Font10"
-	}
+    "EnemyCount"
+    {
+        "font"                                                      "bh_Font10"
+    }
 }

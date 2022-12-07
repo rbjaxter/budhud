@@ -1,4 +1,4 @@
-	#base	"../../#users/custom/resource/ui/mainmenuplaylistentry.res"
-	#base	"../../_stream/resource/ui/mainmenuplaylistentry.res"
-	#base	"../../_budhud/resource/ui/mainmenuplaylistentry.res"
-	#base	"../../_tf2hud/resource/ui/mainmenuplaylistentry.res"
+    #base    "../../#users/custom/resource/ui/mainmenuplaylistentry.res"
+    #base    "../../_stream/resource/ui/mainmenuplaylistentry.res"
+    #base    "../../_budhud/resource/ui/mainmenuplaylistentry.res"
+    #base    "../../_tf2hud/resource/ui/mainmenuplaylistentry.res"
