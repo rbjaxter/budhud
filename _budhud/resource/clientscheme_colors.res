@@ -401,10 +401,10 @@ Scheme
         // Backpack "Stock Items" checkmark
         CheckButton.TextColor                                       "bh_white"
         CheckButton.SelectedTextColor                               "bh_white"
-        CheckButton.BgColor                                         "bh_white"
-        CheckButton.Border1                                         "bh_black"          // Left
-        CheckButton.Border2                                         "bh_black"          // Right
-        CheckButton.Check                                           "bh_black"          // Color of the check itself
+        CheckButton.BgColor                                         "bh_black"
+        CheckButton.Border1                                         "bh_white"          // Left
+        CheckButton.Border2                                         "bh_white"          // Right
+        CheckButton.Check                                           "bh_white"          // Color of the check itself
         CheckButton.HighlightFgColor                                "bh_white"
     }
 }
