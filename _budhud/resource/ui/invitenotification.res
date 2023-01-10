@@ -7,9 +7,11 @@
         "enabled"                                                   "0"
     }
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // ypos of this seems to be set by an animation or something, probably not worth messing with it
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
     "InviteNotification"
     {
-        "ypos"                                                      "50"        // Requires restart of game followed by aa reload for change to take
         "zpos"                                                      "3000"
         "border"                                                    "bh_TooltipBG"
     }

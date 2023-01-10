@@ -1,9 +1,11 @@
-"Resource/UI/NotificationToastContainer.res"
-{
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // In-game notifications
+    // Appears in the middle left of the screen
+    // Ring, trade, etc
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
+"Resource/UI/NotificationToastContainer.res"
+{
     "NotificationToastContainer"
     {
         "wide"                                                      "150"
