@@ -531,6 +531,16 @@
         "ypos"                                                      "-3"
         "border"                                                    "bh_TooltipBG"
 
+        "Notifications_Scroller"
+        {
+            "tall"                                                  "60"    // 60
+
+            "Notifications_Control"
+            {
+                "tall"                                              "60"    // 60
+            }
+        }
+
         "Notifications_CloseButton"
         {
             "xpos"                                                  "190"
@@ -554,57 +564,11 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Stream, contracts, news, new items buttons
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-// Old "New Items" notification (in tv)
-//    "Notifications_ShowButtonPanel"
-//    {
-//        "pin_to_sibling"                                            "bh_TopPin"
-//        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-//        "pin_to_sibling_corner"                                     "0"
-//
-//        "xpos"                                                      "15"
-//        "ypos"                                                      "-3"
-//        "wide"                                                      "30"
-//        "tall"                                                      "30"
-//
-//        "SubImage"
-//        {
-//            "ypos"                                                  "r-6969"
-//            "visible"                                               "0"
-//            "enabled"                                               "0"
-//        }
-//
-//        "Notifications_CountLabel"
-//        {
-//            "ypos"                                                  "r-6969"
-//            "visible"                                               "0"
-//            "enabled"                                               "0"
-//        }
-//
-//        "Notifications_ShowButtonPanel_SB"
-//        {
-//            "zpos"                                                  "6969"
-//            "wide"                                                  "28"
-//            "tall"                                                  "28"
-//
-//            "image_drawcolor"                                       "255 255 255 255"
-//            "image_armedcolor"                                      "240 134 49 255"
-//
-//            "SubImage"
-//            {
-//                "xpos"                                              "10"
-//                "ypos"                                              "11"
-//                "wide"                                              "10"
-//                "tall"                                              "10"
-//                "image"                                             "replay/thumbnails/menu_icons/newnotification"
-//            }
-//        }
-//    }
-
     "Notifications_ShowButtonPanel"
     {
-        "xpos"                                                      "2"
+        "xpos"                                                      "r150"
         "ypos"                                                      "27"
-        "wide"                                                      "252"
+        "wide"                                                      "150"
         "tall"                                                      "18"
 
         "SubImage"
@@ -625,13 +589,13 @@
         "Notifications_ShowButtonPanel_SB"
         {
             "xpos"                                                  "0"
-            "textinsetx"                                            "45"
+            "textinsetx"                                            "50"
             "ypos"                                                  "0"
             "zpos"                                                  "6969"
-            "wide"                                                  "252"
+            "wide"                                                  "150"
             "tall"                                                  "18"
             "labeltext"                                             "#bh_PendingAlerts"
-            "textalignment"                                         "west"
+            "textalignment"                                         "east"
             "font"                                                  "bh_Font14"
             "defaultFgColor_override"                               "bh_menu_foreground1"
             "armedFgColor_override"                                 "bh_menu_background1"
@@ -640,12 +604,44 @@
 
             "SubImage"
             {
-                "xpos"                                              "2"
+                "xpos"                                              "131"
                 "ypos"                                              "2"
                 "wide"                                              "15"
                 "tall"                                              "15"
                 "image"                                             "replay/thumbnails/menu_icons/newnotification"
             }
+        }
+
+        "bh_Notifications_ShowButtonPanel_SB_Shadow"
+        {
+            "pin_to_sibling"                                        "Notifications_ShowButtonPanel_SB"
+            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
+            "pin_to_sibling_corner"                                 "0"
+
+            "ControlName"	                                        "CExImageButton"
+            "fieldName"		                                        "bh_Notifications_ShowButtonPanel_SB_Shadow"
+            "xpos"			                                        "-1"
+            "textinsetx"                                            "50"
+            "ypos"			                                        "-1"
+            "zpos"			                                        "6968"
+            "wide"			                                        "150"
+            "tall"			                                        "18"
+            "autoResize"	                                        "0"
+            "pinCorner"		                                        "3"
+            "visible"		                                        "1"
+            "enabled"		                                        "1"
+            "tabPosition"	                                        "0"
+            "labelText"		                                        "#bh_PendingAlerts"
+            "font"			                                        "bh_Font14"
+            "textAlignment"	                                        "east"
+            "dulltext"		                                        "0"
+            "brighttext"	                                        "0"
+            "default"		                                        "1"
+            "actionsignallevel"                                     "2"
+
+            "defaultFgColor_override"                               "bh_shadow"
+            "armedFgColor_override"                                 "bh_shadow"
+            "paintbackground"                                       "0"
         }
     }
 
@@ -1944,7 +1940,8 @@
         "ypos"                                                      "r69"
         "wide"                                                      "420"
         "tall"                                                      "420"
-        "visible"                                                   "1"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
 
         "SubButton"
         {

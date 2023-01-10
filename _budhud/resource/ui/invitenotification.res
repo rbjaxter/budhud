@@ -9,15 +9,16 @@
 
     "InviteNotification"
     {
-        "ypos"                                                      "25"
+        "ypos"                                                      "50"        // Requires restart of game followed by aa reload for change to take
         "zpos"                                                      "3000"
+        "border"                                                    "bh_TooltipBG"
     }
 
     "Text"
     {
         if_incoming
         {
-            "xpos"                                                  "25"
+            "xpos"                                                  "35"
             "wide"                                                  "f0"
             "textalignment"                                         "west"
         }
