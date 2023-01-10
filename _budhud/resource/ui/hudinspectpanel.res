@@ -11,6 +11,7 @@
         "model_wide"                                                "80"
         "model_tall"                                                "50"
         "noitem_use_fullpanel"                                      "0"
+        "resize_to_text"                                            "1"
 
         "attriblabel"
         {
