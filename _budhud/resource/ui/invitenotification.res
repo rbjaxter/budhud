@@ -7,17 +7,20 @@
         "enabled"                                                   "0"
     }
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // ypos of this seems to be set by an animation or something, probably not worth messing with it
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
     "InviteNotification"
     {
-        "ypos"                                                      "25"
         "zpos"                                                      "3000"
+        "border"                                                    "bh_TooltipBG"
     }
 
     "Text"
     {
         if_incoming
         {
-            "xpos"                                                  "25"
+            "xpos"                                                  "35"
             "wide"                                                  "f0"
             "textalignment"                                         "west"
         }
