@@ -1,7 +1,6 @@
     #base    "../../#users/custom/resource/ui/mainmenuoverride.res"
     #base    "../../#users/dane/#customization/_enabled/bh_menu_background.res"
     #base    "../../#users/dane/#customization/_enabled/bh_menu_hidegif.res"
-    #base    "../../#users/dane/resource/ui/mainmenuoverride.res"
     #base    "../../#users/truktruk/#customization/_enabled/bh_menu_background.res"
     #base    "../../#users/ly_dee/#customization/_enabled/bh_menu_background.res"
     #base    "../../#users/ly_dee/#customization/_enabled/bh_menu_hidefavorites.res"
