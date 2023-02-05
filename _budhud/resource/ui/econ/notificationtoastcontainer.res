@@ -9,14 +9,14 @@
     "NotificationToastContainer"
     {
         "wide"                                                      "150"
+        //"tall"                                                      "50"
         "border"                                                    "bh_b_NESW"
-        "bgcolor_override"                                          "bh_Theme_BG20"
+        "bgcolor_override"                                          "bh_Theme_BG30"
     }
 
     "HelpTextLabel"
     {
         "fgcolor"                                                   "bh_white"
         "font"                                                      "bh_Font8"
-        "textinsety"                                                "8"
     }
 }
