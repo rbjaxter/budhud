@@ -15,7 +15,6 @@
     #base    "../../#customization/_enabled/bh_menu_hidegif.res"
     #base    "../../#customization/_enabled/bh_feeling_spooky.res"
     #base    "../../#customization/_enabled/bh_feeling_festive.res"
-    #base    "../../#users/dane/resource/ui/mainmenuoverride.res"
     #base    "../../#users/zenith/resource/ui/mainmenuoverride.res"
     #base    "../../#users/zenith/#customization/_enabled/bh_menu_background.res"
     #base    "../../_stream/resource/ui/mainmenuoverride.res"
