@@ -227,6 +227,34 @@ function Check_InvokeWebRequest {
 ################
 
 function Check_HUDFiles {
+    # Check for hl2.exe file
+    Write-Host -foregroundcolor "White" -NoNewLine "Checking for hl2.exe... "
+    $hl2 = Maybe_Path $tf "../hl2.exe"
+
+    If
+    (
+        ![String]::IsNullOrEmpty($hl2)
+    )
+    {
+        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
+    }
+
+    Else {
+        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate hl2.exe"
+        Write-Host ""
+
+        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
+        Write-Host -foregroundcolor "White" "Default hud will load instead of budhud"
+        Write-Host ""
+
+        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
+        Write-Host -foregroundcolor "White" "Verify that TF2 is not installed on a separate drive"
+        Write-Host -foregroundcolor "White" "Verify that you do not have multiple custom folders"
+        Write-Host -foregroundcolor "White" "Verify that you have TF2 installed at all lmao"
+        Write-Host ""
+        Break
+    }
+
     # Check for tf2_misc_dir.vpk file
     Write-Host -foregroundcolor "White" -NoNewLine "Checking for tf2_misc_dir.vpk... "
     $misc_dir = Maybe_Path $tf "tf2_misc_dir.vpk"
@@ -251,33 +279,6 @@ function Check_HUDFiles {
         Write-Host -foregroundcolor "White" "Verify that there are not two budhud-master folders inside of each other"
         Write-Host -foregroundcolor "Red" "WRONG: ../tf/custom/budhud-master/budhud-master/"
         Write-Host -foregroundcolor "Green" "RIGHT: ../tf/custom/budhud-master/"
-        Write-Host ""
-        Break
-    }
-
-    # Check for hl2.exe file
-    Write-Host -foregroundcolor "White" -NoNewLine "Checking for hl2.exe... "
-    $hl2 = Maybe_Path $tf "../hl2.exe"
-
-    If
-    (
-        ![String]::IsNullOrEmpty($hl2)
-    )
-    {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
-    }
-
-    Else {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate hl2.exe"
-        Write-Host ""
-
-        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
-        Write-Host -foregroundcolor "White" "Default hud will load instead of budhud"
-        Write-Host ""
-
-        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
-        Write-Host -foregroundcolor "White" "Verify that TF2 is not installed on a separate drive"
-        Write-Host -foregroundcolor "White" "Verify that you do not have multiple custom folders"
         Write-Host ""
         Break
     }
@@ -452,7 +453,6 @@ function Run_ExtractDefaultHUD {
     Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_portuguese.txt"
     Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_swedish.txt"
     Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_thai.txt"
-    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_turkish.txt"
     Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_ukrainian.txt"
 
     # The below files have been translated, but this code is left here for reference
@@ -466,6 +466,7 @@ function Run_ExtractDefaultHUD {
     # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_schinese.txt"
     # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_spanish.txt"
     # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_tchinese.txt"
+    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_turkish.txt"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
     Write-Progress -Activity "Modifying files" -Completed
@@ -630,6 +631,7 @@ function Run_SetHUDLanguage {
     Write-Host "Simplified Chinese"
     Write-Host "Spanish"
     Write-Host "Traditional Chinese"
+    Write-Host "Turkish"
     Write-Host ""
     Write-Host "Or, type Quit"
 
@@ -681,6 +683,10 @@ function Run_SetHUDLanguage {
 
         "Traditional Chinese" {
             Copy-Item "$PSScriptRoot/resource/chat_tchinese.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
+        }
+
+        "Turkish" {
+            Copy-Item "$PSScriptRoot/resource/chat_turkish.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
         "Quit" {
