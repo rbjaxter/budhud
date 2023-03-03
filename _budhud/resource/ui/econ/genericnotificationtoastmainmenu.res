@@ -5,7 +5,7 @@
 "Resource/UI/GenericNotificationToast.res"
 {
     "GenericNotificationToast"
-	{
+    {
         "bgcolor_override"                                          "bh_Theme_BG30"
         "wide"                                                      "193"   // Relates to NotificationToastControl value in notificationtoastcontrol.res
         "tall"                                                      "68"
@@ -38,7 +38,7 @@
     }
 
     "AvatarImage"   // This notification is automatically tall-sized by the AvatarImage size, it seems
-	{
+    {
         "ypos"                                                      "15"
         "wide"                                                      "24"
         "tall"                                                      "24"

@@ -1,11 +1,12 @@
- //////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
 // Health Animations - Box
 // ============================================================================================== //
 // Box appears behind health and changes based on buff/low health state
- //////////////////////////////////////////////////////////////////////////////////////////////////
- //////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
 // Buffed Health
- //////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
 event HudHealthBonusPulse
 {
     Animate              PlayerStatusHealthBonusImage             alpha              0                            Linear            0              0.2
@@ -18,10 +19,12 @@ event HudHealthBonusPulse
     Animate              bh_HealthBGSpec                          bgcolor            bh_TargetID_Buff             Linear            0              0.2
     RunEvent             HudHealthBonusPulseLoop                  0.4
 }
+
 event HudHealthBonusPulseLoop
 {
     RunEvent             HudHealthBonusPulse                      0
 }
+
 event HudHealthBonusPulseStop
 {
     StopEvent            HudHealthBonusPulse                      0
@@ -31,9 +34,10 @@ event HudHealthBonusPulseStop
     Animate              bh_HealthBG                              bgcolor            bh_HealthBox_Base            Linear            0              0.2
     Animate              bh_HealthBGSpec                          bgcolor            bh_TargetID_Base             Linear            0              0.2
 }
- //////////////////////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
 // Low Health
- //////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
 event HudHealthDyingPulse
 {
     Animate              PlayerStatusHealthBonusImage             alpha              0                            Linear            0              0.2
@@ -43,10 +47,12 @@ event HudHealthDyingPulse
     Animate              bh_HealthBGSpec                          bgcolor            bh_TargetID_Low              Linear            0              0.2
     RunEvent             HudHealthDyingPulseLoop                  0.4
 }
+
 event HudHealthDyingPulseLoop
 {
     RunEvent             HudHealthDyingPulse                      0
 }
+
 event HudHealthDyingPulseStop
 {
     StopEvent            HudHealthDyingPulse                      0

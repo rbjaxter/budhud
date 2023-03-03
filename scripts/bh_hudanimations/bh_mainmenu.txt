@@ -1,19 +1,21 @@
- ////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
 // Moves pvprankpanel.res to avoid casual screen match end missing elements
- ////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
 event CompetitiveGame_ShowPvPRankPanel
 {
     Animate                  RankPanel                                             ypos                                -35                               Linear             0              0
     Animate                  ModelContainer                                        ypos                                r150                              Linear             0              0
     RunEventChild            RankPanel                                             PvPRankPanelShowXPChange            0
 }
- ////////////////////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
 // Main menu animations
 // ============================================================================================== //
- ////////////////////////////////////////////////////////////////////////////////////////////////
- ////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
 // Casual category animations
- ////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
 event CasualCategory_Selected
 {
     Animate                  Shade                                                 bgcolor                             bh_Theme_BG40                     Deaccel            0              0.2
@@ -21,6 +23,7 @@ event CasualCategory_Selected
     Animate                  TitleShadow                                           fgcolor                             bh_shadow                         Deaccel            0              0.2
     Animate                  DescLabel                                             fgcolor                             bh_Theme_TextSecondary            Deaccel            0              0.2
 }
+
 event CasualCategory_NotSelected
 {
     Animate                  Shade                                                 bgcolor                             bh_Theme_BG00                     Deaccel            0              0.2
@@ -29,17 +32,19 @@ event CasualCategory_NotSelected
     Animate                  TitleShadow                                           fgcolor                             0                                 Deaccel            0              0.2
     Animate                  DescLabelShadow                                       fgcolor                             0                                 Deaccel            0              0.2
 }
- ////////////////////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
 // New item notification animations
 // The animation is moved to the loop so we can try forcing the alpha to 255 first
 // My hope is that this will prevent instances where you get a new item but can't see the notification
- ////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
 event HasNotificationsBlink
 {
     Animate                  Notifications_ShowButtonPanel_SB                      alpha                               255                               Linear             0              0
     Animate                  bh_Notifications_ShowButtonPanel_SB_Shadow            alpha                               255                               Linear             0              0
     RunEvent                 HasNotificationsBlinkLoop                             0
 }
+
 event HasNotificationsBlinkLoop
 {
     Animate                  Notifications_ShowButtonPanel_SB                      alpha                               255                               Spline             0              0.4
@@ -48,6 +53,7 @@ event HasNotificationsBlinkLoop
     Animate                  bh_Notifications_ShowButtonPanel_SB_Shadow            alpha                               0                                 Spline             0.6            0.6
     RunEvent                 HasNotificationsBlinkLoop                             1.6
 }
+
 event HasNotificationsBlinkStop
 {
     StopEvent                HasNotificationsBlink                                 0
@@ -55,21 +61,24 @@ event HasNotificationsBlinkStop
     Animate                  Notifications_ShowButtonPanel_SB                      alpha                               255                               Linear             0              0.4
     Animate                  bh_Notifications_ShowButtonPanel_SB_Shadow            alpha                               255                               Linear             0              0.4
 }
- //////////////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
 // New notification animations
 // This one appears in the backpack
- //////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
 event NotificationsPresentBlink
 {
     Animate                  NotificationsPresentPanel                             alpha                               255                               Linear             0              0
     RunEvent                 NotificationsPresentBlinkLoop                         0
 }
+
 event NotificationsPresentBlinkLoop
 {
     Animate                  NotificationsPresentPanel                             alpha                               255                               Spline             0              0.4
     Animate                  NotificationsPresentPanel                             alpha                               0                                 Spline             0.4            0.4
     RunEvent                 NotificationsPresentBlinkLoop                         1.2
 }
+
 event NotificationsPresentBlinkStop
 {
     StopEvent                NotificationsPresentBlink                             0
