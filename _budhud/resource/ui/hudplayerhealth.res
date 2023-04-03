@@ -90,7 +90,7 @@
         "labelText"                                                 "%Health%"
         "textAlignment"                                             "center"
         "font"                                                      "bh_Font_HealthAmmoMain"
-        "fgcolor"                                                   "bh_Shadow"
+        "fgcolor"                                                   "bh_Health_Shadow"
     }
 
     "PlayerStatusHealthBonusImage"
