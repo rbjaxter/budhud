@@ -43,7 +43,7 @@ If you would like to install and customize budhud (as well as other huds) quickl
 * Romanian: Dr4kecl
 * Russian: CriticalFlaw
 * Simplified Chinese: Hoto_Cocoa
-* Spanish: LJoacks
+* Spanish: flower
 
 ### TF2 Crosshairs
 * Knuckles
