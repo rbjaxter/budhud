@@ -54,8 +54,8 @@ event HudHealthDyingPulseStop
 {
     StopEvent            HudHealthDyingPulse                      0
     StopEvent            HudHealthDyingPulseLoop                  0
-    Animate              PlayerStatusHealthBonusImage             alpha              0                           Linear            0              0.2
-    Animate              PlayerStatusHealthValue                  fgcolor            bh_isError                  Linear            0              0.2
-    Animate              PlayerStatusHealthValueShadow            fgcolor            bh_isError                  Linear            0              0.2
-    Animate              bh_HealthBGSpec                          bgcolor            bh_TargetID_Base            Linear            0              0.2
+    Animate              PlayerStatusHealthBonusImage             alpha              0                           Linear            0              0
+    Animate              PlayerStatusHealthValue                  fgcolor            bh_isError                  Linear            0              0
+    Animate              PlayerStatusHealthValueShadow            fgcolor            bh_isError                  Linear            0              0
+    Animate              bh_HealthBGSpec                          bgcolor            bh_TargetID_Base            Linear            0              0
 }

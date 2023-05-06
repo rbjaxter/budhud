@@ -23,6 +23,7 @@
         "MinimumHeight"                                             "40"                        //
         "MaximumHeight"                                             "70"                        //
         "MinimumTime"                                               "1"                         //
+        "Noise"                                                     "0"                         // 0 removes noise from direction, improving accuracy
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////

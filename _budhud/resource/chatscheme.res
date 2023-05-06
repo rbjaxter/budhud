@@ -9,6 +9,7 @@ Scheme
 
     BaseSettings
     {
+        TFColors.ChatTextYellow                                     "255 255 255 255"   // Text color
         RichText.SelectedTextColor                                  "255 255 255 255"
         RichText.SelectedBgColor                                    "150 150 150 255"
 
