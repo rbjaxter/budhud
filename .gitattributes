@@ -1,6 +1,13 @@
 # These filetypes should always have CRLF line endings on checkout
 *.res eol=crlf
+
+# All text set to automatic end-of-line normalization (LF)
 * text=auto
+
+# These filetypes should be recognized as VDF, not ReScript
+*.res linguist-language=vdf
+**/*.res linguist-detectable=true
+
 # Keep these filetypes binary
 *.png binary
 *.jpg binary
