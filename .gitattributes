@@ -1,9 +1,3 @@
-# These filetypes should always have CRLF line endings on checkout
-*.res eol=crlf
-
-# All text set to automatic end-of-line normalization (LF)
-* text=auto
-
 # These filetypes should be recognized as VDF, not ReScript
 *.res linguist-language=vdf
 **/*.res linguist-detectable=true
@@ -11,3 +5,18 @@
 # Keep these filetypes binary
 *.png binary
 *.jpg binary
+
+# These filetypes should always have CRLF line endings on checkout
+*.res eol=crlf
+
+# All text set to automatic end-of-line normalization
+* text=auto
+
+# Working tree encoding prevents UTF-16 LE chat_ files from appearing as binary (enables git diff)
+resource/*.txt text working-tree-encoding=UTF-16LE-BOM
+
+# Do not export these files on download
+# Don't ignore dev folder, backups are created there thru PowerScript
+.gitattributes export-ignore
+.gitignore export-ignore
+.github export-ignore
