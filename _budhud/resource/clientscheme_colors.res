@@ -319,7 +319,7 @@ Scheme
         // Engineer HUD Specific
         "LowHealthRed"                                              "159 055 055 255"       // When building is low health or is in first stage of building
         "ProgressOffWhite"                                          "255 255 255 255"       // Right build progress and ammo bars
-        "ProgressBackground"                                        "150 150 150 255"       // Right "Building..." Progress color BG, ItemEffectMeter BG
+        "ProgressBackground"                                        "150 150 150 255"       // Right `Building...` Progress color BG, ItemEffectMeter BG
         "HealthBgGrey"                                              "080 080 080 255"       // Left build progress bar
 
         "LabelDark"                                                 "000 000 000 255"       // Blog text

@@ -26,7 +26,7 @@
         "tall"                                                      "6"
         "MeterFG"                                                   "bh_meterfg"
         "MeterBG"                                                   "bh_meterbg"
-        "BgColor"                                  "0 0 0 255"
+        "BgColor"                                                   "0 0 0 255"
     }
 
     "ItemEffectMeterLabel"
@@ -43,7 +43,7 @@
         "labelText"                                                 "#TF_Ball"
         "textAlignment"                                             "center"
         "font"                                                      "bh_Font6"
-        "disabledfgcolor2_override"                                 "bh_metertext"
+        "disabledfgcolor2_override"                                 "bh_blue"
     }
 
     "ItemEffectMeter"

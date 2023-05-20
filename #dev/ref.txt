@@ -1,21 +1,32 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Used as a reference by me as I can be forgetful of how I do certain things within my hud.
+    // Used as a reference by me because i forget EVERYTHING
     ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // HUDS.TF final stats
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    Downloads: 393,280 | Views: 1,165,827
+    BIG NUMBER MAKE DOPAMINE GO UP
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // things I could do with the hud if i was less lazy
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    - speedo
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Wishlist
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     - Center ammo pickup that appears in the lower center of the screen (can't center for all three digit place possibilities)
     - Adjust wide value of text in Voice UI (adjusting it now doesn't appear to do anything)
-    - Ability to change colors of itemeffectmeters
+    - Ability to change colors of itemeffectmeters (you can change the color of the text now at least)
     - Ability to use directional arrows in `vgui_drawtree` again (pls)
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Random useful info
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    - Scoreboard font: resource\clientscheme -> ScoreboardVerySmall (or ScoreboardSmall)
+    - Scoreboard font: resource/clientscheme -> ScoreboardVerySmall (or ScoreboardSmall)
     - Scoreboard name/ping/score/etc font -> "DefaultVerySmall" (set to "" to disable)
-    - Killfeed font: \scripts\hudlayout.res -> "font" under "HudDeathNotice"
+    - Killfeed font: /scripts/hudlayout.res -> "font" under "HudDeathNotice"
     - Change Item Preset names (A, B, C, D) by adding the following to chat_english.txt:
         "TF_ItemPresetName0"    "<name>"
         "TF_ItemPresetName1"    "<name>"
@@ -24,6 +35,8 @@
     (will probably muck up the quickswitch menu)
     - showschemevisualizer
     - cl_panelanimation
+    - testhudanim <event_name>
+        test an animation in hudanimations
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Payload Icon Notes
@@ -50,8 +63,8 @@
     bh_b_E                  - Border on EAST side of element
     bh_b_S                  - Border on SOUTH side of element
     bh_b_W                  - Border on WEST side of element
-    ReplayGrayDialogBorder  - Used a lot for tooltips
-    bh_TooltipBG            - To replace ReplayGrayDialogBorder
+    ReplayGrayDialogBorder  - PReviously used a lot for tooltips, now using bh_ToolTipBG
+    bh_TooltipBG            - Replaces ReplayGrayDialogBorder
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // "Close" Buttons
