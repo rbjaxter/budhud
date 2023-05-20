@@ -33,7 +33,7 @@
     {
         "ControlName"                                               "Label"
         "fieldName"                                                 "bh_PlayerStatusPin"
-        "xpos"                                                      "196"
+        "xpos"                                                      "195"
         "ypos"                                                      "23"
         "zpos"                                                      "0"
         "wide"                                                      "10"
