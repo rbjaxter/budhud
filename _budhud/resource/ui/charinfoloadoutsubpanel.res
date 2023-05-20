@@ -84,9 +84,7 @@
 
     "ItemsLabel"
     {
-        "ypos"                                                      "r-6969"
-        "visible"                                                   "0"
-        "enabled"                                                   "0"
+        "ypos"                                                      "200"
         "fgcolor"                                                   "bh_white"
     }
 
