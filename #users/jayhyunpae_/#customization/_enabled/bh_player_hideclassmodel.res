@@ -1,1 +1,1 @@
-    #base   "..\..\..\..\#customization\bh_player_hideclassmodel.res"
+    #base   "../../../../#customization/bh_player_hideclassmodel.res"

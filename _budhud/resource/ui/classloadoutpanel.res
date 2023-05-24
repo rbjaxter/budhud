@@ -167,7 +167,7 @@
         {
             "wide"                                                  "17"
             "tall"                                                  "17"
-            "image"                                                 "replay\thumbnails\menu_icons\loadout"
+            "image"                                                 "replay/thumbnails/menu_icons/loadout"
         }
     }
 
@@ -183,7 +183,7 @@
         {
             "wide"                                                  "17"
             "tall"                                                  "17"
-            "image"                                                 "replay\thumbnails\menu_icons\taunts"
+            "image"                                                 "replay/thumbnails/menu_icons/taunts"
         }
     }
 

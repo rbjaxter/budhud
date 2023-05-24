@@ -1,5 +1,5 @@
 "Resource/UI/ItemModelPanel.res"
-{
+{	
 	"mouseoveritempanel"
 	{
 		"fieldName"				"mouseoveritempanel"
@@ -15,14 +15,14 @@
 		//"model_wide_collection"	"156"
 		//"model_tall_collection"	"100"
 	}
-
+	
 	"LoadingSpinner"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LoadingSpinner"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"1"		
 		"wide"			"f0"
 		"tall"			"f0"
 		"autoResize"	"0"
@@ -49,10 +49,10 @@
 		{
 			"ControlName"		"CEmbeddedItemModelPanel"
 			"fieldName"		"itemmodelpanel"
-
+	
 			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"1"
+			"zpos"			"1"		
 			"wide"			"140"
 			"tall"			"100"
 			"autoResize"		"0"
@@ -60,7 +60,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"useparentbg"		"1"
-
+		
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
 
@@ -77,7 +77,7 @@
 				"spotlight" "1"
 			}
 		}
-
+	
 		"namelabel"
 		{
 			"ControlName"	"CExLabel"
@@ -116,7 +116,7 @@
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
-
+		
 		"equippedlabel"
 		{
 			"ControlName"	"CExLabel"
@@ -137,7 +137,7 @@
 			"bgcolor_override"		"0 0 0 255"
 			"PaintBackgroundType"	"2"
 		}
-
+	
 		"paint_icon"
 		{
 			"ControlName"	"CItemMaterialCustomizationIconPanel"
@@ -276,7 +276,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-
+		
 		"contained_item_panel"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -291,9 +291,9 @@
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			"useparentbg"	"0"
-
+		
 			"enabled"		"1"
-
+		
 			"model_xpos"	"1"
 			"model_ypos"	"1"
 			"model_wide"	"16"
@@ -301,16 +301,16 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"model_only"	"1"
-
+		
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-
+		
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
-
+		
 			"use_item_sounds"	"1"
 		}
 	}

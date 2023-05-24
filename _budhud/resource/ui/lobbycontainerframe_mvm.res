@@ -1,4 +1,4 @@
-    #base   "..\..\..\_budhud\resource\ui\LobbyContainerFrame.res"
+    #base   "../../../_budhud/resource/ui/LobbyContainerFrame.res"
 
 "Resource/UI/LobbyContainerFrame_MvM.res"
 {

@@ -1,5 +1,5 @@
-    #base   "..\bh_popupbase.res"
-    #base   "..\disguise_menu\hudmenuspydisguise.res"
+    #base   "../bh_popupbase.res"
+    #base   "../disguise_menu/hudmenuspydisguise.res"
 
 "Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
 {

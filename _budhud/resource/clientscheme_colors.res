@@ -54,7 +54,7 @@ Scheme
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Health
     // ============================================================================================== //
-    // Health animations are controlled in `\budhud\scripts\hudanimations_manifest.txt`
+    // Health animations are controlled in `/budhud/scripts/hudanimations_manifest.txt`
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
         "bh_Health_Main"                                            "255 255 255 255"
@@ -66,7 +66,7 @@ Scheme
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Ammo
     // ============================================================================================== //
-    // Ammo animations are controlled in `\budhud\scripts\hudanimations_manifest.txt`
+    // Ammo animations are controlled in `/budhud/scripts/hudanimations_manifest.txt`
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
         "bh_Ammo_Main"                                              "255 255 255 255"

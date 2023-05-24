@@ -1,4 +1,4 @@
-    #base   "..\hudmenuengybuild.res"
+    #base   "../hudmenuengybuild.res"
 
 "Resource/UI/build_menu/HudMenuEngyBuild.res"
 {

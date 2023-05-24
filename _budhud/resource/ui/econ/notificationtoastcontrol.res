@@ -22,7 +22,7 @@
 
         "SubImage"
         {
-            "image"                                                 "replay\thumbnails\menu_icons\view"
+            "image"                                                 "replay/thumbnails/menu_icons/view"
         }
     }
 
@@ -40,7 +40,7 @@
         {
             "wide"                                                  "14"
             "tall"                                                  "14"
-            "image"                                                 "replay\thumbnails\menu_icons\close"
+            "image"                                                 "replay/thumbnails/menu_icons/close"
         }
     }
 
@@ -56,7 +56,7 @@
 
         "SubImage"
         {
-            "image"                                                 "replay\thumbnails\menu_icons\view"
+            "image"                                                 "replay/thumbnails/menu_icons/view"
         }
     }
 
@@ -74,7 +74,7 @@
         {
             "wide"                                                  "14"
             "tall"                                                  "14"
-            "image"                                                 "replay\thumbnails\menu_icons\close"
+            "image"                                                 "replay/thumbnails/menu_icons/close"
         }
     }
 }

@@ -741,14 +741,14 @@ Scheme
         }
 
         "OutlinedGreyBox"
-        // Used in \ui\lobbycontainerframe.res
+        // Used in /ui/lobbycontainerframe.res
         // -> "Competitive" text's border
         {
             "draw_corner_width"                                     "0"
             "draw_corner_height"                                    "0"
         }
         "OutlinedDullGreyBox"
-        // Used in \ui\charinfopanel.res [First sheet of backpack]
+        // Used in /ui/charinfopanel.res [First sheet of backpack]
         // -> "Loadout" and "Stats" Borders
         {
             "draw_corner_width"                                     "0"
@@ -756,7 +756,7 @@ Scheme
         }
 
         "TFThinLineBorder"
-        // Used in \ui\notificationspresentpanel.res [New Item Notification]
+        // Used in /ui/notificationspresentpanel.res [New Item Notification]
         // -> Notification of new items from main menu, not while in-game
         {
             "draw_corner_width"                                     "0"
@@ -764,9 +764,9 @@ Scheme
         }
 
         "TFFatLineBorderOpaque"
-        // Used in \ui\storemapstampsinfodialog.res ["Learn More" in Shop -> Maps]
-        // Used in \ui\storepreviewitempanel.res [Shop -> "Items" and "Bundles" border for when items are clicked on]
-        // Used in \ui\storepreviewitempanel_stamps.res [Shop -> Maps; border for when items under "Maps" are clicked on]
+        // Used in /ui/storemapstampsinfodialog.res ["Learn More" in Shop -> Maps]
+        // Used in /ui/storepreviewitempanel.res [Shop -> "Items" and "Bundles" border for when items are clicked on]
+        // Used in /ui/storepreviewitempanel_stamps.res [Shop -> Maps; border for when items under "Maps" are clicked on]
         {
             "draw_corner_width"                                     "0"
             "draw_corner_height"                                    "0"
@@ -839,9 +839,9 @@ Scheme
         }
 
         "LoadoutItemPopupBorder"
-        // Used in ui\econ\store\v2\storepage.res
-        // Used in ui\econ\store\v2\storepreviewitempanel.res
-        // Used in ui\recon\store\v2\storepreviewitempanel_maps.res
+        // Used in ui/econ/store/v2/storepage.res
+        // Used in ui/econ/store/v2/storepreviewitempanel.res
+        // Used in ui/recon/store/v2/storepreviewitempanel_maps.res
         {
             "draw_corner_width"                                     "4"
             "draw_corner_height"                                    "4"

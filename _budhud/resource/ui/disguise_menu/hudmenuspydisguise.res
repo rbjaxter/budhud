@@ -1,4 +1,4 @@
-    #base   "..\bh_popupbase.res"
+    #base   "../bh_popupbase.res"
 
 "Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
 {

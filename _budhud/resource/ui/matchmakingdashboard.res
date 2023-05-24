@@ -47,7 +47,7 @@
                 "ypos"                                              "12"
                 "wide"                                              "10"
                 "tall"                                              "10"
-                "image"                                             "replay\thumbnails\menu_icons\arrowleft"
+                "image"                                             "replay/thumbnails/menu_icons/arrowleft"
             }
         }
 
@@ -78,7 +78,7 @@
                 "ypos"                                              "12"
                 "wide"                                              "10"
                 "tall"                                              "10"
-                "image"                                             "replay\thumbnails\menu_icons\arrowup"
+                "image"                                             "replay/thumbnails/menu_icons/arrowup"
             }
         }
 
@@ -109,7 +109,7 @@
                 "ypos"                                              "12"
                 "wide"                                              "10"
                 "tall"                                              "10"
-                "image"                                             "replay\thumbnails\menu_icons\x"
+                "image"                                             "replay/thumbnails/menu_icons/x"
             }
         }
 
@@ -140,7 +140,7 @@
                 "ypos"                                              "12"
                 "wide"                                              "10"
                 "tall"                                              "10"
-                "image"                                             "replay\thumbnails\menu_icons\x"
+                "image"                                             "replay/thumbnails/menu_icons/x"
             }
         }
 
@@ -241,7 +241,7 @@
 
             "SubImage"
             {
-                "image"                                                 "replay\thumbnails\menu_icons\chat"
+                "image"                                                 "replay/thumbnails/menu_icons/chat"
             }
         }
 

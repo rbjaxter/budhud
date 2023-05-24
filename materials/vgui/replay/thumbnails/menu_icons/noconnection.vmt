@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-    "$baseTexture"                                                  "vgui\replay\thumbnails\menu_icons\noconnection"
+    "$baseTexture"                                                  "vgui/replay/thumbnails/menu_icons/noconnection"
     "$translucent"                                                  "1"
     "$vertexalpha"                                                  "1"
     "$vertexcolor"                                                  "1"

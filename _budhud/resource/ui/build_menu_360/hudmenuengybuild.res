@@ -1,5 +1,5 @@
-    #base   "..\bh_popupbase.res"
-    #base   "..\build_menu\hudmenuengybuild.res"
+    #base   "../bh_popupbase.res"
+    #base   "../build_menu/hudmenuengybuild.res"
 
 "Resource/UI/build_menu/HudMenuEngyBuild.res"
 {

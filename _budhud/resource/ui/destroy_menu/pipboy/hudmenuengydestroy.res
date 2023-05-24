@@ -1,4 +1,4 @@
-    #base   "..\hudmenuengydestroy.res"
+    #base   "../hudmenuengydestroy.res"
 
 "Resource/UI/build_menu/HudMenuEngyDestroy.res"
 {

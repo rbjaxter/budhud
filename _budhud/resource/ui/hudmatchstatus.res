@@ -220,7 +220,7 @@
 
             "SkullPanel"
             {
-                "image"                                             "replay\thumbnails\skull"
+                "image"                                             "replay/thumbnails/ingame_icons/skull"
 
                 "zpos"                                              "0"
                 "wide"                                              "6"

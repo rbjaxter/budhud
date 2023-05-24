@@ -12,7 +12,7 @@
         "ypos"                                                      "4"
         "wide"                                                      "145"
         "tall"                                                      "10"
-        "image"                                                     "replay\thumbnails\team_colors\bh_fill_blue"
+        "image"                                                     "replay/thumbnails/team_colors/bh_fill_blue"
     }
 
     "ProgressBarBG"
@@ -21,7 +21,7 @@
         "ypos"                                                      "r-6969" //3
         "wide"                                                      "147"
         "tall"                                                      "12"
-        "image"                                                     "replay\thumbnails\team_colors\bh_fill_gray"
+        "image"                                                     "replay/thumbnails/team_colors/bh_fill_gray"
     }
 
     "bh_ProgressBarBG"

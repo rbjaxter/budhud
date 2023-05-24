@@ -28,7 +28,7 @@
 //      "visible"                                                   "1"
 //      "enabled"                                                   "1"
 //      "labeltext"                                                 ""
-//      "image"                                                     "..\hud\cart_track"
+//      "image"                                                     "../hud/cart_track"
 //      "scaleImage"                                                "1"
 //
 //      "if_multiple_trains"
@@ -54,7 +54,7 @@
 //        "visible"                                                   "1"
 //        "enabled"                                                   "1"
 //        "labeltext"                                                 ""
-//        "image"                                                     "..\hud\cart_track_extender"
+//        "image"                                                     "../hud/cart_track_extender"
 //        "scaleImage"                                                "1"
 //
 //        "if_multiple_trains"

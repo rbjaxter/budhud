@@ -1,4 +1,4 @@
-    #base   "..\..\_budhud\resource\ui\spectatortournament_custom.res"
+    #base   "../../_budhud/resource/ui/spectatortournament_custom.res"
 
 "Resource/UI/SpectatorTournament.res"
 {

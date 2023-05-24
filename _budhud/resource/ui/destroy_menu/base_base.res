@@ -1,4 +1,4 @@
-    #base   "..\build_menu\base_base.res"
+    #base   "../build_menu/base_base.res"
 
 "Resource/UI/destroy_menu/base_base.res"
 {

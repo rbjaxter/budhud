@@ -43,7 +43,7 @@
         "labelText"                                                 "#TF_Ball"
         "textAlignment"                                             "center"
         "font"                                                      "bh_Font6"
-        "disabledfgcolor2_override"                                 "bh_blue"
+        "disabledfgcolor2_override"                                 "bh_metertext"
     }
 
     "ItemEffectMeter"

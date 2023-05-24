@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-    "$baseTexture"                                                  "vgui\replay\thumbnails\menu_icons\news"
+    "$baseTexture"                                                  "vgui/replay/thumbnails/menu_icons/news"
     "$translucent"                                                  "1"
     "$vertexalpha"                                                  "1"
     "$vertexcolor"                                                  "1"

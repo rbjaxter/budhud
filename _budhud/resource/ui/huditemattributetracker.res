@@ -16,7 +16,7 @@
 
         "Image"
         {
-            "image"                                                 "replay\thumbnails\menu_icons\contracts"
+            "image"                                                 "replay/thumbnails/menu_icons/contracts"
         }
     }
 }

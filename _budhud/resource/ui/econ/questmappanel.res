@@ -20,7 +20,7 @@
 
                 "SubImage"
                 {
-                    "image"                                         "replay\thumbnails\menu_icons\close"
+                    "image"                                         "replay/thumbnails/menu_icons/close"
                 }
             }
         }

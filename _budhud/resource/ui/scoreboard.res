@@ -107,7 +107,7 @@
 //        "labeltext"                                                 ""
 //        "visible"                                                   "1"
 //        "enabled"                                                   "1"
-//        "image"                                                     "replay\thumbnails\overlays\refract_square"
+//        "image"                                                     "replay/thumbnails/overlays/refract_square"
 //        "paintbackgroundtype"                                       "0"
 //    }
 

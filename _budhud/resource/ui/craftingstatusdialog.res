@@ -2,7 +2,7 @@
     // "crafting items" dialog
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    #base   "econ\bh_confirmbase.res"
+    #base   "econ/bh_confirmbase.res"
 
 "Resource/UI/CraftingStatusDialog.res"
 {

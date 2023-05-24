@@ -3,7 +3,7 @@
     "Background"
     {
         "tall"                                                      "85"
-        "image"                                                     "replay\thumbnails\obj_icons\scalable_dgray"
+        "image"                                                     "replay/thumbnails/obj_icons/scalable_dgray"
 
         "src_corner_height"                                         "24"
         "src_corner_width"                                          "24"

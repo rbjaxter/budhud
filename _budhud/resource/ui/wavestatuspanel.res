@@ -3,7 +3,7 @@
     // This probably also dynamically changes based on number of bottos
     "Background"
     {
-        "image"                                                     "replay\thumbnails\obj_icons\scalable_dgray"
+        "image"                                                     "replay/thumbnails/obj_icons/scalable_dgray"
         "src_corner_height"                                         "24"
         "src_corner_width"                                          "24"
 
@@ -23,7 +23,7 @@
         "ypos"                                                      "18"
         "wide"                                                      "178"
         "tall"                                                      "12"
-        "image"                                                     "replay\thumbnails\team_colors\bh_fill_blue"
+        "image"                                                     "replay/thumbnails/team_colors/bh_fill_blue"
     }
 
     "ProgressBarBG"
@@ -32,7 +32,7 @@
         "ypos"                                                      "r-6969" //17
         "wide"                                                      "180"
         "tall"                                                      "14"
-        "image"                                                     "replay\thumbnails\team_colors\bh_fill_gray"
+        "image"                                                     "replay/thumbnails/team_colors/bh_fill_gray"
     }
 
     "bh_ProgressBarBG"

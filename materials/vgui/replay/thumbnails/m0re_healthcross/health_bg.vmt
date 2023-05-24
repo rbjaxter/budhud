@@ -5,10 +5,10 @@
     "$vertexcolor"                                                  "1"
     "$ignorez"                                                      "1"
 
-    "$baseTexture"                                                  "vgui\replay\thumbnails\m0re_healthcross\health_bg_DX9"
+    "$baseTexture"                                                  "vgui/replay/thumbnails/m0re_healthcross/health_bg_DX9"
 
     UnlitGeneric_DX8
     {
-        "$baseTexture"                                              "vgui\replay\thumbnails\m0re_healthcross\health_bg_DX8"
+        "$baseTexture"                                              "vgui/replay/thumbnails/m0re_healthcross/health_bg_DX8"
     }
 }

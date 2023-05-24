@@ -1,1 +1,1 @@
-    #base   "..\..\..\..\#customization\bh_menu_hidefavorites.res"
+    #base   "../../../../#customization/bh_menu_hidefavorites.res"

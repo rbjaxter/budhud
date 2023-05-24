@@ -80,7 +80,7 @@
     // Support for these crosshairs will be limited, but I figured there was no harm in keeping these
     // accessible to those who don't have their preferred crosshair in the unified crosshair pack
     //
-    // NOTE: You must move the appropriate crosshair file to _enabled from \budhud\#customization for
+    // NOTE: You must move the appropriate crosshair file to _enabled from /budhud/#customization for
     // these to work.
     // Examples: bh_crosshairs_fog.res, bh_crosshairs_knuckles.res, bh_crosshairs_whayay.res
     ////////////////////////////////////////////////////////////////////////////////////////////////////
