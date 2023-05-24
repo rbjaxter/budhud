@@ -2,7 +2,7 @@
     <img width="782" height="200" src="https://user-images.githubusercontent.com/509599/195221902-72549ed7-bee4-4d86-bcb5-694d23d72568.gif">
 </p>
 
-<h3 align="center"><a href="https://discord.gg/PTWkt3h">Discord</a> | <a href="http://imgur.com/a/aJ1K5">Screenshots</a> | <a href="https://huds.tf/site/s-budhud">HUDS.TF</a> | <a href="http://steamcommunity.com/groups/budhud">Steam Group</a></p>
+<h3 align="center"><a href="https://discord.gg/PTWkt3h">Discord</a> | <a href="http://imgur.com/a/aJ1K5">Screenshots</a> | <a href="https://comfig.app/huds/page/budhud/">Comfig Huds</a> | <a href="http://steamcommunity.com/groups/budhud">Steam Group</a></p>
 
 <i>A Team Fortress 2 HUD built from the ground up using #base.</i>
 
