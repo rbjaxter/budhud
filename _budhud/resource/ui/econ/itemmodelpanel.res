@@ -29,6 +29,11 @@
             }
         }
 
+        // Excluding this causes decals to not appear in paint_icon
+        "namelabel"
+		{
+        }
+
         "serieslabel"
         {
             "wide"                                                  "18"
@@ -61,6 +66,7 @@
             "fgcolor"                                               "bh_white"
         }
 
+        // Changing this requires namelabel (above) to exist for applied decals to appear correctly
         "paint_icon"
         {
             "wide"                                                  "11"
