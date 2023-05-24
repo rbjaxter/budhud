@@ -31,7 +31,7 @@
 
         // Excluding this causes decals to not appear in paint_icon
         "namelabel"
-		{
+        {
         }
 
         "serieslabel"
@@ -69,32 +69,32 @@
         // Changing this requires namelabel (above) to exist for applied decals to appear correctly
         "paint_icon"
         {
-            "wide"                                                  "11"
-            "tall"                                                  "11"
+            "wide"                                                  "12"
+            "tall"                                                  "12"
         }
 
         "vision_restriction_icon"
         {
-            "wide"                                                  "11"
-            "tall"                                                  "11"
+            "wide"                                                  "12"
+            "tall"                                                  "12"
         }
 
         "is_strange_icon"
         {
-            "wide"                                                  "11"
-            "tall"                                                  "11"
+            "wide"                                                  "12"
+            "tall"                                                  "12"
         }
 
         "is_unusual_icon"
         {
-            "wide"                                                  "11"
-            "tall"                                                  "11"
+            "wide"                                                  "12"
+            "tall"                                                  "12"
         }
 
         "is_loaner_icon"
         {
-            "wide"                                                  "11"
-            "tall"                                                  "11"
+            "wide"                                                  "12"
+            "tall"                                                  "12"
         }
     }
 }

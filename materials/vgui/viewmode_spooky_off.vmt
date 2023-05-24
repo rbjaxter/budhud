@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-    "$baseTexture"                                                  "vgui/replay/thumbnails/tooltipbg"
+    "$baseTexture"                                                  "vgui/replay/thumbnails/backpack_icons/viewmode_spooky_off"
     "$translucent"                                                  "1"
     "$vertexalpha"                                                  "1"
     "$vertexcolor"                                                  "1"
