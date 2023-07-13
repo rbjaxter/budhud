@@ -27,6 +27,7 @@
     - Scoreboard font: resource/clientscheme -> ScoreboardVerySmall (or ScoreboardSmall)
     - Scoreboard name/ping/score/etc font -> "DefaultVerySmall" (set to "" to disable)
     - Killfeed font: /scripts/hudlayout.res -> "font" under "HudDeathNotice"
+    - Equipped item font: resource/clientscheme -> ItemFontNameSmallest, ItemFontNameSmall, ItemFontNameLarge, ItemFontNameLarger
     - Change Item Preset names (A, B, C, D) by adding the following to chat_english.txt:
         "TF_ItemPresetName0"    "<name>"
         "TF_ItemPresetName1"    "<name>"

@@ -720,10 +720,14 @@ function Run_HUDCompiler {
     # Perform any necessary checks
     Check_TF2Running
 
+    Write-Host -foregroundcolor "White" "NOTE: Only Windows builds are provided, but the source is available on Alex's GitHub:"
+    Write-Host -foregroundcolor "White" "https://github.com/alvancamp/budhud-compiler"
     Write-Host -foregroundcolor "White" "Please note after doing this that, to edit your HUD going forward, you must either:"
     Write-Host -foregroundcolor "White" "A. Make changes directly in the resource and scripts folders, or:"
     Write-Host -foregroundcolor "White" "B. Run this compiler any time you make changes outside of the resource and scripts folders"
     Write-Host -foregroundcolor "White" "(such as in _budhud or #customizations)"
+    Write-Host -foregroundcolor "White" ""
+    Write-Host -foregroundcolor "White" "If the compiler cannot be found, it will automatically be downloaded."
     Write-Host -foregroundcolor "White" ""
     Write-Host ""
     Write-Host ""
@@ -946,7 +950,7 @@ do {
             Write-Host "If an alternative language is available, you can set the HUD to use this language instead."
             Write-Host "Type the name of the language and the appropriate chat file will be automatically copied over."
             Write-Host ""
-            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "5. HUD Compiler"
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "5. HUD Compiler (Windows only)"
             Write-Host -foregroundcolor "Yellow" "The resource and scripts folder will be replaced"
             Write-Host "Created by @alvancamp on Github, the HUD compiler is used to compile as many #base directives in budhud as possible."
             Write-Host "In simpler terms, this merges all _budhud and _tf2hud files (as well as any enabled customizations) into single files"

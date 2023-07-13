@@ -333,9 +333,6 @@ Scheme
 
     BaseSettings
     {
-        // Saving for future consideration
-        "MenuBoxBg"                                                 "0 0 0 100"
-
         // Scoreboard
         // Highlighted player
         "SectionedListPanel.OutOfFocusSelectedBgColor"              "065 065 065 25"

@@ -16,6 +16,7 @@
     {
         "xpos"                                                      "10"
         "ypos"                                                      "15"
+        "fgcolor"                                                   "bh_white" // testing
         "fgcolor_override"                                          "bh_white"
 
         "if_high_priority"
