@@ -1707,77 +1707,192 @@
 				{
 					"0"
 					{
-						"item"		"Winter 2022 Cosmetic Key"
+						"item"		"Summer 2023 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Winter 2022 Cosmetic Case"
+						"item"		"Summer 2023 Cosmetic Case"
+						"show_market"	"1"
+					}
+					"2"
+					{
+						"item"		"Summer 2023 War Paint Key"
+						"show_market"	"0"
+					}
+					"3"
+					{
+						"item"		"Summer 2023 War Paint Case"
 						"show_market"	"1"
 					}
 					"4"
 					{
-						"item"		"Taunt: Russian Rubdown"
+						"item"		"Taunt: Star-Spangled Strategy"
 						"show_market"	"0"
 					}
 					"5"
 					{
-						"item"		"Taunt: Tailored Terminal"
+						"item"		"Taunt: Killer Joke"
 						"show_market"	"0"
 					}
 					"6"
 					{
-						"item"		"Taunt: Roasty Toasty"
+						"item"		"Taunt: The Head Doctor"
 						"show_market"	"0"
 					}
 					"7"
 					{
-						"item"		"Map Token Frostwatch"
+						"item"		"Taunt: Tuefort Tango"
 						"show_market"	"0"
 					}
 					"8"
 					{
-						"item"		"Map Token Frostcliff"
+						"item"		"Taunt: The Road Rager"
 						"show_market"	"0"
 					}
 					"9"
 					{
-						"item"		"Map Token Rumford"
+						"item"		"Taunt: The Killer Signature"
 						"show_market"	"0"
 					}
 					"10"
 					{
-						"item"		"Map Token Frosty"
+						"item"		"Map Token Sharkbay"
 						"show_market"	"0"
 					}
 					"11"
 					{
-						"item"		"Map Token Coal Pit"
+						"item"		"Map Token Rotunda"
 						"show_market"	"0"
 					}
 					"12"
 					{
-						"item"		"Strange Filter: Frostwatch (Community)"
+						"item"		"Map Token Phoenix"
 						"show_market"	"0"
 					}
 					"13"
 					{
-						"item"		"Strange Filter: Frostcliff (Community)"
+						"item"		"Map Token Cashworks"
 						"show_market"	"0"
 					}
 					"14"
 					{
-						"item"		"Strange Filter: Rumford (Community)"
+						"item"		"Map Token Venice"
 						"show_market"	"0"
 					}
 					"15"
 					{
-						"item"		"Strange Filter: Frosty (Community)"
+						"item"		"Map Token Reckoner"
 						"show_market"	"0"
 					}
 					"16"
 					{
-						"item"		"Strange Filter: Coal Pit (Community)"
+						"item"		"Map Token Sulfur"
+						"show_market"	"0"
+					}
+					"17"
+					{
+						"item"		"Map Token Hardwood"
+						"show_market"	"0"
+					}
+					"18"
+					{
+						"item"		"Map Token Pelican Peak"
+						"show_market"	"0"
+					}
+					"19"
+					{
+						"item"		"Map Token Selbyen"
+						"show_market"	"0"
+					}
+					"20"
+					{
+						"item"		"Map Token VSH Tiny Rock"
+						"show_market"	"0"
+					}
+					"21"
+					{
+						"item"		"Map Token VSH Distillery"
+						"show_market"	"0"
+					}
+					"22"
+					{
+						"item"		"Map Token VSH Skirmish"
+						"show_market"	"0"
+					}
+					"23"
+					{
+						"item"		"Map Token VSH Nucleus"
+						"show_market"	"0"
+					}
+					"24"
+					{
+						"item"		"Strange Filter: Sharkbay (Community)"
+						"show_market"	"0"
+					}
+					"25"
+					{
+						"item"		"Strange Filter: Rotunda (Community)"
+						"show_market"	"0"
+					}
+					"26"
+					{
+						"item"		"Strange Filter: Phoenix (Community)"
+						"show_market"	"0"
+					}
+					"27"
+					{
+						"item"		"Strange Filter: Cashworks (Community)"
+						"show_market"	"0"
+					}
+					"28"
+					{
+						"item"		"Strange Filter: Venice (Community)"
+						"show_market"	"0"
+					}
+					"29"
+					{
+						"item"		"Strange Filter: Reckoner (Community)"
+						"show_market"	"0"
+					}
+					"30"
+					{
+						"item"		"Strange Filter: Sulfur (Community)"
+						"show_market"	"0"
+					}
+					"31"
+					{
+						"item"		"Strange Filter: Hardwood (Community)"
+						"show_market"	"0"
+					}
+					"32"
+					{
+						"item"		"Strange Filter: Pelican Peak (Community)"
+						"show_market"	"0"
+					}
+					"33"
+					{
+						"item"		"Strange Filter: Selbyen (Community)"
+						"show_market"	"0"
+					}
+					"34"
+					{
+						"item"		"Strange Filter: VSH Tiny Rock (Community)"
+						"show_market"	"0"
+					}
+					"35"
+					{
+						"item"		"Strange Filter: VSH Distillery (Community)"
+						"show_market"	"0"
+					}
+					"36"
+					{
+						"item"		"Strange Filter: VSH Skirmish (Community)"
+						"show_market"	"0"
+					}
+					"37"
+					{
+						"item"		"Strange Filter: VSH Nucleus (Community)"
 						"show_market"	"0"
 					}
 				}
