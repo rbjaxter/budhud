@@ -106,6 +106,57 @@ Scheme
         RichText.BgColor                                            "bh_Theme_BG20"
         RichText.SelectedTextColor                                  "bh_black"
         RichText.SelectedBgColor                                    "bh_white"
+
+        // Sourcescheme Tooltips (courtesy of Jofre)
+        Tooltip.TextColor                                           "bh_white"
+        Tooltip.BgColor                                             "bh_Theme_BG20"
+    }
+
+    Borders
+    {
+        ToolTipBorder
+        {
+            "bh_b_NESW"
+            {
+                "inset"                                                 "0 0 1 1"
+
+                "Left"
+                {
+                    "1"
+                    {
+                        "color"                                         "bh_blue"
+                        "offset"                                        "0 1"
+                    }
+                }
+
+                "Right"
+                {
+                    "1"
+                    {
+                        "color"                                         "bh_blue"
+                        "offset"                                        "0 1"
+                    }
+                }
+
+                "Top"
+                {
+                    "1"
+                    {
+                        "color"                                         "bh_blue"
+                        "offset"                                        "0 1"
+                    }
+                }
+
+                "Bottom"
+                {
+                    "1"
+                    {
+                        "color"                                         "bh_blue"
+                        "offset"                                        "0 1"
+                    }
+                }
+            }
+        }
     }
 
     Fonts
