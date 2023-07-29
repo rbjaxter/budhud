@@ -714,7 +714,7 @@ Scheme
             }
         }
 
-        "bh_b_Red"
+        "bh_b_red"
         {
             "bordertype"                                            "scalable_image"
             "backgroundtype"                                        "2"
@@ -727,11 +727,24 @@ Scheme
             "draw_corner_height"                                    "5"
         }
 
-        "bh_b_Blue"
+        "bh_b_blue"
         {
             "bordertype"                                            "scalable_image"
             "backgroundtype"                                        "2"
             "color"                                                 "bh_blue"
+
+            "image"                                                 "backpack_rect_color"
+            "src_corner_height"                                     "24"
+            "src_corner_width"                                      "24"
+            "draw_corner_width"                                     "5"
+            "draw_corner_height"                                    "5"
+        }
+
+        "bh_b_gray"
+        {
+            "bordertype"                                            "scalable_image"
+            "backgroundtype"                                        "2"
+            "color"                                                 "bh_gray"
 
             "image"                                                 "backpack_rect_color"
             "src_corner_height"                                     "24"

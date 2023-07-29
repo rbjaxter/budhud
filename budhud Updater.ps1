@@ -420,6 +420,7 @@ function Run_ExtractDefaultHUD {
     # Copy files that cannot be extracted from TF2 core files
     Write-Host -foregroundcolor "White" -NoNewLine "Copying necessary platform files..."
     Copy-Item "$PSScriptRoot/#dev/sourceschemebase.res" -Destination "$PSScriptRoot/_tf2hud/resource/sourceschemebase.res"
+    Copy-Item "$PSScriptRoot/#dev/vsh_hud.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/vsh_hud.res"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
     # Remove various modifiers (OSX, X360, _minmode, _lodef, _hidef, and if_ lines.)

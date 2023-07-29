@@ -71,6 +71,13 @@
         "bgcolor_override"                                          "0 0 0 0"
     }
 
+    "SuddenDeathBG"
+    {
+        "ypos"                                                  "r-6969"
+        "visible"                                               "0"
+        "enabled"                                               "0"
+    }
+
     "ServerTimeLimitLabel"
     {
         "pin_to_sibling"                                            "bh_TimePanelPin"
