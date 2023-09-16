@@ -94,6 +94,7 @@
         "bh_TrainingMode"                                           " РЕЖИМ ТРЕНИРОВКИ "
         "bh_Console"                                                " КОНСОЛЬ "
         "bh_ReportBug"                                              " СООБЩИТЬ ОБ ОШИБКЕ "
+        "bh_ReloadHUD"                                              " RELOAD HUD "
 
         // Mann Co Catalog
         "bh_ItemWiki"                                               "ВИКИ СТРАНИЦА"

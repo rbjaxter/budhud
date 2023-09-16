@@ -93,6 +93,7 @@
         "bh_TrainingMode"                                           " ENTRAÎNEMENT "
         "bh_Console"                                                " CONSOLE "
         "bh_ReportBug"                                              " SIGNALER UN BUG "
+        "bh_ReloadHUD"                                              " RELOAD HUD "
 
         // Mann Co Catalog
         "bh_ItemWiki"                                               "PAGE WIKI DE L'OBJET"

@@ -94,6 +94,7 @@
         "bh_TrainingMode"                                           " EĞİTİM MODU "
         "bh_Console"                                                " KONSOL "
         "bh_ReportBug"                                              " HATA BİLDİR "
+        "bh_ReloadHUD"                                              " RELOAD HUD "
 
         // Mann Co Catalog
         "bh_ItemWiki"                                               "EŞYA WİKİ"

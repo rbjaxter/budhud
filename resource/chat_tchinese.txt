@@ -94,6 +94,7 @@
         "bh_TrainingMode"                                           " 訓練模式 "
         "bh_Console"                                                " 命令列 "
         "bh_ReportBug"                                              " 回報錯誤 "
+        "bh_ReloadHUD"                                              " RELOAD HUD "
 
         // Mann Co Catalog
         "bh_ItemWiki"                                               "物品 WIKI"
