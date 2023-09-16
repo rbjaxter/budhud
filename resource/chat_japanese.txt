@@ -1,144 +1,151 @@
 "lang"
 {
-    "Language"                                                      "English"
+    "Language"                                                      "Japanese"
 
     "Tokens"
     {
         ////////////////////////////////////////////////////////////////////////////////////////////////////
-        // English Translations, by: Whisker
+        // 日本語翻訳編です。Japanese transations by hibibibi                                   
         ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        // jayhyunpae changes
-        // Uncomment (remove the //s) after this note to enable
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        // jayhyunpaeさんの変更
+        // コメント（「//」の文字）を削除して以下の選択肢を有効になります 
+        
+
+
         // "TF_playerid_mediccharge_wpn"                               "%s1%"
         // "TF_playerid_mediccharge"                                   "%s1%"
         // "TF_playerid_object_level"                                  "( Level %s1 )"
         // "TF_playerid_object_upgrading"                              "%s1"
         // "TF_playerid_object_upgrading_level"                        "( Level %s1 ) %s2"
 
-        // Chat Changes
-        "chat_say"                                                  "ALL "
-        "chat_say_team"                                             "TEAM "
-        "chat_party"                                                "PARTY "
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        
+        
+        // チャットの変更
+        "chat_say"                                                  "発言： "
+        "chat_say_team"                                             "発言（チーム）： "
+        "chat_party"                                                "パーティ "
         "TF_Chat_All"                                               "%s1: %s2"
-        "TF_Chat_AllDead"                                           "*DEAD* %s1: %s2"
-        "TF_Chat_AllSpec"                                           "(SPEC) %s1: %s2"
-        "TF_Chat_Team"                                              "(TEAM) %s1: %s2"
-        "TF_Chat_Team_Dead"                                         "*DEAD* (TEAM) %s1: %s2"
-        "TF_Chat_Spec"                                              "(SPEC) %s1: %s2"
-        "TF_Chat_Coach"                                             "(COACH) %s1: %s2"
-        "TF_Name_Change"                                            "%s1 changed name to %s2"
-        "TF_Class_Change"                                           "%s1 changed name to %s2"
+        "TF_Chat_AllDead"                                           "*死亡* %s1: %s2"
+        "TF_Chat_AllSpec"                                           "(観戦) %s1: %s2"
+        "TF_Chat_Team"                                              "(チーム) %s1: %s2"
+        "TF_Chat_Team_Dead"                                         "*死亡* (TEAM) %s1: %s2"
+        "TF_Chat_Spec"                                              "(観戦) %s1: %s2"
+        "TF_Chat_Coach"                                             "(コーチ) %s1: %s2"
+        "TF_Name_Change"                                            "%s1 は %s2に名前を変更しました"                                                 
+        "TF_Class_Change"                                           "%s1 は %s2に名前を変更しました"  
 
-        // General
-        "bh_Back"                                                   "BACK"
-        "bh_Next"                                                   "NEXT"
-        "bh_Close"                                                  "CLOSE"
-        "bh_Cancel"                                                 "CANCEL"
-        "bh_OpenBP"                                                 "OPEN BP"
-        "bh_Continue"                                               "CONTINUE"
-        "bh_Previous"                                               "PREVIOUS"
-        "bh_LowMetal"                                               "LOW METAL"
-        "bh_SetStyle"                                               "SET STYLE"
-        "bh_CreateParty"                                            "CREATE PARTY"
-        "bh_Confirm"                                                "CONFIRM"
+        // 一般
+        "bh_Back"                                                   "戻る"
+        "bh_Next"                                                   "次へ"
+        "bh_Close"                                                  "閉じる"
+        "bh_Cancel"                                                 "キャンセル"
+        "bh_OpenBP"                                                 "バックパックを開く"
+        "bh_Continue"                                               "続行"
+        "bh_Previous"                                               "前"
+        "bh_LowMetal"                                               "メタルが足りません"
+        "bh_SetStyle"                                               "スタイルを選択"
+        "bh_CreateParty"                                            "パーティを作る"
+        "bh_Confirm"                                                "OK"
 
-        // Quick Keys
-        "bh_Back_QK"                                                "BACK (&Q)"
-        "bh_Skip_QK"                                                "SKIP (&E)"
-        "bh_Close_QK"                                               "CLOSE (&Q)"
-        "bh_Arena_Fight_QK"                                         "FIGHT (&1)"
-        "bh_OpenBP_QK"                                              "OPEN BP (&Q)"
-        "bh_Checkout_QK"                                            "CHECKOUT (&E)"
-        "bh_Continue_QK"                                            "CONTINUE (&E)"
-        "bh_Arena_Spectate_QK"                                      "SPECTATE (&2)"
-        "bh_Previous_QK"                                            "PREVIOUS (&A)"
-        "bh_Next_QK"                                                "NEXT (&D)"
+        // ショートカットキー
+        "bh_Back_QK"                                                "戻る (&Q)"
+        "bh_Skip_QK"                                                "スキップ (&E)"
+        "bh_Close_QK"                                               "閉じる (&Q)"
+        "bh_Arena_Fight_QK"                                         "戦う (&1)"
+        "bh_OpenBP_QK"                                              "BPを開く (&Q)"
+        "bh_Checkout_QK"                                            "チェックアウト (&E)"
+        "bh_Continue_QK"                                            "続行 (&E)"
+        "bh_Arena_Spectate_QK"                                      "観戦 (&2)"
+        "bh_Previous_QK"                                            "前 (&A)"
+        "bh_Next_QK"                                                "次へ (&D)"
 
-        // Main Menu
-        "bh_Backpack"                                               "BACKPACK"
-        "bh_Store"                                                  "STORE"
-        "bh_Options"                                                "OPTIONS"
-        "bh_AdvOptions"                                             "ADV OPTIONS"
-        "bh_OpenLink"                                               "OPEN LINK"
-        "bh_Quit"                                                   "QUIT"
-        "bh_Disconnect"                                             "DISCONNECT"
-        "bh_VirtualReality"                                         "ACTIVATE VR"
-        "bh_MatchmakingStatistics"                                  "MATCHMAKING STATISTICS"
-        "bh_ImproveSkinQuality"                                     "Improve Skin Quality"
+        // メインメニュー
+        "bh_Backpack"                                               "バックパック"
+        "bh_Store"                                                  "ショップ"
+        "bh_Options"                                                "設定"
+        "bh_AdvOptions"                                             "詳細設定"
+        "bh_OpenLink"                                               "リンクを開く"
+        "bh_Quit"                                                   "終了"
+        "bh_Disconnect"                                             "切断"
+        "bh_VirtualReality"                                         "VR起動"
+        "bh_MatchmakingStatistics"                                  "マッチメイキング統計"
+        "bh_ImproveSkinQuality"                                     "スキンの品質を向上する"
 
-        // Main Menu -> charinfoloadoutsubpanel
-        "bh_Trading"                                                "TRADING"
-        "bh_Crafting"                                               "CRAFTING"
+        // メインメニュー → charinfoloadoutsubpanel
+        "bh_Trading"                                                "トレード"
+        "bh_Crafting"                                               "作成"
 
-        // Main Menu -> ExpandableList
-        "bh_CasualEntry"                                            "CASUAL"
-        "bh_CompetitiveEntry"                                       "COMPETITIVE"
+        // メインメニュー →  ExpandableList
+        "bh_CasualEntry"                                            "カジュアル"
+        "bh_CompetitiveEntry"                                       "対戦"
         "bh_MannVsMachineEntry"                                     "MANN VS. MACHINE"
-        "bh_CommunityServersEntry"                                  "SERVER LIST"
-        "bh_TrainingEntry"                                          "TRAINING"
-        "bh_CreateServerEntry"                                      "CREATE SERVER"
+        "bh_CommunityServersEntry"                                  "サーバー・リスト"
+        "bh_TrainingEntry"                                          "トレーニング"
+        "bh_CreateServerEntry"                                      "サーバーを作成"
 
-        // Main Menu Tooltips
+        // メインメニューのツールチップ
         // An english character (or space) is required in front of these tooltips, or else other languages will not appear
-        "bh_PendingAlerts"                                          " PENDING ALERTS "
-        "bh_TwitchStreams"                                          " TWITCH STREAMS "
-        "bh_Contracts"                                              " CONTRACTS "
-        "bh_News"                                                   " NEWS "
-        "bh_DemoUI"                                                 " DEMOUI "
-        "bh_CreateServer"                                           " CREATE SERVER "
-        "bh_WorkshopContributions"                                  " WORKSHOP CONTRIBUTIONS "
-        "bh_Replays"                                                " REPLAYS "
-        "bh_BeACoach"                                               " BE A COACH "
-        "bh_Achievements"                                           " ACHIEVEMENTS "
-        "bh_TrainingMode"                                           " TRAINING MODE "
-        "bh_Console"                                                " CONSOLE "
-        "bh_ReportBug"                                              " REPORT BUG "
+        "bh_PendingAlerts"                                          " 保留通知 "
+        "bh_TwitchStreams"                                          " 生配信 "
+        "bh_Contracts"                                              " 契約 "
+        "bh_News"                                                   " 最新あああ情報 "
+        "bh_DemoUI"                                                 " デモUI "
+        "bh_CreateServer"                                           " サーバー作成 "
+        "bh_WorkshopContributions"                                  " ワークショップ "
+        "bh_Replays"                                                " リプレイ "
+        "bh_BeACoach"                                               " コーチ "
+        "bh_Achievements"                                           " 実績 "
+        "bh_TrainingMode"                                           " トレーニング "
+        "bh_Console"                                                " コンソル "
+        "bh_ReportBug"                                              " バグを報告 "
         "bh_ReloadHUD"                                              " RELOAD HUD "
 
-        // Mann Co Catalog
-        "bh_ItemWiki"                                               "ITEM WIKI"
-        "bh_ViewInStore"                                            "VIEW IN STORE"
+        // Mann Coカタログ
+        "bh_ItemWiki"                                               "アイテム・ウィキ"
+        "bh_ViewInStore"                                            "ショップに見る"
 
-        // Store Panel
-        "bh_TryItOut"                                               "TRY IT OUT"
-        "bh_AddToCart"                                              "ADD TO CART"
+        // ショップパネル
+        "bh_TryItOut"                                               "試着"
+        "bh_AddToCart"                                              "カートに追加"
 
-        // Item selection menu (within craft panel, etc)
-        "bh_ValidItems"                                             "VALID ITEMS"
+        // アイテム選択メニュー（作成パネル内など）
+        "bh_ValidItems"                                             "有効アイテム"
 
         // MvM
         "bh_MannUp"                                                 "MANN UP"
-        "bh_Training"                                               "TRAINING"
-        "bh_MvMGuide"                                               "MVM GUIDE"
-        "bh_Currency"                                               "Currency"
-        "bh_Remaining"                                              "Remaining"
+        "bh_Training"                                               "トレーニング"
+        "bh_MvMGuide"                                               "MVM攻略"
+        "bh_Currency"                                               "通貨"
+        "bh_Remaining"                                              "残った"
 
-        // Store
-        "bh_Checkout"                                               "CHECKOUT"
-        "bh_SteamMarket"                                            "STEAM MARKET"
+        // ショップ
+        "bh_Checkout"                                               "チェックアウト"
+        "bh_SteamMarket"                                            "コミュニティマーケット"
 
         // MOTD
-        "bh_WatchMovie"                                             "WATCH MOVIE"
-        "bh_ReplayVideo"                                            "REPLAY VIDEO"
+        "bh_WatchMovie"                                             "動画を視聴"
+        "bh_ReplayVideo"                                            "動画を再生"
 
-        // Team Menu
-        "bh_Random"                                                 "RANDOM"
-        "bh_Spectate"                                               "SPECTATE"
+        // チームメニュー
+        "bh_Random"                                                 "ランダム"
+        "bh_Spectate"                                               "観戦"
 
-        // Vote Menu
-        "bh_CallVote"                                               "CALL VOTE"
+        // 投票メニュー
+        "bh_CallVote"                                               "投票の呼びかけ"
 
-        // Engineer Menu
-        "bh_LowAmmo"                                                "LOW"
-        "bh_Built"                                                  "BUILT"
-        "bh_NotBuilt"                                               "NOT BUILT"
+        // エンジニアメニュー
+        "bh_LowAmmo"                                                "メタルが足りません"
+        "bh_Built"                                                  "作成完了"
+        "bh_NotBuilt"                                               "未作成"
 
-        // Objective Menu
-        "bh_Overtime"                                               "OVERTIME"
+        // 目的メニュー
+        "bh_Overtime"                                               "延長戦"
 
-        // Backpack Main
-        "bh_SteamDown"                                              "Steam appears to be down ¯\_(ツ)_/¯. Check https://steamstat.us/ for updates."
-        "bh_GCDown"                                                 "The Game Coordinator appears to be down ¯\_(ツ)_/¯. Check https://steamstat.us/ for updates."
+        // バックパック主部
+        "bh_SteamDown"                                              "Steam鯖は停止みたい ¯\_(ツ)_/¯. https://steamstat.us/ にご覧になってください."
+        "bh_GCDown"                                                 "Game Coordinatorサービスは停止みたい  ¯\_(ツ)_/¯. Check https://steamstat.us/ for updates."
     }
 }
