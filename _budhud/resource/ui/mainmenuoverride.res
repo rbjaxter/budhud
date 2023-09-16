@@ -1024,6 +1024,12 @@
                 "wide"                                              "100"
                 "tall"                                              "20"
             }
+
+            "ScrollBar"
+            {
+                "xpos"                                              "r8"
+                "wide"                                              "8"
+            }
         }
     }
 

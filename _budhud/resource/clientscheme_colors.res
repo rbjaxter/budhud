@@ -333,6 +333,14 @@ Scheme
 
     BaseSettings
     {
+        // MOTD panel scrollbar size (not friends list)
+        "ScrollBar.Wide"                                            "8"
+
+        // Friends list scrollbar colors
+        "ScrollBarSlider.FgColor"                                   "bh_white"
+        "ScrollBarSlider.BgColor"                                   "bh_blank"
+        "Slider.NobColor"                                           "bh_yellow"
+
         // Scoreboard
         // Highlighted player
         "SectionedListPanel.OutOfFocusSelectedBgColor"              "065 065 065 25"

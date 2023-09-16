@@ -29,6 +29,11 @@
         "tall"                                                      "300"
         "font"                                                      "bh_Font12"
         "fgcolor"                                                   "bh_white"
+
+        "image_box"                                                 "replay/thumbnails/team_colors/bh_fill_white"
+        "image_line"                                                ""
+        "image_up_arrow"                                            "replay/thumbnails/menu_icons/arrow_up"
+        "image_down_arrow"                                          "replay/thumbnails/menu_icons/arrow_down"
     }
 
     "HTMLMessage"
