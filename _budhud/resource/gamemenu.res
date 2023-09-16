@@ -144,12 +144,23 @@
         "tooltip"                                                   "#bh_TrainingMode"
     }
 
-    "bh_BugButton"
+    //"bh_BugButton"
+    //{
+    //    "label"                                                     ""
+    //    "command"                                                   "engine bug"
+    //    "OnlyAtMenu"                                                "0"
+    //    "tooltip"                                                   "#bh_ReportBug"
+    //}
+
+    // Having stop within the same command seems to cause the demo not to actually generate
+    // this may still fix invisisble players/other issues though, in which case it's better
+    // than if a demo was recorded??
+    "bh_ReloadHUD"
     {
         "label"                                                     ""
-        "command"                                                   "engine bug"
+        "command"                                                   "engine record hudfixdemo; stop; snd_restart; hud_reloadscheme"
         "OnlyAtMenu"                                                "0"
-        "tooltip"                                                   "#bh_ReportBug"
+        "tooltip"                                                   "#bh_ReloadHUD"
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
