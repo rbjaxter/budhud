@@ -66,26 +66,6 @@
         "tall"                                                      "400"
     }
 
-    "bh_ChooseItemBackground"
-    {
-        "ControlName"                                               "ImagePanel"
-        "fieldName"                                                 "bh_ChooseItemBackground"
-        "xpos"                                                      "cs-0.5"
-        "ypos"                                                      "100"
-        "zpos"                                                      "1"
-        "wide"                                                      "200"
-        "tall"                                                      "40"
-        "autoResize"                                                "0"
-        "pinCorner"                                                 "0"
-        "labeltext"                                                 ""
-        "visible"                                                   "1"
-        "enabled"                                                   "1"
-        "fillcolor"                                                 "bh_Theme_BG20"
-        "image"                                                     ""
-        "paintbackgroundtype"                                       "0"
-        "border"                                                    "bh_b_NESW"
-    }
-
     "CancelButton"
     {
         "xpos"                                                      "c-300"
