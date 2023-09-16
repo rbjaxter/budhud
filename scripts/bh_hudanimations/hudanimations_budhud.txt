@@ -1,0 +1,266 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Crosshair Damage Flash
+// ============================================================================================== //
+// The color can be controlled in ../budhud/_budhud/resource/clientscheme_colors.res
+// Animating too many crosshairs negatively affects FPS when playing classes like pyro or heavy
+// This is why the other ones are commented out by default
+////////////////////////////////////////////////////////////////////////////////////////////////////
+event DamagedPlayer
+{
+    StopEvent        HitMarker        0.0
+    RunEvent         HitMarker        0.0
+}
+
+event HitMarker
+{
+    ///////////////////////
+    // Unified HUD Crosshairs
+    ///////////////////////
+    Animate        hud_crosshair_1        fgcolor        hud_crosshair_1_flash        Linear        0.0        0.0
+    Animate        hud_crosshair_1        fgcolor        hud_crosshair_1              Linear        0.1        0.1
+    // Animate        hud_crosshair_2               fgcolor        hud_crosshair_2_flash               Linear        0.0        0.0
+    // Animate        hud_crosshair_2               fgcolor        hud_crosshair_2                     Linear        0.1        0.1
+    // Animate        hud_crosshair_3               fgcolor        hud_crosshair_3_flash               Linear        0.0        0.0
+    // Animate        hud_crosshair_3               fgcolor        hud_crosshair_3                     Linear        0.1        0.1
+    //////////////////
+    // Legacy Crosshairs
+    //////////////////
+    // Animate        hud_crosshair_whayay          fgcolor        hud_crosshair_whayay_flash          Linear        0.0        0.0
+    // Animate        hud_crosshair_whayay          fgcolor        hud_crosshair_whayay                Linear        0.1        0.1
+    // Animate        hud_crosshair_knuckles        fgcolor        hud_crosshair_knuckles_flash        Linear        0.0        0.0
+    // Animate        hud_crosshair_knuckles        fgcolor        hud_crosshair_knuckles              Linear        0.1        0.1
+    // Animate        hud_crosshair_fog             fgcolor        hud_crosshair_fog_flash             Linear        0.0        0.0
+    // Animate        hud_crosshair_fog             fgcolor        hud_crosshair_fog                   Linear        0.1        0.1
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// MvM tournament toggle ready pulse
+////////////////////////////////////////////////////////////////////////////////////////////////////
+event HudReadyPulse
+{
+    Animate         TournamentInstructionsLabel        fgcolor        bh_white        Spline        0.0        0.4
+    Animate         TournamentInstructionsLabel        fgcolor        bh_bred         Spline        0.4        0.8
+    RunEvent        HudReadyPulseLoop                  1.2
+}
+
+event HudReadyPulseLoop
+{
+    RunEvent        HudReadyPulse        0.0
+}
+
+event HudReadyPulseEnd
+{
+    Animate          TournamentInstructionsLabel        fgcolor        bh_bgreen        Linear        0.0        0.2
+    StopEvent        HudReadyPulse                      0.0
+    StopEvent        HudReadyPulseLoop                  0.0
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// HudMatchStatus Skull Location
+////////////////////////////////////////////////////////////////////////////////////////////////////
+event TeamStatus_PlayerDead
+{
+    SetVisible        SkullPanel         1           0.0
+    SetVisible        respawntime        1           0.0
+    Animate           SkullPanel         ypos        20         Accel        0.0        0.2
+    Animate           respawntime        ypos        3          Accel        0.0        0.2
+}
+
+event TeamStatus_PlayerAlive
+{
+    Animate           SkullPanel         ypos        15         Accel        0.0        0.2
+    Animate           respawntime        ypos        0          Accel        0.0        0.2
+    SetVisible        SkullPanel         0           0.2
+    SetVisible        respawntime        0           0.2
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Change colors of KotH timers
+////////////////////////////////////////////////////////////////////////////////////////////////////
+event ActiveTimerHighlight
+{
+    Animate        TimePanelValue        fgcolor        bh_white        Linear        0.1        0.1
+    Animate        TimePanelValue        fgcolor        bh_gray         Linear        0.3        0.1
+    Animate        TimePanelValue        fgcolor        bh_white        Linear        0.5        0.1
+    Animate        TimePanelValue        fgcolor        bh_gray         Linear        0.7        0.1
+    Animate        TimePanelValue        fgcolor        bh_white        Linear        0.9        0.1
+    Animate        TimePanelValue        fgcolor        bh_gray         Linear        1.1        0.1
+    Animate        TimePanelValue        fgcolor        bh_white        Linear        1.3        0.3
+}
+
+// This one affects the default color of the timers when you first load into a KOTH server
+// and if I'm lying then it's probably something in ActiveTimerHighlight
+event ActiveTimerDim
+{
+    Animate        TimePanelValue        fgcolor        bh_white_t        Linear        0.0        0.4
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Overtime Label
+////////////////////////////////////////////////////////////////////////////////////////////////////
+event OvertimeLabelPulseRed
+{
+    Animate         OvertimeLabel                fgcolor        bh_white                   Linear        0.0        0.3
+    Animate         OvertimeLabel                fgcolor        bh_Theme_TextAccent        Linear        0.3        0.3
+    RunEvent        OvertimeLabelPulseRed        0.6
+}
+
+event SuddenDeathLabelPulseRed
+{
+    Animate         SuddenDeathLabel                fgcolor        bh_white                   Linear        0.0        0.3
+    Animate         SuddenDeathLabel                fgcolor        bh_Theme_TextAccent        Linear        0.3        0.3
+    RunEvent        SuddenDeathLabelPulseRed        0.2
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Casual/Comp Chat Positioning
+// Prevent chat from moving
+////////////////////////////////////////////////////////////////////////////////////////////////////
+event CompetitiveGame_LowerChatWindow
+{
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+}
+
+event HudTournament_MoveChatWindow
+{
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// CTF Flag Pickup/Drop
+////////////////////////////////////////////////////////////////////////////////////////////////////
+event FlagOutline
+{
+    RunEvent        FlagOutlineHide        0.0
+    Animate         OutlineImage           alpha           255                Linear        0.1        0.2
+    Animate         OutlineImage           position        "c-50 r125"        Linear        0.1        0.2
+    Animate         OutlineImage           size            "100 50"           Linear        0.1        0.2
+    Animate         OutlineImage           position        "c-50 r0"          Linear        0.7        0.2
+    Animate         OutlineImage           size            "100 50"           Linear        0.7        0.2
+    Animate         OutlineImage           alpha           0.0                Linear        0.6        0.3
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Spy Animations
+// ============================================================================================== //
+// Disables spy disguise outline
+////////////////////////////////////////////////////////////////////////////////////////////////////
+event HudSpyDisguiseChanged
+{
+}
+
+event HudSpyDisguiseHide
+{
+}
+
+event HudSpyDisguiseFadeIn
+{
+}
+
+event HudSpyDisguiseFadeOut
+{
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Tournament Animations
+////////////////////////////////////////////////////////////////////////////////////////////////////
+event HudTournamentSetupPanelOpen
+{
+    Animate        HudTournamentSetup        position        "c-90 -70"        Linear        0.0        0.1
+    Animate        HudTournamentSetup        position        "c-90 70"         Spline        0.1        0.2
+}
+
+event HudTournamentSetupPanelClose
+{
+    Animate        HudTournamentSetup        position        "c-90 70"         Linear        0.0        0.1
+    Animate        HudTournamentSetup        position        "c-90 -70"        Spline        0.1        0.2
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Moves pvprankpanel.res to avoid casual screen match end missing elements
+////////////////////////////////////////////////////////////////////////////////////////////////////
+event CompetitiveGame_ShowPvPRankPanel
+{
+    Animate              RankPanel             ypos                            -35         Linear        0.0        0.0
+    Animate              ModelContainer        ypos                            r150        Linear        0.0        0.0
+    RunEventChild        RankPanel             PvPRankPanelShowXPChange        0.0
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Main menu animations
+// ============================================================================================== //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Casual category animations
+////////////////////////////////////////////////////////////////////////////////////////////////////
+event CasualCategory_Selected
+{
+    Animate        Shade              bgcolor        bh_Theme_BG40                 DeAccel        0.0        0.2
+    Animate        Title              fgcolor        bh_Theme_TextSecondary        DeAccel        0.0        0.2
+    Animate        TitleShadow        fgcolor        bh_shadow                     DeAccel        0.0        0.2
+    Animate        DescLabel          fgcolor        bh_Theme_TextSecondary        DeAccel        0.0        0.2
+}
+
+event CasualCategory_NotSelected
+{
+    Animate        Shade                  bgcolor        bh_Theme_BG00        DeAccel        0.0        0.2
+    Animate        Title                  fgcolor        bh_gray              DeAccel        0.0        0.2
+    Animate        DescLabel              fgcolor        bh_gray              DeAccel        0.0        0.2
+    Animate        TitleShadow            fgcolor        0.0                  DeAccel        0.0        0.2
+    Animate        DescLabelShadow        fgcolor        0.0                  DeAccel        0.0        0.2
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// New item notification animations
+// The animation is moved to the loop so we can try forcing the alpha to 255 first
+// My hope is that this will prevent instances where you get a new item but can't see the notification
+////////////////////////////////////////////////////////////////////////////////////////////////////
+event HasNotificationsBlink
+{
+    Animate         Notifications_ShowButtonPanel_SB                  alpha        255        Linear        0.0        0.0
+    Animate         bh_Notifications_ShowButtonPanel_SB_Shadow        alpha        255        Linear        0.0        0.0
+    RunEvent        HasNotificationsBlinkLoop                         0.0
+}
+
+event HasNotificationsBlinkLoop
+{
+    Animate         Notifications_ShowButtonPanel_SB                  alpha        255        Spline        0.0        0.4
+    Animate         Notifications_ShowButtonPanel_SB                  alpha        0          Spline        0.6        0.6
+    Animate         bh_Notifications_ShowButtonPanel_SB_Shadow        alpha        255        Spline        0.0        0.4
+    Animate         bh_Notifications_ShowButtonPanel_SB_Shadow        alpha        0          Spline        0.6        0.6
+    RunEvent        HasNotificationsBlinkLoop                         1.6
+}
+
+event HasNotificationsBlinkStop
+{
+    StopEvent        HasNotificationsBlink                             0.0
+    StopEvent        HasNotificationsBlinkLoop                         0.0
+    Animate          Notifications_ShowButtonPanel_SB                  alpha        255        Linear        0.0        0.4
+    Animate          bh_Notifications_ShowButtonPanel_SB_Shadow        alpha        255        Linear        0.0        0.4
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// New notification animations
+// This one appears in the backpack
+////////////////////////////////////////////////////////////////////////////////////////////////////
+event NotificationsPresentBlink
+{
+    Animate         NotificationsPresentPanel            alpha        255        Linear        0.0        0.0
+    RunEvent        NotificationsPresentBlinkLoop        0.0
+}
+
+event NotificationsPresentBlinkLoop
+{
+    Animate         NotificationsPresentPanel            alpha        255        Spline        0.0        0.4
+    Animate         NotificationsPresentPanel            alpha        0.0        Spline        0.4        0.4
+    RunEvent        NotificationsPresentBlinkLoop        1.2
+}
+
+event NotificationsPresentBlinkStop
+{
+    StopEvent        NotificationsPresentBlink            0.0
+    StopEvent        NotificationsPresentBlinkLoop        0.0
+    Animate          NotificationsPresentPanel            alpha        255        Linear        0.0        0.0
+}

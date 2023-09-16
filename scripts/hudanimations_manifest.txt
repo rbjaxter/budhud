@@ -9,9 +9,7 @@ hudanimations_manifest
     // Don't touch these
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     "file"      "scripts/hudanimations.txt"
-    "file"      "scripts/bh_hudanimations/bh_general.txt"
-    "file"      "scripts/bh_hudanimations/bh_crosshairs.txt"
-    "file"      "scripts/bh_hudanimations/bh_mainmenu.txt"
+    "file"      "scripts/bh_hudanimations/hudanimations_budhud.txt"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Ammo Customizations
@@ -47,7 +45,5 @@ hudanimations_manifest
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Don't touch these
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    "file"      "scripts/bh_hudanimations/health_animations/bh_health_base.txt"
-    "file"      "scripts/bh_hudanimations/ammo_animations/bh_ammo_base.txt"
     "file"      "scripts/hudanimations_tf.txt"
 }
