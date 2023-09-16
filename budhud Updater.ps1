@@ -448,7 +448,6 @@ function Run_ExtractDefaultHUD {
     Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_finnish.txt"
     Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_greek.txt"
     Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_hungarian.txt"
-    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_japanese.txt"
     Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_korean.txt"
     Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_polish.txt"
     Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_portuguese.txt"
@@ -461,6 +460,7 @@ function Run_ExtractDefaultHUD {
     # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_french.txt"
     # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_german.txt"
     # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_italian.txt"
+    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_japanese.txt"
     # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_norwegian.txt"
     # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_romanian.txt"
     # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_russian.txt"
@@ -626,6 +626,7 @@ function Run_SetHUDLanguage {
     Write-Host "French"
     Write-Host "German"
     Write-Host "Italian"
+    Write-Host "Japanese"
     Write-Host "Norwegian"
     Write-Host "Romanian"
     Write-Host "Russian"
@@ -660,6 +661,10 @@ function Run_SetHUDLanguage {
 
         "Italian" {
             Copy-Item "$PSScriptRoot/resource/chat_italian.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
+        }
+
+        "Japanese" {
+            Copy-Item "$PSScriptRoot/resource/chat_japanese.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
 
         "Norwegian" {

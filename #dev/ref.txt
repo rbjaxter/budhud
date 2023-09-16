@@ -24,7 +24,7 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Random useful info
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    - Scoreboard font: resource/clientscheme -> ScoreboardVerySmall (or ScoreboardSmall)
+    - Scoreboard font: resource/clientscheme -> Default
     - Scoreboard name/ping/score/etc font -> "DefaultVerySmall" (set to "" to disable)
     - Killfeed font: /scripts/hudlayout.res -> "font" under "HudDeathNotice"
     - Equipped item font: resource/clientscheme -> ItemFontNameSmallest, ItemFontNameSmall, ItemFontNameLarge, ItemFontNameLarger

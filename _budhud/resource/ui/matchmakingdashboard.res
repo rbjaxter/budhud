@@ -47,7 +47,7 @@
                 "ypos"                                              "12"
                 "wide"                                              "10"
                 "tall"                                              "10"
-                "image"                                             "replay/thumbnails/menu_icons/arrowleft"
+                "image"                                             "replay/thumbnails/menu_icons/arrow_left"
             }
         }
 
@@ -78,7 +78,7 @@
                 "ypos"                                              "12"
                 "wide"                                              "10"
                 "tall"                                              "10"
-                "image"                                             "replay/thumbnails/menu_icons/arrowup"
+                "image"                                             "replay/thumbnails/menu_icons/arrow_up"
             }
         }
 
