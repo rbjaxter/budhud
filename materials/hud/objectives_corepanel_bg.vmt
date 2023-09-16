@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-    "$baseTexture"                                                  "vgui/replay/thumbnails/menu_icons/arrowleft"
+    "$baseTexture"                                                  "vgui/replay/thumbnails/obj_icons/objectives_corepanel_bg"
     "$translucent"                                                  "1"
     "$vertexalpha"                                                  "1"
     "$vertexcolor"                                                  "1"
