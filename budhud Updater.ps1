@@ -26,6 +26,7 @@ function Options_Menu {
     Write-Host "4: Set HUD language"
     Write-Host "5: HUD Compiler"
     Write-Host "6: Revert HUD Compile"
+    Write-Host ""
     Write-Host "?: Help with these options"
     Write-Host "Q: Quit"
     Write-Host ""
@@ -388,11 +389,12 @@ function Run_InstallTroubleshooter {
 #######################
 
 function Run_ExtractDefaultHUD {
+    $startTime = Get-Date  # Initialize the start time
+
     Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==================="
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Extract Default HUD"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==================="
-    Write-Host ""
     Write-Host ""
 
     # Perform all Checks
@@ -401,14 +403,12 @@ function Run_ExtractDefaultHUD {
     Check_UpdateFiles_DefaultHUD
 
     Write-Host ""
-    Write-Host ""
 
     Write-Host -foregroundcolor "White" -backgroundcolor "Green" "=================="
     Write-Host -foregroundcolor "White" -backgroundcolor "Green" "File Checks Passed"
     Write-Host -foregroundcolor "White" -backgroundcolor "Green" "=================="
     Write-Host -foregroundcolor "White" "You appear to have all files needed to update your default hud files."
     Write-Host -foregroundcolor "White" "Beginning update."
-    Write-Host ""
     Write-Host ""
 
     # Delete old folder
@@ -440,59 +440,39 @@ function Run_ExtractDefaultHUD {
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
     # Remove various modifiers (OSX, X360, _minmode, _lodef, _hidef, and if_ lines.)
-    Write-Host -foregroundcolor "White" "Removing various conditional modifiers..."
+    Write-Host -foregroundcolor "White" -NoNewLine "Removing various conditional modifiers..."
+
     $files = Get-ChildItem -File -Recurse -Path _tf2hud
-    $i = 0
+    $totalFiles = $files.Count
+
     foreach ($file in $files) {
-        Write-Progress -Activity "Modifying files" -Status $file -PercentComplete (100 * ($i / $files.Length))
-        # get-content splits into lines. parens cause the entire file to be read into memory
-        (Get-Content $file.FullName) |
-        # string replace operators use regular expression matching
-        ForEach-Object { $_ -ireplace '\$OSX|\$X360|_minmode|_lodef|_hidef|if_', '$$_disabled_' } |
-        Set-Content $file.FullName
-        $i += 1
+        $content = Get-Content $file.FullName
+        $modifiedContent = $content -replace '\$OSX|\$X360|_minmode|_lodef|_hidef|if_', '$$_disabled_'
+        $modifiedContent | Set-Content -Path $file.FullName -Force
     }
+
+    # Add a new line here to separate "Removing all modifiers..." and "Complete."
+    Write-Host ""
+
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
-    # Update all non-translated language files to chat_default.txt to prevent users of those languages from seeing broken language tokens
-    Write-Host -ForegroundColor "White" -NoNewLine "Updating language files..."
-
-    # Define the list of language codes
-    $languageCodes = @(
-        "bulgarian", "czech", "danish", "dutch", "english","finnish", "greek", "hungarian", "korean", "polish","portuguese", "swedish", "thai", "ukrainian"
-    )
-
-    # Loop through the language codes and copy chat_default.txt to the corresponding file
-    foreach ($code in $languageCodes) {
-        Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_$code.txt"
-    }
-
-    # The below files have been translated, but this code is left here for reference
-    # $translatedCodes = @(
-    #     "brazilian", "french", "german", "italian", "japanese",
-    #     "norwegian", "romanian", "russian", "schinese", "spanish",
-    #     "tchinese", "turkish"
-    # )
-
-    Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Complete"
-    Write-Progress -Activity "Modifying files" -Completed
-
-    Write-Host ""
-    Write-Host ""
-
-    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
-    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Task Complete"
-    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
-    Write-Host -foregroundcolor "White" "Latest default hud files have been extracted and modified to work with budhud."
-    Write-Host ""
-    Write-Host ""
+    # Measure the time it took to complete the function
+    $endTime = Get-Date
+    $elapsedTime = $endTime - $startTime
+    $elapsedTimeFormatted = [string]::Format("{0:hh\:mm\:ss}", $elapsedTime)
+    Write-Host -ForegroundColor "White" "Time Elapsed: $elapsedTimeFormatted"
 }
+
+
+
 
 ######################
 # Run_UpdateFromGitHub
 ######################
 
 function Run_UpdateFromGitHub {
+    $startTime = Get-Date  # Initialize the start time
+
     Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Update from Github"
@@ -566,6 +546,11 @@ function Run_UpdateFromGitHub {
             Write-Host -foregroundcolor "White" "Latest hud files from GitHub have been downloaded and extracted."
             Write-Host ""
             Write-Host ""
+
+            # Measure the time it took to complete the function
+            $endTime = Get-Date
+            $elapsedTime = $endTime - $startTime
+            Write-Host -ForegroundColor "White" "Time Elapsed: $($elapsedTime.ToString())"
         }
 
         "anything else" {
@@ -583,107 +568,57 @@ function Run_UpdateFromGitHub {
 
 function Run_SetHUDLanguage {
     Clear-Host
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "============================="
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Checking for chat_default.txt"
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "============================="
-    Write-Host ""
-    Write-Host ""
-
-    # Perform any necessary checks
-    Check_TF2Running
-
-    # Check for chat_default.txt file
-    $chat_default = Maybe_Path $budhud "resource/chat_default.txt"
-
-    If
-    (
-        ![String]::IsNullOrEmpty($chat_default)
-    )
-    {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
-    }
-
-    Else {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate chat_default.txt"
-        Write-Host ""
-
-        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
-        Write-Host -foregroundcolor "White" "An important chat file appears to be missing"
-        Write-Host ""
-
-        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
-        Write-Host -foregroundcolor "White" "Please ensure you have all of the chat_ language files located in budhud/resource before proceeding"
-        Write-Host -foregroundcolor "White" "chat_default.txt, chat_english.txt, etc"
-        Write-Host ""
-        Break
-    }
-
-    Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Set HUD Language"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================"
-
-    Write-Host ""
     Write-Host ""
 
-    Write-Host "Brazilian"
-    Write-Host "English"
-    Write-Host "French"
-    Write-Host "German"
-    Write-Host "Italian"
-    Write-Host "Japanese"
-    Write-Host "Norwegian"
-    Write-Host "Romanian"
-    Write-Host "Russian"
-    Write-Host "Simplified Chinese"
-    Write-Host "Spanish"
-    Write-Host "Traditional Chinese"
-    Write-Host "Turkish"
-    Write-Host ""
-    Write-Host "Or, type Quit"
+    # Define an array of language codes and their names
+    $languages = @(
+        "1", "Portugues (Brasil)",
+        "2", "English",
+        "3", "Francais",
+        "4", "Deutsch",
+        "5", "Italiano",
+        "6", "Japanese",
+        "7", "Norsk",
+        "8", "Romana",
+        "9", "Russian",
+        "10", "Simplified Chinese",
+        "11", "Espanol",
+        "12", "Traditional Chinese",
+        "13", "Turkish",
+        "0", "Cancel"
+    )
 
-    Write-Host ""
-    Write-Host ""
+    # Display a list of available languages with colors
+    Write-Host "Select a language (or enter 0 to cancel):"
 
-    $selection = Read-Host "Please type the language you'd like to use"
-
-    if ($selection -eq "Quit") {
-        Options_Menu
-    }
-    else {
-        $sourcePath = switch ($selection) {
-            "Brazilian"             { "$PSScriptRoot/resource/chat_brazilian.txt" }
-            "English"               { "$PSScriptRoot/resource/chat_default.txt" }
-            "French"                { "$PSScriptRoot/resource/chat_french.txt" }
-            "German"                { "$PSScriptRoot/resource/chat_german.txt" }
-            "Italian"               { "$PSScriptRoot/resource/chat_italian.txt" }
-            "Japanese"              { "$PSScriptRoot/resource/chat_japanese.txt" }
-            "Norwegian"             { "$PSScriptRoot/resource/chat_norwegian.txt" }
-            "Romanian"              { "$PSScriptRoot/resource/chat_romanian.txt" }
-            "Russian"               { "$PSScriptRoot/resource/chat_russian.txt" }
-            "Simplified Chinese"    { "$PSScriptRoot/resource/chat_schinese.txt" }
-            "Spanish"               { "$PSScriptRoot/resource/chat_spanish.txt" }
-            "Traditional Chinese"   { "$PSScriptRoot/resource/chat_tchinese.txt" }
-            "Turkish"               { "$PSScriptRoot/resource/chat_turkish.txt" }
-        }
-
-        if ($sourcePath) {
-            Copy-Item $sourcePath -Destination "$PSScriptRoot/resource/chat_english.txt"
-        }
-        else {
-            Write-Host "Invalid selection. Please choose a valid language."
-        }
+    for ($i = 0; $i -lt $languages.Count; $i += 2) {
+        $languageCode = $languages[$i]
+        $languageName = $languages[$i + 1]
+        Write-Host "$($languageCode): $($languageName)" -ForegroundColor Cyan
     }
 
+    # Prompt the user for language selection
     Write-Host ""
-    Write-Host ""
+    $selectedLanguageCode = Read-Host "Enter the number of the language you want to use"
 
-    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
-    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Task Complete"
-    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
-    Write-Host -foregroundcolor "White" "Language set."
-    Write-Host ""
-    Write-Host ""
+    if ($selectedLanguageCode -eq "0") {
+        Write-Host "Language selection canceled." -ForegroundColor Yellow
+        return # Exit the function if canceled
+    }
+
+    # Check if the entered number corresponds to a language
+    $selectedLanguageIndex = [array]::IndexOf($languages, $selectedLanguageCode)
+
+    if ($selectedLanguageIndex -ge 0 -and $selectedLanguageIndex % 2 -eq 0) {
+        $selectedLanguage = $languages[$selectedLanguageIndex + 1]
+        Write-Host "Selected Language: $selectedLanguage" -ForegroundColor Green
+        # You can perform further actions here based on the selected language.
+    } else {
+        Write-Host "Invalid selection. Please choose a valid number." -ForegroundColor Red
+    }
 }
 
 #################
@@ -701,20 +636,27 @@ function Run_HUDCompiler {
     # Perform any necessary checks
     Check_TF2Running
 
-    Write-Host -foregroundcolor "White" "NOTE: Only Windows builds are provided, but the source is available on Alex's GitHub:"
-    Write-Host -foregroundcolor "White" "https://github.com/alvancamp/budhud-compiler"
-    Write-Host -foregroundcolor "White" "Please note after doing this that, to edit your HUD going forward, you must either:"
-    Write-Host -foregroundcolor "White" "A. Make changes directly in the resource and scripts folders, or:"
-    Write-Host -foregroundcolor "White" "B. Run this compiler any time you make changes outside of the resource and scripts folders"
-    Write-Host -foregroundcolor "White" "(such as in _budhud or #customizations)"
-    Write-Host -foregroundcolor "White" ""
-    Write-Host -foregroundcolor "White" "If the compiler cannot be found, it will automatically be downloaded."
-    Write-Host -foregroundcolor "White" ""
+    Clear-Host
     Write-Host ""
+    Write-Host -ForegroundColor "White" "IMPORTANT NOTE:"
+    Write-Host -ForegroundColor "White" "=============================================="
+    Write-Host -ForegroundColor "White" "Before proceeding, please take note of the following:"
+    Write-Host -ForegroundColor "White" ""
+    Write-Host -ForegroundColor "White" "1. Only Windows builds are provided for this compiler."
+    Write-Host -ForegroundColor "White" "2. The compiler's source code is available on Alex's GitHub:"
+    Write-Host -ForegroundColor "White" "   https://github.com/alvancamp/budhud-compiler"
+    Write-Host -ForegroundColor "White" "3. After running this compiler, to edit your HUD in the future, you must either:"
+    Write-Host -ForegroundColor "White" "   A. Make changes directly in the 'resource' and 'scripts' folders, or"
+    Write-Host -ForegroundColor "White" "   B. Run this compiler whenever you make changes outside of the 'resource' and 'scripts' folders"
+    Write-Host -ForegroundColor "White" "      (e.g., in '_budhud' or '#customizations')."
+    Write-Host -ForegroundColor "White" ""
+    Write-Host -ForegroundColor "White" "If the compiler cannot be found, it will be automatically downloaded."
+    Write-Host -ForegroundColor "White" ""
     Write-Host ""
-    Write-Host -foregroundcolor "White" -backgroundcolor "Yellow" "==================================="
-    Write-Host -foregroundcolor "White" "Would you like to continue? [Y / N]"
-    Write-Host -foregroundcolor "White" -backgroundcolor "Yellow" "==================================="
+
+    Write-Host -ForegroundColor "White" -BackgroundColor "Yellow" "==================================="
+    Write-Host -ForegroundColor "White" "Do you want to continue? [Y / N]"
+    Write-Host -ForegroundColor "White" -BackgroundColor "Yellow" "==================================="
     Write-Host ""
     Write-Host ""
 
@@ -723,6 +665,7 @@ function Run_HUDCompiler {
         Break
         Options_Menu
     }
+
 
     # Check for compiler file
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Checking for budhud-compiler.exe"
@@ -768,7 +711,7 @@ function Run_HUDCompiler {
     }
 
     else {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Backup files not found, creating a backup."
+        Write-Host -foregroundcolor "White" -backgroundcolor "Yellow" "Backup files not found, creating a backup."
 
         # Create backup of resource and scripts files
         New-Item -Path "$resource_backup" -itemType Directory
@@ -879,7 +822,7 @@ function Run_RevertHUDCompile {
 
 do {
     Options_Menu
-    $selection = Read-Host "[Type 1, 2, 3, 4, 5, ?, or Q]"
+    $selection = Read-Host "[Type 1, 2, 3, 4, 5, 6, 7, ?, or Q]"
 
     switch ($selection) {
         "1" {
