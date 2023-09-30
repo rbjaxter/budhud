@@ -13,10 +13,8 @@
 * text=auto
 
 # Working tree encoding prevents UTF-16 LE chat_ files from appearing as binary (enables git diff)
-resource/*.txt text working-tree-encoding=UTF-16LE-BOM
+resource/**/*.txt -text working-tree-encoding=UTF-16LE-BOM
 
 # Do not export these files on download
 # Don't ignore dev folder, backups are created there thru PowerScript
-.gitattributes export-ignore
-.gitignore export-ignore
-.github export-ignore
+{.gitattributes,.gitignore,.github} export-ignore
