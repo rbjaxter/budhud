@@ -1,6 +1,16 @@
-# To run this shell script, right click the file > select "Run with PowerShell"
+# To run this PowerShell script:
+# 1. Right-click the file.
+# 2. Select "Run with PowerShell."
 
-# budhud Updater
+# NOTE: If the script doesn't run, you will have to change your execution policy to "RemoteSigned" or "Unrestricted"
+# by running PowerShell as administrator and using the appropriate Set-ExecutionPolicy command.
+# Example: Open an elevated PowerShell session and run:
+# Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+# Then, rerun the script.
+
+# For more information on PowerShell execution policies, visit:
+# https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies
+
 # Made by Whisker to learn PS with MAJOR assistance from sheybey & Revan
 # (9/2/21) Modified by sheybey to remove dependencies
 # (10/6/22) HUD compiler created by Lange
@@ -16,7 +26,6 @@ function Options_Menu {
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=============="
     Write-Host -foregroundcolor "White" "This PowerShell script can be used to perform a few different tasks seen below."
     Write-Host -foregroundcolor "White" "Please type ? for an explanation of these options if you're not certain!"
-    Write-Host ""
     Write-Host ""
 
     Write-Host -foregroundcolor "Yellow" "What would you like to do?"
@@ -56,7 +65,6 @@ function Maybe_Path {
 ##############
 # Shared Paths
 ##############
-
 # budhud (this script's folder)
 $budhud = Resolve-Path "$PSScriptRoot"
 # ../Team Fortress 2/tf
@@ -132,7 +140,6 @@ function Extract_VPK_Directory {
 ##################
 # Check_TF2Running
 ##################
-
 function Check_TF2Running {
     # Check for hl2.exe process
     Write-Host -foregroundcolor "White" -NoNewLine "Checking if TF2 is running... "
@@ -163,7 +170,6 @@ function Check_TF2Running {
 ##############################
 # Check_UpdateFiles_DefaultHUD
 ##############################
-
 function Check_UpdateFiles_DefaultHUD {
     # Check for vpk.exe file
     Write-Host -foregroundcolor "White" -NoNewLine "Checking for vpk.exe... "
@@ -195,7 +201,6 @@ function Check_UpdateFiles_DefaultHUD {
 #################################
 # Check_InvokeWebRequest
 #################################
-
 function Check_InvokeWebRequest {
     # Check for invoke-webrequest support
     Write-Host -foregroundcolor "White" -NoNewLine "Checking for Invoke-WebRequest... "
@@ -226,7 +231,6 @@ function Check_InvokeWebRequest {
 ################
 # Check_HUDFiles
 ################
-
 function Check_HUDFiles {
     # Check for hl2.exe file
     Write-Host -foregroundcolor "White" -NoNewLine "Checking for hl2.exe... "
@@ -354,7 +358,6 @@ function Check_HUDFiles {
 ###########################
 # Run_InstallTroubleshooter
 ###########################
-
 function Run_InstallTroubleshooter {
     Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "====================="
@@ -380,14 +383,12 @@ function Run_InstallTroubleshooter {
         Write-Host -foregroundcolor "White" "If you continue to have problems, post in our Discord for additional help:"
         Write-Host -foregroundcolor "White" "https://discord.gg/TkxNKU2"
         Write-Host ""
-        Write-Host ""
     }
 }
 
 #######################
 # Run_ExtractDefaultHUD
 #######################
-
 function Run_ExtractDefaultHUD {
     $startTime = Get-Date  # Initialize the start time
 
@@ -451,10 +452,27 @@ function Run_ExtractDefaultHUD {
         $modifiedContent | Set-Content -Path $file.FullName -Force
     }
 
-    # Add a new line here to separate "Removing all modifiers..." and "Complete."
-    Write-Host ""
-
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+
+    # Update all non-translated language files to chat_default.txt to prevent users of those languages from seeing broken language tokens
+    Write-Host -ForegroundColor "White" -NoNewLine "Updating language files..."
+
+    # Define the list of language codes
+    $languageCodes = @(
+        "bulgarian", "czech", "danish", "dutch", "english","finnish", "greek", "hungarian", "korean", "polish","portuguese", "swedish", "thai", "ukrainian"
+    )
+
+    # Loop through the language codes and copy chat_default.txt to the corresponding file
+    foreach ($code in $languageCodes) {
+        Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_$code.txt"
+    }
+
+    # The below files have been translated, but this code is left here for reference
+    # $translatedCodes = @(
+    #     "brazilian", "french", "german", "italian", "japanese",
+    #     "norwegian", "romanian", "russian", "schinese", "spanish",
+    #     "tchinese", "turkish"
+    # )
 
     # Measure the time it took to complete the function
     $endTime = Get-Date
@@ -463,13 +481,9 @@ function Run_ExtractDefaultHUD {
     Write-Host -ForegroundColor "White" "Time Elapsed: $elapsedTimeFormatted"
 }
 
-
-
-
 ######################
 # Run_UpdateFromGitHub
 ######################
-
 function Run_UpdateFromGitHub {
     $startTime = Get-Date  # Initialize the start time
 
@@ -477,8 +491,6 @@ function Run_UpdateFromGitHub {
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Update from Github"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
-
-    Write-Host ""
     Write-Host ""
 
     # Perform any necessary checks
@@ -486,22 +498,15 @@ function Run_UpdateFromGitHub {
     Check_InvokeWebRequest
 
     Write-Host ""
-    Write-Host ""
-
     Write-Host -foregroundcolor "White" -backgroundcolor "Red" "===================="
     Write-Host -foregroundcolor "White" -backgroundcolor "Red" "IMPORTANT DISCLAIMER"
     Write-Host -foregroundcolor "White" -backgroundcolor "Red" "====DON'T IGNORE===="
     Write-Host -foregroundcolor "White" -backgroundcolor "Red" "===================="
-    [console]::beep(100, 300)
-    [console]::beep(100, 300)
-
-    Write-Host ""
     Write-Host ""
 
-    Write-Host -foregroundcolor "Red" "If you have EDITED any ORIGINAL fies, they will be OVERWRITTEN."
-    Write-Host -foregroundcolor "Green" "If you have ADDED any NEW files, they will NOT be OVERWRITTEN."
+    Write-Host -foregroundcolor "Red" "If you have EDITED any ORIGINAL budhud fies, they will be OVERWRITTEN."
+    Write-Host -foregroundcolor "Green" "If you have ADDED any NEW budhud files, they will NOT be OVERWRITTEN."
     Write-Host -foregroundcolor "Blue" "This script is best used by those making use of #users/custom."
-
     Write-Host ""
 
     Write-Host -foregroundcolor "White" "To proceed, you must type r-6969."
@@ -536,15 +541,12 @@ function Run_UpdateFromGitHub {
             Write-Host -foregroundcolor "White" -NoNewLine "Removing folders and files used in the process.."
             Remove-Item "./budhud-master" -ErrorAction SilentlyContinue -Recurse
             Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
-
-            Write-Host ""
             Write-Host ""
 
             Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
             Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Task Complete"
             Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
             Write-Host -foregroundcolor "White" "Latest hud files from GitHub have been downloaded and extracted."
-            Write-Host ""
             Write-Host ""
 
             # Measure the time it took to complete the function
@@ -565,7 +567,6 @@ function Run_UpdateFromGitHub {
 ####################
 # Run_SetHUDLanguage
 ####################
-
 function Run_SetHUDLanguage {
     Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "================"
@@ -624,13 +625,11 @@ function Run_SetHUDLanguage {
 #################
 # Run_HUDCompiler
 #################
-
 function Run_HUDCompiler {
     Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==========================="
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "HUD Compiler, by @alvancamp"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==========================="
-    Write-Host ""
     Write-Host ""
 
     # Perform any necessary checks
@@ -641,7 +640,7 @@ function Run_HUDCompiler {
     Write-Host -ForegroundColor "White" "IMPORTANT NOTE:"
     Write-Host -ForegroundColor "White" "=============================================="
     Write-Host -ForegroundColor "White" "Before proceeding, please take note of the following:"
-    Write-Host -ForegroundColor "White" ""
+    Write-Host ""
     Write-Host -ForegroundColor "White" "1. Only Windows builds are provided for this compiler."
     Write-Host -ForegroundColor "White" "2. The compiler's source code is available on Alex's GitHub:"
     Write-Host -ForegroundColor "White" "   https://github.com/alvancamp/budhud-compiler"
@@ -649,15 +648,13 @@ function Run_HUDCompiler {
     Write-Host -ForegroundColor "White" "   A. Make changes directly in the 'resource' and 'scripts' folders, or"
     Write-Host -ForegroundColor "White" "   B. Run this compiler whenever you make changes outside of the 'resource' and 'scripts' folders"
     Write-Host -ForegroundColor "White" "      (e.g., in '_budhud' or '#customizations')."
-    Write-Host -ForegroundColor "White" ""
+    Write-Host ""
     Write-Host -ForegroundColor "White" "If the compiler cannot be found, it will be automatically downloaded."
-    Write-Host -ForegroundColor "White" ""
     Write-Host ""
 
     Write-Host -ForegroundColor "White" -BackgroundColor "Yellow" "==================================="
     Write-Host -ForegroundColor "White" "Do you want to continue? [Y / N]"
     Write-Host -ForegroundColor "White" -BackgroundColor "Yellow" "==================================="
-    Write-Host ""
     Write-Host ""
 
     $response = Read-Host
@@ -749,7 +746,6 @@ function Run_HUDCompiler {
 
     $StopWatch.Stop();
     Write-Host ""
-    Write-Host ""
 
     Write-Host -foregroundcolor "White" -backgroundcolor "Green" "===================="
     Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Compilation Complete"
@@ -761,7 +757,6 @@ function Run_HUDCompiler {
 ######################
 # Run_RevertHUDCompile
 ######################
-
 function Run_RevertHUDCompile {
     Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
@@ -778,7 +773,6 @@ function Run_RevertHUDCompile {
     Write-Host -foregroundcolor "White" -backgroundcolor "Yellow" "==================================="
     Write-Host -foregroundcolor "White" "Would you like to continue? [Y / N]"
     Write-Host -foregroundcolor "White" -backgroundcolor "Yellow" "==================================="
-    Write-Host ""
     Write-Host ""
 
     $response = Read-Host
@@ -819,10 +813,9 @@ function Run_RevertHUDCompile {
 ##############
 # Initial Menu
 ##############
-
 do {
     Options_Menu
-    $selection = Read-Host "[Type 1, 2, 3, 4, 5, 6, 7, ?, or Q]"
+    $selection = Read-Host "[Type 1, 2, 3, 4, 5, 6, ?, or Q]"
 
     switch ($selection) {
         "1" {
