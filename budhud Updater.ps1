@@ -308,28 +308,44 @@ function Check_HUDFiles {
         Break
     }
 
-    # Check for _tf2hud folder
-    Write-Host -foregroundcolor "White" -NoNewLine "Checking for _tf2hud folder... "
+    # Check for all HUD folders
+    Write-Host -ForegroundColor "White" -NoNewline "Checking for important folders... "
 
-    If
-    (
-        Test-Path -Path "_tf2hud/*"
+    # Define the paths to check
+    $pathsToCheck = @(
+        "_budhud/*",
+        "_tf2hud/*",
+        "#customization/*",
+        "materials/*",
+        "resource/*",
+        "scripts/*"
     )
-    {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Folder found"
+
+    # Initialize an array to store the paths that were not found
+    $notFoundPaths = @()
+
+    # Loop through the paths and check if any of them do not exist
+    foreach ($path in $pathsToCheck) {
+        if (!(Test-Path -Path $path)) {
+            $notFoundPaths += $path
+        }
     }
 
-    Else {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate _tf2hud folder"
+    if ($notFoundPaths.Count -eq 0) {
+        Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "All folders found"
+    } else {
+        Write-Host -ForegroundColor "White" -BackgroundColor "Red" "Could not locate some or all important folders"
         Write-Host ""
 
-        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
-        Write-Host -foregroundcolor "White" "TF2 will crash on startup"
+        Write-Host -ForegroundColor "White" -BackgroundColor "Red" "Outcome"
+        Write-Host -ForegroundColor "White" "The HUD will not work properly, or may even crash"
         Write-Host ""
 
-        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
-        Write-Host -foregroundcolor "White" "Verify that the _tf2hud folder was not deleted when you installed the hud"
-        Write-Host ""
+        Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Solution"
+        Write-Host -ForegroundColor "White" "Verify that you have the following folders in your HUD:"
+        foreach ($path in $notFoundPaths) {
+            Write-Host -ForegroundColor "White" "- $path"
+        }
         Break
     }
 }
@@ -439,37 +455,26 @@ function Run_ExtractDefaultHUD {
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
     # Update all non-translated language files to chat_default.txt to prevent users of those languages from seeing broken language tokens
-    Write-Host -foregroundcolor "White" -NoNewLine "Updating language files..."
-    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_bulgarian.txt"
-    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_czech.txt"
-    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_danish.txt"
-    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_dutch.txt"
-    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
-    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_finnish.txt"
-    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_greek.txt"
-    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_hungarian.txt"
-    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_korean.txt"
-    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_polish.txt"
-    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_portuguese.txt"
-    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_swedish.txt"
-    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_thai.txt"
-    Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_ukrainian.txt"
+    Write-Host -ForegroundColor "White" -NoNewLine "Updating language files..."
+
+    # Define the list of language codes
+    $languageCodes = @(
+        "bulgarian", "czech", "danish", "dutch", "english","finnish", "greek", "hungarian", "korean", "polish","portuguese", "swedish", "thai", "ukrainian"
+    )
+
+    # Loop through the language codes and copy chat_default.txt to the corresponding file
+    foreach ($code in $languageCodes) {
+        Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_$code.txt"
+    }
 
     # The below files have been translated, but this code is left here for reference
-    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_brazilian.txt"
-    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_french.txt"
-    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_german.txt"
-    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_italian.txt"
-    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_japanese.txt"
-    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_norwegian.txt"
-    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_romanian.txt"
-    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_russian.txt"
-    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_schinese.txt"
-    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_spanish.txt"
-    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_tchinese.txt"
-    # Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_turkish.txt"
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+    # $translatedCodes = @(
+    #     "brazilian", "french", "german", "italian", "japanese",
+    #     "norwegian", "romanian", "russian", "schinese", "spanish",
+    #     "tchinese", "turkish"
+    # )
 
+    Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Complete"
     Write-Progress -Activity "Modifying files" -Completed
 
     Write-Host ""
@@ -642,61 +647,31 @@ function Run_SetHUDLanguage {
 
     $selection = Read-Host "Please type the language you'd like to use"
 
-    switch ($selection) {
-        "Brazilian" {
-            Copy-Item "$PSScriptRoot/resource/chat_brazilian.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
+    if ($selection -eq "Quit") {
+        Options_Menu
+    }
+    else {
+        $sourcePath = switch ($selection) {
+            "Brazilian"             { "$PSScriptRoot/resource/chat_brazilian.txt" }
+            "English"               { "$PSScriptRoot/resource/chat_default.txt" }
+            "French"                { "$PSScriptRoot/resource/chat_french.txt" }
+            "German"                { "$PSScriptRoot/resource/chat_german.txt" }
+            "Italian"               { "$PSScriptRoot/resource/chat_italian.txt" }
+            "Japanese"              { "$PSScriptRoot/resource/chat_japanese.txt" }
+            "Norwegian"             { "$PSScriptRoot/resource/chat_norwegian.txt" }
+            "Romanian"              { "$PSScriptRoot/resource/chat_romanian.txt" }
+            "Russian"               { "$PSScriptRoot/resource/chat_russian.txt" }
+            "Simplified Chinese"    { "$PSScriptRoot/resource/chat_schinese.txt" }
+            "Spanish"               { "$PSScriptRoot/resource/chat_spanish.txt" }
+            "Traditional Chinese"   { "$PSScriptRoot/resource/chat_tchinese.txt" }
+            "Turkish"               { "$PSScriptRoot/resource/chat_turkish.txt" }
         }
 
-        "English" {
-            Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
+        if ($sourcePath) {
+            Copy-Item $sourcePath -Destination "$PSScriptRoot/resource/chat_english.txt"
         }
-
-        "French" {
-            Copy-Item "$PSScriptRoot/resource/chat_french.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
-        }
-
-        "German" {
-            Copy-Item "$PSScriptRoot/resource/chat_german.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
-        }
-
-        "Italian" {
-            Copy-Item "$PSScriptRoot/resource/chat_italian.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
-        }
-
-        "Japanese" {
-            Copy-Item "$PSScriptRoot/resource/chat_japanese.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
-        }
-
-        "Norwegian" {
-            Copy-Item "$PSScriptRoot/resource/chat_norwegian.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
-        }
-
-        "Romanian" {
-            Copy-Item "$PSScriptRoot/resource/chat_romanian.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
-        }
-
-        "Russian" {
-            Copy-Item "$PSScriptRoot/resource/chat_russian.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
-        }
-
-        "Simplified Chinese" {
-            Copy-Item "$PSScriptRoot/resource/chat_schinese.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
-        }
-
-        "Spanish" {
-            Copy-Item "$PSScriptRoot/resource/chat_spanish.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
-        }
-
-        "Traditional Chinese" {
-            Copy-Item "$PSScriptRoot/resource/chat_tchinese.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
-        }
-
-        "Turkish" {
-            Copy-Item "$PSScriptRoot/resource/chat_turkish.txt" -Destination "$PSScriptRoot/resource/chat_english.txt"
-        }
-
-        "Quit" {
-            Options_Menu
+        else {
+            Write-Host "Invalid selection. Please choose a valid language."
         }
     }
 
