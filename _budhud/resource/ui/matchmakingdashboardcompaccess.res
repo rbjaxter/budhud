@@ -4,7 +4,7 @@
 {
     "CompAccess"
     {
-        "zpos"                                                      "2500"
+        "zpos"                                                      "3000"
         "bgcolor_override"                                          "bh_blank"
         "border"                                                    "bh_TooltipBG"
     }

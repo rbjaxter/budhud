@@ -5,7 +5,7 @@
     "CasualCriteria"
     {
         "wide"                                                      "280"
-        "zpos"                                                      "2500"      // BackgroundDimmer zpos is locked to 1000 (lol)
+        "zpos"                                                      "3000"      // BackgroundDimmer zpos is locked to 1000 (lol)
         "bgcolor_override"                                          "bh_Theme_BG20"
         "border"                                                    "bh_b_W"
     }
