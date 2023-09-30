@@ -54,7 +54,7 @@
 		"#commentary\tf2-Comment047.wav"	"[Chet Faliszek] The announcer for Team Fortress 2, Ellen McLain, has the rare distinction of being the only voice actor to perform in all the products in the Orange box.  For her role in Team Fortress 2, we had Ellen try various reads on the same lines letting her ad-lib different personalities.  On the 5th try, she came up with the winner. Her disappointed and slightly angry evil overlord clearly lets you know, in the world of Team Fortress a tie does not mean everyone wins, but that everyone loses."
 		"#commentary\tf2-Comment048.wav"	"[Laura Dubuk] This area presented a difficult problem. Since the arena is primarily an interior, there wasn't much we could do to alter its basic structure, so we concentrated on careful management of the interior shapes to create an iconic space. The building is essentially a box with big rectangular windows, contrasted by round elements (generators) in the center. To create depth and parallax, we added linear elements such as railings and cables. We used contrasting values of dark and light on the floor, with walkways to create an interesting value pattern. All these elements work together to draw the player's eye to the flag--which must always be the focal point of the arena."
 		//]
-		
+
 		//[ Voice Lines
 		//[ Demoman
 		"Demoman.ActivateCharge01"					""
@@ -2857,7 +2857,7 @@
 		"spy_cartstoppedoffense03"				""
 		//]
 		//]
-		
+
 		//[ MvM Lines
 		//[ Demoman
 		"Demoman.Ready"							"<B><clr:178,178,178>Demoman<B> is ready."
@@ -3291,7 +3291,7 @@
 		"spy_mvm_resurrect09"				"<B><clr:178,178,178>Spy<B> resurrected."
 		//]
 		//]
-		
+
 		//[ Halloween and other Lines
 		//[ Demoman
 		"demoman_item_unicorn_domination01"			""
@@ -4099,7 +4099,7 @@
 		"spy_sf13_spell_zombie_horde01"			"<clr:165,15,121>Spy used <B>Summon Skeletons.<B>"
 		//]
 		//]
-		
+
 		//[ Taunts
 		//[ Demoman
 		"demo_taunt_conga_random_fun1"				""
@@ -4541,7 +4541,7 @@
 		"weapon_waterbomb.score"					""
 		//]
 		//]
-		
+
 		// Hi there! This is a brief tutorial on how to make your own captions.
 		// I'll go over making them, but you'll have to check the Steam Guide for compiling, as methods may change.
 		// You'll want to make a caption tag and put it in quotes, like this
@@ -4559,14 +4559,14 @@
 		"#Test.Caption"					"<delay:5>Hello world! I'm pretty <B>bold<B> and I'm rather <I>italicized!<I><cr><clr:127,0,127>Meanwhile, I'm purple."
 		// Try it out by opening the console and typing "cc_emit #Test.Caption"
 		// Be patient - it shows up after 5 seconds to demonstrate the <delay:X> tag.
-		
+
 		// Don't forget, you have to compile your captions after typing them out!
-		
+
 		// ASCII Characters
 		// ↑↓←→‾♠♣♦♥☺☻•◘○◙♂♀♪♫☼▲▼◄►↕‼▬↨º¿¡⌐¬«»░▒▓■²√πΣσµ∞∩±≥≤⌠⌡÷
 		// Block Diagrams
 		// │┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀
-		
+
 		// Full 6line Bold Box Template
 		// "#Block.Text"				"<clr:255,0,0><B>╔════════════════════════════════════════╗"
 		// "#Block.Text2"			"<clr:255,255,0><B>║                                                                                             ║"
@@ -4574,7 +4574,7 @@
 		// "#Block.Text4"			"<clr:0,255,255><B>║                                                                                             ║"
 		// "#Block.Text5"			"<clr:0,0,255><B>║                                                                                             ║"
 		// "#Block.Text6"			"<clr:255,0,255><B>╚════════════════════════════════════════╝"
-		
+
 		// Full 6line Nonbold Box Template
 		// "#Block.Text"				"<clr:255,0,0>╔═══════════════════════════════════════════╗"
 		// "#Block.Text2"			"<clr:255,255,0>║                                                                                             ║"
@@ -4582,7 +4582,7 @@
 		// "#Block.Text4"			"<clr:0,255,255>║                                                                                             ║"
 		// "#Block.Text5"			"<clr:0,0,255>║                                                                                             ║"
 		// "#Block.Text6"			"<clr:255,0,255>╚═══════════════════════════════════════════╝"
-		
+
 		// Some colors
 		// <clr:114,158,66>	Barely Green
 		// <clr:225,64,64>:	TF2 Red			This is also the general "disabled" color
@@ -4598,7 +4598,7 @@
 		// <clr:0,255,255>	Teal
 		// <clr:0,0,255>		Blue
 		// <clr:255,0,255>	Pink
-		
+
 		// Item Quality Colors
 		// #B2B2B2	<clr:178,178,178>	Normal
 		// #FFD700	<clr:255,215,0>		Unique
@@ -4610,7 +4610,7 @@
 		// #AA0000	<clr:170,0,0:>		Collector's
 		// #70B04A	<clr:112,176,74>	Community/Self-Made
 		// #A50F79	<clr:165,15,121>	Valve
-		
+
 		"#Konami.Code"			"<clr:255,255,255><B>↑↑↓↓←→←→<clr:0,255,0>b<clr:0,0,255>a<clr:255,0,0>START!"
 		"#CC.Test"				"<clr:255,255,255>↑↓←→⇔↵⇐⇑⇒⇓‾♠♣♦♥☺☻•◘○◙♂♀♩♪♫♬♭♮♯☼▲▼◄►↕‼▬↨º¿¡⌐¬«»░▒▓■²√πΣσµ∞∩±≥≤⌠⌡÷ƒ"
 		"#CC.Test2"				"<clr:255,255,255>│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀"
@@ -4620,7 +4620,7 @@
 		"#Test.Colors.2"		"<B><clr:153,204,255>This is Blue <clr:245,222,179>This is White"
 		"#Test.Colors.3"		"<B><clr:255,255,255>This is another White <clr:225,97,3>This is Orange"
 		"#Test.Colors.4"		"<B><clr:239,152,73>This is another Orange"
-		
+
 		//[ Config Loading
 		"#Demoman.Loaded"		"Demoman config loaded."
 		"#Engineer.Loaded"		"Engineer config loaded."
@@ -4635,7 +4635,7 @@
 		"#Wait.Disabled"		"Wait command is <B><clr:225,64,64>DISABLED."
 		"#Wait.Enabled"			"Wait command is <B><clr:153,204,255>ENABLED."
 		//]
-		
+
 		//[ Script-Specific
 		"#About.CC"				"Developed by clovervidia. cc_clovervidiar v2.5.3"
 		"#Autofire.B.OFF"		"<clr:0,0,0>[+╍●●]<clr:255,255,255> Turbo B is <B><clr:225,64,64>OFF."
@@ -4680,11 +4680,11 @@
 		"#UberL.Kritz"			"Will call out for <B><clr:225,64,64>KRITZ!"
 		"#UberL.Uber"			"Will call out for <B><clr:153,204,255>UBERS!"
 		//]
-		
+
 		//[ Time-based Shenanigans
 		"#Spray.Timer"			"<delay:0>Spray cooldown started.<delay:10>Spray cooldown finished."
 		//]
-		
+
 		//[ Weapon Switchers
 		//[ Demoman
 		"#Demoman.1"			"<len:1>① <clr:100,100,200>Switched to <B>Grenade Launcher."
