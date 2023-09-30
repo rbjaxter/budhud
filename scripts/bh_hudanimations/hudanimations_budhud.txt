@@ -34,6 +34,109 @@ event HitMarker
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
+// Remove animations
+////////////////////////////////////////////////////////////////////////////////////////////////////
+event HudSnapShotReminderIn
+{
+}
+
+event CompetitiveGame_LowerChatWindow    // Casual/Comp Chat Positioning
+{
+}
+
+event CompetitiveGame_RestoreChatWindow    // Casual/Comp Chat Positioning
+{
+}
+
+event HudTournament_MoveChatWindow    // Casual/Comp Chat Positioning
+{
+}
+
+event HudSpyDisguiseChanged    // Disable spy disguise animation
+{
+}
+
+event HudSpyDisguiseHide    // Disable spy disguise animation
+{
+}
+
+event HudSpyDisguiseFadeIn    // Disable spy disguise animation
+{
+}
+
+event HudSpyDisguiseFadeOut    // Disable spy disguise animation
+{
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// HudTournament Timer Control
+// We specifically care about CountdownLabel and CountdownLabelShadow positioning
+// The rest are default lines, but they must remain in this file because removing them doesn't
+// behave like #base would, and actually deletes them from the animation
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Used to place timer when first joining and game hasn't started yet
+event HudTournament_ShowTimerCompetitive
+{
+    Animate           CountdownLabel              ypos        25        Gain        0.75        0        0.25
+    Animate           CountdownLabelShadow        ypos        26        Gain        0.75        0        0.25
+    SetVisible        CountdownBG                 1           0
+    SetVisible        CountdownLabel              1           0
+    SetVisible        CountdownLabelShadow        1           0
+}
+
+// I don't know why this animation and the one below by default both move the CountdownLabel?? Their values have been matched anyways
+event HudTournament_MoveTimerDown
+{
+    Animate           CountdownLabel                  ypos        c-15        Gain        0.75        0        0.25
+    Animate           CountdownLabelShadow            ypos        c-16        Gain        0.75        0        0.25
+    SetVisible        CountdownBG                     0           5
+    SetVisible        CountdownLabel                  1           0
+    SetVisible        CountdownLabelShadow            1           0
+    // Animate           CountdownLabel                  ypos        c-3        Gain          0.75        0        0.4
+    // Animate           CountdownLabelShadow            ypos        c0         Gain          0.75        0        0.4
+    SetVisible        TournamentConditionLabel        0           2
+    SetVisible        CountdownLabel                  0           3
+    SetVisible        CountdownLabelShadow            0           3
+}
+
+event HudMatchStatus_ShowMatchStartDoors
+{
+    SetVisible           MatchDoors                            1                            0
+    SetVisible           BlueTeamPanel                         1                            0
+    SetVisible           RedTeamPanel                          1                            0
+    SetVisible           CountdownLabel                        1                            0
+    SetVisible           CountdownLabelShadow                  1                            0
+    Animate              CountdownLabel                        ypos                         c-15        Gain        0.75        0        0.25
+    Animate              CountdownLabelShadow                  ypos                         c-16        Gain        0.75        0        0.25
+    // Animate              CountdownLabel                        ypos                         c-3         Gain          0.75        0        0.4
+    // Animate              CountdownLabelShadow                  ypos                         c-0         Gain          0.75        0        0.4
+    SetVisible           HudTournamentBG                       0                            2
+    RunEventChild        MatchDoors                            PlayDoorCloseAnim            0
+    RunEventChild        FrontParticlePanel                    PlayDoorSlamParticles        0.45
+    RunEventChild        MatchDoors                            PlayDoorOpenAnim             7
+    RunEvent             HudTournament_AnimateTeams_In         0.25
+    RunEvent             HudTournament_AnimateTeams_Out        7.70
+    SetVisible           MatchDoors                            0                            9
+    SetVisible           CountdownLabel                        0                            9.9
+    SetVisible           CountdownLabelShadow                  0                            9.9
+    RunEvent             HudTournament_DoorsCleanup            10
+    SetVisible           CountdownBG                           1                            11
+}
+
+event HudMatchStatus_ShowCountdown
+{
+    SetVisible        CountdownLabel              1           0
+    SetVisible        CountdownLabelShadow        1           0
+    Animate           CountdownLabel              ypos        c-15        Gain        0.75        0        0.25
+    Animate           CountdownLabelShadow        ypos        c-16        Gain        0.75        0        0.25
+    // Animate           CountdownLabel              ypos        c-3        Gain          0.75        0        0.4
+    // Animate           CountdownLabelShadow        ypos        c-0        Gain          0.75        0        0.4
+    SetVisible        CountdownLabel              0           9.9
+    SetVisible        CountdownLabelShadow        0           9.9
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
 // MvM tournament toggle ready pulse
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 event HudReadyPulse
@@ -113,22 +216,6 @@ event SuddenDeathLabelPulseRed
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-// Casual/Comp Chat Positioning
-// Prevent chat from moving
-////////////////////////////////////////////////////////////////////////////////////////////////////
-event CompetitiveGame_LowerChatWindow
-{
-}
-
-event CompetitiveGame_RestoreChatWindow
-{
-}
-
-event HudTournament_MoveChatWindow
-{
-}
-
-////////////////////////////////////////////////////////////////////////////////////////////////////
 // CTF Flag Pickup/Drop
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 event FlagOutline
@@ -140,27 +227,6 @@ event FlagOutline
     Animate         OutlineImage           position        "c-50 r0"          Linear        0.7        0.2
     Animate         OutlineImage           size            "100 50"           Linear        0.7        0.2
     Animate         OutlineImage           alpha           0.0                Linear        0.6        0.3
-}
-
-////////////////////////////////////////////////////////////////////////////////////////////////////
-// Spy Animations
-// ============================================================================================== //
-// Disables spy disguise outline
-////////////////////////////////////////////////////////////////////////////////////////////////////
-event HudSpyDisguiseChanged
-{
-}
-
-event HudSpyDisguiseHide
-{
-}
-
-event HudSpyDisguiseFadeIn
-{
-}
-
-event HudSpyDisguiseFadeOut
-{
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -37,6 +37,27 @@
         }
     }
 
+    // This uses the exact same information as hudtournament.res to ensure countdown timers behave
+    "CountdownLabel"
+    {
+        "xpos"                                                      "c-30"
+        "ypos"                                                      "c-350"
+        "zpos"                                                      "4" // Match doors are zpos 2
+        "wide"                                                      "60"
+        "tall"                                                      "60"
+        "proportionaltoparent"                                      "1"
+    }
+
+    "CountdownLabelShadow"
+    {
+        "xpos"                                                      "c-31"
+        "ypos"                                                      "c-351"
+        "zpos"                                                      "3"
+        "wide"                                                      "60"
+        "tall"                                                      "60"
+        "proportionaltoparent"                                      "1"
+    }
+
     "BlueTeamPanel"
     {
         "ypos"                                                      "10"

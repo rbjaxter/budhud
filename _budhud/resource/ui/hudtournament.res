@@ -672,56 +672,20 @@
     "CountdownLabel"
     {
         "xpos"                                                      "c-30"
-        "ypos"                                                      "50"
+        "ypos"                                                      "c-350"
+        "zpos"                                                      "4"     // Match doors are zpos 2
         "wide"                                                      "60"
         "tall"                                                      "60"
-
-        if_competitive
-        {
-            "xpos"                                                  "c-30"
-            "ypos"                                                  "40"
-        }
-
-        if_mvm
-        {
-            "xpos"                                                  "c-30"
-            "ypos"                                                  "0"
-        }
-
-        if_readymode
-        {
-            "xpos"                                                  "c-30"
-            "ypos"                                                  "0"
-        }
+        "proportionaltoparent"                                      "1"
     }
 
     "CountdownLabelShadow"
     {
-        "pin_to_sibling"                                            "CountdownLabel"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
-
-        "xpos"                                                      "-1"
-        "ypos"                                                      "-1"
+        "xpos"                                                      "c-31"
+        "ypos"                                                      "c-351"
+        "zpos"                                                      "3"
         "wide"                                                      "60"
         "tall"                                                      "60"
-
-        if_competitive
-        {
-            "xpos"                                                  "-1"
-            "ypos"                                                  "-1"
-        }
-
-        if_mvm
-        {
-            "xpos"                                                  "-1"
-            "ypos"                                                  "-1"
-        }
-
-        if_readymode
-        {
-            "xpos"                                                  "-1"
-            "ypos"                                                  "-1"
-        }
+        "proportionaltoparent"                                      "1"
     }
 }
