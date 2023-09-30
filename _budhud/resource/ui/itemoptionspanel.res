@@ -6,6 +6,7 @@
 {
     "PanelListPanel"
     {
+        "wide"                                                      "f-7"
         "bgcolor_override"                                          "bh_BGAverage"
 
         "HatUseHeadCheckButton"
