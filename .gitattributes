@@ -12,16 +12,6 @@
 # All text set to automatic end-of-line normalization
 * text=auto
 
-# Specify custom merge driver for UTF-16LE files
-*.utf16le text merge=utf16le
-
-# Configure the merge driver in your Git configuration
-# This tells Git to treat *.utf16le files as text and to use the custom merge driver
-[merge "utf16le"]
-    name = UTF-16LE merge driver
-    driver = "iconv -f utf-16le -t utf-8 %A %B -o %A"
-    recursive = binary
-
 # Do not export these files on download
 # Don't ignore dev folder, backups are created there thru PowerScript
 {.gitattributes,.gitignore,.github} export-ignore
