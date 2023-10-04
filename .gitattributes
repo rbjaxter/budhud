@@ -12,15 +12,11 @@
 # All text set to automatic end-of-line normalization
 * text=auto
 
-# Specify custom merge driver for UTF-16LE files
-*.utf16le text merge=utf16le
-
-# Configure the merge driver in your Git configuration
-# This tells Git to treat *.utf16le files as text and to use the custom merge driver
-[merge "utf16le"]
-    name = UTF-16LE merge driver
-    driver = "iconv -f utf-16le -t utf-8 %A %B -o %A"
-    recursive = binary
+# Configure Git attributes for specific .txt files:
+# - Files in "resource" directory starting with "chat_" are treated as UTF-16 LE encoded.
+resource/chat_*.txt diff working-tree-encoding=UTF-16LE
+# - Files in "resource/closecaption_" directory starting with "clovervidia" are treated as UTF-16 LE encoded.
+resource/closecaption_/clovervidia*.txt diff working-tree-encoding=UTF-16LE
 
 # Do not export these files on download
 # Don't ignore dev folder, backups are created there thru PowerScript
