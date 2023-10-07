@@ -1,5 +1,13 @@
 "Resource/UI/HudSpellSelection.res"
 {
+    "HudSpellMenu"
+    {
+        "xpos"                                                      "200"
+        "ypos"                                                      "r30"
+        "wide"                                                      "70"
+        "tall"                                                      "30"
+    }
+
     "ItemEffectMeterBG"
     {
         "ypos"                                                      "r-6969"
@@ -30,8 +38,8 @@
 
     "SpellIcon"
     {
-        "xpos"                                                      "c-30"
-        "ypos"                                                      "35"
+        "xpos"                                                      "5"
+        "ypos"                                                      "5"
         "zpos"                                                      "50"
         "wide"                                                      "20"
         "tall"                                                      "20"
