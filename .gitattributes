@@ -12,13 +12,6 @@
 # All text set to automatic end-of-line normalization
 * text=auto
 
-# Configure Git attributes for specific .txt files:
-# - Files in "resource" directory starting with "chat_" are treated as UTF-16 LE BOM encoded.
-chat_*.txt working-tree-encoding=UTF-16LE-BOM
-
-# - Files in "resource/closecaption_" directory starting with "clovervidia" are treated as UTF-8 encoded.
-#resource/closecaption_/clovervidia*.txt working-tree-encoding=UTF-8
-
 # Do not export these files on download
 # Don't ignore dev folder, backups are created there thru PowerScript
 {.gitattributes,.gitignore,.github} export-ignore
