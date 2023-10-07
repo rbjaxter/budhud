@@ -94,6 +94,26 @@ $discord = "https://discord.gg/TkxNKU2"
 $resource_backup = "$PSScriptRoot/#dev/resource_backup"
 $scripts_backup = "$PSScriptRoot/#dev/scripts_backup"
 
+#################
+# Shared_EndTimer
+#################
+function Shared_EndTimer($startTime) {
+    $endTime = Get-Date
+    $elapsedTime = $endTime - $startTime
+    $elapsedMinutes = $elapsedTime.TotalMinutes -as [int]
+    $elapsedSeconds = $elapsedTime.Seconds
+    $elapsedTimeString = ""
+
+    if ($elapsedMinutes -gt 0) {
+        $elapsedTimeString += "$elapsedMinutes minute(s) and "
+    }
+
+    $elapsedTimeString += "$elapsedSeconds second(s)"
+
+    Write-Host -ForegroundColor "White" "Time Elapsed: $elapsedTimeString"
+    Write-Host ""
+}
+
 ###################
 # Extract_VPK_Files
 ###################
@@ -398,7 +418,8 @@ function Run_InstallTroubleshooter {
 # Run_ExtractDefaultHUD
 #######################
 function Run_ExtractDefaultHUD {
-    $startTime = Get-Date  # Initialize the start time
+    # Initialize the start time
+    $startTime = Get-Date
 
     Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==================="
@@ -419,6 +440,16 @@ function Run_ExtractDefaultHUD {
     Write-Host -foregroundcolor "White" "You appear to have all files needed to update your default hud files."
     Write-Host -foregroundcolor "White" "Beginning update."
     Write-Host ""
+
+    # Update all non-translated language files to chat_default.txt to prevent users of those languages from seeing broken language tokens
+    Write-Host -ForegroundColor "White" -NoNewLine "Updating language files..."
+
+    # Loop through the language codes and copy chat_default.txt to the corresponding file
+    foreach ($code in $untranslatedLanguages) {
+        Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_$code.txt"
+    }
+
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
     # Delete old folder
     Write-Host -foregroundcolor "White" -NoNewLine "Deleting _tf2hud folder..."
@@ -449,39 +480,40 @@ function Run_ExtractDefaultHUD {
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
     # Remove various modifiers (OSX, X360, _minmode, _lodef, _hidef, and if_ lines.)
-    Write-Host -foregroundcolor "White" -NoNewLine "Removing various conditional modifiers..."
+    Write-Host -ForegroundColor "White" -NoNewLine "Removing various conditional modifiers..."
 
     $files = Get-ChildItem -File -Recurse -Path _tf2hud
+    $totalFiles = $files.Count
+    $currentFile = 0
+    $activity = "Removing Conditional Modifiers"
 
     foreach ($file in $files) {
+        $currentFile++
+        $progressPercentage = ($currentFile / $totalFiles) * 100
+        $progressStatus = "Processing file $currentFile of $totalFiles"
+
+        Write-Progress -PercentComplete $progressPercentage -Status $progressStatus -Activity $activity
+
         $content = Get-Content $file.FullName
         $modifiedContent = $content -replace '\$OSX|\$X360|_minmode|_lodef|_hidef|if_', '$$_disabled_'
         $modifiedContent | Set-Content -Path $file.FullName -Force
     }
 
+    Write-Progress -Completed -Activity $activity
+
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+    Write-Host ""
 
-    # Update all non-translated language files to chat_default.txt to prevent users of those languages from seeing broken language tokens
-    Write-Host -ForegroundColor "White" -NoNewLine "Updating language files..."
-
-    # Loop through the language codes and copy chat_default.txt to the corresponding file
-    foreach ($code in $untranslatedLanguages) {
-        Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_$code.txt"
-    }
-
-    # Measure the time it took to complete the function
-    $endTime = Get-Date
-    $elapsedTime = $endTime - $startTime
-    $elapsedTimeFormatted = [string]::Format("{0:hh\:mm\:ss}", $elapsedTime)
-    Write-Host -ForegroundColor "White" "Time Elapsed: $elapsedTimeFormatted"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
+    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Task Complete"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
+    Shared_EndTimer $startTime
 }
 
 ######################
 # Run_UpdateFromGitHub
 ######################
 function Run_UpdateFromGitHub {
-    $startTime = Get-Date  # Initialize the start time
-
     Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Update from Github"
@@ -512,6 +544,9 @@ function Run_UpdateFromGitHub {
 
     switch ($selection) {
         "r-6969" {
+            # Initialize the start time
+            $startTime = Get-Date
+
             # Load zipfile support
             Add-Type -Assembly System.IO.Compression
             Add-Type -Assembly System.IO.Compression.FileSystem
@@ -542,12 +577,7 @@ function Run_UpdateFromGitHub {
             Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Task Complete"
             Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
             Write-Host -foregroundcolor "White" "Latest hud files from GitHub have been downloaded and extracted."
-            Write-Host ""
-
-            # Measure the time it took to complete the function
-            $endTime = Get-Date
-            $elapsedTime = $endTime - $startTime
-            Write-Host -ForegroundColor "White" "Time Elapsed: $($elapsedTime.ToString())"
+            Shared_EndTimer $startTime
         }
 
         "anything else" {
@@ -818,6 +848,11 @@ do {
         }
 
         "?" {
+            Clear-Host
+            Write-Host ""
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "====================="
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Function Explanations"
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "====================="
             Write-Host ""
             Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "1. Check HUD Installation"
             Write-Host -foregroundcolor "Green" "No files will be deleted or replaced"
