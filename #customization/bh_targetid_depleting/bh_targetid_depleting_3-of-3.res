@@ -1,0 +1,3 @@
+"Resource/UI/HealthIconPanel.res"
+{
+}

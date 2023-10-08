@@ -17,7 +17,7 @@
         "xpos"                                                      "0"
         "ypos"                                                      "34"
         "wide"                                                      "40"
-        "tall"                                                      "40"
+        "tall"                                                      "18"
     }
 
     "TargetNameLabel"
