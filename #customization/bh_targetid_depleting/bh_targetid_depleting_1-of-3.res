@@ -33,6 +33,12 @@
         "enabled"                                                   "1"
     }
 
+    "bh_Tint"
+    {
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+    }
+
     // If you'd like the colored background health, delete everything below this point
     // (except for the final bracket, of course)
     "PlayerStatusHealthValueShadow"

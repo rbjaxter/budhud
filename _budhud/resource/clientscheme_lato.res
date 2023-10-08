@@ -104,6 +104,46 @@ Scheme
             }
         }
 
+        bh_Font_TargetIDHealth
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "20"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font_TargetIDHealthShadow
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "20"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        bh_Font_TargetIDHealthBlur
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "20"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "blur"                                              "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         // General Fonts
         // Font entries shared by multiple HUD elements

@@ -82,6 +82,26 @@
         "border"                                                    "NoBorder"
     }
 
+    // Used in depleting customization to make default health cross less bright
+    "bh_Tint"
+    {
+        "ControlName"                                               "ImagePanel"
+        "fieldName"                                                 "bh_Tint"
+        "xpos"                                                      "0"
+        "ypos"                                                      "0"
+        "zpos"                                                      "3"
+        "wide"                                                      "f0"
+        "tall"                                                      "60"
+        "autoResize"                                                "0"
+        "pinCorner"                                                 "0"
+        "labeltext"                                                 ""
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "fillcolor"                                                 "0 0 0 150"
+        "image"                                                     ""
+        "paintbackgroundtype"                                       "0"
+    }
+
     "bh_HealthBGSpec"
     {
         "pin_to_sibling"                                            "bh_TargetIDHealthPin"
