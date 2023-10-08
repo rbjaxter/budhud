@@ -271,10 +271,12 @@ Scheme
         "bh_green"                                                  "077 116 085 255"
         "bh_bgreen"                                                 "050 205 050 255"
         "bh_red"                                                    "159 055 055 255"
-        "bh_bred"                                                   "245 050 041 255"
         "bh_red_t"                                                  "159 055 055 128"
+        "bh_red_tt"                                                  "159 055 055 64"
+        "bh_bred"                                                   "245 050 041 255"
         "bh_blue"                                                   "101 122 140 255"
         "bh_blue_t"                                                 "101 122 140 128"
+        "bh_blue_tt"                                                "101 122 140 064"
         "bh_blank"                                                  "000 000 000 000"
         "bh_yellow"                                                 "231 181 059 255"
 
@@ -315,6 +317,7 @@ Scheme
         "LighterRed"                                                "254 002 209 255"       // Bright pink to locate
         "TanLight"                                                  "255 255 255 255"       // Used in far too many places to want to do anything but change it here
         "TanDark"                                                   "255 255 255 255"       // Used in advanced options
+        "HudOffWhite"                                               "255 255 255 255"
 
         // Engineer HUD Specific
         "LowHealthRed"                                              "159 055 055 255"       // When building is low health or is in first stage of building

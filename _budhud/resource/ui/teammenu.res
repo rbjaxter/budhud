@@ -1,5 +1,19 @@
 "Resource/UI/TeamMenu.res"
 {
+    "HighlanderLabel"
+    {
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+    }
+
+    "HighlanderLabelShadow"
+    {
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+    }
+
     "MenuBG"
     {
         "ypos"                                                      "r-6969"
@@ -70,6 +84,56 @@
         "enabled"                                                   "0"
     }
 
+    // Weirdly cursed element (same with TeamsFullLabel and Shadow)
+    "TeamsFullArrow"
+    {
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "wide"                                                      "0"
+        "tall"                                                      "0"
+    }
+
+    "TeamsFullLabel"
+    {
+        "ControlName"                                               "CExLabel"
+        "fieldName"                                                 "TeamsFullLabel"
+        "xpos"                                                      "c-50"
+        "ypos"                                                      "120"
+        "zpos"                                                      "6"
+        "wide"                                                      "100"
+        "tall"                                                      "35"
+        "visible"                                                   "0"
+        "enabled"                                                   "1"
+        "labelText"                                                 "#TF_Teams_Full"
+        "textAlignment"                                             "center"
+        "font"                                                      "bh_Font14"
+        "fgcolor"                                                   "bh_white"
+        "centerwrap"                                                "1"
+    }
+
+    "TeamsFullLabelShadow"
+    {
+        "pin_to_sibling"                                            "TeamsFullLabel"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "ControlName"                                               "CExLabel"
+        "fieldName"                                                 "TeamsFullLabelShadow"
+        "xpos"                                                      "1"
+        "ypos"                                                      "-1"
+        "zpos"                                                      "6"
+        "wide"                                                      "100"
+        "tall"                                                      "35"
+        "visible"                                                   "0"
+        "enabled"                                                   "1"
+        "labelText"                                                 "#TF_Teams_Full"
+        "textAlignment"                                             "center"
+        "font"                                                      "bh_Font14"
+        "fgcolor"                                                   "bh_Shadow"
+        "centerwrap"                                                "1"
+    }
+
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // BLU Team
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -91,12 +155,37 @@
         "fieldName"                                                 "BlueCount"
         "xpos"                                                      "c-80"
         "ypos"                                                      "160"
-        "zpos"                                                      "3"
+        "zpos"                                                      "2"
         "wide"                                                      "80"
         "tall"                                                      "80"
         "textAlignment"                                             "center"
         "font"                                                      "bh_Font20"
         "fgcolor_override"                                          "bh_white"
+    }
+
+    "bh_BlueCountShadow"
+    {
+        "pin_to_sibling"                                            "BlueCount"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "ControlName"                                               "CExLabel"
+        "fieldName"                                                 "bh_BlueCountShadow"
+        "xpos"                                                      "-1"
+        "ypos"                                                      "-1"
+        "zpos"                                                      "1"
+        "wide"                                                      "80"
+        "tall"                                                      "80"
+        "autoResize"                                                "0"
+        "pinCorner"                                                 "0"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "labelText"                                                 "%bluecount%"
+        "textAlignment"                                             "center"
+        "dulltext"                                                  "0"
+        "brighttext"                                                "1"
+        "font"                                                      "bh_Font20"
+        "fgcolor"                                                   "bh_Shadow"
     }
 
     "bh_TeamBlue"
@@ -105,14 +194,14 @@
         "fieldName"                                                 "bh_TeamBlue"
         "xpos"                                                      "c-80"
         "ypos"                                                      "160"
-        "zpos"                                                      "3"
+        "zpos"                                                      "0"
         "wide"                                                      "80"
         "tall"                                                      "80"
         "autoResize"                                                "0"
         "pinCorner"                                                 "0"
         "visible"                                                   "1"
         "enabled"                                                   "1"
-        "fillcolor"                                                 "91 122 140 50"
+        "fillcolor"                                                 "bh_blue_tt"
         "draw_corner_width"                                         "5"
         "draw_corner_height"                                        "5"
     }
@@ -138,7 +227,7 @@
         "fieldName"                                                 "RedCount"
         "xpos"                                                      "c0"
         "ypos"                                                      "160"
-        "zpos"                                                      "3"
+        "zpos"                                                      "2"
         "wide"                                                      "80"
         "tall"                                                      "80"
         "textAlignment"                                             "center"
@@ -146,20 +235,41 @@
         "fgcolor_override"                                          "bh_white"
     }
 
-    "bh_TeamRed"
+    "bh_RedCountShadow"
+    {
+        "pin_to_sibling"                                            "RedCount"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "ControlName"                                               "CExLabel"
+        "fieldName"                                                 "bh_RedCountShadow"
+        "xpos"                                                      "-1"
+        "ypos"                                                      "-1"
+        "zpos"                                                      "1"
+        "wide"                                                      "80"
+        "tall"                                                      "80"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "labelText"                                                 "%redcount%"
+        "textAlignment"                                             "center"
+        "font"                                                      "bh_Font20"
+        "fgcolor"                                                   "bh_Shadow"
+    }
+
+    "bh_TeamRedBG"
     {
         "ControlName"                                               "ImagePanel"
-        "fieldName"                                                 "bh_TeamRed"
+        "fieldName"                                                 "bh_TeamRedBG"
         "xpos"                                                      "c0"
         "ypos"                                                      "160"
-        "zpos"                                                      "3"
+        "zpos"                                                      "0"
         "wide"                                                      "80"
         "tall"                                                      "80"
         "autoResize"                                                "0"
         "pinCorner"                                                 "0"
         "visible"                                                   "1"
         "enabled"                                                   "1"
-        "fillcolor"                                                 "189 59 59 50"
+        "fillcolor"                                                 "bh_red_tt"
         "draw_corner_width"                                         "5"
         "draw_corner_height"                                        "5"
     }
@@ -184,7 +294,7 @@
     "bh_AutoLabel"
     {
         "ControlName"                                               "CExLabel"
-        "fieldName"                                                 "AutoLabel"
+        "fieldName"                                                 "bh_AutoLabel"
         "xpos"                                                      "c0"
         "ypos"                                                      "240"
         "zpos"                                                      "2"
@@ -207,13 +317,34 @@
         "defaultfgcolor_override"                                   "bh_white"
     }
 
-    "bh_TeamAuto"
+    "bh_AutoLabelShadow"
+    {
+        "pin_to_sibling"                                            "bh_AutoLabel"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+        "xpos"                                                      "-1"
+        "ypos"                                                      "-1"
+
+        "ControlName"                                               "CExLabel"
+        "fieldName"                                                 "bh_AutoLabelShadow"
+        "zpos"                                                      "1"
+        "wide"                                                      "80"
+        "tall"                                                      "80"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "labelText"                                                 "#bh_Random"
+        "textAlignment"                                             "center"
+        "font"                                                      "bh_Font16"
+        "fgcolor"                                                   "bh_Shadow"
+    }
+
+    "bh_TeamAutoBG"
     {
         "ControlName"                                               "ImagePanel"
-        "fieldName"                                                 "bh_TeamAuto"
+        "fieldName"                                                 "bh_TeamAutoBG"
         "xpos"                                                      "c0"
         "ypos"                                                      "240"
-        "zpos"                                                      "2"
+        "zpos"                                                      "0"
         "wide"                                                      "80"
         "tall"                                                      "80"
         "autoResize"                                                "0"
@@ -268,13 +399,34 @@
         "defaultfgcolor_override"                                   "bh_white"
     }
 
-    "bh_TeamSpectator"
+    "bh_SpectateLabelShadow"
+    {
+        "pin_to_sibling"                                            "bh_SpectateLabel"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+        "xpos"                                                      "-1"
+        "ypos"                                                      "-1"
+
+        "ControlName"                                               "CExLabel"
+        "fieldName"                                                 "bh_SpectateLabelShadow"
+        "zpos"                                                      "1"
+        "wide"                                                      "80"
+        "tall"                                                      "80"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "labelText"                                                 "#bh_Spectate"
+        "textAlignment"                                             "center"
+        "font"                                                      "bh_Font16"
+        "fgcolor"                                                   "bh_Shadow"
+    }
+
+    "bh_TeamSpectatorBG"
     {
         "ControlName"                                               "ImagePanel"
-        "fieldName"                                                 "bh_TeamSpectator"
+        "fieldName"                                                 "bh_TeamSpectatorBG"
         "xpos"                                                      "c-80"
         "ypos"                                                      "240"
-        "zpos"                                                      "2"
+        "zpos"                                                      "0"
         "wide"                                                      "80"
         "tall"                                                      "80"
         "autoResize"                                                "0"
@@ -307,23 +459,5 @@
         "paintbackground"                                           "0"
         "armedfgcolor_override"                                     "bh_Theme_TextAccent"
         "defaultfgcolor_override"                                   "bh_white"
-    }
-
-    "bh_TeamCancel"
-    {
-        "ControlName"                                               "ImagePanel"
-        "fieldName"                                                 "bh_TeamCancel"
-        "xpos"                                                      "c-427"
-        "ypos"                                                      "c231"
-        "zpos"                                                      "6"
-        "wide"                                                      "f0"
-        "tall"                                                      "10"
-        "autoResize"                                                "0"
-        "pinCorner"                                                 "0"
-        "visible"                                                   "0"
-        "enabled"                                                   "0"
-        "fillcolor"                                                 "0 0 0 225"
-        "draw_corner_width"                                         "5"
-        "draw_corner_height"                                        "5"
     }
 }
