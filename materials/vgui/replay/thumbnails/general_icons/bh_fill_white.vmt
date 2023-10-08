@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-    "$baseTexture"                                                  "vgui/replay/thumbnails/team_colors/bh_fill_red"
+    "$baseTexture"                                                  "vgui/replay/thumbnails/general_icons/bh_fill_white"
     "$translucent"                                                  "1"
     "$vertexalpha"                                                  "1"
     "$vertexcolor"                                                  "1"
