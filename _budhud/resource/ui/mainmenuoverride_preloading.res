@@ -31,6 +31,137 @@
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Halloween Spell Icons
+    // These don't seem to work with preloading, unfortunately. Kinda defeats the purpose.
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    "spellbook_athletic"
+    {
+        "ControlName"                                               "ImagePanel"
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "image"                                                     "../vgui/spellbook_athletic"
+    }
+
+    "spellbook_bats"
+    {
+        "ControlName"                                               "ImagePanel"
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "image"                                                     "../vgui/spellbook_athletic"
+    }
+
+    "spellbook_blastjump"
+    {
+        "ControlName"                                               "ImagePanel"
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "image"                                                     "../vgui/spellbook_blastjump"
+    }
+
+    "spellbook_bomb"
+    {
+        "ControlName"                                               "ImagePanel"
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "image"                                                     "../vgui/spellbook_bomb"
+    }
+
+    "spellbook_boss"
+    {
+        "ControlName"                                               "ImagePanel"
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "image"                                                     "../vgui/spellbook_boss"
+    }
+
+    "spellbook_fireball"
+    {
+        "ControlName"                                               "ImagePanel"
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "image"                                                     "../vgui/spellbook_fireball"
+    }
+
+    "spellbook_lightning"
+    {
+        "ControlName"                                               "ImagePanel"
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "image"                                                     "../vgui/spellbook_lightning"
+    }
+
+    "spellbook_meteor"
+    {
+        "ControlName"                                               "ImagePanel"
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "image"                                                     "../vgui/spellbook_meteor"
+    }
+
+    "spellbook_mirv"
+    {
+        "ControlName"                                               "ImagePanel"
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "image"                                                     "../vgui/spellbook_mirv"
+    }
+
+    "spellbook_nospell"
+    {
+        "ControlName"                                               "ImagePanel"
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "image"                                                     "../vgui/spellbook_nospell"
+    }
+
+    "spellbook_overheal"
+    {
+        "ControlName"                                               "ImagePanel"
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "image"                                                     "../vgui/spellbook_overheal"
+    }
+
+    "spellbook_skeleton"
+    {
+        "ControlName"                                               "ImagePanel"
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "image"                                                     "../vgui/spellbook_skeleton"
+    }
+
+    "spellbook_stealth"
+    {
+        "ControlName"                                               "ImagePanel"
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "image"                                                     "../vgui/spellbook_stealth"
+    }
+
+    "spellbook_teleport"
+    {
+        "ControlName"                                               "ImagePanel"
+        "ypos"                                                      "r-6969"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "image"                                                     "../vgui/spellbook_teleport"
+    }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Player Destruction / Robot Destruction
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
