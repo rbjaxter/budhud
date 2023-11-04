@@ -1,8 +1,8 @@
 "UnlitGeneric"
 {
-    "$baseTexture"                                                  "vgui/replay/thumbnails/team_colors/bh_targetid_gray"
+    "$baseTexture"                                                  "vgui/replay/thumbnails/improved_icons/spellbook_fireball"
     "$translucent"                                                  "1"
-    "$vertexalpha"                                                  "0"
+    "$vertexalpha"                                                  "1"
     "$vertexcolor"                                                  "1"
     "$ignorez"                                                      "1"
 }

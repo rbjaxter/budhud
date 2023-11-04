@@ -17,7 +17,7 @@
         "xpos"                                                      "0"
         "ypos"                                                      "34"
         "wide"                                                      "40"
-        "tall"                                                      "40"
+        "tall"                                                      "18"
     }
 
     "TargetNameLabel"
@@ -114,9 +114,9 @@
         "draw_corner_width"                                         "0"
         "draw_corner_height"                                        "0"
 
-        "teambg_1"                                                  "replay/thumbnails/team_colors/bh_targetid_gray"
-        "teambg_2"                                                  "replay/thumbnails/team_colors/bh_targetid_red"
-        "teambg_3"                                                  "replay/thumbnails/team_colors/bh_targetid_blue"
+        "teambg_1"                                                  "replay/thumbnails/general_icons/bh_targetid_gray"
+        "teambg_2"                                                  "replay/thumbnails/general_icons/bh_targetid_red"
+        "teambg_3"                                                  "replay/thumbnails/general_icons/bh_targetid_blue"
     }
 
     "TargetIDBG_Spec_Blue"
@@ -134,7 +134,7 @@
         "draw_corner_width"                                         "0"
         "draw_corner_height"                                        "0"
 
-        "image"                                                     "replay/thumbnails/team_colors/bh_targetid_blue"
+        "image"                                                     "replay/thumbnails/general_icons/bh_targetid_blue"
     }
 
     "TargetIDBG_Spec_Red"
@@ -152,7 +152,7 @@
         "draw_corner_width"                                         "0"
         "draw_corner_height"                                        "0"
 
-        "image"                                                     "replay/thumbnails/team_colors/bh_targetid_red"
+        "image"                                                     "replay/thumbnails/general_icons/bh_targetid_red"
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////

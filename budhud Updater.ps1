@@ -82,10 +82,10 @@ $max_cmd_len = 8192
 # Shared Variables
 ##################
 # List of Translated Languages
-$translatedLanguages = "brazilian", "french", "german", "english", "italian", "japanese", "norwegian", "romanian", "russian", "schinese", "spanish", "tchinese", "turkish"
+$translatedLanguages = "brazilian", "french", "german", "italian", "japanese", "norwegian", "romanian", "russian", "schinese", "spanish", "tchinese", "turkish"
 
 # List of Untranslated Languages
-$untranslatedLanguages = "bulgarian", "czech", "danish", "dutch", "finnish", "greek", "hungarian", "korean", "polish", "portuguese", "swedish", "thai", "ukrainian"
+$untranslatedLanguages = "bulgarian", "czech", "danish", "dutch", "english", "finnish", "greek", "hungarian", "korean", "polish", "portuguese", "swedish", "thai", "ukrainian"
 
 # Discord Link
 $discord = "https://discord.gg/TkxNKU2"
@@ -112,63 +112,6 @@ function Shared_EndTimer($startTime) {
 
     Write-Host -ForegroundColor "White" "Time Elapsed: $elapsedTimeString"
     Write-Host ""
-}
-
-###################
-# Extract_VPK_Files
-###################
-# use vpk.exe to extract file(s) to the current directory
-# note that vpk.exe preserves pathnames from the VPK, but will not create directories.
-function Extract_VPK_Files {
-    param (
-        [string][Parameter(Mandatory = $true, Position = 0)]$VpkPath,
-        [string[]][Parameter(Position = 1, ValueFromRemainingArguments)]$FileNames
-    )
-    $activity = "Extracting from " + (Split-Path $VpkPath -Leaf)
-    # create all directories beforehand so vpk doesn't fail
-    $i = 0
-    $dirs = $FileNames | Split-Path | Sort-Object | Get-Unique
-    foreach ($dir in $dirs) {
-        New-Item -ItemType Directory -Force -Path $dir | Out-Null
-        $i += 1
-        Write-Progress -Activity $activity -Status "Creating $dir" -PercentComplete (100 * ($i / $dirs.Length))
-    }
-
-    # since each filename must be specified on the command line, it's easy to go above the command line length limit.
-    # this loop will run infinitely if a single filename would go over the limit. let's hope that doesn't happen.
-    $i = 0
-    $batch = [System.Collections.ArrayList]::new()
-    Write-Progress -Activity $activity -Status "Extracting" -PercentComplete 0
-    while ($i -lt $FileNames.Count) {
-        $batch.Clear()
-        $len_left = $max_cmd_len - $vpk.Length - $VpkPath.Length - 3  # this 3 includes the x and spaces
-        while (($i -lt $FileNames.Count) -and ($FileNames[$i].Length -le $len_left)) {
-            $batch.Add($FileNames[$i]) | Out-Null
-            $len_left -= $FileNames[$i].Length
-            $len_left -= 3  # each filename requires a space and may need quotation marks
-            $i += 1
-        }
-        & $vpk x $VpkPath @batch >$null
-        Write-Progress -Activity $activity -Status "Extracting" -PercentComplete (100 * ($i / ($FileNames.Length)))
-    }
-    Write-Progress -Activity $activity -Completed
-}
-
-#######################
-# Extract_VPK_Directory
-#######################
-# use vpk.exe to extract all files in a given directory to the current directory
-# vpk requires you to specify every file name you want extracted, so we have to do filtering ourselves.
-
-function Extract_VPK_Directory {
-    param (
-        [string]$VpkPath,
-        [string]$Directory
-    )
-    # vpk.exe uses forward slash, like all right-thinking programs do.
-    $pattern = "^" + $Directory -replace "\\", "/"
-    $files = & $vpk l $VpkPath | Select-String $pattern
-    Extract_VPK_Files $VpkPath @files
 }
 
 ##################
@@ -384,6 +327,63 @@ function Check_HUDFiles {
     }
 }
 
+###################
+# Extract_VPK_Files
+###################
+# use vpk.exe to extract file(s) to the current directory
+# note that vpk.exe preserves pathnames from the VPK, but will not create directories.
+function Extract_VPK_Files {
+    param (
+        [string][Parameter(Mandatory = $true, Position = 0)]$VpkPath,
+        [string[]][Parameter(Position = 1, ValueFromRemainingArguments)]$FileNames
+    )
+    $activity = "Extracting from " + (Split-Path $VpkPath -Leaf)
+    # create all directories beforehand so vpk doesn't fail
+    $i = 0
+    $dirs = $FileNames | Split-Path | Sort-Object | Get-Unique
+    foreach ($dir in $dirs) {
+        New-Item -ItemType Directory -Force -Path $dir | Out-Null
+        $i += 1
+        Write-Progress -Activity $activity -Status "Creating $dir" -PercentComplete (100 * ($i / $dirs.Length))
+    }
+
+    # since each filename must be specified on the command line, it's easy to go above the command line length limit.
+    # this loop will run infinitely if a single filename would go over the limit. let's hope that doesn't happen.
+    $i = 0
+    $batch = [System.Collections.ArrayList]::new()
+    Write-Progress -Activity $activity -Status "Extracting" -PercentComplete 0
+    while ($i -lt $FileNames.Count) {
+        $batch.Clear()
+        $len_left = $max_cmd_len - $vpk.Length - $VpkPath.Length - 3  # this 3 includes the x and spaces
+        while (($i -lt $FileNames.Count) -and ($FileNames[$i].Length -le $len_left)) {
+            $batch.Add($FileNames[$i]) | Out-Null
+            $len_left -= $FileNames[$i].Length
+            $len_left -= 3  # each filename requires a space and may need quotation marks
+            $i += 1
+        }
+        & $vpk x $VpkPath @batch >$null
+        Write-Progress -Activity $activity -Status "Extracting" -PercentComplete (100 * ($i / ($FileNames.Length)))
+    }
+    Write-Progress -Activity $activity -Completed
+}
+
+#######################
+# Extract_VPK_Directory
+#######################
+# use vpk.exe to extract all files in a given directory to the current directory
+# vpk requires you to specify every file name you want extracted, so we have to do filtering ourselves.
+
+function Extract_VPK_Directory {
+    param (
+        [string]$VpkPath,
+        [string]$Directory
+    )
+    # vpk.exe uses forward slash, like all right-thinking programs do.
+    $pattern = "^" + $Directory -replace "\\", "/"
+    $files = & $vpk l $VpkPath | Select-String $pattern
+    Extract_VPK_Files $VpkPath @files
+}
+
 ###########################
 # Run_InstallTroubleshooter
 ###########################
@@ -441,25 +441,29 @@ function Run_ExtractDefaultHUD {
     Write-Host -foregroundcolor "White" "Beginning update."
     Write-Host ""
 
-    # Update all non-translated language files to chat_default.txt to prevent users of those languages from seeing broken language tokens
-    Write-Host -ForegroundColor "White" -NoNewLine "Updating language files..."
-
-    # Loop through the language codes and copy chat_default.txt to the corresponding file
-    foreach ($code in $untranslatedLanguages) {
-        Copy-Item "$PSScriptRoot/resource/chat_default.txt" -Destination "$PSScriptRoot/resource/chat_$code.txt"
-    }
-
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
     # Delete old folder
     Write-Host -foregroundcolor "White" -NoNewLine "Deleting _tf2hud folder..."
-    Remove-Item $PSScriptRoot/_tf2hud -ErrorAction SilentlyContinue -recurse
+    Remove-Item $PSScriptRoot\_tf2hud -ErrorAction SilentlyContinue -recurse
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
     # Make new folders
     Write-Host -foregroundcolor "White" -NoNewLine "Making new _tf2hud folders..."
-    New-Item -Path $PSScriptRoot/_tf2hud/resource -Name "ui" -ItemType "Directory" > $null
-    New-Item -Path $PSScriptRoot/_tf2hud -Name "scripts" -ItemType "Directory" > $null
+    New-Item -Path $PSScriptRoot\_tf2hud\resource -Name "ui" -ItemType "Directory" > $null
+    New-Item -Path $PSScriptRoot\_tf2hud -Name "scripts" -ItemType "Directory" > $null
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
+
+    # Copy chat_default.txt to all chat files in untranslatedLanguages
+    Write-Host -foregroundcolor "White" -NoNewLine "Copying chat_default.txt to untranslated languages..."
+
+    $sourceChatFile = Join-Path -Path $PSScriptRoot -ChildPath "resource\chat_default.txt"
+
+    foreach ($language in $untranslatedLanguages) {
+        $destinationChatFile = Join-Path -Path $PSScriptRoot -ChildPath "resource\chat_$language.txt"
+        Copy-Item -Path $sourceChatFile -Destination $destinationChatFile -Force
+    }
+
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
     $misc_dir = Resolve-Path "../../tf2_misc_dir.vpk"
@@ -482,7 +486,7 @@ function Run_ExtractDefaultHUD {
     # Remove various modifiers (OSX, X360, _minmode, _lodef, _hidef, and if_ lines.)
     Write-Host -ForegroundColor "White" -NoNewLine "Removing various conditional modifiers..."
 
-    $files = Get-ChildItem -File -Recurse -Path _tf2hud
+    $files = Get-ChildItem -File -Recurse -Path $PSScriptRoot\_tf2hud
     $totalFiles = $files.Count
     $currentFile = 0
     $activity = "Removing Conditional Modifiers"
@@ -509,6 +513,7 @@ function Run_ExtractDefaultHUD {
     Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
     Shared_EndTimer $startTime
 }
+
 
 ######################
 # Run_UpdateFromGitHub
@@ -599,35 +604,57 @@ function Run_SetHUDLanguage {
     Write-Host -ForegroundColor White -BackgroundColor Blue "================"
     Write-Host ""
 
-    # Display a list of available languages with colors
-    Write-Host "Select a language (or enter 0 to cancel):"
+    # Read the currently set language from chat_english.txt
+    $currentLanguage = ""
+    $chatEnglishPath = Join-Path -Path $budhud -ChildPath "resource\chat_english.txt"
+    if (Test-Path -Path $chatEnglishPath) {
+        $currentLanguage = (Get-Content -Path $chatEnglishPath | Where-Object { $_ -match "^lang " }) -replace "lang ", ""
+    }
 
-    $languageCode = 1
+    # Display a list of available languages as a numbered list
+    Write-Host "Available Languages:" -ForegroundColor Cyan
     for ($i = 0; $i -lt $translatedLanguages.Count; $i++) {
+        $languageCode = $i + 1
         $languageName = $translatedLanguages[$i]
-        Write-Host "$($languageCode): $($languageName)" -ForegroundColor Cyan
-        $languageCode++
+        $languageText = "{0}. {1}" -f $languageCode, $languageName
+        if ($languageName -eq $currentLanguage) {
+            $languageText += " (selected)"
+        }
+        Write-Host $languageText
     }
 
     # Prompt the user for language selection
     Write-Host ""
-    $selectedLanguageCode = Read-Host "Enter the number of the language you want to use"
+    $selectedLanguageCode = Read-Host "Enter the number of the language you want to use (e.g., 1, 2, Q to cancel)"
 
-    if ($selectedLanguageCode -eq "0") {
+    if ($selectedLanguageCode -eq "Q") {
         Write-Host "Language selection canceled." -ForegroundColor Yellow
         return # Exit the function if canceled
     }
 
     # Check if the entered number corresponds to a language
-    $selectedLanguageIndex = [int]$selectedLanguageCode - 1
+    if ($selectedLanguageCode -match '^\d+$') {
+        $selectedLanguageIndex = [int]$selectedLanguageCode - 1
 
-    if ($selectedLanguageIndex -ge 0 -and $selectedLanguageIndex -lt $translatedLanguages.Count) {
-        $selectedLanguage = $translatedLanguages[$selectedLanguageIndex]
-        Write-Host "Selected Language: $selectedLanguage" -ForegroundColor Green
-        # You can perform further actions here based on the selected language.
+        if ($selectedLanguageIndex -ge 0 -and $selectedLanguageIndex -lt $translatedLanguages.Count) {
+            $selectedLanguage = $translatedLanguages[$selectedLanguageIndex]
+            Write-Host "Selected Language: $selectedLanguage" -ForegroundColor Green
+
+            # Update the selected language in chat_english.txt
+            (Get-Content -Path $chatEnglishPath) | ForEach-Object {
+                if ($_ -match "^lang ") {
+                    $_ -replace "lang .*$", "lang $selectedLanguage"
+                } else {
+                    $_
+                }
+            } | Set-Content -Path $chatEnglishPath
+        }
+        else {
+            Write-Host "Invalid selection. Please choose a valid number." -ForegroundColor Red
+        }
     }
     else {
-        Write-Host "Invalid selection. Please choose a valid number." -ForegroundColor Red
+        Write-Host "Invalid input. Please enter a valid number." -ForegroundColor Red
     }
 }
 

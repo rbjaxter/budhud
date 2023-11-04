@@ -36,35 +36,38 @@ event HitMarker
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // Remove animations
 ////////////////////////////////////////////////////////////////////////////////////////////////////
+// Freezecam screenshot reminder
 event HudSnapShotReminderIn
 {
 }
 
-event CompetitiveGame_LowerChatWindow    // Casual/Comp Chat Positioning
+// Prevent casual/comp chat positioning from changing
+event CompetitiveGame_LowerChatWindow
 {
 }
 
-event CompetitiveGame_RestoreChatWindow    // Casual/Comp Chat Positioning
+event CompetitiveGame_RestoreChatWindow
 {
 }
 
-event HudTournament_MoveChatWindow    // Casual/Comp Chat Positioning
+event HudTournament_MoveChatWindow
 {
 }
 
-event HudSpyDisguiseChanged    // Disable spy disguise animation
+// Disable spy disguise outline animation
+event HudSpyDisguiseChanged
 {
 }
 
-event HudSpyDisguiseHide    // Disable spy disguise animation
+event HudSpyDisguiseHide
 {
 }
 
-event HudSpyDisguiseFadeIn    // Disable spy disguise animation
+event HudSpyDisguiseFadeIn
 {
 }
 
-event HudSpyDisguiseFadeOut    // Disable spy disguise animation
+event HudSpyDisguiseFade
 {
 }
 
@@ -74,7 +77,6 @@ event HudSpyDisguiseFadeOut    // Disable spy disguise animation
 // The rest are default lines, but they must remain in this file because removing them doesn't
 // behave like #base would, and actually deletes them from the animation
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-
 // Used to place timer when first joining and game hasn't started yet
 event HudTournament_ShowTimerCompetitive
 {

@@ -1,5 +1,6 @@
     #base    "../../#users/custom/resource/ui/healthiconpanel.res"
-    #base    "../../#customization/_enabled/bh_targetid_healthcross3.res"
+    #base    "../../#customization/_enabled/bh_targetid_depleting/bh_targetid_depleting_3-of-3.res"
+    #base    "../../#customization/_enabled/bh_targetid_healthcross/bh_targetid_healthcross_3-of-3.res"
     #base    "../../_stream/resource/ui/healthiconpanel.res"
     #base    "../../_budhud/resource/ui/healthiconpanel.res"
     #base    "../../_tf2hud/resource/ui/healthiconpanel.res"

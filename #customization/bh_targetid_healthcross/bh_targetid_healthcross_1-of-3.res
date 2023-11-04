@@ -13,7 +13,6 @@
         "fieldName"                                                 "bh_TargetIDHealthPin"
         "xpos"                                                      "0"
         "ypos"                                                      "2"
-        "zpos"                                                      "0"
         "wide"                                                      "100"
         "tall"                                                      "0"
         "visible"                                                   "1"
@@ -25,7 +24,6 @@
     {
         "xpos"                                                      "4"
         "ypos"                                                      "4"
-        "zpos"                                                      "2"
         "wide"                                                      "12"
         "tall"                                                      "12"
         "visible"                                                   "1"
@@ -36,7 +34,6 @@
     {
         "xpos"                                                      "3"
         "ypos"                                                      "3"
-        "zpos"                                                      "0"
         "wide"                                                      "14"
         "tall"                                                      "14"
         "visible"                                                   "1"
@@ -60,37 +57,21 @@
 
         "ControlName"                                               "Label"
         "fieldName"                                                 "PlayerStatusHealthValue"
-        "xpos"                                                      "-15"
+        "xpos"                                                      "-18"
         "ypos"                                                      "1"
-        "zpos"                                                      "5"
-        "wide"                                                      "40"
-        "tall"                                                      "17"
-        "visible"                                                   "1"
-        "enabled"                                                   "1"
-        "labeltext"                                                 "%health%"
-        "textAlignment"                                             "center"
-        "fgcolor_override"                                          "bh_Health_Main"
-        "font"                                                      "bh_Font20"
     }
 
     "PlayerStatusHealthValueShadow"
     {
-        "pin_to_sibling"                                            "bh_TargetIDHealthPin"
+        "pin_to_sibling"                                            "PlayerStatusHealthValue"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "Label"
         "fieldName"                                                 "PlayerStatusHealthValueShadow"
-        "xpos"                                                      "-15"
-        "ypos"                                                      "0"
-        "zpos"                                                      "5"
+        "xpos"                                                      "-1"
+        "ypos"                                                      "-1"
         "wide"                                                      "40"
-        "tall"                                                      "17"
-        "visible"                                                   "1"
-        "enabled"                                                   "1"
-        "labeltext"                                                 "%health%"
-        "textAlignment"                                             "center"
-        "fgcolor_override"                                          "bh_Shadow"
-        "font"                                                      "bh_Font20"
+        "tall"                                                      "18"
     }
 }
