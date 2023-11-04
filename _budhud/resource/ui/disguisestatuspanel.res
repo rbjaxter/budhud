@@ -19,7 +19,6 @@
         "pin_to_sibling"                                            "bh_DisguisePin"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
-
         "xpos"                                                      "0"
         "ypos"                                                      "-18"
         "zpos"                                                      "-1"
@@ -36,7 +35,6 @@
         "pin_to_sibling"                                            "bh_DisguisePin"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
-
         "textalignment"                                             "west"
         "xpos"                                                      "-44"
         "ypos"                                                      "4"
@@ -50,7 +48,6 @@
         "pin_to_sibling"                                            "DisguiseNameLabel"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
-
         "ControlName"                                               "Label"
         "fieldName"                                                 "bh_DisguiseNameLabelShadow"
         "font"                                                      "bh_Font12"
@@ -71,7 +68,6 @@
         "pin_to_sibling"                                            "bh_DisguisePin"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
-
         "textalignment"                                             "west"
         "xpos"                                                      "-44"
         "ypos"                                                      "-7"
@@ -85,7 +81,6 @@
         "pin_to_sibling"                                            "WeaponNameLabel"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
-
         "ControlName"                                               "Label"
         "fieldName"                                                 "bh_WeaponNameLabelShadow"
         "font"                                                      "bh_Font12"
@@ -106,7 +101,6 @@
         "pin_to_sibling"                                            "bh_DisguisePin"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
-
         "xpos"                                                      "0"
         "ypos"                                                      "0"
         "wide"                                                      "40"

@@ -1707,192 +1707,152 @@
 				{
 					"0"
 					{
-						"item"		"Summer 2023 Cosmetic Key"
+						"item"		"Halloween 2023 Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Summer 2023 Cosmetic Case"
+						"item"		"Halloween 2023 Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Summer 2023 War Paint Key"
+						"item"		"Taunt: The Crypt Creeper"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Summer 2023 War Paint Case"
-						"show_market"	"1"
+						"item"		"Taunt: Roar O'War"
+						"show_market"	"0"
 					}
 					"4"
 					{
-						"item"		"Taunt: Star-Spangled Strategy"
+						"item"		"Taunt: Neck Snap"
 						"show_market"	"0"
 					}
 					"5"
 					{
-						"item"		"Taunt: Killer Joke"
+						"item"		"Taunt: Borrowed Bones"
 						"show_market"	"0"
 					}
 					"6"
 					{
-						"item"		"Taunt: The Head Doctor"
+						"item"		"Map Token Perks"
 						"show_market"	"0"
 					}
 					"7"
 					{
-						"item"		"Taunt: Tuefort Tango"
+						"item"		"Map Token Slime"
 						"show_market"	"0"
 					}
 					"8"
 					{
-						"item"		"Taunt: The Road Rager"
+						"item"		"Map Token Lava Pit"
 						"show_market"	"0"
 					}
 					"9"
 					{
-						"item"		"Taunt: The Killer Signature"
+						"item"		"Map Token Mannsylvania"
 						"show_market"	"0"
 					}
 					"10"
 					{
-						"item"		"Map Token Sharkbay"
+						"item"		"Map Token Sandcastle"
 						"show_market"	"0"
 					}
 					"11"
 					{
-						"item"		"Map Token Rotunda"
+						"item"		"Map Token Spineyard"
 						"show_market"	"0"
 					}
 					"12"
 					{
-						"item"		"Map Token Phoenix"
+						"item"		"Map Token Corruption"
 						"show_market"	"0"
 					}
 					"13"
 					{
-						"item"		"Map Token Cashworks"
+						"item"		"Map Token Murky"
 						"show_market"	"0"
 					}
 					"14"
 					{
-						"item"		"Map Token Venice"
+						"item"		"Map Token Atoll"
 						"show_market"	"0"
 					}
 					"15"
 					{
-						"item"		"Map Token Reckoner"
+						"item"		"Map Token Woods"
 						"show_market"	"0"
 					}
 					"16"
 					{
-						"item"		"Map Token Sulfur"
+						"item"		"Map Token Sanitarium"
 						"show_market"	"0"
 					}
 					"17"
 					{
-						"item"		"Map Token Hardwood"
+						"item"		"Map Token Devastation"
 						"show_market"	"0"
 					}
 					"18"
 					{
-						"item"		"Map Token Pelican Peak"
+						"item"		"Strange Filter: Perks (Community)"
 						"show_market"	"0"
 					}
 					"19"
 					{
-						"item"		"Map Token Selbyen"
+						"item"		"Strange Filter: Slime (Community)"
 						"show_market"	"0"
 					}
 					"20"
 					{
-						"item"		"Map Token VSH Tiny Rock"
+						"item"		"Strange Filter: Lava Pit (Community)"
 						"show_market"	"0"
 					}
 					"21"
 					{
-						"item"		"Map Token VSH Distillery"
+						"item"		"Strange Filter: Mannsylvania (Community)"
 						"show_market"	"0"
 					}
 					"22"
 					{
-						"item"		"Map Token VSH Skirmish"
+						"item"		"Strange Filter: Sandcastle (Community)"
 						"show_market"	"0"
 					}
 					"23"
 					{
-						"item"		"Map Token VSH Nucleus"
+						"item"		"Strange Filter: Spineyard (Community)"
 						"show_market"	"0"
 					}
 					"24"
 					{
-						"item"		"Strange Filter: Sharkbay (Community)"
+						"item"		"Strange Filter: Corruption (Community)"
 						"show_market"	"0"
 					}
 					"25"
 					{
-						"item"		"Strange Filter: Rotunda (Community)"
+						"item"		"Strange Filter: Murky (Community)"
 						"show_market"	"0"
 					}
 					"26"
 					{
-						"item"		"Strange Filter: Phoenix (Community)"
+						"item"		"Strange Filter: Atoll (Community)"
 						"show_market"	"0"
 					}
 					"27"
 					{
-						"item"		"Strange Filter: Cashworks (Community)"
+						"item"		"Strange Filter: Woods (Community)"
 						"show_market"	"0"
 					}
 					"28"
 					{
-						"item"		"Strange Filter: Venice (Community)"
+						"item"		"Strange Filter: Sanitarium (Community)"
 						"show_market"	"0"
 					}
 					"29"
 					{
-						"item"		"Strange Filter: Reckoner (Community)"
-						"show_market"	"0"
-					}
-					"30"
-					{
-						"item"		"Strange Filter: Sulfur (Community)"
-						"show_market"	"0"
-					}
-					"31"
-					{
-						"item"		"Strange Filter: Hardwood (Community)"
-						"show_market"	"0"
-					}
-					"32"
-					{
-						"item"		"Strange Filter: Pelican Peak (Community)"
-						"show_market"	"0"
-					}
-					"33"
-					{
-						"item"		"Strange Filter: Selbyen (Community)"
-						"show_market"	"0"
-					}
-					"34"
-					{
-						"item"		"Strange Filter: VSH Tiny Rock (Community)"
-						"show_market"	"0"
-					}
-					"35"
-					{
-						"item"		"Strange Filter: VSH Distillery (Community)"
-						"show_market"	"0"
-					}
-					"36"
-					{
-						"item"		"Strange Filter: VSH Skirmish (Community)"
-						"show_market"	"0"
-					}
-					"37"
-					{
-						"item"		"Strange Filter: VSH Nucleus (Community)"
+						"item"		"Strange Filter: Devastation (Community)"
 						"show_market"	"0"
 					}
 				}
