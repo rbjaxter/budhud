@@ -73,8 +73,8 @@
         "wide"                                                      "100"
         "tall"                                                      "26"
         "font"                                                      "bh_Font12"
-        "labeltext"                                                 "#bh_Back"
-        "command"                                                   "cancel"
+        "labeltext"                                                 "#bh_Back"  // quick key doesnt work
+        "command"                                                   "cancel"    // cant use back, cancelmenu, close
 
         "defaultFgColor_override"                                   "bh_Theme_TextSecondary"
         "armedFgColor_override"                                     "bh_Theme_TextAccent"

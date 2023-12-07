@@ -28,20 +28,54 @@
         "enabled"                                                   "0"
     }
 
+    "TeamNavPanel"
+    {
+        "ypos"                                                      "r91" // this number is r150 subtracted by the difference from consume_mode ypos and fixed_item ypos. don't ask why
+
+        "consume_mode"
+        {
+            "ypos"                                                  "r150"
+        }
+    }
+
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // This controls the war paint preview item/seed/view on market UI
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     "PaintkitPreviewContainer"
     {
+        //"ypos"                                                      "r130"
+        //"tall"                                                      "2"
         "border"                                                    "bh_blank"
         "bgcolor_override"                                          "bh_Theme_BG30"
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////
-        // consume_mode is specifically for the UI that appears when you're redeeming a war paint
+        // The below entries are specifically for the UI that appears when you're redeeming a war paint
+        // fyi, hard material reloads while messing with these likes to crash tf2 lol (usually after the
+        // third reload)
+        // also yeah i don't know why the fixed_ ones have to use different values than consume_mode
+        // seems like the warpaint consume panel gets pushed down overall for some reason. 2 layz
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         "consume_mode"
         {
+            "ypos"                                                  "r130"
+            "tall"                                                  "60"
+            "border"                                                "bh_blank"
+            "bgcolor_override"                                      "bh_Theme_BG30"
+        }
+
+        "fixed_item"
+        {
+            "ypos"                                                  "r71"
+            "tall"                                                  "60"
+            "border"                                                "bh_blank"
+            "bgcolor_override"                                      "bh_Theme_BG30"
+        }
+
+        "fixed_paintkit"
+        {
+            "ypos"                                                  "r71"
+            "tall"                                                  "60"
             "border"                                                "bh_blank"
             "bgcolor_override"                                      "bh_Theme_BG30"
         }
@@ -80,9 +114,17 @@
         }
     }
 
+    "ItemName"
+    {
+        "consume_mode"
+        {
+            "ypos"                                                  "0"
+        }
+    }
+
     "ModelInspectionPanel"
     {
-        "ypos"                                                      "25"
+        "ypos"                                                      "90"
         "wide"                                                      "f0"
         "tall"                                                      "225"
 
@@ -102,6 +144,56 @@
             "angles_x"                                              "0"
             "angles_y"                                              "115"       // 180 starts item facing at user, intimidatingly
             "angles_z"                                              "0"
+        }
+
+        "consume_mode"
+        {
+            "ypos"                                                  "50"
+        }
+    }
+
+    "bh_Background"
+    {
+        "ControlName"                                               "ImagePanel"
+        "fieldName"                                                 "bh_Background"
+        "xpos"                                                      "0"
+        "ypos"                                                      "0"
+        "zpos"                                                      "0"
+        "wide"                                                      "f0"
+        "tall"                                                      "f0"
+        "autoResize"                                                "0"
+        "pinCorner"                                                 "0"
+        "labeltext"                                                 ""
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "fillcolor"                                                 "bh_Theme_BG20"
+        "image"                                                     ""
+        "paintbackgroundtype"                                       "0"
+    }
+
+    "bh_BackgroundFooter"
+    {
+        "ControlName"                                               "ImagePanel"
+        "fieldName"                                                 "bh_BackgroundFooter"
+        "xpos"                                                      "0"
+        "ypos"                                                      "r150"
+        "zpos"                                                      "1"
+        "wide"                                                      "f0"
+        "tall"                                                      "61"
+        "autoResize"                                                "0"
+        "pinCorner"                                                 "0"
+        "labeltext"                                                 ""
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "fillcolor"                                                 "bh_Theme_BG20"
+        "border"                                                    "bh_b_N"
+        "image"                                                     ""
+        "paintbackgroundtype"                                       "0"
+
+        "consume_mode"
+        {
+            "visible"                                               "1"
+            "enabled"                                               "1"
         }
     }
 }
