@@ -3513,5 +3513,35 @@
 			"width"		"128"
 			"height"	"32"
 		}
+
+		"resurfacer"
+		{
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
+			"x"		"384"
+			"y"		"896"
+			"width"		"128"
+			"height"	"32"
+		}
+
+		"krampus_melee"
+		{
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
+			"x"		"384"
+			"y"		"928"
+			"width"		"128"
+			"height"	"32"
+		}
+
+		"krampus_ranged"
+		{
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
+			"x"		"384"
+			"y"		"960"
+			"width"		"128"
+			"height"	"32"
+		}
 	}
 }

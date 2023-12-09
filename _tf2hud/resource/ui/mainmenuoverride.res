@@ -218,7 +218,7 @@
 		}
 		$_disabled_christmas
 		{
-			"image"		"../console/background_xmas2020_widescreen"
+			"image"		"../console/background_xmas2023_widescreen"
 		}		
 	}
 					
@@ -1707,152 +1707,127 @@
 				{
 					"0"
 					{
-						"item"		"Halloween 2023 Key"
+						"item"		"Winter 2023 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Halloween 2023 Case"
+						"item"		"Winter 2023 Cosmetic Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Taunt: The Crypt Creeper"
+						"item"		"Taunt: Cheers!"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Taunt: Roar O'War"
+						"item"		"Taunt: Mourning Mercs"
 						"show_market"	"0"
 					}
 					"4"
 					{
-						"item"		"Taunt: Neck Snap"
+						"item"		"Taunt: Foul Play"
 						"show_market"	"0"
 					}
 					"5"
 					{
-						"item"		"Taunt: Borrowed Bones"
+						"item"		"Map Token Snowtower"
 						"show_market"	"0"
 					}
 					"6"
 					{
-						"item"		"Map Token Perks"
+						"item"		"Map Token Krampus"
 						"show_market"	"0"
 					}
 					"7"
 					{
-						"item"		"Map Token Slime"
+						"item"		"Map Token Haarp"
 						"show_market"	"0"
 					}
 					"8"
 					{
-						"item"		"Map Token Lava Pit"
+						"item"		"Map Token Brew"
 						"show_market"	"0"
 					}
 					"9"
 					{
-						"item"		"Map Token Mannsylvania"
+						"item"		"Map Token Hacksaw"
 						"show_market"	"0"
 					}
 					"10"
 					{
-						"item"		"Map Token Sandcastle"
+						"item"		"Map Token Turbine Event"
 						"show_market"	"0"
 					}
 					"11"
 					{
-						"item"		"Map Token Spineyard"
+						"item"		"Map Token Carrier"
 						"show_market"	"0"
 					}
 					"12"
 					{
-						"item"		"Map Token Corruption"
+						"item"		"Map Token Galleria"
 						"show_market"	"0"
 					}
 					"13"
 					{
-						"item"		"Map Token Murky"
+						"item"		"Map Token Emerge"
 						"show_market"	"0"
 					}
 					"14"
 					{
-						"item"		"Map Token Atoll"
+						"item"		"Map Token Camber"
 						"show_market"	"0"
 					}
 					"15"
 					{
-						"item"		"Map Token Woods"
+						"item"		"Strange Filter: Snowtower (Community)"
 						"show_market"	"0"
 					}
 					"16"
 					{
-						"item"		"Map Token Sanitarium"
+						"item"		"Strange Filter: Krampus (Community)"
 						"show_market"	"0"
 					}
 					"17"
 					{
-						"item"		"Map Token Devastation"
+						"item"		"Strange Filter: Haarp (Community)"
 						"show_market"	"0"
 					}
 					"18"
 					{
-						"item"		"Strange Filter: Perks (Community)"
+						"item"		"Strange Filter: Brew (Community)"
 						"show_market"	"0"
 					}
 					"19"
 					{
-						"item"		"Strange Filter: Slime (Community)"
+						"item"		"Strange Filter: Hacksaw (Community)"
 						"show_market"	"0"
 					}
 					"20"
 					{
-						"item"		"Strange Filter: Lava Pit (Community)"
+						"item"		"Strange Filter: Turbine Event (Community)"
 						"show_market"	"0"
 					}
 					"21"
 					{
-						"item"		"Strange Filter: Mannsylvania (Community)"
+						"item"		"Strange Filter: Carrier (Community)"
 						"show_market"	"0"
 					}
 					"22"
 					{
-						"item"		"Strange Filter: Sandcastle (Community)"
+						"item"		"Strange Filter: Galleria (Community)"
 						"show_market"	"0"
 					}
 					"23"
 					{
-						"item"		"Strange Filter: Spineyard (Community)"
+						"item"		"Strange Filter: Emerge (Community)"
 						"show_market"	"0"
 					}
 					"24"
 					{
-						"item"		"Strange Filter: Corruption (Community)"
-						"show_market"	"0"
-					}
-					"25"
-					{
-						"item"		"Strange Filter: Murky (Community)"
-						"show_market"	"0"
-					}
-					"26"
-					{
-						"item"		"Strange Filter: Atoll (Community)"
-						"show_market"	"0"
-					}
-					"27"
-					{
-						"item"		"Strange Filter: Woods (Community)"
-						"show_market"	"0"
-					}
-					"28"
-					{
-						"item"		"Strange Filter: Sanitarium (Community)"
-						"show_market"	"0"
-					}
-					"29"
-					{
-						"item"		"Strange Filter: Devastation (Community)"
+						"item"		"Strange Filter: Camber (Community)"
 						"show_market"	"0"
 					}
 				}
