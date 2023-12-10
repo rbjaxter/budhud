@@ -1,14 +1,5 @@
-"chapters"
-{
-    1   "background_upward"
-    2   "background_upward"
-    3   "background_upward"
-    4   "background_upward"
-}
-"BackgroundMaps"
-{
-    1   "background_upward"
-    2   "background_upward"
-    3   "background_upward"
-    4   "background_upward"
-}
+    #base   "../#users/custom/scripts/chapterbackgrounds.txt"
+    #base   "../#customization/_enabled/bh_menu_defaultbackground/chapterbackgrounds.txt"
+    #base   "../_budhud/scripts/chapterbackgrounds.txt"
+    #base   "../_stream/scripts/chapterbackgrounds.txt"
+    #base   "../_tf2hud/scripts/chapterbackgrounds.txt"

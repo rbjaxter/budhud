@@ -14,6 +14,7 @@
     #base    "../../#customization/_enabled/bh_menu_hidefriends.res"
     #base    "../../#customization/_enabled/bh_menu_hidenews.res"
     #base    "../../#customization/_enabled/bh_menu_hidegif.res"
+    #base    "../../#customization/_enabled/bh_menu_defaultbackground/mainmenuoverride.res"
     #base    "../../#customization/_enabled/bh_feeling_spooky.res"
     #base    "../../#customization/_enabled/bh_feeling_festive.res"
     #base    "../../#users/zenith/resource/ui/mainmenuoverride.res"
