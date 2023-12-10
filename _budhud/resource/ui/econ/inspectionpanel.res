@@ -18,7 +18,6 @@
 
         "text_ypos"                                                 "5"
         "text_forcesize"                                            "4"
-
     }
 
     "CloseButton"
@@ -30,11 +29,11 @@
 
     "TeamNavPanel"
     {
-        "ypos"                                                      "r91" // this number is r150 subtracted by the difference from consume_mode ypos and fixed_item ypos. don't ask why
+        "ypos"                                                      "25"
 
         "consume_mode"
         {
-            "ypos"                                                  "r150"
+            "ypos"                                                  "25"
         }
     }
 
@@ -58,7 +57,7 @@
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         "consume_mode"
         {
-            "ypos"                                                  "r130"
+            "ypos"                                                  "r60"
             "tall"                                                  "60"
             "border"                                                "bh_blank"
             "bgcolor_override"                                      "bh_Theme_BG30"
@@ -124,9 +123,9 @@
 
     "ModelInspectionPanel"
     {
-        "ypos"                                                      "90"
+        "ypos"                                                      "65"
         "wide"                                                      "f0"
-        "tall"                                                      "225"
+        "tall"                                                      "240"
 
         "inventory_image_type"                                      "1"
         "force_use_model"                                           "1"
@@ -148,7 +147,7 @@
 
         "consume_mode"
         {
-            "ypos"                                                  "50"
+            "ypos"                                                  "95"
         }
     }
 
@@ -176,24 +175,18 @@
         "ControlName"                                               "ImagePanel"
         "fieldName"                                                 "bh_BackgroundFooter"
         "xpos"                                                      "0"
-        "ypos"                                                      "r150"
+        "ypos"                                                      "420"
         "zpos"                                                      "1"
         "wide"                                                      "f0"
         "tall"                                                      "61"
         "autoResize"                                                "0"
         "pinCorner"                                                 "0"
         "labeltext"                                                 ""
-        "visible"                                                   "0"
-        "enabled"                                                   "0"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
         "fillcolor"                                                 "bh_Theme_BG20"
         "border"                                                    "bh_b_N"
         "image"                                                     ""
         "paintbackgroundtype"                                       "0"
-
-        "consume_mode"
-        {
-            "visible"                                               "1"
-            "enabled"                                               "1"
-        }
     }
 }
