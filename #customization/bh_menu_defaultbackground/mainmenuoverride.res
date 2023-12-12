@@ -1,5 +1,9 @@
 "Resource/UI/MainMenuOverride.res"
 {
+    MainMenuOverride
+    {
+    }
+
     "Background"
     {
         if_halloween_0
@@ -39,7 +43,147 @@
 
         if_christmas
         {
-            "image"                                                 "../console/background_xmas2011_widescreen"
+            "image"                                                 "../console/background_xmas2020_widescreen"
+        }
+    }
+
+    "bh_MenuParticles"
+    {
+        "ControlName"                                               "CTFParticlePanel"
+        "fieldName"                                                 "bh_MenuParticles"
+        "xpos"                                                      "0"
+        "ypos"                                                      "0"
+        "zpos"                                                      "-50"
+        "wide"                                                      "f0"
+        "tall"                                                      "f0"
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "proportionaltoparent"                                      "1"
+
+        if_christmas
+        {
+            "visible"                                               "1"
+            "enabled"                                               "1"
+
+            "ParticleEffects"
+            {
+                "0"
+                {
+                    "particle_xpos"                                 "c0"
+                    "particle_ypos"                                 "c100"
+                    "particle_scale"                                "1"
+                    "particlename"                                  "env_snow_light_001"
+                    "loop"                                          "1"
+                }
+            }
+        }
+
+        if_halloween_0
+        {
+            "visible"                                               "1"
+            "enabled"                                               "1"
+
+            "ParticleEffects"
+            {
+                "0"
+                {
+                    "particle_xpos"                                 "c0"
+                    "particle_ypos"                                 "r100"
+                    "particle_scale"                                "0.5"
+                    "particlename"                                  "hammer_souls_rising"
+                    "loop"                                          "1"
+                }
+            }
+        }
+
+        if_halloween_1
+        {
+            "visible"                                               "1"
+            "enabled"                                               "1"
+
+            "ParticleEffects"
+            {
+                "0"
+                {
+                    "particle_xpos"                                 "c0"
+                    "particle_ypos"                                 "r100"
+                    "particle_scale"                                "0.5"
+                    "particlename"                                  "hammer_souls_rising"
+                    "loop"                                          "1"
+                }
+            }
+        }
+
+        if_halloween_2
+        {
+            "visible"                                               "1"
+            "enabled"                                               "1"
+
+            "ParticleEffects"
+            {
+                "0"
+                {
+                    "particle_xpos"                                 "c0"
+                    "particle_ypos"                                 "r100"
+                    "particle_scale"                                "0.5"
+                    "particlename"                                  "hammer_souls_rising"
+                    "loop"                                          "1"
+                }
+            }
+        }
+
+        if_halloween_3
+        {
+            "visible"                                               "1"
+            "enabled"                                               "1"
+
+            "ParticleEffects"
+            {
+                "0"
+                {
+                    "particle_xpos"                                 "c0"
+                    "particle_ypos"                                 "r100"
+                    "particle_scale"                                "0.5"
+                    "particlename"                                  "hammer_souls_rising"
+                    "loop"                                          "1"
+                }
+            }
+        }
+
+        if_halloween_4
+        {
+            "visible"                                               "1"
+            "enabled"                                               "1"
+
+            "ParticleEffects"
+            {
+                "0"
+                {
+                    "particle_xpos"                                 "c0"
+                    "particle_ypos"                                 "r100"
+                    "particle_scale"                                "0.5"
+                    "particlename"                                  "hammer_souls_rising"
+                    "loop"                                          "1"
+                }
+            }
+        }
+
+        if_halloween_5
+        {
+            "visible"                                               "1"
+            "enabled"                                               "1"
+
+            "ParticleEffects"
+            {
+                "0"
+                {
+                    "particle_xpos"                                 "c0"
+                    "particle_ypos"                                 "r100"
+                    "particle_scale"                                "0.5"
+                    "particlename"                                  "hammer_souls_rising"
+                    "loop"                                          "1"
+                }
+            }
         }
     }
 }
