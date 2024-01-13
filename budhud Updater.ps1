@@ -82,10 +82,10 @@ $max_cmd_len = 8192
 # Shared Variables
 ##################
 # List of Translated Languages
-$translatedLanguages = "brazilian", "french", "german", "italian", "japanese", "norwegian", "romanian", "russian", "schinese", "spanish", "tchinese", "turkish"
+$translatedLanguages = "brazilian", "french", "german", "italian", "japanese", "norwegian", "polish", "romanian", "russian", "schinese", "spanish", "tchinese", "turkish"
 
 # List of Untranslated Languages
-$untranslatedLanguages = "bulgarian", "czech", "danish", "dutch", "english", "finnish", "greek", "hungarian", "korean", "polish", "portuguese", "swedish", "thai", "ukrainian"
+$untranslatedLanguages = "bulgarian", "czech", "danish", "dutch", "english", "finnish", "greek", "hungarian", "korean", "portuguese", "swedish", "thai", "ukrainian"
 
 # Discord Link
 $discord = "https://discord.gg/TkxNKU2"
@@ -597,6 +597,7 @@ function Run_UpdateFromGitHub {
 ####################
 # Run_SetHUDLanguage
 ####################
+
 function Run_SetHUDLanguage {
     Clear-Host
     Write-Host -ForegroundColor White -BackgroundColor Blue "================"
@@ -604,56 +605,53 @@ function Run_SetHUDLanguage {
     Write-Host -ForegroundColor White -BackgroundColor Blue "================"
     Write-Host ""
 
-    # Read the currently set language from chat_english.txt
-    $currentLanguage = ""
-    $chatEnglishPath = Join-Path -Path $budhud -ChildPath "resource\chat_english.txt"
-    if (Test-Path -Path $chatEnglishPath) {
-        $currentLanguage = (Get-Content -Path $chatEnglishPath | Where-Object { $_ -match "^lang " }) -replace "lang ", ""
-    }
+    # Directory where language files are located
+    $languageFilesDirectory = Join-Path -Path $budhud -ChildPath "resource"
 
-    # Display a list of available languages as a numbered list
+    # Display a list of available languages
     Write-Host "Available Languages:" -ForegroundColor Cyan
     for ($i = 0; $i -lt $translatedLanguages.Count; $i++) {
         $languageCode = $i + 1
         $languageName = $translatedLanguages[$i]
-        $languageText = "{0}. {1}" -f $languageCode, $languageName
-        if ($languageName -eq $currentLanguage) {
-            $languageText += " (selected)"
-        }
-        Write-Host $languageText
+        Write-Host "$languageCode. $languageName"
     }
 
+    # Add "default" as an option
+    $defaultOption = $translatedLanguages.Count + 1
+    Write-Host "$defaultOption. Default"
+
     # Prompt the user for language selection
-    Write-Host ""
-    $selectedLanguageCode = Read-Host "Enter the number of the language you want to use (e.g., 1, 2, Q to cancel)"
+    $selectedLanguageCode = Read-Host "Enter the number of the language you want to use (e.g., 1, 2, $defaultOption for Default, Q to cancel)"
 
     if ($selectedLanguageCode -eq "Q") {
         Write-Host "Language selection canceled." -ForegroundColor Yellow
-        return # Exit the function if canceled
-    }
-
-    # Check if the entered number corresponds to a language
-    if ($selectedLanguageCode -match '^\d+$') {
+    } elseif ($selectedLanguageCode -match '^\d+$') {
         $selectedLanguageIndex = [int]$selectedLanguageCode - 1
 
-        if ($selectedLanguageIndex -ge 0 -and $selectedLanguageIndex -lt $translatedLanguages.Count) {
-            $selectedLanguage = $translatedLanguages[$selectedLanguageIndex]
-            Write-Host "Selected Language: $selectedLanguage" -ForegroundColor Green
+        if ($selectedLanguageIndex -ge 0 -and $selectedLanguageIndex -lt ($translatedLanguages.Count + 1)) {
+            if ($selectedLanguageIndex -eq $defaultOption - 1) {
+                $selectedLanguage = "default"
+            } else {
+                $selectedLanguage = $translatedLanguages[$selectedLanguageIndex]
+            }
 
-            # Update the selected language in chat_english.txt
-            (Get-Content -Path $chatEnglishPath) | ForEach-Object {
-                if ($_ -match "^lang ") {
-                    $_ -replace "lang .*$", "lang $selectedLanguage"
-                } else {
-                    $_
-                }
-            } | Set-Content -Path $chatEnglishPath
-        }
-        else {
+            $englishFilePath = Join-Path -Path $languageFilesDirectory -ChildPath "chat_english.txt"
+            $selectedLanguageFilePath = Join-Path -Path $languageFilesDirectory -ChildPath "chat_$selectedLanguage.txt"
+
+            # Check if the selected language file exists
+            if (Test-Path -Path $selectedLanguageFilePath) {
+                Write-Host "Selected Language: $selectedLanguage" -ForegroundColor Green
+
+                # Overwrite chat_english.txt with the selected language file content
+                Copy-Item -Path $selectedLanguageFilePath -Destination $englishFilePath -Force
+                Write-Host "Language file updated successfully." -ForegroundColor Green
+            } else {
+                Write-Host "Selected language file not found." -ForegroundColor Red
+            }
+        } else {
             Write-Host "Invalid selection. Please choose a valid number." -ForegroundColor Red
         }
-    }
-    else {
+    } else {
         Write-Host "Invalid input. Please enter a valid number." -ForegroundColor Red
     }
 }
