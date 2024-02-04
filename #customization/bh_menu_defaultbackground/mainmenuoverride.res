@@ -6,6 +6,8 @@
 
     "Background"
     {
+        "image"                                                     ""
+
         if_halloween_0
         {
             "image"                                                 "../console/title_team_halloween2011_widescreen"
