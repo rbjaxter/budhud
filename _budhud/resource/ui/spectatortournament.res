@@ -17,10 +17,6 @@
         "visible"                                                   "0"
     }
 
-    "itempanel" // Modified in hudinspectpanel
-    {
-    }
-
     "specgui"
     {
         // BLU

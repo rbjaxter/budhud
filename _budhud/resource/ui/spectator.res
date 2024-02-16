@@ -1,3 +1,5 @@
+#base "hudinspectpanel.res"     // Base to hudinspectpanel to grab its itempanel
+
 "Resource/UI/Spectator.res"
 {
     "specgui"
@@ -97,18 +99,5 @@
         "tall"                                                      "24"
         "textAlignment"                                             "center"
         "font"                                                      "bh_Font14DropShadow"
-    }
-
-    "itempanel"
-    {
-        "bgcolor_override"                                          "bh_ItemPanel"
-        "PaintBackground"                                           "1"
-
-        "itemmodelpanel"
-        {
-            "allow_rot"                                             "0"
-            "inventory_image_type"                                  "1"
-            "use_item_rendertarget"                                 "0"
-        }
     }
 }
