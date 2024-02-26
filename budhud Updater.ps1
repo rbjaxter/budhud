@@ -662,7 +662,7 @@ function Run_SetHUDLanguage {
 function Run_HUDCompiler {
     Clear-Host
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==========================="
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "HUD Compiler, by @alvancamp"
+    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "HUD Compiler, by Lange"
     Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==========================="
     Write-Host ""
 
@@ -677,7 +677,7 @@ function Run_HUDCompiler {
     Write-Host ""
     Write-Host -ForegroundColor "White" "1. Only Windows builds are provided for this compiler."
     Write-Host -ForegroundColor "White" "2. The compiler's source code is available on Alex's GitHub:"
-    Write-Host -ForegroundColor "White" "   https://github.com/alvancamp/budhud-compiler"
+    Write-Host -ForegroundColor "White" "   https://github.com/anarcho-loneliness/budhud-compiler"
     Write-Host -ForegroundColor "White" "3. After running this compiler, to edit your HUD in the future, you must either:"
     Write-Host -ForegroundColor "White" "   A. Make changes directly in the 'resource' and 'scripts' folders, or"
     Write-Host -ForegroundColor "White" "   B. Run this compiler whenever you make changes outside of the 'resource' and 'scripts' folders"
@@ -714,7 +714,7 @@ function Run_HUDCompiler {
         # If not found, download from GitHub
         Check_InvokeWebRequest
 
-        $URL = "https://github.com/alvancamp/budhud-compiler/releases/latest/download/budhud-compiler.exe"
+        $URL = "https://github.com/anarcho-loneliness/budhud-compiler/releases/latest/download/budhud-compiler.exe"
         $Path = "$PSScriptRoot/budhud-compiler.exe"
 
         Invoke-WebRequest -URI $URL -OutFile $Path
@@ -907,7 +907,7 @@ do {
             Write-Host "Created by @alvancamp on Github, the HUD compiler is used to compile as many #base directives in budhud as possible."
             Write-Host "In simpler terms, this merges all _budhud and _tf2hud files (as well as any enabled customizations) into single files"
             Write-Host "that are then placed in resource and scripts."
-            Write-Host "Please see his GitHub repository here for more information: https://github.com/alvancamp/budhud-compiler"
+            Write-Host "Please see his GitHub repository here for more information: https://github.com/anarcho-loneliness/budhud-compiler"
             Write-Host ""
             Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "6. Revert HUD Compile"
             Write-Host -foregroundcolor "Yellow" "The resource and scripts folder will be replaced"
