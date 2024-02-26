@@ -32,7 +32,7 @@ If you would like to install and customize budhud (as well as other huds) quickl
 * Freepik: http://www.freepik.com/
 
 ### HUD Compiler
-* Lange: https://github.com/alvancamp
+* Lange: https://github.com/anarcho-loneliness
 
 ### HUD Translations
 * Chinese: Ultra Violet Amethyst 紫微星宿
