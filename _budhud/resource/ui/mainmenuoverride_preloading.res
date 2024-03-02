@@ -32,7 +32,8 @@
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Halloween Spell Icons
-    // These don't seem to work with preloading, unfortunately. Kinda defeats the purpose.
+    // These don't seem to work with preloading, unfortunately.
+    // Left these in so I stop forgetting they don't work lmao
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     "spellbook_athletic"
@@ -41,7 +42,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "vgui/spellbook_athletic"
+        "image"                                                     "spellbook_athletic"
     }
 
     "spellbook_bats"
@@ -50,7 +51,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "vgui/spellbook_athletic"
+        "image"                                                     "spellbook_athletic"
     }
 
     "spellbook_blastjump"
@@ -59,7 +60,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "vgui/spellbook_blastjump"
+        "image"                                                     "spellbook_blastjump"
     }
 
     "spellbook_bomb"
@@ -68,7 +69,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "vgui/spellbook_bomb"
+        "image"                                                     "spellbook_bomb"
     }
 
     "spellbook_boss"
@@ -77,7 +78,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "vgui/spellbook_boss"
+        "image"                                                     "spellbook_boss"
     }
 
     "spellbook_fireball"
@@ -86,7 +87,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "vgui/spellbook_fireball"
+        "image"                                                     "spellbook_fireball"
     }
 
     "spellbook_lightning"
@@ -95,7 +96,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "vgui/spellbook_lightning"
+        "image"                                                     "spellbook_lightning"
     }
 
     "spellbook_meteor"
@@ -104,7 +105,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "vgui/spellbook_meteor"
+        "image"                                                     "spellbook_meteor"
     }
 
     "spellbook_mirv"
@@ -113,7 +114,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "vgui/spellbook_mirv"
+        "image"                                                     "spellbook_mirv"
     }
 
     "spellbook_nospell"
@@ -122,7 +123,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "vgui/spellbook_nospell"
+        "image"                                                     "spellbook_nospell"
     }
 
     "spellbook_overheal"
@@ -131,7 +132,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "vgui/spellbook_overheal"
+        "image"                                                     "spellbook_overheal"
     }
 
     "spellbook_skeleton"
@@ -140,7 +141,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "vgui/spellbook_skeleton"
+        "image"                                                     "spellbook_skeleton"
     }
 
     "spellbook_stealth"
@@ -149,7 +150,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "vgui/spellbook_stealth"
+        "image"                                                     "spellbook_stealth"
     }
 
     "spellbook_teleport"
@@ -158,7 +159,7 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "image"                                                     "vgui/spellbook_teleport"
+        "image"                                                     "spellbook_teleport"
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
