@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+    "$baseTexture"                                                  "vgui/replay/thumbnails/building_icons/obj_status_sentrygun_1"
+    "$translucent"                                                  "1"
+    "$vertexalpha"                                                  "1"
+    "$vertexcolor"                                                  "1"
+    "$ignorez"                                                      "1"
+}
