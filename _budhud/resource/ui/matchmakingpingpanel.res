@@ -8,6 +8,23 @@
         "border"                                                    "bh_b_E"
     }
 
+    "DataCenterContainer"
+    {
+        "DataCenterList"
+        {
+            "bgcolor_override"                                      "bh_Theme_BG40"
+            "border"                                                "bh_b_NESW"
+        }
+
+        "Background"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
+            "border"                                                "bh_blank"
+        }
+    }
+
     "Title"
     {
         "ypos"                                                      "5"
