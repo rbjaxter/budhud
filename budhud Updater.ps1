@@ -123,9 +123,9 @@ function Check_TF2Running {
 
     If
     (
-        Get-Process hl2 -ErrorAction SilentlyContinue
+        Get-Process hl2, tf_win64 -ErrorAction SilentlyContinue
     ) {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "hl2.exe detected"
+        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "hl2 / tf_win64.exe detected"
         Write-Host ""
 
         Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
@@ -167,7 +167,7 @@ function Check_UpdateFiles_DefaultHUD {
 
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
         Write-Host -foregroundcolor "White" "Verify that the hud is installed correctly."
-        Write-Host -foregroundcolor "White" "Expected location: ../Team Fortress 2/custom/budhud/HUD Updater and Error Checker.ps1"
+        Write-Host -foregroundcolor "White" "Expected location: ../Team Fortress 2/custom/budhud/budhud Updater.ps1"
         Write-Host ""
         Break
     }
@@ -207,12 +207,14 @@ function Check_InvokeWebRequest {
 ################
 function Check_HUDFiles {
     # Check for hl2.exe file
-    Write-Host -foregroundcolor "White" -NoNewLine "Checking for hl2.exe... "
+    Write-Host -foregroundcolor "White" -NoNewLine "Checking for hl2 / tf_win64.exe... "
     $hl2 = Maybe_Path $tf "../hl2.exe"
+    $tf64 = Maybe_Path $tf "../tf_win64.exe"
 
     If
     (
-        ![String]::IsNullOrEmpty($hl2)
+        ![String]::IsNullOrEmpty($hl2),
+        ![String]::IsNullOrEmpty($tf64)
     ) {
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
     }
