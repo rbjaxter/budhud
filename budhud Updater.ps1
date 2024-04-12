@@ -207,20 +207,20 @@ function Check_InvokeWebRequest {
 ################
 function Check_HUDFiles {
     # Check for hl2.exe file
-    Write-Host -foregroundcolor "White" -NoNewLine "Checking for hl2 / tf_win64.exe... "
+    Write-Host -foregroundcolor "White" -NoNewLine "Checking for hl2 or tf_win64.exe... "
     $hl2 = Maybe_Path $tf "../hl2.exe"
     $tf64 = Maybe_Path $tf "../tf_win64.exe"
 
     If
     (
-        ![String]::IsNullOrEmpty($hl2),
+        ![String]::IsNullOrEmpty($hl2) -or
         ![String]::IsNullOrEmpty($tf64)
     ) {
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
     }
 
     Else {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate hl2.exe"
+        Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate hl2 or tf_win64.exe"
         Write-Host ""
 
         Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
