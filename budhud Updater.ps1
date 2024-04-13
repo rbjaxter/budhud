@@ -228,9 +228,10 @@ function Check_HUDFiles {
         Write-Host ""
 
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
-        Write-Host -foregroundcolor "White" "Verify that TF2 is not installed on a separate drive"
-        Write-Host -foregroundcolor "White" "Verify that you do not have multiple custom folders"
-        Write-Host -foregroundcolor "White" "Verify that you have TF2 installed at all lmao"
+        Write-Host -foregroundcolor "White" "- Verify that budhud is placed in ../tf/custom"
+        Write-Host -foregroundcolor "White" "- Verify that TF2 is not installed on a separate drive"
+        Write-Host -foregroundcolor "White" "- Verify that you do not have multiple custom folders"
+        Write-Host -foregroundcolor "White" "- Verify that you have TF2 installed at all lmao"
         Write-Host ""
         Break
     }
@@ -255,7 +256,7 @@ function Check_HUDFiles {
         Write-Host ""
 
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
-        Write-Host -foregroundcolor "White" "Verify that there are not two budhud-master folders inside of each other"
+        Write-Host -foregroundcolor "White" "Verify that you don't have two HUD folders nested inside of of each other"
         Write-Host -foregroundcolor "Red" "WRONG: ../tf/custom/budhud-master/budhud-master/"
         Write-Host -foregroundcolor "Green" "RIGHT: ../tf/custom/budhud-master/"
         Write-Host ""
@@ -410,7 +411,7 @@ function Run_InstallTroubleshooter {
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Install Checks Passed"
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "====================="
         Write-Host -foregroundcolor "White" "No common issues with installation detected."
-        Write-Host -foregroundcolor "White" "If you continue to have problems, post in our Discord for additional help:"
+        Write-Host -foregroundcolor "White" "If you continue to have problems, post in our Discord for additional help (ctrl + click to open):"
         Write-Host -foregroundcolor "Blue" $discord
         Write-Host ""
     }
@@ -627,13 +628,15 @@ function Run_SetHUDLanguage {
 
     if ($selectedLanguageCode -eq "Q") {
         Write-Host "Language selection canceled." -ForegroundColor Yellow
-    } elseif ($selectedLanguageCode -match '^\d+$') {
+    }
+    elseif ($selectedLanguageCode -match '^\d+$') {
         $selectedLanguageIndex = [int]$selectedLanguageCode - 1
 
         if ($selectedLanguageIndex -ge 0 -and $selectedLanguageIndex -lt ($translatedLanguages.Count + 1)) {
             if ($selectedLanguageIndex -eq $defaultOption - 1) {
                 $selectedLanguage = "default"
-            } else {
+            }
+            else {
                 $selectedLanguage = $translatedLanguages[$selectedLanguageIndex]
             }
 
@@ -647,13 +650,16 @@ function Run_SetHUDLanguage {
                 # Overwrite chat_english.txt with the selected language file content
                 Copy-Item -Path $selectedLanguageFilePath -Destination $englishFilePath -Force
                 Write-Host "Language file updated successfully." -ForegroundColor Green
-            } else {
+            }
+            else {
                 Write-Host "Selected language file not found." -ForegroundColor Red
             }
-        } else {
+        }
+        else {
             Write-Host "Invalid selection. Please choose a valid number." -ForegroundColor Red
         }
-    } else {
+    }
+    else {
         Write-Host "Invalid input. Please enter a valid number." -ForegroundColor Red
     }
 }
@@ -663,9 +669,9 @@ function Run_SetHUDLanguage {
 #################
 function Run_HUDCompiler {
     Clear-Host
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==========================="
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "HUD Compiler, by Lange"
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==========================="
+    Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "==========================="
+    Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "HUD Compiler, by Lange"
+    Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "==========================="
     Write-Host ""
 
     # Perform any necessary checks
@@ -679,7 +685,7 @@ function Run_HUDCompiler {
     Write-Host ""
     Write-Host -ForegroundColor "White" "1. Only Windows builds are provided for this compiler."
     Write-Host -ForegroundColor "White" "2. The compiler's source code is available on Alex's GitHub:"
-    Write-Host -ForegroundColor "White" "   https://github.com/anarcho-loneliness/budhud-compiler"
+    Write-Host -ForegroundColor "White" "   https://github.com/astral-arsonist/budhud-compiler"
     Write-Host -ForegroundColor "White" "3. After running this compiler, to edit your HUD in the future, you must either:"
     Write-Host -ForegroundColor "White" "   A. Make changes directly in the 'resource' and 'scripts' folders, or"
     Write-Host -ForegroundColor "White" "   B. Run this compiler whenever you make changes outside of the 'resource' and 'scripts' folders"
@@ -695,32 +701,37 @@ function Run_HUDCompiler {
 
     $response = Read-Host
     if ($response -ne "Y") {
-        Break
-        Options_Menu
+        return
     }
 
     # Check for compiler file
-    Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Checking for budhud-compiler.exe"
+    Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Checking for budhud-compiler.exe"
 
-    If
-    (
-        Test-Path -Path "budhud-compiler.exe"
-    ) {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "budhud-compiler.exe found"
+    if (Test-Path -Path "budhud-compiler.exe") {
+        Write-Host -ForegroundColor "White" -BackgroundColor "Green" "budhud-compiler.exe found"
     }
-
-    Else {
-        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Could not locate budhud-compiler.exe, attempting to download..."
+    else {
+        Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Could not locate budhud-compiler.exe, attempting to download..."
         Write-Host ""
 
         # If not found, download from GitHub
-        Check_InvokeWebRequest
-
-        $URL = "https://github.com/anarcho-loneliness/budhud-compiler/releases/latest/download/budhud-compiler.exe"
+        $URL = "https://github.com/astral-arsonist/budhud-compiler/releases/latest/download/budhud-compiler.exe"
         $Path = "$PSScriptRoot/budhud-compiler.exe"
 
-        Invoke-WebRequest -URI $URL -OutFile $Path
-        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Download complete"
+        try {
+            Invoke-WebRequest -URI $URL -OutFile $Path
+            Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Download complete"
+        }
+        catch {
+            Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Failed to download budhud-compiler.exe from the provided URL."
+            Write-Host ""
+
+            Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
+            Write-Host -foregroundcolor "White" "- Check your internet connection"
+            Write-Host -foregroundcolor "White" "- The URL to the compiler may no longer be valid. Please let Whisker know."
+            Write-Host ""
+            return
+        }
     }
 
     # Start the stopwatch so we can report how long this script took
@@ -909,7 +920,7 @@ do {
             Write-Host "Created by @alvancamp on Github, the HUD compiler is used to compile as many #base directives in budhud as possible."
             Write-Host "In simpler terms, this merges all _budhud and _tf2hud files (as well as any enabled customizations) into single files"
             Write-Host "that are then placed in resource and scripts."
-            Write-Host "Please see his GitHub repository here for more information: https://github.com/anarcho-loneliness/budhud-compiler"
+            Write-Host "Please see his GitHub repository here for more information: https://github.com/astral-arsonist/budhud-compiler"
             Write-Host ""
             Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "6. Revert HUD Compile"
             Write-Host -foregroundcolor "Yellow" "The resource and scripts folder will be replaced"
