@@ -253,7 +253,7 @@
     "CDamageAccountPanel"
     {
         "xpos"                                                      "2"
-        "ypos"                                                      "10"
+        "ypos"                                                      "22"
         "tall"                                                      "f0"
     }
 
