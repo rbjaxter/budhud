@@ -9,17 +9,29 @@
     BIG NUMBER MAKE DOPAMINE GO UP
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // things I could do with the hud if i was less lazy
+    // things I could and why I haven't done them
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    - speedo
+    - speedo - added now
+    - uber timer - don't want to, takes up voicemenu + kinda perf heavy
+    - VTF crosshairs - varies too much on someone's preferences
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Wishlist
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    - Center ammo pickup that appears in the lower center of the screen (can't center for all three digit place possibilities)
-    - Adjust wide value of text in Voice UI (adjusting it now doesn't appear to do anything)
-    - Ability to change colors of itemeffectmeters (you can change the color of the text now at least)
+    // TF2 HUD Wishlist
+    ////////////////////////////////////////////////////////////////////////////////////////////////////s
+    - Center ammo pickup that appears in the lower center of the screen (can't center for all three digit places)
+    - Adjust wide value of text in Voice UI
+    - Ability to change colors of itemeffectmeters (you can with a modulate material but i mean......)
     - Ability to use directional arrows in `vgui_drawtree` again (pls)
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Useful HUD Commands
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    - hud_reloadscheme - most basic hud reload command
+    - mat_aaquality - used if reloadscheme doesnt work
+    - mat_reloadallmaterials - used whenever working on VTFs/VMTs
+    - showschemevisualizer
+    - cl_panelanimation
+    - testhudanim <event_name> - test an animation in hudanimations
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Random useful info
@@ -34,10 +46,7 @@
         "TF_ItemPresetName2"    "<name>"
         "TF_ItemPresetName3"    "<name>"
     (will probably muck up the quickswitch menu)
-    - showschemevisualizer
-    - cl_panelanimation
-    - testhudanim <event_name>
-        test an animation in hudanimations
+
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Payload Icon Notes

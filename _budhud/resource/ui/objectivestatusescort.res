@@ -16,58 +16,6 @@
         }
     }
 
-//  "bh_trackextender_left"     // you're an idiot for thinking of doing this
-//  {
-//      "ControlName"                                               "CExImageButton"
-//      "fieldName"                                                 "bh_trackextender_left"
-//      "xpos"                                                      "c-127"
-//      "ypos"                                                      "r-6969"
-//      "zpos"                                                      "0"
-//      "wide"                                                      "3"
-//      "tall"                                                      "12"
-//      "visible"                                                   "1"
-//      "enabled"                                                   "1"
-//      "labeltext"                                                 ""
-//      "image"                                                     "../hud/cart_track"
-//      "scaleImage"                                                "1"
-//
-//      "if_multiple_trains"
-//      {
-//          "ypos"                                                  "r-6969"
-//      }
-//
-//      "if_single_with_hills"
-//      {
-//          "ypos"                                                  "r40"
-//      }
-//  }
-
-//    "bh_trackextender_right"
-//    {
-//        "ControlName"                                               "ImagePanel"
-//        "fieldName"                                                 "bh_trackextender_right"
-//        "xpos"                                                      "c127"
-//        "ypos"                                                      "r-6969"
-//        "zpos"                                                      "0"
-//        "wide"                                                      "3"
-//        "tall"                                                      "12"
-//        "visible"                                                   "1"
-//        "enabled"                                                   "1"
-//        "labeltext"                                                 ""
-//        "image"                                                     "../hud/cart_track_extender"
-//        "scaleImage"                                                "1"
-//
-//        "if_multiple_trains"
-//        {
-//            "wide"                                                  "3"
-//            "ypos"                                                  "r40"
-//        }
-//
-//        "if_single_with_hills"
-//        {
-//        }
-//    }
-
     "LevelBar"
     {
         "xpos"                                                      "c-127"

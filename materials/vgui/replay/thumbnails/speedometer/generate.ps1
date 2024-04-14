@@ -1,6 +1,9 @@
 # ImageMagick must be installed in the same folder
 # The font must also be in the same folder (from my experience)
 # overengineered shell script by Whisker because chatgpt makes my life 1000x easier lmao
+#
+# I don't know who specifically made the original 14 line version of this file that generated with one color
+# but I think it was either QuickKennedy or afbiklwnef njw;kfn jn.kj.h
 
 # Define parameters
 $maxNumber = 3500
@@ -154,4 +157,3 @@ foreach ($entry in $numbersToCopy) {
 
 
 Write-Host "Copy tasks completed."
-pause

@@ -34,8 +34,8 @@
     {
         "xpos"                                                      "3"
         "ypos"                                                      "3"
-        "wide"                                                      "14"
-        "tall"                                                      "14"
+        "wide"                                                      "15"
+        "tall"                                                      "15"
         "visible"                                                   "1"
         "enabled"                                                   "1"
     }
