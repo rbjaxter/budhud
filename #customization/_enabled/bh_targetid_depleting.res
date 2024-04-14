@@ -13,6 +13,12 @@
         "enabled"                                                   "1"
     }
 
+    "bh_BuffedHealthBlock"
+    {
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+    }
+
     "PlayerStatusHealthBonusImage"
     {
         "xpos"                                                      "-500"
@@ -40,7 +46,7 @@
     }
 
     // If you'd like the colored background health, delete everything below this point
-    // (except for the final bracket, of course)
+    // (except for the final bracket)
     "PlayerStatusHealthValueShadow"
     {
         "ypos"                                                      "r-6969"

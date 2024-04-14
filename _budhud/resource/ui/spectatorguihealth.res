@@ -60,7 +60,9 @@
     // 6 Health Text
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    // Customization BG. Not re-using bh_HealthBGSpec to avoid messing with animations
+    // Depleting Customization
+    // Not re-using bh_HealthBGSpec to avoid messing with animations
+    // This is the solid, unchanging background so the health cross transparency doesn't show through
     "bh_HealthBGDepleting"
     {
         "ControlName"                                               "CExLabel"
@@ -77,29 +79,6 @@
         "visible"                                                   "0"
         "enabled"                                                   "0"
         "bgcolor_override"                                          "bh_Theme_BG40"
-
-        "paintbackground"                                           "1"
-        "border"                                                    "NoBorder"
-    }
-
-    // Used in depleting customization to make default health cross less bright
-    "bh_Tint"
-    {
-        "ControlName"                                               "ImagePanel"
-        "fieldName"                                                 "bh_Tint"
-        "xpos"                                                      "0"
-        "ypos"                                                      "0"
-        "zpos"                                                      "3"
-        "wide"                                                      "f0"
-        "tall"                                                      "60"
-        "autoResize"                                                "0"
-        "pinCorner"                                                 "0"
-        "labeltext"                                                 ""
-        "visible"                                                   "0"
-        "enabled"                                                   "0"
-        "fillcolor"                                                 "0 0 0 150"
-        "image"                                                     ""
-        "paintbackgroundtype"                                       "0"
     }
 
     "bh_HealthBGSpec"
@@ -112,7 +91,7 @@
         "fieldName"                                                 "bh_HealthBGSpec"
         "xpos"                                                      "0"
         "ypos"                                                      "0"
-        "zpos"                                                      "1"
+        "zpos"                                                      "3"
         "zpos"                                                      "0"
         "wide"                                                      "40"
         "tall"                                                      "18"
@@ -125,6 +104,52 @@
 
         "paintbackground"                                           "1"
         "border"                                                    "NoBorder"
+    }
+
+    // Depleting Customization
+    // Block used just to cover up the white buffed indicator with the OG blue which is easier to read
+    "bh_BuffedHealthBlock"
+    {
+        "pin_to_sibling"                                            "bh_TargetIDHealthPin"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "ControlName"                                               "CExLabel"
+        "fieldName"                                                 "bh_BuffedHealthBlock"
+        "xpos"                                                      "0"
+        "ypos"                                                      "0"
+        "zpos"                                                      "4"
+        "wide"                                                      "40"
+        "tall"                                                      "18"
+        "autoResize"                                                "0"
+        "pinCorner"                                                 "0"
+        "labeltext"                                                 ""
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "bgcolor_override"                                          "bh_Health_Buff"
+
+        "paintbackground"                                           "1"
+        "border"                                                    "NoBorder"
+    }
+
+    // Used in depleting customization to make default health cross less bright
+    "bh_Tint"
+    {
+        "ControlName"                                               "ImagePanel"
+        "fieldName"                                                 "bh_Tint"
+        "xpos"                                                      "0"
+        "ypos"                                                      "0"
+        "zpos"                                                      "4"
+        "wide"                                                      "f0"
+        "tall"                                                      "60"
+        "autoResize"                                                "0"
+        "pinCorner"                                                 "0"
+        "labeltext"                                                 ""
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "fillcolor"                                                 "0 0 0 100"
+        "image"                                                     ""
+        "paintbackgroundtype"                                       "0"
     }
 
     "PlayerStatusHealthValue"
