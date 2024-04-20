@@ -82,7 +82,7 @@ Scheme
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"TFDarkBrown"
 		FrameTitleButton.FgColor		"TFTanBright"
-		FrameTitleBar.Font			"DefaultLarge"		[$WIN32]
+		FrameTitleBar.Font			"DefaultLarge"		[!$_disabled_]
 		FrameTitleBar.TextColor			"TFTanBright"
 		FrameTitleBar.DisabledTextColor	"TFTanLight"
 		
@@ -99,8 +99,8 @@ Scheme
 		ListPanel.SelectedBgColor			"SelectionBG"
 		ListPanel.SelectedOutOfFocusBgColor	"SelectionBG2"
 		
-		MainMenu.TextColor			"TanLight"			[$WIN32]
-		MainMenu.ArmedTextColor		"117 107 94 255"	[$WIN32]
+		MainMenu.TextColor			"TanLight"			[!$_disabled_]
+		MainMenu.ArmedTextColor		"117 107 94 255"	[!$_disabled_]
 		MainMenu.Inset				"32"
 		
 		Menu.TextInset					"6"
@@ -135,7 +135,7 @@ Scheme
 	{
 		"MainMenuFont"
 		{
-			"1"	[$WIN32]
+			"1"	[!$_disabled_]
 			{
 				"name"		"TF2 Build"
 				"tall"		"18"
@@ -223,7 +223,7 @@ Scheme
 		}
 		
 				
-		AchievementItemTitle	[$WIN32]
+		AchievementItemTitle	[!$_disabled_]
 		{
 			"1"
 			{
@@ -236,7 +236,7 @@ Scheme
 			}
 		}
 		
-		AchievementItemTitleLarge	[$WIN32]
+		AchievementItemTitleLarge	[!$_disabled_]
 		{
 			"1"
 			{
@@ -249,7 +249,7 @@ Scheme
 			}
 		}
 		
-		AchievementItemDescription	[$WIN32]
+		AchievementItemDescription	[!$_disabled_]
 		{
 			"1"
 			{
@@ -327,5 +327,13 @@ Scheme
 				"range" "0x0000 0x0451"
 			}	
 		}
+		"10"		"resource/linux_fonts/DejaVuSans.ttf"
+		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"13"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"14"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }
