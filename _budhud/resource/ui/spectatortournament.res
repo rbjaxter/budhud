@@ -92,24 +92,24 @@
                 "HealthBonusPosAdj"                                 "1500"
             }
 
-            "bh_HealthBlock"
-            {
-                "ControlName"                                       "ImagePanel"
-                "fieldName"                                         "bh_HealthBlock"
-                "xpos"                                              "16"
-                "ypos"                                              "0"
-                "zpos"                                              "0"
-                "wide"                                              "26"
-                "tall"                                              "16"
-                "autoResize"                                        "0"
-                "pinCorner"                                         "0"
-                "labeltext"                                         ""
-                "visible"                                           "1"
-                "enabled"                                           "1"
-                "fillcolor"                                         "bh_Theme_BG20"
-                "image"                                             ""
-                "paintbackgroundtype"                               "0"
-            }
+            //"bh_HealthBlock"
+            //{
+            //    "ControlName"                                       "ImagePanel"
+            //    "fieldName"                                         "bh_HealthBlock"
+            //    "xpos"                                              "16"
+            //    "ypos"                                              "0"
+            //    "zpos"                                              "0"
+            //    "wide"                                              "26"
+            //    "tall"                                              "16"
+            //    "autoResize"                                        "0"
+            //    "pinCorner"                                         "0"
+            //    "labeltext"                                         ""
+            //    "visible"                                           "1"
+            //    "enabled"                                           "1"
+            //    "fillcolor"                                         "bh_Theme_BG20"
+            //    "image"                                             ""
+            //    "paintbackgroundtype"                               "0"
+            //}
 
             "bh_VerticalLine"
             {

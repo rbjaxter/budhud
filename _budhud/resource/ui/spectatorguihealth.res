@@ -127,6 +127,7 @@
         "visible"                                                   "0"
         "enabled"                                                   "0"
         "bgcolor_override"                                          "bh_Health_Buff"
+        "alpha"                                                     "0"
 
         "paintbackground"                                           "1"
         "border"                                                    "NoBorder"
@@ -175,7 +176,7 @@
 
     "PlayerStatusHealthValueShadow"
     {
-        "pin_to_sibling"                                            "bh_TargetIDHealthPin"
+        "pin_to_sibling"                                            "PlayerStatusHealthValue"
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
 

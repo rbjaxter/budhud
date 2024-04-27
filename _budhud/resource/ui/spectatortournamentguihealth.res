@@ -1,100 +1,76 @@
+    #base   "spectatorguihealth.res"
+
 "Resource/UI/SpectatorTournamentGUIHealth.res"
 {
-    "PlayerStatusHealthImage"
+    "bh_HealthBGSpec"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
     }
 
-    "PlayerStatusHealthImageBG"
+    "PlayerStatusHealthValue"
     {
-        "ypos"                                                      "r-6969"
-        "visible"                                                   "0"
-        "enabled"                                                   "0"
+        "xpos"                                                      "0"
+        "ypos"                                                      "1"
+        "font"                                                      "bh_font14"
+        "wide"                                                      "26"
+        "tall"                                                      "16"
     }
 
-    "BuildingStatusHealthImageBG"
+    "PlayerStatusHealthValueShadow"
     {
-        "xpos"                                                      "2"
-        "ypos"                                                      "3"
-        "zpos"                                                      "2"
-        "wide"                                                      "22"
-        "tall"                                                      "22"
+        "font"                                                      "bh_font14"
+        "wide"                                                      "26"
+        "tall"                                                      "16"
     }
 
     "PlayerStatusHealthBonusImage"
     {
-        "xpos"                                                      "0"
-        "ypos"                                                      "-24"
-        "wide"                                                      "64"
-        "tall"                                                      "64"
-    }
-
-    "PlayerStatusHealthValue"   // Match wide/tall to spectatortournament.res > HealthIcon
-    {
-        "xpos"                                                      "0"
+        "xpos"                                                      "-500"
         "ypos"                                                      "0"
-        "zpos"                                                      "5"
-        "wide"                                                      "26"
-        "tall"                                                      "16"
-        "textAlignment"                                             "center"
-        "fgcolor_override"                                          "bh_white"
-        "font"                                                      "bh_Font14"
-    }
-
-    "bh_PlayerStatusHealthValueShadow"
-    {
-        "pin_to_sibling"                                            "PlayerStatusHealthValue"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
-
-        "ControlName"                                               "CExLabel"
-        "fieldName"                                                 "bh_PlayerStatusHealthValueShadow"
-        "xpos"                                                      "-1"
-        "ypos"                                                      "-1"
-        "zpos"                                                      "5"
-        "wide"                                                      "26"
-        "tall"                                                      "16"
-        "labeltext"                                                 "%health%"
-        "textAlignment"                                             "center"
-        "fgcolor_override"                                          "bh_Shadow"
-        "font"                                                      "bh_Font14"
-    }
-
-    "bh_PlayerStatusHealthValue_Right"
-    {
-        "ControlName"                                               "CExLabel"
-        "fieldName"                                                 "bh_PlayerStatusHealthValue_Right"
-        "xpos"                                                      "40"        // 0+26(HealthValueWide)+16(classimage)
-        "ypos"                                                      "0"
-        "zpos"                                                      "5"
-        "wide"                                                      "26"
-        "tall"                                                      "16"
+        "zpos"                                                      "2"
+        "wide"                                                      "1000"
+        "tall"                                                      "18"
         "visible"                                                   "1"
         "enabled"                                                   "1"
-        "labelText"                                                 "%Health%"
-        "textAlignment"                                             "center"
-        "font"                                                      "bh_Font14"
-        "fgcolor"                                                   "bh_white"
     }
 
-    "bh_PlayerStatusHealthValueShadow_Right"
+    "bh_HealthBGDepleting"
     {
-        "pin_to_sibling"                                            "bh_PlayerStatusHealthValue_Right"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+    }
 
-        "ControlName"                                               "CExLabel"
-        "fieldName"                                                 "bh_PlayerStatusHealthValueShadow_Right"
-        "xpos"                                                      "-1"
-        "ypos"                                                      "-1"
-        "zpos"                                                      "5"
-        "wide"                                                      "26"
-        "tall"                                                      "16"
-        "labeltext"                                                 "%health%"
-        "textAlignment"                                             "center"
-        "fgcolor_override"                                          "bh_Shadow"
-        "font"                                                      "bh_Font14"
+    "bh_BuffedHealthBlock"
+    {
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+    }
+
+    "PlayerStatusHealthBonusImage"
+    {
+        "xpos"                                                      "-500"
+        "ypos"                                                      "0"
+        "wide"                                                      "1000"
+        "tall"                                                      "18"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+    }
+
+    "PlayerStatusHealthImage"
+    {
+        "xpos"                                                      "-500"
+        "ypos"                                                      "0"
+        "wide"                                                      "1000"
+        "tall"                                                      "18"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+    }
+
+    "bh_Tint"
+    {
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
     }
 }
