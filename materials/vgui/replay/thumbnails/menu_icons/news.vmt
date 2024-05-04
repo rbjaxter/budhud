@@ -2,7 +2,6 @@
 {
     "$baseTexture"                                                  "vgui/replay/thumbnails/menu_icons/news"
     "$translucent"                                                  "1"
-    "$vertexalpha"                                                  "1"
     "$vertexcolor"                                                  "1"
-    "$ignorez"                                                      "1"
+    "$vertexalpha"                                                  "1"
 }

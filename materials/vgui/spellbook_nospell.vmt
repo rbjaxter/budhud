@@ -2,7 +2,6 @@
 {
     "$baseTexture"                                                  "vgui/replay/thumbnails/improved_icons/spellbook_nospell"
     "$translucent"                                                  "1"
-    "$vertexalpha"                                                  "1"
     "$vertexcolor"                                                  "1"
-    "$ignorez"                                                      "1"
+    "$vertexalpha"                                                  "1"
 }

@@ -3,8 +3,7 @@
     "$basetexture"                                                  "vgui/replay/thumbnails/speedometer/speedo3500"
     "$translucent"                                                  "1"
     "$vertexcolor"                                                  "1"
-    "$alpha"                                                        "1"
-    "$ignorez"                                                      "1"
+    "$vertexalpha"                                                  "1"
 
     "$speed"                                                        "0"
 

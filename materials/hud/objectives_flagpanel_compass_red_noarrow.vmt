@@ -2,7 +2,6 @@
 {
     "$baseTexture"                                                  "vgui/replay/thumbnails/ctf_icons/objectives_flagpanel_compass_red_noarrow"
     "$translucent"                                                  "1"
-    "$vertexalpha"                                                  "1"
     "$vertexcolor"                                                  "1"
-    "$ignorez"                                                      "1"
+    "$vertexalpha"                                                  "1"
 }
