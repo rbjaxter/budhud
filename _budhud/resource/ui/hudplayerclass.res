@@ -36,6 +36,17 @@
         "tall"                                                      "50"
     }
 
+    "PlayerStatusSpyOutlineImage"
+    {
+        "xpos"                                                      "c-15"
+        "ypos"                                                      "c135"
+        "wide"                                                      "30"
+        "tall"                                                      "30"
+        "image"                                                     "replay/thumbnails/ingame_icons/detective"
+        "fillcolor"                                                 "255 255 255 255"
+        "paintbackgroundtype"                                       "0"
+    }
+
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Added due to Versus Saxton Hale
     ////////////////////////////////////////////////////////////////////////////////////////////////////
