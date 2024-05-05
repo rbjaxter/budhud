@@ -4,5 +4,5 @@
     "$translucent"                                                  "1"
     "$color"                                                        "{101 122 140 255}"
     "$vertexcolor"                                                  "1"
-    "$vertexalpha"                                                  "1"
+    "$vertexalpha"                                                  "0"
 }
