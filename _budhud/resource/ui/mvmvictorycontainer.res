@@ -28,4 +28,9 @@
         "border_default"                                            "bh_b_NESW"
         "border_armed"                                              "bh_b_NESW"
     }
+
+    "BannerContainer"
+    {
+        "ypos"                                                      "30"
+    }
 }
