@@ -47,6 +47,23 @@
         "TF_ItemPresetName3"    "<name>"
     (will probably muck up the quickswitch menu)
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // VTF/VMT Information
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    For VMTs, the following are (in my experience) the only parameters you need to have:
+    "$baseTexture"
+        - Required to locate the VTF
+    "$translucent"
+        - Must be set to 1 for VTFs with any transparency
+        - Can safely be left set to 1 for all VMTs with no issue
+    "$vertexcolor"
+        - Must be set to 1 for VTFs that can be changed with image_drawcolor / image_armedcolor
+        - Can safely be left set to 1 for all VMTs with no issue
+    "$vertexalpha"
+        - Must be set to 1 for VTFs that can be changed with image_drawcolor / image_armedcolor AND the
+          RGBA value used is not fully opaque (alpha value is a value between 0 and 254)
+        - Example in budhud: cog.vtf is used in the main menu to change your rank from casual to competitive.
+          Since the RGBA used for image_drawcolor has transparency (255 255 255 001), $vertexalpha must be set to 1
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Payload Icon Notes
