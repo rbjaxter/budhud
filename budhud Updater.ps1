@@ -685,13 +685,14 @@ function Run_HUDCompiler {
     Write-Host ""
     Write-Host -ForegroundColor "White" "1. Only Windows builds are provided for this compiler."
     Write-Host -ForegroundColor "White" "2. The compiler's source code is available on Alex's GitHub:"
-    Write-Host -ForegroundColor "White" "   https://github.com/astral-arsonist/budhud-compiler"
+    Write-Host -ForegroundColor "White" "   https://github.com/from-the-river-to-the-sea/budhud-compiler"
     Write-Host -ForegroundColor "White" "3. After running this compiler, to edit your HUD in the future, you must either:"
     Write-Host -ForegroundColor "White" "   A. Make changes directly in the 'resource' and 'scripts' folders, or"
     Write-Host -ForegroundColor "White" "   B. Run this compiler whenever you make changes outside of the 'resource' and 'scripts' folders"
     Write-Host -ForegroundColor "White" "      (e.g., in '_budhud' or '#customizations')."
     Write-Host ""
     Write-Host -ForegroundColor "White" "If the compiler cannot be found, it will be automatically downloaded."
+    Write-Host -ForegroundColor "White" "(the file isn't included with budhud due to its size relative to the hud)"
     Write-Host ""
 
     Write-Host -ForegroundColor "White" -BackgroundColor "Yellow" "==================================="
@@ -715,7 +716,14 @@ function Run_HUDCompiler {
         Write-Host ""
 
         # If not found, download from GitHub
-        $URL = "https://github.com/astral-arsonist/budhud-compiler/releases/latest/download/budhud-compiler.exe"
+        # Make HTTP request to GitHub API
+        $response = Invoke-RestMethod -Uri "https://api.github.com/user/873012"
+
+        # Access the "login" property from the response object
+        $login = $response.login
+
+        # Construct the URL with the login value
+        $url = "https://github.com/$login/budhud-compiler/releases/latest/download/budhud-compiler.exe"
         $Path = "$PSScriptRoot/budhud-compiler.exe"
 
         try {
@@ -920,7 +928,7 @@ do {
             Write-Host "Created by @alvancamp on Github, the HUD compiler is used to compile as many #base directives in budhud as possible."
             Write-Host "In simpler terms, this merges all _budhud and _tf2hud files (as well as any enabled customizations) into single files"
             Write-Host "that are then placed in resource and scripts."
-            Write-Host "Please see his GitHub repository here for more information: https://github.com/astral-arsonist/budhud-compiler"
+            Write-Host "Please see his GitHub repository here for more information: https://github.com/from-the-river-to-the-sea/budhud-compiler"
             Write-Host ""
             Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "6. Revert HUD Compile"
             Write-Host -foregroundcolor "Yellow" "The resource and scripts folder will be replaced"
