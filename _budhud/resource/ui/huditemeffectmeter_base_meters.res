@@ -14,6 +14,30 @@
         "enabled"                                                   "0"
     }
 
+    // Colored item effect meter
+    // Change "drawcolor" to whatever RGBA value you'd like to color all meters at once
+    // If you'd like to change individual item meter colors, you'd need to add the below entry to that specific file
+    // and then change the color for each file you paste it in.
+    // Note that opacity doesn't really work how you'd expect since this is an additive effect
+    "bh_ColoredMeter"
+    {
+        "ControlName"                                               "ImagePanel"
+        "fieldName"                                                 "bh_ColoredMeter"
+        "xpos"                                                      "0"
+        "ypos"                                                      "0"
+        "zpos"                                                      "2"
+        "wide"                                                      "f0"
+        "tall"                                                      "f0"
+        "autoResize"                                                "0"
+        "pinCorner"                                                 "0"
+        "labeltext"                                                 ""
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "drawcolor"                                                 "255 255 255 255"
+        "image"                                                     "replay/thumbnails/general_icons/bh_modulate"
+        "scaleimage"                                                "1"
+    }
+
     HudItemEffectMeter
     {
         "fieldName"                                                 "HudItemEffectMeter"
