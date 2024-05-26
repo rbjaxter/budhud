@@ -5,24 +5,42 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 event HudMedicCharged
 {
-    Animate              ChargeLabel                    fgcolor            bh_chargecolor1            Linear            0              0.3
-    Animate              ChargeLabel                    fgcolor            bh_chargecolor2            Linear            0.3            0.4
-    Animate              ChargeMeter                    fgcolor            bh_chargecolor1            Linear            0              0.3
-    Animate              ChargeMeter                    fgcolor            bh_chargecolor2            Linear            0.3            0.4
-
+    // Medigun, kritzkrieg, quickfix
+    Animate             ChargeLabel                       fgcolor            bh_UberLabel_Flash1            Linear            0              0.3
+    Animate             ChargeLabel                       fgcolor            bh_UberLabel_Flash2            Linear            0.3            0.4
+    Animate             ChargeMeter                       fgcolor            bh_UberMeter_Flash1            Linear            0              0.3
+    Animate             ChargeMeter                       fgcolor            bh_UberMeter_Flash2            Linear            0.3            0.4
+    // Vaccinator
+    Animate             IndividualChargesLabel            fgcolor            bh_UberLabel_Flash2            Linear            0.3            0.4
+    Animate             IndividualChargesLabel            fgcolor            bh_UberLabel_Flash1            Linear            0              0.3
+    Animate             ChargeMeter1                      fgcolor            bh_UberMeter_Flash1            Linear            0              0.3
+    Animate             ChargeMeter1                      fgcolor            bh_UberMeter_Flash2            Linear            0.3            0.4
+    Animate             ChargeMeter2                      fgcolor            bh_UberMeter_Flash1            Linear            0              0.3
+    Animate             ChargeMeter2                      fgcolor            bh_UberMeter_Flash2            Linear            0.3            0.4
+    Animate             ChargeMeter3                      fgcolor            bh_UberMeter_Flash1            Linear            0              0.3
+    Animate             ChargeMeter3                      fgcolor            bh_UberMeter_Flash2            Linear            0.3            0.4
+    Animate             ChargeMeter4                      fgcolor            bh_UberMeter_Flash1            Linear            0              0.3
+    Animate             ChargeMeter4                      fgcolor            bh_UberMeter_Flash2            Linear            0.3            0.4
     // Increasing this value slows the speed of the animation down
-    RunEvent             HudMedicChargedLoop            1
+    RunEvent            HudMedicChargedLoop               1
 }
 
 event HudMedicChargedLoop
 {
-    RunEvent             HudMedicCharged                0
+    RunEvent            HudMedicCharged            0
 }
 
 event HudMedicChargedStop
 {
-    StopEvent            HudMedicCharged                0
-    StopEvent            HudMedicChargedLoop            0
-    Animate              ChargeLabel                    fgcolor            bh_chargemeter             Linear            0              0.0001
-    Animate              ChargeMeter                    fgcolor            bh_chargemeter             Linear            0              0.0001
+    StopEvent            HudMedicCharged                   0
+    StopEvent            HudMedicChargedLoop               0
+    // Medigun, kritzkrieg, quickfix
+    Animate              ChargeLabel                       fgcolor            bh_UberLabel_Base            Linear            0            0.0001
+    Animate              ChargeMeter                       fgcolor            bh_UberMeter_Base            Linear            0            0.0001
+    // Vaccinator
+    Animate              IndividualChargesLabel            fgcolor            bh_UberLabel_Base            Linear            0            0.0001
+    Animate              ChargeMeter1                      fgcolor            bh_UberMeter_Base            Linear            0            0.0001
+    Animate              ChargeMeter2                      fgcolor            bh_UberMeter_Base            Linear            0            0.0001
+    Animate              ChargeMeter3                      fgcolor            bh_UberMeter_Base            Linear            0            0.0001
+    Animate              ChargeMeter4                      fgcolor            bh_UberMeter_Base            Linear            0            0.0001
 }

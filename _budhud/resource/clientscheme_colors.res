@@ -114,22 +114,28 @@ Scheme
         // Default Charge Meter Colors
         //////////////////////////////
 
-        "bh_chargecolor1"                                           "243 157 048 255"   // When full, uber will change between these two values
-        "bh_chargecolor2"                                           "204 093 027 255"
-        "bh_chargemeter"                                            "255 255 255 255"   // Uber chargemeter fill color
-        "bh_chargemeterBG"                                          "150 150 150 255"   // Uber chargemeter background
+        // Uber Meter
+        "bh_UberMeter_Base"                                         "255 255 255 255"   // Uber chargemeter fill color
+        "bh_UberMeter_Background"                                   "150 150 150 255"   // Uber chargemeter background
+        "bh_UberMeter_Flash1"                                       "243 157 048 255"   // When full, uber meter will change between these two values
+        "bh_UberMeter_Flash2"                                       "204 093 027 255"
+
+        // Uber Percentage
+        "bh_UberLabel_Base"                                         "255 255 255 255"   // Uber percentage base color
+        "bh_UberLabel_Flash1"                                       "243 157 048 255"   // When full, uber percentage will change between these two values
+        "bh_UberLabel_Flash2"                                       "204 093 027 255"
 
         //////////////////////////////
         // Rainbow Charge Meter Colors
         //////////////////////////////
 
-        "bh_rainbowcolor1"                                          "255 000 000 255"
-        "bh_rainbowcolor2"                                          "255 127 000 255"
-        "bh_rainbowcolor3"                                          "255 255 000 255"
-        "bh_rainbowcolor4"                                          "000 255 000 255"
-        "bh_rainbowcolor5"                                          "000 000 255 255"
-        "bh_rainbowcolor6"                                          "075 000 130 255"
-        "bh_rainbowcolor7"                                          "139 000 255 255"
+        "bh_UberMeter_Rainbow1"                                     "255 000 000 255"
+        "bh_UberMeter_Rainbow2"                                     "255 127 000 255"
+        "bh_UberMeter_Rainbow3"                                     "255 255 000 255"
+        "bh_UberMeter_Rainbow4"                                     "000 255 000 255"
+        "bh_UberMeter_Rainbow5"                                     "000 000 255 255"
+        "bh_UberMeter_Rainbow6"                                     "075 000 130 255"
+        "bh_UberMeter_Rainbow7"                                     "139 000 255 255"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Item Charge Meters

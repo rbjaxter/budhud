@@ -48,8 +48,8 @@
         "ypos"                                                      "c114"
         "wide"                                                      "100"
         "tall"                                                      "6"
-        "fgcolor_override"                                          "bh_chargemeter"
-        "bgcolor_override"                                          "bh_chargemeterBG"
+        "fgcolor_override"                                          "bh_UberMeter_Base"
+        "bgcolor_override"                                          "bh_UberMeter_Background"
     }
 
     "ChargeMeter1"
@@ -63,8 +63,8 @@
         "zpos"                                                      "2"
         "wide"                                                      "48"
         "tall"                                                      "6"
-        "fgcolor_override"                                          "bh_chargemeter"
-        "bgcolor_override"                                          "bh_chargemeterBG"
+        "fgcolor_override"                                          "bh_UberMeter_Base"
+        "bgcolor_override"                                          "bh_UberMeter_Background"
     }
 
     "ChargeMeter2"
@@ -78,8 +78,8 @@
         "zpos"                                                      "2"
         "wide"                                                      "48"
         "tall"                                                      "6"
-        "fgcolor_override"                                          "bh_chargemeter"
-        "bgcolor_override"                                          "bh_chargemeterBG"
+        "fgcolor_override"                                          "bh_UberMeter_Base"
+        "bgcolor_override"                                          "bh_UberMeter_Background"
     }
 
     "ChargeMeter3"
@@ -93,8 +93,8 @@
         "zpos"                                                      "2"
         "wide"                                                      "48"
         "tall"                                                      "6"
-        "fgcolor_override"                                          "bh_chargemeter"
-        "bgcolor_override"                                          "bh_chargemeterBG"
+        "fgcolor_override"                                          "bh_UberMeter_Base"
+        "bgcolor_override"                                          "bh_UberMeter_Background"
     }
 
     "ChargeMeter4"
@@ -108,8 +108,8 @@
         "zpos"                                                      "2"
         "wide"                                                      "48"
         "tall"                                                      "6"
-        "fgcolor_override"                                          "bh_chargemeter"
-        "bgcolor_override"                                          "bh_chargemeterBG"
+        "fgcolor_override"                                          "bh_UberMeter_Base"
+        "bgcolor_override"                                          "bh_UberMeter_Background"
     }
 
     "IndividualChargesLabel"
@@ -120,7 +120,7 @@
         "tall"                                                      "150"
         "labeltext"                                                 "#TF_IndividualUberchargesMinHUD"
         "font"                                                      "bh_Font40DropShadow"
-        "fgcolor"                                                   "bh_white"
+        "fgcolor"                                                   "bh_UberLabel_Base"
         "textalignment"                                             "center"
     }
 
@@ -134,7 +134,7 @@
         "tall"                                                      "150"
         "textAlignment"                                             "center"
         "font"                                                      "bh_Font40DropShadow"
-        "fgcolor"                                                   "bh_white"
+        "fgcolor"                                                   "bh_UberLabel_Base"
     }
 
     "ResistIcon"
