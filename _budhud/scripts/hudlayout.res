@@ -457,14 +457,6 @@
         "PaintBackgroundType"                                       "2"
     }
 
-    "HudMenuSpyDisguise"
-    {
-        "xpos"                                                      "c-230"
-        "ypos"                                                      "c-65"
-        "wide"                                                      "500"
-        "tall"                                                      "250"
-    }
-
     "HudDemomanPipes"
     {
         "xpos"                                                      "0"
