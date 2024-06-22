@@ -12,7 +12,7 @@
 
     "playlist"
     {
-        "ypos"                                                      "c-167"
+        "ypos"                                                      "c-184"
         "tall"                                                      "f0"
     }
 
