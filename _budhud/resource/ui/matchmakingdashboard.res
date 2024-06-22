@@ -1,10 +1,8 @@
 "Resource/UI/MatchMakingDashboard.res"
 {
-
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Excluding this breaks things
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-
     "MMDashboard"
     {
     }
@@ -25,17 +23,14 @@
             "wide"                                                  "50"
             "tall"                                                  "28"
             "labeltext"                                             ""
-
             "defaultBgColor_override"                               "bh_blank"
             "armedBgColor_override"                                 "bh_blank"
             "depressedBgColor_override"                             "bh_Theme_BG30"
             "defaultFgColor_override"                               "bh_white"
             "armedFgColor_override"                                 "bh_bgreen"
             "depressedFgColor_override"                             "bh_ButtonDepressed"
-
             "image_drawcolor"                                       "255 255 255 255"
             "image_armedcolor"                                      "050 205 050 255"
-
             "roundedcorners"                                        "0"
             "textinsety"                                            "4"
             "textinsetx"                                            "0"
@@ -56,17 +51,14 @@
             "wide"                                                  "50"
             "tall"                                                  "28"
             "labeltext"                                             ""
-
             "defaultBgColor_override"                               "bh_blank"
             "armedBgColor_override"                                 "bh_blank"
             "depressedBgColor_override"                             "bh_Theme_BG30"
             "defaultFgColor_override"                               "bh_white"
             "armedFgColor_override"                                 "bh_bgreen"
             "depressedFgColor_override"                             "bh_ButtonDepressed"
-
             "image_drawcolor"                                       "255 255 255 255"
             "image_armedcolor"                                      "000 153 255 255"
-
             "roundedcorners"                                        "0"
             "textinsety"                                            "4"
             "textinsetx"                                            "0"
@@ -87,17 +79,14 @@
             "wide"                                                  "50"
             "tall"                                                  "28"
             "labeltext"                                             ""
-
             "defaultBgColor_override"                               "bh_blank"
             "armedBgColor_override"                                 "bh_blank"
             "depressedBgColor_override"                             "bh_Theme_BG30"
             "defaultFgColor_override"                               "bh_white"
             "armedFgColor_override"                                 "bh_bgreen"
             "depressedFgColor_override"                             "bh_ButtonDepressed"
-
             "image_drawcolor"                                       "255 255 255 255"
             "image_armedcolor"                                      "245 050 041 255"
-
             "roundedcorners"                                        "0"
             "textinsety"                                            "4"
             "textinsetx"                                            "0"
@@ -118,17 +107,14 @@
             "wide"                                                  "50"
             "tall"                                                  "28"
             "labeltext"                                             ""
-
             "defaultBgColor_override"                               "bh_blank"
             "armedBgColor_override"                                 "bh_blank"
             "depressedBgColor_override"                             "bh_Theme_BG30"
             "defaultFgColor_override"                               "bh_white"
             "armedFgColor_override"                                 "bh_bgreen"
             "depressedFgColor_override"                             "bh_ButtonDepressed"
-
             "image_drawcolor"                                       "255 255 255 255"
             "image_armedcolor"                                      "245 050 041 255"
-
             "roundedcorners"                                        "0"
             "textinsety"                                            "4"
             "textinsetx"                                            "0"
@@ -191,7 +177,6 @@
                 "paintbackground"                                   "0"
                 "labeltext"                                         "%queue_state%"
                 "font"                                              "bh_Font12"
-
                 "defaultFgColor_override"                           "bh_white"
                 "armedFgColor_override"                             "bh_bred"
                 "defaultBgColor_override"                           "bh_blank"
@@ -223,7 +208,6 @@
                 "wide"                                              "f0"
                 "tall"                                              "f0"
                 "paintbackground"                                   "0"
-
                 "SubImage"
                 {
                     "ypos"                                          "r-6969"
@@ -235,36 +219,35 @@
 
         "ToggleChatButton"
         {
-            "image_drawcolor"                                           "255 255 255 255"
-            "image_armedcolor"                                          "240 134 49 255"
-            "paintbackground"                                           "0"
+            "image_drawcolor"                                       "255 255 255 255"
+            "image_armedcolor"                                      "240 134 49 255"
+            "paintbackground"                                       "0"
 
             "SubImage"
             {
-                "image"                                                 "replay/thumbnails/menu_icons/chat"
+                "image"                                             "replay/thumbnails/menu_icons/chat"
             }
         }
 
         "bh_PartyPin"
         {
-            "ControlName"                                               "Label"
-            "fieldName"                                                 "bh_PartyPin"
-            "xpos"                                                      "114"
-            "ypos"                                                      "10"
-            "zpos"                                                      "0"
-            "wide"                                                      "100"
-            "tall"                                                      "0"
-            "visible"                                                   "1"
-            "enabled"                                                   "1"
-            "bgcolor_override"                                          "0 0 0 0"
-        }
+            "ControlName"                                           "Label"
+            "fieldName"                                             "bh_PartyPin"
+            "xpos"                                                  "114"
+            "ypos"                                                  "10"
+            "zpos"                                                  "0"
+            "wide"                                                  "100"
+            "tall"                                                  "0"
+            "visible"                                               "1"
+            "enabled"                                               "1"
+            "bgcolor_override"                                      "0 0 0 0"
 
+        }
         "PartySlot0"
         {
             "pin_to_sibling"                                        "bh_PartyPin"
             "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
             "pin_to_sibling_corner"                                 "0"
-
             "xpos"                                                  "72"
             "wide"                                                  "24"
             "tall"                                                  "24"
@@ -275,7 +258,6 @@
             "pin_to_sibling"                                        "bh_PartyPin"
             "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
             "pin_to_sibling_corner"                                 "0"
-
             "xpos"                                                  "48"
             "wide"                                                  "24"
             "tall"                                                  "24"
@@ -286,7 +268,6 @@
             "pin_to_sibling"                                        "bh_PartyPin"
             "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
             "pin_to_sibling_corner"                                 "0"
-
             "xpos"                                                  "24"
             "wide"                                                  "24"
             "tall"                                                  "24"
@@ -297,7 +278,6 @@
             "pin_to_sibling"                                        "bh_PartyPin"
             "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
             "pin_to_sibling_corner"                                 "0"
-
             "xpos"                                                  "0"
             "wide"                                                  "24"
             "tall"                                                  "24"
@@ -308,7 +288,6 @@
             "pin_to_sibling"                                        "bh_PartyPin"
             "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
             "pin_to_sibling_corner"                                 "0"
-
             "xpos"                                                  "-24"
             "wide"                                                  "24"
             "tall"                                                  "24"
@@ -319,7 +298,6 @@
             "pin_to_sibling"                                        "bh_PartyPin"
             "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
             "pin_to_sibling_corner"                                 "0"
-
             "xpos"                                                  "-48"
             "wide"                                                  "24"
             "tall"                                                  "24"
