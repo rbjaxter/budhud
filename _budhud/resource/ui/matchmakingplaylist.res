@@ -41,7 +41,7 @@
         "ControlName"                                               "CExButton"
         "fieldName"                                                 "bh_QuickplayBG"
         "xpos"                                                      "16-1-1-1-1" // yes...yes i know
-        "ypos"                                                      "300"
+        "ypos"                                                      "304"
         "zpos"                                                      "0"
         "wide"                                                      "180"
         "tall"                                                      "32"
