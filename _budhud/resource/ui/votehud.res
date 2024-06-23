@@ -176,6 +176,7 @@
         "bgcolor_override"                                          "bh_ItemPanel"
         "border"                                                    "bh_b_NESW"
         "PaintBackground"                                           "1"
+        "issue_font"                                                "bh_Font_BotChars10"
 
         "CallVoteButton"
         {
