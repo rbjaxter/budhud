@@ -13,17 +13,17 @@
 
     "HudDamageIndicator"
     {
-        "fieldName"                                                 "HudDamageIndicator"        // Remove everything besides
-        "visible"                                                   "1"                         //
-        "enabled"                                                   "1"                         //  "HudDamageIndicator
-        "MinimumWidth"                                              "7"                         //  {
-        "MaximumWidth"                                              "24"                        //  }   "
-        "StartRadius"                                               "80"                        //
-        "EndRadius"                                                 "80"                        // To get the default back
-        "MinimumHeight"                                             "40"                        //
-        "MaximumHeight"                                             "70"                        //
-        "MinimumTime"                                               "1"                         //
-        "Noise"                                                     "0"                         // 0 removes noise from direction, improving accuracy
+        "fieldName"                                                 "HudDamageIndicator"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "MinimumWidth"                                              "7"
+        "MaximumWidth"                                              "24"
+        "StartRadius"                                               "80"
+        "EndRadius"                                                 "80"
+        "MinimumHeight"                                             "40"
+        "MaximumHeight"                                             "70"
+        "MinimumTime"                                               "1"
+        "Noise"                                                     "0" // 0 removes noise from direction, improving accuracy
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////

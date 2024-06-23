@@ -1,0 +1,6 @@
+"Resource/HudLayout.res"
+{
+    "HudDamageIndicator"
+    {
+    }
+}
