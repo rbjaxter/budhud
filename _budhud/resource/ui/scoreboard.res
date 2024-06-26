@@ -505,6 +505,21 @@
         "textAlignment"                                             "east"
     }
 
+    "SpectatorsInQueue"
+    {
+
+        "pin_to_sibling"                                            "bh_LocalStatsPin"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+
+        "xpos"                                                      "-300"
+        "ypos"                                                      "23"
+        "wide"                                                      "300"
+        "tall"                                                      "12"
+        "fgcolor"                                                   "bh_white"
+        "textAlignment"                                             "east"
+    }
+
     "LocalPlayerStatsPanel"
     {
         "pin_to_sibling"                                            "bh_LocalStatsPin"
@@ -924,12 +939,5 @@
             "visible"                                               "0"
             "enabled"                                               "0"
         }
-    }
-
-    "SpectatorsInQueue"
-    {
-        "xpos"                                                      "10"
-        "ypos"                                                      "327"
-        "wide"                                                      "280"
     }
 }
