@@ -70,6 +70,13 @@
 
     "mouseoveritempanel"
     {
+        "wide"                                                      "200"
+        "tall"                                                      "150"
+
+        "text_ypos"                                                 "15"
+        "text_center_x"                                             "1"
+        "model_center_x"                                            "1"
+
         "itemmodelpanel"
         {
             "allow_rot"                                             "0"
