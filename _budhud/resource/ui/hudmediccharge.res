@@ -14,6 +14,25 @@
         "enabled"                                                   "0"
     }
 
+    "bh_UberBG"
+    {
+        "ControlName"                                               "CExLabel"
+        "fieldName"                                                 "bh_UberBG"
+        "xpos"                                                      "c125"
+        "ypos"                                                      "c95"
+        "zpos"                                                      "-6969"
+        "wide"                                                      "100"
+        "tall"                                                      "42"
+        "autoResize"                                                "0"
+        "pinCorner"                                                 "0"
+        "labeltext"                                                 ""
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "alpha"                                                     "0"
+        "bgcolor_override"                                          "bh_HealthBox_Base"
+        "paintbackgroundtype"                                       "2"
+    }
+
     "bh_ResistPin"
     {
         "ControlName"                                               "Label"
