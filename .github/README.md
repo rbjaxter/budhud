@@ -22,7 +22,7 @@ budhud includes a shell script (`budhud Updater.ps1`) in the base directory that
 To open this file, you need to Right click the file and select `Run with PowerShell`.
 
 ## HUD Installer / Customizer
-If you would like to install and customize budhud (as well as other huds) quickly and easily, be sure to check out the  [TF2HUD Editor](https://github.com/CriticalFlaw/TF2HUD.Editor) created by [CriticalFlaw](https://github.com/CriticalFlaw/) and [Revan](https://github.com/cooolbros). You can read more about it [here](https://www.editor.criticalflaw.ca/).
+If you would like to install and customize budhud (as well as other huds) quickly and easily, be sure to check out the  [TF2HUD Editor](https://github.com/CriticalFlaw/TF2HUD.Editor) created by [CriticalFlaw](https://github.com/CriticalFlaw/) and [Revan](https://github.com/cooolbros). You can read more about it [here](https://criticalflaw.ca/TF2HUD.Editor/).
 
 ## HUD Credits
 ### HUD Font
@@ -32,7 +32,7 @@ If you would like to install and customize budhud (as well as other huds) quickl
 * Freepik: http://www.freepik.com/
 
 ### HUD Compiler
-* Lange: https://github.com/anarcho-loneliness
+* Lange: https://github.com/Abrahamic-God
 
 ### HUD Translations
 * Chinese: Ultra Violet Amethyst 紫微星宿
