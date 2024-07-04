@@ -263,7 +263,7 @@ Scheme
                 "tall"                                              "11"
                 "weight"                                            "500"
                 "yres"                                              "480 599"
-                "dropshadow"                                        "1"
+                "antialias"                                         "1"
             }
             "2"
             {
@@ -271,7 +271,7 @@ Scheme
                 "tall"                                              "11"
                 "weight"                                            "500"
                 "yres"                                              "600 767"
-                "dropshadow"                                        "1"
+                "antialias"                                         "1"
             }
             "3"
             {
@@ -279,7 +279,7 @@ Scheme
                 "tall"                                              "11"
                 "weight"                                            "500"
                 "yres"                                              "768 1023"
-                "dropshadow"                                        "1"
+                "antialias"                                         "1"
             }
             "4"
             {
@@ -287,7 +287,7 @@ Scheme
                 "tall"                                              "12"
                 "weight"                                            "500"
                 "yres"                                              "1024 1199"
-                "dropshadow"                                        "1"
+                "antialias"                                         "1"
             }
             "5"
             {
@@ -295,7 +295,7 @@ Scheme
                 "tall"                                              "13"
                 "weight"                                            "500"
                 "yres"                                              "1200 10000"
-                "dropshadow"                                        "1"
+                "antialias"                                         "1"
             }
         }
     }
