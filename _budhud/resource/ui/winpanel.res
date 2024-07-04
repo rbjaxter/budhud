@@ -133,10 +133,10 @@
             "enabled"                                               "0"
         }
 
-        "bh_BGscoreBlue"
+        "bh_BlueScoreBG"
         {
             "ControlName"                                           "ImagePanel"
-            "fieldName"                                             "bh_BGscoreBlue"
+            "fieldName"                                             "bh_BlueScoreBG"
             "xpos"                                                  "0"
             "ypos"                                                  "10"
             "wide"                                                  "112"
@@ -149,10 +149,10 @@
             "border"                                                "bh_b_Blue"
         }
 
-        "bh_BGscoreRed"
+        "bh_RedScoreBG"
         {
             "ControlName"                                           "ImagePanel"
-            "fieldName"                                             "bh_BGscoreRed"
+            "fieldName"                                             "bh_RedScoreBG"
             "xpos"                                                  "112"
             "ypos"                                                  "10"
             "wide"                                                  "112"

@@ -9,7 +9,7 @@
 
     "WarningLabel"
     {
-        "font"                                                      "bh_Font48"
+        "font"                                                      "bh_Font30"
         "xpos"                                                      "45"
         "ypos"                                                      "18"
         "zpos"                                                      "1"

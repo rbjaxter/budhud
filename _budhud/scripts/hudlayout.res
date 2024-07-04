@@ -209,6 +209,19 @@
         "ypos"                                                      "15"
     }
 
+    "ArenaWinPanel"
+    {
+        "xpos"                                                      "c-225"
+        "ypos"                                                      "260"
+        "wide"                                                      "450"
+        "tall"                                                      "300"
+    }
+
+    "HudArenaClassLayout"
+    {
+        "zpos"                                                      "1"
+    }
+
     "HudItemEffectMeter"
     {
         "xpos"                                                      "0"
@@ -442,14 +455,6 @@
         "xpos"                                                      "c-112"
         "ypos"                                                      "270"
         "wide"                                                      "224"
-        "tall"                                                      "300"
-    }
-
-    "ArenaWinPanel"
-    {
-        "xpos"                                                      "c-225"
-        "ypos"                                                      "260"
-        "wide"                                                      "450"
         "tall"                                                      "300"
     }
 

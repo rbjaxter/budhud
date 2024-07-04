@@ -3,15 +3,42 @@
     "ArenaWinPanelScores"
     {
         "xpos"                                                      "0"
-        "ypos"                                                      "36"
-        "wide"                                                      "450"
-        "tall"                                                      "200"
+        "ypos"                                                      "25"
+        "wide"                                                      "f0"
+        "tall"                                                      "f0"
 
         "BlueScoreBG"
         {
             "ypos"                                                  "r-6969"
-        "visible"                                                   "0"
-        "enabled"                                                   "0"
+            "visible"                                               "0"
+            "enabled"                                               "0"
+        }
+
+        "RedScoreBG"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
+        }
+
+        "bh_Background"
+        {
+            "ControlName"                                           "ImagePanel"
+            "fieldName"                                             "bh_Background"
+            "xpos"                                                  "25"
+            "ypos"                                                  "61"
+            "zpos"                                                  "0"
+            "wide"                                                  "400"
+            "tall"                                                  "120"
+            "visible"                                               "1"
+            "enabled"                                               "1"
+            "scaleImage"                                            "1"
+            "fillcolor"                                             ""
+            "src_corner_height"                                     "3"
+            "src_corner_width"                                      "3"
+            "draw_corner_width"                                     "2"
+            "draw_corner_height"                                    "2"
+            "border"                                                "BackpackItemGrayedOut"
         }
 
         "bh_BlueScoreBG"
@@ -20,22 +47,14 @@
             "fieldName"                                             "bh_BlueScoreBG"
             "xpos"                                                  "25"
             "ypos"                                                  "35"
-            "zpos"                                                  "-1"
             "wide"                                                  "200"
-            "tall"                                                  "25"
-            "autoResize"                                            "0"
-            "pinCorner"                                             "0"
+            "tall"                                                  "27"
             "visible"                                               "1"
             "enabled"                                               "1"
-            "fillcolor"                                             "70 130 180 153"
-            "scaleImage"                                            "1"
-        }
-
-        "RedScoreBG"
-        {
-            "ypos"                                                  "r-6969"
-        "visible"                                                   "0"
-        "enabled"                                                   "0"
+            "fillcolor"                                             ""
+            "draw_corner_width"                                     "0"
+            "draw_corner_height"                                    "0"
+            "border"                                                "bh_b_Blue"
         }
 
         "bh_RedScoreBG"
@@ -44,15 +63,14 @@
             "fieldName"                                             "bh_RedScoreBG"
             "xpos"                                                  "225"
             "ypos"                                                  "35"
-            "zpos"                                                  "-1"
             "wide"                                                  "200"
-            "tall"                                                  "25"
-            "autoResize"                                            "0"
-            "pinCorner"                                             "0"
+            "tall"                                                  "27"
             "visible"                                               "1"
             "enabled"                                               "1"
-            "PaintBackgroundType"                                   "2"
-            "fillcolor"                                             "205 50 50 153"
+            "fillcolor"                                             ""
+            "draw_corner_width"                                     "0"
+            "draw_corner_height"                                    "0"
+            "border"                                                "bh_b_Red"
         }
 
         "BlueTeamLabel"
@@ -68,10 +86,9 @@
 
         "BlueTeamScore"
         {
-            "font"                                                  "bh_Font48"
-            "textAlignment"                                         "east"
-            "xpos"                                                  "138"
-            "ypos"                                                  "1"
+            "font"                                                  "bh_Font36"
+            "xpos"                                                  "140"
+            "ypos"                                                  "12"
             "zpos"                                                  "3"
             "wide"                                                  "80"
             "tall"                                                  "70"
@@ -79,13 +96,41 @@
 
         "BlueTeamScoreDropshadow"
         {
-            "font"                                                  "bh_Font48"
-            "fgcolor"                                               "bh_Shadow"
-            "xpos"                                                  "140"
-            "ypos"                                                  "3"
+            "pin_to_sibling"                                        "BlueTeamScore"
+            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
+            "pin_to_sibling_corner"                                 "0"
+            "font"                                                  "bh_Font36"
+            "textAlignment"                                         "east"
+            "xpos"                                                  "1"
+            "ypos"                                                  "-1"
             "zpos"                                                  "3"
             "wide"                                                  "80"
             "tall"                                                  "70"
+            "fgcolor"                                               "bh_Shadow"
+        }
+
+        "RedTeamScore"
+        {
+            "font"                                                  "bh_Font36"
+            "xpos"                                                  "230"
+            "ypos"                                                  "12"
+            "zpos"                                                  "3"
+            "wide"                                                  "80"
+            "tall"                                                  "70"
+        }
+
+        "RedTeamScoreDropShadow"
+        {
+            "pin_to_sibling"                                        "RedTeamScore"
+            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
+            "pin_to_sibling_corner"                                 "0"
+            "font"                                                  "bh_Font36"
+            "xpos"                                                  "-1"
+            "ypos"                                                  "-1"
+            "zpos"                                                  "2"
+            "wide"                                                  "80"
+            "tall"                                                  "70"
+            "fgcolor"                                               "bh_Shadow"
         }
 
         "RedTeamLabel"
@@ -97,32 +142,11 @@
             "tall"                                                  "28"
         }
 
-        "RedTeamScore"
-        {
-            "font"                                                  "bh_Font48"
-            "xpos"                                                  "230"
-            "ypos"                                                  "1"
-            "zpos"                                                  "3"
-            "wide"                                                  "80"
-            "tall"                                                  "70"
-        }
-
-        "RedTeamScoreDropshadow"
-        {
-            "font"                                                  "bh_Font48"
-            "fgcolor"                                               "bh_Shadow"
-            "xpos"                                                  "232"
-            "ypos"                                                  "3"
-            "zpos"                                                  "3"
-            "wide"                                                  "80"
-            "tall"                                                  "70"
-        }
-
         "ArenaStreaksBG"
         {
             "ypos"                                                  "r-6969"
-        "visible"                                                   "0"
-        "enabled"                                                   "0"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "ArenaStreakLabel"
@@ -130,7 +154,7 @@
             "font"                                                  "bh_Font14"
             "fgcolor"                                               "bh_white"
             "xpos"                                                  "35"
-            "ypos"                                                  "-15"
+            "ypos"                                                  "5"
             "zpos"                                                  "3"
             "wide"                                                  "380"
             "tall"                                                  "40"
@@ -142,25 +166,6 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
-    }
-
-    "bh_WinPanelBG"
-    {
-        "ControlName"                                               "ImagePanel"
-        "fieldName"                                                 "WinPanelBackground2"
-        "xpos"                                                      "25"
-        "ypos"                                                      "95"
-        "zpos"                                                      "0"
-        "wide"                                                      "400"
-        "tall"                                                      "118"
-        "visible"                                                   "1"
-        "enabled"                                                   "1"
-        "scaleImage"                                                "1"
-        "fillcolor"                                                 "0 0 0 100"
-        "src_corner_height"                                         "3"
-        "src_corner_width"                                          "3"
-        "draw_corner_width"                                         "0"
-        "draw_corner_height"                                        "0"
     }
 
     "LosingTeamLabel"
@@ -188,7 +193,7 @@
     {
         "font"                                                      "bh_Font20"
         "xpos"                                                      "35"
-        "ypos"                                                      "94"
+        "ypos"                                                      "80"
         "zpos"                                                      "1"
         "wide"                                                      "380"
         "tall"                                                      "40"
@@ -196,10 +201,13 @@
 
     "WinningTeamLabelDropshadow"
     {
+        "pin_to_sibling"                                            "WinningTeamLabel"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+        "xpos"                                                      "-1"
+        "ypos"                                                      "-1"
         "font"                                                      "bh_Font20"
         "fgcolor"                                                   "bh_Shadow"
-        "xpos"                                                      "36"
-        "ypos"                                                      "95"
         "zpos"                                                      "1"
         "wide"                                                      "380"
         "tall"                                                      "40"
@@ -229,11 +237,28 @@
         "enabled"                                                   "0"
     }
 
+    "bh_MVPPanelPin"
+    {
+        "ControlName"                                               "Label"
+        "fieldName"                                                 "bh_MVPPanelPin"
+        "xpos"                                                      "50"
+        "ypos"                                                      "120"
+        "zpos"                                                      "0"
+        "wide"                                                      "100"
+        "tall"                                                      "0"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "bgcolor_override"                                          "0 0 0 255"
+    }
+
     "TopPlayersLabel"
     {
+        "pin_to_sibling"                                            "bh_MVPPanelPin"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+        "xpos"                                                      "-10"
+        "ypos"                                                      "0"
         "font"                                                      "bh_Font8"
-        "xpos"                                                      "50"
-        "ypos"                                                      "140"
         "zpos"                                                      "3"
         "wide"                                                      "300"
         "tall"                                                      "20"
@@ -241,9 +266,12 @@
 
     "DamageThisRoundLabel"
     {
+            "pin_to_sibling"                                            "bh_MVPPanelPin"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+        "xpos"                                                      "-214"
+        "ypos"                                                      "0"
         "font"                                                      "bh_Font8"
-        "xpos"                                                      "265"
-        "ypos"                                                      "140"
         "zpos"                                                      "3"
         "wide"                                                      "50"
         "tall"                                                      "20"
@@ -251,9 +279,12 @@
 
     "HealingThisRoundLabel"
     {
+        "pin_to_sibling"                                            "bh_MVPPanelPin"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+        "xpos"                                                      "-265"
+        "ypos"                                                      "0"
         "font"                                                      "bh_Font8"
-        "xpos"                                                      "315"
-        "ypos"                                                      "140"
         "zpos"                                                      "3"
         "wide"                                                      "50"
         "tall"                                                      "20"
@@ -261,9 +292,12 @@
 
     "LifetimeThisRoundLabel"
     {
+        "pin_to_sibling"                                            "bh_MVPPanelPin"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+        "xpos"                                                      "-310"
+        "ypos"                                                      "0"
         "font"                                                      "bh_Font8"
-        "xpos"                                                      "360"
-        "ypos"                                                      "140"
         "zpos"                                                      "3"
         "wide"                                                      "50"
         "tall"                                                      "20"
@@ -271,9 +305,12 @@
 
     "KillingBlowsThisRoundLabel"
     {
+        "pin_to_sibling"                                            "bh_MVPPanelPin"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+        "xpos"                                                      "-347"
+        "ypos"                                                      "0"
         "font"                                                      "bh_Font8"
-        "xpos"                                                      "400"
-        "ypos"                                                      "140"
         "zpos"                                                      "3"
         "wide"                                                      "50"
         "tall"                                                      "20"
@@ -281,13 +318,20 @@
 
     "HorizontalLine"
     {
-        "ypos"                                                      "155"
+        "pin_to_sibling"                                            "bh_MVPPanelPin"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+        "xpos"                                                      "20"
+        "ypos"                                                      "-15"
+        "wide"                                                      "390"
+        "tall"                                                      "1"
+        "fillcolor"                                                 "bh_white"
     }
 
     "ArenaWinPanelWinnersPanel"
     {
         "xpos"                                                      "20"
-        "ypos"                                                      "-10"
+        "ypos"                                                      "-30"
 
         "Player1Avatar"
         {
@@ -403,10 +447,11 @@
             "ypos"                                                  "199"
         }
     }
+
     "ArenaWinPanelLosersPanel"
     {
         "xpos"                                                      "20"
-        "ypos"                                                      "-10"
+        "ypos"                                                      "-30"
 
         "Player1Avatar"
         {
@@ -496,6 +541,7 @@
             "ypos"                                                  "199"
             "wide"                                                  "128"
         }
+
         "Player3Class"
         {
             "ypos"                                                  "199"
