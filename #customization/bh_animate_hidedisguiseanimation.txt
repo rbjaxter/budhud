@@ -1,0 +1,15 @@
+event HudSpyDisguiseChanged
+{
+}
+
+event HudSpyDisguiseHide
+{
+}
+
+event HudSpyDisguiseFadeIn
+{
+}
+
+event HudSpyDisguiseFade
+{
+}

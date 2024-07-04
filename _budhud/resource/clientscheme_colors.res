@@ -80,7 +80,7 @@ Scheme
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
         "bh_AmmoBox_Base"                                           "150 150 150 125"
-        "bh_AmmoBox_Low"                                            "186 032 032 255"
+        "bh_AmmoBox_Low"                                            "186 032 032 125"
 
         "bh_HealthBox_Base"                                         "150 150 150 125"
         "bh_HealthBox_Low"                                          "186 032 032 125"
@@ -342,8 +342,10 @@ Scheme
 
     BaseSettings
     {
-        // MOTD panel scrollbar size (not friends list)
-        "ScrollBar.Wide"                                            "8"
+        // MOTD panel/Advanced Options/etc scrollbar size (not friends list)
+        // This is somewhat tied to the size of the arrows, so making it smaller causes cutoff on some menus I don't know how to fix (advoptions)
+        // Keeping it default value for now (17)
+        "ScrollBar.Wide"                                            "17"
 
         // Friends list scrollbar colors
         "ScrollBarSlider.FgColor"                                   "bh_white"

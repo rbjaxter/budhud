@@ -187,6 +187,7 @@
 
         "TitleLabel"
         {
+            "fgcolor_override"                                      "bh_Theme_TextAccent"
             "labeltext"                                             "#bh_CallVote"
         }
 
