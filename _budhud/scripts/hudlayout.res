@@ -204,6 +204,11 @@
         "ypos"                                                      "r34"
     }
 
+    "HudArenaPlayerCount"
+    {
+        "ypos"                                                      "15"
+    }
+
     "HudItemEffectMeter"
     {
         "xpos"                                                      "0"
