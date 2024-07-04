@@ -2,7 +2,7 @@
 {
     "bh_PlayerStatusPin"
     {
-        "xpos"                                                      "c-211"
+        "xpos"                                                      "c-210"
         "ypos"                                                      "10"
     }
 
@@ -12,10 +12,10 @@
 
     "PlayerStatusHealthBonusImage"
     {
-        "xpos"                                                      "95"
-        "ypos"                                                      "46"
-        "wide"                                                      "60"
-        "tall"                                                      "60"
+        "xpos"                                                      "92"
+        "ypos"                                                      "43"
+        "wide"                                                      "66"
+        "tall"                                                      "66"
     }
 
     "PlayerStatusHealthImage"
@@ -34,10 +34,10 @@
         "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
         "pin_to_sibling_corner"                                     "0"
 
-        "xpos"                                                      "2"
-        "ypos"                                                      "2"
-        "wide"                                                      "64"
-        "tall"                                                      "64"
+        "xpos"                                                      "3"
+        "ypos"                                                      "3"
+        "wide"                                                      "65"
+        "tall"                                                      "65"
         "visible"                                                   "1"
         "enabled"                                                   "1"
     }
