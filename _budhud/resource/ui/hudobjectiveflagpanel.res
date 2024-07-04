@@ -354,6 +354,11 @@
             "ypos"                                                  "r113"
         }
 
+        "if_mvm"
+        {
+            "ypos"                                                  "r85"
+        }
+
         "if_specialdelivery"
         {
             "ypos"                                                  "r75"
