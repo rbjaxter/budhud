@@ -94,7 +94,7 @@
     "ReinforcementsLabel"
     {
         "xpos"                                                      "c-200"
-        "ypos"                                                      "60"
+        "ypos"                                                      "48"
         "wide"                                                      "400"
         "tall"                                                      "24"
         "textAlignment"                                             "center"
