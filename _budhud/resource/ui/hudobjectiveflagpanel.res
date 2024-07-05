@@ -55,6 +55,11 @@
         {
             "visible"                                               "0"
         }
+
+        "if_no_flags"
+        {
+            "visible"                                               "0"
+        }
     }
 
     "bh_RedBG"
@@ -87,6 +92,11 @@
         }
 
         "if_specialdelivery"
+        {
+            "visible"                                               "0"
+        }
+
+        "if_no_flags"
         {
             "visible"                                               "0"
         }
@@ -150,6 +160,11 @@
         {
             "visible"                                               "0"
         }
+
+        "if_no_flags"
+        {
+            "visible"                                               "0"
+        }
     }
 
     "BlueScoreShadow"
@@ -178,6 +193,11 @@
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
             "enabled"                                               "0"
+        }
+
+        "if_no_flags"
+        {
+            "visible"                                               "0"
         }
     }
 
@@ -217,6 +237,11 @@
         {
             "visible"                                               "0"
         }
+
+        "if_no_flags"
+        {
+            "visible"                                               "0"
+        }
     }
 
     "RedScoreShadow"
@@ -235,6 +260,11 @@
         }
 
         "if_specialdelivery"
+        {
+            "visible"                                               "0"
+        }
+
+        "if_no_flags"
         {
             "visible"                                               "0"
         }
@@ -289,6 +319,10 @@
             "visible"                                               "0"
         }
 
+        "if_no_flags"
+        {
+            "visible"                                               "0"
+        }
     }
 
     "PlayingToBG"
@@ -324,6 +358,11 @@
             "visible"                                               "0"
             "enabled"                                               "0"
         }
+
+        "if_no_flags"
+        {
+            "visible"                                               "0"
+        }
     }
 
     "BlueFlag"
@@ -345,7 +384,7 @@
         "if_hybrid_single"
         {
             "xpos"                                                  "c-81"
-            "ypos"                                                  "r72"
+            "ypos"                                                  "r100"
         }
 
         "if_hybrid_double"
@@ -422,6 +461,11 @@
         {
             "ypos"                                                  "r100"
         }
+
+        "if_hybrid_single"
+        {
+            "ypos"                                                  "r79"
+        } 
 
         "if_specialdelivery"
         {
