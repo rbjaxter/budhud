@@ -181,7 +181,6 @@
         "wide"                                                      "150"
         "font"                                                      "bh_Font10"
 
-        "border_override"                                           "bh_b_NESW"
         "fgcolor_override"                                          "bh_white"
         "selectionColor_override"                                   "bh_Theme_TextAccent"
         "selectionTextColor_override"                               "bh_white"
@@ -208,7 +207,6 @@
         "ypos"                                                      "0"
         "wide"                                                      "100"
 
-        "border_override"                                           "bh_b_NESW"
         "fgcolor_override"                                          "bh_white"
         "selectionColor_override"                                   "bh_Theme_TextAccent"
         "selectionTextColor_override"                               "bh_white"

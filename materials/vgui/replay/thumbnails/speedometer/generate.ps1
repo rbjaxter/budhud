@@ -104,7 +104,7 @@ for ($num = 0; $num -le $maxNumber; $num++) {
     # Display progress
     Write-Host -NoNewline "`rGenerating number $num with text color: $textColor"
     # Generate image
-    ./convert.exe -auto-orient -background $backgroundColor -fill "$textColor" -font $font -size $VTFSize -gravity center -pointsize $fontSize -antialias label:$num "$imagesFolder\$num.png"
+    ./magick -background $backgroundColor -fill "$textColor" -font $font -size $VTFSize -gravity center -pointsize $fontSize -antialias label:$num "$imagesFolder\$num.png"
     # Update progress bar
     $progress = ($num / $maxNumber) * 100
     Show-ProgressBar -PercentComplete $progress
@@ -116,11 +116,8 @@ Write-Host "Script completed."
 for ($num = 1105; $num -le 1115; $num++) {
     # Generate image with specific color
     $textColor = "rgb(255,215,0)"  # Yellowish color
-    ./convert.exe -auto-orient -background $backgroundColor -fill "$textColor" -font $font -size $VTFSize -gravity center -pointsize $fontSize -antialias label:$num "$imagesFolder\$num.png"
+    ./magick -background $backgroundColor -fill "$textColor" -font $font -size $VTFSize -gravity center -pointsize $fontSize -antialias label:$num "$imagesFolder\$num.png"
 }
-
-# Write a message indicating that imageshave been regenerated
-Write-Host "Rampsync images regenerated."
 
 # Copy over specific images to prevent max run speed bouncing between values
 $numbersToCopy = @(
@@ -149,11 +146,9 @@ foreach ($entry in $numbersToCopy) {
     if (Test-Path $sourceFile) {
         Copy-Item -Path $sourceFile -Destination $destinationFile -Force
         Write-Host "Copied $sourceFile to $destinationFile ($description)"
-    }
-    else {
+    } else {
         Write-Host "Source file $sourceFile does not exist."
     }
 }
-
 
 Write-Host "Copy tasks completed."

@@ -1,12 +1,13 @@
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // "Set Style" popup UI
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// "Set Style" popup UI
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 "Resource/UI/econ/ComboBoxBackpackOverlayDialogBase.res"
 {
     "ComboBoxBackpackOverlayDialogBase"
     {
-        "bgcolor_override"                                          "bh_BGAverage"
+        "border"                                                    "bh_b_NESW"
+        "bgcolor_override"                                          "bh_Theme_BG30"
     }
 
     "preview_model"
@@ -15,7 +16,7 @@
         {
             "allow_rot"                                             "0"
             "inventory_image_type"                                  "1"
-            "use_item_rendertarget"                                 "1" // Setting this to 0 borks it
+            "use_item_rendertarget"                                 "1"	// Setting this to 0 borks it
         }
     }
 
@@ -34,16 +35,14 @@
         "selectionColor_override"                                   "bh_blank"
         "selectionTextColor_override"                               "bh_white"
     }
-
     // Even having either of these two entries commented out breaks the buttons for some reason SOOOOO
     // we'll just make new ones
-    //"CancelButton"
-    //{
-    //}
-
-    //"OkButton"
-    //{
-    //}
+    // "CancelButton"
+    // {
+    // }
+    // "OkButton"
+    // {
+    // }
 
     "bh_CancelButton"
     {
@@ -59,7 +58,7 @@
         "visible"                                                   "1"
         "enabled"                                                   "1"
         "tabPosition"                                               "0"
-        "labelText"                                                 "#Cancel"
+        "labelText"                                                 "#bh_Cancel"
         "font"                                                      "bh_Font12"
         "textAlignment"                                             "center"
         "dulltext"                                                  "0"
@@ -68,7 +67,6 @@
         "Command"                                                   "cancel"
         "sound_depressed"                                           "UI/buttonclick.wav"
         "sound_released"                                            "UI/buttonclickrelease.wav"
-
         "defaultFgColor_override"                                   "bh_Theme_TextSecondary"
         "armedFgColor_override"                                     "bh_Theme_TextAccent"
         "depressedFgColor_override"                                 "bh_ButtonDepressed"
@@ -82,7 +80,7 @@
     "bh_OkButton"
     {
         "ControlName"                                               "CExButton"
-        "fieldName"                                                 "OkButton2"
+        "fieldName"                                                 "bh_OkButton"
         "xpos"                                                      "150"
         "ypos"                                                      "200"
         "zpos"                                                      "1"
@@ -93,7 +91,7 @@
         "visible"                                                   "1"
         "enabled"                                                   "1"
         "tabPosition"                                               "0"
-        "labelText"                                                 "#TF_OK"
+        "labelText"                                                 "#bh_Confirm"
         "font"                                                      "bh_Font12"
         "textAlignment"                                             "center"
         "dulltext"                                                  "0"
@@ -102,7 +100,6 @@
         "Command"                                                   "apply"
         "sound_depressed"                                           "UI/buttonclick.wav"
         "sound_released"                                            "UI/buttonclickrelease.wav"
-
         "defaultFgColor_override"                                   "bh_Theme_TextSecondary"
         "armedFgColor_override"                                     "bh_Theme_TextAccent"
         "depressedFgColor_override"                                 "bh_ButtonDepressed"
