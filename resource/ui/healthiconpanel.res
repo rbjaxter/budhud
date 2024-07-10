@@ -1,4 +1,5 @@
     #base    "../../#users/custom/resource/ui/healthiconpanel.res"
+    #base    "../../#users/custom/#customization/_enabled/bh_targetid_healthcross/healthiconpanel.res"
     #base    "../../#customization/_enabled/bh_targetid_healthcross/healthiconpanel.res"
     #base    "../../_stream/resource/ui/healthiconpanel.res"
     #base    "../../_budhud/resource/ui/healthiconpanel.res"

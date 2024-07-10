@@ -11,6 +11,15 @@ hudanimations_manifest
     "file"      "scripts/hudanimations.txt"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // #users/custom
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    "file"      "#users/custom/scripts/hudanimations_custom.txt"
+    "file"      "#users/custom/#customization/_enabled/bh_player_boxes/bh_animate_box.txt"
+    "file"      "#users/custom/#customization/_enabled/bh_animate_foreground.txt"
+    "file"      "#users/custom/#customization/_enabled/bh_spy_hidedisguiseicon.txt"
+    "file"      "#users/custom/#customization/_enabled/bh_medic_rainbowcharge.txt"
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Customizations
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     "file"      "#customization/_enabled/bh_player_boxes/bh_animate_box.txt"
