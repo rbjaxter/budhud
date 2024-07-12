@@ -38,6 +38,7 @@ event HitMarker
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 event HudHealthBonusPulse
 {
+    StopEvent            LingeredHealthFix                        0
     Animate              PlayerStatusHealthBonusImage             alpha              255                         Linear            0              0.2
     Animate              PlayerStatusHealthBonusImage             alpha              0                           Linear            0.2            0.4
     Animate              PlayerStatusHealthValue                  fgcolor            bh_Health_Main              Linear            0              0.2
@@ -72,6 +73,7 @@ event HudHealthBonusPulseStop
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 event HudHealthDyingPulse
 {
+    StopEvent            LingeredHealthFix                        0
     Animate              PlayerStatusHealthBonusImage             alpha              255                         Linear            0              0.2
     Animate              PlayerStatusHealthBonusImage             alpha              0                           Linear            0.2            0.4
     Animate              PlayerStatusHealthValue                  fgcolor            bh_Health_Main              Linear            0              0.2
@@ -103,6 +105,7 @@ event HudHealthDyingPulseStop
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 event HudLowAmmoPulse
 {
+    StopEvent            LingeredAmmoFix                0
     Animate              AmmoInClip                     fgcolor            bh_Ammo_Main                      Linear            0              0.2
     Animate              AmmoNoClip                     fgcolor            bh_Ammo_Main                      Linear            0              0.2
     Animate              AmmoInReserve                  fgcolor            bh_Ammo_Reserve                   Linear            0              0.2
@@ -140,6 +143,64 @@ event HudLowAmmoPulseStop
     Animate              AmmoInReserveShadow            fgcolor            bh_Ammo_Reserve_Shadow            Linear            0              0.2
     Animate              bh_AmmoBG                      alpha              0                                 Linear            0              0.2
     Animate              bh_AmmoBG                      bgcolor            bh_AmmoBox_Base                   Linear            0              0.2
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Lingering Health/Ammo Fix, courtesy of @qkeitoe on GitHub
+// Uses menus being opened to reset animations if they're stuck
+//
+// event LingeredHealthFix
+// Copy animations from HudHealthBonusPulseStop (except for StopEvents), set start time to
+// something above the length of the HudHealthBonusPulse animation loop length time
+//
+// event LingeredAmmoFix
+// copy animations from HudLowAmmoPulseStop (except for StopEvents), set start time to
+// something above the length of the HudLowAmmoPulse animation loop length time
+//
+// - MenuOpen animation is only in hudanimations_budhud since it's shared between all of them
+// - A StopEvent is added to HudHealthBonusPulse & HudLowAmmoPulse to end their respective animation
+// fixes if there's currently an animation occurring
+////////////////////////////////////////////////////////////////////////////////////////////////////
+event MenuOpen
+{
+    RunEventChild            HudPlayerHealth            LingeredHealthFix             0
+    RunEventChild            HudWeaponAmmo              LingeredAmmoFix               0
+
+    StopEvent                MenuClose                  0
+
+    // fade in
+    Animate                  HudMenu                    alpha                         255                  Linear            0            0.1
+    Animate                  HudMenu                    selectionalpha                255                  Linear            0            0.1
+    Animate                  HudMenu                    fgcolor                       FgColor              Linear            0            0.1
+    Animate                  HudMenu                    menucolor                     MenuColor            Linear            0            0.1
+    Animate                  HudMenu                    itemcolor                     ItemColor            Linear            0            0.1
+    Animate                  HudMenu                    textscan                      1                    Linear            0            0.1
+
+    // Undo any blur
+    Animate                  HudMenu                    blur                          1                    Linear            0            0.01
+}
+
+event LingeredHealthFix
+{
+    Animate              PlayerStatusHealthBonusImage             alpha              255                         Linear            0.6              0
+    Animate              PlayerStatusHealthValue                  fgcolor            bh_Health_Main              Linear            0.6              0
+    Animate              PlayerStatusHealthValueShadow            fgcolor            bh_Health_Shadow            Linear            0.6              0
+    Animate              bh_HealthBG                              bgcolor            bh_HealthBox_Base           Linear            0.6              0
+    Animate              bh_HealthBGSpec                          bgcolor            bh_TargetID_Base            Linear            0.6              0
+}
+event LingeredAmmoFix
+{
+    Animate              AmmoInClip                     fgcolor            bh_Ammo_Main                      Linear            0.6              0
+    Animate              AmmoNoClip                     fgcolor            bh_Ammo_Main                      Linear            0.6              0
+    Animate              AmmoInReserve                  fgcolor            bh_Ammo_Reserve                   Linear            0.6              0
+    Animate              AmmoInClipShadow               alpha              255                               Linear            0.6              0
+    Animate              AmmoInClipShadow               fgcolor            bh_Ammo_Main_Shadow               Linear            0.6              0
+    Animate              AmmoNoClipShadow               alpha              255                               Linear            0.6              0
+    Animate              AmmoNoClipShadow               fgcolor            bh_Ammo_Main_Shadow               Linear            0.6              0
+    Animate              AmmoInReserveShadow            alpha              255                               Linear            0.6              0
+    Animate              AmmoInReserveShadow            fgcolor            bh_Ammo_Reserve_Shadow            Linear            0.6              0
+    Animate              bh_AmmoBG                      alpha              0                                 Linear            0.6              0
+    Animate              bh_AmmoBG                      bgcolor            bh_AmmoBox_Base                   Linear            0.6              0
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -202,23 +263,6 @@ event HudTournament_MoveChatWindow
 {
 }
 
-//// Disable spy disguise outline animation
-// event HudSpyDisguiseChanged
-// {
-// }
-//
-// event HudSpyDisguiseHide
-// {
-// }
-//
-// event HudSpyDisguiseFadeIn
-// {
-// }
-//
-// event HudSpyDisguiseFade
-// {
-// }
-// Spy disguise animation
 event HudSpyDisguiseChanged
 {
     Animate             PlayerStatusSpyOutlineImage            Alpha            255            Linear            0.0            0.2
