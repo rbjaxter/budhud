@@ -1,4 +1,4 @@
-"#base"                                                             "hudinspectpanel.res"	// Base to hudinspectpanel to grab its itempanel
+#base                                                               "hudinspectpanel.res"	// Base to hudinspectpanel to grab its itempanel
 
 "Resource/UI/FreezePanel_Basic.res"
 {
@@ -49,7 +49,7 @@
             "ControlName"                                           "Label"
             "fieldName"                                             "bh_FreezePanelPin"
             "xpos"                                                  "r270"
-            "ypos"                                                  "c-40"
+            "ypos"                                                  "c-60"
             "zpos"                                                  "0"
             "wide"                                                  "100"
             "tall"                                                  "0"
@@ -105,19 +105,19 @@
         }
     }
 
-        "bh_FreezePanelPin2"
-        {
-            "ControlName"                                           "Label"
-            "fieldName"                                             "bh_FreezePanelPin2"
-            "xpos"                                                  "r210"
-            "ypos"                                                  "r-90"
-            "zpos"                                                  "0"
-            "wide"                                                  "100"
-            "tall"                                                  "0"
-            "visible"                                               "1"
-            "enabled"                                               "1"
-            "bgcolor_override"                                      "0 0 0 0"
-        }
+    "bh_FreezePanelPin2"
+    {
+        "ControlName"                                               "Label"
+        "fieldName"                                                 "bh_FreezePanelPin2"
+        "xpos"                                                      "r210"
+        "ypos"                                                      "r-90"
+        "zpos"                                                      "0"
+        "wide"                                                      "100"
+        "tall"                                                      "0"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "bgcolor_override"                                          "0 0 0 0"
+    }
 
     "itempanel"
     {
