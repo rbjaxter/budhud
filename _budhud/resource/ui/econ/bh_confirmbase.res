@@ -10,6 +10,29 @@
         }
     }
 
+    "bh_ConfirmDialog_BG"
+    {
+        "pin_to_sibling"                                            "ConfirmDialog"
+        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                                     "0"
+        "xpos"                                                      "0"
+        "ypos"                                                      "0"
+        "ControlName"                                               "ImagePanel"
+        "fieldName"                                                 "bh_ConfirmDialog_BG"
+        "zpos"                                                      "0"
+        "wide"                                                      "300"
+        "tall"                                                      "133"
+        "autoResize"                                                "0"
+        "pinCorner"                                                 "0"
+        "labeltext"                                                 ""
+        "visible"                                                   "0"
+        "enabled"                                                   "0"
+        "fillcolor"                                                 "bh_Theme_BG30"
+        "image"                                                     ""
+        "paintbackgroundtype"                                       "0"
+        "border"                                                    "bh_b_NESW"
+    }
+
     "TitleLabel"
     {
         "fgcolor_override"                                          "bh_Theme_TextAccent"
