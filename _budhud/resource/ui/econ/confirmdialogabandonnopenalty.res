@@ -1,18 +1,13 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Disconnect Confirmation (No Penalty)
+    // Disconnect Confirmation (No Penalty) - Casual
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-
     #base   "bh_confirmbase.res"
 
 "Resource/UI/ConfirmDialogAbandonNoPenalty.res"
 {
-    "ConfirmDialog"
-    {
-        "bgcolor_override"                                          "bh_blank"
-    }
-
     "bh_ConfirmDialog_BG"
     {
+        "tall"                                                      "119"
         "visible"                                                   "1"
         "enabled"                                                   "1"
     }
