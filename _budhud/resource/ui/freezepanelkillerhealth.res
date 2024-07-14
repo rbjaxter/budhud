@@ -38,25 +38,4 @@
         "font"                                                      "bh_Font16"
         "fgcolor"                                                   "bh_white"
     }
-
-    //"PlayerStatusHealthValueShadow"
-    //{
-    //    "pin_to_sibling"                                            "PlayerStatusHealthValue"
-    //    "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-    //    "pin_to_sibling_corner"                                     "0"
-//
-    //    "ControlName"                                               "CExLabel"
-    //    "fieldName"                                                 "PlayerStatusHealthValueShadow"
-    //    "xpos"                                                      "-1"
-    //    "ypos"                                                      "-1"
-    //    "zpos"                                                      "6"
-    //    "wide"                                                      "34"
-    //    "tall"                                                      "34"
-    //    "visible"                                                   "1"
-    //    "enabled"                                                   "1"
-    //    "labelText"                                                 "%Health%"
-    //    "textAlignment"                                             "center"
-    //    "font"                                                      "bh_Font16"
-    //    "fgcolor"                                                   "bh_Health_Shadow"
-    //}
 }
