@@ -49,7 +49,7 @@
             "ControlName"                                           "Label"
             "fieldName"                                             "bh_FreezePanelPin"
             "xpos"                                                  "r210"
-            "ypos"                                                  "c-60"
+            "ypos"                                                  "c-80"
             "zpos"                                                  "0"
             "wide"                                                  "190"
             "tall"                                                  "0"
@@ -110,7 +110,7 @@
         "ControlName"                                               "Label"
         "fieldName"                                                 "bh_FreezePanelPin2"
         "xpos"                                                      "r210"
-        "ypos"                                                      "r-70"
+        "ypos"                                                      "r-100"
         "zpos"                                                      "0"
         "wide"                                                      "100"
         "tall"                                                      "0"
@@ -119,12 +119,7 @@
         "bgcolor_override"                                          "0 0 0 0"
     }
 
-    "itempanel"
+    "itempanel" // pin doesn't behave correctly
     {
-        "pin_to_sibling"                                            "bh_FreezePanelPin2"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
-        "xpos"                                                      "0"
-        "ypos"                                                      "0"
     }
 }
