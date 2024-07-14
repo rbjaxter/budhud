@@ -84,10 +84,10 @@ try {
     # Shared Variables
     ##################
     # List of Translated Languages
-    $translatedLanguages = "brazilian", "french", "german", "italian", "japanese", "norwegian", "polish", "romanian", "russian", "schinese", "spanish", "tchinese", "turkish"
+    $translatedLanguages = "brazilian", "finnish", "french", "german", "italian", "japanese", "norwegian", "polish", "romanian", "russian", "schinese", "spanish", "tchinese", "turkish"
 
     # List of Untranslated Languages
-    $untranslatedLanguages = "bulgarian", "czech", "danish", "dutch", "english", "finnish", "greek", "hungarian", "korean", "portuguese", "swedish", "thai", "ukrainian"
+    $untranslatedLanguages = "bulgarian", "czech", "danish", "dutch", "english", "greek", "hungarian", "korean", "portuguese", "swedish", "thai", "ukrainian"
 
     # Discord Link
     $discord = "https://discord.gg/TkxNKU2"

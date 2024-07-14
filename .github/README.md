@@ -35,15 +35,22 @@ If you would like to install and customize budhud (as well as other huds) quickl
 * Lange: https://github.com/Abrahamic-God
 
 ### HUD Translations
-* Chinese: Ultra Violet Amethyst 紫微星宿
-* French: ly_dee
-* German: donuttt
-* Italian: Hypnotize
-* Portuguese: powah
-* Romanian: Dr4kecl
-* Russian: CriticalFlaw
-* Simplified Chinese: Hoto_Cocoa
-* Spanish: flower
+Thanks to everyone who has helped translate budhud! To see more information on budhud translations (or translate a language), see [here](https://github.com/rbjaxter/budhud/wiki/Translations).
+
+- Brazilian (Brazilian Portuguese) - _Translated by powah_
+- Finnish - _Translated by [Eerorri](https://github.com/Eerorri)_
+- French - _Translated by ly_dee_
+- German - _Translated by donuttt_
+- Italian - _Translated by [Hypnotize](https://github.com/Hypnootize)_
+- Japanese - _Translated by [hibibibi](https://github.com/hibibibi22)_
+- Norwegian - _Translated by [TheWisehobgoblin](https://github.com/thewisehobgoblin)_
+- Polish - _Translated by [Poruś (GitesHubisz)](https://github.com/GitesHubisz)_
+- Romanian - _Translated by Dr4kecl_
+- Russian - _Translated by [CriticalFlaw](https://github.com/CriticalFlaw)_
+- Simplified Chinese - _Translated by [Hoto_Cocoa](https://github.com/HotoCocoaco)_
+- Spanish - _Translated by flower_
+- Traditional Chinese - _Translated by Ultra Violet Amethyst 紫微星宿, sneak spy_
+- Turkish - _Translated by [BerkayUnlu](https://github.com/BerkayUnlu)_
 
 ### TF2 Crosshairs
 * Knuckles
