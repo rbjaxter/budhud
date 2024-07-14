@@ -8,8 +8,6 @@
     "active_selection_bg"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "0"
         "ypos"                                                      "0"
@@ -52,8 +50,6 @@
     "CancelHintIcon"
     {
         "pin_to_sibling"                                            "bh_ControllerTipPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-5"
         "ypos"                                                      "0"
@@ -63,8 +59,6 @@
     "CancelHintLabel"
     {
         "pin_to_sibling"                                            "CancelHintIcon"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-18"
         "ypos"                                                      "1"
@@ -74,8 +68,6 @@
     "TeamToggleHintIcon"
     {
         "pin_to_sibling"                                            "bh_ControllerTipPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-130"
         "ypos"                                                      "0"
@@ -85,8 +77,6 @@
     "TeamToggleHintLabel"
     {
         "pin_to_sibling"                                            "TeamToggleHintIcon"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-18"
         "ypos"                                                      "1"
@@ -96,8 +86,6 @@
     "DisguiseHintIcon"
     {
         "pin_to_sibling"                                            "bh_ControllerTipPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-255"
         "ypos"                                                      "0"
@@ -107,8 +95,6 @@
     "DisguiseHintLabel"
     {
         "pin_to_sibling"                                            "DisguiseHintIcon"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-18"
         "ypos"                                                      "1"

@@ -115,8 +115,6 @@
     "TeamsFullLabelShadow"
     {
         "pin_to_sibling"                                            "TeamsFullLabel"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "CExLabel"
         "fieldName"                                                 "TeamsFullLabelShadow"
@@ -166,8 +164,6 @@
     "bh_BlueCountShadow"
     {
         "pin_to_sibling"                                            "BlueCount"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "CExLabel"
         "fieldName"                                                 "bh_BlueCountShadow"
@@ -238,8 +234,6 @@
     "bh_RedCountShadow"
     {
         "pin_to_sibling"                                            "RedCount"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "CExLabel"
         "fieldName"                                                 "bh_RedCountShadow"
@@ -320,8 +314,6 @@
     "bh_AutoLabelShadow"
     {
         "pin_to_sibling"                                            "bh_AutoLabel"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-1"
         "ypos"                                                      "-1"
 
@@ -402,8 +394,6 @@
     "bh_SpectateLabelShadow"
     {
         "pin_to_sibling"                                            "bh_SpectateLabel"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-1"
         "ypos"                                                      "-1"
 

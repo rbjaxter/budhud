@@ -24,8 +24,6 @@
     "bh_Dev_Label"
     {
         "pin_to_sibling"                                            "bh_DevPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "CExButton"
         "fieldName"                                                 "bh_Dev_Label"
@@ -58,8 +56,6 @@
     "bh_Dev_Motivation"
     {
         "pin_to_sibling"                                            "bh_DevPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "CExButton"
         "fieldName"                                                 "bh_Dev_Motivation"
@@ -92,8 +88,6 @@
     "bh_Dev_Reload"
     {
         "pin_to_sibling"                                            "bh_DevPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "CExButton"
         "fieldName"                                                 "bh_Dev_Reload"
@@ -126,8 +120,6 @@
     "bh_Dev_Drawtree"
     {
         "pin_to_sibling"                                            "bh_DevPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "CExButton"
         "fieldName"                                                 "bh_Dev_Drawtree"
@@ -160,8 +152,6 @@
     "bh_Dev_ShowConsole"
     {
         "pin_to_sibling"                                            "bh_DevPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "CExButton"
         "fieldName"                                                 "bh_Dev_ShowConsole"
@@ -194,8 +184,6 @@
     "bh_Dev_Cheats"
     {
         "pin_to_sibling"                                            "bh_DevPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "CExButton"
         "fieldName"                                                 "bh_Dev_Cheats"
@@ -228,8 +216,6 @@
     "bh_Dev_MatReload"
     {
         "pin_to_sibling"                                            "bh_DevPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "CExButton"
         "fieldName"                                                 "bh_Dev_MatReload"
@@ -262,8 +248,6 @@
     "bh_Dev_Quit"
     {
         "pin_to_sibling"                                            "bh_DevPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "CExButton"
         "fieldName"                                                 "bh_Dev_Quit"

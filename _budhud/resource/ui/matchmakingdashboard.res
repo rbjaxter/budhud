@@ -276,8 +276,6 @@
         "PartySlot0"
         {
             "pin_to_sibling"                                        "bh_PartyPin"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
             "xpos"                                                  "72"
             "wide"                                                  "24"
             "tall"                                                  "24"
@@ -286,8 +284,6 @@
         "PartySlot1"
         {
             "pin_to_sibling"                                        "bh_PartyPin"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
             "xpos"                                                  "48"
             "wide"                                                  "24"
             "tall"                                                  "24"
@@ -296,8 +292,6 @@
         "PartySlot2"
         {
             "pin_to_sibling"                                        "bh_PartyPin"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
             "xpos"                                                  "24"
             "wide"                                                  "24"
             "tall"                                                  "24"
@@ -306,8 +300,6 @@
         "PartySlot3"
         {
             "pin_to_sibling"                                        "bh_PartyPin"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
             "xpos"                                                  "0"
             "wide"                                                  "24"
             "tall"                                                  "24"
@@ -316,8 +308,6 @@
         "PartySlot4"
         {
             "pin_to_sibling"                                        "bh_PartyPin"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
             "xpos"                                                  "-24"
             "wide"                                                  "24"
             "tall"                                                  "24"
@@ -326,8 +316,6 @@
         "PartySlot5"
         {
             "pin_to_sibling"                                        "bh_PartyPin"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
             "xpos"                                                  "-48"
             "wide"                                                  "24"
             "tall"                                                  "24"

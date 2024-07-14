@@ -79,8 +79,6 @@
     "AmmoIcon"
     {
         "pin_to_sibling"                                            "bh_AmmoKSPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "0"
         "ypos"                                                      "0"
@@ -91,8 +89,6 @@
     "KillstreakIcon"
     {
         "pin_to_sibling"                                            "bh_AmmoKSPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "0"
         "ypos"                                                      "0"
@@ -103,8 +99,6 @@
     "TargetIDBG"
     {
         "pin_to_sibling"                                            "SpectatorGUIHealth"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "0"
         "ypos"                                                      "0"
@@ -123,8 +117,6 @@
     "TargetIDBG_Spec_Blue"
     {
         "pin_to_sibling"                                            "SpectatorGUIHealth"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "0"
         "ypos"                                                      "0"
@@ -141,8 +133,6 @@
     "TargetIDBG_Spec_Red"
     {
         "pin_to_sibling"                                            "SpectatorGUIHealth"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "0"
         "ypos"                                                      "0"

@@ -36,8 +36,6 @@
     "PlayerStatusHealthImageBG"
     {
         "pin_to_sibling"                                            "PlayerStatusHealthImage"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "image"                                                     "replay/thumbnails/m0re_healthcross/health_bg"
 
         "xpos"                                                      "2"

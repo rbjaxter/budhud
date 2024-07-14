@@ -64,8 +64,6 @@
     "bh_QuickplayIconLeft"
     {
         "pin_to_sibling"                                            "bh_Quickplay"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "ControlName"                                               "ImagePanel"
         "fieldname"                                                 "bh_QuickplayIconLeft"
         "xpos"                                                      "-7"
@@ -82,8 +80,6 @@
     "bh_QuickplayIconRight"
     {
         "pin_to_sibling"                                            "bh_Quickplay"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "ControlName"                                               "ImagePanel"
         "fieldname"                                                 "bh_QuickplayIconRight"
         "xpos"                                                      "-156"

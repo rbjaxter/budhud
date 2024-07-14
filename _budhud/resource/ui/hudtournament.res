@@ -194,8 +194,6 @@
     "bh_TournamentConditionLabelShadow"
     {
         "pin_to_sibling"                                            "TournamentConditionLabel"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "Label"
         "fieldName"                                                 "bh_TournamentConditionLabelShadow"
@@ -240,8 +238,6 @@
     "bh_TournamentInstructionsLabelShadow"
     {
         "pin_to_sibling"                                            "TournamentInstructionsLabel"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "Label"
         "fieldName"                                                 "bh_TournamentInstructionsLabelShadow"
@@ -471,9 +467,6 @@
     "bh_TournamentREDLabelShadow"
     {
         "pin_to_sibling"                                            "TournamentREDLabel"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
-
 
         "ControlName"                                               "Label"
         "fieldName"                                                 "bh_TournamentREDLabelShadow"
@@ -550,8 +543,6 @@
     "bh_TournamentBLUELabelShadow"
     {
         "pin_to_sibling"                                            "TournamentBLUELabel"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "Label"
         "fieldName"                                                 "bh_TournamentBLUELabelShadow"
@@ -605,8 +596,6 @@
         "tall"                                                      "20"
 
         "pin_to_sibling"                                            "TournamentInstructionsLabel"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         if_readymode
         {
@@ -636,8 +625,6 @@
     "bh_TournamentLabelShadow"
     {
         "pin_to_sibling"                                            "TournamentLabel"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "Label"
         "fieldName"                                                 "bh_TournamentLabelShadow"

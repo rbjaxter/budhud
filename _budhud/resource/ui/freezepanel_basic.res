@@ -61,8 +61,6 @@
         "FreezePanelBG"
         {
             "pin_to_sibling"                                        "bh_FreezePanelPin"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
             "xpos"                                                  "0"
             "ypos"                                                  "0"
             "wide"                                                  "190"
@@ -75,8 +73,6 @@
         "FreezePanelHealth"
         {
             "pin_to_sibling"                                        "bh_FreezePanelPin"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
             "xpos"                                                  "0"
             "ypos"                                                  "0"
             "wide"                                                  "34"
@@ -86,8 +82,6 @@
         "FreezeLabelKiller2"
         {
             "pin_to_sibling"                                        "bh_FreezePanelPin"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
             "xpos"                                                  "-40"
             "ypos"                                                  "0"
             "ControlName"                                           "CExLabel"

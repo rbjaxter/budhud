@@ -331,14 +331,12 @@
 
     "BuildingStatus_Engineer"
     {
+        "pin_to_sibling"                                            "bh_BuildPin"
         "xpos"                                                      "0"
         "ypos"                                                      "0"
         "wide"                                                      "f0"
         "tall"                                                      "f0"
 
-        "pin_to_sibling"                                            "bh_BuildPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -374,8 +372,6 @@
     "HudCloseCaption"
     {
         "pin_to_sibling"                                            "HudWeaponAmmo"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-180"
         "ypos"                                                      "-55"

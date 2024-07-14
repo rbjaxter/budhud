@@ -52,8 +52,6 @@
     "PlayerStatusHealthValue"
     {
         "pin_to_sibling"                                            "bh_TargetIDHealthPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "Label"
         "fieldName"                                                 "PlayerStatusHealthValue"
@@ -64,8 +62,6 @@
     "PlayerStatusHealthValueShadow"
     {
         "pin_to_sibling"                                            "PlayerStatusHealthValue"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "Label"
         "fieldName"                                                 "PlayerStatusHealthValueShadow"

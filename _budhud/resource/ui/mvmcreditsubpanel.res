@@ -17,8 +17,6 @@
     "bh_HeaderLabelShadow"
     {
         "pin_to_sibling"                                            "HeaderLabel"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "CExLabel"
         "fieldName"                                                 "bh_HeaderLabelShadow"

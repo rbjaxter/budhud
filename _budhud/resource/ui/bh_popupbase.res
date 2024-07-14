@@ -103,8 +103,6 @@
     "MainBackground"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "0"
         "ypos"                                                      "0"
@@ -118,8 +116,6 @@
     "ItemBackground"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "CTFImagePanel"
         "fieldName"                                                 "ItemBackground"
@@ -135,8 +131,6 @@
     "bh_TeamIndicator"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "CTFImagePanel"
         "fieldName"                                                 "bh_TeamIndicator"
@@ -156,8 +150,6 @@
     "active_item_1"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "ControlName"                                               "EditablePanel"
         "xpos"                                                      "0"
         "ypos"                                                      "0"
@@ -167,8 +159,6 @@
     "active_item_2"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "ControlName"                                               "EditablePanel"
         "xpos"                                                      "-100"
         "ypos"                                                      "0"
@@ -178,8 +168,6 @@
     "active_item_3"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-200"
         "ypos"                                                      "0"
         "tall"                                                      "120"
@@ -188,8 +176,6 @@
     "active_item_4"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-300"
         "ypos"                                                      "0"
         "tall"                                                      "120"
@@ -198,8 +184,6 @@
     "inactive_item_1"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "ControlName"                                               "EditablePanel"
         "xpos"                                                      "0"
         "ypos"                                                      "0"
@@ -209,8 +193,6 @@
     "inactive_item_2"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "ControlName"                                               "EditablePanel"
         "xpos"                                                      "-100"
         "ypos"                                                      "0"
@@ -220,8 +202,6 @@
     "inactive_item_3"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-200"
         "ypos"                                                      "0"
         "tall"                                                      "120"
@@ -230,8 +210,6 @@
     "inactive_item_4"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-300"
         "ypos"                                                      "0"
         "tall"                                                      "120"
@@ -240,8 +218,6 @@
     "already_built_item_1"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "0"
         "ypos"                                                      "0"
         "tall"                                                      "120"
@@ -250,8 +226,6 @@
     "already_built_item_2"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-100"
         "ypos"                                                      "0"
         "tall"                                                      "120"
@@ -260,8 +234,6 @@
     "already_built_item_3"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-200"
         "ypos"                                                      "0"
         "tall"                                                      "120"
@@ -270,8 +242,6 @@
     "already_built_item_4"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-300"
         "ypos"                                                      "0"
         "tall"                                                      "120"
@@ -280,8 +250,6 @@
     "cant_afford_item_1"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "0"
         "ypos"                                                      "0"
         "tall"                                                      "120"
@@ -290,8 +258,6 @@
     "cant_afford_item_2"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-100"
         "ypos"                                                      "0"
         "tall"                                                      "120"
@@ -300,8 +266,6 @@
     "cant_afford_item_3"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-200"
         "ypos"                                                      "0"
         "tall"                                                      "120"
@@ -310,8 +274,6 @@
     "cant_afford_item_4"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-300"
         "ypos"                                                      "0"
         "tall"                                                      "120"
@@ -320,8 +282,6 @@
     "unavailable_item_1"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "0"
         "ypos"                                                      "0"
         "tall"                                                      "120"
@@ -330,8 +290,6 @@
     "unavailable_item_2"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-100"
         "ypos"                                                      "0"
         "tall"                                                      "120"
@@ -340,8 +298,6 @@
     "unavailable_item_3"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-200"
         "ypos"                                                      "0"
         "tall"                                                      "120"
@@ -350,8 +306,6 @@
     "unavailable_item_4"
     {
         "pin_to_sibling"                                            "bh_MenuPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-300"
         "ypos"                                                      "0"
         "tall"                                                      "120"

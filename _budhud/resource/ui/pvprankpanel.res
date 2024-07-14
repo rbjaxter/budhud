@@ -75,8 +75,6 @@
         "bh_DescLine1Shadow"
         {
             "pin_to_sibling"                                        "DescLine1"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
 
             "ControlName"                                           "CAutoFittingLabel"
             "fieldName"                                             "bh_DescLine1Shadow"
@@ -124,8 +122,6 @@
         "bh_DescLine2Shadow"
         {
             "pin_to_sibling"                                        "DescLine2"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
 
             "ControlName"                                           "CAutoFittingLabel"
             "fieldName"                                             "bh_DescLine2Shadow"
@@ -198,8 +194,6 @@
             "bh_YourStatsShadow"
             {
                 "pin_to_sibling"                                    "bh_YourStats"
-                "pin_corner_to_sibling"                             "PIN_TOPLEFT"
-                "pin_to_sibling_corner"                             "0"
 
                 "ControlName"                                       "CExLabel"
                 "fieldName"                                         "bh_YourStatsShadow"
@@ -263,8 +257,6 @@
                 "bh_GamesLabelShadow"
                 {
                     "pin_to_sibling"                                "GamesLabel"
-                    "pin_corner_to_sibling"                         "PIN_TOPLEFT"
-                    "pin_to_sibling_corner"                         "0"
 
                     "ControlName"                                   "Label"
                     "fieldName"                                     "bh_GamesLabelShadow"
@@ -292,8 +284,6 @@
                 "bh_DamageLabelShadow"
                 {
                     "pin_to_sibling"                                "DamageLabel"
-                    "pin_corner_to_sibling"                         "PIN_TOPLEFT"
-                    "pin_to_sibling_corner"                         "0"
 
                     "ControlName"                                   "Label"
                     "fieldName"                                     "bh_DamageLabelShadow"
@@ -322,8 +312,6 @@
                 "bh_KillsLabelShadow"
                 {
                     "pin_to_sibling"                                "KillsLabel"
-                    "pin_corner_to_sibling"                         "PIN_TOPLEFT"
-                    "pin_to_sibling_corner"                         "0"
 
                     "ControlName"                                   "Label"
                     "fieldName"                                     "bh_KillsLabelShadow"
@@ -351,8 +339,6 @@
                 "bh_DeathsLabelShadow"
                 {
                     "pin_to_sibling"                                "DeathsLabel"
-                    "pin_corner_to_sibling"                         "PIN_TOPLEFT"
-                    "pin_to_sibling_corner"                         "0"
 
                     "ControlName"                                   "Label"
                     "fieldName"                                     "bh_DeathsLabelShadow"
@@ -381,8 +367,6 @@
                 "bh_HealingLabelShadow"
                 {
                     "pin_to_sibling"                                "HealingLabel"
-                    "pin_corner_to_sibling"                         "PIN_TOPLEFT"
-                    "pin_to_sibling_corner"                         "0"
 
                     "ControlName"                                   "Label"
                     "fieldName"                                     "bh_HealingLabelShadow"
@@ -410,8 +394,6 @@
                 "bh_SupportLabelShadow"
                 {
                     "pin_to_sibling"                                "SupportLabel"
-                    "pin_corner_to_sibling"                         "PIN_TOPLEFT"
-                    "pin_to_sibling_corner"                         "0"
 
                     "ControlName"                                   "Label"
                     "fieldName"                                     "bh_SupportLabelShadow"

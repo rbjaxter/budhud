@@ -59,7 +59,6 @@
     "PrevPageButton"
     {
         "pin_to_sibling"                                            "CurPageLabel"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
 
         "font"                                                      "bh_Font14"
         "xpos"                                                      "20"
@@ -81,7 +80,6 @@
     "NextPageButton"
     {
         "pin_to_sibling"                                            "CurPageLabel"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
 
         "font"                                                      "bh_Font14"
         "xpos"                                                      "-60"

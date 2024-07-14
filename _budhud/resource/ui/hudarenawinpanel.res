@@ -97,8 +97,6 @@
         "BlueTeamScoreDropshadow"
         {
             "pin_to_sibling"                                        "BlueTeamScore"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
             "font"                                                  "bh_Font36"
             "textAlignment"                                         "east"
             "xpos"                                                  "1"
@@ -122,8 +120,6 @@
         "RedTeamScoreDropShadow"
         {
             "pin_to_sibling"                                        "RedTeamScore"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
             "font"                                                  "bh_Font36"
             "xpos"                                                  "-1"
             "ypos"                                                  "-1"
@@ -202,8 +198,6 @@
     "WinningTeamLabelDropshadow"
     {
         "pin_to_sibling"                                            "WinningTeamLabel"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-1"
         "ypos"                                                      "-1"
         "font"                                                      "bh_Font20"
@@ -254,8 +248,6 @@
     "TopPlayersLabel"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-10"
         "ypos"                                                      "0"
         "font"                                                      "bh_Font8"
@@ -267,8 +259,6 @@
     "DamageThisRoundLabel"
     {
             "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-214"
         "ypos"                                                      "0"
         "font"                                                      "bh_Font8"
@@ -280,8 +270,6 @@
     "HealingThisRoundLabel"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-265"
         "ypos"                                                      "0"
         "font"                                                      "bh_Font8"
@@ -293,8 +281,6 @@
     "LifetimeThisRoundLabel"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-310"
         "ypos"                                                      "0"
         "font"                                                      "bh_Font8"
@@ -306,8 +292,6 @@
     "KillingBlowsThisRoundLabel"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-347"
         "ypos"                                                      "0"
         "font"                                                      "bh_Font8"
@@ -319,8 +303,6 @@
     "HorizontalLine"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "20"
         "ypos"                                                      "-15"
         "wide"                                                      "390"

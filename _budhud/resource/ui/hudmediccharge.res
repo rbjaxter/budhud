@@ -74,8 +74,6 @@
     "ChargeMeter1"
     {
         "pin_to_sibling"                                            "bh_ChargePin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "0"
         "ypos"                                                      "-13"
@@ -89,8 +87,6 @@
     "ChargeMeter2"
     {
         "pin_to_sibling"                                            "bh_ChargePin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-52"
         "ypos"                                                      "-13"
@@ -104,8 +100,6 @@
     "ChargeMeter3"
     {
         "pin_to_sibling"                                            "bh_ChargePin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "0"
         "ypos"                                                      "-22"
@@ -119,8 +113,6 @@
     "ChargeMeter4"
     {
         "pin_to_sibling"                                            "bh_ChargePin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-52"
         "ypos"                                                      "-22"
@@ -159,8 +151,6 @@
     "ResistIcon"
     {
         "pin_to_sibling"                                            "bh_ResistPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "zpos"                                                      "6969"
         "wide"                                                      "32"
         "tall"                                                      "32"

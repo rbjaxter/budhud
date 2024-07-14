@@ -198,8 +198,6 @@
         "BlueTeamScoreDropshadow"
         {
             "pin_to_sibling"                                        "BlueTeamScore"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
 
             "font"                                                  "bh_Font36"
             "textAlignment"                                         "east"
@@ -224,8 +222,6 @@
         "RedTeamScoreDropShadow"
         {
             "pin_to_sibling"                                        "RedTeamScore"
-            "pin_corner_to_sibling"                                 "PIN_TOPLEFT"
-            "pin_to_sibling_corner"                                 "0"
 
             "font"                                                  "bh_Font36"
             "xpos"                                                  "-1"
@@ -254,8 +250,6 @@
     "bh_Background"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "ImagePanel"
         "fieldName"                                                 "bh_Background"
@@ -278,8 +272,6 @@
     "TopPlayersLabel"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "font"                                                      "bh_Font10"
         "xpos"                                                      "-15"
@@ -292,8 +284,6 @@
     "PointsThisRoundLabel"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "font"                                                      "bh_Font10"
         "xpos"                                                      "-66"
@@ -306,8 +296,6 @@
     "HorizontalLine"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-15"
         "ypos"                                                      "-16"
@@ -320,8 +308,6 @@
     "Player1Avatar"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-22"
         "ypos"                                                      "-21"
@@ -333,8 +319,6 @@
     "Player2Avatar"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-22"
         "ypos"                                                      "-37"
@@ -346,8 +330,6 @@
     "Player3Avatar"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-22"
         "ypos"                                                      "-53"
@@ -359,8 +341,6 @@
     "Player1Name"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-48"
         "ypos"                                                      "-18"
@@ -372,8 +352,6 @@
     "Player2Name"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-48"
         "ypos"                                                      "-34"
@@ -385,8 +363,6 @@
     "Player3Name"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-48"
         "ypos"                                                      "-50"
@@ -398,8 +374,6 @@
     "Player1Class"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-125"
         "ypos"                                                      "-18"
@@ -411,8 +385,6 @@
     "Player2Class"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-125"
         "ypos"                                                      "-34"
@@ -424,8 +396,6 @@
     "Player3Class"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-125"
         "ypos"                                                      "-50"
@@ -437,8 +407,6 @@
     "Player1Score"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-170"
         "ypos"                                                      "-18"
@@ -450,8 +418,6 @@
     "Player2Score"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-170"
         "ypos"                                                      "-34"
@@ -463,8 +429,6 @@
     "Player3Score"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-170"
         "ypos"                                                      "-50"
@@ -476,8 +440,6 @@
     "KillStreakLeaderLabel"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "font"                                                      "bh_Font8"
         "xpos"                                                      "-15"
@@ -491,8 +453,6 @@
     "HorizontalLine2"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "ImagePanel"
         "fieldName"                                                 "HorizontalLine2"
@@ -507,8 +467,6 @@
     "KillStreakPlayer1Avatar"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-22"
         "ypos"                                                      "-87"
@@ -520,8 +478,6 @@
     "KillStreakPlayer1Name"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-48"
         "ypos"                                                      "-84"
@@ -533,8 +489,6 @@
     "KillStreakPlayer1Class"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-125"
         "ypos"                                                      "-84"
@@ -546,8 +500,6 @@
     "KillStreakPlayer1Score"
     {
         "pin_to_sibling"                                            "bh_MVPPanelPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-170"
         "ypos"                                                      "-84"

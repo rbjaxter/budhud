@@ -74,8 +74,6 @@
     "SelectedItemFoundMethodLabel"
     {
         "pin_to_sibling"                                            "ItemsFoundLabel"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "0"
         "ypos"                                                      "-30"

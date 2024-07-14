@@ -24,8 +24,6 @@
     "PopFileLabel"
     {
         "pin_to_sibling"                                            "bh_LocalStatsPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-398"
         "ypos"                                                      "-30"
@@ -38,8 +36,6 @@
     "bh_PopFileLabelShadow"
     {
         "pin_to_sibling"                                            "PopFileLabel"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "CExLabel"
         "fieldName"                                                 "bh_PopFileLabelShadow"
@@ -73,8 +69,6 @@
     "bh_MvMPlayerBG1"
     {
         "pin_to_sibling"                                            "bh_MvMPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "ControlName"                                               "ImagePanel"
         "fieldName"                                                 "bh_MvMPlayerBG1"
@@ -93,9 +87,6 @@
     "WaveStatusPanel"
     {
         "pin_to_sibling"                                            "bh_MvMPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
-
         "xpos"                                                      "0"
         "ypos"                                                      "0"
     }
@@ -103,8 +94,6 @@
     "MvMPlayerList"
     {
         "pin_to_sibling"                                            "bh_MvMPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-40"
         "ypos"                                                      "-100"
@@ -123,8 +112,6 @@
     "CreditStatsContainer"
     {
         "pin_to_sibling"                                            "bh_MvMPin"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "0"
         "ypos"                                                      "-230"

@@ -22,8 +22,6 @@
     "titleShadow"
     {
         "pin_to_sibling"                                            "title"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
         "xpos"                                                      "-1"
         "ypos"                                                      "-1"
         "font"                                                      "bh_Font20"

@@ -105,8 +105,6 @@
     "ShowBaseItemsCheckbox"
     {
         "pin_to_sibling"                                            "NameFilterTextEntry"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-117"
         "ypos"                                                      "3"
@@ -118,8 +116,6 @@
     "bh_ImproveItemQuality"
     {
         "pin_to_sibling"                                            "NameFilterTextEntry"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-214"
         "ypos"                                                      "0"
@@ -173,8 +169,6 @@
     "ShowRarityComboBox"
     {
         "pin_to_sibling"                                            "NameFilterTextEntry"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-318"
         "ypos"                                                      "0"
@@ -200,8 +194,6 @@
     "SortByComboBox"
     {
         "pin_to_sibling"                                            "NameFilterTextEntry"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-472"
         "ypos"                                                      "0"

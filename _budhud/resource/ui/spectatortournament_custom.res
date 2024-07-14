@@ -253,8 +253,6 @@
             "bh_ChargeAmountShadow_Left"
             {
                 "pin_to_sibling"                                    "bh_ChargeAmount_Left"
-                "pin_corner_to_sibling"                             "PIN_TOPLEFT"
-                "pin_to_sibling_corner"                             "0"
 
                 "ControlName"                                       "CExLabel"
                 "fieldName"                                         "bh_ChargeAmountShadow_Left"
@@ -293,8 +291,6 @@
             "bh_ChargeAmountShadow_Right"
             {
                 "pin_to_sibling"                                    "bh_ChargeAmount_Right"
-                "pin_corner_to_sibling"                             "PIN_TOPLEFT"
-                "pin_to_sibling_corner"                             "0"
 
                 "ControlName"                                       "CExLabel"
                 "fieldName"                                         "bh_ChargeAmountShadow_Right"

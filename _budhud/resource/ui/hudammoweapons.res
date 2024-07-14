@@ -54,8 +54,6 @@
     "AmmoInClipShadow"
     {
         "pin_to_sibling"                                            "AmmoInClip"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-1"
         "ypos"                                                      "-1"
@@ -82,8 +80,6 @@
     "AmmoInReserveShadow"
     {
         "pin_to_sibling"                                            "AmmoInReserve"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-1"
         "ypos"                                                      "-1"
@@ -114,8 +110,6 @@
     "AmmoNoClipShadow"
     {
         "pin_to_sibling"                                            "AmmoNoClip"
-        "pin_corner_to_sibling"                                     "PIN_TOPLEFT"
-        "pin_to_sibling_corner"                                     "0"
 
         "xpos"                                                      "-1"
         "ypos"                                                      "-1"
