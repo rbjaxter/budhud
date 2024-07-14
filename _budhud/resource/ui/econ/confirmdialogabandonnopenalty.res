@@ -7,7 +7,7 @@
 {
     "bh_ConfirmDialog_BG"
     {
-        "tall"                                                      "119"
+        "tall"                                                      "112"
         "visible"                                                   "1"
         "enabled"                                                   "1"
     }
