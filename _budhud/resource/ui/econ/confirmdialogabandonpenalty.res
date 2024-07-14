@@ -6,12 +6,4 @@
 
 "Resource/UI/ConfirmDialogAbandonPenalty.res"
 {
-    "ConfirmDialog"
-    {
-        "ExplanationLabel"
-        {
-            "xpos"                                                  "5"
-            "textalignment"                                         "west"
-        }
-    }
 }

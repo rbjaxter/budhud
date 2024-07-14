@@ -10,6 +10,9 @@
 
     "BG"
     {
+        "bgcolor_override"                                          "bh_Theme_BG30"
+        "border"                                                    "bh_b_NESW"
+
         "TitleLabel"
         {
             "fgcolor_override"                                      "bh_Theme_TextAccent"

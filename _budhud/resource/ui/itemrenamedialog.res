@@ -1,5 +1,13 @@
+#base "econ/bh_confirmbase.res"
+
 "Resource/UI/ItemRenameDialog.res"
 {
+    "ItemRenameDialog"
+    {
+        "bgcolor_override"                                          "bh_Theme_BG30"
+        "border"                                                    "bh_b_NESW"
+    }
+
     "tool_modelpanel"
     {
         "itemmodelpanel"

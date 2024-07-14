@@ -10,6 +10,33 @@
         }
     }
 
+    "TitleLabel"
+    {
+        "fgcolor_override"                                          "bh_Theme_TextAccent"
+        "tall"                                                      "60"
+    }
+
+    "ExplanationLabel"
+    {
+        "xpos"                                                      "10"
+        "wide"                                                      "290"
+        "tall"                                                      "60"
+        "textalignment"                                             "west"
+        "fgcolor_override"                                          "bh_Theme_TextSecondary"
+    }
+
+    "DurationLabel"
+    {
+        "fgcolor_override"                                          "bh_Theme_TextSecondary"
+        "tall"                                                      "60"
+    }
+
+    "EllipsesLabel"
+    {
+        "fgcolor_override"                                          "bh_Theme_TextSecondary"
+        "tall"                                                      "60"
+    }
+
     "CloseButton"
     {
         "defaultBgColor_override"                                   "bh_Theme_BG20"
@@ -56,30 +83,6 @@
         "depressedFgColor_override"                                 "bh_ButtonDepressed"
         "border_default"                                            "bh_b_NESW"
         "border_armed"                                              "bh_b_NESW"
-    }
-
-    "TitleLabel"
-    {
-        "fgcolor_override"                                          "bh_Theme_TextAccent"
-        "tall"                                                      "60"
-    }
-
-    "ExplanationLabel"
-    {
-        "fgcolor_override"                                          "bh_Theme_TextSecondary"
-        "tall"                                                      "60"
-    }
-
-    "DurationLabel"
-    {
-        "fgcolor_override"                                          "bh_Theme_TextSecondary"
-        "tall"                                                      "60"
-    }
-
-    "EllipsesLabel"
-    {
-        "fgcolor_override"                                          "bh_Theme_TextSecondary"
-        "tall"                                                      "60"
     }
 
     "AbandonIcon"
