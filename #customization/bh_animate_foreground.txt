@@ -8,7 +8,7 @@ event HudHealthBonusPulse
     Animate              PlayerStatusHealthBonusImage             alpha              0                           Linear            0.2            0.4
     Animate              PlayerStatusHealthValue                  fgcolor            bh_Health_Buff              Linear            0              0.2
     Animate              PlayerStatusHealthValueShadow            fgcolor            bh_Health_Shadow            Linear            0              0.2
-    Animate              bh_BuffedHealthBlock                     alpha              255                         Linear            0              0.2
+    Animate              bh_BuffedHealthBlock                     alpha              0                           Linear            0              0.2
     Animate              bh_HealthBG                              alpha              0                           Linear            0              0
     Animate              bh_HealthBGSpec                          alpha              255                         Linear            0              0.2
     Animate              bh_HealthBG                              bgcolor            bh_HealthBox_Buff           Linear            0              0.2
