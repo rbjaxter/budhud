@@ -47,6 +47,11 @@
 		{
 			"visible"	"0"
 		}
+
+		"$_disabled_no_flags"
+		{
+			"visible"	"0"
+		}
 	}
 		
 	"RightSideBG"
@@ -78,6 +83,11 @@
 		{
 			"visible"	"0"
 		}
+
+		"$_disabled_no_flags"
+		{
+			"visible"	"0"
+		}
 	}
 		
 	"OutlineBG"
@@ -106,6 +116,11 @@
 		}
 		
 		"$_disabled_specialdelivery"
+		{
+			"visible"	"0"
+		}
+		
+		"$_disabled_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -147,6 +162,11 @@
 		{
 			"visible"	"0"
 		}
+		
+		"$_disabled_no_flags"
+		{
+			"visible"	"0"
+		}
 	}	
 		
 	"BlueScoreShadow"
@@ -182,6 +202,11 @@
 		}
 		
 		"$_disabled_specialdelivery"
+		{
+			"visible"	"0"
+		}
+		
+		"$_disabled_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -223,6 +248,11 @@
 		{
 			"visible"	"0"
 		}
+		
+		"$_disabled_no_flags"
+		{
+			"visible"	"0"
+		}
 	}	
 		
 	"RedScoreShadow"
@@ -258,6 +288,11 @@
 		}
 		
 		"$_disabled_specialdelivery"
+		{
+			"visible"	"0"
+		}
+		
+		"$_disabled_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -340,6 +375,11 @@
 		{
 			"visible"	"0"
 		}
+		
+		"$_disabled_no_flags"
+		{
+			"visible"	"0"
+		}
 	}	
 			
 	"PlayingToBG"
@@ -372,6 +412,11 @@
 		}
 		
 		"$_disabled_specialdelivery"
+		{
+			"visible"	"0"
+		}
+		
+		"$_disabled_no_flags"
 		{
 			"visible"	"0"
 		}

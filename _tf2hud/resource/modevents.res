@@ -446,6 +446,13 @@
 		"index"			"short"		// index of the object
 	}
 
+	"localplayer_builtobject"
+	{
+		"object"		"short"		// type of object built
+		"object_mode"		"short"		// used for teleporters: entrance vs. exit
+		"index"			"short"		// index of the object
+	}
+
 	"player_upgradedobject"
 	{
 		"userid"		"short"		// user ID of the builder
@@ -485,6 +492,7 @@
 		"objecttype"	"short"		// type of object destroyed
 		"index"		"short"			// index of the object destroyed
 		"was_building"	"bool"		// object was being built when it died
+		"team"		"short"			// building's team
 	}
 
 	"object_detonated"
@@ -1658,6 +1666,7 @@
 	"pass_get" 
 	{
 		"owner" "short"
+		"team"	"short"
 	}
 
 	"pass_score"
@@ -1988,5 +1997,12 @@
 
 	"world_status_changed"
 	{}
+
+	"killed_ball_carrier"
+	{
+		"attacker"	"short"
+		"victim"	"short"
+		"assister"	"short"
+	}
 }
 
