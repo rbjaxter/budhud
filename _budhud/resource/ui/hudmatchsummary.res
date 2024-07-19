@@ -54,12 +54,12 @@
 
                 "BluePlayerListParent"
                 {
-                    "tall"                                          "250"
+                    "tall"                                          "260"
 
                     "BluePlayerList"
                     {
-                        "tall"                                      "250"
-                        "linespacing"                               "24"
+                        "tall"                                      "260"
+                        "linespacing"                               "20"
                         "linegap"                                   "0"
                         "spacer"                                    "2"
                         "horiz_inset"                               "0"
@@ -103,13 +103,13 @@
 
                 "RedPlayerListParent"
                 {
-                    "tall"                                          "250"
+                    "tall"                                          "260"
 
                     "RedPlayerList"
                     {
-                        "tall"                                      "250"
+                        "tall"                                      "260"
                         "bgcolor_override"                          "bh_ItemPanel"
-                        "linespacing"                               "24"
+                        "linespacing"                               "20"
                         "linegap"                                   "0"
                         "spacer"                                    "2"
                         // "name_width"                             "s.195"

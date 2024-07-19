@@ -138,6 +138,11 @@
             "labelText"                                             "%desc2%"
             "proportionaltoparent"                                  "1"
 
+            if_mini
+            {
+                "visible"                                           "0"
+            }
+
             "fonts"
             {
                 "0"                                                 "HudFontSmallestBold"
