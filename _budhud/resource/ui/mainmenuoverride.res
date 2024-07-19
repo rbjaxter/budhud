@@ -1108,6 +1108,7 @@
         "wide"                                                      "500"
         "textinsetx"                                                "0"
         "textinsety"                                                "0"
+        "fgcolor_override"                                          "bh_red"
     }
 
     "NoGCImage"

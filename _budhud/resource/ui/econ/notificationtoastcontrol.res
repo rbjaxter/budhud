@@ -7,7 +7,7 @@
     "NotificationToastControl"
     {
         "wide"                                                      "193"
-        "tall"                                                      "55"    // affects alerts box overall size, so if a notif is too big this will cut it off
+        //"tall"                                                      "55"    // affects alerts box overall size, so if a notif is too big this will cut it off. maybe dont't change
         "border"                                                    "bh_blank"
     }
 

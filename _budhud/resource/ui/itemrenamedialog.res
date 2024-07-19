@@ -4,8 +4,14 @@
 {
     "ItemRenameDialog"
     {
-        "bgcolor_override"                                          "bh_Theme_BG30"
+        "bgcolor_override"                                          "bh_Theme_BG20"
         "border"                                                    "bh_b_NESW"
+    }
+
+    "TitleLabel"
+    {
+        "xpos"                                                      "125"
+        "wide"                                                      "150"
     }
 
     "tool_modelpanel"

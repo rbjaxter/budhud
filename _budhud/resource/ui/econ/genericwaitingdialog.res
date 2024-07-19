@@ -11,4 +11,19 @@
         "bgcolor_override"                                          "bh_Theme_BG30"
         "border"                                                    "bh_b_NESW"
     }
+
+    "TitleLabel"
+    {
+        "wide"                                                      "200"
+    }
+
+    "EllipsesLabel"
+    {
+        "wide"                                                      "200"
+    }
+
+    "DurationLabel"
+    {
+        "wide"                                                      "200"
+    }
 }

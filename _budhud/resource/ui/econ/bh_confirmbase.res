@@ -32,19 +32,16 @@
 
     "TitleLabel"
     {
+        "wide"                                                      "285"
         "fgcolor_override"                                          "bh_Theme_TextAccent"
         "allcaps"                                                   "1"
     }
 
     "ExplanationLabel"
     {
-        "xpos"                                                      "10"
-        "ypos"                                                      "50"
-        "wide"                                                      "300"
-        "tall"                                                      "60"
-        "textalignment"                                             "east"
+        "wide"                                                      "280"
+        "tall"                                                      "60" // dynamic value
         "fgcolor_override"                                          "bh_Theme_TextSecondary"
-        "centerwrap"                                                "0"
         "font"                                                      "bh_Font12"
     }
 
