@@ -510,19 +510,9 @@
         "ypos"                                                      "-3"
         "border"                                                    "bh_TooltipBG"
 
-        "Notifications_Scroller"
-        {
-            "tall"                                                  "60"    // 60
-
-            "Notifications_Control"
-            {
-                "tall"                                              "60"    // 60
-            }
-        }
-
         "Notifications_CloseButton"
         {
-            "xpos"                                                  "190"
+            "xpos"                                                  "179+1+1" // aligns this with individual alert close prompt
             "ypos"                                                  "7"
             "image_drawcolor"                                       "255 255 255 255"
             "image_armedcolor"                                      "240 134 49 255"
