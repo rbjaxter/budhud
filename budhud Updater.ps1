@@ -486,6 +486,8 @@ try {
         Write-Host -foregroundcolor "White" -NoNewLine "Copying necessary platform files..."
         Copy-Item "$PSScriptRoot/#dev/sourceschemebase.res" -Destination "$PSScriptRoot/_tf2hud/resource/sourceschemebase.res"
         Copy-Item "$PSScriptRoot/#dev/vsh_hud.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/vsh_hud.res"
+        Copy-Item "$PSScriptRoot/#dev/messageboxdialog.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/econ/messageboxdialog.res"
+        Copy-Item "$PSScriptRoot/#dev/confirmdialog.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/econ/confirmdialog.res"
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
         # Remove various modifiers (OSX, X360, _minmode, _lodef, _hidef, and if_ lines.)

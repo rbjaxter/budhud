@@ -16,6 +16,7 @@
         "TitleLabel"
         {
             "fgcolor_override"                                      "bh_Theme_TextAccent"
+            "allcaps"                                               "1"
         }
 
         "ConfirmLabel"
@@ -43,6 +44,7 @@
             "depressedFgColor_override"                             "bh_ButtonDepressed"
             "border_default"                                        "bh_b_NESW"
             "border_armed"                                          "bh_b_NESW"
+            "allcaps"                                               "1"
         }
 
         "OkButton"
@@ -55,6 +57,7 @@
             "depressedFgColor_override"                             "bh_ButtonDepressed"
             "border_default"                                        "bh_b_NESW"
             "border_armed"                                          "bh_b_NESW"
+            "allcaps"                                               "1"
         }
 
         "SourceItem"

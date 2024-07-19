@@ -10,27 +10,21 @@
         }
     }
 
-    "ConfirmDialog"
-    {
-        "paintborder"                                               "0"
-    }
-
     "bh_ConfirmDialog_BG"
     {
-        "pin_to_sibling"                                            "ConfirmDialog"
-        "xpos"                                                      "0"
-        "ypos"                                                      "0"
         "ControlName"                                               "ImagePanel"
         "fieldName"                                                 "bh_ConfirmDialog_BG"
+        "xpos"                                                      "0"
+        "ypos"                                                      "0"
         "zpos"                                                      "0"
         "wide"                                                      "300"
-        "tall"                                                      "134"
+        "tall"                                                      "115"
         "autoResize"                                                "0"
         "pinCorner"                                                 "0"
         "labeltext"                                                 ""
         "visible"                                                   "0"
         "enabled"                                                   "0"
-        "fillcolor"                                                 "bh_Theme_BG30"
+        "fillcolor"                                                 "bh_Theme_BG20"
         "image"                                                     ""
         "paintbackgroundtype"                                       "0"
         "border"                                                    "bh_b_NESW"
@@ -38,12 +32,6 @@
 
     "TitleLabel"
     {
-        "textAlignment"                                             "north"
-        "xpos"                                                      "0"
-        "ypos"                                                      "10"
-        "zpos"                                                      "1"
-        "wide"                                                      "300"
-        "tall"                                                      "60"
         "fgcolor_override"                                          "bh_Theme_TextAccent"
         "allcaps"                                                   "1"
     }
@@ -74,12 +62,8 @@
 
     "ConfirmButton"
     {
-        "xpos"                                                      "10"
-        "ypos"                                                      "165"
-        "zpos"                                                      "20"
-        "wide"                                                      "125"
+        "wide"                                                      "126"
         "tall"                                                      "26"
-
         "defaultBgColor_override"                                   "bh_Theme_BG20"
         "armedBgColor_override"                                     "bh_Theme_BG30"
         "depressedBgColor_override"                                 "bh_Theme_BG30"
@@ -93,12 +77,8 @@
 
     "OkButton"
     {
-        "xpos"                                                      "10"
-        "ypos"                                                      "165"
-        "zpos"                                                      "20"
-        "wide"                                                      "125"
+        "wide"                                                      "126"
         "tall"                                                      "26"
-
         "defaultBgColor_override"                                   "bh_Theme_BG20"
         "armedBgColor_override"                                     "bh_Theme_BG30"
         "depressedBgColor_override"                                 "bh_Theme_BG30"
@@ -112,12 +92,8 @@
 
     "CloseButton"
     {
-        "xpos"                                                      "165"
-        "ypos"                                                      "165"
-        "zpos"                                                      "20"
-        "wide"                                                      "125"
+        "wide"                                                      "126"
         "tall"                                                      "26"
-
         "defaultBgColor_override"                                   "bh_Theme_BG20"
         "armedBgColor_override"                                     "bh_Theme_BG30"
         "depressedBgColor_override"                                 "bh_Theme_BG30"
@@ -131,12 +107,8 @@
 
     "CancelButton"
     {
-        "xpos"                                                      "165"
-        "ypos"                                                      "165"
-        "zpos"                                                      "20"
-        "wide"                                                      "125"
+        "wide"                                                      "126"
         "tall"                                                      "26"
-
         "defaultBgColor_override"                                   "bh_Theme_BG20"
         "armedBgColor_override"                                     "bh_Theme_BG30"
         "depressedBgColor_override"                                 "bh_Theme_BG30"

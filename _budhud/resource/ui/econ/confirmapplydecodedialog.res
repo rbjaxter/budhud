@@ -1,5 +1,5 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Crate Unbox UI
+    // Crate Unbox UI (but not "no eligible item" UI)
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     #base   "bh_confirmbase.res"
@@ -8,7 +8,7 @@
 {
     "ConfirmApplyDecodeDialog"
     {
-        "bgcolor_override"                                          "bh_Theme_BG30"
+        "bgcolor_override"                                          "bh_Theme_BG20"
         "border"                                                    "bh_b_NESW"
     }
 }

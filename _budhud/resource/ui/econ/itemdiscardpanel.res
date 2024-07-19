@@ -9,9 +9,4 @@
             "use_item_rendertarget"                                 "0"
         }
     }
-
-    "DiscardedLabel"
-    {
-        "fgcolor_override"                                          "bh_white"
-    }
 }
