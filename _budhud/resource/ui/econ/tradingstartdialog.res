@@ -14,6 +14,16 @@
         "border"                                                    "bh_b_NESW"
     }
 
+    "TitleLabel"
+    {
+        "wide"                                                      "400"
+    }
+
+    "CancelButton"
+    {
+        "xpos"                                                      "137"
+    }
+
     "StatePanel0"
     {
         "subbutton0"
