@@ -57,6 +57,11 @@
         "tall"                                                      "60"
     }
 
+    "ConfirmLabel"
+    {
+        "fgcolor_override"                                          "bh_white"
+    }
+
     "ConfirmButton"
     {
         "wide"                                                      "126"
