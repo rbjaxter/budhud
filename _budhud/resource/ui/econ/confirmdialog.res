@@ -10,10 +10,10 @@
 {
     "ConfirmDialog"
     {
-        "xpos"                                                      "c-150"    // I think literally only the delete item confirmation is controlled by this??
-        "ypos"                                                      "c-70"    // Delete item confirmation UI is affected by this value
+        "xpos"                                                      "c-150"	// I think literally only the delete item confirmation is controlled by this??
+        "ypos"                                                      "c-70"	// Delete item confirmation UI is affected by this value
         "wide"                                                      "300"
-        "tall"                                                      "200"    // Whole panel tall is dictated by tall value of ExplanationLabel
+        "tall"                                                      "200"	// Whole panel tall is dictated by tall value of ExplanationLabel
         "paintborder"                                               "0"
         "bgcolor_override"                                          "bh_Theme_BG20"
     }
@@ -39,7 +39,7 @@
         "proportionaltoparent"                                      "1"
     }
 
-    "bh_ConfirmDialog_BGBorderBottom"    // everything about this panel disgusts me
+    "bh_ConfirmDialog_BGBorderBottom"	// everything about this panel disgusts me
     {
         "pin_to_sibling"                                            "ConfirmButton"
         "ControlName"                                               "ImagePanel"
@@ -65,15 +65,15 @@
         "allcaps"                                                   "1"
     }
 
-    "ExplanationLabel"    // These values are left here to dictate to confirmdialog how to adjust the..uh.. well, confirmdialog
+    "ExplanationLabel"	// These values are left here to dictate to confirmdialog how to adjust the..uh.. well, confirmdialog
     {
-        "wide"                                                      "280"    // no touchy
-        "tall"                                                      "60"    // dynamic value
+        "wide"                                                      "280"	// no touchy
+        "tall"                                                      "60"	// dynamic value
         "fgcolor_override"                                          "bh_blank"
-        "font"                                                      "bh_Font12"    // sizing of font also affects sizing of confirmdialog tall
+        "font"                                                      "bh_Font12"	// sizing of font also affects sizing of confirmdialog tall
     }
 
-    "bh_ExplanationLabel"    // culo estúpido элемент сосет яйца joten tein omani
+    "bh_ExplanationLabel"
     {
         "ControlName"                                               "CExLabel"
         "fieldName"                                                 "bh_ExplanationLabel"
@@ -81,7 +81,7 @@
         "labelText"                                                 "%text%"
         "textAlignment"                                             "center"
         "xpos"                                                      "cs-0.5"
-        "ypos"                                                      "cs-5.4"    // ExplanationLabel has issues with using cs values, a custom one does not
+        "ypos"                                                      "cs-5.4"	// ExplanationLabel has issues with using cs values, a custom one does not
         "zpos"                                                      "1"
         "wide"                                                      "200"
         "tall"                                                      "10"

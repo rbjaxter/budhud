@@ -5,39 +5,17 @@
 // dependent on it since it doesn't auto-adjust
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-#base   "bh_confirmbase.res"
+#base   "confirmdialog.res"
 
 "Resource/UI/MessageBoxDialog.res"
 {
-    "TitleLabel"
-    {
-        "ypos"                                                      "r-6969"
-    }
-
-    "ConfirmDialog"
-    {
-        "paintborder"                                               "0"
-    }
-
-    "bh_ConfirmDialog_BG"
-    {
-        "tall"                                                      "85"
-        "visible"                                                   "1"
-        "enabled"                                                   "1"
-    }
-
     "ConfirmButton"
     {
-        "xpos"                                                      "87"
+        "xpos"                                                      "cs-0.5"
     }
 
-    "ExplanationLabel"
+    "bh_ExplanationLabel"
     {
-        "xpos"                                                      "30"
-        "ypos"                                                      "20"
-        "wide"                                                      "280"
-        "tall"                                                      "60" // dynamic value
-        "fgcolor_override"                                          "bh_Theme_TextSecondary"
-        "font"                                                      "bh_Font12"
+        "ypos"                                                      "cs-1.85"
     }
 }

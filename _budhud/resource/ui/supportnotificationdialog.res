@@ -1,6 +1,3 @@
-//  #base   "bh_confirmbase.res"
-// This file does not like #base
-
 "Resource/UI/SupportNotificationDialog.res"
 {
     "ConfirmDialog"

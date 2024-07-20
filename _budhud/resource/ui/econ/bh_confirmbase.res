@@ -32,9 +32,11 @@
 
     "TitleLabel"
     {
-        "wide"                                                      "285"
+        "xpos"                                                      "cs-0.5"
+        "wide"                                                      "200"
         "fgcolor_override"                                          "bh_Theme_TextAccent"
         "allcaps"                                                   "1"
+        "proportionaltoparent"                                      "1"
     }
 
     "ExplanationLabel"
