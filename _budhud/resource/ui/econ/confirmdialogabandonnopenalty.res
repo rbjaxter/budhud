@@ -11,11 +11,4 @@
         "paintborder"                                               "0"
         "bgcolor_override"                                          "bh_blank"
     }
-
-    "bh_ConfirmDialog_BG"
-    {
-        "tall"                                                      "125"
-        "visible"                                                   "1"
-        "enabled"                                                   "1"
-    }
 }

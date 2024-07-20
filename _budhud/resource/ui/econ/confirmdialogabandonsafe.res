@@ -11,10 +11,8 @@
         "bgcolor_override"                                          "bh_blank"
     }
 
-    "bh_ConfirmDialog_BG"
+    "bh_ExplanationLabel"
     {
-        "tall"                                                      "138"
-        "visible"                                                   "1"
-        "enabled"                                                   "1"
+        "ypos"                                                      "cs-6.2"
     }
 }
