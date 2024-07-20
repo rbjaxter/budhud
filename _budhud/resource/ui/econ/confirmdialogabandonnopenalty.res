@@ -1,5 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-// Disconnect Confirmation (No Penalty) - Casual
+// Disconnect Confirmation (No Penalty) - Casual. Has different explanations, which causes
+// different line resizing :(
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 #base   "confirmdialog.res"
 
@@ -13,7 +14,7 @@
 
     "bh_ConfirmDialog_BG"
     {
-        "tall"                                                      "138"
+        "tall"                                                      "125"
         "visible"                                                   "1"
         "enabled"                                                   "1"
     }

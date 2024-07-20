@@ -54,7 +54,7 @@
         "wide"                                                      "280"
         "tall"                                                      "60" // dynamic value
         "fgcolor_override"                                          "bh_Theme_TextSecondary"
-        "font"                                                      "bh_Font12"
+        "font"                                                      "bh_Font10"
     }
 
     "ConfirmButton"
