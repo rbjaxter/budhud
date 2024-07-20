@@ -4,7 +4,6 @@
 // resource files.
 // This whole file can eat my ass
 // confirm dialogs: quit game, mann co use item, coach player
-// messageboxdialog.res also includes this file (gift wrap/dueling/key with no crates UIs)
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 "Resource/UI/ConfirmDialog.res"
@@ -12,6 +11,7 @@
     "ConfirmDialog"
     {
         "xpos"                                                      "c-150"	// I think literally only the delete item confirmation is controlled by this??
+        "ypos"                                                      "c-70"	// Delete item confirmation UI is affected by this value
         "wide"                                                      "300"
         "tall"                                                      "200"	// Whole panel tall is dictated by tall value of ExplanationLabel
         "paintborder"                                               "0"
@@ -41,13 +41,13 @@
 
     "bh_ConfirmDialog_BGBorderBottom"	// everything about this panel disgusts me
     {
-        "pin_to_sibling"                                            "ConfirmDialog"
+        "pin_to_sibling"                                            "ConfirmButton"
         "ControlName"                                               "ImagePanel"
         "fieldName"                                                 "bh_ConfirmDialog_BGBorderBottom"
-        "xpos"                                                      "0"
-        "ypos"                                                      "116"
+        "xpos"                                                      "5000"
+        "ypos"                                                      "-38-1-1"
         "zpos"                                                      "3"
-        "wide"                                                      "f0"
+        "wide"                                                      "f-5000"
         "tall"                                                      "2"
         "visible"                                                   "1"
         "enabled"                                                   "1"
