@@ -33,7 +33,7 @@
 
     "CountdownContainer"
     {
-        "ypos"                                                      "20"
+        "ypos"                                                      "0"
 
         "Background"
         {
