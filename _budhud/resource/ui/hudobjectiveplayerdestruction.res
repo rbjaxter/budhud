@@ -42,6 +42,11 @@
             "enabled"                                               "0"
         }
 
+        "CountdownImage"
+        {
+            "ypos"                                                  "17"
+        }
+
         "bh_CountdownBG"
         {
             "ControlName"                                           "CTFImagePanel"

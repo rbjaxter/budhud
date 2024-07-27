@@ -132,6 +132,13 @@
         "tall"                                                      "19"
     }
 
+//    "HudMenu" // Change voice menu font
+//    {
+//        "TextFont"                                                  "bh_Font14"
+//        "ItemFont"                                                  "bh_Font14"
+//        "ItemFontPulsing"                                           "bh_Font14"
+//    }
+
     "HudMenuEngyBuild"
     {
         "visible"                                                   "1"
