@@ -2,7 +2,7 @@
 {
     "bh_PlayerStatusPin"
     {
-        "xpos"                                                      "c-210"
+        "xpos"                                                      "c-211"
         "ypos"                                                      "10"
     }
 
@@ -12,16 +12,18 @@
 
     "PlayerStatusHealthBonusImage"
     {
-        "xpos"                                                      "92"
-        "ypos"                                                      "43"
-        "wide"                                                      "66"
-        "tall"                                                      "66"
+        "xpos"                                                      "93"
+        "ypos"                                                      "44"
+        "wide"                                                      "64"
+        "tall"                                                      "64"
     }
 
     "PlayerStatusHealthImage"
     {
-        "xpos"                                                      "95"
-        "ypos"                                                      "46"
+        "pin_to_sibling"                                            "PlayerStatusHealthImageBG"
+
+        "xpos"                                                      "-2"
+        "ypos"                                                      "-2"
         "wide"                                                      "60"
         "tall"                                                      "60"
         "visible"                                                   "1"
@@ -30,12 +32,10 @@
 
     "PlayerStatusHealthImageBG"
     {
-        "pin_to_sibling"                                            "PlayerStatusHealthImage"
-
-        "xpos"                                                      "3"
-        "ypos"                                                      "3"
-        "wide"                                                      "65"
-        "tall"                                                      "65"
+        "xpos"                                                      "93"
+        "ypos"                                                      "44"
+        "wide"                                                      "64"
+        "tall"                                                      "64"
         "visible"                                                   "1"
         "enabled"                                                   "1"
     }
