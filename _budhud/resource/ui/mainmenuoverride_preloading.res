@@ -81,4 +81,7 @@
     "icon_obj_5_blu_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_5_blu_locked" }
     "icon_obj_5_red" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_5_red" }
     "icon_obj_5_red_locked" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../sprites/obj_icons/icon_obj_5_red_locked" }
+
+    // menu_thumb_missing
+    "menu_thumb_missing" { "ControlName" "ImagePanel" "ypos" "r-6969" "visible" "0" "enabled" "0" "image" "../vgui/maps/menu_thumb_missing" }
 }
