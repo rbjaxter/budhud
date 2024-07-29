@@ -1,4 +1,4 @@
-"Resource/UI/HudPlayerHealth.res"
+"Resource/UI/HudMedicCharge.res"
 {
     "bh_UberBG"
     {
