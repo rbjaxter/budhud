@@ -29,10 +29,8 @@
 
     "PlayerStatusHealthImageBG"
     {
-        "pin_to_sibling"                                            "PlayerStatusHealthImage"
-
-        "xpos"                                                      "2"
-        "ypos"                                                      "2"
+        "xpos"                                                      "40"
+        "ypos"                                                      "60"
         "wide"                                                      "34"
         "tall"                                                      "34"
         "visible"                                                   "1"
