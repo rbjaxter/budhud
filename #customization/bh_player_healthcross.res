@@ -19,8 +19,10 @@
 
     "PlayerStatusHealthImage"
     {
-        "xpos"                                                      "42"
-        "ypos"                                                      "62"
+        "pin_to_sibling"                                            "PlayerStatusHealthImageBG"
+
+        "xpos"                                                      "-2"
+        "ypos"                                                      "-2"
         "wide"                                                      "30"
         "tall"                                                      "30"
         "visible"                                                   "1"
@@ -29,10 +31,8 @@
 
     "PlayerStatusHealthImageBG"
     {
-        "pin_to_sibling"                                            "PlayerStatusHealthImage"
-
-        "xpos"                                                      "2"
-        "ypos"                                                      "2"
+        "xpos"                                                      "40"
+        "ypos"                                                      "60"
         "wide"                                                      "34"
         "tall"                                                      "34"
         "visible"                                                   "1"
