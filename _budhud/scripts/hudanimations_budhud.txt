@@ -274,16 +274,8 @@ event HudSpyDisguiseHide
     Animate            PlayerStatusSpyOutlineImage            Alpha            0            Linear            0.2            0.2
 }
 
-////////////////////////////////////////////////////////////////////////////////////////////////////
-// This only works sometimes to fix the stuck animation bug (probably when you don't skip past the
-// screenshot snapshot reminder), but I'm going to leave it in just for those cases it does work
-////////////////////////////////////////////////////////////////////////////////////////////////////
 event HudSnapShotReminderIn
 {
-    RunEvent            HudHealthDyingPulseStop            0
-    RunEvent            HudHealthBonusPulseStop            0
-    RunEvent            HudLowAmmoPulseStop                0
-    RunEvent            HudMedicChargedStop                0
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
