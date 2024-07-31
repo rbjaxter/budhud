@@ -126,25 +126,6 @@ event HudLowAmmoPulseStop
 // - A StopEvent is added to HudHealthBonusPulse & HudLowAmmoPulse to end their respective animation
 // fixes if there's currently an animation occurring
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-event MenuOpen
-{
-    RunEventChild            HudPlayerHealth            LingeredHealthFix             0
-    RunEventChild            HudWeaponAmmo              LingeredAmmoFix               0
-
-    StopEvent                MenuClose                  0
-
-    // fade in
-    Animate                  HudMenu                    alpha                         255                  Linear            0            0.1
-    Animate                  HudMenu                    selectionalpha                255                  Linear            0            0.1
-    Animate                  HudMenu                    fgcolor                       FgColor              Linear            0            0.1
-    Animate                  HudMenu                    menucolor                     MenuColor            Linear            0            0.1
-    Animate                  HudMenu                    itemcolor                     ItemColor            Linear            0            0.1
-    Animate                  HudMenu                    textscan                      1                    Linear            0            0.1
-
-    // Undo any blur
-    Animate                  HudMenu                    blur                          1                    Linear            0            0.01
-}
-
 event LingeredHealthFix
 {
     Animate              PlayerStatusHealthBonusImage             alpha              255                         Linear            0.6              0
