@@ -29,6 +29,6 @@ event HudMedicChargedStop
 {
     StopEvent            HudMedicCharged                0
     StopEvent            HudMedicChargedLoop            0
-    Animate              ChargeLabel                    fgcolor            bh_UberMeter_Base            Linear            0            0.0
-    Animate              ChargeMeter                    fgcolor            bh_UberMeter_Base            Linear            0            0.0
+    Animate              ChargeLabel                    fgcolor            bh_UberMeter_Base            Linear            0            0
+    Animate              ChargeMeter                    fgcolor            bh_UberMeter_Base            Linear            0            0
 }
