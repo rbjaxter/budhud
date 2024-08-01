@@ -146,6 +146,17 @@ event HudLowAmmoPulseStop
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
+// Ultimate (?) Lingering Health/Ammo Animations Fix, courtesy of @peaches on Discord
+// The game runs this event every time the player spawns regardless of game mode/type
+////////////////////////////////////////////////////////////////////////////////////////////////////
+event CompetitiveGame_RestoreChatWindow
+{
+    RunEventChild            HudPlayerHealth            HudHealthBonusPulseStop             0
+    RunEventChild            HudPlayerHealth            HudHealthDyingPulseStop             0
+    RunEventChild            HudWeaponAmmo              HudLowAmmoPulseStop                 0
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
 // Lingering Health/Ammo Fix, courtesy of @qkeitoe on GitHub
 // Uses menus being opened to reset animations if they're stuck
 //
@@ -252,10 +263,6 @@ event HudMedicChargedStop
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // Prevent casual/comp chat positioning from changing
 event CompetitiveGame_LowerChatWindow
-{
-}
-
-event CompetitiveGame_RestoreChatWindow
 {
 }
 
