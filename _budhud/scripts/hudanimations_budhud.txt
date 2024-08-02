@@ -132,17 +132,28 @@ event HudLowAmmoPulseStop
     StopEvent            HudLowAmmoPulse                0
     StopEvent            HudLowAmmoPulseLoop            0
 
-    Animate              AmmoInClip                     fgcolor            bh_Ammo_Main                      Linear            0              0.2
-    Animate              AmmoNoClip                     fgcolor            bh_Ammo_Main                      Linear            0              0.2
-    Animate              AmmoInReserve                  fgcolor            bh_Ammo_Reserve                   Linear            0              0.2
-    Animate              AmmoInClipShadow               alpha              255                               Linear            0              0.2
-    Animate              AmmoInClipShadow               fgcolor            bh_Ammo_Main_Shadow               Linear            0              0.2
-    Animate              AmmoNoClipShadow               alpha              255                               Linear            0              0.2
-    Animate              AmmoNoClipShadow               fgcolor            bh_Ammo_Main_Shadow               Linear            0              0.2
-    Animate              AmmoInReserveShadow            alpha              255                               Linear            0              0.2
-    Animate              AmmoInReserveShadow            fgcolor            bh_Ammo_Reserve_Shadow            Linear            0              0.2
-    Animate              bh_AmmoBG                      alpha              0                                 Linear            0              0.2
-    Animate              bh_AmmoBG                      bgcolor            bh_AmmoBox_Base                   Linear            0              0.2
+    Animate              AmmoInClip                     fgcolor            bh_Ammo_Main                      Linear            0              0
+    Animate              AmmoNoClip                     fgcolor            bh_Ammo_Main                      Linear            0              0
+    Animate              AmmoInReserve                  fgcolor            bh_Ammo_Reserve                   Linear            0              0
+    Animate              AmmoInClipShadow               alpha              255                               Linear            0              0
+    Animate              AmmoInClipShadow               fgcolor            bh_Ammo_Main_Shadow               Linear            0              0
+    Animate              AmmoNoClipShadow               alpha              255                               Linear            0              0
+    Animate              AmmoNoClipShadow               fgcolor            bh_Ammo_Main_Shadow               Linear            0              0
+    Animate              AmmoInReserveShadow            alpha              255                               Linear            0              0
+    Animate              AmmoInReserveShadow            fgcolor            bh_Ammo_Reserve_Shadow            Linear            0              0
+    Animate              bh_AmmoBG                      alpha              0                                 Linear            0              0
+    Animate              bh_AmmoBG                      bgcolor            bh_AmmoBox_Base                   Linear            0              0
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Ultimate (?) Lingering Health/Ammo Animations Fix, courtesy of @peaches on Discord
+// The game runs this event every time the player spawns regardless of game mode/type
+////////////////////////////////////////////////////////////////////////////////////////////////////
+event CompetitiveGame_RestoreChatWindow
+{
+    RunEventChild            HudPlayerHealth            HudHealthBonusPulseStop             0
+    RunEventChild            HudPlayerHealth            HudHealthDyingPulseStop             0
+    RunEventChild            HudWeaponAmmo              HudLowAmmoPulseStop                 0
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -237,14 +248,14 @@ event HudMedicChargedStop
     StopEvent            HudMedicCharged                   0
     StopEvent            HudMedicChargedLoop               0
     // Medigun, kritzkrieg, quickfix
-    Animate              ChargeLabel                       fgcolor            bh_UberLabel_Base            Linear            0            0.00
-    Animate              ChargeMeter                       fgcolor            bh_UberMeter_Base            Linear            0            0.00
+    Animate              ChargeLabel                       fgcolor            bh_UberLabel_Base            Linear            0            0
+    Animate              ChargeMeter                       fgcolor            bh_UberMeter_Base            Linear            0            0
     // Vaccinator
-    Animate              IndividualChargesLabel            fgcolor            bh_UberLabel_Base            Linear            0            0.0
-    Animate              ChargeMeter1                      fgcolor            bh_UberMeter_Base            Linear            0            0.0
-    Animate              ChargeMeter2                      fgcolor            bh_UberMeter_Base            Linear            0            0.0
-    Animate              ChargeMeter3                      fgcolor            bh_UberMeter_Base            Linear            0            0.0
-    Animate              ChargeMeter4                      fgcolor            bh_UberMeter_Base            Linear            0            0.0
+    Animate              IndividualChargesLabel            fgcolor            bh_UberLabel_Base            Linear            0            0
+    Animate              ChargeMeter1                      fgcolor            bh_UberMeter_Base            Linear            0            0
+    Animate              ChargeMeter2                      fgcolor            bh_UberMeter_Base            Linear            0            0
+    Animate              ChargeMeter3                      fgcolor            bh_UberMeter_Base            Linear            0            0
+    Animate              ChargeMeter4                      fgcolor            bh_UberMeter_Base            Linear            0            0
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -252,10 +263,6 @@ event HudMedicChargedStop
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // Prevent casual/comp chat positioning from changing
 event CompetitiveGame_LowerChatWindow
-{
-}
-
-event CompetitiveGame_RestoreChatWindow
 {
 }
 
@@ -274,16 +281,8 @@ event HudSpyDisguiseHide
     Animate            PlayerStatusSpyOutlineImage            Alpha            0            Linear            0.2            0.2
 }
 
-////////////////////////////////////////////////////////////////////////////////////////////////////
-// This only works sometimes to fix the stuck animation bug (probably when you don't skip past the
-// screenshot snapshot reminder), but I'm going to leave it in just for those cases it does work
-////////////////////////////////////////////////////////////////////////////////////////////////////
 event HudSnapShotReminderIn
 {
-    RunEvent            HudHealthDyingPulseStop            0
-    RunEvent            HudHealthBonusPulseStop            0
-    RunEvent            HudLowAmmoPulseStop                0
-    RunEvent            HudMedicChargedStop                0
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
