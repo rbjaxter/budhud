@@ -7,4 +7,9 @@
         "chat_color_chat_text"                                      "bh_white"
         "chat_color_party_event"                                    "bh_yellow"
     }
+
+    "chatlog"
+    {
+        "pinCorner"                                                 "0"
+    }
 }
