@@ -15,7 +15,7 @@
         "wide"                                                      "300"
         "tall"                                                      "200"	// Whole panel tall is dictated by tall value of ExplanationLabel
         "paintborder"                                               "0"
-        "bgcolor_override"                                          "bh_Theme_BG20"
+        "bgcolor_override"                                          "bh_Blank"
     }
 
     "bh_ConfirmDialog_BG"
@@ -65,7 +65,7 @@
         "allcaps"                                                   "1"
     }
 
-    "ExplanationLabel"	// These values are left here to dictate to confirmdialog how to adjust the..uh.. well, confirmdialog
+    "ExplanationLabel"	// These values are left here to dictate to confirmdialog.res how to adjust the ConfirmDialog panel
     {
         "wide"                                                      "280"	// no touchy
         "tall"                                                      "60"	// dynamic value
