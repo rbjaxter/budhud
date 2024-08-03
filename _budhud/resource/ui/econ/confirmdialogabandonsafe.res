@@ -5,10 +5,8 @@
 
 "Resource/UI/ConfirmDialogAbandonNoPenalty.res"
 {
-    "ConfirmDialog"
+    "ConfirmDialog" // breaks without
     {
-        "paintborder"                                               "0"
-        "bgcolor_override"                                          "bh_blank"
     }
 
     "bh_ExplanationLabel"
