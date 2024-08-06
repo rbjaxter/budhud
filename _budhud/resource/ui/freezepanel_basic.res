@@ -2,13 +2,6 @@
 
 "Resource/UI/FreezePanel_Basic.res"
 {
-    "FreezePanel" // disable for mvm reloadscheme fix
-    {
-        "ypos"                                                      "r-6969"
-        "visible"                                                   "0"
-        "enabled"                                                   "0"
-    }
-
     "ScreenshotPanel"
     {
         "ypos"                                                      "r-6969"
