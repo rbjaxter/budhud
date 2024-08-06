@@ -96,6 +96,15 @@ try {
     $resource_backup = "$PSScriptRoot/#dev/resource_backup"
     $scripts_backup = "$PSScriptRoot/#dev/scripts_backup"
 
+    # tf2 executable names
+    if ([System.OperatingSystem]::IsWindows()) {
+        $exe_names = "hl2.exe", "tf_win64.exe"
+    } elseif ([System.OperatingSystem]::IsLinux()) {
+        $exe_names = "hl2", "tf_linux64"
+    } else {
+        throw [System.PlatformNotSupportedException]::new("Only Windows and Linux are supported.")
+    }
+
     #################
     # Shared_EndTimer
     #################
@@ -123,11 +132,16 @@ try {
         # Check for hl2.exe process
         Write-Host -foregroundcolor "White" -NoNewLine "Checking if TF2 is running... "
 
+        $procnames = $exe_names
+        if ([System.OperatingSystem]::IsWindows()) {
+             $procnames = $procnames | ForEach-Object {$_.Substring(0, $_.Length-4)}
+        }
+
         If
         (
-            Get-Process hl2, tf_win64 -ErrorAction SilentlyContinue
+            Get-Process $procnames -ErrorAction SilentlyContinue
         ) {
-            Write-Host -foregroundcolor "White" -backgroundcolor "Red" "hl2 / tf_win64.exe detected"
+            Write-Host -foregroundcolor "White" -backgroundcolor "Red" "$($procnames -join " / ") detected"
             Write-Host ""
 
             Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
@@ -209,20 +223,24 @@ try {
     ################
     function Check_HUDFiles {
         # Check for hl2.exe file
-        Write-Host -foregroundcolor "White" -NoNewLine "Checking for hl2 or tf_win64.exe... "
-        $hl2 = Maybe_Path $tf "../hl2.exe"
-        $tf64 = Maybe_Path $tf "../tf_win64.exe"
+        $names = $exe_names -join " / "
+        Write-Host -foregroundcolor "White" -NoNewLine "Checking for $names... "
+        $bin_dir = Maybe_Path $tf ".."
 
-        If
-        (
-            ![String]::IsNullOrEmpty($hl2) -or
-            ![String]::IsNullOrEmpty($tf64)
-        ) {
-            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
+        $found = $false
+        foreach ($exe in $exe_names) {
+            $exe_path = Maybe_Path $bin_dir $exe
+            if (![String]::IsNullOrEmpty($exe_path)) {
+                $found = $true
+                break
+            }
         }
 
+        if ($found) {
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "File found"
+        }
         Else {
-            Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate hl2 or tf_win64.exe"
+            Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Could not locate $names"
             Write-Host ""
 
             Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Outcome"
@@ -698,6 +716,11 @@ try {
         Write-Host -ForegroundColor "White" "If the compiler cannot be found, it will be automatically downloaded."
         Write-Host -ForegroundColor "White" "(the file isn't included with budhud due to its size relative to the hud)"
         Write-Host ""
+
+        if (![System.OperatingSystem]::IsWindows()) {
+            Write-Host -foregroundcolor "White" -backgroundcolor "Red" "The compiler can only be used on Windows."
+            return
+        }
 
         Write-Host -ForegroundColor "White" -BackgroundColor "Yellow" "==================================="
         Write-Host -ForegroundColor "White" "Do you want to continue? [Y / N]"
