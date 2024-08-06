@@ -62,7 +62,7 @@
         "ControlName"                                               "Label"
         "fieldName"                                                 "bh_TimePanelPin"
         "xpos"                                                      "cs-0.5"
-        "ypos"                                                      "33"
+        "ypos"                                                      "30"
         "zpos"                                                      "0"
         "wide"                                                      "f0"
         "tall"                                                      "0"
