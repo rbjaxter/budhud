@@ -1,5 +1,5 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // "sorting items" dialog
+    // "sorting items" & "loadout not available" dialog
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     #base   "bh_confirmbase.res"
@@ -25,5 +25,11 @@
     "DurationLabel"
     {
         "wide"                                                      "200"
+    }
+
+    "CloseButton"
+    {
+        "xpos"                                                      "cs-0.5"
+        "proportionaltoparent"                                      "1"
     }
 }
