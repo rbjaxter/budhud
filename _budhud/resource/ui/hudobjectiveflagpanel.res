@@ -418,18 +418,19 @@
         "if_hybrid"
         {
             "visible"                                               "0"
-            "ypos"                                                  "r110"
+            "ypos"                                                  "r113"
         }
 
         "if_hybrid_single"
         {
-            "xpos"                                                  "c-80"
-            "ypos"                                                  "r73"
+            "xpos"                                                  "c-81"
+            "ypos"                                                  "r100"
         }
 
         "if_hybrid_double"
         {
             "xpos"                                                  "c-45"
+            "ypos"                                                  "r113"
         }
 
         "if_specialdelivery"
