@@ -33,14 +33,15 @@
     {
         "ControlName"                                               "Label"
         "fieldName"                                                 "bh_PlayerStatusPin"
-        "xpos"                                                      "193"
+        "xpos"                                                      "s.78"
         "ypos"                                                      "23"
         "zpos"                                                      "0"
-        "wide"                                                      "10"
+        "wide"                                                      "f0"
         "tall"                                                      "0"
         "visible"                                                   "1"
         "enabled"                                                   "1"
         "bgcolor_override"                                          "0 0 0 0"
+        "proportionaltoparent"                                      "1"
     }
 
     "bh_HealthBG"
@@ -65,8 +66,8 @@
 
     "PlayerStatusHealthValue"
     {
-        "xpos"                                                      "0"
-        "ypos"                                                      "0"
+        "xpos"                                                      "-1"
+        "ypos"                                                      "-1"
         "zpos"                                                      "6"
         "wide"                                                      "250"
         "tall"                                                      "150"
@@ -96,11 +97,12 @@
 
     "PlayerStatusHealthBonusImage"
     {
-        "xpos"                                                      "108"
-        "ypos"                                                      "59"
+        "xpos"                                                      "cs-0.5"
+        "ypos"                                                      "cs-0.5"
         "zpos"                                                      "-10"
         "wide"                                                      "34"
         "tall"                                                      "34"
+        "proportionaltoparent"                                      "1"
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////

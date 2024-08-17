@@ -2,40 +2,36 @@
 {
     "bh_PlayerStatusPin"
     {
-        "xpos"                                                      "c-332"
-    }
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // PlayerStatusHealthBonusImage can't be pinned
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    "PlayerStatusHealthBonusImage"
-    {
-        "xpos"                                                      "40"
-        "ypos"                                                      "60"
-        "wide"                                                      "34"
-        "tall"                                                      "34"
+        "xpos"                                                      "s.62"
     }
 
     "PlayerStatusHealthImage"
     {
-        "xpos"                                                      "42"
-        "ypos"                                                      "62"
+        "xpos"                                                      "s1.2"
+        "ypos"                                                      "cs-0.5"
         "wide"                                                      "30"
-        "tall"                                                      "30"
+        "tall"                                                      "o1"
         "visible"                                                   "1"
         "enabled"                                                   "1"
+        "proportionaltoparent"                                      "1"
     }
 
     "PlayerStatusHealthImageBG"
     {
-        "pin_to_sibling"                                            "PlayerStatusHealthImage"
-
-        "xpos"                                                      "2"
-        "ypos"                                                      "2"
-        "wide"                                                      "34"
-        "tall"                                                      "34"
+        "xpos"                                                      "s0.97"
+        "ypos"                                                      "cs-0.5"
+        "wide"                                                      "35"
+        "tall"                                                      "o1"
         "visible"                                                   "1"
         "enabled"                                                   "1"
+        "proportionaltoparent"                                      "1"
+    }
+
+    "PlayerStatusHealthBonusImage"
+    {
+        "xpos"                                                      "s0.97"
+        "ypos"                                                      "cs-0.5"
+        "wide"                                                      "35"
+        "tall"                                                      "o1"
     }
 }

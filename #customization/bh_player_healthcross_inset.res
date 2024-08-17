@@ -2,42 +2,8 @@
 {
     "bh_PlayerStatusPin"
     {
-        "xpos"                                                      "c-211"
+        "xpos"                                                      "s0.864"
         "ypos"                                                      "10"
-    }
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // PlayerStatusHealthBonusImage can't be pinned
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    "PlayerStatusHealthBonusImage"
-    {
-        "xpos"                                                      "93"
-        "ypos"                                                      "44"
-        "wide"                                                      "64"
-        "tall"                                                      "64"
-    }
-
-    "PlayerStatusHealthImage"
-    {
-        "pin_to_sibling"                                            "PlayerStatusHealthImageBG"
-
-        "xpos"                                                      "-2"
-        "ypos"                                                      "-2"
-        "wide"                                                      "60"
-        "tall"                                                      "60"
-        "visible"                                                   "1"
-        "enabled"                                                   "1"
-    }
-
-    "PlayerStatusHealthImageBG"
-    {
-        "xpos"                                                      "93"
-        "ypos"                                                      "44"
-        "wide"                                                      "64"
-        "tall"                                                      "64"
-        "visible"                                                   "1"
-        "enabled"                                                   "1"
     }
 
     "PlayerStatusHealthValue"
@@ -48,5 +14,35 @@
     "PlayerStatusHealthValueShadow"
     {
         "font"                                                      "bh_Font26"
+    }
+
+    "PlayerStatusHealthImage"
+    {
+        "xpos"                                                      "cs-0.5"
+        "ypos"                                                      "cs-0.5"
+        "wide"                                                      "60"
+        "tall"                                                      "o1"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "proportionaltoparent"                                      "1"
+    }
+
+    "PlayerStatusHealthImageBG"
+    {
+        "xpos"                                                      "cs-0.5"
+        "ypos"                                                      "cs-0.5"
+        "wide"                                                      "67"
+        "tall"                                                      "o1"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "proportionaltoparent"                                      "1"
+    }
+
+    "PlayerStatusHealthBonusImage"
+    {
+        "xpos"                                                      "cs-0.5"
+        "ypos"                                                      "cs-0.5"
+        "wide"                                                      "67"
+        "tall"                                                      "o1"
     }
 }
