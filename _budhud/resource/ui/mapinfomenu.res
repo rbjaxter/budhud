@@ -19,7 +19,8 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
+        "enabled"                                                   "1" // Must be set to 1, otherwise “default” “0” will not take effect
+        "default"                                                   "0"
     }
 
     "MapInfoBack"
@@ -33,7 +34,8 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
+        "enabled"                                                   "1" // Must be set to 1, otherwise “default” “0” will not take effect
+        "default"                                                   "0"
     }
 
     "MapImage"
@@ -90,6 +92,7 @@
         "labelText"                                                 "#bh_Continue_QK"
         "font"                                                      "bh_Font12"
         "textAlignment"                                             "center"
+        "default"                                                   "1"
         "Command"                                                   "continue"
 
         "defaultBgColor_override"                                   "bh_Theme_BG20"
