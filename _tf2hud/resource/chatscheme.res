@@ -221,6 +221,7 @@ Scheme
 
 		"Default"
 		{
+			"isproportional" "only"
 			"1"
 			{
 				"name"		"Verdana"
@@ -259,14 +260,12 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"20" [!$POSIX]
-				"tall"		"24" [$POSIX]
+				"tall"		"8"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -363,6 +362,7 @@ Scheme
 
 		"ChatFont"
 		{
+			"isproportional" "only"
 			"1"
 			{
 				"name"		"Verdana"
@@ -399,14 +399,16 @@ Scheme
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"22"	[!$POSIX]
-				"tall"		"25"	[$POSIX]
-				"weight"	"700"
-				"yres"		"1200 10000"
+				"tall"		"8"
+				// Misyl: Looks bad when proportional
+				// Removing the weight here.
+				"weight" "300"
+				//"weight"	"700"
 				"dropshadow"	"1"
+				"antialias" "1"
 			}
 		}
 
