@@ -185,8 +185,17 @@
             "enabled"                                               "0"
         }
 
+        "Button1"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
+        }
+
         "TitleLabel"
         {
+            "xpos"                                                  "cs-0.5"
+            "proportionaltoparent"                                  "1"
             "fgcolor_override"                                      "bh_Theme_TextAccent"
             "labeltext"                                             "#bh_CallVote"
         }
@@ -195,8 +204,8 @@
         {
             "ControlName"                                           "CExButton"
             "fieldName"                                             "bh_CallVote"
-            "xpos"                                                  "62"
-            "ypos"                                                  "275"
+            "xpos"                                                  "360"
+            "ypos"                                                  "325"
             "zpos"                                                  "2"
             "wide"                                                  "100"
             "tall"                                                  "26"
@@ -214,7 +223,6 @@
             "Command"                                               "CallVote"
             "sound_depressed"                                       "UI/buttonclick.wav"
             "sound_released"                                        "UI/buttonclickrelease.wav"
-
             "defaultBgColor_override"                               "bh_Theme_BG20"
             "armedBgColor_override"                                 "bh_Theme_BG30"
             "depressedBgColor_override"                             "bh_Theme_BG30"
@@ -229,8 +237,8 @@
         {
             "ControlName"                                           "CExButton"
             "fieldName"                                             "bh_Close"
-            "xpos"                                                  "240"
-            "ypos"                                                  "275"
+            "xpos"                                                  "480"
+            "ypos"                                                  "325"
             "zpos"                                                  "2"
             "wide"                                                  "100"
             "tall"                                                  "26"
@@ -248,7 +256,6 @@
             "Command"                                               "Close"
             "sound_depressed"                                       "UI/buttonclick.wav"
             "sound_released"                                        "UI/buttonclickrelease.wav"
-
             "defaultBgColor_override"                               "bh_Theme_BG20"
             "armedBgColor_override"                                 "bh_Theme_BG30"
             "depressedBgColor_override"                             "bh_Theme_BG30"
