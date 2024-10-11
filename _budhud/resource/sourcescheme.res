@@ -173,40 +173,6 @@ Scheme
             {
                 "name"                                              "Lucida Console"
                 "tall"                                              "11"
-                "weight"                                            "500"
-                "yres"                                              "480 599"
-                "dropshadow"                                        "1"
-            }
-            "2"
-            {
-                "name"                                              "Lucida Console"
-                "tall"                                              "12"
-                "weight"                                            "500"
-                "yres"                                              "600 767"
-                "dropshadow"                                        "1"
-            }
-            "3"
-            {
-                "name"                                              "Lucida Console"
-                "tall"                                              "13"
-                "weight"                                            "500"
-                "yres"                                              "768 1023"
-                "dropshadow"                                        "1"
-            }
-            "4"
-            {
-                "name"                                              "Lucida Console"
-                "tall"                                              "14"
-                "weight"                                            "500"
-                "yres"                                              "1024 1199"
-                "dropshadow"                                        "1"
-            }
-            "5"
-            {
-                "name"                                              "Lucida Console"
-                "tall"                                              "15"
-                "weight"                                            "500"
-                "yres"                                              "1200 10000"
                 "dropshadow"                                        "1"
             }
         }
@@ -217,40 +183,6 @@ Scheme
             {
                 "name"                                              "Tahoma"
                 "tall"                                              "12"
-                "weight"                                            "500"
-                "yres"                                              "480 599"
-                "antialias"                                         "1"
-            }
-            "2"
-            {
-                "name"                                              "Tahoma"
-                "tall"                                              "12"
-                "weight"                                            "500"
-                "yres"                                              "600 767"
-                "antialias"                                         "1"
-            }
-            "3"
-            {
-                "name"                                              "Tahoma"
-                "tall"                                              "13"
-                "weight"                                            "500"
-                "yres"                                              "768 1023"
-                "antialias"                                         "1"
-            }
-            "4"
-            {
-                "name"                                              "Tahoma"
-                "tall"                                              "14"
-                "weight"                                            "500"
-                "yres"                                              "1024 1199"
-                "antialias"                                         "1"
-            }
-            "5"
-            {
-                "name"                                              "Tahoma"
-                "tall"                                              "15"
-                "weight"                                            "500"
-                "yres"                                              "1200 10000"
                 "antialias"                                         "1"
             }
         }
@@ -261,40 +193,6 @@ Scheme
             {
                 "name"                                              "Lucida Console"
                 "tall"                                              "11"
-                "weight"                                            "500"
-                "yres"                                              "480 599"
-                "antialias"                                         "1"
-            }
-            "2"
-            {
-                "name"                                              "Lucida Console"
-                "tall"                                              "11"
-                "weight"                                            "500"
-                "yres"                                              "600 767"
-                "antialias"                                         "1"
-            }
-            "3"
-            {
-                "name"                                              "Lucida Console"
-                "tall"                                              "11"
-                "weight"                                            "500"
-                "yres"                                              "768 1023"
-                "antialias"                                         "1"
-            }
-            "4"
-            {
-                "name"                                              "Lucida Console"
-                "tall"                                              "12"
-                "weight"                                            "500"
-                "yres"                                              "1024 1199"
-                "antialias"                                         "1"
-            }
-            "5"
-            {
-                "name"                                              "Lucida Console"
-                "tall"                                              "13"
-                "weight"                                            "500"
-                "yres"                                              "1200 10000"
                 "antialias"                                         "1"
             }
         }
