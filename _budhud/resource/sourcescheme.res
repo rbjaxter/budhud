@@ -155,13 +155,13 @@
         // "Default" - Console input text appearance
         // "DefaultLarge" - "Console" title text appearance
         ////////////////////////////////////////////////////////////////////////////////////////////////////
+
         "DefaultFixedOutline"
         {
-
             "1"
             {
                 "name"                                              "Lucida Console"
-                "tall"                                              "11"
+                "tall"                                              "5"
                 "dropshadow"                                        "1"
             }
         }
