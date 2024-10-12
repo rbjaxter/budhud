@@ -90,7 +90,7 @@
     bh_b_E                  - Border on EAST side of element
     bh_b_S                  - Border on SOUTH side of element
     bh_b_W                  - Border on WEST side of element
-    ReplayGrayDialogBorder  - PReviously used a lot for tooltips, now using bh_ToolTipBG
+    ReplayGrayDialogBorder  - Previously used a lot for tooltips, now using bh_ToolTipBG
     bh_TooltipBG            - Replaces ReplayGrayDialogBorder
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -130,6 +130,21 @@
         "image"                                                     ""
         "paintbackgroundtype"                                       "0"
     }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Button Styling Only
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+        "wide"                                                      "100"
+        "tall"                                                      "26"
+
+        "defaultBgColor_override"                                   "bh_Theme_BG20"
+        "armedBgColor_override"                                     "bh_Theme_BG30"
+        "depressedBgColor_override"                                 "bh_Theme_BG30"
+        "defaultFgColor_override"                                   "bh_Theme_TextSecondary"
+        "armedFgColor_override"                                     "bh_Theme_TextAccent"
+        "depressedFgColor_override"                                 "bh_ButtonDepressed"
+        "border_default"                                            "bh_b_NESW"
+        "border_armed"                                              "bh_b_NESW"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Button Template
@@ -185,16 +200,6 @@
         "image_armedcolor"                                          "240 134 49 255"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // "Combobox" Colors
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-        "fgcolor_override"                                          "bh_white"
-        "bgcolor_override"                                          "bh_blank"
-        "disabledFgColor_override"                                  "bh_white"
-        "selectionColor_override"                                   "bh_blank"
-        "selectionTextColor_override"                               "bh_white"
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Background footer used in menus
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     "bh_BackgroundFooter"
@@ -243,6 +248,15 @@
         "xpos"                                                      "-1"
         "ypos"                                                      "-1"
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // "Combobox" Colors
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        "fgcolor_override"                                          "bh_white"
+        "bgcolor_override"                                          "bh_blank"
+        "disabledFgColor_override"                                  "bh_white"
+        "selectionColor_override"                                   "bh_blank"
+        "selectionTextColor_override"                               "bh_white"fpin_to_sibling
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Combobox (w/ dropdown arrow) Color Control

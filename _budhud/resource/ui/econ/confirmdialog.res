@@ -15,7 +15,7 @@
         "wide"                                                      "300"
         "tall"                                                      "200"	// Whole panel tall is dictated by tall value of ExplanationLabel
         "paintborder"                                               "0"
-        "bgcolor_override"                                          "bh_Blank"
+        "bgcolor_override"                                          "bh_blank"
     }
 
     "bh_ConfirmDialog_BG"
