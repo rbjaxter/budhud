@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+    "$baseTexture"                                                  "vgui/replay/thumbnails/improved_icons/halloween_bar"
+    "$translucent"                                                  "1"
+    "$vertexcolor"                                                  "1"
+    "$vertexalpha"                                                  "1"
+}
