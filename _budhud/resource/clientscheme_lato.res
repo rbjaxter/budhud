@@ -67,7 +67,67 @@ Scheme
                 "antialias"                                         "1"
             }
         }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        // Font used for scoreboard & other places(tm)
+        // this may have unintended consequences
+        // This also exists in below clientscheme copy/paste but this will overwrite it
+        // Default weight is 900ish (lil too phat imo)
+        // yres entries basically matches chatscheme.res
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
 
+        "Default"
+        {
+            "isproportional"                                        "only"
+
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "12"
+                "weight"                                            "900"
+                "yres"                                              "480 599"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+            }
+
+            "2"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "13"
+                "weight"                                            "900"
+                "yres"                                              "600 767"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+            }
+
+            "3"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "14"
+                "weight"                                            "900"
+                "yres"                                              "768 1023"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+            }
+
+            "4"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "20"
+                "weight"                                            "900"
+                "yres"                                              "1024 1199"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+            }
+
+            "5"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "9"
+                "weight"                                            "900"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+            }
+        }
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         // Font used for text shown in center of screen (game_text font)
         ////////////////////////////////////////////////////////////////////////////////////////////////////
