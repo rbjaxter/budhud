@@ -13,7 +13,7 @@
     {
         "ControlName"                                               "CExLabel"
         "fieldName"                                                 "DamageAccountValue"
-        "xpos"                                                      "c-56"
+        "xpos"                                                      "c-50"
         "ypos"                                                      "373"
         "zpos"                                                      "2"
         "wide"                                                      "100"
@@ -23,7 +23,7 @@
         "labelText"                                                 "%metal%"
         "textAlignment"                                             "center"
         "fgcolor"                                                   "bh_hudDMGDisplay"
-        "font"                                                      "bh_Font24"
+        "font"                                                      "bh_Font20"
     }
 
     "DamageAccountValueBG"
@@ -42,6 +42,6 @@
         "labelText"                                                 "%metal%"
         "textAlignment"                                             "center"
         "fgcolor"                                                   "bh_black"
-        "font"                                                      "bh_Font24"
+        "font"                                                      "bh_Font20"
     }
 }
