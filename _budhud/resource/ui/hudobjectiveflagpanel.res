@@ -281,10 +281,23 @@
         }
     }
 
+    "PoisonTimeLabel"
+    {
+        "ypos"                                                      "r35"
+        "font"                                                      "bh_Font14"
+        "fgcolor_override"                                          "bh_bgreen"
+    }
+
+    "PoisonIcon"
+    {
+        "ypos"                                                      "r39"
+        "wide"                                                      "28"
+    }
+
     "PlayingTo"
     {
         "xpos"                                                      "c-40"
-        "ypos"                                                      "r74"
+        "ypos"                                                      "r72"
         "wide"                                                      "80"
         "tall"                                                      "30"
         "visible"                                                   "1"
