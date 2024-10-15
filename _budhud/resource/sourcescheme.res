@@ -161,7 +161,7 @@
             "1"
             {
                 "name"                                              "Lucida Console"
-                "tall"                                              "5"
+                "tall"                                              "7"
                 "dropshadow"                                        "1"
             }
         }
