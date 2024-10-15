@@ -1,17 +1,17 @@
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Main menu item drop notifications
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Main menu item drop notifications
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 "Resource/UI/NotificationToastControl.res"
 {
     "NotificationToastControl"
     {
         "wide"                                                      "193"
-        //"tall"                                                      "55"    // affects alerts box overall size, so if a notif is too big this will cut it off. maybe dont't change
+        // "tall"                                                      "55"    // affects alerts box overall size, so if a notif is too big this will cut it off. maybe dont't change
         "border"                                                    "bh_blank"
     }
 
-    "TriggerButton"     // New item accept
+    "TriggerButton"	// New item accept
     {
         "ypos"                                                      "12"
         "border_default"                                            "NoBorder"
@@ -26,7 +26,7 @@
         }
     }
 
-    "DeleteButton"      // New item decline
+    "DeleteButton"	// New item decline
     {
         "xpos"                                                      "171"
         "ypos"                                                      "12"
@@ -44,7 +44,7 @@
         }
     }
 
-    "AcceptButton"      // Party invite accept
+    "AcceptButton"	// Party invite accept
     {
         "xpos"                                                      "146"
         "ypos"                                                      "16"
@@ -60,7 +60,7 @@
         }
     }
 
-    "DeclineButton"     // Party invite decline
+    "DeclineButton"	// Party invite decline
     {
         "xpos"                                                      "171"
         "ypos"                                                      "16"

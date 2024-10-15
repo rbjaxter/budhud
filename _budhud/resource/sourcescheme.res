@@ -176,7 +176,7 @@
             }
         }
 
-        "ConsoleText"
+        "ConsoleText" //no isproportional, no yres. only one entry
         {
             "1"
             {

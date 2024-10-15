@@ -1731,7 +1731,7 @@
 					}
 					"4"
 					{
-						"item"		"Taunt: Crushing Headache"
+						"item"		"Taunt: Crushing Defeat"
 						"show_market"	"0"
 					}
 					"5"
