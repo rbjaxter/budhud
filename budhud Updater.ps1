@@ -479,6 +479,7 @@ try {
         Write-Host -foregroundcolor "White" -NoNewLine "Making new _tf2hud folders..."
         New-Item -Path $PSScriptRoot\_tf2hud\resource -Name "ui" -ItemType "Directory" > $null
         New-Item -Path $PSScriptRoot\_tf2hud -Name "scripts" -ItemType "Directory" > $null
+        New-Item -Path $PSScriptRoot\_tf2hud -Name "resource/tug_of_war" -ItemType "Directory" > $null
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
         # Copy chat_default.txt to all chat files in untranslatedLanguages
@@ -509,6 +510,7 @@ try {
         Copy-Item "$PSScriptRoot/#dev/sourceschemebase.res" -Destination "$PSScriptRoot/_tf2hud/resource/sourceschemebase.res"
         Copy-Item "$PSScriptRoot/#dev/vsh_hud.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/vsh_hud.res"
         Copy-Item "$PSScriptRoot/#dev/vsh_hud_hell.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/vsh_hud_hell.res"
+        Copy-Item "$PSScriptRoot/#dev/tug_of_war_hud.res" -Destination "$PSScriptRoot/_tf2hud/resource/tug_of_war/tug_of_war_hud.res"
         Copy-Item "$PSScriptRoot/#dev/messageboxdialog.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/econ/messageboxdialog.res"
         Copy-Item "$PSScriptRoot/#dev/confirmdialog.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/econ/confirmdialog.res"
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
