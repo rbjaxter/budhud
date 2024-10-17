@@ -39,12 +39,43 @@
     {
         "BorderImage1"
         {
-            "ypos"                                                  "60"
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
+        }
+
+        "BorderImage2"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "ProgressBarContainer"
         {
+            "xpos"                                                  "cs-0.5"
             "ypos"                                                  "60"
+            "wide"                                                  "200"
+
+            "bh_HaleHealthBarBG"
+            {
+                "ControlName"                                       "ImagePanel"
+                "fieldName"                                         "bh_HaleHealthBarBG"
+                "xpos"                                              "cs-0.509"
+                "ypos"                                              "16"
+                "zpos"                                              "-50"
+                "wide"                                              "s5.9"
+                "tall"                                              "18"
+                "autoResize"                                        "0"
+                "pinCorner"                                         "0"
+                "labeltext"                                         ""
+                "visible"                                           "1"
+                "enabled"                                           "1"
+                "fillcolor"                                         "bh_gray"
+                "image"                                             ""
+                "paintbackgroundtype"                               "0"
+                "proportionaltoparent"                               "1"
+            }
         }
 
         "BlueScoreValueContainer"
