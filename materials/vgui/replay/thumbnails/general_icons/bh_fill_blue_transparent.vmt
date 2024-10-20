@@ -1,0 +1,33 @@
+"UnlitGeneric"
+{
+    "$baseTexture"                                                  "vgui/replay/thumbnails/general_icons/bh_fill_base"
+    "$translucent"                                                  "1"
+    "$color"                                                        "{101 122 140 255}"
+    "$vertexcolor"                                                  "1"
+    "$vertexalpha"                                                  "1"
+
+    "$detail"                                                       "hud\death_panel_mask"
+    "$detailscale"                                                 "1"
+    "$detailblendmode"                                             "8"
+    "$distancealphafromdetail"                                     "1"
+
+    // Add outline...kinda. more like super-imposing black onto the image
+    $outline                                                        "1"
+    $outlinecolor                                                   "[0.0 0.0 0.0]"
+    $outlinealpha                                                   "0.6"
+
+    // Further adjusted outline values for sharper corners and thinner outline
+    $outlinestart0                                                  "0.30"
+    $outlinestart1                                                  "0.38"
+    $outlineend0                                                    "0.38"
+    $outlineend1                                                    "0.30"
+
+    $scaleoutlinesoftnessbasedonscreenres                           "1"
+    $distancealpha                                                  "1"
+
+    // Soften the outer edge of the border
+    $softedges                                                      "1"
+    $edgesoftnessstart                                              "0.3" // Less softness for sharper corners
+    $edgesoftnessend                                                "0.2" // Maintain some softness
+    $scaleedgesoftnessbasedonscreenres                              "1"
+}

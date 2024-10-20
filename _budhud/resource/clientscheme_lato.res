@@ -67,11 +67,11 @@
             }
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////////
-        // Font used for scoreboard & other places(tm)
+        // Font used for scoreboard, voice chat, & other places(tm)
         // this may have unintended consequences
-        // This also exists in below clientscheme copy/paste but this will overwrite it
+        // This also exists in the below clientscheme copy/paste but this will overwrite it
         // Default weight is 900ish (lil too phat imo)
-        // yres entries basically matches chatscheme.res
+        // yres entries basically match chatscheme.res
         ////////////////////////////////////////////////////////////////////////////////////////////////////
 
         "Default"
