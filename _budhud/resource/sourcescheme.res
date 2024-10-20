@@ -150,7 +150,7 @@
     "Fonts"
     {
         ////////////////////////////////////////////////////////////////////////////////////////////////////
-        // "DefaultFixedOutline" - net_graph appearance
+        // "DefaultFixedOutline" - net_graph & cl_showfps appearance
         // "ConsoleText" - Console log text appearance
         // "Default" - Console input text appearance
         // "DefaultLarge" - "Console" title text appearance

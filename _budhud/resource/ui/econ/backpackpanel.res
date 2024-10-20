@@ -218,7 +218,7 @@
     "CancelApplyToolButton"
     {
         "xpos"                                                      "c-50"
-        "ypos"                                                      "337"
+        "ypos"                                                      "333"
         "zpos"                                                      "0"
 
         "defaultBgColor_override"                                   "bh_Theme_BG20"
