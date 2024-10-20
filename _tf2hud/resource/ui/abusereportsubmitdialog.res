@@ -94,7 +94,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"AbuseContentLabel"
-		"labelText"		"Abusive content:"
+		"labelText"		"#AbuseReport_ContentLabel"
 		"xpos"		"10"
 		"ypos"		"130"
 		"zpos"		"-1"
@@ -181,7 +181,7 @@
 		"zpos"			"1"
 		"wide"			"360"
 		"tall"			"18"
-		"labelText"		"Screenshot shows abuse; upload it with report."
+		"labelText"		"#AbuseReport_UploadScreenshot"
 		"font"			"HudFontSmall"
 		"textAlignment"	"west"
 		"sound_depressed"	"UI/buttonclick.wav"
