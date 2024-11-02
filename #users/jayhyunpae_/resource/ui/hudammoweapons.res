@@ -12,12 +12,12 @@
 
     "AmmoInReserve"
     {
-        "font"                                                      "bh_Font18"
+        "font"                                                      "bh_Font12"
     }
 
     "AmmoInReserveShadow"
     {
-        "font"                                                      "bh_Font18"
+        "font"                                                      "bh_Font12"
     }
 
     "AmmoNoClip"
