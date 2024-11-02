@@ -26,7 +26,6 @@
     "bh_SpeedometerShadow"
     {
         "pin_to_sibling"                                            "bh_Speedometer"
-
         "controlName"                                               "ImagePanel"
         "fieldName"                                                 "bh_SpeedometerShadow"
         "xpos"                                                      "-1"

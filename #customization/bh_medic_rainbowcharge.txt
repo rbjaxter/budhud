@@ -16,7 +16,6 @@ event HudMedicCharged
     Animate             ChargeMeter                    fgcolor            bh_UberMeter_Rainbow5            Linear            1              0.2
     Animate             ChargeMeter                    fgcolor            bh_UberMeter_Rainbow6            Linear            1.2            0.2
     Animate             ChargeMeter                    fgcolor            bh_UberMeter_Rainbow7            Linear            1.4            0.2
-
     RunEvent            HudMedicChargedLoop            1.6
 }
 

@@ -7,9 +7,6 @@
     // https://github.com/rbjaxter/budhud/wiki/Crosshairs
     // Valid font sizes: Any number between 10 - 30
     // Make sure you keep the same formatting when changing crosshair size (including spaces)
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
     // huddev note: stop trying to pin crosshairs you moron, you try every time forgetting that
     // changing the size of the crosshair breaks it
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -22,7 +19,6 @@
         "labeltext"                                                 "F"
         "font"                                                      "Crosshair: TF2Crosshairs | Size: 17 | Outline: On"
         "fgcolor"                                                   "hud_crosshair_1"
-
         // Defaults
         "xpos"                                                      "cs-0.4999"
         "ypos"                                                      "cs-0.4990"
@@ -42,7 +38,6 @@
         "labeltext"                                                 "F"
         "font"                                                      "Crosshair: TF2Crosshairs | Size: 17 | Outline: On"
         "fgcolor"                                                   "hud_crosshair_2"
-
         // Defaults
         "xpos"                                                      "cs-0.4999"
         "ypos"                                                      "cs-0.4990"
@@ -62,7 +57,6 @@
         "labeltext"                                                 "F"
         "font"                                                      "Crosshair: TF2Crosshairs | Size: 17 | Outline: On"
         "fgcolor"                                                   "hud_crosshair_3"
-
         // Defaults
         "xpos"                                                      "0"
         "ypos"                                                      "1"
@@ -73,7 +67,6 @@
         "wide"                                                      "f0"
         "tall"                                                      "f0"
     }
-
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Legacy Crosshairs
     // ============================================================================================== //
@@ -93,7 +86,6 @@
         "labeltext"                                                 "f"
         "font"                                                      "Crosshair: whayay | Size: 17 | Outline: On"
         "fgcolor"                                                   "hud_crosshair_whayay"
-
         // Defaults
         "xpos"                                                      "cs-0.4999"
         "ypos"                                                      "cs-0.5"
@@ -113,7 +105,6 @@
         "labeltext"                                                 "f"
         "font"                                                      "Crosshair: Knuckles | Size: 17 | Outline: On"
         "fgcolor"                                                   "hud_crosshair_knuckles"
-
         // Defaults
         "xpos"                                                      "cs-0.4999"
         "ypos"                                                      "cs-0.4999"
@@ -133,7 +124,6 @@
         "labeltext"                                                 "f"
         "font"                                                      "Crosshair: Fog | Size: 17 | Outline: On"
         "fgcolor"                                                   "hud_crosshair_fog"
-
         // Defaults
         "xpos"                                                      "cs-0.4999"
         "ypos"                                                      "cs-0.4955"

@@ -1,16 +1,16 @@
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // HUD CROSSHAIRS - TF2 Crosshairs
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // You should not need to make any changes to this file unless you want to change the size of a
-    // crosshair.
-    // Crosshairs can be enabled in the `bh_crosshairs.res` file in this same directory.
-    // If you do not use this crosshair, you can move or delete this file for a very minor
-    // loading time performance gain.
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// HUD CROSSHAIRS - TF2 Crosshairs
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// You should not need to make any changes to this file unless you want to change the size of a
+// crosshair.
+// Crosshairs can be enabled in the `bh_crosshairs.res` file in this same directory.
+// If you do not use this crosshair, you can move or delete this file for a very minor
+// loading time performance gain.
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
-Scheme
+"Scheme"
 {
-    Fonts
+    "Fonts"
     {
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         // No Outline
@@ -20,11 +20,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "10"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "10"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -32,11 +32,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "11"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "11"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -44,11 +44,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "12"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "12"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -56,11 +56,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "13"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "13"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -68,11 +68,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "14"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "14"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -80,11 +80,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "15"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "15"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -92,11 +92,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "16"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "16"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -104,11 +104,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "17"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "17"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -116,11 +116,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "18"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "18"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -128,11 +128,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "19"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "19"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -140,11 +140,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "20"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "20"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -152,11 +152,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "21"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "21"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -164,11 +164,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "22"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "22"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -176,11 +176,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "23"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "23"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -188,11 +188,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "24"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "24"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -200,11 +200,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "25"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "25"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -212,11 +212,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "26"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "26"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -224,11 +224,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "27"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "27"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -236,11 +236,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "28"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "28"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -248,11 +248,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "29"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "29"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
 
@@ -260,14 +260,13 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "30"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "0"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "30"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "0"
             }
         }
-
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         // Outline
         ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -276,11 +275,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "10"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "10"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -288,11 +287,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "11"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "11"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -300,11 +299,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "12"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "12"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -312,11 +311,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "13"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "13"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -324,11 +323,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "14"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "14"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -336,11 +335,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "15"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "15"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -348,11 +347,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "16"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "16"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -360,11 +359,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "17"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "17"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -372,11 +371,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "18"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "18"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -384,11 +383,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "19"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "19"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -396,11 +395,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "20"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "20"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -408,11 +407,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "21"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "21"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -420,11 +419,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "22"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "22"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -432,11 +431,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "23"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "23"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -444,11 +443,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "24"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "24"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -456,11 +455,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "25"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "25"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -468,11 +467,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "26"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "26"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -480,11 +479,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "27"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "27"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -492,11 +491,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "28"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "28"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -504,11 +503,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "29"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "29"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
 
@@ -516,11 +515,11 @@ Scheme
         {
             "1"
             {
-                "name"          "TF2Crosshairs"
-                "tall"          "30"
-                "antialias"     "1"
-                "additive"      "0"
-                "outline"       "1"
+                "name"                                              "TF2Crosshairs"
+                "tall"                                              "30"
+                "antialias"                                         "1"
+                "additive"                                          "0"
+                "outline"                                           "1"
             }
         }
     }

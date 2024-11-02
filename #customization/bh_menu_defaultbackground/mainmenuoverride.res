@@ -1,6 +1,6 @@
 "Resource/UI/MainMenuOverride.res"
 {
-    MainMenuOverride
+    "MainMenuOverride"
     {
     }
 
@@ -8,47 +8,47 @@
     {
         "image"                                                     ""
 
-        if_halloween_0
+        "if_halloween_0"
         {
             "image"                                                 "../console/title_team_halloween2011_widescreen"
         }
 
-        if_halloween_1
+        "if_halloween_1"
         {
             "image"                                                 "../console/title_team_halloween2012_widescreen"
         }
 
-        if_halloween_2
+        "if_halloween_2"
         {
             "image"                                                 "../console/title_team_halloween2013_widescreen"
         }
 
-        if_halloween_3
+        "if_halloween_3"
         {
             "image"                                                 "../console/title_team_halloween2014_widescreen"
         }
 
-        if_halloween_4
+        "if_halloween_4"
         {
             "image"                                                 "../console/title_team_halloween2015_widescreen"
         }
 
-        if_halloween_5
+        "if_halloween_5"
         {
             "image"                                                 "../console/title_scream_fortress_2017_widescreen"
         }
 
-        if_fullmoon
+        "if_fullmoon"
         {
             "image"                                                 "../console/title_fullmoon_widescreen"
         }
 
-        if_christmas_0
+        "if_christmas_0"
         {
             "image"                                                 "../console/background_xmas2020_widescreen"
         }
 
-        if_christmas_1
+        "if_christmas_1"
         {
             "image"                                                 "../console/background_xmas2023_widescreen"
         }
@@ -67,7 +67,7 @@
         "enabled"                                                   "0"
         "proportionaltoparent"                                      "1"
 
-        if_christmas
+        "if_christmas"
         {
             "visible"                                               "1"
             "enabled"                                               "1"
@@ -85,7 +85,7 @@
             }
         }
 
-        if_halloween_0
+        "if_halloween_0"
         {
             "visible"                                               "1"
             "enabled"                                               "1"
@@ -103,7 +103,7 @@
             }
         }
 
-        if_halloween_1
+        "if_halloween_1"
         {
             "visible"                                               "1"
             "enabled"                                               "1"
@@ -121,7 +121,7 @@
             }
         }
 
-        if_halloween_2
+        "if_halloween_2"
         {
             "visible"                                               "1"
             "enabled"                                               "1"
@@ -139,7 +139,7 @@
             }
         }
 
-        if_halloween_3
+        "if_halloween_3"
         {
             "visible"                                               "1"
             "enabled"                                               "1"
@@ -157,7 +157,7 @@
             }
         }
 
-        if_halloween_4
+        "if_halloween_4"
         {
             "visible"                                               "1"
             "enabled"                                               "1"
@@ -175,7 +175,7 @@
             }
         }
 
-        if_halloween_5
+        "if_halloween_5"
         {
             "visible"                                               "1"
             "enabled"                                               "1"
@@ -193,8 +193,8 @@
             }
         }
     }
-
     // Default values
+
     "TFCharacterImage"
     {
         "fieldName"                                                 "TFCharacterImage"

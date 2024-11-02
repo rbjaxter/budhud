@@ -155,7 +155,6 @@
         // "Default" - Console input text appearance
         // "DefaultLarge" - "Console" title text appearance
         ////////////////////////////////////////////////////////////////////////////////////////////////////
-
         "DefaultFixedOutline"
         {
             "1"
