@@ -20,7 +20,6 @@ try {
     ##############
     # Options Menu
     ##############
-
     function Options_Menu {
         Clear-Host
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=============="
@@ -129,6 +128,39 @@ try {
         Write-Host ""
     }
 
+    ######################
+    # Check_ScriptLocation
+    ######################
+    function Check_ScriptLocation {
+        # Define the parent directory path
+        $parentDirectory = "steamapps\common\Team Fortress 2\tf\custom"
+
+        # Get the resolved path of the script's directory
+        $scriptDirectory = $budhud
+
+        # Check if the script's path contains the parent directory
+        Write-Host -ForegroundColor "White" -NoNewLine "Checking script location... "
+
+        if ($scriptDirectory -like "*$parentDirectory\*") {
+            Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Script is located in the correct parent directory"
+        }
+        else {
+            Write-Host -ForegroundColor "White" -BackgroundColor "Red" "Script is NOT located in the expected parent directory"
+            Write-Host ""
+
+            Write-Host -ForegroundColor "White" -BackgroundColor "Red" "Outcome"
+            Write-Host -ForegroundColor "White" "The script cannot be used unless it is within your Team Fortress folder"
+            Write-Host -ForegroundColor "White" "The exact path it is looking for is: ..\steamapps\common\Team Fortress 2\tf\custom\<some folder name>"
+            Write-Host ""
+
+            Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Solution"
+            Write-Host -ForegroundColor "White" "Move the script to the appropriate directory before using it again"
+            Write-Host ""
+
+            Break
+        }
+    }
+
     ##################
     # Check_TF2Running
     ##################
@@ -204,7 +236,7 @@ try {
         (
             Get-Command -Name "Invoke-WebRequest" -ErrorAction SilentlyContinue
         ) {
-            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Invoke-WebRequest found."
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Invoke-WebRequest found"
         }
 
         Else {
@@ -893,9 +925,11 @@ try {
         }
     }
 
-    ##############
-    # Initial Menu
-    ##############
+    ######################
+    # Initial Check & Menu
+    ######################
+    Check_ScriptLocation
+
     do {
         Options_Menu
         $selection = Read-Host "[Type 1, 2, 3, 4, 5, 6, ?, or Q]"
