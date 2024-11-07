@@ -23,7 +23,7 @@ Scheme
 
         "bh_Health_Main"                                            "255 255 255 255"
         "bh_Health_Shadow"                                          "000 000 000 255"
-        "bh_Health_Low"                                             "186 032 032 255"
+        "bh_Health_Low"                                             "255 255 255 255"
         "bh_Health_Buff"                                            "013 091 168 255"
         "bh_Health_Pickup"                                          "114 212 146 255"
 
