@@ -930,85 +930,47 @@ try {
     ######################
     Check_ScriptLocation
 
+    function Show-Help {
+        Clear-Host
+        Write-Host ""
+        Write-Host -ForegroundColor White -BackgroundColor Blue "====================="
+        Write-Host -ForegroundColor White -BackgroundColor Blue "Function Explanations"
+        Write-Host -ForegroundColor White -BackgroundColor Blue "====================="
+        Write-Host ""
+
+        $helpItems = @(
+            @{ Title = "1. Check HUD Installation"; Color = "Green"; Description = "No files will be deleted or replaced. Checks for common installation issues." },
+            @{ Title = "2. Update & Modify Default HUD Files"; Color = "Yellow"; Description = "_tf2hud folder will be deleted/replaced. Updates with latest HUD files, useful after TF2 updates." },
+            @{ Title = "3. Update Files from GitHub"; Color = "Red"; Description = "Overwrites HUD files with latest from GitHub, preserving custom user files." },
+            @{ Title = "4. Set HUD Language"; Color = "Green"; Description = "No files will be deleted or replaced. Sets HUD language if available." },
+            @{ Title = "5. HUD Compiler (Windows only)"; Color = "Yellow"; Description = "Compiles all HUD files into single files, placed in resource/scripts." },
+            @{ Title = "6. Revert HUD Compile"; Color = "Yellow"; Description = "Replaces compiled resource/scripts with backups." }
+        )
+
+        foreach ($item in $helpItems) {
+            Write-Host -ForegroundColor White -BackgroundColor Blue $item.Title
+            Write-Host -ForegroundColor $item.Color $item.Description
+            Write-Host ""
+        }
+    }
+
     do {
         Options_Menu
         $selection = Read-Host "[Type 1, 2, 3, 4, 5, 6, ?, or Q]"
 
         switch ($selection) {
-            "1" {
-                Run_InstallTroubleshooter
-            }
-
-            "2" {
-                Run_ExtractDefaultHUD
-            }
-
-            "3" {
-                Run_UpdateFromGitHub
-            }
-
-            "4" {
-                Run_SetHUDLanguage
-            }
-
-            "5" {
-                Run_HUDCompiler
-            }
-
-            "6" {
-                Run_RevertHUDCompile
-            }
-
-            "?" {
-                Clear-Host
-                Write-Host ""
-                Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "====================="
-                Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Function Explanations"
-                Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "====================="
-                Write-Host ""
-                Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "1. Check HUD Installation"
-                Write-Host -foregroundcolor "Green" "No files will be deleted or replaced"
-                Write-Host "This will check for common installation issues and provide a potential solution if one exists."
-                Write-Host ""
-                Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "2. Update & Modify Default HUD Files"
-                Write-Host -foregroundcolor "Yellow" "The _tf2hud folder will be deleted and replaced"
-                Write-Host "This will update your _tf2hud files with TF2's latest default hud files, as well as make a few HUD file modifications."
-                Write-Host "This is handy in case there's a TF2 update, though it will require you to have launched the game after having the update patch downloaded."
-                Write-Host "I run this script before I push commits/changes to the HUD. It's nifty :)."
-                Write-Host "There will be no risk of losing HUD changes doing this option unless you've modified files within the _tf2hud folder."
-                Write-Host "Any changes you made in _tf2hud will be deleted. This is why you should never edit anything in _tf2hud!"
-                Write-Host ""
-                Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "3. Update Files from GitHub"
-                Write-Host -foregroundcolor "Red" "Any file that originally existed in the HUD will be overwritten/replaced"
-                Write-Host "This will download the latest version of budhud from GitHub and add/overwrite any files that are changed/added."
-                Write-Host "This is essentially like deleting your custom HUD and then manually downloading and extracting it from GitHub."
-                Write-Host "Please note, though, that this will not delete files you've added to the HUD yourself (such as to #users/custom)."
-                Write-Host ""
-                Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "4. Set HUD Language"
-                Write-Host -foregroundcolor "Green" "No files will be deleted or replaced"
-                Write-Host "If an alternative language is available, you can set the HUD to use this language instead."
-                Write-Host "Type the name of the language and the appropriate chat file will be automatically copied over."
-                Write-Host ""
-                Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "5. HUD Compiler (Windows only)"
-                Write-Host -foregroundcolor "Yellow" "The resource and scripts folder will be replaced"
-                Write-Host "Created by a brilliant mind, the HUD compiler is used to compile as many #base directives in budhud as possible."
-                Write-Host "In simpler terms, this merges all _budhud and _tf2hud files (as well as any enabled customizations) into single files"
-                Write-Host "that are then placed in resource and scripts."
-                Write-Host "The original repo made by Lange is gone, but you can view the fork here: https://github.com/rbjaxter/budhud-compiler"
-                Write-Host ""
-                Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "6. Revert HUD Compile"
-                Write-Host -foregroundcolor "Yellow" "The resource and scripts folder will be replaced"
-                Write-Host "This script replaces your compiled resource and scripts folders with the backups created when you originally compiled"
-                Write-Host "Effectively, this returns the HUD to where it was before compiling."
-                Write-Host ""
-            }
-
-            "Q" {
-                Exit
-            }
+            "1" { Run_InstallTroubleshooter }
+            "2" { Run_ExtractDefaultHUD }
+            "3" { Run_UpdateFromGitHub }
+            "4" { Run_SetHUDLanguage }
+            "5" { Run_HUDCompiler }
+            "6" { Run_RevertHUDCompile }
+            "?" { Show-Help }
+            "Q" { Exit }
         }
         pause
-    }
+    } while ($true)
+
     until ($selection -eq 'q')
 }
 catch {
