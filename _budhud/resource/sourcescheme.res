@@ -155,12 +155,112 @@
         // "Default" - Console input text appearance
         // "DefaultLarge" - "Console" title text appearance
         ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        // try to use some degree of linear interpolation to come up with appropriate values
+        // tall value of 19 seems to work well for yres 1024 1199
+        // Height range = 1199-1024+1=176
+        // FontScaleFactor = tall/yres height range
+        // = 19/176 ≈ 0.108
+        // then calculate for each range
         "DefaultFixedOutline"
         {
             "1"
             {
-                "name"                                              "Lucida Console"
-                "tall"                                              "7"
+                "name"                                              "Lato Semibold"
+                "tall"                                              "13"
+                "weight"                                            "500"
+                "yres"                                              "480 599"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+            }
+
+            "2"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "18"
+                "weight"                                            "500"
+                "yres"                                              "600 767"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+            }
+
+            "3"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "28"
+                "weight"                                            "500"
+                "yres"                                              "768 1023"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+            }
+
+            "4"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "19"
+                "weight"                                            "500"
+                "yres"                                              "1024 1199"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+            }
+
+            "5"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "19"
+                "yres"                                              "1200 1375"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+            }
+
+            "6"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "25"
+                "yres"                                              "1376 1551"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+            }
+
+            "7"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "26"
+                "yres"                                              "1552 1727"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+            }
+
+            "8"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "27"
+                "yres"                                              "1728 1903"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+            }
+
+            "9"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "28"
+                "yres"                                              "1904 2079"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "1"
+            }
+
+            "10"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "29"
+                "yres"                                              "2080 2255"
+                "weight"                                            "500"
+                "antialias"                                         "1"
                 "dropshadow"                                        "1"
             }
         }
