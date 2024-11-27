@@ -1,5 +1,6 @@
     #base   "../#users/custom/scripts/chapterbackgrounds.txt"
     #base   "../#users/custom/#customization/_enabled/bh_menu_defaultbackground/chapterbackgrounds.txt"
+    #base   "../#users/jayhyunpae/#customization/_enabled/bh_menu_defaultbackground/chapterbackgrounds.txt"
     #base   "../#customization/_enabled/bh_menu_defaultbackground/chapterbackgrounds.txt"
     #base   "../_budhud/scripts/chapterbackgrounds.txt"
     #base   "../_stream/scripts/chapterbackgrounds.txt"

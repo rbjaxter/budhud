@@ -38,22 +38,21 @@
         "label"                                                     "— budhud —"
         "command"                                                   "engine con_enable 1;showconsole;clear;
                                                                     echo ======================================================;
-                                                                    echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
                                                                     echo ~~~~~~~~~~~~~~~~~ budhud, by Whisker ~~~~~~~~~~~~~~~~~;
-                                                                    echo ~~~~~~~~~~~~~~~~~~~~~ Est. 2014 ~~~~~~~~~~~~~~~~~~~~~~;
+                                                                    echo ~~~~~~~~~~~~~~~~~~~~~~ Est 2014 ~~~~~~~~~~~~~~~~~~~~~~;
                                                                     echo ======================================================;
                                                                     echo ~~~~~~~~~~~~ github.com/rbjaxter/budhud ~~~~~~~~~~~~~~;
                                                                     echo ~~~~~~~~~~~~~ discord.com/invite/TkxNKU2 ~~~~~~~~~~~~~;
                                                                     echo ~~~~~~~~~ steamcommunity.com/groups/budhud ~~~~~~~~~~~;
                                                                     echo ======================================================;
-                                                                    echo ~~~~~~~~ Please report bugs in the Discord! ~~~~~~~~~~;
-                                                                    echo ~ Thank you to everyone who actively uses my hud! ~~~~;
+                                                                    echo ~~~~~~~~~ Please report bugs in the Discord! ~~~~~~~~~;
+                                                                    echo ~~ Thank you to everyone who actively uses my hud! ~~~;
                                                                     echo ======================================================;
                                                                     echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
                                                                     echo *~*~*~*~*~*~*~ ad astra per alas porci *~*~*~*~*~*~*~*;
                                                                     echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
                                                                     echo ======================================================;"
-        "tooltip"                                                   "Updated October 2024"
+        "tooltip"                                                   "Updated November 2024"
     }
 
     "bh_Streams"

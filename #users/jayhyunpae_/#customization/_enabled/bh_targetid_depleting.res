@@ -45,16 +45,20 @@
         "enabled"                                                   "1"
     }
 
-    "PlayerStatusHealthValueShadow"	// If you'd like the colored background health, delete everything below this point (except for the final bracket)
+    // If you'd like the colored background health, delete everything below this point
+    // (except for the final bracket)
+    "PlayerStatusHealthValueShadow"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "enabled"                                                   "0"
     }
 
-    "bh_PlayerStatusHealthValueShadow_Override"	// Place black shadow over existing
+    // Place black shadow over existing
+    "bh_PlayerStatusHealthValueShadow_Override"
     {
         "pin_to_sibling"                                            "bh_TargetIDHealthPin"
+
         "ControlName"                                               "Label"
         "fieldName"                                                 "bh_PlayerStatusHealthValueShadow_Override"
         "xpos"                                                      "0"

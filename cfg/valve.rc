@@ -1,0 +1,72 @@
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Default commands
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Run user script files
+    exec joystick.cfg
+    exec autoexec.cfg
+
+    // Parse and stuff command line + commands to command buffer
+    stuffcmds
+
+    // Open initial menu screen and load the background bsp,
+    // but only if no other level is being loaded, and we're not in developer mode
+    startupmenu
+
+    // Not used anymore, according to mastercoms
+    // (previously was used long ago to use the CPU to scan for small decals to stop rendering)
+    // Default: 5
+    r_decal_cullsize                                                1
+
+    // Allow menu backgrounds to display randomly by unlocking all chapters
+    // Default: 1
+    sv_unlockedchapters                                             99
+
+    echo ;
+    echo ;
+    echo ======================================================;
+    echo ~~~~~~~~~~~~~~~~~ budhud, by Whisker ~~~~~~~~~~~~~~~~~;
+    echo ~~~~~~~~~~~~~~~~~~~~~~ Est 2014 ~~~~~~~~~~~~~~~~~~~~~~;
+    echo ======================================================;
+    echo Some TF2 settings have been changed to ensure;
+    echo compatibility with budhud. You can see what values are;
+    echo changed and their default values by navigating here;
+    echo ../custom/budhud/cfg/valve.rc;
+    echo ======================================================;
+    echo ~~~~~~~ For questions, please join the Discord ~~~~~~~;
+    echo ~~~~~~~~~~~~~ discord.com/invite/TkxNKU2 ~~~~~~~~~~~~~;
+    echo ======================================================;
+    echo ;
+    echo ;
+
+    // Setting this to 0 can cause stuttering issues with Engineer PDAs (maybe spy disguise as well?)
+    // Default: 1
+    vgui_cache_res_files                                            1
+
+    // The hud is designed to work around minmode being set to 0, but it will work either way
+    // Default: 0
+    cl_hud_minmode                                                  0
+
+    // Shows robots left in mvm all-time
+    // Default: 0
+    cl_mvm_wave_status_visible_during_wave                          1
+
+    // Any more would cause overlap due to the achievement tracker being pushed down to accomodate the engineer build UI
+    // Default: 3
+    hud_achievement_count_engineer                                  3
+
+    // Spectating TargetID location
+    // Default: 0
+    tf_spectator_target_location                                    0
+
+    // Filter out error messages about animation customizations it cant find
+    // Default: 0
+    con_filter_enable                                               1
+    // Default: ""
+    con_filter_text_out                                             "Couldn't find script file"
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Commands recommended by mastercoms
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // This is the interp for the payload HUD updates
+    // Default: 0.2
+    hud_escort_interp                                               0.1

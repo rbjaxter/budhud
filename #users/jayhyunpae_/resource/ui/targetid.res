@@ -2,6 +2,6 @@
 {
     "TargetDataLabel"
     {
-        "font"                                                      "bh_Font16"
+        "font"                                                      "bh_Font14"
     }
 }
