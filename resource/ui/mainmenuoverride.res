@@ -11,8 +11,6 @@
     #base    "../../#users/dane/#customization/_enabled/bh_menu_hidegif.res"
     #base    "../../#users/dane/resource/ui/mainmenuoverride.res"
     #base    "../../#users/truktruk/#customization/_enabled/bh_menu_background.res"
-    #base    "../../#users/ly_dee/#customization/_enabled/bh_menu_background.res"
-    #base    "../../#users/ly_dee/#customization/_enabled/bh_menu_hidefavorites.res"
     #base    "../../#users/jayhyunpae/#customization/_enabled/bh_menu_background.res"
     #base    "../../#users/jayhyunpae/#customization/_enabled/bh_menu_hidefavorites.res"
     #base    "../../#users/jayhyunpae/#customization/_enabled/bh_menu_hidenews.res"

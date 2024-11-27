@@ -1,5 +1,25 @@
-    // Exec default autoexec file
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Default commands
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Run user script files
+    exec joystick.cfg
     exec autoexec.cfg
+
+    // Parse and stuff command line + commands to command buffer
+    stuffcmds
+
+    // Open initial menu screen and load the background bsp,
+    // but only if no other level is being loaded, and we're not in developer mode
+    startupmenu
+
+    // Not used anymore, according to mastercoms
+    // (previously was used long ago to use the CPU to scan for small decals to stop rendering)
+    // Default: 5
+    r_decal_cullsize                                                1
+
+    // Allow menu backgrounds to display randomly by unlocking all chapters
+    // Default: 1
+    sv_unlockedchapters                                             99
 
     echo ;
     echo ;
@@ -45,8 +65,8 @@
     con_filter_text_out                                             "Couldn't find script file"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Commands recommended by mastercomms
+    // Commands recommended by mastercoms
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // This is the interp for the payload HUD updates
     // Default: 0.2
-    hud_escort_interp 0.1
+    hud_escort_interp                                               0.1
