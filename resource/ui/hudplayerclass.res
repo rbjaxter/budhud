@@ -6,7 +6,6 @@
     #base    "../../#users/dane/#customization/_enabled/bh_crosshairs.res"
     #base    "../../#users/whisker/#customization/_enabled/bh_speedometer.res"
     #base    "../../#users/whisker/#customization/_enabled/bh_crosshairs.res"
-    #base    "../../#users/ly_dee/#customization/_enabled/bh_crosshairs.res"
     #base    "../../#users/truktruk/#customization/_enabled/bh_crosshairs.res"
     #base    "../../#users/jayhyunpae/#customization/_enabled/bh_crosshairs.res"
     #base    "../../#users/jayhyunpae/#customization/_enabled/bh_player_hideclassmodel.res"
