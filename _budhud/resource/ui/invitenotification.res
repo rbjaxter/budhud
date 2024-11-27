@@ -6,10 +6,10 @@
         "visible"                                                   "0"
         "enabled"                                                   "0"
     }
-
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // ypos of this seems to be set by an animation or something, probably not worth messing with it
     ////////////////////////////////////////////////////////////////////////////////////////////////////
+
     "InviteNotification"
     {
         "zpos"                                                      "3000"
@@ -18,11 +18,34 @@
 
     "Text"
     {
-        if_incoming
+        "if_incoming"
         {
             "xpos"                                                  "35"
             "wide"                                                  "f0"
             "textalignment"                                         "west"
+        }
+
+        "fonts"
+        {
+            "1"
+            {
+                "font"                                              "bh_Font9"
+            }
+
+            "2"
+            {
+                "font"                                              "bh_Font9"
+            }
+
+            "3"
+            {
+                "font"                                              "bh_Font9"
+            }
+
+            "4"
+            {
+                "font"                                              "bh_Font9"
+            }
         }
     }
 
@@ -30,6 +53,7 @@
     {
         "xpos"                                                      "45"
         "wide"                                                      "60"
+        "allcaps"                                                   "1"
         "defaultFgColor_override"                                   "bh_Theme_TextSecondary"
         "armedFgColor_override"                                     "bh_Theme_TextAccent"
         "depressedFgColor_override"                                 "bh_ButtonDepressed"
@@ -44,6 +68,7 @@
     {
         "xpos"                                                      "125"
         "wide"                                                      "60"
+        "allcaps"                                                   "1"
         "defaultFgColor_override"                                   "bh_Theme_TextSecondary"
         "armedFgColor_override"                                     "bh_Theme_TextAccent"
         "depressedFgColor_override"                                 "bh_ButtonDepressed"
