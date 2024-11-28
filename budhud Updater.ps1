@@ -20,7 +20,6 @@ try {
     ##############
     # Options Menu
     ##############
-
     function Options_Menu {
         Clear-Host
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=============="
@@ -92,10 +91,6 @@ try {
     # Discord Link
     $discord = "https://discord.gg/TkxNKU2"
 
-    # HUD Backup Location
-    $resource_backup = "$PSScriptRoot/#dev/resource_backup"
-    $scripts_backup = "$PSScriptRoot/#dev/scripts_backup"
-
     # tf2 executable names
     $osPlatform = [System.Environment]::OSVersion.Platform
 
@@ -150,11 +145,11 @@ try {
             Write-Host ""
 
             Write-Host -ForegroundColor "White" -BackgroundColor "Red" "Outcome"
-            Write-Host -ForegroundColor "White" "The script cannot proceed with Team Fortress 2 open"
+            Write-Host -ForegroundColor "White" "This function cannot run with Team Fortress 2 open"
             Write-Host ""
 
             Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Solution"
-            Write-Host -ForegroundColor "White" "Close TF2 before using this script again"
+            Write-Host -ForegroundColor "White" "Close TF2 before using this function again"
             Write-Host ""
             Break
         }
@@ -204,7 +199,7 @@ try {
         (
             Get-Command -Name "Invoke-WebRequest" -ErrorAction SilentlyContinue
         ) {
-            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Invoke-WebRequest found."
+            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Invoke-WebRequest found"
         }
 
         Else {
@@ -454,7 +449,7 @@ try {
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "==================="
         Write-Host ""
 
-        # Perform all Checks
+        # Perform any necessary checks
         Check_TF2Running
         Check_HUDFiles
         Check_UpdateFiles_DefaultHUD
@@ -546,7 +541,6 @@ try {
         Shared_EndTimer $startTime
     }
 
-
     ######################
     # Run_UpdateFromGitHub
     ######################
@@ -629,7 +623,6 @@ try {
     ####################
     # Run_SetHUDLanguage
     ####################
-
     function Run_SetHUDLanguage {
         Clear-Host
         Write-Host -ForegroundColor White -BackgroundColor Blue "================"
@@ -639,6 +632,20 @@ try {
 
         # Directory where language files are located
         $languageFilesDirectory = Join-Path -Path $budhud -ChildPath "resource"
+
+        # Check if the directory exists
+        if (-not (Test-Path -Path $languageFilesDirectory)) {
+            Write-Host -ForegroundColor "White" -BackgroundColor "Red" "Error: Language files directory '$languageFilesDirectory' not found."
+            Write-Host -ForegroundColor "White" "Is this script located in the correct place?"
+            return
+        }
+
+        # Check if the directory contains at least two files starting with 'chat_' and ending with '.txt'
+        $chatFiles = Get-ChildItem -Path $languageFilesDirectory -Filter "chat_*.txt" -File
+        if ($chatFiles.Count -lt 2) {
+            Write-Host "Error: Directory '$languageFilesDirectory' must contain at least two files starting with 'chat_' and ending with '.txt'." -ForegroundColor Red
+            return
+        }
 
         # Display a list of available languages
         Write-Host "Available Languages:" -ForegroundColor Cyan
@@ -693,29 +700,86 @@ try {
         }
     }
 
+
     #################
     # Run_HUDCompiler
     #################
     function Run_HUDCompiler {
         Clear-Host
-        Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "==========================="
+        Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "======================"
         Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "HUD Compiler, by Lange"
-        Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "==========================="
+        Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "======================"
         Write-Host ""
+
+        # Check if the script is running on Windows
+        if (![System.Environment]::OSVersion.Platform -eq [System.PlatformID]::Win32NT) {
+            Write-Host -ForegroundColor "White" -BackgroundColor "Red" "ERROR: This script can only be run on Windows."
+            Write-Host "Please use a Windows system to run the HUD compiler."
+            return
+        }
 
         # Perform any necessary checks
         Check_TF2Running
 
-        Clear-Host
+        # Define the folders to check
+        $requiredFolders = @("_budhud", "_tf2hud", "resource", "scripts")
+        $missingFolders = @()
+
+        # Verify that each required folder exists
+        foreach ($folder in $requiredFolders) {
+            $folderPath = Join-Path -Path $PSScriptRoot -ChildPath $folder
+            if (-not (Test-Path -Path $folderPath)) {
+                $missingFolders += $folder
+            }
+        }
+
+        # If any required folders are missing, display an error and exit
+        if ($missingFolders.Count -gt 0) {
+            Write-Host -ForegroundColor "White" -BackgroundColor "Red" "The following required folders are missing:"
+            foreach ($folder in $missingFolders) {
+                Write-Host "- $folder" -ForegroundColor "Red"
+            }
+            Write-Host "Please ensure these folders exist in the script's directory and try again."
+            return
+        }
+
+        # Define the optional folders
+        $optionalFolders = @("#customization", "#users", "_stream")
+        $missingOptionalFolders = @()
+
+        # Verify that each optional folder exists
+        foreach ($folder in $optionalFolders) {
+            $folderPath = Join-Path -Path $PSScriptRoot -ChildPath $folder
+            if (-not (Test-Path -Path $folderPath)) {
+                $missingOptionalFolders += $folder
+            }
+        }
+
+        # If any optional folders are missing, display a yellow note
+        if ($missingOptionalFolders.Count -gt 0) {
+            Write-Host -ForegroundColor "Yellow" "========================================"
+            Write-Host -ForegroundColor "Yellow" "NOTE: Some optional folders are missing."
+            Write-Host -ForegroundColor "Yellow" "========================================"
+            Write-Host ""
+            Write-Host -ForegroundColor "White" "These folders are not necessary for the compiler to function correctly,"
+            Write-Host -ForegroundColor "White" "but you may want to include them if you want customizations to be compiled too."
+            Write-Host ""
+            foreach ($folder in $missingOptionalFolders) {
+                Write-Host "  - $folder" -ForegroundColor "Yellow"
+            }
+            Write-Host ""
+        }
+
         Write-Host ""
-        Write-Host -ForegroundColor "White" "IMPORTANT NOTE:"
-        Write-Host -ForegroundColor "White" "=============================================="
+        Write-Host ""
+        Write-Host -ForegroundColor "Red" "=============="
+        Write-Host -ForegroundColor "Red" "IMPORTANT NOTE"
+        Write-Host -ForegroundColor "Red" "=============="
         Write-Host -ForegroundColor "White" "Before proceeding, please take note of the following:"
         Write-Host ""
-        Write-Host -ForegroundColor "White" "1. Only Windows builds are provided for this compiler."
-        Write-Host -ForegroundColor "White" "2. The compiler's original source code is gone, but you can see the fork of it here:"
+        Write-Host -ForegroundColor "White" "1. The compiler's original Github repoistory is gone, but you can see the fork with the source code here:"
         Write-Host -ForegroundColor "White" "   https://github.com/rbjaxter/budhud-compiler"
-        Write-Host -ForegroundColor "White" "3. After running this compiler, to edit your HUD in the future, you must either:"
+        Write-Host -ForegroundColor "White" "3. To edit your HUD in the future after running the compiler, you must either:"
         Write-Host -ForegroundColor "White" "   A. Make changes directly in the 'resource' and 'scripts' folders, or"
         Write-Host -ForegroundColor "White" "   B. Run this compiler whenever you make changes outside of the 'resource' and 'scripts' folders"
         Write-Host -ForegroundColor "White" "      (e.g., in '_budhud' or '#customizations')."
@@ -723,11 +787,6 @@ try {
         Write-Host -ForegroundColor "White" "If the compiler cannot be found, it will be automatically downloaded."
         Write-Host -ForegroundColor "White" "(the file isn't included with budhud due to its size relative to the hud)"
         Write-Host ""
-
-        if (![System.Environment]::OSVersion.Platform -eq [System.PlatformID]::Win32NT) {
-            Write-Host -foregroundcolor "White" -backgroundcolor "Red" "The compiler can only be used on Windows."
-            return
-        }
 
         Write-Host -ForegroundColor "White" -BackgroundColor "Yellow" "==================================="
         Write-Host -ForegroundColor "White" "Do you want to continue? [Y / N]"
@@ -749,69 +808,78 @@ try {
             Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Could not locate budhud-compiler.exe, attempting to download..."
             Write-Host ""
 
-            # If not found, download from GitHub
-            # Make HTTP request to GitHub API
-            $response = Invoke-RestMethod -Uri "https://api.github.com/user/509599"
-
-            # Access the "login" property from the response object
-            $login = $response.login
-
-            # Construct the URL with the login value
-            $url = "https://github.com/$login/budhud-compiler/releases/latest/download/budhud-compiler.exe"
+            $url = "https://github.com/rbjaxter/budhud-compiler/releases/latest/download/budhud-compiler.exe"
             $Path = "$PSScriptRoot/budhud-compiler.exe"
 
             try {
-                Invoke-WebRequest -URI $URL -OutFile $Path
+                Invoke-WebRequest -URI $url -OutFile $Path
                 Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Download complete"
             }
             catch {
-                Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Failed to download budhud-compiler.exe from the provided URL."
+                Write-Host -ForegroundColor "White" -BackgroundColor "Red" "Failed to download budhud-compiler.exe from the provided URL."
                 Write-Host ""
-
-                Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Solution"
-                Write-Host -foregroundcolor "White" "- Check your internet connection"
-                Write-Host -foregroundcolor "White" "- The URL to the compiler may no longer be valid. Please let Whisker know."
+                Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Solution"
+                Write-Host -ForegroundColor "White" "- Check your internet connection"
+                Write-Host -ForegroundColor "White" "- The URL to the compiler may no longer be valid. Please let Whisker know."
                 Write-Host ""
                 return
             }
         }
 
-        # Start the stopwatch so we can report how long this script took
         $StopWatch = [System.Diagnostics.Stopwatch]::StartNew()
 
-        # Look for existing backup
-        if ((Test-Path -LiteralPath $resource_backup) -or (Test-Path -LiteralPath $scripts_backup)) {
-            Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Backup of resource and scripts found."
-            Write-Host -foregroundcolor "White" "These can be found in #dev/resource_backup and #dev/scripts_backup if you need to revert after compiling."
-            Write-Host -foregroundcolor "White" "There is also a script in this menu you can use instead."
-            Write-Host ""
-
-            # Copy backups to main directory due to relative base lines
-            Copy-Item -LiteralPath "$resource_backup" -Destination "$PSScriptRoot" -Force -Recurse
-            Copy-Item -LiteralPath "$scripts_backup" -Destination "$PSScriptRoot" -Force -Recurse
+        # Ensure the #dev folder exists in the script's root
+        $devFolder = Join-Path -Path $PSScriptRoot -ChildPath "#dev"
+        if (-not (Test-Path -Path $devFolder)) {
+            Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Creating #dev folder..."
+            New-Item -Path $devFolder -ItemType Directory -Force | Out-Null
         }
 
+        # Check if the 'resource_backup' and 'scripts_backup' folders exist in #dev
+        $resourceBackupFolder = Join-Path -Path $devFolder -ChildPath "resource_backup"
+        $scriptsBackupFolder = Join-Path -Path $devFolder -ChildPath "scripts_backup"
+
+        if ((Test-Path -LiteralPath $resourceBackupFolder) -and (Test-Path -LiteralPath $scriptsBackupFolder)) {
+            Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Backup folders found in #dev."
+
+            # Copy the backups from #dev to the root folder
+            Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Copying resource_backup and scripts_backup from #dev to the root directory..."
+            Copy-Item -LiteralPath "$resourceBackupFolder" -Destination "$PSScriptRoot" -Force -Recurse
+            Copy-Item -LiteralPath "$scriptsBackupFolder" -Destination "$PSScriptRoot" -Force -Recurse
+
+            Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Backup restoration successful."
+        }
         else {
-            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Backup files not found, creating a backup."
+            Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Backup folders not found, creating backups."
 
             try {
-                # Create backup of resource and scripts files
-                New-Item -Path "$resource_backup" -ItemType Directory -ErrorAction Stop | Out-Null
-                New-Item -Path "$scripts_backup" -ItemType Directory -ErrorAction Stop | Out-Null
-                Copy-Item -Path "$PSScriptRoot/resource/*" -Destination "$resource_backup" -Force -Recurse -ErrorAction Stop | Out-Null
-                Copy-Item -Path "$PSScriptRoot/scripts/*" -Destination "$scripts_backup" -Force -Recurse -ErrorAction Stop | Out-Null
+                # If not found, create backups of 'resource' and 'scripts' in #dev
+                if (-not (Test-Path -LiteralPath $resourceBackupFolder)) {
+                    Write-Host -ForegroundColor "White" "Creating resource_backup folder in #dev..."
+                    New-Item -Path $resourceBackupFolder -ItemType Directory -Force | Out-Null
+                    Write-Host -ForegroundColor "White" "Copying resource folder to #dev/resource_backup..."
+                    Copy-Item -Path "$PSScriptRoot\resource\*" -Destination $resourceBackupFolder -Force -Recurse
+                }
 
-                Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Backup of resource and scripts created."
-                Write-Host -foregroundcolor "White" "These can be found in #dev/resource_backup and #dev/scripts_backup if you need to revert after compiling."
-                Write-Host ""
+                if (-not (Test-Path -LiteralPath $scriptsBackupFolder)) {
+                    Write-Host -ForegroundColor "White" "Creating scripts_backup folder in #dev..."
+                    New-Item -Path $scriptsBackupFolder -ItemType Directory -Force | Out-Null
+                    Write-Host -ForegroundColor "White" "Copying scripts folder to #dev/scripts_backup..."
+                    Copy-Item -Path "$PSScriptRoot\scripts\*" -Destination $scriptsBackupFolder -Force -Recurse
+                }
 
-                # Copy backups to the main directory due to relative base lines
-                Copy-Item -Path "$resource_backup" -Destination "$PSScriptRoot" -Force -Recurse -ErrorAction Stop
-                Copy-Item -Path "$scripts_backup" -Destination "$PSScriptRoot" -Force -Recurse -ErrorAction Stop
+                Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Backup of resource and scripts created."
+
+                # Now copy the new backups from #dev to the root directory
+                Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Copying resource_backup and scripts_backup from #dev to the root directory..."
+                Copy-Item -LiteralPath "$resourceBackupFolder" -Destination "$PSScriptRoot" -Force -Recurse
+                Copy-Item -LiteralPath "$scriptsBackupFolder" -Destination "$PSScriptRoot" -Force -Recurse
+
+                Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Backup restoration successful."
             }
             catch {
-                Write-Host -foregroundcolor "Red" "Backup failed with the following error:"
-                Write-Host -foregroundcolor "Red" $_.Exception.Message
+                Write-Host -ForegroundColor "Red" "Backup failed with the following error:"
+                Write-Host -ForegroundColor "Red" $_.Exception.Message
             }
         }
 
@@ -834,33 +902,32 @@ try {
         Remove-Item -LiteralPath "$PSScriptRoot/resource_backup" -Force -Recurse -ErrorAction Ignore
         Remove-Item -LiteralPath "$PSScriptRoot/scripts_backup" -Force -Recurse -ErrorAction Ignore
 
-        $StopWatch.Stop();
+        $StopWatch.Stop()
         Write-Host ""
-
-        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "===================="
-        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Compilation Complete"
-        Write-Host -foregroundcolor "White" -backgroundcolor "Green" "===================="
-
+        Write-Host -ForegroundColor "White" -BackgroundColor "Green" "===================="
+        Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Compilation Complete"
+        Write-Host -ForegroundColor "White" -BackgroundColor "Green" "===================="
         Write-Host "Completed in $($StopWatch.Elapsed.TotalSeconds) seconds."
     }
+
 
     ######################
     # Run_RevertHUDCompile
     ######################
     function Run_RevertHUDCompile {
         Clear-Host
-        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
-        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Revert HUD Compile"
-        Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "=================="
+        Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "=================="
+        Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Revert HUD Compile"
+        Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "=================="
 
         # Perform any necessary checks
         Check_TF2Running
 
-        Write-Host -foregroundcolor "White" "Please note that this will get rid of any customizations you've made"
-        Write-Host -foregroundcolor "White" "within your budhud/resource and budhud/scripts folders after compiling."
-        Write-Host -foregroundcolor "White" "Customizations made elsewhere (#customization, #users, _budhud, etc) will be unaffected."
+        Write-Host -ForegroundColor "White" "Please note that this will get rid of any customizations you've made"
+        Write-Host -ForegroundColor "White" "within your budhud/resource and budhud/scripts folders after compiling."
+        Write-Host -ForegroundColor "White" "Customizations made elsewhere (#customization, #users, _budhud, etc) will be unaffected."
         Write-Host ""
-        Write-Host -foregroundcolor "White" "Would you like to continue? [Y / N]"
+        Write-Host -ForegroundColor "White" "Would you like to continue? [Y / N]"
         Write-Host ""
 
         $response = Read-Host
@@ -869,112 +936,92 @@ try {
             return
         }
 
-        if ((Test-Path -Path $resource_backup) -or (Test-Path -Path $scripts_backup)) {
-            Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Backup of resource and scripts found."
+        # Define paths for #dev folder and backup folders
+        $devFolder = Join-Path -Path $PSScriptRoot -ChildPath "#dev"
+        $resourceBackupFolder = Join-Path -Path $devFolder -ChildPath "resource_backup"
+        $scriptsBackupFolder = Join-Path -Path $devFolder -ChildPath "scripts_backup"
 
-            # Delete compiled files
-            Remove-Item -LiteralPath "$PSScriptRoot/resource" -Force -Recurse -ErrorAction Ignore
-            Remove-Item -LiteralPath "$PSScriptRoot/scripts" -Force -Recurse -ErrorAction Ignore
+        # Check if backup folders exist in #dev
+        if ((Test-Path -Path $resourceBackupFolder) -and (Test-Path -Path $scriptsBackupFolder)) {
+            Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Backup of resource and scripts found in #dev."
 
-            # Copy backups to main directory
-            Rename-Item -Path $resource_backup -NewName "resource"
-            Rename-Item -Path $scripts_backup -NewName "scripts"
-            Move-Item -Path "$PSScriptRoot/#dev/resource" -Destination "$PSScriptRoot" -Force
-            Move-Item -Path "$PSScriptRoot/#dev/scripts" -Destination "$PSScriptRoot" -Force
-            Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Backups have been restored."
+            # Delete existing resource and scripts folders in the root directory
+            Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Deleting existing 'resource' and 'scripts' folders..."
+            Remove-Item -LiteralPath "$PSScriptRoot\resource" -Force -Recurse -ErrorAction Ignore
+            Remove-Item -LiteralPath "$PSScriptRoot\scripts" -Force -Recurse -ErrorAction Ignore
+
+            # Copy the backup folders into the root directory and rename them
+            Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Restoring backups to root directory..."
+            Copy-Item -LiteralPath "$resourceBackupFolder" -Destination "$PSScriptRoot" -Force -Recurse
+            Copy-Item -LiteralPath "$scriptsBackupFolder" -Destination "$PSScriptRoot" -Force -Recurse
+
+            # Rename the copied folders to 'resource' and 'scripts'
+            Rename-Item -Path "$PSScriptRoot\resource_backup" -NewName "resource"
+            Rename-Item -Path "$PSScriptRoot\scripts_backup" -NewName "scripts"
+
+            # Delete the backup folders from #dev after restoring them
+            Remove-Item -LiteralPath "$resourceBackupFolder" -Force -Recurse
+            Remove-Item -LiteralPath "$scriptsBackupFolder" -Force -Recurse
+
+            Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Backups have been successfully restored and deleted from #dev."
         }
         else {
-            Write-Host -foregroundcolor "White" -backgroundcolor "Red" "Backup files not found"
-            Write-Host -foregroundcolor "White" "The backup folders could not be found in #dev."
-            Write-Host -foregroundcolor "White" "You will need to download the latest resource and scripts folders"
-            Write-Host -foregroundcolor "White" "from GitHub: github.com/rbjaxter/budhud"
-            Write-Host -foregroundcolor "White" "Note that you should be able to just copy the latest resource and scripts"
-            Write-Host -foregroundcolor "White" "folders from GitHub with no issues."
+            Write-Host -ForegroundColor "White" -BackgroundColor "Red" "Backup files not found in #dev."
+            Write-Host -ForegroundColor "White" "The backup folders could not be found in #dev."
+            Write-Host -ForegroundColor "White" "You will need to download the latest resource and scripts folders"
+            Write-Host -ForegroundColor "White" "from GitHub: github.com/rbjaxter/budhud"
+            Write-Host -ForegroundColor "White" "Note that you should be able to just copy the latest resource and scripts"
+            Write-Host -ForegroundColor "White" "folders from GitHub with no issues."
+
+            # Stop the script if backups are missing
+            return
         }
     }
 
-    ##############
-    # Initial Menu
-    ##############
+    ######################################
+    # Initial Menu & Function Explanations
+    ######################################
+    function Show-Help {
+        Clear-Host
+        Write-Host ""
+        Write-Host -ForegroundColor White -BackgroundColor Blue "====================="
+        Write-Host -ForegroundColor White -BackgroundColor Blue "Function Explanations"
+        Write-Host -ForegroundColor White -BackgroundColor Blue "====================="
+        Write-Host ""
+
+        $helpItems = @(
+            @{ Title = "1. Check HUD Installation"; Color = "Green"; Description = "No files will be deleted or replaced. Checks for common installation issues." },
+            @{ Title = "2. Update & Modify Default HUD Files"; Color = "Yellow"; Description = "_tf2hud folder will be deleted/replaced. Updates with latest HUD files, useful after TF2 updates." },
+            @{ Title = "3. Update Files from GitHub"; Color = "Red"; Description = "Overwrites HUD files with latest from GitHub, preserving custom user files." },
+            @{ Title = "4. Set HUD Language"; Color = "Green"; Description = "No files will be deleted or replaced. Sets HUD language if available." },
+            @{ Title = "5. HUD Compiler (Windows only)"; Color = "Yellow"; Description = "Compiles all HUD files into single files, placed in resource/scripts." },
+            @{ Title = "6. Revert HUD Compile"; Color = "Yellow"; Description = "Replaces compiled resource/scripts with backups." }
+        )
+
+        foreach ($item in $helpItems) {
+            Write-Host -ForegroundColor White -BackgroundColor Blue $item.Title
+            Write-Host -ForegroundColor $item.Color $item.Description
+            Write-Host ""
+        }
+    }
+
     do {
         Options_Menu
         $selection = Read-Host "[Type 1, 2, 3, 4, 5, 6, ?, or Q]"
 
         switch ($selection) {
-            "1" {
-                Run_InstallTroubleshooter
-            }
-
-            "2" {
-                Run_ExtractDefaultHUD
-            }
-
-            "3" {
-                Run_UpdateFromGitHub
-            }
-
-            "4" {
-                Run_SetHUDLanguage
-            }
-
-            "5" {
-                Run_HUDCompiler
-            }
-
-            "6" {
-                Run_RevertHUDCompile
-            }
-
-            "?" {
-                Clear-Host
-                Write-Host ""
-                Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "====================="
-                Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Function Explanations"
-                Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "====================="
-                Write-Host ""
-                Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "1. Check HUD Installation"
-                Write-Host -foregroundcolor "Green" "No files will be deleted or replaced"
-                Write-Host "This will check for common installation issues and provide a potential solution if one exists."
-                Write-Host ""
-                Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "2. Update & Modify Default HUD Files"
-                Write-Host -foregroundcolor "Yellow" "The _tf2hud folder will be deleted and replaced"
-                Write-Host "This will update your _tf2hud files with TF2's latest default hud files, as well as make a few HUD file modifications."
-                Write-Host "This is handy in case there's a TF2 update, though it will require you to have launched the game after having the update patch downloaded."
-                Write-Host "I run this script before I push commits/changes to the HUD. It's nifty :)."
-                Write-Host "There will be no risk of losing HUD changes doing this option unless you've modified files within the _tf2hud folder."
-                Write-Host "Any changes you made in _tf2hud will be deleted. This is why you should never edit anything in _tf2hud!"
-                Write-Host ""
-                Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "3. Update Files from GitHub"
-                Write-Host -foregroundcolor "Red" "Any file that originally existed in the HUD will be overwritten/replaced"
-                Write-Host "This will download the latest version of budhud from GitHub and add/overwrite any files that are changed/added."
-                Write-Host "This is essentially like deleting your custom HUD and then manually downloading and extracting it from GitHub."
-                Write-Host "Please note, though, that this will not delete files you've added to the HUD yourself (such as to #users/custom)."
-                Write-Host ""
-                Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "4. Set HUD Language"
-                Write-Host -foregroundcolor "Green" "No files will be deleted or replaced"
-                Write-Host "If an alternative language is available, you can set the HUD to use this language instead."
-                Write-Host "Type the name of the language and the appropriate chat file will be automatically copied over."
-                Write-Host ""
-                Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "5. HUD Compiler (Windows only)"
-                Write-Host -foregroundcolor "Yellow" "The resource and scripts folder will be replaced"
-                Write-Host "Created by a brilliant mind, the HUD compiler is used to compile as many #base directives in budhud as possible."
-                Write-Host "In simpler terms, this merges all _budhud and _tf2hud files (as well as any enabled customizations) into single files"
-                Write-Host "that are then placed in resource and scripts."
-                Write-Host "The original repo made by Lange is gone, but you can view the fork here: https://github.com/rbjaxter/budhud-compiler"
-                Write-Host ""
-                Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "6. Revert HUD Compile"
-                Write-Host -foregroundcolor "Yellow" "The resource and scripts folder will be replaced"
-                Write-Host "This script replaces your compiled resource and scripts folders with the backups created when you originally compiled"
-                Write-Host "Effectively, this returns the HUD to where it was before compiling."
-                Write-Host ""
-            }
-
-            "Q" {
-                Exit
-            }
+            "1" { Run_InstallTroubleshooter }
+            "2" { Run_ExtractDefaultHUD }
+            "3" { Run_UpdateFromGitHub }
+            "4" { Run_SetHUDLanguage }
+            "5" { Run_HUDCompiler }
+            "6" { Run_RevertHUDCompile }
+            "?" { Show-Help }
+            "Q" { Exit }
         }
         pause
-    }
+    } while ($true)
+
     until ($selection -eq 'q')
 }
 catch {
