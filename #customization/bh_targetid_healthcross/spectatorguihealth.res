@@ -52,7 +52,6 @@
     "PlayerStatusHealthValue"
     {
         "pin_to_sibling"                                            "bh_TargetIDHealthPin"
-
         "ControlName"                                               "Label"
         "fieldName"                                                 "PlayerStatusHealthValue"
         "xpos"                                                      "-18"
@@ -62,7 +61,6 @@
     "PlayerStatusHealthValueShadow"
     {
         "pin_to_sibling"                                            "PlayerStatusHealthValue"
-
         "ControlName"                                               "Label"
         "fieldName"                                                 "PlayerStatusHealthValueShadow"
         "xpos"                                                      "-1"
