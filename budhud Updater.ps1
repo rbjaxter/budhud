@@ -800,30 +800,28 @@ try {
             foreach ($folder in $missingOptionalFolders) {
                 Write-Host "  - $folder" -ForegroundColor "Yellow"
             }
-            Write-Host ""
         }
 
-        Write-Host ""
         Write-Host ""
         Write-Host -ForegroundColor "Red" "=============="
         Write-Host -ForegroundColor "Red" "IMPORTANT NOTE"
         Write-Host -ForegroundColor "Red" "=============="
         Write-Host -ForegroundColor "White" "Before proceeding, please take note of the following:"
         Write-Host ""
-        Write-Host -ForegroundColor "White" "1. The compiler's original Github repoistory is gone, but you can see the fork with the source code here:"
+        Write-Host -ForegroundColor "White" "1. The compiler's original Github repository is gone, but you can see the fork with the source code here:"
         Write-Host -ForegroundColor "White" "   https://github.com/rbjaxter/budhud-compiler"
         Write-Host -ForegroundColor "White" "3. To edit your HUD in the future after running the compiler, you must either:"
         Write-Host -ForegroundColor "White" "   A. Make changes directly in the 'resource' and 'scripts' folders, or"
         Write-Host -ForegroundColor "White" "   B. Run this compiler whenever you make changes outside of the 'resource' and 'scripts' folders"
         Write-Host -ForegroundColor "White" "      (e.g., in '_budhud' or '#customizations')."
         Write-Host ""
-        Write-Host -ForegroundColor "White" "If the compiler cannot be found, it will be automatically downloaded."
-        Write-Host -ForegroundColor "White" "(the file isn't included with budhud due to its size relative to the hud)"
+        Write-Host -ForegroundColor "White" "If the compiler cannot be found, you will be asked if you'd like to download it."
+        Write-Host -ForegroundColor "White" "The file isn't included with budhud due to its size relative to the hud (~62 MB)"
         Write-Host ""
 
-        Write-Host -ForegroundColor "White" -BackgroundColor "Yellow" "==================================="
+        Write-Host -ForegroundColor "White" -BackgroundColor "Yellow" "================================"
         Write-Host -ForegroundColor "White" "Do you want to continue? [Y / N]"
-        Write-Host -ForegroundColor "White" -BackgroundColor "Yellow" "==================================="
+        Write-Host -ForegroundColor "White" -BackgroundColor "Yellow" "================================"
         Write-Host ""
 
         $response = Read-Host
@@ -832,28 +830,60 @@ try {
         }
 
         # Check for compiler file
-        Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Checking for budhud-compiler.exe"
+        Clear-Host
+        Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "=============="
+        Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Compiler Check"
+        Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "=============="
+        Write-Host ""
 
         if (Test-Path -Path "budhud-compiler.exe") {
-            Write-Host -ForegroundColor "White" -BackgroundColor "Green" "budhud-compiler.exe found"
+            Write-Host -ForegroundColor "Green" "The compiler file 'budhud-compiler.exe' was found in the script directory."
+            Write-Host ""
         }
         else {
-            Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Could not locate budhud-compiler.exe, attempting to download..."
+            Write-Host -ForegroundColor "Red" "The compiler file 'budhud-compiler.exe' was not found in the script directory."
+            Write-Host -ForegroundColor "Yellow" "This file is required to proceed with compiling your HUD."
+            Write-Host ""
+            Write-Host -ForegroundColor "White" "Would you like to download the compiler now?"
+            Write-Host -ForegroundColor "Cyan" "Selecting 'No' will require you to manually download the file from GitHub."
+            Write-Host -ForegroundColor "White" "[ Y = Yes | N = No ]"
             Write-Host ""
 
-            $url = "https://github.com/rbjaxter/budhud-compiler/releases/latest/download/budhud-compiler.exe"
-            $Path = "$PSScriptRoot/budhud-compiler.exe"
+            $response = Read-Host
 
-            try {
-                Invoke-WebRequest -URI $url -OutFile $Path
-                Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Download complete"
-            }
-            catch {
-                Write-Host -ForegroundColor "White" -BackgroundColor "Red" "Failed to download budhud-compiler.exe from the provided URL."
+            if ($response -eq "Y") {
+                Clear-Host
+                Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "===================="
+                Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Downloading Compiler"
+                Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "===================="
                 Write-Host ""
-                Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Solution"
-                Write-Host -ForegroundColor "White" "- Check your internet connection"
-                Write-Host -ForegroundColor "White" "- The URL to the compiler may no longer be valid. Please let Whisker know."
+
+                $url = "https://github.com/rbjaxter/budhud-compiler/releases/latest/download/budhud-compiler.exe"
+                $Path = "$PSScriptRoot/budhud-compiler.exe"
+
+                try {
+                    Invoke-WebRequest -URI $url -OutFile $Path
+                    Write-Host -ForegroundColor "Green" "The compiler has been downloaded."
+                    Write-Host ""
+                }
+                catch {
+                    Write-Host -ForegroundColor "Red" "There was a problem downloading the compiler."
+                    Write-Host -ForegroundColor "Yellow" "Possible issues:"
+                    Write-Host -ForegroundColor "White" "- Check your internet connection."
+                    Write-Host -ForegroundColor "White" "- The repository might no longer be valid. Please let Whisker know."
+                    Write-Host ""
+                    return
+                }
+            }
+            else {
+                Clear-Host
+                Write-Host -ForegroundColor "White" -BackgroundColor "Red" "============================="
+                Write-Host -ForegroundColor "White" -BackgroundColor "Red" "Compiler Not Found - Required"
+                Write-Host -ForegroundColor "White" -BackgroundColor "Red" "============================="
+                Write-Host ""
+                Write-Host -ForegroundColor "White" "You've chosen not to download the compiler automatically."
+                Write-Host -ForegroundColor "Yellow" "Please download the file manually from the following URL:"
+                Write-Host -ForegroundColor "Cyan" "https://github.com/rbjaxter/budhud-compiler/releases/latest/download/budhud-compiler.exe"
                 Write-Host ""
                 return
             }
@@ -920,16 +950,48 @@ try {
         Remove-Item -LiteralPath "resource" -Force -Recurse -ErrorAction Ignore
         Remove-Item -LiteralPath "scripts" -Force -Recurse -ErrorAction Ignore
 
+        # Prompt user for -m flag usage
+        Clear-Host
+        Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "======================="
+        Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "Omit Missing Directives"
+        Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "======================="
+        Write-Host ""
+        Write-Host -ForegroundColor "White" "The '-m' (--omitMissingDirectives) flag omits directives pointing to"
+        Write-Host -ForegroundColor "White" "non-existent files from the final output."
+        Write-Host ""
+        Write-Host -ForegroundColor "Yellow" "If you plan to enable file quick customizations after compiling the HUD,"
+        Write-Host -ForegroundColor "Yellow" "you should select 'No' to disable this flag (default behavior)."
+        Write-Host ""
+        Write-Host -ForegroundColor "White" "Would you like to enable the '-m' flag?"
+        Write-Host -ForegroundColor "White" "Enter your choice:"
+        Write-Host -ForegroundColor "Green" "[1] Yes  - Enable the '-m' flag (omit missing directives)"
+        Write-Host -ForegroundColor "Green" "[2] No   - Disable the '-m' flag (default behavior)"
+        Write-Host ""
+        $response = Read-Host "Please enter 1 or 2"
+
+        # Determine whether to include the -m flag
+        $omitMissingFlag = ""
+        if ($response -eq "1") {
+            $omitMissingFlag = "-m"
+            Write-Host -ForegroundColor "White" -BackgroundColor "Green" "You have selected to enable the '-m' flag."
+        }
+        else {
+            Write-Host -ForegroundColor "White" -BackgroundColor "Blue" "You have selected the default behavior: the '-m' flag will not be used."
+        }
+
         # Run the compiler
         Write-Output "Compiling resource & scripts..."
-        ./budhud-compiler.exe -s -i "resource_backup", "scripts_backup" -o "resource", "scripts"
+        & ./budhud-compiler.exe -s $omitMissingFlag -i "resource_backup", "scripts_backup" -o "resource", "scripts"
 
-        # Compiler and file watcher
-        #./budhud-compiler.exe -s -w -t "_budhud/resource","_budhud/scripts" -i "resource_backup","scripts_backup" -o "resource","scripts"
+        # Compiler and file watcher (optional example if needed later)
+        # & ./budhud-compiler.exe -s -w -t "_budhud/resource","_budhud/scripts" $omitMissingFlag -i "resource_backup","scripts_backup" -o "resource","scripts"
+
+        # Check for compilation success
         if ($lastexitcode -ne 0) {
             Read-Host -Prompt "Compilation failed, press Enter to exit"
             exit
         }
+
 
         # Remove duplicate backup files after compiling is complete
         Remove-Item -LiteralPath "$PSScriptRoot/resource_backup" -Force -Recurse -ErrorAction Ignore
