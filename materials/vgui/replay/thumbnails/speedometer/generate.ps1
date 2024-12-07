@@ -1,6 +1,8 @@
 # ImageMagick must be installed in the same folder
 # The font must also be in the same folder (from my experience)
-# overengineered shell script by Whisker because chatgpt makes my life 1000x easier lmao
+# overengineered shell script by Whisker
+# See imagemagick documentation here if needed:
+# https://imagemagick.org/script/command-line-options.php#gravity
 #
 # I don't know who specifically made the original 14 line version of this file that generated with one color
 # but I think it was either QuickKennedy or afbiklwnef njw;kfn jn.kj.h
@@ -11,6 +13,7 @@ $backgroundColor = "Transparent"
 $font = "LatoSemibold.ttf"
 $fontSize = 32
 $VTFSize = "128x32"
+$VTFAlignment = "center"    # Valid: NorthWest, North, NorthEast, West, Center, East, SouthWest, South, SouthEast
 $imagesFolder = "$PSScriptRoot\numbers"  # Assuming the images are stored in a folder named "numbers" in the script's directory
 
 # Function to calculate the text color based on the number
@@ -116,7 +119,7 @@ Write-Host "Script completed."
 for ($num = 1105; $num -le 1115; $num++) {
     # Generate image with specific color
     $textColor = "rgb(255,215,0)"  # Yellowish color
-    ./magick -background $backgroundColor -fill "$textColor" -font $font -size $VTFSize -gravity center -pointsize $fontSize -antialias label:$num "$imagesFolder\$num.png"
+    ./magick -background $backgroundColor -fill "$textColor" -font $font -size $VTFSize -gravity $VTFAlignment -pointsize $fontSize -antialias label:$num "$imagesFolder\$num.png"
 }
 
 # Copy over specific images to prevent max run speed bouncing between values
