@@ -44,13 +44,30 @@
         "proportionaltoparent"                                      "1"
     }
 
-    "bh_HealthBG"
+    "bh_HealthBGPin"
     {
-        "ControlName"                                               "CExLabel"
-        "fieldName"                                                 "bh_HealthBG"
+        "ControlName"                                               "Label"
+        "fieldName"                                                 "bh_HealthBGPin"
         "xpos"                                                      "cs-0.5"
         "ypos"                                                      "cs-0.5"
-        "zpos"                                                      "-6969"
+        "zpos"                                                      "0"
+        "wide"                                                      "100"
+        "tall"                                                      "42"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "bgcolor_override"                                          "0 0 0 0"
+        "proportionaltoparent"                                      "1"
+        "labeltext"                                                 ""
+    }
+
+    "bh_HealthBG"
+    {
+        "pin_to_sibling"                                            "bh_HealthBGPin" // cs value causes misalignment on first load, so make separate pin instead (GH issue #556)
+        "ControlName"                                               "Label"
+        "fieldName"                                                 "bh_HealthBG"
+        "xpos"                                                      "0"
+        "ypos"                                                      "0"
+        "zpos"                                                      "0"
         "wide"                                                      "100"
         "tall"                                                      "42"
         "autoResize"                                                "0"
@@ -79,7 +96,6 @@
     "PlayerStatusHealthValueShadow"
     {
         "pin_to_sibling"                                            "PlayerStatusHealthValue"
-
         "ControlName"                                               "CExLabel"
         "fieldName"                                                 "PlayerStatusHealthValueShadow"
         "xpos"                                                      "-1"
@@ -104,7 +120,6 @@
         "tall"                                                      "34"
         "proportionaltoparent"                                      "1"
     }
-
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // I had to add these due to the new dimensions of the health elements breaking the default positions
     ////////////////////////////////////////////////////////////////////////////////////////////////////
