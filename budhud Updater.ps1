@@ -104,10 +104,10 @@ try {
         throw [System.PlatformNotSupportedException]::new("Only Windows and Linux are supported.")
     }
 
-    #################
-    # Shared_EndTimer
-    #################
-    function Shared_EndTimer($startTime) {
+    ##############
+    # Shared_Timer
+    ##############
+    function Shared_Timer($startTime) {
         $endTime = Get-Date
         $elapsedTime = $endTime - $startTime
         $elapsedMinutes = $elapsedTime.TotalMinutes -as [int]
@@ -571,7 +571,7 @@ try {
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Task Complete"
         Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
-        Shared_EndTimer $startTime
+        Shared_Timer $startTime
     }
 
     ######################
@@ -641,7 +641,7 @@ try {
                 Write-Host -foregroundcolor "White" -backgroundcolor "Green" "Task Complete"
                 Write-Host -foregroundcolor "White" -backgroundcolor "Green" "============="
                 Write-Host -foregroundcolor "White" "Latest hud files from GitHub have been downloaded and extracted."
-                Shared_EndTimer $startTime
+                Shared_Timer $startTime
             }
 
             "anything else" {
@@ -889,8 +889,6 @@ try {
             }
         }
 
-        $StopWatch = [System.Diagnostics.Stopwatch]::StartNew()
-
         # Ensure the #dev folder exists in the script's root
         $devFolder = Join-Path -Path $PSScriptRoot -ChildPath "#dev"
         if (-not (Test-Path -Path $devFolder)) {
@@ -980,6 +978,7 @@ try {
         }
 
         # Run the compiler
+        $startTime = Get-Date
         Write-Output "Compiling resource & scripts..."
         & ./budhud-compiler.exe -s $omitMissingFlag -i "resource_backup", "scripts_backup" -o "resource", "scripts"
 
@@ -992,19 +991,17 @@ try {
             exit
         }
 
-
         # Remove duplicate backup files after compiling is complete
         Remove-Item -LiteralPath "$PSScriptRoot/resource_backup" -Force -Recurse -ErrorAction Ignore
         Remove-Item -LiteralPath "$PSScriptRoot/scripts_backup" -Force -Recurse -ErrorAction Ignore
 
-        $StopWatch.Stop()
+        Shared_Timer $startTime
         Write-Host ""
         Write-Host -ForegroundColor "White" -BackgroundColor "Green" "===================="
         Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Compilation Complete"
         Write-Host -ForegroundColor "White" -BackgroundColor "Green" "===================="
         Write-Host "Completed in $($StopWatch.Elapsed.TotalSeconds) seconds."
     }
-
 
     ######################
     # Run_RevertHUDCompile
