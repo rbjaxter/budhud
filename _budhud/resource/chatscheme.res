@@ -25,7 +25,7 @@
 
             "1"
             {
-                "name"                                              "Verdana"
+                "name"                                              "Lato Semibold"
                 "tall"                                              "15"
                 "weight"                                            "500"
                 "yres"                                              "480 599"
@@ -34,7 +34,7 @@
 
             "2"
             {
-                "name"                                              "Verdana"
+                "name"                                              "Lato Semibold"
                 "tall"                                              "17"
                 "weight"                                            "500"
                 "yres"                                              "600 767"
@@ -43,7 +43,7 @@
 
             "3"
             {
-                "name"                                              "Verdana"
+                "name"                                              "Lato Semibold"
                 "tall"                                              "18"
                 "weight"                                            "500"
                 "yres"                                              "768 1023"
@@ -52,7 +52,7 @@
 
             "4"
             {
-                "name"                                              "Verdana"
+                "name"                                              "Lato Semibold"
                 "tall"                                              "20"
                 "weight"                                            "500"
                 "yres"                                              "1024 1199"
@@ -61,7 +61,7 @@
 
             "5"	// my understanding could be wrong, but the instant you go over 4's yres max (1199), it uses this font and it scales proportionally
             {
-                "name"                                              "Verdana"
+                "name"                                              "Lato Semibold"
                 "tall"                                              "9"
                 "weight"                                            "500"
                 "antialias"                                         "1"
@@ -72,7 +72,7 @@
         {
             "1"
             {
-                "name"                                              "Verdana"
+                "name"                                              "Lato Semibold"
                 "tall"                                              "12"
                 "weight"                                            "0"
                 "range"                                             "0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -81,7 +81,7 @@
 
             "2"
             {
-                "name"                                              "Verdana"
+                "name"                                              "Lato Semibold"
                 "tall"                                              "12"
                 "weight"                                            "0"
                 "range"                                             "0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -90,7 +90,7 @@
 
             "3"
             {
-                "name"                                              "Verdana"
+                "name"                                              "Lato Semibold"
                 "tall"                                              "12"
                 "weight"                                            "0"
                 "range"                                             "0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -100,7 +100,7 @@
 
             "4"
             {
-                "name"                                              "Verdana"
+                "name"                                              "Lato Semibold"
                 "tall"                                              "14"
                 "weight"                                            "0"
                 "range"                                             "0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -110,7 +110,7 @@
 
             "5"	// Misyl: Proportional
             {
-                "name"                                              "Verdana"
+                "name"                                              "Lato Semibold"
                 "tall"                                              "9"
                 "weight"                                            "0"
                 "range"                                             "0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A

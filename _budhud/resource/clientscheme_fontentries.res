@@ -18,167 +18,167 @@ Scheme
 
             "arabic"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "brazilian"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "bulgarian"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "czech"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "danish"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "dutch"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "english"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "finnish"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "french"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "german"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "greek"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "hebrew"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "hungarian"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "italian"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "japanese"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "korean"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "koreana"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "latvian"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "lithuanian"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "norwegian"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "pirate"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "polish"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "portuguese"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "romanian"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "russian"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "schinese"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "slovak"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "spanish"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "swedish"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "tchinese"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "thai"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "turkish"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
 
             "ukrainian"
             {
-                "range"     "0x0021 0xFFFF"
+                "range"                                             "0x0021 0x0513"
             }
         }
 

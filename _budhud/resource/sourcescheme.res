@@ -265,22 +265,56 @@
             }
         }
 
-        "DefaultSmall"	// Server browser server list text
+        "Default"
         {
             "1"
             {
-                "name"                                              "Tahoma"
-                "tall"                                              "12"
+                "name"                                              "Lato Semibold"
+                "tall"                                              "16"
                 "antialias"                                         "1"
+                "weight"                                            "500"
             }
         }
 
-        "ConsoleText" //no isproportional, no yres. only one entry
+        "DefaultSmall"	// Server browser server list text, console drop-down text
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "12"
+                "antialias"                                         "1"
+                "weight"                                            "500"
+            }
+        }
+
+        "DefaultVerySmall"	// Language indicator (console), options > keyboard > title header sizing
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "12"
+                "antialias"                                         "1"
+                "weight"                                            "1000"
+            }
+        }
+
+        "ConsoleText"
         {
             "1"
             {
                 "name"                                              "Lucida Console"
                 "tall"                                              "11"
+                "antialias"                                         "1"
+            }
+        }
+
+        "UiBold" // Servers title name
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "18"
+                "weight"                                            "600"
                 "antialias"                                         "1"
             }
         }
