@@ -1,3 +1,4 @@
+    #base    "../../#users/custom/_enabled/bh_targetid_healthcross/disguisestatuspanel.res"
     #base    "../../#users/custom/resource/ui/disguisestatuspanel.res"
     #base    "../../#customization/_enabled/bh_targetid_healthcross/disguisestatuspanel.res"
     #base    "../../_stream/resource/ui/disguisestatuspanel.res"
