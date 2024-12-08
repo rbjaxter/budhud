@@ -4,9 +4,7 @@
     {
         "Header"
         {
-            "ypos"                                                  "r-6969"
-            "wide"                                                  "0"
-            "tall"                                                  "0"
+            "font"                                                  "bh_Font_StreamerNums10"
         }
 
         "bh_Header"
@@ -18,9 +16,7 @@
 
         "Issue"
         {
-            "ypos"                                                  "r-6969"
-            "wide"                                                  "0"
-            "tall"                                                  "0"
+            "font"                                                  "bh_Font_StreamerNums10"
         }
 
         "bh_Issue"

@@ -1,20 +1,21 @@
-Scheme
+"Scheme"
 {
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // BUDHUD FONT ENTRIES
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    CustomFontFiles
+
+    "CustomFontFiles"
     {
-        "8" // budhud Font
+        "8"	// budhud Font
         {
-            "font"          "resource/fonts/font-latosemibold-original.ttf"
-            "name"          "Lato Semibold"
+            "font"                                                  "resource/fonts/font-latosemibold-original.ttf"
+            "name"                                                  "Lato Semibold"
         }
 
-        "9" // budhud Font, hiddenchars
+        "9"	// budhud Font, hiddenchars
         {
-            "font"          "resource/fonts/font-latosemibold-botchars.ttf"
-            "name"          "Lato Semibold Modified"
+            "font"                                                  "resource/fonts/font-latosemibold-botchars.ttf"
+            "name"                                                  "Lato Semibold Modified"
 
             "arabic"
             {
@@ -182,28 +183,40 @@ Scheme
             }
         }
 
-        "10" // Unified TF2 Crosshairs
+        "10" // budhud font, streamer mode
         {
-            "font"          "resource/fonts/crosshairs-unified.ttf"
-            "name"          "TF2Crosshairs"
+            "font"                                                  "resource/fonts/font-whizblock.ttf"
+            "name"                                                  "whizblock"
         }
 
-        "11" // whayay's Crosshairs
+        "11" // budhud font, streamer mode no numbers
         {
-            "font"          "resource/fonts/crosshairs-whayay.ttf"
-            "name"          "Crosshair"
+            "font"                                                  "resource/fonts/font-whizblocknums.ttf"
+            "name"                                                  "whizblocknums"
         }
 
-        "12" // Knuckles' Crosshairs
+        "12" // Unified TF2 Crosshairs
         {
-            "font"          "resource/fonts/crosshairs-knuckles.ttf"
-            "name"          "KnucklesCrosses"
+            "font"                                                  "resource/fonts/crosshairs-unified.ttf"
+            "name"                                                  "TF2Crosshairs"
         }
 
-        "13" // Fog's Crosshairs
+        "13" // whayay's Crosshairs
         {
-            "font"          "resource/fonts/crosshairs-fog.ttf"
-            "name"          "Crosshairs Regular"
+            "font"                                                  "resource/fonts/crosshairs-whayay.ttf"
+            "name"                                                  "Crosshair"
+        }
+
+        "14" // Knuckles' Crosshairs
+        {
+            "font"                                                  "resource/fonts/crosshairs-knuckles.ttf"
+            "name"                                                  "KnucklesCrosses"
+        }
+
+        "15" // Fog's Crosshairs
+        {
+            "font"                                                  "resource/fonts/crosshairs-fog.ttf"
+            "name"                                                  "Crosshairs Regular"
         }
     }
 }

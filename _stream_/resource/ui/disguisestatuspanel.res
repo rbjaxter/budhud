@@ -2,18 +2,11 @@
 {
     "DisguiseNameLabel"
     {
-        "ypos"                                                      "r-6969"
-        "visible"                                                   "0"
-        "enabled"                                                   "0"
+        "font"                                                      "bh_Font_StreamerNums10"
     }
 
-    "WeaponNameLabel"
+    "bh_DisguiseNameLabelShadow"
     {
-        "textalignment"                                             "center"
-        "xpos"                                                      "57"
-        "ypos"                                                      "39"
-        "wide"                                                      "100"
-        "tall"                                                      "14"
-        "font"                                                      "bh_Font12"
+        "font"                                                      "bh_Font_StreamerNums10"
     }
 }

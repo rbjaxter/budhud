@@ -8,23 +8,17 @@
             {
                 if_competitive
                 {
-                    "ypos"                                          "r-6969"
-                    "wide"                                          "0"
-                    "tall"                                          "0"
+                    "font"                                          "bh_Font_StreamerNums9"
                 }
 
                 if_readymode
                 {
-                    "ypos"                                          "r-6969"
-                    "wide"                                          "0"
-                    "tall"                                          "0"
+                    "font"                                          "bh_Font_StreamerNums9"
                 }
 
                 if_mvm
                 {
-                    "ypos"                                          "r-6969"
-                    "wide"                                          "0"
-                    "tall"                                          "0"
+                    "font"                                          "bh_Font_StreamerNums9"
                 }
             }
         }
