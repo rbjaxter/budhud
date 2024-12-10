@@ -10,24 +10,11 @@
         {
             "font"                                                  "resource/fonts/font-latosemibold-original.ttf"
             "name"                                                  "Lato Semibold"
-        }
 
-        "9"	// budhud Font, hiddenchars
-        {
-            "font"                                                  "resource/fonts/font-latosemibold-botchars.ttf"
-            "name"                                                  "Lato Semibold Modified"
-
-            "arabic"
-            {
-                "range"                                             "0x0021 0x0513"
-            }
+            // The following languages aren't supported by Lato 2.0 and will instead use a fallback font:
+            // arabic, bulgarian, hebrew, japanese, korean, koreana, lithuanian, thai
 
             "brazilian"
-            {
-                "range"                                             "0x0021 0x0513"
-            }
-
-            "bulgarian"
             {
                 "range"                                             "0x0021 0x0513"
             }
@@ -72,11 +59,6 @@
                 "range"                                             "0x0021 0x0513"
             }
 
-            "hebrew"
-            {
-                "range"                                             "0x0021 0x0513"
-            }
-
             "hungarian"
             {
                 "range"                                             "0x0021 0x0513"
@@ -87,27 +69,7 @@
                 "range"                                             "0x0021 0x0513"
             }
 
-            "japanese"
-            {
-                "range"                                             "0x0021 0x0513"
-            }
-
-            "korean"
-            {
-                "range"                                             "0x0021 0x0513"
-            }
-
-            "koreana"
-            {
-                "range"                                             "0x0021 0x0513"
-            }
-
             "latvian"
-            {
-                "range"                                             "0x0021 0x0513"
-            }
-
-            "lithuanian"
             {
                 "range"                                             "0x0021 0x0513"
             }
@@ -167,11 +129,6 @@
                 "range"                                             "0x0021 0x0513"
             }
 
-            "thai"
-            {
-                "range"                                             "0x0021 0x0513"
-            }
-
             "turkish"
             {
                 "range"                                             "0x0021 0x0513"
@@ -180,6 +137,177 @@
             "ukrainian"
             {
                 "range"                                             "0x0021 0x0513"
+            }
+        }
+
+        "9"	// budhud Font, hiddenchars
+        {
+            "font"                                                  "resource/fonts/font-latosemibold-botchars.ttf"
+            "name"                                                  "Lato Semibold Modified"
+
+            "arabic"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "brazilian"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "bulgarian"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "czech"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "danish"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "dutch"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "english"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "finnish"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "french"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "german"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "greek"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "hebrew"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "hungarian"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "italian"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "japanese"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "korean"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "koreana"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "latvian"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "lithuanian"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "norwegian"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "pirate"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "polish"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "portuguese"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "romanian"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "russian"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "schinese"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "slovak"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "spanish"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "swedish"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "tchinese"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "thai"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "turkish"
+            {
+                "range"                                             "0x0021 0xFFFF"
+            }
+
+            "ukrainian"
+            {
+                "range"                                             "0x0021 0xFFFF"
             }
         }
 
