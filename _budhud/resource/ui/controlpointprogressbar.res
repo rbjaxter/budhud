@@ -1,11 +1,11 @@
 "Resource/UI/ControlPointProgressBar.res"
 {
-    "ControlPointProgressBar"
-    {
-        "ypos"                                                      "r-6969"
-        "visible"                                                   "0"
-        "enabled"                                                   "0"
-    }
+    //"ControlPointProgressBar"
+    //{
+    //    "ypos"                                                      "r-6969"
+    //    "visible"                                                   "0"
+    //    "enabled"                                                   "0"
+    //}
 
     "ProgressBar"
     {
