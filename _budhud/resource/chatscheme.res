@@ -75,7 +75,7 @@
                 "name"                                              "Lato Semibold"
                 "tall"                                              "12"
                 "weight"                                            "0"
-                "range"                                             "0x0021 0x0513"
+                "range"                                             "0x0020 0x1EFF"
                 "yres"                                              "480 599"
             }
 
@@ -84,7 +84,7 @@
                 "name"                                              "Lato Semibold"
                 "tall"                                              "12"
                 "weight"                                            "0"
-                "range"                                             "0x0021 0x0513"
+                "range"                                             "0x0020 0x1EFF"
                 "yres"                                              "600 767"
             }
 
@@ -93,7 +93,7 @@
                 "name"                                              "Lato Semibold"
                 "tall"                                              "12"
                 "weight"                                            "0"
-                "range"                                             "0x0021 0x0513"
+                "range"                                             "0x0020 0x1EFF"
                 "yres"                                              "768 1023"
                 "antialias"                                         "1"
             }
@@ -103,7 +103,7 @@
                 "name"                                              "Lato Semibold"
                 "tall"                                              "14"
                 "weight"                                            "0"
-                "range"                                             "0x0021 0x0513"
+                "range"                                             "0x0020 0x1EFF"
                 "yres"                                              "1024 1199"
                 "antialias"                                         "1"
             }
@@ -113,7 +113,7 @@
                 "name"                                              "Lato Semibold"
                 "tall"                                              "9"
                 "weight"                                            "0"
-                "range"                                             "0x0021 0x0513"
+                "range"                                             "0x0020 0x1EFF"
                 "antialias"                                         "1"
             }
         }

@@ -291,7 +291,7 @@
         {
             "1"
             {
-                "name"                                              "Lucida Console"
+                "name"                                              "Lato Semibold"
                 "tall"                                              "11"
                 "antialias"                                         "1"
             }
