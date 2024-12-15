@@ -4,7 +4,7 @@
     {
         "Header"
         {
-            "font"                                                  "bh_Font_StreamerNums10"
+            "font"                                                  "bh_Font_StreamerBlockMore10"
         }
 
         "bh_Header"
@@ -16,7 +16,7 @@
 
         "Issue"
         {
-            "font"                                                  "bh_Font_StreamerNums10"
+            "font"                                                  "bh_Font_StreamerBlockMore10"
         }
 
         "bh_Issue"

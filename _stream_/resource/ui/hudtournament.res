@@ -8,17 +8,17 @@
             {
                 if_competitive
                 {
-                    "font"                                          "bh_Font_StreamerNums9"
+                    "font"                                          "bh_Font_StreamerBlockMore9"
                 }
 
                 if_readymode
                 {
-                    "font"                                          "bh_Font_StreamerNums9"
+                    "font"                                          "bh_Font_StreamerBlockMore9"
                 }
 
                 if_mvm
                 {
-                    "font"                                          "bh_Font_StreamerNums9"
+                    "font"                                          "bh_Font_StreamerBlockMore9"
                 }
             }
         }

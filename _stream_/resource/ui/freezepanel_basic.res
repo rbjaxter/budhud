@@ -4,12 +4,12 @@
     {
         "FreezeLabel"
         {
-            "font"                                                  "bh_Font_StreamerNums12"
+            "font"                                                  "bh_Font_StreamerBlockMore12"
         }
 
         "FreezeLabelKiller2"
         {
-            "font"                                                  "bh_Font_StreamerNums12"
+            "font"                                                  "bh_Font_StreamerBlockMore12"
         }
     }
 

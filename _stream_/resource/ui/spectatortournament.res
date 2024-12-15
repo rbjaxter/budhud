@@ -8,7 +8,7 @@
 
             "playername"
             {
-                "font"                                              "bh_Font_StreamerNums10"
+                "font"                                              "bh_Font_StreamerBlockMore10"
             }
         }
     }
