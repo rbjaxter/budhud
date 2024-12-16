@@ -1001,7 +1001,6 @@ try {
         Write-Host -ForegroundColor "White" -BackgroundColor "Green" "===================="
         Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Compilation Complete"
         Write-Host -ForegroundColor "White" -BackgroundColor "Green" "===================="
-        Write-Host "Completed in $($StopWatch.Elapsed.TotalSeconds) seconds."
     }
 
     ######################

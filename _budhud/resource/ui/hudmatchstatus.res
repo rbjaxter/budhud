@@ -132,17 +132,6 @@
             "tall"                                                  "11"
             "fillcolor"                                             "125 125 125 064"
             "proportionaltoparent"                                  "1"
-
-            "if_match"
-            {
-                "visible"                                           "1"
-            }
-
-            "if_mvm"
-            {
-                "ypos"                                              "r-6969"
-                "visible"                                           "0"
-            }
         }
     }
 

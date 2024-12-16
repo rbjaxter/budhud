@@ -155,13 +155,13 @@
         // "Default" - Console input text appearance
         // "DefaultLarge" - "Console" title text appearance
         ////////////////////////////////////////////////////////////////////////////////////////////////////
-
         // try to use some degree of linear interpolation to come up with appropriate values
         // tall value of 19 seems to work well for yres 1024 1199
         // Height range = 1199-1024+1=176
         // FontScaleFactor = tall/yres height range
         // = 19/176 ≈ 0.108
         // then calculate for each range
+
         "DefaultFixedOutline"
         {
             "1"
@@ -287,17 +287,28 @@
             }
         }
 
-        "ConsoleText"
+        "DefaultVerySmall"	// Language indicator (console), options > keyboard > title header sizing
         {
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "11"
+                "tall"                                              "12"
+                "antialias"                                         "1"
+                "weight"                                            "1000"
+            }
+        }
+
+        "ConsoleText"
+        {
+            "1"
+            {
+                "name"                                              "Lucida Console"	// Monospaced
+                "tall"                                              "12"
                 "antialias"                                         "1"
             }
         }
 
-        "UiBold" // Servers title name
+        "UiBold"	// Servers title name
         {
             "1"
             {
@@ -308,7 +319,7 @@
             }
         }
 
-        "DefaultLarge" // When compiled, DefaultLarge instead gets used where UiBold was used previously
+        "DefaultLarge"	// When compiled, DefaultLarge instead gets used where UiBold was used previously
         {
             "1"
             {
