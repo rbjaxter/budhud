@@ -90,26 +90,25 @@
         "visible"                                                   "0"
         "enabled"                                                   "0"
     }
-
-//    // Refract used to cover up medal appearing in top left when scoreboard is opened during killcam
-//    // Actual refract VTF & VMT materials borrowed from JarateKing
-//    "bh_MedalRefract"
-//    {
-//        "ControlName"                                               "ImagePanel"
-//        "fieldName"                                                 "bh_BackgroundFooter"
-//        "xpos"                                                      "0"
-//        "ypos"                                                      "0"
-//        "zpos"                                                      "0"
-//        "wide"                                                      "18"
-//        "tall"                                                      "16"
-//        "autoResize"                                                "0"
-//        "pinCorner"                                                 "0"
-//        "labeltext"                                                 ""
-//        "visible"                                                   "1"
-//        "enabled"                                                   "1"
-//        "image"                                                     "replay/thumbnails/overlays/refract_square"
-//        "paintbackgroundtype"                                       "0"
-//    }
+    //// Refract used to cover up medal appearing in top left when scoreboard is opened during killcam
+    //// Actual refract VTF & VMT materials borrowed from JarateKing
+    // "bh_MedalRefract"
+    // {
+    // "ControlName"                                               "ImagePanel"
+    // "fieldName"                                                 "bh_BackgroundFooter"
+    // "xpos"                                                      "0"
+    // "ypos"                                                      "0"
+    // "zpos"                                                      "0"
+    // "wide"                                                      "18"
+    // "tall"                                                      "16"
+    // "autoResize"                                                "0"
+    // "pinCorner"                                                 "0"
+    // "labeltext"                                                 ""
+    // "visible"                                                   "1"
+    // "enabled"                                                   "1"
+    // "image"                                                     "replay/thumbnails/overlays/refract_square"
+    // "paintbackgroundtype"                                       "0"
+    // }
 
     "MvMScoreboard"
     {
@@ -122,10 +121,9 @@
         "tall"                                                      "480"
         "visible"                                                   "0"
         "enabled"                                                   "1"
-
         "verbose"                                                   "1"
 
-        if_mvm
+        "if_mvm"
         {
             "visible"                                               "1"
         }
@@ -178,7 +176,7 @@
         "fgcolor"                                                   "bh_white"
         "centerwrap"                                                "1"
 
-        if_mvm
+        "if_mvm"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
@@ -205,13 +203,11 @@
         "wide"                                                      "300"
         "tall"                                                      "300"
     }
-
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     "bh_BGscoreBlue"
     {
         "pin_to_sibling"                                            "bh_BluePin"
-
         "ControlName"                                               "ImagePanel"
         "fieldName"                                                 "bh_BGscoreBlue"
         "xpos"                                                      "0"
@@ -228,7 +224,7 @@
         "draw_corner_height"                                        "5"
         "border"                                                    "bh_b_Blue"
 
-        if_mvm
+        "if_mvm"
         {
             "visible"                                               "0"
         }
@@ -244,14 +240,13 @@
     "BlueTeamPlayerCount"
     {
         "pin_to_sibling"                                            "bh_BluePin"
-
         "xpos"                                                      "0"
         "ypos"                                                      "0"
         "wide"                                                      "300"
         "tall"                                                      "30"
         "textAlignment"                                             "center"
 
-        if_mvm
+        "if_mvm"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
@@ -262,27 +257,24 @@
     "BlueTeamScore"
     {
         "pin_to_sibling"                                            "bh_BluePin"
-
         "xpos"                                                      "0"
         "ypos"                                                      "1"
         "wide"                                                      "300"
         "tall"                                                      "30"
         "textinsetx"                                                "10"
 
-        if_mvm
+        "if_mvm"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
             "enabled"                                               "0"
         }
     }
-
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     "bh_BGscoreRed"
     {
         "pin_to_sibling"                                            "bh_RedPin"
-
         "ControlName"                                               "ImagePanel"
         "fieldName"                                                 "bh_BGscoreRed"
         "xpos"                                                      "0"
@@ -299,7 +291,7 @@
         "draw_corner_height"                                        "5"
         "border"                                                    "bh_b_Red"
 
-        if_mvm
+        "if_mvm"
         {
             "visible"                                               "0"
         }
@@ -315,14 +307,13 @@
     "RedTeamPlayerCount"
     {
         "pin_to_sibling"                                            "bh_RedPin"
-
         "xpos"                                                      "0"
         "ypos"                                                      "0"
         "wide"                                                      "300"
         "tall"                                                      "30"
         "textAlignment"                                             "center"
 
-        if_mvm
+        "if_mvm"
         {
             "ypos"                                                  "r-6969"
         }
@@ -331,19 +322,17 @@
     "RedTeamScore"
     {
         "pin_to_sibling"                                            "bh_RedPin"
-
         "xpos"                                                      "0"
         "ypos"                                                      "1"
         "wide"                                                      "300"
         "tall"                                                      "30"
         "textinsetx"                                                "10"
 
-        if_mvm
+        "if_mvm"
         {
             "ypos"                                                  "r-6969"
         }
     }
-
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     "scores"
@@ -372,7 +361,6 @@
         "killstreak_width"                                          "17"
         "killstreak_image_width"                                    "10"
     }
-
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     "bh_LocalStatsPin"
@@ -392,7 +380,6 @@
     "bh_LocalStatsBG1"
     {
         "pin_to_sibling"                                            "bh_LocalStatsPin"
-
         "ControlName"                                               "ImagePanel"
         "fieldName"                                                 "bh_LocalStatsBG1"
         "xpos"                                                      "0"
@@ -410,7 +397,6 @@
     "LocalPlayerDuelStatsPanel"
     {
         "pin_to_sibling"                                            "bh_LocalStatsPin"
-
         "xpos"                                                      "0"
         "ypos"                                                      "0"
     }
@@ -418,14 +404,13 @@
     "mapname"
     {
         "pin_to_sibling"                                            "bh_LocalStatsPin"
-
         "xpos"                                                      "-448"
         "ypos"                                                      "-35"
         "fgcolor"                                                   "bh_Theme_TextAccent"
         "textAlignment"                                             "east"
         "wide"                                                      "100"
 
-        if_mvm
+        "if_mvm"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
@@ -436,7 +421,6 @@
     "ServerLabelNew"
     {
         "pin_to_sibling"                                            "bh_LocalStatsPin"
-
         "xpos"                                                      "-1"
         "ypos"                                                      "12"
         "fgcolor"                                                   "bh_white"
@@ -448,7 +432,6 @@
     "Spectators"
     {
         "pin_to_sibling"                                            "bh_LocalStatsPin"
-
         "xpos"                                                      "-300"
         "ypos"                                                      "12"
         "wide"                                                      "300"
@@ -459,9 +442,7 @@
 
     "SpectatorsInQueue"
     {
-
         "pin_to_sibling"                                            "bh_LocalStatsPin"
-
         "xpos"                                                      "-300"
         "ypos"                                                      "23"
         "wide"                                                      "300"
@@ -473,7 +454,6 @@
     "LocalPlayerStatsPanel"
     {
         "pin_to_sibling"                                            "bh_LocalStatsPin"
-
         "xpos"                                                      "0"
         "ypos"                                                      "0"
 
@@ -490,7 +470,6 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "bh_Kills"
@@ -524,7 +503,6 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "bh_Assists"
@@ -558,7 +536,6 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "bh_Deaths"
@@ -583,12 +560,13 @@
         {
             "xpos"                                                  "326"
             "ypos"                                                  "30"
+            "font"                                                  "bh_Font8"
         }
 
         "Destruction"
         {
-            "xpos"                                                  "425"
-            "ypos"                                                  "30"
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
         }
 
         "DamageLabel"
@@ -634,7 +612,6 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "bh_Healing"
@@ -655,11 +632,22 @@
             "enabled"                                               "1"
         }
 
+        "CapturesLabel"
+        {
+            "font"                                                  "bh_Font8"
+        }
+
+        "Captures"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+        }
+
         "bh_Captures"
         {
             "ControlName"                                           "CExLabel"
             "fieldName"                                             "bh_Captures"
-            "font"                                                  "ScoreboardVerySmall"
+            "font"                                                  "bh_Font8"
             "labelText"                                             "%captures%"
             "textAlignment"                                         "west"
             "xpos"                                                  "305"
@@ -673,11 +661,22 @@
             "enabled"                                               "1"
         }
 
+        "DefensesLabel"
+        {
+            "font"                                                  "bh_Font8"
+        }
+
+        "Defenses"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+        }
+
         "bh_Defenses"
         {
             "ControlName"                                           "CExLabel"
             "fieldName"                                             "bh_Defenses"
-            "font"                                                  "ScoreboardVerySmall"
+            "font"                                                  "bh_Font8"
             "labelText"                                             "%defenses%"
             "textAlignment"                                         "west"
             "xpos"                                                  "305"
@@ -691,11 +690,22 @@
             "enabled"                                               "1"
         }
 
-        "bh_Dominations"
+        "DominationLabel"
+        {
+            "font"                                                  "bh_Font8"
+        }
+
+        "Domination"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+        }
+
+        "bh_Domination"
         {
             "ControlName"                                           "CExLabel"
-            "fieldName"                                             "bh_Dominations"
-            "font"                                                  "ScoreboardVerySmall"
+            "fieldName"                                             "bh_Domination"
+            "font"                                                  "bh_Font8"
             "labelText"                                             "%dominations%"
             "textAlignment"                                         "west"
             "xpos"                                                  "305"
@@ -709,11 +719,22 @@
             "enabled"                                               "1"
         }
 
+        "RevengeLabel"
+        {
+            "font"                                                  "bh_Font8"
+        }
+
+        "Revenge"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+        }
+
         "bh_Revenge"
         {
             "ControlName"                                           "CExLabel"
             "fieldName"                                             "bh_Revenge"
-            "font"                                                  "ScoreboardVerySmall"
+            "font"                                                  "bh_Font8"
             "labelText"                                             "%revenge%"
             "textAlignment"                                         "west"
             "xpos"                                                  "305"
@@ -727,11 +748,22 @@
             "enabled"                                               "1"
         }
 
+        "InvulnLabel"
+        {
+            "font"                                                  "bh_Font8"
+        }
+
+        "Invuln"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+        }
+
         "bh_Invuln"
         {
             "ControlName"                                           "CExLabel"
             "fieldName"                                             "bh_Invuln"
-            "font"                                                  "ScoreboardVerySmall"
+            "font"                                                  "bh_Font8"
             "labelText"                                             "%invulns%"
             "textAlignment"                                         "west"
             "xpos"                                                  "425"
@@ -745,11 +777,22 @@
             "enabled"                                               "1"
         }
 
+        "HeadshotsLabel"
+        {
+            "font"                                                  "bh_Font8"
+        }
+
+        "Headshots"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+        }
+
         "bh_Headshots"
         {
             "ControlName"                                           "CExLabel"
             "fieldName"                                             "bh_Headshots"
-            "font"                                                  "ScoreboardVerySmall"
+            "font"                                                  "bh_Font8"
             "labelText"                                             "%headshots%"
             "textAlignment"                                         "west"
             "xpos"                                                  "425"
@@ -763,11 +806,22 @@
             "enabled"                                               "1"
         }
 
+        "TeleportsLabel"
+        {
+            "font"                                                  "bh_Font8"
+        }
+
+        "Teleports"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+        }
+
         "bh_Teleports"
         {
             "ControlName"                                           "CExLabel"
             "fieldName"                                             "bh_Teleports"
-            "font"                                                  "ScoreboardVerySmall"
+            "font"                                                  "bh_Font8"
             "labelText"                                             "%teleports%"
             "textAlignment"                                         "west"
             "xpos"                                                  "425"
@@ -781,11 +835,22 @@
             "enabled"                                               "1"
         }
 
+        "DestructionLabel"
+        {
+            "font"                                                  "bh_Font8"
+        }
+
+        "Destruction"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+        }
+
         "bh_Destruction"
         {
             "ControlName"                                           "CExLabel"
             "fieldName"                                             "bh_Destruction"
-            "font"                                                  "ScoreboardVerySmall"
+            "font"                                                  "bh_Font8"
             "labelText"                                             "%destruction%"
             "textAlignment"                                         "west"
             "xpos"                                                  "425"
@@ -799,11 +864,22 @@
             "enabled"                                               "1"
         }
 
+        "BackstabsLabel"
+        {
+            "font"                                                  "bh_Font8"
+        }
+
+        "Backstabs"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+        }
+
         "bh_Backstabs"
         {
             "ControlName"                                           "CExLabel"
             "fieldName"                                             "bh_Backstabs"
-            "font"                                                  "ScoreboardVerySmall"
+            "font"                                                  "bh_Font8"
             "labelText"                                             "%backstabs%"
             "textAlignment"                                         "west"
             "xpos"                                                  "545"
@@ -817,11 +893,22 @@
             "enabled"                                               "1"
         }
 
+        "BonusLabel"
+        {
+            "font"                                                  "bh_Font8"
+        }
+
+        "Bonus"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+        }
+
         "bh_Bonus"
         {
             "ControlName"                                           "CExLabel"
             "fieldName"                                             "bh_Bonus"
-            "font"                                                  "ScoreboardVerySmall"
+            "font"                                                  "bh_Font8"
             "labelText"                                             "%bonus%"
             "textAlignment"                                         "west"
             "xpos"                                                  "545"
@@ -835,11 +922,22 @@
             "enabled"                                               "1"
         }
 
+        "SupportLabel"
+        {
+            "font"                                                  "bh_Font8"
+        }
+
+        "Support"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+        }
+
         "bh_Support"
         {
             "ControlName"                                           "CExLabel"
             "fieldName"                                             "bh_Support"
-            "font"                                                  "ScoreboardVerySmall"
+            "font"                                                  "bh_Font8"
             "labelText"                                             "%support%"
             "textAlignment"                                         "west"
             "xpos"                                                  "545"
@@ -881,7 +979,7 @@
         "visible"                                                   "0"
         "enabled"                                                   "0"
 
-        if_mvm
+        "if_mvm"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"

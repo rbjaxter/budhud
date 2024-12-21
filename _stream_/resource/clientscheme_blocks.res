@@ -5,6 +5,7 @@
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         // Fonts used to show streamer elements as blocks
         ////////////////////////////////////////////////////////////////////////////////////////////////////
+
         "bh_Font_StreamerBlockLess9"
         {
             "1"
@@ -117,7 +118,7 @@
             }
         }
 
-        "Default"
+        "Default"	// scoreboard
         {
             "isproportional"                                        "only"
 
@@ -173,6 +174,20 @@
                 "antialias"                                         "1"
                 "dropshadow"                                        "1"
                 "custom"                                            "1"
+            }
+        }
+
+        "ScoreboardVerySmall"	// scoreboard mvm
+        {
+            "1"
+            {
+                "name"                                              "whizblockless"
+                "tall"                                              "8"
+                "tall_hidef"                                        "10"
+                "tall_lodef"                                        "14"
+                "weight"                                            "400"
+                "additive"                                          "0"
+                "antialias"                                         "1"
             }
         }
     }
