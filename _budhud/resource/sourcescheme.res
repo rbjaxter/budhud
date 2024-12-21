@@ -329,6 +329,28 @@
                 "antialias"                                         "1"
             }
         }
+
+        "AchievementItemTitle"
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "18"
+                "weight"                                            "1500"
+                "antialias"                                         "1"
+            }
+        }
+
+        "AchievementItemDescription"
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "14"
+                "weight"                                            "1000"
+                "antialias"                                         "1"
+            }
+        }
     }
 
     "CustomFontFiles"
