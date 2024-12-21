@@ -1,11 +1,11 @@
-#base "MatchMakingDashboardSidePanel.res"
+"#base"                                                             "MatchMakingDashboardSidePanel.res"
 
 "Resource/UI/MatchMakingDashboardCasualCriteria.res"
 {
     "MVMModeSelect"
     {
         "wide"                                                      "280"
-        "zpos"                                                      "3000"      // BackgroundDimmer zpos is locked to 1000 (lol)
+        "zpos"                                                      "3000"	// BackgroundDimmer zpos is locked to 1000 (lol)
         "bgcolor_override"                                          "bh_Theme_BG20"
         "border"                                                    "bh_b_W"
     }
@@ -33,17 +33,15 @@
             "visible"                                               "1"
             "enabled"                                               "1"
             "paintbackgroundtype"                                   "0"
-
+            "allcaps"                                               "1"
             "labeltext"                                             "#TF_MvM_MannUp"
             "textalignment"                                         "center"
             "font"                                                  "bh_Font12"
             "command"                                               "mannup"
             "actionsignallevel"                                     "2"
             "proportionaltoparent"                                  "1"
-
             "sound_depressed"                                       "UI/buttonclick.wav"
             "sound_released"                                        "UI/buttonclickrelease.wav"
-
             "defaultBgColor_override"                               "bh_Theme_BG20"
             "armedBgColor_override"                                 "bh_Theme_BG30"
             "depressedBgColor_override"                             "bh_Theme_BG30"
@@ -78,17 +76,15 @@
             "visible"                                               "1"
             "enabled"                                               "1"
             "paintbackgroundtype"                                   "0"
-
+            "allcaps"                                               "1"
             "labeltext"                                             "#TF_MvM_BootCamp"
             "textalignment"                                         "center"
             "font"                                                  "bh_Font12"
             "command"                                               "bootcamp"
             "actionsignallevel"                                     "2"
             "proportionaltoparent"                                  "1"
-
             "sound_depressed"                                       "UI/buttonclick.wav"
             "sound_released"                                        "UI/buttonclickrelease.wav"
-
             "defaultBgColor_override"                               "bh_Theme_BG20"
             "armedBgColor_override"                                 "bh_Theme_BG30"
             "depressedBgColor_override"                             "bh_Theme_BG30"
