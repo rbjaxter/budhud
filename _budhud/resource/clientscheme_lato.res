@@ -172,7 +172,7 @@
             "5"	// Misyl: Proportional
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "12"
+                "tall"                                              "11"
                 "weight"                                            "700"
                 "antialias"                                         "1"
             }
