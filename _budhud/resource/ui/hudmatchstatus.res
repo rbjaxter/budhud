@@ -134,7 +134,6 @@
             "proportionaltoparent"                                  "1"
         }
     }
-
     ///////////////////////////////////////////////////////////////////////////////////////////////
     // You can hud_reloadscheme through these changes on first launch *until* a team swap happens.
     // Then, you have to restart the game for changes to take.
@@ -167,13 +166,6 @@
             "percentage_health_low"                                 "0.35"
             "color_portrait_blend_dead_red"                         "bh_white"
             "color_portrait_blend_dead_blue"                        "bh_white"
-            ////////////////////////////////////////////////////////////////////////////////////////////////////
-            // HUD DEVELOPERS: IF YOU MESS WITH HEALTHICON, DO NOT SET VISIBLE FOR THIS ELEMENT TO 1
-            // REDUCES FPS BY A LOT (~13 FPS FOR ME) WHILE THE ELEMENT ITSELF DOES NOTHING
-            ////////////////////////////////////////////////////////////////////////////////////////////////////
-            // "HealthIcon"
-            // {
-            // }
 
             "healthbar"
             {

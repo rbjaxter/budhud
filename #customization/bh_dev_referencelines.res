@@ -1,0 +1,40 @@
+"Resource/UI/HudPlayerClass.res"
+{
+    "bh_Dev_CH"
+    {
+        "ControlName"                                               "ImagePanel"
+        "fieldName"                                                 "bh_Dev_CH"
+        "xpos"                                                      "0"
+        "ypos"                                                      "cs-0.51"
+        "zpos"                                                      "999"
+        "wide"                                                      "f0"
+        "tall"                                                      "1"
+        "autoResize"                                                "0"
+        "pinCorner"                                                 "0"
+        "labeltext"                                                 ""
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "fillcolor"                                                 "255 000 000 50"
+        "image"                                                     ""
+        "paintbackgroundtype"                                       "0"
+    }
+
+    "bh_Dev_CV"
+    {
+        "ControlName"                                               "ImagePanel"
+        "fieldName"                                                 "bh_Dev_CH"
+        "xpos"                                                      "cs-0.5"
+        "ypos"                                                      "0"
+        "zpos"                                                      "0"
+        "wide"                                                      "1"
+        "tall"                                                      "f0"
+        "autoResize"                                                "0"
+        "pinCorner"                                                 "0"
+        "labeltext"                                                 ""
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "fillcolor"                                                 "255 000 000 50"
+        "image"                                                     ""
+        "paintbackgroundtype"                                       "0"
+    }
+}
