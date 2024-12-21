@@ -270,7 +270,6 @@
             "enabled"                                               "0"
         }
     }
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     "bh_BGscoreRed"
     {
@@ -333,7 +332,6 @@
             "ypos"                                                  "r-6969"
         }
     }
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     "scores"
     {
@@ -361,7 +359,6 @@
         "killstreak_width"                                          "17"
         "killstreak_image_width"                                    "10"
     }
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     "bh_LocalStatsPin"
     {
@@ -457,6 +454,12 @@
         "xpos"                                                      "0"
         "ypos"                                                      "0"
 
+        "Kills"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+        }
+
         "KillsLabel"
         {
             "xpos"                                                  "-35"
@@ -464,12 +467,6 @@
             "wide"                                                  "120"
             "textalignment"                                         "east"
             "font"                                                  "bh_Font16"
-        }
-
-        "Kills"
-        {
-            "ypos"                                                  "r-6969"
-            "visible"                                               "0"
         }
 
         "bh_Kills"
@@ -490,6 +487,12 @@
             "enabled"                                               "1"
         }
 
+        "Assists"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+        }
+
         "AssistsLabel"
         {
             "xpos"                                                  "-35"
@@ -497,12 +500,6 @@
             "wide"                                                  "120"
             "textalignment"                                         "east"
             "font"                                                  "bh_Font16"
-        }
-
-        "Assists"
-        {
-            "ypos"                                                  "r-6969"
-            "visible"                                               "0"
         }
 
         "bh_Assists"
@@ -523,6 +520,12 @@
             "enabled"                                               "1"
         }
 
+        "Deaths"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+        }
+
         "DeathsLabel"
         {
             "xpos"                                                  "-35"
@@ -530,12 +533,6 @@
             "wide"                                                  "120"
             "textalignment"                                         "east"
             "font"                                                  "bh_Font16"
-        }
-
-        "Deaths"
-        {
-            "ypos"                                                  "r-6969"
-            "visible"                                               "0"
         }
 
         "bh_Deaths"
@@ -556,17 +553,11 @@
             "enabled"                                               "1"
         }
 
-        "DestructionLabel"
-        {
-            "xpos"                                                  "326"
-            "ypos"                                                  "30"
-            "font"                                                  "bh_Font8"
-        }
-
-        "Destruction"
+        "Damage"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "DamageLabel"
@@ -574,13 +565,6 @@
             "xpos"                                                  "82"
             "ypos"                                                  "6"
             "font"                                                  "bh_Font14"
-        }
-
-        "Damage"
-        {
-            "ypos"                                                  "r-6969"
-            "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "bh_Damage"
@@ -601,17 +585,17 @@
             "enabled"                                               "1"
         }
 
+        "Healing"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+        }
+
         "HealingLabel"
         {
             "xpos"                                                  "82"
             "ypos"                                                  "26"
             "font"                                                  "bh_Font14"
-        }
-
-        "Healing"
-        {
-            "ypos"                                                  "r-6969"
-            "visible"                                               "0"
         }
 
         "bh_Healing"
@@ -632,15 +616,15 @@
             "enabled"                                               "1"
         }
 
-        "CapturesLabel"
-        {
-            "font"                                                  "bh_Font8"
-        }
-
         "Captures"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
+        }
+
+        "CapturesLabel"
+        {
+            "font"                                                  "bh_Font8"
         }
 
         "bh_Captures"
@@ -661,15 +645,15 @@
             "enabled"                                               "1"
         }
 
-        "DefensesLabel"
-        {
-            "font"                                                  "bh_Font8"
-        }
-
         "Defenses"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
+        }
+
+        "DefensesLabel"
+        {
+            "font"                                                  "bh_Font8"
         }
 
         "bh_Defenses"
@@ -690,15 +674,15 @@
             "enabled"                                               "1"
         }
 
-        "DominationLabel"
-        {
-            "font"                                                  "bh_Font8"
-        }
-
         "Domination"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
+        }
+
+        "DominationLabel"
+        {
+            "font"                                                  "bh_Font8"
         }
 
         "bh_Domination"
@@ -719,15 +703,15 @@
             "enabled"                                               "1"
         }
 
-        "RevengeLabel"
-        {
-            "font"                                                  "bh_Font8"
-        }
-
         "Revenge"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
+        }
+
+        "RevengeLabel"
+        {
+            "font"                                                  "bh_Font8"
         }
 
         "bh_Revenge"
@@ -748,15 +732,15 @@
             "enabled"                                               "1"
         }
 
-        "InvulnLabel"
-        {
-            "font"                                                  "bh_Font8"
-        }
-
         "Invuln"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
+        }
+
+        "InvulnLabel"
+        {
+            "font"                                                  "bh_Font8"
         }
 
         "bh_Invuln"
@@ -777,15 +761,15 @@
             "enabled"                                               "1"
         }
 
-        "HeadshotsLabel"
-        {
-            "font"                                                  "bh_Font8"
-        }
-
         "Headshots"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
+        }
+
+        "HeadshotsLabel"
+        {
+            "font"                                                  "bh_Font8"
         }
 
         "bh_Headshots"
@@ -806,15 +790,15 @@
             "enabled"                                               "1"
         }
 
-        "TeleportsLabel"
-        {
-            "font"                                                  "bh_Font8"
-        }
-
         "Teleports"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
+        }
+
+        "TeleportsLabel"
+        {
+            "font"                                                  "bh_Font8"
         }
 
         "bh_Teleports"
@@ -835,15 +819,15 @@
             "enabled"                                               "1"
         }
 
-        "DestructionLabel"
-        {
-            "font"                                                  "bh_Font8"
-        }
-
         "Destruction"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
+        }
+
+        "DestructionLabel"
+        {
+            "font"                                                  "bh_Font8"
         }
 
         "bh_Destruction"
@@ -864,15 +848,15 @@
             "enabled"                                               "1"
         }
 
-        "BackstabsLabel"
-        {
-            "font"                                                  "bh_Font8"
-        }
-
         "Backstabs"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
+        }
+
+        "BackstabsLabel"
+        {
+            "font"                                                  "bh_Font8"
         }
 
         "bh_Backstabs"
@@ -893,15 +877,15 @@
             "enabled"                                               "1"
         }
 
-        "BonusLabel"
-        {
-            "font"                                                  "bh_Font8"
-        }
-
         "Bonus"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
+        }
+
+        "BonusLabel"
+        {
+            "font"                                                  "bh_Font8"
         }
 
         "bh_Bonus"
@@ -922,15 +906,15 @@
             "enabled"                                               "1"
         }
 
-        "SupportLabel"
-        {
-            "font"                                                  "bh_Font8"
-        }
-
         "Support"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
+        }
+
+        "SupportLabel"
+        {
+            "font"                                                  "bh_Font8"
         }
 
         "bh_Support"
