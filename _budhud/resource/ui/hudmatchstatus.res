@@ -1,5 +1,9 @@
 "Resource/UI/HudMatchStatus.res"
 {
+    "HudMatchStatus"
+    {
+    }
+
     "ObjectiveStatusTimePanel"
     {
         "xpos"                                                      "cs-0.5"
@@ -135,9 +139,8 @@
         }
     }
     ///////////////////////////////////////////////////////////////////////////////////////////////
-    // You can hud_reloadscheme through these changes on first launch *until* a team swap happens.
-    // Then, you have to restart the game for changes to take.
-    // May also have to do with changing zpos of things
+    // I honestly have no clue how editing this UI works. Sometimes your changes take, other times
+    // they don't. It's like it's tempermental. It seems like it only updates if max_size changes
     ///////////////////////////////////////////////////////////////////////////////////////////////
 
     "TeamStatus"
@@ -167,10 +170,20 @@
             "color_portrait_blend_dead_red"                         "bh_white"
             "color_portrait_blend_dead_blue"                        "bh_white"
 
+            "classimagebg"
+            {
+                "ypos"                                              "0"
+            }
+
+            "DeathPanel"
+            {
+                "tall"                                              "0"
+            }
+
             "healthbar"
             {
                 "ypos"                                              "20"
-                "zpos"                                              "1"
+                "zpos"                                              "4"
                 "tall"                                              "7"
             }
 
@@ -181,21 +194,11 @@
                 "tall"                                              "7"
             }
 
-            "classimagebg"
-            {
-                "zpos"                                              "0"
-            }
-
             "classimage"
             {
-                "ypos"                                              "0"
+                "ypos"                                              "1"
                 "tall"                                              "20"
                 "zpos"                                              "3"
-            }
-
-            "DeathPanel"
-            {
-                "tall"                                              "0"
             }
 
             "SkullPanel"
@@ -209,7 +212,7 @@
             "respawntime"
             {
                 "ypos"                                              "3"
-                "zpos"                                              "4"
+                "zpos"                                              "5"
                 "font"                                              "bh_Font10DropShadow"
                 "fgcolor_override"                                  "bh_white"
                 "wide"                                              "12"
