@@ -63,167 +63,167 @@
 
             "arabic"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF" // 0x0021 used per github #386
             }
 
             "brazilian"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "bulgarian"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "czech"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "danish"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "dutch"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "english"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "finnish"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "french"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "german"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "greek"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "hebrew"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "hungarian"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "italian"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "japanese"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "korean"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "koreana"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "latvian"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "lithuanian"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "norwegian"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "pirate"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "polish"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "portuguese"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "romanian"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "russian"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "schinese"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "slovak"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "spanish"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "swedish"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "tchinese"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "thai"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "turkish"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
 
             "ukrainian"
             {
-                "range"                                             "0x0020 0x1EFF"
+                "range"                                             "0x0021 0x1EFF"
             }
         }
 

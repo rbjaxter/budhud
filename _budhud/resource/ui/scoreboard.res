@@ -827,6 +827,8 @@
 
         "DestructionLabel"
         {
+            "xpos"                                                  "326"
+            "ypos"                                                  "30"
             "font"                                                  "bh_Font8"
         }
 
