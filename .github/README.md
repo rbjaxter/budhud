@@ -9,20 +9,42 @@
 <br>
 
 ## Installation and Customization
-The [HUD wiki](https://github.com/rbjaxter/budhud/wiki) contains a wealth of information on installing the HUD as well as customizing it. Feel free to reach out in the [Discord](https://discord.gg/PTWkt3h) if you have further questions, though!
+A full installation guide & video can be found [here](https://github.com/rbjaxter/budhud/wiki/Installation).
+
+The [HUD wiki](https://github.com/rbjaxter/budhud/wiki) contains a wealth of information on installing the HUD as well as customizing it. However, feel free to reach out in the [Discord](https://discord.gg/PTWkt3h) if you have any other questions.
+
+### Installation (TL;DR)
+1. Find your TF2 install location
+    * The fastest way is to open Steam -> go to your game library -> right click Team Fortress 2 -> Properties -> Under "Installed Files", click "Browse..."
+2. Navigate to `../tf/custom`
+    * If you don't have a `custom` folder, create it
+3. Download the latest release
+    * You just need the first zipped file (typically called `budhud.zip`)
+4. Extract the zipped file into your `../tf/custom` folder
+    * You can use Windows' built in extraction (right click > `Extract All...`) or a program like 7-Zip
+    * Ensure you don't have two folders within each other (see below)
+
+> To see if you placed it in the correct place, we'll use the `info.vdf` file as an example.
+>
+> The path to the `info.vdf` file should be:
+>
+> `../tf/custom/budhud/info.vdf`
+>
+> NOT
+>
+> `../tf/custom/budhud/budhud/info.vdf`
+>
+> **This is the most common mistake people make when installing a hud.**
 
 ## budhud Updater Script
-budhud includes a shell script (`budhud Updater.ps1`) in the base directory that will allow you to do a few different things:
-- Verify that your HUD installation is correct
-- Download/update the default HUD files
-- Download/install a fresh version of the HUD from GitHub
-- Set your HUD language
-- Compile the HUD's #base lines (which improves performances in certain scenarios)
+budhud includes a shell script (`budhud Updater.ps1`) in the base directory that will allow you to do a few different things, such as verify you installed the HUD correctly or update the default game files after a TF2 update.
 
 To open this file, you need to Right click the file and select `Run with PowerShell`.
 
+Check out the [wiki](https://github.com/rbjaxter/budhud/wiki#budhud-updater-script) for more information.
+
 ## HUD Installer / Customizer
-If you would like to install and customize budhud (as well as other huds) quickly and easily, be sure to check out the  [TF2HUD Editor](https://github.com/CriticalFlaw/TF2HUD.Editor) created by [CriticalFlaw](https://github.com/CriticalFlaw/) and [Revan](https://github.com/cooolbros). You can read more about it [here](https://criticalflaw.ca/TF2HUD.Editor/).
+If you would like to install and customize budhud (as well as other huds) quickly and easily, check out the  [TF2HUD Editor](https://github.com/CriticalFlaw/TF2HUD.Editor) created by [CriticalFlaw](https://github.com/CriticalFlaw/) and [Revan](https://github.com/cooolbros). You can read more about it [here](https://criticalflaw.ca/TF2HUD.Editor/).
 
 ## HUD Credits
 ### HUD Font
@@ -31,13 +53,11 @@ If you would like to install and customize budhud (as well as other huds) quickl
 ### HUD Icons
 * Freepik: http://www.freepik.com/
 
-### HUD Compiler
-* Lange: https://github.com/Abrahamic-God
-
 ### HUD Translations
 Thanks to everyone who has helped translate budhud! To see more information on budhud translations (or translate a language), see [here](https://github.com/rbjaxter/budhud/wiki/Translations).
 
 - Brazilian (Brazilian Portuguese) - _Translated by powah_
+- English
 - Finnish - _Translated by [Eerorri](https://github.com/Eerorri)_
 - French - _Translated by ly_dee_
 - German - _Translated by donuttt_
@@ -51,12 +71,13 @@ Thanks to everyone who has helped translate budhud! To see more information on b
 - Spanish - _Translated by flower_
 - Traditional Chinese - _Translated by Ultra Violet Amethyst 紫微星宿, sneak spy_
 - Turkish - _Translated by [BerkayUnlu](https://github.com/BerkayUnlu)_
+- Ukrainian - _Translated by [kadabusha](https://github.com/kadabusha)_
 
 ### TF2 Crosshairs
-* Knuckles
-* Fog
-* Hypnotize
-* whayay
+* Knuckles: https://www.teamfortress.tv/26790/official-knucklescrosses-release
+* Fog: https://www.teamfortress.tv/1261
+* Hypnotize: https://github.com/Hypnootize/TF2-HUD-Crosshairs
+* whayay: https://github.com/whayay/yahud
 
 ### Closed Captions
 clovervidia: https://steamcommunity.com/sharedfiles/filedetails/?id=167785751
@@ -68,9 +89,13 @@ clovervidia: https://steamcommunity.com/sharedfiles/filedetails/?id=167785751
 * JarateKing
 * omnibombulator
 * raysfire
+* qkeitoe
 * Revan
 * sheybey
 * Wiethoofd
+
+### HUD Compiler
+* Lange
 
 ## Previous Fonts
 * Roboto Condensed: https://www.fontsquirrel.com/fonts/roboto
