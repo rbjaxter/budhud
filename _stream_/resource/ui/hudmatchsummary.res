@@ -6,32 +6,22 @@
         {
             "BlueTeamPanel"
             {
-                "wide"                                              "0"
-                "tall"                                              "0"
-
                 "BluePlayerListParent"
                 {
-                    BluePlayerList
+                    "BluePlayerList"
                     {
-                        "tall"                                      "0"
-                        "wide"                                      "0"
-                        "medal_width"                               "0"
+                        "avatarwidth"                               "1"
                     }
                 }
             }
 
             "RedTeamPanel"
             {
-                "wide"                                              "0"
-                "tall"                                              "0"
-
                 "RedPlayerListParent"
                 {
-                    RedPlayerListParent
+                    "RedPlayerListParent"
                     {
-                        "tall"                                      "0"
-                        "wide"                                      "0"
-                        "medal_width"                               "0"
+                        "avatarwidth"                               "1"
                     }
                 }
             }

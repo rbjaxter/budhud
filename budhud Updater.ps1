@@ -541,6 +541,7 @@ try {
         Copy-Item "$PSScriptRoot/#dev/tug_of_war_hud.res" -Destination "$PSScriptRoot/_tf2hud/resource/tug_of_war/tug_of_war_hud.res"
         Copy-Item "$PSScriptRoot/#dev/messageboxdialog.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/econ/messageboxdialog.res"
         Copy-Item "$PSScriptRoot/#dev/confirmdialog.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/econ/confirmdialog.res"
+        Copy-Item "$PSScriptRoot/#dev/basechat.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/basechat.res"
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
         # Remove various modifiers (OSX, X360, _minmode, _lodef, _hidef, and if_ lines.)
@@ -1000,7 +1001,6 @@ try {
         Write-Host -ForegroundColor "White" -BackgroundColor "Green" "===================="
         Write-Host -ForegroundColor "White" -BackgroundColor "Green" "Compilation Complete"
         Write-Host -ForegroundColor "White" -BackgroundColor "Green" "===================="
-        Write-Host "Completed in $($StopWatch.Elapsed.TotalSeconds) seconds."
     }
 
     ######################

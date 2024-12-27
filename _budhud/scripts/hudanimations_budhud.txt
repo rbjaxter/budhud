@@ -272,13 +272,13 @@ event HudTournament_MoveChatWindow
 
 event HudSpyDisguiseChanged
 {
-    Animate             PlayerStatusSpyOutlineImage            Alpha            255            Linear            0.0            0.2
+    Animate             PlayerStatusSpyOutlineImage            Alpha            255            Accel            0.0            0.2
     RunEvent            HudSpyDisguiseHide                     0.2
 }
 
 event HudSpyDisguiseHide
 {
-    Animate            PlayerStatusSpyOutlineImage            Alpha            0            Linear            0.2            0.2
+    Animate            PlayerStatusSpyOutlineImage            Alpha            0            Accel            0.2            0.2
 }
 
 event HudSnapShotReminderIn
@@ -545,4 +545,28 @@ event NotificationsPresentBlinkStop
     StopEvent            NotificationsPresentBlink                0.0
     StopEvent            NotificationsPresentBlinkLoop            0.0
     Animate              NotificationsPresentPanel                alpha            255            Linear            0.0            0.0
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Makes CartButton blink when an item is added to the cart
+// The colors are matched to the current color theme, keeping the animation unchanged
+////////////////////////////////////////////////////////////////////////////////////////////////////
+event AddToCartBlink
+{
+    Animate            CartButton            bgcolor            bh_Theme_BG20                  Linear            0.0            0.01
+    Animate            CartButton            bgcolor            bh_Theme_TextAccent            Linear            0.1            0.01
+
+    Animate            CartButton            bgcolor            bh_Theme_BG20                  Linear            0.2            0.01
+    Animate            CartButton            bgcolor            bh_Theme_TextAccent            Linear            0.3            0.01
+
+    Animate            CartButton            bgcolor            bh_Theme_BG20                  Linear            0.4            0.01
+    Animate            CartButton            bgcolor            bh_Theme_TextAccent            Linear            0.5            0.01
+
+    Animate            CartButton            bgcolor            bh_Theme_BG20                  Linear            0.6            0.01
+    Animate            CartButton            bgcolor            bh_Theme_TextAccent            Linear            0.7            0.01
+
+    Animate            CartButton            bgcolor            bh_Theme_BG20                  Linear            0.8            0.01
+    Animate            CartButton            bgcolor            bh_Theme_TextAccent            Linear            0.9            0.01
+
+    Animate            CartButton            bgcolor            bh_Theme_BG20                  Linear            1.0            0.01
 }

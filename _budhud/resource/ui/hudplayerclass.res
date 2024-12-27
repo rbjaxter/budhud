@@ -39,7 +39,8 @@
     "PlayerStatusSpyOutlineImage"
     {
         "xpos"                                                      "c-15"
-        "ypos"                                                      "c135"
+        "ypos"                                                      "c80"
+        "zpos"                                                      "1"
         "wide"                                                      "30"
         "tall"                                                      "30"
         "image"                                                     "replay/thumbnails/ingame_icons/detective"

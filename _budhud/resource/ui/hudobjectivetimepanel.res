@@ -84,7 +84,7 @@
 
         "font"                                                      "bh_Font16"
         "xpos"                                                      "cs-0.5"
-        "ypos"                                                      "15"
+        "ypos"                                                      "12"
         "wide"                                                      "f0"
         "tall"                                                      "20"
         "proportionalToParent"                                      "1"
@@ -92,7 +92,7 @@
 
         if_match
         {
-            "ypos"                                                  "8"
+            "ypos"                                                  "6"
         }
     }
 

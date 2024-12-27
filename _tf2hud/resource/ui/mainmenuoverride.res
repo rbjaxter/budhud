@@ -1711,112 +1711,87 @@
 				{
 					"0"
 					{
-						"item"		"Halloween 2024 Key"
+						"item"		"Winter 2024 Cosmetic Key" 
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Halloween 2024 Case"
+						"item"		"Winter 2024 Cosmetic Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Scream Fortress 2024 War Paint Key"
+						"item"		"Taunt: Curtain Call"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Scream Fortress 2024 War Paint Case"
-						"show_market"	"1"
+						"item"		"Taunt: Peace!"
+						"show_market"	"0"
 					}
 					"4"
 					{
-						"item"		"Taunt: Crushing Defeat"
+						"item"		"Taunt: Fore-Head Slice"
 						"show_market"	"0"
 					}
 					"5"
 					{
-						"item"		"Taunt: Peace Out"
+						"item"		"Map Token Overcast"
 						"show_market"	"0"
 					}
 					"6"
 					{
-						"item"		"Taunt: Commending Clap"
+						"item"		"Map Token Fortezza"
 						"show_market"	"0"
 					}
 					"7"
 					{
-						"item"		"Taunt: The Punchline"
+						"item"		"Map Token Penguin Peak"
 						"show_market"	"0"
 					}
 					"8"
 					{
-						"item"		"Map Token Toxic"
+						"item"		"Map Token Patagonia"
 						"show_market"	"0"
 					}
 					"9"
 					{
-						"item"		"Map Token Darkmarsh"	
+						"item"		"Map Token Cutter"
 						"show_market"	"0"
 					}
 					"10"
 					{
-						"item"		"Map Token Freaky Fair"
+						"item"		"Map Token Maul"
 						"show_market"	"0"
 					}
 					"11"
 					{
-						"item"		"Map Token Dynamite"
+						"item"		"Strange Filter: Overcast (Community)"
 						"show_market"	"0"
 					}
 					"12"
 					{
-						"item"		"Map Token Circus"
+						"item"		"Strange Filter: Fortezza (Community)"
 						"show_market"	"0"
 					}
 					"13"
 					{
-						"item"		"Map Token Outburst"
+						"item"		"Strange Filter: Penguin Peak (Community)"
 						"show_market"	"0"
 					}
 					"14"
 					{
-						"item"		"Map Token Blazehattan"
+						"item"		"Strange Filter: Patagonia (Community)"
 						"show_market"	"0"
 					}
 					"15"
 					{
-						"item"		"Strange Filter: Toxic (Community)"
+						"item"		"Strange Filter: Cutter (Community)"
 						"show_market"	"0"
 					}
 					"16"
 					{
-						"item"		"Strange Filter: Darkmarsh (Community)"
-						"show_market"	"0"
-					}
-					"17"
-					{
-						"item"		"Strange Filter: Freaky Fair (Community)"
-						"show_market"	"0"
-					}
-					"18"
-					{
-						"item"		"Strange Filter: Dynamite (Community)"
-						"show_market"	"0"
-					}
-					"19"
-					{
-						"item"		"Strange Filter: Circus (Community)"
-						"show_market"	"0"
-					}
-					"20"
-					{
-						"item"		"Strange Filter: Outburst (Community)"
-						"show_market"	"0"
-					}
-					"21"
-					{
-						"item"		"Strange Filter: Blazehattan (Community)"
+						"item"		"Strange Filter: Maul (Community)"
 						"show_market"	"0"
 					}
 				}

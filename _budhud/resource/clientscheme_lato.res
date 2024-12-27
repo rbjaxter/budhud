@@ -127,6 +127,57 @@
                 "dropshadow"                                        "1"
             }
         }
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        // Font used for jump/surf timer
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        "HudHintText"
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "12"
+                "weight"                                            "700"
+                "yres"                                              "480 599"
+                "antialias"                                         "1"
+            }
+
+            "2"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "13"
+                "weight"                                            "700"
+                "yres"                                              "600 767"
+                "antialias"                                         "1"
+            }
+
+            "3"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "14"
+                "weight"                                            "700"
+                "yres"                                              "768 1023"
+                "antialias"                                         "1"
+            }
+
+            "4"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "20"
+                "weight"                                            "700"
+                "yres"                                              "1024 1199"
+                "antialias"                                         "1"
+            }
+
+            "5"	// Misyl: Proportional
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "11"
+                "weight"                                            "700"
+                "antialias"                                         "1"
+            }
+        }
+
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         // Font used for text shown in center of screen (game_text font)
         ////////////////////////////////////////////////////////////////////////////////////////////////////

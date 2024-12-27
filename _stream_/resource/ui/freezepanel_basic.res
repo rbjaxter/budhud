@@ -4,16 +4,12 @@
     {
         "FreezeLabel"
         {
-            "ypos"                                                  "r-6969"
-            "wide"                                                  "0"
-            "visible"                                               "0"
-            "enabled"                                               "0"
+            "font"                                                  "bh_Font_StreamerBlockMore12"
         }
 
         "FreezeLabelKiller2"
         {
-            "ypos"                                                  "r-6969"
-            "wide"                                                  "r-6969"
+            "font"                                                  "bh_Font_StreamerBlockMore12"
         }
     }
 

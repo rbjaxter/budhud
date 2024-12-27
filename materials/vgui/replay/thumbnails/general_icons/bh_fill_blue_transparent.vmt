@@ -7,9 +7,9 @@
     "$vertexalpha"                                                  "1"
 
     "$detail"                                                       "hud\death_panel_mask"
-    "$detailscale"                                                 "1"
-    "$detailblendmode"                                             "8"
-    "$distancealphafromdetail"                                     "1"
+    "$detailscale"                                                  "1"
+    "$detailblendmode"                                              "8"
+    "$distancealphafromdetail"                                      "1"
 
     // Add outline...kinda. more like super-imposing black onto the image
     $outline                                                        "1"

@@ -23,23 +23,17 @@
 
     "Player1Name"
     {
-        "ypos"                                                      "r-6969"
-        "visible"                                                   "0"
-        "enabled"                                                   "0"
+        "font"                                                      "bh_Font_StreamerBlockMore10"
     }
 
     "Player2Name"
     {
-        "ypos"                                                      "r-6969"
-        "visible"                                                   "0"
-        "enabled"                                                   "0"
+        "font"                                                      "bh_Font_StreamerBlockMore10"
     }
 
     "Player3Name"
     {
-        "ypos"                                                      "r-6969"
-        "visible"                                                   "0"
-        "enabled"                                                   "0"
+        "font"                                                      "bh_Font_StreamerBlockMore10"
     }
 
     "KillStreakPlayer1Avatar"
@@ -51,8 +45,6 @@
 
     "KillStreakPlayer1Name"
     {
-        "ypos"                                                      "r-6969"
-        "visible"                                                   "0"
-        "enabled"                                                   "0"
+        "font"                                                      "bh_Font_StreamerBlockMore10"
     }
 }

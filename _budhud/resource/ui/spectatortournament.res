@@ -1,4 +1,4 @@
-#base "hudinspectpanel.res"     // Base to hudinspectpanel to grab its itempanel
+"#base"                                                             "hudinspectpanel.res"	// Base to hudinspectpanel to grab its itempanel
 
 "Resource/UI/SpectatorTournament.res"
 {
@@ -21,15 +21,14 @@
     {
         // BLU
         "team1_player_delta_y"                                      "-16"
-        "team1_player_base_y"                                       "216"
-        "team1_player_delta_x"                                      "0"
+        "team1_player_base_y"                                       "204"   // 224-16-4 (center-panel-padding)
         "team1_player_base_offset_x"                                "0"
-
+        "team1_player_delta_x"                                      "0"
         // RED
         "team2_player_delta_y"                                      "16"
-        "team2_player_base_y"                                       "268"
-        "team2_player_delta_x"                                      "0"
+        "team2_player_base_y"                                       "260"   // 224+16+4 (center+panel+padding)
         "team2_player_base_offset_x"                                "0"
+        "team2_player_delta_x"                                      "0"
 
         "playerpanels_kv"
         {
@@ -45,7 +44,7 @@
                 "enabled"                                           "0"
             }
 
-            "playername"
+            "playername"	// Cannot be duplicated
             {
                 "ControlName"                                       "CExLabel"
                 "fieldName"                                         "playername"
@@ -80,7 +79,7 @@
                 "bgcolor_override"                                  "bh_Theme_BG20"
             }
 
-            "HealthIcon"    // Cannot be duplicated
+            "HealthIcon"	// Cannot be duplicated
             {
                 "xpos"                                              "16"
                 "ypos"                                              "0"
@@ -91,25 +90,6 @@
                 "enabled"                                           "1"
                 "HealthBonusPosAdj"                                 "1500"
             }
-
-            //"bh_HealthBlock"
-            //{
-            //    "ControlName"                                       "ImagePanel"
-            //    "fieldName"                                         "bh_HealthBlock"
-            //    "xpos"                                              "16"
-            //    "ypos"                                              "0"
-            //    "zpos"                                              "0"
-            //    "wide"                                              "26"
-            //    "tall"                                              "16"
-            //    "autoResize"                                        "0"
-            //    "pinCorner"                                         "0"
-            //    "labeltext"                                         ""
-            //    "visible"                                           "1"
-            //    "enabled"                                           "1"
-            //    "fillcolor"                                         "bh_Theme_BG20"
-            //    "image"                                             ""
-            //    "paintbackgroundtype"                               "0"
-            //}
 
             "bh_VerticalLine"
             {
@@ -167,9 +147,7 @@
 
             "chargeamountBG"
             {
-
                 "pin_to_sibling"                                    "chargeamount"
-
                 "ControlName"                                       "CExLabel"
                 "fieldName"                                         "chargeamountBG"
                 "font"                                              "bh_Font14"
@@ -197,7 +175,7 @@
         "textAlignment"                                             "center"
         "font"                                                      "bh_Font14DropShadow"
 
-        if_mvm
+        "if_mvm"
         {
             "ypos"                                                  "85"
         }
@@ -212,7 +190,7 @@
         "textAlignment"                                             "center"
         "font"                                                      "bh_Font14"
 
-        if_mvm
+        "if_mvm"
         {
             "visible"                                               "1"
         }

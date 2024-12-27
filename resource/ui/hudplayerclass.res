@@ -14,6 +14,8 @@
     #base    "../../#customization/_enabled/bh_player_teamindicator.res"
     #base    "../../#customization/_enabled/bh_crosshairs.res"
     #base    "../../#customization/_enabled/bh_speedometer.res"
+    #base    "../../#customization/_enabled/bh_dev_fontcharactersettesting.res"
+    #base    "../../#customization/_enabled/bh_dev_referencelines.res"
     #base    "../../_stream/resource/ui/hudplayerclass.res"
     #base    "../../_budhud/resource/ui/hudplayerclass.res"
     #base    "../../_tf2hud/resource/ui/hudplayerclass.res"

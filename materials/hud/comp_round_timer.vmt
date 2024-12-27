@@ -1,8 +1,7 @@
 "UnlitGeneric"
 {
-    "$baseTexture"                                                  "vgui/replay/thumbnails/general_icons/bh_fill_base"
+    "$baseTexture"                                                  "vgui/replay/thumbnails/general_icons/bh_fill_transparent"
     "$translucent"                                                  "1"
-    "$color"                                                        "{000 000 000 000}"
     "$vertexcolor"                                                  "1"
     "$vertexalpha"                                                  "1"
 }
