@@ -276,14 +276,14 @@
             }
         }
 
-        "DefaultSmall"	// Server browser server list text, console drop-down text
+        "DefaultSmall"	// Server browser server list text, console drop-down text (no yres)
         {
             "1"
             {
-                "name"                                              "Lato Semibold"
-                "tall"                                              "12"
+                "name"                                              "Lato Semibold" [!$POSIX]
+                "name"                                              "Verdana" [$POSIX]
+                "tall"                                              "13"
                 "antialias"                                         "1"
-                "weight"                                            "500"
             }
         }
 
@@ -291,10 +291,10 @@
         {
             "1"
             {
-                "name"                                              "Lato Semibold"
+                "name"                                              "Lato Semibold" [!$POSIX]
+                "name"                                              "Verdana" [$POSIX]
                 "tall"                                              "12"
                 "antialias"                                         "1"
-                "weight"                                            "1000"
             }
         }
 
