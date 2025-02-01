@@ -172,7 +172,7 @@
     "ItemIcon1"
     {
         "panel_bgcolor"                                             "bh_gray"
-        "panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_Theme_TextAccent"
 
         "itempanel"
         {
@@ -188,7 +188,7 @@
     "ItemIcon2"
     {
         "panel_bgcolor"                                             "bh_gray"
-        "panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_Theme_TextAccent"
 
         "itempanel"
         {
@@ -204,7 +204,7 @@
     "ItemIcon3"
     {
         "panel_bgcolor"                                             "bh_gray"
-        "panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_Theme_TextAccent"
 
         "itempanel"
         {
@@ -220,7 +220,7 @@
     "ItemIcon4"
     {
         "panel_bgcolor"                                             "bh_gray"
-        "panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_Theme_TextAccent"
 
         "itempanel"
         {
@@ -249,37 +249,37 @@
     "ClassUsageImage1"
     {
         "panel_bgcolor"                                             "bh_gray"
-        "panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_Theme_TextAccent"
     }
 
     "ClassUsageImage2"
     {
         "panel_bgcolor"                                             "bh_gray"
-        "panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_Theme_TextAccent"
     }
 
     "ClassUsageImage3"
     {
         "panel_bgcolor"                                             "bh_gray"
-        "panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_Theme_TextAccent"
     }
 
     "ClassUsageImage4"
     {
         "panel_bgcolor"                                             "bh_gray"
-        "panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_Theme_TextAccent"
     }
 
     "ClassUsageImage5"
     {
         "panel_bgcolor"                                             "bh_gray"
-        "panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_Theme_TextAccent"
     }
 
     "ClassUsageImage6"
     {
         "panel_bgcolor"                                             "bh_gray"
-        "panel_bgcolor_mouseover"                                   "bh_orange"
+        "panel_bgcolor_mouseover"                                   "bh_Theme_TextAccent"
     }
 
     "RotLeftButton"

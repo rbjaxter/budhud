@@ -8,7 +8,7 @@
     "TitleLabel"
     {
         "ypos"                                                      "25"
-        "fgcolor_override"                                          "bh_orange"
+        "fgcolor_override"                                          "bh_Theme_TextAccent"
         "allcaps"                                                   "1"
     }
 
