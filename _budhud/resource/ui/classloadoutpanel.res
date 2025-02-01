@@ -54,24 +54,16 @@
         "bgcolor_override"                                          "bh_Theme_BG20"
         "infocus_bgcolor_override"                                  "bh_Theme_BG20"
         "outoffocus_bgcolor_override"                               "bh_Theme_BG20"
-
-        "item_xpos_offcenter_a"                                     "-310"      // Left panel x position
-        "item_xpos_offcenter_b"                                     "165"       // Right Panel x position
-        "item_ypos"                                                 "60"        // Left + right panel y position
-        "item_ydelta"                                               "75"        // Panel box spacing
-        "item_mod_wide"                                             "40"        // ???
-
-        "item_backpack_offcenter_x"                                 "-288"      // ???
-        "item_backpack_xdelta"                                      "4"         // ???
-        "item_backpack_ydelta"                                      "3"         // ???
-
-        "button_xpos_offcenter"                                     "175"       // ???
-        "button_ypos"                                               "85"        // ???
-        "button_ydelta"                                             "80"        // ???
-        "button_override_delete_xpos"                               "0"         // ???
+        "item_xpos_offcenter_a"                                     "-310"	// Left panel x position
+        "item_xpos_offcenter_b"                                     "165"	// Right Panel x position
+        "item_ypos"                                                 "60"	// Left + right panel y position
+        "item_ydelta"                                               "75"	// Panel box spacing
 
         "modelpanels_kv"
         {
+            "model_wide"                                            "80"
+            "model_tall"                                            "60"
+
             "itemmodelpanel"
             {
                 "allow_rot"                                         "0"
@@ -87,10 +79,8 @@
             "labelText"                                             "+"
             "font"                                                  "bh_Font16"
             "PaintBackground"                                       "0"
-
             "defaultFgColor_override"                               "bh_white"
             "armedFgColor_override"                                 "bh_Theme_TextAccent"
-
             "border_default"                                        "NoBorder"
             "border_armed"                                          "NoBorder"
             "border_depressed"                                      "NoBorder"
@@ -101,59 +91,54 @@
     {
         "xpos"                                                      "0"
         "ypos"                                                      "0"
-
         "wide"                                                      "f0"
         "tall"                                                      "f0"
         "autoResize"                                                "0"
         "pinCorner"                                                 "0"
         "visible"                                                   "1"
         "enabled"                                                   "1"
-
         "render_texture"                                            "0"
-        "fov"                                                       "35"        // Higher FoV causes distortion
+        "fov"                                                       "35"	// Higher FoV causes distortion
         "allow_manip"                                               "1"
 
         "model"
         {
             "force_pos"                                             "1"
-
             "angles_x"                                              "0"
             "angles_y"                                              "170"
-
-            "origin_x"                                              "440"       // Move towards and away relative to user
-            "origin_y"                                              "000"       // Move left/right relative to user
-            "origin_z"                                              "-35"       // Move up/down relative to user
+            "origin_x"                                              "440"	// Move towards and away relative to user
+            "origin_y"                                              "000"	// Move left/right relative to user
+            "origin_z"                                              "-35"	// Move up/down relative to user
         }
     }
-
-    //"classmodelpanel"     // maybe newish settings
-    //{
-    //    "xpos"                                                      "c-145"
-    //    "ypos"                                                      "c-150"
+    // "classmodelpanel"     // maybe newish settings
+    // {
+    // "xpos"                                                      "c-145"
+    // "ypos"                                                      "c-150"
     //
-    //    "wide"                                                      "290"
-    //    "tall"                                                      "290"
-    //    "autoResize"                                                "0"
-    //    "pinCorner"                                                 "0"
-    //    "visible"                                                   "1"
-    //    "enabled"                                                   "1"
+    // "wide"                                                      "290"
+    // "tall"                                                      "290"
+    // "autoResize"                                                "0"
+    // "pinCorner"                                                 "0"
+    // "visible"                                                   "1"
+    // "enabled"                                                   "1"
     //
-    //    "render_texture"                                            "0"
-    //    "fov"                                                       "35"        // Higher FoV causes distortion
-    //    "allow_manip"                                               "1"
+    // "render_texture"                                            "0"
+    // "fov"                                                       "35"        // Higher FoV causes distortion
+    // "allow_manip"                                               "1"
     //
-    //    "model"
-    //    {
-    //        "force_pos"                                             "1"
+    // "model"
+    // {
+    // "force_pos"                                             "1"
     //
-    //        "angles_x"                                              "0"
-    //        "angles_y"                                              "170"
+    // "angles_x"                                              "0"
+    // "angles_y"                                              "170"
     //
-    //        "origin_x"                                              "150"       // Move towards and away relative to user
-    //        "origin_y"                                              "000"       // Move left/right relative to user
-    //        "origin_z"                                              "-40"       // Move up/down relative to user
-    //    }
-    //}
+    // "origin_x"                                              "150"       // Move towards and away relative to user
+    // "origin_y"                                              "000"       // Move left/right relative to user
+    // "origin_z"                                              "-40"       // Move up/down relative to user
+    // }
+    // }
 
     "CharacterLoadoutButton"
     {
@@ -206,13 +191,10 @@
         "font"                                                      "bh_Font20"
         "scaleImage"                                                "1"
         "command"                                                   "sv_cheats 1;r_skin 0;r_eyes 1"
-
         "defaultFgColor_override"                                   "bh_white"
         "armedFgColor_override"                                     "bh_red"
-
         "sound_depressed"                                           "UI/buttonclick.wav"
         "sound_released"                                            "UI/buttonclickrelease.wav"
-
         "keyboardinputenabled"                                      "0"
         "paintbackground"                                           "0"
     }
@@ -236,13 +218,10 @@
         "font"                                                      "bh_Font20"
         "scaleImage"                                                "1"
         "command"                                                   "sv_cheats 1;r_skin 1;r_eyes 1"
-
         "defaultFgColor_override"                                   "bh_white"
         "armedFgColor_override"                                     "bh_blue"
-
         "sound_depressed"                                           "UI/buttonclick.wav"
         "sound_released"                                            "UI/buttonclickrelease.wav"
-
         "keyboardinputenabled"                                      "0"
         "paintbackground"                                           "0"
     }

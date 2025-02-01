@@ -19,7 +19,7 @@
         "delta_item_x"                                              "120"
         "delta_item_start_y"                                        "15"
         "delta_item_end_y"                                          "25"
-        "PositiveColor"                                             "bh_Theme_TextAccent"
+        "PositiveColor"                                             "bh_Ammo_Pickup"
         "NegativeColor"                                             "bh_red"
         "delta_lifetime"                                            ".9"
         "delta_item_font"                                           "bh_Font16"

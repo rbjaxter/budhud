@@ -3,7 +3,7 @@
     // ============================================================================================== //
     // Change colors using RGBA values to customize your hud
     // TF2 will have to be restarted for these changes to take effect
-    // Example of RGBA values: http://www.colorspire.com/
+    // Example of RGB values: http://www.colorspire.com/
     // The fourth number in an RGBA value controls opacity; 255 = fully visible, 0 = fully invisible
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // MAC / OTHER USERS
@@ -21,7 +21,7 @@ Scheme
     // Crosshair Colors
     // ============================================================================================== //
     // These crosshair colors are kept separated just in case you use multiple crosshairs and want to
-    // have different colors for each. Most will only use `hud_crosshair_1`
+    // have different colors for each. Most people will only use `hud_crosshair_1`
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
         /////////////////////////
@@ -54,7 +54,7 @@ Scheme
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Health
     // ============================================================================================== //
-    // Health animations are controlled in `/budhud/scripts/hudanimations_manifest.txt`
+    // For health animations, see: https://github.com/rbjaxter/budhud/wiki/Health-&-Ammo-Animations
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
         "bh_Health_Main"                                            "255 255 255 255"
@@ -66,7 +66,7 @@ Scheme
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Ammo
     // ============================================================================================== //
-    // Ammo animations are controlled in `/budhud/scripts/hudanimations_manifest.txt`
+    // For ammo animations, see: https://github.com/rbjaxter/budhud/wiki/Health-&-Ammo-Animations
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
         "bh_Ammo_Main"                                              "255 255 255 255"
@@ -74,17 +74,7 @@ Scheme
         "bh_Ammo_Low"                                               "186 032 032 255"
         "bh_Ammo_Main_Shadow"                                       "000 000 000 255"
         "bh_Ammo_Reserve_Shadow"                                    "000 000 000 255"
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Customization: Ammo and Health Box
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-        "bh_AmmoBox_Base"                                           "150 150 150 125"
-        "bh_AmmoBox_Low"                                            "186 032 032 125"
-
-        "bh_HealthBox_Base"                                         "150 150 150 125"
-        "bh_HealthBox_Low"                                          "186 032 032 125"
-        "bh_HealthBox_Buff"                                         "000 153 255 125"
+        "bh_Ammo_Pickup"                                            "240 134 049 255"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Damage Done & Heals Given
@@ -107,6 +97,17 @@ Scheme
         "bh_TargetID_NameBG"                                        "000 000 000 125"   // Color of background behind player's name
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Customization: Ammo and Health Box
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        "bh_AmmoBox_Base"                                           "150 150 150 125"
+        "bh_AmmoBox_Low"                                            "186 032 032 125"
+
+        "bh_HealthBox_Base"                                         "150 150 150 125"
+        "bh_HealthBox_Low"                                          "186 032 032 125"
+        "bh_HealthBox_Buff"                                         "000 153 255 125"
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Uber Charge Meter
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -125,9 +126,9 @@ Scheme
         "bh_UberLabel_Flash1"                                       "243 157 048 255"   // When full, uber percentage will change between these two values
         "bh_UberLabel_Flash2"                                       "204 093 027 255"
 
-        //////////////////////////////
-        // Rainbow Charge Meter Colors
-        //////////////////////////////
+        /////////////////////////////////////////////
+        // Customization: Rainbow Charge Meter Colors
+        /////////////////////////////////////////////
 
         "bh_UberMeter_Rainbow1"                                     "255 000 000 255"
         "bh_UberMeter_Rainbow2"                                     "255 127 000 255"
@@ -139,12 +140,17 @@ Scheme
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Item Charge Meters
-    // Currently, these colors cannot be changed. They're set to bright pink so it's obvious if it's fixed.
+    // ============================================================================================== //
+    // Meter colors cannot be changed (at least, not how they used to). To change meter color, you must
+    // use "bh_ColoredMeter" within "huditemeffectmeter_base_meters.res"
+    // located in ../_budhud/resource/ui
+    // The meter's text color can be changed below.
+    // "bh_meterfg" and "bh_meterbg" are included below just in case the TF team every changes it back.
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
+        "bh_metertext"                                              "000 000 000 255"   // disabledfgcolor2_override color
         "bh_meterfg"                                                "254 002 209 255"
         "bh_meterbg"                                                "254 002 209 255"
-        "bh_metertext"                                              "000 000 000 255"   // disabledfgcolor2_override color
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Menu Colors
@@ -193,17 +199,10 @@ Scheme
         "bh_menu_background_synthwave2"                             "088 167 175 255"   // Explorer Blue
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Stats Colors
+    // Stats & Loading Screen Colors
     // ============================================================================================== //
     // Controls the color of the stat bars on your stats page and the "loading map" screen.
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-        /////////////////////////////
-        // Loading Screen Text Colors
-        /////////////////////////////
-        "bh_onyourway"                                              "240 134 049 255"
-        "bh_mapname"                                                "255 255 255 255"
-        "bh_maptype"                                                "255 255 255 255"
 
         //////////
         // Default
@@ -360,7 +359,7 @@ Scheme
         // Font: HudFontMediumSecondary
         "Menu.TextColor"                                            "bh_white"
         "Menu.BgColor"                                              "bh_Theme_BG20"
-        "Menu.ArmedTextColor"                                       "bh_orange"
+        "Menu.ArmedTextColor"                                       "bh_Theme_TextAccent"
         "Menu.ArmedBgColor"                                         "bh_Theme_BG40"
         "Menu.TextInset"                                            "10"
 
