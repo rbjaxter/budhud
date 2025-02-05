@@ -130,6 +130,7 @@ $numbersToCopy = @(
     @{ Number = 382; Description = "demo w/ 3 heads & boots" },
     @{ Number = 360; Description = "scout backward" },
     @{ Number = 347; Description = "demo w/ 3 heads"},
+    @{ Number = 345; Description = "powerjack pyro"},
     @{ Number = 325; Description = "demo w/ 2 heads"},
     @{ Number = 320; Description = "spy/medic forward" },
     @{ Number = 308; Description = "demo with boots"},
