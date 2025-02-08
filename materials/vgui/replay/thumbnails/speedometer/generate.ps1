@@ -124,9 +124,16 @@ for ($num = 1105; $num -le 1115; $num++) {
 
 # Copy over specific images to prevent max run speed bouncing between values
 $numbersToCopy = @(
+    @{ Number = 750; Description = "demo charge"},
+    @{ Number = 425; Description = "deadringer/bigearner speedboost"},
     @{ Number = 400; Description = "scout forward" },
+    @{ Number = 382; Description = "demo w/ 3 heads & boots" },
     @{ Number = 360; Description = "scout backward" },
+    @{ Number = 347; Description = "demo w/ 3 heads"},
+    @{ Number = 345; Description = "powerjack pyro"},
+    @{ Number = 325; Description = "demo w/ 2 heads"},
     @{ Number = 320; Description = "spy/medic forward" },
+    @{ Number = 308; Description = "demo with boots"},
     @{ Number = 288; Description = "spy/medic backward" },
     @{ Number = 300; Description = "sniper/engineer forward" },
     @{ Number = 270; Description = "sniper/engineer backward" },
@@ -135,7 +142,11 @@ $numbersToCopy = @(
     @{ Number = 240; Description = "soldier forward" },
     @{ Number = 216; Description = "soldier backward" },
     @{ Number = 230; Description = "heavy forward" },
-    @{ Number = 207; Description = "heavy backward" }
+    @{ Number = 207; Description = "heavy backward" },
+    @{ Number = 160; Description = "sniper huntsman pulled back"},
+    @{ Number = 110; Description = "heavy revved"},
+    @{ Number = 80; Description = "sniper scoped"},
+    @{ Number = 44; Description = "heavy revved w/ brass beast"}
 )
 
 # Iterate over each number and copy over the image with the number one below it
