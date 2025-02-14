@@ -265,7 +265,8 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "6"
+                "tall"                                              "6" [!$POSIX]
+                "tall"                                              "7" [$POSIX]
                 "weight"                                            "500"
                 "antialias"                                         "1"
                 "dropshadow"                                        "0"
@@ -291,7 +292,8 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "10"
+                "tall"                                              "10" [!$POSIX]
+                "tall"                                              "11" [$POSIX]
                 "weight"                                            "500"
                 "antialias"                                         "1"
                 "dropshadow"                                        "0"
@@ -515,7 +517,8 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "6"
+                "tall"                                              "6" [!$POSIX]
+                "tall"                                              "7" [$POSIX]
                 "weight"                                            "500"
                 "antialias"                                         "1"
                 "dropshadow"                                        "1"
@@ -541,7 +544,8 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "10"
+                "tall"                                              "10" [!$POSIX]
+                "tall"                                              "11" [$POSIX]
                 "weight"                                            "500"
                 "antialias"                                         "1"
                 "dropshadow"                                        "1"
@@ -765,7 +769,8 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "6"
+                "tall"                                              "6" [!$POSIX]
+                "tall"                                              "7" [$POSIX]
                 "weight"                                            "500"
                 "antialias"                                         "1"
                 "dropshadow"                                        "0"
@@ -791,7 +796,8 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "10"
+                "tall"                                              "10" [!$POSIX]
+                "tall"                                              "11" [$POSIX]
                 "weight"                                            "500"
                 "antialias"                                         "1"
                 "dropshadow"                                        "0"
@@ -2457,7 +2463,8 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "10"
+                "tall"                                              "10" [!$POSIX]
+                "tall"                                              "11" [$POSIX]
                 "weight"                                            "400"
                 "additive"                                          "0"
                 "antialias"                                         "1"
