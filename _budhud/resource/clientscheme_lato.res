@@ -2250,7 +2250,8 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "10"
+                "tall"                                              "10" [!$POSIX]
+                "tall"                                              "11" [$POSIX]
                 "tall_hidef"                                        "12"
                 "tall_lodef"                                        "14"
                 "weight"                                            "400"
