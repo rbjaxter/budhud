@@ -315,8 +315,7 @@
         {
             "1"
             {
-                "name"                                              "Lucida Console" [!$POSIX]
-                "name"                                              "Verdana" [$POSIX]
+                "name"                                              "Lucida Console"    //Monospaced
                 "tall"                                              "12"
                 "antialias"                                         "1"
             }
