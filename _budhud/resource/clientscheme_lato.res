@@ -2235,7 +2235,8 @@
         {
             "1"
             {
-                "name"                                              "Lato Semibold"
+                "name"                                              "Lato Semibold" [!$POSIX]
+                "name"                                              "Verdana" [$POSIX]
                 "tall"                                              "8"
                 "tall_hidef"                                        "10"
                 "tall_lodef"                                        "14"
