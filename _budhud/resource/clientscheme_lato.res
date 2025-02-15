@@ -265,7 +265,8 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "6"
+                "tall"                                              "6" [!$POSIX]
+                "tall"                                              "7" [$POSIX]
                 "weight"                                            "500"
                 "antialias"                                         "1"
                 "dropshadow"                                        "0"
@@ -291,7 +292,8 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "10"
+                "tall"                                              "10" [!$POSIX]
+                "tall"                                              "11" [$POSIX]
                 "weight"                                            "500"
                 "antialias"                                         "1"
                 "dropshadow"                                        "0"
@@ -515,7 +517,8 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "6"
+                "tall"                                              "6" [!$POSIX]
+                "tall"                                              "7" [$POSIX]
                 "weight"                                            "500"
                 "antialias"                                         "1"
                 "dropshadow"                                        "1"
@@ -541,7 +544,8 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "10"
+                "tall"                                              "10" [!$POSIX]
+                "tall"                                              "11" [$POSIX]
                 "weight"                                            "500"
                 "antialias"                                         "1"
                 "dropshadow"                                        "1"
@@ -765,7 +769,8 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "6"
+                "tall"                                              "6" [!$POSIX]
+                "tall"                                              "7" [$POSIX]
                 "weight"                                            "500"
                 "antialias"                                         "1"
                 "dropshadow"                                        "0"
@@ -791,7 +796,8 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "10"
+                "tall"                                              "10" [!$POSIX]
+                "tall"                                              "11" [$POSIX]
                 "weight"                                            "500"
                 "antialias"                                         "1"
                 "dropshadow"                                        "0"
@@ -2229,7 +2235,8 @@
         {
             "1"
             {
-                "name"                                              "Lato Semibold"
+                "name"                                              "Lato Semibold" [!$POSIX]
+                "name"                                              "Verdana" [$POSIX]
                 "tall"                                              "8"
                 "tall_hidef"                                        "10"
                 "tall_lodef"                                        "14"
@@ -2244,7 +2251,8 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "10"
+                "tall"                                              "10" [!$POSIX]
+                "tall"                                              "11" [$POSIX]
                 "tall_hidef"                                        "12"
                 "tall_lodef"                                        "14"
                 "weight"                                            "400"
@@ -2457,7 +2465,8 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "10"
+                "tall"                                              "10" [!$POSIX]
+                "tall"                                              "11" [$POSIX]
                 "weight"                                            "400"
                 "additive"                                          "0"
                 "antialias"                                         "1"
