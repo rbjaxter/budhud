@@ -399,5 +399,17 @@
                 "range"                                             "0x0020 0x1EFF"
             }
         }
+
+        // Add new font entries here
+        // https://github.com/rbjaxter/budhud/wiki/Adding-Custom-Fonts
+
+        // this number must be different from all the numbers for the other font
+        // entries above. You can use 58, but if you add more, keep counting to
+        // 59, 60, 61, etc.
+        // "58"
+        // {
+        //     "font"    "resource/fonts/my-cool-font.ttf"
+        //     "name"    "my cool font"
+        // }
     }
 }
