@@ -36,6 +36,7 @@
 			"text_center"		"0"
 			"text_yoffset"		"2"
 			"inset_eq_y"		"55"
+			"inset_eq_x"		"55"
 
 			"deferred_description"	"1"
 			"deferred_icon"			"1"
