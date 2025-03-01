@@ -558,12 +558,12 @@
         "Notifications_ShowButtonPanel_SB"
         {
             "xpos"                                                  "0"
-            "textinsetx"                                            "50"
+            "textinsetx"                                            "100"
             "ypos"                                                  "0"
             "zpos"                                                  "6969"
             "wide"                                                  "150"
             "tall"                                                  "18"
-            "labeltext"                                             "#bh_PendingAlerts"
+            "labeltext"                                             ""
             "textalignment"                                         "east"
             "font"                                                  "bh_Font14"
             "defaultFgColor_override"                               "bh_menu_foreground1"
@@ -579,36 +579,6 @@
                 "tall"                                              "15"
                 "image"                                             "replay/thumbnails/menu_icons/newnotification"
             }
-        }
-
-        "bh_Notifications_ShowButtonPanel_SB_Shadow"
-        {
-            "pin_to_sibling"                                        "Notifications_ShowButtonPanel_SB"
-
-            "ControlName"	                                        "CExImageButton"
-            "fieldName"		                                        "bh_Notifications_ShowButtonPanel_SB_Shadow"
-            "xpos"			                                        "-1"
-            "textinsetx"                                            "50"
-            "ypos"			                                        "-1"
-            "zpos"			                                        "6968"
-            "wide"			                                        "150"
-            "tall"			                                        "18"
-            "autoResize"	                                        "0"
-            "pinCorner"		                                        "3"
-            "visible"		                                        "1"
-            "enabled"		                                        "1"
-            "tabPosition"	                                        "0"
-            "labelText"		                                        "#bh_PendingAlerts"
-            "font"			                                        "bh_Font14"
-            "textAlignment"	                                        "east"
-            "dulltext"		                                        "0"
-            "brighttext"	                                        "0"
-            "default"		                                        "1"
-            "actionsignallevel"                                     "2"
-
-            "defaultFgColor_override"                               "bh_shadow"
-            "armedFgColor_override"                                 "bh_shadow"
-            "paintbackground"                                       "0"
         }
     }
 
