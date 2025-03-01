@@ -1,3 +1,4 @@
+# Note that this script is mostly included for those who know what they're doing. It cannot be run from here
 # ImageMagick must be installed in the same folder
 # The font must also be in the same folder (from my experience)
 # overengineered shell script by Whisker
