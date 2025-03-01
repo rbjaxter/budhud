@@ -2224,7 +2224,8 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "6"
+                "tall"                                              "6" [!$POSIX]
+                "tall"                                              "7" [$POSIX]
                 "weight"                                            "400"
                 "additive"                                          "0"
                 "antialias"                                         "1"
@@ -3747,7 +3748,8 @@
             {
                 "name"                                              "Lato Semibold" [$WINDOWS]
                 "name"                                              "Lato Semibold"
-                "tall"                                              "10"
+                "tall"                                              "10" [!$POSIX]
+                "tall"                                              "11" [$POSIX]
                 "weight"                                            "400"
                 "additive"                                          "0"
                 "antialias"                                         "1"
