@@ -150,6 +150,7 @@
         "bgcolor_override"                                          "bh_Theme_BG20"
         "infocus_bgcolor_override"                                  "bh_Theme_BG20"
         "outoffocus_bgcolor_override"                               "bh_Theme_BG20"
+        "titletextinsetY"                                           "10"
     }
 
     "Sheet"
@@ -157,6 +158,7 @@
         "HeaderLine"
         {
             "ControlName"                                           "EditablePanel"
+            "ypos"                                                  "19"
             "tall"                                                  "2"
             "bgcolor_override"                                      "bh_border"
         }

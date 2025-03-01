@@ -95,7 +95,7 @@
         "HeaderLine"
         {
             "ControlName"                                           "EditablePanel"
-            "ypos"                                                  "20"
+            "ypos"                                                  "19"
             "tall"                                                  "2"
             "bgcolor_override"                                      "bh_border"
         }
