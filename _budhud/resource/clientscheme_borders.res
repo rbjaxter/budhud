@@ -29,19 +29,19 @@ Scheme
                 "1"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
 
                 "2"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
 
                 "4"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
             }
 
@@ -50,19 +50,19 @@ Scheme
                 "1"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
 
                 "2"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
 
                 "4"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
             }
 
@@ -71,19 +71,19 @@ Scheme
                 "1"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
 
                 "2"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
 
                 "4"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
             }
 
@@ -92,19 +92,19 @@ Scheme
                 "1"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
 
                 "2"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
 
                 "4"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
             }
         }
@@ -118,19 +118,19 @@ Scheme
                 "1"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
 
                 "2"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
 
                 "4"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
             }
 
@@ -139,19 +139,19 @@ Scheme
                 "1"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
 
                 "2"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
 
                 "4"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
             }
 
@@ -160,19 +160,19 @@ Scheme
                 "1"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
 
                 "2"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
 
                 "4"
                 {
                     "color"                                         "bh_border"
-                    "offset"                                        "0 1"
+                    "offset"                                        "0 0"
                 }
             }
         }
