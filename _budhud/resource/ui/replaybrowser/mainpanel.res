@@ -99,13 +99,14 @@
             "ControlName"                                           "EditablePanel"
             "fieldName"                                             "HeaderLine"
             "xpos"                                                  "0"
-            "ypos"                                                  "19"
-            "zpos"                                                  "5"
+            "ypos"                                                  "19"  // no s or p
+            "zpos"                                                  "101"
             "wide"                                                  "f0"
             "tall"                                                  "2"
             "visible"                                               "1"
             "enabled"                                               "1"
-            "bgcolor_override"                                      "bh_border"
+            "bgcolor_override"                                      "bh_blank"
+            "border"                                                "bh_b_N"
         }
 
         "tabskv"
