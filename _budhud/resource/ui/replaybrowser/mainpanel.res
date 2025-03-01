@@ -99,7 +99,7 @@
             "ControlName"                                           "EditablePanel"
             "fieldName"                                             "HeaderLine"
             "xpos"                                                  "0"
-            "ypos"                                                  "19"  // no s or p
+            "ypos"                                                  "19" // no s or p
             "zpos"                                                  "101"
             "wide"                                                  "f0"
             "tall"                                                  "2"
