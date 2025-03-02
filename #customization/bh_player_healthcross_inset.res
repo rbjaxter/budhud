@@ -1,5 +1,9 @@
 "Resource/UI/HudPlayerHealth.res"
 {
+    "HudPlayerHealth"	// needed due to s value below
+    {
+    }
+
     "bh_PlayerStatusPin"
     {
         "xpos"                                                      "s.86"
