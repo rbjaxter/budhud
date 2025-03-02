@@ -190,7 +190,7 @@
             "overhealbar"
             {
                 "ypos"                                              "20"
-                "zpos"                                              "2"
+                "zpos"                                              "5"
                 "tall"                                              "7"
             }
 
