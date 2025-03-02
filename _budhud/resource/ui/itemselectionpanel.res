@@ -13,7 +13,7 @@
 
         "modelpanels_selection_kv"
         {
-            "model_wide"                                            "80"
+            "model_wide"                                            "90"
             "model_tall"                                            "60"
         }
 

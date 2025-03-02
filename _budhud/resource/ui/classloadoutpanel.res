@@ -61,8 +61,8 @@
 
         "modelpanels_kv"
         {
-            "model_wide"                                            "80"
-            "model_tall"                                            "60"
+            "model_wide"                                            "90"	// 60 = skins centered but bigger non-skins cut off. higher = skins stretch to the right
+            "model_tall"                                            "60"	// 60 = lowest you can go without skin showing black bar
 
             "itemmodelpanel"
             {
