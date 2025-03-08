@@ -1,39 +1,77 @@
-////////////////////////////////////////////////////////////////////////////////////////////////////
-// Don't edit unless you know what you're doing!
-// ============================================================================================== //
-// Note: Include quotes around font defs when replacing
-////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////
-// Occurences (replaced)
-// ============================================================================================== //
-// Verdana: 81
-// TF2 Secondary: 48
-// TF2 Build: 31
-// TF2: 30
-// ocra: 12
-// OCR A Extended: 12
-// Tahoma: 7
-// Arial: 5
-// TF2 Professor: 5
-// Trebuchet MS: 5
-// Courier New: 2
-// Arial Black: 1
-// Helvetica: 1
-////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////
-// Occurences (not replaced)
-// ============================================================================================== //
-// Buttons: 3
-// ButtonsSC: 3
-// Marlett: 3
-// Team Fortress: 2
-// tfd: 1
-////////////////////////////////////////////////////////////////////////////////////////////////////
-
 "Scheme"
 {
     "Fonts"
     {
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        // Specific Fonts
+        // Used by specific HUD elements
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        "bh_Font_HealthAmmoMain"
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "40"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        "bh_Font_AmmoReserve"
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "24"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        "bh_Font_TargetIDHealth"
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "20"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        "bh_Font_TargetIDHealthShadow"
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "20"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
+
+        "bh_Font_TargetIDHealthBlur"
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold"
+                "tall"                                              "20"
+                "weight"                                            "500"
+                "antialias"                                         "1"
+                "blur"                                              "1"
+                "dropshadow"                                        "0"
+                "outline"                                           "0"
+            }
+        }
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         // Font used to show abnormal unicode characters in vote menus with [?]
         ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -127,10 +165,10 @@
                 "dropshadow"                                        "1"
             }
         }
-
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         // Font used for jump/surf timer
         ////////////////////////////////////////////////////////////////////////////////////////////////////
+
         "HudHintText"
         {
             "1"
@@ -177,10 +215,10 @@
                 "antialias"                                         "1"
             }
         }
-
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         // Font used for text shown in center of screen (game_text font)
         ////////////////////////////////////////////////////////////////////////////////////////////////////
+
         "CenterPrintText"
         {
             // note that this scales with the screen resolution
@@ -195,75 +233,62 @@
                 "additive"                                          "1"
             }
         }
-
         ////////////////////////////////////////////////////////////////////////////////////////////////////
-        // Specific Fonts
-        // Used by specific HUD elements
+        // Font used for closed captions
         ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        "bh_Font_HealthAmmoMain"
+        "CloseCaption_Normal"
         {
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "40"
+                "tall"                                              "12"
                 "weight"                                            "500"
-                "antialias"                                         "1"
-                "dropshadow"                                        "0"
-                "outline"                                           "0"
+                "range"                                             "0x0000 0x017F"
             }
         }
 
-        "bh_Font_AmmoReserve"
+        "CloseCaption_Italic"
         {
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "24"
+                "tall"                                              "12"
                 "weight"                                            "500"
-                "antialias"                                         "1"
-                "dropshadow"                                        "0"
-                "outline"                                           "0"
+                "range"                                             "0x0000 0x017F"
             }
         }
 
-        "bh_Font_TargetIDHealth"
+        "CloseCaption_Bold"
         {
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "20"
+                "tall"                                              "12"
                 "weight"                                            "500"
-                "antialias"                                         "1"
-                "dropshadow"                                        "0"
-                "outline"                                           "0"
+                "range"                                             "0x0000 0x017F"
             }
         }
 
-        "bh_Font_TargetIDHealthShadow"
+        "CloseCaption_BoldItalic"
         {
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "20"
+                "tall"                                              "12"
                 "weight"                                            "500"
-                "antialias"                                         "1"
-                "dropshadow"                                        "0"
-                "outline"                                           "0"
+                "range"                                             "0x0000 0x017F"
             }
         }
 
-        "bh_Font_TargetIDHealthBlur"
+        "CloseCaption_Small"
         {
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "20"
+                "tall"                                              "12"
                 "weight"                                            "500"
-                "antialias"                                         "1"
-                "blur"                                              "1"
-                "dropshadow"                                        "0"
-                "outline"                                           "0"
+                "range"                                             "0x0000 0x017F"
             }
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1028,6 +1053,33 @@
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         // Default clientscheme + replace-all
+        // Don't edit unless you know what you're doing!
+        // ============================================================================================== //
+        // Note: Include quotes around font defs when replacing
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        // Occurences (replaced)
+        // ============================================================================================== //
+        // Verdana: 81
+        // TF2 Secondary: 48
+        // TF2 Build: 31
+        // TF2: 30
+        // ocra: 12
+        // OCR A Extended: 12
+        // Tahoma: 7
+        // Arial: 5
+        // TF2 Professor: 5
+        // Trebuchet MS: 5
+        // Courier New: 2
+        // Arial Black: 1
+        // Helvetica: 1
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        // Occurences (not replaced)
+        // ============================================================================================== //
+        // Buttons: 3
+        // ButtonsSC: 3
+        // Marlett: 3
+        // Team Fortress: 2
+        // tfd: 1
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         // fonts are used in order that they are listed
         // fonts listed later in the order will only be used if they fulfill a range not already filled
@@ -2042,7 +2094,7 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "12"
+                "tall"                                              "24"
                 "tall_hidef"                                        "32"
                 "weight"                                            "500"
                 "range"                                             "0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2054,7 +2106,7 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "12"
+                "tall"                                              "24"
                 "tall_hidef"                                        "32"
                 "weight"                                            "500"
                 "italic"                                            "1"
@@ -2067,7 +2119,7 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "12"
+                "tall"                                              "24"
                 "tall_hidef"                                        "32"
                 "weight"                                            "900"
                 "range"                                             "0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2079,7 +2131,7 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "12"
+                "tall"                                              "24"
                 "tall_hidef"                                        "32"
                 "weight"                                            "900"
                 "italic"                                            "1"
@@ -2092,7 +2144,7 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "8"
+                "tall"                                              "16"
                 "tall_hidef"                                        "24"
                 "weight"                                            "900"
                 "range"                                             "0x0000 0x017F"	// Basic Latin, Latin-1 Supplement, Latin Extended-A
