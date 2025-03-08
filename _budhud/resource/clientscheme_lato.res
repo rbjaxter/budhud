@@ -292,6 +292,37 @@
             }
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////////
+        // Fonts changed for Linux compatibility
+        // I only changed the name entry, so hopefully the default values kick in
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        "ScoreboardVerySmall"
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold" [!$POSIX]
+                "name"                                              "Verdana" [$POSIX]
+            }
+        }
+
+        "ScoreboardSmall"
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold" [!$POSIX]
+                "name"                                              "Verdana" [$POSIX]
+            }
+        }
+
+        "MatchSummaryWinner"
+        {
+            "1"
+            {
+                "name"                                              "Lato Semibold" [!$POSIX]
+                "name"                                              "Verdana" [$POSIX]
+            }
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
         // General Fonts
         // Font entries shared by multiple HUD elements
         ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -2301,8 +2332,7 @@
         {
             "1"
             {
-                "name"                                              "Lato Semibold" [!$POSIX]
-                "name"                                              "Verdana" [$POSIX]
+                "name"                                              "Lato Semibold"
                 "tall"                                              "8"
                 "tall_hidef"                                        "10"
                 "tall_lodef"                                        "14"
@@ -2317,8 +2347,7 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "10" [!$POSIX]
-                "tall"                                              "11" [$POSIX]
+                "tall"                                              "10"
                 "tall_hidef"                                        "12"
                 "tall_lodef"                                        "14"
                 "weight"                                            "400"
@@ -2531,8 +2560,7 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "10" [!$POSIX]
-                "tall"                                              "11" [$POSIX]
+                "tall"                                              "10"
                 "weight"                                            "400"
                 "additive"                                          "0"
                 "antialias"                                         "1"
