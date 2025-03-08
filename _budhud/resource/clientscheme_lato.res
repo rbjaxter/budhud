@@ -1084,8 +1084,11 @@
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         // Default clientscheme + replace-all
-        // Don't edit unless you know what you're doing!
-        // ============================================================================================== //
+        // You should not edit anything below this point.
+        // If you want to change a value below here, you should copy it and place it above.
+        // This is because I occasionally grab the default clientscheme and replace the entries listed below
+        // with Lato, so any non-default changes below will eventually be reverted.
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
         // Note: Include quotes around font defs when replacing
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         // Occurences (replaced)
