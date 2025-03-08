@@ -181,7 +181,21 @@
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         // Font used for text shown in center of screen (game_text font)
         ////////////////////////////////////////////////////////////////////////////////////////////////////
-        // CenterPrintText
+        "CenterPrintText"
+        {
+            // note that this scales with the screen resolution
+
+            "1"
+            {
+                "name"                                              "Lato Semibold" [!$OSX]
+                "name"                                              "Lato Semibold" [$OSX]
+                "tall"                                              "12"
+                "weight"                                            "900"
+                "antialias"                                         "1"
+                "additive"                                          "1"
+            }
+        }
+
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         // Specific Fonts
         // Used by specific HUD elements
@@ -2224,8 +2238,7 @@
             "1"
             {
                 "name"                                              "Lato Semibold"
-                "tall"                                              "6" [!$POSIX]
-                "tall"                                              "7" [$POSIX]
+                "tall"                                              "6"
                 "weight"                                            "400"
                 "additive"                                          "0"
                 "antialias"                                         "1"
@@ -3748,8 +3761,7 @@
             {
                 "name"                                              "Lato Semibold" [$WINDOWS]
                 "name"                                              "Lato Semibold"
-                "tall"                                              "10" [!$POSIX]
-                "tall"                                              "11" [$POSIX]
+                "tall"                                              "10"
                 "weight"                                            "400"
                 "additive"                                          "0"
                 "antialias"                                         "1"
