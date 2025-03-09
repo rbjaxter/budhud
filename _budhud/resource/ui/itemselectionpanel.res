@@ -11,12 +11,6 @@
         "infocus_bgcolor_override"                                  "bh_Theme_BG20"
         "outoffocus_bgcolor_override"                               "bh_Theme_BG20"
 
-        "modelpanels_selection_kv"
-        {
-            "model_wide"                                            "90"
-            "model_tall"                                            "60"
-        }
-
         "modelpanels_kv"
         {
             "itemmodelpanel"
