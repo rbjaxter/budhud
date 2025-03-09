@@ -523,6 +523,8 @@ try {
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
         $misc_dir = Resolve-Path "../../tf2_misc_dir.vpk"
+        $platform_dir = Resolve-Path "../../../platform/platform_misc_dir.vpk"
+        $hl2_dir = Resolve-Path "../../../hl2/hl2_misc_dir.vpk"
 
         # Extract from game hud files
         Write-Host -foregroundcolor "White" -NoNewLine "Extracting default game files..."
@@ -530,18 +532,16 @@ try {
         Push-Location "_tf2hud"
         Extract_VPK_Directory "$misc_dir" "resource/"
         Extract_VPK_Files "$misc_dir" "scripts/HudLayout.res" "scripts/HudAnimations_tf.txt" "scripts/mod_textures.txt"
+        Extract_VPK_Files "$platform_dir" "resource/sourceschemebase.res"
+        Extract_VPK_Files "$hl2_dir" "resource/ui/basechat.res" "resource/ui/econ/confirmdialog.res" "resource/ui/econ/messageboxdialog.res"
         Pop-Location
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
         # Copy files that cannot be extracted from TF2 core files
         Write-Host -foregroundcolor "White" -NoNewLine "Copying necessary platform files..."
-        Copy-Item "$PSScriptRoot/#dev/sourceschemebase.res" -Destination "$PSScriptRoot/_tf2hud/resource/sourceschemebase.res"
         Copy-Item "$PSScriptRoot/#dev/vsh_hud.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/vsh_hud.res"
         Copy-Item "$PSScriptRoot/#dev/vsh_hud_hell.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/vsh_hud_hell.res"
         Copy-Item "$PSScriptRoot/#dev/tug_of_war_hud.res" -Destination "$PSScriptRoot/_tf2hud/resource/tug_of_war/tug_of_war_hud.res"
-        Copy-Item "$PSScriptRoot/#dev/messageboxdialog.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/econ/messageboxdialog.res"
-        Copy-Item "$PSScriptRoot/#dev/confirmdialog.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/econ/confirmdialog.res"
-        Copy-Item "$PSScriptRoot/#dev/basechat.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/basechat.res"
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
         # Remove various modifiers (OSX, X360, _minmode, _lodef, _hidef, and if_ lines.)
