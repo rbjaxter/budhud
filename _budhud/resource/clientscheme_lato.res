@@ -216,7 +216,7 @@
             }
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////////
-        // Font used for text shown in center of screen (game_text font)
+        // Font used for text shown in lower center of screen (game_text font; speedo font)
         ////////////////////////////////////////////////////////////////////////////////////////////////////
 
         "CenterPrintText"
@@ -225,9 +225,8 @@
 
             "1"
             {
-                "name"                                              "Lato Semibold" [!$OSX]
-                "name"                                              "Lato Semibold" [$OSX]
-                "tall"                                              "12"
+                "name"                                              "Lato Semibold"
+                "tall"                                              "18"
                 "weight"                                            "900"
                 "antialias"                                         "1"
                 "additive"                                          "1"
