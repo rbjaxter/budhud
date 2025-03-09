@@ -149,20 +149,7 @@
 
     "Fonts"
     {
-        ////////////////////////////////////////////////////////////////////////////////////////////////////
-        // "DefaultFixedOutline" - net_graph & cl_showfps appearance
-        // "ConsoleText" - Console log text appearance
-        // "Default" - Console input text appearance
-        // "DefaultLarge" - "Console" title text appearance
-        ////////////////////////////////////////////////////////////////////////////////////////////////////
-        // try to use some degree of linear interpolation to come up with appropriate values
-        // tall value of 19 seems to work well for yres 1024 1199
-        // Height range = 1199-1024+1=176
-        // FontScaleFactor = tall/yres height range
-        // = 19/176 ≈ 0.108
-        // then calculate for each range
-
-        "DefaultFixedOutline"
+        "DefaultFixedOutline"	// net_graph & cl_showfps appearance
         {
             "1"
             {
@@ -275,7 +262,7 @@
             }
         }
 
-        "Default"
+        "Default"	// Console input text appearance
         {
             "1"
             {
@@ -311,11 +298,11 @@
             }
         }
 
-        "ConsoleText"
+        "ConsoleText"	// Console log text appearance
         {
             "1"
             {
-                "name"                                              "Lucida Console"    //Monospaced
+                "name"                                              "Lucida Console"	// Monospaced
                 "tall"                                              "12"
                 "antialias"                                         "1"
             }
@@ -333,7 +320,7 @@
             }
         }
 
-        "DefaultLarge"	// When compiled, DefaultLarge instead gets used where UiBold was used previously
+        "DefaultLarge"	// "Console" title text appearance. When compiled, DefaultLarge instead gets used where UiBold was used previously
         {
             "1"
             {
@@ -368,6 +355,18 @@
                 "antialias"                                         "1"
             }
         }
+        // "Trebuchet24"	// Center text (auto-balance text, trying to use ConTracker when taunting)
+        // {
+        // "1"
+        // {
+        // "antialias"                                         "0" // Set to 1 breaks some maps according to Niterux
+        // }
+        //
+        // "2"
+        // {
+        // "antialias"                                         "0" // Set to 1 breaks some maps according to Niterux
+        // }
+        // }
     }
 
     "CustomFontFiles"

@@ -24,7 +24,7 @@ Scheme
 		"Black"				"0 0 0 255"
 
 		"Blank"				"0 0 0 0"
-
+		
 		"SteamLightGreen"	"157 194 80 255"
 		"AchievementsLightGrey"		"79 79 79 255"
 		"AchievementsDarkGrey"		"55 55 55 255"
@@ -61,7 +61,7 @@ Scheme
 		CheckButton.ArmedBgColor		"Blank"
 		CheckButton.DepressedBgColor		"Blank"
 		CheckButton.DisabledBgColor	   	"TransparentBlack"
-
+				
 		ComboBoxButton.ArrowColor		"DullWhite"
 		ComboBoxButton.ArmedArrowColor	"White"
 		ComboBoxButton.BgColor			"Blank"
@@ -192,9 +192,7 @@ Scheme
 		MainMenu.ArmedTextColor		"200 200 200 255"	[$WIN32]
 		MainMenu.ArmedTextColor		"White"				[$_disabled_]
 		MainMenu.DepressedTextColor	"192 186 80 255"
-		MainMenu.MenuItemHeight		"30"				[$WIN32]
-		MainMenu.MenuItemHeight			"22"				[$_disabled_]
-		MainMenu.MenuItemHeight$_disabled_	"32"				[$_disabled_]
+		MainMenu.MenuItemHeight		"22"
 		MainMenu.Inset				"32"
 		MainMenu.Backdrop			"0 0 0 156"
 
@@ -209,7 +207,7 @@ Scheme
 
 		MessageDialog.MatchmakingBG			"46 43 42 255"	[$_disabled_]
 		MessageDialog.MatchmakingBGBlack			"22 22 22 255"	[$_disabled_]
-
+		
 		MatchmakingMenuItemTitleColor			"200 184 151 255"	[$_disabled_]
 		MatchmakingMenuItemDescriptionColor		"200 184 151 255"	[$_disabled_]
 
@@ -260,9 +258,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [$WINDOWS]
+				"name"		 "Lucida Console" [!$_disabled_]
 				"name"		 "Lucida Console" [$_disabled_]
-				"name"		 "Verdana" [$POSIX]
+				"name"		 "Verdana" [$_disabled_]
 				"tall"		"14" [$LINUX]
 				"tall"		"11" [$_disabled_]
 				"tall"		 "10"
@@ -276,9 +274,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
-				"tall"		"16"
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana" [$_disabled_]
+				"tall"		"16" [!$LINUX]
+				"tall"		"18" [$LINUX]
 				"weight"	"500"
 			}
 		}
@@ -286,9 +285,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
+				"name"		"Tahoma" [!$_disabled_]
 				"name"		"Verdana Bold" [$POSIX]
-				"tall"		"16"
+				"tall"		"16" [!$LINUX]
+				"tall"		"18" [$LINUX]
 				"weight"	"1000"
 			}
 		}
@@ -296,9 +296,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
-				"tall"		"16"
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana" [$_disabled_]
+				"tall"		"16" [!$LINUX]
+				"tall"		"18" [$LINUX]
 				"weight"	"500"
 				"underline" "1"
 			}
@@ -307,10 +308,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana" [$_disabled_]
 				"tall"		"12" [!$POSIX]
-				"tall"		"13" [$POSIX]
+				"tall"		"15" [$POSIX]
 				"weight"	"0"
 			}
 		}
@@ -318,8 +319,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana" [$_disabled_]
 				"tall"		"13"
 				"weight"	"0"
 				"dropshadow" "1"
@@ -329,8 +330,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana" [$_disabled_]
 				"tall"		"12"
 				"weight"	"0"
 			}
@@ -340,8 +341,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana" [$_disabled_]
 				"tall"		"18"
 				"weight"	"0"
 			}
@@ -350,9 +351,10 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
-				"tall"		"12"
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana" [$_disabled_]
+				"tall"		"12" [!$LINUX]
+				"tall"		"15" [$LINUX]
 				"weight"	"1000"
 			}
 			"1"	[$_disabled_]
@@ -388,27 +390,28 @@ Scheme
 		}
 		"MenuLarge"
 		{
-			"1"	[$POSIX]
+			//"1"	[$LINUX]
+			//{
+			//	"name"		"Verdana"
+			//	"tall"		"24"
+			//	"weight"	"600"
+			//	"antialias" "1"
+			//	"yres"	 "480 1199"
+			//}
+			//"1"	[$WINDOWS]
+			//{
+			//	"name"		"Verdana" 
+			//	"tall"		"20"
+			//	"weight"	"600"
+			//	"antialias" "1"
+			//	"yres"	 "480 1199"
+			//}
+			"1"	
 			{
-				"name"		"Helvetica Bold"
-				"tall"		"20"
-				"antialias" "1"
-			}
-			"1"	[$WIN32]
-			{
-				"name"		"Verdana"
-				"tall"		"16"
+				"name"		"Verdana" 
+				"tall"		"12"
 				"weight"	"600"
 				"antialias" "1"
-			}
-			"1"	[$_disabled_]
-			{
-				"name"		"Verdana"
-				"tall"			"14"
-				"tall$_disabled_"	"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
 			}
 		}
 		"AchievementTitleFont"
@@ -422,7 +425,7 @@ Scheme
 				"outline" "1"
 			}
 		}
-
+		
 		"AchievementTitleFontSmaller"
 		{
 			"1"
@@ -434,8 +437,8 @@ Scheme
 				//"outline" "1"
 			}
 		}
-
-
+		
+		
 		"AchievementDescriptionFont"
 		{
 			"1"
@@ -457,7 +460,7 @@ Scheme
 				"yres"	 "481 10000"
 			}
 		}
-
+		
 		GameUIButtons
 		{
 			"1"	[$_disabled_]
@@ -476,9 +479,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [$WINDOWS]
+				"name"		 "Lucida Console" [!$_disabled_]
 				"name"		 "Lucida Console" [$_disabled_]
-				"name"		 "Verdana" [$POSIX]
+				"name"		 "Verdana" [$_disabled_]
 				"tall"		"11" [$_disabled_]
 				"tall"		"14" [$LINUX]
 				"tall"		"10"
@@ -505,6 +508,19 @@ Scheme
 				"name"		"Trebuchet MS"
 				"tall"		"24"
 				"weight"	"900"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"1"
+				"yres"	"480 1199"
+			}
+			"2" // misyl: Proportional
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"16"
+				"weight"	"900"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"1"
 			}
 		}
 
@@ -588,11 +604,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [$WINDOWS]
-				"name"		 "Lucida Console" [$_disabled_]
-				"name"		 "Verdana" [$POSIX]
+				"name"		 "Lucida Console" [!$_disabled_]
+				"name"		 "Verdana" [$_disabled_]
 				"tall"		"11" [$POSIX]
-				"tall"		"10"
+				"tall"		"10" [!$POSIX]
 				"weight"	"0"
 			}
 //			"1"
@@ -607,10 +622,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [$WINDOWS]
-				"name"		 "Lucida Console" [$_disabled_]
+				"name"		 "Lucida Console" [!$_disabled_]
 				"name"		 "Verdana" [$_disabled_]
-				"name"		 "Courier" [$LINUX]
 				"tall"		"14" [$LINUX]
 				"tall"		"11" [$POSIX]
 				"tall"		"10"
@@ -629,8 +642,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana" [$_disabled_]
 				"tall"		"16"
 				"weight"	"500"
 			}
@@ -650,8 +663,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana Bold" [$POSIX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana Bold" [$_disabled_]
 				"tall"		"16"
 				"weight"	"900"
 			}
@@ -660,8 +673,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana Bold Italic" [$POSIX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana Bold Italic" [$_disabled_]
 				"tall"		"16"
 				"weight"	"900"
 				"italic"	"1"
@@ -717,7 +730,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-
+		
 		StatsTitle	[$WIN32]
 		{
 			"1"
@@ -729,7 +742,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-
+		
 		StatsText	[$WIN32]
 		{
 			"1"
@@ -741,7 +754,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-
+		
 		AchievementItemTitle	[$WIN32]
 		{
 			"1"
@@ -767,7 +780,7 @@ Scheme
 			}
 		}
 
-
+		
 		StatsPageText
 		{
 			"1"
@@ -780,7 +793,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-
+		
 		AchievementItemTitleLarge	[$WIN32]
 		{
 			"1"
@@ -793,13 +806,13 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-
+		
 		AchievementItemDescription	[$WIN32]
 		{
 			"1"
 			{
 				"name"		"Arial" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Verdana" [$_disabled_]
 				"weight"		"1000"
 				"tall"			"14" [!$POSIX]
 				"tall"			"15" [$POSIX]
@@ -807,13 +820,13 @@ Scheme
 			}
 		}
 
-
+		
 		"ServerBrowserTitle"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$POSIX]
-				"name"		"Verdana" [$POSIX]
+				"name"		"Tahoma" [!$_disabled_]
+				"name"		"Verdana" [$_disabled_]
 				"tall"		"35"
 				"tall$_disabled_"	"40"
 				"weight"	"500"
@@ -868,7 +881,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
+	
 	}
 
 	//
@@ -968,7 +981,7 @@ Scheme
 				}
 			}
 		}
-
+		
 		TitleButtonBorder
 		{
 			"backgroundtype" "0"
@@ -1024,7 +1037,7 @@ Scheme
 				}
 			}
 		}
-
+		
 		ScrollBarButtonDepressedBorder
 		{
 			"inset" "2 2 0 0" [!$_disabled_]
@@ -1276,7 +1289,16 @@ Scheme
 	CustomFontFiles
 	{
 		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"
+		"2"		"resource/HL2EP2.ttf"	
 		"3"		"resource/marlett.ttf"
+
+		"4"		"resource/linux_fonts/DejaVuSans.ttf"
+		"5"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"6"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"7"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"8"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"9"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"10"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"11"		"resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }
