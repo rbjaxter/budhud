@@ -286,7 +286,7 @@
         "tall"                                                      "f0"
         "visible"                                                   "1"
         "enabled"                                                   "1"
-        "labelText"                                                 "ENGLISH РУССКИЙ 中国人 123 . ! @ 日ひء"
+        "labelText"                                                 "ENGLISH РУССКИЙ 中国人 123 . ! @ 日ひء ♰♱✝✞✟ †‡ Р"
         "textAlignment"                                             "center"
         "font"                                                      "bh_Font20"
         "fgcolor"                                                   "bh_bred"
@@ -303,9 +303,9 @@
         "tall"                                                      "f0"
         "visible"                                                   "1"
         "enabled"                                                   "1"
-        "labelText"                                                 "THIS IS THE FALLBACK FONT. РУССКИЙ 中国人 123 . ! @ 日ひء"
+        "labelText"                                                 "THIS IS THE FALLBACK FONT. РУССКИЙ 中国人 123 . ! @ 日ひء ♰♱✝✞✟ †‡ Р"
         "textAlignment"                                             "center"
-        "font"                                                      "break"
+        "font"                                                      "break" // fallbacks to "Default" font
         "fgcolor"                                                   "bh_bred"
     }
 }
