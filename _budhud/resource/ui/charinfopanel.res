@@ -80,7 +80,7 @@
         "tall"                                                      "f0"
         "titlebarfgcolor_override"                                  "bh_white"
         "titlebardisabledfgcolor_override"                          "bh_white"
-        "titletextinsetY"                                           "10"
+        "titletextinsetY"                                           "-4"
     }
 
     "Sheet"
@@ -95,7 +95,7 @@
         "HeaderLine"
         {
             "ControlName"                                           "EditablePanel"
-            "ypos"                                                  "19" // no s or p
+            "ypos"                                                  "34" // = "tabheight" + "yoffset". no s or p
             "zpos"                                                  "101"
             "border"                                                "bh_b_N"
         }
