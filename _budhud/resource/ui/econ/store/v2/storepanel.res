@@ -150,15 +150,23 @@
         "bgcolor_override"                                          "bh_Theme_BG20"
         "infocus_bgcolor_override"                                  "bh_Theme_BG20"
         "outoffocus_bgcolor_override"                               "bh_Theme_BG20"
-        "titletextinsetY"                                           "-4"
+        "titletextinsetY"                                           "10"
     }
 
     "Sheet"
     {
+        "tabxindent"                                                "80"  // Tab left/right position
+        "tabxdelta"                                                 "3"   // Gap between tabs
+        "tabwidth"                                                  "240" // Tab width
+        "tabheight"                                                 "20"  // Tab height
+        "transition_time"                                           "0"   // Fade in between tabs
+
+        "yoffset"                                                   "0" // keep at 0 (use "titletextinsetY" for vertical adjustments of whole panel instead)
+
         "HeaderLine"
         {
             "ControlName"                                           "EditablePanel"
-            "ypos"                                                  "34" // = "tabheight" + "yoffset". no s or p
+            "ypos"                                                  "20" // = "tabheight". no s or p
             "zpos"                                                  "101"
             "tall"                                                  "2"
             "bgcolor_override"                                      "bh_blank"

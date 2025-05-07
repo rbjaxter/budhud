@@ -80,23 +80,26 @@
         "tall"                                                      "f0"
         "titlebarfgcolor_override"                                  "bh_white"
         "titlebardisabledfgcolor_override"                          "bh_white"
-        "titletextinsetY"                                           "-4"
+        "titletextinsetY"                                           "10"
     }
 
     "Sheet"
     {
-        "tabxindent"                                                "80"        // Tab left/right position
-        "tabxdelta"                                                 "10"        // Gap between tabs
-        "tabwidth"                                                  "240"       // Tab width
-        "tabheight"                                                 "20"        // Tab height
-        "transition_time"                                           "0"         // Fade in between tabs
-        "yoffset"                                                   "14"        // Tab distance from top of screen
+        "tabxindent"                                                "80"  // Tab left/right position
+        "tabxdelta"                                                 "10"  // Gap between tabs
+        "tabwidth"                                                  "240" // Tab width
+        "tabheight"                                                 "20"  // Tab height
+        "transition_time"                                           "0"   // Fade in between tabs
+
+        "yoffset"                                                   "0" // keep at 0 (use "titletextinsetY" for vertical adjustments of whole panel instead)
 
         "HeaderLine"
         {
             "ControlName"                                           "EditablePanel"
-            "ypos"                                                  "34" // = "tabheight" + "yoffset". no s or p
+            "ypos"                                                  "20" // = "tabheight". no s or p
             "zpos"                                                  "101"
+            "tall"                                                  "2"
+            "bgcolor_override"                                      "bh_blank"
             "border"                                                "bh_b_N"
         }
 
