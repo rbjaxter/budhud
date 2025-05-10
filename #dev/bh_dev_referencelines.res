@@ -22,7 +22,7 @@
     "bh_Dev_CV"
     {
         "ControlName"                                               "ImagePanel"
-        "fieldName"                                                 "bh_Dev_CH"
+        "fieldName"                                                 "bh_Dev_CV"
         "xpos"                                                      "cs-0.5"
         "ypos"                                                      "0"
         "zpos"                                                      "0"
