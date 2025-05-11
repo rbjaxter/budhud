@@ -10,13 +10,6 @@
 
     "TopBar"
     {
-        "OuterShadow"
-        {
-            "ypos"                                                  "r-6969"
-            "visible"                                               "0"
-            "enabled"                                               "0"
-        }
-
         "FindAGameButton"
         {
             "wide"                                                  "50"
@@ -127,6 +120,13 @@
                 "tall"                                              "10"
                 "image"                                             "replay/thumbnails/menu_icons/x"
             }
+        }
+
+        "Gradient"
+        {
+            "ypos"                                                  "r-6969"
+            "visible"                                               "0"
+            "enabled"                                               "0"
         }
 
         "BGPanel"
