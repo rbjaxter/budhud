@@ -7,13 +7,6 @@
         "enabled"                                                   "0"
     }
 
-    "ItemSlotLabel"
-    {
-        "ypos"                                                      "r-6969"
-        "visible"                                                   "0"
-        "enabled"                                                   "0"
-    }
-
     "TopLine"
     {
         "ypos"                                                      "r-6969"
@@ -40,13 +33,20 @@
 
     "ClassLabel"
     {
-        "font"                                                      "bh_Font12"
-        "textAlignment"                                             "west"
         "xpos"                                                      "6"
-        "ypos"                                                      "5"
-        "zpos"                                                      "1"
-        "wide"                                                      "60"
-        "tall"                                                      "15"
+        "auto_wide_tocontents"                                      "1"
+        "font"                                                      "bh_Font12"
+    }
+
+    "ItemSlotLabel"
+    {
+        "pin_to_sibling"                                            "ClassLabel"
+        "pin_corner_to_sibling"                                     "PIN_CENTER_LEFT"
+        "pin_to_sibling_corner"                                     "PIN_CENTER_RIGHT"
+        "xpos"                                                      "2"
+        "ypos"                                                      "0"
+        "auto_wide_tocontents"                                      "1"
+        "font"                                                      "bh_Font12"
     }
 
     "itemcontainerscroller"
