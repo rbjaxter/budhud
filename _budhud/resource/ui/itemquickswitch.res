@@ -29,6 +29,13 @@
         "tall"                                                      "160"
         "bgcolor_override"                                          "25 25 25 255"
         "border"                                                    "bh_b_NESW"
+
+        "itemskv"
+        {
+            "wide"                                                  "240"
+            "model_xpos"                                            "0"
+            "text_wide"                                             "180"
+        }
     }
 
     "ClassLabel"
@@ -48,6 +55,12 @@
         "ypos"                                                      "30"
         "wide"                                                      "260"
         "tall"                                                      "125"
+    }
+
+    "itemcontainer"
+    {
+        "xpos"                                                      "0"
+        "wide"                                                      "260"
     }
 
     "loadout_preset_panel"
