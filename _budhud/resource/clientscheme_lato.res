@@ -89,6 +89,65 @@
             }
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////////
+        // Fonts used to show streamer elements as blocks
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        "bh_Font_StreamerBlock9"
+        {
+            "1"
+            {
+                "name"                                              "whizblock"
+                "tall"                                              "9"
+                "weight"                                            "0"
+                "outline"                                           "0"
+                "additive"                                          "0"
+                "antialias"                                         "1"
+                "custom"                                            "1"
+            }
+        }
+
+        "bh_Font_StreamerBlock10"
+        {
+            "1"
+            {
+                "name"                                              "whizblock"
+                "tall"                                              "10"
+                "weight"                                            "0"
+                "outline"                                           "0"
+                "additive"                                          "0"
+                "antialias"                                         "1"
+                "custom"                                            "1"
+            }
+        }
+
+        "bh_Font_StreamerBlock12"
+        {
+            "1"
+            {
+                "name"                                              "whizblock"
+                "tall"                                              "12"
+                "weight"                                            "0"
+                "outline"                                           "0"
+                "additive"                                          "0"
+                "antialias"                                         "1"
+                "custom"                                            "1"
+            }
+        }
+
+        "bh_Font_StreamerBlock14"
+        {
+            "1"
+            {
+                "name"                                              "whizblock"
+                "tall"                                              "14"
+                "weight"                                            "0"
+                "outline"                                           "0"
+                "additive"                                          "0"
+                "antialias"                                         "1"
+                "custom"                                            "1"
+            }
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
         // Font used for teammate floating health bars (player names)
         ////////////////////////////////////////////////////////////////////////////////////////////////////
 

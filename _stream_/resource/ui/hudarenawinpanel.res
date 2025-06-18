@@ -9,7 +9,7 @@
 
         "Player1Name"
         {
-            "font"                                                  "bh_Font_StreamerBlockMore10"
+            "font"                                                  "bh_Font_StreamerBlock10"
         }
 
         "Player2Avatar"
@@ -19,7 +19,7 @@
 
         "Player2Name"
         {
-            "font"                                                  "bh_Font_StreamerBlockMore10"
+            "font"                                                  "bh_Font_StreamerBlock10"
         }
 
         "Player3Avatar"
@@ -29,7 +29,7 @@
 
         "Player3Name"
         {
-            "font"                                                  "bh_Font_StreamerBlockMore10"
+            "font"                                                  "bh_Font_StreamerBlock10"
         }
     }
 
@@ -42,7 +42,7 @@
 
         "Player1Name"
         {
-            "font"                                                  "bh_Font_StreamerBlockMore10"
+            "font"                                                  "bh_Font_StreamerBlock10"
         }
 
         "Player2Avatar"
@@ -52,7 +52,7 @@
 
         "Player2Name"
         {
-            "font"                                                  "bh_Font_StreamerBlockMore10"
+            "font"                                                  "bh_Font_StreamerBlock10"
         }
 
         "Player3Avatar"
@@ -62,7 +62,7 @@
 
         "Player3Name"
         {
-            "font"                                                  "bh_Font_StreamerBlockMore10"
+            "font"                                                  "bh_Font_StreamerBlock10"
         }
     }
 }

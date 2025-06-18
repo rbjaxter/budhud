@@ -4,7 +4,7 @@
     {
         "OwnerLabel"
         {
-            "font"                                                  "bh_Font_StreamerBlockMore9"
+            "font"                                                  "bh_Font_StreamerBlock9"
         }
     }
 }
