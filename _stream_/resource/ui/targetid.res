@@ -2,11 +2,6 @@
 {
     "TargetNameLabel"
     {
-        "font"                                                      "bh_Font_StreamerBlockMore14"
-    }
-
-    "TargetDataLabel"
-    {
-        "font"                                                      "bh_Font_StreamerBlockLess12"
+        "font"                                                      "bh_Font_StreamerBlock14"
     }
 }

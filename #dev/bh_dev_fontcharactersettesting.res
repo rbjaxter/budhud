@@ -286,7 +286,7 @@
         "tall"                                                      "f0"
         "visible"                                                   "1"
         "enabled"                                                   "1"
-        "labelText"                                                 "ENGLISH РУССКИЙ 中国人 123 . ! @ 日ひء ♰♱✝✞✟ †‡ Р"
+        "labelText"                                                 "ENGLISH РУССКИЙ 中国人 123 . ! @ 日ひء"
         "textAlignment"                                             "center"
         "font"                                                      "bh_Font20"
         "fgcolor"                                                   "bh_bred"
@@ -303,9 +303,43 @@
         "tall"                                                      "f0"
         "visible"                                                   "1"
         "enabled"                                                   "1"
-        "labelText"                                                 "THIS IS THE FALLBACK FONT. РУССКИЙ 中国人 123 . ! @ 日ひء ♰♱✝✞✟ †‡ Р"
+        "labelText"                                                 "THIS IS THE FALLBACK FONT. РУССКИЙ 中国人 123 . ! @ 日ひء"
         "textAlignment"                                             "center"
         "font"                                                      "break" // fallbacks to "Default" font
+        "fgcolor"                                                   "bh_bred"
+    }
+
+    "bh_DevTestLato"
+    {
+        "ControlName"                                               "CExLabel"
+        "fieldName"                                                 "bh_DevTestLato"
+        "xpos"                                                      "cs-0.5"
+        "ypos"                                                      "30"
+        "zpos"                                                      "1"
+        "wide"                                                      "f0"
+        "tall"                                                      "f0"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "labelText"                                                 "♰♱✝✞✟ †‡ Р абвгдеёжзийХШЩЯж ‏ ‰ 부드후드 ブドハド"
+        "textAlignment"                                             "center"
+        "font"                                                      "bh_Font14"
+        "fgcolor"                                                   "bh_bred"
+    }
+
+    "bh_DevTestStreamer"
+    {
+        "ControlName"                                               "CExLabel"
+        "fieldName"                                                 "bh_DevTestStreamer"
+        "xpos"                                                      "cs-0.5"
+        "ypos"                                                      "50"
+        "zpos"                                                      "1"
+        "wide"                                                      "f0"
+        "tall"                                                      "f0"
+        "visible"                                                   "1"
+        "enabled"                                                   "1"
+        "labelText"                                                 "♰♱✝✞✟ †‡ Р абвгдеёжзийХШЩЯж ‏ ‰ 부드후드 ブドハド"
+        "textAlignment"                                             "center"
+        "font"                                                      "bh_Font_StreamerBlock14"
         "fgcolor"                                                   "bh_bred"
     }
 }

@@ -23,17 +23,17 @@
 
     "Player1Name"
     {
-        "font"                                                      "bh_Font_StreamerBlockMore10"
+        "font"                                                      "bh_Font_StreamerBlock10"
     }
 
     "Player2Name"
     {
-        "font"                                                      "bh_Font_StreamerBlockMore10"
+        "font"                                                      "bh_Font_StreamerBlock10"
     }
 
     "Player3Name"
     {
-        "font"                                                      "bh_Font_StreamerBlockMore10"
+        "font"                                                      "bh_Font_StreamerBlock10"
     }
 
     "KillStreakPlayer1Avatar"
@@ -45,6 +45,6 @@
 
     "KillStreakPlayer1Name"
     {
-        "font"                                                      "bh_Font_StreamerBlockMore10"
+        "font"                                                      "bh_Font_StreamerBlock10"
     }
 }

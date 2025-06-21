@@ -6,7 +6,7 @@
         {
             "playername"
             {
-                "font"                                              "bh_Font_StreamerBlockMore10"
+                "font"                                              "bh_Font_StreamerBlock10"
             }
         }
     }

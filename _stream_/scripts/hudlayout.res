@@ -2,7 +2,7 @@
 {
     HudDeathNotice
     {
-        "TextFont"                                                  "bh_Font_StreamerBlockMore12"
+        "TextFont"                                                  "bh_Font_StreamerBlock12"
     }
 
     HudVoiceStatus
@@ -12,6 +12,6 @@
 
     HudSpectatorExtras
     {
-        "player_name_font"                                          "bh_Font_StreamerBlockMore10"
+        "player_name_font"                                          "bh_Font_StreamerBlock10"
     }
 }
