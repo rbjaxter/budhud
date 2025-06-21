@@ -82,7 +82,7 @@
     "ExplanationLabel"
     {
         "wide"                                                      "280"
-        //"tall"                                                      "60" // dynamic value
+        // "tall"                                                      "60" // dynamic value
         "fgcolor_override"                                          "bh_Theme_TextSecondary"
         "font"                                                      "bh_Font12"
     }

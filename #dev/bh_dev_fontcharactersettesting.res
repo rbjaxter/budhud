@@ -52,7 +52,7 @@
         "labelText"                                                 "Test: "
         "textAlignment"                                             "center"
         "font"                                                      "bh_Font20"
-        "fgcolor"                                                   "bh_orange"
+        "fgcolor"                                                   "bh_Theme_TextAccent"
     }
 
     //
