@@ -10,6 +10,46 @@
         }
     }
 
+    "subject_modelpanel"
+    {
+        "itemmodelpanel"
+        {
+            "allow_rot"                                             "0"
+            "inventory_image_type"                                  "1"
+            "use_item_rendertarget"                                 "0"
+        }
+    }
+
+    "paint_model"
+    {
+        "itemmodelpanel"
+        {
+            "allow_rot"                                             "0"
+            "inventory_image_type"                                  "1"
+            "use_item_rendertarget"                                 "0"
+        }
+    }
+
+    "paint_model_red"
+    {
+        "itemmodelpanel"
+        {
+            "allow_rot"                                             "0"
+            "inventory_image_type"                                  "1"
+            "use_item_rendertarget"                                 "0"
+        }
+    }
+
+    "paint_model_blue"
+    {
+        "itemmodelpanel"
+        {
+            "allow_rot"                                             "0"
+            "inventory_image_type"                                  "1"
+            "use_item_rendertarget"                                 "0"
+        }
+    }
+
     "bh_ConfirmDialog_BG"
     {
         "ControlName"                                               "ImagePanel"
