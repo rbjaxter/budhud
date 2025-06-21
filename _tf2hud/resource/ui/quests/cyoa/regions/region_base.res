@@ -32,7 +32,7 @@
 			"labeltext"		"#TF_QuestMap_Back"
 			"xpos"			"10"
 			"ypos"			"15"
-			"wide"			"80"
+			"wide"			"120"
 			"tall"			"30"
 			"zpos"			"101"
 			"font"			"QuestLargeText"
