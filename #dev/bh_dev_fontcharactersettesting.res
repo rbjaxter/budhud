@@ -1,6 +1,6 @@
 "Resource/UI/HudPlayerClass.res"
 {
-    "bh_classmodelpanel"
+    "classmodelpanel"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"

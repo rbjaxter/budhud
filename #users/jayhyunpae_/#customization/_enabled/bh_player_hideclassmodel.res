@@ -11,7 +11,7 @@
         "enabled"                                                   "0"
     }
 
-    "bh_classmodelpanel"
+    "classmodelpanel"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
