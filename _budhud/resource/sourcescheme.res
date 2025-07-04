@@ -76,6 +76,11 @@
 
     "BaseSettings"
     {
+        "FrameTitleBar.DisabledTextColor"                           "TFTanBright"
+        "ListPanel.SelectedTextColor"                               "bh_black"	// selected server font color
+        "ListPanel.SelectedBgColor"                                 "bh_gray"	// selected server highlight bg color
+        "ListPanel.SelectedOutOfFocusBgColor"                       "bh_gray"	// selected server highlight bg color (browser not selected)
+        "Menu.ArmedTextColor"                                       "bh_white"
         "Border.Bright"                                             "bh_white_t"
         "Border.Dark"                                               "bh_white_t"
         "Button.TextColor"                                          "bh_white"
@@ -156,10 +161,10 @@
             }
         }
 
-        "FrameBorder"
+        "FrameBorder"   // server browser border
         {
             "backgroundtype"                                        "0"
-            "proportional_scalar"                                   "0.5"
+            "proportional_scalar"                                   "0.75"
 
             "Left"
             {
@@ -198,9 +203,9 @@
             }
         }
 
-        "RaisedBorder"
+        "RaisedBorder" // server browser buttons & headers, console suggestion border
         {
-            "proportional_scalar"                                   "0.5"
+            "proportional_scalar"                                   "0.75"
 
             "Left"
             {
@@ -235,9 +240,9 @@
             }
         }
 
-        "ButtonKeyFocusBorder"
+        "ButtonKeyFocusBorder" // demoui buttons, server browser connect button
         {
-            "proportional_scalar"                                   "0.5"
+            "proportional_scalar"                                   "0.75"
 
             "Left"
             {
@@ -296,9 +301,9 @@
             }
         }
 
-        "ButtonDepressedBorder"
+        "ButtonDepressedBorder" // server browser server list border, map, max player count
         {
-            "proportional_scalar"                                   "0.5"
+            "proportional_scalar"                                   "0.75"
 
             "Left"
             {
@@ -333,9 +338,9 @@
             }
         }
 
-        "TabActiveBorder"
+        "TabActiveBorder" // server browser selected tab
         {
-            "proportional_scalar"                                   "0.5"
+            "proportional_scalar"                                   "0.75"
 
             "Left"
             {
