@@ -34,7 +34,7 @@
         "wide"                                                      "200"
         "tall"                                                      "50"
         "font"                                                      "bh_Font24"
-        "fgcolor_override"                                          "bh_white"
+        "fgcolor_override"                                          "bh_Metal"
     }
 
     "AccountValueShadow"
@@ -58,6 +58,6 @@
         "dulltext"                                                  "0"
         "brighttext"                                                "0"
         "font"                                                      "bh_Font24"
-        "fgcolor_override"                                          "bh_Shadow"
+        "fgcolor_override"                                          "bh_Metal_Shadow"
     }
 }
