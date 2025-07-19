@@ -11,8 +11,8 @@
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
-	}	
-	
+	}
+
 	"ScoreContainer"
 	{
 		"fieldName"				"ScoreContainer"
@@ -38,7 +38,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"proportionalToParent"	"1"
-			
+
 
 			"BlueProgressBarFill"
 			{
@@ -54,9 +54,9 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"scaleImage"	"0"	
-			}	
-			
+				"scaleImage"	"0"
+			}
+
 			"CartBase"
 			{
 				"ControlName"    "ImagePanel"
@@ -69,12 +69,12 @@
 				"visible"        "1"
 				"enabled"        "1"
 				"image"            "../tug_of_war/cart_grid"
-				"scaleImage"    "1"  
-				"pin_to_sibling"               "BlueProgressBarFill" 
-				"pin_corner_to_sibling"        "0"          
-				"pin_to_sibling_corner"        "1"  
+				"scaleImage"    "1"
+				"pin_to_sibling"               "BlueProgressBarFill"
+				"pin_corner_to_sibling"        "0"
+				"pin_to_sibling_corner"        "1"
 			}
-			
+
 			"CartBaseRed"
 			{
 				"ControlName"    "ImagePanel"
@@ -85,13 +85,12 @@
 				"wide"            "41"
 				"tall"            "41"
 				"visible"        "0"
-				"enabled"        "0"
-				"scaleImage"    "1"  
+				"scaleImage"    "1"
 				"pin_to_sibling"               "BlueProgressBarFill"
-				"pin_corner_to_sibling"        "0"          
-				"pin_to_sibling_corner"        "1"  
+				"pin_corner_to_sibling"        "0"
+				"pin_to_sibling_corner"        "1"
 			}
-			
+
 			"RedProgressBarFill"
 			{
 				"fieldName"				"RedProgressBarFill"
@@ -115,10 +114,10 @@
 				"left_to_right"			"0"
 				"blink_threshold"		"1"
 				"blink_rate"			"20"
-				"pin_to_sibling"               "CartBaseRed" 
-				"pin_corner_to_sibling"        "0"          
-				"pin_to_sibling_corner"        "1"  
-			}			
+				"pin_to_sibling"               "CartBaseRed"
+				"pin_corner_to_sibling"        "0"
+				"pin_to_sibling_corner"        "1"
+			}
 
 			"BlueProgressBarEscrow"
 			{
@@ -143,11 +142,11 @@
 				"left_to_right"			"1"
 				"blink_threshold"		"1"
 				"blink_rate"			"20"
-				"pin_to_sibling"               "CartBase" 
-				"pin_corner_to_sibling"        "0"          
-				"pin_to_sibling_corner"        "0"  
+				"pin_to_sibling"               "CartBase"
+				"pin_corner_to_sibling"        "0"
+				"pin_to_sibling_corner"        "0"
 			}
-			
+
 			"CartCapOverlay"
 			{
 				"ControlName"    "ImagePanel"
@@ -160,12 +159,12 @@
 				"visible"        "1"
 				"enabled"        "1"
 				"image"            "../tug_of_war/capture_grid"
-				"scaleImage"    "1"  
-				"pin_to_sibling"               "CartBase" 
-				"pin_corner_to_sibling"        "0"          
-				"pin_to_sibling_corner"        "0"  
+				"scaleImage"    "1"
+				"pin_to_sibling"               "CartBase"
+				"pin_corner_to_sibling"        "0"
+				"pin_to_sibling_corner"        "0"
 			}
-			
+
 			"CartCapOutline"
 			{
 				"ControlName"    "ImagePanel"
@@ -178,12 +177,12 @@
 				"visible"        "1"
 				"enabled"        "1"
 				"image"            "../tug_of_war/cart_cap_outline"
-				"scaleImage"    "1"  
-				"pin_to_sibling"               "CartBase" 
-				"pin_corner_to_sibling"        "0"          
-				"pin_to_sibling_corner"        "0"  
+				"scaleImage"    "1"
+				"pin_to_sibling"               "CartBase"
+				"pin_corner_to_sibling"        "0"
+				"pin_to_sibling_corner"        "0"
 			}
-			
+
 			"CartCapHightlight"
 			{
 				"ControlName"    "ImagePanel"
@@ -196,10 +195,10 @@
 				"visible"        "1"
 				"enabled"        "1"
 				"image"            "../tug_of_war/capture_highlight"
-				"scaleImage"    "1"  
-				"pin_to_sibling"               "CartBase" 
-				"pin_corner_to_sibling"        "4"          
-				"pin_to_sibling_corner"        "4"  
+				"scaleImage"    "1"
+				"pin_to_sibling"               "CartBase"
+				"pin_corner_to_sibling"        "4"
+				"pin_to_sibling_corner"        "4"
 			}
 		}
 	}
@@ -232,7 +231,7 @@
 			"enabled"			"1"
 			"tabPosition"		"0"
 			"Image"				"../tug_of_war/cart_track_32"
-			"scaleImage"		"1"		
+			"scaleImage"		"1"
 		}
 	}
 }
