@@ -4,28 +4,24 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "TryItOutButton"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "RotateLeftButton"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "RotateRightButton"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "FullscreenStorePreview"

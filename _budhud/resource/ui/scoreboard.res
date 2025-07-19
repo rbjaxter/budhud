@@ -4,91 +4,78 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "classmodelpanel"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "BlueScoreBG"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "RedScoreBG"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "PlayerNameBG"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "PlayerNameLabel"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "MainBG"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "ShadedBar"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "RedTeamScoreDropshadow"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "BlueTeamScoreDropshadow"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "BlueTeamImage"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "RedTeamImage"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "RedTeamScoreDropshadow"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
     //// Refract used to cover up medal appearing in top left when scoreboard is opened during killcam
     //// Actual refract VTF & VMT materials borrowed from JarateKing
@@ -180,7 +167,6 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
     }
 
@@ -234,7 +220,6 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "BlueTeamPlayerCount"
@@ -250,7 +235,6 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
     }
 
@@ -267,7 +251,6 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
     }
 
@@ -300,7 +283,6 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "RedTeamPlayerCount"
@@ -411,7 +393,6 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
     }
 
@@ -557,7 +538,6 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "DamageLabel"
@@ -942,34 +922,29 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "TimerBG"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "ServerTimeLeftLabel"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "ServerTimeLeftValue"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
 
         "if_mvm"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
     }
 }

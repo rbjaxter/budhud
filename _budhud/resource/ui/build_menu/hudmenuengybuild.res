@@ -6,42 +6,36 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "BuildIconShadow"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "Divider"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "CancelLabel"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "TitleLabel"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "TitleLabelDropShadow"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "bh_EngineerBuildPin"

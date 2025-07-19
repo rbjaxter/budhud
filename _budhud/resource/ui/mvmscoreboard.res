@@ -4,7 +4,6 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "bh_LocalStatsPin"
@@ -106,7 +105,6 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "CreditStatsContainer"
@@ -122,14 +120,12 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "CreditsLabel"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "PreviousWaveCreditInfoPanel"

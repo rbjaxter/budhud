@@ -5,7 +5,6 @@
         "ypos"                                                      "r-6969"
         "zpos"                                                      "2"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "PlayerStatusHealthBonusImage"
@@ -13,7 +12,6 @@
         "ypos"                                                      "r-6969"
         "zpos"                                                      "3"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "BuildingStatusHealthImageBG"
@@ -21,7 +19,6 @@
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
         "zpos"                                                      "2"
-        "enabled"                                                   "0"
     }
 
     "PlayerStatusHealthImageBG"
@@ -29,7 +26,6 @@
         "ypos"                                                      "r-6969"
         "zpos"                                                      "2"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "bh_TargetIDHealthPin"
@@ -77,7 +73,6 @@
         "pinCorner"                                                 "0"
         "labeltext"                                                 ""
         "visible"                                                   "0"
-        "enabled"                                                   "0"
         "bgcolor_override"                                          "bh_Theme_BG40"
     }
 
@@ -121,7 +116,6 @@
         "pinCorner"                                                 "0"
         "labeltext"                                                 ""
         "visible"                                                   "0"
-        "enabled"                                                   "0"
         "bgcolor_override"                                          "bh_Health_Buff"
         "alpha"                                                     "0"
 
@@ -143,7 +137,6 @@
         "pinCorner"                                                 "0"
         "labeltext"                                                 ""
         "visible"                                                   "0"
-        "enabled"                                                   "0"
         "fillcolor"                                                 "0 0 0 100"
         "image"                                                     ""
         "paintbackgroundtype"                                       "0"

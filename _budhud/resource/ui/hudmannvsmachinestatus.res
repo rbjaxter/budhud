@@ -19,7 +19,6 @@
         "autoResize"                                                "0"
         "pinCorner"                                                 "0"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
         "paintbackgroundtype"                                       "0"
 
         "ypos_minmode"                                              "54"

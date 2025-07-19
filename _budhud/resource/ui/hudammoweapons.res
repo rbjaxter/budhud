@@ -4,14 +4,12 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "HudWeaponLowAmmoImage"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "bh_AmmoBG"

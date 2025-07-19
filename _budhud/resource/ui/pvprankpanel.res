@@ -54,7 +54,6 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "DescLine1"
@@ -220,7 +219,6 @@
                 {
                     "ypos"                                          "r-6969"
                     "visible"                                       "0"
-                    "enabled"                                       "0"
                 }
             }
 
@@ -241,14 +239,12 @@
                 {
                     "ypos"                                          "r-6969"
                     "visible"                                       "0"
-                    "enabled"                                       "0"
                 }
 
                 "Frame"
                 {
                     "ypos"                                          "r-6969"
                     "visible"                                       "0"
-                    "enabled"                                       "0"
                 }
 
                 // First column
@@ -421,7 +417,6 @@
                 {
                     "ypos"                                          "r-6969"
                     "visible"                                       "0"
-                    "enabled"                                       "0"
                 }
             }
 

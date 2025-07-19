@@ -4,14 +4,12 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "RightSideBG"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "ObjectiveStatusFlagPanel"
@@ -106,7 +104,6 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
 
         "if_hybrid"
         {
@@ -170,27 +167,23 @@
         "fgcolor_override"                                          "bh_Shadow"
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
 
         "if_hybrid"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "if_mvm"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "if_specialdelivery"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "if_no_flags"
@@ -338,34 +331,29 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
 
         "if_hybrid"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "if_hybrid_single"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "if_mvm"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "if_specialdelivery"
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "if_no_flags"
@@ -487,6 +475,5 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 }

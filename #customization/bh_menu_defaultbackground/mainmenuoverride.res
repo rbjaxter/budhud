@@ -64,7 +64,6 @@
         "wide"                                                      "f0"
         "tall"                                                      "f0"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
         "proportionaltoparent"                                      "1"
 
         "if_christmas"

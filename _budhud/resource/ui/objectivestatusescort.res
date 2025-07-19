@@ -220,7 +220,6 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
 
             "if_multiple_trains_bottom"
             {
@@ -258,7 +257,6 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "CapNumPlayers"
@@ -322,13 +320,11 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
 
             "ProgressText"
             {
                 "ypos"                                              "r-6969"
                 "visible"                                           "0"
-                "enabled"                                           "0"
             }
 
             "Blocked"

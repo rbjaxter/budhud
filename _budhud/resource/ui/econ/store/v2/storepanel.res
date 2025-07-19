@@ -4,35 +4,30 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "CloseButton"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "BackgroundHeader"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "BackgroundFooter"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "FooterLine"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "bh_BackgroundFooter"
@@ -91,7 +86,6 @@
 
     "ypos"                                                      "r-6969"
     "visible"                                                   "0"
-    "enabled"                                                   "0"
     }
 
     "CheckoutButton"

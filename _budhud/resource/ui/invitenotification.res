@@ -4,7 +4,6 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // ypos of this seems to be set by an animation or something, probably not worth messing with it

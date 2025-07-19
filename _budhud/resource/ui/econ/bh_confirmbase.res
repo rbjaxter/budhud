@@ -63,7 +63,6 @@
         "pinCorner"                                                 "0"
         "labeltext"                                                 ""
         "visible"                                                   "0"
-        "enabled"                                                   "0"
         "fillcolor"                                                 "bh_Theme_BG20"
         "image"                                                     ""
         "paintbackgroundtype"                                       "0"

@@ -43,7 +43,6 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "TitleLabel"
@@ -114,7 +113,6 @@
         "autoResize"                                                "0"
         "pinCorner"                                                 "0"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
         "wide"                                                      "0"
         "fgcolor_override"                                          "bh_Theme_TextAccent"
     }

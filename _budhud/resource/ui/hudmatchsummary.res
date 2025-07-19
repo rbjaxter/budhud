@@ -31,7 +31,6 @@
                 {
                     "ypos"                                          "r-6969"
                     "visible"                                       "0"
-                    "enabled"                                       "0"
                 }
 
                 "BlueTeamScoreBG"
@@ -49,7 +48,6 @@
                 {
                     "ypos"                                          "r-6969"
                     "visible"                                       "0"
-                    "enabled"                                       "0"
                 }
 
                 "BluePlayerListParent"
@@ -71,7 +69,6 @@
                 {
                     "ypos"                                          "r-6969"
                     "visible"                                       "0"
-                    "enabled"                                       "0"
                 }
             }
 
@@ -81,7 +78,6 @@
                 {
                     "ypos"                                          "r-6969"
                     "visible"                                       "0"
-                    "enabled"                                       "0"
                 }
 
                 "RedTeamScoreBG"
@@ -98,7 +94,6 @@
                 {
                     "ypos"                                          "r-6969"
                     "visible"                                       "0"
-                    "enabled"                                       "0"
                 }
 
                 "RedPlayerListParent"
@@ -122,7 +117,6 @@
                 {
                     "ypos"                                          "r-6969"
                     "visible"                                       "0"
-                    "enabled"                                       "0"
                 }
             }
         }

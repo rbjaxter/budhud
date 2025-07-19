@@ -17,7 +17,6 @@
     "hud_crosshair_1"
     {
         // Change these
-        "enabled"                                                   "0"
         "visible"                                                   "0"
         "labeltext"                                                 "F"
         "font"                                                      "Crosshair: TF2Crosshairs | Size: 17 | Outline: On"
@@ -37,7 +36,6 @@
     "hud_crosshair_2"
     {
         // Change these
-        "enabled"                                                   "0"
         "visible"                                                   "0"
         "labeltext"                                                 "F"
         "font"                                                      "Crosshair: TF2Crosshairs | Size: 17 | Outline: On"
@@ -57,7 +55,6 @@
     "hud_crosshair_3"
     {
         // Change these
-        "enabled"                                                   "0"
         "visible"                                                   "0"
         "labeltext"                                                 "F"
         "font"                                                      "Crosshair: TF2Crosshairs | Size: 17 | Outline: On"
@@ -88,7 +85,6 @@
     "hud_crosshair_whayay"
     {
         // Change these
-        "enabled"                                                   "0"
         "visible"                                                   "0"
         "labeltext"                                                 "f"
         "font"                                                      "Crosshair: whayay | Size: 17 | Outline: On"
@@ -108,7 +104,6 @@
     "hud_crosshair_knuckles"
     {
         // Change these
-        "enabled"                                                   "0"
         "visible"                                                   "0"
         "labeltext"                                                 "f"
         "font"                                                      "Crosshair: Knuckles | Size: 17 | Outline: On"
@@ -128,7 +123,6 @@
     "hud_crosshair_fog"
     {
         // Change these
-        "enabled"                                                   "0"
         "visible"                                                   "0"
         "labeltext"                                                 "f"
         "font"                                                      "Crosshair: Fog | Size: 17 | Outline: On"

@@ -126,7 +126,6 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "BGPanel"
@@ -142,7 +141,6 @@
         {
             "ypos"                                                  "r-6969"
             "visible"                                               "0"
-            "enabled"                                               "0"
         }
 
         "JoinPartyLobbyContainer"	// join party member's mm game
@@ -151,7 +149,6 @@
             {
                 "ypos"                                              "r-6969"
                 "visible"                                           "0"
-                "enabled"                                           "0"
             }
 
             "BGPanel"
@@ -194,7 +191,6 @@
             {
                 "ypos"                                              "r-6969"
                 "visible"                                           "0"
-                "enabled"                                           "0"
             }
 
             "CloseButton"
@@ -218,7 +214,6 @@
                 {
                     "ypos"                                          "r-6969"
                     "visible"                                       "0"
-                    "enabled"                                       "0"
                 }
             }
 
@@ -242,7 +237,6 @@
                 {
                     "ypos"                                          "r-6969"
                     "visible"                                       "0"
-                    "enabled"                                       "0"
                 }
             }
         }

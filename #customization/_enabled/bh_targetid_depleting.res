@@ -4,7 +4,6 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "bh_HealthBGDepleting"
@@ -49,7 +48,6 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "bh_PlayerStatusHealthValueShadow_Override"	// Place black shadow over existing

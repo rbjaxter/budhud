@@ -4,14 +4,12 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "ItemEffectMeterBG"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     // Colored item effect meter
@@ -63,10 +61,10 @@
         "wide"                                                      "f0"
         "tall"                                                      "6"
         "proportionaltoparent"                                      "1"
-        "enabled"                                                   "0"
         "labelText"                                                 "#TF_Ball"
         "textAlignment"                                             "center"
         "font"                                                      "bh_Font6"
+        "enabled"                                                   "0"
         "disabledfgcolor2_override"                                 "bh_metertext"
     }
 
@@ -102,7 +100,6 @@
         "autoResize"                                                "0"
         "pinCorner"                                                 "0"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
         "textAlignment"                                             "Left"
         "dulltext"                                                  "0"
         "brighttext"                                                "0"

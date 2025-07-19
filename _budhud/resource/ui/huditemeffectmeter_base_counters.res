@@ -4,7 +4,6 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "HudItemEffectMeter"
@@ -28,12 +27,12 @@
         "autoResize"                                                "1"
         "pinCorner"                                                 "2"
         "visible"                                                   "1"
-        "enabled"                                                   "1"
         "tabPosition"                                               "0"
         "labelText"                                                 "#TF_Ball"
         "textAlignment"                                             "center"
         "font"                                                      "bh_Font10"
-        "fgcolor_override"                                          "bh_white"      // Hardcoded
+        "enabled"                                                   "0"
+        "disabledfgcolor2_override"                                 "bh_metertext"
     }
 
     "ItemEffectMeter"
@@ -49,7 +48,6 @@
         "autoResize"                                                "0"
         "pinCorner"                                                 "0"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
         "textAlignment"                                             "Left"
         "dulltext"                                                  "0"
         "brighttext"                                                "0"

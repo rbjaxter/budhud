@@ -5,14 +5,12 @@
         "ypos"                                                      "r-6969"
         "wide"                                                      "0"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "ShadedBar"
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "MapInfoContinue"
@@ -27,7 +25,6 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "MapInfoWatchIntro"
@@ -42,7 +39,6 @@
     {
         "ypos"                                                      "r-6969"
         "visible"                                                   "0"
-        "enabled"                                                   "0"
     }
 
     "MapInfoTitle"
