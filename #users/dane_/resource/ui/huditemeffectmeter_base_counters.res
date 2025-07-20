@@ -31,8 +31,6 @@
         "textAlignment"                                             "center"
         "font"                                                      "bh_Font10"
         "fgcolor_override"                                          "bh_white"
-        "enabled"                                                   "0"
-        "disabledfgcolor2_override"                                 "bh_metertext"
     }
 
     "ItemEffectMeter"
