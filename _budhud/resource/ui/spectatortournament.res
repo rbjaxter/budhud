@@ -1,4 +1,4 @@
-"#base"                                                             "hudinspectpanel.res"	// Base to hudinspectpanel to grab its itempanel
+#base "hudinspectpanel.res"     // Base to hudinspectpanel to grab its itempanel
 
 "Resource/UI/SpectatorTournament.res"
 {
