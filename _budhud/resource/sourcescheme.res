@@ -498,7 +498,8 @@
             {
                 "name"                                              "Lato Semibold" [!$POSIX]
                 "name"                                              "Verdana" [$POSIX]
-                "tall"                                              "16"
+				"tall"		                                        "16" [!$LINUX]
+				"tall"		                                        "18" [$LINUX]
                 "antialias"                                         "1"
                 "weight"                                            "500"
             }
@@ -510,7 +511,8 @@
             {
                 "name"                                              "Lato Semibold" [!$POSIX]
                 "name"                                              "Verdana" [$POSIX]
-                "tall"                                              "13"
+				"tall"		                                        "13" [!$POSIX]
+				"tall"		                                        "15" [$POSIX]
                 "antialias"                                         "1"
                 "weight"                                            "500"
             }
@@ -533,8 +535,10 @@
             "1"
             {
                 "name"                                              "Lucida Console"	// Monospaced
-                "tall"                                              "12"
+                "tall"		                                        "12" [!$LINUX]
+				"tall"		                                        "14" [$LINUX]
                 "antialias"                                         "1"
+                "weight"                                            "500"
             }
         }
 
