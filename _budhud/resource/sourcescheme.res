@@ -538,7 +538,6 @@
                 "tall"                                              "12" [!$LINUX]
                 "tall"                                              "14" [$LINUX]
                 "antialias"                                         "1"
-                "weight"                                            "500"
             }
         }
 
