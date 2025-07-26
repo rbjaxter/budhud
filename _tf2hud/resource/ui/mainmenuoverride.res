@@ -1711,87 +1711,132 @@
 				{
 					"0"
 					{
-						"item"		"Winter 2024 Cosmetic Key" 
+						"item"		"Summer 2025 Cosmetic Key" 
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Winter 2024 Cosmetic Case"
+						"item"		"Summer 2025 Cosmetic Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Taunt: Curtain Call"
+						"item"		"Taunt: The Final Score"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Taunt: Peace!"
+						"item"		"Taunt: Bear Hug"
 						"show_market"	"0"
 					}
 					"4"
 					{
-						"item"		"Taunt: Fore-Head Slice"
+						"item"		"Taunt: Texan Trickshot"
 						"show_market"	"0"
 					}
 					"5"
 					{
-						"item"		"Map Token Overcast"
+						"item"		"Taunt: Flying Colors"
 						"show_market"	"0"
 					}
 					"6"
 					{
-						"item"		"Map Token Fortezza"
+						"item"		"Map Token Citadel"
 						"show_market"	"0"
 					}
 					"7"
 					{
-						"item"		"Map Token Penguin Peak"
+						"item"		"Map Token Aquarius"
 						"show_market"	"0"
 					}
 					"8"
 					{
-						"item"		"Map Token Patagonia"
+						"item"		"Map Token Fulgur"
 						"show_market"	"0"
 					}
 					"9"
 					{
-						"item"		"Map Token Cutter"
+						"item"		"Map Token Cargo"
 						"show_market"	"0"
 					}
 					"10"
 					{
-						"item"		"Map Token Maul"
+						"item"		"Map Token Conifer"
 						"show_market"	"0"
 					}
 					"11"
 					{
-						"item"		"Strange Filter: Overcast (Community)"
+						"item"		"Map Token Boardwalk"
 						"show_market"	"0"
 					}
 					"12"
 					{
-						"item"		"Strange Filter: Fortezza (Community)"
+						"item"		"Map Token Blowout"
 						"show_market"	"0"
 					}
 					"13"
 					{
-						"item"		"Strange Filter: Penguin Peak (Community)"
+						"item"		"Map Token Mannhole"
 						"show_market"	"0"
 					}
 					"14"
 					{
-						"item"		"Strange Filter: Patagonia (Community)"
+						"item"		"Map Token Demolition"	
 						"show_market"	"0"
 					}
 					"15"
 					{
-						"item"		"Strange Filter: Cutter (Community)"
+						"item"		"Map Token Pressure"
 						"show_market"	"0"
 					}
 					"16"
 					{
-						"item"		"Strange Filter: Maul (Community)"
+						"item"		"Strange Filter: Citadel (Community)"
+						"show_market"	"0"
+					}
+					"17"
+					{
+						"item"		"Strange Filter: Aquarius (Community)"
+						"show_market"	"0"
+					}
+					"18"
+					{
+						"item"		"Strange Filter: Fulgur (Community)"
+						"show_market"	"0"
+					}
+					"19"
+					{
+						"item"		"Strange Filter: Cargo (Community)"
+						"show_market"	"0"
+					}
+					"20"
+					{
+						"item"		"Strange Filter: Conifer (Community)"
+						"show_market"	"0"
+					}
+					"21"
+					{
+						"item"		"Strange Filter: Boardwalk (Community)"
+						"show_market"	"0"
+					}
+					"22"
+					{
+						"item"		"Strange Filter: Blowout (Community)"
+						"show_market"	"0"
+					}
+					"23"
+					{
+						"item"		"Strange Filter: Mannhole (Community)"
+						"show_market"	"0"
+					}
+					"24"
+					{
+						"item"		"Strange Filter: Demolition (Community)"
+						"show_market"	"0"
+					}
+					"25"
+					{
+						"item"		"Strange Filter: Pressure (Community)"
 						"show_market"	"0"
 					}
 				}
