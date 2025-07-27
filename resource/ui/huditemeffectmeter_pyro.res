@@ -1,5 +1,8 @@
     #base    "../../#users/custom/resource/ui/huditemeffectmeter_pyro.res"
     #base    "../../#users/jayhyunpae/resource/ui/huditemeffectmeter_pyro.res"
+    #base    "../../#customization/_enabled/bh_player_uicentered/huditemeffectmeter_pyro.res"
+    #base    "../../#customization/_enabled/bh_player_uilowered/huditemeffectmeter_pyro.res"
+    #base    "../../#customization/_enabled/bh_player_uireduced/huditemeffectmeter_pyro.res"
     #base    "../../_stream/resource/ui/huditemeffectmeter_pyro.res"
     #base    "../../_budhud/resource/ui/huditemeffectmeter_pyro.res"
     #base    "../../_tf2hud/resource/ui/huditemeffectmeter_pyro.res"

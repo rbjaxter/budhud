@@ -1,5 +1,6 @@
     #base    "../../#users/custom/resource/ui/hudrocketpack.res"
     #base    "../../#users/jayhyunpae/resource/ui/hudrocketpack.res"
+    #base    "../../#customization/_enabled/bh_player_uicentered/hudrocketpack.res"
     #base    "../../_stream/resource/ui/hudrocketpack.res"
     #base    "../../_budhud/resource/ui/hudrocketpack.res"
     #base    "../../_tf2hud/resource/ui/hudrocketpack.res"

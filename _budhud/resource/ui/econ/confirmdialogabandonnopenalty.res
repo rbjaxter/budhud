@@ -2,11 +2,11 @@
 // Disconnect Confirmation (No Penalty) - Casual. Has different explanations, which causes
 // different line resizing :(
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-#base   "confirmdialog.res"
+"#base"                                                             "confirmdialog.res"
 
 "Resource/UI/ConfirmDialogAbandonNoPenalty.res"
 {
-    "ConfirmDialog" // breaks without
+    "ConfirmDialog"	// breaks without
     {
     }
 }

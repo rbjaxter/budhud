@@ -1,5 +1,8 @@
     #base    "../../#users/custom/resource/ui/huddemomancharge.res"
     #base    "../../#users/jayhyunpae/resource/ui/huddemomancharge.res"
+    #base    "../../#customization/_enabled/bh_player_uicentered/huddemomancharge.res"
+    #base    "../../#customization/_enabled/bh_player_uilowered/huddemomancharge.res"
+    #base    "../../#customization/_enabled/bh_player_uireduced/huddemomancharge.res"
     #base    "../../_stream/resource/ui/huddemomancharge.res"
     #base    "../../_budhud/resource/ui/huddemomancharge.res"
     #base    "../../_tf2hud/resource/ui/huddemomancharge.res"

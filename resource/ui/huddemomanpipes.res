@@ -1,5 +1,8 @@
     #base    "../../#users/custom/resource/ui/huddemomanpipes.res"
     #base    "../../#users/jayhyunpae/resource/ui/huddemomanpipes.res"
+    #base    "../../#customization/_enabled/bh_player_uicentered/huddemomanpipes.res"
+    #base    "../../#customization/_enabled/bh_player_uilowered/huddemomanpipes.res"
+    #base    "../../#customization/_enabled/bh_player_uireduced/huddemomanpipes.res"
     #base    "../../_stream/resource/ui/huddemomanpipes.res"
     #base    "../../_budhud/resource/ui/huddemomanpipes.res"
     #base    "../../_tf2hud/resource/ui/huddemomanpipes.res"

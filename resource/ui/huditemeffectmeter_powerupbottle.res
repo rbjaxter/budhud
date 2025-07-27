@@ -1,5 +1,8 @@
     #base    "../../#users/custom/resource/ui/huditemeffectmeter_powerupbottle.res"
     #base    "../../#users/jayhyunpae/resource/ui/huditemeffectmeter_powerupbottle.res"
+    #base    "../../#customization/_enabled/bh_player_uicentered/huditemeffectmeter_powerupbottle.res"
+    #base    "../../#customization/_enabled/bh_player_uilowered/huditemeffectmeter_powerupbottle.res"
+    #base    "../../#customization/_enabled/bh_player_uireduced/huditemeffectmeter_powerupbottle.res"
     #base    "../../_stream/resource/ui/huditemeffectmeter_powerupbottle.res"
     #base    "../../_budhud/resource/ui/huditemeffectmeter_powerupbottle.res"
     #base    "../../_tf2hud/resource/ui/huditemeffectmeter_powerupbottle.res"

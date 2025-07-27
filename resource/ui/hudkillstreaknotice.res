@@ -1,4 +1,7 @@
     #base    "../../#users/custom/resource/ui/hudkillstreaknotice.res"
+    #base    "../../#customization/_enabled/bh_player_uicentered/hudkillstreaknotice.res"
+    #base    "../../#customization/_enabled/bh_player_uilowered/hudkillstreaknotice.res"
+    #base    "../../#customization/_enabled/bh_player_uireduced/hudkillstreaknotice.res"
     #base    "../../_stream/resource/ui/hudkillstreaknotice.res"
     #base    "../../_budhud/resource/ui/hudkillstreaknotice.res"
     #base    "../../_tf2hud/resource/ui/hudkillstreaknotice.res"
