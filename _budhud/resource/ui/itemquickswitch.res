@@ -26,6 +26,11 @@
             "wide"                                                  "240"
             "model_xpos"                                            "0"
             "text_wide"                                             "180"
+
+            "itemmodelpanel"
+            {
+                "inventory_image_type"		"1"
+            }
         }
     }
 
