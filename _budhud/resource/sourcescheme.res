@@ -485,7 +485,7 @@
                 "name"                                              "Lato Semibold" [!$POSIX]
                 "name"                                              "Verdana" [$POSIX]
                 "tall"                                              "29"
-                "yres"                                              "2080 2255"
+                "yres"                                              "2080 6000" // 2255
                 "weight"                                            "500"
                 "antialias"                                         "1"
                 "dropshadow"                                        "1"

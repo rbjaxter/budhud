@@ -266,7 +266,7 @@
                 "antialias"                                         "1"
             }
 
-            "5"	// Misyl: Proportional
+            "5"
             {
                 "name"                                              "Lato Semibold"
                 "tall"                                              "11"
@@ -1218,7 +1218,7 @@
                 "antialias"                                         "1"
             }
 
-            "5"	// Misyl: Proportional
+            "5"
             {
                 "name"                                              "Lato Semibold"
                 "tall"                                              "9"
@@ -1304,7 +1304,7 @@
                 "antialias"                                         "1"
             }
 
-            "5"	// Misyl: Proportional
+            "5"
             {
                 "name"                                              "Lato Semibold"
                 "tall"                                              "9"
@@ -1362,7 +1362,7 @@
                 "antialias"                                         "1"
             }
 
-            "5"	// Misyl: Proportional
+            "5"
             {
                 "name"                                              "Lato Semibold"
                 "tall"                                              "9"
@@ -1412,7 +1412,7 @@
                 "antialias"                                         "1"
             }
 
-            "5"	// Misyl: Proportional
+            "5"
             {
                 "name"                                              "Lato Semibold"
                 "tall"                                              "18"
@@ -1500,7 +1500,7 @@
                 "yres"                                              "1024 1199"
             }
 
-            "5"	// Misyl: Proportional
+            "5"
             {
                 "name"                                              "Lato Semibold"
                 "tall"                                              "12"
@@ -1639,7 +1639,7 @@
             }
         }
 
-        "HudFontMediumSecondary"
+        "HudFontMediumSecondary" // Also controls context menu (backpack, medal select on main menu, etc)
         {
             "1"
             {
@@ -1651,7 +1651,7 @@
                 "antialias"                                         "1"
             }
 
-            "2"	// Misyl: Proportional
+            "2"
             {
                 "name"                                              "Lato Semibold"
                 "tall"                                              "10"
