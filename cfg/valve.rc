@@ -1,25 +1,84 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Default commands
+    // HUD commands to run BEFORE user configurations.
+    // This way, we allow users to override them.
+    // "stored" means the values are saved in config.cfg, so you don't need to
+    // reset such ConVars if you uninstall budhud. If not specified, it is not stored, so a
+    // game restart is sufficient to automatically reset such ones.
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Run user script files
-    exec joystick.cfg
-    exec autoexec.cfg
 
-    // Parse and stuff command line + commands to command buffer
-    stuffcmds
+    // Any more would cause overlap due to the achievement tracker being pushed down to accomodate the Engineer build UI
+    // Default: 3 (stored)
+    hud_achievement_count_engineer                                  3
 
-    // Open initial menu screen and load the background bsp,
-    // but only if no other level is being loaded, and we're not in developer mode
-    startupmenu
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Default valve.rc contents
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    // Not used anymore, according to mastercoms
-    // (previously was used long ago to use the CPU to scan for small decals to stop rendering)
-    // Default: 5
-    r_decal_cullsize                                                1
+// load the base configuration
+//exec default.cfg
+r_decal_cullsize 1
 
-    // Allow menu backgrounds to display randomly by unlocking all chapters
+// Setup custom controller
+exec joystick.cfg
+
+// run a user script file if present
+exec autoexec.cfg
+
+//
+// stuff command line statements
+//
+stuffcmds
+
+// display the startup level
+startupmenu
+
+sv_unlockedchapters 99
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // HUD commands to run AFTER user configurations.
+    // This way, we enforce users to such values.
+    // "stored" means the values are saved in config.cfg, so you don't need to
+    // reset such ConVars if you uninstall budhud. If not specified, it is not stored, so a
+    // game restart is sufficient to automatically reset such ones.
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    // Setting this to 0 can cause stuttering issues with Engineer PDAs (maybe Spy disguise as well?)
     // Default: 1
-    sv_unlockedchapters                                             99
+    vgui_cache_res_files                                            1
+
+    // The hud is designed to work around minmode being set to 0, but it will work either way
+    // Default: 0 (stored)
+    cl_hud_minmode                                                  0
+
+    // Shows robots left in mvm all-time
+    // Default: 0 (stored)
+    cl_mvm_wave_status_visible_during_wave                          1
+
+    // Spectating TargetID location
+    // Default: 0 (stored)
+    tf_spectator_target_location                                    0
+
+    // Filter out error messages about animation customizations it cant find
+    // Default: 0
+    con_filter_enable                                               1
+    // Default: ""
+    con_filter_text_out                                             "Couldn't find script file"
+
+    // Enforce consistent Target ID alpha to possible fix lag for some users
+    // Does not actually change anything, but the game's code can be weird in regard to this
+    // Default: 100 (stored)
+    tf_hud_target_id_alpha                                          255
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Commands recommended by mastercoms
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // This is the interpolation value for the Payload HUD updates
+    // Default: 0.2
+    hud_escort_interp                                               0.1
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // HUD start-up echo
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     echo ;
     echo ;
@@ -37,36 +96,3 @@
     echo ======================================================;
     echo ;
     echo ;
-
-    // Setting this to 0 can cause stuttering issues with Engineer PDAs (maybe spy disguise as well?)
-    // Default: 1
-    vgui_cache_res_files                                            1
-
-    // The hud is designed to work around minmode being set to 0, but it will work either way
-    // Default: 0
-    cl_hud_minmode                                                  0
-
-    // Shows robots left in mvm all-time
-    // Default: 0
-    cl_mvm_wave_status_visible_during_wave                          1
-
-    // Any more would cause overlap due to the achievement tracker being pushed down to accomodate the engineer build UI
-    // Default: 3
-    hud_achievement_count_engineer                                  3
-
-    // Spectating TargetID location
-    // Default: 0
-    tf_spectator_target_location                                    0
-
-    // Filter out error messages about animation customizations it cant find
-    // Default: 0
-    con_filter_enable                                               1
-    // Default: ""
-    con_filter_text_out                                             "Couldn't find script file"
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Commands recommended by mastercoms
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // This is the interp for the payload HUD updates
-    // Default: 0.2
-    hud_escort_interp                                               0.1
