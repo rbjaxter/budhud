@@ -232,6 +232,7 @@
         "ControlName"                                               "CExImageButton"
         "fieldName"                                                 "bh_Backpack"
         "labelText"                                                 "#bh_Backpack"
+        "allcaps"                                                   "1"
         "font"                                                      "bh_Font20"
 
         "xpos"                                                      "0"
@@ -257,6 +258,7 @@
         "ControlName"                                               "CExImageButton"
         "fieldName"                                                 "bh_BackpackShadow"
         "labelText"                                                 "#bh_Backpack"
+        "allcaps"                                                   "1"
         "font"                                                      "bh_Font20"
 
         "xpos"                                                      "-1"
@@ -281,6 +283,7 @@
         "ControlName"                                               "CExImageButton"
         "fieldName"                                                 "bh_Store"
         "labelText"                                                 "#bh_Store"
+        "allcaps"                                                   "1"
         "font"                                                      "bh_Font20"
 
         "xpos"                                                      "0"
@@ -306,6 +309,7 @@
         "ControlName"                                               "CExImageButton"
         "fieldName"                                                 "bh_StoreShadow"
         "labelText"                                                 "#bh_Store"
+        "allcaps"                                                   "1"
         "font"                                                      "bh_Font20"
 
         "xpos"                                                      "-1"
@@ -330,6 +334,7 @@
         "ControlName"                                               "CExImageButton"
         "fieldName"                                                 "bh_Options"
         "labelText"                                                 "#bh_Options"
+        "allcaps"                                                   "1"
         "font"                                                      "bh_Font20"
 
         "xpos"                                                      "0"
@@ -355,6 +360,7 @@
         "ControlName"                                               "CExImageButton"
         "fieldName"                                                 "bh_OptionsShadow"
         "labelText"                                                 "#bh_Options"
+        "allcaps"                                                   "1"
         "font"                                                      "bh_Font20"
 
         "xpos"                                                      "-1"
@@ -379,6 +385,7 @@
         "ControlName"                                               "CExImageButton"
         "fieldName"                                                 "bh_AdvOptions"
         "labelText"                                                 "#bh_AdvOptions"
+        "allcaps"                                                   "1"
         "font"                                                      "bh_Font20"
 
         "xpos"                                                      "0"
@@ -404,6 +411,7 @@
         "ControlName"                                               "CExImageButton"
         "fieldName"                                                 "bh_AdvOptionsShadow"
         "labelText"                                                 "#bh_AdvOptions"
+        "allcaps"                                                   "1"
         "font"                                                      "bh_Font20"
 
         "xpos"                                                      "-1"
@@ -428,6 +436,7 @@
 //      "ControlName"                                               "CExImageButton"
 //      "fieldName"                                                 "bh_Quit"
 //      "labelText"                                                 "#bh_Quit"
+//      "allcaps"                                                   "1"
 //      "font"                                                      "bh_Font20"
 //
 //      "xpos"                                                      "0"
@@ -473,6 +482,7 @@
         "MOTD_URLButton"
         {
             "labelText"                                             "#bh_OpenLink"
+            "allcaps"                                               "1"
 
             "defaultBgColor_override"                               "bh_Theme_BG20"
             "armedBgColor_override"                                 "bh_Theme_BG30"

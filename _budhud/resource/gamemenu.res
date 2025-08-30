@@ -23,6 +23,7 @@
         "command"                                                   "engine connect 162.248.93.239:27015"
         "OnlyAtMenu"                                                "0"
         "tooltip"                                                   "jump.tf | Beginners (Los Angeles)"
+        "allcaps"                                                   "1"
     }
 
     "bh_Favorite2"
@@ -31,6 +32,7 @@
         "command"                                                   "engine connect 74.91.113.87:27025"
         "OnlyAtMenu"                                                "0"
         "tooltip"                                                   "jumpacademy.tf | Beginners (Chicago)"
+        "allcaps"                                                   "1"
     }
 
     "bh_budhudTitle"
@@ -38,21 +40,22 @@
         "label"                                                     "— budhud —"
         "command"                                                   "engine con_enable 1;showconsole;clear;
                                                                     echo ======================================================;
-                                                                    echo ~~~~~~~~~~~~~~~~~ budhud, by Whisker ~~~~~~~~~~~~~~~~~;
-                                                                    echo ~~~~~~~~~~~~~~~~~~~~~~ Est 2014 ~~~~~~~~~~~~~~~~~~~~~~;
+                                                                    echo ~~~~~~~~~~~~~~~~~ budhud, made by Whisker ~~~~~~~~~~~~~~~~~;
+                                                                    echo ~~~~~~~~~~~~~~~~~~~~~~ Est. 2014 ~~~~~~~~~~~~~~~~~~~~~~;
                                                                     echo ======================================================;
                                                                     echo ~~~~~~~~~~~~ github.com/rbjaxter/budhud ~~~~~~~~~~~~~~;
                                                                     echo ~~~~~~~~~~~~~ discord.com/invite/TkxNKU2 ~~~~~~~~~~~~~;
                                                                     echo ~~~~~~~~~ steamcommunity.com/groups/budhud ~~~~~~~~~~~;
                                                                     echo ======================================================;
                                                                     echo ~~~~~~~~~ Please report bugs in the Discord! ~~~~~~~~~;
-                                                                    echo ~~ Thank you to everyone who actively uses my hud! ~~~;
+                                                                    echo ~~ Thanks to everyone who actively uses my HUD! ~~~;
                                                                     echo ======================================================;
                                                                     echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
                                                                     echo *~*~*~*~*~*~*~ ad astra per alas porci *~*~*~*~*~*~*~*;
                                                                     echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;
                                                                     echo ======================================================;"
         "tooltip"                                                   "Updated August 2025"
+        "allcaps"                                                   "1"
     }
 
     "bh_Streams"
@@ -61,6 +64,7 @@
         "command"                                                   "watch_stream"
         "OnlyAtMenu"                                                "0"
         "tooltip"                                                   "#bh_TwitchStreams"
+        "allcaps"                                                   "1"
     }
 
     "bh_Contracts"
@@ -69,6 +73,7 @@
         "command"                                                   "questlog"
         "OnlyAtMenu"                                                "0"
         "tooltip"                                                   "#bh_Contracts"
+        "allcaps"                                                   "1"
     }
 
     "bh_News"
@@ -77,6 +82,7 @@
         "command"                                                   "motd_show"
         "OnlyAtMenu"                                                "0"
         "tooltip"                                                   "#bh_News"
+        "allcaps"                                                   "1"
     }
 
     "bh_DemoUI"
@@ -85,6 +91,7 @@
         "command"                                                   "engine demoui"
         "OnlyAtMenu"                                                "0"
         "tooltip"                                                   "#bh_DemoUI"
+        "allcaps"                                                   "1"
     }
 
     "bh_CreateServer"
@@ -93,6 +100,7 @@
         "command"                                                   "OpenCreateMultiplayerGameDialog"
         "OnlyAtMenu"                                                "0"
         "tooltip"                                                   "#bh_CreateServer"
+        "allcaps"                                                   "1"
     }
 
     "bh_WorkshopButton"
@@ -101,6 +109,7 @@
         "command"                                                   "engine OpenSteamWorkshopDialog"
         "OnlyAtMenu"                                                "0"
         "tooltip"                                                   "#bh_WorkshopContributions"
+        "allcaps"                                                   "1"
     }
 
     "bh_ReplaysButton"
@@ -109,6 +118,7 @@
         "command"                                                   "engine replay_reloadbrowser"
         "OnlyAtMenu"                                                "0"
         "tooltip"                                                   "#bh_Replays"
+        "allcaps"                                                   "1"
     }
 
     "bh_CoachButton"
@@ -117,6 +127,7 @@
         "command"                                                   "engine cl_coach_toggle"
         "OnlyAtMenu"                                                "0"
         "tooltip"                                                   "#bh_BeACoach"
+        "allcaps"                                                   "1"
     }
 
     "bh_AchievementsButton"
@@ -125,6 +136,7 @@
         "command"                                                   "OpenAchievementsDialog"
         "OnlyAtMenu"                                                "0"
         "tooltip"                                                   "#bh_Achievements"
+        "allcaps"                                                   "1"
     }
 
     "bh_ConsoleButton"
@@ -133,6 +145,7 @@
         "command"                                                   "engine toggleconsole"
         "OnlyAtMenu"                                                "0"
         "tooltip"                                                   "#bh_Console"
+        "allcaps"                                                   "1"
     }
 
     "bh_TrainingButton"
@@ -141,6 +154,7 @@
         "command"                                                   "engine training_showdlg"
         "OnlyAtMenu"                                                "0"
         "tooltip"                                                   "#bh_TrainingMode"
+        "allcaps"                                                   "1"
     }
 
     //"bh_BugButton"
@@ -149,6 +163,7 @@
     //    "command"                                                   "engine bug"
     //    "OnlyAtMenu"                                                "0"
     //    "tooltip"                                                   "#bh_ReportBug"
+    //    "allcaps"                                                   "1"
     //}
 
     // Having stop within the same command seems to cause the demo not to actually generate
@@ -157,9 +172,10 @@
     "bh_ReloadHUD"
     {
         "label"                                                     ""
-        "command"                                                   "engine record hudfixdemo; stop; snd_restart; hud_reloadscheme"
+        "command"                                                   "engine record fix; stop; snd_restart; hud_reloadscheme"
         "OnlyAtMenu"                                                "0"
         "tooltip"                                                   "#bh_ReloadHUD"
+        "allcaps"                                                   "1"
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -173,6 +189,7 @@
         "OnlyInGame"                                                "1"
         "subimage"                                                  "replay/thumbnails/menu_icons/callvote"
         "tooltip"                                                   "#MMenu_CallVote"
+        "allcaps"                                                   "1"
     }
 
     "MutePlayersButton"
@@ -182,6 +199,7 @@
         "OnlyInGame"                                                "1"
         "subimage"                                                  "replay/thumbnails/menu_icons/muteplayers"
         "tooltip"                                                   "#MMenu_MutePlayers"
+        "allcaps"                                                   "1"
     }
 
     "RequestCoachButton"
@@ -191,6 +209,7 @@
         "OnlyInGame"                                                "1"
         "subimage"                                                  "replay/thumbnails/menu_icons/callcoach"
         "tooltip"                                                   "#MMenu_RequestCoach"
+        "allcaps"                                                   "1"
     }
 
     "ReportPlayerButton"
@@ -200,5 +219,6 @@
         "OnlyInGame"                                                "1"
         "subimage"                                                  "replay/thumbnails/menu_icons/reportplayer"
         "tooltip"                                                   "#MMenu_ReportPlayer"
+        "allcaps"                                                   "1"
     }
 }
