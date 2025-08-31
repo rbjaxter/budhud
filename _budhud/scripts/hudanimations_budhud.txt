@@ -330,7 +330,7 @@ event TeamStatus_PlayerDead
 {
     SetVisible            SkullPanel             1               0.0
     SetVisible            respawntime            1               0.0
-    Animate               SkullPanel             ypos            20             Accel            0.0            0.2
+    Animate               SkullPanel             ypos            22             Accel            0.0            0.2
     Animate               respawntime            ypos            3              Accel            0.0            0.2
 }
 
