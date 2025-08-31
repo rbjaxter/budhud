@@ -42,7 +42,7 @@ sv_unlockedchapters 99
     // game restart is sufficient to automatically reset such ones.
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    // Setting this to 0 can cause stuttering issues with Engineer PDAs (maybe Spy disguise as well?)
+    // Setting this to 0 can cause stuttering issues with Engineer PDAs (maybe spy disguise as well?)
     // Default: 1
     vgui_cache_res_files                                            1
 
