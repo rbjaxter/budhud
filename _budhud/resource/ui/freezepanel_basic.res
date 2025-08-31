@@ -108,15 +108,4 @@
         "enabled"                                                   "1"
         "bgcolor_override"                                          "0 0 0 0"
     }
-
-    "itempanel" // pin doesn't behave correctly
-    {
-		"itemmodelpanel"
-		{
-			"fieldName"		              "itemmodelpanel"
-			"use_item_rendertarget"       "0"
-			"useparentbg"		          "1"
-			"inventory_image_type"        "1"
-		}
-    }
 }
