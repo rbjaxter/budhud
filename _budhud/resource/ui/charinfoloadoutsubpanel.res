@@ -1,6 +1,6 @@
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Backpack landing page (content)
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Backpack landing page (content)
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {
@@ -12,7 +12,6 @@
         "outoffocus_bgcolor_override"                               "bh_Theme_BG20"
         "itemcountcolor"                                            "bh_Theme_TextAccent"
         "itemcountcolor_noitems"                                    "bh_gray"
-
         "class_ypos"                                                "40"
         "class_xdelta"                                              "5"
         "class_wide_min"                                            "60"
@@ -97,5 +96,95 @@
         "font"                                                      "bh_Font16"
         "labelText"                                                 "#bh_GCDown"
         "fgcolor_override"                                          "bh_white"
+    }
+
+    "bh_ScoutQuickKey"
+    {
+        "ControlName"                                               "CExButton"
+        "fieldname"                                                 "bh_ScoutQuickKey"
+        "ypos"                                                      "r-6969"
+        "labelText"                                                 "&1"
+        "command"                                                   "loadout scout"
+        "visible"                                                   "1"
+    }
+
+    "bh_SoldierQuickKey"
+    {
+        "ControlName"                                               "CExButton"
+        "fieldname"                                                 "bh_SoldierQuickKey"
+        "ypos"                                                      "r-6969"
+        "labelText"                                                 "&2"
+        "command"                                                   "loadout soldier"
+        "visible"                                                   "1"
+    }
+
+    "bh_PyroQuickKey"
+    {
+        "ControlName"                                               "CExButton"
+        "fieldname"                                                 "bh_PyroQuickKey"
+        "ypos"                                                      "r-6969"
+        "labelText"                                                 "&3"
+        "command"                                                   "loadout pyro"
+        "visible"                                                   "1"
+    }
+
+    "bh_DemoQuickKey"
+    {
+        "ControlName"                                               "CExButton"
+        "fieldname"                                                 "bh_DemoQuickKey"
+        "ypos"                                                      "r-6969"
+        "labelText"                                                 "&4"
+        "command"                                                   "loadout demoman"
+        "visible"                                                   "1"
+    }
+
+    "bh_HeavyQuickKey"
+    {
+        "ControlName"                                               "CExButton"
+        "fieldname"                                                 "bh_HeavyQuickKey"
+        "ypos"                                                      "r-6969"
+        "labelText"                                                 "&5"
+        "command"                                                   "loadout heavy"
+        "visible"                                                   "1"
+    }
+
+    "bh_EngineerQuickKey"
+    {
+        "ControlName"                                               "CExButton"
+        "fieldname"                                                 "bh_EngineerQuickKey"
+        "ypos"                                                      "r-6969"
+        "labelText"                                                 "&6"
+        "command"                                                   "loadout engineer"
+        "visible"                                                   "1"
+    }
+
+    "bh_MedicQuickKey"
+    {
+        "ControlName"                                               "CExButton"
+        "fieldname"                                                 "bh_MedicQuickKey"
+        "ypos"                                                      "r-6969"
+        "labelText"                                                 "&7"
+        "command"                                                   "loadout medic"
+        "visible"                                                   "1"
+    }
+
+    "bh_SniperQuickKey"
+    {
+        "ControlName"                                               "CExButton"
+        "fieldname"                                                 "bh_SniperQuickKey"
+        "ypos"                                                      "r-6969"
+        "labelText"                                                 "&8"
+        "command"                                                   "loadout sniper"
+        "visible"                                                   "1"
+    }
+
+    "bh_SpyQuickKey"
+    {
+        "ControlName"                                               "CExButton"
+        "fieldname"                                                 "bh_SpyQuickKey"
+        "ypos"                                                      "r-6969"
+        "labelText"                                                 "&9"
+        "command"                                                   "loadout spy"
+        "visible"                                                   "1"
     }
 }
