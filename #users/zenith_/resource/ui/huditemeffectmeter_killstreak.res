@@ -50,7 +50,7 @@
         "pin_to_sibling"                                            "KillstreakLabel"
         "ControlName"                                               "CExLabel"
         "fieldName"                                                 "ItemEffectMeterCount"
-        "xpos"                                                      "5"
+        "xpos"                                                      "-52"
         "ypos"                                                      "0"
         "zpos"                                                      "2"
         "wide"                                                      "25"
