@@ -10,7 +10,7 @@
     // Default: 3 (stored)
     hud_achievement_count_engineer                                  3
 
-    // Disable flag pick-up notifications and other HUD notifications.
+    // Disable flag pick-up notifications and other HUD notifications that use the same HUD notification panel.
     // These are UNSUPPORTED and not stylized by budhud. If you enable this ConVar,
     // notifications will use the default TF2 HUD style.
     tf_hud_notification_duration                                    0
