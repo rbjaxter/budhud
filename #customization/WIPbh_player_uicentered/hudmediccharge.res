@@ -33,35 +33,17 @@
 
     "bh_ResistPin"
     {
-        "ControlName"                                               "Label"
-        "fieldName"                                                 "bh_ResistPin"
-        "xpos"                                                      "c-16"
-        "ypos"                                                      "c29"
-        "zpos"                                                      "0"
-        "wide"                                                      "100"
-        "tall"                                                      "0"
-        "visible"                                                   "1"
-        "enabled"                                                   "1"
-        "bgcolor_override"                                          "0 0 0 0"
+        "ypos"                                                      "c59"
     }
 
     "bh_ChargePin"
     {
-        "ControlName"                                               "Label"
-        "fieldName"                                                 "bh_ChargePin"
-        "xpos"                                                      "c-50"
-        "ypos"                                                      "c25"
-        "zpos"                                                      "0"
-        "wide"                                                      "100"
-        "tall"                                                      "0"
-        "visible"                                                   "1"
-        "enabled"                                                   "1"
-        "bgcolor_override"                                          "0 0 0 0"
+        "ypos"                                                      "c55"
     }
 
     "ChargeMeter"
     {
-        "ypos"                                                      "c41"
+        "ypos"                                                      "c71"
     }
 
     "ChargeMeter1"
@@ -119,7 +101,7 @@
     "IndividualChargesLabel"
     {
         "xpos"                                                      "c0"
-        "ypos"                                                      "c-30"
+        "ypos"                                                      "c0"
         "wide"                                                      "250"
         "tall"                                                      "150"
         "labeltext"                                                 "#TF_IndividualUberchargesMinHUD"
@@ -131,14 +113,6 @@
     "ChargeLabel"
     {
         "xpos"                                                      "c0"
-        "ypos"                                                      "c-30"
-    }
-
-    "ResistIcon"
-    {
-        "pin_to_sibling"                                            "bh_ResistPin"
-        "zpos"                                                      "6969"
-        "wide"                                                      "32"
-        "tall"                                                      "32"
+        "ypos"                                                      "c0"
     }
 }

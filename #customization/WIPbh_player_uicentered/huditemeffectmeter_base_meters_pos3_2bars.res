@@ -2,17 +2,6 @@
 {
     "HudItemEffectMeter"
     {
-        "ypos"                                                      "c51"
-    }
-
-    "ItemEffectMeter"
-    {
-        "wide"                                                      "50"
-    }
-
-    "ItemEffectMeter2"
-    {
-        "visible"                                                   "1"
-        "enabled"                                                   "1"
+        "ypos"                                                      "c81"
     }
 }

@@ -3,7 +3,7 @@
     "HudPlayerHealth"
     {
         "xpos"                                                      "c-250"
-        "ypos"                                                      "c-30"
+        "ypos"                                                      "c0"
         "wide"                                                      "250"
         "tall"                                                      "150"
     }

@@ -2,6 +2,6 @@
 {
     "ChargeMeter"
     {
-        "ypos"                                                      "c43"
+        "ypos"                                                      "c71"
     }
 }
