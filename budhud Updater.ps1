@@ -542,6 +542,8 @@ try {
         Copy-Item "$PSScriptRoot/#dev/vsh_hud.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/vsh_hud.res"
         Copy-Item "$PSScriptRoot/#dev/vsh_hud_hell.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/vsh_hud_hell.res"
         Copy-Item "$PSScriptRoot/#dev/tug_of_war_hud.res" -Destination "$PSScriptRoot/_tf2hud/resource/tug_of_war/tug_of_war_hud.res"
+        Copy-Item "$PSScriptRoot/#dev/cp_powerhouse_event_hud.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/cp_powerhouse_event_hud.res"
+        Copy-Item "$PSScriptRoot/#dev/tug_of_war_hud.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/hudarenavscript.res"
         Write-Host -foregroundcolor "White" -backgroundcolor "Blue" "Complete"
 
         # Remove various modifiers (OSX, X360, _minmode, _lodef, _hidef, and if_ lines.)

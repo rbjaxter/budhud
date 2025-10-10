@@ -1711,132 +1711,77 @@
 				{
 					"0"
 					{
-						"item"		"Summer 2025 Cosmetic Key" 
+						"item"		"Halloween 2025 Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Summer 2025 Cosmetic Case"
+						"item"		"Halloween 2025 Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Taunt: The Final Score"
+						"item"		"Taunt: Heartbreaker"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Taunt: Bear Hug"
+						"item"		"Taunt: Healthcare Hog"
 						"show_market"	"0"
 					}
 					"4"
 					{
-						"item"		"Taunt: Texan Trickshot"
+						"item"		"Taunt: Ring King"
 						"show_market"	"0"
 					}
 					"5"
 					{
-						"item"		"Taunt: Flying Colors"
+						"item"		"Map Token Cowerhouse"
 						"show_market"	"0"
 					}
 					"6"
 					{
-						"item"		"Map Token Citadel"
+						"item"		"Map Token Dusker"
 						"show_market"	"0"
 					}
 					"7"
 					{
-						"item"		"Map Token Aquarius"
+						"item"		"Map Token Afterlife"
 						"show_market"	"0"
 					}
 					"8"
 					{
-						"item"		"Map Token Fulgur"
+						"item"		"Map Token Devilcross"
 						"show_market"	"0"
 					}
 					"9"
 					{
-						"item"		"Map Token Cargo"
+						"item"		"Map Token Marshlands"
 						"show_market"	"0"
 					}
 					"10"
 					{
-						"item"		"Map Token Conifer"
+						"item"		"Strange Filter: Cowerhouse (Community)"
 						"show_market"	"0"
 					}
 					"11"
 					{
-						"item"		"Map Token Boardwalk"
+						"item"		"Strange Filter: Dusker (Community)"
 						"show_market"	"0"
 					}
 					"12"
 					{
-						"item"		"Map Token Blowout"
+						"item"		"Strange Filter: Afterlife (Community)"
 						"show_market"	"0"
 					}
 					"13"
 					{
-						"item"		"Map Token Mannhole"
+						"item"		"Strange Filter: Devilcross (Community)"
 						"show_market"	"0"
 					}
 					"14"
 					{
-						"item"		"Map Token Demolition"	
-						"show_market"	"0"
-					}
-					"15"
-					{
-						"item"		"Map Token Pressure"
-						"show_market"	"0"
-					}
-					"16"
-					{
-						"item"		"Strange Filter: Citadel (Community)"
-						"show_market"	"0"
-					}
-					"17"
-					{
-						"item"		"Strange Filter: Aquarius (Community)"
-						"show_market"	"0"
-					}
-					"18"
-					{
-						"item"		"Strange Filter: Fulgur (Community)"
-						"show_market"	"0"
-					}
-					"19"
-					{
-						"item"		"Strange Filter: Cargo (Community)"
-						"show_market"	"0"
-					}
-					"20"
-					{
-						"item"		"Strange Filter: Conifer (Community)"
-						"show_market"	"0"
-					}
-					"21"
-					{
-						"item"		"Strange Filter: Boardwalk (Community)"
-						"show_market"	"0"
-					}
-					"22"
-					{
-						"item"		"Strange Filter: Blowout (Community)"
-						"show_market"	"0"
-					}
-					"23"
-					{
-						"item"		"Strange Filter: Mannhole (Community)"
-						"show_market"	"0"
-					}
-					"24"
-					{
-						"item"		"Strange Filter: Demolition (Community)"
-						"show_market"	"0"
-					}
-					"25"
-					{
-						"item"		"Strange Filter: Pressure (Community)"
+						"item"		"Strange Filter: Marshlands (Community)"	
 						"show_market"	"0"
 					}
 				}
