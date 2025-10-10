@@ -11,6 +11,7 @@
             "use_item_rendertarget"                                 "0"
         }
     }
+
     "modelpanel1"
     {
         "standard_text_color"                                       "0"
@@ -22,6 +23,7 @@
             "use_item_rendertarget"                                 "0"
         }
     }
+
     "modelpanel2"
     {
         "standard_text_color"                                       "0"
@@ -33,6 +35,7 @@
             "use_item_rendertarget"                                 "0"
         }
     }
+
     "modelpanel3"
     {
         "standard_text_color"                                       "0"
@@ -44,6 +47,7 @@
             "use_item_rendertarget"                                 "0"
         }
     }
+
     "modelpanel4"
     {
         "standard_text_color"                                       "0"
@@ -55,6 +59,7 @@
             "use_item_rendertarget"                                 "0"
         }
     }
+
     "modelpanel5"
     {
         "standard_text_color"                                       "0"
