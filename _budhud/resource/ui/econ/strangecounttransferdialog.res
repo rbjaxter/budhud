@@ -1,4 +1,4 @@
-    #base   "bh_confirmbase.res"
+"#base"                                                             "bh_confirmbase.res"
 
 "Resource/UI/econ/StrangeCountTransferDialog.res"
 {

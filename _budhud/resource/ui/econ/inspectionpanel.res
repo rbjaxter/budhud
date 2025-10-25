@@ -1,6 +1,6 @@
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // War paint inspect UI
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// War paint inspect UI
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 "Resource/UI/econ/QuestEditorPanel.res"
 {
@@ -14,7 +14,6 @@
     {
         "ypos"                                                      "0"
         "tall"                                                      "60"
-
         "text_ypos"                                                 "5"
         "text_forcesize"                                            "4"
     }
@@ -34,18 +33,16 @@
             "ypos"                                                  "25"
         }
     }
-
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // This controls the war paint preview item/seed/view on market UI
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
     "PaintkitPreviewContainer"
     {
-        //"ypos"                                                      "r130"
-        //"tall"                                                      "2"
+        // "ypos"                                                      "r130"
+        // "tall"                                                      "2"
         "border"                                                    "bh_blank"
         "bgcolor_override"                                          "bh_Theme_BG30"
-
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         // The below entries are specifically for the UI that appears when you're redeeming a war paint
         // fyi, hard material reloads while messing with these likes to crash tf2 lol (usually after the
@@ -53,6 +50,7 @@
         // also yeah i don't know why the fixed_ ones have to use different values than consume_mode
         // seems like the warpaint consume panel gets pushed down overall for some reason. 2 layz
         ////////////////////////////////////////////////////////////////////////////////////////////////////
+
         "consume_mode"
         {
             "ypos"                                                  "r60"
@@ -124,7 +122,6 @@
         "ypos"                                                      "65"
         "wide"                                                      "f0"
         "tall"                                                      "240"
-
         "inventory_image_type"                                      "1"
         "force_use_model"                                           "1"
         "use_item_rendertarget"                                     "1"
@@ -139,7 +136,7 @@
         "model"
         {
             "angles_x"                                              "0"
-            "angles_y"                                              "115"       // 180 starts item facing at user, intimidatingly
+            "angles_y"                                              "115"	// 180 starts item facing at user, intimidatingly
             "angles_z"                                              "0"
         }
 

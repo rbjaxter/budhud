@@ -1,11 +1,11 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // Disconnect Confirmation - Local game, community
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-#base   "confirmdialog.res"
+"#base"                                                             "confirmdialog.res"
 
 "Resource/UI/ConfirmDialogAbandonNoPenalty.res"
 {
-    "ConfirmDialog" // breaks without
+    "ConfirmDialog"	// breaks without
     {
     }
 

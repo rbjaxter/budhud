@@ -288,7 +288,7 @@ Scheme
         "bh_yellow"                                                 "231 181 059 255"
 
         "bh_Shadow"                                                 "000 000 000 255"
-        "bh_isError"                                                "254 002 209 255"       // Bright pink to locate
+        "bh_isError"                                                "249 183 255 255"       // Bright pink to locate
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Themes - Experimental

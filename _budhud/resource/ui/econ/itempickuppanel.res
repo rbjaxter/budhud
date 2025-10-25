@@ -1,6 +1,6 @@
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Item drop/granted/acquired UI
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Item drop/granted/acquired UI
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 "Resource/UI/ItemPickupPanel.res"
 {
@@ -68,7 +68,6 @@
     "SelectedItemFoundMethodLabel"
     {
         "pin_to_sibling"                                            "ItemsFoundLabel"
-
         "xpos"                                                      "0"
         "ypos"                                                      "-30"
         "font"                                                      "bh_Font22"
@@ -115,7 +114,6 @@
         "Command"                                                   "vguicancel"
         "sound_depressed"                                           "UI/buttonclick.wav"
         "sound_released"                                            "UI/buttonclickrelease.wav"
-
         "defaultBgColor_override"                                   "bh_Theme_BG20"
         "armedBgColor_override"                                     "bh_Theme_BG30"
         "depressedBgColor_override"                                 "bh_Theme_BG30"
@@ -149,7 +147,6 @@
         "Command"                                                   "changeloadout"
         "sound_depressed"                                           "UI/buttonclick.wav"
         "sound_released"                                            "UI/buttonclickrelease.wav"
-
         "defaultBgColor_override"                                   "bh_Theme_BG20"
         "armedBgColor_override"                                     "bh_Theme_BG30"
         "depressedBgColor_override"                                 "bh_Theme_BG30"
@@ -164,11 +161,9 @@
     {
         "xpos"                                                      "c228"
         "ypos"                                                      "112"
-
         "defaultBgColor_override"                                   "bh_ButtonBlank"
         "armedBgColor_override"                                     "bh_ButtonBlank"
         "depressedBgColor_override"                                 "bh_ButtonBlank"
-
         "image_drawcolor"                                           "255 255 255 255"
         "image_armedcolor"                                          "240 134 49 255"
 
@@ -177,7 +172,6 @@
             "image"                                                 "replay/thumbnails/menu_icons/close"
         }
     }
-
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Borders aren't drawn for some reason
     // Also quick keys need their own entries

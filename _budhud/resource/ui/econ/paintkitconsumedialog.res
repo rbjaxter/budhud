@@ -1,7 +1,7 @@
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // War paint apply UI
-    // You can't open drawtree when this UI is open btw
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// War paint apply UI
+// You can't open drawtree when this UI is open btw
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 "Resource/UI/PaintkitConsumeDialog.res"
 {
@@ -48,9 +48,8 @@
         "wide"                                                      "100"
         "tall"                                                      "26"
         "font"                                                      "bh_Font12"
-        "labeltext"                                                 "#bh_Back"  // quick key doesnt work
-        "command"                                                   "cancel"    // cant use back, cancelmenu, close
-
+        "labeltext"                                                 "#bh_Back"	// quick key doesnt work
+        "command"                                                   "cancel"	// cant use back, cancelmenu, close
         "defaultFgColor_override"                                   "bh_Theme_TextSecondary"
         "armedFgColor_override"                                     "bh_Theme_TextAccent"
         "depressedFgColor_override"                                 "bh_ButtonDepressed"
@@ -69,7 +68,6 @@
         "tall"                                                      "26"
         "font"                                                      "bh_Font12"
         "labeltext"                                                 "#bh_Confirm"
-
         "defaultFgColor_override"                                   "bh_Theme_TextSecondary"
         "armedFgColor_override"                                     "bh_Theme_TextAccent"
         "depressedFgColor_override"                                 "bh_ButtonDepressed"

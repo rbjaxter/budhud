@@ -1,11 +1,11 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // Disconnect Confirmation (Penalty)
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-#base   "confirmdialog.res"
+"#base"                                                             "confirmdialog.res"
 
 "Resource/UI/ConfirmDialogAbandonNoPenalty.res"
 {
-    "ConfirmDialog" // breaks without
+    "ConfirmDialog"	// breaks without
     {
     }
 }

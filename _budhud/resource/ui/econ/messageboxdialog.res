@@ -4,8 +4,7 @@
 // ExplanationLabel ypos/text affects scaling of whole element, so bh_ConfirmDialog_BG tall is
 // dependent on it since it doesn't auto-adjust
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-#base   "confirmdialog.res"
+"#base"                                                             "confirmdialog.res"
 
 "Resource/UI/MessageBoxDialog.res"
 {
