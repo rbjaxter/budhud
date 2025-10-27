@@ -1,21 +1,21 @@
 <div align="center">
 
-![budhud banner](https://user-images.githubusercontent.com/509599/195221902-72549ed7-bee4-4d86-bcb5-694d23d72568.gif)
-
-<h3>
-  <a href="https://discord.gg/PTWkt3h">Discord</a> |
-  <a href="http://imgur.com/a/aJ1K5">Screenshots</a> |
-  <a href="https://comfig.app/huds/page/budhud/">Comfig Huds</a> |
-  <a href="https://tf2huds.dev/hud/budhud">tf2huds.dev</a> |
-  <a href="http://steamcommunity.com/groups/budhud">Steam Group</a> |
-  <a href="https://github.com/rbjaxter/budhud/wiki">Wiki</a>
-</h3>
+<img src="https://user-images.githubusercontent.com/509599/195221902-72549ed7-bee4-4d86-bcb5-694d23d72568.gif" alt="budhud banner">
 
 [![Latest Release](https://img.shields.io/github/v/release/rbjaxter/budhud)](https://github.com/rbjaxter/budhud/releases/latest)
+[![Screenshots](https://img.shields.io/badge/Screenshots-Imgur-green)](http://imgur.com/a/aJ1K5)
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/PTWkt3h)
+[![Comfig Huds](https://img.shields.io/badge/Comfig%20Huds-Visit-00C7B7)](https://comfig.app/huds/page/budhud/)
+[![tf2huds.dev](https://img.shields.io/badge/tf2huds.dev-Visit-orange)](https://tf2huds.dev/hud/budhud)
+[![Steam Group](https://img.shields.io/badge/Steam%20Group-Join-1B2838?logo=steam&logoColor=white)](http://steamcommunity.com/groups/budhud)
+[![Wiki](https://img.shields.io/badge/Wiki-Help-blue?logo=github&logoColor=white)](https://github.com/rbjaxter/budhud/wiki)
+
 [![Downloads - Latest](https://img.shields.io/github/downloads/rbjaxter/budhud/latest/total)](https://github.com/rbjaxter/budhud/releases/latest)
 [![Total Downloads](https://img.shields.io/github/downloads/rbjaxter/budhud/total)](https://github.com/rbjaxter/budhud/releases)
 [![Last Commit](https://img.shields.io/github/last-commit/rbjaxter/budhud)](https://github.com/rbjaxter/budhud/commits/master)
 [![License](https://img.shields.io/github/license/rbjaxter/budhud)](https://github.com/rbjaxter/budhud/blob/master/LICENSE)
+
+<br>
 
 <i>A Team Fortress 2 HUD built from the ground up using #base.</i>
 
