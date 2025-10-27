@@ -15,8 +15,6 @@
 [![Last Commit](https://img.shields.io/github/last-commit/rbjaxter/budhud)](https://github.com/rbjaxter/budhud/commits/master)
 [![License](https://img.shields.io/github/license/rbjaxter/budhud)](https://github.com/rbjaxter/budhud/blob/master/LICENSE)
 
-<br>
-
 <i>A Team Fortress 2 HUD built from the ground up using #base.</i>
 
 </div>
@@ -28,7 +26,7 @@ The [HUD wiki](https://github.com/rbjaxter/budhud/wiki) contains a wealth of inf
 
 ### Installation (TL;DR)
 1. Find your TF2 install location
-    * The fastest way is to open Steam -> go to your game library -> right click Team Fortress 2 -> Properties -> Under "Installed Files", click "Browse..."
+    * The fastest way is to open Steam -> Select `Games` -> `View Games Library` -> right click `Team Fortress 2` -> `Properties...` -> Under `Installed Files`, click `Browse...`
 2. Navigate to `../tf/custom`
     * If you don't have a `custom` folder, create it
 3. Download the latest release
@@ -37,7 +35,7 @@ The [HUD wiki](https://github.com/rbjaxter/budhud/wiki) contains a wealth of inf
     * You can use Windows' built in extraction (right click > `Extract All...`) or a program like 7-Zip
     * Ensure you don't have two folders within each other (see below)
 
-> To see if you placed it in the correct place, we'll use the `info.vdf` file as an example.
+> To see if your folder is placed correctly, we'll use the `info.vdf` file as an example.
 >
 > The path to the `info.vdf` file should be:
 >
@@ -45,16 +43,12 @@ The [HUD wiki](https://github.com/rbjaxter/budhud/wiki) contains a wealth of inf
 >
 > NOT
 >
-> `../tf/custom/budhud/budhud/info.vdf`
+> `../tf/custom/budhud/budhud (or ANY other folder)/info.vdf`
 >
 > **This is the most common mistake people make when installing a hud.**
 
 ## budhud Updater Script
-budhud includes a shell script (`budhud Updater.ps1`) in the base directory that will allow you to do a few different things, such as verify you installed the HUD correctly or update the default game files after a TF2 update.
-
-To open this file, you need to Right click the file and select `Run with PowerShell`.
-
-Check out the [wiki](https://github.com/rbjaxter/budhud/wiki#budhud-updater-script) for more information.
+budhud includes a shell script (`budhud Updater.ps1`, **Windows users only**) in the base directory that will allow you to do a few different things. Check out the [wiki](https://github.com/rbjaxter/budhud/wiki#budhud-updater-script) for more information.
 
 ## HUD Installer / Customizer
 If you would like to install and customize budhud (as well as other huds) quickly and easily, check out the  [TF2HUD Editor](https://github.com/CriticalFlaw/TF2HUD.Editor) created by [CriticalFlaw](https://github.com/CriticalFlaw/) and [Revan](https://github.com/cooolbros). You can read more about it [here](https://criticalflaw.ca/TF2HUD.Editor/).
@@ -70,7 +64,7 @@ If you would like to install and customize budhud (as well as other huds) quickl
 Thanks to everyone who has helped translate budhud! To see more information on budhud translations (or translate a language), see [here](https://github.com/rbjaxter/budhud/wiki/Translations).
 
 - Brazilian (Brazilian Portuguese) - _Translated by powah_
-- English
+- English - _Transletated by mee :)_
 - Finnish - _Translated by [Eerorri](https://github.com/Eerorri)_
 - French - _Translated by ly_dee_
 - German - _Translated by donuttt_
