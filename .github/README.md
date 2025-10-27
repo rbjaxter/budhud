@@ -1,12 +1,25 @@
-<p align="center">
-    <img width="782" height="200" src="https://user-images.githubusercontent.com/509599/195221902-72549ed7-bee4-4d86-bcb5-694d23d72568.gif">
-</p>
+<div align="center">
 
-<h3 align="center"><a href="https://discord.gg/PTWkt3h">Discord</a> | <a href="http://imgur.com/a/aJ1K5">Screenshots</a> | <a href="https://comfig.app/huds/page/budhud/">Comfig Huds</a> | <a href="https://tf2huds.dev/hud/budhud">tf2huds.dev</a> | <a href="http://steamcommunity.com/groups/budhud">Steam Group</a></p>
+![budhud banner](https://user-images.githubusercontent.com/509599/195221902-72549ed7-bee4-4d86-bcb5-694d23d72568.gif)
+
+<h3>
+  <a href="https://discord.gg/PTWkt3h">Discord</a> |
+  <a href="http://imgur.com/a/aJ1K5">Screenshots</a> |
+  <a href="https://comfig.app/huds/page/budhud/">Comfig Huds</a> |
+  <a href="https://tf2huds.dev/hud/budhud">tf2huds.dev</a> |
+  <a href="http://steamcommunity.com/groups/budhud">Steam Group</a> |
+  <a href="https://github.com/rbjaxter/budhud/wiki">Wiki</a>
+</h3>
+
+[![Latest Release](https://img.shields.io/github/v/release/rbjaxter/budhud)](https://github.com/rbjaxter/budhud/releases/latest)
+[![Downloads - Latest](https://img.shields.io/github/downloads/rbjaxter/budhud/latest/total)](https://github.com/rbjaxter/budhud/releases/latest)
+[![Total Downloads](https://img.shields.io/github/downloads/rbjaxter/budhud/total)](https://github.com/rbjaxter/budhud/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/rbjaxter/budhud)](https://github.com/rbjaxter/budhud/commits/master)
+[![License](https://img.shields.io/github/license/rbjaxter/budhud)](https://github.com/rbjaxter/budhud/blob/master/LICENSE)
 
 <i>A Team Fortress 2 HUD built from the ground up using #base.</i>
 
-<br>
+</div>
 
 ## Installation and Customization
 A full installation guide & video can be found [here](https://github.com/rbjaxter/budhud/wiki/Installation).
