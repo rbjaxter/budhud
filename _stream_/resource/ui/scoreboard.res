@@ -16,4 +16,9 @@
     {
         "avatar_width"                                              "1"
     }
+
+    "PlayerNameLabel"
+    {
+        "font"                                                      "bh_Font_StreamerBlock14"
+    }
 }
