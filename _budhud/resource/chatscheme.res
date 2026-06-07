@@ -77,11 +77,14 @@
 
         "DefaultVerySmall"	// Courtesy of qkeitoe (GH issue #557). Missing in default file, causes language indicator to not appear if missing
         {
+            "isproportional"                                        "only"
+
             "1"
             {
                 "name"                                              "Lato Semibold" [!$POSIX]
                 "name"                                              "Verdana" [$POSIX]
-                "tall"                                              "12"
+                "tall"                                              "12" [!$POSIX]
+                "tall"                                              "14" [$POSIX]
                 "weight"                                            "0"
                 "range"                                             "0x0020 0x1EFF"
                 "yres"                                              "480 599"
@@ -91,7 +94,8 @@
             {
                 "name"                                              "Lato Semibold" [!$POSIX]
                 "name"                                              "Verdana" [$POSIX]
-                "tall"                                              "12"
+                "tall"                                              "13" [!$POSIX]
+                "tall"                                              "16" [$POSIX]
                 "weight"                                            "0"
                 "range"                                             "0x0020 0x1EFF"
                 "yres"                                              "600 767"
@@ -101,7 +105,8 @@
             {
                 "name"                                              "Lato Semibold" [!$POSIX]
                 "name"                                              "Verdana" [$POSIX]
-                "tall"                                              "12"
+                "tall"                                              "14" [!$POSIX]
+                "tall"                                              "16" [$POSIX]
                 "weight"                                            "0"
                 "range"                                             "0x0020 0x1EFF"
                 "yres"                                              "768 1023"
@@ -112,7 +117,8 @@
             {
                 "name"                                              "Lato Semibold" [!$POSIX]
                 "name"                                              "Verdana" [$POSIX]
-                "tall"                                              "14"
+                "tall"                                              "16" [!$POSIX]
+                "tall"                                              "18" [$POSIX]
                 "weight"                                            "0"
                 "range"                                             "0x0020 0x1EFF"
                 "yres"                                              "1024 1199"
