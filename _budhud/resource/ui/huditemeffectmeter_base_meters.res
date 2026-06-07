@@ -63,7 +63,7 @@
         "proportionaltoparent"                                      "1"
         "labelText"                                                 "#TF_Ball"
         "textAlignment"                                             "center"
-        "font"                                                      "bh_Font6"
+        "font"                                                      "bh_Font8"
         "enabled"                                                   "0"
         "disabledfgcolor2_override"                                 "bh_metertext"
     }
