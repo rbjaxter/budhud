@@ -1,4 +1,4 @@
-	# To run this PowerShell script:
+# To run this PowerShell script:
 # 1. Right-click the file.
 # 2. Select "Run with PowerShell."
 
