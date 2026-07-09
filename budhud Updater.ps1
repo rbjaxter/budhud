@@ -541,6 +541,7 @@ try {
         Write-Host -foregroundcolor "White" -NoNewLine "Copying necessary platform files..."
         Copy-Item "$PSScriptRoot/#dev/vsh_hud.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/vsh_hud.res"
         Copy-Item "$PSScriptRoot/#dev/vsh_hud_hell.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/vsh_hud_hell.res"
+        Copy-Item "$PSScriptRoot/#dev/vsh_hud_maul.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/vsh_hud_maul.res"
         Copy-Item "$PSScriptRoot/#dev/tug_of_war_hud.res" -Destination "$PSScriptRoot/_tf2hud/resource/tug_of_war/tug_of_war_hud.res"
         Copy-Item "$PSScriptRoot/#dev/cp_powerhouse_event_hud.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/cp_powerhouse_event_hud.res"
         Copy-Item "$PSScriptRoot/#dev/hudarenavscript.res" -Destination "$PSScriptRoot/_tf2hud/resource/ui/hudarenavscript.res"
