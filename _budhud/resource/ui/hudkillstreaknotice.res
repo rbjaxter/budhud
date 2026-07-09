@@ -8,6 +8,7 @@
 
     "SplashLabel"
     {
+        "font"                                                      "bh_Font10" // when you add this whole file thru #base, the font changes for some reason
         "ypos"                                                      "65"
     }
 }

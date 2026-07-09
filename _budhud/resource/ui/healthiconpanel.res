@@ -6,9 +6,4 @@
         "wide"                                                      "40"
         "tall"                                                      "18"
     }
-
-    "SpectatorGUIHealth"
-    {
-        "TextColor"                                                 "bh_Health_Main"
-    }
 }
