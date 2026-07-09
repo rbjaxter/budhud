@@ -1711,87 +1711,102 @@
 				{
 					"0"
 					{
-						"item"		"Winter 2025 Cosmetic Key"
+						"item"		"Summer 2026 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Winter 2025 Cosmetic Case"
+						"item"		"Summer 2026 Cosmetic Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Taunt: Dead Mann's Drink"
+						"item"		"Summer 2026 War Paint Key"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Taunt: The Critical Fail"
-						"show_market"	"0"
+						"item"		"Summer 2026 War Paint Case"
+						"show_market"	"1"
 					}
 					"4"
 					{
-						"item"		"Taunt: Chairholder"
+						"item"		"Taunt: The Circuit Breaker"
 						"show_market"	"0"
 					}
 					"5"
 					{
-						"item"		"Map Token Nutcracker"
+						"item"		"Taunt: Buffoon's Bivouac"
 						"show_market"	"0"
 					}
 					"6"
 					{
-						"item"		"Map Token Gavle"
+						"item"		"Taunt: Faux-calization"
 						"show_market"	"0"
 					}
 					"7"
 					{
-						"item"		"Map Token Sidewinder"
+						"item"		"Taunt: Friendly Fire"
 						"show_market"	"0"
 					}
 					"8"
 					{
-						"item"		"Map Token Abbey"
+						"item"		"Map Token Dryfield"
 						"show_market"	"0"
 					}
 					"9"
 					{
-						"item"		"Map Token Winter Ridge"
+						"item"		"Map Token Camp Saxton"
 						"show_market"	"0"
 					}
 					"10"
 					{
-						"item"		"Map Token Matterhorn"
+						"item"		"Map Token Shorelight"
 						"show_market"	"0"
 					}
 					"11"
 					{
-						"item"		"Strange Filter: Nutcracker (Community)"
+						"item"		"Map Token Redwood"
 						"show_market"	"0"
 					}
 					"12"
 					{
-						"item"		"Strange Filter: Gavle (Community)"
+						"item"		"Map Token Premuda"
 						"show_market"	"0"
 					}
 					"13"
 					{
-						"item"		"Strange Filter: Sidewinder (Community)"
+						"item"		"Map Token Mojave"
 						"show_market"	"0"
 					}
 					"14"
 					{
-						"item"		"Strange Filter: Abbey (Community)"
+						"item"		"Strange Filter: Dryfield (Community)"
 						"show_market"	"0"
 					}
 					"15"
 					{
-						"item"		"Strange Filter: Winter Ridge (Community)"
+						"item"		"Strange Filter: Camp Saxton (Community)"
 						"show_market"	"0"
 					}
 					"16"
 					{
-						"item"		"Strange Filter: Matterhorn (Community)"
+						"item"		"Strange Filter: Shorelight (Community)"
+						"show_market"	"0"
+					}
+					"17"
+					{
+						"item"		"Strange Filter: Redwood (Community)"
+						"show_market"	"0"
+					}
+					"18"
+					{
+						"item"		"Strange Filter: Premuda (Community)"
+						"show_market"	"0"
+					}
+					"19"
+					{
+						"item"		"Strange Filter: Mojave (Community)"
 						"show_market"	"0"
 					}
 				}
