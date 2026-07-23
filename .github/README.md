@@ -27,23 +27,19 @@ The [HUD wiki](https://github.com/rbjaxter/budhud/wiki) contains a wealth of inf
 ### Installation (TL;DR)
 1. Find your TF2 install location
     * The fastest way is to open Steam -> Select `Games` -> `View Games Library` -> right click `Team Fortress 2` -> `Properties...` -> Under `Installed Files`, click `Browse...`
-2. Navigate to `../tf/custom`
+2. Navigate to `..steamapps/common/Team Fortress 2/tf/custom`
     * If you don't have a `custom` folder, create it
-3. Download the latest release
-    * You just need the first zipped file (typically called `budhud.zip`)
-4. Extract the zipped file into your `../tf/custom` folder
+    * Ensure you don't have any other huds installed, as these may cause issues
+3. Download the [latest release](https://github.com/rbjaxter/budhud)
+    * You just need the first zipped file (typically called `budhud.zip`), not any of the "source" files
+4. Extract the zipped file into your `..steamapps/common/Team Fortress 2/tf/custom` folder
     * You can use Windows' built in extraction (right click > `Extract All...`) or a program like 7-Zip
     * Ensure you don't have two folders within each other (see below)
 
-> To see if your folder is placed correctly, we'll use the `info.vdf` file as an example.
+> [!IMPORTANT]
+> The path to the HUD should be `../tf/custom/budhud-master`, NOT `../tf/custom/budhud-master/budhud-master`.
 >
-> The path to the `info.vdf` file should be:
->
-> `../tf/custom/budhud/info.vdf`
->
-> NOT
->
-> `../tf/custom/budhud/budhud (or ANY other folder)/info.vdf`
+> _TF2 looks inside `../tf/custom/<your_hud_name>` for `resource` and `scripts`. If it does not find those there, it will fail._
 >
 > **This is the most common mistake people make when installing a hud.**
 
@@ -54,6 +50,8 @@ budhud includes a shell script (`budhud Updater.ps1`, **Windows users only**) in
 If you would like to install and customize budhud (as well as other huds) quickly and easily, check out the  [TF2HUD Editor](https://github.com/CriticalFlaw/TF2HUD.Editor) created by [CriticalFlaw](https://github.com/CriticalFlaw/) and [Revan](https://github.com/cooolbros). You can read more about it [here](https://criticalflaw.ca/TF2HUD.Editor/).
 
 ## HUD Credits
+Thank you to everyone who has helped with budhud since 2014! This is a non-exhaustive list, but I wanted to include as many as I could.
+
 ### HUD Font
 * Lato, by Łukasz Dziedzic: http://www.lukaszdziedzic.eu/
 
@@ -61,10 +59,11 @@ If you would like to install and customize budhud (as well as other huds) quickl
 * Freepik: http://www.freepik.com/
 
 ### HUD Translations
-Thanks to everyone who has helped translate budhud! To see more information on budhud translations (or translate a language), see [here](https://github.com/rbjaxter/budhud/wiki/Translations).
+To see more information on budhud translations (or translate a language), see [here](https://github.com/rbjaxter/budhud/wiki/Translations).
 
 - Brazilian (Brazilian Portuguese) - _Translated by powah_
 - English - _Transletated by mee :)_
+- Czech - _Translated by [kepijr](https://github.com/kepijr)_
 - Finnish - _Translated by [Eerorri](https://github.com/Eerorri)_
 - French - _Translated by ly_dee_
 - German - _Translated by donuttt_
@@ -90,6 +89,7 @@ Thanks to everyone who has helped translate budhud! To see more information on b
 clovervidia: https://steamcommunity.com/sharedfiles/filedetails/?id=167785751
 
 ### HUD Editing Help
+* CriticalFlaw
 * doodles
 * flatline
 * Hypnotize
